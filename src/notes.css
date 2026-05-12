@@ -1,0 +1,345 @@
+/* notes specific styles */
+
+/* Images: match revisiondojo sizing – constrained width, auto height */
+.notes-content.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius, 0.5rem);
+  display: block;
+}
+
+/* Image subtext */
+.notes-content.prose .notes-figure {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.notes-content.prose .notes-figure:first-child {
+  margin-top: 0;
+}
+
+.notes-content.prose .notes-figcaption {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--muted-foreground);
+}
+
+.notes-content .notes-embed {
+  width: 100%;
+}
+
+.notes-content .notes-embed-frame {
+  display: block;
+  width: 100%;
+  min-height: 36rem;
+  border: 0;
+  background: transparent;
+}
+
+.notes-content {
+  font-size: 16px;
+  line-height: 1.625; /* leading-relaxed */
+  font-family: var(--font-sans);
+}
+
+/* Main prose container (Streamdown output): same element has .notes-content.prose */
+.notes-content.prose {
+  --tw-prose-body: var(--foreground);
+  --tw-prose-headings: var(--foreground);
+  --tw-prose-bold: var(--foreground);
+  --tw-prose-counters: var(--muted-foreground);
+  --tw-prose-bullets: var(--muted-foreground);
+  max-width: none;
+  font-size: 1rem;
+  line-height: 1.625;
+}
+
+.notes-content.prose p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.notes-content.prose p:first-child {
+  margin-top: 0;
+}
+
+.notes-content.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.notes-content.prose > p + p {
+  margin-top: 1em;
+}
+
+/* Headings: Manrope, correct weight and spacing */
+.notes-content.prose h2,
+.notes-content.prose h3,
+.notes-content.prose h4 {
+  font-family: var(--font-title);
+}
+
+.notes-content.prose h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  scroll-margin-top: 2rem;
+}
+
+.notes-content.prose h2:first-child {
+  margin-top: 0;
+}
+
+.notes-content.prose h3 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  scroll-margin-top: 2rem;
+}
+
+.notes-content.prose h4 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Lists: spacing and list style */
+.notes-content.prose ul,
+.notes-content.prose ol {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1.875em;
+  list-style-position: outside;
+}
+
+.notes-content.prose li {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  padding-left: 0.25em;
+}
+
+.notes-content.prose ul ul,
+.notes-content.prose ul ol,
+.notes-content.prose ol ul,
+.notes-content.prose ol ol {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.notes-content.prose ul ul {
+  list-style-type: circle;
+}
+
+.notes-content.prose ul ul ul {
+  list-style-type: square;
+}
+
+.notes-content.prose ol ol {
+  list-style-type: lower-alpha;
+}
+
+.notes-content.prose ol ol ol {
+  list-style-type: lower-roman;
+}
+
+/* Strong = semibold */
+.notes-content.prose strong {
+  font-weight: 600;
+}
+
+/* KaTeX: use library defaults; only ensure display math is block + centered (prose can wrap in p) */
+.notes-content .katex-display,
+.notes-content .definition-body .katex-display,
+.notes-content .callout-body .katex-display,
+.notes-content .example-question-body .katex-display {
+  display: block !important;
+  text-align: center !important;
+  margin: 1em 0 !important;
+  width: 100%;
+  overflow-x: auto;
+}
+.notes-content .katex-display > .katex,
+.notes-content .definition-body .katex-display > .katex,
+.notes-content .callout-body .katex-display > .katex,
+.notes-content .example-question-body .katex-display > .katex {
+  display: block !important;
+  text-align: center !important;
+  white-space: nowrap;
+}
+
+/* Definition block inner body */
+.notes-content .not-prose.rounded-2xl .prose {
+  opacity: 0.95;
+}
+
+.notes-content .definition-body.prose {
+  font-size: 1rem;
+  line-height: 1.625;
+}
+
+.notes-content .not-prose.rounded-2xl .prose p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.notes-content .not-prose.rounded-2xl .prose p:last-child {
+  margin-bottom: 0;
+}
+
+/* Callout body: tight spacing, strong = semibold */
+.notes-content .callout-body.prose p,
+.notes-content .callout-body.prose ul,
+.notes-content .callout-body.prose ol {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.notes-content .callout-body.prose ul {
+  list-style-type: disc;
+}
+
+.notes-content .callout-body.prose ol {
+  list-style-type: decimal;
+}
+
+.notes-content .callout-body.prose ul,
+.notes-content .callout-body.prose ol {
+  padding-left: 1.875em;
+  list-style-position: outside;
+}
+
+.notes-content .callout-body.prose ul ul {
+  list-style-type: circle;
+}
+
+.notes-content .callout-body.prose ul ul ul {
+  list-style-type: square;
+}
+
+.notes-content .callout-body.prose ol ol {
+  list-style-type: lower-alpha;
+}
+
+.notes-content .callout-body.prose ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.notes-content .callout-body.prose li > :first-child {
+  margin-top: 0;
+}
+
+.notes-content .callout-body.prose li > :last-child {
+  margin-bottom: 0;
+}
+
+.notes-content .callout-body.prose li {
+  padding-left: 0.25em;
+}
+
+.notes-content .callout-body.prose .katex-display {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.notes-content .callout-body.prose > * + * {
+  margin-top: 0.75em;
+}
+
+.notes-content .callout-body.prose > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Collapse empty headings (e.g. stray "###" in source) so they don't add extra bottom space */
+.notes-content .callout-body.prose h1:empty,
+.notes-content .callout-body.prose h2:empty,
+.notes-content .callout-body.prose h3:empty,
+.notes-content .callout-body.prose h4:empty,
+.notes-content .callout-body.prose h5:empty,
+.notes-content .callout-body.prose h6:empty {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+.notes-content .definition-body.prose strong,
+.notes-content .callout-body.prose strong {
+  font-weight: 600;
+}
+
+/* Example question block body spacing */
+.notes-content .example-question-body.prose p,
+.notes-content .example-question-body.prose ul,
+.notes-content .example-question-body.prose ol {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.notes-content .example-question-body.prose ul,
+.notes-content .example-question-body.prose ol {
+  padding-left: 1.875em;
+  list-style-position: outside;
+}
+
+.notes-content .example-question-body.prose ul {
+  list-style-type: disc;
+}
+
+.notes-content .example-question-body.prose ol {
+  list-style-type: decimal;
+}
+
+.notes-content .example-question-body.prose li > :first-child {
+  margin-top: 0;
+}
+
+.notes-content .example-question-body.prose li > :last-child {
+  margin-bottom: 0;
+}
+
+.notes-content .example-question-body.prose li {
+  padding-left: 0.25em;
+}
+
+/* revisiondojo blockquote */
+.notes-content.prose blockquote {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: var(--border);
+  background-color: var(--muted);
+  padding-block: 0.5rem;
+  padding-left: 1rem;
+  color: var(--foreground);
+  font-style: normal;
+}
+
+@supports (color: color-mix(in oklab, red, red)) {
+  .notes-content.prose blockquote {
+    border-left-color: color-mix(in oklab, var(--foreground) 25%, transparent);
+    background-color: color-mix(in oklab, var(--foreground) 5%, transparent);
+  }
+}
+
+.notes-content.prose blockquote p {
+  margin-bottom: 0.5em;
+}
+
+.notes-content.prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.notes-content.prose blockquote p:first-of-type::before,
+.notes-content.prose blockquote p:first-of-type::after,
+.notes-content.prose blockquote p:last-of-type::before,
+.notes-content.prose blockquote p:last-of-type::after {
+  content: none !important;
+}

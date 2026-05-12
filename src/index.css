@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap');
+
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+@source "../node_modules/streamdown/dist/*.js";
+@import "streamdown/styles.css";
+
+@custom-variant dark (&:is(.dark *));
+
+body, html {
+  overflow: hidden;
+  font-family: var(--font-sans);
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-title: "Manrope", sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-hover: var(--muted-hover);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar-background: var(--sidebar-background);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Custom Accent Colors */
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-pirateib: var(--accent-pirateib);
+  --color-accent-primary-foreground: var(--accent-primary-foreground);
+  --color-accent-fuchsia: var(--accent-fuchsia);
+  --color-accent-fuchsia-foreground: var(--accent-fuchsia-foreground);
+  --color-accent-purple: var(--accent-purple);
+  --color-accent-purple-foreground: var(--accent-purple-foreground);
+  --color-accent-success: var(--accent-success);
+  --color-accent-success-foreground: var(--accent-success-foreground);
+
+  --radius: var(--radius);
+
+  --animate-scroll-prompts: scroll-prompts 30s linear infinite;
+  --animate-shimmer: shimmer 1.5s ease-in-out infinite;
+  --animate-snowfall: snowfall 6s linear infinite;
+  --animate-snowfall-slow: snowfall 9s linear infinite;
+
+  @keyframes scroll-prompts {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes shimmer {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  @keyframes snowfall {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    5% {
+      opacity: 0.7;
+    }
+    95% {
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(500%);
+      opacity: 0;
+    }
+  }
+}
+
+:root {
+  /* inter body, manrope title */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-manrope: "Manrope", sans-serif;
+  --font-title: var(--font-manrope);
+
+  /* From references/revisiondojo_styles.css :root */
+  --background: #fff;
+  --foreground: #0a0a0a;
+  --card: #fff;
+  --card-foreground: #0a0a0a;
+  --popover: #fff;
+  --popover-foreground: #0a0a0a;
+  --primary: #171717;
+  --primary-foreground: #fafafa;
+  --secondary: #f5f5f5;
+  --secondary-foreground: #171717;
+  --muted: #f5f5f5;
+  --muted-hover: #e4e4e7;
+  --muted-foreground: #737373;
+  --accent: #f5f5f5;
+  --accent-foreground: #171717;
+  --accent-primary: #e1f3fe;
+  --accent-pirateib: #EA2264;
+  --accent-primary-foreground: #0284c5;
+  --accent-fuchsia: #f9e6ff;
+  --accent-fuchsia-foreground: #bf27d3;
+  --accent-purple: #f2e6ff;
+  --accent-purple-foreground: #9234ea;
+  --accent-success: #e4fbeb;
+  --accent-success-foreground: #15803d;
+  --destructive: #fb2d38;
+  --destructive-foreground: #fafafa;
+  --success: #00c750;
+  --success-foreground: #fafafa;
+  --success-bg: #e4fbeb;
+  --destructive-bg: #fde7e7;
+  --error: #dc2626;
+  --warning: #f59e0b;
+  --border: #e5e5e5;
+  --input: #e5e5e5;
+  --ring: #0a0a0a;
+  --in-progress: #f0b100;
+  --submitted: #00c750;
+  --graded: #ad47ff;
+  --radius: 0.5rem;
+
+  --sidebar-background: #fafafa;
+  --sidebar-foreground: #3f3f46;
+  --sidebar-primary: #18181b;
+  --sidebar-primary-foreground: #fafafa;
+  --sidebar-accent: #f4f4f5;
+  --sidebar-accent-foreground: #18181b;
+  --sidebar-border: #e5e7eb;
+  --sidebar-ring: #3b82f6;
+  --sidebar: #fafafa;
+
+  --score-good-foreground: #15803d;
+  --score-good-background: #dcfce7;
+  --score-medium-foreground: #d97706;
+  --score-medium-background: #fef3c7;
+  --score-bad-foreground: #dc2626;
+  --score-bad-background: #fee2e2;
+  --chart-1: #2662d9;
+  --chart-2: #2eb88a;
+  --chart-3: #e88c30;
+  --chart-4: #e8c468;
+  --chart-5: #f4a462;
+
+  /* grayscale (from rdojo2.css) */
+  --color-gray-50: #fafafa;
+  --color-gray-100: #f4f4f5;
+  --color-gray-200: #e4e4e7;
+  --color-gray-300: #d4d4d8;
+  --color-gray-400: #9f9fa9;
+  --color-gray-500: #71717b;
+  --color-gray-600: #52525c;
+  --color-gray-700: #3f3f46;
+  --color-gray-800: #27272a;
+  --color-gray-900: #18181b;
+  --color-gray-950: #09090b;
+}
+
+* { scrollbar-width: none !important; }
+.scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+.dark {
+  /* From references/revisiondojo_styles.css .dark */
+  --background: #0d0d0d;
+  --foreground: #fafafa;
+  --card: #0a0a0a;
+  --card-foreground: #fafafa;
+  --popover: #0a0a0a;
+  --popover-foreground: #fafafa;
+  --primary: #fafafa;
+  --primary-foreground: #171717;
+  --secondary: #262626;
+  --secondary-foreground: #fafafa;
+  --muted: #1a1a1a;
+  --muted-hover: #27272a;
+  --muted-foreground: #a3a3a3;
+  --accent: #262626;
+  --accent-foreground: #fafafa;
+  --accent-pirateib: #FF73A8;
+  --accent-primary: #122731;
+  --accent-primary-foreground: #3abff8;
+  --accent-fuchsia: #301a32;
+  --accent-fuchsia-foreground: #e87bf9;
+  --accent-purple: #291d35;
+  --accent-purple-foreground: #bf83fc;
+  --accent-success: #1d3526;
+  --accent-success-foreground: #22c55e;
+  --destructive: #fb2d38;
+  --destructive-foreground: #fafafa;
+  --success: #00c750;
+  --success-foreground: #fafafa;
+  --success-bg: #1d3526;
+  --destructive-bg: #351d1d;
+  --border: #262626;
+  --input: #262626;
+  --ring: #d4d4d4;
+  --sidebar-background: #18181b;
+  --sidebar-foreground: #f4f4f5;
+  --sidebar-primary: #1d4ed8;
+  --sidebar-primary-foreground: #fff;
+  --sidebar-accent: #27272a;
+  --sidebar-accent-foreground: #f4f4f5;
+  --sidebar-border: #27272a;
+  --sidebar-ring: #3b82f6;
+  --sidebar: #18181b;
+  --score-good-foreground: #22c55e;
+  --score-good-background: #16a34a4d;
+  --score-medium-foreground: #f59e0b;
+  --score-medium-background: #d977064d;
+  --score-bad-foreground: #ef4444;
+  --score-bad-background: #dc26264d;
+  --chart-1: #2662d9;
+  --chart-2: #2eb88a;
+  --chart-3: #e88c30;
+  --chart-4: #af57db;
+  --chart-5: #e23670;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* from rdojo1.css */
+.font-manrope {
+  font-family: var(--font-manrope) !important;
+}
+
+.truncate-3 {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+/* Notes page prose overrides (from scrapers/assets/notes-overrides.css) */
+.prose.sanity-content {
+  --tw-prose-body: var(--foreground);
+  --tw-prose-headings: var(--foreground);
+  --tw-prose-bold: var(--foreground);
+  --tw-prose-counters: var(--muted-foreground);
+  --tw-prose-bullets: var(--muted-foreground);
+}
+.callout-body.sanity-content p:first-child,
+.callout-body.sanity-content ul:first-child,
+.callout-body.sanity-content ol:first-child {
+  margin-top: 0;
+}
+.callout-body.sanity-content p:last-child,
+.callout-body.sanity-content ul:last-child,
+.callout-body.sanity-content ol:last-child {
+  margin-bottom: 0;
+}
+.callout-body.sanity-content > * + * {
+  margin-top: 0.75em;
+}
+.not-prose.rounded-2xl .sanity-content > *:first-child {
+  margin-top: 0;
+}
+
+.h0 {
+  font-size: var(--text-4xl, 2.25rem);
+  line-height: var(--tw-leading, var(--text-4xl--line-height, calc(2.5/2.25)));
+  --tw-font-weight: var(--font-weight-bold, 700);
+  font-weight: var(--font-weight-bold, 700);
+  --tw-tracking: var(--tracking-tighter, -.05em);
+  letter-spacing: var(--tracking-tighter, -.05em)
+}
+
+@media (min-width:48rem) {
+  .h0 {
+      font-size: var(--text-5xl, 3rem);
+      line-height: var(--tw-leading, var(--text-5xl--line-height, 1))
+  }
+}
+
+.h2 {
+  font-family: var(--font-title);
+  font-size: var(--text-3xl, 1.875rem);
+  line-height: var(--text-3xl--line-height, calc(2.25 / 1.875));
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+.h3 {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.h4 {
+  font-family: var(--font-title);
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 600;
+}

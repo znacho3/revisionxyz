@@ -1,0 +1,19 @@
+Hey there PirateIB user! If you're reading this, you either want to selfhost PirateIB Dojo, or want to run it locally.
+Because this is a Vite app, it's not as simple as running a single command. Also, you can either run this in dev more or in production mode.
+
+PREREQUISITES
+Before using this app, install NodeJS at: https://nodejs.org/
+After installed, cd into this folder, and run "npm install" to install the libraries this project needs
+
+PROBLEMS?
+Just a heads up. If you've never done this before it might be a bit technical. If you need any help, message "notblack" on discord (username: matte.black.man)
+
+PRODUCTION MODE
+This is the best way to use the website. First you have to build the app, then run it.
+To build it, simply cd into this folder and run "npm run build" in your terminal.
+Now that it's built simply run "npm run preview" and open the link in terminal in your browser.
+
+DEVELOPMENT MODE
+This mode runs much slower, but is good if you're gonna edit the app, and wanna see changes in real time.
+If you're gonna run development mode, you probably already know how to do so.
+If not, just cd into this folder and run "npm run dev"

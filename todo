@@ -1,0 +1,33 @@
+fix notes parser
+- fix grids so they look the exact same
+- add view options (for different max-widths)
+- add ALL types of callouts (search "self_review" in revisiondojo js files) (and fix the existing ones to match the correct colors, etc)
+- some lists show weirdly
+
+in subjects folder, each topic has unnecessary nested "topics". remove this. only keep its childTopics.
+create breadcrumbs component
+- maybe use https://www.revisiondojo.com/api/subjects json instead of data/ib-subjects.json
+
+examples of issues
+ib/ib-physics-new/ib-physics-new-a11-describing-motion-quantitatively-and-qualitatively/notes (grids)
+ib/ib-physics-new/ib-physics-new-a12-equations-of-motion/notes (lists show weirdly, all types of callouts)
+
+chat
+- make code block functionality work using Piston
+- make calculation ui the same and answers/latex work
+- make flashcards/quies show as they generate with streamdown, and loading indicator.
+- make Add code work in the chatbox.
+
+questionbank
+- make the questionbank ai work
+- remove parts of AnswerInput which wont be supported
+- write questionbank index maker (ughhhhh)
+
+exemplars
+- add rubric and similar exemplars tabs
+- add pdf overlays
+
+other
+- make svgs in a bunch of pages into the icon from central/reacticons
+
+contributors can add to this btw
