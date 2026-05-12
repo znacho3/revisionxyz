@@ -1,3 +1,323 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a918829ccfd71bfcfd0064702fc32c23cfbb380af75e9dc95a6654017b290a78
-size 22545
+{
+  "json": {
+    "questions": [
+      {
+        "id": "67c81431-fa22-4a2b-ae67-9d9e9aaee8f7",
+        "specification": "A public library has launched a new self-service kiosk and companion mobile web app called **\u201cBorrow Joy\u201d**. The aim is to reduce stress for first-time users, increase repeat visits, and help patrons feel proud of supporting their local community.\n\nThe interface uses warm language (e.g., \u201cYou\u2019re all set\u201d), gentle motion, and a small celebratory animation when a checkout is completed. The kiosk also offers optional features such as larger text, quieter mode (reduced sound and motion), and \u201crecommend me something comforting.\u201d\n\nFigure 1 and Figure 2 show screens from the kiosk journey.\n\n![A kiosk screen titled \"Borrow Joy\" showing a progress tracker with steps: Welcome, Scan, Confirm, Receipt. The screen displays a friendly message \"Let\u2019s find your books\" and two large buttons: \"Start scanning\" and \"Need help?\". A small toggle labeled \"Quiet mode\" appears in the corner.](https://pub-images.revisiondojo.com/notes/c08840b1-651d-4fe7-8ad8-84aaf54ffc65.png)\n\nFigure 1: Kiosk welcome screen\n\n![A confirmation screen showing \"Checkout complete\" with a small confetti animation. It lists borrowed items and due dates, and offers choices: \"Email receipt\", \"Print receipt\", and \"Add a reminder\". A panel titled \"Because you liked this...\" suggests two titles with cover thumbnails. A link reads \"Tell us how this felt\".](https://pub-images.revisiondojo.com/notes/736b2c25-5030-40b4-8f49-c15bd625a4a0.png)\n\nFigure 2: Kiosk completion screen with receipt and recommendations",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1689723,
+        "parts": [
+          {
+            "id": 1151961,
+            "content": "State two design guidance recommendations that would help the kiosk support patrons who may feel anxious or unfamiliar with technology.",
+            "order": 0,
+            "markscheme": "- Provide clear, step-by-step navigation with an obvious current step and next action <marks>1 mark</marks>\n- Use plain language and supportive microcopy (e.g., reassuring error messages and confirmations) <marks>1 mark</marks>\n- Offer visible help at any time (e.g., \u201cNeed help?\u201d button, staff call option, short on-screen tips) <marks>1 mark</marks>\n- Provide accessibility options such as larger text, high contrast, and reduced motion/quiet mode <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151962,
+            "content": "Outline how the kiosk journey could create an emotional connection between patrons and the library.",
+            "order": 1,
+            "markscheme": "- Use tone, wording, or acknowledgements that make patrons feel welcomed/valued (e.g., \u201cThanks for supporting your library\u201d) <marks>1 mark</marks>\n- Include personalisation that reflects the patron\u2019s interests or goals (e.g., thoughtful recommendations or optional reminders) to build ongoing relationship <marks>1 mark</marks>\n- Reinforce community identity (e.g., \u201cYour borrow helps fund new books\u201d) to create pride/belonging <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151963,
+            "content": "Outline how Figure 2 is an example of applying principles of emotional design.",
+            "order": 2,
+            "markscheme": "- Visceral level: pleasing visuals/animation (e.g., subtle confetti) to create immediate positive affect <marks>1 mark</marks>\n- Behavioural level: smooth completion feedback and easy next actions (receipt/reminder) to increase confidence and satisfaction <marks>1 mark</marks>\n- Reflective level: prompts that support meaning/pride (e.g., feedback link, community contribution message) to encourage loyalty <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151964,
+            "content": "Explain how the library team could use design guidance to ensure the emotional intent of \u201cBorrow Joy\u201d is delivered consistently for different users and contexts (e.g., busy periods, accessibility needs, errors).",
+            "order": 3,
+            "markscheme": "- Create and maintain a design system (components, patterns, tone-of-voice, motion rules) so emotional cues are consistent across kiosk and mobile <marks>1 mark</marks>\n- Specify inclusive defaults and alternatives (e.g., readable typography, high contrast; optional reduced motion/quiet mode) so delight does not exclude users <marks>1 mark</marks>\n- Provide guidance for failure states (timeouts, scan errors, connectivity issues) using calm language, clear recovery steps, and no blame to prevent anxiety <marks>1 mark</marks>\n- Validate via user research and iterative testing with diverse patrons, measuring both usability and affect (e.g., confidence, stress, delight), then refine <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7caff504-4102-4e21-ad80-3198d49e5fc1",
+        "specification": "A children\u2019s hospital is introducing a small, hand-held \u201cBrave Buddy\u201d device that is given to patients aged 6\u201312 when they arrive for a blood test.\n\nThe device has three buttons (\"Start\", \"Squeeze\", \"Help\"), a soft silicone outer shell, a gentle pulse light, and a short audio guide that says the child\u2019s chosen name. It also includes a removable \u201cstory card\u201d chosen by the child (space explorer, football hero, animal rescuer) that changes the tone of the audio and the light pattern.\n\nA nurse can set the device to one of three modes: calm (slow breathing prompt), courage (countdown + praise), or recovery (congratulations + choice of sticker).\n\n![](https://pub-images.revisiondojo.com/notes/5d8d6773-90fd-4474-b4fa-3b97a01cffea.png)\n\nFigure 1: Concept of the \u201cBrave Buddy\u201d experience",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 7,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:53:52.874Z",
+            "resultId": 3045
+          }
+        },
+        "currentRevisionId": 1691853,
+        "parts": [
+          {
+            "id": 1153576,
+            "content": "List two intended emotional outcomes of the \u201cBrave Buddy\u201d experience.",
+            "order": 0,
+            "markscheme": "- Names a plausible target emotion/state (e.g. calm, reduced anxiety, feeling safe, bravery/courage, confidence, trust, comfort, distraction/engagement, sense of control) <marks>1 mark</marks>\n- Names a second distinct plausible target emotion/state <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153577,
+            "content": "Outline how two levels of emotional design could be used in this product\u2013service experience.",
+            "order": 1,
+            "markscheme": "- Visceral: links immediate sensory appeal (form, softness, warm light, friendly voice, cute aesthetics) to an emotional reaction <marks>1 mark</marks>\n- Behavioural: links ease/feedback/interaction (clear buttons, responsive squeeze, simple prompts, nurse mode setting) to feelings such as competence/control <marks>1 mark</marks>\n- Reflective: links meaning/memory/identity (personalised name, story card role, \u201cI was brave\u201d narrative, keepsake sticker) to pride/long-term attachment <marks>1 mark</marks>\n- Any two levels correctly outlined with appropriate application to the scenario <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153578,
+            "content": "Outline two design guidance actions the team should follow to avoid unintentionally negative emotions in the clinic setting.",
+            "order": 2,
+            "markscheme": "- Avoid fear-triggering cues (e.g. harsh alarms, medical-looking colours/shapes, sudden loud sounds; keep audio gentle and optional) <marks>1 mark</marks>\n- Support autonomy and consent (e.g. child can pause/choose story/mode; clear \u2018Help\u2019 function; do not force interaction) <marks>1 mark</marks>\n- Ensure inclusivity and sensitivity (e.g. volume control, multilingual/neutral voices, accessible buttons, neurodiversity-friendly light patterns) <marks>1 mark</marks>\n- Protect dignity/privacy (e.g. no public \u201cscores\u201d, no shaming language; data not displayed to others) <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153579,
+            "content": "Explain how the team could use findings from user testing to refine the \u201cBrave Buddy\u201d design.",
+            "order": 3,
+            "markscheme": "- Describes a method to measure emotional response during/after use (e.g. observation of affect, child-friendly self-report scales, interviews, caregiver/nurse feedback, diary/return visit recall) <marks>1 mark</marks>\n- Distinguishes short-term emotion from longer-term attachment/meaning (e.g. willingness to reuse, keepsake behaviour, recall of story, preference vs alternatives) <marks>1 mark</marks>\n- Links evidence to specific refinements (e.g. adjust light/audio intensity, change language from performance to reassurance, improve personalisation options, redesign buttons for control) <marks>1 mark</marks>\n- Includes an ethical/safety consideration in evaluation (e.g. assent, avoid distressing questions, anonymise data, minimise disruption to care) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8cf48fe9-7ad9-45f6-a62f-849343f8f27b",
+        "specification": "Hearth & Harbor is a small company designing a bedside lamp intended for young adults moving into their first apartment. The team wants the product to feel *comforting* and *personal* while still being easy to use in the dark.\n\n![Figure 3: A bedside lamp concept on a small table. The lamp has a rounded fabric shade, a softly glowing base ring, and a single touch area on the base. Next to it are a phone and a book, suggesting a calm nighttime setting.](https://pub-images.revisiondojo.com/notes/6fe5d167-65bb-4c43-ae20-28a0426a7b0d.png)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1689762,
+        "parts": [
+          {
+            "id": 1152124,
+            "content": "Outline one way the designer could create an emotional connection between the user and this lamp.",
+            "order": 0,
+            "markscheme": "- Use a meaningful narrative/personalisation so the lamp reflects the user\u2019s identity (e.g., custom colour, engraving, swappable shade) <marks>1 mark</marks>\n- Link the feature to a specific feeling (e.g., comfort, nostalgia, belonging) that encourages attachment/long-term keeping <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152125,
+            "content": "Outline how design guidance could be used to help users operate the lamp correctly on first use in a dark room.",
+            "order": 1,
+            "markscheme": "- Provide clear signifiers/affordances so the interaction is discoverable (e.g., raised touch pad, tactile ridge where to tap) <marks>1 mark</marks>\n- Provide feedback and/or constraints to confirm correct action and prevent errors (e.g., gentle pulse when touched, limited interaction zones, stepped dimming) <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152126,
+            "content": "Explain one advantage and one disadvantage of using principles of emotional design to guide the lamp\u2019s development.",
+            "order": 2,
+            "markscheme": "- Advantage explained: addressing visceral/behavioural/reflective responses can increase desirability, brand loyalty, willingness to pay, or product attachment (less replacement) <marks>1 mark</marks>\n- Advantage linked to the lamp context with a clear example (e.g., warm materials + calming light ritual improves bedtime experience) <marks>1 mark</marks>\n- Disadvantage explained: emotional cues can be subjective/culturally dependent, risking mismatch with some users or unintended feelings <marks>1 mark</marks>\n- Disadvantage linked to the lamp context with a clear example (e.g., \u201ccosy\u201d amber light may seem dim/unsafe; \u201cplayful\u201d feedback may feel childish) <marks>1 mark</marks>\n- Recognition of trade-offs with usability/cost/sustainability (e.g., extra features/materials increase complexity, price, or maintenance) <marks>1 mark</marks>\n- Coherent justification showing how the principle(s) influence decisions and outcomes, not just a list <marks>1 mark</marks>\n\n<note>Max 6 marks</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d22629d3-cb78-409f-be89-8fbfd1eb051a",
+        "specification": "A consumer chooses to purchase a smartphone made from recycled ocean plastics because it reflects their commitment to environmental conservation. According to Jordan\u2019s Four Pleasure Framework, which type of pleasure is the consumer primarily seeking?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d22629d3-cb78-409f-be89-8fbfd1eb051a-1771929956947",
+            "generatedAt": "2026-02-25T14:15:44.884Z",
+            "sourceRevisionId": 1161894
+          }
+        },
+        "currentRevisionId": 1685356,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920644,
+            "content": "Socio-pleasure",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920648,
+            "content": "Ideo-pleasure",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920649,
+            "content": "Physio-pleasure",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920650,
+            "content": "Psycho-pleasure",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d6ea0e35-e389-44ca-ad51-974cf97ed5e9",
+        "specification": "A public library is launching a self-service kiosk called **CalmBorrow** to help visitors check out books and reserve study rooms. The library has received feedback that some visitors (especially first-time users and people who feel anxious about \u201cdoing it wrong\u201d) avoid the kiosks and queue for staff help instead.\n\nThe design team prototypes a new kiosk experience with:\n- a welcome screen that uses warm, conversational microcopy (e.g., \u201cYou\u2019re in the right place\u2014let\u2019s get your books checked out.\u201d)\n- soft ambient animations and a subtle \u201cbreathing\u201d progress indicator while the system loads\n- optional \u201cprivacy mode\u201d that hides titles and personal details on-screen\n- a small celebratory interaction after a successful checkout (e.g., a gentle chime and \u201cAll set\u2014enjoy your reading!\u201d)\n\n![Library self-check kiosk interface showing a welcome message, a large \u2018Scan your card\u2019 button, a privacy mode toggle, and a calm animated progress ring.](https://pub-images.revisiondojo.com/notes/b2123104-56d3-4a04-a26d-cfeccd425873.png)\n\nFigure 1: Prototype welcome screen for CalmBorrow\n\n![Close-up of a kiosk confirmation screen showing \u2018Checkout complete\u2019, a subtle confetti-like animation, and a button labeled \u2018Reserve a study room\u2019.](https://pub-images.revisiondojo.com/notes/0381b1ba-351c-4676-8e72-28b1a419d59d.png)\n\nFigure 2: Prototype confirmation screen for CalmBorrow",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1689728,
+        "parts": [
+          {
+            "id": 1151983,
+            "content": "List two features of the CalmBorrow kiosk that are intended to create an emotional connection with the user.",
+            "order": 0,
+            "markscheme": "- Identifies a relevant feature and links it to connection (e.g., warm microcopy to reassure/feel welcomed; privacy mode to feel safe/respected; gentle chime/celebration to feel accomplished; calm animations to feel at ease) <marks>1 mark</marks>\n- Identifies a second relevant feature and links it to connection <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151984,
+            "content": "Outline how the design team could apply principles of emotional design to reduce user anxiety during the checkout process.",
+            "order": 1,
+            "markscheme": "- Explains a visceral-level approach (look/sound/feel) that calms or reassures (e.g., soothing visuals, non-alarming tones, friendly language) <marks>1 mark</marks>\n- Explains a behavioural-level approach that supports confidence and control (e.g., clear steps, reversible actions, gentle error recovery, visible progress) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151985,
+            "content": "Outline one design guidance rule that would help ensure the kiosk\u2019s \u201ccelebratory\u201d feedback remains appropriate for a public library setting.",
+            "order": 2,
+            "markscheme": "- States a relevant guidance rule (e.g., feedback should be subtle, non-disruptive, culturally appropriate, and adjustable/mute; avoid patronising or excessive animation/sound) <marks>1 mark</marks>\n- Briefly justifies it in context (e.g., quiet environment, diverse users, sensory sensitivity, shared space) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151986,
+            "content": "Explain how the design team could evaluate and refine CalmBorrow\u2019s emotional impact using design guidance, while still supporting task completion.",
+            "order": 3,
+            "markscheme": "- Describes collecting evidence of emotional response (e.g., observe hesitation/abandonment, post-task affect ratings, short interviews about feelings of confidence/safety, diary/experience sampling) <marks>1 mark</marks>\n- Uses findings to adjust emotional elements (e.g., tone of microcopy, animation speed, sound level, celebration intensity, default privacy mode) <marks>1 mark</marks>\n- Shows how guidance is used to keep emotion aligned with usability (e.g., feedback clarifies status, doesn\u2019t slow flow, supports error recovery, maintains accessibility) <marks>1 mark</marks>\n- Mentions testing iterations with representative users and contexts (e.g., first-time users, anxious users, busy/noisy vs quiet periods) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "5",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9925,
+      "title": "7.5 Beyond usability\u2014designing for pleasure and emotion",
+      "slug": "7-5-beyond-usability-designing-for-pleasure-and-emotion",
+      "parentTopicId": 9920
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "5",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,2004 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f08700b8d542d0f14a8119ffdb4046153cf93a87dd97c6d89cabe2e28aeab52e
-size 84862
+{
+  "json": {
+    "questions": [
+      {
+        "id": "04f5f6cf-2cc0-4fef-94f3-bf5c465a1b2d",
+        "specification": "What is the purpose of the design process shown?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc8bohqSpTThySr1Fv5HeDa2OzWj-DcxIVzH1LwfiN7HTgh2K_QDVlob3meRd_5Qe9epaOT9N8Ik_CHA5Opqna4J70UjiUIRG2vQF0sFz-HPM6m_GbK5FPcVZMqbx7ZSuuxckQi_Q?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T08:44:43.897Z",
+            "resultId": 557
+          }
+        },
+        "currentRevisionId": 1689785,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930201,
+            "content": "To test, evaluate and refine design ideas through iteration (e.g. identifying issues early and improving the solution).",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: states prototyping/design process is used to test/evaluate ideas and iteratively refine/improve them; helps identify problems early and validate solutions."
+          },
+          {
+            "id": 4930202,
+            "content": "To finalise the product for mass production without further changes.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: prototyping/design process is not solely for finalisation; it supports iteration and further changes based on testing/feedback."
+          },
+          {
+            "id": 4930203,
+            "content": "To create a marketing plan and set the selling price before any testing is done.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: marketing/pricing may be considered in development but is not the primary purpose of the prototyping/design iteration process shown."
+          },
+          {
+            "id": 4930204,
+            "content": "To ensure the design is aesthetically pleasing only, without considering function or user feedback.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: the purpose includes functional testing and incorporating feedback, not just aesthetics."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0829cd14-126b-41fe-a854-5f0162ed2066",
+        "specification": "Why is iteration important in the prototyping process?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332975,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881930,
+            "content": "It reduces the need for raw materials",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881931,
+            "content": "It allows for continuous feedback and refinement",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881932,
+            "content": "It ensures that fewer team members are involved",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881933,
+            "content": "It speeds up shipping and logistics",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "09c3d1cf-2abf-44cc-b34f-89a392e06b03",
+        "specification": "A designer uses a cardboard mock-up to test the placement of buttons on a handheld device. This is an example of:",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332966,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881894,
+            "content": "Physical prototyping",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881895,
+            "content": "Structural modeling",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881896,
+            "content": "Virtual prototyping",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881897,
+            "content": "CAD simulation",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "126ddd1d-1571-4e1e-b1be-bde15f043a5c",
+        "specification": "A 3D-printed phone case is tested and redesigned based on user grip issues. This is an example of:",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584541,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556197,
+            "content": "Iterative design",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556198,
+            "content": "Product marketing",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556199,
+            "content": "Supply chain management",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556200,
+            "content": "Mass manufacturing",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "15e73dc2-b9de-448c-97fe-f77ec7655388",
+        "specification": "Which of the following is a key advantage of low-fidelity prototypes in the early stages of design?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584535,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556185,
+            "content": "They require advanced rendering software",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556186,
+            "content": "They allow quick iteration and feedback",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556187,
+            "content": "They are less suitable for conceptual exploration",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556188,
+            "content": "They are produced using high-end manufacturing tools",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "1f4f8ed7-f71d-4069-973f-a654aabbbba8",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:31:30.152Z",
+            "resultId": 1560
+          }
+        },
+        "currentRevisionId": 1691299,
+        "parts": [
+          {
+            "id": 1153474,
+            "content": "Explain two advantages of using virtual prototyping tools such as digital humans or motion capture.",
+            "order": 0,
+            "markscheme": "- Digital humans help assess ergonomics and human-product interaction. <marks>1 mark</marks>\n- Motion capture can simulate realistic user movements for testing functionality. <marks>1 mark</marks>\n- Saves time and cost by reducing need for physical trials. <marks>1 mark</marks>\n- Enhances design accuracy and user-centred focus. <marks>1 mark</marks>\n\n- Award $1$ per valid explanation, up to $4$ max. <marks>0 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1fde906e-d4ec-41d8-bedb-85b2315f7b4b",
+        "specification": "Which approach is most effective for collecting feedback during early development?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332979,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881946,
+            "content": "Inviting users to interact with simple mock-ups",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881947,
+            "content": "Using analytics to track online behavior",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881948,
+            "content": "Conducting simulations in test labs only",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881949,
+            "content": "Exporting 3D files for manufacturing",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2cac9cb2-9bed-4127-9ff5-570613a57939",
+        "specification": "A designer uses clay to test the ergonomics of a product. This is an example of:",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332972,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881918,
+            "content": "Market simulation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881919,
+            "content": "High-fidelity rendering",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881920,
+            "content": "Digital prototyping",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881921,
+            "content": "Physical prototyping",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2dcf8a0c-3fe9-4327-818c-1e9a629a16dd",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1693482,
+        "parts": [
+          {
+            "id": 1155284,
+            "content": "Describe two benefits of using CAD software in the prototyping process.",
+            "order": 0,
+            "markscheme": "- **Rapid iteration and modification**: CAD allows for changes to be made quickly to the digital model <marks>1</marks> which can be re-evaluated immediately without the time and expense of rebuilding physical prototypes <marks>1</marks>\n\n- **3D visualisation and simulation**: Software can simulate real-world conditions, such as stress analysis or motion <marks>1</marks> helping designers identify flaws or test functionality before physical production begins <marks>1</marks>\n\n- **High precision and accuracy**: CAD tools allow for exact measurements and tolerances to be set <marks>1</marks> which ensures the virtual model matches intended specifications and reduces material waste during manufacturing <marks>1</marks>\n\n- **Ease of sharing and collaboration**: Digital files can be easily distributed to global team members or manufacturers <marks>1</marks> allowing for concurrent engineering and faster feedback loops during the prototyping stage <marks>1</marks>\n\n\n<note>Award [1] for identifying a valid benefit and [1] for a description of that benefit, for two benefits up to [4 marks].</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "35ec6641-ed2a-4f56-8696-c8e3aeed2005",
+        "specification": "A CAD simulation reveals design flaws in the internal layout of a wearable device. What benefit does this highlight?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332977,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881938,
+            "content": "Proving production cost-effectiveness",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881939,
+            "content": "Communicating brand value to stakeholders",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881940,
+            "content": "Reducing emotional engagement in product use",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881941,
+            "content": "Identifying issues early without building a physical model",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3a845be6-7719-4023-a9e0-3afb06f1f581",
+        "specification": "This type of simulation is most likely used to:\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJ60t9OyogLcxcDPnN00_VfQvgvMGlBN-iIxF9dYN2G54oIB4BAwfTJntSIxlRvFfjIfSWwXSvihpF8feqLSpUqZi4WrUP9dr6Yh7nsJOXQENTSKA4DQD1Dfhwg-yHUT5TeiyH_Q?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332988,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881982,
+            "content": "Evaluate narrative-based personas",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881983,
+            "content": "Measure user preferences",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881984,
+            "content": "Test a product\u2019s mechanical behaviour",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881985,
+            "content": "Sketch early ideas",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3ab5b936-030d-431d-afa6-209fb12c6511",
+        "specification": "This image shows:\n\n![](https://pub-images.revisiondojo.com/notes/5ed8b5e9-f2b7-472c-aa22-6c0a33c3ddd6.jpeg)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584551,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556225,
+            "content": "Stress testing in FEA",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556226,
+            "content": "Scenario-based persona mapping",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556227,
+            "content": "A CAD wireframe used for animations",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556228,
+            "content": "A rapid prototype being evaluated",
+            "correct": true,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "3c9aa7e0-52da-4cf5-9f46-40d9eb842441",
+        "specification": "To improve product development efficiency, a company evaluates different prototyping techniques used at various stages of the design process. The figures below illustrate three examples of prototypes:",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1693481,
+        "parts": [
+          {
+            "id": 1155279,
+            "content": "**Figure 1** shows a sketch model used to illustrate the proportions of a new VR headset.\n\n![Image](https://pub-images.revisiondojo.com/question-images/c1c6fd4e-0d30-4914-bdf7-9b96e407873d)\n\nIdentify the type of prototype shown in **Figure 1**.",
+            "order": 0,
+            "markscheme": "Sketch prototype. <marks>1 mark</marks>\n\n*Award [1] for correct identification of a sketch prototype.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155280,
+            "content": "State two purposes of using a sketch prototype early in the design process.",
+            "order": 1,
+            "markscheme": "To explore proportions and spatial relationships quickly. <marks>1 mark</marks>\n\nTo gather early feedback on physical form without major costs. <marks>1 mark</marks>\n\n\nAward [1] for each appropriate purpose, up to [2 max].",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155281,
+            "content": "**Figure 2** shows a digital CAD rendering of the same headset, including exploded views and internal component layouts.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/a97223d3-2287-42e5-83c5-59533df39cee)\nDescribe three benefits of using CAD prototypes like the one shown in **Figure 2**.",
+            "order": 2,
+            "markscheme": "Enables accurate visualisation of internal and external components. <marks>1 mark</marks>\n\nAllows quick modifications and version control. <marks>1 mark</marks>\n\nCan be used for virtual simulations (e.g. stress or airflow tests). <marks>1 mark</marks>\n\nAward [1] for each valid benefit, up to [3 max].",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155282,
+            "content": "**Figure 3** shows a fully functional prototype, 3D-printed and embedded with working sensors to simulate real-use testing.\n\n![Image](https://pub-images.revisiondojo.com/question-images/14629e6c-35dc-46c0-9fd9-a8857fc79a27)\nExplain how the prototype in **Figure 3** could be used in usability testing.",
+            "order": 3,
+            "markscheme": "The functional prototype simulates how the headset will behave in real use. <marks>1 mark</marks>\n\nUsers can test ergonomics and comfort during extended wear. <marks>1 mark</marks>\n\nSensor data can be collected to assess interaction accuracy. <marks>1 mark</marks>\n\nFeedback on software or hardware issues can be recorded before mass production. <marks>1 mark</marks>\n\n *Award [1] for each well-explained point related to usability testing, up to [4 max].*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155283,
+            "content": "Discuss how using different levels of prototypes (as shown in **Figures 1\u20133**) supports effective iteration during the design process.",
+            "order": 4,
+            "markscheme": "Early sketch prototypes (Figure 1) are low-cost and allow rapid exploration of form and scale. <marks>1 mark</marks>\n\nThey help filter ideas before investing in high-fidelity development. <marks>1 mark</marks>\n\nCAD models (Figure 2) add precision and help in detecting dimensional or assembly issues. <marks>1 mark</marks>\n\nThey can be used to simulate functions without physical cost. <marks>1 mark</marks>\n\nFunctional prototypes (Figure 3) allow real-world testing, validating both user experience and performance. <marks>1 mark</marks>\n\nUsing a progression of prototypes facilitates ongoing feedback, reducing risk of late-stage design failure. <marks>1 mark</marks>\n\n*Award [1] for each distinct and well-explained contribution of prototype stages, up to [6 max].*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "54ec7679-dbd9-438e-ac9f-a82ffeb47529",
+        "specification": "Which concept is most relevant to this image of a user altering components in a virtual interface before building a product?\n\n![](https://pub-images.revisiondojo.com/notes/7f40a39f-951c-47e7-8645-7eaf445d5918.jpeg)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584554,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556229,
+            "content": "Rapid 3D printing for mass production",
+            "correct": false,
+            "order": 1,
+            "markscheme": "3D printing is typically used for prototyping or low-volume production, not mass production. Furthermore, the image shows a virtual environment, not a physical 3D printer."
+          },
+          {
+            "id": 4556230,
+            "content": "Physical prototype construction",
+            "correct": false,
+            "order": 2,
+            "markscheme": "The image depicts a virtual modeling interface (VR), while physical prototyping involves the construction of tangible models from physical materials."
+          },
+          {
+            "id": 4556231,
+            "content": "CAD-based prototyping and design iteration",
+            "correct": true,
+            "order": 3,
+            "markscheme": "The user is using a virtual interface (VR) to manipulate a 3D digital model, which is a form of CAD-based virtual prototyping. This allows designers to perform multiple design iterations quickly and efficiently before physical production."
+          },
+          {
+            "id": 4556232,
+            "content": "Final performance testing with consumers",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Final performance testing occurs at the end of the development cycle, whereas the prompt describes a user 'altering components', which is characteristic of the design iteration phase."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "5e02b256-de67-4785-9cc8-f00831532ae1",
+        "specification": "Which of the following scenarios represents a virtual prototype?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332974,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881926,
+            "content": "A foam mock-up tested by users",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881927,
+            "content": "A factory-built alpha version of a product",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881928,
+            "content": "A paper model used for classroom testing",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881929,
+            "content": "A digital 3D rendering evaluated for usability",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5e882eb3-b2d3-448a-89f7-b597f180426b",
+        "specification": "Designers at a product innovation lab are tasked with developing a new ergonomic bicycle helmet. They progress through different stages of prototyping and testing to refine their concept.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T12:54:14.969Z",
+            "resultId": 3837
+          }
+        },
+        "currentRevisionId": 1693493,
+        "parts": [
+          {
+            "id": 1155308,
+            "content": "**Figure 1** shows early-stage low-fidelity foam models used to explore the form of the helmet.\n\n![Image](https://pub-images.revisiondojo.com/question-images/b7e3761e-09a9-4c94-8a79-c30a8e369143)\n\nExplain one advantage and one disadvantage of using low-fidelity prototypes during the early stages of design.",
+            "order": 0,
+            "markscheme": "- **Advantage:** Quick and inexpensive to produce, allowing for fast iteration. <marks>1 mark</marks>\n- **Disadvantage:** Limited detail and realism, which may not accurately reflect how the final product will function or feel. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155309,
+            "content": "Outline two reasons why designers might choose physical over virtual prototyping during this stage.",
+            "order": 1,
+            "markscheme": "- Easier to understand scale, proportions, and ergonomics in real life. <marks>1 mark</marks>\n- Can gather immediate tactile feedback and user reactions. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155310,
+            "content": "**Figure 2** shows CAD renderings of the helmet developed after initial testing.\n![Image](https://pub-images.revisiondojo.com/question-images/3755b15e-6f16-4e10-94e3-1769a28daa91)\n\nDescribe how computer-aided design (CAD) tools support the refinement of form and function in the prototyping process.",
+            "order": 2,
+            "markscheme": "- CAD allows precise modelling of complex shapes for aerodynamic form. <marks>1 mark</marks>\n- Designers can simulate airflow or mechanical stress to test function. <marks>1 mark</marks>\n- Reduces errors before physical production, improving design quality. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155311,
+            "content": "Explain how designers could use digital humans and motion capture to further test this helmet virtually.",
+            "order": 3,
+            "markscheme": "- Digital humans can simulate head shapes and body positions for ergonomic fit. <marks>1 mark</marks>\n- Motion capture tracks head and neck movement during cycling. <marks>1 mark</marks>\n- Helps identify pressure points or misalignment in helmet design. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155312,
+            "content": "**Figure 3** shows a high-fidelity prototype with sensors ready to be used on a track to be tested by a cyclist.\n\n![Image](https://pub-images.revisiondojo.com/question-images/1591c744-2d8e-4609-b776-c75224015d2c)\n\nCompare the benefits and drawbacks of high-fidelity physical testing in this context.",
+            "order": 4,
+            "markscheme": "- **Benefit:** Provides realistic feedback on fit, ventilation, and comfort under real use. <marks>1 mark</marks>\n- **Benefit:** Can be used in real cycling environments to test safety and performance. <marks>1 mark</marks>\n- **Drawback:** High cost of production, especially for materials and advanced features. <marks>1 mark</marks>\n- **Drawback:** Longer time required to build compared to low-fidelity alternatives. <marks>1 mark</marks>\n\n*Award [1] for each well-explained comparison up to [4 max].*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155313,
+            "content": "Discuss how rapid prototyping (e.g., SLS or FDM) could enhance feedback and design iteration for this helmet.",
+            "order": 5,
+            "markscheme": "- Allows fast creation of new helmet iterations for testing. <marks>1 mark</marks>\n- SLS and FDM can produce functional prototypes with varying material properties. <marks>1 mark</marks>\n- Reduces time between feedback and redesign, improving user-centered development. <marks>1 mark</marks>\n- Enables quick incorporation of customisation or ergonomic changes based on cyclist input. <marks>1 mark</marks>\n\n*Award [1] for each relevant point up to [4 max].*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "62a10eec-8aad-4af6-9498-5cbd4f69ef22",
+        "specification": "What distinguishes high-fidelity prototypes from low-fidelity ones?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584545,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556205,
+            "content": "They closely resemble the final product in form and function",
+            "correct": true,
+            "order": 1,
+            "markscheme": "High-fidelity prototypes are sophisticated representations of the final product, often using the same materials and incorporating full functionality to test user interaction and aesthetic appeal."
+          },
+          {
+            "id": 4556206,
+            "content": "They are limited to digital renderings only",
+            "correct": false,
+            "order": 2,
+            "markscheme": "High-fidelity prototypes can be either physical (e.g., 3D printed models with finished surfaces) or digital (e.g., interactive software simulations)."
+          },
+          {
+            "id": 4556207,
+            "content": "They are exclusively created in 2D",
+            "correct": false,
+            "order": 3,
+            "markscheme": "While low-fidelity prototypes like sketches are 2D, high-fidelity prototypes are frequently 3D models that represent the physical form of the product."
+          },
+          {
+            "id": 4556208,
+            "content": "They do not involve user interaction",
+            "correct": false,
+            "order": 4,
+            "markscheme": "One of the primary purposes of a high-fidelity prototype is to allow users to interact with a near-final version of the product to gather realistic feedback."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "807f8aad-985d-4eb2-a9d3-c25baed15cb9",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584575,
+        "parts": [
+          {
+            "id": 1139639,
+            "content": "Explain two reasons why designers use physical prototypes in the development of a final product.",
+            "order": 1,
+            "markscheme": "- Allows for evaluation of aesthetics, form, and ergonomics <marks>M1</marks> providing tangible feedback from users or clients regarding the suitability of the design. <marks>R1</marks>\n- Enables testing of function, materials, and performance in real conditions <marks>M1</marks> to identify design flaws or technical issues before final production. <marks>R1</marks>\n\n4 marks total\n\n<note>Award [1] for identifying a reason and [1] for its explanation, for up to two reasons.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "851ffe6d-8efc-4bc0-a67d-39a084e003f2",
+        "specification": "Which of the following is the primary function of computer-aided design (CAD) in the prototyping process?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584540,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556193,
+            "content": "To create user manuals",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556194,
+            "content": "To test ideas digitally through virtual simulation",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556195,
+            "content": "To physically manufacture the final product",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556196,
+            "content": "To control distribution logistics",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "93bac1db-5dcd-490e-bda8-e573b3ec53dd",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584580,
+        "parts": [
+          {
+            "id": 1139640,
+            "content": "Evaluate the impact of emerging technologies in rapid prototyping on the efficiency and creativity of product development.",
+            "order": 1,
+            "markscheme": "- Explain how rapid prototyping allows for fast iteration and testing of ideas <marks>1</marks>\n\n- Identify techniques such as SLA, SLS, and FDM that reduce lead times <marks>1</marks>\n\n- Discuss how reduced risk encourages experimentation and creativity <marks>1</marks>\n\n- Explain how digital tools (e.g., generative design, AR) enhance ideation <marks>1</marks>\n\n- Evaluate limitations such as machine cost, material limitations, and the need for digital literacy <marks>1</marks>\n\n- Explain how feedback loops with clients and users are streamlined <marks>1</marks>\n\n- Describe how agile development cycles are enabled across teams <marks>1</marks>\n\n- Apply case examples to strengthen the evaluation (e.g., medical device development) <marks>1</marks>\n\n- Conclude that technological advances significantly boost efficiency but require thoughtful integration <marks>1</marks>\n\n9 marks total\n\n<note>Award [1] per valid evaluative point, up to [9 max].</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "96f8e6f6-d0f4-44b0-ad50-e0f943921146",
+        "specification": "What distinguishes rapid prototyping from traditional prototyping methods?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332971,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881914,
+            "content": "It eliminates the need for CAD models",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881915,
+            "content": "It enables fast, iterative creation of physical models",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881916,
+            "content": "It reduces the role of user testing",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881917,
+            "content": "It relies solely on digital interfaces",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9707bde3-859a-42e1-8cee-d86aab2b2900",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584562,
+        "parts": [
+          {
+            "id": 1139632,
+            "content": "Define what is meant by \u201cvirtual prototyping\u201d in the context of CAD software.",
+            "order": 1,
+            "markscheme": "- Define virtual prototyping as the use of computer-based models to simulate and test design functionality <marks>A1</marks>\n- State that this process is performed without the need for physical construction <marks>A1</marks>\n\n2 marks total\n\n<note>Award [2] for a clear and accurate definition with appropriate terminology.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "9762ee43-79d1-4807-b366-081c675dd9a4",
+        "specification": "A team is designing a new **foldable electric scooter** aimed at urban commuters. The following figures show different prototypes created throughout the design process.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1367773,
+        "parts": [
+          {
+            "id": 1019322,
+            "content": "An early low-fidelity mock-up made from cardboard and wooden rods was constructed to test the foldable geometry of the scooter frame.\n\n![Image](https://pub-images.revisiondojo.com/question-images/765c0bcc-de3e-438e-b327-8d0d50fb0d3a)\ni.) State the main purpose of the prototype shown in **Figure 1**.",
+            "order": 0,
+            "markscheme": "To test the folding mechanism and overall proportions of the scooter. <marks>1 mark</marks>\n\n*Award [1] for stating a clear and accurate purpose of the low-fidelity prototype.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019323,
+            "content": "ii.) Identify two limitations of using the materials seen in **Figure 1** for functional testing.",
+            "order": 1,
+            "markscheme": "Cardboard and wooden rods lack the strength to simulate real structural loads. <marks>1 mark</marks>\n\nThese materials cannot replicate the dynamic stresses experienced during folding/unfolding. <marks>1 mark</marks>\n\n*Award [1] for each valid limitation, up to [2 max].*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019324,
+            "content": "A digital CAD model of the scooter including folding joints and battery housing dimensions was generated to assess internal layout feasibility. \n\n![Image](https://pub-images.revisiondojo.com/question-images/a223b580-4bf5-4f43-9431-fcc9e283df16)\n\nOutline three benefits of using the CAD model in **Figure 2** at this stage of development.",
+            "order": 2,
+            "markscheme": "Allows visualisation of component placement and folding joints. <marks>1 mark</marks>\n\nEnables accurate internal volume assessment for battery fit. <marks>1 mark</marks>\n\nSupports virtual simulations before physical manufacturing. <marks>1 mark</marks>\n\n*Award [1] for each well-outlined benefit, up to [3 max].*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019325,
+            "content": "A high-fidelity prototype incorporating electronic components, rubber grip handles, and functional folding mechanisms was developed for real-user testing.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/5e7efce2-c93c-4257-86fa-24911712cbc7)\ni.) Explain why creating a high-fidelity prototype like the one in **Figure 3** is important before final production.",
+            "order": 3,
+            "markscheme": "It replicates the final form and function, enabling performance evaluation. <marks>1 mark</marks>\n\nAllows real-user testing for feedback on comfort and usability. <marks>1 mark</marks>\n\nIdentifies unforeseen mechanical or electronic integration issues. <marks>1 mark</marks>\n\nHelps validate safety standards compliance under real-world conditions. <marks>1 mark</marks>\n\n*Award [1] for each well-explained reason, up to [4 max].*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019326,
+            "content": "ii.) Discuss how using progressive prototyping stages (as shown in **Figures 1\u20133**) improves the efficiency and accuracy of product development.",
+            "order": 4,
+            "markscheme": "Low-fidelity prototypes (Figure 1) allow rapid, low-cost iteration in the early idea phase. <marks>1 mark</marks>\n\nThey help eliminate impractical designs without major investment. <marks>1 mark</marks>\n\nCAD models (Figure 2) provide precision and enable digital simulations of fit, motion, and battery layout. <marks>1 mark</marks>\n\nThey reduce material waste by refining geometry before physical building. <marks>1 mark</marks>\n\nHigh-fidelity prototypes (Figure 3) integrate materials, electronics, and mechanics for realistic testing. <marks>1 mark</marks>\n\nThe progression enables feedback-informed improvements at each stage, lowering time and cost risks before manufacturing. <marks>1 mark</marks>\n\n*Award [1] for each distinct and well-explained contribution of prototyping stages to development accuracy and efficiency, up to [6 max].*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "993e9d20-5682-4758-bf6b-8250379b8919",
+        "specification": "Design Technology: Topic 3 Modelling",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584568,
+        "parts": [
+          {
+            "id": 1139635,
+            "content": "Outline one advantage and one disadvantage of using low-fidelity prototypes in the early stages of design.",
+            "order": 1,
+            "markscheme": "- Advantage: Quick and inexpensive to produce <marks>A1</marks>\n- Disadvantage: May not accurately represent real-world performance or usability <marks>A1</marks>\n\n2 marks total\n\n<note>\nAward [1] for a valid advantage and [1] for a valid disadvantage of low-fidelity prototyping.\n</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "a3cbd211-2c1c-44cd-bb81-bd6bb9e572c2",
+        "specification": "This process is most associated with:\n\n![](https://pub-images.revisiondojo.com/notes/19630bde-398e-409d-a14e-619b02244887.jpeg)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584702,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556557,
+            "content": "Conceptual sketching",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556558,
+            "content": "Physical prototyping for feedback",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Physical prototyping involves the creation of tangible models to test aspects of a design and obtain feedback from users or stakeholders. Using tools like a heat gun to shape materials (such as foam or plastic) into a physical form is a characteristic activity of this process."
+          },
+          {
+            "id": 4556559,
+            "content": "Motion testing",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556560,
+            "content": "Persona development",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "a52bc18a-1d4c-42e0-8f49-4e1a438235f4",
+        "specification": "Which of the following best describes a purpose of low-fidelity prototypes?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584558,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556241,
+            "content": "To validate electrical safety before launch",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. This would require a high-fidelity functional prototype or a final production model."
+          },
+          {
+            "id": 4556242,
+            "content": "To quickly test concepts without heavy investment",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. Low-fidelity prototypes are used early in the design process to explore and communicate ideas cheaply and rapidly."
+          },
+          {
+            "id": 4556243,
+            "content": "To manufacture the first batch of products",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Prototyping is part of the design phase, not the mass manufacturing phase."
+          },
+          {
+            "id": 4556244,
+            "content": "To simulate final product function in detail",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Incorrect. This describes a high-fidelity prototype."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "a6b228f0-5fe9-4182-b7a1-f22167ae1a90",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584597,
+        "parts": [
+          {
+            "id": 1139649,
+            "content": "Explain how rapid prototyping technologies enhance collaboration and iterative design.",
+            "order": 1,
+            "markscheme": "- Rapid prototyping enables the fast production of physical models for review. <marks>A1</marks>\n- Tangible forms facilitate constructive feedback from both users and design teams. <marks>A1</marks>\n- These technologies allow for multiple design iterations to be completed in a short period of time. <marks>A1</marks>\n- Physical prototypes promote effective communication between stakeholders and designers by providing a common point of reference. <marks>A1</marks>\n- The process supports trial-and-error design approaches without incurring high manufacturing costs. <marks>A1</marks>\n- Specific examples of these technologies include SLA, FDM, and SLS, which offer varied prototyping capabilities. <marks>A1</marks>\n\n6 marks total\n\n<note>Award [1] per valid point, up to [6 max].</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "ae890b39-5007-4751-b179-e2676905cdc2",
+        "specification": "The image shows a prototype of a new handheld product.\n\n![](https://pub-images.revisiondojo.com/notes/2a341c60-0064-4054-ad44-35a10529a55b.jpeg)\n\nWhat kind of prototype is shown?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584631,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556381,
+            "content": "Low-fidelity",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Low-fidelity prototypes are quick and inexpensive to produce, often using materials such as cardboard and foam. They are used in the early stages of the design process to explore concepts and test ergonomics."
+          },
+          {
+            "id": 4556382,
+            "content": "High-fidelity",
+            "correct": false,
+            "order": 1,
+            "markscheme": "High-fidelity prototypes are more detailed and closely resemble the final product in terms of materials, appearance, and functionality."
+          },
+          {
+            "id": 4556383,
+            "content": "CAD-based",
+            "correct": false,
+            "order": 2,
+            "markscheme": "CAD-based prototypes are digital 3D models created using computer-aided design software, not physical models made of cardboard."
+          },
+          {
+            "id": 4556384,
+            "content": "Full-scale mechanical",
+            "correct": false,
+            "order": 3,
+            "markscheme": "A full-scale mechanical prototype is a physical model that demonstrates the functional internal mechanisms of a product."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "b03c4528-6106-4c1d-a5c5-8a7dbbcf6e4e",
+        "specification": "A tech startup is designing a wireless ergonomic mouse tailored for users who spend long hours at the computer. The design team develops prototypes with increasing fidelity over time.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:42:01.925Z",
+            "resultId": 2304
+          }
+        },
+        "currentRevisionId": 1693502,
+        "parts": [
+          {
+            "id": 1155356,
+            "content": "**Figure 1** shows foam models of the ergonomic mouse created to explore the contour of the grip and fit in the hand.\n\n![Image](https://pub-images.revisiondojo.com/question-images/f0db56de-4f9e-483b-8b13-a4e1a77157d9)\n\nState one reason why the designers created the model shown in **Figure 1** before developing a CAD model.",
+            "order": 0,
+            "markscheme": "- To quickly evaluate grip comfort and fit in the user\u2019s hand using a low-cost physical model. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155357,
+            "content": "Identify two characteristics of the foam or cardboard material that make it suitable for early-stage modelling.",
+            "order": 1,
+            "markscheme": "- Easy to cut and reshape into organic forms. <marks>1 mark</marks>\n- Inexpensive, allowing multiple design iterations. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155358,
+            "content": "A 3D CAD model is produced to digitally test button placement, hand fit, and battery compartment layout.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/8b96e508-d1ce-4b7c-a687-f3a056283f85)\n\nDescribe three types of insights the team might gain from creating the CAD model in **Figure 2**.",
+            "order": 2,
+            "markscheme": "- Ability to assess spatial relationships of components like batteries and sensors. <marks>1 mark</marks>\n- Check hand reach to buttons and scroll wheel virtually. <marks>1 mark</marks>\n- Test design aesthetics and surface curvature in software. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155359,
+            "content": "A fully functional prototype is then manufactured using 3D printing, featuring internal electronics and tested by users.\n\nSuggest two ways the model in **Figure 3** could provide more valuable feedback than the models in **Figures 1** and **2**.\n![Image](https://pub-images.revisiondojo.com/question-images/b0b470c1-d728-4acc-a439-e96e0f34a608)",
+            "order": 3,
+            "markscheme": "- Users can interact with the actual functionality such as clicking and scrolling. <marks>1 mark</marks>\n- The team can gather real-world performance data (e.g., latency, hand fatigue). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155360,
+            "content": "Explain how combining the use of **Figures 1**, **2**, and **3** supports a user-centred design process.",
+            "order": 4,
+            "markscheme": "- Figure 1 allows users to feel and comment on shape and grip early. <marks>1 mark</marks>\n- Figure 2 enables refining layout and ergonomics using virtual testing. <marks>1 mark</marks>\n- Figure 3 engages users in testing real interactions like clicks and navigation. <marks>1 mark</marks>\n- Together, they allow continuous feedback loops that prioritise the user experience. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155361,
+            "content": "Discuss the limitations of relying solely on either physical or virtual prototyping during the mouse development process.",
+            "order": 5,
+            "markscheme": "- Solely using physical prototypes can be time-consuming and costly with each iteration. <marks>1 mark</marks>\n- Physical models may not allow internal checks (e.g., circuit layout or button mechanics). <marks>1 mark</marks>\n- Virtual models can\u2019t test physical comfort or real-world handling. <marks>1 mark</marks>\n- CAD lacks tactile input, so it may misrepresent grip issues or material friction. <marks>1 mark</marks>\n- Neither approach alone may fully simulate wear-and-tear over time. <marks>1 mark</marks>\n- Using both methods ensures comprehensive evaluation across form and function. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b15d8c77-ddd3-45c8-8bf5-6d4456e11d1c",
+        "specification": "A design company is creating a desk lamp with an integrated wireless charging base for smartphones. The development process involves several prototyping techniques to test ergonomics, technical functionality, and user interaction.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1693503,
+        "parts": [
+          {
+            "id": 1155362,
+            "content": "A foam mock-up of the lamp is created to explore overall size, base reach, and switch placement.\n\n![Image](https://pub-images.revisiondojo.com/question-images/5f52a904-25f4-4a8d-952e-0658411b8115)\n\nState the main purpose of creating the foam prototype in **Figure 1**.",
+            "order": 0,
+            "markscheme": "To evaluate the proportions and ergonomics of the lamp's physical form. <marks>1 mark</marks>\n\n*Award [1] for a clear and valid reason related to spatial or ergonomic testing.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155363,
+            "content": "Describe three limitations of the foam prototype shown in **Figure 1**.",
+            "order": 1,
+            "markscheme": "Cannot simulate the weight distribution of real materials. <marks>1 mark</marks>\n\nDoes not allow testing of actual lighting or power delivery. <marks>1 mark</marks>\n\nLacks user interface functionality (e.g., switches or touch control). <marks>1 mark</marks>\n\n*Award [1] for each limitation clearly explained, up to [3 max].*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155364,
+            "content": "A CAD simulation is used to design the LED light, rotating arm joints, and wireless base.\n\n![Image](https://pub-images.revisiondojo.com/question-images/e62711d8-c675-4fb0-8805-293d16aac276)\n\nIdentify two design elements that could be tested using the CAD model in **Figure 2**.",
+            "order": 2,
+            "markscheme": "Internal component fit (LEDs, wires, coil, etc.) <marks>1 mark</marks>\n\nMovement and rotation of the adjustable lamp arm <marks>1 mark</marks>\n\n*Award [1] for each valid design element, up to [2 max].*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155365,
+            "content": "A functional 3D-printed prototype is assembled with electronics and wireless charging capabilities for user testing.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/5b80a73b-0705-445a-90e6-3334edc64c88)\n\nSuggest two types of user feedback that could be gathered using **Figure 3**.",
+            "order": 3,
+            "markscheme": "Feedback on ease of phone placement and charging consistency. <marks>1 mark</marks>\n\nFeedback on brightness levels and lighting angles. <marks>1 mark</marks>\n\n*Award [1] for each appropriate and specific feedback type.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155366,
+            "content": "Explain two benefits of progressing from **Figure 1** to **Figure 3** in terms of user feedback.",
+            "order": 4,
+            "markscheme": "Foam prototype (Figure 1) helps identify user comfort with switch and lamp height. <marks>1 mark</marks>\n\nCAD model (Figure 2) allows for visualization of component alignment before physical construction. <marks>1 mark</marks>\n\nFunctional prototype (Figure 3) provides real feedback on wireless charging and lighting performance. <marks>1 mark</marks>\n\nHelps assess usability and design flaws before final production. <marks>1 mark</marks>\n\n*Award [1] for each well-explained benefit, up to [4 max].*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155367,
+            "content": "Discuss how using progressive prototyping (**Figures 1** to **3**) supports design development and reduces production risk.",
+            "order": 5,
+            "markscheme": "Low-fidelity foam model allows early ergonomic testing with minimal cost. <marks>1 mark</marks>\n\nAvoids investing in electronics before confirming user-friendly layout. <marks>1 mark</marks>\n\nCAD simulation helps refine internal electronics and heat dissipation strategies. <marks>1 mark</marks>\n\nVirtual testing enables multiple iterations without material waste. <marks>1 mark</marks>\n\nFunctional prototype ensures product performs as expected with real users. <marks>1 mark</marks>\n\nIdentifies unforeseen issues before mass production, minimizing rework. <marks>1 mark</marks>\n\n*Award [1] for each relevant and well-supported point, up to [6 max].*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b57a8e75-24ea-4080-bcc3-3b390708a6ee",
+        "specification": "Why might a designer use both a digital model and a 3D-printed version of a product?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332965,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881890,
+            "content": "To complete final production faster",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881891,
+            "content": "To eliminate the need for client feedback",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881892,
+            "content": "To combine visual testing with physical interaction",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881893,
+            "content": "To validate emotional responses to the brand",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "bb7203a2-593e-4fd7-b8ea-6d2c0a08035b",
+        "specification": "What is a key benefit of physical prototyping in user testing?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332967,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881898,
+            "content": "Reduces the need for multidisciplinary teams",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881899,
+            "content": "Eliminates the need for material costing",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881900,
+            "content": "Provides real-world interaction that informs design improvements",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881901,
+            "content": "Speeds up mass production",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c39ed70e-c170-4232-99c0-f530e1de84c0",
+        "specification": "What principle does this process best reflect, where designers are quickly printing versions to test form and usability?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd8xhAa8zuElHMDz5rc42S9iFOSWa0bjK-1uowAn-S1UxZ0NbYuPdUHEevOGyzrZamy3wjPazCSHRCyjvqvZUpe_pwc4pMuXV6RHgSQ_Dg2oDFSiquWpAESI0iECFcmaD7zkTjM?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332982,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881958,
+            "content": "Low-fidelity wireframe sketching",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881959,
+            "content": "Rapid prototyping for iterative development",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881960,
+            "content": "Static persona modelling",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881961,
+            "content": "Software-based rendering for aesthetic testing",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c4dec611-e988-4ab8-9f72-c59a36ceb06a",
+        "specification": "Which statement best captures the difference between physical and virtual prototypes?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584556,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556233,
+            "content": "Physical prototypes are only used in marketing.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Physical prototypes are used throughout the design process for testing and user feedback, not just marketing."
+          },
+          {
+            "id": 4556234,
+            "content": "Physical prototypes allow tactile interaction; virtual ones simulate function digitally.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "This accurately reflects the primary distinction: physical prototypes are tangible (tactile), while virtual prototypes use digital simulations."
+          },
+          {
+            "id": 4556235,
+            "content": "Virtual prototypes are always more accurate.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Accuracy depends on the complexity of the model and the parameters being tested; virtual models may omit physical real-world variables."
+          },
+          {
+            "id": 4556236,
+            "content": "Virtual prototypes always require user interaction.",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Virtual prototypes can perform automated simulations (such as stress tests) without direct user interaction."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "ca942b93-7d88-437e-9ba6-435280fd7c3d",
+        "specification": "In the development of a consumer appliance, what is the purpose of early-stage sketches or CAD drawings?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584560,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556245,
+            "content": "To calculate manufacturing costs",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556246,
+            "content": "To refine and communicate design ideas",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556247,
+            "content": "To train users on how to use the product",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556248,
+            "content": "To simulate supply chain logistics",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "cdcc4b34-4c66-4064-aed5-5017a48746c4",
+        "specification": "When should designers use physical prototyping instead of virtual methods?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584577,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556277,
+            "content": "When performing structural simulations using finite element analysis (FEA)",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Finite element analysis (FEA) is a virtual modelling technique used to simulate stress and strain. It is a reason to choose virtual methods rather than physical prototyping."
+          },
+          {
+            "id": 4556278,
+            "content": "When user interaction and tactile feedback are essential",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Physical prototyping allows for the evaluation of human factors, such as tactile feedback, texture, and ergonomic fit, which are difficult to accurately simulate in a virtual environment.\n\n1 mark total <marks>A1</marks>"
+          },
+          {
+            "id": 4556279,
+            "content": "When exploring a large number of aesthetic variations rapidly at low cost",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Rapidly iterating multiple aesthetic variations is a key advantage of virtual CAD modelling, which is more cost-effective for early-stage exploration than building multiple physical models."
+          },
+          {
+            "id": 4556280,
+            "content": "When collaborating with a global design team in real-time",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Virtual models and digital collaboration tools are more effective for real-time design sharing across different geographical locations."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "e45b97b8-253d-4f08-a3d0-2f284ad182cf",
+        "specification": "What aspect of iterative design is represented by this team discussing feedback around a whiteboard covered with post-test observations?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc49vUWIf4qQFFcdRUQZQtXnffvENI0c6vpz4wRE-_8WM0Sg25GTg1q8NA0R7ovdkBTSFH6sZpHW5QJP2deMeiSRkMtFaaHXWuAHYxPfNrK7y_6cQDUx5NVqHR0tcw_nc1KdI36IA?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332981,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881954,
+            "content": "Brainstorming ideas before user research",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881955,
+            "content": "Scenario mapping for future product launches",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881956,
+            "content": "Testing electronic components for manufacturing defects",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881957,
+            "content": "Analysing results from prototype testing",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e4f29c3c-44fa-4195-8dca-fca13db013bb",
+        "specification": "Which of the following tools would most likely be used to explore and refine product form before physical prototyping?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584569,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556261,
+            "content": "A laser cutter",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556262,
+            "content": "A tensile strength tester",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556263,
+            "content": "A CAD drawing or hand sketch",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556264,
+            "content": "A 3D printer",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "ed1c5366-593b-47c5-a2e4-9d974e69d8df",
+        "specification": "This image best reflects which stage of the design process?\n\n![](https://pub-images.revisiondojo.com/notes/b7cc6841-2bea-4e0a-bf74-98dd8f8037fd.jpeg)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584600,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556325,
+            "content": "Exploring and refining ideas through sketches",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Sketches are a primary tool used during the 'generating design ideas' stage of the design process to explore, communicate, and refine concepts before moving to formal modeling or prototyping."
+          },
+          {
+            "id": 4556326,
+            "content": "Mass production",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Mass production occurs much later in the design cycle (Criterion D) after the design has been finalized and tested."
+          },
+          {
+            "id": 4556327,
+            "content": "Digital rendering",
+            "correct": false,
+            "order": 3,
+            "markscheme": "While digital rendering can be used to refine ideas, the image specifically shows hand-drawn sketches, which are characteristic of initial conceptual exploration."
+          },
+          {
+            "id": 4556328,
+            "content": "Physical prototyping",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Physical prototyping involves creating three-dimensional models (e.g., in cardboard or through 3D printing) rather than two-dimensional sketches."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "f4f64a07-1cd3-435d-967c-c9667a13a066",
+        "specification": "What is a major advantage of using CAD in early prototyping?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1332973,
+        "parts": [],
+        "options": [
+          {
+            "id": 3881922,
+            "content": "It ensures product success in the market",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3881923,
+            "content": "It allows designers to visualize and refine ideas",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3881924,
+            "content": "It automates packaging and distribution",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3881925,
+            "content": "It eliminates the need for real-world testing",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ff48be88-6d99-4b91-aeb8-17009859fcdf",
+        "specification": "The image shows a whiteboard with sticky notes, arrows, and labeled touchpoints. Which User-Centred Design (UCD) strategy is illustrated?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXffM5kGSWeTi0x-M1QQGzsXlyzUL6i_LfcXKNUrhCBlWl9-o4ribQ5PAOxhJy4NN9R6q14xL3SPYzHgeRfhq3HRjVX1TLqMK_sFGl9pQgwiTF0inX5TgPjx6p1kFM_Y-fdPuNbWvw?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:26:59.650Z",
+            "resultId": 1737
+          }
+        },
+        "currentRevisionId": 1691100,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930817,
+            "content": "Empathy mapping",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Empathy mapping captures what a user says, thinks, does, and feels; it does not primarily map a step-by-step sequence of touchpoints over time."
+          },
+          {
+            "id": 4930818,
+            "content": "Service blueprinting",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Service blueprinting maps frontstage and backstage processes behind a service; the image is focused on the user\u2019s touchpoints/journey rather than organisational layers and support processes."
+          },
+          {
+            "id": 4930819,
+            "content": "Cultural trend mapping",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Cultural trend mapping involves identifying broad societal shifts, whereas the image shows a specific user interaction process."
+          },
+          {
+            "id": 4930820,
+            "content": "User journey mapping",
+            "correct": true,
+            "order": 3,
+            "markscheme": "User journey mapping is a UCD strategy that visualizes the sequence of steps a user takes to achieve a goal, including touchpoints, pain points, and emotions."
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "41",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 56751,
+      "title": "A2.2 Prototyping techniques",
+      "slug": "ib-design-technology-new-a2-2-prototyping-techniques",
+      "parentTopicId": 56736
+    },
+    "subject": {
+      "id": 1,
+      "title": "Design Technology (First Exam 2027)",
+      "slug": "ib-design-technology-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "41",
+      "byQuestion": {}
+    }
+  }
+}

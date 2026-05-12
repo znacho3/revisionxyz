@@ -1,3 +1,817 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bce0bf15a95bc26dc5685829b572e63efd56758eeb26cca2e838e9c5f77a952c
-size 108612
+{
+  "json": {
+    "questions": [
+      {
+        "id": "250894ad-c975-4a3b-82b0-fec8c025a246",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": 7,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30856,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.1 Demand > 2.1.2 Demand curve ",
+              "title": "2.1.2 Demand curve ",
+              "labeledAt": "2026-03-06T15:35:36.117Z",
+              "reasoning": "Part (a) asks to explain why the demand curve is downward sloping, which directly concerns the shape/meaning of the demand curve.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30979,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.2 Behavioural economics in action (HL only)",
+              "title": "2.4.2 Behavioural economics in action (HL only)",
+              "labeledAt": "2026-03-06T15:35:36.117Z",
+              "reasoning": "Part (b) evaluates choice architecture (nudges), a core behavioural economics concept used to change consumer behaviour.",
+              "confidence": 0.84
+            },
+            {
+              "id": 9174,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.7 Role of government in microeconomics  > 2.7.2 Main forms of government intervention in markets",
+              "title": "2.7.2 Main forms of government intervention in markets",
+              "labeledAt": "2026-03-06T15:35:36.117Z",
+              "reasoning": "Choice architecture is a (non-coercive) form of government/policy intervention aimed at reducing consumption of demerit goods, fitting main forms of intervention in markets.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 769291,
+        "parts": [
+          {
+            "id": 977787,
+            "content": "Explain why the demand curve is downward sloping.",
+            "order": 0,
+            "markscheme": "Answers may include:\n\n### Definitions\n1. **Demand**: Various quantities of a good or service that consumers are willing and able to buy at different possible prices during a particular time period, ceteris paribus.\n2. **Demand Curve**: A graphical representation showing the inverse relationship between the price of a good and the quantity demanded.\n\n### Diagram\n- **Diagram**: A standard downward-sloping demand curve on a price-quantity graph.\n![Image](https://pub-images.revisiondojo.com/question-images/fd76ad77-9d76-491b-a8c7-32371b9f783b)\n\n  - **Indications**: \n    - The vertical axis represents price.\n    - The horizontal axis represents quantity demanded.\n    - The curve slopes downwards from left to right, illustrating the inverse relationship between price and quantity demanded.\n\n(Scale on axes not needed)\n\n### Explanation\n- The demand curve is downward sloping due to the **Law of Demand**, which indicates that: as the price of a good falls, the quantity demanded increases, and as the price rises, the quantity demanded decreases.\n- This negative relationship dictated by the Law of Demand is due to the underlying assumption of the law of diminishing marginal utility, and the income and substitution effects (HL only).\n- **Law of Diminishing Marginal Utility**:\n\t- Utility can be understood as the satisfaction obtained from consuming a good or service.\n\t- The Law of Diminishing Marginal Utility indicates that as more of a good is consumed, the additional satisfaction (marginal utility) gained from each extra unit decreases, and so consumers will only buy more of the good if its price falls.\n\t- Therefore, as consumers increase their quantity consumed, they are only willing to buy more if the price of the good falls.\n\t- This explains the negative relationship between price and quantity demanded.\n\n- **Income Effect**: \n\t- The income effect dictates that a decrease in the price of a good increases consumers' real income, allowing them to purchase more of the good, thus increasing quantity demanded.\n\t- It arises arises the price of a good changes but the income of the consumers who buy this good does not change.\n\t- If the price of a good increases, whereas the consumer's income remains constant, the consumer now can buy less of that good. This is because the real income or the purchasing power of the consumer has decreased.\n\t- Contrarily, if the price of a good decreases, whereas the consumer's income remains constant, the consumer now can buy more of that good. This is because the real income or the purchasing power of the consumer has increased.\n\t- Resultantly, this also causes the negative relationship between price and quantity demanded.\n\n- **Substitution Effect**: \n\t- The substitution effect indicates that when the price of a good decreases, it becomes relatively cheaper compared to substitutes, leading consumers to purchase more of the cheaper good.\n\t- It occurs when the price of a good changes but the prices of other substitute goods and the consumer's income remain constant.\n\t- If the price of a good increases, whereas consumer's income remain constant, consumers will buy less of the good because they will substitute it with cheaper alternatives. \n\t- If price decreases, they will substitute the now more expensive alternatives with the cheaper good.\n\t- Hence, this also causes the negative relationship between price and quantity demanded.\n  \n\n",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          },
+          {
+            "id": 977788,
+            "content": "Using real-world examples, evaluate choice architecture as a method of reducing the consumption of demerit goods.",
+            "order": 1,
+            "markscheme": "Answers may include:\n\n### Definitions\n\n1. **Choice Architecture**: The way in which options are showcased to decision-makers where there is emphasis on the design and environment to influence decisions..\n2. **Demerit Goods**: Goods that are not socially desirable but are over provided by the market.\n\n### Economic Theory\n\n- **Demerit goods causing market failure**\n\t- Demerit goods have negative consumption externalities: spillover costs passed on to third parties, from the consumption of a good, which is not reflected in the market price.\n\t- Hence, the marginal private benefit (MPB) consumers receive for the good is lower than the real marginal social benefit (MSB) society receives.\n\t- This is reflected in the diagram below. The demand curve represents the marginal private benefits, whereas the marginal social benefit curves are lower, separated by the spillover costs.\n\t- The marginal private costs (MPC) and marginal social cost (MSC) are represented by the supply curve, assuming no production externalities.\n\t- Since allocative efficiency occurs when MSB = MSC, but market equilibrium is dictated by MPB =MPC, the socially optimum quantity ($Q_{opt}$) is lower than the quantity produced by the market ($Q_m$). Therefore, there is overproduction of resources, welfare loss, allocative inefficiency, and hence market failure.\n\n![Image](https://pub-images.revisiondojo.com/question-images/709e85a4-af4a-418e-9af9-15fa3f95e160)\n\n- **Choice Architecture and Behavioral Economics**:\n  - Choice architecture involves structuring choices to lead individuals towards more desirable outcomes without restricting freedom of choice.\n  - It leverages insights from behavioral economics, such as biases and heuristics, to subtly guide consumer behavior.\n  - By altering the environment in which choices are made, such as product placement or default options, choice architecture can reduce the demand for demerit goods.\n  - For example, placing healthier options at eye level in stores can decrease the purchase of unhealthy snacks.\n  - Hence, as illustrated in the diagram below, a fall in demand caused by choice architecture would shift the demand to the left ($D_1 \\rightarrow D_2$). If the shift is large enough, this would establish a new market equilibrium at ($Q_{opt}$), hence correcting the market failure caused by the demerit goods.\n\n![Image](https://pub-images.revisiondojo.com/question-images/78d6a1a5-4c7d-4351-bbf6-16acc63041c8)\n\n### Evaluation\n\n**Arguments in Favor:**\n\n- Evidence-Based Effectiveness: Research shows that choice architecture interventions have a measurable positive impact, with small to medium effect sizes in reducing consumption of demerit goods.\n\n- Cost-Effective Implementation: Unlike traditional policies like regulation, choice architecture can be implemented at relatively low cost while preserving consumer freedom of choice.\n\n- Non-Coercive Nature: It maintains individual autonomy while gently guiding people toward better choices, making it more politically and socially acceptable than strict regulations.\n\n**Arguments Against:**\n\n- Lack of Government Revenue: unlike taxation, which can bring considerable government revenue especially in demerit goods with low PED, choice architecture does not increase government revenue.\n\n- Limited Long-Term Impact: The effects may be temporary or diminish over time as people become aware of and potentially resistant to the nudges.\n\n- Ethical Concerns: Some economists argue it's a form of manipulation, even if well-intentioned, as it can influence behavior without explicit awareness.\n\n- Variable Effectiveness: The impact varies significantly across different contexts and types of demerit goods, making it less reliable as a universal solution.\n\n**Real-world example**\n  - Real-world Example: The UK government's \"nudge unit\" (Behavioural Insights Team) successfully reduced unhealthy food consumption by altering cafeteria layouts, leading to a 25% reduction in junk food sales.\n\n### Conclusion\n\n- In conclusion, choice architecture uses behavioral economics to influence decision-making by restructuring how choices are presented, reducing demand for demerit goods without restricting freedom.\n- While choice architecture is cost-effective and non-coercive, it lacks government revenue generation, may have temporary effects, and raises ethical concerns about manipulation.\n- Yet, if carried out properly, it can bring promising results as illustrated by the UK's \"nudge unit\".",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "ef8d4880-a0c1-413b-ae05-d18551db272b",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2847f42f-9e9d-4304-a2d2-814b1cc26ed3",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30857,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.1 Demand > 2.1.3 Consumer and market demand",
+              "title": "2.1.3 Consumer and market demand",
+              "labeledAt": "2026-03-06T05:10:21.249Z",
+              "reasoning": "Part (a) directly asks to explain how individual consumer demand aggregates to market demand, which is the focus of 'Consumer and market demand'.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30978,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.1 Rational consumer choice (HL only)",
+              "title": "2.4.1 Rational consumer choice (HL only)",
+              "labeledAt": "2026-03-06T05:10:21.249Z",
+              "reasoning": "Part (b) evaluates assumptions behind rational consumer choice and their limitations using real-world examples, matching 'Rational consumer choice (HL only)'.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 781560,
+        "parts": [
+          {
+            "id": 980597,
+            "content": "Explain the relationship between an individual consumer\u2019s demand and\nmarket demand.",
+            "order": 0,
+            "markscheme": "Answers may include:\n\n### Definitions\n1. **Individual Demand**: The quantity of a good or service that a single consumer is willing and able to purchase at various prices over a given period of time.\n2. **Market Demand**: The total quantity of a good or service that all consumers in a market are willing and able to purchase at various prices over a given period of time.\n\n### Diagram\n- Sum of individual consumer demands making up for the total market demand:\n\n![Image](https://pub-images.revisiondojo.com/question-images/3c4fe638-8fdc-45f9-abad-abd03ce9e5f5)\n\n### Explanation\n- **Understanding Individual Demand**:\n  - Individual demand reflects a single consumer's preferences and purchasing power.\n  - Individual demand is influenced by factors such as income, tastes, and the prices of related goods.\n\n- **From Individual to Market Demand**:\n  - Market demand is the sum of all individual demands in a market.\n  - The diagram above illustrates how individual demand curves are horizontally summed to create the market demand curve.\n  - In turn, the market demand reflects the collective behavior of all consumers in the market.\n\n- **Factors Affecting Market Demand**:\n  - The market demand is influenced by changes in factors like consumer income, population size, and consumer preferences can shift the market demand curve.\n  - While individual demand is specific to one consumer, market demand is broader and reflects aggregate changes.\n\n\n",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          },
+          {
+            "id": 980598,
+            "content": "Using real-world examples, evaluate the view that the assumptions behind rational consumer choice have very few limitations.",
+            "order": 1,
+            "markscheme": "Examples may include:\n\n\n### Definitions\n1. **Rational Consumer Choice**: Economic theory where consumers make choices in their best self-interest trying to maximize utility.\n2. **Utility**: The satisfaction obtained from consuming a good or service.\n\n### Economic Theory\n- **Assumptions of Rational Consumer Choice**:\n  - Consumers have clear preferences and can rank different bundles of goods.\n  - Consumers aim to maximize utility.\n  - Consumers have perfect information about prices and products.\n  - Consumers are able to calculate the utility of different choices.\n  - Consumers face a budget constraint.\n\n- **Limitations of Rational Consumer Choice**:\n  - **Bounded Rationality**: Consumers have limited cognitive abilities and cannot process all available information.\n  - **Behavioral Economics**: Factors such as habits, emotions, and social influences can affect decision-making.\n  - **Imperfect Information**: Consumers often lack complete information about products and prices.\n  - **Time Inconsistency**: Preferences may change over time, leading to decisions that do not maximize long-term utility.\n\n### Diagram\n(No specific diagram is needed in this question)\n\n### Evaluation\n- **Real-World Example**: Consider the impact of advertising on consumer choice. For instance, in 2020, global advertising spending was approximately $586 billion, indicating the significant influence of marketing on consumer behavior.\n  - **Stakeholders**: Consumers, firms, and policymakers are affected by the assumptions of rational consumer choice. Firms may exploit consumer irrationality through marketing, while policymakers may need to regulate misleading advertisements.\n  - **Long-run vs. Short-run**: In the short run, consumers may make irrational choices due to advertising or social pressures. In the long run, they may learn from past experiences and adjust their behavior.\n  - **Advantages vs. Disadvantages**: Rational consumer choice provides a useful framework for understanding consumer behavior, but it oversimplifies real-world decision-making. Behavioral economics offers a more nuanced view by considering psychological factors.\n  - **Prioritize**: While rational consumer choice is a foundational theory, it is crucial to integrate insights from behavioral economics to better predict and understand consumer behavior.\n\n### Conclusion\n- The assumptions of rational consumer choice provide a basic framework but have significant limitations in real-world applications.\n- Behavioral economics offers valuable insights into consumer behavior by accounting for psychological and social factors.\n- Policymakers and firms should consider these limitations when designing policies and marketing strategies.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "ef8d4880-a0c1-413b-ae05-d18551db272b",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "384bc4da-111b-434d-8f95-5f23408fd2b7",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 287,
+        "difficulty": 7,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 30978,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.1 Rational consumer choice (HL only)",
+              "title": "2.4.1 Rational consumer choice (HL only)",
+              "labeledAt": "2026-03-05T17:05:01.389Z",
+              "reasoning": "The question directly focuses on rational consumer choice theory and its assumptions, which is the primary subject of this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 30979,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.2 Behavioural economics in action (HL only)",
+              "title": "2.4.2 Behavioural economics in action (HL only)",
+              "labeledAt": "2026-03-05T17:05:01.389Z",
+              "reasoning": "Evaluating the extent to which rational choice matches real-world observations involves discussing behavioral economics, including biases and heuristics that contradict the rational model.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1413045,
+        "parts": [
+          {
+            "id": 1028635,
+            "content": "Using real-world examples, evaluate the view that the assumption behind rational consumer choice theory is a close approximation to real-world observations in consumer behaviour.",
+            "order": 0,
+            "markscheme": "Answers may include: \n\n### Definition\n\n- **Rational Consumer Choice Theory**: Economic theory where consumers make choices in their best self-interest trying to maximize utility.\n\n- **Utility**: The satisfaction or benefit obtained from consuming a good or service.\n\n- **Bounded Rationality**: The idea that individuals are limited by the information they have, cognitive biases, and the finite time available to make decisions.  \n\n### Economic Theory\n\n- Rational consumer choice theory assumes that consumers have complete information about prices and product characteristics, and they consistently rank their preferences to maximize utility\n- A critical component is diminishing marginal utility, where each additional unit of consumption yields a smaller increase in total utility influencing consumer decision making, guiding rational consumers to allocate their income to maximize overall satisfaction.  \n- The consumer\u2019s optimal choice is typically represented using budget lines and indifference curves, indicating the combination of two goods that yields equal utility.  \n- In many real-world situations, consumers do not always act with perfect rationality because:  \n  - Information asymmetry exists in markets (e.g., consumers may not know every product detail).  \n  - Cognitive biases such as anchoring, framing, and loss aversion distort decision-making.  \n  - Habitual or impulsive buying can override utility maximization (e.g., loyalty to specific brands despite cheaper alternatives).  \n\n- Behavioral economics highlights these deviations and posits that consumers may use mental shortcuts (heuristics) to make decisions under uncertainty which comes from limited cognitive resources and time. This challenges the assumption that rational consumer choice theory provides a complete description of real consumer behavior.  \n\n### Diagram\n\nNo particular Diagram needs to be used\n\n### Evaluation\n\n- **Short-Run Impact:**  \n  - Rational choice theory can predict price and income effects in the short term, especially for familiar goods where consumers have experience and information. For example, when the price of gasoline increases rapidly, many consumers reduce non-essential trips, reflecting rational budget allocation.  \n  - However, notable deviations occur when brand loyalty or impulsive buying prevails, such as sudden surges in demand for new smartphone models despite higher prices.  \n  \n- **Long-Run Impact:**\n\n  - Over time, better consumer education and greater market transparency can increase the reliability of rational choice predictions. Government transparency initiatives, such as \u201cclear labelling\u201d laws in the European Union, have improved consumer access to product information, aligning purchases more closely with rational choice assumptions.  \n  - Increasing evidence from behavioral economics suggests that entrenched biases can persist. A study by the Behavioural Insights Team in the UK found that default enrollment in pension schemes drastically raised participation rates, indicating that inertia and bounded rationality significantly affect long-term decisions.  \n\n- **Real World Examples:**  \n\n  - Initially, the concept of rational choice guided policies such as expanded consumer choice in privatized industries (telecoms, energy) with the assumption that consumers would choose the cheapest or best-value providers. For instance, in the early 2000s, markets were liberalized across many EU nations, expecting that informed consumers would reward cost-effective providers.  \n  - Over time, policymakers recognized issues such as information overload and inconsistent consumer decisions. The Office of Gas and Electricity Markets (Ofgem) in the UK noted that many households stuck with long-standing energy providers without switching to cheaper deals, challenging the assumption of fully rational behavior.  \n  - More recently, experiments run by the University of Chicago\u2019s Booth School of Business highlighted how emotional triggers can lead to irrational spending and the overvaluation of certain products. Data showed that loyalty to popular smartphone brands transcended rational price\u2013feature comparisons, illustrating a persistent gap between theoretical predictions and actual consumer choices.  \n\n### Conclusion\n\n- The assumptions behind rational consumer choice theory provide a useful framework for understanding price responses and basic consumer decision-making. However, real-world observations often reveal persistent cognitive biases, incomplete information, and habit-related behaviors that deviate from pure rationality.  \n- In many cases, the predictions of rational choice theory are a good starting point, but the growing body of behavioral evidence indicates that these assumptions are not always a close approximation to real-life consumer behavior.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "a6479184-6cac-4792-8d93-b55bce8eb639",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "38876237-7387-4302-b3b9-5501d3322667",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 30979,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.2 Behavioural economics in action (HL only)",
+              "title": "2.4.2 Behavioural economics in action (HL only)",
+              "labeledAt": "2026-03-05T15:13:17.534Z",
+              "reasoning": "Choice architecture is a core concept within behavioral economics, involving techniques like nudges, defaults, and framing to influence consumer choice, which is directly covered under 'Behavioural economics in action'.",
+              "confidence": 1
+            },
+            {
+              "id": 30973,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.3 Competitive Market Equilibrium > 2.3.2 Shifting demand and supply curves to produce a new market equilibrium",
+              "title": "2.3.2 Shifting demand and supply curves to produce a new market equilibrium",
+              "labeledAt": "2026-03-05T15:13:17.534Z",
+              "reasoning": "The question asks how these behavioral interventions shift consumer or producer behavior to change the market equilibrium, which involves shifting the demand or supply curves.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1412960,
+        "parts": [
+          {
+            "id": 1028549,
+            "content": "Explain how choice architecture can be used to influence market equilibrium.",
+            "order": 0,
+            "markscheme": "Definition:\n\u2022 Choice Architecture: The way options are presented to decision-makers, influencing the decisions they make without removing freedom of choice.  \n\u2022 Nudge: A feature of choice architecture that gently steers individuals toward more desirable behaviors or outcomes, while still allowing them to choose freely.  \n\u2022 Market Equilibrium: The point where quantity demanded equals quantity supplied, determining the price at which the market clears.\n\nEconomic Theory:\n\u2022 Behavioral economics underlines that consumers and producers do not always act rationally and can be influenced by how choices are framed.  \n\u2022 Choice architecture can alter decision-making processes by changing the context or \u201cenvironment\u201d in which a choice is made, shifting demand or supply curves.  \n\u2022 A nudge can influence consumer behavior. For example, altering product placement on store shelves or providing default options such as automatic enrollment in a savings plan can lead to higher demand for certain goods or services.  \n\u2022 If a nudge increases consumer preference or awareness for a good, the demand curve shifts to the right from D to D1. This leads to a higher equilibrium price and quantity (from P to P1 and Q to Q1), as consumers are more willing to purchase the product at a range of prices.  \n\u2022 Similarly, firms might be influenced by choice architecture through regulations or incentives that encourage certain production methods or product lines, shifting the supply curve. For instance, subsidies or streamlined procedures for eco-friendly production can shift the supply curve to the right (from S to S1), lowering the price and increasing quantity at the new equilibrium.  \n\u2022 The underlying assumption is that gentle guidance can shape market outcomes more effectively than imposing strict regulations or bans, while preserving individual choice.  \n\u2022 Over time, if nudges become widespread, they can create sustained shifts in both demand and supply, eventually altering the market equilibrium more permanently.  \n\u2022 When carefully designed, choice architecture can reduce market inefficiencies by better aligning consumer and producer decisions with socially or individually optimal outcomes, ultimately influencing the market equilibrium to reflect those preferences.\n\nDiagram:\n\u2022 A standard demand and supply diagram showing either a shift in the demand curve or the supply curve resulting in a new equilibrium (E to E1). The new equilibrium price (P1) and quantity (Q1) illustrate how market outcomes are influenced by changes in behavior due to choice architecture.",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "49a575fe-a0e5-4f01-9436-19048a117712",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-economics-49a575fe-a0e5-4f01-9436-19048a117712-1771953858540",
+            "generatedAt": "2026-02-26T06:15:56.165Z",
+            "sourceRevisionId": 1107558
+          },
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30979,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.2 Behavioural economics in action (HL only)",
+              "title": "2.4.2 Behavioural economics in action (HL only)",
+              "labeledAt": "2026-03-05T17:02:18.452Z",
+              "reasoning": "Part (a) specifically asks for an evaluation of behavioral economics as a framework for understanding consumer choice.",
+              "confidence": 1
+            },
+            {
+              "id": 30980,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.3 Business objectives (HL only)",
+              "title": "2.4.3 Business objectives (HL only)",
+              "labeledAt": "2026-03-05T17:02:18.452Z",
+              "reasoning": "Part 0 focuses on alternative business objectives by comparing revenue maximization to profit maximization.",
+              "confidence": 1
+            },
+            {
+              "id": 30978,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.1 Rational consumer choice (HL only)",
+              "title": "2.4.1 Rational consumer choice (HL only)",
+              "labeledAt": "2026-03-05T17:02:18.452Z",
+              "reasoning": "Part (a) requires a direct comparison and evaluation against the traditional rational consumer choice model.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1687798,
+        "parts": [
+          {
+            "id": 1148924,
+            "content": "Explain why a firm might prioritize the objective of revenue maximization over profit maximization.",
+            "order": -1,
+            "markscheme": "Answers may include:\n\n**Definitions (Key Terms)**\n- **Profit Maximization:** The business objective where a firm attempts to maximize the difference between total revenue and total cost. This occurs at the level of output where marginal cost equals marginal revenue ($MC = MR$).\n- **Revenue Maximization:** The business objective where a firm attempts to maximize total sales revenue, which occurs at the level of output where marginal revenue is zero ($MR = 0$).\n\n**Diagram**\n\n![Revenue Maximization vs Profit Maximization](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-economics-49a575fe-a0e5-4f01-9436-19048a117712-1771953858540/e72e6b8d-305d-483c-8a28-a55679728093.jpeg)\n\n- Standard firm diagram with $AR$, $MR$, $AC$, and $MC$ curves.\n- Identification of the profit-maximizing point ($Q_{pm}$ where $MC=MR$) and corresponding price ($P_{pm}$).\n- Identification of the revenue-maximizing point ($Q_{rm}$ where $MR=0$) and corresponding price ($P_{rm}$).\n- The diagram should clearly show that $Q_{rm} > Q_{pm}$ and $P_{rm} < P_{pm}$.\n\n**Explanation/Economic Theory**\n- **Market Share and Dominance:** Firms may prioritize revenue to capture a larger market share. By lowering prices to the point where $MR=0$, they can attract more customers away from competitors and establish market dominance.\n- **Managerial Objectives (Principal-Agent Problem):** Managers may be rewarded based on sales targets or the size of the firm rather than absolute profits. This creates an incentive for managers to push output toward revenue maximization.\n- **Economies of Scale:** Higher levels of output ($Q_{rm}$) may allow the firm to benefit from significant technical or marketing economies of scale, lowering long-run average costs and potentially increasing profitability in the future.\n- **Predatory Pricing:** A firm might intentionally maximize revenue/output in the short run to drive smaller competitors out of the market by keeping prices low, allowing for higher profits later on.\n- **Satisficing:** A firm may aim for a target level of profit that satisfies shareholders while focusing on revenue growth to please other stakeholders or achieve prestige.",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          },
+          {
+            "id": 1148925,
+            "content": "Using real-world examples, evaluate the view that behavioral economics provides a more useful framework for understanding consumer choice than the traditional rational consumer model.",
+            "order": 0,
+            "markscheme": "Answers may include:\n\n### Definitions\n- **Rational Consumer Model:** The traditional assumption that consumers have perfect information, consistent preferences, and always act to maximize their total utility given a budget constraint.\n- **Behavioral Economics:** A branch of economics that incorporates psychological insights into human behavior to explain why individuals often make decisions that deviate from the rational model.\n- **Cognitive Biases:** Systematic errors in thinking that affect the decisions and judgments people make (e.g., anchoring, framing, availability bias).\n\n### Economic Theory & Diagram\n\n![Choice Architecture and Organ Donation](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-economics-49a575fe-a0e5-4f01-9436-19048a117712-1771953858540/f48ed967-d1bd-4785-b75c-3ff3815934d1.jpeg)\n\n- **Limitations of the Rational Model:**\n\t- **Bounded Rationality:** Consumers have limited computational capacity and time to process all available information, leading them to \"satisfice\" rather than maximize.\n\t- **Bounded Willpower:** Humans often prioritize short-term gratification over long-term interests (e.g., spending instead of saving for retirement).\n\t- **Bounded Self-Interest:** People often act altruistically (charity, volunteering) in ways the pure utility-maximization model struggles to explain.\n- **Role of Nudge Theory:**\n\t- **Choice Architecture:** Designing how choices are presented to influence decision-making without restricting freedom (e.g., default options).\n\t- **Anchoring:** Consumers rely too heavily on the first piece of information offered (the \"anchor\").\n\t- **Framing:** The way a choice is presented (e.g., \"90% fat-free\" vs. \"10% fat\") influences the outcome.\n\n### Evaluation\n- **Utility of Behavioral Economics:** It explains real-world anomalies that the rational model misses, such as the low uptake of pension savings or organ donation when the system is \"opt-in.\"\n- **Policy Effectiveness:** Governments can use low-cost \"nudges\" (e.g., placing healthy food at eye level in school cafeterias) to improve social outcomes without expensive taxes or subsidies.\n- **Limitations of Behavioral Economics:** \n  - **Paternalism:** Critics argue that choice architecture can be manipulative and undermine individual autonomy.\n  - **Context Dependency:** Nudges that work in one culture or demographic might fail in another.\n  - **Sustainability:** Long-term behavior change might still require traditional interventions like legislation or financial incentives (e.g., a nudge may encourage recycling, but a plastic tax might be more effective at scale).\n- **Conclusion:** While the rational model provides a simple baseline for analysis, behavioral economics offers a more realistic toolkit for predicting actual human responses and designing effective public policy.\n\n### Real-World Examples\n- **Pension Savings (UK/USA):** The shift from \"opt-in\" to automatic enrollment (default choice) significantly increased retirement savings rates, illustrating bounded willpower and status quo bias.\n- **Organ Donation (Europe):** Higher consent rates in \"opt-out\" countries (Austria) compared to \"opt-in\" countries (Germany) demonstrate the power of default bias.\n- **Product Pricing (Apple/Starbucks):** Using \"decoy\" products or high anchors to make mid-range options look like better value.\n- **Energy Bills:** Utilities including \"social proof\" (comparing a household's energy use to their neighbors') to nudge people toward conservation.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "ef8d4880-a0c1-413b-ae05-d18551db272b",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "53c02558-c19e-45ea-b3b8-4c26ffc94509",
+        "specification": "A country\u2019s government is considering a subsidy program to promote renewable energy production. Use the following information to answer the questions:\n\nThe government plans to allocate $500 million in subsidies.\nThe price elasticity of supply for renewable energy is 1.50.\n",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 287,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 9170,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.6 Elasticity of supply > 2.6.1 Price elasticity of supply (PES)",
+              "title": "2.6.1 Price elasticity of supply (PES)",
+              "labeledAt": "2026-03-06T15:38:33.688Z",
+              "reasoning": "Part (a) explicitly uses price elasticity of supply (PES=1.50) to calculate the percentage change in output from a percentage change in production costs (a supply-side change).",
+              "confidence": 0.9
+            },
+            {
+              "id": 9174,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.7 Role of government in microeconomics  > 2.7.2 Main forms of government intervention in markets",
+              "title": "2.7.2 Main forms of government intervention in markets",
+              "labeledAt": "2026-03-06T15:38:33.688Z",
+              "reasoning": "The policy instrument is a subsidy program, which is a main form of government intervention in markets; part (b) asks for discussion of long-run impacts.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30977,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.3 Competitive Market Equilibrium > 2.3.6 Allocative efficiency at the competitive market equilibrium",
+              "title": "2.3.6 Allocative efficiency at the competitive market equilibrium",
+              "labeledAt": "2026-03-06T15:38:33.688Z",
+              "reasoning": "Part (b) asks about long-term market efficiency impacts; this aligns with allocative efficiency considerations and how interventions may improve or worsen efficiency.",
+              "confidence": 0.65
+            },
+            {
+              "id": 30992,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.12 The market\u2019s inability to achieve equity (HL only) > 2.12.1 The market\u2019s inability to achieve equity ",
+              "title": "2.12.1 The market\u2019s inability to achieve equity ",
+              "labeledAt": "2026-03-06T15:38:33.688Z",
+              "reasoning": "Part (b) explicitly asks about equity impacts; this fits the market\u2019s inability to achieve equity and distributional consequences of interventions.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 813825,
+        "parts": [
+          {
+            "id": 914996,
+            "content": "Calculate the percentage increase in renewable energy output if the subsidy results in a 20% reduction in production costs.\n",
+            "order": 0,
+            "markscheme": "1. Correct formula and application of price elasticity of supply:\n   \n   $$\\text{PES} = \\frac{\\text{Percentage change in quantity supplied}}{\\text{Percentage change in price}}$$\n   \n   $$1.50 = \\frac{\\text{Percentage change in quantity supplied}}{20\\%}$$\n   \n   $$\\text{Percentage change in quantity supplied} = 1.50 \\times 20\\%$$\n   \n   $$\\text{Percentage change in quantity supplied} = 30\\%$$\n\n   <marks>1 mark</marks>\n\n2. Correct final answer: 30%\n\n   <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 914997,
+            "content": "Using real-world examples, discuss how this subsidy could impact market efficiency and equity in the long term.",
+            "order": 1,
+            "markscheme": "1. Efficiency impacts (positive):\n   - Corrects positive externalities in production/consumption <marks>1 mark</marks>\n   - Increases renewable energy production, reducing negative externalities from non-renewables <marks>1 mark</marks>\n   - Promotes innovation and technological advancement in renewable sector <marks>1 mark</marks>\n   - Helps achieve socially optimal level of production <marks>1 mark</marks>\n\n2. Efficiency impacts (negative):\n   - May lead to government failure through misallocation of resources <marks>1 mark</marks>\n   - Creates opportunity cost of government spending <marks>1 mark</marks>\n   - May create dependency/inefficiency in renewable sector <marks>1 mark</marks>\n\n3. Equity impacts:\n   - May improve intergenerational equity through environmental protection <marks>1 mark</marks>\n   - Could reduce energy costs for low-income households if passed on <marks>1 mark</marks>\n   - Potential regressive effects if funded through general taxation <marks>1 mark</marks>\n   - May create regional inequities depending on subsidy distribution <marks>1 mark</marks>\n\n<note>Award up to 10 marks maximum. Award marks for relevant real-world examples that illustrate the points made. Award marks for appropriate diagrams that support the analysis.</note>",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2f8589b1-5ed0-4b1b-a501-a5746c7ca60a",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6df56e1c-34cf-46b9-bfa3-9e395a17f3b2",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": 7,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Economics-14M.1.HL.TZ2.2",
+          "labeledSubSubTopics": [
+            {
+              "id": 9200,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.11 Market failure - market power (HL only)  > 2.11.8 Monopolistic competition",
+              "title": "2.11.8 Monopolistic competition",
+              "labeledAt": "2026-03-06T15:38:54.914Z",
+              "reasoning": "Part (a) explicitly asks about allocative inefficiency in monopolistic competition; part (b) compares outcomes under monopolistic competition with a single-firm dominated market.",
+              "confidence": 0.92
+            },
+            {
+              "id": 9195,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.11 Market failure - market power (HL only)  > 2.11.2 Monopoly - single or dominant firm, high barriers to entry, no close substitutes",
+              "title": "2.11.2 Monopoly - single or dominant firm, high barriers to entry, no close substitutes",
+              "labeledAt": "2026-03-06T15:38:54.914Z",
+              "reasoning": "Part (b) evaluates whether a market dominated by a single firm (monopoly/dominant firm) is more beneficial for consumers than monopolistic competition, requiring monopoly characteristics and welfare implications.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30977,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.3 Competitive Market Equilibrium > 2.3.6 Allocative efficiency at the competitive market equilibrium",
+              "title": "2.3.6 Allocative efficiency at the competitive market equilibrium",
+              "labeledAt": "2026-03-06T15:38:54.914Z",
+              "reasoning": "Part (a) focuses on allocative efficiency (P=MC condition) and why it is not achieved under monopolistic competition; this concept is captured directly by the allocative efficiency topic.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1136917,
+        "parts": [
+          {
+            "id": 890403,
+            "content": "Explain why companies in monopolistic competition are not allocatively efficient.",
+            "order": 0,
+            "markscheme": "**Answers may include:**\n\n**Definition**  \n- **Monopolistic competition**: A market structure where there are many sellers offering products that are similar but not identical, each having some degree of market power due to product differentiation.  \n- **Allocative efficiency**: Occurs when a good or service is produced up to the point where the price consumers pay (which reflects marginal benefit) equals the marginal cost of production (P = MC).  \n\n---\n\n**Explanation/Economic Theory**  \n- In monopolistic competition, firms face a **downward-sloping demand curve** because of product differentiation.  \n- Even though there are many firms, each firm retains some **price-setting power** due to brand loyalty and slightly unique product features.  \n- **Profit maximization** for each firm occurs where **marginal revenue (MR) = marginal cost (MC)**, leading to a profit-maximizing output Q*.  \n- Since the demand curve is not perfectly elastic, the **price (P) at Q\\*** is greater than MC.  \n- **Allocative efficiency** requires P = MC so that resources are allocated to produce exactly the quantity society desires at the lowest opportunity cost.  \n- In monopolistic competition, because **P > MC**, there is a **deadweight loss** and an underproduction relative to the socially optimal output.  \n- In the **long run**, firms enter the market if there are abnormal profits, and exit if there are losses, eventually leading to **normal profit** (P = ATC). However, **P still remains above MC**, so allocative inefficiency persists.  \n\n---\n\n**Diagram**  \n![Image](https://pub-images.revisiondojo.com/question-images/8b3800f0-a53d-450f-81cb-037b81995b89)\n- A standard monopolistic competition diagram in **long-run equilibrium** can illustrate this.  \n- The firm\u2019s **demand curve** (AR) is downward sloping, and the **MR** curve lies below it.  \n- The firm produces where **MR = MC**, determining Q\\*.  \n- The **price (P\\*)** is found on the demand (AR) curve at Q\\*, which is above MC, reflecting the firm\u2019s price-making ability.  \n- **ATC** touches AR at exactly the point of Q\\*, signifying normal profit.  \n- The gap between **P\\*** and **MC** shows the lack of allocative efficiency, leading to a deadweight loss.  \n\n---\n\n**Conclusion**  \n- Monopolistic competition features product differentiation and limited market power, allowing firms to set prices above marginal cost.  \n- The key reason for the lack of allocative efficiency is that **P remains above MC**, causing an underallocation of resources compared to the socially optimal level of output.  \n- Even in the long run, when profits normalize, this **markup of price over marginal cost** persists, ensuring that firms in monopolistic competition are not allocatively efficient.  \n",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          },
+          {
+            "id": 890404,
+            "content": "Using real-world examples, evaluate whether it is more beneficial for consumer a market for a market to be dominated by a single firm or shared by many small firms operating under monopolistic competition.",
+            "order": 1,
+            "markscheme": "**Answers may include:**\n\n**Definition**  \n- **Monopoly**: A market structure where a single firm dominates the entire market, facing no close substitutes for its product, and holding significant market power to set prices.  \n- **Monopolistic competition**: A market structure where many firms produce differentiated products, with each firm holding some degree of market power due to product differentiation, but with relatively free entry and exit.  \n- **Consumer welfare**: The overall well-being of consumers in terms of utility or satisfaction derived from the consumption of goods and services, often reflected through price, quality, and choice.  \n\n---\n\n**Explanation/Economic Theory**  \n- In a monopoly:  \n  - A single firm faces the entire market demand curve.  \n  - There is potential to earn abnormal (economic) profits in both the short run and long run due to high barriers to entry (e.g., patents, economies of scale, government regulations).  \n  - The monopolist can set either the price or the quantity (but not both simultaneously), often leading to higher prices and lower output than in a more competitive market.  \n  - This can lead to allocative inefficiency because price (P) tends to be higher than marginal cost (MC), and consumer surplus is often reduced.  \n\n- In monopolistic competition:  \n  - Each firm has a downward-sloping demand curve due to product differentiation (branding, marketing, and unique features).  \n  - Firms can make short-run abnormal profits, but in the long run, the absence of high barriers to entry means new firms can enter if they see existing firms earning profits.  \n  - As new entrants increase competition, firms lose market share and prices are driven closer to average cost (AC), leading to normal profit in the long run.  \n  - Consumers benefit from more choice and product variety, but there may be excess capacity and slightly higher prices compared to perfect competition because of differentiation and related costs (e.g., marketing).  \n\n- Link to consumer welfare:  \n  - Monopoly markets: Potential for higher prices, restricted output, and less variety, but economies of scale from a large single firm can translate into lower average costs if produced on a large scale. These cost savings may or may not be passed on to consumers, depending on how the monopolist exercises its market power.  \n  - Monopolistic competition: Greater product variety and competition typically encourage innovation and responsiveness to consumer preferences. However, inefficiencies can occur because each firm produces below full capacity and invests in non-price competition (e.g., advertising), potentially driving up average costs.  \n---\n\n**Diagram**  \n![Image](https://pub-images.revisiondojo.com/question-images/314f8090-f966-4a4e-8cdd-d9a4f04b0d37)\n- **Monopoly diagram** :  \n  - Downward-sloping demand (AR) curve and a steeper MR curve below it.  \n  - Equilibrium occurs where MR = MC; the monopolist sets the price above MC.  \n  - Consumer surplus is shown as the area under the demand curve and above the price, typically smaller compared to a competitive market.  \n\n- **Monopolistic competition diagram** :  \n![Image](https://pub-images.revisiondojo.com/question-images/a1dfc067-04ef-4f84-ab49-bccc838b8cbf)\n  - Short-run: A firm\u2019s demand is relatively elastic, with MR below AR, and the firm can make abnormal profit where MR = MC and price is above AC.  \n  - Long-run: Entry of new firms shifts the demand (AR) curve left until it just touches AC, leading to normal profits.  \n\nAnnotations might show how price is set above marginal cost for both structures but with different long-run outcomes for profits and consumer surplus.  \n\n---\n\n**Evaluation**  \n- **Short-run and long-run effects**  \n  - **Monopoly**:  \n    - Short run: Higher potential for abnormal profits and potential for lower consumer surplus.  \n    - Long run: May incentivize innovation and research (e.g., pharmaceuticals) due to secure profit, but can maintain high prices if there are barriers to entry.  \n  - **Monopolistic competition**:  \n    - Short run: Some firms make abnormal profits due to differentiation.  \n    - Long run: Profits driven down to normal levels by new market entrants, ensuring broader consumer choice but maintaining some inefficiency.  \n\n- **Real-world examples**  \n  - Some US technology firms, such as Google, have dominated specific markets (online search) since the mid-2000s. This dominance can enable large investments in R&D and user-friendly platforms, potentially improving product quality. However, concerns about reduced competition often arise, illustrated by antitrust cases initiated in 2020 and 2023 that claim harm to consumer choice.  \n  - The fast-food industry in many countries since the 2000s demonstrates monopolistic competition with numerous firms like McDonald\u2019s, Burger King, and smaller local players. Consumers experience differentiated products, constant price competition, and frequent new menu items. Yet, marketing costs and branding efforts may inflate average costs, reflected in prices that are still higher than they might be under perfect competition.  \n\n  - **Evaluation of consumer benefit**:  \n    - A single dominant firm can sometimes benefit consumers if economies of scale and innovation are passed on in the form of lower prices and better products. However, lack of competition can result in limited choice and potentially higher prices.  \n    - Many small firms under monopolistic competition may better satisfy diverse consumer preferences and keep prices relatively lower in the long run through competition, but wasteful advertising and inefficiencies can raise costs and prices above perfectly competitive levels.  \n    - In practice, assessing consumer benefit depends on how effectively the dominant firm uses its market power (beneficial innovation vs. price gouging) and how efficiently many smaller firms manage product differentiation (providing real choice vs. superficial branding).  \n\n---\n**Conclusion**  \n  - It can be more beneficial for consumers to have many firms competing, as choice, innovation, and price competition can enhance welfare in the long run. \n  - However, if a monopoly successfully exploits economies of scale to provide lower prices and invests in consumer-driven innovation, consumers might also benefit.  \n  - The ultimate outcome depends on the firm\u2019s conduct, regulatory frameworks to check monopoly power, and the extent to which product differentiation in monopolistic competition genuinely aligns with consumer demands.\n\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "ef8d4880-a0c1-413b-ae05-d18551db272b",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "82afb333-734f-446b-9444-1d107e1b973e",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Economics-21M.1.SL.TZ0.2",
+          "labeledSubSubTopics": [
+            {
+              "id": 9174,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.7 Role of government in microeconomics  > 2.7.2 Main forms of government intervention in markets",
+              "title": "2.7.2 Main forms of government intervention in markets",
+              "labeledAt": "2026-03-05T17:06:34.960Z",
+              "reasoning": "The question directly asks for an analysis and evaluation of price floors and price ceilings, which are the primary examples of government intervention forms categorized in this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 9173,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.7 Role of government in microeconomics  > 2.7.1 Reasons for government intervention in markets",
+              "title": "2.7.1 Reasons for government intervention in markets",
+              "labeledAt": "2026-03-05T17:06:34.960Z",
+              "reasoning": "The question requires evaluating the effectiveness of these policies in achieving specific goals, such as protecting low-income consumers or supporting farmers, which relates to the reasons for government intervention.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 877323,
+        "parts": [
+          {
+            "id": 893637,
+            "content": "Explain the impact of a price floor in a farming market on consumers, producers, and the government.",
+            "order": 0,
+            "markscheme": "Answers may include:\n\n### Definitions\n\n1. **Price Floor**: A minimum price set by the government for a good, above the equilibrium price.\n2. **Consumer Surplus**: The difference between the highest price consumers are willing to pay for a good or service and the actual price they end up paying.\n3. **Producer Surplus**: The difference between the price sellers receive and the lowest price that they are willing and able to accept.\n\n### Diagram\n\nDiagram Required: Market diagram for a price floor.\n\n![Image](https://pub-images.revisiondojo.com/question-images/de90f789-48e5-484e-b012-d730a4931db3)\n\n### Explanation\n\n- A price floor is implemented to support farmers\u2019 income by ensuring a higher selling price than the equilibrium. This distorts market outcomes.\n- Consumers: Higher price reduces quantity demanded, leading to a loss of consumer surplus.\nSome consumers are priced out of the market, reducing overall welfare.\n- Producers: Higher price increases producer revenue as they sell at a guaranteed higher price.\n- However, producers face excess supply, as they produce more than what consumers demand.\n- Government: To maintain the price floor, the government may purchase the surplus, incurring a budgetary cost.\n- This can lead to opportunity costs, as funds could have been used elsewhere (e.g., education, healthcare).\n- If the government stores or exports the surplus, it may face additional costs.\n- Market Inefficiency: Deadweight loss (DWL) arises as there is overproduction and underconsumption, leading to a misallocation of resources.\n- The presence of excess supply may lead to black markets, where farmers try to sell their products at a lower price illegally.\n\n",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          },
+          {
+            "id": 893638,
+            "content": "Using real-world examples, evaluate the effectiveness of a price ceiling as a policy to protect low-income consumers.",
+            "order": 1,
+            "markscheme": "Answers may include:\n\n### Definitions\n\n**Price Ceiling**: A maximum price, below the equilibrium price, set by the government for a particular good or service.\n**Consumer Surplus**: The difference between the highest price consumers are willing to pay for a good or service and the actual price they end up paying.\n**Shortage**: The excess of quantity demanded over quantity supplied.\n\n### Economic Theory\n\n- A price ceiling is introduced by the government to ensure affordability of essential goods (e.g., food, rent, medicine).\n- Market Mechanism Before Intervention:\n\t- At equilibrium, demand and supply are balanced.\n\t- Consumers purchase at the equilibrium price, and producers sell at this price.\n- Impact of Price Ceiling:\n\t- The new price ceiling is set below equilibrium price \u2192 quantity demanded increases, quantity supplied decreases, leading to a shortage.\n- **Consumers:** \n- Some consumers benefit from lower prices.\n- Others lose out due to shortages, leading to long queues and black markets.\n\n- **Producers:**\n- Lower price \u2192 less revenue and profit, discouraging production.\n- May lead to lower quality as firms cut costs.\n\n- **Government:**\n- May introduce rationing or subsidies to manage shortages.\n- May face administrative costs in enforcement.\n\n### Diagram\nPrice ceiling in a competitive market.\n\n![Image](https://pub-images.revisiondojo.com/question-images/0880a2d1-b81f-4288-ac74-e62bff834367)\n\n### Evaluation\n\n- **Stakeholders:**\n- Low-income tenants benefit from affordable housing.\n- Landlords face lower rental income, leading to reduced investment in maintenance.\n\n- **Long-run vs. Short-run:**\n- Short-run: Consumers gain affordability.\n- Long-run: Housing supply decreases, leading to housing shortages and worsening conditions.\n\n- **Advantages vs. Disadvantages:**\n- Advantage: Immediate relief for tenants struggling with high rents.\n- Disadvantage: Black markets emerge, with landlords demanding under-the-table payments.\n- Disadvantage: Disincentivizes property development, reducing overall housing stock.\n\n- **Prioritization:**\n- Effectiveness depends on government enforcement and complementary policies (e.g., subsidies, public housing).\n- Real-World Example: Rent Controls in New York City. \n- Rent stabilization laws set a price ceiling on apartments to protect low-income renters.\n- (Student must expand more in the impacts of the real-world example).\n\n### Conclusion\n- Price ceilings help consumers in the short run but cause shortages and inefficiencies in the long run.\n- Real-world evidence suggests price ceilings require government intervention to avoid negative side effects.\n- Alternative policies (e.g., subsidies, income support) may be more effective in protecting low-income consumers.\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "ef8d4880-a0c1-413b-ae05-d18551db272b",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8521b685-e827-4d36-804d-7d65a6b48c90",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Economics-17M.1.SL.TZ1.1",
+          "labeledSubSubTopics": [
+            {
+              "id": 30981,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.5 Elasticities of demand > 2.5.3 Importance of PED for firms and government decision making",
+              "title": "2.5.3 Importance of PED for firms and government decision making",
+              "labeledAt": "2026-03-05T17:02:17.811Z",
+              "reasoning": "Part (b) specifically requires students to evaluate why governments should consider Price Elasticity of Demand (PED) when implementing fiscal measures like indirect taxes.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30983,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.5 Elasticities of demand > 2.5.5 Income elasticity of demand (YED)",
+              "title": "2.5.5 Income elasticity of demand (YED)",
+              "labeledAt": "2026-03-05T17:02:17.811Z",
+              "reasoning": "Part (a) focuses on the relationship between consumer income and demand, which is the core definition and application of Income Elasticity of Demand (YED), distinguishing between normal and inferior goods.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30986,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.8 Market failure - externalities, common pool resources, public goods, asymmetric information > 2.8.2 Government intervention in response to externalities and common pool resources",
+              "title": "2.8.2 Government intervention in response to externalities and common pool resources",
+              "labeledAt": "2026-03-05T17:02:17.811Z",
+              "reasoning": "Part (b) discusses government intervention (indirect taxes) in the context of demerit goods, which are goods that create negative externalities.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30858,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.1 Demand > 2.1.4 Non-price determinants of demand",
+              "title": "2.1.4 Non-price determinants of demand",
+              "labeledAt": "2026-03-05T17:02:17.811Z",
+              "reasoning": "Part (a) explores how income, a key non-price determinant of demand, causes shifts in the demand curve.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1410332,
+        "parts": [
+          {
+            "id": 1025027,
+            "content": "Explain how consumer income influences the demand of a product.",
+            "order": 0,
+            "markscheme": "Answers may include: \n\n\n**Definition (Key Terms)**  \n- **Demand:** The quantity of a good or service that consumers are willing and able to purchase at various price levels in a given time period.  \n- **Consumer Income (Disposable Income):** The total amount of income available to consumers after direct taxes have been paid.  \n- **Income Elasticity of Demand (YED)** Measures the responsiveness of quantity demanded to a change in consumer income.  \n\n**Explanation/Economic Theory**  \n- **Income Elasticity of Demand (YED)**  \n  - A positive YED (greater than zero) indicates a normal good, whereas a negative YED indicates an inferior good.  \n  - Magnitude of YED highlights how significantly demand changes with income fluctuations (luxury goods tend to have YED > 1).\n\n- **Normal Good vs. Inferior Good:** A normal good experiences increased demand when consumer income rises, whereas an inferior good experiences decreased demand when consumer income rises.\n\n- **Income Effect on Normal Goods**  \n  - For normal goods, higher income allows consumers to purchase more.\n  - Since consumers are now able to purchase more quantities of the good at all possible price levels, the demand curve shifts outwards ($D_1 \\rightarrow D_2$).  \n  - This shift in demand reflects consumers\u2019 greater ability to spend on higher-quality or more expensive items.\n\n- **Income Effect on Inferior Goods**  \n  - Inferior goods see a decrease in demand when incomes rise, as consumers switch to higher-quality alternatives.  \n  - Since consumers are now willing to purchase less quantities of the good at all possible price levels, the demand curve shifts outwards ($D_1 \\rightarrow D_3$).  \n\n- **Opposite effect**\n\t- The opposite effect occurs as well. When income decreases, consumers switch from normal goods to inferior goods.\n\t- In such case, the demand, at all possible price levels, will increase for inferior goods, shifting their demand curve to the right ($D_1 \\rightarrow D_2$).\n\t- Contrarily, the demand, at all possible price levels, will decrease for normal goods, shifting their demand curve to the left ($D_1 \\rightarrow D_3$).\n\t- All these shifts are can be seen in the figure below.\n\n**Diagram (Shifts in Demand for a Normal vs Inferior Good)**  \n\n![Image](https://pub-images.revisiondojo.com/question-images/e79352d1-f0e7-4e14-93a3-d680e4f44342)",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          },
+          {
+            "id": 1025028,
+            "content": "Using real-world examples, evaluate the view that governments should consider PED when placing indirect taxes on demerit goods.",
+            "order": 1,
+            "markscheme": "Answers may include:\n\n### Definitions \n- **Price Elasticity of Demand (PED):** Measures the responsiveness of the quantity demanded of a good to a change in its price. Calculated as the percentage change in quantity demanded divided by the percentage change in price.  \n- **Indirect Tax:** A tax levied on the expenditure of goods or services, typically imposed on producers (who pass some or all of the tax burden onto consumers through higher prices).  \n- **Demerit Goods:** Goods that are not socially desirable but are over provided by the market.\n\n### Economic Theory\n\n![Image](https://pub-images.revisiondojo.com/question-images/f47ddde7-6636-4055-8044-e247dc61c663)\n\n- As seen in the diagrams above, when a government imposes an **indirect tax**, the supply curve effectively shifts upwards by the amount of the tax per unit ($S \\rightarrow S_{+tax}$).  \n- The new higher price reduces the **quantity demanded** ($Q_m \\rightarrow Q_tax$) depending on the PED of the product:  \n - If demand is **price inelastic** (PED < 1), consumers are relatively unresponsive to price changes. \n - The tax burden falls mostly on consumers, as producers can pass on a larger portion of the tax without losing significant sales volume.\n - This is reflected by the fact that the increase in consumer price consumer pay ($P_c$) from the original market price ($P_m$) is greater than the decrease in producer post-tax price ($P_p$).\n - Government revenue is usually higher because quantity demanded does not fall drastically.  \n - If demand is **price elastic** (PED > 1), consumers are relatively responsive to price changes. \n - A significant portion of the tax burden falls on producers, since passing on a large price increase would result in a proportionally larger drop in quantity demanded.\n - This is reflected by the fact that the increase in consumer price consumer pay ($P_c$) from the original market price ($P_m$) is lower than the decrease in producer post-tax price ($P_p$).\n - Government tax revenue may be lower because the fall in quantity demanded is large.  \n- **Welfare loss**:\n\t- As seen by the diagram (the loss in total social surplus) arises if the tax significantly reduces the quantity traded in the market. \n\t- If the product has relatively inelastic demand, the overall loss to society is typically smaller in quantity terms, but consumers bear more cost. \n\t- If the product has elastic demand, quantity falls more, potentially increasing the deadweight loss but decreasing the price burden on consumers.  \n\n- **Imposition of taxes on demerit goods** \n\t- Demerit goods have negative consumption externalities: spillover costs passed on to third parties, from the consumption of a good, which is not reflected in the market price.\n\t- Hence, the marginal private benefit (MPB) consumers receive for the good is lower than the real marginal social benefit (MSB) society receives.\n\t- This is reflected in the diagram below. The demand curve represents the marginal private benefits, whereas the marginal social benefit curves are lower, separated by the spillover costs.\n\t- The marginal private costs (MPC) and marginal social cost (MSC) are represented by the supply curve, assuming no production externalities.\n\t- Since allocative efficiency occurs when MSB = MSC, but market equilibrium is dictated by MPB =MPC, the socially optimum quantity ($Q_{opt}$) is lower than the quantity produced by the market ($Q_m$). Therefore, there is overproduction of resources, welfare loss, allocative inefficiency, and hence market failure.\n\n![Image](https://pub-images.revisiondojo.com/question-images/709e85a4-af4a-418e-9af9-15fa3f95e160)\n\n- As seen by the diagram below, the imposition of taxes on demerit goods shifts the demand supply upwards ($S \\rightarrow S_{+tax}$), and so can correct the market failure by decreasing the quantity produced by the free market ($Q_m \\rightarrow Q_{opt}$).\n- Therefore, governments imposing taxes on demerit goods aim to reduce the quantity of the good provided by the market.\n\n![Image](https://pub-images.revisiondojo.com/question-images/e3434ac8-23fb-444e-8856-48d133232171)\n\n**Evaluation**  \n- **Short-Run and Long-Run Effects**  \n  - In the short run, consumers of demerit goods (e.g., cigarettes) have inelastic demand because of addiction or lack of immediate substitutes. Governments can earn substantial revenue, and consumption reductions may be modest.  \n  - In the long run, demand can become more elastic as consumers adjust behavior or seek alternatives, reducing consumption further but also lowering government revenue.  \n\n- **Real-world examples**  \n  - In **Australia**, high tobacco taxes contributed over AUD 12 billion in government revenue in a recent year. Smoking prevalence dropped moderately in the short run (around 0.7 percentage points annually) due to strong addiction factors (inelastic demand). Over longer periods, public health campaigns and smoking bans contributed to more substantial declines, reflecting a shift toward more elastic demand.  \n  - In **Mexico**, a sugary drinks tax introduced in 2014 led to a roughly 7.6% decline in purchases in the first year. The presence of alternative beverages made demand more elastic over time. Government revenue from the soda tax was initially significant but began to stabilize as consumers gradually shifted to substitutes.  \n\n- **Conclusion**  \n  - PED strongly influences how effectively an indirect tax reduces consumption of demerit goods and how much revenue is generated.  \n  - Goods with inelastic demand ensure higher revenue but less immediate impact on consumption, while goods with elastic demand may show larger consumption decreases but lower long-term tax revenue.  \n  - Policymakers often consider PED to balance the goals of raising revenue and discouraging harmful consumption.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "ef8d4880-a0c1-413b-ae05-d18551db272b",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "87955c55-1a88-4acb-8507-373bec3de1ad",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 287,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 30980,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.3 Business objectives (HL only)",
+              "title": "2.4.3 Business objectives (HL only)",
+              "labeledAt": "2026-03-05T16:12:20.119Z",
+              "reasoning": "The question specifically asks for an evaluation of profit maximisation versus other business objectives, which is the core content of the 'Business objectives' sub-topic.",
+              "confidence": 1
+            },
+            {
+              "id": 9188,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.11 Market failure - market power (HL only)  > 2.11.4 Rational producer behaviour",
+              "title": "2.11.4 Rational producer behaviour",
+              "labeledAt": "2026-03-05T16:12:20.119Z",
+              "reasoning": "This topic covers the standard microeconomic assumption of rational producer behaviour, which typically defines profit maximisation as the primary goal of the firm.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1413075,
+        "parts": [
+          {
+            "id": 1028666,
+            "content": "Using real-world examples, evaluate the view that the profit maximisation assumption is the only business objective.",
+            "order": 0,
+            "markscheme": "Answers may include \n\n### Definition:\n\n  - **Profit Maximisation**: Occurs where marginal cost (MC) equals marginal revenue (MR).\n  - **Business Objectives**: Goals pursued by firms, which may include profit maximisation, sales revenue maximisation, market share expansion, corporate social responsibility, or other non-profit objectives.\n\n### Economic Theory:\n\n  - Traditional theory of the firm posits that firms aim to maximise profits by producing at the output level where MC = MR. This objective supports the idea that resources are allocated efficiently in a market economy optimal output decisions. \n  - Perfect competition theory suggests that firms have little market power, so long-run normalized profits (where P = min ATC) prevail since firms can freely enter and exit the market. However, in imperfect markets (monopoly, monopolistic competition, oligopoly), firms can earn supernormal profits if they operate at MC = MR which is done through market power and product differentiation (heterogeneous). \n  - Alternative objectives: \n    - Sales Revenue Maximisation (Baumol\u2019s theory) suggests firms, especially those managed by professional managers (rather than owners), may seek higher sales or revenue rather than strictly higher profit which would suggest expanding output and lowering prices.\n    - Market Share or Growth Maximisation indicates that some firms prioritize long-term growth or dominating the market (e.g., adopting penetration pricing), potentially sacrificing short-term profit.\n    - Corporate Social Responsibility (CSR) suggests that firms may aim for sustainable operations or ethical considerations, potentially moderating profit in favor of stakeholder interests.\n    - Satisficing Behavior suggests that managers may aim for acceptable profits rather than absolute maximisation, balancing multiple goals (managerial remuneration, employee welfare, innovative investment) because maximising profit may reduce flexibility.  \n\n### Diagram\n\n  - A standard firm-costs and revenue diagram (with MC, MR, and Average Costs) can illustrate profit maximisation at the output level where MC intersects MR. \n  - This shows how firms in theory derive maximum profit by choosing the price and output where MC = MR and the distance between total revenue and total cost is greatest.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/20b07f1c-316d-40dd-955f-11a87e6316c0)\n\n### Evaluation:\n\n  - Short Run Impact:\n    - Firms that aggressively pursue profit maximisation may earn higher short-run profits due to efficient resource allocation but could face backlash because consumers value fairness and quality, if prices rise or quality falls, potentially harming long-term consumer loyalty.\n    - Some firms choose to invest heavily in marketing or research and development to increase demand and gain competitive advantage (R&D), reducing short-run profit but possibly generating future market advantage.\n  - Long Run Impact:\n    - Profit-focused behavior can lead to sustained investment, but excessive emphasis on profit might undermine consumer and social welfare if firms neglect CSR or product quality.\n    - Alternative objectives can allow a firm to build market share, brand loyalty, and long-term sustainability, through improved product quality and customer engagement, by increasing consumer surplus and minimizing customer turnover, potentially enhancing profits over time.\n    \n**Real World Examples:**\n\n- Amazon invested billions of dollars into logistics and technology infrastructure throughout the 2010s, often reporting low short-term net profits. This approach prioritized market share and revenue growth, illustrated by Amazon\u2019s e-commerce sales growing from an annual US$10.7 billion (2006) to over US$386 billion (2020). It eventually led to substantial market power and higher long-run profitability.\n    - Tesla prioritized rapid expansion and R&D spending in electric vehicle technology in its early years, leading to net losses despite increasing sales. This sacrifice of immediate profit aimed to achieve market dominance in the electric vehicle segment, demonstrated by a production jump from fewer than 3,000 cars in 2012 to over 900,000 in 2021.\n    - Patagonia, an outdoor clothing company, emphasizes environmental sustainability and social responsibility, occasionally foregoing certain profit opportunities to pursue eco-friendly materials and practices. While short-run costs increase, the brand\u2019s continued popularity and growth illustrate how CSR can enhance consumer loyalty and long-run revenues.\n    - Unilever\u2019s \u201cSustainable Living Plan\u201d initiated in 2010 embraced societal objectives such as lowering carbon footprint and improving food security. Over the following decade, the company\u2019s sales grew steadily, suggesting that balanced objectives can coincide with shareholder value in the long run.\n\n### Conclusion:\n\n  - Profit maximisation is a core assumption in traditional economic theory, but it is not necessarily the only ambition for real-world firms which can branch from diverse stakeholder objectives and constraints. Many prioritize broader objectives such as growth, sustainability, or welfare. \n  - Real-world examples of Amazon, Tesla, Patagonia, and Unilever indicate that long-term success can result from a range of objectives, challenging the notion that profit maximisation alone drives all business decisions. \n  - In many cases, prioritizing factors beyond immediate profit can create strategic advantages, reinforce brand strength, and secure long-term profitability, since firms face competitive pressures and stakeholder demands, suggesting that the profit maximisation assumption is not the sole business objective.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "a6479184-6cac-4792-8d93-b55bce8eb639",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "98545746-fe7c-44c6-992e-92958fb0af4a",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Economics-14M.1.HL.TZ1.1",
+          "labeledSubSubTopics": [
+            {
+              "id": 9153,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.2 Supply > 2.2.1 The law of supply",
+              "title": "2.2.1 The law of supply",
+              "labeledAt": "2026-03-06T15:38:36.631Z",
+              "reasoning": "Part (a) directly asks for the assumptions underlying the law of supply.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30980,
+              "isHl": true,
+              "path": "2. Microeconomics > 2.4 Critique of the maximizing behaviour of consumers and producers (HL only) > 2.4.3 Business objectives (HL only)",
+              "title": "2.4.3 Business objectives (HL only)",
+              "labeledAt": "2026-03-06T15:38:36.631Z",
+              "reasoning": "Part (b) evaluates whether firms\u2019 main objective is profit maximisation, which is covered under business objectives.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1161989,
+        "parts": [
+          {
+            "id": 883192,
+            "content": "Explain the assumptions underlying the law of supply. ",
+            "order": 0,
+            "markscheme": "Answers may include:\n\n### Definitions\n1. **Law of Supply**: There is a direct, positive relationship between price and quantity supplied.\n\n### Diagram\n- **Supply Curve Diagram**: \n![Image](https://pub-images.revisiondojo.com/question-images/ceb8a37b-7d86-42ff-8071-cf20c2dbc760)\n  - Should illustrate an upward-sloping curve on a graph where the x-axis represents quantity and the y-axis represents price.\n  - The diagram should indicate that as price increases, the quantity supplied increases, demonstrating the law of supply.\n\n### Explanation\n- **Understanding the Law of Supply**:\n  - The law of supply states that there is a direct relationship between price and quantity supplied, assuming ceteris paribus.\n  - The law of supply is built on two critical assumptions:\n\t\t- The law of diminishing marginal returns.\n\t\t- Increasing marginal costs.\n\t- Both these concepts explain why firms require higher prices to supply more output.\n\n- **The Law of Diminishing Marginal Returns**\n\t- The law indicates that: as additional units of a variable input (e.g., labour) are added to fixed inputs (e.g., land), the marginal product increases by less and less each time, eventually decreasing. \n\t- The marginal product is the additional output that results from adding one extra unit of a variable input (e.g., labour).\n\t- When firms add one more unit of variable input, the marginal product initially increases. This is because:\n\t\t- Improved resource utilisation: adding variable inputs allows firms to better utilise existing fixed inputs.\n\t\t- More specialisation: workers can divide tasks more efficiently, leading to higher productivity per unit of input.\n\t- On the other hand, as more and more of the variable input is added, the marginal product from each extra unit of input eventually starts to decline. This occurs because:\n\t\t- Overcrowding of resources: as more variable inputs (like labor) are added, workers or machines may become overcrowded, leading to inefficiencies.\n\t\t- Diminishing coordination efficiency: as the number of inputs increases, it becomes harder to manage and coordinate them effectively, leading to errors, mismanagement, and decreased productivity.\n\t\t- Resource depletion: adding more variable inputs can overuse or exhaust the fixed resources, reducing their effectiveness.\n\t- The law of supply holds true under the underlying assumption that marginal returns are diminishing. This is because:\n\t\t- As marginal returns diminish, the cost of producing each additional unit rises. This can be seen in the figure below.\n\t\t- Resultantly, firms must charge higher prices to cover these rising costs and maintain profitability.\n\t\t- This principle underpins the positive relationship between quantity supplied and price.\n\n![Image](https://pub-images.revisiondojo.com/question-images/9706a62f-d61f-41c0-8d9f-8eec42fef65f)\n\n- **Increasing marginal costs**\n\t- Marginal costs are the cost of producing an additional unit of output.\n\t- As firms increase production, marginal costs typically rise due to:\n\t\t- Inefficiencies: as explained earlier, adding more variable inputs leads to less efficient production.\n\t\t- For every additional unit of output there is more input (higher costs).\n\t\t- As seen by the law of diminishing marginal returns, for every additional unit of output lesser marginal product (lower return).\n\t\t- Therefore, the cost per each additional unit of output increases.\n\t\t- Scarcity of efficient resources: expanding production often requires using less efficient resources.\n\t- Hence, the law of supply also holds true under the underlying assumption that marginal costs are increasing. This is because:\n\t- Firms are willing to supply more only if they can charge higher prices to cover their increasing marginal costs.\n\t- This explains the positive relationship between price and quantity supplied.",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          },
+          {
+            "id": 883193,
+            "content": "Using real-world examples, evaluate the view that all firms have profit maximisation as their main objective.",
+            "order": 1,
+            "markscheme": "Answers may include:\n\n### Definitions\n1. **Profit Maximisation**: The process by which a firm determines the price and output level that returns the greatest profit.\n\n### Economic Theory\n- **Profit Maximisation**:\n  - Firms aim to maximise profit where marginal cost (MC) equals marginal revenue (MR).\n  - Marginal revenue is the additional revenue obtained for producing additional unit of a good.\n  - This point maximises profit because:\n\t\t- If firms produce at a price and quantity where MR > MC:\n\t\t\t- Producing more increases profit because additional revenue is greater than additional costs.\n\t\t\t- Therefore, firms will increase output to take advantage of extra profit opportunities.\n\t\t- Contrarily, if firms produce at a price and quantity where MR < MC:\n\t\t\t- Producing more reduces profit because additional costs are greater than additional revenue.\n\t\t\t\t- Therefore, firms will reduce output to avoid making losses.\n\t\t- Hence, producing at a price and quantity where MR = MC:\n\t\t\t- Producing more or less would reduce profit.\n\t\t\t- Hence this is the profit-maximising level of production.\n  \n- **Alternative Objectives**:\n\t- Contrarily to the profit maximisation assumption, firms may pursue different objectives.\n  - Some firms may prioritise sales maximisation, where they aim to maximise revenue rather than profit, often producing at a higher output level where average revenue (AR) equals average cost (AC).\n  - Firms may also focus on increasing market share, which can involve setting lower prices to attract more customers, potentially sacrificing short-term profits for long-term gains.\n  - Corporate social responsibility (CSR) can be an objective, where firms engage in ethical practices that may not immediately maximise profit but enhance brand reputation and customer loyalty.\n\n### Diagram\n(No diagram is required for this question, even though a profit maximisation diagram is also valid).\n\n### Evaluation\n- **Firms**:\n  - Firms typically favour profit maximisation as it increases dividends and share value.\n  - Employees may prefer objectives that ensure job security and better working conditions, which might not align with strict profit maximisation.\n  \n- **Long-run vs. Short-run**:\n  - In the short run, firms may focus on profit maximisation to satisfy shareholders and secure financial stability.\n  - In the long run, firms might adopt alternative objectives to ensure sustainable growth and adapt to changing market conditions.\n\n- **Advantages vs. Disadvantages**:\n  - Profit maximisation can lead to efficient resource allocation and innovation due to competitive pressures.\n  - However, it may result in negative externalities, such as environmental damage or poor labour practices, if firms cut costs excessively.\n  \n- **Real-world Example**:\n  - Tesla, Inc. has often prioritised market share and innovation over short-term profits, as evidenced by its significant R&D investments and initial pricing strategies aimed at capturing market share in the electric vehicle industry.\n  - In 2020, Tesla's R&D expenditure was approximately $1.5 billion, highlighting its focus on long-term growth and innovation.\n  - Apple is currently committing to have a Net Carbon Neutral Supply chain by the end of 2030, an objective aligned with Coorporate Social Responsibility. \n  - Nothing Phone company is currently seeking to maximise sales in order to increase its reputation among the smartphone manufacturers.\n\n### Conclusion\n- Not all firms have profit maximisation as their main objective; some prioritise growth, market share, or CSR.\n- The choice of objective often depends on the industry, market conditions, and stakeholder pressures.\n- Firms may shift objectives over time, balancing profit with other goals to ensure long-term success.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "ef8d4880-a0c1-413b-ae05-d18551db272b",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d5aaef87-2982-4cb9-828e-026427ae37c9",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 287,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30986,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.8 Market failure - externalities, common pool resources, public goods, asymmetric information > 2.8.2 Government intervention in response to externalities and common pool resources",
+              "title": "2.8.2 Government intervention in response to externalities and common pool resources",
+              "labeledAt": "2026-03-06T15:36:32.242Z",
+              "reasoning": "Part (a) focuses on common pool resources and how they generate negative externalities (overuse, tragedy of the commons), which sits under government intervention in response to externalities and common pool resources.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30987,
+              "isHl": false,
+              "path": "2. Microeconomics > 2.8 Market failure - externalities, common pool resources, public goods, asymmetric information > 2.8.3 Strengths and limitations of government policies to correct externalities ",
+              "title": "2.8.3 Strengths and limitations of government policies to correct externalities ",
+              "labeledAt": "2026-03-06T15:36:32.242Z",
+              "reasoning": "Part (b) asks to evaluate government subsidies as a policy to correct market failure from positive production externalities, directly matching strengths/limitations of government policies to correct externalities.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 877288,
+        "parts": [
+          {
+            "id": 884096,
+            "content": "Explain how common pool resources can lead to negative externalities.\n\n",
+            "order": 0,
+            "markscheme": "Answers may include:\n\n**Definition**\n- **Common Pool Resources**: Common pool resources are natural resources which are available for use for everyone, but are susceptible to overuse and depletion\n- **Negative Externalities**: The unintended negative side effects of an economic activity that affect third parties, who do not directly participate in the activity (e.g., pollution, overuse of resources).\n- **Sustainability**: Using resources in a way that meets current needs without compromising the ability of future generations to meet their own needs.\n\n**Diagram**: Supply and Demand Curve for Common Pool Resources\n![Image](https://pub-images.revisiondojo.com/question-images/b28694ef-1626-424c-8ab0-a2d6a0d38056)\n- The marginal private cost (MPC) curve represents the costs borne by the individual user.\n- The marginal social cost (MSC) curve reflects the true cost to society, including externalities.\n- The gap between MSC and MPC illustrates the external cost.\n- Overuse of common pool resources occurs when the quantity consumed is higher than the socially optimal level, leading to market failure.\n\n**Explanation**\n\n*Characteristics of Common Pool Resources:*\n\n- Non-excludable: No one can be excluded from using the resource (e.g., anyone can fish in a public lake).\n- Rivalrous: The use of the resource by one individual reduces the availability for others (e.g., overfishing depletes fish stocks).\n\n*Overuse and Negative Externalities:*\n\n- Since common pool resources are non-excludable, individuals do not bear the full cost of their actions. As a result, they are incentivized to use the resource excessively, leading to overconsumption.\n- Overfishing: If each fisher acts in their self-interest and catches as many fish as possible, the fish population decreases, affecting the long-term availability for others, which is an external cost to society.\n- Deforestation: In the case of common forest resources, individuals may exploit timber without considering the negative effects on biodiversity, water quality, or the climate, thus imposing costs on society that they do not account for.\n\n*Negative Externalities:*\n\n- Environmental degradation: Overuse of common pool resources leads to environmental damage, such as soil erosion, pollution, and resource depletion, affecting public goods like air and water quality.\n- These external costs are not reflected in the market price, leading to market failure, as the marginal social cost (MSC) is higher than the marginal private cost (MPC), and resources are overused.\n\n*Market Failure:*\n\n- Socially optimal outcome occurs when the resource is used efficiently, considering both private and social costs. However, in the case of common pool resources, individual incentives to maximize short-term benefits result in a suboptimal outcome for society.\n- The \"Tragedy of the Commons\" is a common example, where shared resources are overused and eventually depleted because no individual can exclude others from using the resource or fully internalize the external costs.\n",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "2d18e05a-6cdd-452f-980e-17b8fea30b93",
+            "explanation": null
+          },
+          {
+            "id": 884097,
+            "content": "Using real-world examples, evaluate the effectiveness of government subsidies in correcting market failure caused by positive production externalities.\n",
+            "order": 1,
+            "markscheme": "Answers may include:\n\n**Definition**:\n- **Government Subsidies**: Monetary help (direct or indirect payment) offered by the government to firms (sometimes households) to aid in lowering costs of production.\n- **Market Failure**: Occurs when firms fail to efficiently allocate the resources within an economy.\n- **Positive Production Externality**: When the production of a good/service has a positive spillover effects on third parties.\n\n**Economic Theory:**\n\nSubsidies and Positive Externalities:\n- Market Failure Due to Positive Externalities: When a firm produces a good with positive externalities (e.g., a firm that produces renewable energy), the social benefit exceeds the private benefit. This leads to underproduction as firms do not take into account the positive spillover effects on society, such as environmental improvement, health benefits, or increased productivity.\n- Government Intervention with Subsidies: The government can correct this market failure by providing subsidies to encourage more production. By lowering the production cost for firms, subsidies increase the quantity of the good produced, bringing production closer to the socially optimal level. The subsidy reduces the price that consumers pay and/or increases the price that producers receive, encouraging more supply and demand.\n- Welfare Improvement: Subsidies aim to internalize the externality, meaning they help align private costs and social costs, improving overall welfare. By promoting the production of goods with positive externalities, subsidies can increase the overall social benefits, such as better health outcomes or environmental sustainability.\n\n\n**Diagram**: Market with Positive Externality and Subsidy\n![Image](https://pub-images.revisiondojo.com/question-images/0f59b38f-fc77-417c-a64a-d699b4865dd2)\n- The diagram should show a shift in the supply curve due to the subsidy, moving from S (private supply) to S+Subsidy (social supply).\n- Q1: Market equilibrium without subsidy (underproduction).\n- Q2: New equilibrium with subsidy (increased production closer to the social optimum).\n- The diagram should demonstrate that the quantity produced (Q2) is closer to the socially optimal quantity (Q*), reflecting the positive externality.\n- The area between S and S+Subsidy indicates the subsidy amount per unit.\n\n**Evaluation:**\n\n*Stakeholders:*\n\n- Producers: Subsidies lower the cost of production, incentivizing producers to increase output, thus benefiting firms. However, if subsidies are not properly targeted or are too large, they may lead to inefficiencies or misallocation of resources.\n- Consumers: Subsidies can reduce the price of goods, benefiting consumers, especially when the goods involved provide positive externalities like improved health or cleaner air.\n- Government: The government bears the cost of the subsidy, which can strain public finances, especially if the subsidies are large and prolonged. There is also a risk of inefficiency if the subsidy is not targeted correctly.\n- Society: Positive externalities can improve social welfare, leading to better outcomes in terms of health, environment, and productivity. However, there is the risk of over-subsidization, where the government overestimates the size of the externality and subsidizes inefficiently.\n\n*Long-run vs. Short-run Effects:*\n\n- Short-run: In the short run, subsidies can immediately increase production, shifting the supply curve to the right and increasing the quantity of goods produced. This helps to correct the market failure by encouraging producers to generate more of the good with positive externalities.\n- Long-run: Over the long term, subsidies could foster industry growth, leading to larger-scale production and lower prices, benefiting consumers. However, they can also lead to market distortions if subsidies are too high or misaligned with actual externalities, potentially leading to inefficient production or wasteful government spending.\n\n*Advantages vs. Disadvantages:*\n\nAdvantages:\n- Increased Production: Subsidies incentivize the production of goods with positive externalities, increasing overall social welfare. For example, subsidies for renewable energy production can increase the adoption of clean energy, reducing environmental harm and dependence on fossil fuels.\n- Public Goods and Services: Subsidies help ensure that products with positive externalities (e.g., vaccines, education, clean energy) are more widely available, improving public health, education, and environmental outcomes.\n\nDisadvantages:\n- Government Budget: Subsidies can place a financial strain on government budgets. If subsidies are not targeted efficiently, they can lead to a misallocation of resources and contribute to fiscal deficits.\n- Inefficiency and Overproduction: If the subsidy is too large or not well-calibrated, it may lead to overproduction or the creation of inefficient firms that rely too heavily on government support, thus distorting the market.\n- Market Distortions: Continuous government intervention may discourage firms from improving their efficiency, as they become reliant on subsidies rather than market competition.\n\n*Real-world Example:*\n\n- Renewable Energy Subsidies (Germany): Germany has implemented subsidies for renewable energy production, especially solar and wind energy. The Energiewende policy provided significant subsidies to increase renewable energy capacity, which has successfully led to a substantial increase in renewable energy generation in the country.\n- Results: The share of renewable energy in Germany's electricity consumption reached about 50% by 2020. This has significantly reduced carbon emissions and helped Germany transition to a more sustainable energy mix.\n- Challenges: However, the subsidies have also been costly, leading to higher electricity prices for consumers. Critics argue that the subsidies were sometimes poorly targeted, with some areas of renewable energy benefiting more than others, leading to inefficiencies in the system.\n- Vaccination Subsidies (Global): Many countries subsidize the cost of vaccines for diseases like polio, malaria, and COVID-19. For example, the GAVI Alliance has played a significant role in funding vaccine programs, improving global vaccination rates and reducing the incidence of preventable diseases.\n- Results: The subsidies have helped reduce global health disparities and improve public health outcomes, but the cost of subsidizing vaccines on a large scale is a burden on public finances. Also, there are concerns about the long-term sustainability of such subsidy programs.\n\n**Conclusion**:\n- Subsidies can be highly effective in correcting market failure caused by positive production externalities by encouraging increased production and improving social welfare.\n- The success of subsidies depends on their design and implementation, with an emphasis on targeting the right industries and avoiding inefficiencies.\n- While subsidies can help improve social outcomes (e.g., in renewable energy or health), they must be carefully managed to avoid excessive fiscal burdens and market distortions.\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "ef8d4880-a0c1-413b-ae05-d18551db272b",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "12",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 11048,
+      "title": "2.4 Critique of the maximizing behaviour of consumers and producers (HL only)",
+      "slug": "ib-economics-24-elasticities-of-demand",
+      "parentTopicId": 9146
+    },
+    "subject": {
+      "id": 287,
+      "title": "Economics",
+      "slug": "ib-economics",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "12",
+      "byQuestion": {}
+    }
+  }
+}

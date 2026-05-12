@@ -1,3 +1,2589 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:83bac947a6b747dab7ccc2d08c903a5798a183a0288a6b0dc30c2c19a65b8acd
-size 158882
+{
+  "json": {
+    "questions": [
+      {
+        "id": "07c11d3e-fd4f-491f-aacd-dd20db53c353",
+        "specification": "The position of a particle is given by\n\n$$\n\\vec{r}(t)=\\left[\\begin{array}{c}\n2 t^{2}-3 t \\\\\nt^{3}\n\\end{array}\\right]\n$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28658,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "title": "Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "labeledAt": "2026-03-07T03:34:41.711Z",
+              "reasoning": "Given a position vector r(t); acceleration is found by differentiating twice with respect to time (kinematics: derivatives of kinematic variables).",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1478585,
+        "parts": [
+          {
+            "id": 1097347,
+            "content": "Find the acceleration vector $\\vec{a}(t)$ at time $t$.",
+            "order": 0,
+            "markscheme": "- Differentiate position to get velocity: $\\vec{v}(t)=\\frac{d}{dt} \\vec{r}(t)=\\left[\\begin{array}{c} 4 t-3 \\\\ 3 t^{2} \\end{array}\\right]$ <marks>M1</marks>\n\n- Differentiate velocity to get acceleration: $\\vec{a}(t)=\\frac{d}{dt} \\vec{v}(t)=\\left[\\begin{array}{c} 4 \\\\ 6 t \\end{array}\\right]$ <marks>M1</marks>\n\n- State the final answer: $\\vec{a}(t)=\\left[\\begin{array}{c} 4 \\\\ 6 t \\end{array}\\right]$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "0b4cf802-b6f4-45b5-b225-7bf304d4391a",
+        "specification": "A particle moves such that its position at time $t$ is given by\n\n$$\n\\vec{r}(t)=\\begin{pmatrix}\n4 t \\\\\n5 t+2\n\\end{pmatrix}\n$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28541,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 1: Determining speed of an object for a given trajectory",
+              "title": "Question Type 1: Determining speed of an object for a given trajectory",
+              "labeledAt": "2026-03-06T13:09:27.684Z",
+              "reasoning": "The question gives a 2D position vector r(t) and asks for the particle\u2019s speed, which is found from the magnitude of the velocity vector dr/dt for a given trajectory.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1478579,
+        "parts": [
+          {
+            "id": 1097341,
+            "content": "Find the speed of the particle.",
+            "order": 0,
+            "markscheme": "- Find the velocity vector and speed:\n  $$\n  \\vec{v}(t)=\\frac{d \\vec{r}}{d t}=\\begin{pmatrix}\n  4 \\\\\n  5\n  \\end{pmatrix} \\Rightarrow \\text{speed}=|\\vec{v}(t)|=\\sqrt{4^{2}+5^{2}}\n  $$\n  <marks>M1</marks>\n\n- State the final answer:\n  $$\n  \\text{Speed}=\\sqrt{41}\n  $$\n  <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "1b631bd7-4615-43dc-9df6-d464b1bfdaab",
+        "specification": "Two particles A and B have position vectors:\n\n$$ \n\\vec{r}_{A}(t)=\\begin{pmatrix}\n2 t+1 \\\\\n3\n\\end{pmatrix}, \\quad \\vec{r}_{B}(t)=\\begin{pmatrix}\n5-t \\\\\n1+2 t\n\\end{pmatrix}\n$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28542,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 3: Determining whether two objects intersect for their given trajectory",
+              "title": "Question Type 3: Determining whether two objects intersect for their given trajectory",
+              "labeledAt": "2026-03-07T03:33:46.849Z",
+              "reasoning": "The question gives parametric position vectors for two particles and asks whether/when they meet, which is an intersection of two trajectories in vector kinematics (solve r_A(t)=r_B(t)).",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1478596,
+        "parts": [
+          {
+            "id": 1097358,
+            "content": "Determine whether the particles ever meet.",
+            "order": 0,
+            "markscheme": "- **Attempt** to equate position vectors or their components <marks>M1</marks>\n\n- **State** the correct component equations: $2t+1 = 5-t$ and $3 = 1+2t$ <marks>A1</marks>\n\n- **Solve** for $t$ in the first equation: $3t = 4 \\Rightarrow t = \\frac{4}{3}$ <marks>A1</marks>\n\n- **Solve** for $t$ in the second equation: $2t = 2 \\Rightarrow t = 1$ <marks>A1</marks>\n\n- **State** that the values of $t$ are inconsistent ($t = \\frac{4}{3} \\neq 1$) <marks>R1</marks>\n\n- **Conclude** that the particles do not meet <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "219964a3-cd2b-446d-9998-5cb0e1984315",
+        "specification": "A particle moves in a plane such that its position vector at time $t$ seconds, for $t \\ge 0$, is given by $\\mathbf{r} = \\begin{pmatrix} t^2 \\\\ t^2 - 4t \\end{pmatrix}$.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-219964a3-cd2b-446d-9998-5cb0e1984315-1771929956947",
+            "generatedAt": "2026-02-25T20:30:17.665Z",
+            "sourceRevisionId": 1492239
+          },
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 58008,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "title": "Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "labeledAt": "2026-03-07T17:26:18.902Z",
+              "reasoning": "Given a 2D position vector r(t), part (a) requires differentiating to get velocity, and part (b) requires minimizing speed |v(t)| to find the corresponding position\u2014this matches determining speed/velocity for a trajectory with varying velocity.",
+              "confidence": 0.84
+            },
+            {
+              "id": 28652,
+              "isHl": true,
+              "path": "Calculus > AHL 5.10\u2014Second derivatives, testing for max and min > Question Type 2: Determining whether points satisfying the first order condition are local optimals",
+              "title": "Question Type 2: Determining whether points satisfying the first order condition are local optimals",
+              "labeledAt": "2026-03-07T17:26:18.902Z",
+              "reasoning": "Part (b) involves finding when a quantity (speed) is at a minimum using calculus/first-derivative condition and confirming a minimum, aligning with testing whether critical points give local optima.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1685217,
+        "parts": [
+          {
+            "id": 1145931,
+            "content": "Determine the velocity vector, $\\mathbf{v}$, of the particle in terms of $t$.",
+            "order": 0,
+            "markscheme": "*   Attempt to differentiate both components of the position vector with respect to $t$ <marks>M1</marks>\n*   $\\mathbf{v} = \\begin{pmatrix} 2t \\\\ 2t - 4 \\end{pmatrix}$ <marks>A1</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1145932,
+            "content": "Find the position vector of the particle at the instant its speed is at a minimum.",
+            "order": 1,
+            "markscheme": "**METHOD 1 (Calculus)**\n*   Attempt to find an expression for speed squared ($S$) or speed <marks>M1</marks>\n    $S = (2t)^2 + (2t - 4)^2$\n*   Correct expansion and simplification <marks>A1</marks>\n    $S = 4t^2 + 4t^2 - 16t + 16 = 8t^2 - 16t + 16$\n*   Differentiating $S$ and setting to zero to find the minimum <marks>M1</marks>\n    $\\frac{\\text{d}S}{\\text{d}t} = 16t - 16 = 0 \\Rightarrow t = 1$\n*   Substituting $t = 1$ back into the position vector $\\mathbf{r}$ <marks>M1</marks>\n*   $\\mathbf{r}(1) = \\begin{pmatrix} 1 \\\\ -3 \\end{pmatrix}$ <marks>A1</marks>\n\n**METHOD 2 (Dot Product)**\n*   Recognizing that minimum speed occurs when $\\mathbf{v} \\cdot \\mathbf{a} = 0$ <marks>M1</marks>\n*   Finding the acceleration vector $\\mathbf{a} = \\begin{pmatrix} 2 \\\\ 2 \\end{pmatrix}$ <marks>A1</marks>\n*   Setting the dot product to zero and solving for $t$ <marks>M1</marks>\n    $\\begin{pmatrix} 2t \\\\ 2t - 4 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 \\\\ 2 \\end{pmatrix} = 4t + 4t - 8 = 0 \\Rightarrow t = 1$\n*   Substituting $t = 1$ back into the position vector $\\mathbf{r}$ <marks>M1</marks>\n*   $\\mathbf{r}(1) = \\begin{pmatrix} 1 \\\\ -3 \\end{pmatrix}$ <marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "30bc21d2-96a1-467b-a322-5da0281103e5",
+        "specification": "A particle has velocity\n\n$$\n\\vec{v}(t) = \\begin{pmatrix} 6 \\cos t \\\\ -6 \\sin t \\end{pmatrix}, \\quad \\vec{r}(0) = \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}\n$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64689,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 3: Integrating kinematic variables",
+              "title": "Question Type 3: Integrating kinematic variables",
+              "labeledAt": "2026-03-06T13:08:03.719Z",
+              "reasoning": "Given a velocity vector v(t) and initial position r(0), the task is to integrate v(t) component-wise to obtain the position vector r(t), then interpret the resulting parametric curve as the particle\u2019s path (a kinematics integration problem).",
+              "confidence": 0.88
+            },
+            {
+              "id": 64685,
+              "isHl": true,
+              "path": "Calculus > AHL 5.11\u2014Indefinite integration, reverse chain, by substitution > Question Type 2: Applying integration through using the basis integrals alongside their composite transformations in linear functions",
+              "title": "Question Type 2: Applying integration through using the basis integrals alongside their composite transformations in linear functions",
+              "labeledAt": "2026-03-06T13:08:03.719Z",
+              "reasoning": "Finding r(t) requires indefinite integration of trigonometric functions (cos t and sin t), which aligns with applying standard integrals/transformations, though the context is primarily kinematics.",
+              "confidence": 0.3
+            }
+          ]
+        },
+        "currentRevisionId": 1489153,
+        "parts": [
+          {
+            "id": 1116407,
+            "content": "Find the position vector $\\vec{r}(t)$ and describe the path of the particle.",
+            "order": 1,
+            "markscheme": "- **Integrate** the velocity vector $\\vec{v}(t)$ with respect to $t$: $\\vec{r}(t) = \\begin{pmatrix} 6 \\sin t + c_1 \\\\ 6 \\cos t + c_2 \\end{pmatrix}$ <marks>M1</marks>\n- **Substitute** the initial condition $\\vec{r}(0) = \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}$ to find the constants of integration: $6 \\sin(0) + c_1 = 0 \\Rightarrow c_1 = 0$ and $6 \\cos(0) + c_2 = 0 \\Rightarrow 6 + c_2 = 0 \\Rightarrow c_2 = -6$ <marks>M1</marks>\n- **State** the final expression for the position vector: $\\vec{r}(t) = \\begin{pmatrix} 6 \\sin t \\\\ 6 \\cos t - 6 \\end{pmatrix}$ <marks>A1</marks>\n- **Attempt** to eliminate $t$ from the components $x = 6 \\sin t$ and $y = 6 \\cos t - 6$ using the identity $\\sin^2 t + \\cos^2 t = 1$: $\\left(\\frac{x}{6}\\right)^2 + \\left(\\frac{y + 6}{6}\\right)^2 = 1$ <marks>M1</marks>\n- **Simplify** the equation of the path: $x^2 + (y + 6)^2 = 36$ <marks>A1</marks>\n- **Describe** the path as a circle with radius 6 and center $(0, -6)$ <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "425e75f7-1f81-4157-b76a-61c238aeb291",
+        "specification": "In a robotics laboratory, a test object is launched from a raised platform as part of a motion-tracking experiment.\n\nThe trajectory of the object is modeled by the vector equation\n$$ \\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix} + t \\begin{pmatrix} v_x \\\\ v_y - 5t \\end{pmatrix} $$\nwhere $x$ is the horizontal distance from a reference wall and $y$ is the height above the laboratory floor, both measured in metres, and $t$ is the time, in seconds, after the object is launched.\n\n* $v_x$ is the horizontal component of the initial velocity\n* $v_y$ is the vertical component of the initial velocity.\n\nIn this model, the object and the tracking device are treated as single points. The object is launched with an initial velocity such that $v_x = 6$ and $v_y = 12$.\n\nA monitoring drone is stationed at the point $(0, 4.5)$. Once activated, the drone travels in a straight line within the same vertical plane as the object, maintaining a constant speed of $25 \\text{ m s}^{-1}$ at an angle of elevation of $12^\\circ$.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 4,
+            "workflowId": "ramen-ib-physics-new-425e75f7-1f81-4157-b76a-61c238aeb291-1771929956947",
+            "generatedAt": "2026-02-25T20:43:13.080Z",
+            "sourceRevisionId": 1456318
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28542,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 3: Determining whether two objects intersect for their given trajectory",
+              "title": "Question Type 3: Determining whether two objects intersect for their given trajectory",
+              "labeledAt": "2026-03-07T03:34:32.401Z",
+              "reasoning": "Parts (e) and (f) require finding intersection points between the drone\u2019s straight-line motion and the object\u2019s parametric trajectory, and timing an interception\u2014two-object intersection in vector kinematics.",
+              "confidence": 0.86
+            },
+            {
+              "id": 28541,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 1: Determining speed of an object for a given trajectory",
+              "title": "Question Type 1: Determining speed of an object for a given trajectory",
+              "labeledAt": "2026-03-07T03:34:32.401Z",
+              "reasoning": "Part (0) asks for the initial speed from given velocity components (magnitude of velocity vector) in a trajectory context.",
+              "confidence": 0.84
+            },
+            {
+              "id": 58008,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "title": "Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "labeledAt": "2026-03-07T03:34:32.401Z",
+              "reasoning": "Parts (b)\u2013(d) use the time-dependent velocity/acceleration model (vy\u22125t) to analyze trajectory features like maximum height and y(x), i.e., motion with varying velocity.",
+              "confidence": 0.76
+            },
+            {
+              "id": 64595,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 3: Applying values of elevation and depression",
+              "title": "Question Type 3: Applying values of elevation and depression",
+              "labeledAt": "2026-03-07T03:34:32.401Z",
+              "reasoning": "The drone motion is specified with an angle of elevation (12\u00b0) and constant speed, requiring resolving into components/line direction using elevation angle.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1688393,
+        "parts": [
+          {
+            "id": 1149799,
+            "content": "Calculate the initial speed of the test object.",
+            "order": -1,
+            "markscheme": "<ul>\n<li>$\\sqrt{12^2 + 6^2}$ <marks>M1</marks></li>\n<li>$= 13.4$ $(13.4164\\dots, \\sqrt{180})$ $(\\text{m s}^{-1})$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149800,
+            "content": "Find the angle of launch of the test object relative to the horizontal.",
+            "order": 0,
+            "markscheme": "<ul>\n<li>$\\tan^{-1}\\left(\\frac{12}{6}\\right)$ <marks>M1</marks></li>\n<li>$= 1.11$ rad OR $63.4^\\circ$ $(1.10714\\dots \\text{ OR } 63.4349\\dots^\\circ)$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149801,
+            "content": "Determine the maximum height attained by the test object during its flight.",
+            "order": 1,
+            "markscheme": "<ul>\n<li>$y = 1 + 12t - 5t^2$ <marks>M1</marks></li>\n</ul>\n<note>The M1 might be implied by a correct graph or use of the correct derivative.</note>\n<p><strong>METHOD 1 \u2013 Graphical Method</strong></p>\n<ul>\n<li>Sketching the parabola on a GDC and finding the vertex <marks>M1</marks></li>\n<li>Max occurs when $y = 8.2$ m <marks>A1</marks></li>\n</ul>\n<p><strong>METHOD 2 \u2013 Calculus</strong></p>\n<ul>\n<li>$\\frac{dy}{dt} = 12 - 10t = 0$ <marks>M1</marks></li>\n<li>$t = 1.2$</li>\n<li>$y = 1 + 12(1.2) - 5(1.2)^2 = 8.2$ m <marks>A1</marks></li>\n</ul>\n<p><strong>METHOD 3 \u2013 Completing the Square/Symmetry</strong></p>\n<ul>\n<li>Finding the axis of symmetry $t = \\frac{-12}{2(-5)} = 1.2$ <marks>M1</marks></li>\n<li>$y = 8.2$ m <marks>A1</marks></li>\n</ul>\n<p>3 marks total</p>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149802,
+            "content": "Assuming the floor is level and the object is not intercepted, find the $x$-coordinate of the point where the test object hits the floor.",
+            "order": 2,
+            "markscheme": "<ul>\n<li>Attempt to solve $1 + 12t - 5t^2 = 0$ <marks>M1</marks></li>\n<li>$t = 2.48$ $(2.48062\\dots)$ <marks>A1</marks></li>\n<li>$x = 4 + 6(2.48062\\dots) = 18.9$ m $(18.8837\\dots)$ <marks>A1</marks></li>\n</ul>\n<p>3 marks total</p>\n<note>Do not award the final A1 if $x=4$ is also given as a landing point.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149803,
+            "content": "Find an expression for $y$ in terms of $x$ for the trajectory of the test object.",
+            "order": 3,
+            "markscheme": "<ul>\n<li>$t = \\frac{x-4}{6}$ <marks>M1 A1</marks></li>\n<li>$y = 1 + 12\\left(\\frac{x-4}{6}\\right) - 5\\left(\\frac{x-4}{6}\\right)^2$ <marks>A1</marks></li>\n</ul>\n<p><strong>Note:</strong> Equivalent forms such as $y = 1 + 2(x-4) - \\frac{5}{36}(x-4)^2$ or $y = -\\frac{5}{36}x^2 + \\frac{112}{36}x - \\frac{332}{36}$ are acceptable.</p>\n<p>3 marks total</p>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149804,
+            "content": "Find the coordinates of the two points where the path of the monitoring drone intersects the trajectory of the test object.",
+            "order": 4,
+            "markscheme": "<ul>\n<li>Straight line path of drone is $y = x \\tan(12^\\circ) + 4.5$ <marks>A1</marks></li>\n<li>Equating the line and the trajectory equation from part (e) <marks>M1</marks></li>\n<li>$(7.26, 6.04)$ $((7.25899\\dots, 6.04344\\dots))$ <marks>A1</marks></li>\n<li>$(13.6, 7.39)$ $((13.6094\\dots, 7.39345\\dots))$ <marks>A1</marks></li>\n</ul>\n<p>4 marks total</p>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149805,
+            "content": "Calculate the time at which the drone should be launched for it to intercept the test object at the first intersection point.",
+            "order": 5,
+            "markscheme": "<ul>\n<li>At the first intersection, $x = 7.25899\\dots$, so $t_{\\text{object}} = \\frac{7.25899\\dots - 4}{6} = 0.543165\\dots$ s <marks>A1</marks></li>\n<li>Finding the distance the drone travels to the intersection: $\\sqrt{7.25899\\dots^2 + (6.04344\\dots - 4.5)^2}$ <marks>M1</marks></li>\n<li>Distance $= 7.42095\\dots$ m <marks>A1</marks></li>\n<li>Time for drone to travel is $\\frac{7.42095\\dots}{25} = 0.296838\\dots$ s</li>\n<li>Launch time $T = 0.543165\\dots - 0.296838\\dots = 0.246$ s $(0.246327\\dots)$ <marks>A1</marks></li>\n</ul>\n<p>4 marks total</p>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "48486248-1555-4781-85b2-856f6078a5e0",
+        "specification": "In a laboratory experiment involving particle physics, a specialized ion source located at a coordinate $(2, 10)$ emits a stream of ions into a vacuum chamber. The trajectory of an individual ion is modeled by the equation $\\binom{x}{y} = \\binom{2}{10} + t \\binom{v_x}{v_y - 3t}$ where $x$ and $y$ represent the horizontal and vertical coordinates in centimetres (cm), and $t$ is the time in microseconds ($\u03bcs$) since the ion was emitted.\n- $v_x$ is the horizontal component of the initial velocity.\n- $v_y$ is the vertical component of the initial velocity.\n\nIn this model, the ion and any intercepting beams are treated as single points. For a specific test run, the ion is emitted with an initial velocity such that $v_x = 12$ and $v_y = 18$.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-48486248-1555-4781-85b2-856f6078a5e0-1771929956947",
+            "generatedAt": "2026-02-25T20:47:47.871Z",
+            "sourceRevisionId": 1456370
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 58008,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "title": "Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "labeledAt": "2026-03-07T17:26:46.946Z",
+              "reasoning": "The core of the question is a 2D parametric trajectory with varying velocity (vertical component changes with time), asking for speed, direction, maximum height, landing point, and interception timing\u2014classic vector kinematics with non-constant velocity.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28542,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 3: Determining whether two objects intersect for their given trajectory",
+              "title": "Question Type 3: Determining whether two objects intersect for their given trajectory",
+              "labeledAt": "2026-03-07T17:26:46.946Z",
+              "reasoning": "Parts f) and g) require finding intersection points of the ion\u2019s trajectory with a line and arranging an interception with an electron beam\u2014determining whether/when two moving objects/paths intersect.",
+              "confidence": 0.9
+            },
+            {
+              "id": 64595,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 3: Applying values of elevation and depression",
+              "title": "Question Type 3: Applying values of elevation and depression",
+              "labeledAt": "2026-03-07T17:26:46.946Z",
+              "reasoning": "Part (b) asks for the initial direction as an angle of elevation from the positive x-axis, which aligns with angles of elevation applications.",
+              "confidence": 0.6
+            },
+            {
+              "id": 64556,
+              "isHl": false,
+              "path": "Functions > SL 2.4\u2014Features of a graph > Question Type 3: Finding points of intersection of two different functions",
+              "title": "Question Type 3: Finding points of intersection of two different functions",
+              "labeledAt": "2026-03-07T17:26:46.946Z",
+              "reasoning": "Part (f) explicitly asks for intersection points between the trajectory (as a function/curve) and a straight line, matching intersection of two functions.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1688397,
+        "parts": [
+          {
+            "id": 1149822,
+            "content": "Calculate the magnitude of the initial velocity of the ion.",
+            "order": 0,
+            "markscheme": "- Attempt to calculate initial speed: $\\sqrt{12^2 + 18^2}$ <marks>M1</marks>\n- $21.6$ (cm $\\mu\\text{s}^{-1}$) (or $\\sqrt{468}$, $6\\sqrt{13}$) <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149823,
+            "content": "Find the initial direction of the ion, expressed as an angle of elevation from the positive $x$-axis.",
+            "order": 1,
+            "markscheme": "- Attempt to find the angle using trigonometry: $\\tan \\theta = \\frac{18}{12}$ <marks>M1</marks>\n- $\\theta = 56.3^\\circ$ (or $0.983$ rad) <marks>A1</marks>\n\n2 marks total\n\n<note>Accept $0.982$ rad or $56.3^\\circ$ from use of $\\arcsin\\left(\\frac{18}{21.6}\\right)$.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149824,
+            "content": "Determine the maximum vertical displacement reached by the ion during its flight.",
+            "order": 2,
+            "markscheme": "**METHOD 1 - Graphical Method**\n- Sketch graph of $y$ against $t$ ($y = 10 + 18t - 3t^2$) <marks>M1</marks>\n- Identify maximum height from graph: $y = 37$ cm <marks>A1</marks>\n\n**METHOD 2 - Calculus**\n- Differentiate and equate to zero: $\\frac{\\mathrm{d}y}{\\mathrm{d}t} = 18 - 6t = 0$ <marks>M1</marks>\n- Solve for $t$: $t = 3$\n- Substitute $t=3$ into height equation: $y = 10 + 3(18 - 9) = 37$ cm <marks>A1</marks>\n\n**METHOD 3 - Symmetry/Vertex**\n- Identify the time of maximum height using $t = -\\frac{b}{2a} = -\\frac{18}{2(-3)} = 3$ <marks>M1</marks>\n- Substitute $t=3$ to find height: $y = 37$ cm <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149825,
+            "content": "Assuming the ion's path is not interrupted, calculate the $x$-coordinate of the point where the ion would hit a detector screen located on the line $y = 0$.",
+            "order": 3,
+            "markscheme": "- Attempt to solve $10 + t(18-3t) = 0$ for $t > 0$ <marks>M1</marks>\n- $t = \\frac{18 + \\sqrt{324 + 120}}{6} = 6.511...$ <marks>A1</marks>\n- Calculate $x$-coordinate: $x = 2 + 12(6.511...) = 80.1$ cm <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149826,
+            "content": "For the trajectory of the ion, find an expression for $y$ in terms of $x$.",
+            "order": 4,
+            "markscheme": "**METHOD 1**\n- Express $t$ in terms of $x$: $t = \\frac{x-2}{12}$ <marks>M1</marks>\n- Substitute $t$ into the expression for $y$: $y = 10 + 18\\left(\\frac{x-2}{12}\\right) - 3\\left(\\frac{x-2}{12}\\right)^2$ <marks>A1</marks>\n- State simplified expression: $y = 10 + 1.5(x-2) - \\frac{1}{48}(x-2)^2$ (or equivalent) <marks>A1</marks>\n\n**METHOD 2**\n- Use quadratic form $y = ax^2 + bx + c$ and solve using points $(2, 10)$, $(38, 37)$, and $(80.1, 0)$ <marks>M1</marks>\n- Find coefficients: $a = -\\frac{1}{48}, b = \\frac{19}{12}, c = \\frac{83}{12}$ <marks>A1</marks>\n- State expression: $y = -\\frac{1}{48}x^2 + \\frac{19}{12}x + \\frac{83}{12}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149827,
+            "content": "A sensor captures data along the line $y = 0.5x + 15$. Determine the two coordinates where the ion's path intersects this line.",
+            "order": 5,
+            "markscheme": "- Set trajectory equation equal to sensor line: $10 + 1.5(x-2) - \\frac{1}{48}(x-2)^2 = 0.5x + 15$ <marks>A1</marks>\n- Attempt to solve the resulting quadratic (e.g., $x^2 - 52x + 388 = 0$) <marks>M1</marks>\n- State first intersection point: $(9.03, 19.5)$ (or $x = 9.029..., y = 19.514...$) <marks>A1</marks>\n- State second intersection point: $(43.0, 36.5)$ (or $x = 42.970..., y = 36.485...$) <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149828,
+            "content": "A neutralizing electron beam is emitted from a fixed point $(0, 5)$ and travels in a straight line with a constant speed of $100$ cm $\\mu\\text{s}^{-1}$. Determine the emission time for the electron beam such that it intercepts the ion at the first intersection point (the one before the ion reaches its maximum vertical displacement).",
+            "order": 6,
+            "markscheme": "- Identify target coordinates and calculate time for ion to reach target: $t_{\\text{ion}} = \\frac{9.029... - 2}{12} = 0.5857...$ $\\mu\\text{s}$ <marks>A1</marks>\n- Attempt to find the distance from point $(0, 5)$ to $(9.029..., 19.514...)$: $\\sqrt{9.029...^2 + (19.514... - 5)^2} = 17.094...$ cm <marks>M1</marks>\n- Calculate time for beam to travel this distance: $t_{\\text{beam}} = \\frac{17.094...}{100} = 0.1709...$ $\\mu\\text{s}$ <marks>A1</marks>\n- Calculate emission time: $t_{\\text{emission}} = 0.5857... - 0.1709... = 0.415$ $\\mu\\text{s}$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4993baa1-a124-43af-9c4a-d4657f918916",
+        "specification": "A particle starts from the position \\( \\mathbf{r}_0 = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} \\) and moves with a constant velocity \\( \\mathbf{v} = \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} \\).",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64613,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "title": "Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "labeledAt": "2026-03-07T17:26:45.515Z",
+              "reasoning": "Part (b) asks for the position vector at a specified time given initial position and (constant) velocity, matching finding a position on a trajectory for a given time.",
+              "confidence": 0.78
+            },
+            {
+              "id": 64610,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "title": "Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "labeledAt": "2026-03-07T17:26:45.515Z",
+              "reasoning": "Part (c) asks for the time when the trajectory crosses the x-axis (i.e., passes through a point/line condition y=0), matching determining whether/when a trajectory passes a specific point.",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1456600,
+        "parts": [
+          {
+            "id": 1067610,
+            "content": "Write the vector equation of the particle\u2019s motion.",
+            "order": 0,
+            "markscheme": "- Write position vector as $\\mathbf{r}(t) = \\mathbf{r}_0 + t\\mathbf{v}$ <marks>M1</marks>\n\n- Substitute values and simplify to get: $\\mathbf{r}(t) = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} + t\\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix} = \\begin{pmatrix} 2 + 3t \\\\ 1 - 4t \\end{pmatrix}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1067611,
+            "content": "Find the position of the particle at \\( t = 5 \\) seconds.",
+            "order": 1,
+            "markscheme": "- Substitute $t = 5$ into $\\mathbf{r}(t) = \\begin{pmatrix} 2 + 3t \\\\ 1 - 4t \\end{pmatrix}$ <marks>M1</marks>\n\n- $\\mathbf{r}(5) = \\begin{pmatrix} 2 + 3(5) \\\\ 1 - 4(5) \\end{pmatrix} = \\begin{pmatrix} 17 \\\\ -19 \\end{pmatrix}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1067612,
+            "content": "Determine the time when the particle crosses the x-axis (where \\( y = 0 \\)).",
+            "order": 2,
+            "markscheme": "- Set $y(t) = 0$ to find when particle crosses x-axis <marks>M1</marks>\n\n- Substitute: $1 - 4t = 0$ <marks>A1</marks>\n\n- Solve equation: $t = \\frac{1}{4}$ (or $0.25$) <marks>A1</marks>\n\n- Particle crosses x-axis at $t = 0.25$ seconds <marks>A1</marks>\n\n4 marks total\n\n<note>Award full marks for correct answer with clear working shown</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "49ab3dd4-dc59-4eb8-949b-af56563fef37",
+        "specification": "A particle has position vector\n\n$$\n\\vec{r}(t) = \\begin{pmatrix} 4t \\\\ t^2 \\end{pmatrix}\n$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64615,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.13\u2014Scalar and vector products > Question Type 2: Finding the angle between two different vectors",
+              "title": "Question Type 2: Finding the angle between two different vectors",
+              "labeledAt": "2026-03-07T17:26:47.434Z",
+              "reasoning": "The task asks for the angle between the velocity and acceleration vectors at t=2, which is found using the dot product formula for the angle between two vectors.",
+              "confidence": 0.84
+            },
+            {
+              "id": 28658,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "title": "Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "labeledAt": "2026-03-07T17:26:47.434Z",
+              "reasoning": "Velocity and acceleration are obtained by differentiating the position vector r(t); this is a standard kinematics-from-position derivative task.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1489155,
+        "parts": [
+          {
+            "id": 1116409,
+            "content": "Show that the particle is moving on a curve and find the angle between the velocity and acceleration vectors at $t = 2$.",
+            "order": 1,
+            "markscheme": "- Express $t$ in terms of $x$: $x = 4t \\Rightarrow t = \\frac{x}{4}$ <marks>M1</marks>\n\n- Substitute this into the expression for $y$ to find the Cartesian equation: $y = \\left(\\frac{x}{4}\\right)^2 = \\frac{x^2}{16}$ (which represents a parabola, hence a curve) <marks>A1</marks>\n\n- Find the velocity vector $\\vec{v}(t)$ by differentiating the position vector: $\\vec{v}(t) = \\frac{d\\vec{r}}{dt} = \\begin{pmatrix} 4 \\\\ 2t \\end{pmatrix}$ <marks>M1</marks>\n\n- Find the acceleration vector $\\vec{a}(t)$ by differentiating the velocity vector: $\\vec{a}(t) = \\frac{d\\vec{v}}{dt} = \\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix}$ <marks>A1</marks>\n\n- Substitute $t = 2$ into the expressions for $\\vec{v}$ and $\\vec{a}$ and calculate the scalar product and magnitudes: $\\vec{v}(2) = \\begin{pmatrix} 4 \\\\ 4 \\end{pmatrix}, \\vec{a}(2) = \\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix} \\Rightarrow \\vec{v} \\cdot \\vec{a} = 8, |\\vec{v}| = \\sqrt{32}, |\\vec{a}| = 2$ <marks>M1</marks>\n\n- Substitute these values into the formula $\\cos \\theta = \\frac{\\vec{v} \\cdot \\vec{a}}{|\\vec{v}||\\vec{a}|}$ to obtain: $\\cos \\theta = \\frac{8}{2\\sqrt{32}} = \\frac{8}{8\\sqrt{2}} = \\frac{1}{\\sqrt{2}}$ <marks>A1</marks>\n\n- State the final angle: $\\theta = 45^\\circ$ (or $\\frac{\\pi}{4}$) <marks>A1</marks>\n\n7 marks total",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "49d93933-e19b-4c04-b0e5-9b0d503dd96d",
+        "specification": "A car moves along a straight path starting from position $\\vec{r}_0 = \\begin{pmatrix} 0 \\\\ 0 \\\\ 0 \\end{pmatrix}$ with a constant velocity of $\\vec{v} = \\begin{pmatrix} 6 \\\\ 3 \\\\ -1 \\end{pmatrix}$.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64613,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "title": "Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "labeledAt": "2026-03-07T03:34:12.753Z",
+              "reasoning": "The task uses a constant velocity vector to write a parametric/vector position function r(t), find position at a given time, and solve for time when reaching a given point\u2014i.e., position on a trajectory for a given time (and vice versa) in 3D kinematics.",
+              "confidence": 0.9
+            },
+            {
+              "id": 64610,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "title": "Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "labeledAt": "2026-03-07T03:34:12.753Z",
+              "reasoning": "Part (c) asks to determine whether/when the trajectory passes through a specific point (12, 6, \u22122), matching the \u2018passes a specific point\u2019 trajectory condition.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1456368,
+        "parts": [
+          {
+            "id": 1066931,
+            "content": "Write down the vector equation of the car\u2019s position after $t$ seconds.",
+            "order": 0,
+            "markscheme": "- Initial position vector $\\vec{r}_0 = \\begin{pmatrix}0\\\\0\\\\0\\end{pmatrix}$ and velocity vector $\\vec{v} = \\begin{pmatrix}6\\\\3\\\\-1\\end{pmatrix}$ <marks>A1</marks>\n\n- Position vector equation: $\\vec{r}(t) = \\vec{r}_0 + t\\vec{v} = \\begin{pmatrix}0\\\\0\\\\0\\end{pmatrix} + t\\begin{pmatrix}6\\\\3\\\\-1\\end{pmatrix} = \\begin{pmatrix}6t\\\\3t\\\\-t\\end{pmatrix}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1066932,
+            "content": "Determine the coordinates of the car at $t=4$ seconds.",
+            "order": 1,
+            "markscheme": "- Substitute $t=4$ into vector equation $\\vec{r}(t) = (6t, 3t, -t)$ <marks>M1</marks>\n\n- $\\vec{r}(4) = (6(4), 3(4), -4) = (24, 12, -4)$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1066933,
+            "content": "Find the time at which the car reaches the point $(12, 6, -2)$.",
+            "order": 2,
+            "markscheme": "- Set up system of equations using point $(12, 6, -2)$: $6t=12$, $3t=6$, $-t=-2$ <marks>A1</marks>\n\n- Solve any equation, e.g. $6t=12 \\implies t=2$ <marks>M1</marks>\n\n- Verify $t=2$ satisfies all equations and state final answer: car reaches point at $t=2$ seconds <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "4c5addb4-e513-4547-93ed-d2b6475b353d",
+        "specification": "A laser beam in a physics laboratory follows a straight path. The beam passes through point $A(10, 4, -2)$ and point $B(16, 1, 4)$. All coordinates are in centimetres relative to a fixed origin $O$ at the corner of the lab.\n\nA sensor is placed at a point $C$ on the path of the beam.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-4c5addb4-e513-4547-93ed-d2b6475b353d-1771929956947",
+            "generatedAt": "2026-02-24T10:47:10.397Z",
+            "sourceRevisionId": 1477920
+          },
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28539,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.11\u2014Vector equation of a line in 2d and 3d > Question Type 1: Finding vector equation of a line passing through two points",
+              "title": "Question Type 1: Finding vector equation of a line passing through two points",
+              "labeledAt": "2026-03-06T05:42:50.399Z",
+              "reasoning": "Part (a) asks for a vector equation of a 3D line through two given points A and B.",
+              "confidence": 0.95
+            },
+            {
+              "id": 64608,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.11\u2014Vector equation of a line in 2d and 3d > Question Type 2: Verifying if a point lies on a specific line",
+              "title": "Question Type 2: Verifying if a point lies on a specific line",
+              "labeledAt": "2026-03-06T05:42:50.399Z",
+              "reasoning": "Part (c) requires verifying that point C lies on the second line L2 (point-on-line check using parameters).",
+              "confidence": 0.8
+            },
+            {
+              "id": 28536,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.10\u2014Vector definitions > Question Type 6: Finding the distance between two position vectors",
+              "title": "Question Type 6: Finding the distance between two position vectors",
+              "labeledAt": "2026-03-06T05:42:50.399Z",
+              "reasoning": "Part (b) uses the distance along the line from A to determine coordinates of C, relying on vector displacement magnitude/distance between position vectors.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1688525,
+        "parts": [
+          {
+            "id": 1150159,
+            "content": "Determine a vector equation for the line $L$ that represents the path of the laser beam.",
+            "order": 0,
+            "markscheme": "Calculate the direction vector $\\vec{AB}$: $\\begin{pmatrix} 16-10 \\\\ 1-4 \\\\ 4-(-2) \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ -3 \\\\ 6 \\end{pmatrix}$ <marks>A1</marks>\n\nState the equation of the line: $\\mathbf{r} = \\begin{pmatrix} 10 \\\\ 4 \\\\ -2 \\end{pmatrix} + \\lambda \\begin{pmatrix} 6 \\\\ -3 \\\\ 6 \\end{pmatrix}$ (or any equivalent form) <marks>A1</marks>\n\n2 marks total\n\n<note> Accept any scalar multiple of the direction vector, such as $\\begin{pmatrix} 2 \\\\ -1 \\\\ 2 \\end{pmatrix}$. Award <marks>A1</marks> for the correct direction and <marks>A1</marks> for the correct full equation structure.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150160,
+            "content": "The sensor at $C$ is located such that the distance $AC = 21 \\text{ cm}$ and $C$ lies further from $A$ than $B$ is. Find the coordinates of $C$.",
+            "order": 1,
+            "markscheme": "Calculate the magnitude of the direction vector $\\vec{AB}$: $|\\vec{AB}| = \\sqrt{6^2 + (-3)^2 + 6^2} = \\sqrt{36 + 9 + 36} = 9$ <marks>M1</marks>\n\nDetermine the value of the parameter $\\lambda$ for point $C$: $\\lambda = \\frac{21}{9} = \\frac{7}{3}$ <marks>M1</marks>\n\nSubstitute $\\lambda$ into the line equation: $\\mathbf{r} = \\begin{pmatrix} 10 \\\\ 4 \\\\ -2 \\end{pmatrix} + \\frac{7}{3} \\begin{pmatrix} 6 \\\\ -3 \\\\ 6 \\end{pmatrix} = \\begin{pmatrix} 10 + 14 \\\\ 4 - 7 \\\\ -2 + 14 \\end{pmatrix} = \\begin{pmatrix} 24 \\\\ -3 \\\\ 12 \\end{pmatrix}$\n\nState the coordinates: $C$ has coordinates $(24, -3, 12)$ <marks>A1</marks>\n\n3 marks total\n\nNote: Accept equivalent vector methods, such as finding the unit vector $\\mathbf{u} = \\frac{1}{9}\\vec{AB}$ and calculating $\\vec{OC} = \\vec{OA} + 21\\mathbf{u}$.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150161,
+            "content": "A second laser beam follows a path $L_2$ given by the equation $\\mathbf{r} = \\begin{pmatrix} 24 \\\\ -3 \\\\ 0 \\end{pmatrix} + \\mu \\begin{pmatrix} 0 \\\\ -0 \\\\ 1 \\end{pmatrix}$.\n\nVerify that point $C$ also lies on the path of this second beam.",
+            "order": 2,
+            "markscheme": "Substitute coordinates of $C(24, -3, 12)$ into the equation for $L_2$: $\\begin{pmatrix} 24 \\\\ -3 \\\\ 12 \\end{pmatrix} = \\begin{pmatrix} 24 \\\\ -3 \\\\ 0 \\end{pmatrix} + \\mu \\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$ <marks>M1</marks>\n\nCheck for consistency: $24 = 24$ (true) $-3 = -3$ (true) $12 = 0 + \\mu \\Rightarrow \\mu = 12$ <marks>A1</marks>\n\nSince a unique value for $\\mu$ exists, point $C$ lies on $L_2$.\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4f6f0158-ce2e-4b53-8b40-955cec000e7e",
+        "specification": "A particle is moving along a line in 2D with a constant velocity. You are to find the time at which it reaches a certain point.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64610,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "title": "Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "labeledAt": "2026-03-06T05:42:27.842Z",
+              "reasoning": "Given a parametric position vector r(t) in 2D and asked to find the time when the particle reaches a specified point\u2014this matches vector kinematics where an object\u2019s trajectory passes through a specific point.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1456428,
+        "parts": [
+          {
+            "id": 1067122,
+            "content": "The position vector of a particle is given by $\\mathbf{r}(t) = \\begin{pmatrix} 5t - 3 \\\\ 2t + 1 \\end{pmatrix}$. At what time $t$ does the particle reach the point $\\begin{pmatrix} 7 \\\\ 5 \\end{pmatrix}$?",
+            "order": 0,
+            "markscheme": "- Equate the position vector to the given point: $\\begin{pmatrix} 5t - 3 \\\\ 2t + 1 \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ 5 \\end{pmatrix}$ <marks>M1</marks>\n\n- Equate the first components: $5t - 3 = 7$\n\n- Solve for $t$: $5t = 10 \\Rightarrow t = 2$ <marks>A1</marks>\n\n- Verify using the second component: $2(2) + 1 = 5$\n\n- State the final answer: The particle reaches the point at $t = 2$ <marks>A1</marks>\n\n3 marks total\n\n<note>Both equations must give same t-value for solution to be valid</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "533899fc-7d18-4534-898e-95a0583091fd",
+        "specification": "A particle moves in a plane with a constant velocity. The position vector of the particle at time $t$ is given by $\\mathbf{r}(t) = \\begin{pmatrix} 2t + 1 \\\\ 3t - 4 \\end{pmatrix}$, where $t$ is in seconds and the position is in meters.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64613,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "title": "Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "labeledAt": "2026-03-07T17:25:43.692Z",
+              "reasoning": "The question gives a 2D position vector r(t) for a moving particle and asks for initial position and position at a specified time, matching finding position on a trajectory from time.",
+              "confidence": 0.78
+            },
+            {
+              "id": 58008,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "title": "Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "labeledAt": "2026-03-07T17:25:43.692Z",
+              "reasoning": "It asks to determine the (constant) velocity vector from the position vector r(t), i.e., velocity for a trajectory, which aligns with speed/velocity determination in vector kinematics.",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1456458,
+        "parts": [
+          {
+            "id": 1067210,
+            "content": "Find the initial position of the particle.",
+            "order": 0,
+            "markscheme": "- Substitute $t = 0$ into $\\mathbf{r}(t) = \\begin{pmatrix} 2t + 1 \\\\ 3t - 4 \\end{pmatrix}$\n\n- $\\mathbf{r}(0) = \\begin{pmatrix} 2(0) + 1 \\\\ 3(0) - 4 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix}$ <marks>A1</marks>\n\n1 mark total",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1067211,
+            "content": "Determine the velocity vector of the particle.",
+            "order": 1,
+            "markscheme": "- Recognize that velocity is the derivative of position with respect to time\n\n- $\\mathbf{v} = \\frac{d}{dt}\\begin{pmatrix} 2t + 1 \\\\ 3t - 4 \\end{pmatrix}$ <marks>M1</marks>\n\n- $\\mathbf{v} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$ Correct final answer <marks>A1</marks>\n\n<note>The derivative of a constant term is zero</note>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1067212,
+            "content": "Calculate the position of the particle at $t = 5$ seconds.",
+            "order": 2,
+            "markscheme": "- Substitute $t = 5$ into position vector equation: $\\mathbf{r}(5) = \\begin{pmatrix} 2(5) + 1 \\\\ 3(5) - 4 \\end{pmatrix}$ <marks>M1</marks>\n\n- Evaluate first component: $2(5) + 1 = 11$\n\n- Evaluate second component: $3(5) - 4 = 11$\n\n- Final position vector: $\\mathbf{r}(5) = \\begin{pmatrix} 11 \\\\ 11 \\end{pmatrix}$ meters <marks>A1</marks>\n\n2 marks total\n\n<note>Award full marks for correct final answer with clear working shown</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "56e4cce8-24bf-4d5d-b27a-dcd729ba8de5",
+        "specification": "A particle moves in three-dimensional space with a constant velocity.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64613,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "title": "Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "labeledAt": "2026-03-06T04:47:35.716Z",
+              "reasoning": "Part (b) uses the vector position model r(t)=r0+vt to find the particle\u2019s position at a specified time, which is finding a position on a trajectory given time.",
+              "confidence": 0.86
+            },
+            {
+              "id": 64610,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "title": "Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "labeledAt": "2026-03-06T04:47:35.716Z",
+              "reasoning": "Part (c) finds when the particle reaches the xy-plane (z=0), i.e., determining the time a trajectory passes a specified plane/condition (equivalently a point condition on the z-component).",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1492668,
+        "parts": [
+          {
+            "id": 1121385,
+            "content": "The position vector of the particle at time $t=0$ is $\\mathbf{r}_0 = \\begin{pmatrix} 1 \\\\ -2 \\\\ 3 \\end{pmatrix}$ and the velocity vector is $\\mathbf{v} = \\begin{pmatrix} 0 \\\\ 4 \\\\ -1 \\end{pmatrix}$. Find the position vector of the particle at time $t=10$.",
+            "order": 1,
+            "markscheme": "- **Substitute** the values into the position vector equation $\\mathbf{r}(t) = \\mathbf{r}_0 + t\\mathbf{v}$ for $t = 10$:\n$$\\mathbf{r}(10) = \\begin{pmatrix} 1 \\\\ -2 \\\\ 3 \\end{pmatrix} + 10\\begin{pmatrix} 0 \\\\ 4 \\\\ -1 \\end{pmatrix}$$ <marks>M1</marks>\n\n- **Calculate** the final position vector:\n$$\\mathbf{r}(10) = \\begin{pmatrix} 1 \\\\ 38 \\\\ -7 \\end{pmatrix}$$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1121386,
+            "content": "Find the time at which the particle reaches the $xy$-plane.",
+            "order": 2,
+            "markscheme": "- **Set** the $z$-coordinate of the position vector equal to zero to find the intersection with the $xy$-plane: $3 - t = 0$ <marks>M1</marks>\n\n- **Solve** for $t$: $t = 3$ <marks>A1</marks>\n\n2 marks total\n\n<note>Accept equivalent methods that arrive at $t = 3$.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "coordinate_geometry",
+                  "label": "Coordinate Geometry Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the $xy$-plane",
+                      "content": "In a three-dimensional coordinate system, any point lying on the **$xy$-plane** has a height of zero. This means its $z$-coordinate must be equal to $0$.\n\nTo find when the particle reaches this plane, we simply need to find the time $t$ when the $z$-component of its position vector is zero."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the $z$-coordinate",
+                      "content": "From the particle's position vector (determined in the previous part of the question), we can extract the parametric expression for the $z$-coordinate.\n\nAccording to the model, the $z$-coordinate at any time $t$ is given by:\n\n$$z = 3 - t$$",
+                      "highlights": [
+                        {
+                          "text": "3 - t = 0",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for time",
+                      "content": "We set the expression for the $z$-coordinate to zero and solve the linear equation for $t$:\n\n$$\\begin{aligned} 3 - t &= 0 \\\\ t &= 3 \\end{aligned}$$\n\nThis calculation earns the first mark (**M1**) for setting the coordinate to zero and the second mark (**A1**) for the correct final value.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3 - x = 0",
+                            "instructions": "Use the equation solver in the Main Menu and enter the equation 3 - x = 0."
+                          },
+                          "ti84": {
+                            "expression": "0 = 3 - x",
+                            "instructions": "Use the solver tool: Press [MATH], scroll to 'Solver...', enter '0 = 3 - X', and press [ALPHA][SOLVE]."
+                          },
+                          "desmos": {
+                            "expression": "3 - x = 0",
+                            "instructions": "Type the equation into the input bar to see the vertical line at the solution."
+                          },
+                          "description": "Verify the solution to the linear equation."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "3 - t = 0",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "t = 3",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The particle reaches the $xy$-plane at:\n\n$$t = 3$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "scalar_kinematics",
+                  "label": "Scalar Kinematic Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the boundary condition",
+                      "content": "To find when a particle reaches the $xy$-plane, we need to understand the characteristics of that plane. In a three-dimensional coordinate system, any point lying on the $xy$-plane must have a vertical height, or $z$-coordinate, of exactly zero."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Isolate the z-direction motion",
+                      "content": "Using a **Scalar Kinematic Analysis**, we treat the motion in the $z$-direction as a simple one-dimensional problem. \n\nFrom the particle's position vector, we identify the $z$-component as a function of time. Based on the given information, the $z$-coordinate is:\n\n$$z(t) = 3 - t$$",
+                      "highlights": [
+                        {
+                          "text": "3 - t = 0",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Set the equation",
+                      "content": "Since we are looking for the moment the particle hits the $xy$-plane, we set our $z$-component equation equal to zero. This represents the point in time where the particle has no height relative to that plane.",
+                      "highlights": [
+                        {
+                          "text": "Set the z-coordinate of the position vector equal to zero to find the intersection with the xy-plane: 3 - t = 0",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve for time t",
+                      "content": "Now, we solve the linear equation for $t$:\n\n$$\\begin{aligned} 3 - t &= 0 \\\\ t &= 3 \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3 - x = 0",
+                            "instructions": "1. Go to the 'Equation' or 'Solve' menu.\n2. Enter the equation 3 - x = 0.\n3. Solve for x."
+                          },
+                          "ti84": {
+                            "expression": "0 = 3 - x",
+                            "instructions": "1. Press [MATH] and select 'Solver...'\n2. Enter the equation: 0 = 3 - X\n3. Press [ALPHA] then [SOLVE] (above the ENTER key)."
+                          },
+                          "desmos": {
+                            "expression": "3 - x = 0",
+                            "instructions": "Type the equation into the input bar to see where the line crosses the x-axis."
+                          },
+                          "description": "You can solve this simple linear equation using the solver on your GDC."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "Solve for t: t = 3",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Conclusion",
+                      "content": "The particle reaches the $xy$-plane at $t = 3$. \n\nIn an IB exam, you earn one mark for correctly setting the $z$-expression to zero ($3 - t = 0$) and one mark for the correct final value of $t$."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:24:56.355Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "5e86b06a-3a3f-470c-98d1-6ed20a7b0566",
+        "specification": "A drone is flying in 3D space with a constant velocity.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64613,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "title": "Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "labeledAt": "2026-03-07T17:26:00.684Z",
+              "reasoning": "Part (a) uses the position vector r(t)=r0+tv to find the drone\u2019s position at a specified time, which matches finding position on a trajectory for a given time.",
+              "confidence": 0.88
+            },
+            {
+              "id": 64610,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "title": "Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "labeledAt": "2026-03-07T17:26:00.684Z",
+              "reasoning": "Part (b) solves for the time t such that the parametric/vector trajectory reaches a specified point, matching checking when a trajectory passes through a point.",
+              "confidence": 0.84
+            }
+          ]
+        },
+        "currentRevisionId": 1456602,
+        "parts": [
+          {
+            "id": 1067614,
+            "content": "The initial position vector of the drone is $\\mathbf{r}_0 = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ and its velocity vector is $\\mathbf{v} = \\begin{pmatrix} 0 \\\\ -1 \\\\ 2 \\end{pmatrix}$. Find the position vector of the drone at time $t=4$.",
+            "order": 0,
+            "markscheme": "- Substitute $t=4$ into the equation $\\mathbf{r}(t) = \\mathbf{r}_0 + t\\mathbf{v}$: $\\mathbf{r}(4) = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} + 4\\begin{pmatrix} 0 \\\\ -1 \\\\ 2 \\end{pmatrix}$ <marks>M1</marks>\n\n- Calculate the components: $\\mathbf{r}(4) = \\begin{pmatrix} 1 + 0 \\\\ 2 - 4 \\\\ 3 + 8 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ -2 \\\\ 11 \\end{pmatrix}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1067615,
+            "content": "Calculate the time at which the drone reaches the point $\\begin{pmatrix} 1 \\\\ -1 \\\\ 9 \\end{pmatrix}$.",
+            "order": 1,
+            "markscheme": "- Equate the position vector to the given point: $\\begin{pmatrix} 1 \\\\ 2 - t \\\\ 3 + 2t \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ -1 \\\\ 9 \\end{pmatrix}$ <marks>M1</marks>\n\n- Solve for $t$ using the $y$-component: $2 - t = -1 \\implies t = 3$ <marks>A1</marks>\n\n- Solve for $t$ using the $z$-component: $3 + 2t = 9 \\implies 2t = 6 \\implies t = 3$ <marks>A1</marks>\n\n- Conclude that the values are consistent and the time is $t = 3$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "614fb592-b113-4593-9ce8-2147930c41b8",
+        "specification": "The position vector of an automated underwater submersible, Drone Alpha, at time $t$ seconds is given by $\\boldsymbol{r}_A = 4\\cos(5t)\\boldsymbol{i} + 3\\sin(5t)\\boldsymbol{j}$. The displacement is measured in metres relative to a central docking station at the origin.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 4,
+            "workflowId": "ramen-ib-physics-new-614fb592-b113-4593-9ce8-2147930c41b8-1771929956947",
+            "generatedAt": "2026-02-25T20:52:14.940Z",
+            "sourceRevisionId": 1456798
+          },
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 58008,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "title": "Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "labeledAt": "2026-03-07T17:26:05.325Z",
+              "reasoning": "Uses vector-valued parametric trajectories to differentiate position to get velocity and speed, and second differentiate to get acceleration and interpret direction.",
+              "confidence": 0.95
+            },
+            {
+              "id": 64611,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 4: Finding the time at which two objects are closest each other given some trajectory",
+              "title": "Question Type 4: Finding the time at which two objects are closest each other given some trajectory",
+              "labeledAt": "2026-03-07T17:26:05.325Z",
+              "reasoning": "Part (d) asks for the time when two moving objects are closest over an interval given their position vectors.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28557,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.13\u2014Scalar and vector products > Question Type 1: Finding the dot product of two different vectors",
+              "title": "Question Type 1: Finding the dot product of two different vectors",
+              "labeledAt": "2026-03-07T17:26:05.325Z",
+              "reasoning": "Parts (e)-(f) require checking when velocity vectors are parallel/opposite, typically via scalar multiples/dot-product/2D cross-product condition.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1688407,
+        "parts": [
+          {
+            "id": 1149861,
+            "content": "Find an expression for the velocity vector of Drone Alpha, $\\boldsymbol{v}_A$, at time $t$.",
+            "order": -1,
+            "markscheme": "Differentiating $\\boldsymbol{r}_A$ with respect to $t$ using the chain rule:\n$\\boldsymbol{v}_A = -20\\sin(5t)\\boldsymbol{i} + 15\\cos(5t)\\boldsymbol{j}$ <marks>A1</marks>\n\n<note>Award <marks>A1</marks> for both terms correct. Condone the absence of units in this part.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149862,
+            "content": "Calculate the speed of Drone Alpha when $t = 0.5$.",
+            "order": 0,
+            "markscheme": "$|\\boldsymbol{v}_A| = \\sqrt{(-20\\sin(2.5))^2 + (15\\cos(2.5))^2}$ <marks>M1</marks>\nAt $t = 0.5$:\n$v_x \\approx -11.969...$ and $v_y \\approx -12.017...$ <marks>M1</marks>\n$|\\boldsymbol{v}_A| = \\sqrt{(-11.969...)^2 + (-12.017...)^2}$ <marks>M1</marks>\n$= 16.96$ m s$^{-1}$ ($16.9609...$) <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149863,
+            "content": "Determine an expression for the acceleration vector of Drone Alpha, $\\boldsymbol{a}_A$, at time $t$.",
+            "order": 1,
+            "markscheme": "$\\boldsymbol{a}_A = -100\\cos(5t)\\boldsymbol{i} - 75\\sin(5t)\\boldsymbol{j}$ <marks>A1</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149864,
+            "content": "Hence, show that the acceleration of Drone Alpha is always directed toward the central docking station.",
+            "order": 2,
+            "markscheme": "Factorising the expression for acceleration:\n$\\boldsymbol{a}_A = -25(4\\cos(5t)\\boldsymbol{i} + 3\\sin(5t)\\boldsymbol{j})$ <marks>M1</marks>\n$\\boldsymbol{a}_A = -25\\boldsymbol{r}_A$ <marks>A1</marks>\nSince $\\boldsymbol{a}_A$ is a negative scalar multiple of the position vector $\\boldsymbol{r}_A$ <marks>R1</marks>\nit acts in the opposite direction to the displacement from the origin (docking station). <marks>R1</marks>\nTherefore, the acceleration is always directed towards the origin. <marks>AG</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149865,
+            "content": "A second submersible, Drone Beta, has a position vector given by $\\boldsymbol{r}_B = 3\\cos(2t)\\boldsymbol{i} + 4\\sin(2t)\\boldsymbol{j}$. For $0 \\leq t \\leq 5$, find the time at which the two submersibles are closest to each other.",
+            "order": 3,
+            "markscheme": "Relative position vector $\\boldsymbol{d} = \\boldsymbol{r}_A - \\boldsymbol{r}_B$\n$\\boldsymbol{d} = (4\\cos(5t) - 3\\cos(2t))\\boldsymbol{i} + (3\\sin(5t) - 4\\sin(2t))\\boldsymbol{j}$ <marks>M1</marks>\nDistance $D = |\\boldsymbol{d}| = \\sqrt{(4\\cos(5t) - 3\\cos(2t))^2 + (3\\sin(5t) - 4\\sin(2t))^2}$ <marks>M1</marks>\nUsing GDC to find the minimum of the distance function <marks>M1</marks>\n$t = 1.05$ s ($1.04719...$) <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149866,
+            "content": "The velocity vectors of the two submersibles are parallel at time $t = k$, where $1 < k < 2$. Find the value of $k$.",
+            "order": 4,
+            "markscheme": "Velocity of Beta: $\\boldsymbol{v}_B = -6\\sin(2t)\\boldsymbol{i} + 8\\cos(2t)\\boldsymbol{j}$ <marks>A1</marks>\nFor the velocities to be parallel, their gradients must be equal:\n$m_A = \\frac{15\\cos(5t)}{-20\\sin(5t)} = -0.75\\cot(5t)$ and $m_B = \\frac{8\\cos(2t)}{-6\\sin(2t)} = -\\frac{4}{3}\\cot(2t)$ <marks>M1</marks>\nSetting gradients equal: $-0.75\\cot(5t) = -\\frac{4}{3}\\cot(2t)$ <marks>M1</marks>\n$9\\tan(2t) = 16\\tan(5t)$ (or equivalent) <marks>M1</marks>\nSolving for $t$ in the interval $1 < t < 2$:\n$k = 1.13$ s ($1.13097...$) <marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149867,
+            "content": "At time $k$, show that the two submersibles are moving in opposite directions.",
+            "order": 5,
+            "markscheme": "At $t = 1.13$:\n$\\boldsymbol{v}_A = -20\\sin(5.65...)\\boldsymbol{i} + 15\\cos(5.65...)\\boldsymbol{j} \\approx 11.8\\boldsymbol{i} + 12.2\\boldsymbol{j}$ <marks>A1</marks>\n$\\boldsymbol{v}_B = -6\\sin(2.26...)\\boldsymbol{i} + 8\\cos(2.26...)\\boldsymbol{j} \\approx -4.62\\boldsymbol{i} - 5.04\\boldsymbol{j}$ <marks>A1</marks>\nSince both components of $\\boldsymbol{v}_B$ have the opposite sign to the components of $\\boldsymbol{v}_A$ (and the vectors are parallel) <marks>R1</marks>\nthe drones are moving in opposite directions. <marks>AG</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "68d0f71b-2510-4a95-afe0-b3d8f750454f",
+        "specification": "The velocity of a particle at time $t$ seconds is given by\n\n$$\\vec{v}(t) = \\begin{pmatrix} 6t \\\\ -4 \\end{pmatrix}, \\text{ for } t \\geq 0$$\n\nThe initial position of the particle is given by $\\vec{r}(0) = \\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix}$.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 64689,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 3: Integrating kinematic variables",
+              "title": "Question Type 3: Integrating kinematic variables",
+              "labeledAt": "2026-03-07T17:26:11.837Z",
+              "reasoning": "Given velocity vector v(t) and initial position r(0), the task is to integrate velocity components to obtain the position vector r(t) and then evaluate at t=2 (a standard kinematics integration problem).",
+              "confidence": 0.93
+            },
+            {
+              "id": 64678,
+              "isHl": false,
+              "path": "Calculus > SL 5.5\u2014Introduction to integration > Question Type 2: Integrating polynomials with boundary conditions to solve for C",
+              "title": "Question Type 2: Integrating polynomials with boundary conditions to solve for C",
+              "labeledAt": "2026-03-07T17:26:11.837Z",
+              "reasoning": "Requires finding an antiderivative and using boundary/initial conditions to determine the constant of integration when forming r(t) from v(t).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1489141,
+        "parts": [
+          {
+            "id": 1116392,
+            "content": "Find the position vector $\\vec{r}(t)$ and determine the position of the particle when $t = 2$.",
+            "order": 1,
+            "markscheme": "- Integrate the velocity vector with respect to $t$: $\\vec{r}(t) = \\int \\vec{v}(t) \\, dt = \\begin{pmatrix} 3t^2 + c_1 \\\\ -4t + c_2 \\end{pmatrix}$ <marks>M1</marks>\n- Substitute the initial condition $\\vec{r}(0) = \\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix}$ to find the constants of integration: $\\begin{pmatrix} c_1 \\\\ c_2 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 5 \\end{pmatrix} \\Rightarrow c_1 = 2, c_2 = 5$ <marks>M1</marks>\n- State the expression for the position vector: $\\vec{r}(t) = \\begin{pmatrix} 3t^2 + 2 \\\\ -4t + 5 \\end{pmatrix}$ <marks>A1</marks>\n- Calculate the position at $t = 2$: $\\vec{r}(2) = \\begin{pmatrix} 3(2)^2 + 2 \\\\ -4(2) + 5 \\end{pmatrix} = \\begin{pmatrix} 14 \\\\ -3 \\end{pmatrix}$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "6d33b0d9-511b-43bc-bdee-41d3c7ec5d21",
+        "specification": "A particle moves in three-dimensional space with a constant velocity. The position vector of the particle at time $t$ is given by $\\mathbf{r}(t) = \\begin{pmatrix} 4t - 2 \\\\ -t + 3 \\\\ 5t + 1 \\end{pmatrix}$, where $t$ is in seconds and the position is in meters.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28658,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "title": "Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "labeledAt": "2026-03-06T13:16:59.147Z",
+              "reasoning": "Part (a) asks for the velocity vector from a position vector r(t), which is found by differentiating position with respect to time (rate of change in a kinematics context).",
+              "confidence": 0.86
+            },
+            {
+              "id": 64613,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "title": "Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "labeledAt": "2026-03-06T13:16:59.147Z",
+              "reasoning": "Parts (b) and (c) require evaluating the position vector at specific times (t=0 and t=2), i.e., finding the position on a parametric trajectory for given time values.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 819966,
+        "parts": [
+          {
+            "id": 492092,
+            "content": "Find the velocity vector of the particle.",
+            "order": 0,
+            "markscheme": "- Differentiate position vector with respect to time: $\\mathbf{v} = \\frac{d}{dt}\\begin{pmatrix} 4t - 2 \\\\ -t + 3 \\\\ 5t + 1 \\end{pmatrix}$ <marks>M1</marks>\n\n- Correctly differentiate each component:\n  $\\frac{d}{dt}(4t - 2) = 4$\n  $\\frac{d}{dt}(-t + 3) = -1$\n  $\\frac{d}{dt}(5t + 1) = 5$ <marks>A1</marks>\n\n- Final velocity vector: $\\mathbf{v} = \\begin{pmatrix} 4 \\\\ -1 \\\\ 5 \\end{pmatrix}$ <marks>A1</marks>\n\n<note>Units are in meters per second (m/s)</note>\n\n<marks>3 marks total</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 492093,
+            "content": "Determine the position of the particle at $t = 0$.",
+            "order": 1,
+            "markscheme": "- Substitute $t = 0$ into $\\mathbf{r}(t) = \\begin{pmatrix} 4t - 2 \\\\ -t + 3 \\\\ 5t + 1 \\end{pmatrix}$ <marks>M1</marks>\n\n- $\\mathbf{r}(0) = \\begin{pmatrix} 4(0) - 2 \\\\ -(0) + 3 \\\\ 5(0) + 1 \\end{pmatrix}$ \n\n- $\\mathbf{r}(0) = \\begin{pmatrix} -2 \\\\ 3 \\\\ 1 \\end{pmatrix}$ Correct final answer <marks>A1</marks>\n\n<marks>2 marks total</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 492094,
+            "content": "Calculate the position of the particle at $t = 2$ seconds.",
+            "order": 2,
+            "markscheme": "- Substitute $t = 2$ into position vector: $\\mathbf{r}(2) = \\begin{pmatrix} 4(2) - 2 \\\\ -(2) + 3 \\\\ 5(2) + 1 \\end{pmatrix}$ <marks>M1</marks>\n\n- Evaluate each component:\n  - $x = 4(2) - 2 = 8 - 2 = 6$\n  - $y = -(2) + 3 = -2 + 3 = 1$\n  - $z = 5(2) + 1 = 10 + 1 = 11$ <marks>A1</marks>\n\n- Final position vector: $\\mathbf{r}(2) = \\begin{pmatrix} 6 \\\\ 1 \\\\ 11 \\end{pmatrix}$ <marks>A1</marks>\n\n<marks>3 marks total</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "701dadec-4fdf-43d4-af5b-70b8e6733182",
+        "specification": "A particle moves in a plane with a constant velocity.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64613,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "title": "Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "labeledAt": "2026-03-07T03:35:16.968Z",
+              "reasoning": "Part (a) uses a constant velocity vector to find the position vector at a specified time (linear parametric trajectory/kinematics in vectors).",
+              "confidence": 0.88
+            },
+            {
+              "id": 64610,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "title": "Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "labeledAt": "2026-03-07T03:35:16.968Z",
+              "reasoning": "Part (b) asks for the time when the particle crosses the x-axis (i.e., when the trajectory reaches a specific point/condition y=0), which is determining when a trajectory passes a specific point/line condition.",
+              "confidence": 0.84
+            }
+          ]
+        },
+        "currentRevisionId": 1456773,
+        "parts": [
+          {
+            "id": 1068068,
+            "content": "Given the position vector of the particle at time $t=0$ is $\\mathbf{r}_0 = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$ and the velocity vector is $\\mathbf{v} = \\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix}$, find the position vector of the particle at time $t=5$.",
+            "order": 0,
+            "markscheme": "- Attempt to substitute values into the vector position formula $\\mathbf{r}(t) = \\mathbf{r}_0 + t\\mathbf{v}$ <marks>M1</marks>\n\n- Correct substitution: $\\mathbf{r}(5) = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix} + 5\\begin{pmatrix} 4 \\\\ 1 \\end{pmatrix}$ <marks>A1</marks>\n\n- Calculate the final position vector: $\\mathbf{r}(5) = \\begin{pmatrix} 22 \\\\ 8 \\end{pmatrix}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1068069,
+            "content": "Determine the time at which the particle crosses the x-axis. If the particle never crosses the x-axis, explain why.",
+            "order": 1,
+            "markscheme": "- Set the $y$-component equal to zero: $3 + t = 0$ <marks>M1</marks>\n\n- Solve for $t$: $t = -3$\n\n- State that since $t = -3$ is negative, the event occurred in the past (or is outside the domain $t \\geq 0$) <marks>R1</marks>\n\n- Conclude that the particle never crosses the x-axis in the future <marks>A1</marks>\n\n3 marks total\n\n<note>Accept clear reasoning that explains why the particle never crosses the x-axis (e.g. $y$ is always positive for $t \\ge 0$).</note>\n\n<examTip>In physics problems, negative time solutions often indicate that an event happened in the past or will never happen in the future.</examTip>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic",
+                  "label": "Algebraic Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the x-axis condition",
+                      "content": "To find when a particle crosses the **x-axis**, we need to find the moment when its vertical position is zero. In coordinate geometry, any point on the x-axis has a $y$-coordinate of $0$.\n\nFrom the particle's movement, the $y$-component of its position is expressed as $3 + t$. This is a concept covered in **Topic 3: Geometry and Trigonometry (AHL 3.12)** regarding vector kinematics."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Set up the equation",
+                      "content": "Using the algebraic approach, we set the parametric expression for the $y$-component equal to zero:\n\n$$3 + t = 0$$",
+                      "highlights": [
+                        {
+                          "text": "$3 + t = 0$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for time",
+                      "content": "Now, we solve for $t$ by isolating the variable. Subtract $3$ from both sides of the equation:\n\n$$\\begin{aligned} t &= 0 - 3 \\\\ t &= -3 \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3 + x = 0",
+                            "instructions": "Use the Equation Solver (often found in the Setup or Math menu). Enter 3 + x = 0 and solve for x."
+                          },
+                          "ti84": {
+                            "expression": "3 + X = 0",
+                            "instructions": "Go to the 'Numeric Solver' in the MATH menu. Enter E1: 3 + X and E2: 0. Press Solve."
+                          },
+                          "desmos": {
+                            "expression": "3 + t = 0",
+                            "instructions": "Type the equation in the input bar to see the vertical line representing the solution."
+                          },
+                          "description": "Solving a simple linear equation."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Interpret the negative result",
+                      "content": "In kinematics, time $t$ usually starts at $0$. A result of $t = -3$ means that the particle was at $y = 0$ three units of time **before** the motion started being tracked (in the past).\n\nBecause this value is outside our domain of $t \\ge 0$, it is not a valid time for the particle's current path.",
+                      "highlights": [
+                        {
+                          "text": "t = -3 is negative",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final conclusion",
+                      "content": "Since there is no positive value for $t$ that makes the $y$-component zero, we conclude that the particle **never crosses the x-axis** in the future.",
+                      "highlights": [
+                        {
+                          "text": "particle never crosses the x-axis in the future",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "inequality",
+                  "label": "Inequality Reasoning",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the x-axis condition",
+                      "content": "To determine when a particle crosses the $x$-axis, we look for the moment when its vertical position, the $y$-coordinate, is equal to zero.\n\n$$\\text{Crosses } x\\text{-axis when } y = 0$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the y-component",
+                      "content": "From the particle's movement, the $y$-component of its position is described by the expression:\n\n$$y = 3 + t$$\n\nHere, $t$ represents the time in seconds.",
+                      "highlights": [
+                        {
+                          "text": "3 + t = 0",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply inequality reasoning",
+                      "content": "In physics and kinematics problems, we generally consider the domain of time to be $t \\geq 0$ (the present and the future).\n\nIf we look at the expression $y = 3 + t$ and substitute the smallest possible value for $t$:\n\n$$\\begin{aligned} t &\\geq 0 \\\\ 3 + t &\\geq 3 + 0 \\\\ y &\\geq 3 \\end{aligned}$$\n\nSince the $y$-coordinate starts at $3$ and only increases as time passes, it will always be greater than or equal to $3$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Visualize with technology",
+                      "content": "We can verify this by graphing the vertical position over time. You will see that the line never touches the horizontal axis (where $y=0$) for any positive value of $x$ (time).",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3 + x",
+                            "instructions": "Go to the Graph menu. Type f1(x) = 3 + x. Set the horizontal axis range to start at 0."
+                          },
+                          "ti84": {
+                            "expression": "3 + x",
+                            "instructions": "Press [Y=] and enter Y1 = 3 + X. Press [WINDOW] and set Xmin = 0. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "y = 3 + x \\{x \\ge 0\\}",
+                            "instructions": "Type y = 3 + x {x >= 0} into the expression bar."
+                          },
+                          "description": "Graph the y-component to see its behavior over time."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the conclusion",
+                      "content": "Because $y$ is always greater than or equal to $3$ for all $t \\geq 0$, the $y$-coordinate can never reach $0$. \n\nTherefore, the particle **never crosses the x-axis** in the future. \n\nMathematically, solving $3 + t = 0$ gives $t = -3$. Since this time is negative, it represents an event that would have happened in the past, outside our valid domain.",
+                      "highlights": [
+                        {
+                          "text": "State that since t = -3 is negative, the event occurred in the past",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Conclude that the particle never crosses the x-axis in the future",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "graphical",
+                  "label": "Graphical Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the crossing condition",
+                      "content": "To determine when a particle crosses the $x$-axis, we need to find when its vertical position is zero. In coordinate geometry and kinematics, this means setting the $y$-component of the position equal to zero.\n\nFrom the given information, the $y$-component of the particle's position is:\n$$y = 3 + t$$",
+                      "highlights": [
+                        {
+                          "text": "crosses the x-axis",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Graph the y-component",
+                      "content": "We can use a Graphing Display Calculator (GDC) to visualize the height of the particle over time. We will graph the function $y = 3 + x$, where $x$ represents the time $t$. \n\nBecause time $t$ must be non-negative ($t \\geq 0$) for future movement, we should focus on the right side of the $y$-axis on our graph.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3 + x",
+                            "instructions": "1. Go to the Graphing menu.\n2. Enter the function f(x) = 3 + x.\n3. Set the viewing window for x from 0 to 10.\n4. Draw the graph."
+                          },
+                          "ti84": {
+                            "expression": "3 + x",
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = 3 + X.\n3. Press [WINDOW] and set Xmin = 0.\n4. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "y = 3 + x",
+                            "instructions": "1. Type y = 3 + x in the expression bar.\n2. Observe the graph for x >= 0."
+                          },
+                          "description": "Graph the y-component function to see if it ever reaches zero for positive time."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the graph",
+                      "content": "When you look at the graph for $t \\geq 0$, you will notice that the line starts at the point $(0, 3)$ and continues to rise as time increases. \n\nThe graph never intersects the $x$-axis (where $y=0$) in the positive region. This visual evidence suggests that the $y$-coordinate is always positive for all future times."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve for the intercept",
+                      "content": "To be mathematically certain, we can use the calculator's 'zero' or 'root' function to find exactly where the line hits the axis:\n\n$$\\begin{aligned} 0 &= 3 + t \\\\ t &= -3 \\end{aligned}$$\n\nThis calculation confirms that the particle was at $y=0$ three seconds before the timing started ($t = -3$)."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the conclusion",
+                      "content": "Since the only time the particle crosses the $x$-axis is at $t = -3$, and our domain for motion is $t \\geq 0$, we conclude that the particle never crosses the $x$-axis in the future. \n\nIn IB Physics and Math, we always check if our solution fits the physical constraints of the problem\u2014in this case, time cannot be negative for events occurring after the start of observation.",
+                      "highlights": [
+                        {
+                          "text": "particle never crosses the x-axis",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:26:33.815Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7068d23f-1f9e-407a-8f9d-90dad9870762",
+        "specification": "Consider a particle moving in a 2D plane with a constant velocity vector.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28658,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "title": "Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "labeledAt": "2026-03-07T17:25:38.223Z",
+              "reasoning": "Part (a) asks for the velocity vector from a given position vector r(t), which is found by differentiating position with respect to time (a standard kinematics rate-of-change task).",
+              "confidence": 0.93
+            },
+            {
+              "id": 64613,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "title": "Question Type 7: Finding the position of a specific object on a trajectory for a given value in time",
+              "labeledAt": "2026-03-07T17:25:38.223Z",
+              "reasoning": "Part (b) asks for the position at a specific time (t=5) by evaluating the parametric/vector position function at that time.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1456778,
+        "parts": [
+          {
+            "id": 1068083,
+            "content": "The position vector of a particle at time $t$ is given by $\\mathbf{r}(t) = \\begin{pmatrix} 2t + 1 \\\\ 3t - 4 \\end{pmatrix}$. Find the velocity vector of the particle.",
+            "order": 0,
+            "markscheme": "- Recognize that velocity vector is the derivative of position vector with respect to time: $\\mathbf{v} = \\frac{d\\mathbf{r}}{dt}$\n- Differentiate x-component: $\\frac{d}{dt}(2t + 1) = 2$\n- Differentiate y-component: $\\frac{d}{dt}(3t - 4) = 3$ <marks>A1</marks>\n- State final answer as a vector: $\\mathbf{v} = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$ <marks>A1</marks>\n\n2 marks total\n\n<note>Award full marks for correct answer with clear working shown</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1068084,
+            "content": "Determine the position of the particle at $t = 5$.",
+            "order": 1,
+            "markscheme": "- Substitute $t=5$ into x-component: $2(5) + 1 = 11$\n- Substitute $t=5$ into y-component: $3(5) - 4 = 11$\n- State final position vector: $\\mathbf{r}(5) = \\begin{pmatrix} 11 \\\\ 11 \\end{pmatrix}$ <marks>A1</marks>\n\n1 mark total\n\n<note>Award full marks for correct final answer with clear working shown</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "8d91ee0b-39b7-4fa0-8f9d-263ad2e4d747",
+        "specification": "A particle moves with velocity vector\n\n$$\n\\vec{v}(t)=\\left[\\begin{array}{l}\n4 \\\\\n2\n\\end{array}\\right]\n$$\n\nstarting from the origin.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64689,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 3: Integrating kinematic variables",
+              "title": "Question Type 3: Integrating kinematic variables",
+              "labeledAt": "2026-03-06T05:41:22.072Z",
+              "reasoning": "Given a constant velocity vector and starting at the origin, finding distance from origin after a time uses kinematics via integrating velocity to get position (displacement) and then computing its magnitude.",
+              "confidence": 0.91
+            }
+          ]
+        },
+        "currentRevisionId": 1416048,
+        "parts": [
+          {
+            "id": 1033412,
+            "content": "How far is the particle from the origin after 3 seconds?",
+            "order": 0,
+            "markscheme": "Constant velocity $\\rightarrow$ linear motion:\n\n$$\n\\vec{r}(t)=\\vec{v} t=\\left[\\begin{array}{l}\n4 t \\\\\n2 t\n\\end{array}\\right]\n$$\n<marks>M1</marks>\n\nAt $\\mathrm{t}=3$ :\n\n$$\n\\vec{r}(3)=\\left[\\begin{array}{c}\n12 \\\\\n6\n\\end{array}\\right]\n$$\n<marks>M1</marks>\n\nUse Pythagoras to find distance:\n\n$$\n\\text { Distance }=\\sqrt{12^{2}+6^{2}}=\\sqrt{144+36}=\\sqrt{180}\n$$\n<marks>A1</marks>\n\nFinal answer:\n\n$$\n\\text { Distance }=6 \\sqrt{5}\n$$\n<marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8fd2cce2-727e-4deb-8af6-7acb4a990eda",
+        "specification": "A particle's velocity is given by\n\n$$\n\\vec{v}(t)=\\begin{bmatrix}\n2 t \\\\\n3\n\\end{bmatrix}, \\quad \\vec{r}(0)=\\begin{bmatrix}\n0 \\\\\n1\n\\end{bmatrix}\n$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64689,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 3: Integrating kinematic variables",
+              "title": "Question Type 3: Integrating kinematic variables",
+              "labeledAt": "2026-03-07T17:23:48.995Z",
+              "reasoning": "Given a time-dependent velocity vector and an initial position vector, the task is to integrate velocity to obtain position (specifically the y-component) and solve for the time when y=5; this is a standard kinematics integration problem.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1478597,
+        "parts": [
+          {
+            "id": 1097359,
+            "content": "At what time will the particle be 5 units above the x-axis?",
+            "order": 0,
+            "markscheme": "- Integrate velocity to find the position vector: $\\vec{r}(t)=\\begin{bmatrix} t^{2} \\\\ 3 t+1 \\end{bmatrix}$ <marks>M1</marks>\n\n- Set the $y$-component equal to 5: $3 t+1=5$ <marks>M1</marks>\n\n- Calculate the time: $t=\\frac{4}{3}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "95f6d7a6-c066-4638-9a47-68e1a1ac42af",
+        "specification": "Consider the lines $l_1$ and $l_2$ defined by\n\n$$ l_1: \\mathbf{r} = \\begin{pmatrix} -3 \\\\ -2 \\\\ a \\end{pmatrix} + \\beta \\begin{pmatrix} 1 \\\\ 4 \\\\ 2 \\end{pmatrix} $$\n\nand\n\n$$ l_2: \\frac{6-x}{3} = \\frac{y-2}{4} = 1-z $$\n\nwhere $a$ is a constant.\n\nGiven that the lines $l_1$ and $l_2$ intersect at a point $Q$:",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64609,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.11\u2014Vector equation of a line in 2d and 3d > Question Type 3: Converting between different forms of a line",
+              "title": "Question Type 3: Converting between different forms of a line",
+              "labeledAt": "2026-03-06T12:41:51.636Z",
+              "reasoning": "The question involves working with 3D line equations given in vector form and symmetric/parametric form, requiring conversion to a common form to find their intersection point.",
+              "confidence": 0.78
+            },
+            {
+              "id": 64612,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 5: Finding the value of parameters such that two trajectories or objects would intersect",
+              "title": "Question Type 5: Finding the value of parameters such that two trajectories or objects would intersect",
+              "labeledAt": "2026-03-06T12:41:51.636Z",
+              "reasoning": "Finding the value of parameter a so that two given lines intersect is analogous to determining parameter values such that two trajectories/lines intersect.",
+              "confidence": 0.69
+            }
+          ]
+        },
+        "currentRevisionId": 1489159,
+        "parts": [
+          {
+            "id": 1116418,
+            "content": "Determine the coordinates of the point of intersection $Q$.",
+            "order": 1,
+            "markscheme": "- Attempt to equate the $x$ and $y$ coordinates of $l_1$ and $l_2$ (or substitute $l_1$ into $l_2$) to find parameters <marks>M1</marks>\n\n  $$ \\frac{6-(-3+\\beta)}{3} = \\frac{(-2+4\\beta)-2}{4} \\Rightarrow \\beta = 3 $$\n  OR\n  $$ \\begin{cases} -3+\\beta = 6-3\\lambda \\\\ -2+4\\beta = 2+4\\lambda \\end{cases} \\Rightarrow \\lambda = 2, \\beta = 3 $$\n\n- State the coordinates of $Q$: $(0, 10, -1)$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "substitution",
+                  "label": "Substitution into Cartesian Form",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Express $l_1$ parametrically",
+                      "content": "To find the intersection, we first express the $x$ and $y$ coordinates of line $l_1$ in terms of the parameter $\\beta$. From the vector equation of $l_1$:\n\n$$\\begin{aligned} x &= -3 + \\beta \\\\ y &= -2 + 4\\beta \\end{aligned}$$\n\nThese represent the coordinates of any point on $l_1$ for a given value of $\\beta$.",
+                      "highlights": [
+                        {
+                          "text": "l_1: \\mathbf{r} = \\begin{pmatrix} -3 \\\\ -2 \\\\ a \\end{pmatrix} + \\beta \\begin{pmatrix} 1 \\\\ 4 \\\\ 2 \\end{pmatrix}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Substitute into $l_2$",
+                      "content": "Since the point $Q$ lies on both lines, we substitute the expressions for $x$ and $y$ from $l_1$ into the first two parts of the Cartesian equation for $l_2$:\n\n$$ \\frac{6 - x}{3} = \\frac{y - 2}{4} $$\n\nSubstituting $x = -3 + \\beta$ and $y = -2 + 4\\beta$:\n\n$$ \\frac{6 - (-3 + \\beta)}{3} = \\frac{(-2 + 4\\beta) - 2}{4} $$",
+                      "highlights": [
+                        {
+                          "text": "Attempt to equate the x and y coordinates of l_1 and l_2 (or substitute l_1 into l_2) to find parameters",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "l_2: \\frac{6-x}{3} = \\frac{y-2}{4} = 1-z",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for parameter $\\beta$",
+                      "content": "Now we simplify and solve the equation for $\\beta$:\n\n$$\\begin{aligned} \\frac{9 - \\beta}{3} &= \\frac{4\\beta - 4}{4} \\\\ \\frac{9 - \\beta}{3} &= \\beta - 1 \\\\ 9 - \\beta &= 3(\\beta - 1) \\\\ 9 - \\beta &= 3\\beta - 3 \\\\ 12 &= 4\\beta \\\\ \\beta &= 3 \\end{aligned}$$\n\nThis tells us that the intersection occurs when the parameter $\\beta$ for $l_1$ is $3$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "solve((9-x)/3 = x-1, x)",
+                            "instructions": "Use the 'Solve' or 'Equation Solver' function on your calculator to solve (9-X)/3 = X-1."
+                          },
+                          "ti84": {
+                            "expression": "0=(9-X)/3-(X-1)",
+                            "instructions": "1. Press [MATH] and select 'Solver...'.\n2. Enter the equation: 0 = (9-X)/3 - (X-1).\n3. Press [ALPHA] [SOLVE]."
+                          },
+                          "desmos": {
+                            "expression": "y = (9-x)/3; y = x-1",
+                            "instructions": "Graph y = (9-x)/3 and y = x-1 and find the x-coordinate of the intersection point."
+                          },
+                          "description": "You can verify the intersection parameter by graphing both sides of the equation as separate functions or using the numeric solver."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "\\frac{6-(-3+\\beta)}{3} = \\frac{(-2+4\\beta)-2}{4} \\Rightarrow \\beta = 3",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate coordinates of $Q$",
+                      "content": "Using $\\beta = 3$, we find the $x$ and $y$ coordinates of $Q$:\n\n$$\\begin{aligned} x &= -3 + 3 = 0 \\\\ y &= -2 + 4(3) = 10 \\end{aligned}$$\n\nTo find the $z$-coordinate, use the third part of the $l_2$ equation, $1 - z$. We know $\\frac{y - 2}{4} = 1 - z$:\n\n$$\\begin{aligned} \\frac{10 - 2}{4} &= 1 - z \\\\ 2 &= 1 - z \\\\ z &= -1 \\end{aligned}$$\n\nThus, the coordinates of $Q$ are $(0, 10, -1)$.",
+                      "highlights": [
+                        {
+                          "text": "State the coordinates of Q: (0, 10, -1)",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "parametric_equating",
+                  "label": "Equating Parametric Equations",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define parametric form for $l_1$",
+                      "content": "First, let's write the line $l_1$ in parametric form. We do this by breaking the vector equation down into its individual $x$, $y$, and $z$ components using the parameter $\\beta$:\n\n$$\\begin{cases} x = -3 + \\beta \\\\ y = -2 + 4\\beta \\\\ z = a + 2\\beta \\end{cases}$$\n\nThis tells us the position of any point on line $l_1$ for a given value of $\\beta$.",
+                      "highlights": [
+                        {
+                          "text": "$$ l_1: \\mathbf{r} = \\begin{pmatrix} -3 \\\\ -2 \\\\ a \\end{pmatrix} + \\beta \\begin{pmatrix} 1 \\\\ 4 \\\\ 2 \\end{pmatrix} $$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define parametric form for $l_2$",
+                      "content": "Now, let's convert the Cartesian equation of $l_2$ into parametric form. To do this, we set the entire expression equal to a new parameter, let's use $\\lambda$:\n\n$$\\frac{6-x}{3} = \\frac{y-2}{4} = 1-z = \\lambda$$\n\nBy rearranging each part to solve for $x$, $y$, and $z$, we get:\n\n$$\\begin{aligned} \\frac{6-x}{3} = \\lambda &\\Rightarrow x = 6 - 3\\lambda \\\\ \\frac{y-2}{4} = \\lambda &\\Rightarrow y = 2 + 4\\lambda \\\\ 1-z = \\lambda &\\Rightarrow z = 1 - \\lambda \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "$$ l_2: \\frac{6-x}{3} = \\frac{y-2}{4} = 1-z $$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Equate the components",
+                      "content": "Since the lines intersect at point $Q$, there must be values for $\\beta$ and $\\lambda$ that result in the same $(x, y, z)$ coordinates. We equate the $x$ and $y$ components from both lines to create a system of equations:\n\n$$\\begin{cases} -3 + \\beta = 6 - 3\\lambda \\\\ -2 + 4\\beta = 2 + 4\\lambda \\end{cases}$$\n\nSimplifying these equations, we get:\n\n$$\\begin{cases} \\beta + 3\\lambda = 9 \\\\ 4\\beta - 4\\lambda = 4 \\end{cases}$$\n\nWe can simplify the second equation further by dividing by 4 to get $\\beta - \\lambda = 1$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve for the parameters",
+                      "content": "We can now solve this system of linear equations. Using the simplified second equation, we have $\\beta = 1 + \\lambda$. Substituting this into the first equation:\n\n$$\\begin{aligned} (1 + \\lambda) + 3\\lambda &= 9 \\\\ 4\\lambda &= 8 \\\\ \\lambda &= 2 \\end{aligned}$$\n\nNow find $\\beta$:\n$$\\beta = 1 + 2 = 3$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "Go to the Equation/Solver menu. Select 'Simultaneous'. Set unknowns to 2. Enter coefficients: [[1, 3, 9], [4, -4, 4]]. Solve."
+                          },
+                          "ti84": {
+                            "instructions": "Press [APPS], select 'PlySmlt2', then 'Simult Eqn Solver'. Set equations to 2 and unknowns to 2. Enter coefficients: row 1 [1, 3, 9], row 2 [4, -4, 4]. Press [SOLVE]."
+                          },
+                          "desmos": {
+                            "expression": "x + 3y = 9, 4x - 4y = 4",
+                            "instructions": "Type the equations: x + 3y = 9 and 4x - 4y = 4. The intersection point is (3, 2), where x is \u03b2 and y is \u03bb."
+                          },
+                          "description": "Solve the system of linear equations for \u03b2 and \u03bb."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Calculate the coordinates of Q",
+                      "content": "Finally, we substitute our parameters back into either line to find the coordinates of $Q$. \n\nUsing $\\lambda = 2$ in the equations for $l_2$:\n$$\\begin{aligned} x &= 6 - 3(2) = 0 \\\\ y &= 2 + 4(2) = 10 \\\\ z &= 1 - (2) = -1 \\end{aligned}$$\n\nThus, the coordinates of the intersection point $Q$ are $(0, 10, -1)$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "6-3*2",
+                            "instructions": "Perform calculations: 6-3(2), 2+4(2), 1-2."
+                          },
+                          "ti84": {
+                            "expression": "6 - 3*2",
+                            "instructions": "6 - 3*2 [ENTER], 2 + 4*2 [ENTER], 1 - 2 [ENTER]"
+                          },
+                          "desmos": {
+                            "expression": "6 - 3(2), 2 + 4(2), 1 - 2",
+                            "instructions": "Substitute \u03bb = 2 into the parametric expressions for l\u2082."
+                          },
+                          "description": "Calculate the coordinates by substituting \u03bb = 2."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:14:23.237Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1116419,
+            "content": "Find the value of $a$.",
+            "order": 2,
+            "markscheme": "**METHOD 1**\n- Express $l_1$ in terms of $\\beta$: $x = -3+\\beta, y = -2+4\\beta, z = a+2\\beta$ <marks>M1</marks>\n- Substitute these into the equation for $l_2$: $\\frac{6-(-3+\\beta)}{3} = \\frac{(-2+4\\beta)-2}{4}$ <marks>M1</marks>\n- Solve for $\\beta$: $\\beta = 3$ <marks>A1</marks>\n- Substitute into the $z$-component equation (e.g., $1-z = 2$ from $l_2$): $1-(a+2(3)) = 2 \\Rightarrow a = -7$ <marks>A1</marks>\n\n**METHOD 2**\n- Set up a system of equations equating the components: <marks>M1</marks>\n\n  $$ \\begin{cases} -3+\\beta = 6-3\\lambda \\\\ -2+4\\beta = 2+4\\lambda \\\\ a+2\\beta = 1-\\lambda \\end{cases} $$\n\n- Attempt to solve for $\\beta$ and $\\lambda$ <marks>M1</marks>\n- Obtain $\\lambda = 2, \\beta = 3$ <marks>A1</marks>\n- Substitute into the third equation to find $a$: $a = 1-\\lambda-2\\beta = -7$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "9c167d0f-4e1b-4f3d-8336-15e72fc85c42",
+        "specification": "A particle has position vector\n\n$$\\mathbf{r}(t) = \\begin{pmatrix} 6 - 2t \\\\ 4t \\end{pmatrix}$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64610,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "title": "Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "labeledAt": "2026-03-07T17:26:41.069Z",
+              "reasoning": "Given a 2D position vector r(t), finding the time when the particle is at the origin means solving for when the trajectory passes a specific point (0,0).",
+              "confidence": 0.87
+            }
+          ]
+        },
+        "currentRevisionId": 1488385,
+        "parts": [
+          {
+            "id": 1115529,
+            "content": "Find the time $t$ when the particle is at the origin.",
+            "order": 1,
+            "markscheme": "- Set the components of the position vector equal to zero: $6 - 2t = 0$ and $4t = 0$ <marks>M1</marks>\n- Solve for $t$ in each equation: $t = 3$ and $t = 0$ <marks>M1</marks>\n- Conclude that since there is no common value of $t$, the particle is never at the origin <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "9e608a6b-d436-4e69-8bb2-e1489e3c4b8f",
+        "specification": "<p>Two submarines A and B have their routes planned so that their positions at time $t$ hours, $0 \\leq t < 20$, would be defined by the position vectors $\\mathbf{r}_A = \\begin{pmatrix} 2 \\\\ 4 \\\\ -1 \\end{pmatrix} + t\\begin{pmatrix} -1 \\\\ 1 \\\\ -0.15 \\end{pmatrix}$ and $\\mathbf{r}_B = \\begin{pmatrix} 0 \\\\ 3.2 \\\\ -2 \\end{pmatrix} + t\\begin{pmatrix} -0.5 \\\\ 1.2 \\\\ 0.1 \\end{pmatrix}$ relative to a fixed point on the surface of the ocean (all lengths are in kilometres).</p>\n\n<p>To avoid a collision, submarine B adjusts its velocity so that its position vector is now given by</p>\n\n<p style=\"padding-left: 120px;\">$\\mathbf{r}_B = \\begin{pmatrix} 0 \\\\ 3.2 \\\\ -2 \\end{pmatrix} + t\\begin{pmatrix} -0.45 \\\\ 1.08 \\\\ 0.09 \\end{pmatrix}$.</p>",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T08:46:27.067Z",
+            "resultId": 44281
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28542,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 3: Determining whether two objects intersect for their given trajectory",
+              "title": "Question Type 3: Determining whether two objects intersect for their given trajectory",
+              "labeledAt": "2026-03-07T03:34:54.367Z",
+              "reasoning": "Part (a) asks to show whether two 3D parametric trajectories intersect (collision) and find the intersection point.",
+              "confidence": 0.92
+            },
+            {
+              "id": 64611,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 4: Finding the time at which two objects are closest each other given some trajectory",
+              "title": "Question Type 4: Finding the time at which two objects are closest each other given some trajectory",
+              "labeledAt": "2026-03-07T03:34:54.367Z",
+              "reasoning": "Parts (c) and (d) require finding the time when the moving objects are closest and the minimum distance between them.",
+              "confidence": 0.9
+            },
+            {
+              "id": 64610,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "title": "Question Type 2: Determining with an object given a trajectory passes a specific point",
+              "labeledAt": "2026-03-07T03:34:54.367Z",
+              "reasoning": "Part (b) asks for the time when submarine B passes through a specific point P on its trajectory.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1697197,
+        "parts": [
+          {
+            "id": 1159314,
+            "content": "Show that the two submarines would collide at a point P (if submarine B did not adjust its velocity) and write down the coordinates of P.",
+            "order": 0,
+            "markscheme": "<ul>\n<li>Equate position vectors: $\\mathbf{r}_A = \\mathbf{r}_B$ <marks>M1</marks></li>\n<li>Solve for $t$: $2 - t = -0.5t \\Rightarrow t = 4$ <marks>A1</marks></li>\n<li>Verify $t=4$ satisfies other components: $4+t = 3.2+1.2t$ and $-1-0.15t = -2+0.1t$ <marks>R1</marks></li>\n<li>State coordinates of P: $P(-2, 8, -1.6)$ <marks>A1</marks></li>\n</ul>\n<p>4 marks total</p>\n<note>Do not award final <marks>A1</marks> if answer given as column vector.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159315,
+            "content": "Find the value of $t$ when submarine B passes through P.",
+            "order": 1,
+            "markscheme": "<ul>\n<li>Set new position vector equal to P: $\\begin{pmatrix} -0.45t \\\\ 3.2 + 1.08t \\\\ -2 + 0.09t \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ 8 \\\\ -1.6 \\end{pmatrix}$ <marks>M1</marks></li>\n<li>Calculate $t$: $t = \\frac{40}{9} \\approx 4.44$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>\n<note>The <marks>M1</marks> can be awarded for any one of the resultant equations.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159316,
+            "content": "Find the value of $t$ when the two submarines are closest together.",
+            "order": 2,
+            "markscheme": "<ul>\n<li>Recognize condition for minimum distance: $\\frac{\\text{d}D}{\\text{d}t} = 0$ <marks>M1</marks></li>\n<li>Calculate $t$: $t = 3.83$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159317,
+            "content": "Find the distance between the two submarines at this time.",
+            "order": 3,
+            "markscheme": "<ul>\n<li>State distance: $0.511$ (km) <marks>A1</marks></li>\n</ul>\n<p>1 mark total</p>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a0e845fe-2a52-450e-9a43-3a5f1efe5a9c",
+        "specification": "A particle moves such that its position at time $t$ seconds is given by\n\n$$\n\\vec{r}(t) = \\begin{pmatrix} 4t^2 + 1 \\\\ 2t - 3 \\end{pmatrix}\n$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28658,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "title": "Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "labeledAt": "2026-03-07T17:26:52.330Z",
+              "reasoning": "To find when motion is vertical, you differentiate the position vector to get the velocity components and set the horizontal component dx/dt to 0 (with dy/dt \u2260 0). This is a kinematics rate-of-change condition.",
+              "confidence": 0.9
+            },
+            {
+              "id": 64614,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 8: Finding the time of change in both directions for a given object",
+              "title": "Question Type 8: Finding the time of change in both directions for a given object",
+              "labeledAt": "2026-03-07T17:26:52.330Z",
+              "reasoning": "The question asks for the time when the particle changes direction in the horizontal/vertical sense (vertical motion implies zero horizontal velocity component), matching the idea of finding time of change in direction(s) for a trajectory.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1489168,
+        "parts": [
+          {
+            "id": 1116430,
+            "content": "Determine the time(s), if any, when the particle is moving **vertically**.",
+            "order": 1,
+            "markscheme": "- Differentiate the position vector to obtain the velocity vector: $\\vec{v}(t) = \\frac{d\\vec{r}}{dt} = \\begin{pmatrix} 8t \\\\ 2 \\end{pmatrix}$ <marks>M1A1</marks>\n\n- Set the horizontal component of the velocity equal to zero for vertical motion: $8t = 0$ <marks>M1</marks>\n\n- Solve for the value of $t$: $t = 0$ <marks>A1</marks>\n\n- Verify that the vertical component is non-zero ($v_y = 2 \\neq 0$) at this time, confirming the motion is vertical <marks>R1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "ba8f5f13-65f8-4899-bc2c-f4cb052fb35d",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28557,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.13\u2014Scalar and vector products > Question Type 1: Finding the dot product of two different vectors",
+              "title": "Question Type 1: Finding the dot product of two different vectors",
+              "labeledAt": "2026-03-06T13:06:48.017Z",
+              "reasoning": "To find |w| where w = u \u2212 v given magnitudes and the angle between u and v, you use the dot product: |u\u2212v|^2 = |u|^2 + |v|^2 \u2212 2(u\u00b7v), with u\u00b7v = |u||v|cos\u03b8.",
+              "confidence": 0.9
+            },
+            {
+              "id": 64615,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.13\u2014Scalar and vector products > Question Type 2: Finding the angle between two different vectors",
+              "title": "Question Type 2: Finding the angle between two different vectors",
+              "labeledAt": "2026-03-06T13:06:48.017Z",
+              "reasoning": "The angle between vectors (and cosine of that angle) is explicitly given and is used via the dot-product relation u\u00b7v = |u||v|cos\u03b8.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1478412,
+        "parts": [
+          {
+            "id": 1097154,
+            "content": "The magnitudes of two vectors, $\\mathbf{u}$ and $\\mathbf{v}$, are $4$ and $\\sqrt{3}$ respectively. The angle between $\\mathbf{u}$ and $\\mathbf{v}$ is $\\frac{\\pi}{6}$.\n\nLet $\\mathbf{w} = \\mathbf{u} - \\mathbf{v}$. Find the magnitude of $\\mathbf{w}$.",
+            "order": 0,
+            "markscheme": "- **Attempt** to use the formula for the magnitude of the difference of two vectors:\n  $$||\\mathbf{w}|| = \\sqrt{||\\mathbf{u}||^2 + ||\\mathbf{v}||^2 - 2 ||\\mathbf{u}|| ||\\mathbf{v}|| \\cos \\theta}$$\n  $||\\mathbf{w}|| = \\sqrt{4^2 + (\\sqrt{3})^2 - 2(4)(\\sqrt{3}) \\cos\\left(\\frac{\\pi}{6}\\right)}$ <marks>M1</marks>\n\n- **Simplify** the expression:\n  $$||\\mathbf{w}|| = \\sqrt{16 + 3 - 8\\sqrt{3}\\left(\\frac{\\sqrt{3}}{2}\\right)}$$\n  $$||\\mathbf{w}|| = \\sqrt{19 - 12}$$\n\n- **Calculate** the final magnitude:\n  $||\\mathbf{w}|| = \\sqrt{7}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "c9791593-d3af-4b28-9e9c-59f1abc7d105",
+        "specification": "The position vector of a particle at time $t$ seconds is\n\n$$\\vec{r}(t) = \\begin{pmatrix} t^3 - 3t \\\\ 2t^2 - t \\end{pmatrix}$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28658,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "title": "Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "labeledAt": "2026-03-06T12:37:05.972Z",
+              "reasoning": "To find when the particle is at rest, you differentiate the position vector r(t) to get the velocity vector v(t)=r'(t) and solve v(t)=0. This matches deriving to find the rate of change of a kinematic variable.",
+              "confidence": 0.93
+            },
+            {
+              "id": 64688,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 2: Finding specific conditions on the rate of change of a kinematic variable",
+              "title": "Question Type 2: Finding specific conditions on the rate of change of a kinematic variable",
+              "labeledAt": "2026-03-06T12:37:05.972Z",
+              "reasoning": "Being 'at rest' is a specific condition on the rate of change (velocity equals zero) of the kinematic variable defined by the position vector.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1492655,
+        "parts": [
+          {
+            "id": 1121372,
+            "content": "Find the time(s) when the particle is at rest.",
+            "order": 1,
+            "markscheme": "Finds the velocity vector $\\vec{v}(t)$ by differentiating $\\vec{r}(t)$:\n\n$$\\vec{v}(t) = \\begin{pmatrix} 3t^2 - 3 \\\\ 4t - 1 \\end{pmatrix}$$\n<marks>M1</marks>\n\nSets both components of the velocity vector equal to zero:\n\n$3t^2 - 3 = 0$ and $4t - 1 = 0$\n<marks>M1</marks>\n\nSolves the equations for $t$:\n\n$t = \\pm 1$ and $t = \\frac{1}{4}$\n<marks>A1</marks>\n\nStates that no value of $t$ satisfies both conditions simultaneously (or equivalent reasoning).\n<marks>R1</marks>\n\nFinal conclusion: The particle is never at rest.\n<marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "d0b45c0f-cb31-4ddb-bc2c-9728b4c15399",
+        "specification": "A particle moves with position vector\n\n$$\\vec{r}(t) = \\begin{pmatrix} \\cos t \\\\ \\sin t \\end{pmatrix}$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28541,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 1: Determining speed of an object for a given trajectory",
+              "title": "Question Type 1: Determining speed of an object for a given trajectory",
+              "labeledAt": "2026-03-07T17:25:52.704Z",
+              "reasoning": "Given a 2D position vector r(t) and asked to show speed is constant; this is finding speed from a parametric trajectory via v(t)=r'(t) and |v(t)|.",
+              "confidence": 0.9
+            },
+            {
+              "id": 58008,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "title": "Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "labeledAt": "2026-03-07T17:25:52.704Z",
+              "reasoning": "Also involves computing velocity and speed from a vector-valued function with time-dependent components, matching the broader 'speed and velocity for trajectories with varying velocities' category.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1488401,
+        "parts": [
+          {
+            "id": 1115545,
+            "content": "Show that the speed of the particle is constant and find its value.",
+            "order": 1,
+            "markscheme": "* Differentiate $\\vec{r}(t)$ to find the velocity vector $\\vec{v}(t) = \\begin{pmatrix} -\\sin t \\\\ \\cos t \\end{pmatrix}$ <marks>M1</marks>\n* Substitute the components into the speed formula $|\\vec{v}(t)| = \\sqrt{(-\\sin t)^2 + (\\cos t)^2}$ <marks>M1</marks>\n* Simplify using the identity $\\sin^2 t + \\cos^2 t = 1$ to find $|\\vec{v}(t)| = 1$ <marks>A1</marks>\n* Conclude that since $1$ is a constant, the speed is constant and its value is $1$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "d2ab3a7e-1836-445f-a722-28865fcafa69",
+        "specification": "<p>The position of a helicopter relative to a communications tower at the top of a mountain at time $t$ (hours) can be described by the vector equation below.</p>\n<p>$$ \\mathbf{r} = \\begin{pmatrix} 20 \\\\ -25 \\\\ 0 \\end{pmatrix} + t \\begin{pmatrix} 4.2 \\\\ 5.8 \\\\ -0.5 \\end{pmatrix} $$</p>\n<p>The entries in the column vector give the displacements east and north from the communications tower and above/below the top of the mountain respectively, all measured in kilometres.</p>",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28541,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 1: Determining speed of an object for a given trajectory",
+              "title": "Question Type 1: Determining speed of an object for a given trajectory",
+              "labeledAt": "2026-03-06T04:39:18.160Z",
+              "reasoning": "The helicopter\u2019s position is given by a 3D vector trajectory r = r0 + tv; part (a) asks for speed, which is the magnitude of the constant velocity vector.",
+              "confidence": 0.92
+            },
+            {
+              "id": 28536,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.10\u2014Vector definitions > Question Type 6: Finding the distance between two position vectors",
+              "title": "Question Type 6: Finding the distance between two position vectors",
+              "labeledAt": "2026-03-06T04:39:18.160Z",
+              "reasoning": "Part (b) asks for the distance from the communications tower at t=0, i.e., the magnitude of the initial position/displacement vector (distance between two position vectors with one at the origin/tower).",
+              "confidence": 0.78
+            },
+            {
+              "id": 28513,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 1: Finding angles using bearings",
+              "title": "Question Type 1: Finding angles using bearings",
+              "labeledAt": "2026-03-06T04:39:18.160Z",
+              "reasoning": "Part (c) asks for the bearing of travel, which involves interpreting direction in the horizontal (east/north) plane using bearing/angle conventions.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1457766,
+        "parts": [
+          {
+            "id": 1070706,
+            "content": "<p>Find the speed of the helicopter.</p>",
+            "order": 0,
+            "markscheme": "<ul>\n<li>Attempt to find the magnitude of the velocity vector: $|\\mathbf{v}| = \\sqrt{4.2^2 + 5.8^2 + (-0.5)^2}$ <marks>M1</marks></li>\n<li>$7.18 \\ (7.1784\\dots) \\ \\text{km\\,h}^{-1}$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1070707,
+            "content": "<p>Find the distance of the helicopter from the communications tower at $t=0$.</p>",
+            "order": 1,
+            "markscheme": "<ul>\n<li>Identify position vector at $t=0$: $\\mathbf{r} = \\begin{pmatrix} 20 \\\\ -25 \\\\ 0 \\end{pmatrix}$</li>\n<li>Attempt to find distance from origin: $|\\mathbf{r}| = \\sqrt{20^2 + (-25)^2}$ <marks>M1</marks></li>\n<li>$\\sqrt{1025} = 32.0 \\ (32.0156\\dots) \\ \\text{km}$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1070708,
+            "content": "<p>Find the bearing on which the helicopter is travelling.</p>",
+            "order": 2,
+            "markscheme": "<ul>\n<li>Attempt to calculate the bearing: $\\arctan\\left(\\frac{4.2}{5.8}\\right)$ or $90^\\circ - \\arctan\\left(\\frac{5.8}{4.2}\\right)$ <marks>M1</marks></li>\n<li>$035.9^\\circ \\ (35.909\\dots)$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "e441f3a1-ca45-47f0-90b0-162b9a2cc8e9",
+        "specification": "A particle moves with position vector\n\n$$\n\\vec{r}(t) = \\begin{bmatrix} \\text{e}^{t} \\\\ 3t \\end{bmatrix}\n$$\n\nwhere $t \\ge 0$ is the time in seconds.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 58008,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.12\u2014Vector applications to kinematics > Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "title": "Question Type 6: Determining speed and velocity for trajectories with varying velocities",
+              "labeledAt": "2026-03-07T17:26:53.482Z",
+              "reasoning": "Given a 2D position vector r(t), the task is to differentiate to get the velocity vector and use its direction (angle with the horizontal) to find the corresponding time\u2014i.e., velocity for a trajectory with varying velocity.",
+              "confidence": 0.82
+            },
+            {
+              "id": 28658,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "title": "Question Type 1: Deriving to find the rate of change of a kinematic variable",
+              "labeledAt": "2026-03-07T17:26:53.482Z",
+              "reasoning": "Requires differentiating a kinematic quantity (position vector components) to obtain velocity components as rates of change before applying the angle condition.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1489206,
+        "parts": [
+          {
+            "id": 1116472,
+            "content": "Find the time when the particle's velocity vector makes an angle of $45^{\\circ}$ with the horizontal.",
+            "order": 1,
+            "markscheme": "Differentiate the position vector to find the velocity vector:\n\n$$\n\\vec{v}(t) = \\frac{\\text{d}\\vec{r}}{\\text{d}t} = \\begin{bmatrix} \\text{e}^{t} \\\\ 3 \\end{bmatrix}\n$$\n<marks>M1A1</marks>\n\nSet the ratio of the vertical component to the horizontal component equal to $\\tan 45^{\\circ}$:\n\n$$\n\\frac{3}{\\text{e}^{t}} = \\tan 45^{\\circ}\n$$\n<marks>M1</marks>\n\nSolve the equation:\n\n$$\n\\frac{3}{\\text{e}^{t}} = 1 \\Rightarrow \\text{e}^{t} = 3\n$$\n<marks>A1</marks>\n\n$$\nt = \\ln 3 \\text{ (s)}\n$$\n<marks>A1</marks>\n\n**[5 marks total]**",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "e964cfe2-40ee-49a8-b381-0608f6582db0",
+        "specification": "A particle has velocity vector\n\n$$\\mathbf{v}(t) = \\begin{pmatrix} 2t \\\\ -3 \\end{pmatrix}$$\n\nand is at the point $(1, 4)$ when $t = 0$.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 64689,
+              "isHl": true,
+              "path": "Calculus > AHL 5.13\u2014Kinematic problems > Question Type 3: Integrating kinematic variables",
+              "title": "Question Type 3: Integrating kinematic variables",
+              "labeledAt": "2026-03-06T13:07:27.120Z",
+              "reasoning": "Given a velocity vector and an initial position, the task is to integrate velocity components to obtain the position vector using initial conditions\u2014this is a standard kinematics integration problem.",
+              "confidence": 0.94
+            },
+            {
+              "id": 64678,
+              "isHl": false,
+              "path": "Calculus > SL 5.5\u2014Introduction to integration > Question Type 2: Integrating polynomials with boundary conditions to solve for C",
+              "title": "Question Type 2: Integrating polynomials with boundary conditions to solve for C",
+              "labeledAt": "2026-03-06T13:07:27.120Z",
+              "reasoning": "Computing r(t) from v(t) requires indefinite integration of polynomial/constant components and using boundary conditions to find the constant of integration.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1489146,
+        "parts": [
+          {
+            "id": 1116397,
+            "content": "Find an expression for the position vector $\\mathbf{r}(t)$.",
+            "order": 1,
+            "markscheme": "Evidence of attempting to integrate the velocity vector\n$$\\mathbf{r}(t) = \\int \\begin{pmatrix} 2t \\\\ -3 \\end{pmatrix} dt = \\begin{pmatrix} t^2 \\\\ -3t \\end{pmatrix} + \\mathbf{c}$$ <marks>M1</marks>\n\nSubstituting $t = 0$ and $\\mathbf{r}(0) = \\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$ to find the constant of integration\n$$\\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix} + \\mathbf{c} \\Rightarrow \\mathbf{c} = \\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$$ <marks>A1</marks>\n\n$$\\mathbf{r}(t) = \\begin{pmatrix} t^2 + 1 \\\\ -3t + 4 \\end{pmatrix}$$ <marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      }
+    ],
+    "count": "32",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10414,
+      "title": "AHL 3.12\u2014Vector applications to kinematics",
+      "slug": "ai-ahl-3-12-vector-applications-to-kinematics",
+      "parentTopicId": 10460
+    },
+    "subject": {
+      "id": 289,
+      "title": "Mathematics Applications & Interpretation (AI)",
+      "slug": "ib-math-ai",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "32",
+      "byQuestion": {}
+    }
+  }
+}

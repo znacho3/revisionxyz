@@ -1,3 +1,336 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4d86b571d34bacd239f88bf06763d0a15174baa28ecb7b64d8535e714b85c0a4
-size 15879
+{
+  "json": {
+    "questions": [
+      {
+        "id": "22778400-9053-4a67-a895-365c831fc142",
+        "specification": "An electronics company is analyzing its operational requirements to select an optimal manufacturing method for a new consumer device.\n\n| | Predicted Sales Volume | Degree of Customization | Initial Capital Investment |\n| :--- | :--- | :--- | :--- |\n| **Row 1** | High | Low | High |\n| **Row 2** | Low | High | Low |\n| **Row 3** | High | High | Low |\n| **Row 4** | Low | Low | High |\n\nWhich row describes the operational conditions most appropriate for the implementation of **mass (flow) production**?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-22778400-9053-4a67-a895-365c831fc142-1771929956947",
+            "generatedAt": "2026-02-25T11:52:56.953Z",
+            "sourceRevisionId": 1161845
+          }
+        },
+        "currentRevisionId": 1684982,
+        "parts": [],
+        "options": [
+          {
+            "id": 4919591,
+            "content": "Row 2",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4919592,
+            "content": "Row 4",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4919593,
+            "content": "Row 1",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4919594,
+            "content": "Row 3",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "47976ff7-c60d-497b-9c2a-108395c41154",
+        "specification": "Which of the following production systems is characterized by producing large quantities of standardized products, often using assembly lines?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 777860,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556294,
+            "content": "Craft production",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556295,
+            "content": "Mass production",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556296,
+            "content": "Mass customization",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556297,
+            "content": "Lean production",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "57525de2-14c9-4a38-86da-a486a1f90dfb",
+        "specification": "Professional landscape gardeners often use cordless electric hedge trimmers for extended periods. These tools must be designed to accommodate the physiological limits of the human body to ensure both efficiency and user well-being.\n\n**Figure 1: A professional cordless hedge trimmer**\n\n![A professional grade cordless hedge trimmer with an ergonomic wrap-around handle and battery pack at the rear.](https://pub-images.revisiondojo.com/question-images/61be7c9b-6490-449e-8742-50d4847e0c4f)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-57525de2-14c9-4a38-86da-a486a1f90dfb-1771929956947",
+            "generatedAt": "2026-02-25T11:46:12.425Z",
+            "sourceRevisionId": 1410320
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:55:29.172Z",
+            "resultId": 3601
+          }
+        },
+        "currentRevisionId": 1690693,
+        "parts": [
+          {
+            "id": 1153175,
+            "content": "Identify **two** factors that influence an individual's physical work capacity when operating heavy outdoor power tools.",
+            "order": 0,
+            "markscheme": "- Muscle strength (determined by age or gender). <marks>1 mark</marks>\n- Cardiovascular fitness/endurance. <marks>1 mark</marks>\n- General health/nutrition levels. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153176,
+            "content": "Explain why the **grip diameter** of the trimmer's handle is a critical physiological factor in the tool's design.",
+            "order": 1,
+            "markscheme": "- An appropriate grip diameter allows for a 'power grip' where the fingers and thumb overlap. <marks>1 mark</marks>\n- This maximises the surface area of contact to distribute the force/pressure across the palm. <marks>1 mark</marks>\n- Reducing localized muscle strain and preventing premature hand fatigue. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153177,
+            "content": "Explain **two** ways that environmental stressors can impact the physiological performance of the operator.",
+            "order": 2,
+            "markscheme": "- **Thermal stress/Ambient temperature:** <marks>1 mark</marks>\n- High temperatures cause the body to divert blood to the skin for cooling (sweating), which increases heart rate. <marks>1 mark</marks>\n- This leads to faster exhaustion/dehydration and a decline in physical coordination. <marks>1 mark</marks>\n\n- **Noise levels:** <marks>1 mark</marks>\n- Constant exposure to high-decibel noise increases physiological stress levels (cortisol). <marks>1 mark</marks>\n- This can lead to increased blood pressure and reduced concentration/mental fatigue. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153178,
+            "content": "Explain how the management of **Hand-Arm Vibration Syndrome (HAVS)** in the design of the tool can improve the safety, fatigue levels, and long-term health of the operator.",
+            "order": 3,
+            "markscheme": "**Safety:**\n- Vibration-damping materials (like elastomers) are used in the handles. <marks>1 mark</marks>\n- This prevents the 'white finger' effect where blood flow is restricted. <marks>1 mark</marks>\n- Ensuring the user maintains full tactile sensitivity to keep a secure grip and avoid accidental drops. <marks>1 mark</marks>\n\n**Fatigue:**\n- Reducing high-frequency oscillations reduces the workload on the small muscles of the hand and forearm. <marks>1 mark</marks>\n- This prevents the muscles from having to constantly contract to stabilize the tool. <marks>1 mark</marks>\n- Allowing the gardener to operate the tool for longer durations without significant loss of motor control. <marks>1 mark</marks>\n\n**Long-term Health:**\n- Ergonomic design isolates the motor from the chassis using internal damping mounts. <marks>1 mark</marks>\n- This limits the cumulative exposure of joints and nerves to mechanical shock. <marks>1 mark</marks>\n- Preventing permanent debilitating conditions such as carpal tunnel syndrome or permanent nerve damage. <marks>1 mark</marks>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "77be63c3-32a8-4c28-8997-3204b7564b87",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-77be63c3-32a8-4c28-8997-3204b7564b87-1771929956947",
+            "generatedAt": "2026-02-25T14:10:52.641Z",
+            "sourceRevisionId": 1161850
+          }
+        },
+        "currentRevisionId": 1685167,
+        "parts": [
+          {
+            "id": 1145897,
+            "content": "Continuous flow production is characterized by the constant, non-stop movement of materials through a sequence of manufacturing stages.\n\nExplain **one** reason why this production system typically requires a high degree of **automation**.",
+            "order": -1,
+            "markscheme": "### Reason for Automation in Continuous Flow\n- **Precision and Consistency**: Continuous flow relies on highly repetitive tasks that must be performed with extreme precision to ensure the quality of a standardized product <marks>1 mark</marks>.\n- **Operational Continuity**: Unlike human workers, automated systems can operate 24/7 without fatigue, which is essential for maintaining the uninterrupted movement of the production line <marks>1 mark</marks>.\n- **Efficiency/Cost-Benefit**: The high initial cost of automation is justified by the massive volume of output, which significantly reduces the unit cost of production compared to labor-intensive methods <marks>1 mark</marks>.\n- **Risk Mitigation**: In a continuous process, a single error can halt the entire line; automation minimizes the risk of human error and ensures a more predictable flow of materials <marks>1 mark</marks>.\n\n<note>Award 1 mark for identifying a valid reason and up to 2 further marks for the depth of the explanation, up to a maximum of 3 marks.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ac733966-4137-40f3-a624-e790031b5f97",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-design-technology-ac733966-4137-40f3-a624-e790031b5f97-1771954398454",
+            "generatedAt": "2026-02-25T10:29:19.133Z",
+            "sourceRevisionId": 1179034
+          }
+        },
+        "currentRevisionId": 1687811,
+        "parts": [
+          {
+            "id": 1148936,
+            "content": "While many modern manufacturing industries prioritize \"Just-in-Time\" (JIT) production to minimize waste, some companies continue to utilize a \"Just-in-Case\" (JIC) system for their core components.\n\nExplain why this is the case. ",
+            "order": -1,
+            "markscheme": "### Method 1\nJIC provides a buffer against unforeseen supply chain disruptions <marks>1 mark</marks>  \nMeaning the manufacturer maintains a stockpile of materials to avoid shortages <marks>1 mark</marks>  \nThis ensures production continuity even if a supplier fails to deliver on time <marks>1 mark</marks>\n\n### Method 2  \nThe system allows the company to manage unpredictable or sudden surges in consumer demand <marks>1 mark</marks>  \nBecause finished goods or sub-assemblies are kept readily available in inventory <marks>1 mark</marks>  \nThis allows for immediate fulfillment of orders without the lead-time delays associated with JIT <marks>1 mark</marks>\n\n### Method 3\nPurchasing large volumes of stock allows the company to access bulk-buy discounts <marks>1 mark</marks>  \nThis reduces the individual unit cost of the raw materials or components <marks>1 mark</marks>  \nWhich helps to offset the financial burden of high storage/warehousing costs <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for each of three distinct points in an explanation of why a company might favor a Just-in-Case production system up to <marks>3 marks max</marks>.</note>\n\n<note>Answer in brackets is not required to award the mark</note>\n\n<note>Do not award marks across clusters</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e71f29a7-b291-4814-9808-39ed2d7edbef",
+        "specification": "A manufacturer of bespoke wooden furniture operates using a specific production system described in the table below.\n\n| Operational Factor | Description |\n| :--- | :--- |\n| **Workforce** | Highly trained artisans with versatile skill sets |\n| **Production Volume** | Low output of unique items |\n| **Unit Cost** | High due to time-intensive processes |\n| **Equipment** | Multi-purpose manual and hand-held tools |\n\nWhich manufacturing system is described in the table?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-e71f29a7-b291-4814-9808-39ed2d7edbef-1771929956947",
+            "generatedAt": "2026-02-25T11:34:01.942Z",
+            "sourceRevisionId": 1161856
+          }
+        },
+        "currentRevisionId": 1686174,
+        "parts": [],
+        "options": [
+          {
+            "id": 4922935,
+            "content": "Craft production",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4922936,
+            "content": "Mass production",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4922937,
+            "content": "Automated production",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4922938,
+            "content": "Mass customization",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "6",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9907,
+      "title": "4.5 Production systems",
+      "slug": "4-5-production-systems",
+      "parentTopicId": 9897
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "6",
+      "byQuestion": {}
+    }
+  }
+}

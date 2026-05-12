@@ -1,3 +1,3275 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cda85002021af88532a38e1a9b618adef35c0e7ee6ef988764024907b6726f00
-size 194511
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0106e7f7-cc08-48a2-8f99-36258234a774",
+        "specification": "A builder is assessing a triangular support structure with side lengths $a=5$ cm, $b=12$ cm, and $c=13$ cm to ensure it meets right-angle specifications.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64590,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 2: Using SOH CAH TOA to find the angle given two sides",
+              "title": "Question Type 2: Using SOH CAH TOA to find the angle given two sides",
+              "labeledAt": "2026-03-06T05:13:56.568Z",
+              "reasoning": "Part (a) is essentially verifying a right angle via the Pythagorean relationship between sides (5-12-13), which aligns with right-triangle trigonometry/SOHCAHTOA reasoning about sides in a right triangle.",
+              "confidence": 0.83
+            },
+            {
+              "id": 28511,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 6: Finding the area of a general triangle",
+              "title": "Question Type 6: Finding the area of a general triangle",
+              "labeledAt": "2026-03-06T05:13:56.568Z",
+              "reasoning": "Part (b) asks for the area of triangle ABC; for a right triangle this is typically found using \u001aab/2, which falls under finding the area of a (general) triangle.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1456517,
+        "parts": [
+          {
+            "id": 1067368,
+            "content": "Prove that \u25b3ABC is a right-angled triangle, verifying the relationship between the sides.",
+            "order": 0,
+            "markscheme": "- State Pythagorean theorem: In a right triangle, $a^2 + b^2 = c^2$ where $c$ is the hypotenuse\n- Substitute side lengths: $5^2 + 12^2$ <marks>M1</marks>\n- Calculate and verify: $25 + 144 = 169$ and $13^2 = 169$ <marks>A1</marks>\n- Conclude that since $a^2 + b^2 = c^2$, $\\triangle ABC$ is a right-angled triangle <marks>R1</marks>\n\n3 marks total\n\n<note>Remember to state which angle is 90\u00b0 based on your calculations</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1067369,
+            "content": "Calculate the area of \u25b3ABC to determine the space it occupies.",
+            "order": 1,
+            "markscheme": "- State area formula: $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$\n- Substitute values: $\\text{Area} = \\frac{1}{2} \\times 5 \\times 12$ <marks>M1</marks>\n- Calculate result: $30 \\text{ cm}^2$ <marks>A1</marks>\n\n2 marks total\n\n<note>Accept any valid method that leads to 30 cm\u00b2</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "430f7bb5-89ca-40c8-bbc6-6d9e0554ebe4",
+        "specification": "The diagram represents a right-angled triangular support structure \u25b3ABC, where $\\sin A = \\frac{5}{13}$. This structure is designed to support a construction scaffold at angle A from the horizontal.\n\n![Image](https://pub-images.revisiondojo.com/question-images/a2e05034-bf2d-47f4-ab61-1df149f88d6e)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28525,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.8\u2014Unit circle, Pythag identity, solving trig equations graphically > Question Type 1: Determining relationship between trigonometric functions using unit circle",
+              "title": "Question Type 1: Determining relationship between trigonometric functions using unit circle",
+              "labeledAt": "2026-03-06T08:06:58.219Z",
+              "reasoning": "Uses Pythagorean identity/relationships between trig functions to derive cosA from sinA, and applies a trig identity (double-angle) for cos(2A).",
+              "confidence": 0.9
+            },
+            {
+              "id": 28509,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 1: Using SOH CAH TOA to find one side length given an angle",
+              "title": "Question Type 1: Using SOH CAH TOA to find one side length given an angle",
+              "labeledAt": "2026-03-06T08:06:58.219Z",
+              "reasoning": "Finds missing side lengths in a right triangle from a given trig ratio (sinA=5/13) and then uses proportional scaling to determine the hypotenuse when a side length changes.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1456310,
+        "parts": [
+          {
+            "id": 1066775,
+            "content": "In the right triangle shown, prove that $\\cos A = \\frac{12}{13}$ by using the Pythagorean theorem to find the missing side length.",
+            "order": 0,
+            "markscheme": "- Identify opposite and hypotenuse from $\\sin A$: opposite = 5, hypotenuse = 13 <marks>A1</marks>\n\n- Apply Pythagorean theorem: $\\text{adjacent}^2 + 5^2 = 13^2$ <marks>M1</marks>\n\n- Calculate adjacent side: $\\text{adjacent} = \\sqrt{169 - 25} = 12$\n\n- State final cosine value: $\\cos A = \\frac{12}{13}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "pythagorean_side_calculation",
+                  "label": "Pythagorean Theorem Side Calculation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify opposite and hypotenuse",
+                      "content": "To solve this, we start with the definition of the sine ratio from **Topic 3: Geometry and Trigonometry**. In a right-angled triangle, the sine of an angle is the ratio of the opposite side to the hypotenuse.\n\nFrom the given information, we have:\n$$\\sin A = \\frac{\\text{opposite}}{\\text{hypotenuse}} = \\frac{5}{13}$$\n\nThis tells us we can treat the length of the **opposite** side as $5$ and the length of the **hypotenuse** as $13$.",
+                      "highlights": [
+                        {
+                          "text": "\\sin A = \\frac{5}{13}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply the Pythagorean theorem",
+                      "content": "To find the cosine ratio, we need the length of the **adjacent** side. We can find this using the Pythagorean theorem, which relates the sides of a right-angled triangle ($a^2 + b^2 = c^2$).\n\nLet $x$ be the length of the adjacent side:\n$$\\text{adjacent}^2 + \\text{opposite}^2 = \\text{hypotenuse}^2$$\n$$x^2 + 5^2 = 13^2$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the adjacent side",
+                      "content": "Now, we solve for $x$ by calculating the squares and subtracting:\n\n$$\\begin{aligned} x^2 + 25 &= 169 \\\\ x^2 &= 169 - 25 \\\\ x^2 &= 144 \\\\ x &= \\sqrt{144} \\\\ x &= 12 \\end{aligned}$$\n\nThe length of the adjacent side is $12$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(13^2 - 5^2)",
+                            "instructions": "Calculate 13 squared minus 5 squared, then find the square root of the result."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(13\u00b2 - 5\u00b2)",
+                            "instructions": "Enter 13^2 - 5^2 to find the squared value, then use the square root function."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{13^{2}-5^{2}}",
+                            "instructions": "Type the expression directly into a cell to find the result."
+                          },
+                          "description": "Calculate the squares and the square root to find the side length."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the cosine ratio",
+                      "content": "Finally, we use the definition of the cosine ratio, which is the adjacent side divided by the hypotenuse:\n\n$$\\cos A = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$$\n\nSubstituting our values:\n$$\\cos A = \\frac{12}{13}$$\n\nThis confirms the proof requested in the question.",
+                      "highlights": [
+                        {
+                          "text": "prove that \\cos A = \\frac{12}{13}",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:55:06.341Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1066776,
+            "content": "Calculate the value of $\\cos(2A)$ using the double angle formula, which may be used to analyze forces on the scaffold.",
+            "order": 1,
+            "markscheme": "- State double angle formula: $\\cos(2A) = 2\\cos^2(A) - 1$ <marks>A1</marks>\n\n- Calculate $\\cos^2(A)$: $\\cos^2(A) = (\\frac{12}{13})^2 = \\frac{144}{169}$ <marks>M1</marks>\n\n- Substitute into formula: $\\cos(2A) = 2(\\frac{144}{169}) - 1$ <marks>M1</marks>\n\n- Calculate final value: $\\cos(2A) = \\frac{288}{169} - \\frac{169}{169} = \\frac{119}{169}$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "sine_only",
+                  "label": "Direct substitution with sine",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the given value",
+                      "content": "From the question, we are given the sine of angle $A$ in the triangular support structure:\n\n$$\\sin A = \\frac{5}{13}$$",
+                      "highlights": [
+                        {
+                          "text": "\\sin A = \\frac{5}{13}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Select the identity",
+                      "content": "To calculate $\\cos(2A)$ directly using the sine value we already have, we use the double angle identity for cosine:\n\n$$\\cos(2A) = 1 - 2\\sin^2 A$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate sin squared",
+                      "content": "First, let's square our value for $\\sin A$:\n\n$$\\sin^2 A = \\left(\\frac{5}{13}\\right)^2 = \\frac{25}{169}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "(5/13)^2",
+                            "instructions": "Enter (5/13)^2 and use the conversion key to see it as a fraction."
+                          },
+                          "ti84": {
+                            "expression": "(5/13)^2",
+                            "instructions": "Enter (5/13)^2 and press MATH > 1:Frac to see the fraction result."
+                          },
+                          "desmos": {
+                            "expression": "(5/13)^2",
+                            "instructions": "Type (5/13)^2 and click the fraction icon to the left of the result."
+                          },
+                          "description": "Calculate the square of 5/13 to verify the fraction."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Substitute and solve",
+                      "content": "Now, substitute $\\frac{25}{169}$ into our identity and simplify:\n\n$$\\begin{aligned} \\cos(2A) &= 1 - 2\\left(\\frac{25}{169}\\right) \\\\ &= 1 - \\frac{50}{169} \\\\ &= \\frac{169}{169} - \\frac{50}{169} \\\\ &= \\frac{119}{169} \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "1 - 2*(25/169)",
+                            "instructions": "Enter 1 - 2*(25/169) and convert to a fraction."
+                          },
+                          "ti84": {
+                            "expression": "1 - 2*(25/169)",
+                            "instructions": "Enter 1 - 2*(25/169) and press MATH > 1:Frac."
+                          },
+                          "desmos": {
+                            "expression": "1 - 2*(25/169)",
+                            "instructions": "Type 1 - 2*(25/169) and click the fraction icon."
+                          },
+                          "description": "Verify the final subtraction 1 - 2*(25/169)."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Result",
+                      "content": "The value of $\\cos(2A)$ is:\n\n$$\\cos(2A) = \\frac{119}{169}$$\n\nThis result is consistent with the markscheme, which arrives at the same value using an alternative form of the identity."
+                    }
+                  ]
+                },
+                {
+                  "id": "cosine_only",
+                  "label": "Using cosine identity",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify knowns and goals",
+                      "content": "To solve for $\\cos(2A)$, we first need to look at what we've been given. The question provides the sine of the angle and asks us to use a specific double angle formula involving cosine.\n\nGiven:\n$$\\sin A = \\frac{5}{13}$$\n\nOur goal is to find $\\cos(2A)$ using the identity:\n$$\\cos(2A) = 2\\cos^2 A - 1$$",
+                      "highlights": [
+                        {
+                          "text": "sin A = \\frac{5}{13}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate cosine of A",
+                      "content": "Since we need $\\cos A$ for our formula, we can use the fundamental Pythagorean identity. This is covered in **Topic 3: Geometry and Trigonometry** (Unit Circle and Identities).\n\n$$\\sin^2 A + \\cos^2 A = 1$$\n\nSubstituting our known value:\n$$\\begin{aligned} \\left(\\frac{5}{13}\\right)^2 + \\cos^2 A &= 1 \\\\ \\frac{25}{169} + \\cos^2 A &= 1 \\end{aligned}$$\n\nNow, solve for $\\cos^2 A$:\n$$\\cos^2 A = 1 - \\frac{25}{169} = \\frac{144}{169}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "1 - (25/169)",
+                            "instructions": "Enter 1 - (25/169) and convert the decimal result to a fraction."
+                          },
+                          "ti84": {
+                            "expression": "1 - (25/169)",
+                            "instructions": "Enter 1 - (25/169), then press MATH > 1:Frac > ENTER."
+                          },
+                          "desmos": {
+                            "expression": "1 - (25/169)",
+                            "instructions": "Type 1 - (25/169) and click the fraction icon on the left of the result."
+                          },
+                          "description": "Calculate 1 - (25/169) to verify the result."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply double angle formula",
+                      "content": "Now that we have the value for $\\cos^2 A$, we can substitute it directly into the double angle formula provided in the question requirements.\n\n$$\\cos(2A) = 2\\cos^2 A - 1$$\n\nSubstituting $\\cos^2 A = \\frac{144}{169}$:\n$$\\cos(2A) = 2\\left(\\frac{144}{169}\\right) - 1$$",
+                      "highlights": [
+                        {
+                          "text": "cos(2A) = 2\\cos^2(A) - 1",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Simplify final value",
+                      "content": "Finally, we perform the arithmetic to find the exact value. Multiplying the fraction by 2 gives us:\n\n$$\\cos(2A) = \\frac{288}{169} - 1$$\n\nTo subtract, we use a common denominator:\n$$\\cos(2A) = \\frac{288}{169} - \\frac{169}{169}$$\n\n$$\\cos(2A) = \\frac{119}{169}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "(288/169) - 1",
+                            "instructions": "Enter (288/169) - 1 and convert to fraction."
+                          },
+                          "ti84": {
+                            "expression": "(288/169) - 1",
+                            "instructions": "Enter (288/169) - 1, then press MATH > 1:Frac > ENTER."
+                          },
+                          "desmos": {
+                            "expression": "(288/169) - 1",
+                            "instructions": "Type (288/169) - 1 and toggle to fraction view."
+                          },
+                          "description": "Calculate (288/169) - 1 to verify the numerator."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "difference_of_squares",
+                  "label": "Using cos\u00b2A - sin\u00b2A",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Calculate cos squared A",
+                      "content": "To use the double angle identity $\\cos(2A) = \\cos^2 A - \\sin^2 A$, we first need to find the value of $\\cos^2 A$. \n\nWe use the fundamental Pythagorean identity:\n$$\\cos^2 A + \\sin^2 A = 1$$\n\nGiven that $\\sin A = \\frac{5}{13}$:\n$$\\begin{aligned} \\cos^2 A + \\left(\\frac{5}{13}\\right)^2 &= 1 \\\\ \\cos^2 A + \\frac{25}{169} &= 1 \\\\ \\cos^2 A &= 1 - \\frac{25}{169} \\\\ \\cos^2 A &= \\frac{144}{169} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "sin A = \\frac{5}{13}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "State the identity",
+                      "content": "Next, we state the version of the double angle formula for cosine that uses both cosine and sine squared. \n\nFrom the data booklet (AHL Trigonometry section):\n$$\\cos(2A) = \\cos^2 A - \\sin^2 A$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Substitute and solve",
+                      "content": "Now, we substitute the values we have for $\\cos^2 A$ and $\\sin^2 A$ into the identity:\n\n$$\\begin{aligned} \\cos(2A) &= \\frac{144}{169} - \\frac{25}{169} \\\\ \\cos(2A) &= \\frac{119}{169} \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "144/169 - 25/169",
+                            "instructions": "1. In the calculation menu, enter 144/169 - 25/169.\n2. Use the fraction conversion tool if necessary."
+                          },
+                          "ti84": {
+                            "expression": "(144/169)-(25/169)",
+                            "instructions": "1. Enter (144/169) - (25/169)\n2. Press [MATH] then [ENTER] [ENTER] to convert to a fraction."
+                          },
+                          "desmos": {
+                            "expression": "\\frac{144}{169}-\\frac{25}{169}",
+                            "instructions": "Type the expression 144/169 - 25/169 into an empty cell. Click the circle icon on the left to toggle between decimal and fraction form."
+                          },
+                          "description": "Evaluate the subtraction of fractions to find the final decimal or exact value."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final Result",
+                      "content": "The value of $\\cos(2A)$ is:\n$$\\cos(2A) = \\frac{119}{169}$$\n\nThis positive value indicates that the angle $2A$ is in the first quadrant (less than $90^\\circ$), which makes sense for the geometry of the support structure."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:55:48.279Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1066777,
+            "content": "Determine the length of the hypotenuse if the opposite side to A is scaled up to 15 meters, keeping the triangle\u2019s proportions constant.",
+            "order": 2,
+            "markscheme": "- Identify ratio of corresponding sides: $\\frac{15}{5}$ <marks>M1</marks>\n\n- Calculate scale factor: $3$ <marks>A1</marks>\n\n- Calculate new hypotenuse: $13 \\times 3 = 39$ meters <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "4615eeb2-b408-4076-a12f-39a0b3b1d783",
+        "specification": "A triangular garden plot $\\triangle ABC$ has two known sides, $a=7\\text{ m}$ and $b=9\\text{ m}$, with an angle $C=60^\\circ$ between them.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64591,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 4: Using cosine rule to find the 3rd side",
+              "title": "Question Type 4: Using cosine rule to find the 3rd side",
+              "labeledAt": "2026-03-06T07:51:25.246Z",
+              "reasoning": "Part (a) gives two sides and the included angle and asks for the third side, which is a direct application of the cosine rule.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28511,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 6: Finding the area of a general triangle",
+              "title": "Question Type 6: Finding the area of a general triangle",
+              "labeledAt": "2026-03-06T07:51:25.246Z",
+              "reasoning": "Part (b) asks for the area of a general triangle; with two sides and included angle this uses the triangle area formula (1/2 ab sin C).",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1477872,
+        "parts": [
+          {
+            "id": 1096532,
+            "content": "Calculate the length of side $c$, which represents the boundary line opposite angle $C$.",
+            "order": 0,
+            "markscheme": "- **Attempt** to use cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos C$ <marks>M1</marks>\n\n- **Substitute** correct values: $c^2 = 7^2 + 9^2 - 2(7)(9)\\cos(60^\\circ)$ <marks>A1</marks>\n\n- **Calculate** final answer: $c = \\sqrt{67} = 8.19 \\text{ m}$ <marks>A1</marks>\n\n3 marks total\n\n<examTip>Always state your final answer to 3 significant figures unless otherwise specified</examTip>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "cosine_rule",
+                  "label": "Cosine Rule",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify given information",
+                      "content": "In this problem, we are looking at a triangular garden plot $\\triangle ABC$. We are given the lengths of two sides and the size of the angle between them (the included angle):\n\n- side $a = 7\\text{ m}$\n- side $b = 9\\text{ m}$\n- angle $C = 60^\\circ$\n\nOur goal is to find the length of the third side, $c$.",
+                      "highlights": [
+                        {
+                          "text": "a=7\\text{ m}",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "b=9\\text{ m}",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "C=60^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Select the Cosine Rule",
+                      "content": "Since we know two sides and the included angle (SAS), we should use the **Cosine Rule** found in the **Geometry and trigonometry** section of your IB formula booklet:\n\n$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$\n\nThis formula allows us to calculate the side opposite a known angle.",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Substitute values into formula",
+                      "content": "Now, substitute the given values into the formula to find $c^2$:\n\n$$\\begin{aligned} c^2 &= 7^2 + 9^2 - 2(7)(9)\\cos(60^\\circ) \\\\ c^2 &= 49 + 81 - 126\\cos(60^\\circ) \\end{aligned}$$\n\nFrom our trigonometric values, we know that $\\cos(60^\\circ) = 0.5$, so:\n\n$$\\begin{aligned} c^2 &= 130 - 126(0.5) \\\\ c^2 &= 130 - 63 \\\\ c^2 &= 67 \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate the final length",
+                      "content": "To find $c$, take the square root of 67:\n\n$$c = \\sqrt{67}$$\n\nUsing a calculator, this gives us approximately $8.18535...$ meters. Following standard IB procedure, we round our final answer to **3 significant figures**.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(7^2 + 9^2 - 2 * 7 * 9 * cos(60))",
+                            "instructions": "1. Set angle units to Degrees.\n2. Input the expression: sqrt(7^2 + 9^2 - 2 * 7 * 9 * cos(60))\n3. Execute to find the result."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(7\u00b2 + 9\u00b2 - 2 * 7 * 9 * cos(60))",
+                            "instructions": "1. Ensure the calculator is in Degree mode (MODE > Degree).\n2. Enter: \u221a(7\u00b2 + 9\u00b2 - 2 * 7 * 9 * cos(60))\n3. Press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{7^2 + 9^2 - 2 \\cdot 7 \\cdot 9 \\cdot \\cos(60^{\\circ})}",
+                            "instructions": "1. Set the calculator to Degrees mode using the wrench icon.\n2. Type: sqrt(7^2 + 9^2 - 2 * 7 * 9 * cos(60))"
+                          },
+                          "description": "Calculate the value of side c using the Cosine Rule."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final answer",
+                      "content": "Rounding $8.18535...$ to 3 significant figures, we get:\n\n$$c = 8.19 \\text{ m}$$\n\nThis result represents the length of the boundary line opposite angle $C$."
+                    }
+                  ]
+                },
+                {
+                  "id": "geometric_decomposition",
+                  "label": "Geometric Decomposition",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize and Decompose",
+                      "content": "To find the length of side $c$ without using the cosine rule directly, we can use **Geometric Decomposition**. This involves splitting the non-right triangle into two right-angled triangles. \n\nWe start by dropping an altitude (a perpendicular line) from vertex $B$ down to side $AC$. Let's call the point where this altitude hits the side $D$. This creates two right-angled triangles: $\\triangle BDC$ and $\\triangle BDA$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Solve Triangle BDC",
+                      "content": "First, we look at the right-angled triangle $\\triangle BDC$. We know the hypotenuse $a = 7$ and the angle $C = 60^\\circ$. We can find the height of the altitude ($h = BD$) and the base segment ($CD$) using sine and cosine ratios:\n\n$$\\begin{aligned} BD &= a \\cdot \\sin(60^\\circ) = 7 \\cdot \\sin(60^\\circ) \\\\ CD &= a \\cdot \\cos(60^\\circ) = 7 \\cdot \\cos(60^\\circ) \\end{aligned}$$\n\nUsing a calculator:\n$$BD \\approx 6.062 \\text{ m}$$\n$$CD = 3.5 \\text{ m}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "7 * sin(60)\n7 * cos(60)",
+                            "instructions": "Set angle mode to Degrees. Calculate 7*sin(60) and 7*cos(60)."
+                          },
+                          "ti84": {
+                            "expression": "7 * sin(60)\n7 * cos(60)",
+                            "instructions": "Ensure the calculator is in DEGREE mode. Press [SIN] 60 [ENTER], then multiply by 7. Press [COS] 60 [ENTER], then multiply by 7."
+                          },
+                          "desmos": {
+                            "expression": "7 * sin(60 deg)\n7 * cos(60 deg)",
+                            "instructions": "Set to Degree mode. Input the expressions."
+                          },
+                          "description": "Calculate the lengths of the altitude and the base segment."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "a=7\\text{ m}",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "C=60^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Find Segment AD",
+                      "content": "Side $AC$ (which is $b = 9$) is made up of two segments: $CD$ and $AD$. Now that we know $CD = 3.5$, we can find the base of our second triangle, $AD$:\n\n$$\\begin{aligned} AD &= b - CD \\\\ AD &= 9 - 3.5 \\\\ AD &= 5.5 \\text{ m} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "b=9\\text{ m}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Apply Pythagoras on BDA",
+                      "content": "Now we focus on the second right-angled triangle, $\\triangle BDA$. We know its two legs: $BD \\approx 6.062$ and $AD = 5.5$. We can find the hypotenuse, which is side $c$, using the Pythagorean theorem:\n\n$$c^2 = BD^2 + AD^2$$\n\nSubstitute the exact expressions to maintain accuracy:\n$$c^2 = (7 \\sin 60^\\circ)^2 + (5.5)^2$$\n$$c^2 = 36.75 + 30.25$$\n$$c^2 = 67$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt((7*sin(60))^2 + 5.5^2)",
+                            "instructions": "Calculate the square root of the sum of the squares of the legs."
+                          },
+                          "ti84": {
+                            "expression": "sqrt((7*sin(60))^2 + 5.5^2)",
+                            "instructions": "Enter (7*sin(60))^2 + 5.5^2 and then take the square root of the answer."
+                          },
+                          "desmos": {
+                            "expression": "sqrt((7*sin(60 deg))^2 + 5.5^2)",
+                            "instructions": "Input the square root expression."
+                          },
+                          "description": "Calculate the square of the sides and the final length of c."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State Final Answer",
+                      "content": "Finally, we take the square root to find $c$:\n\n$$c = \\sqrt{67} \\approx 8.1853...$$\n\nRounding to 3 significant figures, we get:\n$$c = 8.19 \\text{ m}$$",
+                      "highlights": [
+                        {
+                          "text": "Always state your final answer to 3 significant figures unless otherwise specified",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:55:10.131Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1096533,
+            "content": "Calculate the area of $\\triangle ABC$ to estimate the total area of the garden plot.",
+            "order": 1,
+            "markscheme": "- **Attempt** to substitute into area formula: $\\text{Area} = \\frac{1}{2}ab\\sin C$ <marks>M1</marks>\n\n- **Calculate** area: $\\text{Area} = \\frac{1}{2}(7)(9)\\sin(60^\\circ) = 27.3 \\text{ m}^2$ <marks>A1</marks>\n\n2 marks total\n\n<note>Accept answers in range 27.28-27.3 $\\text{m}^2$ due to measurement uncertainty</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "direct_sine_formula",
+                  "label": "Direct Sine Formula",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify given information",
+                      "content": "To find the area of the triangular plot, we first identify the known values from the problem. We are given two side lengths and the angle between them:\n\n*   $a = 7\\text{ m}$\n*   $b = 9\\text{ m}$\n*   $C = 60^\\circ$\n\nThis \"side-angle-side\" (SAS) configuration is perfect for the trigonometric area formula.",
+                      "highlights": [
+                        {
+                          "text": "a=7\text{ m}",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "b=9\text{ m}",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "C=60^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Select the area formula",
+                      "content": "In the IB Data Booklet under **Geometry and Trigonometry**, we find the formula for the area of a general triangle:\n\n$$\\text{Area} = \\frac{1}{2}ab\\sin C$$\n\nThis formula allows us to calculate the area using any two sides and the sine of the angle included between them.",
+                      "highlights": [
+                        {
+                          "text": "$$\\text{Area} = \\frac{1}{2}ab\\sin C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Substitute and solve",
+                      "content": "Now, substitute the values into the formula. This step earns the first mark ($M1$):\n\n$$\\text{Area} = \\frac{1}{2}(7)(9)\\sin(60^\\circ)$$\n\nUsing a calculator to evaluate this expression gives:\n\n$$\\text{Area} \\approx 27.2798...$$\n\nFollowing standard IB practice, we round our final answer to **3 significant figures**.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 7 * 9 * sin(60)",
+                            "instructions": "1. Go to the Calculation app.\n2. Check that the angle setting is in Degrees (usually visible at the top of the screen).\n3. Enter the expression: 0.5 \u00d7 7 \u00d7 9 \u00d7 sin(60)\n4. Press [EXE]."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 7 * 9 * sin(60)",
+                            "instructions": "1. Press [MODE] and ensure 'DEGREE' is highlighted.\n2. Press [2ND] [QUIT] to return to the home screen.\n3. Type: 0.5 * 7 * 9 * sin(60)\n4. Press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "\\frac{1}{2}\\cdot7\\cdot9\\cdot\\sin\\left(60^{\\circ}\\right)",
+                            "instructions": "1. Click the wrench icon (Settings) and select 'Degrees'.\n2. Type the formula into a new cell."
+                          },
+                          "description": "Calculate the area using the sine formula. Ensure your calculator is in DEGREE mode."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "Area = \\frac{1}{2}ab\\sin C",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The area of the garden plot is approximately:\n\n$$\\text{Area} = 27.3 \\text{ m}^2$$\n\n(Note: $27.28 \\text{ m}^2$ is also acceptable if rounding to 2 decimal places). This final calculation earns the second mark ($A1$)."
+                    }
+                  ]
+                },
+                {
+                  "id": "geometric_height_method",
+                  "label": "Geometric Height Method",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify base and height",
+                      "content": "To find the area using the geometric height method, we first choose one known side as the base and use trigonometry to find the perpendicular height ($h$).\n\nIn our triangular plot $\\triangle ABC$, let's take side $a$ as the base:\n- **Base** ($a$) = $7\\text{ m}$\n- **Side** ($b$) = $9\\text{ m}$\n- **Included Angle** ($C$) = $60^\\circ$",
+                      "highlights": [
+                        {
+                          "text": "a=7\\text{ m}",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "b=9\\text{ m}",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "C=60^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the perpendicular height",
+                      "content": "The height of the triangle ($h$) relative to the base $a$ is found using the sine ratio: $$h = b \\sin C$$\n\nSubstituting the values:\n$$h = 9 \\times \\sin(60^\\circ)$$\n\nUsing a calculator, we find:\n$$h \\approx 7.794\\text{ m}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "9 * sin(60)",
+                            "instructions": "Set angle mode to Degrees. Enter 9 * sin(60)."
+                          },
+                          "ti84": {
+                            "expression": "9 * sin(60)",
+                            "instructions": "Ensure the calculator is in DEGREE mode. Press [9] [SIN] [6] [0] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "9 * sin(60^{\\circ})",
+                            "instructions": "Ensure degree mode is active in settings. Type 9 * sin(60)."
+                          },
+                          "description": "Calculate the vertical height using the sine function."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply fundamental area formula",
+                      "content": "Now we use the standard formula for the area of a triangle:\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n\nSubstituting our base ($a = 7$) and the height we just calculated:\n$$\\text{Area} = \\frac{1}{2} \\times 7 \\times 7.794...$$\n\nNote that this combined calculation is exactly what the IB data booklet formula represents.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 7 * 7.794228634",
+                            "instructions": "Enter 0.5 * 7 * 7.794228634."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 7 * 7.794228634",
+                            "instructions": "Press [0] [.] [5] [*] [7] [*] [ANS] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "0.5 * 7 * 7.794228634",
+                            "instructions": "Type 0.5 * 7 * 7.794228634."
+                          },
+                          "description": "Calculate the final area."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "$$\\text{Area} = \\frac{1}{2}ab\\sin C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final result",
+                      "content": "Performing the calculation:\n$$\\text{Area} \\approx 27.2798...$$\n\nRounding to 3 significant figures (the IB standard):\n$$\\text{Area} = 27.3 \\text{ m}^2$$\n\nThis matches the requirement to estimate the total area of the garden plot."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:55:53.749Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "674cde01-6245-4b6b-810d-cb57140bca0c",
+        "specification": "Two ships, A and B, leave a port, travelling in different directions. Ship A travels $60$ km on a bearing of $030^\\circ$, while ship B travels $80$ km on a bearing of $120^\\circ$.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28513,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 1: Finding angles using bearings",
+              "title": "Question Type 1: Finding angles using bearings",
+              "labeledAt": "2026-03-07T17:26:05.429Z",
+              "reasoning": "The problem uses bearings (030\u00b0 and 120\u00b0) to form a triangle between the ships and the port, requiring interpretation of bearings as angles.",
+              "confidence": 0.74
+            },
+            {
+              "id": 64591,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 4: Using cosine rule to find the 3rd side",
+              "title": "Question Type 4: Using cosine rule to find the 3rd side",
+              "labeledAt": "2026-03-07T17:26:05.429Z",
+              "reasoning": "After converting bearings to the included angle between the two travel directions, the distance between ships is found using the cosine rule (third side of a triangle given two sides and included angle).",
+              "confidence": 0.66
+            }
+          ]
+        },
+        "currentRevisionId": 1478116,
+        "parts": [
+          {
+            "id": 1096817,
+            "content": "Calculate the distance between the two ships after they complete their journeys.",
+            "order": 0,
+            "markscheme": "- Calculate the angle between the ships: $120^\\circ - 30^\\circ = 90^\\circ$ <marks>M1</marks>\n- Identify the triangle properties: $a = 60$ km, $b = 80$ km, angle $= 90^\\circ$ $\\implies$ right-angled triangle <marks>A1</marks>\n- Substitute into the Pythagorean theorem: $d^2 = 60^2 + 80^2$\n- Calculate the distance: $d = 100$ km <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "pythagorean",
+                  "label": "Pythagorean Theorem",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Calculate the included angle",
+                      "content": "To understand the relationship between the paths of the two ships, we first calculate the angle between their bearings. Since both ships start from the same port, the angle between them is simply the difference between their bearings:\n\n$$\\text{Angle} = 120^\\circ - 030^\\circ = 90^\\circ$$",
+                      "highlights": [
+                        {
+                          "text": "bearing of 030^\\circ",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "bearing of 120^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the triangle type",
+                      "content": "Because the angle between the two paths is exactly $90^\\circ$, the journey forms a **right-angled triangle** where the distance from the port to ship A and the distance from the port to ship B are the two legs ($a$ and $b$). The distance between the two ships is the hypotenuse ($c$).\n\nThis means we can use the Pythagorean Theorem, which is a special case of the **Cosine Rule** found in your data booklet ($c^2 = a^2 + b^2 - 2ab \\cos C$) when $C = 90^\\circ$.",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply the Pythagorean Theorem",
+                      "content": "Now, substitute the known distances into the Pythagorean formula:\n\n$$\\begin{aligned} d^2 &= 60^2 + 80^2 \\\\ d^2 &= 3600 + 6400 \\\\ d^2 &= 10000 \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "travels 60 km",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "travels 80 km",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate the final distance",
+                      "content": "To find the distance $d$, take the square root of both sides:\n\n$$\\begin{aligned} d &= \\sqrt{10000} \\\\ d &= 100 \\text{ km} \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(60^2 + 80^2)",
+                            "instructions": "Enter \u221a(60^2 + 80^2) into the main calculation screen and press execute."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(60\u00b2 + 80\u00b2)",
+                            "instructions": "Press [2nd] [x\u00b2] (\u221a), then type 60\u00b2 + 80\u00b2, and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{60^{2}+80^{2}}",
+                            "instructions": "Type 'sqrt(60^2 + 80^2)' into an expression cell."
+                          },
+                          "description": "Calculate the square root of the sum of squares to find the distance."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "cosine_rule",
+                  "label": "Cosine Rule",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the triangle",
+                      "content": "To find the distance between the two ships, we can model their journeys as two sides of a triangle starting from the same point (the port). \n\nLet:\n- $a = 60$ km (distance of ship A)\n- $b = 80$ km (distance of ship B)\n\nWe need to find the length of the third side, which represents the distance between them.",
+                      "highlights": [
+                        {
+                          "text": "Ship A travels 60 km",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "ship B travels 80 km",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Find the included angle",
+                      "content": "The angle between the two ships' paths is the difference between their bearings. Ship A is at $030^\\circ$ and Ship B is at $120^\\circ$.\n\n$$\\text{Angle } C = 120^\\circ - 30^\\circ = 90^\\circ$$",
+                      "highlights": [
+                        {
+                          "text": "bearing of 030^\u2218",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "bearing of 120^\u2218",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply the Cosine Rule",
+                      "content": "Since we have two sides and the included angle, we can use the **Cosine Rule** from your data booklet to find the distance $d$:\n\n$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$\n\nSubstituting our values:\n\n$$d^2 = 60^2 + 80^2 - 2(60)(80)\\cos(90^\\circ)$$\n\nNote: Since $\\cos(90^\\circ) = 0$, the formula simplifies significantly (effectively becoming the Pythagorean theorem), but we will compute the full expression to be sure.",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve for distance",
+                      "content": "Now we calculate the numerical values:\n\n$$\\begin{aligned} d^2 &= 3600 + 6400 - 9600(0) \\\\ d^2 &= 10000 \\\\ d &= \\sqrt{10000} \\\\ d &= 100 \\text{ km} \\end{aligned}$$\n\nThis calculation would earn you full marks: one for the angle, one for the correct substitution, and one for the final answer.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(60^2 + 80^2 - 2*60*80*cos(90))",
+                            "instructions": "Use the square root and cosine functions. Check that the angle unit is set to degrees."
+                          },
+                          "ti84": {
+                            "expression": "sqrt(60^2 + 80^2 - 2*60*80*cos(90))",
+                            "instructions": "Enter the expression into the home screen. Ensure your calculator is in DEGREE mode (Mode -> Degree)."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{60^2 + 80^2 - 2 \\cdot 60 \\cdot 80 \\cdot \\cos(90^{\\circ})}",
+                            "instructions": "Type the formula directly into a cell. Ensure 'Degrees' is selected in the settings menu."
+                          },
+                          "description": "Calculate the distance using the Cosine Rule expression."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "coordinates",
+                  "label": "Coordinate Geometry",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Set up the coordinate system",
+                      "content": "To solve this using coordinate geometry, let's place the port at the origin $(0, 0)$. In navigation, bearings are measured clockwise from North. We can represent the North-South direction as the $y$-axis and the East-West direction as the $x$-axis.\n\nFor a ship at distance $d$ on a bearing $\theta$, its coordinates $(x, y)$ are:\n- $x = d \\sin(\\theta)$\n- $y = d \\cos(\\theta)$ \n\nThis maps North to the positive $y$-axis and East to the positive $x$-axis."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Coordinates for Ship A",
+                      "content": "Ship A travels $60$ km on a bearing of $030^\\circ$. Let's calculate its coordinates $(x_A, y_A)$:\n\n$$\\begin{aligned} x_A &= 60 \\sin(30^\\circ) = 30 \\\\ y_A &= 60 \\cos(30^\\circ) \\approx 51.962 \\end{aligned}$$\n\nSo, Ship A is at $(30, 51.962)$.",
+                      "highlights": [
+                        {
+                          "text": "Ship A travels $60$ km on a bearing of $030^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Coordinates for Ship B",
+                      "content": "Ship B travels $80$ km on a bearing of $120^\\circ$. Let's calculate its coordinates $(x_B, y_B)$:\n\n$$\\begin{aligned} x_B &= 80 \\sin(120^\\circ) \\approx 69.282 \\\\ y_B &= 80 \\cos(120^\\circ) = -40 \\end{aligned}$$\n\nSo, Ship B is at $(69.282, -40)$.",
+                      "highlights": [
+                        {
+                          "text": "ship B travels $80$ km on a bearing of $120^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Apply the distance formula",
+                      "content": "Now we use the distance formula to find the separation between the two points $(30, 51.962)$ and $(69.282, -40)$. This concept is covered in **Topic 3: Geometry and Trigonometry (SL 3.1)**.\n\n$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n\nSubstituting our coordinates:\n\n$$\\begin{aligned} d &= \\sqrt{(69.282 - 30)^2 + (-40 - 51.962)^2} \\\\ d &= \\sqrt{(39.282)^2 + (-91.962)^2} \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Calculate final distance",
+                      "content": "Now, let's compute the squares and the square root to find the distance.\n\n$$\\begin{aligned} d &= \\sqrt{1543.07... + 8457.01...} \\\\ d &= \\sqrt{10000.08...} \\approx 100 \\text{ km} \\end{aligned}$$\n\nThe distance between the two ships is $100$ km.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt((80*sin(120 deg)-60*sin(30 deg))^2 + (80*cos(120 deg)-60*cos(30 deg))^2)",
+                            "instructions": "Evaluate the square root of the squared differences of coordinates."
+                          },
+                          "ti84": {
+                            "expression": "\u221a( (80sin(120)-60sin(30))^2 + (80cos(120)-60cos(30))^2 )",
+                            "instructions": "Enter the distance formula calculation directly into the home screen."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{\\left(80\\sin\\left(120^{\\circ}\\right)-60\\sin\\left(30^{\\circ}\\right)\\right)^{2}+\\left(80\\cos\\left(120^{\\circ}\\right)-60\\cos\\left(30^{\\circ}\\right)\\right)^{2}}",
+                            "instructions": "Input the distance formula using the coordinates found in steps 1 and 2."
+                          },
+                          "description": "Calculate the distance between Ship A and Ship B using the distance formula."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:55:15.135Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "6ac40911-543d-4066-a802-d585c20c9b5f",
+        "specification": "A triangular garden plot $\\triangle ABC$ has side lengths $a=8$ m, $b=12$ m, and an angle $A=40^\\circ$ opposite side $a$. The garden plot is known to be acute-angled.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T13:26:31.779Z",
+            "resultId": 39876
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28512,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 7: Working with sine, cosine and area of triangle rule all together",
+              "title": "Question Type 7: Working with sine, cosine and area of triangle rule all together",
+              "labeledAt": "2026-03-06T13:18:04.484Z",
+              "reasoning": "Part (a) uses the sine rule to find angle B and part (b) uses the area formula involving sine; this matches combined use of sine rule and triangle area rule.",
+              "confidence": 0.82
+            },
+            {
+              "id": 28510,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 3: Finding sides and angles using sine rule",
+              "title": "Question Type 3: Finding sides and angles using sine rule",
+              "labeledAt": "2026-03-06T13:18:04.484Z",
+              "reasoning": "Part (a) specifically asks to calculate angle B using the sine rule in a non-right triangle (acute case).",
+              "confidence": 0.7
+            },
+            {
+              "id": 28511,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 6: Finding the area of a general triangle",
+              "title": "Question Type 6: Finding the area of a general triangle",
+              "labeledAt": "2026-03-06T13:18:04.484Z",
+              "reasoning": "Part (b) asks for the area of triangle ABC using a sine-based area formula (e.g., 1/2 ab sin C), i.e., area of a general triangle.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1696346,
+        "parts": [
+          {
+            "id": 1158298,
+            "content": "Calculate the measure of angle $B$ using the sine rule.",
+            "order": 0,
+            "markscheme": "- Substitute into sine rule: $\\frac{\\sin B}{12\\text{ m}} = \\frac{\\sin 40^\\circ}{8\\text{ m}}$ <marks>M1</marks>\n\n- Rearrange to solve for $\\sin B$: $\\sin B = \\frac{12\\sin 40^\\circ}{8}$ <marks>M1</marks>\n\n- Calculate angle $B$ and choose the acute solution: $B = 74.6^\\circ$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158299,
+            "content": "Find the area of $\\triangle ABC$ using the formula involving sine.",
+            "order": 1,
+            "markscheme": "- Calculate angle $C$: $C = 180^\\circ - 40^\\circ - 74.6^\\circ = 65.4^\\circ$\n\n- Substitute into area formula: $\\text{Area} = \\frac{1}{2} \\times 8\\text{ m} \\times 12\\text{ m} \\times \\sin(65.4^\\circ)$ <marks>M1</marks>\n\n- Calculate area: $\\text{Area} = 43.6$ m$^2$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6fd9479b-a118-4637-9105-ec5317875ad4",
+        "specification": "An architect is observing a building to determine its height. Standing 50 meters away from the base of the building, the architect looks up at the top of the building at an angle of elevation of $30^\\circ$.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64595,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 3: Applying values of elevation and depression",
+              "title": "Question Type 3: Applying values of elevation and depression",
+              "labeledAt": "2026-03-06T12:42:05.419Z",
+              "reasoning": "The problem describes an angle of elevation from a known horizontal distance to find a building\u2019s height, which is a direct application of angles of elevation/depression using right-triangle trigonometry.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1488960,
+        "parts": [
+          {
+            "id": 1116157,
+            "content": "Calculate the height of the building, based on the given distance and angle.",
+            "order": 1,
+            "markscheme": "- **Identify** that the tangent ratio should be used: $\\tan 30^\\circ = \\frac{h}{50}$ <marks>M1</marks>\n\n- **Set** up the equation to solve for the height: $h = 50 \\tan 30^\\circ$ <marks>A1</marks>\n\n- **Calculate** the height of the building: $h = 28.9$ meters <marks>A1</marks>\n\n3 marks total\n\n<examTip>Remember to include units in your final answer</examTip>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "tangent_ratio",
+                  "label": "Right-Angled Trigonometry",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the triangle components",
+                      "content": "To find the height of the building, we can model this situation as a right-angled triangle. \n\n*   The **height** of the building is the side **opposite** the angle of elevation.\n*   The **distance** from the base ($50$ meters) is the side **adjacent** to the angle.\n\nThis setup is covered in **Topic 3: Geometry and Trigonometry**, specifically under right-angled trigonometry (SOH CAH TOA).",
+                      "highlights": [
+                        {
+                          "text": "Standing 50 meters away from the base",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle of elevation of $30^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply the tangent ratio",
+                      "content": "Since we have the **adjacent** side and need to find the **opposite** side, we use the tangent ratio:\n\n$$\\tan(\\theta) = \\frac{\\text{opposite}}{\\text{adjacent}}$$\n\nSubstituting our known values ($h$ for height, $50$ for distance, and $30^\\circ$ for the angle):\n\n$$\\tan(30^\\circ) = \\frac{h}{50}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for the height",
+                      "content": "To isolate the height ($h$), multiply both sides of the equation by $50$:\n\n$$h = 50 \\times \\tan(30^\\circ)$$\n\nUsing a calculator, we find:\n\n$$h \\approx 28.8675...$$\n\nRounding to **three significant figures** (the standard for IB unless otherwise specified), we get $28.9$ meters.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "50 * tan(30)",
+                            "instructions": "1. Check that your angle settings are in 'Degrees'.\n2. Enter the expression 50 * tan(30) into the main calculation screen.\n3. Press [EXE] or [ENTER]."
+                          },
+                          "ti84": {
+                            "expression": "50 * tan(30)",
+                            "instructions": "1. Ensure the calculator is in Degree mode: Press [MODE], highlight 'DEGREE', and press [ENTER].\n2. Return to the home screen: Press [2nd] [MODE].\n3. Enter the calculation: Type 50 * tan(30) and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "50 * tan(30)",
+                            "instructions": "1. Click the wrench icon (Settings) and select 'Degrees'.\n2. Type 50 * tan(30) into the input bar."
+                          },
+                          "description": "Calculate the building height using the tangent function."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The height of the building is $28.9$ meters.\n\nIn an IB exam, you earn marks for:\n1.  Setting up the correct trig ratio ($M1$).\n2.  Showing the rearranged equation ($A1$).\n3.  Providing the final answer with correct rounding and units ($A1$)."
+                    }
+                  ]
+                },
+                {
+                  "id": "sine_rule",
+                  "label": "Sine Rule",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the triangle",
+                      "content": "To solve this using the Sine Rule, let's first picture the situation as a triangle. \n\n*   The building stands vertically, making a $90^\\circ$ angle with the ground.\n*   The distance from the architect to the base is 50 m.\n*   The angle of elevation to the top is $30^\\circ$.\n\nThis gives us a right-angled triangle where we know one side and two angles ($30^\\circ$ and $90^\\circ$). This topic is covered in **Topic 3: Geometry and Trigonometry**.",
+                      "highlights": [
+                        {
+                          "text": "50 meters away",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle of elevation of $30^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the third angle",
+                      "content": "The Sine Rule works by pairing sides with their opposite angles. Since we know the base length (50 m) is opposite the angle at the top of the building, we need to find that angle first.\n\nSince the sum of angles in a triangle is $180^\\circ$:\n\n$$\\text{Third Angle} = 180^\\circ - 90^\\circ - 30^\\circ = 60^\\circ$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply the Sine Rule",
+                      "content": "Now we can use the Sine Rule formula from your data booklet. We pair the height ($h$) with its opposite angle ($30^\\circ$) and the base (50 m) with its opposite angle ($60^\\circ$).\n\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$$\n\nSubstituting our values:\n\n$$\\frac{h}{\\sin 30^\\circ} = \\frac{50}{\\sin 60^\\circ}$$",
+                      "highlights": [
+                        {
+                          "text": "$$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve for the height",
+                      "content": "Rearrange the equation to isolate $h$:\n\n$$h = \\frac{50 \\times \\sin 30^\\circ}{\\sin 60^\\circ}$$\n\nNow, let's use a calculator to find the numerical value. Make sure your calculator is in **Degree** mode!",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "50 * sin(30) / sin(60)",
+                            "instructions": "1. Set angle mode to Degrees.\n2. Calculate 50 * sin(30) / sin(60)."
+                          },
+                          "ti84": {
+                            "expression": "(50 * sin(30)) / sin(60)",
+                            "instructions": "1. Ensure mode is set to DEGREE.\n2. Enter: (50 * sin(30)) / sin(60)\n3. Press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "50 * sin(30) / sin(60)",
+                            "instructions": "1. Set to Degree mode in settings.\n2. Type: 50 * sin(30) / sin(60)"
+                          },
+                          "description": "Calculate the height using the Sine Rule ratio."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final answer",
+                      "content": "After calculating, we get:\n\n$$h \\approx 28.8675...$$\n\nRounding to 3 significant figures (as per standard IB practice), the height is **28.9 meters**. \n\nDon't forget to include the units! In the exam, you earn marks for correctly setting up the ratio and providing the final answer with units."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:55:10.761Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "b2128738-ad6a-41b4-85f9-48f4d5ea8689",
+        "specification": "A farmer owns a triangular field $ABC$. The length of side $[AB]$ is $85 \\text{ m}$ and side $[AC]$ is $110 \\text{ m}$. The angle between these two sides is $55^\\circ$.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28511,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 6: Finding the area of a general triangle",
+              "title": "Question Type 6: Finding the area of a general triangle",
+              "labeledAt": "2026-03-07T17:25:39.933Z",
+              "reasoning": "Part (b) asks for the area of a non-right triangle given two sides and the included angle (uses 1/2 ab sin C).",
+              "confidence": 0.95
+            },
+            {
+              "id": 64591,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 4: Using cosine rule to find the 3rd side",
+              "title": "Question Type 4: Using cosine rule to find the 3rd side",
+              "labeledAt": "2026-03-07T17:25:39.933Z",
+              "reasoning": "To divide the triangle into two equal areas with a cevian from A to BC, one typically needs to find BC (via cosine rule from AB, AC, included angle) before determining BD.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1489113,
+        "parts": [
+          {
+            "id": 1116353,
+            "content": "Find the area of the field.",
+            "order": 1,
+            "markscheme": "- Calculate the area of the field using the area of a triangle formula: $\\text{Area} = \\frac{1}{2} \\times 110 \\times 85 \\times \\sin 55^\\circ$ <marks>M1 A1</marks>\n- State the area: $\\text{Area} = 3830 \\text{ m}^2$ ($3829.53\\dots \\text{ m}^2$) <marks>A1</marks>\n\n3 marks total\n\n<note>Units must be given for the final **A1** to be awarded.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "trigonometric_area_formula",
+                  "label": "Trigonometric Area Formula",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the given information",
+                      "content": "To find the area of the triangular field, we first identify the known side lengths and the angle between them (the included angle):\n\n- Side $c = 85 \\text{ m}$ (side $[AB]$)\n- Side $b = 110 \\text{ m}$ (side $[AC]$)\n- Included angle $A = 55^\\circ$\n\nThis information is perfect for the trigonometric area formula because we have two sides and the angle \"sandwiched\" between them.",
+                      "highlights": [
+                        {
+                          "text": "side [AB] is 85 m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "side [AC] is 110 m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle between these two sides is 55\u00b0",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Select the area formula",
+                      "content": "From the **Geometry and Trigonometry** section of your IB Data Booklet, we find the formula for the area of a triangle when two sides and the included angle are known:\n\n$$\\text{Area} = \\frac{1}{2}ab\\sin C$$\n\nIn our case, we can adapt the letters to match our triangle: $\\text{Area} = \\frac{1}{2} \\times AB \\times AC \\times \\sin(A)$.",
+                      "highlights": [
+                        {
+                          "text": "Area =\\frac{1}{2}ab\\sin C",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Substitute the values",
+                      "content": "Now, we substitute the given values into the formula. This step usually earns the first method mark (**M1**) in an IB exam:\n\n$$\\text{Area} = \\frac{1}{2} \\times 110 \\times 85 \\times \\sin(55^\\circ)$$ \n\nBefore you calculate, make sure your calculator is set to **DEGREE** mode, as the angle is given in degrees.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 110 * 85 * sin(55)",
+                            "instructions": "1. Ensure the calculator is in Degree mode.\n2. Enter the expression: 0.5 \u00d7 110 \u00d7 85 \u00d7 sin(55)\n3. Execute the calculation."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 110 * 85 * sin(55)",
+                            "instructions": "1. Press [MODE] and ensure 'DEGREE' is highlighted.\n2. Press [2ND] [MODE] to return to the home screen.\n3. Type: 0.5 * 110 * 85 * sin(55)\n4. Press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "\\frac{1}{2} \\cdot 110 \\cdot 85 \\cdot \\sin(55^{\\circ})",
+                            "instructions": "1. Click the wrench icon (Settings) and select 'Degrees'.\n2. Type: 1/2 * 110 * 85 * sin(55)"
+                          },
+                          "description": "Calculate the area of the triangle using the given sides and angle."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "Evaluating the expression gives us:\n\n$$\\text{Area} \\approx 3829.53...$$\n\nRounding to the nearest whole number or three significant figures as suggested by the markscheme, and including the correct units:\n\n$$\\text{Area} = 3830 \\text{ m}^2$$\n\nDon't forget the units ($ \\text{m}^2 $)! In IB Math AI, the final accuracy mark often requires correct units for area problems."
+                    }
+                  ]
+                },
+                {
+                  "id": "geometric_height",
+                  "label": "Geometric Height Calculation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the geometry",
+                      "content": "To find the area of the triangular field, we can use the geometric approach of finding the perpendicular height. \n\nWe are given:\n- Side $[AB] = 85 \\text{ m}$ (let's treat this as the hypotenuse of a smaller right-angled triangle)\n- Side $[AC] = 110 \\text{ m}$ (we'll use this as our base)\n- Included angle $A = 55^\\circ$\n\nOur goal is to find the height $h$ dropped from vertex $B$ down to the base $AC$.",
+                      "highlights": [
+                        {
+                          "text": "length of side [AB] is 85  m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "side [AC] is 110  m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle between these two sides is 55^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the perpendicular height",
+                      "content": "Using right-angled trigonometry (specifically the sine ratio), we can find the height $h$:\n\n$$\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$\n\nIn our triangle:\n$$\\sin(55^\\circ) = \\frac{h}{85}$$\n\nRearranging for $h$:\n$$h = 85 \\times \\sin(55^\\circ)$$ \n\nThis gives us a height of approximately $69.628 \\text{ m}$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "85 * sin(55)",
+                            "instructions": "Set angle units to degrees. Calculate 85 * sin(55)."
+                          },
+                          "ti84": {
+                            "expression": "85 * sin(55)",
+                            "instructions": "Ensure the calculator is in DEGREE mode. Press [8][5] [SIN] [5][5] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "85 * \\sin(55^{\\circ})",
+                            "instructions": "Set mode to Degrees. Type: 85 * sin(55)."
+                          },
+                          "description": "Calculate the height using the sine function."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the triangle area",
+                      "content": "Now we use the general formula for the area of a triangle:\n\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n\nSubstituting our values ($base = 110$ and $height = 85 \\sin 55^\\circ$):\n\n$$\\text{Area} = \\frac{1}{2} \\times 110 \\times (85 \\sin 55^\\circ)$$\n\nThis calculation combines the base measurement with the height we just derived.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 110 * 85 * sin(55)",
+                            "instructions": "Calculate 0.5 * 110 * 85 * sin(55)."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 110 * 85 * sin(55)",
+                            "instructions": "Press [0][.][5] [*] [1][1][0] [*] [8][5] [SIN] [5][5] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "0.5 \\cdot 110 \\cdot 85 \\cdot \\sin(55^{\\circ})",
+                            "instructions": "Type: 0.5 * 110 * 85 * sin(55)."
+                          },
+                          "description": "Calculate the final area of the field."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final answer and units",
+                      "content": "Performing the calculation:\n\n$$\\text{Area} \\approx 3829.535...$$\n\nRounding to the nearest whole number (or 3 significant figures as per standard IB practice) and including the correct units:\n\n$$\\text{Area} = 3830 \\text{ m}^2$$",
+                      "highlights": [
+                        {
+                          "text": "Area = 3830  m^2",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:51:56.743Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1116354,
+            "content": "The farmer would like to divide the field into two equal parts by constructing a straight fence from $A$ to a point $D$ on $[BC]$.\n\nFind $BD$. Fully justify any assumptions you make.",
+            "order": 2,
+            "markscheme": "- Calculate $BC$ using the cosine rule: $BC^2 = 110^2 + 85^2 - 2 \\times 110 \\times 85 \\times \\cos 55^\\circ$ <marks>M1 A1</marks>\n- State the value of $BC$: $BC = 92.7 \\text{ m}$ ($92.7314\\dots \\text{ m}$) <marks>A1</marks>\n\n**METHOD 1**\n- Justify that since the height and area of triangles $ABD$ and $ADC$ are equal, their bases must be equal <marks>R1</marks>\n- State that $D$ is the midpoint of $[BC]$ <marks>A1</marks>\n- Calculate the value of $BD$: $BD = 46.4 \\text{ m}$ ($46.365\\dots \\text{ m}$) <marks>A1</marks>\n\n**METHOD 2**\n- Let $C\\hat{B}A = \\theta$\n- Calculate the value of $\\theta$ using the sine rule: $\\frac{\\sin \\theta}{110} = \\frac{\\sin 55^\\circ}{92.731\\dots}$ <marks>M1</marks>\n- State the value of $\\theta$: $\\theta = 76.3^\\circ$ ($76.3354\\dots^\\circ$)\n- Substitute values into the area formula for triangle $ABD$: $\\frac{1}{2} \\times 85 \\times BD \\times \\sin(76.33\\dots^\\circ) = \\frac{3829.53\\dots}{2}$ <marks>A1</marks>\n- Calculate the length of $BD$: $BD = 46.4 \\text{ m}$ ($46.365\\dots \\text{ m}$) <marks>A1</marks>\n\n6 marks total\n\n<note>In Method 1, the final two marks are dependent on the **R1** being awarded.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "midpoint_logic",
+                  "label": "Midpoint Geometry Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the side length BC",
+                      "content": "To solve for the segment $BD$, we first need to find the total length of the side $BC$ of the triangular field. Since we know two sides and the included angle, we can use the **Cosine Rule**.\n\nFrom the **Geometry and Trigonometry** section of your data booklet, the formula is:\n\n$$c^{2}=a^{2}+b^{2}-2ab\text{cos } C$$",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate length BC",
+                      "content": "Let $a = 110$, $b = 85$, and the angle $C = 55^\\circ$. Substituting these values into the formula:\n\n$$\\begin{aligned} BC^2 &= 110^2 + 85^2 - 2(110)(85)\\cos 55^\\circ \\\\ BC^2 &= 12100 + 7225 - 18700 \\times \\cos 55^\\circ \\\\ BC &= \\sqrt{19325 - 18700 \\times \\cos 55^\\circ} \\end{aligned}$$\n\nUsing your calculator, we find:\n$$BC \\approx 92.7314... \\text{ m}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "\u221a(110^2 + 85^2 - 2 * 110 * 85 * cos(55))",
+                            "instructions": "Enter the formula directly into the run-matrix menu. Ensure the angle mode is set to degrees."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(110\u00b2 + 85\u00b2 - 2 * 110 * 85 * cos(55))",
+                            "instructions": "Press [2nd] [x^2] for the square root. Type 110^2 + 85^2 - 2 * 110 * 85 * cos(55). Ensure your calculator is in DEGREE mode."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{110^{2}+85^{2}-2\\cdot110\\cdot85\\cdot\\cos(55)}",
+                            "instructions": "Type the expression into the calculator. Click the wrench icon to ensure it is in 'Degrees' mode."
+                          },
+                          "description": "Calculate the side length BC using the cosine rule."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "side [AB] is 85 m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "side [AC] is 110 m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle between these two sides is 55^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Justify that D is midpoint",
+                      "content": "The farmer wants to \"divide the field into two equal parts.\" This means the area of triangle $ABD$ must equal the area of triangle $ADC$.\n\nBoth triangles share the same vertex $A$, so they share the same perpendicular height $h$ from $A$ to the line $BC$. Using the area formula for a triangle, $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$:\n\n$$\\text{Area}_{ABD} = \\frac{1}{2} \\times BD \\times h$$\n$$\\text{Area}_{ADC} = \\frac{1}{2} \\times DC \\times h$$\n\nSince the areas and heights are equal, their bases must also be equal: $BD = DC$. Therefore, $D$ is the midpoint of $[BC]$.",
+                      "highlights": [
+                        {
+                          "text": "divide the field into two equal parts",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve for BD",
+                      "content": "Because $D$ is the midpoint of the line segment $[BC]$, the distance $BD$ is simply half of the total length $BC$:\n\n$$\\begin{aligned} BD &= \\frac{1}{2} \\times BC \\\\ BD &= \\frac{92.7314...}{2} \\\\ BD &\\approx 46.365... \\text{ m} \\end{aligned}$$\n\nRounding to 3 significant figures, we get:\n$$BD = 46.4 \\text{ m}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "92.73144364 / 2",
+                            "instructions": "Type 92.73144364 / 2 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "92.73144364 / 2",
+                            "instructions": "Type 92.73144364 / 2 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "92.73144364 / 2",
+                            "instructions": "Type 92.73144364 / 2 into the calculator."
+                          },
+                          "description": "Divide the total length BC by 2 to find BD."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "area_trig",
+                  "label": "Area and Sine Rule Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Calculate length BC",
+                      "content": "To begin, we need the length of the third side of the field, $[BC]$. Since we know two sides and the included angle ($55^\\circ$), we apply the **Cosine Rule** from the data booklet.\n\n$$c^2 = a^2 + b^2 - 2ab \\cos C$$\n\nSubstituting our known values:\n$$BC^2 = 110^2 + 85^2 - 2(110)(85) \\cos(55^\\circ)$$\n\n$$BC = \\sqrt{12100 + 7225 - 18700 \\cos(55^\\circ)}$$\n$$BC \\approx 92.7314... \\text{ m}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(110^2 + 85^2 - 2 * 110 * 85 * cos(55))",
+                            "instructions": "Enter the expression into the calculation screen."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(110^2 + 85^2 - 2 * 110 * 85 * cos(55))",
+                            "instructions": "Enter the expression into the main screen."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{110^2 + 85^2 - 2 \\cdot 110 \\cdot 85 \\cdot \\cos(55^{\\circ})}",
+                            "instructions": "Type the expression in a new cell."
+                          },
+                          "description": "Calculate the side length BC."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "side [AB] is 85 m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "side [AC] is 110 m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle between these two sides is 55\u00b0",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the total area",
+                      "content": "Next, we find the total area of the field $ABC$. This is required because the farmer wants to divide the field into two equal parts. We use the **Area formula** for a triangle:\n\n$$\\text{Area} = \\frac{1}{2}ab \\sin C$$\n\n$$\\text{Area}_{ABC} = \\frac{1}{2} \\times 85 \\times 110 \\times \\sin(55^\\circ)$$\n$$\\text{Area}_{ABC} \\approx 3829.54 \\text{ m}^2$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 85 * 110 * sin(55)",
+                            "instructions": "Enter the expression into the calculation screen."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 85 * 110 * sin(55)",
+                            "instructions": "Enter the calculation on the main screen."
+                          },
+                          "desmos": {
+                            "expression": "\\frac{1}{2} \\cdot 85 \\cdot 110 \\cdot \\sin(55^{\\circ})",
+                            "instructions": "Type the formula in a new cell."
+                          },
+                          "description": "Calculate the total area of triangle ABC."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "Area $=\\frac{1}{2}ab\\sin C$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Determine the angle B",
+                      "content": "To solve for $BD$ in the triangle $ABD$ later, we need to know the measure of angle $B$ (also written as $C\\hat{B}A$). We can find this using the **Sine Rule**:\n\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$$\n\n$$\\frac{92.7314...}{\\sin(55^\\circ)} = \\frac{110}{\\sin B}$$\n\nRearranging to solve for $B$:\n$$\\sin B = \\frac{110 \\times \\sin(55^\\circ)}{92.7314...}$$\n$$B = \\arcsin(0.97169...)$$\n$$B \\approx 76.335...^\\circ$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "asin(110 * sin(55) / 92.7314)",
+                            "instructions": "Calculate the inverse sine of the expression."
+                          },
+                          "ti84": {
+                            "expression": "sin\u207b\u00b9(110 * sin(55) / 92.7314)",
+                            "instructions": "Use the arcsin function. Ensure the calculator is in Degree mode."
+                          },
+                          "desmos": {
+                            "expression": "\\arcsin\\left(\\frac{110 \\cdot \\sin(55^{\\circ})}{92.7314}\\right)",
+                            "instructions": "Calculate the inverse sine in a new cell."
+                          },
+                          "description": "Solve for angle B (in degrees)."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "$$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate the length BD",
+                      "content": "The farmer divides the field into two equal parts, so we assume the area of triangle $ABD$ is exactly half of the total area:\n\n$$\\text{Area}_{ABD} = \\frac{1}{2} \\times \\text{Area}_{ABC} = \\frac{3829.54...}{2} \\approx 1914.77 \\text{ m}^2$$\n\nNow we use the area formula specifically for triangle $ABD$ with side $AB = 85$ and angle $B$:\n\n$$\\text{Area}_{ABD} = \\frac{1}{2} \\times AB \\times BD \\times \\sin B$$\n\n$$1914.77 = \\frac{1}{2} \\times 85 \\times BD \\times \\sin(76.335...^\\circ)$$\n\nSolving for $BD$:\n$$BD = \\frac{1914.77}{42.5 \\times \\sin(76.335...^\\circ)}$$\n$$BD \\approx 46.4 \\text{ m}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "1914.77 / (0.5 * 85 * sin(76.335))",
+                            "instructions": "Enter the division expression."
+                          },
+                          "ti84": {
+                            "expression": "1914.77 / (0.5 * 85 * sin(76.335))",
+                            "instructions": "Perform the division on the main screen."
+                          },
+                          "desmos": {
+                            "expression": "\\frac{1914.77}{0.5 \\cdot 85 \\cdot \\sin(76.335^{\\circ})}",
+                            "instructions": "Type the expression in a new cell."
+                          },
+                          "description": "Calculate the length BD."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "divide the field into two equal parts",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Justification",
+                      "content": "We assumed that \"two equal parts\" refers to the area of the triangles. Since $\\triangle ABD$ and $\\triangle ABC$ share the same height relative to the base $[BC]$, having half the area implies that $BD$ is half the length of $BC$. \n\nVerification:\n$$BD = \\frac{1}{2} \\times 92.7314... \\approx 46.4 \\text{ m}$$\n\nThe answer is $46.4 \\text{ m}$ (to 3 significant figures)."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:53:08.321Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "b801c3c1-5ec5-49f0-9fcb-bbbc8086695a",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64592,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 5: Using cosine rule to find all the angles between sides",
+              "title": "Question Type 5: Using cosine rule to find all the angles between sides",
+              "labeledAt": "2026-03-07T03:33:47.627Z",
+              "reasoning": "Given all three side lengths of a triangle and asked to find all interior angles; this is a direct application of the cosine rule to determine angles.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1457524,
+        "parts": [
+          {
+            "id": 1070085,
+            "content": "<div class='question'><p>In triangle ABC, AB = 5, BC = 14 and AC = 11.</p><p>Find all the interior angles of the triangle. Give your answers in degrees to one decimal place.</p></div>",
+            "order": 1,
+            "markscheme": "- **Attempt** to use the cosine rule to find angle $A$ (opposite side $BC$) <marks>M1</marks>\n- **Substitute** correct values: $\\cos A = \\frac{5^2 + 11^2 - 14^2}{2(5)(11)}$ <marks>A1</marks>\n- **Calculate** the value: $\\cos A = -\\frac{50}{110}$, so $A = 117.0^\\circ$ <marks>A1</marks>\n\n- **Attempt** to use the cosine rule (or sine rule) to find angle $B$ <marks>M1</marks>\n- **Substitute** correct values: $\\cos B = \\frac{5^2 + 14^2 - 11^2}{2(5)(14)}$\n- **Calculate** the value: $B = 44.4^\\circ$ <marks>A1</marks>\n\n- **Calculate** the third angle $C$ using the sum of angles: $C = 180^\\circ - (117.0^\\circ + 44.4^\\circ)$\n- **State** the final angle: $C = 18.6^\\circ$ (accept $18.5^\\circ$) <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "b82143b9-b48f-4578-8142-b60b9e39f7f2",
+        "specification": "A glass trophy is designed in the shape of a right square-based pyramid $VABCD$, as shown in the diagram below. The base $ABCD$ is a square with side length $10\\text{ cm}$, and its center is the point $M$. The vertex $V$ is located directly above $M$ such that the vertical height $VM$ is $12\\text{ cm}$.\n\n![diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-b82143b9-b48f-4578-8142-b60b9e39f7f2-1771929956947/fed40794-39dd-407b-91ff-b040174b7a76.jpeg)\n\nYou may assume the thickness of the glass is negligible.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-b82143b9-b48f-4578-8142-b60b9e39f7f2-1771929956947",
+            "generatedAt": "2026-02-26T11:49:02.761Z",
+            "sourceRevisionId": 1478037
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28507,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.1\u20143d space, volume, angles, midpoints > Question Type 3: Calculating the surface area of specific 3D shapes given the parameters",
+              "title": "Question Type 3: Calculating the surface area of specific 3D shapes given the parameters",
+              "labeledAt": "2026-03-07T17:25:52.956Z",
+              "reasoning": "Part (a) asks for the total surface area of a right square-based pyramid, a direct application of 3D surface area calculations.",
+              "confidence": 0.9
+            },
+            {
+              "id": 64590,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 2: Using SOH CAH TOA to find the angle given two sides",
+              "title": "Question Type 2: Using SOH CAH TOA to find the angle given two sides",
+              "labeledAt": "2026-03-07T17:25:52.956Z",
+              "reasoning": "Parts (0), (b), and (c) require finding lengths/angles using right-triangle trigonometry and cosine rule style reasoning in 3D geometry.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1686805,
+        "parts": [
+          {
+            "id": 1147301,
+            "content": "Calculate the distance $AM$ from the center of the base to a vertex of the square base.",
+            "order": -1,
+            "markscheme": "- Attempt to use Pythagorean theorem on the square base (e.g., in triangle $ABM$ or using diagonal $AC$) <marks>M1</marks>\n- Correct substitution: $AM = \\sqrt{5^2 + 5^2}$ OR $AM = \\frac{1}{2}\\sqrt{10^2 + 10^2}$ <marks>A1</marks>\n- $7.07\\text{ cm}$ ($7.07106\\dots$ or $\\sqrt{50}$) <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147302,
+            "content": "Calculate the total surface area of the glass pyramid.",
+            "order": 0,
+            "markscheme": "- Calculate the slant height of a triangular face: $\\sqrt{12^2 + 5^2} = 13$ <marks>M1</marks>\n- Attempt to sum the area of the base and four triangular faces: $10^2 + 4 \\times (\\frac{1}{2} \\times 10 \\times 13)$ <marks>M1</marks>\n- $360\\text{ cm}^2$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147303,
+            "content": "Find the size of the angle $A\\hat{V}B$.",
+            "order": 1,
+            "markscheme": "- Calculate the length of slant edge $VA$: $\\sqrt{12^2 + (\\sqrt{50})^2} = \\sqrt{194}$ ($13.928\\dots$) <marks>A1</marks>\n- Recognize $VB = VA = \\sqrt{194}$ <marks>A1</marks>\n- Attempt to use the cosine rule in triangle $VAB$: $10^2 = (\\sqrt{194})^2 + (\\sqrt{194})^2 - 2(\\sqrt{194})(\\sqrt{194})\\cos(A\\hat{V}B)$ <marks>M1</marks>\n- Correct substitution: $\\cos(A\\hat{V}B) = \\frac{194 + 194 - 100}{2 \\times 194}$ <marks>A1</marks>\n- $42.1^\\circ$ ($42.1030\\dots$) OR $0.735$ radians ($0.73483\\dots$) <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147304,
+            "content": "A decorative point $P$ is placed on the slant edge $VC$ such that $VP = \\frac{3}{4} VC$. Calculate the distance from $M$ to $P$.",
+            "order": 2,
+            "markscheme": "- Attempt to use a 3D coordinate system or similar triangles to find the position of $P$ <marks>M1</marks>\n- Correct coordinates for $P$ (taking $M$ as origin): $(3.75, 3.75, 3)$ <marks>A1</marks>\n- Use of 3D distance formula: $\\sqrt{3.75^2 + 3.75^2 + 3^2}$ <marks>M1</marks>\n- $6.09\\text{ cm}$ ($6.09302\\dots$) <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c9dc5cf8-7d8b-411f-8bb0-548ef8a5bc92",
+        "specification": "A surveyor is mapping a triangular plot of land where two sides measure $a = 11$ m and $b = 16$ m, with the angle between them, $C$, measuring $75^\\circ$.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64591,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 4: Using cosine rule to find the 3rd side",
+              "title": "Question Type 4: Using cosine rule to find the 3rd side",
+              "labeledAt": "2026-03-06T04:44:54.269Z",
+              "reasoning": "Part (b) explicitly asks to use the cosine rule to calculate the third side c from two sides and the included angle.",
+              "confidence": 0.92
+            },
+            {
+              "id": 64592,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 5: Using cosine rule to find all the angles between sides",
+              "title": "Question Type 5: Using cosine rule to find all the angles between sides",
+              "labeledAt": "2026-03-06T04:44:54.269Z",
+              "reasoning": "After finding side c, the question asks to find angles A and B, which can be done using the cosine rule to find angles in a non-right triangle.",
+              "confidence": 0.87
+            },
+            {
+              "id": 28511,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 6: Finding the area of a general triangle",
+              "title": "Question Type 6: Finding the area of a general triangle",
+              "labeledAt": "2026-03-06T04:44:54.269Z",
+              "reasoning": "Parts (d) and (e) ask for the area of the triangle (and new area after changing a side) using the general triangle area formula involving two sides and the included angle.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1489152,
+        "parts": [
+          {
+            "id": 1116403,
+            "content": "Use the cosine rule to calculate the size of side $c$, and then find the size of angle $A$.",
+            "order": 1,
+            "markscheme": "$c^2 = a^2 + b^2 - 2ab \\cos C$ <marks>M1</marks>\n\n$c^2 = 11^2 + 16^2 - 2(11)(16) \\cos 75^\\circ$ \n\n$c = 16.9$ m (3 sf) <marks>A1</marks>\n\nThen using the sine rule to find $A$:\n\n$\\frac{\\sin A}{11} = \\frac{\\sin 75^\\circ}{16.908...}$ <marks>M1</marks>\n\n$A = 38.9^\\circ$ <marks>A1</marks>\n\n<note>Award **M1** for correct substitution into the cosine rule, **A1** for correct $c$, **M1** for correct substitution into the sine rule (or cosine rule for $A$), and **A1** for the final angle. Accept $39.0^\\circ$ if $c=16.9$ was used directly, but encourage use of unrounded values.</note>\n\n**[4 marks total]**",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1116404,
+            "content": "Calculate the size of angle $B$ and verify that the sum of the internal angles is $180^\\circ$.",
+            "order": 2,
+            "markscheme": "$B = 180^\\circ - 75^\\circ - 38.93...^\\circ$ <marks>M1</marks>\n\n$B = 66.1^\\circ$ <marks>A1</marks>\n\nVerification: $75^\\circ + 38.9^\\circ + 66.1^\\circ = 180^\\circ$\n\n<note>Allow follow-through (FT) from part (a).</note>\n\n**[2 marks total]**",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "anglesum",
+                  "label": "Angle Sum Property",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify known angles",
+                      "content": "To find the missing angle $B$, we need to gather the values of the other two angles in the triangle. From the question, we are given angle $C$ and from the previous part of the problem, we have the calculated value for angle $A$.\n\n- $C = 75^\\circ$\n- $A \\approx 38.93...^\\circ$ (using the unrounded value from Part 1 ensures accuracy)",
+                      "highlights": [
+                        {
+                          "text": "angle C, measuring 75^\u2218",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply Angle Sum Property",
+                      "content": "A fundamental property of any triangle is that the sum of its internal angles is always $180^\\circ$. We can set up an equation to solve for $B$:\n\n$$A + B + C = 180^\\circ$$\n\nRearranging to solve for $B$:\n\n$$B = 180^\\circ - C - A$$\n\nSubstituting our values:\n\n$$B = 180^\\circ - 75^\\circ - 38.932...^\\circ$$",
+                      "highlights": [
+                        {
+                          "text": "sum of the internal angles is 180^\u2218",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate and round",
+                      "content": "Now, perform the subtraction to find the size of angle $B$. In IB exams, final answers should generally be given to 3 significant figures unless stated otherwise.\n\n$$B = 66.067...^\\circ$$\n\nRounding to 3 significant figures, we get:\n\n$$B = 66.1^\\circ$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "180 - 75 - 38.932",
+                            "instructions": "Subtract the known angles from 180 on the calculation screen."
+                          },
+                          "ti84": {
+                            "expression": "180-75-38.932",
+                            "instructions": "Enter the subtraction into the home screen: 180 - 75 - 38.932."
+                          },
+                          "desmos": {
+                            "expression": "180 - 75 - 38.932",
+                            "instructions": "Type the expression into the input bar to find the result."
+                          },
+                          "description": "Calculate the value of angle B and round to 3 significant figures."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Verify the total sum",
+                      "content": "The question also asks us to verify that the sum of the internal angles is $180^\\circ$. We do this by adding our rounded values together:\n\n$$75^\\circ + 38.9^\\circ + 66.1^\\circ = 180^\\circ$$\n\nSince the sum is exactly $180^\\circ$, our calculation is verified."
+                    }
+                  ]
+                },
+                {
+                  "id": "sinerule",
+                  "label": "Sine Rule Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify known values",
+                      "content": "To find angle $B$, we need to use the information we have about the triangle. From the question and our previous work in Part 1, we know:\n\n*   Side $a = 11$ m\n*   Side $b = 16$ m\n*   Angle $C = 75^\\circ$\n*   Side $c \\approx 16.91$ m (calculated in Part 1)\n*   Angle $A \\approx 38.93^\\circ$ (calculated in Part 1)\n\nWe will use the **Sine Rule** to link side $b$ with angle $B$.",
+                      "highlights": [
+                        {
+                          "text": "a = 11",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "b = 16",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "C",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "75^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply the Sine Rule",
+                      "content": "In the IB Data Booklet, the Sine Rule is provided for non-right-angled triangles. We can set up the relationship between side $b$, angle $B$, side $c$, and angle $C$:\n\n$$\\frac{b}{\\sin B} = \\frac{c}{\\sin C}$$\n\nRearranging this to solve for $\\sin B$ gives us:\n\n$$\\begin{aligned} \\sin B &= \\frac{b \\cdot \\sin C}{c} \\\\ \\sin B &= \\frac{16 \\cdot \\sin(75^\\circ)}{16.908...} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "$$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate angle B",
+                      "content": "Using the inverse sine function (arcsin) on your calculator, find the value of $B$. \n\n$$\\begin{aligned} \\sin B &\\approx 0.9141... \\\\ B &= \\arcsin(0.9141...) \\\\ B &\\approx 66.1^\\circ \\end{aligned}$$\n\nThis calculation earns you the first mark (**M1**) for the setup and the second mark (**A1**) for the final value rounded to 3 significant figures.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "asin(16 * sin(75) / 16.90845)",
+                            "instructions": "1. Go to the calculation menu.\n2. Ensure the calculator is in degree mode.\n3. Type asin(16 * sin(75) / 16.90845)."
+                          },
+                          "ti84": {
+                            "expression": "sin\u207b\u00b9(16 * sin(75) / 16.90845)",
+                            "instructions": "1. Ensure mode is in DEGREES.\n2. Enter: sin\u207b\u00b9(16 * sin(75) / 16.90845)\n3. Press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "arcsin(16 * sin(75) / 16.90845)",
+                            "instructions": "1. Click the wrench icon (Settings) and select 'Degrees'.\n2. Type: arcsin(16 * sin(75) / 16.90845)"
+                          },
+                          "description": "Calculate angle B using the inverse sine function in degree mode."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Verify angle sum",
+                      "content": "The final part of the question asks us to verify that the internal angles of the triangle sum to $180^\\circ$. \n\nUsing our values for $A$, $B$, and $C$:\n\n$$\\begin{aligned} \\text{Sum} &= A + B + C \\\\ \\text{Sum} &= 38.93^\\circ + 66.07^\\circ + 75^\\circ \\\\ \\text{Sum} &= 180^\\circ \\end{aligned}$$\n\nThe result confirms our calculations are accurate!",
+                      "highlights": [
+                        {
+                          "text": "verify that the sum of the internal angles is 180^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "cosinerule",
+                  "label": "Cosine Rule Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify known values",
+                      "content": "To find angle $B$, we need the lengths of all three sides of the triangle. From the question, we have:\n- $a = 11$ m\n- $b = 16$ m\n- $C = 75^\\circ$\n\nIn the previous part of this problem, side $c$ was calculated using the Cosine Rule. Using $c^2 = a^2 + b^2 - 2ab \\cos C$, we found:\n$$c \\approx 16.908... \\text{ m}$$",
+                      "highlights": [
+                        {
+                          "text": "a = 11",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "b = 16",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "75^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Rearrange the Cosine Rule",
+                      "content": "To find an angle when we know all three sides, we use the rearranged version of the Cosine Rule from the data booklet:\n\n$$b^2 = a^2 + c^2 - 2ac \\cos B$$\n\nRearranging for $\\cos B$:\n\n$$\\cos B = \\frac{a^2 + c^2 - b^2}{2ac}$$",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate angle B",
+                      "content": "Substitute the values $a = 11$, $b = 16$, and $c \\approx 16.908$ into the formula:\n\n$$\\cos B = \\frac{11^2 + 16.908^2 - 16^2}{2(11)(16.908)}$$\n\nSolving for $B$:\n\n$$\\begin{aligned} B &= \\arccos \\left( \\frac{121 + 285.88... - 256}{371.976...} \\right) \\\\ B &\\approx 66.1^\\circ \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "acos((11^2 + 16.908^2 - 16^2) / (2 * 11 * 16.908))",
+                            "instructions": "1. Set angle mode to Degrees.\n2. Use the inverse cosine function: cos\u207b\u00b9((11\u00b2 + 16.908\u00b2 - 16\u00b2) / (2 * 11 * 16.908))"
+                          },
+                          "ti84": {
+                            "expression": "acos((11^2 + 16.908^2 - 16^2) / (2 * 11 * 16.908))",
+                            "instructions": "1. Ensure the calculator is in DEGREE mode (Press [MODE], highlight 'DEGREE', press [ENTER]).\n2. Enter: cos\u207b\u00b9((11\u00b2 + 16.908\u00b2 - 16\u00b2) / (2 * 11 * 16.908))"
+                          },
+                          "desmos": {
+                            "expression": "acos((11^2 + 16.908^2 - 16^2) / (2 * 11 * 16.908))",
+                            "instructions": "1. Click the wrench icon and select 'Degrees'.\n2. Type: arccos((11^2 + 16.908^2 - 16^2) / (2 * 11 * 16.908))"
+                          },
+                          "description": "Calculate angle B using the inverse cosine function."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Verify angle sum",
+                      "content": "To verify the internal angle sum, we first need angle $A$. Using the same logic (or the Sine Rule), angle $A$ is calculated to be approximately $38.9^\\circ$.\n\nNow, sum all three angles:\n\n$$\\text{Sum} = A + B + C$$\n\n$$\\text{Sum} = 38.9^\\circ + 66.1^\\circ + 75^\\circ$$\n\nSumming these values gives:\n\n$$\\text{Sum} = 180^\\circ$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "38.9 + 66.1 + 75",
+                            "instructions": "Add the three calculated angle values."
+                          },
+                          "ti84": {
+                            "expression": "38.9 + 66.1 + 75",
+                            "instructions": "Enter: 38.9 + 66.1 + 75"
+                          },
+                          "desmos": {
+                            "expression": "38.9 + 66.1 + 75",
+                            "instructions": "Add the values: 38.9 + 66.1 + 75"
+                          },
+                          "description": "Verify the sum of the angles."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final answer",
+                      "content": "The size of angle $B$ is $66.1^\\circ$ (to 3 significant figures), and the verification confirms the internal angles sum to $180^\\circ$.",
+                      "highlights": [
+                        {
+                          "text": "B = 66.1^\\circ",
+                          "index": 1,
+                          "location": "option"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:57:24.661Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1116405,
+            "content": "Calculate the area of the triangular plot to estimate the amount of land available for usage.",
+            "order": 3,
+            "markscheme": "Using the area formula: $\\text{Area} = \\frac{1}{2}ab \\sin C$ <marks>M1</marks>\n\n$\\text{Area} = \\frac{1}{2}(11)(16) \\sin 75^\\circ$\n\n$\\text{Area} = 85.0$ m$^2$ <marks>A1</marks>\n\n<note>Award full marks for a correct final answer of 85.0. Do not penalize for missing units if the numerical value is correct.</note>\n\n**[2 marks total]**",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1116406,
+            "content": "If side $b$ is increased in length by $5$ m while keeping side $a$ and angle $C$ the same, calculate the new area of the extended triangular plot.",
+            "order": 4,
+            "markscheme": "Let new side $b' = 16 + 5 = 21$ m <marks>A1</marks>\n\nNew Area $= \\frac{1}{2}(11)(21) \\sin 75^\\circ$ <marks>M1</marks>\n\nNew Area $= 112$ m$^2$ (3 sf) <marks>A1</marks>\n\n<note>Award **A1** for the new base length, **M1** for the new area calculation, and **A1** for the final answer.</note>\n\n**[2 marks total]**",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "direct_formula",
+                  "label": "Direct Formula Application",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Update the side length",
+                      "content": "The question states that side $b$ is increased by $5$ m, while side $a$ and angle $C$ remain the same. We first need to find the new length for side $b$ (let's call it $b'$).\n\n$$b' = 16 + 5$$\n$$b' = 21 \\text{ m}$$",
+                      "highlights": [
+                        {
+                          "text": "increased in length by 5 m",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Select the area formula",
+                      "content": "To find the area of a triangle when we know two sides and the included angle, we use the specific area formula found in the **Geometry and Trigonometry** section of your IB Data Booklet:\n\n$$\\text{Area} = \\frac{1}{2}ab\\sin C$$",
+                      "highlights": [
+                        {
+                          "text": "Area =\\frac{1}{2}ab\\sin C",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the new area",
+                      "content": "Now, we substitute the original side $a = 11$, our new side $b' = 21$, and the angle $C = 75^\\circ$ into the formula:\n\n$$\\begin{aligned} \\text{New Area} &= \\frac{1}{2} \\times 11 \\times 21 \\times \\sin(75^\\circ) \\\\ \\text{New Area} &\\approx 111.564... \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 11 * 21 * sin(75)",
+                            "instructions": "1. Check that your calculator is set to Degrees.\n2. Enter the expression: 0.5 \u00d7 11 \u00d7 21 \u00d7 sin(75)."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 11 * 21 * sin(75)",
+                            "instructions": "1. Ensure the calculator is in Degree mode (press [MODE], highlight 'DEGREE', and press [ENTER]).\n2. Type 0.5 * 11 * 21 * sin(75) and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "(1/2) * 11 * 21 * sin(75)",
+                            "instructions": "1. Set the calculator to Degrees using the wrench icon.\n2. Type: (1/2) * 11 * 21 * sin(75)."
+                          },
+                          "description": "Calculate the area of the triangle using the updated side length."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Round the final answer",
+                      "content": "In IB Mathematics, unless otherwise stated, we round our final answers to **3 significant figures**. \n\nRounding $111.564...$ to 3 significant figures gives us:\n\n$$\\text{New Area} = 112 \\text{ m}^2$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "area_addition",
+                  "label": "Area Addition Method",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the strategy",
+                      "content": "To find the new total area using the **Area Addition Method**, we can think of the extended plot as two combined triangles: the original triangle and a smaller 'extension' triangle. \n\nBoth triangles share side $a = 11$ m and the included angle $C = 75^\\circ$. We will use the area formula from your data booklet:\n\n$$\\text{Area} = \\frac{1}{2}ab\\sin C$$",
+                      "highlights": [
+                        {
+                          "text": "Area =\\frac{1}{2}ab\\sin C",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the original area",
+                      "content": "First, let's calculate the area of the original plot where $a = 11$ and $b = 16$.\n\n$$\\text{Area}_{\\text{original}} = \\frac{1}{2} \\times 11 \\times 16 \\times \\sin(75^\\circ)$$\n\nUsing a calculator, this gives approximately $85.001...$ m$^2$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 11 * 16 * sin(75)",
+                            "instructions": "Set calculator to degrees. Input 0.5 * 11 * 16 * sin(75)."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 11 * 16 * sin(75)",
+                            "instructions": "Ensure the calculator is in DEGREE mode. Press [0.5] [*] [11] [*] [16] [*] [SIN] [75] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "0.5 * 11 * 16 * sin(75)",
+                            "instructions": "Set to Degree mode in settings. Type: 0.5 * 11 * 16 * sin(75)."
+                          },
+                          "description": "Calculate the original triangle area."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "a = 11",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "b = 16",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the added area",
+                      "content": "Next, we calculate the area of the smaller triangle formed by the $5$ m extension. This triangle has side $a = 11$ and the extension length as its base ($b = 5$), with the same angle $C = 75^\\circ$.\n\n$$\\text{Area}_{\\text{extension}} = \\frac{1}{2} \\times 11 \\times 5 \\times \\sin(75^\\circ)$$\n\nUsing a calculator, this gives approximately $26.563...$ m$^2$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 11 * 5 * sin(75)",
+                            "instructions": "Input 0.5 * 11 * 5 * sin(75)."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 11 * 5 * sin(75)",
+                            "instructions": "Press [0.5] [*] [11] [*] [5] [*] [SIN] [75] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "0.5 * 11 * 5 * sin(75)",
+                            "instructions": "Type: 0.5 * 11 * 5 * sin(75)."
+                          },
+                          "description": "Calculate the area of the extension triangle."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "increased in length by 5 m",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Sum the areas",
+                      "content": "Now, we simply add the two areas together to find the total area of the new triangular plot.\n\n$$\\begin{aligned} \\text{Total Area} &= \\text{Area}_{\\text{original}} + \\text{Area}_{\\text{extension}} \\\\ \\text{Total Area} &= 85.001... + 26.563... \\\\ \\text{Total Area} &\\approx 111.564... \\text{ m}^2 \\end{aligned}$$\n\nRounding to **3 significant figures**, we get $112$ m$^2$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 11 * 21 * sin(75)",
+                            "instructions": "Calculate 0.5 * 11 * (16 + 5) * sin(75)."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 11 * 21 * sin(75)",
+                            "instructions": "Add the results from previous steps or calculate directly: [0.5] [*] [11] [*] [21] [*] [SIN] [75] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "0.5 * 11 * 21 * sin(75)",
+                            "instructions": "Type: 0.5 * 11 * 21 * sin(75)."
+                          },
+                          "description": "Add the calculated areas and check the result."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final result",
+                      "content": "The new area of the extended triangular plot is **$112$ m$^2$** (3 sf).\n\nIn an IB exam, you earn marks for:\n- Identifying the new base length ($21$ m).\n- Correctly applying the area formula.\n- Providing the final answer to the required precision (usually 3 sf)."
+                    }
+                  ]
+                },
+                {
+                  "id": "altitude_calculation",
+                  "label": "Altitude and Base Calculation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Determine the new base length",
+                      "content": "The question states that the side $b$ (which we will treat as our base) is increased by $5$ m. \n\n$$b_{\\text{new}} = 16 \\text{ m} + 5 \\text{ m}$$\n$$b_{\\text{new}} = 21 \\text{ m}$$",
+                      "highlights": [
+                        {
+                          "text": "side b is increased in length by 5 m",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the perpendicular height",
+                      "content": "To find the area using the standard formula, we first need the perpendicular height ($h$) of the triangle relative to base $b$. Using the side $a = 11$ m and the included angle $C = 75^\\circ$, we can calculate the altitude:\n\n$$h = a \\sin C$$\n\nSubstituting the values:\n\n$$h = 11 \\sin(75^\\circ)$$ \n\nUsing a calculator, we find $h \\approx 10.625 \\dots$ m.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "11 * sin(75)",
+                            "instructions": "Set angle mode to degrees. Input 11 * sin(75) and press execute."
+                          },
+                          "ti84": {
+                            "expression": "11 * sin(75)",
+                            "instructions": "Ensure the mode is set to DEGREE. Press [1][1] [SIN] [7][5] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "11 * \\sin(75^{\\circ})",
+                            "instructions": "Ensure degree mode is active. Type 11 * sin(75)."
+                          },
+                          "description": "Calculate the perpendicular height (altitude) using the sine function."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the new area",
+                      "content": "Now we apply the standard formula for the area of a triangle:\n\n$$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n\nSubstitute the new base $b_{\\text{new}} = 21$ m and our calculated height $h$:\n\n$$\\begin{aligned} \\text{Area} &= \\frac{1}{2} \\times 21 \\times (11 \\sin 75^\\circ) \\\\ \\text{Area} &\\approx 111.564 \\dots \\end{aligned}$$\n\nRounding to 3 significant figures, we get:\n\n$$\\text{Area} = 112 \\text{ m}^2$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.5 * 21 * 11 * sin(75)",
+                            "instructions": "Input 0.5 * 21 * 11 * sin(75) and press execute."
+                          },
+                          "ti84": {
+                            "expression": "0.5 * 21 * 11 * sin(75)",
+                            "instructions": "Press [0][.][5] [*] [2][1] [*] [1][1] [SIN] [7][5] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "0.5 \\cdot 21 \\cdot 11 \\cdot \\sin(75^{\\circ})",
+                            "instructions": "Type 0.5 * 21 * 11 * sin(75)."
+                          },
+                          "description": "Calculate the final area using the base and the altitude."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:59:21.920Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "e24be84b-9f44-441f-b3fb-09f625d7168b",
+        "specification": "A lifeguard tower is built on a right-angled triangular base for stability. One of the angles of the base measures $30^\\circ$, and the hypotenuse of the triangular base is 12 m.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28509,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 1: Using SOH CAH TOA to find one side length given an angle",
+              "title": "Question Type 1: Using SOH CAH TOA to find one side length given an angle",
+              "labeledAt": "2026-03-06T15:40:01.821Z",
+              "reasoning": "Part (a) uses right-triangle trigonometry (SOH CAH TOA) to find the side opposite a 30\u00b0 angle given the hypotenuse.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1457915,
+        "parts": [
+          {
+            "id": 1071124,
+            "content": "Calculate the length of the side opposite the $30^\\circ$ angle to understand the width of the base.",
+            "order": 0,
+            "markscheme": "- Attempt to use trigonometric ratios: $\\sin(30^\\circ) = \\frac{\\text{opposite}}{12}$ <marks>M1</marks>\n\n- Calculate the length: $\\text{opposite} = 12\\sin(30^\\circ) = 6$ m <marks>A1</marks>\n\n2 marks total\n\n<examTip>Remember to include units in your final answer</examTip>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "trigonometricratio",
+                  "label": "Trigonometric Ratio",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify known values",
+                      "content": "To solve this problem, let's first identify what the question tells us about our right-angled triangular base:\n\n*   The given angle is $\\theta = 30^\\circ$.\n*   The length of the hypotenuse is $12$ m.\n*   We need to find the side **opposite** to the $30^\\circ$ angle, which represents the width of the base.",
+                      "highlights": [
+                        {
+                          "text": "One of the angles of the base measures $30^\\circ$",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "hypotenuse of the triangular base is 12 m",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply the Sine ratio",
+                      "content": "Since we are working with the opposite side and the hypotenuse in a right-angled triangle, we use the **Sine** ratio from the SOH CAH TOA mnemonic (covered in **Topic 3: Geometry and Trigonometry**):\n\n$$\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$$\n\nSubstituting our known values into the formula, we get:\n\n$$\\sin(30^\\circ) = \\frac{\\text{opposite}}{12}$$",
+                      "highlights": [
+                        {
+                          "text": "$\\sin(30^\\circ) = \\frac{\\text{opposite}}{12}$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for the side",
+                      "content": "Now, we rearrange the equation to isolate the length of the opposite side. We do this by multiplying both sides by $12$:\n\n$$\\text{opposite} = 12 \\times \\sin(30^\\circ)$$\n\nUsing a calculator (set to **degree** mode), we find:\n\n$$\\text{opposite} = 12 \\times 0.5 = 6$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "12 * sin(30)",
+                            "instructions": "1. Check that your GDC is set to Degree mode.\n2. In the run-matrix or main calculation screen, type 12 * sin(30).\n3. Press [EXE] or [ENTER]."
+                          },
+                          "ti84": {
+                            "expression": "12 * sin(30)",
+                            "instructions": "1. Ensure the calculator is in Degree mode: Press [MODE], highlight 'DEGREE', and press [ENTER].\n2. Enter the calculation: 12 * sin(30).\n3. Press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "12 * sin(30)",
+                            "instructions": "1. Click the wrench icon (Settings) and select 'Degrees'.\n2. Type 12 * sin(30) into the expression box."
+                          },
+                          "description": "Calculate the length of the opposite side using the sine function."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "$\\text{opposite} = 12\\sin(30^\\circ) = 6$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The length of the side opposite the $30^\\circ$ angle is $6$ m.\n\nDon't forget to include the units in your final answer to ensure you receive full marks!"
+                    }
+                  ]
+                },
+                {
+                  "id": "sinerule",
+                  "label": "Sine Rule",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify triangle properties",
+                      "content": "To find the unknown side, let's look at what we know about this right-angled triangle:\n- The angle we are interested in is $30^\\circ$.\n- The side we want to find is **opposite** this $30^\\circ$ angle.\n- The **hypotenuse** is 12 m. In a right-angled triangle, the hypotenuse is always opposite the $90^\\circ$ angle.\n\nThis gives us two pairs of opposite sides and angles, which is perfect for the Sine Rule!",
+                      "highlights": [
+                        {
+                          "text": "One of the angles of the base measures $30^\\circ$",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "hypotenuse of the triangular base is 12 m",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply the Sine Rule",
+                      "content": "From your IB Data Booklet, we can use the Sine Rule formula. Even though this is a right-angled triangle, the Sine Rule works for any triangle!\n\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$$\n\nLet's assign our values:\n- $a$ is the side opposite the $30^\\circ$ angle (the width we need).\n- $A = 30^\\circ$\n- $b$ is the hypotenuse (12 m).\n- $B = 90^\\circ$ (the angle opposite the hypotenuse).",
+                      "highlights": [
+                        {
+                          "text": "$$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Rearrange and solve",
+                      "content": "Substitute the values into the formula and solve for $a$:\n\n$$\\begin{aligned} \\frac{a}{\\sin(30^\\circ)} &= \\frac{12}{\\sin(90^\\circ)} \\\\ a &= \\frac{12 \\times \\sin(30^\\circ)}{\\sin(90^\\circ)} \\end{aligned}$$\n\nSince $\\sin(90^\\circ) = 1$, the expression simplifies to:\n\n$$a = 12 \\times \\sin(30^\\circ)$$\n\nThis matches the trigonometric ratio you might recognize: $\\sin(\\theta) = \\frac{\\text{opposite}}{\\text{hypotenuse}}$.",
+                      "highlights": [
+                        {
+                          "text": "Attempt to use trigonometric ratios: $\\sin(30^\\circ) = \\frac{\\text{opposite}}{12}$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate the final length",
+                      "content": "Now, we just need to calculate the value. \n\n$$a = 12 \\times 0.5 = 6\\text{ m}$$\n\nDon't forget to include your units!",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "12 * sin(30) / sin(90)",
+                            "instructions": "Set the calculator to Degrees. Enter the expression directly."
+                          },
+                          "ti84": {
+                            "expression": "12 * sin(30) / sin(90)",
+                            "instructions": "Ensure the calculator is in DEGREE mode. Press [MODE], highlight 'DEGREE', and press [ENTER]. Then, return to the home screen and type:"
+                          },
+                          "desmos": {
+                            "expression": "12 * sin(30) / sin(90)",
+                            "instructions": "Switch to 'Degrees' in the settings (wrench icon). Type the expression into a cell."
+                          },
+                          "description": "Calculate the side length using the Sine Rule components."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "Calculate the length: $\\text{opposite} = 12\\sin(30^\\circ) = 6$ m",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Remember to include units in your final answer",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "geometryproperty",
+                  "label": "30-60-90 Triangle Property",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the triangle properties",
+                      "content": "The question describes a right-angled triangle where one angle is $30^\\circ$. This identifies it as a special **30-60-90 triangle** (since the angles must sum to $180^\\circ$). We are given that the hypotenuse is 12 m.",
+                      "highlights": [
+                        {
+                          "text": "right-angled triangular base",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "$30^\\circ$",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "hypotenuse of the triangular base is 12 m",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply the geometric property",
+                      "content": "A fundamental property of a 30-60-90 triangle is that the side opposite the $30^\\circ$ angle is always exactly **half the length of the hypotenuse**. \n\nThis is a great shortcut to remember for your IB exams! Mathematically, this is because $\\sin(30^\\circ) = 0.5$. You can find trigonometric ratios in the **Geometry and Trigonometry** section of your data booklet:\n\n$$\\text{Side Opposite } 30^\\circ = \\frac{1}{2} \\times \\text{Hypotenuse}$$",
+                      "highlights": [
+                        {
+                          "text": "Geometry and Trigonometry",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the final length",
+                      "content": "Now, we simply substitute the known hypotenuse value into our property formula:\n\n$$\\text{Length} = \\frac{1}{2} \\times 12$$\n\n$$\\text{Length} = 6 \\text{ m}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "12 / 2",
+                            "instructions": "Enter 12 divided by 2 on the main calculation screen."
+                          },
+                          "ti84": {
+                            "expression": "12 / 2",
+                            "instructions": "Enter 12 divided by 2 on the home screen."
+                          },
+                          "desmos": {
+                            "expression": "12 / 2",
+                            "instructions": "Type 12/2 in the expression bar."
+                          },
+                          "description": "Calculate half of the hypotenuse to find the opposite side."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "Calculate the length of the side opposite the $30^\\circ$ angle",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Check marks and units",
+                      "content": "The final answer is **6 m**. \n\nIn an IB exam, you earn **1 mark** for showing the method (recognizing the ratio or the property) and **1 mark** for the correct numerical answer. Always remember to include the units\u2014in this case, meters (m)\u2014as noted in the exam tip!"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:55:39.686Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1071125,
+            "content": "Calculate the length of the remaining side using the Pythagorean theorem. This will provide the full dimensions of the tower\u2019s base.",
+            "order": 1,
+            "markscheme": "- Let $a$ be the adjacent side, $h = 12$ m be the hypotenuse, and $o = 6$ m be the opposite side\n\n- Substitute into Pythagorean theorem: $a^2 + 6^2 = 12^2$ <marks>M1</marks>\n\n- Simplify the equation: $a^2 + 36 = 144 \\implies a^2 = 108$ <marks>A1</marks>\n\n- Calculate the final length: $a = \\sqrt{108} = 6\\sqrt{3}$ m <marks>A1</marks>\n\n3 marks total\n\n<examTip>When simplifying surds, try to find the largest perfect square factor to simplify under the root</examTip>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "f2e28480-696b-4b08-a0fc-125e9f84f3dd",
+        "specification": "A design for a modern architectural museum includes a large triangular shade sail. The corners of the sail are attached to three points, $A$, $B$, and $C$, relative to a 3D coordinate system where the ground is represented by the $xy$-plane. The attachment points are defined by the coordinates $A(0, 0, 10)$, $B(12, 0, 0)$, and $C(0, 16, 0)$, where all coordinates are measured in meters. Point $O(0, 0, 0)$ is the origin, located on the ground directly below point $A$.\n\n![diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-f2e28480-696b-4b08-a0fc-125e9f84f3dd-1771929956947/abab44a7-5983-45f8-9f3e-d83c96aacd2f.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-f2e28480-696b-4b08-a0fc-125e9f84f3dd-1771929956947",
+            "generatedAt": "2026-02-26T11:49:11.800Z",
+            "sourceRevisionId": 1458065
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28506,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.1\u20143d space, volume, angles, midpoints > Question Type 1: For given 2 points, calculating the distance between the two points",
+              "title": "Question Type 1: For given 2 points, calculating the distance between the two points",
+              "labeledAt": "2026-03-07T17:27:18.142Z",
+              "reasoning": "Multiple parts require 3D distance between points (e.g., length BC and distance AM using midpoint M).",
+              "confidence": 0.92
+            },
+            {
+              "id": 64588,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.1\u20143d space, volume, angles, midpoints > Question Type 2: For given 2 points, calculating the midpoint between the two points",
+              "title": "Question Type 2: For given 2 points, calculating the midpoint between the two points",
+              "labeledAt": "2026-03-07T17:27:18.142Z",
+              "reasoning": "Part (d) explicitly uses midpoint M of segment BC in 3D before finding distance to A.",
+              "confidence": 0.85
+            },
+            {
+              "id": 64595,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 3: Applying values of elevation and depression",
+              "title": "Question Type 3: Applying values of elevation and depression",
+              "labeledAt": "2026-03-07T17:27:18.142Z",
+              "reasoning": "Part (a) asks for the angle edge AB makes with the horizontal (xy-plane), an angle of elevation/depression style calculation.",
+              "confidence": 0.8
+            },
+            {
+              "id": 28561,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.13\u2014Scalar and vector products > Question Type 6: Finding the area of a parallelogram or triangle spanned by two vectors",
+              "title": "Question Type 6: Finding the area of a parallelogram or triangle spanned by two vectors",
+              "labeledAt": "2026-03-07T17:27:18.142Z",
+              "reasoning": "Part (c) asks for the area of triangle ABC in 3D, naturally computed via vectors and cross product (triangle area from two spanning vectors).",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1686706,
+        "parts": [
+          {
+            "id": 1147223,
+            "content": "Calculate the angle that the support edge $AB$ makes with the horizontal ground.",
+            "order": 0,
+            "markscheme": "- **Recognize** that the angle is formed in the right-angled triangle $OAB$ <marks>M1</marks>\n- **Substitute** correct values into the tangent ratio: $\\tan \\theta = \\frac{10}{12}$ <marks>A1</marks>\n- **Calculate** the angle: $39.8^{\\circ} (39.8055 \\ldots^{\\circ})$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147224,
+            "content": "Determine the length of the edge $BC$.",
+            "order": 1,
+            "markscheme": "- **Attempt** to use the distance formula between two points in the $xy$-plane <marks>M1</marks>\n- **Substitute** correct values: $\\sqrt{(12 - 0)^{2} + (0 - 16)^{2}}$ <marks>M1</marks>\n- **Calculate** the length: $20$ m <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147225,
+            "content": "Find the total surface area of the triangular shade sail $ABC$.",
+            "order": 2,
+            "markscheme": "- **Calculate** the lengths of the remaining edges $AB$ and $AC$: $AB = \\sqrt{244} \\approx 15.62$ and $AC = \\sqrt{356} \\approx 18.87$ <marks>A1</marks>\n- **Attempt** to use the cosine rule to find an internal angle of $\\triangle ABC$, for example $B\\hat{A}C$: $20^{2} = 244 + 356 - 2(\\sqrt{244})(\\sqrt{356})\\cos A$ <marks>M1</marks>\n- **Calculate** the angle: $A = 70.2^{\\circ} (70.1601 \\ldots^{\\circ})$ <marks>A1</marks>\n- **Attempt** to use the area of a triangle formula: $\\frac{1}{2} \\times \\sqrt{244} \\times \\sqrt{356} \\times \\sin(70.1601 \\ldots^{\\circ})$ <marks>M1</marks>\n- **Calculate** the area: $139 \\text{ m}^{2} (138.636 \\ldots)$ <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147226,
+            "content": "A decorative light is placed at $M$, the midpoint of the edge $BC$. Calculate the distance from $A$ to the light at $M$.",
+            "order": 3,
+            "markscheme": "- **Attempt** to find the coordinates of the midpoint $M$ <marks>M1</marks>\n- **State** coordinates of $M$: $(6, 8, 0)$ <marks>A1</marks>\n- **Attempt** to use the 3D distance formula between $A(0, 0, 10)$ and $M(6, 8, 0)$ <marks>M1</marks>\n- **Calculate** the distance $AM$: $14.1 \\text{ m } (10\\sqrt{2} \\text{ or } 14.1421 \\ldots)$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f75c8fb0-cec7-4702-bcde-3b167f2fca59",
+        "specification": "An architect is designing a triangular plot of land, $\\Delta PQR$. The length of side $r$ is $8\\text{ km}$ and the length of side $p$ is $6.5\\text{ km}$. The angle opposite side $r$, denoted by $\\hat{R}$, is $75^\\circ$.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28510,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 3: Finding sides and angles using sine rule",
+              "title": "Question Type 3: Finding sides and angles using sine rule",
+              "labeledAt": "2026-03-07T17:27:20.272Z",
+              "reasoning": "Part (b) explicitly asks to use the sine rule to calculate an angle in a non-right triangle given side lengths and an opposite angle.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28527,
+              "isHl": true,
+              "path": "Geometry and Trigonometry > AHL 3.8\u2014Unit circle, Pythag identity, solving trig equations graphically > Question Type 4: Determining if given information on a triangle suffers from Ambigious case of sine rule",
+              "title": "Question Type 4: Determining if given information on a triangle suffers from Ambigious case of sine rule",
+              "labeledAt": "2026-03-07T17:27:20.272Z",
+              "reasoning": "Part (c) asks to determine whether the sine rule gives an ambiguous case (SSA) and justify whether two values of angle P are possible based on triangle configuration.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1488995,
+        "parts": [
+          {
+            "id": 1116195,
+            "content": "Use the sine rule to calculate the size of angle $\\hat{P}$.",
+            "order": 1,
+            "markscheme": "Appropriate substitution into the sine rule: \n$\\frac{\\sin P}{6.5} = \\frac{\\sin 75^\\circ}{8}$ <marks>M1</marks>\n\nRearranging to find $\\sin P$: \n$\\sin P = \\frac{6.5 \\sin 75^\\circ}{8}$ <marks>A1</marks>\n\n$\\sin P = 0.7848...$ <marks>A1</marks>\n\n$P = 51.7^\\circ$ (accept $52^\\circ$) <marks>A1</marks>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic",
+                  "label": "Algebraic Substitution and Calculation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the Sine Rule",
+                      "content": "To find the missing angle $\\hat{P}$, we can use the **sine rule**. This rule relates the sides of a triangle to the sines of their opposite angles. From your formula booklet, we have:\n\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$$\n\nIn our case, we will use the version that solves for an angle by placing the sine terms on top:\n\n$$\\frac{\\sin A}{a} = \\frac{\\sin B}{b}$$",
+                      "highlights": [
+                        {
+                          "text": "$$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Substitute the given values",
+                      "content": "Now, let's substitute the values we know from the problem. We are given side $r = 8\\text{ km}$, side $p = 6.5\\text{ km}$, and angle $\\hat{R} = 75^\\circ$. We want to find angle $\\hat{P}$.\n\n$$\\frac{\\sin P}{6.5} = \\frac{\\sin 75^\\circ}{8}$$",
+                      "highlights": [
+                        {
+                          "text": "side $r$ is $8\\text{ km}$",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "side $p$ is $6.5\\text{ km}$",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle opposite side $r$, denoted by $\\hat{R}$, is $75^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Isolate sin(P)",
+                      "content": "To solve for $\\sin P$, multiply both sides of the equation by $6.5$:\n\n$$\\sin P = \\frac{6.5 \\times \\sin 75^\\circ}{8}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate the sine value",
+                      "content": "Using your calculator, first find the value of the right-hand side. Ensure your calculator is in **degree mode**.\n\n$$\\sin P \\approx 0.78481...$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "(6.5 * sin(75)) / 8",
+                            "instructions": "Enter (6.5 * sin(75)) / 8 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "(6.5 * sin(75)) / 8",
+                            "instructions": "Enter (6.5 * sin(75)) / 8 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "(6.5 * sin(75)) / 8",
+                            "instructions": "Enter (6.5 * sin(75)) / 8."
+                          },
+                          "description": "Calculate the value of sin(P)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Find the final angle",
+                      "content": "To find the angle $\\hat{P}$ itself, use the inverse sine function ($\\sin^{-1}$) on your calculator:\n\n$$\\begin{aligned} \\hat{P} &= \\sin^{-1}(0.78481...) \\\\ \\hat{P} &\\approx 51.7^\\circ \\end{aligned}$$\n\nAccording to the markscheme, we round this to one decimal place.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sin\u207b\u00b9(0.78481)",
+                            "instructions": "Use the inverse sine function (Shift + sin) and enter the previous result."
+                          },
+                          "ti84": {
+                            "expression": "sin\u207b\u00b9(0.78481)",
+                            "instructions": "Press 2nd, then SIN, then enter the previous result (or type 0.78481) and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "arcsin(0.78481)",
+                            "instructions": "Type arcsin(0.78481)."
+                          },
+                          "description": "Calculate the inverse sine to find the angle"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "gdc_solver",
+                  "label": "Numerical Solver on GDC",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the Sine Rule",
+                      "content": "To find the unknown angle $\\hat{P}$, we need to use the **Sine Rule**. This rule relates the lengths of the sides of a triangle to the sines of its opposite angles. Looking at the geometry of our plot $\\Delta PQR$, we have side $p$ opposite angle $P$ and side $r$ opposite angle $R$.\n\nFrom the IB data booklet, the formula is:\n\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$$",
+                      "highlights": [
+                        {
+                          "text": "$$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Substitute the given values",
+                      "content": "Using the specific labels for our triangle ($p$, $r$, $\\hat{P}$, and $\\hat{R}$), we can set up the following ratio:\n\n$$\\frac{p}{\\sin P} = \\frac{r}{\\sin R}$$\n\nNow, substitute the values provided in the question:\n- $p = 6.5\\text{ km}$\n- $r = 8\\text{ km}$\n- $\\hat{R} = 75^\\circ$\n\nThis gives us the equation:\n\n$$\\frac{6.5}{\\sin P} = \\frac{8}{\\sin 75^\\circ}$$",
+                      "highlights": [
+                        {
+                          "text": "length of side r is 8 km",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "length of side p is 6.5 km",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle opposite side r, denoted by \\hat{R}, is 75^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Use the Numerical Solver",
+                      "content": "Instead of rearranging the formula manually, we can use the **Numerical Solver** tool on your Graphing Display Calculator (GDC). This is a fast way to find the value of $P$ directly from the equation. \n\n**Important:** Ensure your calculator is set to **Degree** mode before starting!",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "6.5/sin(P) = 8/sin(75)",
+                            "instructions": "Go to the Equation/Solver menu. Input the equation 6.5 / sin(P) = 8 / sin(75). Provide an initial guess for P (e.g., 50) and press 'Solve'."
+                          },
+                          "ti84": {
+                            "expression": "6.5/sin(x) = 8/sin(75)",
+                            "instructions": "Press [MATH], then select 'B:Solver...' or 'Numeric Solver'. Enter the equation as 'E1: 6.5 / sin(P)' and 'E2: 8 / sin(75)'. Press [OK] or [Graph], then [Alpha] [Solve] to find the value."
+                          },
+                          "desmos": {
+                            "expression": "6.5/sin(x) = 8/sin(75)",
+                            "instructions": "Type the equation into the input bar. Note that for Desmos to solve visually, you may need to use 'x' instead of 'P'."
+                          },
+                          "description": "Solve for P using the numerical solver."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State final answer",
+                      "content": "After running the solver, you will find that:\n\n$$P \\approx 51.7035...^\\circ$$\n\nRounding to 3 significant figures (the IB standard), we get:\n\n$$P = 51.7^\\circ$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:56:50.512Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1116196,
+            "content": "Determine if the sine rule produces an ambiguous solution in this case by justifying whether there could be two possible values for angle $\\hat{P}$. Explain your reasoning in terms of the triangle\u2019s configuration.",
+            "order": 2,
+            "markscheme": "No ambiguity arises in this case. <marks>R1</marks>\n\n**Reasoning:**\nThe second possible value for $P$ would be $180^\\circ - 51.7^\\circ = 128.3^\\circ$. However, $128.3^\\circ + 75^\\circ = 203.3^\\circ$, which is greater than $180^\\circ$, making it impossible for a triangle. \nOR\nSince the side opposite the given angle ($r=8$) is longer than the other side ($p=6.5$), only one valid triangle can exist. <marks>R1</marks>\n\n[2 marks total]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "angle_sum_check",
+                  "label": "Angle Sum Check",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the Sine Rule",
+                      "content": "To determine if there is an ambiguous case (two possible triangles), we first use the sine rule to find the potential values for the missing angle $\\hat{P}$. The sine rule relates the sides and opposite angles of a triangle.",
+                      "highlights": [
+                        {
+                          "text": "$$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the acute angle",
+                      "content": "Using the given values $r = 8$, $p = 6.5$, and $\\hat{R} = 75^\\circ$, we set up the equation for angle $\\hat{P}$:\n\n$$\\frac{6.5}{\\sin P} = \\frac{8}{\\sin 75^\\circ}$$\n\nRearranging to solve for $\\sin P$:\n\n$$\\sin P = \\frac{6.5 \\times \\sin 75^\\circ}{8} \\approx 0.7848$$\n\nTaking the inverse sine gives the acute solution:\n\n$$\\hat{P}_1 = \\arcsin(0.7848) \\approx 51.7^\\circ$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "arcsin((6.5 * sin(75)) / 8)",
+                            "instructions": "1. Set calculation mode to Degrees.\n2. Input: arcsin((6.5 * sin(75)) / 8)."
+                          },
+                          "ti84": {
+                            "expression": "sin\u207b\u00b9((6.5 * sin(75)) / 8)",
+                            "instructions": "1. Ensure the mode is set to Degree.\n2. Calculate the value: (6.5 * sin(75)) / 8.\n3. Find inverse sine: sin\u207b\u00b9(0.784814)."
+                          },
+                          "desmos": {
+                            "expression": "\\arcsin\\left(\\frac{6.5\\sin(75^{\\circ})}{8}\\right)",
+                            "instructions": "1. Switch to Degree mode in the settings.\n2. Type: arcsin((6.5 * sin(75)) / 8)."
+                          },
+                          "description": "Calculate the acute angle P using the sine rule."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "length of side $r$ is $8\\text{ km}$",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "length of side $p$ is $6.5\\text{ km}$",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle opposite side $r$, denoted by $\\hat{R}$, is $75^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Find the obtuse supplement",
+                      "content": "Whenever we use the sine rule to find an angle, there is a potential second solution because $\\sin(\\theta) = \\sin(180^\\circ - \\theta)$. Let's find this obtuse supplement:\n\n$$\\hat{P}_2 = 180^\\circ - 51.7^\\circ = 128.3^\\circ$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Check the angle sum",
+                      "content": "A triangle is only valid if the sum of its interior angles is exactly $180^\\circ$. We test the potential second case by adding the known angle $\\hat{R}$ to our obtuse angle $\\hat{P}_2$:\n\n$$\\text{Sum} = 128.3^\\circ + 75^\\circ = 203.3^\\circ$$\n\nSince $203.3^\\circ > 180^\\circ$, this configuration is impossible. Therefore, the sine rule does **not** produce an ambiguous solution in this case; only the acute triangle is valid.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "128.3 + 75",
+                            "instructions": "Input: 128.3 + 75."
+                          },
+                          "ti84": {
+                            "expression": "128.3 + 75",
+                            "instructions": "Perform addition: 128.3 + 75."
+                          },
+                          "desmos": {
+                            "expression": "128.3 + 75",
+                            "instructions": "Type: 128.3 + 75."
+                          },
+                          "description": "Verify the sum of the angles for the obtuse case."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "side_comparison",
+                  "label": "Side Length Comparison",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify given sides and angles",
+                      "content": "To determine if there is an ambiguous case (the possibility of two different triangles), we first identify the side lengths and the angle provided in the question:\n\n*   Side $r = 8\\text{ km}$\n*   Side $p = 6.5\\text{ km}$\n*   Angle $\\hat{R} = 75^\\circ$",
+                      "highlights": [
+                        {
+                          "text": "side r is 8 km",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "side p is 6.5 km",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "angle opposite side r, denoted by \\hat{R}, is 75^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Compare side lengths",
+                      "content": "In trigonometry, we compare the side opposite the given angle ($r$) to the other known side ($p$). \n\n$$\\begin{aligned} r &= 8 \\\\ p &= 6.5 \\end{aligned}$$\n\nSince $8 > 6.5$, we find that $r > p$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze angle-side relationship",
+                      "content": "A fundamental property of triangles is that the longest side is always opposite the largest angle. \n\nBecause $r > p$, the angle opposite $r$ (which is $\\hat{R} = 75^\\circ$) must be larger than the angle opposite $p$ (which is $\\hat{P}$).\n\n$$75^\\circ > \\hat{P}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Rule out ambiguity",
+                      "content": "The ambiguous case only occurs when the side opposite the given angle is **shorter** than the other side ($r < p$). \n\nIn this configuration, since $r > p$, the side opposite the known angle is already long enough to ensure only one triangle can be formed. If we tried to find an obtuse alternative for $\\hat{P}$ (where $\\hat{P} > 90^\\circ$), it would have to be larger than $\\hat{R}$, which contradicts our finding that $r > p$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Conclusion",
+                      "content": "No ambiguity arises in this case. Since $r > p$, there is only one possible value for angle $\\hat{P}$.",
+                      "highlights": [
+                        {
+                          "text": "No ambiguity arises in this case.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:58:40.510Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      }
+    ],
+    "count": "13",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10447,
+      "title": "SL 3.2\u20142d and 3d trig",
+      "slug": "ai-sl-3-2-2d-and-3d-trig",
+      "parentTopicId": 10460
+    },
+    "subject": {
+      "id": 289,
+      "title": "Mathematics Applications & Interpretation (AI)",
+      "slug": "ib-math-ai",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "13",
+      "byQuestion": {}
+    }
+  }
+}

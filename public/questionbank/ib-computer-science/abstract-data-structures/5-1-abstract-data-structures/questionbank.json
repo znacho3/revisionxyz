@@ -1,3 +1,287 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:85c6ec834faf8030cba0130bfd06060eb0e5b3f4c0eb9f38c88edff2a88bd3d8
-size 15144
+{
+  "json": {
+    "questions": [
+      {
+        "id": "093fc0e5-04f1-4eaa-a4b9-7386bd94f677",
+        "specification": "5.1 Abstract data structures",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 2,
+            "workflowId": "ramen-ib-physics-new-093fc0e5-04f1-4eaa-a4b9-7386bd94f677-1771929956947",
+            "generatedAt": "2026-02-24T15:42:56.315Z",
+            "sourceRevisionId": 1493720
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:41:09.629Z",
+            "resultId": 1227
+          }
+        },
+        "currentRevisionId": 1693288,
+        "parts": [
+          {
+            "id": 1155134,
+            "content": "A circular queue is implemented using an array `Buffer[0..5]`, where `front` stores the index of the first item and `rear` stores the index of the last item added. The current state of the queue is illustrated in the diagram below:\n\n![](A circular queue diagram labelled `Buffer[0..5]` with six array cells indexed 0,1,2,3,4,5 arranged in a circle. Several cells contain items to show the queue is not empty. An arrow labelled `front` points to the index of the first item. An arrow labelled `rear` points to the index of the last item currently in the queue (the most recently added).)\n\nDescribe the logical sequence of updates required to enqueue (add) a new item into this queue. Your explanation should detail how the array boundary is managed and the specific condition used to prevent a queue overflow.",
+            "order": 0,
+            "markscheme": "- State that the `rear` pointer must be incremented to move to the next available slot. <marks>1 mark</marks>\n- Explain wrap-around logic: when the `rear` pointer reaches the final index ($5$), it must reset to index $0$ (e.g. $rear = (rear + 1) \\text{ MOD } 6$). <marks>1 mark</marks>\n- State that an overflow check must be performed before insertion to ensure the queue is not full. <marks>1 mark</marks>\n- Identify the overflow condition: if the next calculated `rear` position equals the current `front`, the queue is full and the operation should be rejected. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "9fb44c17-d7d7-4a91-86c0-f79be35a139d",
+        "specification": "5.1 Abstract data structures (HL)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-9fb44c17-d7d7-4a91-86c0-f79be35a139d-1771929956947",
+            "generatedAt": "2026-02-24T10:47:11.829Z",
+            "sourceRevisionId": 1493695
+          }
+        },
+        "currentRevisionId": 1688613,
+        "parts": [
+          {
+            "id": 1150493,
+            "content": "Explain how the order in which items are inserted into a Binary Search Tree (BST) can impact the efficiency of its search operations.",
+            "order": 0,
+            "markscheme": "- **Explain** that inserting items in a sorted or sequential order results in a \"skewed\" or \"degenerate\" tree, which increases search time to $O(n)$ as it effectively becomes a linear structure <marks>1</marks>\n\n- **Explain** that a random insertion order is more likely to create a balanced tree, which keeps the tree height low and maintains the expected search efficiency of $O(\\log n)$ <marks>1</marks>\n\n- **Explain** that the number of comparisons needed to find a specific value is directly determined by the depth of that node within the tree's height <marks>1</marks>\n\n<note>Award a maximum of 2 marks.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a053d823-76f4-4372-8e2b-e026a0916fae",
+        "specification": "Data structures: Queues",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-a053d823-76f4-4372-8e2b-e026a0916fae-1771929956947",
+            "generatedAt": "2026-02-26T11:27:16.164Z",
+            "sourceRevisionId": 1493684
+          }
+        },
+        "currentRevisionId": 1685339,
+        "parts": [
+          {
+            "id": 1146050,
+            "content": "A circular queue is implemented using an array with indices 0 to 7. If the `rear` pointer is currently at index 7, state the index of the `rear` pointer after one additional element is successfully enqueued.",
+            "order": 0,
+            "markscheme": "- 0 <marks>A1</marks>\n\n1 mark total",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146051,
+            "content": "A queue $Q$ currently contains the integer values $[15, 8, 22]$, where 15 is the element at the front. State the value at the front of the queue after the following sequence of operations is performed:\n\n`enqueue(4)`\n`dequeue()`\n`enqueue(19)`\n`dequeue()`",
+            "order": 1,
+            "markscheme": "- 22 <marks>A1</marks>\n\n1 mark total\n\n<note>Reasoning (not required for mark): Initial [15, 8, 22] -> enqueue(4) [15, 8, 22, 4] -> dequeue() [8, 22, 4] -> enqueue(19) [8, 22, 4, 19] -> dequeue() [22, 4, 19]. Front is 22.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "bde30e28-c49b-496f-87cf-c53b8f68af86",
+        "specification": "A security system stores unique identification (ID) numbers for access badges. To ensure efficient processing, these IDs are maintained in ascending numerical order in main memory. The system must support adding new badges and revoking (deleting) existing badges.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-bde30e28-c49b-496f-87cf-c53b8f68af86-1771929956947",
+            "generatedAt": "2026-02-24T15:34:06.773Z",
+            "sourceRevisionId": 1493718
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:26:00.294Z",
+            "resultId": 2424
+          }
+        },
+        "currentRevisionId": 1692712,
+        "parts": [
+          {
+            "id": 1154697,
+            "content": "Describe three disadvantages of using a static one-dimensional array to manage this collection of IDs in a high-turnover environment where badges are frequently issued and revoked.",
+            "order": 0,
+            "markscheme": "- Fixed capacity: static arrays have a predetermined size; if the number of active badges exceeds this limit, the system cannot store new data (overflow). <marks>1 mark</marks>\n- Costly insertions/deletions: since IDs must stay in order, adding or removing a badge requires shifting many existing elements in memory to maintain the sorted sequence. <marks>1 mark</marks>\n- Memory inefficiency: if the array is sized for the maximum possible number of badges but only a few are in use, allocated memory is wasted. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154698,
+            "content": "A programmer decides to use a singly linked list instead. Sketch a diagram showing the state of this linked list after the following IDs have been stored in ascending order: **42**, **67**, **88**, **115**.\n\n![Linked List Diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-bde30e28-c49b-496f-87cf-c53b8f68af86-1771929956947/3d61bbbd-d11f-4c0b-861b-e468bd92f900.jpeg)",
+            "order": 1,
+            "markscheme": "- Diagram shows nodes consisting of a data field (ID number) and a pointer/link field. <marks>1 mark</marks>\n- External head pointer points to node **42**, nodes linked in the order **42** \u2192 **67** \u2192 **88** \u2192 **115**, and a terminal $null$ pointer in node **115**. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154699,
+            "content": "List the sequence of steps required to remove the badge ID **67** from the linked list described in Part 1.",
+            "order": 2,
+            "markscheme": "- Traverse the list from the head node to locate the target node (**67**) while maintaining a reference to the preceding node (**42**). <marks>1 mark</marks>\n- Identify the node to be deleted (**67**) and the node that follows it (**88**). <marks>1 mark</marks>\n- Update the pointer of the preceding node (**42**) to point directly to the node following the target (**88**). <marks>1 mark</marks>\n- Deallocate/release the memory occupied by the node containing **67** to prevent memory leaks. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154700,
+            "content": "Explain the role of the 'previous' pointer (or trailing pointer) when performing a deletion in a singly linked list.",
+            "order": 3,
+            "markscheme": "- Because nodes in a singly linked list only store the address of the *next* node, there is no way to move backward once the target node is reached. <marks>1 mark</marks>\n- The previous pointer is necessary to 'bridge' the gap created by the deletion; it allows the algorithm to update the link of the predecessor so that it points to the successor of the deleted node. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154701,
+            "content": "Identify a non-linear dynamic data structure that would improve the average search time for an ID from $O(n)$ to $O(\\log n)$.",
+            "order": 4,
+            "markscheme": "- Binary Search Tree (BST) / Balanced Binary Search Tree (AVL, etc.). <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154702,
+            "content": "Sketch the structure of the data structure identified in Part 4, assuming the IDs are inserted into an initially empty structure in the following specific sequence: **88**, **42**, **115**, **67**.\n\n![Binary Search Tree Diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-bde30e28-c49b-496f-87cf-c53b8f68af86-1771929956947/f4951f75-b087-400f-9599-541cf7629271.jpeg)",
+            "order": 5,
+            "markscheme": "- **88** shown as the root of the tree. <marks>1 mark</marks>\n- **42** shown as the left child of **88** and **115** as the right child of **88**. <marks>1 mark</marks>\n- **67** shown as the right child of **42**. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f7e5c710-d587-4cbe-85c2-c4c62990b23e",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-f7e5c710-d587-4cbe-85c2-c4c62990b23e-1771867193188",
+            "generatedAt": "2026-02-24T02:38:00.264Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1493688
+          }
+        },
+        "currentRevisionId": 1683670,
+        "parts": [
+          {
+            "id": 1144405,
+            "content": "A software engineer is developing a real-time messaging application where incoming messages are stored in a queue data structure before being processed. Explain the importance of the `isEmpty()` method when constructing the algorithm that removes and processes these messages.",
+            "order": 0,
+            "markscheme": "- **Describe** the function of the `isEmpty()` method, noting that it returns `True` if the queue contains no data elements (messages) and `False` if there is at least one element present <marks>A1</marks>\n- **Identify** that the method is used as a guard within control structures, such as a `while` loop or `if` statement, to determine if the processing logic should execute <marks>A1</marks>\n- **Explain** that calling `isEmpty()` before a dequeue operation is vital to prevent a 'queue underflow' error, which would occur if the algorithm attempted to remove a message from an empty queue, leading to a system crash <marks>A1</marks>\n\n3 marks total\n<totalMarks>3</totalMarks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      }
+    ],
+    "count": "5",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9842,
+      "title": "5.1 Abstract data structures",
+      "slug": "5-1-abstract-data-structures",
+      "parentTopicId": 9841
+    },
+    "subject": {
+      "id": 292,
+      "title": "Computer Science (CS)",
+      "slug": "ib-computer-science",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "5",
+      "byQuestion": {}
+    }
+  }
+}

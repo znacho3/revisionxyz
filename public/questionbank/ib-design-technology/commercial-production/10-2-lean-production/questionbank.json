@@ -1,3 +1,694 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b019fee354bb1d9d9afd27345cb2f299231c24b94f6a9fcf62a33af7999dd0fe
-size 29426
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0a96c678-7edd-4560-b44a-d5c3cddde9e3",
+        "specification": "A production manager at an automotive plant implements several changes to improve efficiency on the shop floor. These actions are summarized in the table below:\n\n| Action | Description |\n| :--- | :--- |\n| 1 | Broken pallets and unused packaging materials are removed from the workstation. |\n| 2 | Floor markings are painted to designate the exact location for incoming component bins. |\n| 3 | A standardized visual checklist is posted to ensure all workers perform identical maintenance tasks. |\n\nWhich sequence correctly identifies the stages of the 5S lean production methodology represented by these actions?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-0a96c678-7edd-4560-b44a-d5c3cddde9e3-1771929956947",
+            "generatedAt": "2026-02-25T14:14:50.133Z",
+            "sourceRevisionId": 1142275
+          }
+        },
+        "currentRevisionId": 1685421,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920827,
+            "content": "1: Sort; 2: Set in order; 3: Standardize",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920828,
+            "content": "1: Set in order; 2: Shine; 3: Sustain",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920829,
+            "content": "1: Sort; 2: Shine; 3: Set in order",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920830,
+            "content": "1: Standardize; 2: Sort; 3: Sustain",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0c1c1e9b-4aad-4e68-b70e-0f8348391a69",
+        "specification": "The table below provides production data for a component on a manufacturing line using lean principles.\n\n| Production Stage | Processing Time | Waiting Time |\n| :--- | :--- | :--- |\n| Primary Shaping | 20 minutes | 50 minutes |\n| Finishing | 15 minutes | 30 minutes |\n| Quality Assurance | 10 minutes | 45 minutes |\n| Packing | 5 minutes | 15 minutes |\n\nBased on the data provided, what is the total lead time for the production of a single unit?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-0c1c1e9b-4aad-4e68-b70e-0f8348391a69-1771929956947",
+            "generatedAt": "2026-02-25T11:47:47.848Z",
+            "sourceRevisionId": 1161921
+          }
+        },
+        "currentRevisionId": 1686232,
+        "parts": [],
+        "options": [
+          {
+            "id": 4923119,
+            "content": "50 minutes",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4923120,
+            "content": "140 minutes",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4923121,
+            "content": "190 minutes",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4923122,
+            "content": "240 minutes",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4fe40bc2-1b8a-44ef-b8c8-84dddc3e3491",
+        "specification": "A factory uses control charts to track the weight of packaged goods. If the data shows a trend towards the lower tolerance limit, the filling machines are recalibrated before any underweight packages are produced. Which quality management technique is being described?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-4fe40bc2-1b8a-44ef-b8c8-84dddc3e3491-1772167695732",
+            "generatedAt": "2026-02-27T14:46:19.568Z",
+            "sourceRevisionId": 882366
+          }
+        },
+        "currentRevisionId": 1688927,
+        "parts": [],
+        "options": [
+          {
+            "id": 4928657,
+            "content": "Final product sampling",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4928658,
+            "content": "Statistical process control (SPC)",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4928659,
+            "content": "Just-in-time (JIT) production",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4928660,
+            "content": "Batch manufacturing",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "65fb0c7c-13dc-4d3c-9ad4-9b6eb73ab80c",
+        "specification": "A boutique guitar manufacturer tracks the duration of various stages in their production cycle to improve efficiency. The data for a specific custom order is provided in the table below.\n\n| Production Stage | Duration (days) |\n| :--- | :--- |\n| Order verification and processing | 1 |\n| Material preparation and seasoning | 7 |\n| Manual assembly and finishing | 5 |\n| Quality inspection and packaging | 2 |\n| Shipping and delivery to customer | 4 |\n\nBased on the table, what is the total lead time for this order?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-65fb0c7c-13dc-4d3c-9ad4-9b6eb73ab80c-1771929956947",
+            "generatedAt": "2026-02-25T14:14:44.348Z",
+            "sourceRevisionId": 1179089
+          }
+        },
+        "currentRevisionId": 1685443,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920899,
+            "content": "5 days",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920900,
+            "content": "19 days",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920901,
+            "content": "15 days",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920902,
+            "content": "12 days",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7a780004-77ae-4a74-97b7-2b4fafca554a",
+        "specification": "A manufacturing firm uses a specific strategy where production is only initiated once a signal is received from the next stage of the assembly line or from a customer order. The characteristics of this strategy are summarized in the table below.\n\n| System Component | Description |\n| :--- | :--- |\n| Production trigger | Downstream customer demand |\n| Stock levels | Low work-in-progress (WIP) |\n| Operational goal | Elimination of overproduction |\n\nWhich strategy from lean manufacturing is described?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-7a780004-77ae-4a74-97b7-2b4fafca554a-1771929956947",
+            "generatedAt": "2026-02-25T13:59:34.064Z",
+            "sourceRevisionId": 1179088
+          }
+        },
+        "currentRevisionId": 1685193,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920207,
+            "content": "Batch production",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920208,
+            "content": "Pull system",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920209,
+            "content": "Push system",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920210,
+            "content": "Mass customization",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9446aecf-b494-40c6-bdc2-a666135693b3",
+        "specification": "Which of the following is a key principle of Lean Production aimed at minimizing waste?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 821718,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556498,
+            "content": "Overproduction",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556499,
+            "content": "Continuous Improvement (Kaizen)",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556500,
+            "content": "Excess Inventory",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556501,
+            "content": "Defective Products",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "aa7a3805-5a3c-4567-8de7-ca11260ba438",
+        "specification": "In a specialized electronics workshop, a visual cue (such as a card or an empty container) is sent to a previous production stage to trigger the replenishment of specific parts only when they are needed. This 'pull' system technique is called...",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-aa7a3805-5a3c-4567-8de7-ca11260ba438-1771929956947",
+            "generatedAt": "2026-02-25T11:43:21.046Z",
+            "sourceRevisionId": 1161931
+          }
+        },
+        "currentRevisionId": 1686478,
+        "parts": [],
+        "options": [
+          {
+            "id": 4923871,
+            "content": "Kaizen",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4923872,
+            "content": "Kanban",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4923873,
+            "content": "Poka-yoke",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4923874,
+            "content": "Computer-aided manufacturing (CAM)",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cf6520f7-16a9-4a71-adc2-e4c46ae0f7d5",
+        "specification": "Lean production facilities often use the 5S methodology to minimize waste and optimize workspace safety and efficiency.\n\nAt a manufacturing plant, employees are required to perform a 'clean to inspect' routine daily. This involves wiping down all equipment to identify potential oil leaks, cracks, or loose bolts that might be hidden by dust and debris. Which element of the 5S framework is best demonstrated by this specific practice?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-cf6520f7-16a9-4a71-adc2-e4c46ae0f7d5-1771929956947",
+            "generatedAt": "2026-02-25T10:34:17.270Z",
+            "sourceRevisionId": 1410324
+          }
+        },
+        "currentRevisionId": 1684689,
+        "parts": [],
+        "options": [
+          {
+            "id": 4918787,
+            "content": "Sorting",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4918788,
+            "content": "Standardizing",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4918789,
+            "content": "Shining",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4918790,
+            "content": "Sustaining",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d1b233a3-0e90-4014-b54b-d196ae2b386a",
+        "specification": "NorthDock Meals is a company that assembles chilled \u201cgrab-and-go\u201d lunch boxes for hospitals and universities. Demand changes daily, and the products have short shelf lives.\n\nA manager collects baseline data for one production cell (8-hour shift):\n\n| Metric (per shift) | Current value |\n|---|---:|\n| Customer orders shipped on time | 780 boxes |\n| Boxes started | 900 boxes |\n| Boxes discarded due to expiry or damage | 90 boxes |\n| Average changeover time between menu types | 45 min |\n| Average work-in-progress (WIP) on the line | 320 boxes |\n| Operators | 12 |\n\nThe cell currently batches production by menu type, pushes trays to the next station when a trolley is full, and holds a large buffer of ingredients \u201cjust in case\u201d. Senior leaders want to introduce lean production across the site.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 7,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:00:27.604Z",
+            "resultId": 1933
+          }
+        },
+        "currentRevisionId": 1691955,
+        "parts": [
+          {
+            "id": 1153721,
+            "content": "Identify two key characteristics or principles of lean production that NorthDock Meals should focus on in this scenario.",
+            "order": 0,
+            "markscheme": "- Focus on eliminating waste (muda) / non-value-added activities <marks>1 mark</marks>\n- Pull production driven by customer demand (rather than push) <marks>1 mark</marks>\n\n_**OR**_\n\n- Continuous improvement (kaizen) <marks>1 mark</marks>\n- Flow / smooth, uninterrupted process <marks>1 mark</marks>\n- Respect for people / employee involvement in improvement <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153722,
+            "content": "Outline how one lean tool or technique could be applied to reduce the 45-minute changeover time between menu types.",
+            "order": 1,
+            "markscheme": "- Names an appropriate tool/technique (e.g., SMED, standardised work, 5S, visual management) <marks>1 mark</marks>\n- Briefly applies it to changeovers (e.g., separate internal/external tasks, pre-stage ingredients/labels, use quick-release fixtures, standard changeover checklist) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153723,
+            "content": "Outline one benefit and one challenge NorthDock Meals may experience if it moves from batching/push production to a pull system using kanban to control WIP.",
+            "order": 2,
+            "markscheme": "- Benefit linked to pull/kanban (e.g., lower WIP, less spoilage, faster throughput, fewer defects detected sooner, improved responsiveness) <marks>1 mark</marks>\n- Challenge linked to pull/kanban (e.g., risk of stockouts if suppliers unreliable, need accurate demand signals, discipline to follow kanban rules, initial disruption/training) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153724,
+            "content": "Explain how implementing lean production could improve NorthDock Meals\u2019 performance across the shift data shown.",
+            "order": 3,
+            "markscheme": "- Explains how reducing waste can increase shipped-on-time output (e.g., less waiting/rework/scrap frees capacity) <marks>1 mark</marks>\n- Explains how lowering WIP improves flow/lead time and exposes problems earlier <marks>1 mark</marks>\n- Explains how fewer discards (expiry/damage) can result from smaller batches, better flow, and pull replenishment <marks>1 mark</marks>\n- Explains how standardised work/5S/visual controls support consistency and sustain improvements (e.g., fewer errors, quicker finding tools/labels) <marks>1 mark</marks>\n<note>Max 4 marks</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "dcadb213-43ab-4efd-a90b-2bf33f8be73f",
+        "specification": "Which of the following is a key principle of Lean Production aimed at minimizing waste?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 825136,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556674,
+            "content": "Overproduction",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556675,
+            "content": "Continuous Improvement (Kaizen)",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556676,
+            "content": "Excess Inventory",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556677,
+            "content": "Defective Products",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "def8a9bd-4900-447e-b2a2-a8c8f7c6e91f",
+        "specification": "Nordan Appliances assembles cordless vacuum cleaners in the UK. Demand for its best-selling model has become volatile due to social media trends. The factory currently builds in large batches and stores finished goods in a warehouse.\n\nRecent performance data (last quarter):\n\n- Average customer lead time: 18 days\n- On-time delivery: 76%\n- Finished goods inventory: 4.5 weeks of stock\n- First-pass yield: 92%\n- Changeover time between models: 70 minutes\n- Floor space used by assembly and storage: 4,800 m$^2$\n\nManagement wants to switch to lean production. A pilot area is proposed:\n\n- Convert the assembly line into a U-shaped cell with one-piece flow where possible\n- Introduce a kanban system to replenish components\n- Apply $5S$ to reduce time spent searching for tools and parts\n- Use poka-yoke fixtures to reduce mis-assembly\n- Track improvement using daily visual boards and a short stand-up meeting\n\nA key risk is that some components have highly variable supplier lead times, and the factory produces three models that share 65% common parts but require different final assembly steps.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1689739,
+        "parts": [
+          {
+            "id": 1152030,
+            "content": "Outline one key characteristic of lean production that would reduce Nordan\u2019s finished goods inventory.",
+            "order": 0,
+            "markscheme": "- Identifies a relevant lean characteristic (e.g., pull production/JIT/produce to actual demand/one-piece flow) linked to reduced finished goods holding <marks>1 mark</marks>\n- Briefly outlines how it reduces inventory (e.g., smaller batches, replenishment triggered by consumption, less overproduction) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152031,
+            "content": "Outline one reason why eliminating waste (muda) is central to lean production.",
+            "order": 1,
+            "markscheme": "- States a valid reason (e.g., waste adds cost/time but not customer value; reduces competitiveness; ties up capacity/cash) <marks>1 mark</marks>\n- Brief outline linking waste elimination to improved performance (e.g., shorter lead time, lower cost, better quality or responsiveness) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152032,
+            "content": "Outline one benefit to Nordan of reducing the 70-minute changeover time as part of a lean approach.",
+            "order": 2,
+            "markscheme": "- Identifies a benefit (e.g., enables smaller batch sizes/more mix flexibility/less WIP & FG inventory/faster response) <marks>1 mark</marks>\n- Brief outline linking reduced changeover to the stated benefit (e.g., more frequent changeovers become economical; closer matching to demand) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152033,
+            "content": "The three vacuum models share 65% common parts but require different final assembly steps.\n\nSuggest how Nordan could use lean tools and techniques to create a mixed-model, pull-based production system for this product range.",
+            "order": 3,
+            "markscheme": "- Uses a pull signal such as kanban (or e-kanban) to trigger replenishment based on consumption <marks>1 mark</marks>\n- Suggests organising production into cells/U-shaped layout/flow lines to support flow and visibility <marks>1 mark</marks>\n- Suggests heijunka (levelling) or a sequenced schedule to smooth mix/volume despite volatile demand <marks>1 mark</marks>\n- Suggests standardised work/takt time balancing to run multiple models through shared steps <marks>1 mark</marks>\n- Suggests postponement/late differentiation (e.g., common sub-assembly, model-specific final steps) to keep variety at the end <marks>1 mark</marks>\n<note>Max 5 marks</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152034,
+            "content": "Explain ways in which Nordan could implement lean production in the pilot area, including benefits and challenges.",
+            "order": 4,
+            "markscheme": "- Explains value stream mapping as a way to visualise current vs future state, identify waste/bottlenecks and prioritise improvements <marks>1 mark</marks>\n- Links VSM to measurable outcomes (e.g., lead time reduction, WIP reduction, clearer handoffs/information flow) <marks>1 mark</marks>\n- Explains $5S$ improving workplace organisation/visual management, reducing motion/search time and improving safety/consistency <marks>1 mark</marks>\n- Identifies a $5S$ challenge (e.g., sustaining discipline/audits/culture change, initial downtime to sort/set) <marks>1 mark</marks>\n- Explains kanban as a pull control limiting WIP and preventing overproduction by replenishing to actual usage <marks>1 mark</marks>\n- Identifies a kanban challenge tied to the case (e.g., variable supplier lead times cause stockouts; wrong card counts cause shortages/overstock; needs stable processes and accurate data) <marks>1 mark</marks>\n- Explains poka-yoke preventing defects at source (error-proofing), improving first-pass yield and reducing rework <marks>1 mark</marks>\n- Identifies a poka-yoke challenge (e.g., cost/time to design fixtures, risk of over-reliance, may not address root cause without problem-solving) <marks>1 mark</marks>\n- Explains why combining tools is necessary (system approach: map waste first, stabilise/organise, control flow, build in quality) rather than using a single tool in isolation <marks>1 mark</marks>\n\n<note>Max 9 marks</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f8869d00-6244-404c-9030-b87918a1b6f0",
+        "specification": "To ensure that production is synchronized with customer demand, a manufacturer calculates that it must finish one unit every 12 minutes during a standard shift. Which lean production term describes this requirement?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-f8869d00-6244-404c-9030-b87918a1b6f0-1771929956947",
+            "generatedAt": "2026-02-25T11:52:04.238Z",
+            "sourceRevisionId": 1162049
+          }
+        },
+        "currentRevisionId": 1685182,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920183,
+            "content": "Takt time",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920184,
+            "content": "Lead time",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920185,
+            "content": "Just-in-case",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920186,
+            "content": "Value stream mapping",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "12",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9939,
+      "title": "10.2 Lean production",
+      "slug": "10-2-lean-production",
+      "parentTopicId": 9937
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "12",
+      "byQuestion": {}
+    }
+  }
+}

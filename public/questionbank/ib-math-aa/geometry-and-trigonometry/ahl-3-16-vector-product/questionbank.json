@@ -1,3 +1,2471 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d833d9d98a48fdc8812f632d4d7bf94b40d62f499805062bd9f2d52b3127d022
-size 153467
+{
+  "json": {
+    "questions": [
+      {
+        "id": "09b40008-452c-4596-98d0-a3cbc0b6fb21",
+        "specification": "Let $\\mathbf{u} = \\begin{pmatrix} 1 \\\\ 0 \\\\ 2 \\end{pmatrix}$ and $\\mathbf{v} = \\begin{pmatrix} 3 \\\\ -1 \\\\ 1 \\end{pmatrix}$. Let $\\mathbf{w}$ be a vector that is perpendicular to both $\\mathbf{u}$ and $\\mathbf{v}$.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T05:05:36.460Z",
+              "reasoning": "Finding a vector perpendicular to two given 3D vectors is most directly done using the cross product u\u00d7v, which produces a vector orthogonal to both.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1455964,
+        "parts": [
+          {
+            "id": 1065890,
+            "content": "Find a vector $\\mathbf{w}$ that is perpendicular to both $\\mathbf{u}$ and $\\mathbf{v}$.",
+            "order": 0,
+            "markscheme": "- **Attempt** to set up the cross product determinant: $\\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 1 & 0 & 2 \\\\ 3 & -1 & 1 \\end{vmatrix}$ <marks>M1</marks>\n\n- **Calculate** the expansion of the determinant: $\\mathbf{i}(0(1) - 2(-1)) - \\mathbf{j}(1(1) - 2(3)) + \\mathbf{k}(1(-1) - 0(3))$ <marks>A1</marks>\n\n- **Simplify** the components: $\\mathbf{i}(0 + 2) - \\mathbf{j}(1 - 6) + \\mathbf{k}(-1)$ <marks>A1</marks>\n\n- **State** the final vector: $\\mathbf{w} = \\begin{pmatrix} 2 \\\\ 5 \\\\ -1 \\end{pmatrix}$ <marks>A1</marks>\n\n4 marks total\n\n<note>This vector $\\mathbf{w}$ is perpendicular to both $\\mathbf{u}$ and $\\mathbf{v}$ by properties of the cross product.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "0bf9c40a-b2c7-48c9-b553-9d2589359a19",
+        "specification": "The position vectors of points $P$ and $Q$ are $\\mathbf{p}=3\\mathbf{i}+2\\mathbf{j}+\\mathbf{k}$ and $\\mathbf{q}=\\mathbf{i}+3\\mathbf{j}-2\\mathbf{k}$",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T04:45:57.437Z",
+              "reasoning": "Part (a) explicitly asks to compute the vector (cross) product p \u00d7 q in i, j, k components.",
+              "confidence": 0.95
+            },
+            {
+              "id": 63279,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "title": "Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "labeledAt": "2026-03-06T04:45:57.437Z",
+              "reasoning": "Part (b) asks for the area of the parallelogram formed by vectors OP and OQ, which is found using the magnitude of the cross product.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1456013,
+        "parts": [
+          {
+            "id": 1066002,
+            "content": "Find the vector product $\\mathbf{p} \\times \\mathbf{q}$. Give your answer in terms of base vectors.",
+            "order": 0,
+            "markscheme": "- Attempt to calculate the vector product (e.g. using a determinant): $\\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 3 & 2 & 1 \\\\ 1 & 3 & -2 \\end{vmatrix}$ <marks>M1</marks>\n\n- Obtain the correct components: $\\left(\\begin{array}{c}-7 \\\\ 7 \\\\ 7\\end{array}\\right)$ <marks>A1 A1</marks>\n\n- State the answer in terms of base vectors: $-7\\mathbf{i}+7\\mathbf{j}+7\\mathbf{k}$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1066003,
+            "content": "Using your answer to part 1, or otherwise, find the area of the parallelogram with two sides $\\overrightarrow{OP}$ and $\\overrightarrow{OQ}$",
+            "order": 1,
+            "markscheme": "- State the relationship for area: Area $= |\\mathbf{p} \\times \\mathbf{q}|$ <marks>M1 A1</marks>\n\n- Substitute the components into the magnitude formula: $\\sqrt{(-7)^{2}+7^{2}+7^{2}}$ <marks>M1 A1</marks>\n\n- Calculate the final answer: $7 \\sqrt{3}$ <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "cross_product",
+                  "label": "Vector Cross Product",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the Area Formula",
+                      "content": "To find the area of a parallelogram defined by two vectors $\\mathbf{p}$ and $\\mathbf{q}$ starting from the same origin $O$, we use a key geometric property of the vector product. The area is equal to the magnitude of the cross product of the two vectors:\n\n$$\\text{Area} = |\\mathbf{p} \\times \\mathbf{q}|$$\n\nThis is a standard application of vectors in Topic 3: Geometry and Trigonometry.",
+                      "highlights": [
+                        {
+                          "text": "area of the parallelogram",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Recall the Cross Product",
+                      "content": "From the first part of the question, we found the cross product of $\\mathbf{p}$ and $\\mathbf{q}$:\n\n$$\\mathbf{p} \\times \\mathbf{q} = -7\\mathbf{i} + 7\\mathbf{j} + 7\\mathbf{k}$$\n\nIf you haven't calculated this yet, you would set up a determinant using the components of $\\mathbf{p} = (3, 2, 1)$ and $\\mathbf{q} = (1, 3, -2)$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply Magnitude Formula",
+                      "content": "Now, we need to find the magnitude (length) of this resulting vector. We use the magnitude formula provided in the **Vectors** section of your data booklet:\n\n$$|\\mathbf{v}| = \\sqrt{v_1^2 + v_2^2 + v_3^2}$$\n\nSubstituting our components $(-7, 7, 7)$ into this formula gives:\n\n$$\\text{Area} = \\sqrt{(-7)^2 + 7^2 + 7^2}$$",
+                      "highlights": [
+                        {
+                          "text": "$$|\\mathbf{v}|=\\sqrt{v_{1}^{2}+v_{2}^{2}+v_{3}^{2}}$$",
+                          "location": "data_booklet",
+                          "sectionName": "Vectors"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate and Simplify",
+                      "content": "Let's perform the arithmetic:\n\n$$\\begin{aligned} \\text{Area} &= \\sqrt{49 + 49 + 49} \\\\ &= \\sqrt{147} \\end{aligned}$$\n\nTo simplify the radical, notice that $147 = 49 \\times 3$. Since $\\sqrt{49} = 7$, we get:\n\n$$\\text{Area} = 7\\sqrt{3}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "norm([-7, 7, 7])",
+                            "instructions": "In the calculation menu, find the 'norm' or 'magnitude' function. For example, on a Casio, use Norm([-7, 7, 7])."
+                          },
+                          "ti84": {
+                            "expression": "sqrt((-7)^2 + 7^2 + 7^2)",
+                            "instructions": "Go to the Home screen. Enter \u221a( (-7)\u00b2 + 7\u00b2 + 7\u00b2 ) and press ENTER. To get the exact radical form, simplify 147 manually or use a radical simplifier tool if available."
+                          },
+                          "desmos": {
+                            "expression": "sqrt((-7)^2 + 7^2 + 7^2)",
+                            "instructions": "Define a vector v = (-7, 7, 7) and then calculate length(v) or distance((0,0,0), (-7, 7, 7))."
+                          },
+                          "description": "Calculate the magnitude of the vector (-7, 7, 7)."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Answer State",
+                      "content": "The area of the parallelogram formed by the vectors $\\mathbf{p}$ and $\\mathbf{q}$ is:\n\n$$\\text{Area} = 7\\sqrt{3} \\approx 12.1$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "dot_product_trig",
+                  "label": "Dot Product and Trigonometry",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the approach",
+                      "content": "To find the area of a parallelogram using the dot product and trigonometry, we recall that a parallelogram can be split into two identical triangles. The area of a triangle formed by vectors $\\mathbf{p}$ and $\\mathbf{q}$ is $\\frac{1}{2}|\\mathbf{p}||\\mathbf{q}|\\sin\\theta$. Therefore, the area of the parallelogram is simply:\n\n$$\\text{Area} = |\\mathbf{p}||\\mathbf{q}|\\sin\\theta$$\n\nTo find $\\sin\\theta$, we will first use the scalar (dot) product to find $\\cos\\theta$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate magnitudes",
+                      "content": "First, we need the magnitudes of the position vectors $\\mathbf{p}$ and $\\mathbf{q}$. We use the magnitude formula from the data booklet:\n\n$$|\\mathbf{v}|=\\sqrt{v_{1}^{2}+v_{2}^{2}+v_{3}^{2}}$$\n\nFor $\\mathbf{p}=3\\mathbf{i}+2\\mathbf{j}+\\mathbf{k}$:\n$$|\\mathbf{p}| = \\sqrt{3^2 + 2^2 + 1^2} = \\sqrt{14}$$\n\nFor $\\mathbf{q}=\\mathbf{i}+3\\mathbf{j}-2\\mathbf{k}$:\n$$|\\mathbf{q}| = \\sqrt{1^2 + 3^2 + (-2)^2} = \\sqrt{14}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(14)",
+                            "instructions": "Use the square root function to calculate sqrt(14)."
+                          },
+                          "ti84": {
+                            "expression": "sqrt(14)",
+                            "instructions": "Press [2nd] [x\u00b2] (sqrt), then type 14 and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "sqrt(14)",
+                            "instructions": "Type sqrt(14) into the expression bar."
+                          },
+                          "description": "Calculate the square root of 14 to verify magnitude values."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "|\\mathbf{v}|=\\sqrt{v_{1}^{2}+v_{2}^{2}+v_{3}^{2}}",
+                          "location": "data_booklet",
+                          "sectionName": "Vectors"
+                        },
+                        {
+                          "text": "\\mathbf{p}=3\\mathbf{i}+2\\mathbf{j}+\\mathbf{k}",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "\\mathbf{q}=\\mathbf{i}+3\\mathbf{j}-2\\mathbf{k}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Find the dot product",
+                      "content": "Next, we calculate the dot product $\\mathbf{p} \\cdot \\mathbf{q}$ by multiplying the corresponding components and summing them:\n\n$$\\begin{aligned} \\mathbf{p} \\cdot \\mathbf{q} &= (3)(1) + (2)(3) + (1)(-2) \\\\ &= 3 + 6 - 2 \\\\ &= 7 \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3*1 + 2*3 + 1*-2",
+                            "instructions": "Type 3*1 + 2*3 + 1*-2."
+                          },
+                          "ti84": {
+                            "expression": "3*1 + 2*3 + 1*-2",
+                            "instructions": "Type 3*1 + 2*3 + 1*-2 and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "3*1 + 2*3 + 1*-2",
+                            "instructions": "Type 3*1 + 2*3 + 1*-2."
+                          },
+                          "description": "Calculate the dot product sum."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Determine cosine of theta",
+                      "content": "Now we use the scalar product formula from the data booklet to find $\\cos\\theta$:\n\n$$\\mathbf{v}\\cdot\\mathbf{w}=|\\mathbf{v}||\\mathbf{w}|\\cos\\theta$$\n\nSubstituting our values:\n$$\\begin{aligned} 7 &= \\sqrt{14} \\cdot \\sqrt{14} \\cdot \\cos\\theta \\\\ 7 &= 14 \\cos\\theta \\\\ \\cos\\theta &= \\frac{7}{14} = \\frac{1}{2} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "\\mathbf{v}\\cdot\\mathbf{w}=|\\mathbf{v}||\\mathbf{w}|\\cos\\theta",
+                          "location": "data_booklet",
+                          "sectionName": "Vectors"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Find sine of theta",
+                      "content": "To calculate the area, we need $\\sin\\theta$. We use the Pythagorean identity from the data booklet:\n\n$$\\cos^{2}\\theta+\\sin^{2}\\theta=1$$\n\n$$\\begin{aligned} \\left(\\frac{1}{2}\\right)^2 + \\sin^2\\theta &= 1 \\\\ \\frac{1}{4} + \\sin^2\\theta &= 1 \\\\ \\sin^2\\theta &= \\frac{3}{4} \\\\ \\sin\\theta &= \\frac{\\sqrt{3}}{2} \\end{aligned}$$\n\n(Note: $\\sin\\theta$ is positive because the angle between two vectors is between $0$ and $\\pi$).",
+                      "highlights": [
+                        {
+                          "text": "\\cos^{2}\\theta+\\sin^{2}\\theta=1",
+                          "location": "data_booklet",
+                          "sectionName": "Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Calculate the final area",
+                      "content": "Finally, we substitute the magnitudes and $\\sin\\theta$ into the area formula for the parallelogram:\n\n$$\\begin{aligned} \\text{Area} &= |\\mathbf{p}||\\mathbf{q}|\\sin\\theta \\\\ &= \\sqrt{14} \\cdot \\sqrt{14} \\cdot \\frac{\\sqrt{3}}{2} \\\\ &= 14 \\cdot \\frac{\\sqrt{3}}{2} \\\\ &= 7\\sqrt{3} \\end{aligned}$$\n\nThe area of the parallelogram is $7\\sqrt{3}$ square units.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "14 * (sqrt(3)/2)",
+                            "instructions": "Type 14 * (sqrt(3)/2)."
+                          },
+                          "ti84": {
+                            "expression": "14 * (sqrt(3)/2)",
+                            "instructions": "Type 14 * (sqrt(3)/2) and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "14 * (sqrt(3)/2)",
+                            "instructions": "Type 14 * (sqrt(3)/2)."
+                          },
+                          "description": "Verify the calculation 14 * (sqrt(3)/2)."
+                        },
+                        {
+                          "gdc": {
+                            "expression": "7 * sqrt(3)",
+                            "instructions": "Type 7 * sqrt(3)."
+                          },
+                          "ti84": {
+                            "expression": "7 * sqrt(3)",
+                            "instructions": "Type 7 * sqrt(3) and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "7 * sqrt(3)",
+                            "instructions": "Type 7 * sqrt(3)."
+                          },
+                          "description": "Check if 7 * sqrt(3) gives the same decimal value."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T03:47:46.901Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "103d5a44-4472-437c-8d48-d92b0dcc54f2",
+        "specification": "Consider the plane $\\Pi_1$ given by the equation $x + 2y - z = 4$ and the plane $\\Pi_2$ given by the equation $3x - y + 4z = 10$.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63268,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.18\u2014Intersections of lines & planes > Question Type 2: Finding the intersection of two planes ",
+              "title": "Question Type 2: Finding the intersection of two planes ",
+              "labeledAt": "2026-03-06T12:48:52.576Z",
+              "reasoning": "Part (a) asks for a vector equation of the line of intersection of two planes, which is explicitly the intersection of two planes.",
+              "confidence": 0.93
+            },
+            {
+              "id": 63278,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 3: Simplifying vector operations with dot and cross product",
+              "title": "Question Type 3: Simplifying vector operations with dot and cross product",
+              "labeledAt": "2026-03-06T12:48:52.576Z",
+              "reasoning": "Part (b) involves verifying perpendicularity to both plane normals, typically done via dot product with the line\u2019s direction (often found using the cross product of the normals), linking to dot/cross vector product operations.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1463890,
+        "parts": [
+          {
+            "id": 1079969,
+            "content": "Find a vector equation of the line of intersection of the planes $\\Pi_1$ and $\\Pi_2$.",
+            "order": 0,
+            "markscheme": "- Calculate the direction vector of the line of intersection:\n  $$\\vec{d} = \\vec{n}_1 \\times \\vec{n}_2 = \\begin{pmatrix} 1 \\\\ 2 \\\\ -1 \\end{pmatrix} \\times \\begin{pmatrix} 3 \\\\ -1 \\\\ 4 \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ -7 \\\\ -7 \\end{pmatrix}$$ <marks>M1</marks> <marks>A1</marks>\n\n- Find a point on the line of intersection by setting $z = 0$:\n  From $\\Pi_1$, $x + 2y = 4 \\implies x = 4 - 2y$\n\n- Substitute $x$ into the equation for $\\Pi_2$:\n  $$3(4 - 2y) - y = 10 \\implies 12 - 7y = 10 \\implies y = \\frac{2}{7}$$ \n\n- Calculate the corresponding $x$-coordinate:\n  $$x = 4 - 2\\left(\\frac{2}{7}\\right) = \\frac{24}{7}$$\n\n- State the position vector of the point:\n  $$\\mathbf{a} = \\begin{pmatrix} \\frac{24}{7} \\\\ \\frac{2}{7} \\\\ 0 \\end{pmatrix}$$ <marks>M1</marks>\n\n- Write the vector equation of the line:\n  $$\\mathbf{r} = \\begin{pmatrix} \\frac{24}{7} \\\\ \\frac{2}{7} \\\\ 0 \\end{pmatrix} + \\lambda \\begin{pmatrix} 7 \\\\ -7 \\\\ -7 \\end{pmatrix}$$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1079970,
+            "content": "Verify that the line of intersection found is perpendicular to the normal vectors of both planes.",
+            "order": 1,
+            "markscheme": "- State the normal vectors:\n  $$\\vec{n}_1 = \\begin{pmatrix} 1 \\\\ 2 \\\\ -1 \\end{pmatrix}, \\quad \\vec{n}_2 = \\begin{pmatrix} 3 \\\\ -1 \\\\ 4 \\end{pmatrix}$$\n\n- Compute the dot product of $\\vec{d}$ and $\\vec{n}_1$:\n  $$\\vec{d} \\cdot \\vec{n}_1 = (7)(1) + (-7)(2) + (-7)(-1) = 7 - 14 + 7 = 0$$ <marks>A1</marks>\n  This shows that $\\vec{d}$ is perpendicular to $\\vec{n}_1$.\n\n- Compute the dot product of $\\vec{d}$ and $\\vec{n}_2$:\n  $$\\vec{d} \\cdot \\vec{n}_2 = (7)(3) + (-7)(-1) + (-7)(4) = 21 + 7 - 28 = 0$$ <marks>A1</marks>\n  This shows that $\\vec{d}$ is perpendicular to $\\vec{n}_2$.\n\n- Conclude that the direction vector $\\vec{d}$ is perpendicular to the normal vectors of both planes. <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "145c72fe-165a-4113-aa71-d3436de17be5",
+        "specification": "The coordinates of the points $P, Q, R$ and $S$ are $(4,1,-1)$, $(3,3,5)$, $(1,0,2c)$ and $(1,1,2)$ respectively. The vectors $\\overrightarrow{QR}$ and $\\overrightarrow{PR}$ are orthogonal (perpendicular).",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63292,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.13\u2014Scalar (dot) product > Question Type 5: Finding for what value of a parameter are 2 vectors parallel or perpendicular",
+              "title": "Question Type 5: Finding for what value of a parameter are 2 vectors parallel or perpendicular",
+              "labeledAt": "2026-03-06T05:05:43.831Z",
+              "reasoning": "Part (a) uses the condition that vectors QR and PR are orthogonal to solve for the parameter c via the dot product being zero.",
+              "confidence": 0.9
+            },
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T05:05:43.831Z",
+              "reasoning": "Part (b) explicitly asks to compute a cross product PS \u00d7 PR.",
+              "confidence": 0.85
+            },
+            {
+              "id": 63283,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.14\u2014Vector equation of line > Question Type 1: Given two points, finding the vector equation of a line",
+              "title": "Question Type 1: Given two points, finding the vector equation of a line",
+              "labeledAt": "2026-03-06T05:05:43.831Z",
+              "reasoning": "Part (c) asks for the vector equation of a line through Q parallel to PR, i.e., a line in 3D defined by a point and a direction vector (PR).",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1456034,
+        "parts": [
+          {
+            "id": 1066054,
+            "content": "Find the value of $c$.",
+            "order": 0,
+            "markscheme": "- Calculate vector $\\overrightarrow{QR}$: $\\overrightarrow{QR} = \\begin{pmatrix}-2 \\\\ -3 \\\\ 2c-5\\end{pmatrix}$ <marks>M1 A1</marks>\n\n- Calculate vector $\\overrightarrow{PR}$: $\\overrightarrow{PR} = \\begin{pmatrix}-3 \\\\ -1 \\\\ 2c+1\\end{pmatrix}$ <marks>M1 A1</marks>\n\n- State condition for perpendicular vectors: $\\overrightarrow{QR} \\cdot \\overrightarrow{PR}=0$ <marks>M1</marks>\n\n- Substitute and expand: $6+3+(2c-5)(2c+1)=0$ <marks>M1 A1</marks>\n\n- Simplify equation: $(c-1)^{2}=0$ <marks>M1</marks>\n\n- State final answer: $c=1$ <marks>A1</marks>\n\n9 marks total",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1066055,
+            "content": "Calculate $\\overrightarrow{PS} \\times \\overrightarrow{PR}$.",
+            "order": 1,
+            "markscheme": "- Calculate vectors: $\\overrightarrow{PS}=\\begin{pmatrix}-3 \\\\ 0 \\\\ 3\\end{pmatrix}$ and $\\overrightarrow{PR}=\\begin{pmatrix}-3 \\\\ -1 \\\\ 3\\end{pmatrix}$ <marks>M1 M1</marks>\n\n- Calculate cross product: $\\overrightarrow{PS} \\times \\overrightarrow{PR}=\\begin{pmatrix}3 \\\\ 0 \\\\ 3\\end{pmatrix}$ <marks>M1 A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1066056,
+            "content": "Find the vector equation of the line $l$ which passes through the point $Q$ and is parallel to the vector $\\overrightarrow{PR}$.",
+            "order": 2,
+            "markscheme": "- State equation of line: $\\mathbf{r}=\\begin{pmatrix}3 \\\\ 3 \\\\ 5\\end{pmatrix}+t\\begin{pmatrix}-3 \\\\ -1 \\\\ 3\\end{pmatrix}$ <marks>M1 M1 A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "1f463803-7646-4704-9e79-e6bade7251c6",
+        "specification": "Consider two vectors $\\vec{a} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 3 \\end{pmatrix}$ and $\\vec{b} = \\begin{pmatrix} 4 \\\\ 2 \\\\ -1 \\end{pmatrix}$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T04:45:51.752Z",
+              "reasoning": "The question explicitly asks to calculate the cross product a \u00d7 b of two 3D vectors, which is directly this leaf topic (vector product: finding the cross product of two vectors).",
+              "confidence": 0.99
+            }
+          ]
+        },
+        "currentRevisionId": 1463730,
+        "parts": [
+          {
+            "id": 1079760,
+            "content": "Calculate $\\vec{a} \\times \\vec{b}$",
+            "order": 0,
+            "markscheme": "- **Attempt** to use cross product formula <marks>M1</marks>\n$$ \\vec{a} \\times \\vec{b} = \\begin{pmatrix} (-1)(-1) - (3)(2) \\\\ (3)(4) - (2)(-1) \\\\ (2)(2) - (-1)(4) \\end{pmatrix} $$\n\n- **Calculate** components <marks>A1</marks>\nFirst component: $1 - 6 = -5$\nSecond component: $12 - (-2) = 14$\nThird component: $4 - (-4) = 8$\n\n- **State** final answer: $\\vec{a} \\times \\vec{b} = \\begin{pmatrix} -5 \\\\ 14 \\\\ 8 \\end{pmatrix}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "2558ee06-481b-4307-80b4-401e6794cd83",
+        "specification": "A construction company is analyzing the forces acting on a beam supported by two cables. The forces exerted by the cables are represented by vectors. Forces are measured in Newtons (N). The company needs to ensure that the angle between the two force vectors is within a safe range to prevent structural failure.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63290,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.13\u2014Scalar (dot) product > Question Type 3: Finding the angle between vectors ",
+              "title": "Question Type 3: Finding the angle between vectors ",
+              "labeledAt": "2026-03-06T05:01:27.198Z",
+              "reasoning": "Parts (c) and (d) use the dot product formula to find cos(\u03b8) and determine whether the angle between two vectors lies in a given range.",
+              "confidence": 0.92
+            },
+            {
+              "id": 63288,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.13\u2014Scalar (dot) product > Question Type 1: Finding the dot product between two vectors using different operations",
+              "title": "Question Type 1: Finding the dot product between two vectors using different operations",
+              "labeledAt": "2026-03-06T05:01:27.198Z",
+              "reasoning": "Part (b) requires directly calculating the dot (scalar) product of two 3D vectors.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1482582,
+        "parts": [
+          {
+            "id": 1103058,
+            "content": "Given the force vectors $\\mathbf{F_1} = \\begin{pmatrix} 3 \\\\ 4 \\\\ 0 \\end{pmatrix}$ and $\\mathbf{F_2} = \\begin{pmatrix} 5 \\\\ 0 \\\\ 12 \\end{pmatrix}$, calculate the dot product $\\mathbf{F_1} \\cdot \\mathbf{F_2}$.",
+            "order": 1,
+            "markscheme": "- Apply dot product formula: multiply corresponding components and add: $\\mathbf{F_1} \\cdot \\mathbf{F_2} = (3 \\times 5) + (4 \\times 0) + (0 \\times 12)$ <marks>M1</marks>\n\n- Calculate result: $\\mathbf{F_1} \\cdot \\mathbf{F_2} = 15$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1103059,
+            "content": "Using the dot product calculated, determine the cosine of the angle $\\theta$ between the two vectors $\\mathbf{F_1}$ and $\\mathbf{F_2}$.",
+            "order": 2,
+            "markscheme": "- Calculate the magnitudes of the vectors: $|\\mathbf{F_1}| = \\sqrt{3^2 + 4^2 + 0^2} = 5$ and $|\\mathbf{F_2}| = \\sqrt{5^2 + 0^2 + 12^2} = 13$ <marks>A1</marks>\n\n- Substitute values into the formula $\\cos \\theta = \\frac{\\mathbf{F_1} \\cdot \\mathbf{F_2}}{|\\mathbf{F_1}||\\mathbf{F_2}|}$ <marks>M1</marks>\n\n- Calculate $\\cos \\theta$: $\\cos \\theta = \\frac{15}{65} = \\frac{3}{13}$ (or $\\approx 0.231$) <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1103060,
+            "content": "Determine if the angle between the two vectors is within the safe range of $30^\\circ$ to $60^\\circ$.",
+            "order": 3,
+            "markscheme": "- Calculate $\\theta$: $\\theta = \\arccos\\left(\\frac{3}{13}\\right)$ <marks>M1</marks>\n\n- $\\theta \\approx 76.7^\\circ$ <marks>A1</marks>\n\n- Compare $76.7^\\circ$ with the range $[30^\\circ, 60^\\circ]$ and conclude the angle is not within the safe range <marks>R1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "analytical_dot_product",
+                  "label": "Analytical Dot Product Formula",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the formula",
+                      "content": "To find the angle $\\theta$ between two vectors $\\mathbf{v}$ and $\\mathbf{w}$, we use the scalar (dot) product formula provided in the IB Data Booklet. \n\n$$\\mathbf{v} \\cdot \\mathbf{w} = |\\mathbf{v}||\\mathbf{w}| \\cos \\theta$$\n\nRearranging this to solve for $\\cos \\theta$ gives us:\n\n$$\\cos \\theta = \\frac{\\mathbf{v} \\cdot \\mathbf{w}}{|\\mathbf{v}||\\mathbf{w}|}$$",
+                      "highlights": [
+                        {
+                          "text": "$$\\mathbf{v}\\cdot\\mathbf{w}=|\\mathbf{v}||\\mathbf{w}|\\cos\\theta$$",
+                          "location": "data_booklet",
+                          "sectionName": "Vectors"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the angle theta",
+                      "content": "Based on the dot product and magnitudes calculated in the previous parts of the question, we have the ratio $\\frac{3}{13}$. We substitute this into our formula and solve for $\\theta$:\n\n$$\\begin{aligned} \\cos \\theta &= \\frac{3}{13} \\\\ \\theta &= \\arccos\\left(\\frac{3}{13}\\right) \\end{aligned}$$\n\nUsing a calculator, we find the value in degrees:\n\n$$\\theta \\approx 76.7^\\circ$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "acos(3/13)",
+                            "instructions": "1. Navigate to the calculation screen.\n2. Input acos(3/13).\n3. Ensure the angle setting is set to degrees."
+                          },
+                          "ti84": {
+                            "expression": "cos\u207b\u00b9(3/13)",
+                            "instructions": "1. Press [2nd] [COS] to get cos\u207b\u00b9(\n2. Type 3 / 13\n3. Press [ENTER]\n(Ensure your calculator mode is set to DEGREES)"
+                          },
+                          "desmos": {
+                            "expression": "\\arccos\\left(\\frac{3}{13}\\right)",
+                            "instructions": "1. Type 'acos(3/13)' in the input bar.\n2. Click the wrench icon (Settings) and select 'Degrees'."
+                          },
+                          "description": "Calculate the inverse cosine of 3/13 to find the angle in degrees."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "\\theta = \\arccos\\left(\\frac{3}{13}\\right)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Compare with safe range",
+                      "content": "The question asks if this angle falls within the safe range of $30^\\circ$ to $60^\\circ$. \n\nComparing our calculated angle:\n$$76.7^\\circ > 60^\\circ$$\n\nBecause $76.7^\\circ$ is outside the interval $[30, 60]$, the angle is **not within the safe range**.",
+                      "highlights": [
+                        {
+                          "text": "safe range of $30^\\circ$ to $60^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "geometric_cosine_rule",
+                  "label": "Geometric Cosine Rule",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the vector triangle",
+                      "content": "To use the **Geometric Cosine Rule**, we treat the two force vectors as two sides of a triangle, let's call them $a$ and $b$. The difference between these vectors forms the third side, $c$. The angle $\\theta$ between the two original vectors is the angle opposite side $c$.\n\nThis approach allows us to use standard trigonometry to find the angle without needing the dot product formula directly."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "State the Cosine Rule",
+                      "content": "From the **Geometry and Trigonometry** section of your data booklet, we use the formula for the side of a triangle:\n\n$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$\n\nIn our case, $C$ is the angle $\\theta$ we are looking for. We can rearrange this formula to solve for $\\cos \\theta$:\n\n$$\\cos \\theta = \\frac{a^2 + b^2 - c^2}{2ab}$$",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the angle theta",
+                      "content": "Using the side lengths derived from the vector magnitudes (provided in previous parts or calculations), the markscheme indicates that the ratio simplifies to:\n\n$$\\cos \\theta = \\frac{3}{13}$$\n\nTo find $\\theta$, we take the inverse cosine:\n\n$$\\theta = \\arccos\\left(\\frac{3}{13}\\right)$$\n\nLet's calculate this value in degrees.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "acos(3/13)",
+                            "instructions": "1. Ensure the calculator is in Degree mode.\n2. Use the trig menu to select 'acos' or 'cos\u207b\u00b9'.\n3. Input 3/13."
+                          },
+                          "ti84": {
+                            "expression": "cos\u207b\u00b9(3/13)",
+                            "instructions": "1. Press [MODE] and ensure 'DEGREE' is highlighted.\n2. Press [2nd] [COS] to get cos\u207b\u00b9.\n3. Type (3/13) and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "arccos(3/13)",
+                            "instructions": "1. Click the wrench icon (settings) and select 'Degrees'.\n2. Type 'arccos(3/13)'."
+                          },
+                          "description": "Calculate the inverse cosine of 3/13 to find the angle in degrees."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "\\theta = \\arccos\\left(\\frac{3}{13}\\right)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Evaluate the result",
+                      "content": "Using the calculator, we find:\n\n$$\\theta \\approx 76.7^\\circ$$\n\nThis calculation earned the first two marks (<marks>M1</marks><marks>A1</marks>). Now we need to determine if this fits the safe range.",
+                      "highlights": [
+                        {
+                          "text": "76.7^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Compare with safe range",
+                      "content": "The safe range for the angle is given as $30^\\circ$ to $60^\\circ$. \n\nSince our calculated angle $76.7^\\circ$ is greater than $60^\\circ$, the angle is **not within the safe range**.\n\nThis final reasoning step earns the last mark (<marks>R1</marks>).",
+                      "highlights": [
+                        {
+                          "text": "safe range of $30^\\circ$ to $60^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "gdc_vector_tool",
+                  "label": "GDC Vector Function",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the goal",
+                      "content": "To determine if the beam is safe, we need to calculate the angle $\\theta$ between the two force vectors and check if it falls within the specified range of $30^\\circ$ to $60^\\circ$.",
+                      "highlights": [
+                        {
+                          "text": "safe range of $30^\\circ$ to $60^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the angle \u03b8",
+                      "content": "Using the scalar product formula from the data booklet:\n\n$$\\mathbf{v}\\cdot\\mathbf{w}=|\\mathbf{v}||\\mathbf{w}|\\cos\\theta$$\n\nRearranging for $\\theta$, we get:\n\n$$\\theta = \\arccos\\left(\\frac{\\mathbf{v}\\cdot\\mathbf{w}}{|\\mathbf{v}||\\mathbf{w}|}\\right)$$\n\nFrom the structural analysis provided in the markscheme, the ratio of the dot product to the product of magnitudes is $\\frac{3}{13}$. We can compute this directly on a Graphic Display Calculator (GDC).",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "acos(3/13)",
+                            "instructions": "1. Ensure the calculator is in Degree mode.\n2. Use the inverse cosine function: acos(3/13)."
+                          },
+                          "ti84": {
+                            "expression": "cos\u207b\u00b9(3/13)",
+                            "instructions": "1. Press [MODE] and ensure 'DEGREE' is selected.\n2. Press [2nd] [COS] (to get cos\u207b\u00b9).\n3. Type 3 / 13 and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "\\arccos\\left(\\frac{3}{13}\\right)",
+                            "instructions": "1. Click the wrench icon to change settings to Degrees.\n2. Type 'arccos(3/13)'."
+                          },
+                          "description": "Calculate the inverse cosine of 3/13 in degrees."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "$$\\mathbf{v}\\cdot\\mathbf{w}=|\\mathbf{v}||\\mathbf{w}|\\cos\\theta$$",
+                          "location": "data_booklet",
+                          "sectionName": "Vectors"
+                        },
+                        {
+                          "text": "$$\\theta = \\arccos\\left(\\frac{3}{13}\\right)$$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Evaluate the result",
+                      "content": "Using the GDC, we find:\n\n$$\\theta \\approx 76.7^\\circ$$\n\nThis calculation earns the first two marks (**M1** for the setup and **A1** for the value). Now we must compare this to our safety constraints."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Check safety range",
+                      "content": "The safe range for the angle is defined as $30^\\circ \\leq \\theta \\leq 60^\\circ$. \n\nComparing our calculated value:\n\n$$76.7^\\circ > 60^\\circ$$\n\nSince $76.7^\\circ$ is outside the interval $[30^\\circ, 60^\\circ]$, the angle between the force vectors is **not within the safe range**. This final reasoning earns the mark **R1**.",
+                      "highlights": [
+                        {
+                          "text": "not within the safe range",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T03:22:38.558Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "2746b263-e613-47ec-8006-d73a330e1877",
+        "specification": "Given the vectors $\\mathbf{a} = \\mathbf{i} + 2\\mathbf{j} - \\mathbf{k}$, $\\mathbf{b} = -3\\mathbf{i} + 2\\mathbf{j} + 2\\mathbf{k}$, and $\\mathbf{c} = 2\\mathbf{i} - 3\\mathbf{j} + 4\\mathbf{k}$.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T18:30:09.413Z",
+            "resultId": 38480
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 63278,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 3: Simplifying vector operations with dot and cross product",
+              "title": "Question Type 3: Simplifying vector operations with dot and cross product",
+              "labeledAt": "2026-03-06T13:10:13.416Z",
+              "reasoning": "The expression (a \u00d7 b) \u00b7 c involves computing a cross product followed by a dot product (a scalar triple product), which is a vector product operation combining dot and cross products.",
+              "confidence": 0.93
+            },
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T13:10:13.416Z",
+              "reasoning": "To evaluate (a \u00d7 b) \u00b7 c, one key step is finding the cross product a \u00d7 b explicitly.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1696612,
+        "parts": [
+          {
+            "id": 1158748,
+            "content": "Find the value of $(\\mathbf{a} \\times \\mathbf{b}) \\cdot \\mathbf{c}$.",
+            "order": 0,
+            "markscheme": "- Attempt to evaluate the cross product $\\mathbf{a} \\times \\mathbf{b}$ (using a determinant): $\\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 1 & 2 & -1 \\\\ -3 & 2 & 2 \\end{vmatrix}$ <marks>M1</marks>\n\n- Correct components of the cross product: $\\mathbf{a} \\times \\mathbf{b} = 6\\mathbf{i} + \\mathbf{j} + 8\\mathbf{k} = \\begin{pmatrix} 6 \\\\ 1 \\\\ 8 \\end{pmatrix}$ <marks>A1 A1</marks>\n\n- Attempt to evaluate the dot product with $\\mathbf{c}$: $\\begin{pmatrix} 6 \\\\ 1 \\\\ 8 \\end{pmatrix} \\cdot \\begin{pmatrix} 2 \\\\ -3 \\\\ 4 \\end{pmatrix}$ <marks>M1</marks>\n\n- Correct substitution: $12 - 3 + 32$ <marks>A1</marks>\n\n- Calculate the final result: $41$ <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "32f94182-5584-48dd-9c0c-fe88f224855e",
+        "specification": "Consider two planes $\\Pi_1$ and $\\Pi_2$ with equations:\n$$\n\\Pi_1: 2x + 3y - z = 4\n$$\n$$\n\\Pi_2: -x + 2y + 2z = 6\n$$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63271,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.18\u2014Intersections of lines & planes > Question Type 5: Calculating the angle between two planes",
+              "title": "Question Type 5: Calculating the angle between two planes",
+              "labeledAt": "2026-03-06T12:49:16.860Z",
+              "reasoning": "Part (b) explicitly asks for the angle between two planes, which is found via the angle between their normal vectors (dot product).",
+              "confidence": 0.94
+            },
+            {
+              "id": 63268,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.18\u2014Intersections of lines & planes > Question Type 2: Finding the intersection of two planes ",
+              "title": "Question Type 2: Finding the intersection of two planes ",
+              "labeledAt": "2026-03-06T12:49:16.860Z",
+              "reasoning": "Parts (c) and (d) require finding a common point and the direction vector of the line of intersection of the two planes, i.e., determining the intersection of two planes.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1463921,
+        "parts": [
+          {
+            "id": 1080006,
+            "content": "Find the angle between the two planes.",
+            "order": 1,
+            "markscheme": "- Identify normal vectors from plane equations:\n$\\vec{n_1} = \\begin{pmatrix}2\\\\3\\\\-1\\end{pmatrix}$ and $\\vec{n_2} = \\begin{pmatrix}-1\\\\2\\\\2\\end{pmatrix}$\n\n- Attempt to use the dot product formula:\n$\\cos \\theta = \\frac{\\vec{n_1} \\cdot \\vec{n_2}}{|\\vec{n_1}||\\vec{n_2}|}$ <marks>M1</marks>\n\n- Calculate dot product and magnitudes:\n$\\vec{n_1} \\cdot \\vec{n_2} = 2(-1) + 3(2) + (-1)(2) = 2$\n$|\\vec{n_1}| = \\sqrt{2^2 + 3^2 + (-1)^2} = \\sqrt{14}$\n$|\\vec{n_2}| = \\sqrt{(-1)^2 + 2^2 + 2^2} = \\sqrt{9} = 3$ <marks>A1</marks>\n\n- Calculate final answer:\n$\\theta = \\arccos\\left(\\frac{2}{3\\sqrt{14}}\\right) \\approx 79.7^\\circ$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1080007,
+            "content": "Find a point that lies on both planes.",
+            "order": 2,
+            "markscheme": "- Multiply Equation (1) by 2:\n$4x + 6y - 2z = 8 \\quad (1')$\n\n- Add Equation (2) and (1') to eliminate $z$:\n$-x + 2y + 2z + 4x + 6y - 2z = 6 + 8$\n$3x + 8y = 14 \\quad (3)$\n\n- Let $x = 0$ and solve for $y$:\nSubstitute $x = 0$ into $(3)$:\n$8y = 14 \\quad \\Rightarrow \\quad y = \\frac{7}{4}$ <marks>A1</marks>\n\n- Substitute $x = 0$ and $y = \\frac{7}{4}$ into $\\Pi_2$:\n$-0 + 2\\left(\\frac{7}{4}\\right) + 2z = 6$\n$2z = 6 - \\frac{7}{2} = \\frac{5}{2} \\quad \\Rightarrow \\quad z = \\frac{5}{4}$ <marks>A1</marks>\n\n- Verify the point satisfies both original equations:\nFor $\\Pi_1$: $2(0) + 3\\left(\\frac{7}{4}\\right) - \\frac{5}{4} = \\frac{21-5}{4} = 4$\nFor $\\Pi_2$: $-0 + 2\\left(\\frac{7}{4}\\right) + 2\\left(\\frac{5}{4}\\right) = \\frac{14+10}{4} = 6$\nBoth equations are satisfied. <marks>A1</marks>\n\n- State final answer:\nThe point $\\left(0, \\frac{7}{4}, \\frac{5}{4}\\right)$ lies on both planes.\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic_variable_fixing",
+                  "label": "Fixing One Variable (Algebraic)",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Strategy: Fixing a variable",
+                      "content": "Since we need to find *a* point that lies on both planes, and the intersection of two non-parallel planes is a line (containing infinite points), we can choose an arbitrary value for one variable to find a specific point on that line.\n\nWe will use the **Fixing One Variable** method by setting $x = 0$. This simplifies our 3-variable system into a 2-variable system."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Substitute x = 0",
+                      "content": "Substitute $x = 0$ into the equations for $\\Pi_1$ and $\\Pi_2$:\n\nFor $\\Pi_1$: \n$$2(0) + 3y - z = 4 \\Rightarrow 3y - z = 4$$\n\nFor $\\Pi_2$:\n$$-0 + 2y + 2z = 6 \\Rightarrow 2y + 2z = 6$$",
+                      "highlights": [
+                        {
+                          "text": "2x + 3y - z = 4",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "-x + 2y + 2z = 6",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for y and z",
+                      "content": "Now we have a system of two simultaneous equations:\n\n1) $3y - z = 4$\n2) $2y + 2z = 6$\n\nFrom equation (1), we can express $z$ in terms of $y$:\n$$z = 3y - 4$$\n\nSubstitute this into equation (2):\n$$2y + 2(3y - 4) = 6$$\n$$2y + 6y - 8 = 6$$\n$$8y = 14$$\n$$y = \\frac{14}{8} = \\frac{7}{4}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "14/8",
+                            "instructions": "Calculate the value of y"
+                          },
+                          "ti84": {
+                            "expression": "14/8",
+                            "instructions": "Calculate the value of y"
+                          },
+                          "desmos": {
+                            "expression": "14/8",
+                            "instructions": "Calculate the value of y"
+                          },
+                          "description": "Calculate y"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate z",
+                      "content": "Now substitute $y = \\frac{7}{4}$ back into our expression for $z$:\n\n$$z = 3\\left(\\frac{7}{4}\\right) - 4$$\n$$z = \\frac{21}{4} - \\frac{16}{4}$$\n$$z = \\frac{5}{4}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3*(7/4) - 4",
+                            "instructions": "Calculate the value of z"
+                          },
+                          "ti84": {
+                            "expression": "3*(7/4) - 4",
+                            "instructions": "Calculate the value of z"
+                          },
+                          "desmos": {
+                            "expression": "3*(7/4) - 4",
+                            "instructions": "Calculate the value of z"
+                          },
+                          "description": "Calculate z"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final answer",
+                      "content": "We have found the coordinates $x=0$, $y=\\frac{7}{4}$, and $z=\\frac{5}{4}$.\n\nThe point lying on both planes is:\n$$\\left(0, \\frac{7}{4}, \\frac{5}{4}\\right)$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Verify the solution",
+                      "content": "It is good practice to check if this point satisfies both original equations.\n\nFor $\\Pi_1$:\n$$2(0) + 3\\left(\\frac{7}{4}\\right) - \\frac{5}{4} = \\frac{21}{4} - \\frac{5}{4} = \\frac{16}{4} = 4 \\quad \\text{(Correct)}$$\n\nFor $\\Pi_2$:\n$$-0 + 2\\left(\\frac{7}{4}\\right) + 2\\left(\\frac{5}{4}\\right) = \\frac{14}{4} + \\frac{10}{4} = \\frac{24}{4} = 6 \\quad \\text{(Correct)}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "-0 + 2*(7/4) + 2*(5/4)",
+                            "instructions": "Check if -x + 2y + 2z equals 6"
+                          },
+                          "ti84": {
+                            "expression": "-0 + 2*(7/4) + 2*(5/4)",
+                            "instructions": "Check if -x + 2y + 2z equals 6"
+                          },
+                          "desmos": {
+                            "expression": "-0 + 2*(7/4) + 2*(5/4)",
+                            "instructions": "Check if -x + 2y + 2z equals 6"
+                          },
+                          "description": "Verify the point in Equation 2"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "calculator_matrix",
+                  "label": "Matrix RREF (GDC)",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Set up the system of equations",
+                      "content": "First, we identify the system of linear equations from the two plane equations given in the question. We align the variables $x, y, z$ and the constants:\n\n$$\\begin{cases} 2x + 3y - z = 4 \\\\ -x + 2y + 2z = 6 \\end{cases}$$",
+                      "highlights": [
+                        {
+                          "text": "2x + 3y - z = 4",
+                          "index": 0,
+                          "location": "specification"
+                        },
+                        {
+                          "text": "-x + 2y + 2z = 6",
+                          "index": 0,
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Construct the augmented matrix",
+                      "content": "We extract the coefficients and constants to form a $2 \\times 4$ augmented matrix. The columns represent coefficients for $x$, $y$, $z$, and the constant term respectively.\n\n$$\\begin{bmatrix} 2 & 3 & -1 & 4 \\\\ -1 & 2 & 2 & 6 \\end{bmatrix}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate RREF using GDC",
+                      "content": "Now, enter this matrix into your graphing calculator and use the **rref** (reduced row echelon form) command. This will solve the system for the leading variables ($x$ and $y$) in terms of the free variable ($z$).\n\nConverting the decimal output to fractions (using **>Frac** on your calculator) makes the solution easier to work with.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "rref([[2,3,-1,4],[-1,2,2,6]])",
+                            "instructions": "1. Go to Run-Matrix menu\n2. Enter the matrix [[2, 3, -1, 4], [-1, 2, 2, 6]]\n3. Select OPTN > MAT > Rref\n4. Execute Rref(Mat A)"
+                          },
+                          "ti84": {
+                            "expression": "rref([[2,3,-1,4],[-1,2,2,6]])",
+                            "instructions": "1. Press [2nd] [x^-1] (MATRIX) > EDIT > 1:[A]\n2. Set dimensions to 2 x 4\n3. Enter values: [2, 3, -1, 4] and [-1, 2, 2, 6]\n4. Press [2nd] [MODE] (QUIT)\n5. Press [2nd] [x^-1] (MATRIX) > MATH > B:rref(\n6. Press [2nd] [x^-1] (MATRIX) > NAMES > 1:[A] > [ENTER]\n7. Press [MATH] > 1:>Frac > [ENTER]"
+                          },
+                          "desmos": {
+                            "expression": "rref([[2,3,-1,4],[-1,2,2,6]])",
+                            "instructions": "1. Define matrix A = [[2, 3, -1, 4], [-1, 2, 2, 6]]\n2. Type rref(A)"
+                          },
+                          "description": "Find the Reduced Row Echelon Form (rref) of the matrix"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Interpret the RREF output",
+                      "content": "The calculator output in fractional form is:\n\n$$\\begin{bmatrix} 1 & 0 & -8/7 & -10/7 \\\\ 0 & 1 & 3/7 & 16/7 \\end{bmatrix}$$\n\nThis corresponds to the equations:\n\n$$x - \\frac{8}{7}z = -\\frac{10}{7}$$\n$$y + \\frac{3}{7}z = \\frac{16}{7}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Determine a specific point",
+                      "content": "Since we have two equations with three variables, there are infinite solutions (a line of intersection). To find **a point**, we can choose any convenient value for $z$.\n\nLet $z = 0$. Substituting this into our equations:\n\n$$x = -\\frac{10}{7} + \\frac{8}{7}(0) = -\\frac{10}{7}$$\n$$y = \\frac{16}{7} - \\frac{3}{7}(0) = \\frac{16}{7}$$\n\nSo, a point on both planes is:\n$$\\left(-\\frac{10}{7}, \\frac{16}{7}, 0\\right)$$\n\nAlternatively, to match the markscheme which sets $x=0$, we could set $x=0$ in the first equation:\n$$0 - \\frac{8}{7}z = -\\frac{10}{7}$$\n$$z = \\frac{5}{4}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2*(-10/7) + 3*(16/7) - 0",
+                            "instructions": "Check 2(-10/7) + 3(16/7) - 0"
+                          },
+                          "ti84": {
+                            "expression": "2*(-10/7) + 3*(16/7) - 0",
+                            "instructions": "Check 2(-10/7) + 3(16/7) - 0"
+                          },
+                          "desmos": {
+                            "expression": "2*(-10/7) + 3*(16/7) - 0",
+                            "instructions": "Check 2(-10/7) + 3(16/7) - 0"
+                          },
+                          "description": "Verify the point (-10/7, 16/7, 0) satisfies Plane 1: 2x + 3y - z = 4"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "State the final answer",
+                      "content": "Any valid point is acceptable. Using our first result:\n\nThe point is:\n$$\\left(-\\frac{10}{7}, \\frac{16}{7}, 0\\right)$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-19T02:40:39.419Z",
+              "modelVersion": "gemini-3-pro-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1080008,
+            "content": "Find a direction vector of the line of intersection of these planes.",
+            "order": 3,
+            "markscheme": "- Recognize direction vector is the cross product of normal vectors:\n$\\vec{d} = \\vec{n}_1 \\times \\vec{n}_2$\n\n- Set up the determinant to compute the cross product:\n$\\vec{d} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 2 & 3 & -1 \\\\ -1 & 2 & 2 \\end{vmatrix}$ <marks>M1</marks>\n\n- Expand the determinant:\n$\\vec{d} = \\begin{pmatrix} 3(2) - (-1)(2) \\\\ (-1)(-1) - 2(2) \\\\ 2(2) - 3(-1) \\end{pmatrix} = \\begin{pmatrix} 6 - (-2) \\\\ 1 - 4 \\\\ 4 - (-3) \\end{pmatrix}$ <marks>M1</marks>\n\n- State final answer:\n$\\vec{d} = \\begin{pmatrix} 8 \\\\ -3 \\\\ 7 \\end{pmatrix}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "37d874ce-0f85-483f-ab25-ef3dd230f090",
+        "specification": "Consider the line $L_1$ given by the equation $\\mathbf{r} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} + \\lambda \\begin{pmatrix} 4 \\\\ -1 \\\\ 2 \\end{pmatrix}$ and the plane $\\pi$ given by the equation $2x - y + z = 5$.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63267,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.18\u2014Intersections of lines & planes > Question Type 1: Finding the point of intersection for a line and a plane",
+              "title": "Question Type 1: Finding the point of intersection for a line and a plane",
+              "labeledAt": "2026-03-06T04:47:49.097Z",
+              "reasoning": "Part (a) asks for the point of intersection of a given line (in vector form) with a given plane (in Cartesian form), which is exactly line\u2013plane intersection.",
+              "confidence": 0.95
+            },
+            {
+              "id": 63291,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.13\u2014Scalar (dot) product > Question Type 4: Determining if combinations of the specific vectors are parallel, perpendicular or neither",
+              "title": "Question Type 4: Determining if combinations of the specific vectors are parallel, perpendicular or neither",
+              "labeledAt": "2026-03-06T04:47:49.097Z",
+              "reasoning": "Part (b) asks whether the line\u2019s direction vector is parallel/perpendicular/neither to the plane\u2019s normal vector, which is determined via dot product/parallelism tests between vectors.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 1456209,
+        "parts": [
+          {
+            "id": 1066516,
+            "content": "Find the point of intersection of the line $L_1$ and the plane $\\pi$.",
+            "order": 0,
+            "markscheme": "- Substitute the line components into the plane equation: $2(1 + 4\\lambda) - (2 - \\lambda) + (3 + 2\\lambda) = 5$ <marks>M1</marks>\n\n- Simplify the equation: $3 + 11\\lambda = 5 \\Rightarrow 11\\lambda = 2$ <marks>A1</marks>\n\n- Solve for $\\lambda$: $\\lambda = \\frac{2}{11}$ <marks>A1</marks>\n\n- Substitute $\\lambda$ to find the point of intersection: $\\mathbf{P} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} + \\frac{2}{11}\\begin{pmatrix} 4 \\\\ -1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} \\frac{19}{11} \\\\ \\frac{20}{11} \\\\ \\frac{37}{11} \\end{pmatrix}$ <marks>A1</marks>\n\n4 marks total\n\n<note>Accept decimal approximation $\\mathbf{P} \\approx \\begin{pmatrix} 1.73 \\\\ 1.82 \\\\ 3.36 \\end{pmatrix}$</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "substitution",
+                  "label": "Parametric Substitution",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define parametric equations",
+                      "content": "To find where the line and plane meet, we first express the general point on the line $L_1$ in terms of the parameter $\\lambda$. From the given vector equation, we can write expressions for $x$, $y$, and $z$:\n\n$$\\begin{cases} x = 1 + 4\\lambda \\\\ y = 2 - \\lambda \\\\ z = 3 + 2\\lambda \\end{cases}$$",
+                      "highlights": [
+                        {
+                          "text": "line $L_1$ given by the equation $\\mathbf{r} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} + \\lambda \\begin{pmatrix} 4 \\\\ -1 \\\\ 2 \\end{pmatrix}$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Substitute into plane equation",
+                      "content": "The point of intersection must satisfy the equation of the plane $\\pi$. We substitute our parametric expressions for $x$, $y$, and $z$ into the Cartesian equation $2x - y + z = 5$:\n\n$$2(1 + 4\\lambda) - (2 - \\lambda) + (3 + 2\\lambda) = 5$$\n\nThis step is crucial for earning your first method mark (**M1**) in the exam.",
+                      "highlights": [
+                        {
+                          "text": "plane $\\pi$ given by the equation $2x - y + z = 5$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for the parameter",
+                      "content": "Now, we simplify the equation to find the value of $\\lambda$:\n\n$$\\begin{aligned} (2 + 8\\lambda) - 2 + \\lambda + 3 + 2\\lambda &= 5 \\\\ 3 + 11\\lambda &= 5 \\\\ 11\\lambda &= 2 \\\\ \\lambda &= \\frac{2}{11} \\end{aligned}$$\n\nSolving this correctly earns two accuracy marks (**A1A1**): one for the simplified equation and one for the value of $\\lambda$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2(1 + 4x) - (2 - x) + (3 + 2x) = 5",
+                            "instructions": "In the Equation/Solver menu, enter '2(1 + 4X) - (2 - X) + (3 + 2X) = 5' and solve for X."
+                          },
+                          "ti84": {
+                            "expression": "0 = 2(1 + 4X) - (2 - X) + (3 + 2X) - 5",
+                            "instructions": "Press [MATH] [ALPHA] [B] (Numeric Solver). Enter '0 = 2(1 + 4X) - (2 - X) + (3 + 2X) - 5'. Highlight 'X=' and press [ALPHA] [SOLVE]."
+                          },
+                          "desmos": {
+                            "expression": "2(1 + 4x) - (2 - x) + (3 + 2x) = 5",
+                            "instructions": "Type the equation into the input bar and view the intersection with the x-axis to find the value of x (which represents $\\lambda$)."
+                          },
+                          "description": "You can use your GDC to solve for $\\lambda$ by graphing or using the numerical solver."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate the intersection point",
+                      "content": "Finally, we substitute $\\lambda = \\frac{2}{11}$ back into our parametric equations from Step 0 to find the coordinates of the point $P$:\n\n$$\\begin{aligned} x &= 1 + 4\\left(\\frac{2}{11}\\right) = \\frac{11}{11} + \\frac{8}{11} = \\frac{19}{11} \\\\ y &= 2 - \\frac{2}{11} = \\frac{22}{11} - \\frac{2}{11} = \\frac{20}{11} \\\\ z &= 3 + 2\\left(\\frac{2}{11}\\right) = \\frac{33}{11} + \\frac{4}{11} = \\frac{37}{11} \\end{aligned}$$\n\nSo, the point of intersection is $\\left( \\frac{19}{11}, \\frac{20}{11}, \\frac{37}{11} \\right)$. This final answer earns the last accuracy mark (**A1**).",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "[1, 2, 3] + (2/11) * [4, -1, 2]",
+                            "instructions": "Enter the vector calculation: [1, 2, 3] + (2/11) * [4, -1, 2]."
+                          },
+                          "ti84": {
+                            "expression": "1 + 4*(2/11)",
+                            "instructions": "Calculate each coordinate individually: '1 + 4(2/11)', '2 - (2/11)', and '3 + 2(2/11)'. Use [MATH] [1] (>Frac) to convert to fractions."
+                          },
+                          "desmos": {
+                            "expression": "1 + 4(2/11)",
+                            "instructions": "Enter each calculation: 1 + 4(2/11), 2 - (2/11), and 3 + 2(2/11)."
+                          },
+                          "description": "Perform vector addition to find the final coordinates."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "system_of_equations",
+                  "label": "System of Linear Equations",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Express line in parametric form",
+                      "content": "To find where the line and plane intersect, we first express the position of any point on line $L_1$ in terms of the parameter $\\lambda$. From the vector equation, we can write the individual $x$, $y$, and $z$ components:\n\n$$\\begin{aligned} x &= 1 + 4\\lambda \\\\ y &= 2 - \\lambda \\\\ z &= 3 + 2\\lambda \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "\\mathbf{r} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix} + \\lambda \\begin{pmatrix} 4 \\\\ -1 \\\\ 2 \\end{pmatrix}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Convert to Cartesian form",
+                      "content": "We can eliminate $\\lambda$ by solving for it in each equation. This gives us the Cartesian form of the line:\n\n$$\\lambda = \\frac{x-1}{4} = \\frac{y-2}{-1} = \\frac{z-3}{2}$$\n\nBy taking pairs of these ratios, we can generate two distinct linear equations:\n1. $\\frac{x-1}{4} = \\frac{y-2}{-1} \\Rightarrow -(x-1) = 4(y-2) \\Rightarrow x + 4y = 9$\n2. $\\frac{y-2}{-1} = \\frac{z-3}{2} \\Rightarrow 2(y-2) = -(z-3) \\Rightarrow 2y + z = 7$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Set up the 3x3 system",
+                      "content": "We now have a system of three linear equations using the two equations from the line and the one equation for the plane $\\pi$:\n\n$$\\begin{cases} x + 4y = 9 \\\\ 2y + z = 7 \\\\ 2x - y + z = 5 \\end{cases}$$",
+                      "highlights": [
+                        {
+                          "text": "2x - y + z = 5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve the system",
+                      "content": "We can solve this system using substitution. From the first two equations, we can express $x$ and $z$ in terms of $y$:\n\n$$\\begin{aligned} x &= 9 - 4y \\\\ z &= 7 - 2y \\end{aligned}$$\n\nSubstitute these into the plane's equation:\n\n$$\\begin{aligned} 2(9 - 4y) - y + (7 - 2y) &= 5 \\\\ 18 - 8y - y + 7 - 2y &= 5 \\\\ 25 - 11y &= 5 \\\\ -11y &= -20 \\\\ y &= \\frac{20}{11} \\end{aligned}$$\n\nNow, calculate $x$ and $z$:\n\n$$\\begin{aligned} x &= 9 - 4\\left(\\frac{20}{11}\\right) = \\frac{99-80}{11} = \\frac{19}{11} \\\\ z &= 7 - 2\\left(\\frac{20}{11}\\right) = \\frac{77-40}{11} = \\frac{37}{11} \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "1. Go to the Equation/Solver menu. \n2. Select 'Simultaneous Equations' for 3 unknowns. \n3. Enter the coefficient matrix and constants. \n4. Solve to find x, y, and z."
+                          },
+                          "ti84": {
+                            "instructions": "1. Press [2nd] [MATRIX] and go to EDIT. \n2. Choose a 3x4 matrix. \n3. Enter the coefficients: [[1, 4, 0, 9], [0, 2, 1, 7], [2, -1, 1, 5]]. \n4. Quit to home screen, press [2nd] [MATRIX], go to MATH and select 'rref('. \n5. Select your matrix and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "rref([1, 4, 0, 9], [0, 2, 1, 7], [2, -1, 1, 5])",
+                            "instructions": "Use the Matrix Calculator to define a 3x4 matrix M with the system's coefficients and use the 'rref(M)' function."
+                          },
+                          "description": "Solve the system of equations using the matrix features of your calculator."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the intersection point",
+                      "content": "The point of intersection $P$ is:\n\n$$P\\left(\\frac{19}{11}, \\frac{20}{11}, \\frac{37}{11}\\right)$$\n\nIn decimal form, this is approximately $(1.73, 1.82, 3.36)$. This matches the result found in the markscheme by substituting the parameter directly."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T03:44:59.206Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1066517,
+            "content": "Determine if the line $L_1$ is parallel, perpendicular, or neither to the normal of the plane $\\pi$.",
+            "order": 1,
+            "markscheme": "- Identify the direction vector $\\mathbf{d} = \\begin{pmatrix} 4 \\\\ -1 \\\\ 2 \\end{pmatrix}$ and normal vector $\\mathbf{n} = \\begin{pmatrix} 2 \\\\ -1 \\\\ 1 \\end{pmatrix}$ <marks>A1</marks>\n\n- Attempt the scalar product $\\mathbf{d} \\cdot \\mathbf{n}$: $(4)(2) + (-1)(-1) + (2)(1)$ <marks>M1</marks>\n\n- Calculate the scalar product: $8 + 1 + 2 = 11$ <marks>A1</marks>\n\n- State valid reasoning ($\\mathbf{d} \\cdot \\mathbf{n} \\neq 0$ and $\\mathbf{d} \\neq k\\mathbf{n}$) and conclude **neither** <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "3bd62746-7c16-4899-a38a-cac9d12cc4a2",
+        "specification": "Consider the following vectors $\\vec{p}$ and $\\vec{q}$ given in matrix form:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T05:05:31.132Z",
+              "reasoning": "Part (a) explicitly asks to calculate the cross product p \u00d7 q for two 3D vectors.",
+              "confidence": 0.98
+            },
+            {
+              "id": 63279,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "title": "Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "labeledAt": "2026-03-06T05:05:31.132Z",
+              "reasoning": "Part (c) uses |p \u00d7 q| to find the area of the parallelogram formed by two vectors, which is a direct application of cross-product area.",
+              "confidence": 0.9
+            },
+            {
+              "id": 63296,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.12\u2014Vector definitions > Question Type 4: Finding the magnitude of vectors",
+              "title": "Question Type 4: Finding the magnitude of vectors",
+              "labeledAt": "2026-03-06T05:05:31.132Z",
+              "reasoning": "Part (b) requires finding the magnitude of the cross product vector, i.e., computing a vector magnitude.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1456244,
+        "parts": [
+          {
+            "id": 1066598,
+            "content": "Given that $\\vec{p} = \\begin{pmatrix} 3 \\\\ -2 \\\\ 1 \\end{pmatrix}$ and $\\vec{q} = \\begin{pmatrix} -1 \\\\ 4 \\\\ 2 \\end{pmatrix}$, calculate $\\vec{p} \\times \\vec{q}$.",
+            "order": 0,
+            "markscheme": "- Attempt to use cross product formula: $$\\vec{p} \\times \\vec{q} = \\begin{pmatrix} p_2q_3 - p_3q_2 \\\\ p_3q_1 - p_1q_3 \\\\ p_1q_2 - p_2q_1 \\end{pmatrix}$$ <marks>M1</marks>\n\n- Substitute values correctly: $$\\begin{pmatrix} (-2)(2) - (1)(4) \\\\ (1)(-1) - (3)(2) \\\\ (3)(4) - (-2)(-1) \\end{pmatrix}$$ <marks>A1</marks>\n\n- Calculate intermediate values: $$\\begin{pmatrix} -4 - 4 \\\\ -1 - 6 \\\\ 12 - 2 \\end{pmatrix}$$ <marks>A1</marks>\n\n- State final answer: $$\\begin{pmatrix} -8 \\\\ -7 \\\\ 10 \\end{pmatrix}$$ <marks>A1</marks>\n\n4 marks total\n\n<note>Award full marks only if all steps are clearly shown</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1066599,
+            "content": "Find the magnitude of $\\vec{p} \\times \\vec{q}$ and give your answer in simplified form.",
+            "order": 1,
+            "markscheme": "- Substitute values into magnitude formula: $\\sqrt{(-8)^2 + (-7)^2 + (10)^2}$ <marks>M1</marks>\n\n- Calculate sum of squares: $\\sqrt{64 + 49 + 100} = \\sqrt{213}$ <marks>A1</marks>\n\n- State final answer: $\\sqrt{213}$ <marks>A1</marks>\n\n3 marks total\n\n<note>Accept equivalent forms of the answer if correctly simplified</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1066600,
+            "content": "Using the magnitude of the cross product, calculate the area of the parallelogram formed by vectors $\\vec{p}$ and $\\vec{q}$. Give your answer to 3 significant figures.",
+            "order": 2,
+            "markscheme": "- Recognize that area of parallelogram is magnitude of cross product: Area $= |\\vec{p} \\times \\vec{q}|$ <marks>M1</marks>\n\n- Substitute correct magnitude: $\\sqrt{213}$ <marks>A1</marks>\n\n- State area to 3 significant figures: $14.6$ <marks>A1</marks>\n\n3 marks total\n\n<examTip>Remember that the magnitude of the cross product gives the area of the parallelogram formed by two vectors</examTip>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8331563a-2b2e-4ced-b889-5e738d172d45",
+        "specification": "Let $a=\\begin{pmatrix} 2 \\\\ 0 \\\\ 3 \\end{pmatrix}, b=\\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ and $c=\\begin{pmatrix} 4 \\\\ 1 \\\\ 0 \\end{pmatrix}$",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63278,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 3: Simplifying vector operations with dot and cross product",
+              "title": "Question Type 3: Simplifying vector operations with dot and cross product",
+              "labeledAt": "2026-03-06T12:48:36.603Z",
+              "reasoning": "All parts involve simplifying/evaluating expressions using dot and cross products, including scalar triple products and a vector triple product.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1463758,
+        "parts": [
+          {
+            "id": 1079796,
+            "content": "Find $(a \\times b) \\cdot c$",
+            "order": 1,
+            "markscheme": "- Substitute correct vectors: $(a \\times b) \\cdot c = \\begin{pmatrix} -6 \\\\ -3 \\\\ 4 \\end{pmatrix} \\cdot \\begin{pmatrix} 4 \\\\ 1 \\\\ 0 \\end{pmatrix}$ <marks>M1 A1</marks>\n\n- Calculate final value: $-24 - 3 = -27$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1079797,
+            "content": "Find $a \\cdot(b \\times c)$",
+            "order": 2,
+            "markscheme": "- Substitute correct vectors: $a \\cdot(b \\times c) = \\begin{pmatrix} 2 \\\\ 0 \\\\ 3 \\end{pmatrix} \\cdot \\begin{pmatrix} -3 \\\\ 12 \\\\ -7 \\end{pmatrix}$ <marks>M1 A1</marks>\n\n- Calculate final value: $-6 - 21 = -27$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1079798,
+            "content": "Find $(a \\times b) \\times c$",
+            "order": 3,
+            "markscheme": "- Substitute correct vectors: $(a \\times b) \\times c = \\begin{pmatrix} -6 \\\\ -3 \\\\ 4 \\end{pmatrix} \\times \\begin{pmatrix} 4 \\\\ 1 \\\\ 0 \\end{pmatrix}$ <marks>M1 A1</marks>\n\n- Calculate final vector: $\\begin{pmatrix} -4 \\\\ 16 \\\\ 6 \\end{pmatrix}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "8bfdfbfa-a176-4c7b-9ca0-1a6a7bc3d7df",
+        "specification": "Consider two vectors $\\vec{u} = \\begin{pmatrix} 5 \\\\ 0 \\\\ -2 \\end{pmatrix}$ and $\\vec{v} = \\begin{pmatrix} -1 \\\\ 3 \\\\ 4 \\end{pmatrix}$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T04:37:22.954Z",
+              "reasoning": "The question asks to calculate the cross product u \u00d7 v (explicitly using the determinant method), which is directly the skill of finding the cross product of two vectors.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1463718,
+        "parts": [
+          {
+            "id": 1079746,
+            "content": "Calculate $\\vec{u} \\times \\vec{v}$ using the determinant method.",
+            "order": 0,
+            "markscheme": "### Method #1\n\n- Correct setup of determinant: <marks>M1</marks>\n$$\n\\vec{u} \\times \\vec{v} = \\begin{vmatrix} \n\\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\\n5 & 0 & -2 \\\\\n-1 & 3 & 4\n\\end{vmatrix}\n$$\n\n- Correct expansion of determinant components: <marks>A1</marks>\n$$\n\\begin{pmatrix}\n(0)(4) - (-2)(3) \\\\\n(-2)(-1) - (5)(4) \\\\\n(5)(3) - (0)(-1)\n\\end{pmatrix}\n$$\n\n- Simplification and final answer: <marks>A1</marks>\n$$\n\\vec{u} \\times \\vec{v} = \\begin{pmatrix}\n6 \\\\\n-18 \\\\\n15\n\\end{pmatrix}\n$$\n\n3 marks total\n\n<note>Tip: Remember to follow the right-hand rule when setting up the determinant matrix</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "8f93a538-f460-411a-b696-f07c76fd71ae",
+        "specification": "Three points \\(A(1,2,3)\\), \\(B(3,-1,4)\\), and \\(C(2,0,6)\\) define a plane \\(\\Pi\\).",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63272,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.17\u2014Vector equations of a plane > Question Type 1: Using three points to write vector equation of a plane",
+              "title": "Question Type 1: Using three points to write vector equation of a plane",
+              "labeledAt": "2026-03-07T17:32:56.266Z",
+              "reasoning": "Part (a) asks for the vector equation of a plane defined by three points A, B, C.",
+              "confidence": 0.98
+            },
+            {
+              "id": 63275,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.17\u2014Vector equations of a plane > Question Type 4: Given three points on the plane, find the cartesian equation of the plane these points lie on",
+              "title": "Question Type 4: Given three points on the plane, find the cartesian equation of the plane these points lie on",
+              "labeledAt": "2026-03-07T17:32:56.266Z",
+              "reasoning": "Part (b) asks for the Cartesian equation of the plane given three points on it.",
+              "confidence": 0.97
+            },
+            {
+              "id": 63270,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.18\u2014Intersections of lines & planes > Question Type 4: Calculating the angle between a line and a plane",
+              "title": "Question Type 4: Calculating the angle between a line and a plane",
+              "labeledAt": "2026-03-07T17:32:56.266Z",
+              "reasoning": "Parts (d) and (c) involve line\u2013plane angle and perpendicular distance from a point to a plane (uses the plane\u2019s normal and perpendicular concept).",
+              "confidence": 0.88
+            },
+            {
+              "id": 63278,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 3: Simplifying vector operations with dot and cross product",
+              "title": "Question Type 3: Simplifying vector operations with dot and cross product",
+              "labeledAt": "2026-03-07T17:32:56.266Z",
+              "reasoning": "Multiple parts require forming a normal vector to the plane via cross products / combined dot-cross operations (e.g., for equations, distances, and constructing perpendicular directions).",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1485155,
+        "parts": [
+          {
+            "id": 1108520,
+            "content": "Find the vector equation of the plane \\(\\Pi\\).",
+            "order": 0,
+            "markscheme": "- Calculate the direction vectors: \\(\\overrightarrow{AB}=(2,-3,1)\\) and \\(\\overrightarrow{AC}=(1,-2,3)\\). <marks>M1</marks>\n- State the correct direction vectors. <marks>A1</marks>\n- State the vector equation: \\(\\mathbf{r}=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}+\\lambda\\begin{pmatrix}2\\\\-3\\\\1\\end{pmatrix}+\\mu\\begin{pmatrix}1\\\\-2\\\\3\\end{pmatrix}\\). <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1108521,
+            "content": "Find the Cartesian equation of \\(\\Pi\\).",
+            "order": 1,
+            "markscheme": "- Calculate the normal vector \\(\\mathbf{n}=\\overrightarrow{AB}\\times\\overrightarrow{AC}\\):\n\\[\n\\mathbf{n}=\\begin{vmatrix}\n\\mathbf{i}&\\mathbf{j}&\\mathbf{k}\\\\\n2&-3&1\\\\\n1&-2&3\n\\end{vmatrix}\n=(-9-(-2))\\mathbf{i}-(6-1)\\mathbf{j}+(-4-(-3))\\mathbf{k}=(-7,-5,-1).\n\\] <marks>M1</marks>\n- Determine the Cartesian equation using \\(\\mathbf{n}=(-7,-5,-1)\\) and point \\(A(1,2,3)\\):\n\\[-7(x-1)-5(y-2)-1(z-3)=0 \\Rightarrow -7x-5y-z+20=0.\\]\n- State the simplified equation: \\(7x+5y+z=20\\). <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1108522,
+            "content": "Verify that point \\(D(3,1,1)\\) does not lie on \\(\\Pi\\), and find the perpendicular distance from \\(D\\) to \\(\\Pi\\).",
+            "order": 2,
+            "markscheme": "- Substitute the coordinates of \\(D\\) into the plane equation:\n\\[\n7(3)+5(1)+1=21+5+1=27 \\neq 20.\n\\]\nSince \\(27 \\neq 20\\), \\(D\\) does not lie on \\(\\Pi\\). <marks>M1</marks>\n- Apply the distance formula:\n\\[\n\\text{Distance} = \\frac{|7(3)+5(1)+1-20|}{\\sqrt{7^2+5^2+1^2}} = \\frac{|27-20|}{\\sqrt{49+25+1}}.\n\\] <marks>M1</marks>\n- Calculate the final distance:\n\\[\n\\frac{7}{\\sqrt{75}} \\quad \\text{or} \\quad \\frac{7}{5\\sqrt{3}} \\quad \\text{or} \\quad \\frac{7\\sqrt{3}}{15}.\n\\] <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1108523,
+            "content": "Find the acute angle between the plane \\(\\Pi\\) and the line\n\\[\nL:\\ \\mathbf{r}=\\begin{pmatrix}0\\\\1\\\\2\\end{pmatrix}+t\\begin{pmatrix}1\\\\-3\\\\-2\\end{pmatrix}.\n\\]",
+            "order": 3,
+            "markscheme": "- Identify the direction vector of \\(L\\), \\(\\mathbf{d}=(1,-3,-2)\\), and the normal to \\(\\Pi\\), \\(\\mathbf{n}=(7,5,1)\\). <marks>A1</marks>\n- State the formula for the angle \\(\\theta\\) between the line and plane:\n\\[\n\\sin\\theta=\\frac{|\\mathbf{d}\\cdot\\mathbf{n}|}{\\|\\mathbf{d}\\|\\, \\|\\mathbf{n}\\|}.\n\\] <marks>M1</marks>\n- Substitute the values:\n\\[\n\\mathbf{d}\\cdot\\mathbf{n}=1(7)+(-3)(5)+(-2)(1)=7-15-2=-10.\n\\]\n\\[\n\\|\\mathbf{d}\\|=\\sqrt{1^2+(-3)^2+(-2)^2}=\\sqrt{14},\\ \\|\\mathbf{n}\\|=\\sqrt{7^2+5^2+1^2}=\\sqrt{75}=5\\sqrt{3}.\n\\] <marks>M1</marks>\n- Calculate the angle:\n\\[\n\\sin\\theta=\\frac{|-10|}{\\sqrt{14}\\cdot 5\\sqrt{3}}=\\frac{10}{5\\sqrt{42}}=\\frac{2}{\\sqrt{42}} \\Rightarrow \\theta=\\sin^{-1}\\left(\\frac{2}{\\sqrt{42}}\\right).\n\\] <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1108524,
+            "content": "Find a unit vector lying in the plane \\(\\Pi\\) and perpendicular to the line of intersection of \\(\\Pi\\) with the \\(xz\\)-plane.",
+            "order": 4,
+            "markscheme": "- Determine the line of intersection between \\(\\Pi\\) and the \\(xz\\)-plane (\\(y=0\\)):\nSubstitute \\(y=0\\) into \\(7x+5y+z=20\\) to get \\(7x+z=20\\).\nLet \\(x=t\\), then \\(z=20-7t\\). The direction vector is \\(\\mathbf{l}=(1,0,-7)\\). <marks>M1</marks>\n- Calculate a vector \\(\\mathbf{v}\\) in \\(\\Pi\\) perpendicular to \\(\\mathbf{l}\\) (using \\(\\mathbf{v}=\\mathbf{n}\\times\\mathbf{l}\\)):\n\\[\n\\mathbf{v}=\\begin{vmatrix}\n\\mathbf{i}&\\mathbf{j}&\\mathbf{k}\\\\\n7&5&1\\\\\n1&0&-7\n\\end{vmatrix}\n=(-35-0)\\mathbf{i}-(-49-1)\\mathbf{j}+(0-5)\\mathbf{k}=(-35,50,-5).\n\\] <marks>M1</marks>\n- State the simplified unit vector:\nUsing the parallel vector \\((7,-10,1)\\):\n\\[\n\\mathbf{u}=\\pm\\frac{1}{\\sqrt{7^2+(-10)^2+1^2}}(7,-10,1)=\\pm\\frac{1}{\\sqrt{150}}(7,-10,1)=\\pm\\frac{1}{5\\sqrt{6}}(7,-10,1).\n\\] <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "93c0c7e2-5c76-402b-8688-bfddb684fc8b",
+        "specification": "Consider two vectors $\\vec{u} = \\begin{pmatrix} 5 \\\\ 0 \\\\ -2 \\end{pmatrix}$ and $\\vec{v} = \\begin{pmatrix} -3 \\\\ 4 \\\\ 1 \\end{pmatrix}$",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T05:09:13.929Z",
+              "reasoning": "Part (b) asks to calculate the cross product u \u00d7 v (determinant method is a standard cross-product computation).",
+              "confidence": 0.98
+            },
+            {
+              "id": 63279,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "title": "Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "labeledAt": "2026-03-06T05:09:13.929Z",
+              "reasoning": "Part (c) asks for the area of the parallelogram formed by two vectors, which is found using the magnitude of the cross product.",
+              "confidence": 0.95
+            },
+            {
+              "id": 63291,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.13\u2014Scalar (dot) product > Question Type 4: Determining if combinations of the specific vectors are parallel, perpendicular or neither",
+              "title": "Question Type 4: Determining if combinations of the specific vectors are parallel, perpendicular or neither",
+              "labeledAt": "2026-03-06T05:09:13.929Z",
+              "reasoning": "Part (d) asks to determine if vectors are orthogonal (perpendicular), which is checked using the dot product being zero.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1457124,
+        "parts": [
+          {
+            "id": 1068974,
+            "content": "Calculate $\\vec{u} \\times \\vec{v}$ using the determinant method.",
+            "order": 1,
+            "markscheme": "- Correct setup of determinant:\n$$\n\\vec{u} \\times \\vec{v} = \\begin{vmatrix} \n\\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\\n5 & 0 & -2 \\\\\n-3 & 4 & 1\n\\end{vmatrix}\n$$\n<marks>M1</marks>\n\n- Correct expansion of determinant components:\n$$\n\\begin{pmatrix}\n(0)(1) - (-2)(4) \\\\\n(-2)(-3) - (5)(1) \\\\\n5(4) - (0)(-3)\n\\end{pmatrix} = \\begin{pmatrix}\n0 - (-8) \\\\\n6 - 5 \\\\\n20 - 0\n\\end{pmatrix}\n$$\n<marks>A2</marks>\n\n- Correct final answer:\n$$\n\\vec{u} \\times \\vec{v} = \\begin{pmatrix}\n8 \\\\\n1 \\\\\n20\n\\end{pmatrix}\n$$\n<marks>A1</marks>\n\n4 marks total\n\n<note>Award partial marks for correct method with arithmetic errors</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1068975,
+            "content": "Find the area of the parallelogram formed by vectors $\\vec{u}$ and $\\vec{v}$.",
+            "order": 2,
+            "markscheme": "- Recognition that area of parallelogram = $|\\vec{u} \\times \\vec{v}|$\n\n- Calculate magnitude: $|\\vec{u} \\times \\vec{v}| = \\sqrt{8^2 + 1^2 + 20^2}$ <marks>M1</marks>\n\n- Simplify: $|\\vec{u} \\times \\vec{v}| = \\sqrt{64 + 1 + 400} = \\sqrt{465}$ square units <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1068976,
+            "content": "Determine if the vectors $\\vec{u}$ and $\\vec{v}$ are orthogonal.",
+            "order": 3,
+            "markscheme": "- State that vectors are orthogonal if dot product equals zero: $\\vec{u} \\cdot \\vec{v} = 0$\n\n- Calculate dot product: $\\vec{u} \\cdot \\vec{v} = 5(-3) + 0(4) + (-2)(1) = -15 + 0 - 2 = -17$\n\n- Conclude vectors are not orthogonal since $\\vec{u} \\cdot \\vec{v} \\neq 0$ <marks>A1</marks>\n\n1 mark total\n\n<note>Exam Tip: Always state the condition for orthogonality before calculating the dot product</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "9a753097-de71-424e-b631-582bafd8fc12",
+        "specification": "Two lines $L_1$ and $L_2$ have vector equations:\n$$\n\\begin{aligned}\nL_1 &: \\mathbf{r} = \\mathbf{i} + \\mathbf{k} + \\lambda(2\\mathbf{i} + \\mathbf{j} - 2\\mathbf{k}) \\\\\nL_2 &: \\mathbf{r} = 3\\mathbf{i} + 2\\mathbf{j} + 2\\mathbf{k} + \\mu(\\mathbf{j} + 3\\mathbf{k})\n\\end{aligned}\n$$",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T04:33:55.547Z",
+              "reasoning": "A perpendicular vector to the plane containing two lines is found by taking the cross product of the lines\u2019 direction vectors, giving a normal to the plane.",
+              "confidence": 0.9
+            },
+            {
+              "id": 63274,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.17\u2014Vector equations of a plane > Question Type 3: Finding equation of a plane given the normal and a point",
+              "title": "Question Type 3: Finding equation of a plane given the normal and a point",
+              "labeledAt": "2026-03-06T04:33:55.547Z",
+              "reasoning": "The result is effectively a normal vector to the plane; this is closely related to forming a plane equation from a normal and a point, though the question only asks for the normal vector.",
+              "confidence": 0.35
+            }
+          ]
+        },
+        "currentRevisionId": 1457230,
+        "parts": [
+          {
+            "id": 1069266,
+            "content": "Find a vector that is perpendicular to the plane containing the lines $L_1$ and $L_2$.",
+            "order": 0,
+            "markscheme": "- Recognize that the required vector is the cross product $\\mathbf{d}_1 \\times \\mathbf{d}_2$, where $\\mathbf{d}_1$ and $\\mathbf{d}_2$ are the direction vectors of the two lines <marks>M1 M1</marks>\n\n- Substitute the direction vectors into the cross product formula:\n$$ \\mathbf{d}_1 \\times \\mathbf{d}_2 = \\begin{pmatrix} 2 \\\\ 1 \\\\ -2 \\end{pmatrix} \\times \\begin{pmatrix} 0 \\\\ 1 \\\\ 3 \\end{pmatrix} $$ <marks>M1 A1</marks>\n\n- Calculate the determinant components:\n$$ \\begin{pmatrix} 3+2 \\\\ 0-6 \\\\ 2-0 \\end{pmatrix} $$ <marks>M1 M1</marks>\n\n- State the final vector:\n$$ \\begin{pmatrix} 5 \\\\ -6 \\\\ 2 \\end{pmatrix} $$ (or any non-zero multiple) <marks>A1 A1</marks>\n\n8 marks total",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "9f11fd0b-6e88-45e2-bb56-711c4b18c2f4",
+        "specification": "Consider two vectors $\\mathbf{a} = \\begin{pmatrix} 2 \\\\ 3 \\\\ -1 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} 1 \\\\ -2 \\\\ 4 \\end{pmatrix}$.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-05T16:12:11.363Z",
+              "reasoning": "The question explicitly asks to calculate the cross product (vector product) of two 3D vectors given in component form.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1457216,
+        "parts": [
+          {
+            "id": 1069231,
+            "content": "Calculate the cross product $\\mathbf{a} \\times \\mathbf{b}$.",
+            "order": 0,
+            "markscheme": "- Set up the determinant or use the cross product formula: $\\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 2 & 3 & -1 \\\\ 1 & -2 & 4 \\end{vmatrix}$ <marks>M1</marks>\n\n- Calculate the first component: $\\mathbf{i}(3 \\cdot 4 - (-1) \\cdot (-2)) = \\mathbf{i}(12 - 2) = 10\\mathbf{i}$ <marks>A1</marks>\n\n- Calculate the second component: $-\\mathbf{j}(2 \\cdot 4 - (-1) \\cdot 1) = -\\mathbf{j}(8 + 1) = -9\\mathbf{j}$ <marks>A1</marks>\n\n- Calculate the third component: $\\mathbf{k}(2 \\cdot (-2) - 3 \\cdot 1) = \\mathbf{k}(-4 - 3) = -7\\mathbf{k}$ <marks>A1</marks>\n\n- State the final answer in vector form: $\\mathbf{a} \\times \\mathbf{b} = \\begin{pmatrix} 10 \\\\ -9 \\\\ -7 \\end{pmatrix}$ <marks>A1</marks>\n\n5 marks total\n\n<note>Award full marks for correct final answer with clear working shown</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "ab045e5d-acda-4da4-8180-0801eb036f18",
+        "specification": "Consider the parallelepiped $ABCDEFGH$ as shown in the diagram below. The position vectors of $A, C, D$ and $E$ are\n$$\n\\begin{aligned}\n\\mathbf{a} &= -5\\mathbf{i} + 2\\mathbf{j} - 4\\mathbf{k} \\\\\n\\mathbf{c} &= 2\\mathbf{i} + 3\\mathbf{j} + \\mathbf{k} \\\\\n\\mathbf{d} &= -\\mathbf{i} + \\mathbf{j} \\\\\n\\mathbf{e} &= -3\\mathbf{i} + \\mathbf{j} + 2\\mathbf{k}\n\\end{aligned}\n$$\nrespectively. $X$ is a point on the line $[EC]$ such that $\\overrightarrow{EX}=\\lambda \\overrightarrow{EC}$.\n\n![](https://cdn.mathpix.com/cropped/2025_08_30_35e371b0164ae5cd8ab3g-11.jpg?height=872&width=1266&top_left_y=1050&top_left_x=416)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63299,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.12\u2014Vector definitions > Question Type 6: Finding the distance between more difficult position vectors",
+              "title": "Question Type 6: Finding the distance between more difficult position vectors",
+              "labeledAt": "2026-03-06T12:48:43.630Z",
+              "reasoning": "Finds the shortest length |HX| in 3D using given position vectors and a variable point X on EC; this is a distance-minimization/shortest-distance setup between a fixed point and a point on a line segment.",
+              "confidence": 0.78
+            },
+            {
+              "id": 63283,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.14\u2014Vector equation of line > Question Type 1: Given two points, finding the vector equation of a line",
+              "title": "Question Type 1: Given two points, finding the vector equation of a line",
+              "labeledAt": "2026-03-06T12:48:43.630Z",
+              "reasoning": "Point X is defined on line EC via \u001coverrightarrow{EX}=\u000e\u000elambda \u001coverrightarrow{EC}\u001c, requiring a vector (parametric) equation of the line/segment EC.",
+              "confidence": 0.55
+            },
+            {
+              "id": 63288,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.13\u2014Scalar (dot) product > Question Type 1: Finding the dot product between two vectors using different operations",
+              "title": "Question Type 1: Finding the dot product between two vectors using different operations",
+              "labeledAt": "2026-03-06T12:48:43.630Z",
+              "reasoning": "Shortest distance from a point to a line typically uses perpendicularity and dot product (e.g., minimizing squared distance or enforcing direction orthogonality) in vector form.",
+              "confidence": 0.45
+            }
+          ]
+        },
+        "currentRevisionId": 1457402,
+        "parts": [
+          {
+            "id": 1069750,
+            "content": "Find the shortest length $|HX|$.",
+            "order": 0,
+            "markscheme": "- Find $\\overrightarrow{EC}$:\n  $\\overrightarrow{EC} = \\mathbf{c} - \\mathbf{e} = \\begin{pmatrix} 2 \\\\ 3 \\\\ 1 \\end{pmatrix} - \\begin{pmatrix} -3 \\\\ 1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 2 \\\\ -1 \\end{pmatrix}$ <marks>M1 A1</marks>\n\n- Express $\\overrightarrow{EX}$ in terms of $\\lambda$:\n  $\\overrightarrow{EX} = \\lambda \\overrightarrow{EC} = \\begin{pmatrix} 5\\lambda \\\\ 2\\lambda \\\\ -\\lambda \\end{pmatrix}$ <marks>M1 A1</marks>\n\n- Find expression for $\\overrightarrow{HX}$ (using $\\overrightarrow{HE} = \\overrightarrow{DA}$):\n  $\\overrightarrow{HX} = \\overrightarrow{HE} + \\overrightarrow{EX} = (\\mathbf{a} - \\mathbf{d}) + \\overrightarrow{EX}$\n  $\\overrightarrow{HX} = \\begin{pmatrix} -5 - (-1) \\\\ 2 - 1 \\\\ -4 - 0 \\end{pmatrix} + \\begin{pmatrix} 5\\lambda \\\\ 2\\lambda \\\\ -\\lambda \\end{pmatrix} = \\begin{pmatrix} -4+5\\lambda \\\\ 1+2\\lambda \\\\ -4-\\lambda \\end{pmatrix}$ <marks>M1 A1</marks>\n\n- State condition for shortest length (perpendicularity):\n  $\\overrightarrow{HX} \\cdot \\overrightarrow{EC} = 0$ <marks>M1</marks>\n\n- Substitute and expand the dot product:\n  $5(-4+5\\lambda) + 2(1+2\\lambda) - 1(-4-\\lambda) = 0$ <marks>M1 M1</marks>\n\n- Solve for $\\lambda$:\n  $-20 + 25\\lambda + 2 + 4\\lambda + 4 + \\lambda = 0$\n  $30\\lambda - 14 = 0 \\implies \\lambda = \\frac{14}{30} = \\frac{7}{15}$ <marks>A1</marks>\n\n- Calculate magnitude $|\\overrightarrow{HX}|$:\n  $|\\overrightarrow{HX}| = \\sqrt{\\left(-\\frac{5}{3}\\right)^{2} + \\left(\\frac{29}{15}\\right)^{2} + \\left(-\\frac{67}{15}\\right)^{2}}$ <marks>M1 A1</marks>\n  $= \\sqrt{\\frac{397}{15}}$ <marks>A1</marks>\n\n- Final answer:\n  Shortest length is $5.14$ units <marks>A1</marks>\n\n14 marks total",
+            "marks": 14,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "ac606516-d3d5-4be4-a33c-2c7fb963c076",
+        "specification": "Consider the points $A(1,2,3), B(3,0,5), C(4,3,5)$.\n\n1. Find $\\overrightarrow{A B} \\times \\overrightarrow{A C}$\n2. Find the area of the triangle $A B C$\n\nThe point $D(5,7,3)$ does not lie in the same plane with the triangle $A B C$. The volume of the tetrahedron $A B C D$ is given by $V=\\frac{1}{6}|\\overrightarrow{A D} \\cdot(\\overrightarrow{A B} \\times \\overrightarrow{A C})|$.\n3. Find its volume.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T02:16:50.449Z",
+              "reasoning": "Part (a) explicitly asks to compute the cross product AB \u00d7 AC.",
+              "confidence": 0.95
+            },
+            {
+              "id": 63279,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "title": "Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "labeledAt": "2026-03-06T02:16:50.449Z",
+              "reasoning": "Part (b) uses the magnitude of a cross product to find the area of triangle ABC.",
+              "confidence": 0.9
+            },
+            {
+              "id": 63278,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 3: Simplifying vector operations with dot and cross product",
+              "title": "Question Type 3: Simplifying vector operations with dot and cross product",
+              "labeledAt": "2026-03-06T02:16:50.449Z",
+              "reasoning": "Part (c) uses the scalar triple product AD \u00b7 (AB \u00d7 AC) (combining dot and cross products) to find tetrahedron volume.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1431552,
+        "parts": [
+          {
+            "id": 1049398,
+            "content": "Find $\\overrightarrow{A B} \\times \\overrightarrow{A C}$",
+            "order": 0,
+            "markscheme": "$$\n\\overrightarrow{A B} \\times \\overrightarrow{A C}=\\left(\\begin{array}{c}\n2 \\\\\n-2 \\\\\n2\n\\end{array}\\right) \\times\\left(\\begin{array}{l}\n3 \\\\\n1 \\\\\n2\n\\end{array}\\right)\n$$\n\n<marks>M1 A1</marks>\n\n$\\left(\\begin{array}{c}-6 \\\\ 2 \\\\ 8\\end{array}\\right)$\n<marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1049399,
+            "content": "Find the area of the triangle $A B C$",
+            "order": 1,
+            "markscheme": "Area of triangle $A B C$ is $\\frac{1}{2}|\\overrightarrow{A B} \\times \\overrightarrow{A C}|$\n<marks>M1 A1</marks>\n\n$\\frac{\\sqrt{36+4+64}}{2}$\n<marks>M1</marks>\n\n$\\sqrt{26}$\n<marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1049400,
+            "content": "Find its volume.",
+            "order": 2,
+            "markscheme": "Volume of tetrahedron $A B C D$ is $\\frac{1}{6}|\\overrightarrow{A D} \\cdot(\\overrightarrow{A B} \\times \\overrightarrow{A C})|$\n\n$$\n\\begin{array}{lc}\n\\frac{1}{6}\\left|\\left(\\begin{array}{l}\n4 \\\\\n5 \\\\\n0\n\\end{array}\\right) \\cdot\\left(\\begin{array}{c}\n-6 \\\\\n2 \\\\\n8\n\\end{array}\\right)\\right|\n$$ \n<marks>A1</marks>\n\n\n$\\frac{1}{6}|(-24+10)|$ <marks>A1</marks> \n\n\n$\\frac{7}{3}$ <marks>A1</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "bc16c3d2-b98c-4b72-8fc9-afbb11122222",
+        "specification": "Consider two vectors $\\mathbf{a} =\n\\begin{pmatrix} 23 \\\\ 6 \\\\ -12 \\end{pmatrix}$ and $\\mathbf{b} = \\begin{pmatrix} -13 \\\\ 7 \\\\ 18 \\end{pmatrix}$.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T05:05:12.460Z",
+              "reasoning": "Part (a) explicitly asks to calculate the vector product a \u00d7 b (cross product) of two 3D vectors.",
+              "confidence": 0.98
+            },
+            {
+              "id": 63296,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.12\u2014Vector definitions > Question Type 4: Finding the magnitude of vectors",
+              "title": "Question Type 4: Finding the magnitude of vectors",
+              "labeledAt": "2026-03-06T05:05:12.460Z",
+              "reasoning": "Part (b) asks for the magnitude of the cross product vector; this requires computing the norm (magnitude) of a vector.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1463919,
+        "parts": [
+          {
+            "id": 1080003,
+            "content": "Calculate the vector product $\\mathbf{a} \\times \\mathbf{b}$.",
+            "order": 0,
+            "markscheme": "### Method #1\n\n- Correct setup of determinant:\n$$\n\\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 23 & 6 & -12 \\\\ -13 & 7 & 18 \\end{vmatrix}\n$$\n\n- Correct expansion of i-component:\n$\\mathbf{i}(6 \\cdot 18 - (-12) \\cdot 7) = \\mathbf{i}(108 + 84) = 192\\mathbf{i}$\n<marks>A1</marks>\n\n- Correct expansion of j-component:\n$-\\mathbf{j}(23 \\cdot 18 - (-12) \\cdot (-13)) = -\\mathbf{j}(414 - 156) = -\\mathbf{j}(258) = -258\\mathbf{j}$\n<marks>A1</marks>\n\n- Correct expansion of k-component:\n$\\mathbf{k}(23 \\cdot 7 - 6 \\cdot (-13)) = \\mathbf{k}(161 + 78) = \\mathbf{k}(239)$\n<marks>A1</marks>\n\n- Final answer:\n$\\mathbf{a} \\times \\mathbf{b} = \\begin{pmatrix} 192 \\\\ -258 \\\\ 239 \\end{pmatrix}$\n<marks>A1</marks>\n\n<note>Award full marks for correct final answer with clear working shown</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1080004,
+            "content": "Find the magnitude of the vector product $\\mathbf{a} \\times \\mathbf{b}$.",
+            "order": 1,
+            "markscheme": "### Method #1\n\n$$\n\\mathbf{a} \\times \\mathbf{b} = \\begin{pmatrix}\n192 \\\\\n-258 \\\\\n239\n\\end{pmatrix}\n$$\n<marks>M1</marks>\n\n- Calculate magnitude using Pythagoras theorem:\n$$\n|\\mathbf{a} \\times \\mathbf{b}| = \\sqrt{192^2 + (-258)^2 + 239^2}\n$$\n<marks>M1</marks>\n\n- Final answer:\n$$\n\\begin{align*}\n|\\mathbf{a} \\times \\mathbf{b}| &= \\sqrt{36864 + 66564 + 57121} \\\\\n&= \\sqrt{160549} \\\\\n&\\approx 400.69\n\\end{align*}\n$$\n<marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "bf3e74be-50f3-4405-b07d-7b6f5acd3f97",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T04:38:28.815Z",
+              "reasoning": "The task is to prove the anti-commutative property of the cross product, i.e., a\u00d7b = \u2212(b\u00d7a), which directly concerns computation/definition and properties of the vector cross product.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1457583,
+        "parts": [
+          {
+            "id": 1070240,
+            "content": "Show that $\\vec{a} \\times \\vec{b} = -\\vec{b} \\times \\vec{a}$ for any two vectors $\\vec{a} = \\begin{pmatrix} x_1 \\\\ y_1 \\\\ z_1 \\end{pmatrix}$ and $\\vec{b} = \\begin{pmatrix} x_2 \\\\ y_2 \\\\ z_2 \\end{pmatrix}$",
+            "order": 0,
+            "markscheme": "- Calculate the cross product $\\vec{a} \\times \\vec{b}$: $\\vec{a} \\times \\vec{b} = \\begin{pmatrix} y_1z_2 - z_1y_2 \\\\ z_1x_2 - x_1z_2 \\\\ x_1y_2 - y_1x_2 \\end{pmatrix}$ <marks>A1</marks>\n\n- Calculate the cross product $\\vec{b} \\times \\vec{a}$: $\\vec{b} \\times \\vec{a} = \\begin{pmatrix} y_2z_1 - z_2y_1 \\\\ z_2x_1 - x_2z_1 \\\\ x_2y_1 - y_2x_1 \\end{pmatrix}$ <marks>A1</marks>\n\n- Express the negation $-\\vec{b} \\times \\vec{a}$: $-\\vec{b} \\times \\vec{a} = \\begin{pmatrix} -(y_2z_1 - z_2y_1) \\\\ -(z_2x_1 - x_2z_1) \\\\ -(x_2y_1 - y_2x_1) \\end{pmatrix}$ <marks>M1</marks>\n\n- Simplify to demonstrate equality with $\\vec{a} \\times \\vec{b}$: $\\begin{pmatrix} y_1z_2 - z_1y_2 \\\\ z_1x_2 - x_1z_2 \\\\ x_1y_2 - y_1x_2 \\end{pmatrix}$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "ca579ece-a8f0-4edf-8021-25a9f87cc721",
+        "specification": "Given any two non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$, show that $|\\mathbf{a} \\times \\mathbf{b}|^{2}=|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a} \\cdot \\mathbf{b})^{2}$",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63278,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 3: Simplifying vector operations with dot and cross product",
+              "title": "Question Type 3: Simplifying vector operations with dot and cross product",
+              "labeledAt": "2026-03-06T12:48:40.192Z",
+              "reasoning": "The task is to prove an identity relating magnitudes of the cross product, dot product, and vector magnitudes\u2014i.e., algebraic manipulation/relationships involving both dot and cross products.",
+              "confidence": 0.93
+            },
+            {
+              "id": 63289,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.13\u2014Scalar (dot) product > Question Type 2: Rewriting vector operations",
+              "title": "Question Type 2: Rewriting vector operations",
+              "labeledAt": "2026-03-06T12:48:40.192Z",
+              "reasoning": "The proof also relies on rewriting vector operations, especially using dot-product properties (e.g., expressing magnitudes via dot products) to derive the identity.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1484796,
+        "parts": [
+          {
+            "id": 1107410,
+            "content": "Given any two non-zero vectors $\\mathbf{a}$ and $\\mathbf{b}$, show that $|\\mathbf{a} \\times \\mathbf{b}|^{2}=|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a} \\cdot \\mathbf{b})^{2}$",
+            "order": 0,
+            "markscheme": "- State definition of cross product magnitude: $|\\mathbf{a} \\times \\mathbf{b}| = |\\mathbf{a}||\\mathbf{b}| \\sin \\theta$ <marks>M1</marks>\n\n- Square both sides: $|\\mathbf{a} \\times \\mathbf{b}|^{2} = |\\mathbf{a}|^{2}|\\mathbf{b}|^{2} \\sin ^{2} \\theta$ <marks>M1</marks>\n\n- Substitute identity $\\sin ^{2} \\theta = 1-\\cos ^{2} \\theta$: $|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}\\left(1-\\cos ^{2} \\theta\\right)$ <marks>M1 A1</marks>\n\n- Expand the expression: $|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-|\\mathbf{a}|^{2}|\\mathbf{b}|^{2} \\cos ^{2} \\theta$ <marks>M1</marks>\n\n- Group terms: $|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(|\\mathbf{a}||\\mathbf{b}| \\cos \\theta)^{2}$ <marks>M1</marks>\n\n- Substitute scalar product definition $\\mathbf{a} \\cdot \\mathbf{b} = |\\mathbf{a}||\\mathbf{b}| \\cos \\theta$: $|\\mathbf{a}|^{2}|\\mathbf{b}|^{2}-(\\mathbf{a} \\cdot \\mathbf{b})^{2}$ <marks>M1 A1</marks>\n\n- Conclude the proof: Hence shown.\n\n8 marks total",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "de33b6fc-9850-4486-84d2-50c8d646ebd6",
+        "specification": "Let $\\mathbf{a}=\\begin{pmatrix}2 \\\\ 1 \\\\ 0\\end{pmatrix}, \\mathbf{b}=\\begin{pmatrix}-1 \\\\ p \\\\ 6\\end{pmatrix}$ and $\\mathbf{c}=\\begin{pmatrix}2 \\\\ -4 \\\\ 3\\end{pmatrix}$",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T04:58:33.054Z",
+              "reasoning": "Part (a) explicitly asks to compute a cross product a \u00d7 b.",
+              "confidence": 0.95
+            },
+            {
+              "id": 63278,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 3: Simplifying vector operations with dot and cross product",
+              "title": "Question Type 3: Simplifying vector operations with dot and cross product",
+              "labeledAt": "2026-03-06T04:58:33.054Z",
+              "reasoning": "Part (b) uses the condition that a \u00d7 b is parallel to c, requiring use of properties of the cross product and scalar multiples to solve for parameter p.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1457867,
+        "parts": [
+          {
+            "id": 1071000,
+            "content": "Find $\\mathbf{a} \\times \\mathbf{b}$",
+            "order": 0,
+            "markscheme": "- Attempt to evaluate the cross product: $\\mathbf{a} \\times \\mathbf{b} = \\begin{pmatrix} 1(6) - 0(p) \\\\ 0(-1) - 2(6) \\\\ 2(p) - 1(-1) \\end{pmatrix}$ <marks>M1</marks>\n\n- Correct expansion terms: $\\begin{pmatrix} 6 \\\\ -12 \\\\ 2p+1 \\end{pmatrix}$ <marks>M1</marks>\n\n- State the correct final vector: $\\begin{pmatrix} 6 \\\\ -12 \\\\ 2p+1 \\end{pmatrix}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1071001,
+            "content": "Find the value of $p$, given that $\\mathbf{a} \\times \\mathbf{b}$ is parallel to $\\mathbf{c}$",
+            "order": 1,
+            "markscheme": "- State the condition for parallel vectors: $\\begin{pmatrix} 6 \\\\ -12 \\\\ 2p+1 \\end{pmatrix} = k \\begin{pmatrix} 2 \\\\ -4 \\\\ 3 \\end{pmatrix}$ or $\\frac{6}{2} = \\frac{-12}{-4} = \\frac{2p+1}{3}$ <marks>M1</marks>\n\n- Attempt to equate ratios of corresponding components: $\\frac{6}{2} = \\frac{-12}{-4} = \\frac{2p+1}{3}$ <marks>M1</marks>\n\n- Identify the scale factor or ratio: $\\frac{6}{2} = 3$ <marks>A1</marks>\n\n- Equate the third component ratio to the scale factor: $\\frac{2p+1}{3} = 3$ <marks>A1</marks>\n\n- Simplify the equation: $2p+1 = 9$ <marks>A1</marks>\n\n- Calculate the final value: $p = 4$ <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "e04a91e4-4cc2-421a-a490-0ec958da6c2e",
+        "specification": "Consider the points $A(1,2,3), B(3,0,5), C(4,3,5)$. The vectors $\\overrightarrow{O A}, \\overrightarrow{O B}$ and $\\overrightarrow{O C}$ where $O$ is the origin, form three concurrent edges of a parallelepiped $O A P B C Q S R$ as shown in the following diagram.\n![](https://cdn.mathpix.com/cropped/2025_08_30_35e371b0164ae5cd8ab3g-18.jpg?height=975&width=1329&top_left_y=962&top_left_x=348)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T07:52:03.404Z",
+              "reasoning": "Part (b) uses the volume formula V = |(OA \u00d7 OB) \u00b7 OC|, requiring calculation of a cross product of two 3D vectors.",
+              "confidence": 0.9
+            },
+            {
+              "id": 63278,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 3: Simplifying vector operations with dot and cross product",
+              "title": "Question Type 3: Simplifying vector operations with dot and cross product",
+              "labeledAt": "2026-03-06T07:52:03.404Z",
+              "reasoning": "Computing the scalar triple product involves combining cross and dot products (vector operations simplification/combination).",
+              "confidence": 0.75
+            },
+            {
+              "id": 63295,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.12\u2014Vector definitions > Question Type 3: Doing simple calculations with vectors",
+              "title": "Question Type 3: Doing simple calculations with vectors",
+              "labeledAt": "2026-03-06T07:52:03.404Z",
+              "reasoning": "Part (a) requires forming other vertices of a parallelepiped via vector addition/subtraction of position vectors (basic 3D vector calculations to get coordinates).",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1431553,
+        "parts": [
+          {
+            "id": 1049401,
+            "content": "Find the coordinates of $P, Q, R$ and $S$.",
+            "order": 0,
+            "markscheme": "$\\overrightarrow{O P}=\\overrightarrow{O A}+\\overrightarrow{A P}=\\overrightarrow{O A}+\\overrightarrow{A B}$\n<marks>M1 A1</marks>\n\n$\\begin{array}{lr}\n\\left(\\begin{array}{c}\n2 \\\\\n1 \\\\\n-2\n\\end{array}\\right)+\\left(\\begin{array}{c}\n2 \\\\\n-1 \\\\\n-1\n\\end{array}\\right)$ <marks>A1</marks>\n\n\n$\\left(\\begin{array}{c}\n4 \\\\\n0 \\\\\n-3\n\\end{array}\\right) & {[\\mathrm{M} 1]} \\\\\nP=(4,0,-3) & {[\\mathrm{A} 1]} \\\\\n\\overrightarrow{O Q}=\\overrightarrow{O A}+\\overrightarrow{A Q}=\\overrightarrow{O A}+\\overrightarrow{O C} & {[\\mathrm{M} 1][\\mathrm{A} 1]} \\\\\n\\left(\\begin{array}{c}\n2 \\\\\n1 \\\\\n-2\n\\end{array}\\right)+\\left(\\begin{array}{c}\n1 \\\\\n2 \\\\\n2\n\\end{array}\\right) & {[\\mathrm{M} 1]} \\\\\n\\left(\\begin{array}{c}\n3 \\\\\n3 \\\\\n0\n\\end{array}\\right) & {[\\mathrm{M} 1]} \\\\\nQ=(3,3,0) & {[\\mathrm{A} 1]} \\\\\n\\overrightarrow{O R}=\\overrightarrow{O B}+\\overrightarrow{B R}=\\overrightarrow{O B}+\\overrightarrow{O C} & {[\\mathrm{M} 1][\\mathrm{A} 1]} \\\\\n\\left(\\begin{array}{c}\n2 \\\\\n-1 \\\\\n-1\n\\end{array}\\right)+\\left(\\begin{array}{c}\n1 \\\\\n2 \\\\\n2\n\\end{array}\\right) & {[\\mathrm{M} 1]} \\\\\n\\left(\\begin{array}{l}\n3 \\\\\n1 \\\\\n1\n\\end{array}\\right) & {[\\mathrm{M} 1]} \\\\\nR=(3,1,1) & {[\\mathrm{A} 1]} \\\\\n\\overrightarrow{O S}=\\overrightarrow{O P}+\\overrightarrow{P S}=\\overrightarrow{O P}+\\overrightarrow{O C} & {[\\mathrm{M} 1][\\mathrm{A} 1]}\n\\end{array}\n$$\n\n$\\left(\\begin{array}{c}4 \\\\ 0 \\\\ -3\\end{array}\\right)+\\left(\\begin{array}{l}1 \\\\ 2 \\\\ 2\\end{array}\\right)$\n<marks>M1</marks>\n\n$\\left(\\begin{array}{c}5 \\\\ 2 \\\\ -1\\end{array}\\right)$\n<marks>M1</marks>\n\n$S=(5,2,-1)$\n<marks>A1</marks>",
+            "marks": 20,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1049402,
+            "content": "Find the volume, $V$, of the parallelepiped given that $V=|\\overrightarrow{O A} \\times \\overrightarrow{O B} \\cdot \\overrightarrow{O C}|$",
+            "order": 1,
+            "markscheme": "$\\overrightarrow{O A} \\times \\overrightarrow{O B}=\\left(\\begin{array}{c}\n2 \\\\\n1 \\\\\n-2\n\\end{array}\\right) \\times\\left(\\begin{array}{c}\n2 \\\\\n-1 \\\\\n-1\n\\end{array}\\right)$\n\n<marks>M1 M1</marks>\n\n$\\left(\\begin{array}{l}-3 \\\\ -2 \\\\ -4\\end{array}\\right)$\n<marks>A1</marks>\n\n$\\overrightarrow{O A} \\times \\overrightarrow{O B} \\cdot \\overrightarrow{O C}=\\left(\\begin{array}{l}-3 \\\\ -2 \\\\ -4\\end{array}\\right) \\cdot\\left(\\begin{array}{l}1 \\\\ 2 \\\\ 2\\end{array}\\right)$\n<marks>M1 A1</marks>\n\n$|-3-4-8|$\n<marks>A1</marks>\n\nVolume is 15 cubic units.\n<marks>A1</marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ef09c97e-02cb-4734-bd14-af259875a90f",
+        "specification": "Consider the points $A(1,2,1)$, $B(0,-1,2)$, $C(1,0,2)$ and $D(2,-1,-6)$.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T18:14:45.113Z",
+            "resultId": 38530
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T13:10:56.494Z",
+              "reasoning": "Part (c) explicitly asks to calculate a cross product AB \u00d7 BC.",
+              "confidence": 0.95
+            },
+            {
+              "id": 63279,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "title": "Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "labeledAt": "2026-03-06T13:10:56.494Z",
+              "reasoning": "Part (d) finds the area of triangle ABC, which is obtained from the magnitude of the cross product of two side vectors.",
+              "confidence": 0.9
+            },
+            {
+              "id": 63294,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.12\u2014Vector definitions > Question Type 2: Finding a vector given two points in 3D",
+              "title": "Question Type 2: Finding a vector given two points in 3D",
+              "labeledAt": "2026-03-06T13:10:56.494Z",
+              "reasoning": "Part (b) asks for vectors AB and BC from given 3D points, i.e., forming vectors from two points in 3D.",
+              "confidence": 0.85
+            },
+            {
+              "id": 63283,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.14\u2014Vector equation of line > Question Type 1: Given two points, finding the vector equation of a line",
+              "title": "Question Type 1: Given two points, finding the vector equation of a line",
+              "labeledAt": "2026-03-06T13:10:56.494Z",
+              "reasoning": "Part (e) requires parametric equations for a line through D with direction perpendicular to the plane of triangle ABC (using the normal from AB\u00d7BC), i.e., vector/parametric line equation from a point and direction.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1696602,
+        "parts": [
+          {
+            "id": 1158714,
+            "content": "Find the vectors $\\overrightarrow{AB}$ and $\\overrightarrow{BC}$.",
+            "order": 0,
+            "markscheme": "- Find vector $\\overrightarrow{AB}$: $\\begin{pmatrix}-1 \\\\ -3 \\\\ 1\\end{pmatrix}$ <marks>A1</marks>\n\n- Find vector $\\overrightarrow{BC}$: $\\begin{pmatrix}1 \\\\ 1 \\\\ 0\\end{pmatrix}$ <marks>A1</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158715,
+            "content": "Calculate $\\overrightarrow{AB} \\times \\overrightarrow{BC}$.",
+            "order": 1,
+            "markscheme": "- Attempt to calculate cross product: $\\begin{pmatrix}-1 \\\\ -3 \\\\ 1\\end{pmatrix} \\times \\begin{pmatrix}1 \\\\ 1 \\\\ 0\\end{pmatrix}$ <marks>M1 A1</marks>\n\n- Obtain correct cross product: $\\begin{pmatrix}-1 \\\\ 1 \\\\ 2\\end{pmatrix}$ <marks>A1 </marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158716,
+            "content": "Hence or otherwise, find the area of triangle $ABC$.",
+            "order": 2,
+            "markscheme": "- Use area formula $\\frac{1}{2}|\\overrightarrow{AB} \\times \\overrightarrow{BC}|$: $\\frac{1}{2}\\sqrt{(-1)^2+1^2+2^2} = \\frac{1}{2}\\sqrt{1+1+4}$ <marks>M1 A1</marks>\n\n- State final area: $\\frac{\\sqrt{6}}{2}$ <marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158717,
+            "content": "Find a set of parametric equations for the line $L$ through the point $D$ and perpendicular to the triangle $ABC$.",
+            "order": 3,
+            "markscheme": "- State vector equation using point $D$ and normal vector: $\\vec{r}=\\begin{pmatrix}2 \\\\ -1 \\\\ -6\\end{pmatrix}+t\\begin{pmatrix}-1 \\\\ 1 \\\\ 2\\end{pmatrix}$ <marks>M1 A1</marks>\n\n- Express as parametric equations:\n  \n\t$x=2-t$ \n  \n\t$y=-1+t$ \n  \n\t$z=-6+2t$ \n\t\n\t<marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f1689794-6917-444a-a6eb-51476fbb579d",
+        "specification": "Let $\\quad a=\\begin{pmatrix}2 \\\\ 0 \\\\ 3\\end{pmatrix}$ and $b=\\begin{pmatrix}1 \\\\ 2 \\\\ 3\\end{pmatrix}$",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T04:58:20.867Z",
+              "reasoning": "Parts (a) and (b) explicitly ask for the cross product a\u00d7b and b\u00d7a of two 3D vectors.",
+              "confidence": 0.95
+            },
+            {
+              "id": 63288,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.13\u2014Scalar (dot) product > Question Type 1: Finding the dot product between two vectors using different operations",
+              "title": "Question Type 1: Finding the dot product between two vectors using different operations",
+              "labeledAt": "2026-03-06T04:58:20.867Z",
+              "reasoning": "Part (c) asks to show a\u00d7b is perpendicular to both a and b, typically demonstrated by taking dot products (a\u00d7b)\u00b7a and (a\u00d7b)\u00b7b and showing they are zero.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1458027,
+        "parts": [
+          {
+            "id": 1071413,
+            "content": "Find $a \\times b$",
+            "order": 0,
+            "markscheme": "- Calculate the cross product of vectors $a$ and $b$:\n  $$a \\times b = \\begin{pmatrix} 0(3) - 3(2) \\\\ 3(1) - 2(3) \\\\ 2(2) - 0(1) \\end{pmatrix}$$\n  <marks>M1</marks>\n\n- State the final vector:\n  $$a \\times b = \\begin{pmatrix} -6 \\\\ -3 \\\\ 4 \\end{pmatrix}$$\n  <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1071414,
+            "content": "Find $b \\times a$",
+            "order": 1,
+            "markscheme": "- Recognize that $b \\times a = -(a \\times b)$ or calculate directly:\n  $$b \\times a = -\\begin{pmatrix} -6 \\\\ -3 \\\\ 4 \\end{pmatrix}$$\n  <marks>M1</marks>\n\n- State the final vector:\n  $$b \\times a = \\begin{pmatrix} 6 \\\\ 3 \\\\ -4 \\end{pmatrix}$$\n  <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1071415,
+            "content": "Show that $a \\times b$ is perpendicular to both $a$ and $b$.",
+            "order": 2,
+            "markscheme": "- Calculate the dot product of $(a \\times b)$ and $a$:\n  $$(a \\times b) \\cdot a = -12 + 0 + 12 = 0$$\n  <marks>M1 A1</marks>\n\n- Calculate the dot product of $(a \\times b)$ and $b$:\n  $$(a \\times b) \\cdot b = -6 - 6 + 12 = 0$$\n  <marks>M1 A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "fecadb1d-2cbc-4470-b958-239b7db2a614",
+        "specification": "Consider a parallelepiped ABCDEFGH with vertices as $A(2,5,-1)$, $B(3,8,0)$, $C(5,4,3)$ and $H(5,2,7)$ as seen in the figure below.\n![](https://pub-images.revisiondojo.com/plots/fbdb9f63-760e-4c64-81dc-0f5d6003967a.png)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 297,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 63276,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 1: Finding the cross product of two vectors",
+              "title": "Question Type 1: Finding the cross product of two vectors",
+              "labeledAt": "2026-03-06T12:47:40.997Z",
+              "reasoning": "Part (c) explicitly asks for the vector (cross) product \\(\\overrightarrow{DA} \\times \\overrightarrow{DC}\\), which is computing a cross product of two 3D vectors.",
+              "confidence": 0.92
+            },
+            {
+              "id": 63279,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.16\u2014Vector product > Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "title": "Question Type 4: Finding the area of a parallelogram or triangle given two vectors",
+              "labeledAt": "2026-03-06T12:47:40.997Z",
+              "reasoning": "Part (d) uses the magnitude of a cross product (area of a parallelogram) together with a third edge to obtain the volume of a parallelepiped (via scalar triple product / base area \u00d7 height).",
+              "confidence": 0.78
+            },
+            {
+              "id": 63294,
+              "isHl": true,
+              "path": "Geometry & Trigonometry > AHL 3.12\u2014Vector definitions > Question Type 2: Finding a vector given two points in 3D",
+              "title": "Question Type 2: Finding a vector given two points in 3D",
+              "labeledAt": "2026-03-06T12:47:40.997Z",
+              "reasoning": "Part (b) requires finding coordinates of another vertex of a parallelepiped from given 3D points, i.e., forming/using vectors between points in 3D to determine an unknown point.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1485205,
+        "parts": [
+          {
+            "id": 1108680,
+            "content": "Find the coordinates of vertex $D$.",
+            "order": 1,
+            "markscheme": "- Method to find $D$, e.g., $\\overrightarrow{AB} = \\overrightarrow{DC}$ or $\\overrightarrow{AD} = \\overrightarrow{BC}$ <marks>M1</marks>\n\n- Finding relevant vector: $\\overrightarrow{AB} = \\begin{pmatrix} 1 \\\\ 3 \\\\ 1 \\end{pmatrix}$ or similar <marks>A1</marks>\n\n- State the coordinates of $D$: $\\begin{pmatrix} 4 \\\\ 1 \\\\ 2 \\end{pmatrix}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1108681,
+            "content": "Find the vector product $\\overrightarrow{DA} \\times \\overrightarrow{DC}$.",
+            "order": 2,
+            "markscheme": "- Attempt to find vectors $\\overrightarrow{DA}$ and $\\overrightarrow{DC}$: $\\overrightarrow{DA} = \\begin{pmatrix} -2 \\\\ 4 \\\\ -3 \\end{pmatrix}$ and $\\overrightarrow{DC} = \\begin{pmatrix} 1 \\\\ 3 \\\\ 1 \\end{pmatrix}$ <marks>A1</marks>\n\n- Attempt to calculate the cross product: $\\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ -2 & 4 & -3 \\\\ 1 & 3 & 1 \\end{vmatrix}$ <marks>M1</marks>\n\n- Correct expansion: $\\mathbf{i}(4 - (-9)) - \\mathbf{j}(-2 - (-3)) + \\mathbf{k}(-6 - 4)$ <marks>A1</marks>\n\n- State result: $\\begin{pmatrix} 13 \\\\ -1 \\\\ -10 \\end{pmatrix}$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1108682,
+            "content": "Hence, calculate the volume of the parallelepiped.",
+            "order": 3,
+            "markscheme": "- Method to find volume using scalar triple product or $|\\overrightarrow{DA} \\times \\overrightarrow{DC}| \\times \\text{height}$ <marks>M1</marks>\n\n- Finding vector $\\overrightarrow{DH}$: $\\begin{pmatrix} 1 \\\\ 1 \\\\ 5 \\end{pmatrix}$ <marks>A1</marks>\n\n- Substitution into volume formula: $|(\\overrightarrow{DA} \\times \\overrightarrow{DC}) \\cdot \\overrightarrow{DH}| = |13(1) + (-1)(1) + (-10)(5)|$ <marks>A1</marks>\n\n- Calculate final volume: $|-38| = 38$ <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      }
+    ],
+    "count": "26",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10149,
+      "title": "AHL 3.16\u2014Vector product",
+      "slug": "ahl-3-16-vector-product",
+      "parentTopicId": 10133
+    },
+    "subject": {
+      "id": 297,
+      "title": "Mathematics Analysis and Approaches (AA)",
+      "slug": "ib-math-aa",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "26",
+      "byQuestion": {}
+    }
+  }
+}

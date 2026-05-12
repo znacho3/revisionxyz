@@ -1,3 +1,2925 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:636cbdc919c8bdd7031f245d4da45658b8cc257b620f350631e90228d46d4bbc
-size 134580
+{
+  "json": {
+    "questions": [
+      {
+        "id": "01323865-1f65-4426-be35-b5898ebefb14",
+        "specification": "A cross-sectional study involving over 200 elite and sub-elite endurance athletes examined their preference for various recovery modalities. The aim was to understand patterns in usage and rationale for techniques such as massage, sleep, compression garments, and cold water immersion, based on sex, event type, and competition level.\n\nFigures 1 to 3 summarize the reported use of these methods across different population segments.\n\nFigure 1: Recovery Modalities: Sex-Based Usage  \n\n  \n![](/api/r2/quiz-image?key=zfD39eB0fP3jWel-ifkZY)\n\nFigure 2: Recovery Modalities by Discipline\n\n![](/api/r2/quiz-image?key=fy5N4uLtcd1N18NxjSf-I)\n\nFigure 3: Recovery Modalities by Competitive Tier\n\n![](/api/r2/quiz-image?key=e4Uv62csjTB6NEmHbqZZQ)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T11:24:17.278Z",
+            "resultId": 44423
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-07T08:16:29.855Z",
+              "reasoning": "The question is centered on athlete recovery modalities (massage, sleep/nap, compression garments, cold water immersion, sauna), comparing usage patterns across sex/discipline/level and evaluating recovery strategies\u2014directly aligned with recovery techniques.",
+              "confidence": 0.93
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:16:29.855Z",
+              "reasoning": "Parts asking for physiological benefits of sauna and trends in cold water immersion relate to body responses to thermal stress and returning toward equilibrium, which links to homeostasis mechanisms.",
+              "confidence": 0.46
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:16:29.855Z",
+              "reasoning": "The final synthesis includes evaluating sleep-related strategies as \u2018essential\u2019 and includes a psychological dimension of recovery; this can overlap with coping/recovery behaviours, though it is secondary to physical recovery strategies.",
+              "confidence": 0.23
+            }
+          ]
+        },
+        "currentRevisionId": 1697573,
+        "parts": [
+          {
+            "id": 1159888,
+            "content": "Based on Figure 1, which recovery method was most widely adopted overall, and by how many more men than women used this method?",
+            "order": 0,
+            "markscheme": "- Most used method overall: Sauna bathing <marks>1 mark</marks>\n\n- Used by ~90 men and ~55 women \u2192 difference = approximately 35 athletes <marks>1 mark</marks>\n\n<Note> Accept 34\u201336 range\n\n<Note> If a candidate clearly justifies an alternative \u201cmost used\u201d method due to very similar bar heights (within ~5 athletes), award the first mark.\n\n<Note> Allow reasonable rounding from the y-axis scale when calculating the difference.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159889,
+            "content": "Using Figure 1 only, identify the recovery method with the lowest reported usage and suggest one reason it may be less preferred.",
+            "order": 1,
+            "markscheme": "- Least used method (Figure 1): Compression garments OR Cold water immersion (accept the lowest as read from the figure) <marks>1 mark</marks>\n\n- Possible reason (any one): cost; limited access/facilities; discomfort; time required/logistical difficulty; lack of perceived effectiveness/evidence; interference with training/routines <marks>1 mark</marks>\n\n<Note> Accept other plausible reasons linked to uptake.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159890,
+            "content": "Of racewalkers, middle-distance, and long-distance runners, which reported the highest uptake of sauna bathing?",
+            "order": 2,
+            "markscheme": "- Group with highest sauna use: Racewalking athletes <marks>1 mark</marks>\n\n<Note> If two groups are essentially equal based on the plotted values, accept either with clear reference to the figure.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159891,
+            "content": "Outline one physiological benefit and one psychological benefit associated with sauna use in recovery.",
+            "order": 3,
+            "markscheme": "- Physiological (any one): increased blood flow/vasodilation; reduced muscle soreness via relaxation of muscle; improved thermoregulatory adaptations; possible increased plasma volume; improved range of motion/soft tissue extensibility <marks>1 mark</marks>\n\n- Psychological (any one): relaxation; reduced stress/anxiety; improved perceived recovery/well-being; improved sleep quality; reduced perceived fatigue <marks>1 mark</marks>\n\n<Note> Accept other valid benefits.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159892,
+            "content": "Describe the trend in the use of cold water immersion from national to elite-level athletes.",
+            "order": 4,
+            "markscheme": "- Cold water immersion use declines with competition level (national \u2192 international \u2192 elite) <marks>1 mark</marks>\n\n- Highest in national-level athletes, lowest in elite athletes <marks>1 mark</marks>\n\n<Note> Accept descriptions such as \u201cmoderate decrease\u201d/\u201cgradual decline\u201d if consistent with the figure, or approximate values quoted from the bars.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159893,
+            "content": "Synthesize data across all three figures. To what extent does the data support the claim that sleep-related strategies (daytime nap and long night sleep) are essential components of athlete recovery?",
+            "order": 5,
+            "markscheme": "- Identifies that sleep-related methods (daytime naps and/or long night sleep) show high reported use across the segments presented <marks>1 mark</marks>\n\n- Uses data from more than one figure to support the claim (e.g., consistent high uptake across sex, discipline, and/or competition tier) <marks>1 mark</marks>\n\n- Links sleep to recovery outcomes (e.g., physical restoration such as tissue repair/glycogen restoration and/or psychological restoration such as mood/cognitive recovery) <marks>1 mark</marks>\n\n<Note> Credit evaluative balance (to support \u201cto what extent\u201d): acknowledges that other modalities also have high uptake and/or that self-reported, cross-sectional data cannot establish necessity/causation.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "078d7185-e00b-4370-803f-0db7fdc3f729",
+        "specification": "Using the image, what is the primary physiological reason that sleeping in alignment with the circadian rhythm enhances recovery?\n\n![](https://pub-images.revisiondojo.com/question-images/ox29-u8yeYHa4sw7ONO1k)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:14:10.690Z",
+            "resultId": 42682
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T16:02:48.105Z",
+              "reasoning": "The question asks why aligning sleep with circadian rhythm enhances recovery, emphasizing physiological recovery mechanisms (e.g., growth hormone release, tissue repair), which fits exercise recovery strategies/techniques.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T16:02:48.105Z",
+              "reasoning": "Circadian rhythm effects on recovery are largely mediated by endocrine regulation (e.g., nighttime growth hormone secretion), directly linking to endocrine system regulation of biological processes.",
+              "confidence": 0.66
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T16:02:48.105Z",
+              "reasoning": "Circadian alignment relates to maintaining homeostasis via biological clocks and day\u2013night regulation, which supports recovery through stable internal conditions.",
+              "confidence": 0.46
+            }
+          ]
+        },
+        "currentRevisionId": 1696420,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938796,
+            "content": "Sleep aligned with circadian rhythm lowers blood pressure and improves creatine synthesis.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "While sleep can influence blood pressure, creatine synthesis occurs primarily in the liver and kidneys and is not the primary mechanism of circadian-enhanced recovery."
+          },
+          {
+            "id": 4938797,
+            "content": "Circadian alignment promotes polyphenol absorption and muscle glycogen synthesis.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Polyphenol absorption and muscle glycogen synthesis are primarily dictated by dietary intake and post-exercise recovery protocols rather than the circadian timing of sleep."
+          },
+          {
+            "id": 4938798,
+            "content": "Nighttime circadian alignment boosts growth hormone release and tissue repair.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "The largest pulses of growth hormone (GH) are secreted during slow-wave sleep (SWS). Aligning sleep with the natural circadian cycle (nighttime) maximizes SWS and the associated GH release, which supports protein synthesis and the repair of muscle and other tissues."
+          },
+          {
+            "id": 4938799,
+            "content": "Early-morning circadian peaks increase $\\text{VO}_2\\text{ max}$ and electrolyte retention.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "$\\text{VO}_2\\text{ max}$ is a measure of aerobic capacity and does not peak in the early morning to facilitate recovery; additionally, electrolyte retention is regulated by hormonal signals like aldosterone, not primarily by sleep-circadian alignment."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "094e423b-3a72-4ce3-a241-4a4c71ba0540",
+        "specification": "In hot environments, which factor most increases fatigue risk for marathon runners?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:14:36.859Z",
+            "resultId": 42694
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T16:02:55.295Z",
+              "reasoning": "The question focuses on fatigue risk in hot environments driven by heat stress and fluid loss through sweating\u2014core concepts of water and electrolyte balance and dehydration effects on performance.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1696424,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938808,
+            "content": "Hyperhydration",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938809,
+            "content": "Heat stress and fluid loss through sweating",
+            "correct": true,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4938810,
+            "content": "Reduced blood volume (plasma volume) due to dehydration",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938811,
+            "content": "Decreased electrolyte absorption",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0a4f46b1-da21-4fd5-a507-5d27178a47dd",
+        "specification": "Which physiological process is a characteristic of the fast (alactacid) component of excess post-exercise oxygen consumption (EPOC)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-0a4f46b1-da21-4fd5-a507-5d27178a47dd-1771953315939",
+            "generatedAt": "2026-02-25T07:45:13.949Z",
+            "sourceRevisionId": 1420331
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:34:14.636Z",
+            "resultId": 44438
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29912,
+              "isHl": true,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "title": "A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "labeledAt": "2026-03-07T08:16:36.264Z",
+              "reasoning": "The question explicitly asks about the fast (alactacid) component of EPOC and which recovery process characterizes it (e.g., phosphocreatine resynthesis), which is covered under EPOC and recovery.",
+              "confidence": 0.94
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T08:16:36.264Z",
+              "reasoning": "Understanding the fast/alactacid EPOC component relies on knowledge of the phosphagen (ATP-PC) energy system and phosphocreatine restoration, which is part of energy production through phosphagen/glycolytic/oxidative systems.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1697447,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941440,
+            "content": "Resynthesis of muscle phosphocreatine stores",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. Fast (alactacid) EPOC is primarily used to restore ATP-PC stores (including phosphocreatine resynthesis) and re-oxygenate myoglobin/haemoglobin."
+          },
+          {
+            "id": 4941441,
+            "content": "Metabolic oxidation of accumulated lactate",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Lactate removal/oxidation is associated with the slow (lactacid) component of EPOC, not the fast component."
+          },
+          {
+            "id": 4941442,
+            "content": "Restoration of the body's resting core temperature",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Elevated body temperature contributes to the slow component of EPOC due to increased metabolic rate and thermoregulatory demands."
+          },
+          {
+            "id": 4941443,
+            "content": "Full replenishment of liver and muscle glycogen",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Glycogen resynthesis is a longer-term recovery process and aligns with the slow component rather than the fast (alactacid) component."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0aab88c3-dd86-4769-ab97-fa21ce14893a",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-07T08:16:37.743Z",
+              "reasoning": "The question asks for primary causes of fatigue in a 100m sprint, which targets physiological sources/mechanisms of fatigue (e.g., phosphocreatine depletion, metabolite accumulation, neuromuscular factors).",
+              "confidence": 0.86
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T08:16:37.743Z",
+              "reasoning": "Explaining sprint fatigue typically requires linking to dominant energy systems in a 100m (phosphagen and fast glycolysis) and how their limits contribute to fatigue.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 765779,
+        "parts": [
+          {
+            "id": 483062,
+            "content": "Discuss primary causes of fatigue experienced by a 100m sprinter.",
+            "order": 0,
+            "markscheme": "Possible causes of fatigue for a 100m sprinter:\n\n- Depletion of muscle glycogen/energy stores <marks>1 mark</marks>\n- During intense exercise, muscle glycogen is rapidly used up\nAccumulation of lactic acid/hydrogen ions <marks>1 mark</marks>\n- Depletion of phosphocreatine stores <marks>1 mark</marks>\n- diet / dehydration <marks>1 mark</marks>\n- perception of fatigue will differ between individuals <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0b847512-a153-40d2-8b6d-c83509bc1686",
+        "specification": "With reference to the supplement label shown, which claim is most scientifically supported about creatine monohydrate\u2019s role in post-exercise recovery?\n\n![](https://pub-images.revisiondojo.com/question-images/X3YRSBlKpOOCFozyvPyaG)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:50:11.487Z",
+            "resultId": 30074
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:16:20.840Z",
+              "reasoning": "The options focus on phosphocreatine/ATP resynthesis and distinguishing energy-system claims (phosphagen vs oxidative), which aligns with energy production through phosphagen, glycolytic and oxidative systems.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:16:20.840Z",
+              "reasoning": "The question asks about a supplement\u2019s role in exercise recovery (e.g., DOMS, post-exercise processes), which fits strategies/techniques for exercise recovery.",
+              "confidence": 0.56
+            }
+          ]
+        },
+        "currentRevisionId": 1695549,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936649,
+            "content": "Enhances slow-twitch muscle fiber recruitment during long-duration endurance events",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Creatine supplementation is primarily associated with increased phosphocreatine availability and improved performance in short-duration, high-intensity exercise rather than directly enhancing slow-twitch recruitment in endurance events."
+          },
+          {
+            "id": 4936650,
+            "content": "Increases phosphocreatine stores to support rapid ATP resynthesis in high-intensity efforts",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Creatine monohydrate increases intramuscular creatine/phosphocreatine stores, which supports faster ATP resynthesis via the phosphagen system, aiding repeated high-intensity efforts and potentially improving recovery between bouts."
+          },
+          {
+            "id": 4936651,
+            "content": "Directly decreases delayed-onset muscle soreness (DOMS) after aerobic training",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Evidence for creatine directly reducing DOMS is inconsistent; any effect is not as well supported as its role in increasing phosphocreatine availability and ATP resynthesis capacity."
+          },
+          {
+            "id": 4936652,
+            "content": "Reduces cortisol levels post-exercise, promoting faster glycogen resynthesis",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Creatine\u2019s primary supported mechanism is increased phosphocreatine availability; it is not reliably supported as a supplement that reduces cortisol to accelerate glycogen resynthesis."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0e207313-8e1b-4df1-9ba4-fd78783a6d10",
+        "specification": "With relevant sporting examples",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-07T08:16:41.458Z",
+              "reasoning": "The question asks to outline different types of fatigue athletes experience, which aligns directly with sources/mechanisms and classifications of fatigue within the Fatigue and recovery (HL) unit.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 830293,
+        "parts": [
+          {
+            "id": 483047,
+            "content": "Outline the various types of fatigue athletes may experience.",
+            "order": 0,
+            "markscheme": "- peripheral fatigue: Inability of muscles to continue contracting effectively due to depletion of energy sources or accumulation of metabolic waste products. <marks>1 mark</marks>\n\n- Central/mental fatigue: Decreased alertness, focus, and motivation due to prolonged physical or mental exertion impairing the central nervous system <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "19954c1b-38dc-4ac9-a28a-f3a21aaa4318",
+        "specification": "After a high-intensity training microcycle, which observation indicates psychological recovery?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-19954c1b-38dc-4ac9-a28a-f3a21aaa4318-1771953315939",
+            "generatedAt": "2026-02-25T07:44:10.521Z",
+            "sourceRevisionId": 1420456
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:44:43.688Z",
+            "resultId": 42428
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T16:01:03.645Z",
+              "reasoning": "The question asks for a psychological indicator of recovery/readiness after a high-intensity microcycle (e.g., sense of preparedness), which aligns with recovery monitoring and techniques within fatigue and recovery.",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1696836,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939696,
+            "content": "A significant reduction in blood lactate concentration",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939697,
+            "content": "An improved sense of preparedness for the next event",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939698,
+            "content": "A decrease in the severity of delayed onset muscle soreness (DOMS)",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939699,
+            "content": "The restoration of muscle glycogen to pre-exercise levels",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1c57afd0-23be-4833-9ff5-6127118720b5",
+        "specification": "After an athlete completes a 2 km run. ",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-07T08:16:27.811Z",
+              "reasoning": "The prompt asks generally why recovery is needed after a 2 km run, which centers on post-exercise fatigue mechanisms (e.g., metabolite accumulation, substrate depletion, muscle damage) that make recovery necessary.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-07T08:16:27.811Z",
+              "reasoning": "Although it doesn\u2019t ask for specific methods, explaining why recovery is needed often links to restoring homeostasis and readiness to train/perform again, which is closely tied to recovery strategies and their purpose.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 815856,
+        "parts": [
+          {
+            "id": 483554,
+            "content": "Describe why an athlete needs to recover.",
+            "order": 0,
+            "markscheme": "- Replenish/replace energy stores (ATP/CP/glycogen) used during exercise. E.g muscle / liver glycogen stores <marks>1 mark</marks>\n- Remove lactic acid/metabolic waste products built up during exercise <marks>1 mark</marks>\n- Allow the body to return to homeostasis/resting state <marks>1 mark</marks>\n- Recovery is needed to achieve physiological adaptations <marks>1 mark</marks>\n-  \n\n<note>Accept any other valid physiological reasons for recovery</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2bd1fdb3-6df4-4de3-827b-32f106723a3f",
+        "specification": "Why does carbohydrate + protein intake after exercise accelerate recovery more than carbohydrate alone?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:06:52.932Z",
+            "resultId": 41494
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T15:39:39.795Z",
+              "reasoning": "Question asks about post-exercise recovery being accelerated by carbohydrate+protein vs carbohydrate alone, which is a nutritional recovery strategy (enhanced insulin response and glycogen resynthesis).",
+              "confidence": 0.78
+            },
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-06T15:39:39.795Z",
+              "reasoning": "Focuses on roles of macronutrients (carbohydrate and protein) in restoring energy stores and supporting recovery processes after exercise.",
+              "confidence": 0.63
+            }
+          ]
+        },
+        "currentRevisionId": 1696961,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940148,
+            "content": "Protein increases insulin response and glycogen synthesis.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4940149,
+            "content": "Protein is converted directly to glycogen to speed up glycogen resynthesis.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "A"
+          },
+          {
+            "id": 4940150,
+            "content": "Protein directly restores phosphocreatine stores in muscle.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "A"
+          },
+          {
+            "id": 4940151,
+            "content": "Protein reduces muscle protein breakdown, improving net muscle protein balance during recovery.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "A"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "369d5afd-9453-4616-a116-5dcabdb69f35",
+        "specification": "Which metabolic/biochemical change within the skeletal muscle fibre (intracellular) is a major contributor to peripheral fatigue during high-intensity exercise?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-369d5afd-9453-4616-a116-5dcabdb69f35-1771953315939",
+            "generatedAt": "2026-02-25T08:03:19.557Z",
+            "sourceRevisionId": 1420310
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:58:30.654Z",
+            "resultId": 30257
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T05:17:50.016Z",
+              "reasoning": "The question targets peripheral fatigue mechanisms during high-intensity exercise, specifically metabolic factors like increased H+ concentration contributing to fatigue.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:17:50.016Z",
+              "reasoning": "Increased H+ accumulation is linked to high-intensity glycolytic energy production, so understanding the glycolytic energy system supports answering the question.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695616,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936841,
+            "content": "Reduction in the firing rate of the motor neurons",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect \u2014 this reflects central/neural factors rather than an intracellular metabolic/biochemical change in the muscle fibre."
+          },
+          {
+            "id": 4936842,
+            "content": "Increased concentration of hydrogen ions ($H^+$)",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct (B)."
+          },
+          {
+            "id": 4936843,
+            "content": "Depletion of intramuscular glycogen stores",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect \u2014 glycogen depletion contributes more to fatigue in longer-duration exercise than acute high-intensity bouts."
+          },
+          {
+            "id": 4936844,
+            "content": "Decreased recruitment of motor units by the brain",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect \u2014 this is a central (CNS) contribution, not a metabolic/biochemical change within the muscle fibre."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3c0dfbb2-d932-4594-a8fa-832a9ca4075d",
+        "specification": "Which physiological process is a characteristic of the slow component of excess post-exercise oxygen consumption (EPOC) (recovery processes lasting minutes to hours)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-3c0dfbb2-d932-4594-a8fa-832a9ca4075d-1771953315939",
+            "generatedAt": "2026-02-25T07:44:23.985Z",
+            "sourceRevisionId": 1583736
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:32:51.135Z",
+            "resultId": 30931
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29912,
+              "isHl": true,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "title": "A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "labeledAt": "2026-03-06T05:31:10.122Z",
+              "reasoning": "The question asks about the slow component of excess post-exercise oxygen consumption (EPOC) and which recovery process characterizes it (e.g., lactate removal, temperature/hormonal effects), directly matching the EPOC and recovery HL leaf topic.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1694923,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934757,
+            "content": "Initial rapid decline in heart rate",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934758,
+            "content": "Restoration of muscle phosphocreatine stores",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934759,
+            "content": "Removal of lactic acid from the muscles",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934760,
+            "content": "Re-saturation of myoglobin with oxygen",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3db01fb1-a66d-48a6-ac4b-7500f782411b",
+        "specification": "An athlete's oxygen consumption remains significantly higher than resting levels for several hours after a high-intensity interval training session. Which of the following is the main cause of the slow component of excess post-exercise oxygen consumption (EPOC) during the hours after exercise?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-3db01fb1-a66d-48a6-ac4b-7500f782411b-1771953315939",
+            "generatedAt": "2026-02-25T07:21:40.596Z",
+            "sourceRevisionId": 1420436
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:16:59.903Z",
+            "resultId": 29960
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29912,
+              "isHl": true,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "title": "A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "labeledAt": "2026-03-06T05:15:38.102Z",
+              "reasoning": "The question asks about the prolonged elevated oxygen consumption for hours after high-intensity exercise and specifically the 'slow component' of recovery\u2014this is the definition and physiology of EPOC and its contributors (e.g., elevated body temperature/metabolic rate).",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696192,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938488,
+            "content": "Immediate resynthesis of the ATP-CP system",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938489,
+            "content": "Re-saturation of myoglobin with oxygen",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938490,
+            "content": "Elevated metabolic rate due to increased body temperature",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938491,
+            "content": "Rapid re-oxygenation of hemoglobin in the blood",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4007f7c6-69b9-4291-93bd-fb48afe468a7",
+        "specification": "Why does fatigue develop faster across a series of repeated sprints than during one isolated sprint?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:16:02.806Z",
+            "resultId": 29951
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T05:15:33.485Z",
+              "reasoning": "The question asks why fatigue develops faster in repeated sprints; the correct mechanism involves phosphocreatine depletion and incomplete resynthesis between efforts, which is a key source/mechanism of fatigue.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1696186,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938464,
+            "content": "Faster glycogen depletion due to limited aerobic contribution between sprints",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938465,
+            "content": "Phosphocreatine depletion and incomplete recovery between sprints",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938466,
+            "content": "Accumulation of $H^+$ (reduced pH) impairing glycolytic enzyme activity and muscle contraction",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938467,
+            "content": "Increased reliance on anaerobic glycolysis as oxygen delivery and $\\dot{V}O_2$ lag behind demand at the start of each sprint",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "41a3d598-7234-4392-a0a1-a5a9430dcf2b",
+        "specification": "Which recovery method is most effective in promoting circulation and reducing muscle soreness after resistance training?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:05:27.679Z",
+            "resultId": 41698
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T15:56:51.293Z",
+              "reasoning": "The question asks which recovery method best promotes circulation and reduces muscle soreness after resistance training, directly targeting exercise recovery strategies (e.g., active recovery, stretching, cryotherapy).",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696949,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940108,
+            "content": "Passive recovery",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940109,
+            "content": "Active recovery (light jogging or cycling)",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Active recovery maintains a higher rate of blood flow (circulation) compared to passive recovery, which helps in the removal of metabolic waste products and reduces the severity of delayed onset muscle soreness (DOMS)."
+          },
+          {
+            "id": 4940110,
+            "content": "Static stretching",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940111,
+            "content": "Cryotherapy",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4bf8fa60-c5bf-4e82-967c-545aaea927fa",
+        "specification": "Why does lactic acid accumulation lead to fatigue in high-intensity exercise?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:19:00.469Z",
+            "resultId": 41729
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T15:56:58.263Z",
+              "reasoning": "The question asks why lactate (and associated H+ accumulation) contributes to fatigue during high-intensity exercise via lowered pH impairing enzyme activity and muscle contraction\u2014this is a core mechanism of fatigue.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T15:56:58.263Z",
+              "reasoning": "Lactate production/accumulation is tied to high-intensity glycolytic energy production; understanding why it occurs during anaerobic glycolysis supports the explanation of fatigue.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1697015,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940304,
+            "content": "It directly prevents glycogen storage",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940305,
+            "content": "It lowers muscle pH, impairing enzyme activity and contraction",
+            "correct": true,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4940306,
+            "content": "It reduces calcium binding to troponin, decreasing force production",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940307,
+            "content": "It increases reliance on fat oxidation, reducing ATP resynthesis rate",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "50563405-3789-4750-80b5-81a06ddbd91b",
+        "specification": "Refer to the graph showing body temperature fluctuations across a $24\\text{-hour}$ period.\n\nAn elite swimmer performs a time trial at $07:30$ and again at $18:00$. The athlete reports feeling more sluggish during the morning trial despite equal sleep hours the previous night.\n\n![](https://pub-images.revisiondojo.com/question-images/Cq-fKAuDtLwBxRqsY7zMI)\n\nWhich physiological factor most likely contributed to the lower morning performance?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:21:49.325Z",
+              "reasoning": "The question uses a 24-hour body-temperature fluctuation graph and asks why morning performance is lower; this is circadian/diurnal variation in core temperature as part of homeostatic regulation.",
+              "confidence": 0.84
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T05:21:49.325Z",
+              "reasoning": "Options reference melatonin and circadian hormonal influences, implicating endocrine regulation of biological processes contributing to time-of-day performance differences.",
+              "confidence": 0.63
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T05:21:49.325Z",
+              "reasoning": "The correct option mentions neuromuscular coordination, linking time-of-day physiological state (lower core temperature) to nervous-system control of movement/performance.",
+              "confidence": 0.46
+            }
+          ]
+        },
+        "currentRevisionId": 1583762,
+        "parts": [],
+        "options": [
+          {
+            "id": 4554677,
+            "content": "Core body temperature is relatively low in the morning, affecting neuromuscular coordination.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Body temperature follows a circadian rhythm, reaching a minimum in the early morning (typically around $04:00$) and peaking in the early evening. At $07:30$, core body temperature is still significantly lower than at $18:00$. This lower temperature reduces enzyme activity and nerve conduction velocity, which impairs neuromuscular coordination and overall physical performance."
+          },
+          {
+            "id": 4554678,
+            "content": "Blood lactate levels are higher in the morning.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Resting blood lactate levels do not typically show a morning peak that would explain sluggishness; in fact, they remain relatively stable or are slightly lower at rest in the morning compared to the evening."
+          },
+          {
+            "id": 4554679,
+            "content": "Increased melatonin secretion stimulates early physical performance.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Melatonin is a hormone that induces sleep and its levels are higher at night. Increased melatonin secretion would inhibit rather than stimulate physical performance."
+          },
+          {
+            "id": 4554680,
+            "content": "Circadian rhythm promotes muscle peak force output before sunrise.",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Muscle peak force output generally follows the core body temperature curve, which peaks in the late afternoon or early evening, not before sunrise."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "53e56075-7078-4652-a0d3-2e2f1c138040",
+        "specification": "Which of the following best describes peripheral fatigue originating within the working skeletal muscle (not the CNS) during high-intensity cycling?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:06:03.119Z",
+            "resultId": 30453
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T05:19:32.345Z",
+              "reasoning": "The question asks to identify peripheral fatigue in high-intensity cycling, which is characterized by local muscular mechanisms such as metabolite (lactate/H+) accumulation\u2014covered under sources and mechanisms of fatigue.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695360,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936169,
+            "content": "Failure of motor neurons to generate action potentials",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936170,
+            "content": "Lack of oxygen transport to the brain",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936171,
+            "content": "Accumulation of metabolites like lactate and hydrogen ions ($\\text{H}^+$) in muscles",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936172,
+            "content": "Decreased psychological motivation",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "77c76a32-fb0f-4c47-b21c-8ce82ab6fee6",
+        "specification": "Which metabolite accumulation is a key cause of peripheral fatigue during high-intensity anaerobic exercise?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-77c76a32-fb0f-4c47-b21c-8ce82ab6fee6-1771953315939",
+            "generatedAt": "2026-02-25T07:35:01.795Z",
+            "sourceRevisionId": 1420333
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:55:12.011Z",
+            "resultId": 30445
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T05:18:40.483Z",
+              "reasoning": "The question asks about a physiological cause of peripheral fatigue during high-intensity anaerobic activity (e.g., H+ accumulation), which is directly within mechanisms/sources of fatigue.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:18:40.483Z",
+              "reasoning": "Peripheral fatigue in high-intensity anaerobic work is closely tied to glycolytic energy system byproducts (H+), so knowledge of anaerobic energy production supports answering.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695592,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936753,
+            "content": "An increase in the concentration of hydrogen ions ($H^+$)",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: A \u2014 increased $H^+$ (reduced pH) is associated with peripheral fatigue during high-intensity anaerobic exercise."
+          },
+          {
+            "id": 4936754,
+            "content": "A decrease in the levels of inorganic phosphate ($P_i$)",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: $P_i$ tends to accumulate (increase), not decrease, during high-intensity exercise and contributes to peripheral fatigue when elevated."
+          },
+          {
+            "id": 4936755,
+            "content": "The depletion of liver glycogen stores",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: liver glycogen depletion is more associated with prolonged exercise and central/blood glucose effects rather than acute peripheral fatigue in high-intensity anaerobic bouts."
+          },
+          {
+            "id": 4936756,
+            "content": "A reduction in the neural drive from the motor cortex",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: reduced neural drive is primarily a central fatigue mechanism, not peripheral fatigue."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7871fe3c-aad4-456c-a3d9-30f5be3bdb8a",
+        "specification": "Why is dehydration a significant contributor to fatigue in hot environments?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:56:54.587Z",
+            "resultId": 30358
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:18:19.726Z",
+              "reasoning": "The question focuses on dehydration in hot environments and its effects (reduced plasma volume, impaired thermoregulation), which is central to water and electrolyte balance in body functioning.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T05:18:19.726Z",
+              "reasoning": "It asks why dehydration contributes to fatigue, linking hydration status to mechanisms/sources of fatigue (particularly in heat stress contexts).",
+              "confidence": 0.58
+            }
+          ]
+        },
+        "currentRevisionId": 1695607,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936805,
+            "content": "It reduces stroke volume and increases heart rate (cardiovascular drift).",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Dehydration does not primarily *increase* performance capacity; this option describes a consequence that can contribute to fatigue but is not the best answer compared with reduced plasma volume and impaired thermoregulation."
+          },
+          {
+            "id": 4936806,
+            "content": "It reduces plasma volume and thermoregulation efficiency.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: dehydration lowers plasma volume, reducing skin blood flow and sweating, impairing heat dissipation and increasing cardiovascular strain, contributing to fatigue."
+          },
+          {
+            "id": 4936807,
+            "content": "It increases the risk of hypothermia by increasing evaporative heat loss.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "In hot environments, dehydration typically reduces sweat rate/evaporative cooling and increases the risk of hyperthermia, not hypothermia."
+          },
+          {
+            "id": 4936808,
+            "content": "It increases oxygen diffusion in the lungs, leading to earlier fatigue.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Dehydration in heat is not primarily linked to pulmonary oxygen diffusion limitations; fatigue is more strongly related to reduced plasma volume, cardiovascular strain, and impaired thermoregulation."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7d5cf562-91f7-4c29-b04d-67b20c5a0f5a",
+        "specification": "After a soccer match, which recovery strategy most directly aids in replenishing glycogen stores?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-07T17:36:29.687Z",
+              "reasoning": "Replenishing glycogen stores most directly involves carbohydrate intake, which falls under macronutrients and their role in energy maintenance.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-07T17:36:29.687Z",
+              "reasoning": "The question is framed as a post-match recovery strategy choice; glycogen replenishment is a key recovery goal covered within exercise recovery strategies.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1420314,
+        "parts": [],
+        "options": [
+          {
+            "id": 4152771,
+            "content": "Stretching",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4152772,
+            "content": "Carbohydrate intake",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4152773,
+            "content": "Cold-water immersion",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4152774,
+            "content": "Sleep",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7dc0f8c3-ce08-4e9c-a3fb-1ec0b01cc39d",
+        "specification": "A swimmer completes a 200m butterfly race. Which method results in the fastest blood lactate clearance during the first 15 minutes of the recovery period?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-7dc0f8c3-ce08-4e9c-a3fb-1ec0b01cc39d-1771953315939",
+            "generatedAt": "2026-02-25T07:57:40.591Z",
+            "sourceRevisionId": 1420460
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:24:57.328Z",
+            "resultId": 30235
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:17:33.845Z",
+              "reasoning": "The question asks which recovery method most effectively reduces blood lactate in the first 15 minutes post-race\u2014this is directly about acute recovery strategies (active vs passive recovery, cryotherapy, nutrition).",
+              "confidence": 0.92
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:17:33.845Z",
+              "reasoning": "Blood lactate accumulation/clearance is tied to glycolytic vs oxidative energy system dynamics and lactate metabolism, which underpins why active recovery enhances lactate removal.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1695444,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936381,
+            "content": "Low-intensity swimming (active recovery)",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: active recovery maintains blood flow and oxygen delivery, accelerating lactate oxidation/clearance compared with passive or other recovery modalities."
+          },
+          {
+            "id": 4936382,
+            "content": "Sitting poolside (passive recovery)",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: passive recovery reduces muscle pump and blood flow, generally slowing lactate clearance versus active recovery."
+          },
+          {
+            "id": 4936383,
+            "content": "Immediate consumption of high-glycemic carbohydrates",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: carbohydrate intake may support glycogen resynthesis but does not produce the fastest lactate clearance within the first 15 minutes compared with active recovery."
+          },
+          {
+            "id": 4936384,
+            "content": "Total body immersion in an ice bath (cryotherapy)",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: cold immersion can reduce blood flow and may impair lactate clearance relative to active recovery in the early recovery period."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7fe99944-448a-4792-bba6-df49fd42ef62",
+        "specification": "Which mechanism explains delayed-onset muscle soreness (DOMS)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:54:09.591Z",
+            "resultId": 42001
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T15:58:47.524Z",
+              "reasoning": "DOMS is a post-exercise phenomenon linked to muscle damage and inflammatory response, fitting mechanisms of fatigue/recovery (microtears rather than lactate).",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1696873,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939836,
+            "content": "Lactic acid accumulation",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect: lactate is cleared relatively quickly after exercise and does not explain DOMS (which peaks 24\u201372 hours later)."
+          },
+          {
+            "id": 4939837,
+            "content": "Microtears in muscle fibres causing inflammation",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: eccentric exercise can cause microtrauma to muscle/connective tissue leading to an inflammatory response and soreness in the following days."
+          },
+          {
+            "id": 4939838,
+            "content": "Muscle spasm after exercise",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: muscle spasm has been suggested historically but is not the accepted primary mechanism for DOMS."
+          },
+          {
+            "id": 4939839,
+            "content": "Accumulation of hydrogen ions (H+) and other metabolic by-products",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: acute metabolite accumulation contributes to immediate fatigue/burning sensation, not delayed soreness characteristic of DOMS."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "832653c9-b31c-47a9-b424-4013d0fa3157",
+        "specification": "Which recovery technique is most effective for accelerating lactate removal during the first 10\u201320 minutes after interval training?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:50:14.088Z",
+            "resultId": 31390
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:38:52.794Z",
+              "reasoning": "The question asks which recovery technique best accelerates lactate/metabolic by-product removal after interval training\u2014this is directly about exercise recovery strategies (e.g., active recovery vs passive rest, massage, ice baths).",
+              "confidence": 0.9
+            },
+            {
+              "id": 29912,
+              "isHl": true,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "title": "A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "labeledAt": "2026-03-06T05:38:52.794Z",
+              "reasoning": "Lactate clearance after intense intervals is linked to post-exercise oxygen consumption and recovery physiology, which can be considered under EPOC/recovery concepts, though the question is more practical/strategy-focused than mechanistic.",
+              "confidence": 0.45
+            }
+          ]
+        },
+        "currentRevisionId": 1694819,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934365,
+            "content": "Ice baths",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934366,
+            "content": "Massage therapy",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934367,
+            "content": "Active recovery at low intensity",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934368,
+            "content": "Prolonged rest without movement",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8bd33f11-f73d-414c-a2e0-9e09caaa93c4",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-07T08:17:03.059Z",
+              "reasoning": "Cryotherapy methods (eg ice baths, cold packs, cryo chambers) are recovery techniques used post-exercise, fitting strategies/techniques for exercise recovery.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29937,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.2 Initial treatment methods and therapeutic modalities for injury recovery",
+              "title": "B.3.2.2 Initial treatment methods and therapeutic modalities for injury recovery",
+              "labeledAt": "2026-03-07T08:17:03.059Z",
+              "reasoning": "Cryotherapy is also a common therapeutic modality used in injury management/recovery (eg icing acute soft-tissue injuries), aligning with initial treatment and therapeutic modalities.",
+              "confidence": 0.63
+            }
+          ]
+        },
+        "currentRevisionId": 1583749,
+        "parts": [
+          {
+            "id": 1137665,
+            "content": "Describe two common cryotherapy methods used for recovery.",
+            "order": 1,
+            "markscheme": "### Method 1: Whole body cooling (WBC) / Cold water immersion (CWI)\n- immersing part/all of the body in cold water ($10\\text{--}15\\,^{\\circ}\\text{C}$) for a period of time ($10\\text{--}20\\text{ minutes}$) <marks>1</marks>\n\n### Method 2: Applying ice packs/cold packs\n- placing ice/gel packs on the affected area for a period of time ($15\\text{--}20\\text{ minutes}$) <marks>1</marks>\n\n### Method 3: Contrast water therapy (CWT)\n- exposing the body or body parts to hot and cold water treatments <marks>1</marks>\n\n<note>Award [1] max for each method described up to [2]. Accept any other appropriate cryotherapy methods.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "996c80c0-a4de-426c-84dc-db2bf0c091e5",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29937,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.2 Initial treatment methods and therapeutic modalities for injury recovery",
+              "title": "B.3.2.2 Initial treatment methods and therapeutic modalities for injury recovery",
+              "labeledAt": "2026-03-07T08:16:24.819Z",
+              "reasoning": "Cryotherapy is a therapeutic modality used in injury management (cold therapy/ice application) and is typically covered under initial treatment methods and therapeutic modalities for injury recovery.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-07T08:16:24.819Z",
+              "reasoning": "Cryotherapy can also be discussed as a recovery technique post-exercise, though the question context is more aligned with injury treatment modalities.",
+              "confidence": 0.35
+            }
+          ]
+        },
+        "currentRevisionId": 857078,
+        "parts": [
+          {
+            "id": 483558,
+            "content": "Define *Cryotherapy*. ",
+            "order": 0,
+            "markscheme": "Body cooling for therapeutic purposes. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "9b443bd6-5d15-4396-9be1-94ec2378603e",
+        "specification": "Why is sleep considered one of the most important recovery strategies for athletes?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:53:58.147Z",
+            "resultId": 42060
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T15:59:00.187Z",
+              "reasoning": "The question asks why sleep is a key recovery strategy for athletes, focusing on tissue repair and hormonal regulation\u2014core concepts within exercise recovery strategies.",
+              "confidence": 0.93
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T15:59:00.187Z",
+              "reasoning": "The correct option explicitly involves hormonal regulation, which links to endocrine system function and regulation of biological processes.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1696871,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939828,
+            "content": "It improves reaction time and decision-making during performance.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939829,
+            "content": "It enhances tissue repair and hormonal regulation.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939830,
+            "content": "It increases cognitive function and concentration in training and competition.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939831,
+            "content": "It improves mood and reduces perceived stress, supporting consistent training.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b1c2b67c-5903-4e2e-b2b7-d5714acbae4d",
+        "specification": "Which timing of carbohydrate intake is most effective for maximizing muscle glycogen resynthesis post-exercise?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:18:17.902Z",
+            "resultId": 30845
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:27:24.812Z",
+              "reasoning": "The question asks about optimal timing of carbohydrate intake to speed post-exercise recovery (glycogen resynthesis), which is a recovery strategy.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-06T05:27:24.812Z",
+              "reasoning": "It specifically concerns carbohydrate (a macronutrient) intake and its role in supporting performance and recovery via refuelling energy stores.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1695083,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935257,
+            "content": "Within 30 minutes after exercise",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: carbohydrate consumed as soon as possible post-exercise maximizes glycogen resynthesis rate."
+          },
+          {
+            "id": 4935258,
+            "content": "2\u20133 hours after exercise",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Less effective: delaying carbohydrate intake reduces the early, highest rate of glycogen resynthesis."
+          },
+          {
+            "id": 4935259,
+            "content": "Only before sleep",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Not most effective: waiting until before sleep delays intake beyond the optimal early recovery window."
+          },
+          {
+            "id": 4935260,
+            "content": "12 hours after exercise",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Not effective: a long delay misses the optimal period for rapid glycogen replenishment."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b7187d25-ef53-4662-a33a-26f8114fba54",
+        "specification": "The table shows the primary physiological processes occurring during the two components of excess post-exercise oxygen consumption (EPOC) following a high-intensity bout of exercise.\n\n| Stage | Primary Physiological Process |\n| :--- | :--- |\n| **Stage 1 (Fast)** | **[ X ]** |\n| **Stage 2 (Slow)** | Oxidation of lactic acid |\n\nWhich process correctly identifies **[ X ]**?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-b7187d25-ef53-4662-a33a-26f8114fba54-1771953315939",
+            "generatedAt": "2026-02-25T08:04:24.487Z",
+            "sourceRevisionId": 1420463
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29912,
+              "isHl": true,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "title": "A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "labeledAt": "2026-03-06T05:17:24.796Z",
+              "reasoning": "The question asks about the fast vs slow components of excess post-exercise oxygen consumption (EPOC) and the primary physiological processes involved (e.g., phosphocreatine restoration, lactate oxidation), which is directly covered under EPOC and recovery.",
+              "confidence": 0.98
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:17:24.796Z",
+              "reasoning": "Identifying the fast EPOC process involves understanding ATP-PC/phosphagen system recovery (restoration of intramuscular phosphocreatine), which relates to energy system physiology.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1687494,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926111,
+            "content": "Removal of carbon dioxide from the circulatory system",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926112,
+            "content": "Replenishment of muscle glycogen through gluconeogenesis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926113,
+            "content": "Restoration of intramuscular phosphocreatine stores",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926114,
+            "content": "Reduction of core body temperature back to homeostasis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b8c6bf5b-e5c7-4308-af41-ff0cd81940d5",
+        "specification": "A basketball player shows reduced performance late in the game due to central fatigue. Which factor is associated with central fatigue?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:43:56.520Z",
+            "resultId": 30155
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T05:17:14.422Z",
+              "reasoning": "The question is explicitly about central fatigue late in a game, pointing to CNS-related mechanisms (e.g., neurotransmitter availability) as a source of fatigue, which falls under sources and mechanisms of fatigue.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T05:17:14.422Z",
+              "reasoning": "Central fatigue involves the central nervous system and neural control of performance; neurotransmitter availability is a nervous system factor.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695520,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936585,
+            "content": "Reduced neurotransmitter availability in the central nervous system",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: reduced CNS neurotransmitter availability can impair motor drive and contribute to central fatigue."
+          },
+          {
+            "id": 4936586,
+            "content": "Accumulation of hydrogen ions (H$^+$) in the muscle leading to reduced enzyme activity",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Peripheral fatigue mechanism (metabolic acidosis), not central fatigue."
+          },
+          {
+            "id": 4936587,
+            "content": "Depletion of muscle glycogen stores reducing ATP availability for contraction",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Peripheral fatigue mechanism affecting muscle energy supply, not a central (CNS) cause."
+          },
+          {
+            "id": 4936588,
+            "content": "Impaired excitation\u2013contraction coupling at the neuromuscular junction reducing force production",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Peripheral/neuromuscular mechanism rather than a central (CNS) cause."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "bc1cbb0f-270f-4a40-a9d5-886be7f75d86",
+        "specification": "Which strategy results in the fastest phosphocreatine resynthesis immediately after exercise?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T05:57:02.417Z",
+            "resultId": 31461
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:40:03.657Z",
+              "reasoning": "Phosphocreatine resynthesis is a key aspect of the phosphagen (ATP-PC) energy system and depends on oxygen availability during recovery.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:40:03.657Z",
+              "reasoning": "The question asks about the most effective recovery strategy, linking to recovery techniques/strategies (HL), including passive rest to restore ATP-PC stores.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1694695,
+        "parts": [],
+        "options": [
+          {
+            "id": 4933929,
+            "content": "Sleep",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4933930,
+            "content": "Passive rest with oxygen availability",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4933931,
+            "content": "High protein intake",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4933932,
+            "content": "Massage",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c4e73c3c-fc66-4cf0-85a9-1b0e843b825e",
+        "specification": "During the fast (alactacid) component of excess post-exercise oxygen consumption (EPOC), what is one of the main physiological tasks being completed?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-c4e73c3c-fc66-4cf0-85a9-1b0e843b825e-1771953315939",
+            "generatedAt": "2026-02-25T07:33:09.538Z",
+            "sourceRevisionId": 1420317
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:26:26.291Z",
+            "resultId": 30198
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29912,
+              "isHl": true,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "title": "A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "labeledAt": "2026-03-06T05:17:27.430Z",
+              "reasoning": "The question explicitly asks about the fast component of recovery during EPOC and the main physiological task occurring (e.g., PC resynthesis), which is core content of EPOC and recovery processes.",
+              "confidence": 0.97
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:17:27.430Z",
+              "reasoning": "Understanding the fast component involves knowledge of the phosphagen system and rapid resynthesis of phosphocreatine stores, linking to energy system function.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695454,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936409,
+            "content": "Oxidation of accumulated lactate in the heart and liver",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936410,
+            "content": "Conversion of lactate back into liver glycogen via the Cori cycle",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936411,
+            "content": "Resynthesis of muscle phosphocreatine (PC) stores",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936412,
+            "content": "Continued transport of carbon dioxide from the tissues to the lungs",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cd3ec8a8-0f1e-42ee-a1f3-b4bdf23e4894",
+        "specification": "Which recovery method primarily reduces muscle soreness by increasing blood flow and waste removal?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T16:01:45.556Z",
+              "reasoning": "The question asks about a recovery method (e.g., massage) that reduces muscle soreness via increased blood flow and waste removal\u2014this directly fits strategies and techniques for exercise recovery.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1420289,
+        "parts": [],
+        "options": [
+          {
+            "id": 4152668,
+            "content": "Cold water immersion",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4152669,
+            "content": "Stretching",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4152670,
+            "content": "Massage",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4152671,
+            "content": "Compression garments",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d64aa1a0-1531-40bc-b291-e4a94bf3d5f2",
+        "specification": "Which recovery strategy is most likely to produce faster blood lactate clearance following exercise?\n\n| Time post-exercise (min) | Blood lactate concentration (mmol L\u207b\u00b9) Group A (active recovery) | Blood lactate concentration (mmol L\u207b\u00b9) Group B (passive recovery) |\n|-------------------------|------------------------------------------------------------------|-------------------------------------------------------------------|\n| 0                       | 10.5                                                             | 10.5                                                              |\n| 15                      | 6.4                                                              | 8.1                                                               |\n| 30                      | 3.2                                                              | 6.9                                                               |\n| 45                      | 1.8                                                              | 5.4                                                               |",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T10:01:11.718Z",
+            "resultId": 29997
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:15:53.193Z",
+              "reasoning": "The question compares active vs passive recovery using post-exercise lactate values and asks for the physiological explanation (active recovery increases circulation and lactate clearance), which is directly about recovery strategies/techniques.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29912,
+              "isHl": true,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "title": "A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "labeledAt": "2026-03-06T05:15:53.193Z",
+              "reasoning": "Interpreting post-exercise recovery data and mechanisms overlaps with EPOC/recovery physiology, though the prompt is more specifically about lactate clearance than oxygen debt.",
+              "confidence": 0.45
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:15:53.193Z",
+              "reasoning": "Lactate production/clearance is tied to glycolytic vs oxidative energy system contributions; however, the focus is recovery method rather than energy system identification.",
+              "confidence": 0.4
+            }
+          ]
+        },
+        "currentRevisionId": 1695633,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936897,
+            "content": "Group A; active recovery enhances lactate clearance via increased circulation.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: Group A shows lower blood lactate at 15, 30 and 45 min, consistent with faster lactate clearance during active recovery due to maintained blood flow."
+          },
+          {
+            "id": 4936898,
+            "content": "Group A; passive recovery enhances mitochondrial efficiency.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: passive recovery is not the recovery strategy used by Group A, and mitochondrial efficiency is not the primary acute explanation for faster lactate clearance shown in the data."
+          },
+          {
+            "id": 4936899,
+            "content": "Group B; increased blood flow during passive recovery speeds lactate clearance.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: the data show Group B has higher blood lactate at each time point after 0 min, indicating slower (not faster) lactate clearance; passive recovery does not increase blood flow compared with active recovery."
+          },
+          {
+            "id": 4936900,
+            "content": "Group B; reduced heart rate accelerates lactate buffering.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: Group B demonstrates slower lactate clearance in the table, and \u201clactate buffering\u201d/heart rate reduction does not explain a faster reduction in blood lactate here."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e128c88f-7dac-472a-8a09-eb9051c0105f",
+        "specification": "The table shows the primary limiting factor associated with fatigue for two different athletic events:\n\n| Athlete | Event | Duration | Primary limiting factor | \n| :--- | :--- | :--- | :--- | \n| 1 | Marathon | 2\u20134 hours | Depletion of muscle glycogen | \n| 2 | 800 m run | 1.5\u20132 minutes | **[X]** | \n\nWhich physiological change correctly replaces **[X]** in the table?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-e128c88f-7dac-472a-8a09-eb9051c0105f-1771953315939",
+            "generatedAt": "2026-02-25T07:42:59.502Z",
+            "sourceRevisionId": 1583752
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:20:05.236Z",
+            "resultId": 42353
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T16:00:44.999Z",
+              "reasoning": "The question asks for the primary limiting factor/mechanism of fatigue for an 800 m run (1.5\u20132 min), which centers on physiological fatigue mechanisms such as H+ accumulation from high-rate anaerobic glycolysis.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T16:00:44.999Z",
+              "reasoning": "Identifying fatigue in an 800 m event requires understanding which energy system predominates (glycolytic with some phosphagen/oxidative contribution) and associated byproducts (e.g., H+), linking to energy production systems.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1696738,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939312,
+            "content": "Accumulation of $H^+$ ions",
+            "correct": true,
+            "order": 0,
+            "markscheme": "High-intensity exercise lasting 1 to 2 minutes relies heavily on anaerobic glycolysis, which results in the accumulation of lactic acid and hydrogen ions ($H^+$). This leads to a decrease in muscle pH (acidosis), which inhibits enzymatic activity and interferes with muscle contraction."
+          },
+          {
+            "id": 4939313,
+            "content": "Restoration of muscle phosphocreatine (PCr)",
+            "correct": false,
+            "order": 1,
+            "markscheme": "The restoration of phosphocreatine is a recovery process that occurs during the fast component of excess post-exercise oxygen consumption (EPOC), not a cause of fatigue during the event."
+          },
+          {
+            "id": 4939314,
+            "content": "Increased levels of serotonin in the brain",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Changes in neurotransmitter levels, such as increased serotonin, are associated with central fatigue, which typically develops during prolonged, sub-maximal endurance activities rather than short-duration high-intensity events."
+          },
+          {
+            "id": 4939315,
+            "content": "Depletion of muscle phosphocreatine (PCr)",
+            "correct": false,
+            "order": 3,
+            "markscheme": "PCr is a primary anaerobic energy store that can become substantially reduced during very high-intensity efforts; however, for an 800 m run (1.5\u20132 minutes) fatigue is more commonly attributed to the high reliance on anaerobic glycolysis and the associated accumulation of $H^+$ (metabolic acidosis) rather than PCr depletion alone."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e2859168-7509-4d3d-b520-672de5cb91fd",
+        "specification": "What recovery strategy best supports muscle repair following resistance training?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:06:44.705Z",
+            "resultId": 41498
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T15:39:40.523Z",
+              "reasoning": "The question asks for the best post-resistance-training recovery strategy to support muscle repair (protein intake plus rest), which is directly about recovery strategies/techniques.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-06T15:39:40.523Z",
+              "reasoning": "Choosing adequate protein intake involves understanding the role of macronutrients (protein) in supporting tissue repair and recovery.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1696960,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940144,
+            "content": "High carbohydrate intake only",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940145,
+            "content": "Adequate protein intake and rest",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940146,
+            "content": "Passive recovery without nutrition",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940147,
+            "content": "High carbohydrate intake with insufficient protein",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "eec247d0-90b0-4bb3-a5bf-288dcd0cc3b0",
+        "specification": "During a marathon, fatigue is most likely associated with:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-07T17:36:36.176Z",
+              "reasoning": "The question asks what fatigue in a marathon is most associated with (e.g., glycogen depletion and dehydration), which aligns with sources and mechanisms of fatigue in endurance exercise.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T17:36:36.176Z",
+              "reasoning": "Options reference ATP-PC failure, lactic acid buildup, and (implicitly) oxidative energy supply and glycogen use, which are core concepts in comparing energy systems across exercise durations.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T17:36:36.176Z",
+              "reasoning": "One key correct factor is dehydration; this falls under water and electrolyte balance and its importance for body functioning during prolonged exercise.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1420285,
+        "parts": [],
+        "options": [
+          {
+            "id": 4152646,
+            "content": "Glycogen depletion and dehydration",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4152672,
+            "content": "ATP-PC system failure",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4152673,
+            "content": "Excess adrenaline secretion",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4152674,
+            "content": "Immediate lactic acid buildup",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f16c90bd-1b9b-4ba9-9f27-a62f470d556b",
+        "specification": "Why does glycogen depletion limit performance in endurance exercise?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:13:01.618Z",
+            "resultId": 30896
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:29:22.584Z",
+              "reasoning": "The question asks why glycogen depletion limits endurance performance, focusing on substrate use and ATP production rate (shift toward slower fat oxidation), which is covered under energy production via oxidative/glycolytic systems.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-06T05:29:22.584Z",
+              "reasoning": "It also relates to carbohydrate (glycogen) as a macronutrient fuel source and consequences of low glycogen availability during endurance exercise.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1695047,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935157,
+            "content": "It forces reliance on fat, which produces ATP more slowly.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: glycogen depletion increases reliance on fat oxidation, which has a slower rate of ATP resynthesis at exercise intensities typical of endurance performance."
+          },
+          {
+            "id": 4935158,
+            "content": "It decreases the rate of ATP resynthesis because fat oxidation requires more oxygen per ATP produced.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: fat oxidation does require more oxygen per ATP than carbohydrate, but this is not the primary reason performance is limited; the key limitation is the slower rate of ATP resynthesis when relying more on fat."
+          },
+          {
+            "id": 4935159,
+            "content": "It increases lactic acid clearance.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: glycogen depletion does not increase lactate clearance; if anything, lower carbohydrate availability reduces glycolytic flux and lactate production rather than improving clearance."
+          },
+          {
+            "id": 4935160,
+            "content": "It reduces calcium uptake in muscles.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: while fatigue can involve impaired calcium handling, glycogen depletion is primarily linked to reduced carbohydrate availability and a slower ATP production rate rather than directly reducing calcium uptake."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f27f03a2-35ab-4801-a82a-782c1aa184a8",
+        "specification": "The table shows an athlete's readiness score tracked over $5$ nights using wearable technology. It includes hours of sleep, heart rate variability ($\\text{HRV}$), and a muscle soreness subjective rating scale ($0\\text{--}10$).\n\n| Night | Sleep duration ($h$) | $\\text{HRV}$ (ms) | Soreness score (subjective rating, $0\\text{--}10$) | Readiness score (\\%) |\n| :--- | :--- | :--- | :--- | :--- |\n| $1$ | $6.2$ | $38$ | $7$ | $42$ |\n| $2$ | $7.1$ | $43$ | $6$ | $53$ |\n| $3$ | $7.9$ | $50$ | $4$ | $68$ |\n| $4$ | $8.2$ | $57$ | $2$ | $84$ |\n| $5$ | $8.4$ | $61$ | $1$ | $91$ |\n\nWhich option best describes the trend in the data and its implication for recovery?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:35:01.903Z",
+            "resultId": 30601
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:20:46.010Z",
+              "reasoning": "The question interprets trends in sleep duration, HRV, soreness, and readiness to explain improved post-exercise recovery\u2014directly assessing recovery strategies/indicators (e.g., sleep and autonomic recovery via HRV).",
+              "confidence": 0.93
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:20:46.010Z",
+              "reasoning": "HRV reflects autonomic nervous system balance and recovery/homeostatic regulation; the question links parasympathetic recovery to improved readiness.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695172,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935517,
+            "content": "Decreased soreness with increased $\\text{HRV}\\rightarrow$ indicates physical and parasympathetic recovery",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. As sleep duration increases ($6.2$ to $8.4\\,h$), $\\text{HRV}$ increases ($38$ to $61\\,\\text{ms}$) and soreness decreases ($7$ to $1$), consistent with improved recovery (higher $\\text{HRV}$ and lower soreness)."
+          },
+          {
+            "id": 4935518,
+            "content": "Increased sleep duration raises soreness $\\rightarrow$ delayed onset muscle fatigue",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. The data shows soreness decreases as sleep duration increases (from $7$ down to $1$)."
+          },
+          {
+            "id": 4935519,
+            "content": "Readiness score correlates with sleep only $\\rightarrow$ $\\text{HRV}$ is not linked to recovery",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Readiness score increases alongside both sleep duration and $\\text{HRV}$ (e.g., $42\\%$ to $91\\%$ while $\\text{HRV}$ rises $38$ to $61\\,\\text{ms}$)."
+          },
+          {
+            "id": 4935520,
+            "content": "Higher $\\text{HRV}$ suppresses recovery $\\rightarrow$ indicates sympathetic dominance",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Higher $\\text{HRV}$ is generally associated with increased parasympathetic activity and improved recovery state, not sympathetic dominance."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f99c8590-30bd-4818-9cc1-07803ef9c501",
+        "specification": "Following an intensive endurance event, an athlete must focus on the rapid resynthesis of muscle glycogen. Which of the following macronutrients is the essential substrate for this recovery process?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-f99c8590-30bd-4818-9cc1-07803ef9c501-1771867193188",
+            "generatedAt": "2026-02-24T05:08:53.251Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420461
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:13:22.686Z",
+            "resultId": 30336
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-06T05:18:33.251Z",
+              "reasoning": "The question asks which macronutrient is the essential substrate for rapid muscle glycogen resynthesis after endurance exercise\u2014this is directly about carbohydrates as a macronutrient and its role in recovery/energy maintenance.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1695404,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936277,
+            "content": "Lipids",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936278,
+            "content": "Carbohydrates",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936279,
+            "content": "Proteins",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936280,
+            "content": "Water",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fb181a79-2d12-4206-8241-a834dd167bab",
+        "specification": "Why is active recovery often recommended after intense exercise?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:36:53.832Z",
+            "resultId": 30326
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:18:04.664Z",
+              "reasoning": "The question asks why active recovery is recommended after intense exercise, focusing on enhanced lactate removal and improved circulation\u2014core content of recovery strategies/techniques.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29912,
+              "isHl": true,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "title": "A.2.3.4 Excess post-exercise oxygen consumption (EPOC) and recovery (HL)",
+              "labeledAt": "2026-03-06T05:18:04.664Z",
+              "reasoning": "Active recovery relates to post-exercise recovery physiology (e.g., elevated oxygen consumption and metabolite clearance), which overlaps with EPOC and recovery concepts.",
+              "confidence": 0.55
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T05:18:04.664Z",
+              "reasoning": "Lactate production/clearance is tied to the glycolytic energy system; the question references lactate removal after intense exercise.",
+              "confidence": 0.45
+            }
+          ]
+        },
+        "currentRevisionId": 1695502,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936537,
+            "content": "It reduces muscle temperature quickly.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936538,
+            "content": "It enhances lactate removal and circulation.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936539,
+            "content": "It decreases glycogen resynthesis.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936540,
+            "content": "It reduces delayed onset muscle soreness (DOMS) by stopping lactate production.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "41",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 21858,
+      "title": "A.3.3 Fatigue and recovery (HL)",
+      "slug": "ib-sehs-new-a33-fatigue-and-recovery-ahl",
+      "parentTopicId": 21855
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "41",
+      "byQuestion": {}
+    }
+  }
+}

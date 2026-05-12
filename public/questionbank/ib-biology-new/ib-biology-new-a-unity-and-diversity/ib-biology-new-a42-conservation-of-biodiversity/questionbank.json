@@ -1,3 +1,3407 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e6b7a340f81585dbe811db8837203bae3dab0d8dda0ae14eda5d0e651b488f5b
-size 173717
+{
+  "json": {
+    "questions": [
+      {
+        "id": "09923e42-1e1a-46a0-a897-9330a35c88ac",
+        "specification": "A region once containing a complex wetland ecosystem has been drained and urbanized. Which of the following consequences is least likely to occur?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T15:04:50.075Z",
+            "resultId": 43020
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-06T16:04:57.172Z",
+              "reasoning": "The question asks about consequences of draining and urbanizing a wetland\u2014an example of ecosystem loss/habitat destruction and its impacts (biodiversity, breeding sites, water quality, hydrology).",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1697660,
+        "parts": [],
+        "options": [
+          {
+            "id": 4942016,
+            "content": "Decreased groundwater recharge",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Draining and urbanizing a wetland typically reduces infiltration because impervious surfaces increase runoff, so decreased (not increased) groundwater recharge is likely."
+          },
+          {
+            "id": 4942017,
+            "content": "Reduction in native bird populations",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Wetland drainage and urbanization remove habitat and food sources for wetland-dependent birds, so reduced native bird populations are likely."
+          },
+          {
+            "id": 4942018,
+            "content": "Loss of breeding sites for amphibians",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Amphibians often require wetland habitats for breeding; drainage and development remove these sites, so this consequence is likely."
+          },
+          {
+            "id": 4942019,
+            "content": "Lower water quality due to runoff",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Urbanization typically increases surface runoff carrying pollutants (e.g., oils, nutrients, sediments) into waterways, lowering water quality; this is likely."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0c683f80-7e04-43d5-94d8-b82e3fbb3412",
+        "specification": "Which region shows the most rapid recent loss of suitable habitat (2000\u20132025)?\n\n![](https://pub-images.revisiondojo.com/question-images/mv5Dj1MPqlm0I6halryDJ.jpeg)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T08:57:19.582Z",
+            "resultId": 43677
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-06T16:08:55.090Z",
+              "reasoning": "The question asks which region shows the most accelerated loss of suitable habitat based on a trend graph, which directly concerns ecosystem/habitat loss.",
+              "confidence": 0.78
+            },
+            {
+              "id": 28815,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.3 Causes of anthropogenic species extinction",
+              "title": "A4.2.3 Causes of anthropogenic species extinction",
+              "labeledAt": "2026-03-06T16:08:55.090Z",
+              "reasoning": "Accelerated habitat loss is a key driver of increased extinction risk; interpreting which region is most at risk links to anthropogenic causes of species extinction.",
+              "confidence": 0.44
+            }
+          ]
+        },
+        "currentRevisionId": 1697243,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940900,
+            "content": "New Zealand forest",
+            "correct": false,
+            "order": 0,
+            "markscheme": "From 2000 to 2025, habitat remaining decreases from 60% to 50% (a loss of 10 percentage points)."
+          },
+          {
+            "id": 4940901,
+            "content": "Caribbean coastline",
+            "correct": false,
+            "order": 1,
+            "markscheme": "From 2000 to 2025, habitat remaining decreases from 70% to 60% (a loss of 10 percentage points)."
+          },
+          {
+            "id": 4940902,
+            "content": "Ganges wetlands",
+            "correct": true,
+            "order": 2,
+            "markscheme": "From 2000 to 2025, habitat remaining decreases from 55% to 40% (a loss of 15 percentage points), the largest recent decline shown."
+          },
+          {
+            "id": 4940903,
+            "content": "All three regions show equivalent habitat loss",
+            "correct": false,
+            "order": 3,
+            "markscheme": "The recent declines are not equal: New Zealand forest and Caribbean coastline each lose 10 percentage points (2000\u20132025), while Ganges wetlands loses 15 percentage points."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0d61e4df-3001-463c-9496-081bcb10794f",
+        "specification": "What is a direct consequence of the **conversion of Southeast Asia\u2019s dipterocarp forests** to monoculture plantations?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-05T11:37:18.027Z",
+              "reasoning": "The question describes the conversion of a natural ecosystem (dipterocarp forests) into a monoculture, which is a primary cause of ecosystem loss. This specific example is often cited in the context of IB Biology curriculum for this topic.",
+              "confidence": 0.98
+            },
+            {
+              "id": 28818,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.6 Causes of the current biodiversity crisis",
+              "title": "A4.2.6 Causes of the current biodiversity crisis",
+              "labeledAt": "2026-03-05T11:37:18.027Z",
+              "reasoning": "The loss of endemic species and habitat fragmentation resulting from forest conversion are major drivers of the current anthropogenic biodiversity crisis.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28815,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.3 Causes of anthropogenic species extinction",
+              "title": "A4.2.3 Causes of anthropogenic species extinction",
+              "labeledAt": "2026-03-05T11:37:18.027Z",
+              "reasoning": "The conversion to monoculture is a human-driven (anthropogenic) activity that leads directly to the extinction of localized endemic species within those habitats.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1084487,
+        "parts": [],
+        "options": [
+          {
+            "id": 3739973,
+            "content": "Improved biodiversity due to greater land use",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3739974,
+            "content": "Soil enrichment and nutrient cycling",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3739975,
+            "content": "Loss of endemic species and habitat fragmentation",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3739976,
+            "content": "Reduction in carbon dioxide levels",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "20887827-1ca3-4f2f-8882-a6447e8082f4",
+        "specification": "Which of the following best explains why urban expansion in India has led to a relatively lower percentage of species decline compared to regions impacted by other drivers?\n\n![Image](https://pub-images.revisiondojo.com/plots/82616900-05de-4f70-a9d9-7506e68907d4.png)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28818,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.6 Causes of the current biodiversity crisis",
+              "title": "A4.2.6 Causes of the current biodiversity crisis",
+              "labeledAt": "2026-03-05T11:38:16.622Z",
+              "reasoning": "The question compares different drivers of species decline (urban expansion vs others), which directly relates to the causes of the current biodiversity crisis such as land-use change and urbanization.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1480517,
+        "parts": [],
+        "options": [
+          {
+            "id": 4233217,
+            "content": "Urban expansion always increases biodiversity by creating new niches.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4233218,
+            "content": "India's ecosystems are less biodiverse to begin with.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4233219,
+            "content": "Urban areas in India are more protected than forests in other regions.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4233220,
+            "content": "Species may have adapted to urban pressures more gradually over time.",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "24363361-3988-4763-b12a-0c885da3f4b7",
+        "specification": "In many marine mammals, past population declines were driven primarily by overexploitation. Which factor contributed to the extinction of the Caribbean monk seal and similar marine species?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T14:59:56.262Z",
+            "resultId": 43062
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28815,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.3 Causes of anthropogenic species extinction",
+              "title": "A4.2.3 Causes of anthropogenic species extinction",
+              "labeledAt": "2026-03-06T16:05:13.007Z",
+              "reasoning": "The question asks about factors contributing to extinction of a marine species (Caribbean monk seal), specifically targeted hunting and breeding-ground disruption\u2014an example of anthropogenic species extinction.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1697635,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941916,
+            "content": "Ocean acidification and loss of coral reefs",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Not the primary documented driver of extinction for the Caribbean monk seal; extinction is mainly linked to human exploitation."
+          },
+          {
+            "id": 4941917,
+            "content": "Targeted hunting for blubber and disruption of breeding grounds",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Overexploitation by humans (hunting/harvesting) and disturbance at breeding sites are well-established causes of population collapse and extinction risk."
+          },
+          {
+            "id": 4941918,
+            "content": "Excessive algal blooms due to eutrophication",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Eutrophication can harm marine ecosystems but is not the main historically supported cause of Caribbean monk seal extinction."
+          },
+          {
+            "id": 4941919,
+            "content": "Natural shifts in ocean currents",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Natural variability in currents is not considered the main cause of extinction compared with direct human impacts such as hunting."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "27bbfec8-11d3-47ad-a6fe-7089a94f6282",
+        "specification": "Why does **conversion of dipterocarp forests to oil palm plantations** result in a disproportionately high loss of biodiversity?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-07T17:33:16.096Z",
+              "reasoning": "The question asks why converting an old-growth dipterocarp forest to oil palm causes disproportionate biodiversity loss\u2014this is fundamentally about habitat/ecosystem loss due to land-use change.",
+              "confidence": 0.78
+            },
+            {
+              "id": 28813,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "title": "A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "labeledAt": "2026-03-07T17:33:16.096Z",
+              "reasoning": "Understanding the impact requires recognizing that dipterocarp forests have very high species richness and endemism, tying to the concept/definition of biodiversity and its components.",
+              "confidence": 0.55
+            },
+            {
+              "id": 28815,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.3 Causes of anthropogenic species extinction",
+              "title": "A4.2.3 Causes of anthropogenic species extinction",
+              "labeledAt": "2026-03-07T17:33:16.096Z",
+              "reasoning": "Conversion to plantations can drive local extinctions, especially of endemic species specialized to the original forest habitat, aligning with anthropogenic causes of species extinction.",
+              "confidence": 0.52
+            }
+          ]
+        },
+        "currentRevisionId": 763745,
+        "parts": [],
+        "options": [
+          {
+            "id": 3739917,
+            "content": "Oil palm plantations increase the local genetic variation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3739918,
+            "content": "Dipterocarp forests are monocultures and easily replaceable",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3739919,
+            "content": "These forests are ancient and host a high number of endemic species",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3739920,
+            "content": "The nutrient-poor soils prevent secondary succession",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "351fce29-3fde-4e87-8ab3-9d7407ae4936",
+        "specification": "Why must biodiversity surveys be **repeated** over time to provide valid evidence for a biodiversity crisis?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28817,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.5 Evidence for a biodiversity crisis",
+              "title": "A4.2.5 Evidence for a biodiversity crisis",
+              "labeledAt": "2026-03-05T11:30:13.461Z",
+              "reasoning": "The question specifically addresses the requirement for repeated surveys to establish trends as evidence for a biodiversity crisis, which aligns directly with topic A4.2.5: Evidence for a biodiversity crisis.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1066774,
+        "parts": [],
+        "options": [
+          {
+            "id": 3739953,
+            "content": "Biodiversity changes can only be observed in fossil records",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3739954,
+            "content": "A single measurement of diversity cannot reveal trends",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3739955,
+            "content": "Surveys reduce the need for conservation",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3739956,
+            "content": "One-time surveys are typically more accurate",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "375b1696-bf5d-4d6c-a997-4a50944c7354",
+        "specification": "Which of the following best illustrates **ecosystem diversity**?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28813,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "title": "A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "labeledAt": "2026-03-06T16:03:45.874Z",
+              "reasoning": "The question asks for an example of ecosystem diversity, which is a level of biodiversity (variety of ecosystems/biomes). This aligns with the leaf topic defining biodiversity across levels.",
+              "confidence": 0.82
+            },
+            {
+              "id": 28929,
+              "isHl": false,
+              "path": "B - Form and Function > B4.1 Adaptation to environment > B4.1.7 Biomes as groups of ecosystems with similar communities",
+              "title": "B4.1.7 Biomes as groups of ecosystems with similar communities",
+              "labeledAt": "2026-03-06T16:03:45.874Z",
+              "reasoning": "Option C explicitly references different biomes (tropical rainforest, coral reefs, tundra), matching the concept of biomes as groups of ecosystems and illustrating ecosystem-level variety.",
+              "confidence": 0.63
+            }
+          ]
+        },
+        "currentRevisionId": 1066841,
+        "parts": [],
+        "options": [
+          {
+            "id": 3739957,
+            "content": "Different breeds of domestic dogs",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3739958,
+            "content": "A forest with trees of the same species but different heights",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3739959,
+            "content": "The presence of tropical rainforest, coral reefs, and tundra biomes",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3739960,
+            "content": "A population of butterflies with varying wing patterns",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b66b1aac-8a53-47c4-9b8f-4dc68c9b49d2",
+        "specification": "Which scenario best reflects a **high level of biodiversity** across all levels?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28813,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "title": "A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "labeledAt": "2026-03-06T16:03:49.042Z",
+              "reasoning": "The question asks which scenario shows high biodiversity 'across all levels' (genetic, species, and ecosystem/habitat diversity), which directly matches the definition of biodiversity as variety of life at multiple levels.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1479273,
+        "parts": [],
+        "options": [
+          {
+            "id": 4231045,
+            "content": "A rainforest with hundreds of plant species but low genetic variation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4231046,
+            "content": "A coral reef with multiple habitats, many species, and high allelic diversity",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4231047,
+            "content": "A tundra biome dominated by one hardy moss species",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4231048,
+            "content": "A tropical farm with genetically modified crops in rotation",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "13e32630-1b73-409d-8c3d-b3b227cc5178",
+        "specification": "Ecologists monitored the development of an ecosystem on a newly formed volcanic island over a period of 150 years. The study tracked changes in biomass and energy flow as the community underwent primary succession.\n\n| Stage | Years since formation | Total Biomass ($kg\\ m^{-2}$) | Gross Primary Productivity ($g\\ m^{-2}\\ yr^{-1}$) | Respiration ($g\\ m^{-2}\\ yr^{-1}$) |\n| :--- | :--- | :--- | :--- | :--- |\n| Pioneer | 10 | 0.2 | 150 | 90 |\n| Intermediate | 50 | 4.5 | 800 | 450 |\n| Climax | 150 | 18.2 | 1200 | 1150 |",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-13e32630-1b73-409d-8c3d-b3b227cc5178-1771929956947",
+            "generatedAt": "2026-02-25T05:29:30.254Z",
+            "sourceRevisionId": 1480580
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:15:45.880Z",
+            "resultId": 32438
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29323,
+              "isHl": true,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.13 Changes occurring during primary succession (HL)",
+              "title": "D4.2.13 Changes occurring during primary succession (HL)",
+              "labeledAt": "2026-03-06T07:58:34.749Z",
+              "reasoning": "The question is explicitly about primary succession on a newly formed volcanic island, tracking biomass changes across pioneer/intermediate/climax stages and asking about how conditions change during succession.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29159,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.15 Primary production as accumulation of carbon compounds in biomass by autotrophs",
+              "title": "C4.2.15 Primary production as accumulation of carbon compounds in biomass by autotrophs",
+              "labeledAt": "2026-03-06T07:58:34.749Z",
+              "reasoning": "Calculating NPP from GPP and respiration and discussing changing energy storage as climax is approached directly tests primary production/biomass accumulation concepts.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29325,
+              "isHl": true,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.15 Climax communities and arrested succession (HL)",
+              "title": "D4.2.15 Climax communities and arrested succession (HL)",
+              "labeledAt": "2026-03-06T07:58:34.749Z",
+              "reasoning": "References to the ecosystem approaching a climax community and comparison of energy flow/respiration in the climax stage align with climax community characteristics.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 1695061,
+        "parts": [
+          {
+            "id": 1157030,
+            "content": "State the relationship between time and total biomass during this process of primary succession.",
+            "order": 0,
+            "markscheme": "- Total biomass increases with time during succession (positive correlation). <marks>1 mark</marks>\n- Biomass is lowest in the pioneer stage and highest in the climax stage (increasing trend across stages). <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157031,
+            "content": "Calculate the net primary productivity (NPP) for the intermediate stage. Then discuss how energy storage (biomass accumulation/NPP) changes from the intermediate stage to the climax community.",
+            "order": 1,
+            "markscheme": "- NPP calculation: $\\text{NPP} = \\text{GPP} - R = 800 - 450 = 350\\ g\\ m^{-2}\\ yr^{-1}$. <marks>1 mark</marks>\n- Correct units stated for NPP: $g\\ m^{-2}\\ yr^{-1}$. <marks>1 mark</marks>\n- From intermediate to climax, respiration increases substantially (higher community maintenance costs). <marks>1 mark</marks>\n- In the climax stage, $\\text{GPP} \\approx R$ (e.g. $1200$ vs $1150$), so NPP is low and little additional energy is stored as new biomass. <marks>1 mark</marks>\n- Biomass is still high in the climax community because it has accumulated over time, even though net biomass gain per year is small. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157032,
+            "content": "Explain how pioneer species, such as lichens and mosses, alter the abiotic environment to allow for the establishment of later successional stages.",
+            "order": 2,
+            "markscheme": "- Physical and/or chemical weathering: pioneer organisms break down bare rock to produce smaller particles. <marks>1 mark</marks>\n_**OR**_\n- Organic matter/humus addition: death and decomposition of pioneers adds organic material, improving water retention and soil structure. <marks>1 mark</marks>\n_**OR**_\n- Nutrient enrichment: some pioneers (e.g. cyanobacteria in lichens) fix nitrogen, increasing soil fertility. <marks>1 mark</marks>\n\n- Award any two of the above points. <marks>2 marks</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "18260509-894d-4011-a7b8-ca325253e281",
+        "specification": "When a non-native species is introduced to a new ecosystem and establishes itself successfully without natural predators or competitors, what is the most likely impact on the local environment?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:48:43.928Z",
+            "resultId": 8388
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29139,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.13 Resource competition between endemic and invasive species",
+              "title": "C4.1.13 Resource competition between endemic and invasive species",
+              "labeledAt": "2026-03-05T11:33:44.709Z",
+              "reasoning": "The question specifically describes the introduction of an invasive (non-native) species and its impact on the local ecosystem, which directly relates to the study of resource competition between endemic and invasive species.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1694194,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932777,
+            "content": "Increase in biodiversity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4932778,
+            "content": "Reduction in native species",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4932779,
+            "content": "Enhanced soil fertility",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4932780,
+            "content": "Increased primary productivity",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "19e520ef-bad2-4f4e-beb0-b4fe682b8dd3",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-19e520ef-bad2-4f4e-beb0-b4fe682b8dd3-1771929956947",
+            "generatedAt": "2026-02-25T02:07:00.605Z",
+            "sourceRevisionId": 1479278
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29133,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.7 Population growth curves",
+              "title": "C4.1.7 Population growth curves",
+              "labeledAt": "2026-03-06T16:09:04.785Z",
+              "reasoning": "The question asks to describe and explain a population growth pattern over time in a closed tank, which is directly about interpreting population growth curves (typically logistic/sigmoid, lag/exponential/stationary/decline phases).",
+              "confidence": 0.95
+            },
+            {
+              "id": 29131,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.5 Carrying capacity and competition for limited resources",
+              "title": "C4.1.5 Carrying capacity and competition for limited resources",
+              "labeledAt": "2026-03-06T16:09:04.785Z",
+              "reasoning": "Explaining the leveling off in a closed system usually involves carrying capacity and competition for limited resources (food, space, oxygen), which constrain further growth.",
+              "confidence": 0.75
+            },
+            {
+              "id": 29132,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "title": "C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "labeledAt": "2026-03-06T16:09:04.785Z",
+              "reasoning": "The stabilization/possible oscillation around carrying capacity is commonly explained using density-dependent factors providing negative feedback control of population size.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 1686817,
+        "parts": [
+          {
+            "id": 1147317,
+            "content": "The graph shows the change in population size of *Daphnia* (water fleas) introduced into a closed freshwater tank over a period of 50 days.\n\n![Daphnia Population Growth Curve](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-19e520ef-bad2-4f4e-beb0-b4fe682b8dd3-1771929956947/c0e6dd8c-0a6d-4451-bb1f-bba1af2e6bb9.jpeg)\n\nDescribe and explain the population growth pattern shown in the graph. <marks>5 marks</marks>",
+            "order": -1,
+            "markscheme": "- exponential phase (early phase): rapid growth where natality exceeds mortality <marks>1 mark</marks>\n- exponential growth occurs because resources (food/space) are not yet limiting <marks>1 mark</marks>\n- transitional phase (middle phase): growth rate begins to slow down <marks>1 mark</marks>\n- slowing growth due to increased competition for food / accumulation of metabolic waste / density-dependent limiting factors <marks>1 mark</marks>\n- plateau phase (late phase): population size levels off / reaches carrying capacity/$K$ <marks>1 mark</marks>\n- at the plateau: natality + immigration equals mortality + emigration / population is stable <marks>1 mark</marks>\n(Maximum 5 marks)",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1c6b21a6-e8a8-4529-abbe-c5fc5ae28dcc",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-1c6b21a6-e8a8-4529-abbe-c5fc5ae28dcc-1771929956947",
+            "generatedAt": "2026-02-25T05:30:34.713Z",
+            "sourceRevisionId": 1479318
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29318,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.8 Eutrophication of aquatic and marine ecosystems due to leaching",
+              "title": "D4.2.8 Eutrophication of aquatic and marine ecosystems due to leaching",
+              "labeledAt": "2026-03-05T11:37:20.052Z",
+              "reasoning": "The question explicitly asks for the causes and consequences of the eutrophication of aquatic ecosystems, which matches the description of topic D4.2.8 perfectly.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1685759,
+        "parts": [
+          {
+            "id": 1146427,
+            "content": "Explain the causes and consequences of the eutrophication of aquatic ecosystems.",
+            "order": -1,
+            "markscheme": "a. runoff or leaching of nitrates/phosphates from agricultural land or fertilizers <marks>1 mark</marks>\n\nb. discharge of domestic sewage or phosphate-based detergents into water bodies <marks>1 mark</marks>\n\nc. increased nutrient concentration leads to an algal bloom or excessive surface growth <marks>1 mark</marks>\n\nd. light is blocked from reaching submerged aquatic plants, preventing photosynthesis <marks>1 mark</marks>\n\ne. death of plants or algae provides a large amount of organic matter for decomposers <marks>1 mark</marks>\n\nf. increase in the population of aerobic bacteria or saprotrophic organisms <marks>1 mark</marks>\n\ng. increase in biochemical oxygen demand (BOD) or depletion of dissolved oxygen <marks>1 mark</marks>\n\nh. death of fish or macroinvertebrates leading to a reduction in species diversity <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1ce739d5-d850-4e64-8fc0-1ae07c991f0d",
+        "specification": "What human activity is most likely to damage the ecosystem of a coral reef?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T08:14:02.123Z",
+            "resultId": 43854
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29332,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.3 Climate change > D4.3.7 Threats to coral reefs as an example of potential ecosystem collapse",
+              "title": "D4.3.7 Threats to coral reefs as an example of potential ecosystem collapse",
+              "labeledAt": "2026-03-06T16:19:58.718Z",
+              "reasoning": "The question asks which human activity is most likely to damage a coral reef ecosystem; this aligns directly with threats to coral reefs (including human impacts) as an example of ecosystem collapse.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29316,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.6 Assessing sustainability of resource harvesting from natural ecosystems",
+              "title": "D4.2.6 Assessing sustainability of resource harvesting from natural ecosystems",
+              "labeledAt": "2026-03-06T16:19:58.718Z",
+              "reasoning": "\u2018Coral harvesting\u2019 is a form of resource harvesting from a natural ecosystem, relating to sustainability/impacts of harvesting practices.",
+              "confidence": 0.52
+            },
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-06T16:19:58.718Z",
+              "reasoning": "Damage to a coral reef ecosystem by human activity can be framed as anthropogenic causes of ecosystem loss, though the item is more specifically about coral reef threats.",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 1697122,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940548,
+            "content": "Fishing regulations",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Fishing regulations are intended to reduce overfishing and protect reef ecosystems, so they are unlikely to be the most damaging activity."
+          },
+          {
+            "id": 4940549,
+            "content": "Coral harvesting",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Harvesting coral directly removes reef structure and habitat, reducing biodiversity and disrupting the reef ecosystem."
+          },
+          {
+            "id": 4940550,
+            "content": "Marine reserve creation",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Creating a marine reserve generally protects reefs by limiting damaging activities such as fishing and habitat destruction."
+          },
+          {
+            "id": 4940551,
+            "content": "Coastal development",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Coastal development is a human activity that can harm reefs (e.g., via sediment runoff and pollution), but it is less directly damaging than coral harvesting in this set of options."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "252418db-3b4f-4e51-b0c8-e8c9e21363bf",
+        "specification": "Which factors determine the total impact of a specific greenhouse gas on global warming?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-252418db-3b4f-4e51-b0c8-e8c9e21363bf-1771929956947",
+            "generatedAt": "2026-02-25T06:11:42.825Z",
+            "sourceRevisionId": 1106055
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29326,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.3 Climate change > D4.3.1 Anthropogenic causes of climate change",
+              "title": "D4.3.1 Anthropogenic causes of climate change",
+              "labeledAt": "2026-03-05T11:31:42.404Z",
+              "reasoning": "The question focuses on the physical properties of greenhouse gases (absorption of long-wave radiation) and their presence in the atmosphere (concentration), which are the primary determinants of their contribution to global warming as discussed under anthropogenic causes of climate change.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1685009,
+        "parts": [],
+        "options": [
+          {
+            "id": 4919672,
+            "content": "Its molecular weight and its abundance in the Earth's crust.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4919676,
+            "content": "Its ability to absorb short-wavelength radiation and its residence time in the soil.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4919677,
+            "content": "Its capacity to absorb long-wave radiation and its atmospheric concentration.",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4919678,
+            "content": "Its solubility in freshwater and its reactivity with atmospheric nitrogen.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3079c0db-d6cb-4b68-9709-d7eb6bf23b68",
+        "specification": "The table shows the number of differences in the base sequences of a conserved mitochondrial gene between four different species of birds.\n\n| | Species 1 | Species 2 | Species 3 | Species 4 | \n| :--- | :---: | :---: | :---: | :---: | \n| **Species 1** | 0 | 7 | 24 | 42 |\n| **Species 2** | 7 | 0 | 22 | 40 |\n| **Species 3** | 24 | 22 | 0 | 38 |\n| **Species 4** | 42 | 40 | 38 | 0 |\n\nWhich conclusion is supported by the data?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-3079c0db-d6cb-4b68-9709-d7eb6bf23b68-1771929956947",
+            "generatedAt": "2026-02-25T06:20:35.447Z",
+            "sourceRevisionId": 1479280
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:50:38.671Z",
+            "resultId": 33661
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28803,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.1 Evolution and speciation > A4.1.2 Evidence for evolution from base sequences in DNA or RNA and amino acid sequences",
+              "title": "A4.1.2 Evidence for evolution from base sequences in DNA or RNA and amino acid sequences",
+              "labeledAt": "2026-03-06T08:45:07.796Z",
+              "reasoning": "The question asks for conclusions about relatedness/common ancestry based on numbers of base-sequence differences in a conserved mitochondrial gene\u2014molecular evidence for evolution from DNA/RNA sequences.",
+              "confidence": 0.93
+            },
+            {
+              "id": 28798,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.6 Base sequences of genes or amino acid sequences of proteins (HL)",
+              "title": "A3.2.6 Base sequences of genes or amino acid sequences of proteins (HL)",
+              "labeledAt": "2026-03-06T08:45:07.796Z",
+              "reasoning": "Uses base sequences of a gene to infer evolutionary relationships (sequence comparison), which aligns with the cladistics-focused subtopic on using gene/protein sequences as evidence.",
+              "confidence": 0.62
+            },
+            {
+              "id": 28797,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.5 Gradual accumulation of sequence differences (HL)",
+              "title": "A3.2.5 Gradual accumulation of sequence differences (HL)",
+              "labeledAt": "2026-03-06T08:45:07.796Z",
+              "reasoning": "Interprets degree of sequence difference as reflecting time since divergence (more differences \u2192 longer time), i.e., gradual accumulation of sequence differences.",
+              "confidence": 0.58
+            }
+          ]
+        },
+        "currentRevisionId": 1695242,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935765,
+            "content": "Species 4 is the common ancestor from which the other three species evolved.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Not supported: sequence differences indicate relative relatedness, not which species is the ancestor."
+          },
+          {
+            "id": 4935766,
+            "content": "Species 1 and 2 shared a common ancestor more recently than Species 2 and 3.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Supported: Species 1\u20132 have 7 differences, fewer than Species 2\u20133 (22), indicating a more recent common ancestor."
+          },
+          {
+            "id": 4935767,
+            "content": "Species 3 is more closely related to Species 4 than it is to Species 2.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Not supported: Species 3\u20134 have 38 differences, more than Species 3\u20132 (22), so Species 3 is closer to Species 2."
+          },
+          {
+            "id": 4935768,
+            "content": "The DNA sequences of Species 1 and Species 2 are identical.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Not supported: the table shows 7 differences between Species 1 and Species 2, so they are not identical."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "30e02966-1213-4a01-b72d-0af666588ef6",
+        "specification": "Which of the following terms refers to the variety of life found on Earth?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28813,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "title": "A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "labeledAt": "2026-03-05T11:30:53.819Z",
+              "reasoning": "The question asks for the term referring to the variety of life on Earth, which corresponds exactly to the definition of biodiversity provided in leaf topic A4.2.1.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 827290,
+        "parts": [],
+        "options": [
+          {
+            "id": 1572965,
+            "content": "Ecosystem diversity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1572966,
+            "content": "Genetic diversity",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1572967,
+            "content": "Biodiversity",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1572968,
+            "content": "Species richness",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "41c1343c-0518-44c0-8504-f654c91274d1",
+        "specification": "The table shows biochemical characteristics of three domains of life.\n\n| Feature | Domain I | Domain II | Domain III |\n| :--- | :--- | :--- | :--- |\n| Histones | Absent | Present | Present in some species |\n| Introns | Rare or absent | Frequent | Present in some genes |\n| Peptidoglycan in the cell wall | Present | Absent | Absent |\n\nWhich domains contain organisms that are classified as prokaryotes?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-41c1343c-0518-44c0-8504-f654c91274d1-1771929956947",
+            "generatedAt": "2026-02-25T05:51:19.905Z",
+            "sourceRevisionId": 1649701
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:49:45.755Z",
+            "resultId": 31544
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28801,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.9 Classification of all organisms using evidence from rRNA base sequences (HL)",
+              "title": "A3.2.9 Classification of all organisms using evidence from rRNA base sequences (HL)",
+              "labeledAt": "2026-03-05T11:31:22.533Z",
+              "reasoning": "The question uses a comparative table of biochemical features (histones, introns, peptidoglycan) to distinguish between the three domains of life (Bacteria, Archaea, Eukaryota), which is the core content of the three-domain classification system.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1694975,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934925,
+            "content": "I and II",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This is incorrect because Domain II possesses histones and frequent introns, identifying it as Eukaryota, which are eukaryotes rather than prokaryotes."
+          },
+          {
+            "id": 4934926,
+            "content": "I and III",
+            "correct": true,
+            "order": 1,
+            "markscheme": "This is correct. Domain I represents Bacteria (peptidoglycan present, histones absent) and Domain III represents Archaea (no peptidoglycan, some histones/introns). Both Bacteria and Archaea are prokaryotic domains."
+          },
+          {
+            "id": 4934927,
+            "content": "II and III",
+            "correct": false,
+            "order": 2,
+            "markscheme": "This is incorrect because Domain II is Eukaryota, which contains only eukaryotic organisms. While Domain III (Archaea) is prokaryotic, the pair together is not correct."
+          },
+          {
+            "id": 4934928,
+            "content": "I only",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This is incorrect because it excludes Domain III. Archaea (Domain III) are also prokaryotes, as they lack a nuclear envelope despite having some biochemical similarities to eukaryotes."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "51c80b9d-de4e-4ce7-81ca-dd9c2a988d56",
+        "specification": "The table provides information about two greenhouse gases found in the Earth's atmosphere.\n\n| Greenhouse Gas | Relative warming potential (100-year, $CO_2 = 1$) | Concentration in the atmosphere (ppm) |\n| :--- | :--- | :--- |\n| Methane ($CH_4$) | 28 | 1.9 |\n| Carbon dioxide ($CO_2$) | 1 | 412.0 |\n\nWhich statement best explains why carbon dioxide has a larger overall effect on global warming than methane?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-51c80b9d-de4e-4ce7-81ca-dd9c2a988d56-1771929956947",
+            "generatedAt": "2026-02-25T05:42:29.448Z",
+            "sourceRevisionId": 1107771
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T08:35:32.535Z",
+            "resultId": 43839
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29326,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.3 Climate change > D4.3.1 Anthropogenic causes of climate change",
+              "title": "D4.3.1 Anthropogenic causes of climate change",
+              "labeledAt": "2026-03-06T16:19:37.560Z",
+              "reasoning": "Compares methane and carbon dioxide using relative warming potential and atmospheric concentration to explain overall impact on global warming\u2014core to anthropogenic causes of climate change and greenhouse gases.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1697169,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940712,
+            "content": "Its concentration in the atmosphere is significantly higher.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. Despite lower relative warming potential per molecule, $CO_2$ is far more abundant (412.0 ppm vs 1.9 ppm), giving a larger overall effect."
+          },
+          {
+            "id": 4940713,
+            "content": "It is more efficient at absorbing long-wave radiation per molecule.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. The table indicates methane has the higher relative warming potential per molecule (28 vs 1)."
+          },
+          {
+            "id": 4940714,
+            "content": "It is the only greenhouse gas that persists in the atmosphere for more than a year.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. This is not supported by the data, and methane can persist for more than a year."
+          },
+          {
+            "id": 4940715,
+            "content": "It reflects a larger proportion of incoming short-wave solar radiation.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Greenhouse gases warm mainly by absorbing outgoing long-wave (infrared) radiation, not by reflecting short-wave radiation."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "54ea91f0-f91a-4fb6-a525-ff2103beb21d",
+        "specification": "A conservation program for an endangered species is started. Which method is most suitable to increase population stability?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28819,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.7 Need for several approaches to conservation of biodiversity",
+              "title": "A4.2.7 Need for several approaches to conservation of biodiversity",
+              "labeledAt": "2026-03-05T11:31:39.933Z",
+              "reasoning": "The question asks for the most suitable method to increase population stability for an endangered species. Topic A4.2.7 covers various approaches to the conservation of biodiversity, including in situ methods like protected areas (Option B) and ex situ methods like cloning (Option C).",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 763216,
+        "parts": [],
+        "options": [
+          {
+            "id": 1572961,
+            "content": "Genetic modification",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1572962,
+            "content": "Protected areas",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1572963,
+            "content": "Cloning",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1572964,
+            "content": "Pollution control",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "55866f4b-a8d7-44bc-b93e-6f12cd022eb2",
+        "specification": "The greenhouse effect is influenced by the specific properties of various atmospheric gases. In addition to infrared absorption, which factor determines a gas\u2019s overall contribution to global warming?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-55866f4b-a8d7-44bc-b93e-6f12cd022eb2-1771929956947",
+            "generatedAt": "2026-02-24T12:24:20.994Z",
+            "sourceRevisionId": 1486419
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:50:22.826Z",
+            "resultId": 33646
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29326,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.3 Climate change > D4.3.1 Anthropogenic causes of climate change",
+              "title": "D4.3.1 Anthropogenic causes of climate change",
+              "labeledAt": "2026-03-06T08:44:57.056Z",
+              "reasoning": "The question asks what determines a greenhouse gas\u2019s overall contribution to global warming besides IR absorption\u2014this aligns with understanding drivers of climate change, including the role of atmospheric concentrations of greenhouse gases.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1695240,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935761,
+            "content": "The density of the gas relative to the surrounding air",
+            "correct": false,
+            "order": 0,
+            "markscheme": "The density of a gas determines its buoyancy or layering in the atmosphere, but it does not dictate its ability to trap heat or contribute to the greenhouse effect."
+          },
+          {
+            "id": 4935762,
+            "content": "The concentration of the gas in the atmosphere",
+            "correct": true,
+            "order": 1,
+            "markscheme": "The total impact of a greenhouse gas depends on two main factors: its ability to absorb long-wave (infrared) radiation and its abundance/concentration in the atmosphere."
+          },
+          {
+            "id": 4935763,
+            "content": "The ability of the gas to reflect incoming short-wave radiation",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Reflecting short-wave radiation (albedo) would actually have a cooling effect; greenhouse gases work by absorbing long-wave radiation emitted from the Earth's surface."
+          },
+          {
+            "id": 4935764,
+            "content": "The rate at which the gas is fixed by soil bacteria",
+            "correct": false,
+            "order": 3,
+            "markscheme": "While some gases like nitrogen are fixed by bacteria, this process is part of the nitrogen cycle and is not a determinant of a gas's greenhouse warming potential."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "57b1bba8-f75c-4004-b8ac-0d124ee56b8a",
+        "specification": "Why does conversion of dipterocarp forests to oil palm plantations result in a disproportionately high loss of biodiversity?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:55:49.668Z",
+            "resultId": 33794
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-06T08:55:46.919Z",
+              "reasoning": "The question is about biodiversity loss caused by converting a natural forest ecosystem into a monoculture plantation, i.e., habitat/ecosystem loss due to land-use change.",
+              "confidence": 0.79
+            },
+            {
+              "id": 28815,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.3 Causes of anthropogenic species extinction",
+              "title": "A4.2.3 Causes of anthropogenic species extinction",
+              "labeledAt": "2026-03-06T08:55:46.919Z",
+              "reasoning": "Conversion to oil palm plantations leads to local extinctions (especially of endemic/forest-specialist species), fitting anthropogenic causes of species extinction.",
+              "confidence": 0.63
+            }
+          ]
+        },
+        "currentRevisionId": 1695284,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935933,
+            "content": "Oil palm plantations increase local genetic variation.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935934,
+            "content": "Oil palm plantations have lower habitat complexity and fewer niches.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935935,
+            "content": "Dipterocarp forests are monocultures and easily replaceable.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935936,
+            "content": "These forests are ancient and host a high number of endemic species.",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5a9ded6f-1396-4cf0-b69e-bedfffeeebf4",
+        "specification": "The table below shows the number of differences in the DNA base sequences of a conserved gene between four different species.\n\n| | Species A | Species B | Species C | Species D |\n| :--- | :---: | :---: | :---: | :---: |\n| **Species A** | \u2014 | 22 | 8 | 34 |\n| **Species B** | 22 | \u2014 | 25 | 11 |\n| **Species C** | 8 | 25 | \u2014 | 31 |\n| **Species D** | 34 | 11 | 31 | \u2014 |\n\nBased on the data provided, which pair of species likely shares the most recent common ancestor?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-5a9ded6f-1396-4cf0-b69e-bedfffeeebf4-1771929956947",
+            "generatedAt": "2026-02-25T06:55:18.622Z",
+            "sourceRevisionId": 1159387
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T14:54:52.897Z",
+            "resultId": 43682
+          },
+          "labeledSubSubTopics": []
+        },
+        "currentRevisionId": 1697615,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941836,
+            "content": "Species B and D",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Species B and D differ by 11 bases, which is not the smallest difference in the table."
+          },
+          {
+            "id": 4941837,
+            "content": "Species A and B",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Species A and B differ by 22 bases, which is not the smallest difference in the table."
+          },
+          {
+            "id": 4941838,
+            "content": "Species A and C",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. Species A and C have the fewest base differences (8), indicating the most recent common ancestor."
+          },
+          {
+            "id": 4941839,
+            "content": "Species C and D",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Species C and D differ by 31 bases, which is not the smallest difference in the table."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5ebe4627-8f0e-4de6-ac7d-9e2f05aa4828",
+        "specification": "A conservation study measured the population size of an endangered mammal species in a fragmented habitat over five different regions. The table below shows the data collected:\n\n| Region | Habitat Size (km\u00b2) | Mammal Population |\n|--------|-------------------|------------------|\n| A      | 500               | 250              |\n| B      | 300               | 160              |\n| C      | 150               | 85               |\n| D      | 75                | 40               |\n| E      | 30                | 12               |\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28819,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.7 Need for several approaches to conservation of biodiversity",
+              "title": "A4.2.7 Need for several approaches to conservation of biodiversity",
+              "labeledAt": "2026-03-06T07:59:57.191Z",
+              "reasoning": "Part (b) asks how habitat corridors aid conservation (e.g., reconnecting fragmented habitats, promoting gene flow), which aligns with using multiple approaches for biodiversity conservation.",
+              "confidence": 0.72
+            },
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-06T07:59:57.191Z",
+              "reasoning": "The scenario is explicitly about fragmented habitat and its impact on an endangered species; this fits ecosystem/habitat loss as a driver affecting populations.",
+              "confidence": 0.55
+            },
+            {
+              "id": 29127,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.1 Populations",
+              "title": "C4.1.1 Populations",
+              "labeledAt": "2026-03-06T07:59:57.191Z",
+              "reasoning": "Part (a) interprets how a population size varies across regions with different habitat sizes\u2014general population-level reasoning (population size vs limiting factors/carrying capacity) rather than a specific sampling method.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 878172,
+        "parts": [
+          {
+            "id": 961463,
+            "content": "Identify the relationship between habitat size and mammal population. Suggest one reason for this trend. ",
+            "order": 0,
+            "markscheme": "- Larger habitats support higher populations; smaller habitats have fewer mammals.\n- Example: Region A (500 km\u00b2) has 250 mammals, while Region E (30 km\u00b2) has only 12 mammals.\n- Small habitats have fewer resources, more competition, and greater predation risks.\n\n<marks> Total 2 marks </marks> : <marks> 1 mark </marks>  identifying the trend, <marks> 1 mark </marks>  explaining resource availability and population decline",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "qualitative_trend",
+                  "label": "Qualitative Trend Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the task",
+                      "content": "To answer this question, we need to do two things:\n1. Observe the data to identify the **relationship** (the trend) between habitat size and population.\n2. Use **ecological concepts** to explain why that trend exists.\n\nThis aligns with **Topic C4.1: Populations and communities**, where we study how resources and environment affect population size."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze data trends",
+                      "content": "By looking at the table, we can see a clear pattern: as the habitat size decreases, the mammal population also decreases. Conversely, as the habitat size increases, the population size increases.\n\nThis is a **positive relationship** (or positive correlation). In biology, we often find that the physical size of an environment directly limits the number of organisms that can live there.",
+                      "highlights": [
+                        {
+                          "text": "Identify the relationship between habitat size and mammal population",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Provide evidence",
+                      "content": "To secure the first mark, it's best to provide a specific example from the data to illustrate the trend. \n\nCompare the two extremes:\n*   **Region A** has the largest habitat ($500\\text{ km}^2$) and the highest population ($250$).\n*   **Region E** has the smallest habitat ($30\\text{ km}^2$) and the lowest population ($12$).\n\nThis evidence confirms the positive relationship.",
+                      "highlights": [
+                        {
+                          "text": "Example: Region A (500 km\u00b2) has 250 mammals, while Region E (30 km\u00b2) has only 12 mammals.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Ecological explanation",
+                      "content": "The reason for this trend is linked to **carrying capacity** ($K$) and **resource availability**. \n\nLarger habitats typically provide more essential resources such as food, water, and nesting sites. Smaller habitats have fewer of these resources, which leads to:\n*   Increased **interspecific and intraspecific competition**.\n*   Lower carrying capacity, meaning the environment can only support a smaller number of individuals.\n*   Potential issues like higher predation risk or lack of mates due to fragmentation.",
+                      "highlights": [
+                        {
+                          "text": "Carrying capacity and competition for limited resources",
+                          "location": "data_booklet",
+                          "sectionName": "Populations and communities"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final summary",
+                      "content": "To gain the full 2 marks, your answer should look like this:\n\n*   **Trend:** There is a positive relationship where larger habitats support larger mammal populations (e.g., Region A vs Region E).\n*   **Reason:** Smaller habitats have fewer resources (food/water), which limits the carrying capacity and increases competition for what is available."
+                    }
+                  ]
+                },
+                {
+                  "id": "comparative_data",
+                  "label": "Data-Driven Comparative Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the data table",
+                      "content": "To identify the relationship, we look at the extreme values in the data. By comparing the largest and smallest regions, we can see a clear trend.\n\n*   **Region A** (the largest) has a habitat size of $500\\text{ km}^2$ and supports $250$ mammals.\n*   **Region E** (the smallest) has a habitat size of $30\\text{ km}^2$ and supports only $12$ mammals.\n\nAs the habitat size decreases, the population of mammals also decreases, indicating a **positive correlation** between habitat size and population size.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "250/12",
+                            "instructions": "Calculate 250 divided by 12."
+                          },
+                          "ti84": {
+                            "expression": "250/12",
+                            "instructions": "Enter 250 / 12 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "250/12",
+                            "instructions": "Input 250/12 into the expression bar."
+                          },
+                          "description": "Calculate the ratio of the largest population to the smallest population to see the magnitude of the difference."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "Region A",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "500",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Region E",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "30",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Evaluate population density",
+                      "content": "Using a calculator to find the population density (individuals per $\\text{km}^2$), we can see that smaller habitats may struggle to support mammals as efficiently as larger ones.\n\n$$\\text{Density}_A = \\frac{250}{500} = 0.50\\text{ mammals/km}^2$$\n$$\\text{Density}_E = \\frac{12}{30} = 0.40\\text{ mammals/km}^2$$\n\nThe lower density in the smallest region suggests that smaller fragments are not just smaller, but potentially less suitable for the species.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "12/30",
+                            "instructions": "Divide the population by the habitat size for Regions A and E."
+                          },
+                          "ti84": {
+                            "expression": "12/30",
+                            "instructions": "Perform 250 / 500 [ENTER] and 12 / 30 [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "12/30",
+                            "instructions": "Calculate 250/500 and 12/30."
+                          },
+                          "description": "Calculate population density for Region A and Region E."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Suggest an ecological reason",
+                      "content": "One primary reason for this trend is **resource availability** and the **carrying capacity** of the habitat. \n\nLarger habitats provide more food, water, and nesting sites, allowing for a larger carrying capacity (covered in **Topic C4.1: Populations and communities**). Conversely, small fragments suffer from **habitat fragmentation** and **edge effects**, where the perimeter of the habitat is exposed to outside disturbances (like noise or predators), reducing the high-quality interior space available for the mammals to survive."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final answer formulation",
+                      "content": "To earn full marks, ensure your answer includes both the data-backed trend and a biological explanation:\n\n1.  **Trend:** Larger habitats support higher mammal populations. For example, Region A ($500\\text{ km}^2$) has $250$ mammals, while Region E ($30\\text{ km}^2$) has only $12$.\n2.  **Reason:** Smaller habitats have fewer available resources (food/space) and may be more affected by edge effects, reducing the population they can support.",
+                      "highlights": [
+                        {
+                          "text": "Larger habitats support higher populations; smaller habitats have fewer mammals.",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Small habitats have fewer resources, more competition, and greater predation risks.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T05:09:28.767Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 961464,
+            "content": "Describe how habitat corridors could help in the conservation of this endangered species. ",
+            "order": 1,
+            "markscheme": "- Habitat corridors are connections between fragmented habitats that allow safe movement of animals.\n- This increases genetic diversity, reduces inbreeding, and enables access to food and mates.\n- It helps maintain stable populations and prevents local extinctions.\n\n<marks> Total 2 marks </marks> : <marks> 1 mark </marks>  explaining corridors as habitat connections, <marks> 1 mark </marks>  linking them to genetic diversity and survival benefits\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "biological_connectivity",
+                  "label": "Biological Connectivity Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define habitat corridors",
+                      "content": "In the **Biological Connectivity Approach**, habitat corridors are defined as physical links or \"bridges\" of natural habitat that connect otherwise isolated fragments. In our case, these corridors would link regions like A, B, C, D, and E, allowing the endangered mammals to travel safely between them rather than being trapped in a single, small patch.",
+                      "highlights": [
+                        {
+                          "text": "Habitat corridors are connections between fragmented habitats",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Facilitate movement and dispersal",
+                      "content": "By providing these physical links, corridors facilitate the movement of individuals. This is crucial for small populations (like the 12 mammals in Region E) that might otherwise run out of resources. Movement allows them to access a wider range of food sources and find suitable nesting or denning sites that might not be available in a single fragment."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Increase genetic diversity",
+                      "content": "A major benefit of biological connectivity is the exchange of genes between different subpopulations. When individuals move between regions to find mates, it increases the **genetic diversity** of the species. This helps reduce the risk of inbreeding, which often leads to health issues and lower survival rates in isolated, endangered populations.",
+                      "highlights": [
+                        {
+                          "text": "increases genetic diversity, reduces inbreeding, and enables access to food and mates",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Prevent local extinction",
+                      "content": "Finally, these corridors help maintain more stable populations overall. If a local catastrophe occurs in one region (like a disease outbreak in Region D), individuals from other regions can eventually recolonize that area via the corridors. This prevents local extinctions and ensures the long-term survival of the species across the entire landscape.",
+                      "highlights": [
+                        {
+                          "text": "helps maintain stable populations and prevents local extinctions",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "metapopulation_dynamics",
+                  "label": "Metapopulation Stability Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define habitat corridors",
+                      "content": "Habitat corridors are narrow strips or \"bridges\" of natural habitat that connect isolated patches, such as the fragmented regions **A** through **E** mentioned in the data. By providing a physical connection, they allow animals to move safely between areas that would otherwise be separated by human-developed land or inhospitable terrain.\n\nThis concept is a core part of **Topic C4.1: Populations and Communities**, which looks at how populations interact within their environment.",
+                      "highlights": [
+                        {
+                          "text": "Habitat corridors are connections between fragmented habitats that allow safe movement of animals.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Preventing local extinctions",
+                      "content": "From the **Metapopulation Stability Approach**, we view these regions as a \"metapopulation\"\u2014a group of separated populations that interact. Small regions, like **Region E** with only $12$ individuals, are at high risk of **local extinction** due to random events or disease.\n\nCorridors help by:\n*   **Recolonization**: If the population in Region E dies out, individuals from larger regions (like Region A) can migrate through the corridor to re-establish the population.\n*   **The Rescue Effect**: Immigrants from larger patches can supplement declining populations in smaller patches, preventing them from reaching zero."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Increase genetic diversity",
+                      "content": "By allowing movement between fragments, corridors promote **gene flow**. This increases the genetic diversity of the endangered species across all regions. \n\nWhen populations are isolated, they often suffer from inbreeding, which weakens their ability to survive environmental changes. Corridors ensure that mates can be found in different regions, maintaining a healthier, more resilient gene pool and ensuring long-term survival.",
+                      "highlights": [
+                        {
+                          "text": "This increases genetic diversity, reduces inbreeding, and enables access to food and mates.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final summary for marks",
+                      "content": "To earn full marks on an IB exam, ensure you connect the physical structure to the biological outcome:\n1.  **Define**: Corridors connect fragmented habitats for safe movement ($1$ mark).\n2.  **Benefit**: They allow for recolonization and increased genetic diversity, which prevents local extinctions ($1$ mark)."
+                    }
+                  ]
+                },
+                {
+                  "id": "human_impact_mitigation",
+                  "label": "Human-Impact Mitigation Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the threat of fragmentation",
+                      "content": "The data provided shows that as habitat size decreases, the mammal population drops significantly\u2014from $250$ in Region A to only $12$ in Region E. Small, isolated populations are highly vulnerable to extinction due to human-made barriers (like roads or fences) that trap them in these fragments."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define habitat corridors",
+                      "content": "A habitat corridor is a strip of natural habitat that acts as a **connection between fragmented habitats**. By linking regions like D and E back to larger areas like A, we recreate a larger, continuous ecosystem.",
+                      "highlights": [
+                        {
+                          "text": "connections between fragmented habitats",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Mitigate human-made barriers",
+                      "content": "Following the **Human-Impact Mitigation Approach**, corridors (such as wildlife overpasses or underpasses) provide **safe passage** across human-made barriers like roads. This directly reduces mortality caused by vehicle collisions and allows animals to traverse the landscape without being killed by human activity."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Enhance genetic diversity",
+                      "content": "Allowing safe movement enables individuals from different regions to mate. This **increases genetic diversity and reduces inbreeding**, which is critical for the survival of the species in Region E, where only $12$ individuals remain. This gene flow ensures the population remains healthy and can adapt to environmental changes.",
+                      "highlights": [
+                        {
+                          "text": "increases genetic diversity, reduces inbreeding",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final answer for marks",
+                      "content": "To earn full marks, ensure your description includes two key points:\n1. **Corridors connect fragments**: They allow movement between isolated patches.\n2. **Survival Benefits**: They allow for access to mates/food, which increases genetic diversity and prevents local extinction."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-20T16:21:51.400Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6717d2b3-480a-4952-be65-424b4b0113d5",
+        "specification": "A study examined the impact of deforestation on species richness in a tropical rainforest over a 10-year period. The data below shows the number of species recorded in different deforested areas:\n\n| Years Since Deforestation | Number of Species Observed |\n|--------------------------|--------------------------|\n| 0 (Intact Forest)        | 125                      |\n| 2 Years                 | 98                       |\n| 5 Years                 | 67                       |\n| 10 Years                | 45                       |\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29313,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.3 Deforestation of Amazon rainforest ",
+              "title": "D4.2.3 Deforestation of Amazon rainforest ",
+              "labeledAt": "2026-03-06T10:07:50.957Z",
+              "reasoning": "The question centers on deforestation over time and its impact on species richness in tropical rainforest areas, aligning directly with the deforestation of the Amazon rainforest/similar tropical deforestation impacts.",
+              "confidence": 0.87
+            },
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-06T10:07:50.957Z",
+              "reasoning": "Part (a) asks for an explanation of declining species richness due to habitat loss/fragmentation, which fits causes of ecosystem loss.",
+              "confidence": 0.78
+            },
+            {
+              "id": 28819,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.7 Need for several approaches to conservation of biodiversity",
+              "title": "A4.2.7 Need for several approaches to conservation of biodiversity",
+              "labeledAt": "2026-03-06T10:07:50.957Z",
+              "reasoning": "Part (b) explicitly asks for two conservation strategies to protect biodiversity, matching the need for several approaches to conservation.",
+              "confidence": 0.74
+            },
+            {
+              "id": 28815,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.3 Causes of anthropogenic species extinction",
+              "title": "A4.2.3 Causes of anthropogenic species extinction",
+              "labeledAt": "2026-03-06T10:07:50.957Z",
+              "reasoning": "The decline in species richness following deforestation can be framed via anthropogenic drivers of extinction risk, which this topic covers.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 878168,
+        "parts": [
+          {
+            "id": 961461,
+            "content": "Describe the trend shown in the data and suggest a possible explanation for the observed decline in species richness. ",
+            "order": 0,
+            "markscheme": "- The number of species decreases over time after deforestation.\n- Initially, 125 species were present, but after 10 years, only 45 species remained.\n- Deforestation destroys habitats, reducing food availability and shelter, leading to species migration or extinction.\n\n<marks> Total 2 marks </marks> : <marks> 1 mark </marks>  describing the trend, <marks> 1 mark </marks>  explaining habitat loss and its impact on species survival\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "quantitative_analysis",
+                  "label": "Quantitative Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the quantitative data",
+                      "content": "To describe the trend effectively in an IB Biology response, you should always reference the specific numerical values provided in the table. \n\nLooking at the data, we can see a clear **negative correlation** (or downward trend) between the time since deforestation and species richness. \n- At year 0 (the intact forest), there were **125 species**.\n- By year 10, the number of species had fallen to **45**.\n\nThis represents a significant loss of biodiversity over a relatively short decade.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "125 - 45",
+                            "instructions": "Subtract the final number of species from the initial number of species."
+                          },
+                          "ti84": {
+                            "expression": "125 - 45",
+                            "instructions": "Subtract the final number of species from the initial number of species."
+                          },
+                          "desmos": {
+                            "expression": "125 - 45",
+                            "instructions": "Subtract the final number of species from the initial number of species."
+                          },
+                          "description": "Calculate the total decrease in species richness over the 10-year period."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "125",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "45",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Explain the biological decline",
+                      "content": "Now, we need to suggest *why* this decline occurs. In IB Biology, particularly when discussing **Topic D4.2 (Sustainability and Change)**, we look at how deforestation alters the physical environment.\n\nDeforestation leads to **habitat destruction**. Trees are not just plants; they are the physical structure of the rainforest. When they are removed, there is a massive **loss of shelter** and nesting sites for various organisms. Furthermore, the removal of the canopy reduces food availability (fruits, leaves, and prey living in the trees), which forces species to either migrate to remaining forest patches or face local extinction."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Review the marks awarded",
+                      "content": "To ensure you get the full 2 marks for this question, check that your answer includes both components of the markscheme:\n\n1.  **Trend Description (1 mark):** You stated that species richness decreases over time and used the specific values from the table ($125 \\rightarrow 45$).\n2.  **Biological Explanation (1 mark):** You explained that deforestation destroys habitats, leading to a loss of food or shelter.\n\nThis quantitative approach is favored by examiners because it shows you can interpret data precisely rather than just making general statements.",
+                      "highlights": [
+                        {
+                          "text": "125 species were present, but after 10 years, only 45 species remained",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Deforestation destroys habitats, reducing food availability and shelter",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "qualitative_relationship",
+                  "label": "Qualitative Relationship",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the trend",
+                      "content": "To answer the first part of the question, we need to look at how the **Number of Species Observed** changes as the **Years Since Deforestation** increase. \n\nLooking at the table, we can see an **inverse correlation**: as the time since deforestation increases, the number of species decreases. This means that the biodiversity of the area is declining over the 10-year period.",
+                      "highlights": [
+                        {
+                          "text": "Number of Species Observed",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Years Since Deforestation",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Provide data evidence",
+                      "content": "To get full marks for a \"describe\" question in IB Biology, it is always a good idea to cite specific values from the data provided.\n\nAt the start ($0$ years), the forest was intact with $125$ species. By the end of the study ($10$ years), the number of species had dropped significantly to only $45$.",
+                      "highlights": [
+                        {
+                          "text": "0 (Intact Forest)",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "125",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "10 Years",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "45",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Explain the ecological impact",
+                      "content": "Now we need to explain *why* this decline happens using the **Qualitative Relationship** approach. \n\nDeforestation removes the primary producers (trees), which are the foundation of the ecosystem. This results in:\n1. **Reduction of Ecological Niches**: Trees provide complex 3D structures for nesting, hiding, and hunting. When they are removed, many specialized roles (niches) disappear, and the organisms that filled them can no longer survive there.\n2. **Reduced Food Resources**: Many species rely directly on fruits, leaves, or other organisms within the forest for food. Without these resources, species must either migrate to find new habitats or face local extinction.\n\nThis aligns with concepts in **Topic B4.2: Ecological Niches** and **Topic D4.2: Sustainability and Change**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Finalize the answer",
+                      "content": "Based on the markscheme, your final answer should clearly state both the trend and the ecological reason:\n\n*   **Trend:** The species richness decreases over time following deforestation (from $125$ to $45$ species over $10$ years).\n*   **Explanation:** Deforestation leads to habitat destruction, which reduces available ecological niches and food resources, making it impossible for many species to survive."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T05:09:18.176Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 961462,
+            "content": "Explain two conservation strategies that could be used to protect biodiversity in tropical rainforests. ",
+            "order": 1,
+            "markscheme": "- Protected Areas & National Parks: Legal protection of forests prevents deforestation and preserves biodiversity.\n- Reforestation & Habitat Restoration: Planting native trees can rebuild ecosystems and support species recovery.\n\n<marks> Total 2 marks </marks> : <marks> 1 mark </marks>  each valid conservation strategy\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "insitu",
+                  "label": "In-situ Conservation Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the Conservation Goal",
+                      "content": "The question asks for strategies to protect biodiversity in tropical rainforests, specifically in the context of the data showing a sharp decline in species richness after deforestation. Using an **In-situ Conservation Approach**, we focus on protecting species within their natural environment to maintain ecological stability."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Establish Protected Areas",
+                      "content": "The first strategy is the establishment of **Protected Areas and National Parks**. By legally safeguarding specific regions of the rainforest, human interference like logging or mining is restricted. This ensures that the \"Intact Forest\" environment remains stable, preventing the species richness from dropping as seen in the provided table.\n\n$$ \\text{Species loss prevention} = \\text{Legal protection of habitat} $$",
+                      "highlights": [
+                        {
+                          "text": "Protected Areas & National Parks: Legal protection of forests prevents deforestation and preserves biodiversity.",
+                          "index": 0,
+                          "location": "eliminate"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Implement Habitat Restoration",
+                      "content": "The second strategy is **Reforestation and Habitat Restoration**. For areas that have already been deforested (like the 10-year mark in the data), planting native tree species helps rebuild the ecosystem. This allows species to return and recolonize the area, reversing the trend of biodiversity loss.\n\n$$ \\text{Recovery of biodiversity} \\propto \\text{Native tree planting} $$",
+                      "highlights": [
+                        {
+                          "text": "Reforestation & Habitat Restoration: Planting native trees can rebuild ecosystems and support species recovery.",
+                          "index": 1,
+                          "location": "eliminate"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final Explanation for Marks",
+                      "content": "To secure the 2 marks, you should clearly state two distinct strategies:\n1. **Protected Areas:** Creating national parks to prevent future deforestation.\n2. **Reforestation:** Actively planting native vegetation to restore damaged habitats and support species recovery."
+                    }
+                  ]
+                },
+                {
+                  "id": "restoration",
+                  "label": "Ecological Restoration Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify conservation goals",
+                      "content": "To protect biodiversity in tropical rainforests, we focus on **Ecological Restoration**. This involves actively repairing ecosystems that have been degraded or destroyed. Since the data shows a significant drop in species richness over 10 years, our strategies must aim to reverse this trend by rebuilding the habitat structure."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Strategy 1: Reforestation programs",
+                      "content": "One primary strategy is **reforestation**, which involves planting native tree species in deforested areas. This process helps restore the complex vertical structure of the rainforest, providing niches for various organisms and reversing the decline in species richness seen in the data table.\n\nBy selecting a diversity of native species, we can accelerate the recovery of the ecosystem and provide the necessary food and shelter for specialized tropical species.",
+                      "highlights": [
+                        {
+                          "text": "Reforestation & Habitat Restoration: Planting native trees can rebuild ecosystems and support species recovery.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Strategy 2: Biological corridors",
+                      "content": "A second vital strategy is the creation of **biological corridors**. When forests are cleared, the remaining areas become isolated 'islands.' Restoration efforts create strips of habitat that reconnect these fragments.\n\nThese corridors allow animals to move between areas to find food and mates, which promotes genetic diversity and prevents local extinctions in small forest patches. This is a key part of **Topic D4.2: Sustainability and Change**, specifically regarding the restoration of natural processes."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Review markscheme requirements",
+                      "content": "To earn the full 2 marks, you need to provide two distinct strategies. While our approach focuses on active restoration, the markscheme also recognizes legal protection as a valid strategy.\n\n1. **Reforestation/Habitat Restoration**: Actively planting trees to rebuild the ecosystem (1 mark).\n2. **Biological Corridors or Protected Areas**: Either reconnecting fragments or establishing national parks to prevent further loss (1 mark).",
+                      "highlights": [
+                        {
+                          "text": "1 mark each valid conservation strategy",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "legislative",
+                  "label": "Legislative and Socio-economic Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze biodiversity loss",
+                      "content": "The data provided shows a drastic decline in species richness from $125$ to $45$ species over $10$ years due to deforestation. To stop this trend, we can use a **Legislative and Socio-economic Approach**, which focuses on laws and financial incentives to protect habitats.",
+                      "highlights": [
+                        {
+                          "text": "125",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "45",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Legislative: International trade regulation",
+                      "content": "One strategy is using international agreements like **CITES** (Convention on International Trade in Endangered Species). This legislative tool regulates or bans the trade of endangered species and their products. By making the trade of rainforest species illegal, it reduces the economic incentive for poaching and habitat destruction, helping to maintain biodiversity levels."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Socio-economic: Sustainable land-use",
+                      "content": "Another strategy is implementing **ecotourism**. This is a socio-economic approach that provides local communities with a sustainable source of income that depends on a healthy, standing forest. When the forest becomes more valuable as a tourist destination than as timber or farmland, the economic pressure for deforestation is greatly reduced."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary of strategies",
+                      "content": "In summary, the two strategies are:\n1. **Legislative:** Using international laws (like CITES) or national laws to designate protected areas/national parks to prevent legal logging.\n2. **Socio-economic:** Promoting ecotourism to provide alternative livelihoods that protect rather than destroy the ecosystem."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T05:10:48.024Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7686422a-4beb-4b61-a134-f595b66e329f",
+        "specification": "Greenhouse gases absorb radiation emitted by the Earth's surface.\n\n![diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-7686422a-4beb-4b61-a134-f595b66e329f-1771929956947/c1e4e8b8-9560-4095-95c0-36f446e2ce6e.jpeg)\n\nWhat is a property of this radiation?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-7686422a-4beb-4b61-a134-f595b66e329f-1771929956947",
+            "generatedAt": "2026-02-25T04:50:26.114Z",
+            "sourceRevisionId": 1480999
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T15:06:54.003Z",
+            "resultId": 42983
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29326,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.3 Climate change > D4.3.1 Anthropogenic causes of climate change",
+              "title": "D4.3.1 Anthropogenic causes of climate change",
+              "labeledAt": "2026-03-06T16:04:43.900Z",
+              "reasoning": "Question is about greenhouse gases trapping outgoing long-wavelength (infrared) radiation from Earth, which is part of the mechanism underlying anthropogenic climate change.",
+              "confidence": 0.52
+            },
+            {
+              "id": 29146,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.2 Sunlight",
+              "title": "C4.2.2 Sunlight",
+              "labeledAt": "2026-03-06T16:04:43.900Z",
+              "reasoning": "Diagram concerns incoming solar radiation and energy transfer involving sunlight, though the key focus is on outgoing terrestrial radiation.",
+              "confidence": 0.34
+            }
+          ]
+        },
+        "currentRevisionId": 1697670,
+        "parts": [],
+        "options": [
+          {
+            "id": 4942056,
+            "content": "It has a higher frequency than the incoming radiation from the Sun.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Radiation emitted by Earth's cooler surface has a lower frequency (longer wavelength) than incoming solar radiation."
+          },
+          {
+            "id": 4942057,
+            "content": "It has a longer wavelength than the incoming radiation from the Sun.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Earth's surface emits mainly long-wavelength infrared radiation, which is absorbed by greenhouse gases."
+          },
+          {
+            "id": 4942058,
+            "content": "It has the same wavelength as the radiation absorbed by the Earth from the Sun.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. After absorption, Earth re-emits energy at longer wavelengths due to its lower temperature than the Sun."
+          },
+          {
+            "id": 4942059,
+            "content": "It is mostly visible light that is reflected back to Earth by greenhouse gases.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Greenhouse gases primarily absorb and re-emit infrared radiation, not visible light, and they do not mainly act by reflection."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "791d21c2-f381-488f-b468-4c6acafec526",
+        "specification": "The cladogram shows several orders within the class Insecta and is based on morphological and molecular evidence.\n\n![Image](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-biology-new-791d21c2-f381-488f-b468-4c6acafec526-1771815806714/804bcbdd-5576-4d49-9ef4-035b6fd55fcd.jpeg)\n\nWhich conclusion can be drawn from evidence in the cladogram?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-biology-new-791d21c2-f381-488f-b468-4c6acafec526-1771815806714",
+            "generatedAt": "2026-02-23T04:08:16.730Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1109377
+          },
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28799,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.7 Analysing cladograms (HL)",
+              "title": "A3.2.7 Analysing cladograms (HL)",
+              "labeledAt": "2026-03-05T14:51:14.627Z",
+              "reasoning": "The question specifically requires the analysis of a provided cladogram to draw conclusions about evolutionary relationships between different insect orders.",
+              "confidence": 1
+            },
+            {
+              "id": 28796,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.4 Clades as groups of organisms with common ancestry and shared characteristics (HL)",
+              "title": "A3.2.4 Clades as groups of organisms with common ancestry and shared characteristics (HL)",
+              "labeledAt": "2026-03-05T14:51:14.627Z",
+              "reasoning": "The question tests the understanding of clades and common ancestry, which are defined as groups of organisms sharing a common ancestor.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1681512,
+        "parts": [],
+        "options": [
+          {
+            "id": 4910119,
+            "content": "Hemiptera and Coleoptera do not form part of any clade.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4910120,
+            "content": "Coleoptera are less closely related to Ephemeroptera than to Hemiptera.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4910121,
+            "content": "Orthoptera have not been changed by evolution for longer than other orders.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4910122,
+            "content": "Coleoptera and Odonata have not evolved from a common ancestor.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7fa1c90f-827e-480e-b6aa-11318b57c1cd",
+        "specification": "The cladogram below shows the evolutionary history of five related species based on mitochondrial DNA sequence analysis. Which node represents the most ancient common ancestor (the point of greatest genetic divergence between descendant groups)?\n\n![cladogram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-biology-new-7fa1c90f-827e-480e-b6aa-11318b57c1cd-1771815806714/1d5e0844-73b7-4e9e-87ff-e9a760c98d77.jpeg)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-biology-new-7fa1c90f-827e-480e-b6aa-11318b57c1cd-1771815806714",
+            "generatedAt": "2026-02-23T04:04:29.149Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1480991
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:25:59.598Z",
+            "resultId": 11440
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28799,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.7 Analysing cladograms (HL)",
+              "title": "A3.2.7 Analysing cladograms (HL)",
+              "labeledAt": "2026-03-05T14:51:47.378Z",
+              "reasoning": "The question requires the interpretation and analysis of a cladogram to identify nodes and determine evolutionary relationships among species.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1694116,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932501,
+            "content": "P",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4932502,
+            "content": "Q",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4932503,
+            "content": "R",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4932504,
+            "content": "S",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7fad3d2e-3af7-4781-9fb3-7b8f46bb32cd",
+        "specification": "Which factor is critical for maintaining biodiversity in a mountain ecosystem?\n![Image](https://pub-images.revisiondojo.com/question-images/89f442d0-c816-40de-a9a5-73009dde798c)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:25:52.403Z",
+            "resultId": 11441
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28925,
+              "isHl": false,
+              "path": "B - Form and Function > B4.1 Adaptation to environment > B4.1.3 Abiotic variables affecting species distribution",
+              "title": "B4.1.3 Abiotic variables affecting species distribution",
+              "labeledAt": "2026-03-05T14:51:52.133Z",
+              "reasoning": "The question identifies water availability (an abiotic factor) as critical for species presence in a mountain ecosystem, which aligns with how abiotic variables determine species distribution.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28813,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "title": "A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "labeledAt": "2026-03-05T14:51:52.133Z",
+              "reasoning": "The question specifically asks about the maintenance of biodiversity, which is the variety of life in all its forms and levels in an ecosystem.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1694115,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932497,
+            "content": "Water availability",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4932498,
+            "content": "Uniform climate",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4932499,
+            "content": "High habitat diversity",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4932500,
+            "content": "Low rates of habitat fragmentation",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "845c3c41-0cdf-43b2-ad47-66b68608e733",
+        "specification": "The DNA base sequences in a gene coding for a particular protein in four different species are shown. Locations where mutations have occurred resulting in changes to the base sequences are outlined in boxes.\n\n![](https://pub-images.revisiondojo.com/question-images/0758640e-2fd9-4764-affe-6eb34ee4ccad.jpg)\n\n\nWhich cladogram shows the most likely phylogenetic relationship between the four species, based on the data provided?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Biology-19M.1.SL.TZ1.23",
+          "labeledSubSubTopics": [
+            {
+              "id": 28800,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.8 Using cladistics to investigate evolutionary relationships (HL)",
+              "title": "A3.2.8 Using cladistics to investigate evolutionary relationships (HL)",
+              "labeledAt": "2026-03-06T16:14:45.203Z",
+              "reasoning": "Selecting the most likely cladogram based on sequence differences is an application of cladistics to investigate evolutionary relationships.",
+              "confidence": 0.78
+            },
+            {
+              "id": 28798,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.6 Base sequences of genes or amino acid sequences of proteins (HL)",
+              "title": "A3.2.6 Base sequences of genes or amino acid sequences of proteins (HL)",
+              "labeledAt": "2026-03-06T16:14:45.203Z",
+              "reasoning": "The data provided are base sequences of a gene; the task depends on interpreting gene base-sequence similarity/differences (molecular data) to infer relatedness.",
+              "confidence": 0.7
+            },
+            {
+              "id": 28799,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.7 Analysing cladograms (HL)",
+              "title": "A3.2.7 Analysing cladograms (HL)",
+              "labeledAt": "2026-03-06T16:14:45.203Z",
+              "reasoning": "The student must choose among alternative cladograms, i.e., analyze/interpret cladograms using molecular mutation patterns.",
+              "confidence": 0.64
+            }
+          ]
+        },
+        "currentRevisionId": 1645292,
+        "parts": [],
+        "options": [
+          {
+            "id": 4780824,
+            "content": "![](https://pub-images.revisiondojo.com/question-images/e416cd1e-c606-44c9-bfec-9b6454327bbf.jpg)",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4780825,
+            "content": "![](https://pub-images.revisiondojo.com/question-images/db6dda5f-dc46-4521-8287-6c6f887239b9.jpg)",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4780826,
+            "content": "![](https://pub-images.revisiondojo.com/question-images/b8ec43d0-e03b-4111-bd9d-bd2a79d5fd71.jpg)",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4780827,
+            "content": "![](https://pub-images.revisiondojo.com/question-images/00dd9c69-2cca-4f23-bf5e-1a2702d9ea10.jpg)",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9bdce06c-bdee-46cc-ade3-e00e303617e6",
+        "specification": "Fossil evidence suggests which of the following about current biodiversity levels?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28814,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.2 Comparisons between current number of species on Earth and past levels of biodiversity",
+              "title": "A4.2.2 Comparisons between current number of species on Earth and past levels of biodiversity",
+              "labeledAt": "2026-03-07T17:34:00.924Z",
+              "reasoning": "The question asks what fossil evidence suggests about present biodiversity compared with past levels, which directly matches comparisons between current and past biodiversity levels.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1068465,
+        "parts": [],
+        "options": [
+          {
+            "id": 3722669,
+            "content": "Species diversity has remained constant throughout Earth's history",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3722670,
+            "content": "More species are alive today than at any previous time",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3722671,
+            "content": "Biodiversity peaked during the Jurassic period",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3722672,
+            "content": "The number of species is currently lower than ever before",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9ed7a3ce-3bfd-4a5d-bf70-1e8b97a39035",
+        "specification": "A small population of endangered Amur leopards was declining rapidly in the wild. Conservation biologists established a facility where they could safely breed these leopards under controlled conditions, successfully maintaining stable numbers of the species.\n\n![Amur leopard](https://pub-images.revisiondojo.com/question-images/474d005a-9dca-44c0-8937-6488e8797558)\n\nWhich conservation strategy is being demonstrated?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:40:37.616Z",
+            "resultId": 12974
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28819,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.7 Need for several approaches to conservation of biodiversity",
+              "title": "A4.2.7 Need for several approaches to conservation of biodiversity",
+              "labeledAt": "2026-03-05T15:21:32.392Z",
+              "reasoning": "The question asks to identify a conservation strategy (captive breeding) used to stabilize an endangered population, which is a specific example of the various approaches to biodiversity conservation covered in this topic.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1693967,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931905,
+            "content": "Habitat restoration",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Habitat restoration involves improving or restoring the natural environment where a species lives, rather than breeding them in a controlled facility."
+          },
+          {
+            "id": 4931906,
+            "content": "Genetic modification",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Genetic modification involves the direct manipulation of an organism's genes using biotechnology, which is not the process described here."
+          },
+          {
+            "id": 4931907,
+            "content": "Captive breeding",
+            "correct": true,
+            "order": 2,
+            "markscheme": "- Identify captive breeding as the process of breeding endangered species in a controlled environment, such as a zoo or specialized facility, to increase or stabilize their population. <marks>1 mark</marks>"
+          },
+          {
+            "id": 4931908,
+            "content": "Biocontrol",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Biocontrol is the use of one biological species (e.g., a predator or parasite) to control the population of another (e.g., a pest species)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ab9695c9-05d2-4bda-a9a9-9b93c37b2fe7",
+        "specification": "Which of the following best describes the term **biodiversity**?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28813,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "title": "A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "labeledAt": "2026-03-06T15:31:25.266Z",
+              "reasoning": "The question asks for the definition of biodiversity; this leaf topic explicitly defines biodiversity as the variety of life in all its forms, levels and combinations (matching option C).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1068067,
+        "parts": [],
+        "options": [
+          {
+            "id": 3722681,
+            "content": "The number of species in a habitat",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3722682,
+            "content": "The total mass of organisms in a food web",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3722683,
+            "content": "The variety of life in all its forms, levels, and combinations",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3722684,
+            "content": "The number of predators in an ecosystem",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "bc5c6741-0150-465c-947a-d9f0b698ba76",
+        "specification": "Biodiversity and ecosystem stability depend on energy flow and human action.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:11:42.874Z",
+            "resultId": 15901
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29147,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.3 Flow of chemical energy through food chains",
+              "title": "C4.2.3 Flow of chemical energy through food chains",
+              "labeledAt": "2026-03-05T17:00:47.017Z",
+              "reasoning": "Part (c) specifically asks to outline how energy is transferred through a food chain, which is the exact focus of this topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28819,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.7 Need for several approaches to conservation of biodiversity",
+              "title": "A4.2.7 Need for several approaches to conservation of biodiversity",
+              "labeledAt": "2026-03-05T17:00:47.017Z",
+              "reasoning": "Part (d) addresses the importance and reasons for the conservation of biodiversity, which aligns with the need for biodiversity conservation approaches.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29129,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "title": "C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "labeledAt": "2026-03-05T17:00:47.017Z",
+              "reasoning": "Part (b) requires describing a method to estimate biodiversity; quadrat sampling is a primary leaf-level method used for such ecological estimations.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29312,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.2 Requirements for stability in ecosystems",
+              "title": "D4.2.2 Requirements for stability in ecosystems",
+              "labeledAt": "2026-03-05T17:00:47.017Z",
+              "reasoning": "Part (d) links biodiversity to sustainable (stable) ecosystems, which falls under the requirements for stability in ecosystems.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1694496,
+        "parts": [
+          {
+            "id": 1156417,
+            "content": "Describe one method used to estimate species biodiversity in an ecosystem.",
+            "order": 0,
+            "markscheme": "- Use quadrats to sample randomly within a habitat <marks>1 mark</marks>\n- Count the number of species present (species richness) <marks>1 mark</marks>\n- Count individuals of each species for relative abundance <marks>1 mark</marks>\n- Repeat sampling to ensure accuracy and reduce bias <marks>1 mark</marks>\n- Use a diversity index (e.g. Simpson\u2019s or Shannon index) to calculate diversity <marks>1 mark</marks>\n- Compare diversity across different areas or time periods <marks>1 mark</marks>\n- Method provides a baseline for conservation efforts <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156418,
+            "content": "Outline how energy is transferred through a food chain.",
+            "order": 1,
+            "markscheme": "- Producers capture sunlight via photosynthesis <marks>1 mark</marks>\n- Primary consumers eat producers, gaining stored chemical energy <marks>1 mark</marks>\n- Energy is passed to secondary and tertiary consumers <marks>1 mark</marks>\n- Decomposers obtain energy from dead organisms and recycle nutrients <marks>1 mark</marks>\n- Energy transfer is inefficient, with approximately $10\\%$ passed between levels <marks>1 mark</marks>\n- Energy is lost as heat via respiration <marks>1 mark</marks>\n- Energy supports growth, reproduction, and movement at each level <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156419,
+            "content": "Explain why the conservation of biodiversity is essential for sustainable ecosystems.",
+            "order": 2,
+            "markscheme": "- Biodiversity increases resilience to environmental change <marks>1 mark</marks>\n- Supports stable food webs and nutrient cycling <marks>1 mark</marks>\n- Maintains genetic variation for future adaptation <marks>1 mark</marks>\n- Ecosystems with high biodiversity resist invasive species <marks>1 mark</marks>\n- Provides ecosystem services like pollination, clean water, and soil formation <marks>1 mark</marks>\n- Supports carbon sequestration and climate regulation <marks>1 mark</marks>\n- Ensures availability of resources for human needs <marks>1 mark</marks>\n- Protects cultural and recreational ecosystem values <marks>1 mark</marks>\n- Essential for long-term ecosystem sustainability and balance <marks>1 mark</marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c245aa39-ba32-4c41-99dd-8647dbdcf940",
+        "specification": "The **mixed dipterocarp forest** in Southeast Asia is being lost primarily due to:",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-05T16:59:58.143Z",
+              "reasoning": "The question asks about the primary cause of the loss of a specific ecosystem (mixed dipterocarp forests in Southeast Asia), which is a direct application of the topic 'Causes of ecosystem loss'.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1085788,
+        "parts": [],
+        "options": [
+          {
+            "id": 3722685,
+            "content": "Saltwater intrusion",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3722686,
+            "content": "Conversion to oil palm plantations",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3722687,
+            "content": "Natural wildfires",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3722688,
+            "content": "Volcanic eruptions",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c91e3a97-c3d0-48a1-b761-d113184c1439",
+        "specification": "Genetic diversity within populations is a key factor influencing long-term survival and should be considered in conservation planning.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:03:02.247Z",
+            "resultId": 16188
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28813,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "title": "A4.2.1 Biodiversity as the variety of life in all its forms, levels and combinations",
+              "labeledAt": "2026-03-05T17:01:31.037Z",
+              "reasoning": "The topic A4.2.1 covers biodiversity at its various levels (genetic, species, and ecosystem). Since the question focuses on the role of genetic diversity, this is the most relevant starting point.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28819,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.7 Need for several approaches to conservation of biodiversity",
+              "title": "A4.2.7 Need for several approaches to conservation of biodiversity",
+              "labeledAt": "2026-03-05T17:01:31.037Z",
+              "reasoning": "The question explicitly asks about the role of genetic diversity in 'conservation', which is the central focus of topic A4.2.7.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29300,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.1 Natural selection > D4.1.5 Differences between individuals in adaptation, survival and reproduction",
+              "title": "D4.1.5 Differences between individuals in adaptation, survival and reproduction",
+              "labeledAt": "2026-03-05T17:01:31.037Z",
+              "reasoning": "This topic (D4.1.5) explains how variation among individuals leads to differences in adaptation and survival through natural selection, which is the biological mechanism by which genetic diversity ensures species survival.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1694450,
+        "parts": [
+          {
+            "id": 1156309,
+            "content": "Explain the role of genetic diversity in species survival and conservation.",
+            "order": 0,
+            "markscheme": "- Genetic diversity refers to the variety of alleles or genes present in a population. <marks>1 mark</marks>\n- It enables populations to adapt to changing environments or selective pressures. <marks>1 mark</marks>\n- High genetic diversity increases the likelihood that some individuals possess alleles that offer a selective advantage. <marks>1 mark</marks>\n- Individuals with beneficial traits are more likely to survive and reproduce, passing these traits to offspring (natural selection). <marks>1 mark</marks>\n- Genetic diversity helps species resist diseases, preventing a single pathogen from wiping out the entire population. <marks>1 mark</marks>\n- It reduces the risk of inbreeding and the associated inbreeding depression. <marks>1 mark</marks>\n- It prevents or buffers against genetic drift, which can lead to the loss of beneficial alleles in small populations. <marks>1 mark</marks>\n- Conservation efforts (e.g., seed banks, captive breeding) focus on maintaining genetic diversity to ensure long-term population viability. <marks>1 mark</marks>\n- Loss of genetic diversity can lead to reduced biological fitness and increased extinction risk. <marks>1 mark</marks>\n\n<note>Award marks for clear examples that illustrate these points.</note>\n\n<examTip>Link genetic diversity specifically to survival mechanisms when explaining adaptation.</examTip>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e29d5a74-fbf2-460c-9254-bc5a37d6c42f",
+        "specification": "Habitat fragmentation can isolate populations and reduce long-term species survival.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": 7,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:01:31.520Z",
+            "resultId": 16271
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28819,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.7 Need for several approaches to conservation of biodiversity",
+              "title": "A4.2.7 Need for several approaches to conservation of biodiversity",
+              "labeledAt": "2026-03-05T17:02:18.676Z",
+              "reasoning": "The question asks about ecological corridors, which are a specific in situ approach to the conservation of biodiversity. This falls directly under the 'Need for several approaches to conservation of biodiversity' topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-05T17:02:18.676Z",
+              "reasoning": "The question specifically mentions fragmented landscapes, which are a primary consequence and form of ecosystem loss and degradation, providing the necessary context for why corridors are important.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29305,
+              "isHl": true,
+              "path": "D - Continuity and Change > D4.1 Natural selection > D4.1.10 Allele frequencies of geographically isolated populations (HL)",
+              "title": "D4.1.10 Allele frequencies of geographically isolated populations (HL)",
+              "labeledAt": "2026-03-05T17:02:18.676Z",
+              "reasoning": "A key importance of ecological corridors is maintaining gene flow between otherwise isolated populations, which directly relates to the study of allele frequencies in geographically isolated populations.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1694443,
+        "parts": [
+          {
+            "id": 1156296,
+            "content": "Outline one way habitat fragmentation can reduce genetic diversity in a population.",
+            "order": 0,
+            "markscheme": "- Reduced movement between habitat patches limits gene flow, increasing genetic drift and loss of alleles <marks>1 mark</marks>\n- Smaller, isolated populations are more likely to inbreed, increasing homozygosity and reducing genetic variation <marks>1 mark</marks>\n- Bottlenecks/founder effects may occur when only a few individuals remain or colonise patches, reducing allele diversity <marks>1 mark</marks>\n- Reduced effective population size makes random changes in allele frequency more significant, accelerating allele loss <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156297,
+            "content": "Describe one management strategy (other than corridors) that could help conserve biodiversity in fragmented landscapes.",
+            "order": 1,
+            "markscheme": "- Increase size of protected areas/reserves to support larger populations and reduce edge effects <marks>1 mark</marks>\n- Create stepping-stone habitats to allow gradual dispersal between patches <marks>1 mark</marks>\n- Restore degraded habitat to increase habitat quality and carrying capacity <marks>1 mark</marks>\n- Implement buffer zones around fragments to reduce human impacts (pollution, invasive species, disturbance) <marks>1 mark</marks>\n- Control invasive species/predators to reduce additional pressure on small isolated populations <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156298,
+            "content": "Explain the importance of ecological corridors in maintaining biodiversity in fragmented landscapes.",
+            "order": 2,
+            "markscheme": "- Ecological corridors provide connectivity between isolated/fragmented habitats <marks>1 mark</marks>\n- Allow movement and dispersal of species between habitat patches <marks>1 mark</marks>\n- Increase gene flow, helping maintain genetic diversity within populations <marks>1 mark</marks>\n- Reduced genetic isolation lowers inbreeding and inbreeding depression <marks>1 mark</marks>\n- Facilitate recolonisation/rescue effect after local extinctions, increasing metapopulation persistence <marks>1 mark</marks>\n- Enable seasonal/annual migration and access to resources (feeding/breeding sites), supporting wider-ranging species <marks>1 mark</marks>\n- Increase population and ecosystem resilience to environmental change/disturbance by allowing range shifts <marks>1 mark</marks>\n\n<note>Award marks for any other relevant points related to biodiversity maintenance through ecological corridors</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "eef1af46-3248-4785-896d-358b8e2d91bf",
+        "specification": "The diagram illustrates the three domains of life as proposed by Carl Woese.\n\n![Phylogenetic tree of the three domains](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-eef1af46-3248-4785-896d-358b8e2d91bf-1771929956947/fdde869c-75e3-4eb1-971d-dfe20b423062.jpeg)\n\nWhich feature is characteristic of organisms classified in domain 3?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-eef1af46-3248-4785-896d-358b8e2d91bf-1771929956947",
+            "generatedAt": "2026-02-24T13:48:11.023Z",
+            "sourceRevisionId": 1649705
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28801,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A3.2 Classification and cladistics (HL) > A3.2.9 Classification of all organisms using evidence from rRNA base sequences (HL)",
+              "title": "A3.2.9 Classification of all organisms using evidence from rRNA base sequences (HL)",
+              "labeledAt": "2026-03-05T17:00:58.794Z",
+              "reasoning": "The question specifically refers to the three-domain system proposed by Carl Woese, which is based on rRNA base sequences as categorized in topic A3.2.9.",
+              "confidence": 1
+            },
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-05T17:00:58.794Z",
+              "reasoning": "Domain 3 in the Carl Woese system represents the Eukaryota (Eukarya). The question asks for a defining feature of this domain, which is the presence of a nuclear membrane, a core concept of eukaryotic cell structure.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1685966,
+        "parts": [],
+        "options": [
+          {
+            "id": 4922331,
+            "content": "DNA is circular and located in a nucleoid region",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4922332,
+            "content": "Cell walls, if present, are composed of peptidoglycan",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4922333,
+            "content": "The genetic material is enclosed within a nuclear membrane",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4922334,
+            "content": "Ribosomes are exclusively 70S in size",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f7c86f27-ddf7-4fcd-bddf-98d383fb529d",
+        "specification": "The diagram shows the food web of a forest ecosystem. Which of the following changes is most likely to reduce biodiversity?\n![Image](https://pub-images.revisiondojo.com/question-images/c8444ecf-e41e-46a3-9f00-717b11a6bd2d)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29148,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.4 Construction of food chains and food webs",
+              "title": "C4.2.4 Construction of food chains and food webs",
+              "labeledAt": "2026-03-07T17:33:25.381Z",
+              "reasoning": "The question uses a food web diagram and asks how changes (e.g., removing a primary producer) affect biodiversity, which relies on understanding food webs and trophic interactions.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29143,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.17 Top-down and bottom-up control of populations in communities",
+              "title": "C4.1.17 Top-down and bottom-up control of populations in communities",
+              "labeledAt": "2026-03-07T17:33:25.381Z",
+              "reasoning": "Evaluating impacts of changing predator or producer levels on biodiversity involves top-down vs bottom-up control within communities.",
+              "confidence": 0.7
+            },
+            {
+              "id": 28816,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.4 Causes of ecosystem loss",
+              "title": "A4.2.4 Causes of ecosystem loss",
+              "labeledAt": "2026-03-07T17:33:25.381Z",
+              "reasoning": "Asking which change reduces biodiversity connects to general causes of ecosystem loss (e.g., removal of producers), though the main focus is the food web dynamics rather than conservation policy.",
+              "confidence": 0.45
+            }
+          ]
+        },
+        "currentRevisionId": 827244,
+        "parts": [],
+        "options": [
+          {
+            "id": 1572929,
+            "content": "Removal of a primary producer",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1572930,
+            "content": "Increase in a top predator",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1572931,
+            "content": "Introduction of a new prey species",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1572932,
+            "content": "Increase in plant species diversity",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fa9f63e0-c675-4550-a45c-52049d295b56",
+        "specification": "The graph shows the number of native plant species and invasive plant species recorded on an island over time.\n\n![](https://pub-images.revisiondojo.com/question-images/jIkYKWp3eNDE83m2s15EU.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T11:12:40.377Z",
+            "resultId": 33905
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29139,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.13 Resource competition between endemic and invasive species",
+              "title": "C4.1.13 Resource competition between endemic and invasive species",
+              "labeledAt": "2026-03-06T10:08:29.176Z",
+              "reasoning": "The graph and questions focus on invasive vs native species trends and asks why invasives reduce natives\u2014directly aligns with resource competition between endemic and invasive species.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29128,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.2 Estimation of population size by random sampling",
+              "title": "C4.1.2 Estimation of population size by random sampling",
+              "labeledAt": "2026-03-06T10:08:29.176Z",
+              "reasoning": "Part (c) asks for a method to monitor biodiversity over time; estimating population size by random sampling is a key monitoring approach.",
+              "confidence": 0.6
+            },
+            {
+              "id": 28819,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A4.2 Conservation of biodiversity > A4.2.7 Need for several approaches to conservation of biodiversity",
+              "title": "A4.2.7 Need for several approaches to conservation of biodiversity",
+              "labeledAt": "2026-03-06T10:08:29.176Z",
+              "reasoning": "Part (d) asks how such data informs conservation efforts, matching the need for approaches to conservation of biodiversity based on evidence and monitoring.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695844,
+        "parts": [
+          {
+            "id": 1157781,
+            "content": "Describe the relationship between the number of native and invasive species shown in the graph.",
+            "order": 0,
+            "markscheme": "- As the number of invasive species increases, the number of native species decreases;\n- There is a negative correlation / inverse relationship between the two trends;\n- Overall, invasive species increase steadily over time while native species decrease steadily over time;\n- The lines cross (numbers become approximately equal) in the 1990s (around mid-1990s);\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157782,
+            "content": "Suggest one reason why invasive species might reduce the number of native species.",
+            "order": 1,
+            "markscheme": "- Invasive species may outcompete native species for resources;\n_**OR**_\n- May introduce new diseases / predators;\n<Note> Accept any reasonable ecological mechanism",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157783,
+            "content": "Outline one method scientists might use to monitor biodiversity changes over time.",
+            "order": 2,
+            "markscheme": "- Carry out regular population surveys using standardized transects;\n_**OR**_\n- Use quadrat sampling at fixed locations at regular intervals;\n_**OR**_\n- Use remote sensing (e.g. aerial/satellite imaging) to track habitat/vegetation change;\n_**OR**_\n- Calculate a biodiversity index (e.g. Simpson\u2019s index) from repeated species counts;\n",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157784,
+            "content": "Explain how data like this can inform conservation efforts.",
+            "order": 3,
+            "markscheme": "- Identifies trends in biodiversity over time (native decline and invasive increase);\n- Highlights periods of rapid change that may require urgent intervention;\n- Can be used to evaluate the effectiveness of management actions by comparing before/after data;\n- Informs decisions such as invasive species control/eradication, protection of threatened native species, and habitat restoration;\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "40",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10843,
+      "title": "A4.2 Conservation of biodiversity",
+      "slug": "ib-biology-new-a42-conservation-of-biodiversity",
+      "parentTopicId": 10834
+    },
+    "subject": {
+      "id": 308,
+      "title": "Biology",
+      "slug": "ib-biology-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "40",
+      "byQuestion": {}
+    }
+  }
+}

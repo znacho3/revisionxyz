@@ -1,3 +1,3655 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:73b07381021c5b910af5d58d7a2cd59eba8a9ecf47762095618aae65e553a509
-size 185267
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0a947c5a-9df6-42ea-9228-609698654abd",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T08:16:39.153Z",
+              "reasoning": "Parts (b\u2013d, g) focus on regulation of ventilation, factors increasing ventilation during exercise, partial pressure gradients for gas exchange, and consequences of impaired gas exchange\u2014core respiratory/gas exchange content.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:16:39.153Z",
+              "reasoning": "Parts (e\u2013f) ask how the circulatory system meets increased O2 demand (e.g., cardiac output, redistribution of blood flow) and the role of cardiovascular control centers in adapting to changing exercise intensity.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:16:39.153Z",
+              "reasoning": "Parts (f\u2013g) explicitly link cardio-respiratory regulation and impaired gas exchange to maintenance of homeostasis and performance, aligning with homeostatic mechanisms.",
+              "confidence": 0.74
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:16:39.153Z",
+              "reasoning": "Ventilation and cardiovascular control centers imply neural regulation (e.g., respiratory centers/chemoreceptors, autonomic control), involving nervous system coordination of physiological responses.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1583579,
+        "parts": [
+          {
+            "id": 1137276,
+            "content": "Identify two systems that collaborate to regulate ventilation.",
+            "order": 1,
+            "markscheme": "- identify the nervous system <marks>A1</marks>\n- identify the respiratory system <marks>A1</marks>\n\n2 marks total\n\n<note>Accept muscular system as an alternative.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137277,
+            "content": "State two factors that increase ventilation rate during intense exercise.",
+            "order": 2,
+            "markscheme": "- increased carbon dioxide ($\\text{CO}_2$) levels in the blood <marks>A1</marks>\n- increased hydrogen ion concentration (lower pH) <marks>A1</marks>\n\n2 marks total\n\n<note>Accept increased body temperature or increased oxygen demand by muscles.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137278,
+            "content": "Describe how partial pressure gradients drive the exchange of gases during exercise.",
+            "order": 3,
+            "markscheme": "- oxygen diffuses from a region of high concentration in the alveoli to lower concentration in the blood <marks>A1</marks>\n- carbon dioxide ($\\text{CO}_2$) diffuses from high concentration in the blood to lower concentration in the alveoli <marks>A1</marks>\n- steeper partial pressure gradients during exercise enhance the rates of diffusion <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137279,
+            "content": "Explain how the circulatory system compensates for increased oxygen demand during interval training.",
+            "order": 4,
+            "markscheme": "- cardiac output increases through an increase in heart rate and stroke volume <marks>A1</marks>\n- blood flow is redirected toward active muscles through vasodilation <marks>A1</marks>\n- hemoglobin releases oxygen more readily at lower pH levels (Bohr effect) <marks>A1</marks>\n- these mechanisms support high metabolic demand during training <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137280,
+            "content": "Outline the importance of cardiovascular control centers in adapting to variable intensity workloads.",
+            "order": 5,
+            "markscheme": "- cardiovascular control centers are located in the medulla oblongata <marks>A1</marks>\n- they receive sensory input from baroreceptors and chemoreceptors <marks>A1</marks>\n- the centers adjust heart rate and blood vessel diameter to regulate flow <marks>A1</marks>\n- they respond rapidly to changes in exercise intensity to stabilize blood pressure <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137281,
+            "content": "Discuss the consequences of impaired gas exchange on homeostasis and athletic performance.",
+            "order": 6,
+            "markscheme": "- inadequate oxygen delivery to tissues reduces the production of ATP <marks>A1</marks>\n- accumulation of $\\text{CO}_2$ leads to respiratory acidosis, which can impair muscle contraction <marks>A1</marks>\n- leads to a decrease in overall athletic performance and a faster onset of fatigue <marks>A1</marks>\n- failure to maintain homeostasis increases the risk of metabolic collapse or injury <marks>A1</marks>\n- highlights the critical importance of efficient interaction between respiratory and cardiovascular systems <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "12d43f97-491b-4d19-ad78-2c8f35c482dc",
+        "specification": "According to the Fick equation, which two variables are multiplied to calculate $\\text{VO}_2$?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-12d43f97-491b-4d19-ad78-2c8f35c482dc-1771953315939",
+            "generatedAt": "2026-02-25T07:53:14.842Z",
+            "sourceRevisionId": 1583518
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:08:18.115Z",
+            "resultId": 41192
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T15:37:54.434Z",
+              "reasoning": "The Fick equation for VO\u2082 uses cardiovascular variables: VO\u2082 = cardiac output (Q) \u00d7 arteriovenous O\u2082 difference, focusing on heart/blood transport of oxygen.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29910,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.2 Factors affecting maximal oxygen consumption (VO\u2082 max)",
+              "title": "A.2.3.2 Factors affecting maximal oxygen consumption (VO\u2082 max)",
+              "labeledAt": "2026-03-06T15:37:54.434Z",
+              "reasoning": "VO\u2082 and VO\u2082max-related concepts include how oxygen consumption is calculated/understood, and the Fick equation underpins determinants of VO\u2082.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1696975,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940196,
+            "content": "Heart rate and stroke volume",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Heart rate $\\times$ stroke volume gives cardiac output, not $\\text{VO}_2$ directly."
+          },
+          {
+            "id": 4940197,
+            "content": "Cardiac output and arteriovenous oxygen difference",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Fick equation: $\\text{VO}_2 = Q \\times (a-v)\\text{O}_2$ difference, where $Q$ is cardiac output."
+          },
+          {
+            "id": 4940198,
+            "content": "Minute ventilation and breathing frequency",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Minute ventilation is calculated from tidal volume and breathing frequency, and is not used in the Fick equation for $\\text{VO}_2$."
+          },
+          {
+            "id": 4940199,
+            "content": "Systolic blood pressure and total peripheral resistance",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. These relate to cardiovascular function/blood pressure, not the Fick equation for $\\text{VO}_2$."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "209b028a-4315-4a64-bfcc-bb4f3fbe1619",
+        "specification": "The table compares structural features of three categories of vessels in the human circulatory system.\n\n| Vessel | Wall Thickness | Relative Lumen Diameter | Presence of Valves |\n| :--- | :--- | :--- | :--- |\n| **P** | Thick | Narrow | No |\n| **Q** | Very thin | Very narrow | No |\n| **R** | Thin | Wide | Yes |\n\nWhich of the following correctly identifies vessels P, Q, and R?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-209b028a-4315-4a64-bfcc-bb4f3fbe1619-1771929956947",
+            "generatedAt": "2026-02-24T12:34:09.061Z",
+            "sourceRevisionId": 1419781
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:38:39.556Z",
+            "resultId": 42609
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T16:02:17.026Z",
+              "reasoning": "The question asks to identify artery, capillary, and vein based on vessel wall thickness, lumen diameter, and presence of valves\u2014core structural/functional features of the cardiovascular transport system.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1696504,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939112,
+            "content": "P: Vein; Q: Capillary; R: Artery",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939113,
+            "content": "P: Artery; Q: Vein; R: Capillary",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939114,
+            "content": "P: Artery; Q: Capillary; R: Vein",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939115,
+            "content": "P: Capillary; Q: Artery; R: Vein",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "27501d84-1e9b-44df-820c-221f80bece7d",
+        "specification": "How is heat primarily transported from working muscles to the skin during long-distance running?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:29:31.430Z",
+            "resultId": 30781
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:27:21.031Z",
+              "reasoning": "Heat from working muscles is mainly carried to the skin by the blood (convective transport via increased circulatory blood flow), which is a cardiovascular system function.",
+              "confidence": 0.93
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:27:21.031Z",
+              "reasoning": "The question is framed around thermoregulation during endurance exercise, which falls under mechanisms maintaining homeostasis (temperature regulation).",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1695139,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935429,
+            "content": "Via plasma hormones",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Hormones act as chemical messengers and do not primarily transport thermal energy from muscles to skin; heat transfer in the body is mainly via blood flow (convection)."
+          },
+          {
+            "id": 4935430,
+            "content": "Via conduction along nerves",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Nerves transmit electrical impulses; they are not a primary pathway for bulk heat transfer from muscles to the skin."
+          },
+          {
+            "id": 4935431,
+            "content": "Via increased blood flow in the circulatory system",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Blood carries heat from active muscles to the skin by convection as skin blood flow increases (vasodilation) during exercise."
+          },
+          {
+            "id": 4935432,
+            "content": "Via diffusion into alveoli",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Some heat can be lost from the body via the respiratory tract, but this is not the primary mechanism for transporting heat from muscles to the skin."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2932b4eb-087c-4ff0-8ede-fcbdea3d44c5",
+        "specification": "The graph shows the heart rate response (bpm) over 30 minutes for interval vs. continuous training.\n\n![](https://pub-images.revisiondojo.com/plots/af2fa10c-e911-49be-a8ff-1be1cab3503a.png)\n\nWhich of the following best explains the heart rate pattern seen in the interval training group?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:25:05.508Z",
+            "resultId": 30217
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:17:25.095Z",
+              "reasoning": "Explaining interval-training heart rate fluctuations involves cardiovascular responses and autonomic (sympathetic/parasympathetic) regulation of heart rate during changing exercise intensities.",
+              "confidence": 0.87
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T05:17:25.095Z",
+              "reasoning": "The best option refers to repeated sympathetic stimulation and recovery, which is nervous-system control of physiological responses (autonomic regulation) during exercise.",
+              "confidence": 0.64
+            }
+          ]
+        },
+        "currentRevisionId": 1695445,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936385,
+            "content": "Alternating high and low intensities induce repeated sympathetic stimulation and partial recovery.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. The fluctuations in heart rate (the 'sawtooth' pattern) are caused by the alternation of high-intensity work, which increases sympathetic nervous system activity and heart rate, and low-intensity recovery periods, which allow for partial recovery and a decrease in heart rate."
+          },
+          {
+            "id": 4936386,
+            "content": "Continuous parasympathetic activation during intervals lowers baseline heart rate steadily.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Parasympathetic activation is generally inhibited during exercise to allow heart rate to rise; it is the withdrawal of sympathetic stimulation and reactivation of the parasympathetic system during the rest intervals that allows for recovery, not 'continuous' activation."
+          },
+          {
+            "id": 4936387,
+            "content": "Anaerobic metabolism during work intervals causes heart rate to rise and fall rapidly with changing intensity.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Although anaerobic contribution can be higher during intense efforts, the characteristic rise-and-fall pattern is primarily explained by alternating work and recovery (autonomic regulation with changing intensity), not by anaerobic metabolism itself."
+          },
+          {
+            "id": 4936388,
+            "content": "Interval training causes lower maximum heart rate due to increased stroke volume.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. While chronic training adaptations can increase stroke volume (leading to a lower heart rate at a given submaximal intensity), the pattern shown is a direct result of the varying exercise intensity, not a change in maximum heart rate."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a41b858-a41a-4b8b-8cfd-16789c147023",
+        "specification": "Physiology and Homeostasis in Exercise",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:17:42.334Z",
+              "reasoning": "Multiple parts focus directly on homeostasis and thermoregulation (hypothalamus role, internal conditions regulated, nervous/endocrine coordination to maintain stability during exercise).",
+              "confidence": 0.92
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:17:42.334Z",
+              "reasoning": "Parts ask about nervous system responses to increased body temperature and how nervous system works with endocrine system in homeostasis.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-07T08:17:42.334Z",
+              "reasoning": "Insulin function in blood glucose regulation and endocrine contributions to homeostasis during exercise are central endocrine regulation questions.",
+              "confidence": 0.83
+            },
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T08:17:42.334Z",
+              "reasoning": "One part asks about lungs and gas transport/gas exchange during exercise, which is respiratory system transport.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1583810,
+        "parts": [
+          {
+            "id": 1137839,
+            "content": "State the role of the hypothalamus in temperature regulation.",
+            "order": 1,
+            "markscheme": "- Detects changes in core body temperature <marks>A1</marks>\n- Initiates physiological responses to maintain homeostasis <marks>A1</marks>\n\n<note>Accept other physiological mechanisms such as activating sweating or shivering.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137840,
+            "content": "Identify two internal conditions regulated by homeostatic mechanisms.",
+            "order": 2,
+            "markscheme": "- Body temperature <marks>A1</marks>\n- Blood glucose levels <marks>A1</marks>\n\n<note>Other acceptable answers include: blood pH or water balance (any two).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137841,
+            "content": "Describe how the nervous system responds to an increase in body temperature.",
+            "order": 3,
+            "markscheme": "- Thermoreceptors send signals to the hypothalamus <marks>A1</marks>\n- Hypothalamus activates sweat glands <marks>A1</marks>\n- Vasodilation occurs to increase heat loss <marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137842,
+            "content": "Describe the function of insulin in blood glucose regulation.",
+            "order": 4,
+            "markscheme": "- Insulin is released from the pancreas <marks>A1</marks>\n- Increases glucose uptake by cells <marks>A1</marks>\n- Stimulates the storage of glucose as glycogen in liver and muscles <marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137843,
+            "content": "Explain the role of the lungs in the transport of gases during exercise.",
+            "order": 5,
+            "markscheme": "- Lungs facilitate gas exchange between the alveoli and capillaries, allowing oxygen to enter the bloodstream <marks>A1</marks>\n- During exercise, ventilation rate and tidal volume increase to meet higher oxygen demand <marks>A1</marks>\n- Oxygen diffuses from alveoli into the blood due to the partial pressure gradient <marks>A1</marks>\n- Carbon dioxide, produced as a waste product of metabolism, diffuses from blood into alveoli to be exhaled <marks>A1</marks>\n- Efficient lung function supports sustained aerobic energy production and delays fatigue <marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137844,
+            "content": "Discuss how the endocrine and nervous systems work together to maintain homeostasis during exercise.",
+            "order": 6,
+            "markscheme": "- The nervous system provides rapid, short-term responses through electrical signals (e.g., increased heart rate via sympathetic stimulation) <marks>A1</marks>\n- The endocrine system releases hormones for longer-lasting regulation (e.g., adrenaline, cortisol) <marks>A1</marks>\n- Both systems coordinate thermoregulation; the nervous system detects changes in temperature and signals sweat glands, while hormones like ADH help conserve fluid <marks>A1</marks>\n- During exercise, the hypothalamus integrates input from both systems to manage body temperature, hydration, and energy supply <marks>A1</marks>\n- The systems jointly regulate blood glucose; the nervous system triggers immediate responses (e.g., adrenaline release for glycogenolysis), and the endocrine system releases hormones like insulin and glucagon for balance <marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "2f08a845-f220-4a5d-8f72-7c2549fc254c",
+        "specification": "The graph below shows the oxygen-hemoglobin dissociation curves for an athlete at rest (Curve 1) and during high-intensity aerobic exercise (Curve 2).\n\n![Hemoglobin Dissociation Curve](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-sehs-2f08a845-f220-4a5d-8f72-7c2549fc254c-1771953315939/b3fad457-0b16-4b6a-8969-8bd6a7e0f246.jpeg)\n\nWhich of the following changes in blood chemistry most likely accounts for the shift from Curve 1 to Curve 2?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-2f08a845-f220-4a5d-8f72-7c2549fc254c-1771953315939",
+            "generatedAt": "2026-02-25T07:27:43.353Z",
+            "sourceRevisionId": 1419780
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:55:19.621Z",
+            "resultId": 31315
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T05:39:28.864Z",
+              "reasoning": "The question tests interpretation of the oxygen\u2013hemoglobin dissociation curve shift during high-intensity exercise (Bohr effect), driven by changes in pH, CO\u2082, and temperature\u2014core respiratory gas exchange/transport physiology.",
+              "confidence": 0.94
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:39:28.864Z",
+              "reasoning": "It also involves homeostatic regulation of blood chemistry (pH via CO\u2082/bicarbonate buffering) during exercise, though the primary focus is the dissociation curve itself.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1694829,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934405,
+            "content": "An increase in the concentration of bicarbonate ions in the plasma",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Bicarbonate ions transport CO2 but do not directly cause the rightward shift; rather, the associated H+ ions (acidity) do."
+          },
+          {
+            "id": 4934406,
+            "content": "A decrease in the partial pressure of carbon dioxide ($pCO_2$) within the muscle capillaries",
+            "correct": false,
+            "order": 1,
+            "markscheme": "A decrease in $pCO_2$ would shift the curve to the left, increasing affinity, not to the right."
+          },
+          {
+            "id": 4934407,
+            "content": "A decrease in blood pH and an increase in core body temperature",
+            "correct": true,
+            "order": 2,
+            "markscheme": "During exercise, increased CO2 levels lower blood pH (Bohr effect) and increased metabolic activity raises temperature, both of which decrease hemoglobin's affinity for oxygen, shifting the curve to the right."
+          },
+          {
+            "id": 4934408,
+            "content": "An increase in the partial pressure of oxygen ($pO_2$) in the systemic circulation",
+            "correct": false,
+            "order": 3,
+            "markscheme": "$pO_2$ determines the position on the curve, but changes in $pO_2$ alone do not cause the entire curve to shift horizontally."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "33355527-76f7-4d26-ae18-9ec78b965b14",
+        "specification": "Refer to the graph showing lung volumes.\n\nWhich label represents the Vital Capacity, the maximum volume of air that can be voluntarily moved into and out of the lungs?\n\n![](https://pub-images.revisiondojo.com/question-images/vXzavWfuZLwUPhPCGO7xQ)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T05:21:44.926Z",
+              "reasoning": "The question asks to identify vital capacity on a lung volumes graph; this is respiratory system physiology (lung volumes/capacities) and relates directly to gas exchange/respiratory function content.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1583548,
+        "parts": [],
+        "options": [
+          {
+            "id": 4554265,
+            "content": "E",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4554266,
+            "content": "F",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Vital capacity is the maximum volume of air that can be exhaled after a maximum inhalation. On a spirogram, it is represented by the total range from the peak of forced inspiration to the trough of forced expiration, excluding the residual volume."
+          },
+          {
+            "id": 4554267,
+            "content": "G",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4554268,
+            "content": "H",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "3e3da32d-8464-4237-903a-0a8e3fc4f87f",
+        "specification": "In endurance cycling, which hormone is transported in the blood to stimulate glycogen breakdown for energy?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T02:41:34.613Z",
+              "reasoning": "The question asks which hormone (adrenaline) is transported in the blood to stimulate glycogen breakdown, directly assessing endocrine system hormones and their regulatory roles during exercise.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-06T02:41:34.613Z",
+              "reasoning": "Glycogen breakdown for energy relates to regulation of energy production pathways (glycolytic/oxidative systems) during endurance exercise, though the focus is hormonal control rather than the pathways themselves.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1419779,
+        "parts": [],
+        "options": [
+          {
+            "id": 4150633,
+            "content": "Insulin",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4150634,
+            "content": "Adrenaline",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4150635,
+            "content": "Cortisol",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4150636,
+            "content": "Aldosterone",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3e984cfa-6ff7-412e-91fd-6c1d10ad7c13",
+        "specification": "Which structural feature of capillaries makes them ideal for nutrient and gas exchange?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:17:30.594Z",
+            "resultId": 29957
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:15:36.618Z",
+              "reasoning": "The question asks about capillary structure (thin walls/short diffusion distance) enabling nutrient and gas exchange during exercise, which is a cardiovascular system transport concept.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696196,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938504,
+            "content": "Thick muscular walls",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938505,
+            "content": "Large lumen",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938506,
+            "content": "Thin walls and short diffusion distance",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938507,
+            "content": "Presence of valves",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "42e4e152-5622-4114-82e3-61cdfaebbc28",
+        "specification": "Which waste product is transported in the blood to the kidneys for excretion after intense exercise?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:05:58.240Z",
+            "resultId": 41707
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T15:56:54.519Z",
+              "reasoning": "The question asks which waste product is transported in the blood to the kidneys for excretion, which involves blood transport of metabolites/wastes (cardiovascular system function).",
+              "confidence": 0.62
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T15:56:54.519Z",
+              "reasoning": "Excretion of metabolic waste to maintain internal balance links to homeostasis mechanisms, including removal of urea via the kidneys.",
+              "confidence": 0.53
+            }
+          ]
+        },
+        "currentRevisionId": 1696954,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940124,
+            "content": "Carbon dioxide",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940125,
+            "content": "Urea",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940126,
+            "content": "Oxygen",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940127,
+            "content": "Lactic acid",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "45d4cebe-dcda-4c4f-b4ff-1bdca64bcce9",
+        "specification": "How does gas exchange directly support cellular respiration in muscles?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:30:39.616Z",
+            "resultId": 30765
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T05:27:03.781Z",
+              "reasoning": "The question asks how gas exchange supports cellular respiration by supplying oxygen and removing carbon dioxide during exercise; this directly matches respiratory system gas exchange for cellular respiration.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695152,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935457,
+            "content": "By transporting oxygen in the blood via haemoglobin",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Gas exchange is the diffusion of gases between alveoli and blood; haemoglobin transport occurs after gas exchange."
+          },
+          {
+            "id": 4935458,
+            "content": "By supplying oxygen and removing carbon dioxide",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Gas exchange increases oxygen availability for aerobic respiration and removes carbon dioxide produced by respiration."
+          },
+          {
+            "id": 4935459,
+            "content": "By increasing the rate of glycolysis to produce lactate",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Glycolysis and lactate production are anaerobic metabolic processes and are not the direct function of gas exchange."
+          },
+          {
+            "id": 4935460,
+            "content": "By breaking down glucose into ATP in the lungs",
+            "correct": false,
+            "order": 3,
+            "markscheme": "ATP is produced mainly in mitochondria of muscle cells, not in the lungs; the lungs facilitate gas exchange only."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "470fb738-2719-4769-a875-ce26c6ef3337",
+        "specification": "A bar graph showing the percentage of cardiac output redistributed to different organs at rest and during maximal exercise.\n\n![](https://pub-images.revisiondojo.com/question-images/SyaDIbCOPG5p7K4VGKQx-.jpeg)\n\nWhich option best describes how cardiac output is redistributed during maximal exercise?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 3,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:01:27.269Z",
+            "resultId": 41784
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T15:57:02.541Z",
+              "reasoning": "The question tests redistribution of cardiac output/blood flow to organs (muscle vs kidneys/GI) during maximal exercise, which is a cardiovascular system transport response.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696918,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940000,
+            "content": "The percentage of cardiac output to the brain increases, while that to the muscles decreases.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. The graph shows brain percentage decreases while muscle percentage increases during maximal exercise."
+          },
+          {
+            "id": 4940001,
+            "content": "The muscles receive a significantly greater percentage of cardiac output, while less is sent to the kidneys and GI tract.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. The graph shows a large increase in percentage of cardiac output to muscles during maximal exercise, with decreased percentages to the kidneys and GI tract."
+          },
+          {
+            "id": 4940002,
+            "content": "All organ systems receive a higher absolute volume of blood due to increased cardiac output.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. The graph displays redistribution by percentage; several organs (e.g., GI tract, kidneys, brain) receive a smaller percentage during maximal exercise."
+          },
+          {
+            "id": 4940003,
+            "content": "The GI tract and kidneys receive more blood during exercise to support digestion and excretion.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. The graph shows decreased percentages to the GI tract and kidneys during maximal exercise."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "47d307ff-ea6d-45e3-ad71-ae2d71183f1e",
+        "specification": "Which waste product is primarily removed from a sprinter\u2019s body through the respiratory system?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T08:18:15.510Z",
+              "reasoning": "The question asks which waste product is removed through the respiratory system; this is about gas exchange and removal of carbon dioxide via the lungs.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1419758,
+        "parts": [],
+        "options": [
+          {
+            "id": 4150549,
+            "content": "Urea",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4150550,
+            "content": "Lactic acid",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4150551,
+            "content": "Carbon dioxide",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4150552,
+            "content": "Ammonia",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5df5d31d-4090-4b76-8b3b-45ca04cd78a6",
+        "specification": "A swimmer takes deep breaths before a race. Which factor maximizes oxygen uptake in the alveoli?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T15:57:25.701Z",
+              "reasoning": "The question asks what maximizes oxygen uptake in the alveoli, which depends on diffusion and partial pressure gradients in pulmonary gas exchange.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1583535,
+        "parts": [],
+        "options": [
+          {
+            "id": 4554245,
+            "content": "High oxygen partial pressure in the lungs compared to blood",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Taking deep breaths increases the concentration of oxygen in the alveoli, resulting in a higher partial pressure. This creates a steeper gradient between the lungs and the blood, which maximizes the rate of oxygen diffusion into the capillaries."
+          },
+          {
+            "id": 4554246,
+            "content": "High carbon dioxide levels in the alveoli",
+            "correct": false,
+            "order": 2,
+            "markscheme": "High levels of carbon dioxide in the alveoli would reduce the concentration gradient for the removal of $CO_2$ from the blood and would not directly maximize oxygen uptake."
+          },
+          {
+            "id": 4554247,
+            "content": "Small surface area of alveoli",
+            "correct": false,
+            "order": 3,
+            "markscheme": "A large surface area is required to maximize gas exchange; a small surface area would decrease the rate of oxygen uptake."
+          },
+          {
+            "id": 4554248,
+            "content": "Reduced blood flow in capillaries",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Reduced blood flow would slow down the transport of oxygen away from the lungs, leading to a faster equalization of partial pressures and a decrease in the overall rate of oxygen uptake."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "6b6c23ce-e9ea-4d48-aa0b-a617df2416b8",
+        "specification": "During a sprint at the end of a rowing race, a decrease in blood pH is detected. Which nervous system response increases cardiac output?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-6b6c23ce-e9ea-4d48-aa0b-a617df2416b8-1771953315939",
+            "generatedAt": "2026-02-25T08:06:24.233Z",
+            "sourceRevisionId": 1583539
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:01:43.970Z",
+            "resultId": 30902
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T05:29:32.786Z",
+              "reasoning": "The question asks which nervous system response (sympathetic vs parasympathetic control of the SA node/heart rate) increases circulatory transport during acidosis in a sprint\u2014core autonomic nervous system coordination of physiological responses.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:29:32.786Z",
+              "reasoning": "Although framed around nervous control, it specifically targets increasing rate of transport in the circulatory system via heart rate/cardiac output, linking to cardiovascular function.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:29:32.786Z",
+              "reasoning": "A fall in blood pH indicates a homeostatic disturbance; the response involves restoring internal conditions (acid\u2013base balance) via increased circulation, though this is secondary to nervous control.",
+              "confidence": 0.4
+            }
+          ]
+        },
+        "currentRevisionId": 1695016,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935085,
+            "content": "Increased stimulation of the heart by the parasympathetic nervous system",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935086,
+            "content": "Decreased frequency of impulses from the medulla oblongata to the heart",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935087,
+            "content": "Increased stimulation of the sinoatrial node by the sympathetic nervous system",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935088,
+            "content": "Increased stimulation of the atrioventricular node by the sympathetic nervous system",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6dfe3d06-89f5-4edb-b7ad-33504ce5c57b",
+        "specification": "A 1500 m runner is performing a graded treadmill test.\n\nTable 1 shows selected values at rest and during a high-intensity stage.\n\n| Condition | Ventilation (L min$^{-1}$) | Cardiac output (L min$^{-1}$) | Arterial oxygen saturation (%) |\n|---|---:|---:|---:|\n| Rest | 8 | 5 | 98 |\n| High intensity | 90 | 20 | 94 |\n\nAnswer the following questions with reference to the scenario and Table 1.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T11:51:56.427Z",
+            "resultId": 44769
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:19:15.619Z",
+              "reasoning": "Most parts focus on blood transport (hemoglobin, oxygen transport), circulatory support of working muscles during exercise, and capillary exchange\u2014core cardiovascular system functions.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T08:19:15.619Z",
+              "reasoning": "Includes gas exchange and how the respiratory system interacts with the cardiovascular system to meet muscle oxygen demands during exercise.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T08:19:15.619Z",
+              "reasoning": "One part asks for byproducts of aerobic metabolism, linking to oxidative energy production and its outputs (e.g., CO\u2082, H\u2082O).",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1697581,
+        "parts": [
+          {
+            "id": 1159934,
+            "content": "State the primary function of haemoglobin.",
+            "order": 0,
+            "markscheme": "- Binds oxygen in the lungs <marks>1 mark</marks>\n- Transports oxygen to body tissues <marks>1 mark</marks>\n\n\n<note>Accept any two of the following: binding oxygen in the lungs, transporting oxygen to body tissues, or facilitating oxygen delivery during exercise.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159935,
+            "content": "Identify two byproducts of aerobic metabolism.",
+            "order": 1,
+            "markscheme": "- Carbon dioxide ($\\text{CO}_2$) <marks>1 mark</marks>\n- Water ($\\text{H}_2\\text{O}$) <marks>1 mark</marks>\n\n\n<note>Also accept: heat/thermal energy as an alternative byproduct.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159936,
+            "content": "Describe how oxygen is transported in the blood.",
+            "order": 2,
+            "markscheme": "- Oxygen diffuses from the alveoli into the blood <marks>1 mark</marks>\n- Binds to haemoglobin in red blood cells (forming oxyhaemoglobin) <marks>1 mark</marks>\n- A small amount of oxygen is transported dissolved in plasma <marks>1 mark</marks>\n\n\n<note>Accept as an alternative to the third point: oxygenated blood is transported via arteries to tissues.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159937,
+            "content": "Explain how the circulatory system supports muscle function during exercise.",
+            "order": 3,
+            "markscheme": "- Increases blood flow to active muscles (eg via increased cardiac output/redistribution) <marks>1 mark</marks>\n- Delivers oxygen and nutrients (eg glucose) to support ATP resynthesis/aerobic metabolism <marks>1 mark</marks>\n- Removes $\\text{CO}_2$ and metabolic waste (eg lactate, H$^+$) to help maintain pH and performance <marks>1 mark</marks>\n\n\n<note>Also accept: increased blood flow aids heat transfer to the skin for thermoregulation.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159938,
+            "content": "Outline the role of capillaries in gas and nutrient exchange.",
+            "order": 4,
+            "markscheme": "- Capillary walls are one cell thick for easy diffusion <marks>1 mark</marks>\n- Provide large surface area for exchange <marks>1 mark</marks>\n- Slow blood flow increases time for diffusion/exchange <marks>1 mark</marks>\n- Deliver oxygen and glucose to cells down concentration gradients <marks>1 mark</marks>\n\n\n<note>Also accept: remove carbon dioxide ($\\text{CO}_2$) and other waste products; extensive capillary networks increase diffusion potential.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159939,
+            "content": "Discuss how the respiratory and cardiovascular systems interact to meet the demands of working muscles.",
+            "order": 5,
+            "markscheme": "- Ventilation increases to raise alveolar ventilation and maintain the diffusion gradient for oxygen uptake (as suggested by higher ventilation in Table 1) <marks>1 mark</marks>\n- Cardiac output increases to deliver more oxygenated blood to working muscles (as suggested by higher cardiac output in Table 1) <marks>1 mark</marks>\n- Oxygen is loaded in the lungs and transported by haemoglobin to muscles; $\\text{CO}_2$ is transported back to the lungs for exhalation <marks>1 mark</marks>\n- Despite a small fall in arterial oxygen saturation at high intensity (Table 1), increased ventilation and cardiac output together help maintain aerobic ATP supply and delay fatigue <marks>1 mark</marks>\n\n\n<note>Also accept: redistribution of blood flow to active muscles and away from inactive tissues; increased venous return supports stroke volume; enhanced $\\text{CO}_2$ removal helps regulate blood pH.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "70f52148-59a8-4e98-b874-673e05ecff3d",
+        "specification": "Which process describes the exchange of gases between the alveoli and capillaries?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:57:36.190Z",
+            "resultId": 41887
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T15:58:02.029Z",
+              "reasoning": "The question asks about gas exchange between alveoli and capillaries, i.e., external respiration, which is a core concept in respiratory system function and gas exchange during exercise.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1696892,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939908,
+            "content": "Internal respiration",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939909,
+            "content": "External respiration",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939910,
+            "content": "Cellular respiration",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939911,
+            "content": "Pulmonary circulation",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "729e0a55-521d-4729-b406-ba432de2577b",
+        "specification": "A professional triathlete\u2019s blood composition was monitored before and after a long-distance race held in a hot, arid environment. The data in the table below represents the total volume of specific blood components measured in the circulatory system at each time point.\n\n| Blood Component | Volume at Start ($\\text{L}$) | Volume after 4 Hours ($\\text{L}$) |\n| :--- | :--- | :--- |\n| Blood Plasma | $3.20$ | $2.55$ |\n| Erythrocytes | $2.30$ | $2.30$ |\n| Leucocytes and Platelets | $0.06$ | $0.06$ |\n\nWhich transport function of blood plasma would be impaired by the reduced plasma volume?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-729e0a55-521d-4729-b406-ba432de2577b-1771929956947",
+            "generatedAt": "2026-02-25T09:29:03.323Z",
+            "sourceRevisionId": 1684041
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:53:19.143Z",
+            "resultId": 30725
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:25:34.678Z",
+              "reasoning": "The question focuses on reduced blood plasma volume (hemoconcentration/dehydration) and asks which transport function is impaired (eg reduced plasma volume affecting blood flow and heat transport), which is primarily cardiovascular transport.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:25:34.678Z",
+              "reasoning": "The scenario is prolonged exercise in a hot, arid environment leading to decreased plasma volume due to dehydration, directly involving water balance and its physiological consequences.",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1695261,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935841,
+            "content": "The convection of metabolic heat from the body core to the skin for cooling.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: reduced plasma volume reduces blood volume and skin blood flow, impairing heat transport."
+          },
+          {
+            "id": 4935842,
+            "content": "The loading of oxygen onto hemoglobin in the pulmonary capillaries.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: oxygen loading depends primarily on erythrocyte/hemoglobin content, which is unchanged."
+          },
+          {
+            "id": 4935843,
+            "content": "The mobilization of platelets to the site of an acute vascular rupture.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: platelet volume is unchanged; reduced plasma volume does not specifically impair platelet availability for clotting."
+          },
+          {
+            "id": 4935844,
+            "content": "The rate of aerobic ATP production within the active skeletal muscles.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: aerobic ATP production is an intracellular process; while perfusion can be affected, this is not a direct plasma transport function compared with heat convection."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "777a73c6-c14b-4a17-aa10-2287b80cc55e",
+        "specification": "Which two gases are exchanged between the bloodstream and the air sacs (alveoli) in the lungs?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-chemistry-new-777a73c6-c14b-4a17-aa10-2287b80cc55e-1771866504453",
+            "generatedAt": "2026-02-24T06:33:55.938Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1419772
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:54:31.392Z",
+            "resultId": 41980
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T15:58:41.005Z",
+              "reasoning": "The question asks which gases are exchanged between the alveoli and the bloodstream during vigorous exercise\u2014this is core respiratory system gas exchange (O2 uptake and CO2 removal).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1696874,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939840,
+            "content": "Nitrogen and carbon dioxide",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Nitrogen is largely inert and not significantly exchanged at the alveoli under normal conditions."
+          },
+          {
+            "id": 4939841,
+            "content": "Oxygen and carbon dioxide",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Oxygen diffuses from the alveoli into the blood and carbon dioxide diffuses from the blood into the alveoli."
+          },
+          {
+            "id": 4939842,
+            "content": "Oxygen and nitrogen",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Oxygen is exchanged, but nitrogen is not significantly exchanged at the alveoli under normal conditions."
+          },
+          {
+            "id": 4939843,
+            "content": "Carbon dioxide and water vapour",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Carbon dioxide is exchanged, but water vapour is not typically described as a primary gas exchanged between blood and alveoli in this context."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7da45144-6064-4282-a506-9a916d09a7cf",
+        "specification": "Which change MOST directly increases oxygen delivery to working muscles during high-intensity rowing?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:41:25.411Z",
+            "resultId": 30237
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:17:41.565Z",
+              "reasoning": "The question explains increased oxygen delivery during high-intensity rowing via increased heart rate and stroke volume raising cardiac output\u2014core cardiovascular system function.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T05:17:41.565Z",
+              "reasoning": "Oxygen delivery is related to respiratory/gas exchange, but the correct mechanism emphasized in the options is primarily cardiovascular (cardiac output) rather than pulmonary gas exchange.",
+              "confidence": 0.25
+            }
+          ]
+        },
+        "currentRevisionId": 1695509,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936557,
+            "content": "Increased heart rate and stroke volume raise cardiac output.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4936558,
+            "content": "Increased sympathetic vasoconstriction reduces blood flow to non-essential organs, helping redistribute cardiac output to working muscles.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "A"
+          },
+          {
+            "id": 4936559,
+            "content": "Increased ventilation rate increases oxygen diffusion into the blood by raising the alveolar\u2013capillary oxygen gradient.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "A"
+          },
+          {
+            "id": 4936560,
+            "content": "Increased red blood cell production during the exercise bout rapidly raises haemoglobin concentration.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "A"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "84f752ec-3130-4710-a55a-bc2e57c93534",
+        "specification": "An investigation was conducted to explore how tidal volume, respiratory rate, and minute ventilation change in response to increasing exercise intensity. Participants included trained males, trained females, and untrained males. Data were collected during rest and at various stages of exercise using spirometry and $\\text{VO}_2\\text{ max}$ testing protocols. Additionally, ventilation parameters were compared between sexes under resting and exercising conditions.\n\n### ![](https://pub-images.revisiondojo.com/question-images/PqopUe5mTM_WGqeWPSNcb)\nFigure 1: Ventilatory Response to Exercise Intensity\n\n### ![](https://pub-images.revisiondojo.com/plots/9450ff8b-61fa-4895-8e25-7531a42ce5f6.png)\nFigure 2: Comparison of Minute Ventilation between Males and Females\n\n| Subject | Body Mass (kg) | $\\text{VO}_2\\text{ max}$ ($\\text{mL kg}^{-1}\\text{ min}^{-1}$) | Max TV (L) | Max RR ($\\text{breaths min}^{-1}$) |\n| :--- | :--- | :--- | :--- | :--- |\n| Trained Male | 82 | 62 | 3.5 | 40 |\n| Trained Female | 60 | 58 | 3.0 | 44 |\n| Untrained Male | 80 | 35 | 2.5 | 38 |",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1b",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T17:36:55.370Z",
+              "reasoning": "The question focuses on ventilatory variables (tidal volume, respiratory rate, minute ventilation), sex differences in ventilation, and why ventilation rises with exercise intensity\u2014core respiratory system and gas exchange content.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29910,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.2 Factors affecting maximal oxygen consumption (VO\u2082 max)",
+              "title": "A.2.3.2 Factors affecting maximal oxygen consumption (VO\u2082 max)",
+              "labeledAt": "2026-03-07T17:36:55.370Z",
+              "reasoning": "Uses VO\u2082max testing context and asks how aerobic fitness level influences ventilatory capacity/performance in endurance events, linking ventilatory function to determinants/associations with aerobic capacity.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1583582,
+        "parts": [
+          {
+            "id": 1137288,
+            "content": "Referring to Figure 1, describe how tidal volume and respiratory rate change as exercise intensity increases.",
+            "order": 1,
+            "markscheme": "- Tidal volume increases steadily with increasing intensity <marks>A1</marks>\n- Respiratory rate also increases, especially at higher intensities <marks>A1</marks>\n<marks>2</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137289,
+            "content": "Explain why minute ventilation increases significantly at high exercise intensities.",
+            "order": 2,
+            "markscheme": "- Increased exercise intensity increases oxygen demand and $\\text{CO}_2$ production <marks>A1</marks>\n- This stimulates increased respiratory rate and depth to maintain gas exchange <marks>A1</marks>\n<marks>2</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137290,
+            "content": "Using the table, calculate the maximum minute ventilation (in $\\text{L min}^{-1}$) for each subject.",
+            "order": 3,
+            "markscheme": "- Trained male: $3.5 \\times 40 = 140 \\text{ L min}^{-1}$ <marks>A1</marks>\n- Trained female: $3.0 \\times 44 = 132 \\text{ L min}^{-1}$ <marks>A1</marks>\n- Untrained male: $2.5 \\times 38 = 95 \\text{ L min}^{-1}$ <marks>A1</marks>\n\n<note>Accept answers rounded to the nearest integer.</note>\n<marks>3</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137291,
+            "content": "Use your calculations from the previous question to discuss how aerobic fitness level may influence ventilatory capacity.",
+            "order": 4,
+            "markscheme": "- Trained individuals have greater aerobic capacity and efficiency <marks>A1</marks>\n- This allows them to sustain higher minute ventilation during intense exercise <marks>A1</marks>\n<marks>2</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137292,
+            "content": "State why trained individuals may achieve higher tidal volumes than untrained individuals.",
+            "order": 5,
+            "markscheme": "- Training improves respiratory muscle strength and lung compliance <marks>A1</marks>\n<marks>1</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137293,
+            "content": "Using Figure 2, compare male and female ventilatory values during rest and exercise along with two reasons.",
+            "order": 6,
+            "markscheme": "- Males have higher tidal volume and minute ventilation than females at rest and during exercise <marks>A1</marks>\n- Males generally have larger lung volume <marks>A1</marks>\n- Higher haemoglobin concentration in males <marks>A1</marks>\n- Greater muscle mass increases oxygen demand and ventilation <marks>A1</marks>\n\n<note>Award **[1]** for the comparison and **[2]** for any two reasons.</note>\n<marks>3</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137294,
+            "content": "State one controlled variable that must be kept constant when testing minute ventilation at different exercise intensities.",
+            "order": 7,
+            "markscheme": "ambient temperature / type of equipment / warm-up duration / time of day <marks>A1</marks>\n\n<note>Accept any relevant control.</note>\n<marks>1</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137295,
+            "content": "Minute ventilation is one factor influencing performance in endurance events. Explain how improved ventilatory function can enhance performance in aerobic sports like rowing or distance running.",
+            "order": 8,
+            "markscheme": "- Higher ventilation allows increased oxygen delivery to muscles <marks>A1</marks>\n- More efficient $\\text{CO}_2$ removal delays fatigue and supports aerobic metabolism <marks>A1</marks>\n<marks>2</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "89052b09-d1c0-407f-b2e7-3d1e83655279",
+        "specification": "A participant completes a rapid sit-to-stand test immediately before starting a 3-minute bout of moderate cycling. **Table 1** shows selected cardiovascular variables measured at rest (seated) and at 5 seconds after standing.\n\n**Table 1: Cardiovascular variables during a sit-to-stand manoeuvre**\n\n| Condition | Systolic blood pressure (mmHg) | Diastolic blood pressure (mmHg) | Heart rate (beats min$^{-1}$) |\n|---|---:|---:|---:|\n| Seated (rest) | 120 | 80 | 70 |\n| 5 s after standing | 95 | 60 | 92 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:03:05.034Z",
+            "resultId": 31481
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T05:40:37.436Z",
+              "reasoning": "Baroreceptors, medulla oblongata control centers, and nervous-system reflexes maintaining blood pressure during standing are core autonomic nervous system coordination concepts.",
+              "confidence": 0.94
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T05:40:37.436Z",
+              "reasoning": "The question explicitly asks about endocrine regulation under stress and coordination between endocrine and nervous systems (e.g., hormones affecting blood pressure).",
+              "confidence": 0.88
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:40:37.436Z",
+              "reasoning": "Regulation of blood pressure across standing, stress, and dynamic exercise is a classic homeostasis example requiring negative-feedback control and inter-system responses.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:40:37.436Z",
+              "reasoning": "All parts are framed around cardiovascular responses and blood pressure regulation mechanisms within the cardiovascular system.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1694722,
+        "parts": [
+          {
+            "id": 1156929,
+            "content": "State the function of baroreceptors.",
+            "order": 0,
+            "markscheme": "- Detect changes in arterial blood pressure (via stretch in arterial walls) <marks>1 mark</marks>\n- Send afferent nerve impulses to the cardiovascular control centres in the brain to initiate regulatory responses <marks>1 mark</marks>\n- Help maintain blood pressure homeostasis (negative feedback control) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156930,
+            "content": "Identify two **body systems** involved in the regulation of blood pressure.",
+            "order": 1,
+            "markscheme": "- Nervous system <marks>1 mark</marks>\n- Endocrine (hormonal) system <marks>1 mark</marks>\n- Cardiovascular system (heart and blood vessels as effectors) <marks>1 mark</marks>\n- Renal system (kidney involvement in longer-term regulation) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156931,
+            "content": "Outline the role of the medulla oblongata in cardiovascular regulation.",
+            "order": 2,
+            "markscheme": "- Receives sensory input from baroreceptors via afferent nerves <marks>1 mark</marks>\n- Integrates this information in cardiovascular control centres and coordinates an autonomic response <marks>1 mark</marks>\n- Adjusts heart rate/contractility via sympathetic and parasympathetic output <marks>1 mark</marks>\n- Adjusts blood vessel diameter (vasoconstriction/vasodilation) via sympathetic output to help maintain blood pressure homeostasis <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156932,
+            "content": "Explain how the nervous system maintains blood pressure during standing.",
+            "order": 3,
+            "markscheme": "- On standing, venous pooling in the lower limbs reduces venous return and stroke volume, causing a fall in arterial blood pressure <marks>1 mark</marks>\n- Baroreceptors detect the reduced stretch/pressure and signal the medulla oblongata <marks>1 mark</marks>\n- The medulla increases sympathetic output and reduces parasympathetic output, increasing heart rate (and contractility) <marks>1 mark</marks>\n- Sympathetic activity causes vasoconstriction in arterioles/veins, increasing peripheral resistance and venous return to restore blood pressure <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156933,
+            "content": "Describe how the endocrine and nervous systems coordinate to regulate blood pressure during an acute fight-or-flight response.",
+            "order": 4,
+            "markscheme": "- Sympathetic nervous system stimulates the adrenal medulla to release adrenaline into the bloodstream <marks>1 mark</marks>\n- Adrenaline increases heart rate and myocardial contractility, increasing cardiac output <marks>1 mark</marks>\n- Sympathetic output causes vasoconstriction in non-essential vascular beds (e.g. splanchnic), increasing total peripheral resistance and redistributing blood flow <marks>1 mark</marks>\n- Adrenaline supports/augments sympathetic effects (e.g. acting on adrenergic receptors) to maintain/increase arterial pressure during stress <marks>1 mark</marks>\n- These coordinated actions help maintain cerebral perfusion and reduce risk of dizziness/syncope <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156934,
+            "content": "Discuss the importance of inter-system communication in maintaining stable blood pressure during dynamic exercise (e.g. cycling).",
+            "order": 5,
+            "markscheme": "- Autonomic nervous system increases heart rate and contractility to raise cardiac output during exercise <marks>1 mark</marks>\n- Sympathetic control of vessel tone redistributes blood flow (vasodilation in active muscle with vasoconstriction in some non-essential beds) to support performance while maintaining pressure <marks>1 mark</marks>\n- Endocrine responses (e.g. adrenaline) help sustain cardiovascular adjustments and support blood pressure during ongoing activity <marks>1 mark</marks>\n- Coordination with the respiratory system increases ventilation to meet increased oxygen demand and support aerobic metabolism <marks>1 mark</marks>\n- Feedback/feedforward control (e.g. baroreflex resetting and reflexes from working muscle) helps stabilise perfusion and aid waste removal during exercise <marks>1 mark</marks>\n- Maintaining arterial pressure is important for adequate delivery of oxygen/nutrients to working muscles and continued cerebral perfusion <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8ac9c498-01aa-4a93-95ed-841a2d6c7cc8",
+        "specification": "Which blood vessel is responsible for transporting oxygenated blood from the lungs back to the left atrium of the heart?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-8ac9c498-01aa-4a93-95ed-841a2d6c7cc8-1771953315939",
+            "generatedAt": "2026-02-25T07:54:02.913Z",
+            "sourceRevisionId": 1419754
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:27:24.979Z",
+            "resultId": 30805
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:27:27.945Z",
+              "reasoning": "The question asks which vessel carries oxygenated blood from the lungs to the left atrium (pulmonary vein), which is core cardiovascular circulation/heart anatomy content.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695127,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935393,
+            "content": "Pulmonary vein",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: oxygenated blood returns from the lungs to the left atrium via the pulmonary veins."
+          },
+          {
+            "id": 4935394,
+            "content": "Pulmonary artery",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: the pulmonary artery carries deoxygenated blood from the right ventricle to the lungs."
+          },
+          {
+            "id": 4935395,
+            "content": "Vena cava",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: the venae cavae return deoxygenated blood from the body to the right atrium."
+          },
+          {
+            "id": 4935396,
+            "content": "Aorta",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: the aorta carries oxygenated blood from the left ventricle to the systemic circulation."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8f7122dd-5928-4900-bb95-180dffe28ba8",
+        "specification": "This question explores the physiological mechanisms of homeostasis, specifically focusing on thermoregulation and the integrated response of body systems during exercise.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:16:17.792Z",
+              "reasoning": "Core of the question is homeostasis and thermoregulation: feedback mechanisms, importance of core temperature, detection/communication to hypothalamus, and integrated maintenance of internal conditions.",
+              "confidence": 0.93
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-07T08:16:17.792Z",
+              "reasoning": "Part (e) explicitly asks how the hypothalamus regulates thermoregulation via endocrine signaling (hormonal control).",
+              "confidence": 0.84
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:16:17.792Z",
+              "reasoning": "Part (d) focuses on sensory detection and neural communication of temperature changes to the hypothalamus (nervous system coordination).",
+              "confidence": 0.78
+            },
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:16:17.792Z",
+              "reasoning": "Part (f) addresses prolonged fluid loss during endurance activity and its challenge to homeostasis (water/electrolyte balance).",
+              "confidence": 0.74
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:16:17.792Z",
+              "reasoning": "Part (g) requires discussion of cardiovascular integration with thermoregulation/endocrine function to delay fatigue during ultra-endurance events.",
+              "confidence": 0.63
+            },
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-07T08:16:17.792Z",
+              "reasoning": "Part (g) links system integration to delaying fatigue, invoking physiological sources/mechanisms of fatigue in prolonged exercise.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583574,
+        "parts": [
+          {
+            "id": 1137262,
+            "content": "Identify the two types of feedback mechanisms used in homeostasis.",
+            "order": 1,
+            "markscheme": "- Identify negative feedback <marks>A1</marks>\n- Identify positive feedback <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137263,
+            "content": "State two reasons why maintaining core body temperature is essential for survival.",
+            "order": 2,
+            "markscheme": "- State that it ensures optimal enzyme function for metabolic processes <marks>A1</marks>\n- State that it prevents damage to vital organs and proteins due to extreme temperatures <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include: maintaining cellular function or supporting an effective immune response (any two).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137264,
+            "content": "Describe how changes in external temperature are detected and communicated to the hypothalamus.",
+            "order": 3,
+            "markscheme": "- Describe how thermoreceptors in the skin detect changes in the external environment <marks>A1</marks>\n- Explain that sensory signals are transmitted to the hypothalamus via afferent neurons <marks>A1</marks>\n- State that the hypothalamus processes this input to initiate an appropriate physiological response <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137265,
+            "content": "Explain the process by which the hypothalamus regulates thermoregulation via endocrine signaling.",
+            "order": 4,
+            "markscheme": "- State that the hypothalamus detects internal temperature changes through blood monitoring <marks>A1</marks>\n- Explain that the hypothalamus signals the pituitary gland to release specific hormones (e.g., TSH) <marks>A1</marks>\n- Describe how these hormones coordinate metabolic adjustments to increase or decrease heat production <marks>A1</marks>\n- Explain how this mechanism supports long-term thermoregulatory balance and stability <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137266,
+            "content": "Outline how prolonged fluid loss during endurance activity challenges homeostasis.",
+            "order": 5,
+            "markscheme": "- Outline that sweating leads to a significant loss of water and electrolytes <marks>A1</marks>\n- Explain that reduced plasma volume results in a decrease in blood pressure <marks>A1</marks>\n- Describe how this impairs thermoregulation (reduced sweat rate) and cardiovascular efficiency <marks>A1</marks>\n- State that these changes can lead to physiological distress such as dizziness, cramps, or heatstroke <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137267,
+            "content": "Discuss how the integration of thermoregulatory, cardiovascular, and endocrine systems delays fatigue and maintains homeostasis during an ultra-endurance event.",
+            "order": 6,
+            "markscheme": "- Discuss how the thermoregulatory system activates sweating and vasodilation to manage heat load <marks>A1</marks>\n- Describe how the cardiovascular system increases heart rate and redistributes blood to the skin and working muscles <marks>A1</marks>\n- Explain that the endocrine system releases hormones like aldosterone and ADH to retain fluid and electrolytes <marks>A1</marks>\n- Discuss how the integration of these systems preserves core temperature, circulation, and hydration levels <marks>A1</marks>\n- Evaluate how this coordinated response prevents premature fatigue and supports performance in extreme conditions <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "92400fe9-2567-45ae-bf78-9ce6c43a30bb",
+        "specification": "Which of the following best explains the trend in stroke volume as exercise intensity increases beyond $50\\%$ of maximum workload?\n\n![](https://pub-images.revisiondojo.com/plots/a9a2f80f-49ec-4322-908a-fc96605e5d54.png)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:51:31.552Z",
+            "resultId": 42110
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T15:59:10.889Z",
+              "reasoning": "The question asks about the physiological trend in stroke volume with increasing exercise intensity and mechanisms (venous return, contractility, ventricular filling time/heart rate), which are core cardiovascular system exercise-response concepts.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696857,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939780,
+            "content": "Stroke volume increases continuously due to enhanced venous return and contractility.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "In most individuals (except for some elite endurance athletes), stroke volume does not increase continuously throughout all exercise intensities."
+          },
+          {
+            "id": 4939781,
+            "content": "Stroke volume plateaus and then declines due to reduced ventricular filling time at higher heart rates.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Stroke volume typically increases up to $40\\text{--}60\\%$ of maximum workload and then plateaus. At very high intensities, the significantly decreased diastolic filling time caused by a high heart rate can lead to a slight decline in stroke volume."
+          },
+          {
+            "id": 4939782,
+            "content": "Stroke volume decreases from the beginning of exercise due to peripheral vasodilation.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Stroke volume initially increases during exercise due to the Frank-Starling mechanism and increased sympathetic stimulation."
+          },
+          {
+            "id": 4939783,
+            "content": "Stroke volume continues to rise because right atrial pressure (CVP) increases exponentially.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "While venous return increases during exercise, central venous pressure (CVP) does not increase exponentially to cause a continuous rise in stroke volume beyond sub-maximal levels."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9266e82c-7aa2-45d1-a869-f6a2882d98a2",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T08:16:16.365Z",
+              "reasoning": "Parts b\u2013e focus on chemoreceptors, CO2 as the main ventilatory stimulus, ventilatory control, and the respiratory control center\u2014core respiratory physiology and gas exchange/ventilation regulation.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:16:16.365Z",
+              "reasoning": "Part f explicitly asks about blood pH regulation and homeostasis mechanisms (acid\u2013base balance as a homeostatic process).",
+              "confidence": 0.83
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:16:16.365Z",
+              "reasoning": "Parts e and g involve the respiratory control center and inter-system communication to coordinate ventilation/circulation during intense exercise\u2014primarily nervous system coordination of physiological responses.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:16:16.365Z",
+              "reasoning": "Part g includes ensuring adequate circulation during high-intensity activity, implicating cardiovascular control and responses alongside ventilation.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1583555,
+        "parts": [
+          {
+            "id": 1137200,
+            "content": "State the function of chemoreceptors.",
+            "order": 1,
+            "markscheme": "- State that they detect changes in blood chemistry (e.g., oxygen, carbon dioxide, $pH$) <marks>A1</marks>\n- State that they send signals to the respiratory center to adjust ventilation <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include: monitor $CO_2$ and $pH$ levels.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137201,
+            "content": "Identify the gas primarily responsible for stimulating ventilation.",
+            "order": 2,
+            "markscheme": "- Identify carbon dioxide / $CO_2$ as the gas primarily responsible <marks>A1</marks>\n- Recognize that an increase in $CO_2$ leads to lowered $pH$, which triggers increased ventilation <marks>R1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137202,
+            "content": "Describe how chemoreceptors respond to changes in $CO_2$ during exercise.",
+            "order": 3,
+            "markscheme": "- State that elevated $CO_2$ levels result in a decrease in blood $pH$ (increase in acidity) <marks>A1</marks>\n- Identify that chemoreceptors in the medulla and peripheral arteries (aortic and carotid bodies) are stimulated <marks>A1</marks>\n- Describe how the respiratory center is signaled to increase the breathing rate / ventilation <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137203,
+            "content": "Outline the role of the respiratory control center in ventilation.",
+            "order": 4,
+            "markscheme": "- State that it is located in the medulla oblongata <marks>A1</marks>\n- Identify that it receives input from chemoreceptors (central and peripheral receptors) <marks>A1</marks>\n- Outline how it sends signals to respiratory muscles (diaphragm and intercostal muscles) <marks>A1</marks>\n- Explain that it regulates the rate and depth of breathing <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137204,
+            "content": "Explain the importance of blood $pH$ regulation in maintaining homeostasis.",
+            "order": 5,
+            "markscheme": "- Explain that it maintains optimal enzyme activity and prevents protein denaturation <marks>A1</marks>\n- State that $pH$ is kept within a narrow range by buffering systems <marks>A1</marks>\n- Describe how it prevents acidosis or alkalosis, which can disrupt metabolic processes <marks>A1</marks>\n- Explain that it ensures a stable internal environment for cellular function <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137205,
+            "content": "Discuss how inter-system communication ensures adequate ventilation and circulation during high-intensity activity.",
+            "order": 6,
+            "markscheme": "- Explain that the nervous system (autonomic) signals respiratory muscles to increase ventilation <marks>A1</marks>\n- State that the endocrine system releases adrenaline / epinephrine to support cardiovascular function <marks>A1</marks>\n- Describe how heart rate and stroke volume increase to deliver more oxygen to working tissues <marks>A1</marks>\n- Outline how $CO_2$ is removed efficiently from tissues via increased blood flow <marks>A1</marks>\n- Discuss how coordination between the nervous, respiratory, and circulatory systems maintains gas balance and homeostasis <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "949d3816-1f51-48b9-ba02-c6473a2f98ec",
+        "specification": "During high-intensity interval training, how does the cardiovascular system help maintain performance?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:03:07.605Z",
+            "resultId": 42081
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T15:58:59.541Z",
+              "reasoning": "The question asks how the cardiovascular system supports performance during high-intensity interval training by increasing oxygen/nutrient delivery (blood flow, cardiac output), which is core cardiovascular transport function.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696784,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939496,
+            "content": "By reducing blood flow to active muscles",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939497,
+            "content": "By increasing delivery of oxygen and nutrients to muscles",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939498,
+            "content": "By slowing heart rate to conserve energy",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939499,
+            "content": "By decreasing circulation to the skin",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a5078a74-23fe-452e-85d2-00df4e4ebc2a",
+        "specification": "This question assesses the understanding of inter-system communication and thermoregulation in the human body, specifically focusing on the mechanisms, effectors, and coordinated responses required to maintain homeostasis when body temperature rises.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:16:55.241Z",
+              "reasoning": "Most parts focus on thermoregulation as a homeostatic control system: thermoreceptors, effectors, vasodilation, negative-feedback sequence when temperature rises, and coordinated responses to prevent overheating.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:16:55.241Z",
+              "reasoning": "Inter-system communication in thermoregulation relies heavily on nervous system sensing/integration (thermoreceptors, hypothalamus) and coordinating rapid autonomic responses (e.g., vasodilation, sweating).",
+              "confidence": 0.8
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-07T08:16:55.241Z",
+              "reasoning": "Inter-system communication can also involve endocrine contributions to temperature regulation (longer-term/metabolic heat production), which may be relevant to the definition and coordination aspects even if not the main emphasis.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583580,
+        "parts": [
+          {
+            "id": 1137282,
+            "content": "Define the term \"inter-system communication.\"",
+            "order": 1,
+            "markscheme": "- State that inter-system communication is the process by which different body systems share information and signals <marks>A1</marks>\n- Explain that this process coordinates physiological responses to maintain homeostasis <marks>A1</marks>\n\n2 marks total\n\n<note>Accept mentions of specific signaling between systems like the nervous and endocrine systems.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137283,
+            "content": "State two examples of effectors in thermoregulation.",
+            "order": 2,
+            "markscheme": "- Identify sweat glands as one example of an effector <marks>A1</marks>\n- Identify blood vessels (or skeletal muscles) as a second example of an effector <marks>A1</marks>\n\n2 marks total\n\n<note>Accept skeletal muscles (shivering) or piloerector muscles (goosebumps).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137284,
+            "content": "Outline the role of thermoreceptors in maintaining body temperature.",
+            "order": 3,
+            "markscheme": "- State that thermoreceptors detect changes in the internal (core) or external (skin) temperature <marks>A1</marks>\n- Describe how they transmit signals (nerve impulses) to the hypothalamus <marks>A1</marks>\n- Explain that these signals allow the hypothalamus to initiate appropriate thermoregulatory responses <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137285,
+            "content": "Explain how vasodilation helps regulate core temperature.",
+            "order": 4,
+            "markscheme": "- Describe the widening (dilation) of arterioles near the skin surface <marks>A1</marks>\n- Explain that this increases the volume of blood flow to the skin capillaries <marks>A1</marks>\n- Outline how this enhances heat loss to the environment through radiation and convection <marks>A1</marks>\n- State that this process results in a decrease in core body temperature <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137286,
+            "content": "Describe the sequence of events that occur when body temperature rises above normal.",
+            "order": 5,
+            "markscheme": "- Identify the detection of increased temperature by thermoreceptors in the skin and hypothalamus <marks>A1</marks>\n- Describe the processing of these signals within the hypothalamus (the control center) <marks>A1</marks>\n- Outline the activation of effectors such as sweat glands and peripheral blood vessels <marks>A1</marks>\n- Explain how cooling is achieved through the evaporation of sweat and the radiation of heat <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137287,
+            "content": "Discuss the importance of coordinated responses between systems to prevent overheating.",
+            "order": 6,
+            "markscheme": "- State that the nervous system rapidly activates effectors like sweat glands and blood vessels <marks>A1</marks>\n- Explain how the endocrine system can adjust metabolism to reduce internal heat production <marks>A1</marks>\n- Describe the role of the cardiovascular system in redistributing blood volume to the body surface <marks>A1</marks>\n- Outline how the respiratory system contributes to heat loss through evaporation during exhalation <marks>A1</marks>\n- Conclude that the integration of these systems prevents hyperthermia and protects vital organs from damage <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "abacf95e-7a5e-4f36-aedb-d6cad31986be",
+        "specification": "Which component of the blood functions as the primary solvent for transporting dissolved hormones, nutrients, and carbon dioxide?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-abacf95e-7a5e-4f36-aedb-d6cad31986be-1771953315939",
+            "generatedAt": "2026-02-25T07:28:57.740Z",
+            "sourceRevisionId": 1419768
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:25:52.179Z",
+            "resultId": 44559
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:17:34.013Z",
+              "reasoning": "The question asks which blood component acts as the primary solvent/transport medium for dissolved substances (hormones, nutrients, CO2), which is part of cardiovascular system structure and function (blood/plasma and transport roles).",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1697413,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941352,
+            "content": "Plasma",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4941353,
+            "content": "Erythrocytes",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4941354,
+            "content": "Platelets",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4941355,
+            "content": "Leucocytes",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b16f4e9e-a024-4f0e-b50a-f263134313b7",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:17:40.809Z",
+              "reasoning": "Multiple parts focus directly on homeostasis and thermoregulation: thermoreceptors, vasodilation, and feedback mechanisms using temperature regulation as the example.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:17:40.809Z",
+              "reasoning": "Red blood cell function and oxygen transport pathway involve cardiovascular components (blood, circulation) delivering O2 to muscle cells.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T08:17:40.809Z",
+              "reasoning": "The oxygen pathway from external environment to muscle cell depends on respiratory system structures and gas exchange (ventilation, diffusion in alveoli).",
+              "confidence": 0.82
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-07T08:17:40.809Z",
+              "reasoning": "Identifying a hormone regulating water balance and its source targets endocrine control (e.g., ADH/aldosterone and where they are produced/released).",
+              "confidence": 0.68
+            },
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:17:40.809Z",
+              "reasoning": "Water-balance regulation (via hormones) links to hydration/osmoregulation content within water and electrolyte balance.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1583588,
+        "parts": [
+          {
+            "id": 1137311,
+            "content": "State the function of red blood cells.",
+            "order": 1,
+            "markscheme": "- Transports oxygen ($\\text{O}_2$) from the lungs to the body tissues <marks>A1</marks>\n- Removes carbon dioxide ($\\text{CO}_2$) from tissues to the lungs <marks>A1</marks>\n\n<note>\nOther acceptable answers: \n- Contain hemoglobin to bind oxygen\n(Any two for 2 marks)\n</note>\n\n[2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137312,
+            "content": "Identify one hormone involved in regulating water balance and its source.",
+            "order": 2,
+            "markscheme": "- Antidiuretic hormone (ADH) <marks>A1</marks>\n- Produced by the hypothalamus and released by the posterior pituitary <marks>A1</marks>\n\n<note>\nOther acceptable answers: \n- Aldosterone \u2014 adrenal cortex\n(Any one hormone with its correct source for 2 marks)\n</note>\n\n[2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137313,
+            "content": "Describe how thermoreceptors contribute to homeostasis.",
+            "order": 3,
+            "markscheme": "- Detects changes in skin or core temperature <marks>A1</marks>\n- Sends signals to the hypothalamus (the control center) <marks>A1</marks>\n- Initiates appropriate thermoregulatory responses to restore balance <marks>A1</marks>\n\n[3 marks]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137314,
+            "content": "Explain how vasodilation supports thermoregulation.",
+            "order": 4,
+            "markscheme": "- Vasodilation refers to the widening of blood vessels near the skin surface <marks>A1</marks>\n- It increases blood flow to the skin, allowing more heat to be lost via radiation, conduction, and convection <marks>A1</marks>\n- Helps lower core body temperature during exercise or exposure to heat <marks>A1</marks>\n- Plays a critical role in preventing overheating and maintaining homeostasis <marks>A1</marks>\n\n[4 marks]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137315,
+            "content": "Outline the pathway of oxygen from the external environment to the muscle cell.",
+            "order": 5,
+            "markscheme": "- Oxygen ($\\text{O}_2$) enters through the nose/mouth into the lungs <marks>A1</marks>\n- Diffuses across the alveoli into the blood capillaries <marks>A1</marks>\n- Binds to hemoglobin within red blood cells <marks>A1</marks>\n- Transported through the systemic arteries and diffuses into the muscle cell <marks>A1</marks>\n\n[4 marks]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137316,
+            "content": "Discuss the role of feedback mechanisms in maintaining homeostasis, using temperature regulation as an example.",
+            "order": 6,
+            "markscheme": "- Homeostasis maintains a stable internal environment (e.g., body temperature around $37\\,^{\\circ}\\text{C}$) <marks>A1</marks>\n- Negative feedback is the primary mechanism used to restore balance by reversing a detected change <marks>A1</marks>\n- Thermoreceptors detect changes in body temperature and send signals to the hypothalamus <marks>A1</marks>\n- If body temperature is too high, the hypothalamus triggers vasodilation and sweating to increase heat loss <marks>A1</marks>\n- If body temperature is too low, the hypothalamus triggers vasoconstriction and shivering to conserve and generate heat <marks>A1</marks>\n\n<note>\nOther acceptable answers:\n- Role of effectors such as sweat glands, blood vessels, and muscles.\n- Involvement of hormones like adrenaline or thyroxine in longer-term temperature regulation.\n- Behavioral responses like seeking shade or putting on clothing.\n</note>\n\n[5 marks]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "c162febb-3c50-4c75-beb8-9d67686e2da5",
+        "specification": "During a long-distance run, what is the primary role of the cardiovascular system?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:34:47.933Z",
+            "resultId": 44493
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:17:05.584Z",
+              "reasoning": "The question asks the primary role of the cardiovascular system during long-distance running\u2014transporting oxygen/nutrients, removing wastes, and distributing heat\u2014matching cardiovascular system bodily functions.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1697452,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941460,
+            "content": "To produce oxygen for the body to use during exercise",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Oxygen is taken in by the respiratory system and exchanged in the lungs; the cardiovascular system transports it in the blood."
+          },
+          {
+            "id": 4941461,
+            "content": "To transport oxygen, nutrients, heat, and waste around the body",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. The cardiovascular system circulates blood to deliver oxygen and nutrients and remove heat and metabolic waste."
+          },
+          {
+            "id": 4941462,
+            "content": "To directly produce ATP for working muscles",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. ATP is produced within cells (primarily in mitochondria) via metabolic pathways; the cardiovascular system supports ATP production by delivering oxygen and substrates."
+          },
+          {
+            "id": 4941463,
+            "content": "To control breathing rate during exercise",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Breathing rate is regulated mainly by the respiratory control centers and chemoreceptors; the cardiovascular system transports gases but does not control ventilation rate."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c4837dd4-7abc-484d-92dd-94d26d7131ea",
+        "specification": "The table below compares two proteins involved in gas transport in the human body.\n\n| Property | Protein 1 | Protein 2 |\n| :--- | :--- | :--- |\n| **Location** | Red blood cells | Muscle fibers |\n| **Structure** | Quaternary structure (four subunits) | Tertiary structure (one subunit) |\n| **Heme groups** | 4 | 1 |\n\nWhich of the following correctly identifies the central metal ion in the heme prosthetic group of these proteins and its primary physiological role?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-c4837dd4-7abc-484d-92dd-94d26d7131ea-1771929956947",
+            "generatedAt": "2026-02-25T09:29:11.324Z",
+            "sourceRevisionId": 1683665
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:26:19.206Z",
+            "resultId": 29985
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T05:16:24.501Z",
+              "reasoning": "The question compares hemoglobin (RBCs, 4 heme groups) and myoglobin (muscle, 1 heme) and asks about the mineral in heme and its role in oxygen binding\u2014core to gas transport and exchange for cellular respiration.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:16:24.501Z",
+              "reasoning": "Hemoglobin in red blood cells is part of cardiovascular transport of oxygen in blood, linking the question to cardiovascular system function.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 1696239,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938620,
+            "content": "Calcium; it enables actin\u2013myosin cross-bridge formation during muscle contraction.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Heme contains iron, not calcium, so this does not identify the metal ion in heme."
+          },
+          {
+            "id": 4938621,
+            "content": "Copper; it is the metal ion that binds oxygen in haemoglobin and myoglobin.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Haemoglobin and myoglobin bind oxygen via iron in heme, not copper."
+          },
+          {
+            "id": 4938622,
+            "content": "Iron; it binds oxygen in haemoglobin and myoglobin to support oxygen transport and delivery for aerobic metabolism.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct: heme contains an iron ion (Fe) that reversibly binds O$_2$, enabling oxygen transport (haemoglobin) and storage/delivery in muscle (myoglobin)."
+          },
+          {
+            "id": 4938623,
+            "content": "Magnesium; it binds oxygen in heme to increase the oxygen-carrying capacity of the blood.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Magnesium is not the central metal ion in heme; oxygen binding in heme depends on iron."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c7f0592a-b64c-4e62-965f-46e13e99a625",
+        "specification": "Which statement best explains how the cardiovascular and respiratory systems work together to deliver oxygen to working muscles during a triathlon?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:16:58.024Z",
+            "resultId": 30890
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T05:29:05.293Z",
+              "reasoning": "The correct statement focuses on oxygen being taken in via the respiratory system (gas exchange) to support aerobic respiration and then being available for transport in the blood during endurance exercise.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:29:05.293Z",
+              "reasoning": "The question asks how the cardiovascular system works together with the respiratory system during a triathlon, involving blood transport of oxygen to working muscles.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1695073,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935229,
+            "content": "The cardiovascular system generates ATP for the lungs",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect: ATP is produced in cells (mainly mitochondria), not generated by the cardiovascular system."
+          },
+          {
+            "id": 4935230,
+            "content": "The respiratory system supplies oxygen for transport in the blood",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: the respiratory system brings oxygen into the lungs for gas exchange, and oxygen then binds to haemoglobin for transport in the blood."
+          },
+          {
+            "id": 4935231,
+            "content": "The cardiovascular system controls breathing rate",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: breathing rate is primarily regulated by respiratory centres in the brain (e.g., medulla) in response to blood gas levels, not by the cardiovascular system."
+          },
+          {
+            "id": 4935232,
+            "content": "The respiratory system regulates heart contractions",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: heart contractions are initiated and regulated by the cardiac conduction system and autonomic nervous system, not by the respiratory system."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cbda140d-4743-440c-aed4-43c22e197723",
+        "specification": "Which of the following correctly describes the physiological changes occurring during forced expiration?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-cbda140d-4743-440c-aed4-43c22e197723-1771953315939",
+            "generatedAt": "2026-02-25T07:54:42.341Z",
+            "sourceRevisionId": 1419762
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:22:45.811Z",
+            "resultId": 42620
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T16:02:22.135Z",
+              "reasoning": "The question asks about mechanics of breathing during forced expiration (intercostal muscle activity and changes in alveolar pressure), which falls under respiratory system function and gas exchange.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1697046,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940416,
+            "content": "External intercostal muscles relax, internal intercostal muscles contract, and alveolar pressure increases.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4940417,
+            "content": "External intercostal muscles contract, internal intercostal muscles relax, and alveolar pressure decreases.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "A"
+          },
+          {
+            "id": 4940418,
+            "content": "External intercostal muscles relax, internal intercostal muscles relax, and alveolar pressure decreases.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "A"
+          },
+          {
+            "id": 4940419,
+            "content": "External intercostal muscles contract, internal intercostal muscles contract, and alveolar pressure increases.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "A"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d0584024-905c-40cb-a0a7-31bfa39d3f6e",
+        "specification": "The following table summarizes the movement of various molecules between organs via the circulatory system.\n\n| Row | Substance | Organ of Origin | Primary Destination |\n| :--- | :--- | :--- | :--- |\n| I | Glucose | Small intestine | Liver |\n| II | Insulin | Liver | Pancreas |\n| III | Urea | Bladder | Kidneys |\n| IV | Oxygen | Skeletal Muscle | Lungs |\n\nWhich row in the table correctly identifies a substance and its transport pathway via the circulatory system?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d0584024-905c-40cb-a0a7-31bfa39d3f6e-1771929956947",
+            "generatedAt": "2026-02-24T12:53:38.414Z",
+            "sourceRevisionId": 1419767
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:18:23.315Z",
+            "resultId": 41715
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T15:56:59.683Z",
+              "reasoning": "The question asks which substance\u2013organ origin/destination pairing is correctly transported via the circulatory system (systemic transport pathways), which is primarily cardiovascular transport of molecules between organs.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T15:56:59.683Z",
+              "reasoning": "One option concerns oxygen movement between lungs and tissues; evaluating oxygen transport is closely tied to respiratory gas exchange and its integration with circulatory transport.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1697010,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940288,
+            "content": "Row I",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. Glucose absorbed from the small intestine is transported in blood (hepatic portal circulation) to the liver."
+          },
+          {
+            "id": 4940289,
+            "content": "Row II",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Insulin is produced by the pancreas (not the liver) and is transported from the pancreas to target tissues."
+          },
+          {
+            "id": 4940290,
+            "content": "Row III",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Urea is produced in the liver and transported by blood to the kidneys; the bladder stores urine and does not transport urea to kidneys."
+          },
+          {
+            "id": 4940291,
+            "content": "Row IV",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Oxygen is transported from the lungs to tissues such as skeletal muscle (not from skeletal muscle to the lungs)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d28b0167-8a76-4478-969f-3f883aad3d84",
+        "specification": "Human physiology: Homeostasis and the coordination of the respiratory, circulatory, and nervous systems.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:17:31.042Z",
+              "reasoning": "Several parts explicitly address homeostatic control: circulatory roles in homeostasis, receptor types in control loops, and inter-system communication to maintain internal stability during exercise.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:17:31.042Z",
+              "reasoning": "Focus on circulatory/cardiovascular contributions to homeostasis and cooperation with respiration to deliver oxygen.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T08:17:31.042Z",
+              "reasoning": "Gas exchange diffusion and how breathing/respiratory function supports oxygen uptake and delivery are central to multiple parts.",
+              "confidence": 0.76
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:17:31.042Z",
+              "reasoning": "One part asks how the nervous system coordinates changes in breathing rate, involving neural control of ventilation and physiological responses.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1583559,
+        "parts": [
+          {
+            "id": 1137227,
+            "content": "State two roles of the circulatory system in homeostasis.",
+            "order": 1,
+            "markscheme": "- Transports nutrients, gases, and hormones to maintain internal balance <marks>A1</marks>\n- Helps regulate body temperature and pH <marks>A1</marks>\n\n<note>Other acceptable answers: distributes heat, removes metabolic waste \u2014 any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137228,
+            "content": "Identify two types of receptors involved in homeostatic control.",
+            "order": 2,
+            "markscheme": "- Thermoreceptors <marks>A1</marks>\n- Baroreceptors <marks>A1</marks>\n\n<note>Other acceptable answers: chemoreceptors, osmoreceptors \u2014 any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137229,
+            "content": "Describe the process of diffusion in gas exchange.",
+            "order": 3,
+            "markscheme": "- Gases move from areas of high concentration to low concentration / down a concentration gradient <marks>A1</marks>\n- Oxygen diffuses from alveoli to blood <marks>A1</marks>\n- $\\text{CO}_2$ diffuses from blood to alveoli <marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137230,
+            "content": "Explain how the respiratory and circulatory systems cooperate to deliver oxygen.",
+            "order": 4,
+            "markscheme": "- Oxygen is inhaled into lungs and enters alveoli <marks>A1</marks>\n- Oxygen diffuses into blood and binds to hemoglobin <marks>A1</marks>\n- Heart pumps oxygenated blood to muscles and tissues <marks>A1</marks>\n- Oxygen is released at tissues for cellular respiration <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137231,
+            "content": "Outline how the nervous system coordinates changes in breathing rate.",
+            "order": 5,
+            "markscheme": "- Chemoreceptors detect $\\text{CO}_2$ and pH levels <marks>A1</marks>\n- Signals are sent to the medulla oblongata <marks>A1</marks>\n- Medulla increases stimulation of respiratory muscles <marks>A1</marks>\n- Breathing rate and depth increase <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137232,
+            "content": "Discuss the role of inter-system communication in maintaining internal stability during exercise.",
+            "order": 6,
+            "markscheme": "- Nervous system regulates ventilation and heart rate <marks>A1</marks>\n- Endocrine system controls metabolism and fluid balance <marks>A1</marks>\n- Respiratory and circulatory systems supply oxygen and remove $\\text{CO}_2$ <marks>A1</marks>\n- Receptors detect internal changes and coordinate responses <marks>A1</marks>\n- Homeostasis maintains the internal environment under physical stress <marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "d41c0b2c-ba9e-4b2a-8256-acf8e79da72c",
+        "specification": "How does the circulatory system help maintain body temperature during exercise in hot weather?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T17:37:14.119Z",
+              "reasoning": "The question asks how the circulatory (cardiovascular) system regulates body temperature during exercise in hot weather via changes in blood flow to the skin (vasodilation), which is a cardiovascular function.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T17:37:14.119Z",
+              "reasoning": "Thermoregulation during exercise in hot conditions is a core example of maintaining homeostasis, with the circulatory system acting as an effector to control body temperature.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1419774,
+        "parts": [],
+        "options": [
+          {
+            "id": 4150613,
+            "content": "By vasoconstriction to conserve heat",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4150614,
+            "content": "By increasing blood flow to the skin for heat loss",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4150615,
+            "content": "By reducing sweat gland activity",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4150616,
+            "content": "By transporting less oxygen to the skin",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d92ff962-4faa-42f0-b8b9-5f7f109ebcfb",
+        "specification": "The graph shows the oxygen dissociation curves for adult hemoglobin and fetal hemoglobin.\n\n![Oxygen Dissociation Curves](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-sehs-d92ff962-4faa-42f0-b8b9-5f7f109ebcfb-1771953315939/ae6aaf97-9c34-4925-af51-084b14332bec.jpeg)\n\nWhich statement identifies fetal hemoglobin and the physiological importance of its dissociation curve position?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-d92ff962-4faa-42f0-b8b9-5f7f109ebcfb-1771953315939",
+            "generatedAt": "2026-02-25T07:44:32.267Z",
+            "sourceRevisionId": 1583546
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:20:52.901Z",
+            "resultId": 41865
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T15:57:43.941Z",
+              "reasoning": "The question is about oxygen\u2013hemoglobin dissociation curves (adult vs fetal), oxygen affinity, and physiological importance for placental oxygen transfer\u2014core respiratory physiology and gas exchange concepts.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T15:57:43.941Z",
+              "reasoning": "Hemoglobin function and oxygen transport in blood are also part of cardiovascular transport physiology, which supports interpreting dissociation curves.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1697030,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940356,
+            "content": "Curve 1 represents fetal hemoglobin; its higher oxygen affinity ensures it can bind oxygen from maternal blood in the placenta.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. Fetal hemoglobin (Curve 1) is shifted to the left of adult hemoglobin (Curve 2). A leftward shift indicates a higher affinity for oxygen at any given partial pressure ($P_{O_2}$). This allows fetal hemoglobin to bind oxygen from maternal blood as it passes through the placenta, where the oxygen concentration is lower than in the mother's lungs."
+          },
+          {
+            "id": 4940357,
+            "content": "Curve 2 represents fetal hemoglobin; its lower oxygen affinity promotes the release of oxygen to fetal tissues during growth.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Fetal hemoglobin has a higher (not lower) affinity for oxygen, so its dissociation curve is left-shifted relative to adult hemoglobin; therefore it would correspond to Curve 1, not Curve 2."
+          },
+          {
+            "id": 4940358,
+            "content": "Curve 1 represents fetal hemoglobin; it prevents oxygen toxicity by limiting the amount of oxygen bound at high partial pressures.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. A left-shifted curve indicates higher oxygen affinity and greater saturation at a given $P_{O_2}$; fetal hemoglobin\u2019s key physiological importance is facilitating oxygen transfer from maternal to fetal blood in the placenta, not preventing oxygen toxicity at high partial pressures."
+          },
+          {
+            "id": 4940359,
+            "content": "Curve 2 represents fetal hemoglobin; it allows for greater binding of carbon dioxide to facilitate transport back to the mother.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. The dissociation curves shown relate to hemoglobin saturation with oxygen, not carbon dioxide binding, and fetal hemoglobin is left-shifted (higher oxygen affinity), corresponding to Curve 1 rather than Curve 2."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "dd6b8512-285d-4af3-813b-b1631bdb90c8",
+        "specification": "Erythrocytes are highly specialized for their role in the human circulatory system. What is the primary functional significance of their biconcave disc shape?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-dd6b8512-285d-4af3-813b-b1631bdb90c8-1771929956947",
+            "generatedAt": "2026-02-24T12:34:23.955Z",
+            "sourceRevisionId": 1419769
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:31:55.831Z",
+            "resultId": 30920
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:30:59.078Z",
+              "reasoning": "The question concerns erythrocytes (red blood cells) and how their biconcave shape supports their transport role in the circulatory system, a core aspect of cardiovascular structure/function and oxygen transport.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-06T05:30:59.078Z",
+              "reasoning": "The biconcave shape\u2019s significance is increased surface area-to-volume ratio to aid rapid O2/CO2 diffusion, linking directly to gas exchange concepts within the respiratory system.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1694912,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934733,
+            "content": "It increases the surface area to volume ratio to facilitate rapid gas exchange.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934734,
+            "content": "It increases the cell\u2019s capacity to store glucose and other nutrients for use during exercise.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934735,
+            "content": "It helps the cell withstand high blood pressure by making it more rigid and less likely to deform.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934736,
+            "content": "It enables the cell to engulf and destroy pathogens as part of the immune response.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ea467f8f-7dc2-4e7a-82b3-fa142ecd0b89",
+        "specification": "How is blood effectively transported back to the heart through the low-pressure veins of the legs?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-ea467f8f-7dc2-4e7a-82b3-fa142ecd0b89-1771953315939",
+            "generatedAt": "2026-02-25T07:41:32.860Z",
+            "sourceRevisionId": 1419771
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:17:38.621Z",
+            "resultId": 30310
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:18:51.003Z",
+              "reasoning": "The question asks how venous blood is returned from the legs to the heart in low-pressure veins (skeletal muscle pump/venous return mechanisms), which is part of cardiovascular system function.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695418,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936309,
+            "content": "The compression of vessels by the contraction of skeletal muscles",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: the skeletal muscle pump compresses veins and, with venous valves, helps propel blood back to the heart against gravity."
+          },
+          {
+            "id": 4936310,
+            "content": "The high residual hydrostatic pressure remaining from the aorta",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: arterial pressure has largely dissipated by the time blood reaches the venous system; venous return in the legs relies mainly on the muscle pump and valves."
+          },
+          {
+            "id": 4936311,
+            "content": "The recoil of thick elastic fibers located within the vein walls",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: veins have thinner, less elastic walls than arteries; elastic recoil is not the primary mechanism for venous return."
+          },
+          {
+            "id": 4936312,
+            "content": "The suction force generated by the narrow capillary networks",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: capillaries are the exchange vessels and do not generate a suction force to return blood to the heart."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "eadf684d-71b0-4b3a-a20a-83bac644e2ab",
+        "specification": "During prolonged cycling in hot weather, which mechanism primarily transfers heat from working muscles to the skin?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:30:56.505Z",
+            "resultId": 30759
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:27:01.362Z",
+              "reasoning": "The question is about thermoregulation during exercise in heat\u2014transporting heat from working muscles to the skin via blood as part of maintaining homeostasis.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:27:01.362Z",
+              "reasoning": "Heat is primarily carried away from muscles by the cardiovascular system (circulatory blood flow) to the skin surface.",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1695156,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935465,
+            "content": "Conduction through bones",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935466,
+            "content": "Evaporation of sweat from the skin surface",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935467,
+            "content": "Circulation of blood to the skin surface",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935468,
+            "content": "Convection of air in the lungs",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f84dd8f8-2f84-4570-b6b3-e19ed4348ab0",
+        "specification": "This question explores the homeostatic control of blood glucose levels, focusing on the roles of the pancreas and the hormones insulin and glucagon.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:19:01.214Z",
+              "reasoning": "Multiple parts focus on homeostasis of blood glucose, including negative feedback loops and consequences of disrupted homeostasis.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-07T08:19:01.214Z",
+              "reasoning": "Question emphasizes endocrine regulation via pancreas hormones insulin and glucagon, including identifying hormones and secretion organs.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1583564,
+        "parts": [
+          {
+            "id": 1137233,
+            "content": "Identify two body systems involved in glucose regulation.",
+            "order": 1,
+            "markscheme": "- Identify the endocrine system <marks>A1</marks>\n- Identify the digestive system <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers: Nervous system.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137234,
+            "content": "State the primary hormone that lowers blood glucose and identify the organ that secretes it.",
+            "order": 2,
+            "markscheme": "- State that insulin is the hormone that lowers blood glucose <marks>A1</marks>\n- Identify the pancreas as the organ that secretes it <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137235,
+            "content": "Outline the role of the pancreas in maintaining glucose balance.",
+            "order": 3,
+            "markscheme": "- Outline how the pancreas monitors blood glucose levels <marks>A1</marks>\n- Outline how the pancreas secretes insulin when blood glucose levels are high <marks>A1</marks>\n- Outline how the pancreas secretes glucagon when blood glucose levels are low <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137236,
+            "content": "Describe the function of glucagon.",
+            "order": 4,
+            "markscheme": "- Describe the release of glucagon by $\\alpha$-cells of the pancreas <marks>A1</marks>\n- Describe how glucagon stimulates glycogen breakdown (glycogenolysis) in the liver <marks>A1</marks>\n- Describe how glucagon raises blood glucose levels <marks>A1</marks>\n- Describe how glucagon works antagonistically to insulin <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137237,
+            "content": "Explain how a negative feedback loop operates in blood glucose regulation.",
+            "order": 5,
+            "markscheme": "- Explain how increased blood glucose triggers the release of insulin <marks>A1</marks>\n- Explain how insulin promotes glucose uptake by cells or conversion to glycogen, which lowers blood glucose levels <marks>A1</marks>\n- Explain how decreased blood glucose triggers the release of glucagon <marks>A1</marks>\n- Explain how glucagon promotes glucose release from the liver into the blood, which raises blood glucose levels <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137238,
+            "content": "Discuss the consequences of disrupted glucose homeostasis on organ function.",
+            "order": 6,
+            "markscheme": "- Discuss how cells may not receive enough glucose for energy, leading to fatigue or weight loss <marks>A1</marks>\n- Discuss how kidneys may excrete excess glucose (glycosuria), leading to dehydration <marks>A1</marks>\n- Discuss long-term effects including nerve (neuropathy) and blood vessel damage <marks>A1</marks>\n- Discuss the increased risk of diabetic complications such as blindness (retinopathy) or kidney failure <marks>A1</marks>\n- Discuss how homeostatic failure leads to chronic systemic dysfunction <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "fa9913c8-ac5f-4b1d-a207-9fbd0c0cc8f7",
+        "specification": "A clinical study analyzes the transport mechanisms of a newly discovered lipid-soluble signaling molecule that functions similarly to steroid hormones.\n\n| Feature | Observation |\n| :--- | :--- |\n| Chemical Nature | Non-polar / Hydrophobic |\n| Plasma Concentration | High when associated with globulins |\n| Target Action | Binding to intracellular receptors |\n\nHow is this molecule primarily transported from its site of production to its target tissue?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-fa9913c8-ac5f-4b1d-a207-9fbd0c0cc8f7-1771953315939",
+            "generatedAt": "2026-02-25T08:03:30.270Z",
+            "sourceRevisionId": 1583563
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:17:03.267Z",
+            "resultId": 30329
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T05:18:17.951Z",
+              "reasoning": "The question is about a lipid-soluble signaling molecule acting like a steroid hormone, binding intracellular receptors, and being transported in blood bound to globulins\u2014core endocrine hormone transport/communication content.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:18:17.951Z",
+              "reasoning": "It specifically asks how the molecule is transported through the circulatory system (blood plasma protein binding), which links to cardiovascular transport mechanisms.",
+              "confidence": 0.54
+            }
+          ]
+        },
+        "currentRevisionId": 1695414,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936293,
+            "content": "Carried within the cytoplasm of erythrocytes to protect it from the aqueous plasma.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Erythrocytes are specialized for the transport of respiratory gases (oxygen and carbon dioxide) and do not serve as the primary transport vehicle for steroid hormones or lipid-soluble signals."
+          },
+          {
+            "id": 4936294,
+            "content": "Packaged into chylomicrons for movement through the lymphatic vessels.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Chylomicrons are utilized for the transport of dietary lipids from the small intestine to the liver and other tissues, not for the systemic transport of endocrine signaling molecules."
+          },
+          {
+            "id": 4936295,
+            "content": "Reversibly bound to specific transport proteins in the blood plasma.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. Lipid-soluble (hydrophobic) molecules like steroid hormones have very low solubility in the aqueous environment of the plasma. They require carrier proteins, such as albumin or specific globulins, to facilitate their transport through the bloodstream."
+          },
+          {
+            "id": 4936296,
+            "content": "Dissolved as free, unbound molecules in the blood serum.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Because the molecule is non-polar and hydrophobic, it cannot dissolve in high enough concentrations as free molecules within the water-based serum to achieve effective physiological signaling."
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "44",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 30047,
+      "title": "A.1.3 Transport",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-a13-t",
+      "parentTopicId": 30032
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "44",
+      "byQuestion": {}
+    }
+  }
+}

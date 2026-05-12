@@ -1,3 +1,512 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:548f7da38b3e5478bc6f50a22689a6e0e05945f93147275ff10c5318e3fcd13a
-size 30286
+{
+  "json": {
+    "questions": [
+      {
+        "id": "3c36d559-f918-4038-a74b-e3a803434335",
+        "specification": "Based on the characteristics provided in the table, which stage of the product life cycle is the product currently experiencing?\n\n| Business Aspect | Observation |\n| :--- | :--- |\n| **Profitability** | Reaching the break-even point and starting to rise |\n| **Sales Trend** | Expanding rapidly as market penetration increases |\n| **Marketing Strategy** | Shifting from product awareness to brand differentiation |",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-3c36d559-f918-4038-a74b-e3a803434335-1771929956947",
+            "generatedAt": "2026-02-25T11:45:57.238Z",
+            "sourceRevisionId": 1179060
+          }
+        },
+        "currentRevisionId": 1684719,
+        "parts": [],
+        "options": [
+          {
+            "id": 4918875,
+            "content": "Introduction",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4918876,
+            "content": "Growth",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4918877,
+            "content": "Maturity",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4918878,
+            "content": "Decline",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4d2d2675-05fa-4d0e-860f-c12f6e6dbabe",
+        "specification": "A company is planning to develop a new line of sustainable home appliances. These appliances must be energy-efficient, environmentally friendly, and designed for long-term use.\n\nThe design team must consider various aspects such as material selection, energy consumption, and life cycle impacts. The following questions will explore different aspects of sustainable design in the context of home appliances.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:02:05.546Z",
+            "resultId": 1428
+          }
+        },
+        "currentRevisionId": 1691973,
+        "parts": [
+          {
+            "id": 1153760,
+            "content": "Define sustainable design, outlining its key aspects, and explain its importance in the development of home appliances.",
+            "order": 0,
+            "markscheme": "- Sustainable design definition: Creating products that meet current needs while preserving future generations' ability to meet their needs <marks>1 mark</marks>\n\n- Key aspects of sustainable design: Consideration of environmental, social and economic impacts throughout product life cycle <marks>1 mark</marks>\n\n- Importance for home appliances (any one): <marks>1 mark</marks>\n  - Reduces energy consumption\n  - Minimizes environmental impact\n  - Conserves resources\n  - Promotes social responsibility\n  - Ensures long-term economic viability\n\n<note>Award <marks>1 mark</marks> for any valid importance point related to home appliances</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153761,
+            "content": "Describe two sustainable materials that could be used in the design of home appliances.",
+            "order": 1,
+            "markscheme": "- Recycled Aluminium <marks>2 marks</marks>\n  - Made from scrap metal, requires less energy to produce than new aluminium\n  - Lightweight, durable and recyclable\n  - Suitable for various appliance components\n\n- Biodegradable Plastics <marks>2 marks</marks>\n  - Made from renewable resources like cornstarch\n  - Can break down naturally, reducing pollution\n  - Suitable for non-structural components (casings, handles)\n\n<note>Award 1 mark for identifying the material and 1 mark for relevant explanation/application for each material</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153762,
+            "content": "Explain the concept of life cycle assessment (LCA) and its role in the sustainable design of home appliances.",
+            "order": 2,
+            "markscheme": "- Life cycle assessment (LCA) is a method to evaluate environmental impacts throughout a product's entire life cycle <marks>1 mark</marks>\n\n- LCA covers all stages from raw material extraction to final disposal <marks>1 mark</marks>\n\n- For home appliances, LCA helps identify areas for environmental improvement including:\n  - Material selection\n  - Energy efficiency optimization\n  - Design for recyclability <marks>1 mark</marks>\n\n- LCA enables designers to make data-driven decisions to:\n  - Minimize negative environmental impacts\n  - Enhance overall product sustainability <marks>1 mark</marks>\n\n<note>Award marks for any other relevant points related to LCA application in appliance design</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153763,
+            "content": "The diagram below shows the stages of a home appliance lifecycle in sustainable design. Label the parts A, B, and C and explain their significance.\n![Diagram of a home appliance lifecycle in sustainable design showing three stages: A (Material Sourcing), B (Production), and C (End of Life). The Material Sourcing stage (A) involves obtaining sustainable or recycled materials. The Production stage (B) focuses on using eco-friendly processes and minimizing waste. The End of Life stage (C) includes recycling or repurposing the product to minimize waste. ](https://pub-images.revisiondojo.com/question-images/generated/ad7c83fc-b83b-4b31-ae93-f898ee2ccc84.png)",
+            "order": 3,
+            "markscheme": "- A: Material Sourcing - Obtaining sustainable or recycled materials to reduce environmental impact of raw material extraction <marks>1 mark</marks>\n\n- B: Production - Using eco-friendly processes and minimizing waste to reduce pollution and resource consumption <marks>1 mark</marks>\n\n- C: End of Life - Recycling or repurposing product to minimize waste and ensure materials are reused <marks>1 mark</marks>\n\n- Significance: These stages represent a holistic approach to minimizing environmental impact throughout the product life cycle, aligning with sustainable design principles <marks>1 mark</marks>\n\n<note>Award marks for each correct stage identification and explanation. The significance mark requires linking the stages to sustainable design principles.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153764,
+            "content": "Propose three strategies a company can implement to enhance the sustainability of its home appliance designs.",
+            "order": 4,
+            "markscheme": "- Design appliances that consume less energy during operation through: <marks>2 marks</marks>\n  - Integration of energy-efficient technologies\n  - Smart power management systems\n  - Energy Star compliance\n\n- Implement modular design principles: <marks>2 marks</marks>\n  - Use interchangeable/standardized parts\n  - Design for easy repair and maintenance\n  - Enable component upgrades without full replacement\n\n- Select sustainable materials: <marks>2 marks</marks>\n  - Use recyclable/biodegradable materials\n  - Choose materials with low environmental impact\n  - Incorporate recycled content where possible\n\n<note>Award <marks>1 mark</marks> for basic identification of each strategy and <marks>1 mark</marks> for relevant elaboration/example</note>\n\n<examTip>Include specific examples or details for each strategy to demonstrate deeper understanding</examTip>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4e3d496c-6845-49c4-b66e-725ef1009531",
+        "specification": "Innovation and markets refer to the process of developing new products, services, or processes and introducing them to the market. \n\nThis involves understanding market needs, creating value, and strategically positioning the innovation to achieve competitive advantage. Key concepts include market pull, technology push, and the product life cycle.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T09:24:08.840Z",
+            "resultId": 6021
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30781,
+              "isHl": false,
+              "path": "5. Innovation and design > 5.6 Rogers\u2019 characteristics of innovation and consumers > 5.6.2 Principles of Innovation Adoption",
+              "title": "5.6.2 Principles of Innovation Adoption",
+              "labeledAt": "2026-03-05T08:13:38.854Z",
+              "reasoning": "Part (d) specifically asks for an explanation of the 'diffusion of innovation' and the description of the five categories of adopters, which are core principles of innovation adoption according to Rogers.",
+              "confidence": 1
+            },
+            {
+              "id": 30778,
+              "isHl": false,
+              "path": "5. Innovation and design > 5.5 Product life cycle > 5.5.2 Principles of the Product Life Cycle",
+              "title": "5.5.2 Principles of the Product Life Cycle",
+              "labeledAt": "2026-03-05T08:13:38.854Z",
+              "reasoning": "Part (a) requires an explanation of the stages of the product life cycle, which is the central focus of this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 30771,
+              "isHl": false,
+              "path": "5. Innovation and design > 5.3 Strategies for innovation > 5.3.1 Driving Innovation Through Strategy",
+              "title": "5.3.1 Driving Innovation Through Strategy",
+              "labeledAt": "2026-03-05T08:13:38.854Z",
+              "reasoning": "Part (c) focuses on the concepts of 'market pull' and 'technology push', which are primary strategies that drive innovation.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30768,
+              "isHl": false,
+              "path": "5. Innovation and design > 5.2 Innovation > 5.2.1 Role of Innovation in the Marketplace",
+              "title": "5.2.1 Role of Innovation in the Marketplace",
+              "labeledAt": "2026-03-05T08:13:38.854Z",
+              "reasoning": "Part (e) asks for an analysis of how innovation impacts market competition and how companies gain competitive advantage, which relates to the role of innovation in the marketplace.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30769,
+              "isHl": false,
+              "path": "5. Innovation and design > 5.2 Innovation > 5.2.2 Principles of Innovation",
+              "title": "5.2.2 Principles of Innovation",
+              "labeledAt": "2026-03-05T08:13:38.854Z",
+              "reasoning": "Part (b) asks for a definition and example of 'disruptive innovation', which is a specific type of innovation categorized under the principles of innovation.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693704,
+        "parts": [
+          {
+            "id": 1155886,
+            "content": "Explain two stages of the product life cycle.",
+            "order": 0,
+            "markscheme": "- Introduction stage: product is newly launched with low initial sales and high marketing costs to create awareness <marks>1 mark</marks>\n- Growth stage: product gains market acceptance; rapid increase in sales and rising profits <marks>1 mark</marks>\n- Maturity stage: peak market penetration achieved; sales growth slows/stabilizes; intense competition; profits begin to decline <marks>1 mark</marks>\n- Decline stage: decreasing sales and profits; market saturation; product may be discontinued or require redesign/innovation; can be caused by technological changes or shifting consumer preferences <marks>1 mark</marks>\n\n- Award marks for each stage based on clear explanation of key characteristics and business implications. Award maximum 2 marks per stage. <marks>0 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155887,
+            "content": "Define 'incremental innovation' and provide an example of an incremental innovation in the technology sector.",
+            "order": 1,
+            "markscheme": "- Defines incremental innovation as small, continuous improvements to an existing product/service/process that enhance performance, usability, efficiency, or cost without fundamentally changing the market <marks>2 marks</marks>\n- Example (technology sector): a smartphone model update improving battery life/camera quality/processing speed/software features while keeping the same core product concept <marks>1 mark</marks>\n\n- Award full marks only if both definition and a relevant example are clearly given. <marks>0 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155888,
+            "content": "Distinguish between 'market pull' and 'technology push'.",
+            "order": 2,
+            "markscheme": "- Market pull: innovation driven by consumer demand and market needs <marks>1 mark</marks>\n- Companies develop products/services in response to identified market requirements <marks>1 mark</marks>\n- Technology push: innovation driven by technological advancement and capabilities <marks>1 mark</marks>\n- Companies develop products/services based on new technology, before clear market demand exists <marks>1 mark</marks>\n\n- Award marks for relevant examples:\n  - Market pull example: electric vehicles developed in response to demand for lower emissions\n  - Technology push example: early touchscreen technology enabling new product concepts before mass demand was established <marks>0 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155889,
+            "content": "Explain the concept of 'diffusion of innovation' and describe the five categories of adopters.",
+            "order": 3,
+            "markscheme": "- Diffusion of innovation: theory explaining how, why, and the rate at which new ideas/technology spread through cultures <marks>1 mark</marks>\n\n- Innovators: first to adopt an innovation; risk-takers and leaders <marks>1 mark</marks>\n- Early adopters: adopt new ideas early but carefully; opinion leaders who help spread innovation <marks>1 mark</marks>\n- Early majority: adopt after varying time; deliberate and cautious <marks>1 mark</marks>\n- Late majority: adopt after the average society member; skeptical and wait for majority adoption <marks>1 mark</marks>\n- Laggards: last to adopt; resistant to change; rely on traditional products <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155890,
+            "content": "Analyze the impact of innovation on market competition and provide an example of a company that has gained a competitive advantage through innovation.",
+            "order": 4,
+            "markscheme": "- Innovation impacts market competition by creating competitive advantages (e.g., differentiation/cost reduction) <marks>1 mark</marks>\n- Innovation leads to development of new products/processes/services that better meet customer needs <marks>1 mark</marks>\n- Results in outcomes such as increased market share, higher profits, and a stronger market position <marks>1 mark</marks>\n- Example: Apple Inc. has maintained market leadership through innovation in product design, technology and user experience (e.g., iPhone, iPad, MacBook) <marks>1 mark</marks>\n\n- Award full marks only if both theoretical analysis and a relevant example are provided. <marks>0 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "57525de2-14c9-4a38-86da-a486a1f90dfb",
+        "specification": "Professional landscape gardeners often use cordless electric hedge trimmers for extended periods. These tools must be designed to accommodate the physiological limits of the human body to ensure both efficiency and user well-being.\n\n**Figure 1: A professional cordless hedge trimmer**\n\n![A professional grade cordless hedge trimmer with an ergonomic wrap-around handle and battery pack at the rear.](https://pub-images.revisiondojo.com/question-images/61be7c9b-6490-449e-8742-50d4847e0c4f)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-57525de2-14c9-4a38-86da-a486a1f90dfb-1771929956947",
+            "generatedAt": "2026-02-25T11:46:12.425Z",
+            "sourceRevisionId": 1410320
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:55:29.172Z",
+            "resultId": 3601
+          }
+        },
+        "currentRevisionId": 1690693,
+        "parts": [
+          {
+            "id": 1153175,
+            "content": "Identify **two** factors that influence an individual's physical work capacity when operating heavy outdoor power tools.",
+            "order": 0,
+            "markscheme": "- Muscle strength (determined by age or gender). <marks>1 mark</marks>\n- Cardiovascular fitness/endurance. <marks>1 mark</marks>\n- General health/nutrition levels. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153176,
+            "content": "Explain why the **grip diameter** of the trimmer's handle is a critical physiological factor in the tool's design.",
+            "order": 1,
+            "markscheme": "- An appropriate grip diameter allows for a 'power grip' where the fingers and thumb overlap. <marks>1 mark</marks>\n- This maximises the surface area of contact to distribute the force/pressure across the palm. <marks>1 mark</marks>\n- Reducing localized muscle strain and preventing premature hand fatigue. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153177,
+            "content": "Explain **two** ways that environmental stressors can impact the physiological performance of the operator.",
+            "order": 2,
+            "markscheme": "- **Thermal stress/Ambient temperature:** <marks>1 mark</marks>\n- High temperatures cause the body to divert blood to the skin for cooling (sweating), which increases heart rate. <marks>1 mark</marks>\n- This leads to faster exhaustion/dehydration and a decline in physical coordination. <marks>1 mark</marks>\n\n- **Noise levels:** <marks>1 mark</marks>\n- Constant exposure to high-decibel noise increases physiological stress levels (cortisol). <marks>1 mark</marks>\n- This can lead to increased blood pressure and reduced concentration/mental fatigue. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153178,
+            "content": "Explain how the management of **Hand-Arm Vibration Syndrome (HAVS)** in the design of the tool can improve the safety, fatigue levels, and long-term health of the operator.",
+            "order": 3,
+            "markscheme": "**Safety:**\n- Vibration-damping materials (like elastomers) are used in the handles. <marks>1 mark</marks>\n- This prevents the 'white finger' effect where blood flow is restricted. <marks>1 mark</marks>\n- Ensuring the user maintains full tactile sensitivity to keep a secure grip and avoid accidental drops. <marks>1 mark</marks>\n\n**Fatigue:**\n- Reducing high-frequency oscillations reduces the workload on the small muscles of the hand and forearm. <marks>1 mark</marks>\n- This prevents the muscles from having to constantly contract to stabilize the tool. <marks>1 mark</marks>\n- Allowing the gardener to operate the tool for longer durations without significant loss of motor control. <marks>1 mark</marks>\n\n**Long-term Health:**\n- Ergonomic design isolates the motor from the chassis using internal damping mounts. <marks>1 mark</marks>\n- This limits the cumulative exposure of joints and nerves to mechanical shock. <marks>1 mark</marks>\n- Preventing permanent debilitating conditions such as carpal tunnel syndrome or permanent nerve damage. <marks>1 mark</marks>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7b5d5674-c6b6-45b5-be4c-9a77c79ba6d9",
+        "specification": "The graph below shows the typical sales and profit trends over the four main stages of a product's life cycle. \n\n![Product Life Cycle Graph](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-7b5d5674-c6b6-45b5-be4c-9a77c79ba6d9-1771929956947/7b713d9f-0cb1-4a3a-bc8e-99238862db7e.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-7b5d5674-c6b6-45b5-be4c-9a77c79ba6d9-1771929956947",
+            "generatedAt": "2026-02-25T13:53:44.106Z",
+            "sourceRevisionId": 1161889
+          }
+        },
+        "currentRevisionId": 1685654,
+        "parts": [
+          {
+            "id": 1146357,
+            "content": "Explain why a product entering Stage B (Growth) often experiences a significant increase in profit margins compared to Stage A.",
+            "order": -1,
+            "markscheme": "- Economies of scale are achieved through higher production volumes which lowers the unit cost <marks>1 mark</marks>\n- Initial research and development (R&D) or tooling costs have been largely recovered by initial sales <marks>1 mark</marks>\n\n- Growing consumer awareness reduces the relative cost of marketing per sale <marks>1 mark</marks>\n- High demand allows the manufacturer to maintain stable prices while costs fall <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for identifying a reason for increased profit and <marks>1 mark</marks> for a brief explanation up to <marks>2 marks max</marks> </note>\n\n<note>Do not award marks across clusters</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146358,
+            "content": "Outline how the implementation of an extension strategy would affect the shape of the graph during Stage C (Maturity).",
+            "order": 0,
+            "markscheme": "- It creates a new peak or 'bump' in the sales curve <marks>1 mark</marks>\n- By delaying or preventing the onset of the decline phase (Stage D) <marks>1 mark</marks>\n\n- It flattens the curve for a longer period <marks>1 mark</marks>\n- As new features or target markets maintain a steady level of sales <marks>1 mark</marks>\n\n- It restarts the growth trajectory briefly <marks>1 mark</marks>\n- Because the product is perceived as updated or relevant again by consumers <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for identifying the effect on the graph and <marks>1 mark</marks> for an explanation of why that change occurs up to <marks>2 marks max</marks> </note>\n\n<note>Do not award marks across clusters</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8b010e7b-1141-4ed3-8c0f-d625e78c8749",
+        "specification": "A start-up company is marketing a novel wearable health monitor. They are currently focusing on educating the public about the technology and targeting tech enthusiasts, resulting in high marketing costs and negative initial profits. Which stage of the product life cycle is being described?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-8b010e7b-1141-4ed3-8c0f-d625e78c8749-1771929956947",
+            "generatedAt": "2026-02-25T14:10:37.405Z",
+            "sourceRevisionId": 1161883
+          }
+        },
+        "currentRevisionId": 1685465,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920955,
+            "content": "Maturity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920956,
+            "content": "Growth",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920957,
+            "content": "Launch",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920958,
+            "content": "Decline",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "eb10cebe-c814-4464-81ff-03583085e9b4",
+        "specification": "In the Decline stage of the product life cycle, which management strategy is typically used to extract maximum remaining profit before the product is completely removed from the market?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-eb10cebe-c814-4464-81ff-03583085e9b4-1771929956947",
+            "generatedAt": "2026-02-25T13:55:35.199Z",
+            "sourceRevisionId": 1161869
+          }
+        },
+        "currentRevisionId": 1685091,
+        "parts": [],
+        "options": [
+          {
+            "id": 4919903,
+            "content": "Reinvesting in major technological upgrades to stay competitive",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4919904,
+            "content": "Developing a global marketing campaign to enter emerging markets",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4919905,
+            "content": "Increasing the wholesale price to capitalize on loyal 'laggard' consumers",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4919906,
+            "content": "Eliminating promotional spending and reducing the distribution network",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "7",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9914,
+      "title": "5.5 Product life cycle",
+      "slug": "5-5-product-life-cycle",
+      "parentTopicId": 9909
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "7",
+      "byQuestion": {}
+    }
+  }
+}

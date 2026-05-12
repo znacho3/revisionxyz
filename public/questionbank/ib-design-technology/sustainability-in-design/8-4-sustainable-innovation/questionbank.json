@@ -1,3 +1,419 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:484a668184036a94df1f991f176d71186e1c79c670bc573477d12bd156b554db
-size 18524
+{
+  "json": {
+    "questions": [
+      {
+        "id": "44444cfc-9667-4675-bd53-35cae91a2ef7",
+        "specification": "The table below outlines two distinct approaches for achieving sustainable innovation.\n\n| Strategy | Implementation Example |\n| :--- | :--- |\n| **Strategy X** | A national government introduces a tax on carbon-intensive manufacturing processes and provides subsidies for renewable energy infrastructure. |\n| **Strategy Y** | A local community group organizes a neighborhood composting program and a shared tool library to reduce household waste. |\n\nWhich term best describes **Strategy X**?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-44444cfc-9667-4675-bd53-35cae91a2ef7-1771929956947",
+            "generatedAt": "2026-02-25T10:33:05.829Z",
+            "sourceRevisionId": 1161912
+          }
+        },
+        "currentRevisionId": 1684772,
+        "parts": [],
+        "options": [
+          {
+            "id": 4919011,
+            "content": "Top-down strategy",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4919012,
+            "content": "Bottom-up strategy",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4919013,
+            "content": "Decoupling",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4919014,
+            "content": "Product stewardship",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "505fc7d5-016b-4e0f-95d0-f0d5d0d20edc",
+        "specification": "A new public refill system is being funded by the local council to reduce single-use plastic waste from bottled drinks. The proposed product is a **solar-powered smart refill station** that dispenses still or sparkling water into reusable bottles.\n\n![A concept render of a public water refill kiosk with a small solar panel canopy, a bottle-filling nozzle, and a simple screen showing \u201cRefill count\u201d and \u201cCO2 saved\u201d. People are using reusable bottles.](https://pub-images.revisiondojo.com/notes/a2d29d62-74dd-4fab-8b22-6e7a9d9296a3.png)\n\nThe manufacturer claims the station is an example of **sustainable innovation** because it:\n- replaces purchase-and-dispose behaviour with reuse\n- uses recycled aluminium panels and a modular internal frame\n- logs filter status and energy use so maintenance can be scheduled\n\nEarly pilot testing found two problems:\n1. In hot weather, the internal battery and power electronics can overheat inside the sealed enclosure.\n2. Some stations are being removed from service because maintenance teams struggle to access internal components quickly.\n\nA simplified layout of the station\u2019s internal modules is shown below.\n\n![A simplified block diagram of a refill station showing modules: solar panel, charge controller, battery pack, power electronics, pump, filter cartridge, UV unit, water inlet, nozzle, and a small display; arrows indicate electrical and water flow.](https://pub-images.revisiondojo.com/notes/cf9ec2e1-4961-4ec6-a008-a3a17c0e99a3.png)\n\nThe designer proposes a revised internal arrangement using a **slide-out cassette** that groups the battery, charge controller, and power electronics into a removable module, and a separate **front-access filter drawer**, shown below.\n\n![A technical line drawing of a kiosk interior showing two removable modules: a slide-out electronics cassette on rails and a front-access filter drawer. Vent paths and a perforated side panel are indicated.](https://pub-images.revisiondojo.com/notes/0cbe6c50-1481-4ee7-8fa5-627eb3b19a03.png)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1689779,
+        "parts": [
+          {
+            "id": 1152191,
+            "content": "Using examples from the case, outline one feature that makes the refill station an example of sustainable innovation.",
+            "order": 0,
+            "markscheme": "- Links the innovation to a reduced environmental impact across a life cycle stage (e.g., enables reuse/refill to avoid single-use bottles, lowers material throughput) <marks>1 mark</marks>\n- Makes the distinction that the innovation changes the system/value proposition/behaviour and not only the product\u2019s performance (e.g., shifts from product purchase to service/refill model) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152192,
+            "content": "List two principles of sustainable innovation being applied to this product.",
+            "order": 1,
+            "markscheme": "- Any valid principle stated (e.g., design for longevity, design for repair/maintenance, design for modularity, resource efficiency, use of safer materials, closed-loop/recyclability, energy efficiency, dematerialisation/service substitution, systems thinking) <marks>1 mark</marks>\n- Second valid principle stated <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152193,
+            "content": "Outline how an independent organisation could verify the station\u2019s sustainability claims before full rollout.",
+            "order": 2,
+            "markscheme": "- Uses third-party assessment/audit to validate claims (e.g., life cycle assessment, embodied carbon verification, recycled content certification, energy performance testing, durability testing) <marks>1 mark</marks>\n- Explains this helps prevent misleading claims and supports credible reporting/eco-labelling/procurement compliance <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152194,
+            "content": "Explain how the revised modular layout could reduce environmental impact over the station\u2019s life.",
+            "order": 3,
+            "markscheme": "- Explains design for maintenance/repair: quicker access reduces downtime and encourages repair over replacement <marks>1 mark</marks>\n- Explains modularity: faulty subassemblies can be replaced/upgraded without discarding the whole unit <marks>1 mark</marks>\n- Links to longer service life and reduced material/energy use across the use and end-of-life stages (e.g., fewer complete station replacements, fewer service trips or shorter visits) <marks>1 mark</marks>\n- Links thermal/venting guidance to reliability/safety (e.g., improved airflow/perforated panel reduces overheating failures, preventing premature component disposal) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b140bbba-e22a-4eaf-ba8f-db31c19f37a7",
+        "specification": "A developed nation reports that over a ten-year period, its Gross Domestic Product (GDP) increased by $$15\\%$$, while its total greenhouse gas emissions fell by $$2\\%$$.\n\nWhich of the following concepts is demonstrated by this data?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-b140bbba-e22a-4eaf-ba8f-db31c19f37a7-1771929956947",
+            "generatedAt": "2026-02-25T11:41:46.240Z",
+            "sourceRevisionId": 1161898
+          }
+        },
+        "currentRevisionId": 1686216,
+        "parts": [],
+        "options": [
+          {
+            "id": 4923067,
+            "content": "Relative decoupling",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4923068,
+            "content": "Absolute decoupling",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4923069,
+            "content": "Radical innovation",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4923070,
+            "content": "Product stewardship",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b72c590e-73b4-43e0-a552-7ce2b6508d34",
+        "specification": "A utility company implements a smart-metering program that encourages residential customers to run high-energy appliances during late-night hours when electricity prices are lower. Which strategy is being utilized?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-b72c590e-73b4-43e0-a552-7ce2b6508d34-1771929956947",
+            "generatedAt": "2026-02-25T10:48:32.904Z",
+            "sourceRevisionId": 1161902
+          }
+        },
+        "currentRevisionId": 1685836,
+        "parts": [],
+        "options": [
+          {
+            "id": 4921991,
+            "content": "Energy security",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Energy security focuses on the uninterrupted availability and affordability of energy sources, often through domestic production or strategic reserves, rather than shifting consumer behavior."
+          },
+          {
+            "id": 4921992,
+            "content": "Energy demand management",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Energy demand management involves strategies to influence the amount or timing of energy consumption, such as peak-shaving or shifting usage to off-peak periods, to reduce the overall strain on the grid."
+          },
+          {
+            "id": 4921993,
+            "content": "Macro energy sustainability",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Macro energy sustainability refers to large-scale, often top-down national or international policy changes and energy mix shifts, rather than specific consumer consumption patterns."
+          },
+          {
+            "id": 4921994,
+            "content": "Micro energy sustainability",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Micro energy sustainability focuses on small-scale initiatives where individuals or businesses generate their own power or implement localized sustainable solutions."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c662a4b6-659a-4d6c-824e-3ea9a9f0bfc2",
+        "specification": "The 'Precious Plastic' movement provides open-source designs for recycling machinery, enabling local communities to establish their own plastic waste processing workshops. Which sustainable innovation strategy is primarily being used?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-c662a4b6-659a-4d6c-824e-3ea9a9f0bfc2-1771929956947",
+            "generatedAt": "2026-02-25T11:48:35.774Z",
+            "sourceRevisionId": 1161914
+          }
+        },
+        "currentRevisionId": 1684694,
+        "parts": [],
+        "options": [
+          {
+            "id": 4918803,
+            "content": "Bottom-up",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Bottom-up strategies involve grassroots initiatives, individuals, or local communities driving change rather than government or corporate mandates."
+          },
+          {
+            "id": 4918804,
+            "content": "Top-down",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Top-down strategies are implemented by governments or large organizations at a national or international level."
+          },
+          {
+            "id": 4918805,
+            "content": "Macro-scale",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Macro-scale strategies involve large-scale changes often led by government policy, whereas this is a local, micro-scale initiative."
+          },
+          {
+            "id": 4918806,
+            "content": "Legislative mandate",
+            "correct": false,
+            "order": 3,
+            "markscheme": "A legislative mandate is a law or regulation required by the government, whereas this is a voluntary community project."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c9054b82-06ae-467c-8572-81499f5f8f8a",
+        "specification": "A regional sustainability initiative includes two distinct projects:\n\n**Project 1:** A national administration implements a carbon credit system for all manufacturing firms to reduce total greenhouse gas emissions.\n\n**Project 2:** A group of designers creates an open-source platform for local communities to download and 3D-print modular furniture components for repair and reuse.\n\nHow are these two projects classified according to sustainable innovation strategies?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-c9054b82-06ae-467c-8572-81499f5f8f8a-1771929956947",
+            "generatedAt": "2026-02-25T10:31:22.371Z",
+            "sourceRevisionId": 1161903
+          }
+        },
+        "currentRevisionId": 1684725,
+        "parts": [],
+        "options": [
+          {
+            "id": 4918891,
+            "content": "Project 1: Top-down; Project 2: Bottom-up",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4918892,
+            "content": "Project 1: Bottom-up; Project 2: Top-down",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4918893,
+            "content": "Project 1: Micro-scale; Project 2: Macro-scale",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4918894,
+            "content": "Project 1: Radical; Project 2: Incremental",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f6d05f4a-5262-4256-b22e-f63d121858f5",
+        "specification": "A central government develops a twenty-year plan to transition the entire country's power grid to carbon-neutral sources through a combination of federal subsidies and new building regulations. This approach represents which scale of sustainable innovation?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-f6d05f4a-5262-4256-b22e-f63d121858f5-1771929956947",
+            "generatedAt": "2026-02-25T14:14:58.868Z",
+            "sourceRevisionId": 1162046
+          }
+        },
+        "currentRevisionId": 1685221,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920299,
+            "content": "Macro-scale",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920300,
+            "content": "Micro-scale",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920301,
+            "content": "Corporate social responsibility",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920302,
+            "content": "Decentralized strategy",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "7",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9930,
+      "title": "8.4 Sustainable innovation",
+      "slug": "8-4-sustainable-innovation",
+      "parentTopicId": 9926
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "7",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,2076 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b9fa0f23c3664e846da0b5df67bfda428c96f131828f1c2206b4a19085f6cfcc
-size 83922
+{
+  "json": {
+    "questions": [
+      {
+        "id": "06c5e3f4-1a4a-4a05-8b06-f155be647f28",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-06c5e3f4-1a4a-4a05-8b06-f155be647f28-1772167695732",
+            "generatedAt": "2026-02-27T15:14:35.991Z",
+            "sourceRevisionId": 1586046
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:43:34.913Z",
+            "resultId": 1371
+          }
+        },
+        "currentRevisionId": 1693470,
+        "parts": [
+          {
+            "id": 1155245,
+            "content": "A manufacturer of modular office furniture decides to use a single type of bolt for all connections in their product line. \n\nExplain three distinct advantages this approach provides in terms of Design for Manufacture (DfM).",
+            "order": 0,
+            "markscheme": "- Identifies a valid advantage (e.g. economies of scale from bulk purchasing of one component) <marks>1 mark</marks>\n- Explains/develops how this advantage improves DfM (e.g. reduced unit cost and/or improved supply consistency) <marks>1 mark</marks>\n- Identifies a second valid advantage (e.g. simplified tool management from requiring one driver/wrench) <marks>1 mark</marks>\n- Explains/develops how this advantage improves DfM (e.g. reduced changeover time and faster assembly) <marks>1 mark</marks>\n- Identifies a third valid advantage (e.g. reduced assembly errors from removing similar but non-identical bolts) <marks>1 mark</marks>\n- Explains/develops how this advantage improves DfM (e.g. fewer defects/rework and improved quality control) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0996aa88-f439-4306-ad3b-1298352c7285",
+        "specification": "A company is developing a new line of household products with a focus on efficient manufacturing, assembly, and environmental responsibility. They aim to implement DfM principles throughout their design process.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T09:02:30.280Z",
+            "resultId": 382
+          }
+        },
+        "currentRevisionId": 1689792,
+        "parts": [
+          {
+            "id": 1152230,
+            "content": "This image shows components of a standard electric toothbrush including casing, motor, battery, PCB, brush head, and screws.\n\n![](https://pub-images.revisiondojo.com/question-images/LSnFruCzFtSQY0wcnjkv4) (Fig 1)\n\nIdentify one feature in the toothbrush design that supports Design for Assembly (DfA).",
+            "order": 0,
+            "markscheme": "- Modular brush head attachment <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152231,
+            "content": "Outline two reasons why modular design is useful in consumer electronics like the toothbrush.",
+            "order": 1,
+            "markscheme": "- Allows easy replacement of worn-out parts <marks>1 mark</marks>\n- Simplifies maintenance and repair processes <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152232,
+            "content": "This image shows an automated robotic assembly line working on compact devices such as smartphones.\n\n![Image](https://pub-images.revisiondojo.com/question-images/31a42fad-2d98-40b6-bb37-65c3ffe5dad8)\n\nOutline two advantages of using automated assembly systems in mass production.",
+            "order": 2,
+            "markscheme": "- Improves precision and reduces human error <marks>1 mark</marks>\n- Increases production speed and efficiency <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152233,
+            "content": "Analyse how designing smartphone casings with snap-fit joints affects both manufacturing and product longevity.",
+            "order": 3,
+            "markscheme": "- Reduces assembly time by eliminating screws <marks>1 mark</marks>\n- Supports non-destructive disassembly during repairs <marks>1 mark</marks>\n- May reduce structural durability over time <marks>1 mark</marks>\n- Can limit water or dust resistance compared to sealed designs <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152234,
+            "content": "This image shows a person assembling flat-pack cardboard furniture using slot-in joints and no tools.\n\n![Image](https://pub-images.revisiondojo.com/question-images/874cd251-f58b-4f20-bc26-488a5066515c)\n\nEvaluate the benefits and limitations of using interlocking components instead of fasteners in flat-pack furniture.",
+            "order": 4,
+            "markscheme": "- Benefit: No tools required, simplifying user assembly <marks>1 mark</marks>\n- Benefit: Reduces cost by eliminating screws or glue <marks>1 mark</marks>\n- Limitation: Lower structural strength than fasteners <marks>1 mark</marks>\n- Limitation: Difficult to reassemble after multiple uses <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152235,
+            "content": "Discuss how incorporating Design for Disassembly (DfD) can support circular economy goals in consumer product design.",
+            "order": 5,
+            "markscheme": "- Enables recovery of valuable components at end-of-life <marks>1 mark</marks>\n- Facilitates recycling of materials through separation <marks>1 mark</marks>\n- Encourages reuse and remanufacturing of modules <marks>1 mark</marks>\n- Reduces landfill waste and raw material extraction <marks>1 mark</marks>\n- Aligns with sustainability certifications and regulations <marks>1 mark</marks>\n- Builds consumer trust in environmentally responsible brands <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "13403eca-ac94-4a16-b2db-ec3d68345359",
+        "specification": "A company is redesigning several products to improve ease of manufacturing, reduce environmental impact, and meet modern expectations for usability and repairability.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:35:07.299Z",
+            "resultId": 1503
+          }
+        },
+        "currentRevisionId": 1693588,
+        "parts": [
+          {
+            "id": 1155644,
+            "content": "**Figure 1** shows a phone with detachable screen, battery, camera module, and logic board.\n\n![](https://pub-images.revisiondojo.com/question-images/2-SNlm_Rr7pf8p1v5mNkn) \n\nIdentify one design strategy used in the smartphone that supports ease of repair.",
+            "order": 0,
+            "markscheme": "- Modular components that can be individually replaced <marks>1 mark</marks>\n\n- Identifies a valid strategy such as modularity or standardised components <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155645,
+            "content": "Outline two ways this modular design contributes to sustainability.",
+            "order": 1,
+            "markscheme": "- Reduces e-waste by allowing part replacement instead of full disposal <marks>1 mark</marks>\n- Extends product lifespan by enabling easy repairs <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155646,
+            "content": "**Figure 2 **shows manual assembly of internal washing machine components.\n\n![](https://pub-images.revisiondojo.com/question-images/_GhleAdbYA_Bkh-Ano-_K) \n\nExplain two ways that applying Design for Assembly (DfA) can help reduce production time in washing machine manufacturing.",
+            "order": 2,
+            "markscheme": "- Minimising part orientation requirements during assembly <marks>1 mark</marks>\n- Using snap-fit or single-motion components to speed up joining <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155647,
+            "content": "Analyse the impact of part standardisation on manufacturing efficiency and cost in appliance production.",
+            "order": 3,
+            "markscheme": "- Allows bulk purchasing of common parts, reducing unit cost <marks>1 mark</marks>\n- Simplifies inventory management and reduces storage complexity <marks>1 mark</marks>\n- Shortens assembly learning curve for workers <marks>1 mark</marks>\n- Reduces variation and likelihood of defects <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155648,
+            "content": "**Figure 3 **shows a plastic chair being made via injection moulding in a factory.\n\n![](https://pub-images.revisiondojo.com/question-images/qA4ir4wJ170IUXL7HnN4t)\n\nDescribe three reasons why injection moulding is suitable for manufacturing plastic chairs at scale.",
+            "order": 4,
+            "markscheme": "- Enables high-volume production with consistent quality <marks>1 mark</marks>\n- Supports complex shapes in a single moulded piece <marks>1 mark</marks>\n- Lowers per-unit cost after initial tooling investment <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155649,
+            "content": "Discuss how Design for Manufacture and Assembly (DfMA) contributes to lean manufacturing principles in high-volume plastic furniture production.",
+            "order": 5,
+            "markscheme": "- Reduces the number of parts, simplifying assembly <marks>1 mark</marks>\n- Minimises handling and assembly time <marks>1 mark</marks>\n- Reduces need for skilled labour and specialised tools <marks>1 mark</marks>\n- Lowers production waste through efficient material use <marks>1 mark</marks>\n- Shortens product development and time-to-market <marks>1 mark</marks>\n- Enhances consistency and reduces defects during production <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1714ec49-96fd-4270-b86e-b9788a67da26",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T12:50:11.373Z",
+            "resultId": 3918
+          }
+        },
+        "currentRevisionId": 1689861,
+        "parts": [
+          {
+            "id": 1152478,
+            "content": "Explain how a product could be designed using the design for assembly (DFA) strategy.",
+            "order": 0,
+            "markscheme": "- Use fewer components to reduce assembly steps <marks>1 mark</marks>\n- Apply self-locating and self-fastening parts <marks>1 mark</marks>\n- Design parts to only fit in one orientation <marks>1 mark</marks>\n- Reduce the need for tools (e.g. snap fits) <marks>1 mark</marks>\n- Group similar components for intuitive assembly <marks>1 mark</marks>\n- Minimise assembly time and labour costs <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1c863068-ac4e-4bb0-b43b-6d61a67f9734",
+        "specification": "Design for manufacture allows a designer to:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343950,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925343,
+            "content": "Focus only on appearance",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925344,
+            "content": "Design products without technical constraints",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925345,
+            "content": "Integrate material and process decisions",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925346,
+            "content": "Ignore cost-effectiveness",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1e659b50-8140-4bb4-b14b-4cfb9de24144",
+        "specification": "What is a primary advantage of the product design strategy depicted?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6jVg5eU7jT4gvfp5t9Xt6WNhqJ3LGF-p0TwI5SFxiU-0GDkciEz4PsV0sqUOkEbsz-lw3M3LgMAxyg26CjI6-Ok5V8jeFoqBjI8iDupBVTQsghvKB5DYyUBCMwkCzGqitKynH?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343957,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925371,
+            "content": "Allows components to be easily separated",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925372,
+            "content": "Prevents recycling of any internal parts",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925373,
+            "content": "Ensures parts are glued for durability",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925374,
+            "content": "Adds complexity to reduce theft",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1fede87d-e333-4eca-b65b-1f48bddb5fad",
+        "specification": "A start-up is re-engineering its product line of sustainable kitchen appliances by applying Design for Manufacture (DfM) strategies.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1693591,
+        "parts": [
+          {
+            "id": 1155652,
+            "content": "**Figure 1 **shows a labeled exploded view of the main parts of an electric kitchen blender.\n\n![](https://pub-images.revisiondojo.com/question-images/QYlMeNnHx-rKBJswkFYkg) \n\nIdentify the most likely manufacturing process used for the blender casing.",
+            "order": 0,
+            "markscheme": "\u2022 Injection moulding <marks>1 mark</marks>\n\n*Award [1 max] for identifying a process suitable for high-volume plastic component manufacturing.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155653,
+            "content": "Explain one reason why the blade unit is designed as a separate removable component.",
+            "order": 1,
+            "markscheme": "\u2022 Allows for easy cleaning, maintenance, or replacement <marks>1 mark</marks>\n\n\u2022 Prevents user injury during handling and disassembly <marks>1 mark</marks>\n\n*Award [2 max] for valid, user-centred or DfD-related justifications for component separation.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155654,
+            "content": "**Figure 2** compares common joining methods in consumer product design.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/89986c93-e4cc-4d1d-9991-950536a745a5)\n\nOutline two advantages of using snap-fit joints instead of screws in the blender\u2019s design.",
+            "order": 2,
+            "markscheme": "\u2022 Faster assembly reduces labour costs <marks>1 mark</marks>\n\n\u2022 No tools required for disassembly <marks>1 mark</marks>\n\n*Award [2 max] for valid advantages related to DfA or DfD principles.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155655,
+            "content": "Explain how using permanent adhesive joints in the assembly of the blender might conflict with DfD principles.",
+            "order": 3,
+            "markscheme": "\u2022 Makes it difficult to access internal parts for repair or recycling <marks>1 mark</marks>\n\n\u2022 Increases material contamination during disassembly <marks>1 mark</marks>\n\n\u2022 May damage components when force is applied <marks>1 mark</marks>\n\n*Award [3 max] for appropriate reasons showing misalignment between adhesives and disassembly principles.*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155656,
+            "content": "**Figure 3** shows workers manually disassembling small electrical appliances for recycling.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/98674416-b6fb-4ac6-be12-b1586f512f8b)\n\nCompare two challenges manufacturers face when designing products for both automated assembly and manual disassembly.",
+            "order": 4,
+            "markscheme": "\u2022 Automated assembly benefits from fewer, larger integrated parts, but disassembly benefits from modularity <marks>1 mark</marks>\n\n\u2022 Fasteners used in automated assembly (e.g. heat staking) are hard to reverse manually <marks>1 mark</marks>\n\n\u2022 Optimising for one phase may reduce efficiency or sustainability in another <marks>1 mark</marks>\n\n*Award [4 max] for a well-explained comparison with examples and trade-offs.*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155657,
+            "content": "Discuss how adopting a cradle-to-cradle approach in product design influences the application of DfM strategies.",
+            "order": 5,
+            "markscheme": "\u2022 Encourages use of recyclable or biodegradable materials <marks>1 mark</marks>\n\n\u2022 Promotes modularity for part reuse across products <marks>1 mark</marks>\n\n\u2022 Reinforces design for disassembly at end-of-life <marks>1 mark</marks>\n\n\u2022 Aligns product with circular economy goals <marks>1 mark</marks>\n\n\u2022 Impacts supply chain and manufacturing constraints <marks>1 mark</marks>\n\n\u2022 May increase initial design cost but reduce lifecycle costs <marks>1 mark</marks>\n\n*Award [6 max] for a well-balanced discussion of how cradle-to-cradle philosophy integrates with DfM approaches across the product lifecycle.*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2bf34e3b-ecf5-4ca7-b27a-09e1aeb865a1",
+        "specification": "What is the benefit of using processes like rotational moulding in product design?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdy_Aa4L-wMzez3RkRZIBUyZMtM3y8uFZwmun17wlo8nH0IJSVAsCnOC1HqGyRvG85-hc133OkYs3FH_OEsKPd51H5lO7CkbJtqQFVjve5PvaPcVoX4X3uXI9yf2oJldQ6iJP7dYA?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:42:52.008Z",
+            "resultId": 1380
+          }
+        },
+        "currentRevisionId": 1691509,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930889,
+            "content": "Encourages modular breakdown",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930890,
+            "content": "Enables fast assembly by unskilled labour",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930891,
+            "content": "Improves structural integrity in one process",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930892,
+            "content": "Promotes user-disassembly ease",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "34a8c2ce-fecc-46cc-ae19-0590019dab46",
+        "specification": "The environmental benefits of DfM include:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343949,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925339,
+            "content": "More packaging materials",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925340,
+            "content": "Use of non-recyclable parts",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925341,
+            "content": "Easier material separation",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925342,
+            "content": "Elimination of manufacturing altogether",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3b6e562e-86e8-4a9a-830f-4a4f1dd88b93",
+        "specification": "Which of the following is NOT one of the three DfM strategies?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343936,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925287,
+            "content": "Design for recycling",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925288,
+            "content": "Design for assembly",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925289,
+            "content": "Design for process",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925290,
+            "content": "Design for disassembly",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4744a310-8cc4-428f-bcd4-2558608d7542",
+        "specification": "A company adopts modular design and snap-fit connectors. This is most aligned with:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343944,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925319,
+            "content": "Design for cost",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925320,
+            "content": "Design for process",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925321,
+            "content": "Design for disassembly",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925322,
+            "content": "Design for distribution",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4d894422-f32b-4e26-bf0b-3aaa20036df5",
+        "specification": "What does this approach to manufacturing illustrate?\n\n![](https://pub-images.revisiondojo.com/notes/77942c90-d6bc-4c84-8dd3-41ce509de559.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586068,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559609,
+            "content": "The removal of circular production thinking",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. The diagram illustrates circular thinking by connecting all stages of a product's life cycle, not removing it."
+          },
+          {
+            "id": 4559610,
+            "content": "A traditional linear lifecycle strategy",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. A linear strategy (cradle-to-grave) follows a one-way path from extraction to waste without the integration shown in the circular model."
+          },
+          {
+            "id": 4559611,
+            "content": "Environmental harm through over-simplification",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. While simplified, this lifecycle model is intended to reduce environmental harm by identifying areas for improvement across all stages."
+          },
+          {
+            "id": 4559612,
+            "content": "Design that considers full lifecycle including disposal",
+            "correct": true,
+            "order": 4,
+            "markscheme": "Correct. The diagram illustrates Life Cycle Analysis (LCA) or Life Cycle Design, where every stage from raw material extraction to end-of-life disposal is considered to minimize environmental impact. <marks>A1</marks>"
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "4dbbb03c-bb5f-47a6-b696-37a53301b9d1",
+        "specification": "What is the goal of Design for Manufacture (DfM)?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343935,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925283,
+            "content": "To improve user interfaces",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925284,
+            "content": "To reduce manufacturing cost and complexity",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925285,
+            "content": "To enhance marketing effectiveness",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925286,
+            "content": "To avoid prototyping",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "680a25ef-bdef-4437-aa12-7b755299e48c",
+        "specification": "**Level:** HL | **Paper:** Paper 1\n\n## Question\n\nChoosing suitable joining methods during early design relates to:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586050,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559589,
+            "content": "Design for aesthetics",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Design for aesthetics focuses on the visual appeal and style of the product, which is secondary to the technical requirements of assembly and disassembly."
+          },
+          {
+            "id": 4559590,
+            "content": "Design for sustainability",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Design for sustainability is a broad, overarching goal. While it includes disassembly, the specific practice of selecting joining methods is more precisely defined by Design for Disassembly (DfD)."
+          },
+          {
+            "id": 4559591,
+            "content": "Design for disassembly",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Design for disassembly specifically involves selecting joining methods (such as mechanical fasteners instead of permanent adhesives) that allow a product to be easily taken apart for repair, reuse, or recycling."
+          },
+          {
+            "id": 4559592,
+            "content": "Design for ergonomics",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Design for ergonomics focuses on the interface between the user and the product, ensuring comfort and ease of use, rather than the internal joining methods for end-of-life processing."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "686eee9a-62da-4086-8f7b-4c26ff690622",
+        "specification": "Design for Assembly focuses on:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:12:03.226Z",
+            "resultId": 2984
+          }
+        },
+        "currentRevisionId": 1690054,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930513,
+            "content": "Reducing the number of unique parts",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930514,
+            "content": "Choosing adhesive types",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930515,
+            "content": "Improving color coordination",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930516,
+            "content": "Increasing the complexity of fasteners",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6bf072f0-18cc-476e-8845-d0fce66f93ae",
+        "specification": "What Design for Manufacture (DfM) strategy does this production line highlight?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeITj8GOVQLrGFHBqABNQJGxoyrV9TFHaFVu8mGwF9V2AN8vENH9Bk1rnQNkTtzHEGq3EYXiiY3GGAOerO0gmxhvyoWuLWMDZRi6BJEg-M2_i15yoFxGG74BeVYH8JRBOxqoshW?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586040,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559561,
+            "content": "Design for batch testing",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Design for batch testing is not a standard DfM strategy in this context; batch testing occurs during or after production to ensure quality but is not a primary design strategy for the assembly line itself."
+          },
+          {
+            "id": 4559562,
+            "content": "Design for disassembly",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Design for disassembly (DfD) focuses on the ease of taking a product apart at the end of its life for recycling or repair, which is not the primary focus of an automated assembly line shown."
+          },
+          {
+            "id": 4559563,
+            "content": "Design for assembly",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Design for assembly (DfA) is a strategy that focuses on designing a product so that it is easy and efficient to put together, often utilizing automation and robotics as seen in the production line image."
+          },
+          {
+            "id": 4559564,
+            "content": "Design for aesthetics",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Design for aesthetics focuses on the visual appeal of the product rather than the efficiency of the manufacturing or production line processes."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "708a648f-2479-40ef-9a2a-2bfd1369d9cb",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586054,
+        "parts": [
+          {
+            "id": 1140283,
+            "content": "Analyse how design for disassembly impacts the end-of-life phase of a product.",
+            "order": 1,
+            "markscheme": "- Makes separation of materials for recycling easier <marks>1</marks>\n- Reduces contamination between mixed materials <marks>1</marks>\n- Allows reuse of components (e.g. motors, circuit boards) <marks>1</marks>\n- Encourages product refurbishment and resale <marks>1</marks>\n- Supports circular economy principles <marks>1</marks>\n- Decreases disposal costs and landfill waste <marks>1</marks>\n\n[6 marks total]",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "7210fea9-1404-41ef-a1bb-b765a137d76d",
+        "specification": "A design company is working on improving small consumer electronics using DfM strategies. They evaluate different approaches through exploded views, manufacturing processes, and end-of-life component layouts.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:10:47.665Z",
+            "resultId": 3105
+          }
+        },
+        "currentRevisionId": 1690019,
+        "parts": [
+          {
+            "id": 1152739,
+            "content": "This figure shows all internal and external components of a standard electric hair dryer, separated and labelled\n\n![](https://pub-images.revisiondojo.com/question-images/gIBG8_zL9q610M2Mz13O_) (Fig 1)\n\nIdentify one component in the hair dryer that would benefit from being designed for disassembly.",
+            "order": 0,
+            "markscheme": "- Heating coil <marks>1 mark</marks>\n\n*Award [1 max] for identification of a component that commonly requires replacement, separation, or safe disposal.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152740,
+            "content": "This figure outlines the main stages of the injection moulding process.\n\n![Image](https://pub-images.revisiondojo.com/question-images/e8d4b130-2284-496b-9f75-7f48e67b9e19)\n\nOutline two reasons why the plastic casing of the hair dryer might be designed for injection moulding.",
+            "order": 1,
+            "markscheme": "- Allows for production of complex shapes in a single part <marks>1 mark</marks>\n- Enables mass production with consistent quality <marks>1 mark</marks>\n\n*Award [2 max] for appropriate benefits of injection moulding related to design for process.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152741,
+            "content": "This figure shows the separated parts of a dismantled electric toothbrush arranged on a table.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/8ecf6e77-bf7c-4153-bc9f-2441f7351b79)\n\nExplain how this toothbrush design demonstrates the principles of design for disassembly.",
+            "order": 2,
+            "markscheme": "- Snap-fit or screw-fastened joints allow easy separation <marks>1 mark</marks>\n- Clear material segmentation aids sorting and recycling <marks>1 mark</marks>\n- Avoids use of adhesives or permanent bonds <marks>1 mark</marks>\n\n\n*Award [3 max] for relevant explanations of features that facilitate quick, safe, or efficient disassembly.*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152742,
+            "content": "Compare the environmental implications of using DfA versus DfD strategies in the design of a hair dryer.",
+            "order": 3,
+            "markscheme": "- DfA may reduce number of parts, lowering energy during assembly <marks>1 mark</marks>\n- DfA can lead to more integrated components, making repair harder <marks>1 mark</marks>\n- DfD allows easier separation of materials at end of life <marks>1 mark</marks>\n- DfD increases chances of recycling and reusing materials <marks>1 mark</marks>\n\n\n*Award [4 max] for a clear and balanced comparison of benefits and limitations of both DfA and DfD from an environmental perspective.*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152743,
+            "content": "Discuss how the selection of DfM strategies can reduce the environmental footprint of consumer electronics like hair dryers or toothbrushes.",
+            "order": 4,
+            "markscheme": "- Design for process can minimize material waste and reduce manufacturing energy <marks>1 mark</marks>\n- Design for assembly reduces labour time and packaging materials <marks>1 mark</marks>\n- Design for disassembly increases recycling rates and supports circular economy <marks>1 mark</marks>\n- Encourages modularity, repairability, and longer product lifespans <marks>1 mark</marks>\n- Helps meet sustainability regulations and consumer expectations <marks>1 mark</marks>\n- May reduce emissions across the full product life cycle <marks>1 mark</marks>\n\n\n*Award [6 max] for balanced evaluation of how DfM strategies reduce environmental impacts during manufacturing, use, and disposal.*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7c55db71-0179-48b0-be66-d6be02b997c5",
+        "specification": "Which of the following describes the most efficient method for product disassembly?\n\n![](https://pub-images.revisiondojo.com/notes/52641e25-628b-45f7-8523-739055190fae.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586070,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559613,
+            "content": "A method that prevents consumer access to internal parts",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Preventing consumer access is a feature of permanent assembly methods, which are the opposite of efficient disassembly."
+          },
+          {
+            "id": 4559614,
+            "content": "A process that requires specialized soldering expertise",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Requiring specialized skills and tools (like desoldering) increases the time and complexity of the process, making it inefficient for disassembly."
+          },
+          {
+            "id": 4559615,
+            "content": "A technique that reduces the potential for repair and component reuse",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Efficient disassembly should facilitate maintenance and the circular economy; methods that reduce reuse potential are considered poor design."
+          },
+          {
+            "id": 4559616,
+            "content": "A design that enables tool-free access and modular replacement",
+            "correct": true,
+            "order": 4,
+            "markscheme": "Efficient disassembly relies on speed and ease of separation. Features like snap-fits and modularity allow for quick, tool-free disassembly without damaging components."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "7d27a2c9-f795-441a-91c1-398fe890e8c2",
+        "specification": "Design for disassembly enables:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586042,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559569,
+            "content": "Easier recycling and maintenance",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4559570,
+            "content": "Stronger weld joints",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4559571,
+            "content": "Aesthetic enhancement",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4559572,
+            "content": "Use of permanent adhesives",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "8255e3d0-342f-47ed-8eb9-3ae20208bfe4",
+        "specification": "Why might a designer avoid rivets in DfM strategies?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:12:20.221Z",
+            "resultId": 2963
+          }
+        },
+        "currentRevisionId": 1690061,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930517,
+            "content": "They require high heat during installation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930518,
+            "content": "They hinder easy disassembly",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930519,
+            "content": "They reduce surface smoothness",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930520,
+            "content": "They are only suitable for plastic components",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "857a6114-6426-4b53-a558-2bae44d0d444",
+        "specification": "Design for process primarily involves:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343937,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925291,
+            "content": "Selecting environmentally friendly disposal methods",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925292,
+            "content": "Choosing a suitable manufacturing method",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925293,
+            "content": "Improving user experience",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925294,
+            "content": "Estimating product lifespan",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8df7b035-5315-4f6b-bcd5-d0c50e021b8a",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1693627,
+        "parts": [
+          {
+            "id": 1155749,
+            "content": "Outline the advantages of using a design for process strategy.",
+            "order": 0,
+            "markscheme": "Advantages of using a design for process strategy include:\n- allows for optimized use of available manufacturing technologies; <marks>1 mark</marks>\n- reduces production costs through process simplification; <marks>1 mark</marks>\n- improves product consistency and quality; <marks>1 mark</marks>\n- enables faster and more scalable production. <marks>1 mark</marks>\n\n\n<note>Award [1] for each advantage outlined, up to [4 max].</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "97102199-e12a-4720-865a-c238ccae9226",
+        "specification": "Why might designers choose snap-fit joints, as seen in the product image?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXPxlMx9-tN5PUA60lN_UWRiO_IiExvzgPjeVb9FoSO6zf1xop9hpwBvI0750bBFrABMoNk_fhPChRNguNjuIRxwjiWWjJ4CMUYGTiX8imVBG838gKbWlkAK3ygTMx6VnUc-tQjg?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343962,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925391,
+            "content": "Increases screw count",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925392,
+            "content": "Simplifies manual disassembly",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925393,
+            "content": "Makes automation impossible",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925394,
+            "content": "Reduces structural reliability",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "98dba6f0-462b-4d75-a8b7-541e692d1500",
+        "specification": "How can Design for Manufacture (DfM) reduce environmental impact?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586052,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559593,
+            "content": "By increasing transportation emissions",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4559594,
+            "content": "By avoiding modularity",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4559595,
+            "content": "By adding more components",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4559596,
+            "content": "By simplifying repair and end-of-life options",
+            "correct": true,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "a807cfab-c30d-4f1c-9221-a4a3a986d84a",
+        "specification": "A design consultancy is working with clients from different industries to implement design for manufacture (DfM) and design for assembly (DfA) strategies across various product categories.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:43:03.321Z",
+            "resultId": 2246
+          }
+        },
+        "currentRevisionId": 1693642,
+        "parts": [
+          {
+            "id": 1155779,
+            "content": "This image shows the exploded view of a desk lamp.\n\n![](https://pub-images.revisiondojo.com/question-images/-8IRzbioHkNTmlOuejrkL) (Fig 1)\n\nIdentify one DfA feature that allows for simple assembly of the desk lamp.",
+            "order": 0,
+            "markscheme": "- Snap fit mount <marks>1 mark</marks>\n\n*Award [1 max] for identifying a relevant feature promoting ease of assembly.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155780,
+            "content": "Outline two ways modular design can support design for manufacture strategies.",
+            "order": 1,
+            "markscheme": "- Allows independent production of modules to optimise workflows <marks>1 mark</marks>\n\n- Facilitates scalability and customisation without redesign <marks>1 mark</marks>\n\n*Award [2 max] for clear links between modularity and DfM benefits.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155781,
+            "content": "This image shows automated production of smartphones with robotic tools inserting parts.\n\n![Image](https://pub-images.revisiondojo.com/question-images/159d755e-5ffe-4b9e-9474-5dca974ab24c)\n\nExplain how designing for robotic assembly affects component design in smartphones.",
+            "order": 2,
+            "markscheme": "- Encourages use of components with defined alignment features like pegs or ridges <marks>1 mark</marks>\n\n- Minimises need for human adjustments during assembly <marks>1 mark</marks>\n\n*Award [2 max] for explanation that connects automation to component design requirements.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155782,
+            "content": "Discuss two benefits and two drawbacks of implementing high levels of automation as part of a DfM strategy for electronics.",
+            "order": 3,
+            "markscheme": "- Reduces labour costs over time <marks>1 mark</marks>\n\n- Improves consistency and product quality <marks>1 mark</marks>\n\n- Requires significant upfront investment in robotics <marks>1 mark</marks>\n\n- Limits flexibility when changing product designs <marks>1 mark</marks>\n\n*Award [4 max] for a well-balanced evaluation of automation in manufacturing.*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155783,
+            "content": "This image shows several kitchen tools such as spatulas and ladles with no joints, all formed as one piece.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/95b32ef8-41ed-4480-8f89-cde9e277ca53)\n\nDescribe three advantages of designing the utensils as single-piece injection-moulded products.",
+            "order": 4,
+            "markscheme": "- Reduces assembly steps during manufacturing <marks>1 mark</marks>\n\n- Increases strength by removing weak points like joints <marks>1 mark</marks>\n\n- Simplifies cleaning and enhances hygiene for end-users <marks>1 mark</marks>\n\n*Award [3 max] for relevant DfM advantages of one-piece designs.*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155784,
+            "content": "Evaluate the trade-offs between optimising a kitchen utensil set for cost-efficient manufacture and the product\u2019s long-term user satisfaction.",
+            "order": 5,
+            "markscheme": "- Lowers cost by using minimal material and single moulding process <marks>1 mark</marks>\n\n- Supports rapid production in high volumes <marks>1 mark</marks>\n\n- May compromise ergonomic features due to design constraints <marks>1 mark</marks>\n\n- Can result in shorter product lifespan or lack of premium feel <marks>1 mark</marks>\n\n- Easier to recycle as a mono-material product <marks>1 mark</marks>\n\n- Reduces appeal for high-end consumers who prefer customisation <marks>1 mark</marks>\n\n*Award [6 max] for balanced evaluation of manufacturing efficiency vs. user experience.*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b7161ab8-a579-4f55-a45f-6aee4e2aefba",
+        "specification": "Which of the following is a reason to implement DfM principles early in the design process?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:37:38.001Z",
+            "resultId": 2364
+          }
+        },
+        "currentRevisionId": 1690395,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930601,
+            "content": "Reduce future redesign costs",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930602,
+            "content": "Maximize packaging space",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930603,
+            "content": "Improve display aesthetics",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930604,
+            "content": "Shorten the product lifecycle",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b874e0f0-bde6-42fc-80c0-9acd4d6fad40",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1693645,
+        "parts": [
+          {
+            "id": 1155792,
+            "content": "Outline the main focus of design for disassembly.",
+            "order": 0,
+            "markscheme": "- **State** that design for disassembly considers how components can be easily separated at the product's end of life <marks>1 mark</marks>\n\n- **Identify** that this separation helps enable reuse, recycling, or disposal with minimal environmental impact <marks>1 mark</marks>\n\n<note>Award [1] for each relevant point, up to [2 max].</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b9bee445-31e9-4f40-80f3-eb9082c87c65",
+        "specification": "Which of the following pairs both belong to the three DfM strategies?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586044,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559573,
+            "content": "Design for branding and design for shelf appeal",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Branding and shelf appeal are marketing strategies, not core Design for Manufacture (DfM) strategies."
+          },
+          {
+            "id": 4559574,
+            "content": "Design for process and design for assembly",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Design for process and design for assembly (along with design for materials) are the three primary strategies used in Design for Manufacture (DfM) to optimize production efficiency."
+          },
+          {
+            "id": 4559575,
+            "content": "Design for logistics and design for aesthetics",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Logistics relates to distribution, and aesthetics relates to the visual appearance of the product; neither are core DfM strategies."
+          },
+          {
+            "id": 4559576,
+            "content": "Design for packaging and design for reuse",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Design for packaging is a distribution consideration, and design for reuse is a sustainability (Design for Environment) strategy."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "bc3898c9-a30b-4ad0-9d59-0c011059dbcb",
+        "specification": "Which of the following most closely aligns with design for disassembly?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343942,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925311,
+            "content": "Using biodegradable glues",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925312,
+            "content": "Minimizing reusable parts",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925313,
+            "content": "Designing for emotional attachment",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925314,
+            "content": "Using fasteners that allow easy separation",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "bca41043-2643-4b9d-ad73-dced5680865f",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1693647,
+        "parts": [
+          {
+            "id": 1155794,
+            "content": "Compare design for process (DFP) and design for assembly (DFA) strategies.",
+            "order": 0,
+            "markscheme": "- Design for process (DFP) focuses on the efficiency of manufacturing individual components, whereas design for assembly (DFA) focuses on the efficiency of joining those components together. <marks>1 mark</marks>\n\n- DFP involves selecting appropriate manufacturing techniques (e.g., injection moulding or casting) based on material properties, while DFA focuses on reducing the total part count and simplifying assembly operations. <marks>1 mark</marks>\n\n- Both strategies share the common goal of reducing overall production costs and shortening manufacturing lead times. <marks>1 mark</marks>\n\n- DFP can improve product quality through optimized material-process matching, whereas DFA can improve product reliability by reducing the potential for errors during the assembly phase. <marks>1 mark</marks>\n\n- DFP is often constrained by the technical limits of specific machinery, while DFA is more concerned with the sequence of operations and the ergonomics of the assembly line (manual or robotic). <marks>1 mark</marks>\n\n- The two strategies are most effective when used together (Design for Manufacture and Assembly - DFMA) to ensure a product is both easy to make and easy to put together. <marks>1 mark</marks>\n\n*Award [1] for each clear comparison, up to [6].*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c45918f4-2bd9-42b6-8352-e66459df5759",
+        "specification": "What is a key benefit of the assembly approach shown in this production setup?\n\n![](https://pub-images.revisiondojo.com/notes/e1a075d7-53f9-41ac-bac9-d5029afd9f20.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586072,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559617,
+            "content": "Allows aesthetic customization",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This refers to modular design where components can be swapped for variety, which is not the primary focus of the standardization shown."
+          },
+          {
+            "id": 4559618,
+            "content": "Minimizes final user involvement",
+            "correct": false,
+            "order": 2,
+            "markscheme": "While assembly is simplified, this is a benefit for the manufacturer in terms of speed and cost rather than a focus on user involvement."
+          },
+          {
+            "id": 4559619,
+            "content": "Reduces part variety and simplifies joining",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Standardization and Design for Assembly (DFA) use uniform components and simple joining methods like snap-fits to reduce the number of unique parts and assembly time."
+          },
+          {
+            "id": 4559620,
+            "content": "Encourages permanent bonding of parts",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Modern design for assembly often avoids permanent bonding (like adhesives) to allow for easier repair, recycling, or simpler mechanical joining during production."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "ca628fa0-204f-41d7-a2f1-5ad7dbfe9cf0",
+        "specification": "How does the depicted process support sustainable design goals?\n\n![](https://pub-images.revisiondojo.com/notes/ca20520e-a73f-48c2-a148-9e4701b280b0.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1586076,
+        "parts": [],
+        "options": [
+          {
+            "id": 4559633,
+            "content": "Through better selection of recyclable materials and processes",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Life Cycle Assessment (LCA) provides a framework for evaluating the environmental impacts of a product from cradle to grave. By analyzing the entire life cycle, designers can make informed decisions about selecting materials that are recyclable and processes that minimize resource consumption, thereby supporting long-term sustainable design goals."
+          },
+          {
+            "id": 4559634,
+            "content": "By combining aesthetics and branding effectively",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Aesthetics and branding are primarily concerned with the marketability and consumer appeal of a product, rather than its environmental sustainability or life cycle impact."
+          },
+          {
+            "id": 4559635,
+            "content": "By optimizing energy during final user phase only",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Sustainable design goals require consideration of the entire life cycle. Focusing 'only' on the user phase ignores significant impacts during raw material extraction, manufacturing, and disposal."
+          },
+          {
+            "id": 4559636,
+            "content": "By reducing user interaction post-sale",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Reducing user interaction does not inherently support sustainability. In many cases, sustainable design encourages user interaction through maintenance and repair to extend the product's life cycle."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "cc64f3cb-3a66-4f18-9fe0-b03a7c571dd8",
+        "specification": "A benefit of Design for Assembly is:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343939,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925299,
+            "content": "Increased use of exotic materials",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925300,
+            "content": "Reduced component variety",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925301,
+            "content": "Enhanced brand recognition",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925302,
+            "content": "Complex part joining",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d56ddfd5-6e13-4937-acc9-44dcffa28220",
+        "specification": "Design for process includes consideration of:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:54:23.350Z",
+            "resultId": 2048
+          }
+        },
+        "currentRevisionId": 1690683,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930721,
+            "content": "Retailer shelf height",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This is a consideration for design for distribution or marketing, not the manufacturing process."
+          },
+          {
+            "id": 4930722,
+            "content": "The type of machining or moulding used",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Design for process (DfP) specifically considers the manufacturing methods, such as machining or moulding, to ensure the product can be made efficiently and effectively."
+          },
+          {
+            "id": 4930723,
+            "content": "Logo placement",
+            "correct": false,
+            "order": 2,
+            "markscheme": "This relates to aesthetics and brand identity rather than the manufacturing process strategy."
+          },
+          {
+            "id": 4930724,
+            "content": "Packaging design requirements",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This relates to design for distribution and presentation rather than selecting or optimising manufacturing processes."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e15e2faf-d12a-42d1-9323-32c917066bcc",
+        "specification": "Which *design for X* strategy is being emphasized in the production approach shown?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXerSeIwYONQUrh4DgsRwICWOuaukGX3PBI13-jhmy513sc7hHom1Kfzj8TX59JwKZlCpS2Va15QFubgVnOsZj_vEBRduGqylvI6D111-oGsbMhyAber4AKW6UVP5MUPVEnGV9_glg?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:49:08.833Z",
+            "resultId": 2109
+          }
+        },
+        "currentRevisionId": 1690604,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930697,
+            "content": "Design for disassembly",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Design for disassembly (DfD) focuses on making products easy to take apart at the end of their life to allow for recycling or repair, rather than simplifying initial assembly."
+          },
+          {
+            "id": 4930698,
+            "content": "Design for manufacture",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. While design for manufacture (DfM) is the overarching term for this field of study, the specific strategy of integrating components into modules to simplify production is defined as design for assembly."
+          },
+          {
+            "id": 4930699,
+            "content": "Design for modularity",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. While the image shows a module, design for assembly is the standard term in IB Design Technology Topic C4 for the strategy of reducing part count and complexity through such integration."
+          },
+          {
+            "id": 4930700,
+            "content": "Design for assembly",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Correct. Design for assembly (DfA) involves simplifying the assembly process, often by integrating multiple components into a single unit or module (such as the car door module shown) which is then assembled as a single unit."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e4eb0d53-dcfe-4ab1-a129-ae0c7a38022c",
+        "specification": "The DfM strategy that helps reduce environmental impact at end-of-life is:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343946,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925327,
+            "content": "Design for trend",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925328,
+            "content": "Design for innovation",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925329,
+            "content": "Design for disassembly",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925330,
+            "content": "Design for scale",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ec09e8cc-1ad3-4254-8b83-7995867220de",
+        "specification": "Why would a product be designed to use only one material, as shown?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdiI1yNT-Hw69YWwLyMVqwQx6RrQcy2yoIG9JIPG7NM_ALXpsJ5--UgZkZp9K73XUNjt9ERc7MgC3I_SwZVX3l14PB7pkN3iqLOjd2BI0IWNGDPiy9Q-1NEjmTgi1hFMlkNvJ8d?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343960,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925383,
+            "content": "To increase weight and cost",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925384,
+            "content": "To improve branding diversity",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925385,
+            "content": "To simplify disassembly and recycling",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925386,
+            "content": "To add layers of protection",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ed28743b-1914-4d92-8e00-6462179f104a",
+        "specification": "Which of these best describes design for process?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343943,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925315,
+            "content": "Planning the packaging design",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925316,
+            "content": "Selecting an appropriate fabrication technique",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925317,
+            "content": "Creating decorative features",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925318,
+            "content": "Branding for target markets",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f42fb6ab-2869-4fa1-ae4c-385fb72369bc",
+        "specification": "Which strategy helps reduce labor time during manufacturing?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343945,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925323,
+            "content": "Design for aesthetics",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925324,
+            "content": "Design for assembly",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925325,
+            "content": "Design for packaging",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925326,
+            "content": "Design for inspiration",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f9ad9be0-33fd-41a2-b1dd-75724f875a8c",
+        "specification": "Which strategy is concerned with how parts fit and function together in a final product?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1343938,
+        "parts": [],
+        "options": [
+          {
+            "id": 3925295,
+            "content": "Design for recycling",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3925296,
+            "content": "Design for disassembly",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3925297,
+            "content": "Design for assembly",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3925298,
+            "content": "Design for durability",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "41",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 56892,
+      "title": "C4.1 Design for manufacture strategies (HL only)",
+      "slug": "ib-design-technology-new-c4-1-design-for-manufacture-strategies-hl-only",
+      "parentTopicId": 56884
+    },
+    "subject": {
+      "id": 1,
+      "title": "Design Technology (First Exam 2027)",
+      "slug": "ib-design-technology-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "41",
+      "byQuestion": {}
+    }
+  }
+}

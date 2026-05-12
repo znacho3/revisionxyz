@@ -1,3 +1,526 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:65673a1518122b358b791cb8ea2670098fd729e094af844c2516bf1a9944b2ca
-size 33234
+{
+  "json": {
+    "questions": [
+      {
+        "id": "09a213e4-af8d-4b3f-a891-4291b7ba0150",
+        "specification": "A smart city initiative integrates multiple systems including traffic management, utility monitoring, and citizen services. These systems generate large volumes of heterogeneous IoT sensor data from sources such as traffic lights, water meters, and air quality monitors.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494262,
+        "parts": [
+          {
+            "id": 1125779,
+            "content": "Compare the suitability of relational databases and NoSQL databases for storing and managing this heterogeneous IoT sensor data.",
+            "order": 1,
+            "markscheme": "- **State** that relational databases provide ACID (Atomicity, Consistency, Isolation, Durability) guarantees and structured queries, which ensure data integrity but require a rigid, predefined schema that is difficult to adapt to diverse sensor data formats. <marks>A1</marks>\n\n- **Explain** that NoSQL databases (such as document stores) offer a schema-less or flexible design, allowing for the storage of heterogeneous data structures (e.g., JSON) without the need for complex migrations when sensor formats change. <marks>R1</marks>\n\n- **Identify** that specialized NoSQL systems, such as time-series databases, are optimized specifically for the high-velocity ingestion and time-based querying typical of continuous IoT sensor streams. <marks>A1</marks>\n\n- **Describe** a hybrid approach where NoSQL is used for the rapid ingestion and storage of raw sensor data, while a relational database is used for structured analytical reporting and cross-system entity management. <marks>R1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "comparative",
+                  "label": "Feature-by-Feature Comparison",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the data requirements",
+                      "content": "In a smart city, we are dealing with **heterogeneous** data. This means the data comes in many different formats (e.g., simple numerical values from water meters vs. complex log data from traffic systems). To earn full marks, we need to compare how Relational and NoSQL databases handle this variety across different features like structure, integrity, and speed.\n\nThis topic is covered in **Topic A3: Databases**, specifically looking at **A3.1 (Relational)** and **A3.4 (Alternative Databases)**.",
+                      "highlights": [
+                        {
+                          "text": "heterogeneous IoT sensor data",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Relational: Integrity vs. Rigidity",
+                      "content": "Relational databases (SQL) rely on a **predefined, rigid schema**. Every piece of data must fit into a table with specific columns. \n\n- **Pro:** They provide **ACID** (Atomicity, Consistency, Isolation, Durability) guarantees, ensuring that every transaction is processed reliably and data integrity is maintained.\n- **Con:** In a smart city, sensor formats change often. Updating a rigid schema for thousands of sensors is difficult and requires complex migrations, making it less suitable for raw, varied IoT data.",
+                      "highlights": [
+                        {
+                          "text": "ACID (Atomicity, Consistency, Isolation, Durability)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "NoSQL: Flexibility and Variety",
+                      "content": "NoSQL databases (like document stores) are **schema-less**. This is a major advantage for heterogeneous data because they can store information in flexible formats like **JSON**.\n\n- **Advantage:** If a new air quality monitor starts sending an extra data field (e.g., humidity), a NoSQL database can store it immediately without needing to change the database structure. This makes it much easier to manage the wide variety of sensor outputs described in the prompt.",
+                      "highlights": [
+                        {
+                          "text": "schema-less or flexible design",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Performance: High-Velocity Streams",
+                      "content": "IoT systems generate a constant stream of data. Specialized NoSQL systems, specifically **time-series databases**, are optimized for this.\n\n- **Efficiency:** These systems are designed for high-velocity ingestion (writing data very fast) and time-based querying (e.g., \"show me traffic levels between 8 AM and 9 AM\"). Relational databases often struggle to maintain performance under the extreme write-heavy loads typical of continuous IoT sensor streams.",
+                      "highlights": [
+                        {
+                          "text": "high-velocity ingestion and time-based querying",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "The Hybrid Solution",
+                      "content": "In a real-world smart city project, the best approach is often a **hybrid model**:\n\n- **NoSQL** is used for the \"hot\" storage: rapidly capturing and storing the raw, messy sensor data.\n- **Relational Databases** are used for \"cold\" or structured storage: managing entities (like a list of all registered utility meters) and generating analytical reports where data consistency is the priority.",
+                      "highlights": [
+                        {
+                          "text": "hybrid approach where NoSQL is used for the rapid ingestion and storage of raw sensor data",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "architectural",
+                  "label": "Domain-Specific Architectural Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Evaluate Relational Database Constraints",
+                      "content": "In a smart city, data comes from various sources like traffic lights and water meters. Relational databases (RDBMS) are excellent for maintaining **ACID** (Atomicity, Consistency, Isolation, Durability) properties, which ensures high data integrity. \n\nHowever, they require a **rigid, predefined schema**. This is a major drawback for heterogeneous IoT data because every time a new sensor type is added or a data format changes, the database schema must be migrated, which can cause downtime and complexity.",
+                      "highlights": [
+                        {
+                          "text": "heterogeneous IoT sensor data",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "relational databases provide ACID (Atomicity, Consistency, Isolation, Durability) guarantees and structured queries, which ensure data integrity but require a rigid, predefined schema that is difficult to adapt to diverse sensor data formats",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Leverage NoSQL Flexibility",
+                      "content": "NoSQL databases, particularly document stores, offer a **schema-less or flexible design**. Instead of fixed tables, they can store data in formats like **JSON**. \n\nThis is ideal for the \"heterogeneous\" nature of the smart city because different sensors can send different data packets (e.g., a traffic light sending an integer status vs. an air quality monitor sending a complex array of gas levels) without requiring the database to be restructured.",
+                      "highlights": [
+                        {
+                          "text": "NoSQL databases (such as document stores) offer a schema-less or flexible design, allowing for the storage of heterogeneous data structures (e.g., JSON)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze High-Velocity Requirements",
+                      "content": "IoT environments generate data at a very high velocity. Standard databases often struggle with the write-heavy load of thousands of sensors reporting simultaneously. \n\nSpecialized NoSQL engines, such as **time-series databases**, are architected specifically for this. They are optimized for **high-velocity ingestion** and provide efficient functions for time-based querying (e.g., calculating the average traffic flow over the last 5 minutes).",
+                      "highlights": [
+                        {
+                          "text": "specialized NoSQL systems, such as time-series databases, are optimized specifically for the high-velocity ingestion and time-based querying",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Propose a Hybrid Model",
+                      "content": "For a complete smart city architecture, a **hybrid approach** (sometimes called polyglot persistence) is often best:\n\n1. **NoSQL Ingestion Layer:** Used for the rapid capture of raw, heterogeneous sensor streams.\n2. **Relational Reporting Layer:** Once data is processed, structured summaries or cross-system entities (like billing info for utility monitoring) are moved to a relational database for complex analytical reporting and cross-system management.",
+                      "highlights": [
+                        {
+                          "text": "hybrid approach where NoSQL is used for the rapid ingestion and storage of raw sensor data, while a relational database is used for structured analytical reporting",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:06:46.867Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "0ad0e31d-12c2-473d-a76f-3a1caf973faa",
+        "specification": "An e-commerce platform manages product catalogs, customer orders, and inventory across multiple warehouses.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:16:15.313Z",
+            "resultId": 1242
+          }
+        },
+        "currentRevisionId": 1692432,
+        "parts": [
+          {
+            "id": 1154433,
+            "content": "Explain the concept of a relational database and why it is important for reducing data redundancy. Provide specific examples of how poorly designed tables in an e-commerce system could cause problems.",
+            "order": 0,
+            "markscheme": "- Define a relational database as data organised into tables (relations) with rows (records) and columns (fields). <marks>1 mark</marks>\n- Explain that tables can be linked using keys (for example, a primary key in one table referenced as a foreign key in another). <marks>1 mark</marks>\n- Explain that using separate, related tables reduces repetition compared with storing all details together (for example, orders referencing a productID rather than repeating full product details). <marks>1 mark</marks>\n- Give an example of a problem caused by repetition/inconsistency, such as storing a product price/name in many order rows and ending up with different prices/names for the same product across records after a change. <marks>1 mark</marks>\n- Give an example of a practical impact in e-commerce, such as incorrect customer charges, incorrect invoices/receipts, incorrect inventory reporting, or increased storage/maintenance effort due to duplicated data. <marks>1 mark</marks>\n- State that careful table design with appropriate keys and relationships supports data integrity and a \u201csingle source of truth\u201d for each entity (for example, product details stored once in a Products table). <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154434,
+            "content": "Describe the key components of a database transaction and explain why transactions are critical for e-commerce order processing.",
+            "order": 1,
+            "markscheme": "- Define a transaction as a sequence of database operations treated as one logical unit of work. <marks>1 mark</marks>\n- Describe that a transaction groups related steps such as creating an order record, creating order line items, and updating inventory. <marks>1 mark</marks>\n- Explain that transactions are critical to avoid partial updates (for example, inventory reduced but order not recorded, or order recorded but payment status not updated). <marks>1 mark</marks>\n- Explain that transactions support correct behaviour under failures/concurrency by ensuring changes are either applied as intended or not applied, maintaining accurate orders and stock levels. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0f691031-5699-4b53-b0bc-649c2766c2bb",
+        "specification": "A healthcare analytics platform uses a relational database to store anonymised patient records for population health studies.",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:15:15.693Z",
+            "resultId": 1333
+          }
+        },
+        "currentRevisionId": 1692401,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931137,
+            "content": "Normalization reduces redundancy and helps maintain data integrity in a relational database.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "This matches SL database fundamentals: normalization is used to reduce duplication and improve integrity."
+          },
+          {
+            "id": 4931138,
+            "content": "Normalization guarantees that no two tables in a database will ever contain related data.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: related data is expected across tables via relationships (e.g., primary/foreign keys); normalization does not prevent relationships."
+          },
+          {
+            "id": 4931139,
+            "content": "Normalization is used to encrypt sensitive data to ensure regulatory compliance.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: encryption is a security technique; normalization is a database design technique for reducing redundancy and improving integrity."
+          },
+          {
+            "id": 4931140,
+            "content": "Normalization always makes queries faster because it stores all data in a single table.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: normalization typically splits data into multiple related tables; query performance may increase or decrease depending on design and indexing."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "12a60c94-c06f-45cd-a70b-287496689179",
+        "specification": "A social media platform stores user profiles, posts, comments, and friendship relationships.\n\nWhich statement best describes a common way to reduce the number of simultaneous edit conflicts when many users update the database at the same time?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:15:29.825Z",
+            "resultId": 1271
+          }
+        },
+        "currentRevisionId": 1692422,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931149,
+            "content": "Use a transaction so that every user always sees exactly the same data at all times.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Transactions help group operations, but they do not guarantee all users see the same data at all times under concurrent access."
+          },
+          {
+            "id": 4931150,
+            "content": "Use locking so that when one user is updating a record, other users must wait before changing that same record.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Locking is a common concurrency control approach: it prevents simultaneous conflicting updates by making other transactions wait on the same data item."
+          },
+          {
+            "id": 4931151,
+            "content": "Store all data in a single table so that updates are simpler.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Using a single table is not a concurrency control method and does not inherently reduce edit conflicts."
+          },
+          {
+            "id": 4931152,
+            "content": "Disable constraints so that updates can be applied faster.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Disabling constraints may increase inconsistency and does not address concurrent update conflicts as a control mechanism."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "29dbc613-d76a-4c71-9e2f-a38c08210d4c",
+        "specification": "A financial services company implements a database system for managing customer accounts, transactions, and regulatory compliance.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:59:39.765Z",
+            "resultId": 3452
+          }
+        },
+        "currentRevisionId": 1690805,
+        "parts": [
+          {
+            "id": 1153284,
+            "content": "Design a data integrity strategy that includes constraint types and validation rules for financial data:\n\n| Constraint Type | Purpose | Implementation | Financial Example | Compliance Benefit |\n| :--- | :--- | :--- | :--- | :--- |\n| `NOT NULL` | Column definition | \u2014 | \u2014 | Data completeness |\n| `CHECK` | Value validation | \u2014 | \u2014 | \u2014 |\n| `UNIQUE` | Index creation | \u2014 | Account numbers | \u2014 |\n| `FOREIGN KEY` | \u2014 | \u2014 | \u2014 | Referential integrity |",
+            "order": 0,
+            "markscheme": "- **Design** the `NOT NULL` constraint strategy: identify the purpose as preventing missing critical data and implementation through column constraints, for example, requiring a Customer SSN. <marks>2 mark</marks>\n\n- **Design** the `CHECK` constraint strategy: identify implementation via domain constraints, for example, ensuring $\\text{Account balance} \\geq 0$, ensuring data accuracy for compliance. <marks>2 mark</marks>\n\n- **Design** the `UNIQUE` constraint strategy: identify the purpose as preventing duplicate records and implementation via unique indexes, for example, on Account numbers. <marks>2 mark</marks>\n\n- **Design** the `FOREIGN KEY` constraint strategy: identify the purpose as maintaining relationships and implementation via foreign key constraints, for example, a transaction referencing a valid account. <marks>2 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153285,
+            "content": "Explain how database backup and recovery strategies ensure business continuity in case of system failures, considering Recovery Point Objective (RPO) and Recovery Time Objective (RTO) requirements.",
+            "order": 1,
+            "markscheme": "- **Explain** that full backups provide complete data recovery but require significant time and storage. <marks>1 mark</marks>\n\n- **Explain** that incremental backups reduce storage needs but increase recovery complexity. <marks>1 mark</marks>\n\n- **Explain** that transaction log backups enable point-in-time recovery for minimal data loss, thereby addressing low RPO requirements. <marks>1 mark</marks>\n\n- **Explain** that hot standby systems provide near-instant failover for critical financial operations, thereby addressing low RTO requirements. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4644b311-9b88-42cb-a789-36fa4715daa7",
+        "specification": "A hospital management system stores patient information, medical appointments, and treatment records across multiple departments.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:21:27.505Z",
+            "resultId": 3856
+          }
+        },
+        "currentRevisionId": 1690200,
+        "parts": [
+          {
+            "id": 1152913,
+            "content": "Complete the following table comparing different database models by identifying the missing characteristics (indicated by '\u2014'):\n\n| Database Model   | Data Structure    | Relationships      | Flexibility | Query Language | Best Use Case          |\n|------------------|-------------------|--------------------|-------------|----------------|-----------------------|\n| Relational       | \u2014                 | Foreign keys       | \u2014           | SQL            | \u2014                     |\n| Hierarchical     | Tree structure    | \u2014                  | Low         | \u2014              | \u2014                     |\n| Network          | \u2014                 | Many-to-many       | \u2014           | \u2014              | Complex relationships  |\n| Object-Oriented  | \u2014                 | Inheritance        | High        | \u2014              | \u2014                     |",
+            "order": 0,
+            "markscheme": "- Relational model: tables (rows and columns) <marks>1 mark</marks>\n- Relational model: medium (fixed schema but can be changed with migrations) <marks>1 mark</marks>\n- Relational model: structured data with clear relationships (e.g., transactions) <marks>1 mark</marks>\n- Hierarchical model: parent-child (one-to-many) structure <marks>1 mark</marks>\n- Hierarchical model: typically uses a specific/proprietary query mechanism rather than a standard language like SQL <marks>1 mark</marks>\n- Hierarchical model: hierarchical data (e.g., organisational charts, file-system-like data) <marks>1 mark</marks>\n- Network model: graph-like structure (records connected by links/pointers) <marks>1 mark</marks>\n- Network model: higher than hierarchical for modelling many-to-many relationships (but less flexible than document stores) <marks>1 mark</marks>\n- Network model: typically uses a specific/proprietary query mechanism rather than a standard language like SQL <marks>1 mark</marks>\n- Object-oriented model: objects/classes (data and related behaviour) <marks>1 mark</marks>\n- Object-oriented model: typically accessed using object-oriented APIs / language-specific queries rather than SQL <marks>1 mark</marks>\n- Object-oriented model: complex data where objects map naturally to the application (e.g., multimedia/CAD) <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152914,
+            "content": "Analyze the advantages and disadvantages of using a relational database versus a NoSQL document database for storing patient medical records that vary significantly in structure.",
+            "order": 1,
+            "markscheme": "- Advantage of a relational database in this context (e.g., strong consistency/ACID, constraints and referential integrity) <marks>1 mark</marks>\n- Disadvantage of a relational database (e.g., rigid schema makes variable record structures harder/less efficient) <marks>1 mark</marks>\n- Advantage of a NoSQL document database (e.g., flexible schema supports varying fields per patient record) <marks>1 mark</marks>\n- Disadvantage of a NoSQL database (e.g., weaker consistency guarantees depending on configuration, or fewer mature reporting tools) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b35a92aa-5307-40c3-9366-8d74f2dfa42b",
+        "specification": "An e-commerce platform experiences rapid growth requiring database scalability and performance optimization.\n\nWhich set correctly matches a database scaling strategy to its description?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:10:06.056Z",
+            "resultId": 2462
+          }
+        },
+        "currentRevisionId": 1692151,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931073,
+            "content": "Vertical scaling: add CPU/RAM to one server; Horizontal scaling: add more servers and distribute load/data; Read replicas: copy database for reads to reduce load on the primary; Sharding: split data into partitions using a shard key (e.g., customer ID/region).",
+            "correct": true,
+            "order": 0,
+            "markscheme": "All four strategy-description pairings are correct."
+          },
+          {
+            "id": 4931074,
+            "content": "Vertical scaling: add more servers; Horizontal scaling: add CPU/RAM to one server; Read replicas: split data into partitions using a shard key; Sharding: copy database for reads to reduce load on the primary.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Vertical and horizontal scaling are swapped, and read replicas/sharding are swapped."
+          },
+          {
+            "id": 4931075,
+            "content": "Vertical scaling: copy database for reads; Horizontal scaling: split data into partitions using a shard key; Read replicas: add CPU/RAM to one server; Sharding: add more servers and distribute load/data.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "All four strategy-description pairings are mismatched."
+          },
+          {
+            "id": 4931076,
+            "content": "Vertical scaling: split data into partitions using a shard key; Horizontal scaling: copy database for reads; Read replicas: add more servers and distribute load/data; Sharding: add CPU/RAM to one server.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "All four strategy-description pairings are mismatched."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fe208f89-7129-44c5-9ac2-7e05b5e8c0c0",
+        "specification": "A university student information system tracks enrollments, grades, and course prerequisites.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:07.152Z",
+            "resultId": 1671
+          }
+        },
+        "currentRevisionId": 1692324,
+        "parts": [
+          {
+            "id": 1154294,
+            "content": "Compare the roles and characteristics of primary keys, foreign keys, and composite keys in maintaining referential integrity.",
+            "order": 0,
+            "markscheme": "- Identify that primary keys uniquely identify each record and cannot be null <marks>1 mark</marks>\n- State that foreign keys reference primary keys in other tables, maintaining relationships <marks>1 mark</marks>\n- Explain that composite keys combine multiple columns to create unique identification <marks>1 mark</marks>\n- Recognize that primary keys prevent duplicate records and ensure entity integrity <marks>1 mark</marks>\n- Explain how foreign keys enforce referential integrity by preventing orphaned records <marks>1 mark</marks>\n- Identify that composite keys are useful when no single column provides uniqueness <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154295,
+            "content": "Explain how indexing improves database query performance and identify potential drawbacks of having too many indexes.",
+            "order": 1,
+            "markscheme": "- Explain how indexes create sorted structures for faster data retrieval and more efficient query execution <marks>1 mark</marks>\n- Identify that too many indexes slow down modification operations (like insert/update) and consume additional storage space <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "8",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 36320,
+      "title": "A3.1 Database fundamentals",
+      "slug": "ib-computer-science-new-a3-1-database-fundamentals",
+      "parentTopicId": 36319
+    },
+    "subject": {
+      "id": 6523,
+      "title": "Computer Science (First Exam 2027)",
+      "slug": "ib-computer-science-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "8",
+      "byQuestion": {}
+    }
+  }
+}

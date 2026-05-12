@@ -1,3 +1,3566 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c682c7b0543eee9affb0243c1d20ca28f0bf326de87790da1bd730b51ac9f9b6
-size 170014
+{
+  "json": {
+    "questions": [
+      {
+        "id": "03b1cfd8-6bdc-4fea-9cf3-bbff9b7907b1",
+        "specification": "Why are isometric contractions useful during early-stage rehabilitation when joint movement is limited?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:00:39.937Z",
+            "resultId": 31253
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:39:28.316Z",
+              "reasoning": "The question asks about why isometric contractions are useful in rehabilitation; this directly relates to types of muscular contractions (isometric vs concentric/eccentric) and their role in movement, including no change in joint angle.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1694839,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934445,
+            "content": "They can be performed without changing the joint angle, reducing injury risk.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934446,
+            "content": "They improve strength through a full range of motion at the joint.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934447,
+            "content": "They help maintain muscle activation and strength when dynamic movement is contraindicated.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934448,
+            "content": "They always produce less force than isotonic contractions, making them safer in all cases.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "05200ef3-15dc-4f36-ad99-91b0ed71e38c",
+        "specification": "Which contraction type is responsible for maintaining posture during standing?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:12:01.146Z",
+            "resultId": 30176
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:17:17.818Z",
+              "reasoning": "The question asks which type of muscle contraction maintains posture during standing (isometric vs concentric/eccentric/isokinetic), directly testing types of muscular contractions and their roles.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1696158,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938352,
+            "content": "Concentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": "A concentric contraction occurs when a muscle shortens while developing tension, usually to move a load."
+          },
+          {
+            "id": 4938353,
+            "content": "Isometric",
+            "correct": true,
+            "order": 1,
+            "markscheme": "An isometric contraction occurs when a muscle develops tension without changing its length. This is the primary type of contraction used to maintain static posture against gravity."
+          },
+          {
+            "id": 4938354,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 2,
+            "markscheme": "An isokinetic contraction is one in which the muscle contracts and shortens at a constant speed throughout the entire range of motion, typically requiring specialized equipment."
+          },
+          {
+            "id": 4938355,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 3,
+            "markscheme": "An eccentric contraction occurs when a muscle lengthens while developing tension, often to control or decelerate movement."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "05ea9918-4919-41c9-9dcb-c4692bbc9670",
+        "specification": "Which event occurs immediately after ATP binds to myosin during the cross-bridge cycle (next mechanical event)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:28:46.781Z",
+            "resultId": 30188
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:18:21.600Z",
+              "reasoning": "The question asks about the sequence of events in cross-bridge cycling immediately after ATP binds to myosin, which is part of the sliding filament theory and molecular mechanism of muscle contraction (HL).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1695462,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936433,
+            "content": "Release of actin from myosin",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: ATP binding to myosin causes cross-bridge detachment (actin is released from myosin)."
+          },
+          {
+            "id": 4936434,
+            "content": "Exposure of calcium binding sites",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: calcium binding sites on troponin are exposed/available following Ca$^{2+}$ release and movement of tropomyosin, not after ATP binds to myosin."
+          },
+          {
+            "id": 4936435,
+            "content": "Contraction of the entire sarcomere",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: sarcomere shortening results from repeated cross-bridge cycles; it is not the immediate event after ATP binding."
+          },
+          {
+            "id": 4936436,
+            "content": "Breakdown of tropomyosin",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: tropomyosin is not broken down during contraction; it shifts position to uncover actin binding sites."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0b2b0207-8e71-454c-a875-78e548ce0679",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Parts b\u2013d focus on synovial joint movements, anatomical terms for body position, and the roles of tendons and ligaments\u2014core content on joint/connective tissue structure and function supporting movement.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Part e asks how skeletal muscle structure enables force production, aligning with muscle ultrastructure and the sliding filament/molecular basis of contraction.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Part f is explicitly about third-class levers and their function/application in sport, which fits classes of levers and applications in human movement.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1583815,
+        "parts": [
+          {
+            "id": 1137845,
+            "content": "Identify three types of movement possible at synovial joints.",
+            "order": 1,
+            "markscheme": "* Flexion <marks>A1</marks>\n* Extension <marks>A1</marks>\n* Rotation <marks>A1</marks>\n\n<note> (Other acceptable answers: Abduction, Adduction, Circumduction \u2014 any three) </note>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137846,
+            "content": "State three anatomical terms used to describe body position.",
+            "order": 2,
+            "markscheme": "* Superior <marks>A1</marks>\n* Inferior <marks>A1</marks>\n* Anterior <marks>A1</marks>\n\n<note> (Other acceptable answers: Posterior, Medial, Lateral, Proximal, Distal \u2014 any three) </note>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137847,
+            "content": "Describe the role of tendons and ligaments in generating and controlling movement.",
+            "order": 3,
+            "markscheme": "* Tendons connect muscle to bone <marks>A1</marks>\n* Transmit force from muscle contraction to bone <marks>A1</marks>\n* Ligaments connect bone to bone <marks>A1</marks>\n* Stabilize joints during movement <marks>A1</marks>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137848,
+            "content": "Explain how the structure of skeletal muscle enables force production.",
+            "order": 4,
+            "markscheme": "* Skeletal muscle is striated and multinucleated <marks>A1</marks>\n* Contains myofibrils with actin and myosin filaments <marks>A1</marks>\n* Contracts via sliding filament mechanism <marks>A1</marks>\n* Neuromuscular junction triggers action potential <marks>A1</marks>\n* Produces force to move bones <marks>A1</marks>\n\n[5 marks total]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137849,
+            "content": "Describe the function and application of third-class levers in sport.",
+            "order": 5,
+            "markscheme": "* Effort is between fulcrum and load <marks>A1</marks>\n* Allows large range of motion and speed <marks>A1</marks>\n* Requires more force than the load <marks>A1</marks>\n* Example: Biceps curl \u2014 elbow is fulcrum, weight is load, biceps apply effort <marks>A1</marks>\n* Common in sporting movements like kicking, throwing, running <marks>A1</marks>\n\n<note> Any sport as an example of application is acceptable </note>\n\n[5 marks total]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "0d357b57-ac4f-49d4-b32e-005f12eacc95",
+        "specification": "Holding a plank position is an example of which type of contraction?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:16:41.533Z",
+              "reasoning": "The question asks which type of muscular contraction is occurring when holding a static plank position (isometric vs concentric/eccentric/isokinetic), which directly falls under types of muscular contractions and their role in movement.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420765,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153827,
+            "content": "Concentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153828,
+            "content": "Isometric",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153829,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153830,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "112045f2-6bf4-4492-a376-819d33e648e0",
+        "specification": "Sports, Exercise and Health Science: Anatomy and Exercise Physiology",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:56.320Z",
+              "reasoning": "Parts (b) and (d) focus on identifying movements in the frontal plane and relating the sagittal plane to running mechanics\u2014directly testing planes of movement and axes of rotation.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T17:36:56.320Z",
+              "reasoning": "Parts (c) and (e) ask about synovial fluid functions and ligaments\u2019 role in injury prevention\u2014core joint/connective-tissue structure and function.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1583843,
+        "parts": [
+          {
+            "id": 1137946,
+            "content": "Identify two frontal plane movements.",
+            "order": 1,
+            "markscheme": "- Abduction <marks>A1</marks>\n- Adduction <marks>A1</marks>\n- Lateral flexion <marks>A1</marks>\n- Inversion or eversion <marks>A1</marks>\n- Elevation or depression of the scapula <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for any of the above identified movements, up to a maximum of [2].</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137947,
+            "content": "State two functions of synovial fluid.",
+            "order": 2,
+            "markscheme": "- **Lubrication**: reduces friction between the articular surfaces of the joint <marks>A1</marks>\n- **Nutrient supply**: provides oxygen and nutrients to the articular cartilage <marks>A1</marks>\n- **Waste removal**: removes metabolic by-products from the joint capsule <marks>A1</marks>\n- **Shock absorption**: protects the joint by distributing pressure during movement <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for any of the above stated functions, up to a maximum of [2].</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137948,
+            "content": "Describe how the sagittal plane relates to running mechanics.",
+            "order": 3,
+            "markscheme": "- The sagittal plane divides the body into left and right halves, and most running mechanics occur within this plane <marks>A1</marks>\n- Movement involves forward and backward motion, such as the stride progression <marks>A1</marks>\n- Key joint actions include flexion and extension at the hip, knee, and ankle (dorsiflexion/plantarflexion) <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137949,
+            "content": "Explain the relationship between ligaments and injury prevention.",
+            "order": 4,
+            "markscheme": "- Ligaments connect bone to bone across a joint, providing passive stability <marks>A1</marks>\n- They limit excessive or unwanted ranges of motion, such as preventing hyper-extension <marks>A1</marks>\n- They help maintain correct joint alignment during dynamic activities <marks>A1</marks>\n- By restricting joint movement to safe planes, they reduce the risk of dislocations and sprains <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137950,
+            "content": "Outline the differences between fast-twitch and slow-twitch muscle fibers.",
+            "order": 5,
+            "markscheme": "- Fast-twitch (Type II) fibers produce high force/power, whereas slow-twitch (Type I) produce lower force <marks>A1</marks>\n- Fast-twitch fibers fatigue quickly, while slow-twitch fibers are highly fatigue-resistant <marks>A1</marks>\n- Fast-twitch fibers have low mitochondrial density/aerobic capacity, whereas slow-twitch have high density/capacity <marks>A1</marks>\n- Fast-twitch are suited for explosive anaerobic activities like sprinting, while slow-twitch are suited for prolonged aerobic activities like marathons <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137951,
+            "content": "Explain how understanding anatomical movements improves sports technique.",
+            "order": 6,
+            "markscheme": "- Coaches can identify and correct poor joint alignment to optimize power and force production <marks>A1</marks>\n- Ensuring movement stays within correct planes of motion prevents inefficient or dangerous mechanics <marks>A1</marks>\n- Knowledge of movements enables more effective muscle engagement for specific sporting tasks <marks>A1</marks>\n- Analysis of movement improves overall biomechanical efficiency, leading to enhanced performance <marks>A1</marks>\n- Understanding movements assists in developing targeted injury prevention and rehabilitation programs <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "1433478d-425c-4a3c-ba04-437dc03393ed",
+        "specification": "During sarcomere contraction, how do the A-band length, H-zone width and distance between Z-lines change?\n\n| | A-band length | H-zone width | Distance between Z-lines |\n| :--- | :--- | :--- | :--- |\n| **A** | Remains constant | Remains constant | Decreases |\n| **B** | Decreases | Decreases | Decreases |\n| **C** | Remains constant | Decreases | Decreases |\n| **D** | Decreases | Remains constant | Remains constant |",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-1433478d-425c-4a3c-ba04-437dc03393ed-1771953315939",
+            "generatedAt": "2026-02-25T07:42:31.387Z",
+            "sourceRevisionId": 1420772
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:17:04.802Z",
+            "resultId": 29948
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:15:32.553Z",
+              "reasoning": "The question explicitly tests sliding filament theory and the microscopic sarcomere changes during contraction (A-band, H-zone, Z-line distance), which is central to the molecular basis of muscle contraction.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1696193,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938492,
+            "content": "A",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938493,
+            "content": "B",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938494,
+            "content": "C",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938495,
+            "content": "D",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "16086dcd-b5da-46fd-a1a6-e75e07adfad4",
+        "specification": "What is the main function of the structures labelled E and F in the motor neuron?\n\n![](https://pub-images.revisiondojo.com/question-images/lJ7x41ppHnsPLTCH-vVt4.jpeg)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:13:58.197Z",
+            "resultId": 42517
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T16:01:36.726Z",
+              "reasoning": "The question asks for functions of labelled parts of a motor neuron (e.g., myelin sheath, node of Ranvier, axon terminal), which falls under nervous system structure/function and neural impulse transmission.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1696730,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939280,
+            "content": "E = Myelin sheath that insulates the axon and increases conduction velocity; F = Soma for metabolic activity",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. The myelin sheath insulates the axon (it does not conduct neurotransmission). Label F indicates the axon terminal region rather than the soma."
+          },
+          {
+            "id": 4939281,
+            "content": "E = Node of Ranvier that facilitates saltatory conduction; F = Axon terminal that releases neurotransmitters",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Nodes of Ranvier enable saltatory conduction by allowing action potentials to regenerate between myelinated sections, and axon terminals release neurotransmitters into the synapse."
+          },
+          {
+            "id": 4939282,
+            "content": "E = Myelin sheath that insulates the axon and increases conduction velocity; F = Dendrite that receives neurotransmitters",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. E is a node of Ranvier (gap between myelin segments), and F is an axon terminal, not a dendrite."
+          },
+          {
+            "id": 4939283,
+            "content": "E = Schwann cell that forms the myelin sheath; F = Axon terminal that releases neurotransmitters",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. While Schwann cells form the myelin sheath, label E indicates the node of Ranvier (the gap), not the Schwann cell/myelin segment. F is correctly described as an axon terminal, but the pair is not fully correct."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "27453a85-ff66-4af1-be53-e4de2f190ed8",
+        "specification": "What role does troponin play in muscle contraction?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:29:18.885Z",
+            "resultId": 30782
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:27:20.072Z",
+              "reasoning": "Troponin\u2019s role (binding Ca2+ and moving tropomyosin to expose actin sites) is a core element of the sliding filament theory and the molecular mechanism of muscle contraction.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1695138,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935425,
+            "content": "It stores calcium",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935426,
+            "content": "It binds calcium and shifts tropomyosin to expose actin binding sites",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935427,
+            "content": "It hydrolyzes ATP",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935428,
+            "content": "It directly generates force",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2948c9a0-96c3-4e13-99fc-89060ebfe4e1",
+        "specification": "Which of the following correctly identifies the structure labeled D in the image?\n\n![](https://pub-images.revisiondojo.com/question-images/MLkTeinG7Qb0zPJuo64T5)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:18:45.445Z",
+            "resultId": 42647
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:02:33.382Z",
+              "reasoning": "The question is anatomical identification of a labeled structure in the lower limb (tendon/ligament/muscle), which fits connective tissues and joint structures supporting movement.",
+              "confidence": 0.62
+            },
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-06T16:02:33.382Z",
+              "reasoning": "Identifying structures like tibialis anterior, Achilles tendon, hamstring origin, and patellar ligament relies on knowledge of appendicular (lower-limb) anatomy and associated structures.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1696450,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938896,
+            "content": "Achilles tendon",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938897,
+            "content": "Hamstring origin",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938898,
+            "content": "Tibialis anterior",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938899,
+            "content": "Patellar ligament",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a29de76-a666-4067-8ece-c06a07361c24",
+        "specification": "Which type of muscle contraction produces the greatest muscle damage and adaptation?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:06:26.364Z",
+            "resultId": 41503
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T15:39:46.122Z",
+              "reasoning": "The question asks which type of muscle contraction (concentric, isometric, eccentric, isokinetic) causes greatest muscle damage/adaptation in plyometric training\u2014this is directly about types of muscular contractions and their role in movement.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1696957,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940132,
+            "content": "Concentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940133,
+            "content": "Isometric",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940134,
+            "content": "Eccentric",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940135,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2e8de323-adaa-4ef7-9005-166f2a866451",
+        "specification": "During the initiation of the contraction in the leg muscles, calcium ions ($Ca^{2+}$) are released and bind to the troponin complex. What is the immediate molecular result of this process within the sarcomere?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-2e8de323-adaa-4ef7-9005-166f2a866451-1771953315939",
+            "generatedAt": "2026-02-25T09:27:46.747Z",
+            "sourceRevisionId": 1420722
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:56:27.730Z",
+            "resultId": 31311
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:40:10.040Z",
+              "reasoning": "The question asks about Ca2+ binding to troponin and the immediate sarcomere-level effect (tropomyosin shift exposing actin binding sites), which is core to the sliding filament theory and molecular mechanism of muscle contraction.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1694835,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934429,
+            "content": "The enzymatic hydrolysis of ATP re-energizes the myosin head",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934430,
+            "content": "The H-zone expands as the actin and myosin filaments slide apart",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934431,
+            "content": "The tropomyosin protein shifts, exposing the binding sites on the actin filament",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934432,
+            "content": "The myosin head detaches from the actin to terminate the contraction",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "30f044ec-67b8-41ef-a480-3af6b8d28b9c",
+        "specification": "Why are eccentric contractions particularly important in sports like downhill running?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T17:37:05.154Z",
+              "reasoning": "The question focuses on eccentric contractions in downhill running and why they are important (controlling deceleration and absorbing force), which is directly about types of muscular contractions and their roles in movement.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1420769,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153843,
+            "content": "They require less oxygen",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153844,
+            "content": "They control deceleration and absorb force",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153845,
+            "content": "They prevent lactic acid accumulation",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153846,
+            "content": "They shorten the muscle rapidly",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "364337bd-d325-4e81-843e-dbcb2e0a3b62",
+        "specification": "Researchers studied the rate of ATP depletion during sustained muscular contraction using muscle biopsy and MRI spectroscopy. Participants performed three types of static and dynamic contractions of the quadriceps muscle. ATP levels were measured every 30 seconds for 2 minutes. Results are presented in the figure. \n\n![](https://pub-images.revisiondojo.com/question-images/aJFk2TUthhT1_zXHN0N8Y)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1b",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T17:37:04.993Z",
+              "reasoning": "The question centers on ATP depletion rates during different contraction types and asks for physiological explanations tied to ATP usage and metabolic cost\u2014core content of energy production via phosphagen/glycolytic/oxidative systems.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T17:37:04.993Z",
+              "reasoning": "Multiple parts explicitly compare concentric, eccentric, and isometric contractions and relate these contraction types to ATP depletion and efficiency.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-07T17:37:04.993Z",
+              "reasoning": "Several parts extend ATP depletion patterns to fatigue onset, fiber-type differences (Type I vs Type IIx), and endurance training recruitment implications\u2014mechanisms/sources of fatigue.",
+              "confidence": 0.74
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T17:37:04.993Z",
+              "reasoning": "Motor unit recruitment strategy is directly referenced, linking the ATP depletion pattern to neuromuscular control and recruitment.",
+              "confidence": 0.55
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-07T17:37:04.993Z",
+              "reasoning": "The final part asks how metabolic cost/efficiency of contractions impacts recovery strategy selection after resistance training, aligning with recovery strategies.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1496977,
+        "parts": [
+          {
+            "id": 1135410,
+            "content": "At 60 seconds, state the contraction type that retains the highest percentage of ATP?",
+            "order": 0,
+            "markscheme": "Eccentric contraction retains the highest ATP at 60s (70%)  <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": "0bf8a402-f376-43fd-9766-de990b90bb18",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135411,
+            "content": "Describe the trend of ATP depletion across all three contraction types over time.",
+            "order": 1,
+            "markscheme": "- All contractions show progressive ATP depletion over time <marks>1 mark</marks>\n\n- Concentric drops fastest (to 25%), isometric intermediate (to 35%), eccentric slowest (to 50%) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "4df71f34-45be-4bb1-a4b5-a4c8958be108",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135412,
+            "content": "Explain one physiological reason why ATP depletion is more rapid during concentric contractions than eccentric contractions.",
+            "order": 2,
+            "markscheme": "- Concentric contractions require more motor unit activation and shortening against resistance  <marks>1 mark</marks>\n\n- More ATP is needed for cross-bridge cycling <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "32141924-fc74-4165-a278-db67294ff862",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135413,
+            "content": "Suggest how this pattern might influence motor unit recruitment strategy during endurance training.",
+            "order": 3,
+            "markscheme": "- Endurance training favors slower motor unit recruitment (Type I) to conserve ATP  <marks>1 mark</marks>\n\n- Training may shift strategy to delay recruitment of Type II fibers  <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "789f5ac2-a209-412c-9a9f-2f4bfd97d88f",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135414,
+            "content": "The study was extended to assess fatigue onset in Type I vs. Type IIx dominant athletes. Predict which athlete group would show greater ATP depletion during concentric tasks and explain why.",
+            "order": 4,
+            "markscheme": "- Type IIx athletes use ATP more rapidly due to fast-twitch fiber demand  <marks>1 mark</marks>\n\n- Rely on anaerobic metabolism, which depletes ATP faster  <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135415,
+            "content": "Describe how hypertrophy of fast-twitch fibers might alter ATP usage and fatigue resistance during isometric tasks.",
+            "order": 5,
+            "markscheme": "- Hypertrophy increases fiber size, potentially raising ATP need per contraction  <marks>1 mark</marks>\n\n- Trained fibers may improve buffering capacity and fatigue resistance <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "4df71f34-45be-4bb1-a4b5-a4c8958be108",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135416,
+            "content": "Evaluate how the efficiency and metabolic cost of each contraction type could impact recovery strategy selection after resistance training.",
+            "order": 6,
+            "markscheme": "- Concentric contractions have high metabolic cost, requiring longer recovery (e.g., replenishing ATP-PCr stores)  <marks>1 mark</marks>\n\n- Isometric and eccentric may allow shorter or active recovery <marks>1 mark</marks>\n\n- Recovery plans may include nutrition, cooldowns, or rest intervals tailored to contraction type <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": "1178700c-5f72-48e8-9908-1243691566af",
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3f91317e-3721-4847-b234-14c958dc6fad",
+        "specification": "Which type of contraction is most common during a rugby scrum when muscles generate force without visible movement?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T17:36:41.079Z",
+              "reasoning": "The question asks which type of muscular contraction occurs when force is generated without visible movement (isometric), directly matching types of muscular contractions and their role in movement.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1420758,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153799,
+            "content": "Concentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153800,
+            "content": "Isometric",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153801,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153802,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "40e490b9-00a1-4b83-a873-4f7327fa9074",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Parts (b) and (e) ask about cartilage functions and the role of connective tissue in muscle function and joint integrity\u2014core content on connective tissues and joint structures.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Part (c) focuses on the frontal plane in human movement, which falls under planes of movement and axes of rotation.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Part (d) asks for characteristics of second-class levers and an example, directly matching lever classes and applications.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1583818,
+        "parts": [
+          {
+            "id": 1137855,
+            "content": "State two functions of cartilage.",
+            "order": 1,
+            "markscheme": "- State that cartilage reduces friction between bones at joints <marks>A1</marks>\n- State that cartilage absorbs shock during movement <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid functions such as supporting soft tissues or maintaining joint stability.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137856,
+            "content": "Describe the function of the frontal plane in human movement.",
+            "order": 2,
+            "markscheme": "- Describe that the frontal plane divides the body into anterior (front) and posterior (back) sections <marks>A1</marks>\n- State that movements occurring in this plane include abduction and adduction <marks>A1</marks>\n- Identify that it is important in lateral sports actions such as jumping jacks or star jumps <marks>A1</marks>\n- Describe its use in analyzing side-stepping and lateral lunges <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137857,
+            "content": "Outline the characteristics of second-class levers with one example.",
+            "order": 3,
+            "markscheme": "- Outline that the load is positioned between the fulcrum and the effort <marks>A1</marks>\n- State that second-class levers offer a mechanical advantage <marks>A1</marks>\n- Explain that they increase force output, allowing a large load to be moved with less effort <marks>A1</marks>\n- Provide a correct example and identify its components (e.g., calf raise where the fulcrum is the toes, the load is the body weight, and the effort is provided by the calf muscles) <marks>A1</marks>\n\n4 marks total\n\n<note>Award [1 max] for any correct example with components identified.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137858,
+            "content": "Explain the role of connective tissue in muscle function and joint integrity.",
+            "order": 4,
+            "markscheme": "- Explain that ligaments stabilize joints by connecting bone to bone <marks>A1</marks>\n- Explain that tendons transmit force produced by muscles to the bones to enable movement <marks>A1</marks>\n- Describe how fascia surrounds, protects, and separates muscle groups <marks>A1</marks>\n- Identify that connective tissue contributes to overall joint function and the maintenance of posture <marks>A1</marks>\n- Describe the role of connective tissue in shock absorption and providing proprioceptive feedback <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137859,
+            "content": "Discuss how anatomical terms of direction assist in communication between sports professionals.",
+            "order": 5,
+            "markscheme": "- Explain how anatomical terms ensure precise and standardized communication during rehabilitation and coaching <marks>A1</marks>\n- Describe how they help to identify the location of structures and the direction of movement clearly <marks>A1</marks>\n- Explain how they avoid ambiguity when describing the site or nature of an injury <marks>A1</marks>\n- Identify their utility in performing standardized kinesiology or postural assessments <marks>A1</marks>\n- Discuss how they enhance interdisciplinary understanding between different professionals such as coaches, physiotherapists, and doctors <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "44adfe9f-e11b-4002-9c91-046f056bd332",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Parts b) and d) ask about synovial joint types and movements at the shoulder joint, which fall under joint structure and function.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Parts c) and f) focus on lever components and the advantages/disadvantages of lever classes in the human body.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Part e) addresses muscle fibre types and their functional roles in performance, fitting muscular function content (muscle characteristics/functional output).",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1697598,
+        "parts": [
+          {
+            "id": 1160006,
+            "content": "Identify two types of synovial joints.",
+            "order": 0,
+            "markscheme": "* ball and socket <marks>1 mark</marks>\n* hinge <marks>1 mark</marks>\n* pivot <marks>1 mark</marks>\n* saddle <marks>1 mark</marks>\n* condyloid / ellipsoid <marks>1 mark</marks>\n* gliding / plane <marks>1 mark</marks>\n\n<note> Any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160007,
+            "content": "State the four components of a lever system.",
+            "order": 1,
+            "markscheme": "* lever (bone) <marks>1 mark</marks>\n* fulcrum (joint) <marks>1 mark</marks>\n* effort (muscle contraction) <marks>1 mark</marks>\n* load / resistance (weight of body part or object) <marks>1 mark</marks>\n\n<note> Any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160008,
+            "content": "State and explain five types of movement that occur at the shoulder joint.",
+            "order": 2,
+            "markscheme": "Award <marks> 1 mark</marks> for each correct movement and explanation pair:\n\n* Flexion: a movement that decreases the angle between two body parts <marks>1 mark</marks>\n* Extension: a movement that increases the angle between two body parts <marks>1 mark</marks>\n* Abduction: movement of a limb away from the midline of the body <marks>1 mark</marks>\n* Adduction: movement of a limb toward the midline of the body <marks>1 mark</marks>\n* Rotation: a movement where a bone or whole limb pivots or revolves around a single long axis <marks>1 mark</marks>\n\n<note>Accept circumduction as an alternative movement: circular movement combining flexion, extension, abduction, and adduction.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160009,
+            "content": "Explain the functional roles of different muscle fiber types in athletic performance.",
+            "order": 3,
+            "markscheme": "* Type I (Slow Twitch): high aerobic capacity / endurance and low force output, suited for long-duration activities like marathons <marks>1 mark</marks>\n* Type IIa (Fast Twitch Oxidative): moderate endurance and moderate force output, suited for repeated high-intensity efforts like middle-distance running <marks>1 mark</marks>\n* Type IIx (Fast Twitch Glycolytic): low endurance and high force output, suited for explosive activities like weightlifting or sprinting <marks>1 mark</marks>\n* Fiber composition determines training adaptations / how an athlete responds to specific training stimulus <marks>1 mark</marks>\n* The balance of fiber types influences sport specificity / an athlete's predisposition for certain types of sports <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "478eb8fc-f723-49af-86a5-cf25657284a1",
+        "specification": "Which process exposes the myosin-binding sites on actin, allowing cross-bridge formation in a skeletal muscle sarcomere?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-478eb8fc-f723-49af-86a5-cf25657284a1-1771953315939",
+            "generatedAt": "2026-02-25T07:11:14.241Z",
+            "sourceRevisionId": 1583824
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:20:43.202Z",
+            "resultId": 30840
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:27:34.555Z",
+              "reasoning": "The question asks what initiates cross-bridge formation in a skeletal muscle sarcomere, specifically the role of Ca2+ binding to troponin and movement of tropomyosin\u2014core concepts in the sliding filament theory and molecular basis of muscle contraction.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695105,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935313,
+            "content": "Calcium ions bind to troponin to move tropomyosin away from the actin binding sites.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "In the relaxed state, tropomyosin blocks the myosin-binding sites on actin. When calcium is released from the sarcoplasmic reticulum, it binds to troponin, causing a conformational change that shifts tropomyosin and exposes these binding sites."
+          },
+          {
+            "id": 4935314,
+            "content": "ATP is synthesized by the myosin head to provide energy for filament sliding.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "The myosin head does not synthesize ATP; rather, it hydrolyzes ATP into ADP and inorganic phosphate to provide the energy for the power stroke and to 'cock' the head into a high-energy position."
+          },
+          {
+            "id": 4935315,
+            "content": "The Z-lines release signal proteins that attract the myosin heads to the actin filaments.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Z-lines serve as structural anchors for actin filaments and do not release signaling proteins to initiate contraction; the process is regulated by calcium levels and the troponin-tropomyosin complex."
+          },
+          {
+            "id": 4935316,
+            "content": "Myosin filaments shorten in length to bring the heads into contact with the actin.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "According to the sliding filament theory, neither the thick (myosin) nor the thin (actin) filaments change in length during contraction; they slide past one another to shorten the sarcomere."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "49b39350-4955-4df6-9741-3792d230c55c",
+        "specification": "Which event occurs immediately after ATP binds to the myosin head at the actin\u2013myosin cross-bridge during cross-bridge cycling?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:21:25.115Z",
+            "resultId": 30827
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:27:24.154Z",
+              "reasoning": "The question tests a step in the cross-bridge cycle (ATP binding to myosin and the subsequent detachment), which is part of the sliding filament theory and molecular basis of muscle contraction.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1695110,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935333,
+            "content": "Release of actin from myosin",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: ATP binding to myosin reduces its affinity for actin, causing detachment of the cross-bridge."
+          },
+          {
+            "id": 4935334,
+            "content": "Exposure of myosin-binding sites on actin",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: exposure of myosin-binding sites on actin is regulated by $\\text{Ca}^{2+}$ binding to troponin and movement of tropomyosin, not by ATP binding to myosin."
+          },
+          {
+            "id": 4935335,
+            "content": "Contraction of the entire sarcomere",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: sarcomere shortening is the net result of many cross-bridge cycles; it does not occur immediately after ATP binds."
+          },
+          {
+            "id": 4935336,
+            "content": "Movement of tropomyosin to uncover binding sites on actin",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: tropomyosin movement is triggered by $\\text{Ca}^{2+}$ binding to troponin, not by ATP binding to myosin."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "54d2fe4f-d465-439d-9e41-341bc972bdb1",
+        "specification": "Which event is required to expose the binding sites for the formation of cross-bridges during skeletal muscle contraction?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-54d2fe4f-d465-439d-9e41-341bc972bdb1-1771953315939",
+            "generatedAt": "2026-02-25T07:15:48.286Z",
+            "sourceRevisionId": 1420759
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:10:02.196Z",
+            "resultId": 41212
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T15:38:04.405Z",
+              "reasoning": "The question asks what exposes actin binding sites for cross-bridge formation (troponin conformational change moving tropomyosin), which is core to the sliding filament theory and molecular basis of skeletal muscle contraction.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696989,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940248,
+            "content": "ATP binds to myosin, causing detachment from actin",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. ATP binding causes myosin to detach from actin; it does not expose actin binding sites (this is regulated by troponin\u2013tropomyosin)."
+          },
+          {
+            "id": 4940249,
+            "content": "A conformational change in troponin that displaces tropomyosin",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Ca$^{2+}$ binding to troponin causes a conformational change that moves tropomyosin away from actin\u2019s myosin-binding sites, allowing cross-bridge formation."
+          },
+          {
+            "id": 4940250,
+            "content": "Release of Ca$^{2+}$ from the sarcoplasmic reticulum",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Ca$^{2+}$ release from the sarcoplasmic reticulum is an earlier step that enables Ca$^{2+}$ to bind to troponin; the direct event exposing binding sites is troponin-mediated movement of tropomyosin."
+          },
+          {
+            "id": 4940251,
+            "content": "The shortening of the myosin filaments within the A-band",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Myosin filaments do not shorten; the A-band length remains constant. Filaments slide past each other during contraction."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "591ca915-fbf4-4252-83c7-7fe2399101f7",
+        "specification": "An athlete is performing a slow, controlled 'negative' repetition of a bicep curl, focusing on resisting the weight as the arm extends. Which type of muscular contraction is being emphasized during this lowering phase?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-591ca915-fbf4-4252-83c7-7fe2399101f7-1771929956947",
+            "generatedAt": "2026-02-24T13:02:29.034Z",
+            "sourceRevisionId": 1420768
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:18:35.600Z",
+              "reasoning": "The question asks which type of muscular contraction occurs during the lowering (negative) phase of a bicep curl, which is an eccentric contraction\u2014directly covered under types of muscular contractions and their role in movement.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1685997,
+        "parts": [],
+        "options": [
+          {
+            "id": 4922427,
+            "content": "Concentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4922428,
+            "content": "Eccentric",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4922429,
+            "content": "Isometric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4922430,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5bb69dda-0e38-45f3-932e-9e49e49daf65",
+        "specification": "A climber holding themselves steady halfway up a wall without moving is relying on which contraction?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:18:39.453Z",
+              "reasoning": "The question asks which type of muscular contraction is used to hold steady without movement; this directly tests understanding of contraction types (isometric vs concentric/eccentric/isokinetic).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420786,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153907,
+            "content": "Concentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153908,
+            "content": "Isometric",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153909,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153910,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "69591eb5-83be-43ed-9ab9-251ffe84ffc0",
+        "specification": "What role does troponin play in muscle contraction?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:24:23.691Z",
+            "resultId": 30976
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:34:52.663Z",
+              "reasoning": "Troponin\u2019s function (binding Ca2+ to move tropomyosin and expose myosin-binding sites on actin) is part of the sliding filament theory and the molecular basis of muscle contraction.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1694886,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934633,
+            "content": "It stores calcium.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934634,
+            "content": "It binds calcium and shifts tropomyosin to expose myosin-binding sites on actin.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934635,
+            "content": "It hydrolyzes ATP.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934636,
+            "content": "It directly generates force.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6de8fde4-8584-43fc-91c2-877e93dc217c",
+        "specification": "This question assesses knowledge of connective tissues, the role of skeletal muscles in movement, and the mechanics of levers in a sporting context.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Parts (b)\u2013(d) ask for types of connective tissue, tendon functions, and how ligaments stabilize joints\u2014directly assessing connective tissues and joint structures supporting movement.",
+              "confidence": 0.96
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Parts (f)\u2013(g) focus on lever classes (first-class) and evaluating third-class levers in sport, which is exactly lever classes and their applications.",
+              "confidence": 0.94
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Part (e) asks the role of skeletal muscle in generating movement; this aligns with muscular function in movement, typically covered via contraction roles (even though specific contraction types aren\u2019t explicitly requested).",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1583838,
+        "parts": [
+          {
+            "id": 1137930,
+            "content": "Identify two types of connective tissue.",
+            "order": 1,
+            "markscheme": "- Tendons <marks>A1</marks>\n- Ligaments <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid examples such as cartilage, fascia, bone, or adipose tissue.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137931,
+            "content": "State two functions of tendons.",
+            "order": 2,
+            "markscheme": "- Connect muscle to bone <marks>A1</marks>\n- Transmit force to enable movement <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid functions such as joint stabilization or assistance in absorbing shock.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137932,
+            "content": "Describe how ligaments contribute to joint stability.",
+            "order": 3,
+            "markscheme": "- Connect bone to bone <marks>A1</marks>\n- Limit excessive or unwanted movement at the joint <marks>A1</marks>\n\n2 marks total\n\n<note>Accept description of providing structural support and maintaining joint alignment.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137933,
+            "content": "Explain the role of skeletal muscle in generating movement.",
+            "order": 4,
+            "markscheme": "- Muscles contract to produce force, pulling on bones to create movement at joints <marks>A1</marks>\n- Muscles work in reciprocal pairs (agonists and antagonists) to allow controlled motion <marks>A1</marks>\n- Muscles convert chemical energy (ATP) into mechanical energy <marks>A1</marks>\n- Muscles provide stability to joints during motion and help maintain posture <marks>A1</marks>\n\n4 marks total\n\n<note>Award [max 4 marks]. Accept mention of different muscle fiber types (slow-twitch and fast-twitch) and their roles in endurance versus power.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137934,
+            "content": "Outline the structure of a first-class lever with one sporting example.",
+            "order": 5,
+            "markscheme": "- A first-class lever consists of three components: a fulcrum, a load, and an effort <marks>A1</marks>\n- The fulcrum is positioned between the effort and the load <marks>A1</marks>\n- This arrangement can result in either mechanical advantage or disadvantage depending on the relative distances of the load and effort from the fulcrum <marks>A1</marks>\n- Sporting example: Heading a football, where the neck joint acts as the fulcrum, neck muscles provide the effort, and the weight of the head acts as the load <marks>A1</marks>\n\n4 marks total\n\n<note>Accept other valid examples such as triceps extension during a throw.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137935,
+            "content": "Discuss the advantages and disadvantages of third-class levers in sport.",
+            "order": 6,
+            "markscheme": "Advantages:\n- Allow for a greater range of motion at the distal end of the limb <marks>A1</marks>\n- Enable high speed and velocity of movement at the distal end, beneficial for throwing or kicking <marks>A1</marks>\n- Well-suited for precision and coordination in sporting skills <marks>A1</marks>\n\nDisadvantages:\n- Require a greater effort force to move a relatively smaller load (mechanical disadvantage) <marks>A1</marks>\n- Inefficient for lifting or moving heavy weights <marks>A1</marks>\n- Can place higher strain on muscles and joints when high forces are required <marks>A1</marks>\n\n6 marks total\n\n<note>Accept mention of agility/finesse as an advantage or increased injury risk as a disadvantage.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "6fd3ee07-1ac1-4d79-a449-359ffeecf1b5",
+        "specification": "Why is ATP hydrolysis essential in the sliding filament theory?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:55:56.677Z",
+            "resultId": 41880
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T15:57:59.210Z",
+              "reasoning": "The question asks about the role of ATP hydrolysis in the sliding filament theory\u2014specifically cross-bridge cycling (myosin binding to actin, power stroke, and detachment). This is directly covered under the molecular basis of muscle contraction.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696884,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939876,
+            "content": "It prevents lactic acid accumulation",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect: lactic acid accumulation is related to anaerobic glycolysis and is not prevented by ATP hydrolysis during cross-bridge cycling."
+          },
+          {
+            "id": 4939877,
+            "content": "It allows myosin heads to bind, pivot, and detach from actin",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: ATP hydrolysis energizes the myosin head and ATP binding enables detachment from actin, allowing repeated cross-bridge cycling (bind\u2013power stroke\u2013detach)."
+          },
+          {
+            "id": 4939878,
+            "content": "It reduces calcium ion concentration",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: ATP is used by Ca$^{2+}$ pumps to help re-sequester Ca$^{2+}$ into the sarcoplasmic reticulum, but ATP hydrolysis is essential to the sliding filament mechanism primarily for cross-bridge cycling rather than directly reducing Ca$^{2+}$ concentration as the main purpose."
+          },
+          {
+            "id": 4939879,
+            "content": "It shortens sarcomeres",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: sarcomeres shorten as a result of actin sliding over myosin; ATP hydrolysis provides energy for the myosin cross-bridge cycle but does not directly 'shorten sarcomeres' as a primary action."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "77df9e44-9aa0-460f-bf7a-b08a7460d089",
+        "specification": "During the pushing phase of a leg press (knee extension as the load is pushed away), what type of contraction do the quadriceps perform?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-77df9e44-9aa0-460f-bf7a-b08a7460d089-1771953315939",
+            "generatedAt": "2026-02-25T07:54:26.621Z",
+            "sourceRevisionId": 1583809
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:55:39.938Z",
+            "resultId": 30443
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:18:39.960Z",
+              "reasoning": "The question asks to identify the type/classification of muscle contraction (eccentric/isokinetic/concentric/isometric) performed by the quadriceps during a specific movement phase (upward phase of a leg press), which directly falls under types of muscular contractions and their role in movement.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695595,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936765,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": "An eccentric contraction involves the muscle lengthening while under tension, which typically occurs when controlling the descent of the load (the return phase)."
+          },
+          {
+            "id": 4936766,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Isokinetic contractions occur when the speed of the movement remains constant throughout the entire range of motion, usually requiring specific machinery rather than a standard leg press."
+          },
+          {
+            "id": 4936767,
+            "content": "Concentric",
+            "correct": true,
+            "order": 2,
+            "markscheme": "A concentric contraction occurs when the muscle shortens to overcome a resistance, such as extending the knees to push the platform away during the pushing phase of the exercise."
+          },
+          {
+            "id": 4936768,
+            "content": "Isometric",
+            "correct": false,
+            "order": 3,
+            "markscheme": "During an isometric contraction, the muscle length does not change despite internal tension, which occurs during a static hold rather than during motion."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7bef9afa-6b46-4625-8f21-1aa9113cf466",
+        "specification": "Which molecule provides the energy required for myosin heads to detach and re-cock during contraction?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-07T08:19:08.041Z",
+              "reasoning": "The question asks which molecule provides energy for myosin heads to detach and re-cock during muscle contraction\u2014this is a core detail of the sliding filament theory and the molecular mechanism of cross-bridge cycling.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1420775,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153867,
+            "content": "ADP",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153868,
+            "content": "ATP",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153869,
+            "content": "Calcium",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153870,
+            "content": "Creatine phosphate",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7cab1ccc-07b6-477a-b062-a56f62698863",
+        "specification": "What change occurs to Band B and structure X when the muscle contracts, as shown in the image?\n\n![](https://pub-images.revisiondojo.com/question-images/6HWMbY-iv3XgmCHH7-An5)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:17:33.018Z",
+              "reasoning": "The question asks what happens to sarcomere structures (bands, Z-disks/M-line, myosin/actin) during muscle contraction, which is core to the sliding filament theory and molecular basis of contraction.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1583837,
+        "parts": [],
+        "options": [
+          {
+            "id": 4554785,
+            "content": "Band B shortens and structure X (Z-disks) move closer to the M-line",
+            "correct": true,
+            "order": 1,
+            "markscheme": "In the provided diagram, Band B corresponds to the I-band (light band), which contains only actin filaments. During muscle contraction, the sarcomere shortens, causing the I-band to shorten. Structure X is the Z-disk (or Z-line), which defines the boundary of the sarcomere; these disks move closer to the M-line (the center) as the muscle contracts."
+          },
+          {
+            "id": 4554786,
+            "content": "Band B shortens while structure X (myosin tails) remain in fixed position",
+            "correct": false,
+            "order": 2,
+            "markscheme": "While it is correct that the I-band (Band B) shortens, structure X is correctly identified as the Z-disk, not the myosin tails. Z-disks do not remain in a fixed position relative to the M-line during contraction; they move inward."
+          },
+          {
+            "id": 4554787,
+            "content": "Band B remains constant but structure X (actin filaments) shift laterally across the sarcomere",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Band B (the I-band) does not remain constant; it shortens during contraction. While actin filaments do slide (shift laterally), structure X is actually the Z-disk, which serves as the anchor point for the actin filaments."
+          },
+          {
+            "id": 4554788,
+            "content": "Band B elongates and structure X (myosin heads) detach from actin",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Band B (the I-band) shortens during contraction, it never elongates. Although myosin heads cycle through attachment and detachment, structure X is the Z-disk, not the myosin heads."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "7dabdb77-b61c-45a5-85b0-6f33f90751da",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Parts (b) and (f) focus on synovial joint structure and the roles of connective tissues (ligaments, tendons, fascia, cartilage) in joint stability/efficiency.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (c) asks for examples of third-class levers in sport, directly assessing lever classes and applications.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (d) asks for characteristics of skeletal muscle contributing to movement, aligning with muscular function content (properties/role in producing movement).",
+              "confidence": 0.78
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (e) explicitly addresses movement in multiple planes contributing to complex actions (e.g., tennis serve), matching planes of movement/axes content.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1697576,
+        "parts": [
+          {
+            "id": 1159906,
+            "content": "Identify three structural components of a synovial joint.",
+            "order": 0,
+            "markscheme": "- Articular cartilage <marks>1 mark</marks>\n- Synovial membrane <marks>1 mark</marks>\n- Joint capsule <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers: Synovial fluid, Ligaments, Bursae - any three)</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159907,
+            "content": "State two examples of third-class levers in sport.",
+            "order": 1,
+            "markscheme": "- Bicep curl <marks>1 mark</marks>\n- Kicking a football <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers: Swinging a tennis racket, Throwing a javelin - any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159908,
+            "content": "Describe four characteristics of skeletal muscle that contribute to movement.",
+            "order": 2,
+            "markscheme": "- Contractility: the ability of the muscle to generate force and shorten <marks>1 mark</marks>\n- Extensibility: the ability of the muscle to stretch beyond its normal resting length <marks>1 mark</marks>\n- Elasticity: the ability of the muscle to return to its original shape after being stretched <marks>1 mark</marks>\n- Excitability: the ability of the muscle to respond to stimuli from the nervous system <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159909,
+            "content": "Explain how joint movement in multiple planes contributes to complex sports actions such as a tennis serve.",
+            "order": 3,
+            "markscheme": "- Complex sports actions like a tennis serve require coordinated joint movements across all three anatomical planes: sagittal, frontal, and transverse <marks>1 mark</marks>\n- The shoulder moves in the sagittal (flexion/extension), frontal (abduction), and transverse (internal/external rotation) planes to position and accelerate the arm <marks>1 mark</marks>\n- The elbow undergoes flexion and extension in the sagittal plane, contributing to the preparatory phase and follow-through <marks>1 mark</marks>\n- The wrist adds fine control and power through flexion/extension (sagittal) and radial/ulnar deviation (frontal) <marks>1 mark</marks>\n- The trunk rotates in the transverse plane and laterally flexes in the frontal plane to generate torque and maintain balance <marks>1 mark</marks>\n- The hips and knees extend in the sagittal plane during the jump phase, providing upward propulsion <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers include descriptions of how coordinated use of multiple joints improves accuracy, power transfer, and injury prevention.)</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159910,
+            "content": "Discuss how connective tissues (ligaments, tendons, fascia, and cartilage) work together to support joint stability and efficiency during explosive movement.",
+            "order": 4,
+            "markscheme": "- Ligaments limit excessive movement and stabilize joints <marks>1 mark</marks>\n- Tendons transmit muscular force to bones for movement <marks>1 mark</marks>\n- Fascia maintains muscle alignment and reduces friction <marks>1 mark</marks>\n- Cartilage cushions joint surfaces and absorbs impact <marks>1 mark</marks>\n- Together, these tissues reduce injury risk and increase force efficiency <marks>1 mark</marks>\n- They provide mechanical support and optimize movement patterns <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "88e5825d-a4db-4ea2-9d33-c2cee20953a9",
+        "specification": "What role do calcium ions ($Ca^{2+}$) play in the sliding filament theory?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:55:49.141Z",
+            "resultId": 30707
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:25:20.941Z",
+              "reasoning": "The question asks the role of Ca2+ in the sliding filament theory (binding to troponin and shifting tropomyosin to expose myosin-binding sites on actin), which is explicitly part of the molecular basis of muscle contraction.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1695283,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935929,
+            "content": "They attach to actin to generate energy for the power stroke.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "ATP, not calcium ions, provides the energy for the power stroke."
+          },
+          {
+            "id": 4935930,
+            "content": "They bind to troponin, moving tropomyosin to expose myosin-binding sites on actin.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Calcium ions bind to troponin, causing a conformational change that shifts tropomyosin, thereby exposing the myosin-binding sites on the actin filament."
+          },
+          {
+            "id": 4935931,
+            "content": "They directly supply the ATP required for muscle contraction.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "ATP is supplied by cellular respiration or phosphocreatine, not by calcium ions."
+          },
+          {
+            "id": 4935932,
+            "content": "They inhibit the binding of myosin heads to the actin filament.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Calcium ions promote binding; the absence of calcium ions (and the presence of tropomyosin in the blocking position) inhibits binding."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8acc0f98-db9b-4c2e-b2a4-13fe8bd0f858",
+        "specification": "Which contraction type helps absorb shock when landing from a jump in volleyball?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:27:35.689Z",
+            "resultId": 30804
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:27:20.034Z",
+              "reasoning": "The question asks which type of muscle contraction absorbs shock during landing; identifying eccentric vs concentric/isometric/plyometric contractions is directly about types of muscular contractions and their role in movement.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695128,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935397,
+            "content": "Eccentric contraction in the quadriceps",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: eccentric contractions (e.g., quadriceps) act to decelerate knee flexion and absorb impact forces on landing."
+          },
+          {
+            "id": 4935398,
+            "content": "Concentric contraction in the hamstrings",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: concentric action produces movement/acceleration rather than primarily absorbing landing forces."
+          },
+          {
+            "id": 4935399,
+            "content": "Isometric contraction in the calf muscles",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: isometric contractions can contribute to stability, but shock absorption on landing is mainly via eccentric actions at the hip and knee extensors."
+          },
+          {
+            "id": 4935400,
+            "content": "Eccentric contraction in the gastrocnemius/soleus (calf muscles)",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: although the calf can act eccentrically at the ankle on landing, the key shock absorption is typically attributed to eccentric control by the quadriceps at the knee."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8e4ffa22-616e-4d54-a440-b8397c8644e5",
+        "specification": "Which contraction type requires specialized equipment to maintain constant speed throughout the movement?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:17:07.886Z",
+              "reasoning": "The question asks which muscle contraction type requires specialized equipment to keep movement speed constant (isokinetic), which is covered under types of muscular contractions.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1420770,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153847,
+            "content": "Isotonic",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153848,
+            "content": "Isokinetic",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153849,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153850,
+            "content": "Isometric",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "928f6449-cf96-4607-b2ef-fdcbf04e1f55",
+        "specification": "The table shows the measured lengths of different regions within a sarcomere before and during a stimulated contraction.\n\n| Region | Length at rest ($ \\mu m $) | Length during contraction ($ \\mu m $) |\n| :--- | :--- | :--- |\n| A-band | 1.60 | 1.60 |\n| I-band | 1.10 | 0.55 |\n| H-zone | 0.70 | 0.15 |\n\nWhich conclusion about the mechanism of contraction is supported by the data?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-928f6449-cf96-4607-b2ef-fdcbf04e1f55-1771953315939",
+            "generatedAt": "2026-02-25T08:08:07.789Z",
+            "sourceRevisionId": 1420731
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:37:10.095Z",
+            "resultId": 42114
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T15:59:13.895Z",
+              "reasoning": "The question uses changes in A-band, I-band, and H-zone lengths during contraction to infer the sarcomere mechanism (filament overlap vs filament shortening), which directly tests sliding filament theory and the molecular basis of muscle contraction.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696769,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939436,
+            "content": "Thin filaments shorten in length, thereby reducing the width of the I-band.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. During sliding filament contraction, thin filaments do not shorten; the I-band narrows because actin overlaps further with myosin."
+          },
+          {
+            "id": 4939437,
+            "content": "The reduction in the H-zone is evidence of the myosin filaments being compressed toward the M-line.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Thick (myosin) filaments are not compressed; the H-zone narrows because overlap between thick and thin filaments increases, leaving less myosin-only region."
+          },
+          {
+            "id": 4939438,
+            "content": "The A-band remains constant because the thick filaments are physically anchored and prevented from shortening.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. The A-band remains constant because thick filaments maintain a constant length during contraction (they do not shorten), not because they are prevented from shortening by anchoring."
+          },
+          {
+            "id": 4939439,
+            "content": "Thick filaments maintain a stable length while the degree of overlap with thin filaments increases.",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Correct. The A-band stays at 1.60 $\\mu m$, indicating thick filament length remains constant, while the I-band (1.10 to 0.55 $\\mu m$) and H-zone (0.70 to 0.15 $\\mu m$) decrease, consistent with increased actin\u2013myosin overlap."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9627f87b-b42a-402d-b8a7-43c36c582320",
+        "specification": "What prevents continuous muscle contraction without relaxation in the sliding filament theory?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:09:47.804Z",
+            "resultId": 41205
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T15:37:58.313Z",
+              "reasoning": "The question asks what prevents continuous muscle contraction without relaxation within the sliding filament theory, focusing on cross-bridge cycling (myosin detachment) and molecular mechanisms of contraction.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696987,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940240,
+            "content": "Lack of calcium release from the sarcoplasmic reticulum",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. If Ca$^{2+}$ is not released, actin binding sites remain blocked, preventing contraction rather than specifically ensuring relaxation between cycles."
+          },
+          {
+            "id": 4940241,
+            "content": "Reuptake of calcium into the sarcoplasmic reticulum",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Ca$^{2+}$ reuptake promotes relaxation by reducing troponin activation, but it is not the key cross-bridge mechanism that prevents sustained attachment during contraction."
+          },
+          {
+            "id": 4940242,
+            "content": "Myosin head detachment from actin after each power stroke",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct (C). After the power stroke, ATP binding causes myosin to detach from actin, preventing myosin heads from remaining continuously bound and allowing repeated cycles rather than a sustained, locked contraction."
+          },
+          {
+            "id": 4940243,
+            "content": "ATP depletion leading to persistent actin\u2013myosin cross-bridges",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. ATP depletion prevents myosin detachment (rigor), which would promote sustained contraction, not prevent it."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "98b24c0c-0099-40fc-a842-fa637756e5ac",
+        "specification": "An athlete performs an exercise on a machine that maintains a constant angular velocity (\u00b0 s\u207b\u00b9) of the joint regardless of the amount of force the athlete applies. Which type of muscular contraction is being utilized?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-98b24c0c-0099-40fc-a842-fa637756e5ac-1771929956947",
+            "generatedAt": "2026-02-24T12:41:36.191Z",
+            "sourceRevisionId": 1420763
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:28:43.212Z",
+            "resultId": 44417
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:16:22.076Z",
+              "reasoning": "The question asks which muscular contraction occurs when a machine maintains constant angular velocity regardless of applied force\u2014this describes an isokinetic contraction, a specific type covered under muscular contraction types.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1697438,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941428,
+            "content": "Isometric",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4941429,
+            "content": "Isokinetic",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4941430,
+            "content": "Concentric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4941431,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a28616f0-3f50-43b5-9f10-8e0153b951ce",
+        "specification": "During the upward phase of a bicep curl, the biceps brachii performs which type of contraction?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:16:51.792Z",
+              "reasoning": "The question asks which type of muscular contraction (concentric/eccentric/isometric/isokinetic) the biceps brachii performs during the upward (lifting) phase of a bicep curl, directly testing knowledge of contraction types and their role in movement.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420754,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153783,
+            "content": "Concentric",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153784,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153785,
+            "content": "Isometric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153786,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b89f5620-e649-45f6-adce-1641111c7cc5",
+        "specification": "A powerlifter is performing the downward (lowering) phase of a heavy back squat, lowering the hips toward the floor in a slow, controlled manner. What type of contraction are the quadriceps performing during this movement?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-b89f5620-e649-45f6-adce-1641111c7cc5-1771929956947",
+            "generatedAt": "2026-02-24T12:30:42.580Z",
+            "sourceRevisionId": 1684040
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:19:22.097Z",
+            "resultId": 30156
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:17:20.217Z",
+              "reasoning": "The question asks which type of muscular contraction the quadriceps perform during the controlled downward (lowering) phase of a squat\u2014this is classification of concentric/eccentric/isometric/isokinetic contractions in movement.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696202,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938524,
+            "content": "The muscle group is executing a concentric contraction, as the force produced by the sarcomeres overcomes the gravitational pull on the barbell.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This describes a concentric contraction, which would occur during the upward (ascent) phase of the squat when the lifter is overcoming the load."
+          },
+          {
+            "id": 4938525,
+            "content": "The muscle group is engaging in an isokinetic contraction, ensuring that the angular velocity of the knee joint remains constant throughout the entire range of motion.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Isokinetic contractions involve constant speed regardless of effort, which generally requires specialized mechanical dynamometers rather than free weights."
+          },
+          {
+            "id": 4938526,
+            "content": "The muscle group is performing an eccentric contraction, where the muscle fibers generate tension while lengthening to decelerate the load.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "During the controlled lowering phase of a squat, the quadriceps must generate force to resist gravity; because the muscle is lengthening while under tension, this is an eccentric contraction."
+          },
+          {
+            "id": 4938527,
+            "content": "The muscle group is undergoing an isometric contraction, providing static stability to the knee joint without any change in the angle of the joint or muscle length.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "An isometric contraction would occur if the lifter paused and held a stationary position at the bottom of the squat, resulting in no movement."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c01abd9a-7aa4-46a3-934b-520d477f5ac2",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Part (b) explicitly asks for axes of rotation; part (f) discusses anatomical planes (and their relation to movement), which falls under planes and axes.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Parts (d) and (f) focus on lever classes/mechanical advantage and how levers operate in sports movements.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Part (c) asks effects of aging on the muscular or skeletal system impacting movement; skeletal-system effects align with axial/appendicular skeleton components and functions (closest available leaf to musculoskeletal aging impacts).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583863,
+        "parts": [
+          {
+            "id": 1137991,
+            "content": "Identify two axes of rotation used in human movement.",
+            "order": 1,
+            "markscheme": "- Longitudinal axis <marks>A1</marks>\n- Frontal (mediolateral) axis <marks>A1</marks>\n- Sagittal (anteroposterior) axis <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for each axis identified, up to [2]. Accept correct spelling of \"sagittal\" only; do not accept \"saggital\".</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137992,
+            "content": "State three effects of aging on the muscular or skeletal system that impact movement.",
+            "order": 2,
+            "markscheme": "- Decreased muscle mass <marks>A1</marks>\n- Reduced bone density <marks>A1</marks>\n- Decreased joint flexibility <marks>A1</marks>\n\n3 marks total\n\n<note>Other acceptable answers include slower muscle contraction speed and increased risk of injury. Award [1] for each effect stated, up to [3].</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137993,
+            "content": "Describe the mechanical advantage of second-class levers and its implication in sports performance.",
+            "order": 3,
+            "markscheme": "- The load is positioned between the fulcrum and the effort <marks>A1</marks>\n- This arrangement describes the mechanical advantage ($MA > 1$) where force output is increased with minimal effort (a small effort can move a large load) <marks>A1</marks>\n- It is useful in power-based actions like jumping and pushing off the ground <marks>A1</marks>\n- While it provides strong leverage, it offers a limited range of motion and speed <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137994,
+            "content": "Explain how differences in muscle fiber arrangement (e.g., fusiform vs. pennate) influence force and speed generation.",
+            "order": 4,
+            "markscheme": "- Fusiform: fibers run parallel to the long axis, allowing for a greater range of motion and contraction speed (e.g., biceps brachii) <marks>A1</marks>\n- Pennate: fibers are arranged at an angle to the tendon, allowing more fibers to be packed into a given area <marks>A1</marks>\n- Pennate muscles generate greater force due to higher physiological cross-sectional area <marks>A1</marks>\n- Fusiform muscles contract faster but with less overall force compared to pennate muscles <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137995,
+            "content": "Discuss the interplay between anatomical planes and levers during multi-joint athletic movements like the clean and jerk.",
+            "order": 5,
+            "markscheme": "- The sagittal plane is dominant in the clean and jerk, as most joint movements (hip, knee, ankle, shoulder, and elbow flexion/extension) occur in an anterior-posterior direction <marks>A1</marks>\n- The frontal plane contributes during the stabilization phase, particularly in shoulder abduction and maintaining core balance during the overhead jerk <marks>A1</marks>\n- The transverse plane is engaged through rotational stability and torque required during the lift and transition phases <marks>A1</marks>\n- First-class levers are utilized during head and neck stabilization where neck extensors counterbalance head tilt <marks>A1</marks>\n- Second-class levers are involved at the ankle joint during plantarflexion (e.g., raising the heel to generate power during the jerk) <marks>A1</marks>\n- Third-class levers dominate in elbow flexion (biceps acting between the load and fulcrum) and hip extension (gluteus maximus) to allow for speed of movement <marks>A1</marks>\n\n6 marks total\n\n<note>Other acceptable answers include discussion of joint alignment with planes and how lever arms impact performance and injury risk.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "c5ce03db-80cb-4a56-b927-c93f840ecf4f",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:18:33.894Z",
+              "reasoning": "All parts focus on anatomical planes (sagittal etc.), standard anatomical position (palms orientation), movement terminology (abduction/adduction), and movements at ball-and-socket joints\u2014core content of planes of movement and axes/associated movements used in human motion analysis.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1697592,
+        "parts": [
+          {
+            "id": 1159980,
+            "content": "Identify two anatomical planes used in movement analysis.",
+            "order": 0,
+            "markscheme": "- sagittal plane <marks>1 mark</marks>\n- frontal plane <marks>1 mark</marks>\n\n<note>Other acceptable answers: transverse plane (award marks for any two correct planes identified).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159981,
+            "content": "State the anatomical position of the palms in the standard reference position.",
+            "order": 1,
+            "markscheme": "- palms face forward <marks>1 mark</marks>\n- thumbs point away from the body <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159982,
+            "content": "Describe three movements that occur in the sagittal plane.",
+            "order": 2,
+            "markscheme": "- flexion, for example, the elbow during a bicep curl <marks>1 mark</marks>\n- extension, for example, the knee during a squat <marks>1 mark</marks>\n- dorsiflexion or plantarflexion, for example, the ankle during running <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159983,
+            "content": "Explain the difference between abduction and adduction with examples.",
+            "order": 3,
+            "markscheme": "- abduction is movement away from the midline of the body <marks>1 mark</marks>\n- adduction is movement toward the midline of the body <marks>1 mark</marks>\n- example of abduction, such as lifting the arm sideways <marks>1 mark</marks>\n- example of adduction, such as returning the arm to the side <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159984,
+            "content": "Outline four types of movement that occur at a ball and socket joint.",
+            "order": 4,
+            "markscheme": "- flexion <marks>1 mark</marks>\n- extension <marks>1 mark</marks>\n- abduction <marks>1 mark</marks>\n- adduction <marks>1 mark</marks>\n\n<note>Other acceptable answers include rotation and circumduction.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159985,
+            "content": "Discuss the importance of understanding anatomical planes when analyzing sports performance.",
+            "order": 5,
+            "markscheme": "- helps analyze motion mechanics in different sports <marks>1 mark</marks>\n- assists in identifying specific movement planes for performance enhancement <marks>1 mark</marks>\n- useful for injury prevention by understanding stress on joints in different planes <marks>1 mark</marks>\n- supports effective exercise selection to target specific movements <marks>1 mark</marks>\n- enhances technique analysis in coaching and rehabilitation settings <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c9672e85-6790-4da0-9da2-fe90266ebd3a",
+        "specification": "The table below shows the primary joint actions of three muscles in the human body.\n\n| Muscle | Primary Joint Action |\n| :--- | :--- |\n| Pectoralis major | Shoulder adduction |\n| Triceps brachii | Elbow extension |\n| **X** | Dorsiflexion |\n\nWhich muscle is represented by **X** in the table?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-c9672e85-6790-4da0-9da2-fe90266ebd3a-1771953315939",
+            "generatedAt": "2026-02-25T08:04:38.115Z",
+            "sourceRevisionId": 1316711
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:18:38.856Z",
+              "reasoning": "The question tests knowledge of which specific muscle produces a given primary joint action (dorsiflexion), i.e., muscle actions/functions in human movement.",
+              "confidence": 0.83
+            }
+          ]
+        },
+        "currentRevisionId": 1687557,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926331,
+            "content": "Gastrocnemius",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926332,
+            "content": "Hamstrings",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926333,
+            "content": "Erector spinae",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926334,
+            "content": "Tibialis anterior",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cd4736c4-b074-4511-9576-e3d778163807",
+        "specification": "When holding a plank position, which type of muscle contraction primarily occurs in the core muscles?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:26:15.509Z",
+            "resultId": 44526
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:17:25.080Z",
+              "reasoning": "The question asks which type of muscle contraction occurs during a static plank hold; this directly tests knowledge of types of muscular contractions (isometric vs concentric/eccentric/plyometric).",
+              "confidence": 0.99
+            }
+          ]
+        },
+        "currentRevisionId": 1697416,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941364,
+            "content": "Isotonic concentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. An isotonic concentric contraction involves the muscle shortening while producing force; during a static plank the core muscles mainly maintain tension without changing length."
+          },
+          {
+            "id": 4941365,
+            "content": "Isotonic eccentric",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. An isotonic eccentric contraction involves the muscle lengthening under tension; a correctly held plank is primarily a static hold with no significant lengthening movement at the core."
+          },
+          {
+            "id": 4941366,
+            "content": "Isometric",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. In a plank, the core muscles primarily contract isometrically to maintain posture while muscle length remains essentially constant."
+          },
+          {
+            "id": 4941367,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Isokinetic contractions occur at a constant angular velocity, typically requiring specialized equipment; a plank is a static hold."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e0e70f68-950d-4203-a397-b7ce5404b0f2",
+        "specification": "Which molecular event is necessary for the increased actin\u2013myosin overlap shown from the first diagram to the third diagram?\n\n![](https://pub-images.revisiondojo.com/question-images/JyTEIRtrCVlQlqbe7YRAn)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:11:29.323Z",
+            "resultId": 30346
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:18:00.117Z",
+              "reasoning": "The question asks about the molecular event enabling the transition between sarcomere states (a to c), involving calcium, troponin/tropomyosin, actin binding sites, and cross-bridge cycling\u2014core content of the sliding filament theory and molecular basis of muscle contraction.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1695394,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936241,
+            "content": "Calcium binds to tropomyosin, inhibiting actin\u2013myosin interaction",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Calcium binds to troponin (not tropomyosin), which moves tropomyosin to expose binding sites; it does not inhibit interaction."
+          },
+          {
+            "id": 4936242,
+            "content": "ATP binds to the myosin head, causing detachment from actin",
+            "correct": false,
+            "order": 1,
+            "markscheme": "ATP binding to myosin causes cross-bridge detachment; this step is part of the cycle but does not itself expose actin binding sites to initiate increased overlap."
+          },
+          {
+            "id": 4936243,
+            "content": "Calcium binds to troponin, exposing actin binding sites for myosin heads",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct: Ca$^{2+}$ binds to troponin, shifting tropomyosin and exposing myosin-binding sites on actin, allowing cross-bridge formation and sarcomere shortening."
+          },
+          {
+            "id": 4936244,
+            "content": "ADP is released from the myosin head, causing detachment from actin",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Detachment is caused by ATP binding to myosin, not by ADP release; ADP release is associated with the power stroke rather than detachment."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e3796866-e82c-46c9-b7dc-134a4a2d2758",
+        "specification": "A football player performs a maximal instep kick. At the point of ball contact, the hip is flexed and the knee is rapidly extending. Figure 1 shows a simplified lateral view of the right knee joint during knee extension and the quadriceps muscle group acting via the patellar tendon.\n\n![Simplified knee extension during an instep kick showing the femur, tibia, patella, quadriceps muscle, patellar tendon, and the knee joint axis of rotation. The quadriceps attaches proximally on the femur/ilium and distally via the patellar tendon to the tibia. The moment arm of the patellar tendon relative to the knee joint axis is indicated.](img:knee_kick_figure1)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:13:44.280Z",
+            "resultId": 44819
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Parts (c) and (e) focus on fascia (a connective tissue) and synovial joint properties/structures enabling movement, which sit under connective tissues and joint structures.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Part (g) asks how the neuromuscular/nervous system coordinates voluntary movement, aligning with nervous system coordination of physiological responses.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Parts (d) and (f) address skeletal muscle actions in movement and how attachment points affect mechanics, which broadly relates to muscular function and contractions in producing movement.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1697277,
+        "parts": [
+          {
+            "id": 1159463,
+            "content": "State one type of muscle tissue found in the human body.",
+            "order": 0,
+            "markscheme": "- Skeletal muscle <marks>1 mark</marks>\n- Cardiac muscle <marks>1 mark</marks>\n- Smooth muscle <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for any one correct type.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159464,
+            "content": "With reference to Figure 1, state two roles of fascia in muscular function during the kick.",
+            "order": 1,
+            "markscheme": "- Surrounds/separates muscles to allow independent movement (reduces interference between adjacent muscles) <marks>1 mark</marks>\n- Transmits force generated by muscle contraction to tendons/bone (force transmission through connective tissue) <marks>1 mark</marks>\n- Provides structural support/maintains alignment of muscle compartments <marks>1 mark</marks>\n- Reduces friction between muscles/acts as a gliding surface between tissues <marks>1 mark</marks>\n\n<note>Award <marks>2 marks</marks> for any two distinct correct roles.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159465,
+            "content": "Outline three actions of skeletal muscle relevant to producing the instep kick.",
+            "order": 2,
+            "markscheme": "- Produces voluntary movement by contracting and pulling on bones (e.g., knee extension via quadriceps) <marks>1 mark</marks>\n- Maintains posture/body position against gravity (e.g., trunk/hip stabilization during the kick) <marks>1 mark</marks>\n- Stabilizes joints/supports the skeletal structure (e.g., dynamic stabilization of the knee) <marks>1 mark</marks>\n- Generates heat during activity (thermogenesis during muscular work) <marks>1 mark</marks>\n\n<note>Award <marks>3 marks</marks> for any three distinct correct actions.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159466,
+            "content": "With reference to the knee in Figure 1, describe two properties of synovial joints that allow movement.",
+            "order": 3,
+            "markscheme": "- Synovial fluid reduces friction between the articular surfaces <marks>1 mark</marks>\n- Articular cartilage provides a smooth surface and absorbs shock <marks>1 mark</marks>\n- Joint capsule/ligaments maintain joint integrity while allowing movement and contain synovial fluid <marks>1 mark</marks>\n\n<note>Award <marks>2 marks</marks> for any two distinct correct properties.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159467,
+            "content": "Explain how the quadriceps attachment points shown in Figure 1 influence movement mechanics at the knee joint.",
+            "order": 4,
+            "markscheme": "- Origin is typically the more fixed/proximal attachment and insertion is the more movable/distal attachment (during knee extension the tibia moves relative to the femur) <marks>1 mark</marks>\n- Relative positions of the attachment points determine the line of pull and therefore the direction of movement/torque produced <marks>1 mark</marks>\n- Distance of the tendon from the joint axis (moment arm) affects torque and mechanical advantage for a given muscle force <marks>1 mark</marks>\n- Greater moment arm (insertion further from the joint axis) increases torque/strength but reduces angular velocity/range for a given shortening <marks>1 mark</marks>\n- Smaller moment arm (insertion closer to the joint axis) reduces torque but favours speed and range of motion <marks>1 mark</marks>\n\n<note>Award <marks>3 marks</marks> for any three linked correct points. Accept other correct biomechanical explanations consistent with Figure 1.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159468,
+            "content": "Explain how the neuromuscular system coordinates voluntary knee extension during the kick (motor cortex \u2192 motor neuron \u2192 neuromuscular junction \u2192 contraction).",
+            "order": 5,
+            "markscheme": "- Motor cortex initiates the signal for voluntary movement <marks>1 mark</marks>\n- Action potentials travel along motor neurons to the relevant motor units in the quadriceps <marks>1 mark</marks>\n- At the neuromuscular junction, the nerve impulse leads to release of acetylcholine, generating an action potential in the muscle fibre <marks>1 mark</marks>\n- The action potential causes calcium release in the muscle fibre, enabling actin\u2013myosin cross-bridge cycling to produce force <marks>1 mark</marks>\n- CNS integrates sensory feedback/proprioception to coordinate timing and force for smooth/precise movement <marks>1 mark</marks>\n\n<note>Award <marks>4 marks</marks> for any four correct, sequentially linked points showing coordination from the CNS to contraction.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e51213c0-89c9-4d3c-aec5-503fbf764072",
+        "specification": "During the push-off phase (knee extension) from the starting blocks, which type of contraction occurs in the quadriceps?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:26:44.016Z",
+            "resultId": 30209
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:17:32.090Z",
+              "reasoning": "The question asks which type of muscle contraction (eccentric, concentric, isometric) occurs in the quadriceps during push-off from starting blocks, directly testing types of muscular contractions and their role in movement.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1695457,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936417,
+            "content": "Eccentric",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936418,
+            "content": "Concentric",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936419,
+            "content": "Isometric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936420,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e7a53f71-62be-4d87-9bef-0e6ca8e24fee",
+        "specification": "Which molecule provides the energy required for myosin heads to detach and re-cock during contraction?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-07T08:17:39.383Z",
+              "reasoning": "The question asks which molecule provides energy for myosin heads to detach and re-cock during muscle contraction\u2014an ATP-dependent step in the cross-bridge cycle covered by the sliding filament theory/molecular basis of contraction.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1420727,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153659,
+            "content": "ADP",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153661,
+            "content": "ATP",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153662,
+            "content": "Calcium",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153664,
+            "content": "Creatine phosphate",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "eeb53127-8f1b-4557-85dd-9f119fd236da",
+        "specification": "Which contraction produces the greatest strength?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:26:31.165Z",
+            "resultId": 42339
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T16:00:47.464Z",
+              "reasoning": "The question asks which muscle contraction type (isokinetic, eccentric, concentric, isometric) is most effective for producing maximum strength, which directly falls under types of muscular contractions and their role in movement.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696490,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939056,
+            "content": "Isokinetic",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939057,
+            "content": "Eccentric",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939058,
+            "content": "Concentric",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939059,
+            "content": "Isometric",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f317f252-729e-404e-bd07-0a1ba8bfb70f",
+        "specification": "Why is isokinetic training rarely used in most training programs?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:14:19.119Z",
+            "resultId": 42482
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T16:01:26.882Z",
+              "reasoning": "The question concerns isokinetic contractions (a type of muscular contraction) and why they are rarely used in general training, which falls under types of muscular contractions and their role in movement.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1696732,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939288,
+            "content": "It requires specialized machines to control movement speed.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4939289,
+            "content": "It cannot build strength.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4939290,
+            "content": "It requires expensive equipment and is not widely available.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939291,
+            "content": "It is difficult to replicate sport-specific movement patterns.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f31a9e09-51df-494f-ac75-1b7df87becae",
+        "specification": "What is the primary role of this structure in neuromuscular function?\n\n![](https://pub-images.revisiondojo.com/question-images/4Br8D8p_N-yVfKrGzUTYn)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T16:01:32.465Z",
+              "reasoning": "The question asks about the role of a labeled neuromuscular structure (e.g., part of a motor neuron/neuromuscular junction) in transmitting neural signals to muscle, which falls under nervous system function and coordination of physiological responses.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1583829,
+        "parts": [],
+        "options": [
+          {
+            "id": 4554765,
+            "content": "Transmitting electrical signals from the neuron to muscle fibers",
+            "correct": true,
+            "order": 1,
+            "markscheme": "The structure shown is a motor neuron/neuromuscular junction which functions to transmit action potentials (electrical signals) from the central nervous system to the effector muscle fibers."
+          },
+          {
+            "id": 4554766,
+            "content": "Storing neurotransmitters for release at the synapse",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4554767,
+            "content": "Generating ATP for muscular contraction",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4554768,
+            "content": "Receiving signals from sensory receptors",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "faa4e965-c330-4231-bf5e-0115799dcec2",
+        "specification": "Why is ATP hydrolysis essential in the sliding filament theory?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:12:36.887Z",
+            "resultId": 30331
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-06T05:18:17.370Z",
+              "reasoning": "The question asks why ATP hydrolysis is essential in the sliding filament theory, specifically relating to myosin head binding, power stroke (pivot), and detachment from actin\u2014core molecular events in muscle contraction.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1695401,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936265,
+            "content": "It prevents lactic acid accumulation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936266,
+            "content": "It allows myosin heads to bind, pivot, and detach from actin",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936267,
+            "content": "It directly lowers calcium ion concentration during contraction",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936268,
+            "content": "It elongates sarcomeres",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "49",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 21862,
+      "title": "B.1.3 Muscular function",
+      "slug": "ib-sehs-new-b13-muscular-function",
+      "parentTopicId": 21859
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "49",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,307 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7ef64f47da8e1ec68e2397235337a57f5ada13a276c597a895f19da1317ff23e
-size 14700
+{
+  "json": {
+    "questions": [
+      {
+        "id": "4a44495a-2ba0-48b5-939d-dbb31b4ee926",
+        "specification": "Which of the following strategies is most effective for gathering user feedback on an early design concept during the early stages of user-centred design (UCD)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:16:52.242Z",
+            "resultId": 3275
+          }
+        },
+        "currentRevisionId": 1690909,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930773,
+            "content": "Conducting surveys with open-ended questions",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Surveys can support early user research, but they rely on self-reported opinions and are less effective for feedback on a specific design concept than observing users interacting with a prototype."
+          },
+          {
+            "id": 4930774,
+            "content": "Analyzing market trends and sales data",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This is market research and does not directly gather user feedback on a design concept in a UCD process."
+          },
+          {
+            "id": 4930775,
+            "content": "Performing user testing with low-fidelity prototypes",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Early low-fidelity prototype testing lets designers observe real user interaction, identify usability issues and pain points, and obtain actionable feedback to iterate the design\u2014core to UCD."
+          },
+          {
+            "id": 4930776,
+            "content": "Holding brainstorming sessions with the design team",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Brainstorming is an internal ideation method and does not collect feedback from users."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4acbc7e8-dcfc-47b8-9534-a697d84ecb82",
+        "specification": "Which of the following strategies for user research is most effective for gathering in-depth qualitative data in User-Centered Design (UCD)?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 818218,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556326,
+            "content": "Conducting focus groups",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556327,
+            "content": "Distributing surveys with closed-ended questions",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556328,
+            "content": "Analyzing website analytics",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556329,
+            "content": "Conducting competitive analysis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4cdfd454-40fc-49b6-8e3c-8c1ddf535607",
+        "specification": "Which of the following is a primary method used in User-Centred Design (UCD) to gather user feedback?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 842707,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556350,
+            "content": "Focus groups",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556351,
+            "content": "Benchmarking",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556352,
+            "content": "Market segmentation",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556353,
+            "content": "SWOT analysis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "82c7f52f-d431-43dd-aca6-6a51bd4def71",
+        "specification": "A small team is developing **HushBand**, a wearable for students and apprentices who work in noisy workshops and shared study spaces. The band has two modes:\n\n- **Focus mode**: the band vibrates gently when the environment exceeds a user-set noise threshold.\n- **Break mode**: the band suggests short breaks using haptic patterns and a subtle LED.\n\nEarly prototypes were built quickly using off-the-shelf components. After a week of informal trialling, the team received mixed feedback:\n\n- Some users liked the vibration reminders but said they were **confusing** (they could not tell which pattern meant \u201cnoise too high\u201d vs \u201ctake a break\u201d).\n- One user with sensory sensitivity found the vibration **uncomfortable**.\n- Several users said they would only wear it if it looked like a normal fitness band.\n- A workshop supervisor wanted evidence that it would not distract users doing precise tasks.\n\nThe team must now plan a user research programme to guide the next iteration, justify decisions to stakeholders, and reduce the risk of designing a product that works in theory but fails in real contexts.\n\nFigure 1: Early HushBand prototype\n\n![A photo of a simple wearable band prototype with a rectangular module taped onto a black elastic strap, showing a small LED and a button.](https://pub-images.revisiondojo.com/notes/1d97a266-8f0c-43d2-a6ef-c7237e8a14d2.png)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1689775,
+        "parts": [
+          {
+            "id": 1152172,
+            "content": "Outline two reasons why the HushBand team should conduct user research **before** finalising the design.",
+            "order": 0,
+            "markscheme": "- Identifies that user research reduces risk of designing the wrong solution by revealing real user needs, contexts, and constraints (e.g., workshop vs study space). <marks>1 mark</marks>\n- Identifies that user research improves usability/acceptance by uncovering issues such as confusing feedback, comfort/sensory tolerance, or willingness to wear. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152173,
+            "content": "Outline two principles the team should follow to make their user research findings **reliable and actionable**.",
+            "order": 1,
+            "markscheme": "- Use a representative sample (relevant user groups, abilities/sensitivities, contexts) to avoid biased conclusions. <marks>1 mark</marks>\n- Triangulate methods (e.g., observation + interview + questionnaire) to validate findings from more than one source. <marks>1 mark</marks>\n_**OR**_\n- Use consistent tasks/protocols to improve comparability across participants/sessions. <marks>1 mark</marks>\n- Avoid leading questions / minimise researcher bias to improve validity of responses. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152174,
+            "content": "List two different user research methods the team could use to understand why some users find the vibration patterns confusing.",
+            "order": 2,
+            "markscheme": "- Moderated usability test with set tasks (e.g., interpret patterns, change threshold) while observing errors and time-on-task. <marks>1 mark</marks>\n- Semi-structured interview to explore interpretations, mental models, and preferences for feedback patterns. <marks>1 mark</marks>\n_**OR**_\n- Contextual inquiry/field observation in the workshop/study space to see how cues are noticed during real activity. <marks>1 mark</marks>\n- Questionnaire/survey to collect broader preferences and comprehension ratings for alternative patterns. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152175,
+            "content": "The team is deciding between three feedback options for Focus mode: \n\nA. vibration only\n\nB. LED only\n\nC. vibration + LED. \n\nExplain how the team could use a **mixed-method** user research strategy to decide between the three.",
+            "order": 3,
+            "markscheme": "- Describe a quantitative component (e.g., A/B/C testing) measuring performance such as correct interpretation rate, reaction time, error rate, or distraction rating. <marks>1 mark</marks>\n- Describe a qualitative component (e.g., think-aloud, interview) to understand *why* users prefer/struggle with an option (comfort, attention, stigma, sensory sensitivity). <marks>1 mark</marks>\n- Explain sampling/context: testing with intended users in realistic environments (workshop/study) to capture contextual effects (gloves, lighting, noise, task load). <marks>1 mark</marks>\n- Explain how results are compared and synthesised (triangulation) to reach a decision rather than relying on a single metric or opinion. <marks>1 mark</marks>\n- Link the strategy to decision-making: choosing the option that best balances clarity, comfort, and non-distraction for the target users. <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152176,
+            "content": "Explain three specific pieces of design guidance that could be produced to improve the next HushBand iteration.",
+            "order": 4,
+            "markscheme": "- Guidance about feedback mapping: define distinct, learnable haptic patterns with clear meaning (e.g., one pattern for noise threshold, another for break suggestion) and document rules for pattern length/intensity. <marks>1 mark</marks>\n- Guidance about comfort/accessibility: include adjustable vibration intensity/off options and accommodate sensory-sensitive users; specify acceptable intensity ranges and default settings. <marks>1 mark</marks>\n- Guidance about context-of-use: specify interaction requirements for workshops (e.g., single large button usable with gloves, visibility under low/high light) derived from observation. <marks>1 mark</marks>\n- Guidance about reducing distraction: set limits on frequency/duration of alerts during precision tasks; include a \u201cdo not disturb\u201d or task mode informed by field testing. <marks>1 mark</marks>\n- Guidance about form factor/acceptance: specify aesthetic/fit requirements (looks like fitness band, strap sizes, materials) based on willingness-to-wear research. <marks>1 mark</marks>\n- Guidance about language/communication: create concise onboarding instructions and iconography based on misconceptions discovered in testing. <marks>1 mark</marks>\n- Each guidance point is explained as an actionable, design-directing requirement tied to a user research insight (not a vague suggestion). <marks>3 marks</marks>\n\n<note>Max 9 marks</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "99162def-3037-4431-a9cd-ed1b7f939fef",
+        "specification": "Which of the following strategies for user research is most effective for obtaining in-depth qualitative data in User-Centered Design (UCD)?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 821938,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556598,
+            "content": "Surveys with closed-ended questions",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556599,
+            "content": "Focus groups",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556600,
+            "content": "Analyzing market trends",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556601,
+            "content": "Benchmarking against competitors",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "5",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9923,
+      "title": "7.3 Strategies for user research",
+      "slug": "7-3-strategies-for-user-research",
+      "parentTopicId": 9920
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "5",
+      "byQuestion": {}
+    }
+  }
+}

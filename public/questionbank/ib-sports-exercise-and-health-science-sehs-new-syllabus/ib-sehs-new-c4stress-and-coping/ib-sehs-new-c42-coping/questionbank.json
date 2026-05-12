@@ -1,3 +1,3207 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:79d248c2454133dd7239974ac889cc884cb96ba6bca5aef770aefc7dcef450bb
-size 163251
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0475fe92-51c2-494b-aafa-58d1d42a8502",
+        "specification": "Sports, Exercise and Health Science (SL)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-07T08:16:28.238Z",
+              "reasoning": "Parts b\u2013e focus on defining arousal, somatic anxiety signs, trait vs state anxiety distinctions, and the inverted-U theory linking arousal to performance.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:16:28.238Z",
+              "reasoning": "Parts f\u2013g ask for coping strategies (including cognitive coping) and how deep breathing reduces performance anxiety, aligning with emotion-/problem-focused coping approaches.",
+              "confidence": 0.84
+            }
+          ]
+        },
+        "currentRevisionId": 1584409,
+        "parts": [
+          {
+            "id": 1139398,
+            "content": "Define arousal in the context of sports performance.",
+            "order": 1,
+            "markscheme": "- State that arousal is a state of alertness or readiness for action in response to a stimulus <marks>A1</marks>\n- State that it involves both physiological and psychological activation <marks>A1</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139399,
+            "content": "Identify two physiological signs of somatic anxiety.",
+            "order": 2,
+            "markscheme": "- Identification of first physiological sign, e.g., increased heart rate <marks>A1</marks>\n- Identification of second physiological sign, e.g., muscle tension <marks>A1</marks>\n\n<note>Award 1 mark for each correct sign identified. Other acceptable answers include: sweating, rapid breathing, dry mouth, or nausea.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139400,
+            "content": "Outline how trait anxiety differs from state anxiety.",
+            "order": 3,
+            "markscheme": "- Define trait anxiety as a stable, enduring personality characteristic or predisposition to be anxious <marks>A1</marks>\n- Define state anxiety as a temporary, situation-specific emotional state <marks>A1</marks>\n- Explain that high trait anxiety increases the likelihood of experiencing high state anxiety in pressure situations <marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139401,
+            "content": "Explain how the inverted-U theory describes the relationship between arousal and performance.",
+            "order": 4,
+            "markscheme": "- Explain that performance improves as arousal increases up to an optimal moderate level <marks>A1</marks>\n- Explain that low levels of arousal lead to underperformance due to a lack of focus or motivation <marks>A1</marks>\n- Explain that high levels of arousal beyond the optimal point lead to anxiety and performance decline <marks>A1</marks>\n- State that the resulting relationship forms a bell-shaped curve, known as an inverted-U <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139402,
+            "content": "Describe two cognitive coping strategies an athlete might use.",
+            "order": 5,
+            "markscheme": "- Describe positive self-talk: replacing negative or self-doubting thoughts with constructive, positive ones <marks>A1</marks>\n- Describe imagery: visualizing successful performance or technical execution to build confidence <marks>A1</marks>\n- State that these strategies reduce the cognitive symptoms of anxiety (e.g., worry) <marks>A1</marks>\n- State that they help the athlete promote focus and maintain calmness <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139403,
+            "content": "Discuss how deep breathing techniques can help reduce performance anxiety.",
+            "order": 6,
+            "markscheme": "- State that deep breathing slows heart rate and reduces muscle tension (somatic symptoms) <marks>A1</marks>\n- Explain that it activates the parasympathetic nervous system to induce relaxation <marks>A1</marks>\n- Explain that it provides the athlete with a sense of control before or during performance <marks>A1</marks>\n- Explain how it helps maintain concentration and composure under pressure <marks>A1</marks>\n- State that regular practice of these techniques helps build effective coping habits <marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "07c6638f-309f-4b8c-8a5e-48bfa0934755",
+        "specification": "A SL basketball player reports feeling \u201ctoo nervous\u201d before free throws in the final minutes of close games. The coach introduces a pre-performance routine and uses a simple biofeedback app during training.\n\nTable 1 shows the player\u2019s average measures taken 2 minutes before taking 10 free throws.\n\n| Condition | Heart rate (beats min$^{-1}$) | Self-reported anxiety (1\u201310) | Free-throw success (%) |\n|---|---:|---:|---:|\n| No routine | 118 | 8 | 60 |\n| Routine + breathing | 104 | 5 | 75 |\n| Routine + breathing + biofeedback | 98 | 4 | 78 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:04:42.515Z",
+            "resultId": 42684
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T16:02:52.138Z",
+              "reasoning": "Parts ask for stress management techniques/strategies (pre-competition anxiety management, performance routines for coping, biofeedback, cognitive restructuring), which fall under coping strategies (problem-, emotion-, avoidance-focused).",
+              "confidence": 0.9
+            },
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-06T16:02:52.138Z",
+              "reasoning": "Focus on managing arousal levels and pre-competition anxiety relates directly to arousal as activation affecting performance (including regulation of arousal).",
+              "confidence": 0.78
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-06T16:02:52.138Z",
+              "reasoning": "Questions about pre-competition anxiety and coping with stress in performance contexts align with anxiety\u2019s effects on performance.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29949,
+              "isHl": false,
+              "path": "C.2 Motor learning > C.2.2 Attentional control > C.2.2.1 Effective skill execution requires appropriate attentional focus",
+              "title": "C.2.2.1 Effective skill execution requires appropriate attentional focus",
+              "labeledAt": "2026-03-06T16:02:52.138Z",
+              "reasoning": "Part (d) explicitly asks about attentional control in high-stakes environments, matching attentional focus requirements for effective execution.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1696713,
+        "parts": [
+          {
+            "id": 1158992,
+            "content": "Identify two techniques for managing pre-competition anxiety.",
+            "order": 0,
+            "markscheme": "- Deep breathing <marks>1 mark</marks>\n\n_**OR**_\n\n- Visualization/mental imagery <marks>1 mark</marks>\n\n_**OR**_\n\n- Progressive muscle relaxation <marks>1 mark</marks>\n\n_**OR**_\n\n- Positive self-talk <marks>1 mark</marks>\n\n_**OR**_\n\n- Pre-performance routines <marks>1 mark</marks>\n\n_**OR**_\n\n- Centering techniques <marks>1 mark</marks>\n\n<note>Award up to a maximum of 2 marks for any two valid techniques.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158993,
+            "content": "Outline how performance routines assist in coping with stress.",
+            "order": 1,
+            "markscheme": "- Routines increase predictability/consistency before performance <marks>1 mark</marks>\n- Routines build confidence and familiarity through repetition <marks>1 mark</marks>\n- Routines reduce uncertainty and help focus attention on task-relevant cues <marks>1 mark</marks>\n- Routines can help athletes enter/maintain an optimal performance state (optimal arousal) <marks>1 mark</marks>\n- Routines act as a cue/trigger to start the performance and block out distractions (attentional \u201creset\u201d) <marks>1 mark</marks>\n- Routines may incorporate specific coping strategies (e.g., breathing/self-talk) to manage somatic/cognitive anxiety <marks>1 mark</marks>\n\n<note>Award up to a maximum of 4 marks.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158994,
+            "content": "Explain the role of attentional control in high-stakes environments.",
+            "order": 2,
+            "markscheme": "- Attentional control allows athletes to focus on relevant cues and ignore irrelevant stimuli <marks>1 mark</marks>\n- It helps maintain situational awareness (e.g., opponents/space/time score context) while performing a skill <marks>1 mark</marks>\n- It prevents distraction from internal cues (worry, negative thoughts) and external cues (crowd, scoreboard) under pressure <marks>1 mark</marks>\n- It supports rapid and accurate decision-making in complex/dynamic sports situations <marks>1 mark</marks>\n- It contributes to effective skill execution by directing attention appropriately (e.g., external focus on target) <marks>1 mark</marks>\n- Its effectiveness is influenced by arousal/anxiety management (excess arousal narrows attention or increases distractibility) <marks>1 mark</marks>\n\n<note>Award up to a maximum of 5 marks.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158995,
+            "content": "Discuss the use of biofeedback in managing arousal levels.",
+            "order": 3,
+            "markscheme": "- Biofeedback measures physiological signals such as heart rate, breathing rate, or muscle tension <marks>1 mark</marks>\n- It provides immediate feedback so athletes can learn to control arousal through strategies (e.g., paced breathing/relaxation) <marks>1 mark</marks>\n- It increases self-awareness of physiological states linked to anxiety/arousal <marks>1 mark</marks>\n- It can be used in training to practise regulating anxiety responses and transferring these skills to competition <marks>1 mark</marks>\n- It can help athletes identify personal triggers/patterns (what raises/lowers arousal) and adjust routines accordingly <marks>1 mark</marks>\n- Limitations: access/cost, potential distraction/overreliance, and feedback may be less practical in real competition <marks>1 mark</marks>\n\n<note>Award up to a maximum of 4 marks.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158996,
+            "content": "Evaluate cognitive restructuring as a stress management strategy.",
+            "order": 4,
+            "markscheme": "- Involves identifying negative/irrational thoughts and cognitive distortions (e.g., catastrophizing) <marks>1 mark</marks>\n- Challenging/testing these thoughts (evidence for/against) to reduce threat appraisals <marks>1 mark</marks>\n- Replacing them with balanced, realistic and/or positive self-statements <marks>1 mark</marks>\n- Can reduce cognitive anxiety, fear of failure and improve confidence/self-efficacy <marks>1 mark</marks>\n- Enhances emotional regulation and perceived control, supporting better attentional focus and decision-making <marks>1 mark</marks>\n- Strength: transferable across situations and can be integrated into routines and self-talk plans <marks>1 mark</marks>\n- Limitation: requires consistent practice/time (and may require guidance) before it becomes effective under pressure <marks>1 mark</marks>\n\n<note>Award up to a maximum of 5 marks. Must include at least one strength and one limitation for full credit.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0958fc19-0c21-4cb7-b50a-0df85e5d6403",
+        "specification": "Which of the following best describes the role of coping strategies in sport?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:15:54.456Z",
+            "resultId": 42695
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T16:02:54.333Z",
+              "reasoning": "The question asks for the general role of coping strategies in sport\u2014helping athletes manage responses to stressors\u2014which aligns directly with definitions and types of coping strategies (problem-, emotion-, avoidance-focused).",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696429,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938824,
+            "content": "They completely remove all stressors",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938825,
+            "content": "They help athletes manage responses to stressors",
+            "correct": true,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4938826,
+            "content": "They eliminate personality differences",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938827,
+            "content": "They only work in individual sports, not team sports",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0cfe85e6-1662-4906-8b4b-67aadc1a6fe2",
+        "specification": "The threat of being substituted during a match represents which type of stressor?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:22:26.752Z",
+            "resultId": 30983
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:36:54.715Z",
+              "reasoning": "The question asks how to classify the threat of substitution as a type of stressor (e.g., controllable vs uncontrollable), which aligns with differentiating controllable and uncontrollable stressors in coping.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1694876,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934593,
+            "content": "a positive stressor",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934594,
+            "content": "a controllable stressor",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934595,
+            "content": "a negative stressor",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934596,
+            "content": "no stressor at all",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "16b6d94b-0ead-41ff-b089-a998572f2203",
+        "specification": "Which coping strategy would be **least appropriate** for an athlete facing uncontrollable stressors, such as referee decisions?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:17:53.532Z",
+            "resultId": 31116
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T05:37:34.708Z",
+              "reasoning": "The question asks which coping strategy is least effective for an uncontrollable stressor (referee decisions), contrasting problem-focused vs emotion-focused coping approaches.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:37:34.708Z",
+              "reasoning": "It explicitly frames the situation as an uncontrollable stressor, requiring understanding that coping effectiveness depends on controllability (e.g., problem-focused coping is less effective when the stressor can\u2019t be changed).",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1694858,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934521,
+            "content": "Acceptance and reappraisal",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934522,
+            "content": "Relaxation and self-talk",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934523,
+            "content": "Attempting to directly change the referee\u2019s call",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934524,
+            "content": "Emotion regulation techniques",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "25bab58e-2256-46e2-981d-5e3487e02154",
+        "specification": "Which of the following best represents a stressor that is directly controllable by the athlete?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:25:38.119Z",
+            "resultId": 30225
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:17:28.386Z",
+              "reasoning": "The question asks to identify a controllable stressor (e.g., pre-game routine) versus uncontrollable ones (referee decisions, opponent tactics, weather), directly matching differentiating controllable and uncontrollable stressors in coping.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1695447,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936393,
+            "content": "A referee\u2019s decision",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936394,
+            "content": "An opponent\u2019s tactics",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936395,
+            "content": "A sudden weather change",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936396,
+            "content": "An athlete\u2019s pre-game routine",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "295231af-ed0b-49f6-9550-0b6ed8253693",
+        "specification": "Why might relaxation techniques work for one athlete but not another?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:22:51.055Z",
+            "resultId": 42573
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29961,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "title": "C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "labeledAt": "2026-03-06T16:01:53.613Z",
+              "reasoning": "The question asks why relaxation techniques (a coping method) may work for one athlete but not another, emphasizing situational and individual differences in coping effectiveness.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T16:01:53.613Z",
+              "reasoning": "Relaxation techniques fall under emotion-focused coping strategies; the item implicitly tests understanding that different coping strategies are used and vary in effectiveness.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1697047,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940420,
+            "content": "Relaxation methods are equally effective for all athletes in all situations.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940421,
+            "content": "Effectiveness depends on situational and individual differences.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940422,
+            "content": "Relaxation is most effective when anxiety levels are moderate, not very low or very high.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940423,
+            "content": "Relaxation is most effective when matched to the athlete\u2019s preferences and the demands of the sport.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4464d6b0-dc28-479f-8daf-114fe5bc1fdb",
+        "specification": "If a coach frames an upcoming match as an opportunity to demonstrate progress, this is an example of a:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:18:19.291Z",
+            "resultId": 30285
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:17:54.419Z",
+              "reasoning": "The options include 'uncontrollable stressor' and the scenario is about appraising a match situation as a stressor, aligning with differentiating types of stressors (controllable vs uncontrollable) within coping.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1695421,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936321,
+            "content": "Negative stressor",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936322,
+            "content": "Positive stressor",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936323,
+            "content": "Chronic stressor",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936324,
+            "content": "Uncontrollable stressor",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4b06ad6e-4eb0-48dc-a39a-4ded46448758",
+        "specification": "Why must coping strategies be flexible across different sports contexts?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:03:08.532Z",
+            "resultId": 41722
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29961,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "title": "C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "labeledAt": "2026-03-06T15:56:54.756Z",
+              "reasoning": "The question asks why coping strategies must be flexible across different sports contexts; this directly matches the idea that effective coping varies by individual athlete and situation.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T15:56:54.756Z",
+              "reasoning": "It concerns coping strategies in general (their use/effectiveness), implicitly drawing on the concept of different coping strategy types even though the main focus is situational fit.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1696930,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940044,
+            "content": "Because coping strategies are a fixed personality trait and do not change between situations",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Coping strategies can be learned and adapted to different demands."
+          },
+          {
+            "id": 4940045,
+            "content": "Because the effectiveness of strategies depends on the situation and the athlete",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Coping strategies need to match the specific stressor, context, and individual athlete for them to be effective."
+          },
+          {
+            "id": 4940046,
+            "content": "Because one coping strategy is effective for all athletes and all competitive situations",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Athletes differ and competitive demands vary, so a single strategy will not suit every context."
+          },
+          {
+            "id": 4940047,
+            "content": "Because flexibility is only needed when switching between individual and team sports, not within the same sport",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Even within the same sport, coping demands can change (e.g., training vs competition, injury, role changes)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "61d85286-427b-4403-80c9-0a0a093d1c27",
+        "specification": "A marathon runner experiences strain due to the long distance but feels motivated by the challenge. This reflects:",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-06T05:15:17.154Z",
+              "reasoning": "The scenario distinguishes positive vs negative stress (eustress vs distress) and links stress to performance-related psychological states, aligning with anxiety\u2019s dual effect.",
+              "confidence": 0.84
+            }
+          ]
+        },
+        "currentRevisionId": 1584387,
+        "parts": [],
+        "options": [
+          {
+            "id": 4555901,
+            "content": "Negative stress",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4555902,
+            "content": "Positive stress",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4555903,
+            "content": "Learned helplessness",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4555904,
+            "content": "Somatic anxiety",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "61fd1b3b-4b18-4d58-aa93-f22878616871",
+        "specification": "When a sprinter feels anxious because of unpredictable weather, this is best described as:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:15:18.233Z",
+              "reasoning": "The scenario asks how to classify anxiety caused by unpredictable weather in terms of controllable vs uncontrollable stressors; weather is external and not controllable by the athlete.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1421885,
+        "parts": [],
+        "options": [
+          {
+            "id": 4157703,
+            "content": "A controllable stressor",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4157704,
+            "content": "A positive stressor",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4157705,
+            "content": "An uncontrollable stressor",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4157706,
+            "content": "A physiological strain",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6285f305-d6d8-45ad-9f27-3467a2d847f3",
+        "specification": "A tennis player worries about losing because of bad weather. The bad weather stressor is:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:17:50.261Z",
+            "resultId": 29922
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:15:16.144Z",
+              "reasoning": "The question asks how to classify a stressor (bad weather) in terms of controllable vs uncontrollable, which directly matches differentiating controllable and uncontrollable stressors.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696198,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938512,
+            "content": "Controllable",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938513,
+            "content": "Uncontrollable",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Weather conditions are external and cannot be changed by the athlete during the match, so the stressor is uncontrollable."
+          },
+          {
+            "id": 4938514,
+            "content": "Internal",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Internal stressors originate within the performer (e.g., thoughts, emotions). Bad weather is an external/environmental stressor."
+          },
+          {
+            "id": 4938515,
+            "content": "External",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Bad weather is external, but the question is classifying the stressor as controllable vs uncontrollable; external does not answer that classification. "
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "670f09bb-3b27-490b-8899-f91b6ad1dfa9",
+        "specification": "What is a 'stressor' in sport psychology?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:15:08.900Z",
+            "resultId": 29976
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-06T05:15:43.221Z",
+              "reasoning": "Defining a 'stressor' (a factor causing psychological strain) is part of the stress/anxiety/arousal content within Stress and coping.",
+              "confidence": 0.66
+            }
+          ]
+        },
+        "currentRevisionId": 1696179,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938436,
+            "content": "A coping strategy used to manage stress",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938437,
+            "content": "Any factor causing psychological strain",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938438,
+            "content": "The body\u2019s physiological stress response",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938439,
+            "content": "An emotional state of worry or apprehension (anxiety)",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6fc30b42-d834-45c2-8fff-3376059eb019",
+        "specification": "Why might focusing only on stressors an athlete cannot control harm performance?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:56:46.901Z",
+            "resultId": 41879
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T15:57:58.845Z",
+              "reasoning": "The question is about why focusing on uncontrollable stressors harms performance, which directly tests understanding of controllable vs uncontrollable stressors and how coping efforts should be directed.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T15:57:58.845Z",
+              "reasoning": "The correct option implies shifting attention toward actionable areas (problem-focused coping) rather than dwelling on uncontrollable factors, linking to coping strategy types.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1696885,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939880,
+            "content": "It reduces attention to areas they can actually influence.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4939881,
+            "content": "It increases feelings of helplessness and anxiety.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4939882,
+            "content": "It encourages blaming external factors rather than using effective coping strategies.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939883,
+            "content": "It improves arousal regulation and concentration under pressure.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7a95c288-859b-4303-8238-07faf372edd4",
+        "specification": "Why might two athletes respond differently to the same coping strategy?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29961,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "title": "C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "labeledAt": "2026-03-06T05:18:14.168Z",
+              "reasoning": "The question asks why the same coping strategy can produce different outcomes for two athletes, pointing directly to variability in coping effectiveness based on individual and situational factors.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T05:18:14.168Z",
+              "reasoning": "It broadly concerns coping strategies in sport (problem-, emotion-, avoidance-focused), though the core of the question is about differential effectiveness rather than categorizing strategy types.",
+              "confidence": 0.35
+            },
+            {
+              "id": 29939,
+              "isHl": false,
+              "path": "C.1 Individual differences > C.1.1 Personality > C.1.1.1 Personality traits and their influence on thinking, behavior, and performance",
+              "title": "C.1.1.1 Personality traits and their influence on thinking, behavior, and performance",
+              "labeledAt": "2026-03-06T05:18:14.168Z",
+              "reasoning": "One plausible reason for differing coping outcomes is differences in personality traits; this is mentioned/contrasted in the options, but it\u2019s secondary to the main coping-variability concept.",
+              "confidence": 0.28
+            }
+          ]
+        },
+        "currentRevisionId": 1695392,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936237,
+            "content": "Effectiveness depends on individual and situational factors",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936238,
+            "content": "Coping strategies work universally across all sports",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936239,
+            "content": "Personality traits never influence coping success",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936240,
+            "content": "The type of stressor is always irrelevant",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7b116e90-212f-4604-ae63-f615883cfc24",
+        "specification": "Which type of stressor cannot be controlled by the athlete?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:17:17.454Z",
+            "resultId": 30320
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:18:03.629Z",
+              "reasoning": "The question asks which stressor is outside an athlete\u2019s direct influence, directly testing the distinction between controllable vs uncontrollable stressors within coping.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695416,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936301,
+            "content": "Controllable",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936302,
+            "content": "Uncontrollable",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: a stressor that cannot be controlled by the athlete."
+          },
+          {
+            "id": 4936303,
+            "content": "Internal",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: internal stressors can be controllable or uncontrollable."
+          },
+          {
+            "id": 4936304,
+            "content": "External",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: external stressors can be controllable or uncontrollable."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "83003006-b43f-4f48-afdb-544d354bfc25",
+        "specification": "A sports psychologist monitors an SL basketball player during a free-throw practice session and a competitive match. The athlete completes a questionnaire rating cognitive anxiety (worry), somatic anxiety (physiological symptoms) and arousal (activation level) on a 0\u201310 scale.\n\n**Table 1. Self-ratings (0\u201310) and performance**\n\n| Condition | Cognitive anxiety | Somatic anxiety | Arousal | Free-throw success (%) |\n|---|---:|---:|---:|---:|\n| Practice (no audience) | 2 | 3 | 4 | 78 |\n| Match (large audience) | 7 | 6 | 8 | 62 |\n| Match after goal-setting routine | 4 | 5 | 6 | 70 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:36:55.091Z",
+            "resultId": 31391
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-06T05:38:55.621Z",
+              "reasoning": "Multiple parts focus on defining arousal, distinguishing it from anxiety, managing arousal via goal setting, and evaluating over-arousal effects on motor skill performance.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-06T05:38:55.621Z",
+              "reasoning": "Questions address state/cognitive anxiety and how anxiety impacts performance differently in individual vs team sports, aligning with anxiety\u2019s effects on performance.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1696300,
+        "parts": [
+          {
+            "id": 1158119,
+            "content": "Define **state anxiety** with reference to Table 1.",
+            "order": 0,
+            "markscheme": "- State anxiety is a **temporary**, situation-specific emotional state of apprehension/tension that can vary from moment to moment. <marks>1 mark</marks>\n- It **fluctuates with the context** or perceived threat (for example, changing between practice and match conditions in Table 1). <marks>1 mark</marks>\n- It is different from trait anxiety because it is **not a stable personality characteristic**. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158120,
+            "content": "Distinguish between **arousal** and **anxiety**, using data from Table 1.",
+            "order": 1,
+            "markscheme": "- Arousal is a **neutral** state of physiological/psychological activation (intensity of activation) that can range from low to high. <marks>1 mark</marks>\n- Anxiety is a **negative emotional state** involving feelings such as worry/nervousness and is linked to perceived threat. <marks>1 mark</marks>\n- Anxiety includes a **cognitive component** (worry) and/or **somatic component** (physiological symptoms), whereas arousal refers more generally to activation. <marks>1 mark</marks>\n- Table 1 illustrates that arousal can be high (e.g., arousal $=8$ in the match) while anxiety ratings (cognitive $=7$, somatic $=6$) reflect perceived threat/negative affect. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158121,
+            "content": "Explain how the change in **cognitive anxiety** shown in Table 1 could affect **free-throw performance** in an individual sport compared with a team sport.",
+            "order": 2,
+            "markscheme": "- Higher cognitive anxiety (e.g., $2\\rightarrow7$ from practice to match in Table 1) can increase worry and reduce attentional control, leading to poorer skill execution such as reduced free-throw success ($78\\%\\rightarrow62\\%$). <marks>1 mark</marks>\n- In an **individual sport**, perceived sole responsibility for the outcome can increase worry, which can further disrupt concentration and decision making during performance. <marks>1 mark</marks>\n- In a **team sport**, responsibility may be partly shared, which may reduce the cognitive load on one athlete; however, worry may still occur due to fear of letting teammates down. <marks>1 mark</marks>\n- Team environments can also increase cognitive anxiety through social evaluation (coach/teammates/audience), potentially increasing self-focus and choking. <marks>1 mark</marks>\n- Social support/team cohesion can buffer worry and help re-focus attention on task cues, reducing performance impairment. <marks>1 mark</marks>\n- The goal-setting routine in Table 1 is consistent with reduced worry ($7\\rightarrow4$) and improved performance ($62\\%\\rightarrow70\\%$), illustrating the potential mechanism via attention control. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158122,
+            "content": "Discuss how **goal setting** could be used to regulate arousal towards an **optimal level** for this athlete, with reference to Table 1.",
+            "order": 3,
+            "markscheme": "- Setting specific, relevant goals can focus attention on task cues (for example, shot routine), reducing uncertainty and helping regulate arousal from very high (match arousal $=8$) towards a more optimal level (after routine arousal $=6$). <marks>1 mark</marks>\n- Process/performance goals emphasise controllable elements (breathing, alignment, follow-through), which can reduce worry and help prevent over-arousal. <marks>1 mark</marks>\n- Short-term, achievable goals can increase self-efficacy/confidence, supporting an arousal level that is energising rather than debilitative. <marks>1 mark</marks>\n- Breaking goals into manageable steps can prevent the performer feeling overwhelmed, limiting excessive physiological activation. <marks>1 mark</marks>\n- A possible limitation is that poorly set goals (unrealistic, outcome-only) may increase pressure and arousal/anxiety; therefore goals should be reviewed and adjusted. <marks>1 mark</marks>\n- For this athlete, the routine associated with goal setting corresponds with improved free-throw success ($62\\%\\rightarrow70\\%$), suggesting regulation rather than simple reduction of arousal. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158123,
+            "content": "Evaluate the likely impact of **over-arousal** on **motor skill performance** in this scenario.",
+            "order": 4,
+            "markscheme": "- Over-arousal can increase muscle tension, reducing coordination and fluidity of the free-throw movement. <marks>1 mark</marks>\n- Fine motor control and timing may deteriorate, lowering accuracy in precision tasks such as shooting. <marks>1 mark</marks>\n- Cognitive effects of over-arousal (increased internal noise/worry) can impair decision making and attentional control, contributing to performance drops such as the lower success rate in the match condition. <marks>1 mark</marks>\n- Over-arousal can lead to choking, for example through excessive self-focus on technique or attentional narrowing to irrelevant cues (audience/score). <marks>1 mark</marks>\n- Over-arousal is especially detrimental for complex/accuracy-based skills; free throws require high accuracy, so the negative impact is likely greater than for simple gross motor tasks. <marks>1 mark</marks>\n- A counterpoint is that moderate increases in arousal can improve readiness and power output; Table 1 suggests performance improved when arousal reduced from $8$ to $6$ rather than to a very low level. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "891b659e-6726-4f95-ae40-902c97b6ff54",
+        "specification": "Which statement is most accurate about the effectiveness of coping strategies in athletes?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:55:25.681Z",
+            "resultId": 30700
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29961,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "title": "C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "labeledAt": "2026-03-06T05:25:13.211Z",
+              "reasoning": "The question asks about the general effectiveness of coping strategies and emphasizes that effectiveness varies by person and context (option B), matching the idea that effective coping depends on the individual and situation.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695280,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935917,
+            "content": "The same strategies work equally for all individuals.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935918,
+            "content": "Their effectiveness depends on both the athlete and the situation.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935919,
+            "content": "Coping strategies are generally effective because they remove the source of stress.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935920,
+            "content": "Coping strategies are most effective when selected by the coach rather than the athlete.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8b70ecff-6ca9-43c1-b1a9-5ae072a25550",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:17:04.407Z",
+              "reasoning": "Multiple parts focus directly on coping strategies, including explicit comparison of problem-focused vs emotion-focused coping (and cognitive/behavioral strategies), which aligns with types of coping approaches.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29961,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "title": "C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "labeledAt": "2026-03-07T08:17:04.407Z",
+              "reasoning": "Questions ask athletes to evaluate/discuss how coping effectiveness varies with factors like setbacks, injuries, and different strategies (mindfulness/acceptance), matching the idea that effective coping depends on individual and situation.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-07T08:17:04.407Z",
+              "reasoning": "Parts mention reducing anxiety and coping with performance-related stress in competition, linking to anxiety\u2019s effects in sport contexts.",
+              "confidence": 0.7
+            },
+            {
+              "id": 29939,
+              "isHl": false,
+              "path": "C.1 Individual differences > C.1.1 Personality > C.1.1.1 Personality traits and their influence on thinking, behavior, and performance",
+              "title": "C.1.1.1 Personality traits and their influence on thinking, behavior, and performance",
+              "labeledAt": "2026-03-07T08:17:04.407Z",
+              "reasoning": "One part explicitly analyzes how personality traits influence coping mechanisms and responses to stress in competition.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1584420,
+        "parts": [
+          {
+            "id": 1139433,
+            "content": "Evaluate the role of cognitive and behavioral strategies in helping athletes cope with performance-related stress.",
+            "order": 1,
+            "markscheme": "### Cognitive Strategies\n- **Positive self-talk/affirmations**: Repeating positive statements to maintain focus and confidence <marks>A1</marks>\n- **Imagery/visualization**: Mentally rehearsing successful performance to increase self-efficacy <marks>A1</marks>\n- **Cognitive restructuring**: Reframing negative thoughts into more positive, rational perspectives <marks>A1</marks>\n\n### Behavioral Strategies\n- **Pre-performance routines**: Consistent sequence of behaviors to enhance focus and reduce anxiety <marks>A1</marks>\n- **Relaxation techniques** (e.g., deep breathing, progressive muscle relaxation): Reducing physiological arousal and anxiety levels <marks>A1</marks>\n- **Simulation training**: Practicing under conditions similar to competition to build coping skills <marks>A1</marks>\n\n4 marks total\n\n<note>Award up to 4 marks for a response that identifies specific strategies and provides evaluative judgments about their effectiveness or application in managing performance stress.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139434,
+            "content": "Discuss the impact of social support on an athlete's ability to cope with setbacks in competitive sports.",
+            "order": 2,
+            "markscheme": "### Key Points\n- **Emotional support**: Provides comfort and encouragement, helping athletes maintain motivation and resilience after setbacks <marks>A1</marks>\n- **Informational support**: Guidance from coaches/experts provides strategies to overcome specific technical or tactical challenges <marks>A1</marks>\n- **Tangible support**: Facilitates access to physical resources (e.g., financial aid, medical facilities) necessary for recovery and development <marks>A1</marks>\n\n### Impacts\n- **Buffering effect**: Social support acts as a protective factor against stress, reducing the risk of burnout and dropout <marks>A1</marks>\n- **Enhancement of self-esteem**: Belief in abilities is reinforced by a supportive network, maintaining confidence during rehabilitation or slumps <marks>A1</marks>\n- **Facilitation of adaptive coping**: Athletes learn effective ways to manage setbacks from the experiences and advice of supportive others <marks>A1</marks>\n\n6 marks total\n\n<note>Award up to 6 marks for a well-developed discussion that evaluates the impact of social support on an athlete's ability to cope with setbacks, using relevant examples.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139435,
+            "content": "Analyze how the personality traits of athletes influence their coping mechanisms and responses to stress in competition.",
+            "order": 3,
+            "markscheme": "### Personality Traits and Coping Mechanisms\n- **Extroversion**: Extroverts tend to seek social support as a coping strategy and often maintain an optimistic outlook through positive self-talk <marks>A1</marks>\n- **Neuroticism**: High levels of neuroticism are linked to maladaptive coping (e.g., avoidance, denial), often leading to heightened anxiety under stress <marks>A1</marks>\n- **Conscientiousness**: Conscientious athletes are likely to use problem-focused coping strategies, such as meticulous preparation and routines <marks>A1</marks>\n- **Mental Toughness**: Mentally tough athletes exhibit high resilience, using cognitive restructuring to maintain focus and performance under pressure <marks>A1</marks>\n\n4 marks total\n\n<note>Award up to 4 marks for an analysis that examines how specific personality traits influence stress responses and coping, with relevant evidence.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139436,
+            "content": "Examine the role of mindfulness and acceptance strategies in enhancing coping and reducing anxiety in competitive athletes.",
+            "order": 4,
+            "markscheme": "### Mindfulness Strategies\n- **Present-moment awareness**: Focusing attention on the \"here and now\" prevents worry about past failures or future outcomes, keeping the athlete grounded <marks>A1</marks>\n- **Non-judgmental acceptance**: Accepting thoughts and bodily sensations without resistance reduces the secondary anxiety associated with performance pressure <marks>A1</marks>\n\n### Acceptance Strategies\n- **Cognitive defusion**: Distancing oneself from negative thoughts prevents the athlete from becoming \"fused\" with unhelpful internal narratives <marks>A1</marks>\n- **Committed action**: Acting in accordance with values and goals despite feelings of discomfort ensures the athlete remains focused on performance objectives <marks>A1</marks>\n\n4 marks total\n\n<note>Award up to 4 marks for a response that examines how mindfulness and acceptance enhance coping and reduce anxiety.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139437,
+            "content": "Compare and contrast problem-focused coping and emotion-focused coping in terms of effectiveness for athletes facing injuries.",
+            "order": 5,
+            "markscheme": "### Problem-Focused Coping (PFC)\n- **Description**: Involves active strategies to manage the injury directly, such as adhering to rehabilitation programs and seeking medical advice <marks>A1</marks>\n- **Effectiveness**: Highly effective for injuries with clear recovery timelines, allowing athletes to regain a sense of control over their progress <marks>A1</marks>\n\n### Emotion-Focused Coping (EFC)\n- **Description**: Involves regulating the emotional distress caused by the injury (e.g., relaxation, positive reframing, seeking emotional social support) <marks>A1</marks>\n- **Effectiveness**: More crucial for severe or career-threatening injuries where direct problem-solving is limited by physical constraints <marks>A1</marks>\n\n### Comparison and Contrast\n- **Adaptive nature**: PFC is generally more adaptive for minor/temporary injuries as it drives recovery, whereas EFC is necessary for managing psychological health during long-term setbacks <marks>A1</marks>\n- **Integration**: Effective recovery often requires a combination of both; PFC addresses the physical rehabilitation while EFC manages the stress and grief of being sidelined <marks>A1</marks>\n\n6 marks total\n\n<note>Award up to 6 marks for a comparison that evaluates the effectiveness of both strategies in the context of sports injuries.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "8bd8f5d2-b4f3-47fa-9fb9-3913c6b9b946",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-07T08:17:05.216Z",
+              "reasoning": "Parts b\u2013d focus on somatic vs cognitive anxiety and how arousal affects attentional focus and performance.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-07T08:17:05.216Z",
+              "reasoning": "Addresses anxiety components (cognitive/somatic) and how anxiety can facilitate or debilitate performance in competition contexts.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:17:05.216Z",
+              "reasoning": "Parts e\u2013f ask about coping strategies (imagery, self-talk, relaxation) used to manage competitive anxiety.",
+              "confidence": 0.75
+            },
+            {
+              "id": 29964,
+              "isHl": true,
+              "path": "C.5 Psychological skills > C.5.2 Imagery > C.5.2.1 Imagery mimics real experience using sensory modalities to improve performance (HL)",
+              "title": "C.5.2.1 Imagery mimics real experience using sensory modalities to improve performance (HL)",
+              "labeledAt": "2026-03-07T08:17:05.216Z",
+              "reasoning": "Part e explicitly discusses imagery as a psychological skill applied as a coping strategy in sport.",
+              "confidence": 0.6
+            },
+            {
+              "id": 29949,
+              "isHl": false,
+              "path": "C.2 Motor learning > C.2.2 Attentional control > C.2.2.1 Effective skill execution requires appropriate attentional focus",
+              "title": "C.2.2.1 Effective skill execution requires appropriate attentional focus",
+              "labeledAt": "2026-03-07T08:17:05.216Z",
+              "reasoning": "Part d requires explaining the link between arousal levels and attentional focus/control during performance.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1584415,
+        "parts": [
+          {
+            "id": 1139419,
+            "content": "Define somatic anxiety and provide one example.",
+            "order": 1,
+            "markscheme": "- Define somatic anxiety as the physical symptoms or physiological response to anxiety <marks>1</marks>\n\n- State a valid example such as increased heart rate or sweating <marks>1</marks>\n\n2 marks total\n\n<note>Other acceptable examples: Shaking, muscle tension, butterflies in stomach.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139420,
+            "content": "Outline two causes of cognitive anxiety before competition.",
+            "order": 2,
+            "markscheme": "- Outline the fear of underperforming where athletes worry about not meeting expectations <marks>1</marks>\n\n- Outline negative self-talk which creates internal doubt or pressure <marks>1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include uncertainty about the opponent or low self-confidence. Accept any two with brief explanations.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139421,
+            "content": "Explain how arousal influences attentional focus in athletes.",
+            "order": 3,
+            "markscheme": "- Explain that low arousal levels can cause broad attention and susceptibility to distractions <marks>1</marks>\n\n- Explain that optimal arousal leads to an ideal, focused state of attention <marks>1</marks>\n\n- Explain that over-arousal narrows the attentional field too much, causing athletes to miss relevant cues <marks>1</marks>\n\n- Describe how these shifts in focus affect reaction time and decision-making <marks>1</marks>\n\n- State that the optimal level of arousal varies between individuals and tasks <marks>1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139422,
+            "content": "Discuss the application of imagery and self-talk as coping strategies in sport.",
+            "order": 4,
+            "markscheme": "- Discuss how imagery helps athletes mentally rehearse scenarios, increasing their sense of control <marks>1</marks>\n\n- Discuss how self-talk helps restructure negative thoughts to reduce anxiety <marks>1</marks>\n\n- Explain that both strategies improve focus and confidence <marks>1</marks>\n\n- State that these strategies are often integrated into pre-performance routines <marks>1</marks>\n\n- Discuss how these methods promote overall cognitive control <marks>1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139423,
+            "content": "Evaluate the effectiveness of relaxation techniques for reducing anxiety in performance settings.",
+            "order": 5,
+            "markscheme": "- Explain that techniques like deep breathing and muscle relaxation reduce physical symptoms <marks>1</marks>\n\n- Describe how they promote a state of calmness and improved focus <marks>1</marks>\n\n- Note that they are useful both before and during performance events <marks>1</marks>\n\n- State that these techniques require regular practice to be fully effective <marks>1</marks>\n\n- Evaluate that effectiveness may vary depending on the sport and individual athlete <marks>1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "935c9134-7e45-4a9a-b2ac-56918939c704",
+        "specification": "A gymnast reinterprets pre-competition nerves as excitement. This is an example of:",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:28:51.647Z",
+            "resultId": 44407
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:16:16.315Z",
+              "reasoning": "Reinterpreting nerves as excitement is a cognitive reappraisal aimed at managing the emotional response to stress, which fits emotion-focused coping within the coping strategies framework.",
+              "confidence": 0.88
+            }
+          ]
+        },
+        "currentRevisionId": 1697441,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941432,
+            "content": "Emotion-focused coping",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. Reappraising nerves as excitement is an emotion-focused coping strategy (cognitive reappraisal) aimed at changing the emotional response to the stressor."
+          },
+          {
+            "id": 4941433,
+            "content": "Uncontrollable stressor",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. This classifies the stressor\u2019s controllability, not the athlete\u2019s coping strategy of reinterpreting feelings."
+          },
+          {
+            "id": 4941434,
+            "content": "Problem-focused coping",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Problem-focused coping targets changing the source of stress (e.g., altering preparation or strategy), rather than reframing the emotional response."
+          },
+          {
+            "id": 4941435,
+            "content": "Controllable stressor",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. This classifies the stressor as controllable, but the stem describes cognitive reappraisal (a coping response), not stressor type."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9ddaeacb-f429-42f2-bc5e-30c26b9883ba",
+        "specification": "Athletes must manage various psychological factors, including arousal and anxiety, to optimize their performance in competitive environments.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-07T08:16:46.815Z",
+              "reasoning": "Parts (c) and (d) focus on how different arousal levels change attentional focus and performance, and include Catastrophe Theory as an arousal\u2013performance model.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-07T08:16:46.815Z",
+              "reasoning": "Parts (b) and (d) explicitly address anxiety (trait anxiety and the interaction of anxiety with arousal on performance), aligning with anxiety\u2019s effects on performance.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:16:46.815Z",
+              "reasoning": "Part (e) asks about coping strategies athletes use under pressure (e.g., cognitive vs somatic), which maps onto coping strategy types (problem-/emotion-/avoidance-focused).",
+              "confidence": 0.84
+            },
+            {
+              "id": 29949,
+              "isHl": false,
+              "path": "C.2 Motor learning > C.2.2 Attentional control > C.2.2.1 Effective skill execution requires appropriate attentional focus",
+              "title": "C.2.2.1 Effective skill execution requires appropriate attentional focus",
+              "labeledAt": "2026-03-07T08:16:46.815Z",
+              "reasoning": "Part (c) specifically targets attentional focus changes with arousal, matching attentional control and appropriate attentional focus for effective skill execution.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1584425,
+        "parts": [
+          {
+            "id": 1139438,
+            "content": "Define trait anxiety and explain its influence on athletic performance.",
+            "order": 1,
+            "markscheme": "- **Define** trait anxiety as a personality characteristic that causes individuals to perceive situations as more threatening <marks>A1</marks>\n- **State** that athletes with high trait anxiety are more likely to experience state anxiety <marks>A1</marks>\n- **Explain** that performance can be impaired due to chronic overarousal or worry <marks>A1</marks>\n- **State** that these athletes may require consistent coping strategies to manage their performance <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139439,
+            "content": "Describe how attentional focus is affected by varying levels of arousal.",
+            "order": 2,
+            "markscheme": "- **State** that low arousal leads to broad focus and increased distractibility <marks>A1</marks>\n- **Explain** that moderate arousal allows for optimal focus and efficient information processing <marks>A1</marks>\n- **Describe** how high arousal results in a narrowed focus, which may cause an athlete to miss critical cues <marks>A1</marks>\n- **State** that over-arousal impairs decision-making and reaction time <marks>A1</marks>\n- **Conclude** that optimal attentional focus varies between different individuals and specific tasks <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139440,
+            "content": "Discuss how the Catastrophe Theory explains the interaction of arousal and anxiety on performance.",
+            "order": 3,
+            "markscheme": "- **Explain** that Catastrophe Theory describes a sudden, dramatic drop in performance under the combined effects of high cognitive anxiety and high arousal <marks>A1</marks>\n- **Contrast** this theory with the inverted-U model, noting that it is non-linear in nature <marks>A1</marks>\n- **Suggest** that recovery is difficult once performance deteriorates past the point of catastrophe <marks>A1</marks>\n- **Identify** the theory's usefulness in explaining the phenomenon of \u2018choking\u2019 in competitive sport <marks>A1</marks>\n- **Describe** how the theory encourages the development of individualized coping strategies to prevent such drops <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139441,
+            "content": "Evaluate how different types of coping strategies (cognitive vs somatic) can be used by athletes in high-pressure situations.",
+            "order": 4,
+            "markscheme": "- **Define** cognitive strategies (e.g., self-talk, imagery) as those targeting mental processes and thoughts <marks>A1</marks>\n- **Define** somatic strategies (e.g., breathing techniques, progressive muscle relaxation) as those targeting physical symptoms of anxiety <marks>A1</marks>\n- **Evaluate** that effectiveness often depends on matching the strategy to the source of anxiety (cognitive vs somatic) <marks>A1</marks>\n- **State** that in high-pressure situations, combining both types of strategies is often the most effective approach <marks>A1</marks>\n- **Discuss** how the athlete's skill level and experience with these strategies significantly influence their success <marks>A1</marks>\n- **Conclude** that application varies based on the sport, context, and the individual athlete's psychological profile <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "a5137ff9-c33b-4984-a007-a5a4ca814395",
+        "specification": "Which coping approach is most effective for stressors that are perceived as controllable?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:26:38.237Z",
+            "resultId": 30957
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T05:32:51.506Z",
+              "reasoning": "The question asks which coping approach is most effective for controllable stressors, directly testing understanding of problem-focused vs emotion-focused vs avoidance-focused coping strategies.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:32:51.506Z",
+              "reasoning": "It specifically hinges on the distinction between controllable and uncontrollable stressors when selecting an appropriate coping strategy.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1694902,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934697,
+            "content": "Avoidance strategies",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Avoidance strategies involve ignoring or distancing oneself from the stressor, which is typically ineffective for stressors within a performer's control."
+          },
+          {
+            "id": 4934698,
+            "content": "Problem-focused coping",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Problem-focused coping is used when a performer perceives they have some control over the situation, allowing them to manage or change the source of the stress directly."
+          },
+          {
+            "id": 4934699,
+            "content": "Emotion-focused coping",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Emotion-focused coping is generally more effective for stressors perceived as uncontrollable, as it focuses on managing the emotional distress associated with the situation."
+          },
+          {
+            "id": 4934700,
+            "content": "Seeking social support",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Seeking social support can help with emotional regulation and advice, but for controllable stressors the most effective approach is typically to address the cause directly (problem-focused coping)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b5a8ccd2-1d4e-4883-a17f-ef64f6e24592",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:16:57.241Z",
+              "reasoning": "Parts (b) and (c) explicitly ask to define coping and outline types of coping strategies (e.g., problem-, emotion-, avoidance-focused), which is directly covered by this leaf topic.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-07T08:16:57.241Z",
+              "reasoning": "Parts (d) and (f) focus on anxiety levels and the anxiety\u2013performance relationship via catastrophe theory, aligning with anxiety\u2019s effects on performance.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-07T08:16:57.241Z",
+              "reasoning": "The question addresses competitive stress and anxiety/arousal-performance mechanisms (including catastrophe theory), which depends on understanding arousal as activation affecting performance.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1584417,
+        "parts": [
+          {
+            "id": 1139424,
+            "content": "Define coping in the context of sports performance.",
+            "order": 1,
+            "markscheme": "- cognitive and behavioral efforts <marks>1</marks>\n- to manage stress and pressure in sport <marks>1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139425,
+            "content": "Outline two different types of coping strategies.",
+            "order": 2,
+            "markscheme": "- identifying two types of coping (e.g., problem-focused and emotion-focused) <marks>1</marks>\n- problem-focused coping involves addressing the source of stress directly (e.g., creating a game plan or seeking technical support) <marks>1</marks>\n- emotion-focused coping involves managing the emotional response to stress (e.g., using relaxation techniques or reappraisal) <marks>1</marks>\n\n3 marks total\n\n[Note: Avoidance coping is also an acceptable type.]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139426,
+            "content": "Explain how social support can influence anxiety levels.",
+            "order": 3,
+            "markscheme": "- encouragement from teammates reduces feelings of isolation <marks>1</marks>\n- support from coaches builds athlete confidence <marks>1</marks>\n- support systems create a sense of emotional safety <marks>1</marks>\n- helps athletes reframe competitive pressure positively <marks>1</marks>\n- reduces the overall fear of failure <marks>1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139427,
+            "content": "Discuss the role of self-efficacy in managing competitive stress.",
+            "order": 4,
+            "markscheme": "- belief in one\u2019s ability increases the sense of control and reduces anxiety <marks>1</marks>\n- high self-efficacy enhances the selection and application of coping efforts <marks>1</marks>\n- promotes task focus and persistence during challenging moments <marks>1</marks>\n- linked to greater performance resilience following setbacks <marks>1</marks>\n- can be strengthened through successful past experience/performance accomplishments <marks>1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139428,
+            "content": "Evaluate the relationship between anxiety and performance using catastrophe theory.",
+            "order": 5,
+            "markscheme": "- suggests performance drops sharply when physiological arousal exceeds an optimal threshold (if cognitive anxiety is high) <marks>1</marks>\n- high cognitive anxiety combined with high physiological arousal results in a performance \"collapse\" (catastrophe) <marks>1</marks>\n- the relationship between arousal and performance is non-linear (unlike the inverted-U) <marks>1</marks>\n- explains sudden performance drops not predicted by linear models <marks>1</marks>\n- emphasizes that recovery from a catastrophe requires a significant reduction in physiological arousal levels <marks>1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "b5f248b1-6ff1-46a3-8ecf-b4c908c2e274",
+        "specification": "Which concept is illustrated when a football team matches its coping strategy to whether the stressor is controllable (training intensity) or uncontrollable (weather)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:57:16.060Z",
+            "resultId": 30690
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:22:08.362Z",
+              "reasoning": "The scenario contrasts coping choices for controllable (training intensity) vs uncontrollable (weather) stressors, directly matching the controllable/uncontrollable stressor distinction in coping.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29961,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "title": "C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "labeledAt": "2026-03-06T05:22:08.362Z",
+              "reasoning": "It illustrates that coping effectiveness depends on the situation/context (different strategies work better depending on the stressor\u2019s controllability).",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1695299,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935977,
+            "content": "General adaptation syndrome",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935978,
+            "content": "Context-dependent coping effectiveness",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935979,
+            "content": "Avoidance-based coping",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935980,
+            "content": "Trait-based stress control",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b644f139-2e0d-426c-8559-5dfce00983b4",
+        "specification": "Which of the following would be considered an uncontrollable stressor for an athlete (i.e., not under the athlete\u2019s direct control)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:54:34.381Z",
+            "resultId": 30687
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:22:08.169Z",
+              "reasoning": "The question asks to identify an uncontrollable stressor for an athlete, directly matching the coping subtopic on differentiating controllable vs uncontrollable stressors.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1695585,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936729,
+            "content": "Their pre-match preparation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936730,
+            "content": "Opponent\u2019s unexpected strategy",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936731,
+            "content": "Nutrition choices",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936732,
+            "content": "Focus during training",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b98d8032-b54a-4265-ae86-dfb0a7fb27f8",
+        "specification": "Which statement about coping strategies is correct?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:45:04.998Z",
+            "resultId": 30149
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29961,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "title": "C.4.2.3 Effective coping strategies vary depending on the individual and situation (HL)",
+              "labeledAt": "2026-03-06T05:17:10.144Z",
+              "reasoning": "The stem asks which statement best illustrates the principle of coping strategies, and the correct idea is that coping effectiveness depends on context/individual differences (matches option D). This aligns directly with the HL leaf on variability of effective coping by individual and situation.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T05:17:10.144Z",
+              "reasoning": "The question is broadly about coping strategies; while it doesn\u2019t ask to distinguish problem-/emotion-/avoidance-focused types explicitly, it sits within the general coping strategies content area.",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 1695523,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936593,
+            "content": "They are universally effective for all individuals and situations.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936594,
+            "content": "Problem-focused coping is always the best approach to stress.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936595,
+            "content": "Emotion-focused coping is only used when a stressor is uncontrollable.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936596,
+            "content": "They vary in effectiveness depending on the context.",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ba315d15-d882-4aa8-8c8b-88bba4e6417d",
+        "specification": "This question examines the concepts of anxiety and stress management within the context of sport psychology.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-07T08:17:01.265Z",
+              "reasoning": "Parts b\u2013d focus directly on defining anxiety in sport, causes of pre-competition anxiety, and distinguishing cognitive vs somatic anxiety\u2014core to anxiety\u2019s effects on performance.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:17:01.265Z",
+              "reasoning": "Parts f and g require describing somatic coping strategies and how a coach helps athletes manage stress, aligning with coping strategy categories (problem-, emotion-, avoidance-focused).",
+              "confidence": 0.84
+            },
+            {
+              "id": 29962,
+              "isHl": false,
+              "path": "C.5 Psychological skills > C.5.1 Goal setting > C.5.1.1 Goal setting as a tool for enhancing motivation through outcome and performance goals",
+              "title": "C.5.1.1 Goal setting as a tool for enhancing motivation through outcome and performance goals",
+              "labeledAt": "2026-03-07T08:17:01.265Z",
+              "reasoning": "Part e explicitly asks how goal setting can reduce performance-related anxiety, matching goal setting as a psychological skill (outcome/performance goals) used to enhance motivation and manage anxiety.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1584401,
+        "parts": [
+          {
+            "id": 1139363,
+            "content": "Define anxiety in sport.",
+            "order": 1,
+            "markscheme": "Anxiety is a negative emotional state characterized by nervousness, apprehension, and worry, and associated with activation or arousal of the body <marks>1</marks>\n\n[1 mark total]",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139364,
+            "content": "Identify two common causes of pre-competition anxiety.",
+            "order": 2,
+            "markscheme": "\u25cf Fear of failure <marks>1</marks>\n\u25cf Importance of the event <marks>1</marks>\n\nNote: Other acceptable answers include lack of preparation, high expectations, or fear of evaluation.\n\n[2 marks total]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139365,
+            "content": "Outline the difference between cognitive and somatic anxiety.",
+            "order": 3,
+            "markscheme": "\u25cf Cognitive anxiety refers to the mental symptoms such as worry, negative expectations, and apprehension <marks>1</marks>\n\u25cf Somatic anxiety refers to the physical/physiological symptoms such as increased heart rate, sweating, and muscle tension <marks>1</marks>\n\u25cf Cognitive anxiety is typically present long before a competition, while somatic anxiety tends to peak just before the event begins <marks>1</marks>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139366,
+            "content": "Explain how goal setting can reduce performance-related anxiety.",
+            "order": 4,
+            "markscheme": "\u25cf Goal setting provides athletes with clear objectives, which reduces uncertainty and focuses attention <marks>1</marks>\n\u25cf It enhances self-confidence/self-efficacy when manageable and realistic goals are achieved <marks>1</marks>\n\u25cf Shifts the athlete's focus from the final outcome (winning) to the process (technique), reducing pressure <marks>1</marks>\n\u25cf It breaks overwhelming challenges into smaller, manageable steps, reducing the perception of threat <marks>1</marks>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139367,
+            "content": "Describe two somatic coping strategies used by athletes.",
+            "order": 5,
+            "markscheme": "\u25cf Deep breathing: involves taking slow, deep, and rhythmic breaths to lower heart rate and reduce physiological arousal <marks>1</marks>\n\u25cf This promotes a state of physical calmness and readiness <marks>1</marks>\n\u25cf Progressive muscle relaxation (PMR): involves systematically tensing and then releasing specific muscle groups to identify and release tension <marks>1</marks>\n\u25cf This helps the athlete recognize physical stiffness and achieve a state of physical relaxation <marks>1</marks>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139368,
+            "content": "Discuss how a coach can help athletes manage stress before a competition.",
+            "order": 6,
+            "markscheme": "\u25cf Provide reassurance and positive motivational feedback to build the athlete's self-belief <marks>1</marks>\n\u25cf Set realistic and attainable performance expectations to minimize the fear of failure <marks>1</marks>\n\u25cf Guide athletes through mental rehearsal or pre-performance routines to maintain focus and control <marks>1</marks>\n\u25cf Maintain a calm and positive demeanor to avoid transferring their own stress to the athlete <marks>1</marks>\n\u25cf Encourage open communication so that athletes feel supported and can express their concerns <marks>1</marks>\n\n[5 marks total]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "ba410793-fdbc-4cd0-b32b-996bb7f8f65a",
+        "specification": "Which of the following is an example of a positive stressor?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:12:14.410Z",
+            "resultId": 30145
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-06T05:17:08.148Z",
+              "reasoning": "The question asks for an example of a positive stressor (eustress), which relates to arousal as a psychological/physiological activation that can be interpreted positively and influence performance.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1696159,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938356,
+            "content": "Fear of losing a match",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938357,
+            "content": "Looking forward to an opportunity",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938358,
+            "content": "Chronic injury pain",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938359,
+            "content": "Despondency after failure",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "be2364b5-65f0-41d0-9658-ac95aa7b431a",
+        "specification": "Which of the following is an example of a positive stressor?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:28:37.460Z",
+            "resultId": 42282
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-06T16:00:36.979Z",
+              "reasoning": "The question asks about a 'positive stressor' (eustress), which is closely tied to arousal as a beneficial psychological/physiological activation (eg anticipation/excitement before an event) affecting performance.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-06T16:00:36.979Z",
+              "reasoning": "Differentiating positive versus negative stress-related states overlaps with anxiety concepts (eg anxiety before exams vs positive anticipation), fitting anxiety\u2019s effects on performance.",
+              "confidence": 0.56
+            }
+          ]
+        },
+        "currentRevisionId": 1696500,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939096,
+            "content": "Fear of injury",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939097,
+            "content": "Looking forward to an upcoming race",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939098,
+            "content": "Anxiety before exams",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939099,
+            "content": "Burnout after training",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c921e022-214a-4db9-a62a-ab8109e1b09f",
+        "specification": "An athlete is stressed because their opponent is performing well (an external factor). Which kind of stressor is this in terms of controllability?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:36:17.230Z",
+            "resultId": 30599
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:20:43.648Z",
+              "reasoning": "The question asks what type of stressor it is when an athlete worries about an opponent\u2019s performance, which maps directly to classifying stressors as controllable vs uncontrollable (the opponent\u2019s performance is outside the athlete\u2019s control).",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1695179,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935545,
+            "content": "Controllable",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935546,
+            "content": "Uncontrollable",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935547,
+            "content": "Positive",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935548,
+            "content": "Internal",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cc53d18b-fe41-441d-a943-30fb7808b8a0",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-07T17:37:14.990Z",
+              "reasoning": "Parts b and d focus on anxiety/arousal concepts and models linking arousal to performance (e.g., inverted-U), which fits arousal as physical/psychological activation affecting performance.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-07T17:37:14.990Z",
+              "reasoning": "Part b asks to define cognitive anxiety and measure it; part d critiques inverted-U and part e addresses coping with anxiety\u2014overall centered on anxiety and its effects.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29951,
+              "isHl": false,
+              "path": "C.3 Motivation > C.3.1 Achievement motivation > C.3.1.2 Goal orientation theory: task- vs. ego-oriented success perceptions",
+              "title": "C.3.1.2 Goal orientation theory: task- vs. ego-oriented success perceptions",
+              "labeledAt": "2026-03-07T17:37:14.990Z",
+              "reasoning": "Part c explicitly asks how goal orientation influences anxiety responses, matching task- vs ego-orientation theory.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T17:37:14.990Z",
+              "reasoning": "Part e evaluates biofeedback training and mental imagery as tools for coping with anxiety, aligning with coping strategies (emotion-focused/problem-focused/avoidance).",
+              "confidence": 0.63
+            },
+            {
+              "id": 29964,
+              "isHl": true,
+              "path": "C.5 Psychological skills > C.5.2 Imagery > C.5.2.1 Imagery mimics real experience using sensory modalities to improve performance (HL)",
+              "title": "C.5.2.1 Imagery mimics real experience using sensory modalities to improve performance (HL)",
+              "labeledAt": "2026-03-07T17:37:14.990Z",
+              "reasoning": "Part e specifically includes mental imagery as an intervention, directly matching the imagery topic.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1584385,
+        "parts": [
+          {
+            "id": 1139333,
+            "content": "Define cognitive anxiety and provide one way it can be measured.",
+            "order": 1,
+            "markscheme": "- Define cognitive anxiety as the mental component of anxiety, characterized by negative expectations, worry, and self-doubt <marks>A1</marks>\n- Identify that it can be measured using self-report questionnaires, such as the Competitive State Anxiety Inventory-2 (CSAI-2) <marks>A1</marks>\n- Explain that these measurement tools assess an athlete's perceived mental state and feelings of apprehension before or during competition <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139334,
+            "content": "Explain how goal orientation can influence anxiety responses in athletes.",
+            "order": 2,
+            "markscheme": "- Explain that task-oriented athletes focus on personal improvement and mastery, which typically leads to lower levels of cognitive anxiety <marks>A1</marks>\n- Explain that ego-oriented athletes focus on outperforming others, which increases the risk of state anxiety when their competence is threatened <marks>A1</marks>\n- State that athletes with high ego orientation may experience a heightened fear of failure in evaluative situations <marks>A1</marks>\n- Describe how goal orientation shapes an athlete's interpretation of environmental pressure as either a challenge or a threat <marks>R1</marks>\n- Discuss how goal orientation impacts the choice and perceived effectiveness of coping strategies used to manage stress <marks>R1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139335,
+            "content": "Discuss the limitations of the inverted-U hypothesis in describing the relationship between arousal and performance.",
+            "order": 3,
+            "markscheme": "- State that the inverted-U model assumes a consistent and symmetrical relationship between arousal and performance for all individuals <marks>A1</marks>\n- Explain that it fails to account for individual differences such as personality, skill level, and experience <marks>A1</marks>\n- Identify that the model fails to distinguish between the effects of cognitive anxiety and somatic anxiety (arousal) <marks>A1</marks>\n- Describe how the model does not explain the sudden and dramatic performance breakdowns (catastrophes) often observed in elite sport <marks>A1</marks>\n- Discuss how the hypothesis is considered overly simplistic and lacks empirical support across varied and complex sport contexts <marks>A1</marks>\n- Explain that the model does not effectively guide the selection of specific coping interventions for athletes <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139336,
+            "content": "Evaluate the use of biofeedback training and mental imagery as integrated tools for coping with anxiety in elite sport.",
+            "order": 4,
+            "markscheme": "- Describe how biofeedback training helps athletes monitor and learn to control physiological responses such as heart rate and muscle tension <marks>A1</marks>\n- Explain that biofeedback promotes increased awareness of somatic anxiety symptoms and their triggers <marks>A1</marks>\n- State that mental imagery enables the mental rehearsal of coping strategies, skill execution, and successful outcomes <marks>A1</marks>\n- Discuss how the integrated use of these tools allows athletes to regulate both cognitive and somatic anxiety simultaneously <marks>R1</marks>\n- Identify limitations such as the requirement for consistent practice, specialized equipment, and expert guidance <marks>R1</marks>\n- Conclude that these tools are highly effective when they are customized to the specific needs of the athlete and the competition context <marks>R1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "cc6592cc-0bce-4802-b499-a9e828a6df7c",
+        "specification": "Which option best describes stressors in sport?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:39:33.302Z",
+            "resultId": 42580
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-06T16:01:52.811Z",
+              "reasoning": "The question asks for the best description of stressors in sport (that they can have positive or negative effects), which aligns with the psychological understanding of stress/anxiety having facilitative or debilitative effects on performance.",
+              "confidence": 0.68
+            },
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-06T16:01:52.811Z",
+              "reasoning": "Stressors relate to arousal as a physical and psychological activation influencing performance, consistent with the idea that such activation can help or hinder performance depending on interpretation and context.",
+              "confidence": 0.46
+            }
+          ]
+        },
+        "currentRevisionId": 1696510,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939128,
+            "content": "Always harmful to performance",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939129,
+            "content": "Only physical, never psychological",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939130,
+            "content": "Can be positive or negative in their effect",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939131,
+            "content": "Do not influence emotional states",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cd411041-c43b-48b4-bad5-726476fe3c66",
+        "specification": "What does a stressor cause in athletes?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:39:46.645Z",
+            "resultId": 42560
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-06T16:01:46.444Z",
+              "reasoning": "A stressor in sport psychology is typically linked to anxiety/psychological strain responses in athletes, matching the option 'Psychological strain'.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-06T16:01:46.444Z",
+              "reasoning": "Stressors also relate to increased arousal (physical/psychological activation) which is closely connected to how athletes respond to stress.",
+              "confidence": 0.43
+            }
+          ]
+        },
+        "currentRevisionId": 1696511,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939132,
+            "content": "Increased psychological strain",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. A stressor is any demand that produces psychological and/or physiological stress, often experienced as psychological strain."
+          },
+          {
+            "id": 4939133,
+            "content": "Elevated heart rate",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. This can occur as a physiological response to stress, but the best answer focuses on the psychological effect (strain)."
+          },
+          {
+            "id": 4939134,
+            "content": "Reduced concentration",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. This can be a consequence of stress, but it is not the primary definition of what a stressor causes."
+          },
+          {
+            "id": 4939135,
+            "content": "Increased anxiety",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Anxiety can be a response to stressors, but the broader, most accurate effect is psychological strain."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d5c92de0-10e4-4f96-81f8-ea893b2986d3",
+        "specification": "The question assesses understanding of anxiety, its symptoms, theoretical frameworks, and management strategies in a sporting context.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-07T08:17:34.798Z",
+              "reasoning": "Core of the question is anxiety in sport: symptoms (somatic/physiological and cognitive/psychological), multidimensional anxiety theory, and how anxiety affects performance under pressure.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29949,
+              "isHl": false,
+              "path": "C.2 Motor learning > C.2.2 Attentional control > C.2.2.1 Effective skill execution requires appropriate attentional focus",
+              "title": "C.2.2.1 Effective skill execution requires appropriate attentional focus",
+              "labeledAt": "2026-03-07T08:17:34.798Z",
+              "reasoning": "Part (d) focuses on attentional narrowing and its effect on performance in high-pressure situations, which aligns with attentional focus/control for skill execution.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T08:17:34.798Z",
+              "reasoning": "Parts (e) and (f) address coping strategies (specifically somatic coping methods) and the coach\u2019s role in helping athletes manage anxiety, fitting coping strategy types and application.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1584426,
+        "parts": [
+          {
+            "id": 1139442,
+            "content": "State one physiological and one psychological symptom of anxiety.",
+            "order": 1,
+            "markscheme": "- State a physiological symptom, such as increased heart rate <marks>A1</marks>\n- State a psychological symptom, such as fear of failure <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable physiological symptoms include sweating, muscle tension, and nausea. Other acceptable psychological symptoms include worry and difficulty concentrating. Award 1 mark for any one physiological and 1 mark for any one psychological symptom.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139443,
+            "content": "Outline the multidimensional anxiety theory.",
+            "order": 2,
+            "markscheme": "- Outline that anxiety consists of two distinct components: cognitive and somatic <marks>A1</marks>\n- Outline that cognitive anxiety negatively affects performance in a linear fashion <marks>A1</marks>\n- Outline that somatic anxiety follows an inverted-U shape in relation to performance <marks>A1</marks>\n- Explain that the theory highlights how these components have independent effects on an athlete's performance <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139444,
+            "content": "Explain how attentional narrowing affects performance in high-pressure sports.",
+            "order": 3,
+            "markscheme": "- Explain that excessive arousal leads to a narrowing of the athlete's attentional field <marks>A1</marks>\n- Explain that athletes may miss important environmental cues because of this narrowing <marks>A1</marks>\n- Explain that missing cues leads to poor decision-making during the performance <marks>A1</marks>\n- Explain how high anxiety impairs the athlete's overall situational awareness <marks>A1</marks>\n- Explain that attentional narrowing can lead to an overfocus on irrelevant or internal stimuli <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139445,
+            "content": "Discuss two somatic coping strategies used by athletes.",
+            "order": 4,
+            "markscheme": "- Describe deep breathing as a technique to reduce physical symptoms and calm nerves <marks>A1</marks>\n- Describe progressive muscle relaxation (PMR) as a method to systematically reduce muscular tension <marks>A1</marks>\n- Explain that both strategies help the athlete regulate their physical arousal levels <marks>A1</marks>\n- Outline how these strategies can be effectively integrated into pre-performance routines <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139446,
+            "content": "Evaluate the role of coaches in helping athletes manage anxiety.",
+            "order": 5,
+            "markscheme": "- State that coaches can set realistic goals and reduce external pressure on the athlete <marks>A1</marks>\n- Explain how coaches provide psychological and emotional support during stressful periods <marks>A1</marks>\n- Outline the coach's role in helping athletes develop and implement effective coping routines <marks>A1</marks>\n- Describe how coaches act as emotional anchors to stabilize the athlete during competition <marks>A1</marks>\n- Conclude that the coach is fundamental to fostering long-term psychological resilience <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "d9612146-b269-4c22-b237-7eb783a683ca",
+        "specification": "A swimmer uses imagery to stay calm before a race. This strategy is best described as:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:07:00.156Z",
+            "resultId": 41950
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T15:58:16.068Z",
+              "reasoning": "The question asks which coping strategy imagery to stay calm best represents; this maps directly to classifying coping as problem-focused, emotion-focused, or avoidance-focused.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29964,
+              "isHl": true,
+              "path": "C.5 Psychological skills > C.5.2 Imagery > C.5.2.1 Imagery mimics real experience using sensory modalities to improve performance (HL)",
+              "title": "C.5.2.1 Imagery mimics real experience using sensory modalities to improve performance (HL)",
+              "labeledAt": "2026-03-06T15:58:16.068Z",
+              "reasoning": "Imagery is the technique being used; although the item is framed around coping classification, it still involves understanding imagery as a psychological skill.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 1696804,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939576,
+            "content": "Emotion-focused coping",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. Using imagery to regulate feelings (eg reduce anxiety, stay calm) is an emotion-focused coping strategy."
+          },
+          {
+            "id": 4939577,
+            "content": "Avoidance coping",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Avoidance coping involves disengaging/withdrawing from the stressor rather than using a technique (like imagery) to manage emotions while still preparing to perform."
+          },
+          {
+            "id": 4939578,
+            "content": "Problem-focused coping",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Problem-focused coping targets the source of stress (eg changing tactics, planning, seeking information), not primarily regulating emotions."
+          },
+          {
+            "id": 4939579,
+            "content": "Appraisal-focused coping",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Appraisal-focused coping involves changing the interpretation of the stressor (cognitive reappraisal), whereas the stem describes using imagery specifically to remain calm (emotion regulation)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e9c0c391-87c0-4cc2-b56c-11357c1be62f",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-07T17:36:30.795Z",
+              "reasoning": "Parts (b) and (d) focus on defining arousal, distinguishing it from anxiety, and explaining effects of under-arousal on performance.",
+              "confidence": 0.91
+            },
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-07T17:36:30.795Z",
+              "reasoning": "Parts (b) and (e) require understanding anxiety and how it influences performance, including its interaction with personality.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-07T17:36:30.795Z",
+              "reasoning": "Part (c) asks for long- and short-term coping strategies, aligning with problem-, emotion-, and avoidance-focused coping approaches.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29964,
+              "isHl": true,
+              "path": "C.5 Psychological skills > C.5.2 Imagery > C.5.2.1 Imagery mimics real experience using sensory modalities to improve performance (HL)",
+              "title": "C.5.2.1 Imagery mimics real experience using sensory modalities to improve performance (HL)",
+              "labeledAt": "2026-03-07T17:36:30.795Z",
+              "reasoning": "Part (f) evaluates imagery specifically as a stress-reduction tool, directly matching the imagery topic.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29939,
+              "isHl": false,
+              "path": "C.1 Individual differences > C.1.1 Personality > C.1.1.1 Personality traits and their influence on thinking, behavior, and performance",
+              "title": "C.1.1.1 Personality traits and their influence on thinking, behavior, and performance",
+              "labeledAt": "2026-03-07T17:36:30.795Z",
+              "reasoning": "Part (e) discusses how personality interacts with anxiety in performance, requiring knowledge of personality traits and their influence on performance.",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1584436,
+        "parts": [
+          {
+            "id": 1139448,
+            "content": "Define arousal and explain how it differs from anxiety.",
+            "order": 1,
+            "markscheme": "- **Define** arousal as a general state of alertness or activation. <marks>A1</marks>\n- **Explain** that arousal differs from anxiety by being neutral and not always negative. <marks>A1</marks>\n- **Explain** that anxiety involves emotional distress or a negative emotional state. <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139449,
+            "content": "Outline two long-term and two short-term coping strategies.",
+            "order": 2,
+            "markscheme": "Long-term strategies:\n- **Outline** goal setting, which provides direction and sustained motivation. <marks>A1</marks>\n- **Outline** mental skills training, which develops resilience and focus over time. <marks>A1</marks>\n\nShort-term strategies:\n- **Outline** deep breathing, which reduces physiological arousal immediately. <marks>A1</marks>\n- **Outline** positive self-talk, which manages immediate negative thoughts and boosts confidence. <marks>A1</marks>\n\n4 marks total\n\n<note>Other acceptable answers include:\n- Long-term: developing pre-performance routines, building social support.\n- Short-term: visualization, progressive muscle relaxation.\n(Accept any two of each.)</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139450,
+            "content": "Explain how under-arousal can negatively affect athletic performance.",
+            "order": 3,
+            "markscheme": "- **Explain** that low arousal causes a lack of focus and motivation. <marks>A1</marks>\n- **Explain** how under-arousal reduces reaction time and alertness. <marks>A1</marks>\n- **State** that low levels of arousal may lead to careless mistakes in skill execution. <marks>A1</marks>\n- **Explain** that athletes may feel disengaged from the task or competitive environment. <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139451,
+            "content": "Discuss the interaction of personality and anxiety in performance.",
+            "order": 4,
+            "markscheme": "- **Discuss** how high trait anxiety increases vulnerability to state anxiety in competitive situations. <marks>A1</marks>\n- **Discuss** how introverts may experience more intense or debilitating anxiety symptoms compared to extroverts. <marks>A1</marks>\n- **Explain** that personality traits affect an athlete's perception of situational pressure. <marks>A1</marks>\n- **Outline** how personality influences the choice and effectiveness of specific coping strategies. <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1139452,
+            "content": "Evaluate the use of imagery as a stress reduction tool.",
+            "order": 5,
+            "markscheme": "- **Explain** how mental rehearsal reduces uncertainty and builds confidence. <marks>A1</marks>\n- **Explain** how imagery builds familiarity with performance scenarios and sequences. <marks>A1</marks>\n- **Outline** the use of imagery to simulate pressure situations to improve coping mechanisms. <marks>A1</marks>\n- **State** that imagery enhances emotional regulation and attentional focus. <marks>A1</marks>\n- **Evaluate** that the effectiveness of imagery depends on the athlete's skill level and the consistency of its use. <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "eb2b2efc-8926-4faa-a8b3-a66860063e8a",
+        "specification": "Which of the following is most likely to be appraised as distress (negative stress) in sport?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:31:12.822Z",
+            "resultId": 30757
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29958,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.2 Anxiety's dual effect",
+              "title": "C.4.1.2 Anxiety's dual effect",
+              "labeledAt": "2026-03-06T05:26:51.291Z",
+              "reasoning": "Identifying a negative stressor (fear of an outcome) aligns with anxiety in sport and its effects, distinguishing negative psychological responses from positive arousal/motivation.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29957,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.1 Arousal and anxiety > C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "title": "C.4.1.1 Arousal as a physical and psychological activation affecting performance",
+              "labeledAt": "2026-03-06T05:26:51.291Z",
+              "reasoning": "The options contrast positive arousal (excitement) with negative stress (fear), so understanding arousal concepts helps classify the stressor as negative.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695158,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935473,
+            "content": "Excitement before competition",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935474,
+            "content": "Fear of an outcome",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935475,
+            "content": "Motivation to improve",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935476,
+            "content": "Desire to succeed",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f507c511-4c79-43a0-9173-2044c36d28c5",
+        "specification": "Which situation best represents a controllable stressor?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:03:37.948Z",
+            "resultId": 41727
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T15:56:56.952Z",
+              "reasoning": "The question asks which situation is a controllable stressor, directly matching the coping concept of distinguishing controllable vs uncontrollable stressors.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696935,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940060,
+            "content": "An opponent's unexpected performance",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940061,
+            "content": "Poor weather during a match",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940062,
+            "content": "An athlete's own preparation and training schedule",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940063,
+            "content": "Referee decisions in competition",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fe55c27a-1638-4e78-980c-b20c658cec38",
+        "specification": "A swimmer uses imagery (mental rehearsal) of a successful race to manage anxiety before competing. This is an example of:",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:36:44.159Z",
+            "resultId": 30566
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29959,
+              "isHl": false,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "title": "C.4.2.1 Coping strategies: problem-focused, emotion-focused, and avoidance-focused approaches",
+              "labeledAt": "2026-03-06T05:20:09.644Z",
+              "reasoning": "The question asks to classify visualization used to reduce anxiety into problem-focused, avoidance, or emotion-focused coping\u2014this is directly about types of coping strategies.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695181,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935553,
+            "content": "Problem-focused coping",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935554,
+            "content": "Avoidance strategy",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935555,
+            "content": "Emotion-focused coping",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935556,
+            "content": "Positive self-talk",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "febaf677-2c42-47cd-bd8b-704f129c7317",
+        "specification": "Why might identifying controllable vs. uncontrollable stressors be useful for athletes?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:39:41.978Z",
+            "resultId": 30565
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29960,
+              "isHl": true,
+              "path": "C.4 Stress and coping > C.4.2 Coping > C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "title": "C.4.2.2 Differentiating controllable and uncontrollable stressors in coping strategies (HL)",
+              "labeledAt": "2026-03-06T05:20:01.838Z",
+              "reasoning": "The question explicitly asks about the usefulness of identifying controllable vs. uncontrollable stressors for athletes, which directly matches this coping sub-topic.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695198,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935609,
+            "content": "It helps focus coping strategies on factors the athlete can influence.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: distinguishing controllable vs uncontrollable stressors allows athletes to direct problem-focused coping at controllable factors and use emotion-focused/acceptance strategies for uncontrollable ones."
+          },
+          {
+            "id": 4935610,
+            "content": "It encourages athletes to treat all stressors as controllable and apply problem-focused coping to everything.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: misclassifying uncontrollable stressors as controllable can lead to ineffective coping and increased frustration."
+          },
+          {
+            "id": 4935611,
+            "content": "It helps athletes avoid engaging with uncontrollable stressors altogether, rather than managing their response to them.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: uncontrollable stressors often still require emotion-focused coping (e.g., reframing, relaxation) rather than avoidance."
+          },
+          {
+            "id": 4935612,
+            "content": "It allows athletes to ignore controllable stressors and focus only on regulating emotions during performance.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: controllable stressors are often best addressed with problem-focused coping (e.g., planning, skill practice), not ignored."
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "41",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 21883,
+      "title": "C.4.2 Coping",
+      "slug": "ib-sehs-new-c42-coping",
+      "parentTopicId": 21881
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "41",
+      "byQuestion": {}
+    }
+  }
+}

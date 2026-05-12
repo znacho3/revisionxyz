@@ -1,3 +1,3472 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:59524af8506874c9588b6ef9f43ffeb26f4660a18b41d9a602a79045949d3533
-size 168451
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0833ece0-ba8b-476d-9763-bd37ccb0939f",
+        "specification": "What is the main effect of low sodium levels (hyponatremia) during endurance events?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:16:20.007Z",
+            "resultId": 42688
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T16:02:50.400Z",
+              "reasoning": "Hyponatremia refers to low blood sodium during endurance events, directly relating to water and electrolyte balance and its effects (e.g., cramps, confusion).",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1696433,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938840,
+            "content": "Headache and nausea",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938841,
+            "content": "Muscle cramps and confusion",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938842,
+            "content": "Dizziness and low blood pressure",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938843,
+            "content": "Decreased sweat rate",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0b6841eb-143a-4e2b-93cc-49fb8d2176a0",
+        "specification": "Which electrolyte is most commonly recommended for replacement due to the greatest loss in sweat during exercise?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T10:00:47.319Z",
+            "resultId": 30077
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:16:37.872Z",
+              "reasoning": "The question asks which electrolyte is most commonly lost in sweat during exercise, which directly concerns water and electrolyte balance and electrolyte loss through sweating.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695630,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936885,
+            "content": "Magnesium",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936886,
+            "content": "Sodium",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936887,
+            "content": "Potassium",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936888,
+            "content": "Chloride",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0f6bff36-641b-42f0-8229-9cf795891dfe",
+        "specification": "Which mechanism causes water to follow sodium during rehydration?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:20:57.940Z",
+            "resultId": 30986
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:36:54.502Z",
+              "reasoning": "The question asks about the mechanism by which water follows sodium during rehydration (osmosis driven by electrolyte gradients), which is part of water and electrolyte balance.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1694870,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934569,
+            "content": "Osmosis",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. Sodium absorption creates an osmotic gradient, causing water to follow by osmosis into the bloodstream."
+          },
+          {
+            "id": 4934570,
+            "content": "Diffusion",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Diffusion is the passive movement of solutes down their concentration gradient; it does not explain bulk water movement following sodium during rehydration."
+          },
+          {
+            "id": 4934571,
+            "content": "Filtration",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Filtration refers to movement driven mainly by hydrostatic pressure (e.g. at capillaries/glomeruli), not the osmotic water movement that follows sodium absorption."
+          },
+          {
+            "id": 4934572,
+            "content": "Active transport",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Active transport moves sodium (e.g. via Na$^+$/K$^+$ pumps), but the mechanism by which water follows sodium is osmosis."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "118959ae-95b2-4fbf-9450-1f75728397ed",
+        "specification": "Why is potassium important for restoring neuromuscular function after intense training?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:02:58.355Z",
+            "resultId": 30668
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:21:51.282Z",
+              "reasoning": "The question asks about potassium\u2019s role in recovery; potassium is a key electrolyte for maintaining/restoring electrical activity in muscle and nerve cells, which is covered under water and electrolyte balance.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695338,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936089,
+            "content": "It stimulates glycogen synthesis in the liver.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936090,
+            "content": "It helps restore normal electrical function in muscle and nerve cells.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936091,
+            "content": "It promotes the reuptake of calcium into the sarcoplasmic reticulum to aid muscle relaxation.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936092,
+            "content": "It is required for the formation of lactic acid, reducing fatigue.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "11c18c95-7aed-4934-bc47-ca485805f17c",
+        "specification": "Why is sodium essential in maintaining fluid balance during exercise?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:56:31.884Z",
+            "resultId": 30667
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:21:50.970Z",
+              "reasoning": "The question asks about sodium\u2019s role in maintaining fluid balance during exercise via osmotic balance and water retention, which is directly about water and electrolyte balance.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695291,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935957,
+            "content": "It stimulates sweat production to enhance cooling",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935958,
+            "content": "It maintains osmotic balance and helps retain water",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935959,
+            "content": "It is the main electrolyte inside cells and drives fluid into the cell",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935960,
+            "content": "It promotes rapid glucose uptake into muscle independently of water movement",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1cd971d0-f3af-4484-979d-351ce94551e7",
+        "specification": "An ultramarathon runner overhydrates by drinking excessive plain water without electrolytes. Which condition is most likely to occur?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:16:28.079Z",
+              "reasoning": "The scenario describes excessive intake of plain water without electrolytes during endurance exercise, leading to dilution of blood sodium (exercise-associated hyponatremia). This directly tests water and electrolyte balance.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1419824,
+        "parts": [],
+        "options": [
+          {
+            "id": 4150813,
+            "content": "Hypernatremia",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4150814,
+            "content": "Hyponatremia",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4150815,
+            "content": "Hypoglycemia",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4150816,
+            "content": "Hyperthermia",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "20912b64-0136-422e-ae4d-fa07e9228229",
+        "specification": "A group of mountain hikers are trekking mount everest. ",
+        "questionType": null,
+        "level": "sl",
+        "paper": null,
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 816063,
+        "parts": [
+          {
+            "id": 481661,
+            "content": "Outline the consequences of high altitude on fluid balance and performance",
+            "order": 0,
+            "markscheme": "- Increased insensible water loss/increased evaporative water loss from respiratory surfaces <marks>1 mark</marks>\n- Increased urine output/increased diuresis <marks>1 mark</marks>\n- Dehydration/fluid imbalance <marks>1 mark</marks>\n- dehyrdation leads to decreased performance  <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [
+          {
+            "id": 1637325,
+            "content": "",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1637326,
+            "content": "",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1637327,
+            "content": "",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1637328,
+            "content": "",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "22aaed62-ea3c-4e90-b5b1-94d5296ca14f",
+        "specification": "Which electrolyte is most important for triggering skeletal muscle contraction during exercise?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:18:38.039Z",
+            "resultId": 42627
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T16:02:24.176Z",
+              "reasoning": "The question asks which electrolyte is most important for muscle contraction during exercise, directly linking electrolyte function to physiological performance; this fits water and electrolyte balance.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1696449,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938892,
+            "content": "Calcium",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4938893,
+            "content": "Sodium",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4938894,
+            "content": "Potassium",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4938895,
+            "content": "Magnesium",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a515ece-ef66-4198-9035-3ce08ed5bfa5",
+        "specification": "Why do sports drinks often contain carbohydrates as well as electrolytes?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:19:57.429Z",
+            "resultId": 42578
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-06T16:01:51.932Z",
+              "reasoning": "The question asks why sports drinks include carbohydrates; carbohydrates are a macronutrient used to provide energy to working muscles during exercise.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T16:01:51.932Z",
+              "reasoning": "Sports drinks are also discussed in the context of hydration because they contain electrolytes; this links to water and electrolyte balance, though the stem focuses more on carbohydrates.",
+              "confidence": 0.56
+            }
+          ]
+        },
+        "currentRevisionId": 1696456,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938920,
+            "content": "To slow gastric emptying, which can prolong fluid delivery",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect."
+          },
+          {
+            "id": 4938921,
+            "content": "To provide energy for working muscles",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct."
+          },
+          {
+            "id": 4938922,
+            "content": "To help maintain blood glucose during prolonged exercise",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect."
+          },
+          {
+            "id": 4938923,
+            "content": "To enhance sodium and water absorption via sodium\u2013glucose co-transport in the intestine",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2cdcc3b7-62b7-41bd-8272-df9e7e1b1f9d",
+        "specification": "After cycling in hot conditions, why might an athlete experience muscle cramps?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:51:33.529Z",
+            "resultId": 31322
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:40:18.989Z",
+              "reasoning": "Muscle cramps after cycling in hot conditions are commonly linked to dehydration and electrolyte loss (notably sodium and potassium) through sweating, directly matching water and electrolyte balance.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1694826,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934393,
+            "content": "Increased muscle glycogen storage",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934394,
+            "content": "Excess adrenaline secretion",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934395,
+            "content": "Loss of sodium and potassium through sweat",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct answer: C"
+          },
+          {
+            "id": 4934396,
+            "content": "Dehydration leading to reduced plasma volume",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2e2db904-1deb-4e9c-9ed5-9f5ab824b160",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T17:37:09.444Z",
+              "reasoning": "All parts focus on hydration physiology: potassium roles, consequences of excess water without electrolytes (hyponatremia), osmoregulation during prolonged exercise, hydration effects on thermoregulation, and endurance adaptations for fluid/electrolyte efficiency.",
+              "confidence": 0.97
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T17:37:09.444Z",
+              "reasoning": "Explicitly examines homeostatic control mechanisms\u2014osmoregulation and thermoregulation as homeostasis processes during exercise.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-07T17:37:09.444Z",
+              "reasoning": "Osmoregulation/thermoregulation during exercise typically involves endocrine control (e.g., ADH, aldosterone), which is relevant to explaining regulation mechanisms.",
+              "confidence": 0.62
+            },
+            {
+              "id": 30051,
+              "isHl": true,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.2 Acute and long-term responses of the body to environmental changes (HL)",
+              "title": "A.1.2.2 Acute and long-term responses of the body to environmental changes (HL)",
+              "labeledAt": "2026-03-07T17:37:09.444Z",
+              "reasoning": "Addresses acute and long-term responses/adaptations related to environmental/exercise stress (prolonged exercise, trained endurance adaptations, chronic dehydration effects).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583652,
+        "parts": [
+          {
+            "id": 1137469,
+            "content": "State two functions of potassium in exercise physiology.",
+            "order": 1,
+            "markscheme": "- Helps regulate fluid balance within cells <marks>1</marks>\n- Supports nerve impulse transmission <marks>1</marks>\n- Supports muscle contraction <marks>1</marks>\n- Aids in maintaining blood pressure <marks>1</marks>\n\nNote: Award [1] each for any two functions identified, up to [2 max].",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137470,
+            "content": "Identify two consequences of excessive water intake without electrolyte replacement.",
+            "order": 2,
+            "markscheme": "- Hyponatremia (low blood sodium levels) <marks>1</marks>\n- Muscle cramps or weakness <marks>1</marks>\n- Confusion <marks>1</marks>\n- Nausea <marks>1</marks>\n- Seizures <marks>1</marks>\n\nNote: Award [1] each for any two consequences identified, up to [2 max].",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137471,
+            "content": "Describe the process of osmoregulation during prolonged exercise.",
+            "order": 3,
+            "markscheme": "- Hypothalamus detects changes in plasma osmolality <marks>1</marks>\n- ADH (Antidiuretic hormone) is secreted by the pituitary gland to increase water reabsorption <marks>1</marks>\n- Kidneys reduce urine output to conserve fluids <marks>1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137472,
+            "content": "Explain how thermoregulation is influenced by hydration status.",
+            "order": 4,
+            "markscheme": "- Dehydration reduces sweat rate and evaporative heat loss <marks>1</marks>\n- Leads to an increase in core body temperature <marks>1</marks>\n- Dehydration decreases plasma volume, leading to increased cardiovascular strain (e.g., higher heart rate) <marks>1</marks>\n- This overall impairment in cooling reduces performance in endurance events <marks>1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137473,
+            "content": "Outline adaptations in trained endurance athletes that improve fluid and electrolyte efficiency.",
+            "order": 5,
+            "markscheme": "- Enhanced sweat composition (less sodium lost per liter of sweat) <marks>1</marks>\n- Improved plasma volume maintenance/expansion <marks>1</marks>\n- Faster rehydration due to more efficient sodium-water retention <marks>1</marks>\n- More sensitive thirst mechanism, initiating fluid replacement sooner <marks>1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137474,
+            "content": "Discuss the physiological effects of chronic dehydration on athletic performance and recovery.",
+            "order": 6,
+            "markscheme": "- Reduces blood volume, leading to decreased oxygen and nutrient delivery to working muscles <marks>1</marks>\n- Impairs thermoregulation, increasing the risk of heat-related illnesses <marks>1</marks>\n- Elevates heart rate and perceived effort (RPE) during exercise <marks>1</marks>\n- Slows removal of metabolic waste products, which impairs the recovery process <marks>1</marks>\n- Reduces cognitive function, affecting decision-making, reaction time, and coordination <marks>1</marks>\n- Electrolyte imbalances can lead to impaired muscle contractions or persistent cramping <marks>1</marks>\n- Delayed glycogen resynthesis post-exercise <marks>1</marks>\n\nNote: Award [1] each for any five physiological effects discussed, up to [5 max].",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "342b722a-3f1f-4bd0-a5a1-9893d18e8bdf",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:18:15.934Z",
+              "reasoning": "All parts focus on hydration: functions and loss of water, dehydration symptoms, electrolyte role in fluid balance, physiological responses to fluid loss during exercise, and impacts on aerobic performance and prolonged activity\u2014core water/electrolyte balance content.",
+              "confidence": 0.97
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:18:15.934Z",
+              "reasoning": "Parts (d) and especially (e) address body regulatory responses to fluid loss (homeostatic mechanisms such as thermoregulation, hormonal control, thirst/urine adjustments), which fits maintaining homeostasis.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1697594,
+        "parts": [
+          {
+            "id": 1159989,
+            "content": "State one function of water in the human body and one way it is lost.",
+            "order": 0,
+            "markscheme": "- Function: regulates body temperature through sweating. <marks>1 mark</marks> \n\n- Loss: through urine. <marks>1 mark</marks> \n\n<note>\nOther acceptable answers: \n- Function \u2013 aids in nutrient transport, lubricates joints\n- Loss \u2013 through sweat, exhalation, feces - any one of each)\n</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159990,
+            "content": "Identify two symptoms of mild dehydration.",
+            "order": 1,
+            "markscheme": "- Thirst. <marks>1 mark</marks>  \n\n- Dry mouth. <marks>1 mark</marks> \n\n<note>\n(Other acceptable answers: headache, fatigue, reduced urine output - any two)\n</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159991,
+            "content": "Describe how electrolytes contribute to hydration balance.",
+            "order": 2,
+            "markscheme": "- Sodium helps retain fluid in the body. <marks>1 mark</marks> \n\n- Potassium assists in muscle contraction and intracellular osmotic balance. <marks>1 mark</marks> \n\n- Chloride maintains osmotic pressure. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159992,
+            "content": "Explain four ways the body responds to fluid loss during exercise.",
+            "order": 3,
+            "markscheme": "- Increased heart rate \u2013 to maintain cardiac output as blood volume decreases. <marks>1 mark</marks> \n\n- Reduced sweat rate \u2013 to conserve remaining body fluids. <marks>1 mark</marks> \n\n- Increased core temperature \u2013 due to impaired thermoregulation. <marks>1 mark</marks> \n\n- Release of antidiuretic hormone (ADH) \u2013 promotes water reabsorption in kidneys to limit fluid loss. <marks>1 mark</marks> \n\n<note>\nOther acceptable answers: decreased urine output, vasoconstriction to maintain blood pressure, feeling of thirst to encourage fluid intake\n</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159993,
+            "content": "Outline how dehydration affects aerobic performance.",
+            "order": 4,
+            "markscheme": "- Dehydration reduces plasma volume, decreasing blood flow to working muscles. <marks>1 mark</marks> \n\n- Less blood flow impairs oxygen delivery, lowering aerobic capacity. <marks>1 mark</marks> \n\n- Thermoregulation becomes less efficient, leading to increased core temperature. <marks>1 mark</marks> \n\n- Increased heart rate and perceived exertion reduce endurance performance. <marks>1 mark</marks> \n\n<note>\nOther acceptable answers: electrolyte imbalance affecting muscle function, early onset of fatigue during prolonged activity\n</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159994,
+            "content": "Discuss the importance of maintaining fluid and electrolyte balance during prolonged physical activity.",
+            "order": 5,
+            "markscheme": "- Prevents dehydration, which can impair thermoregulation and cardiovascular function. <marks>1 mark</marks> \n\n- Maintains blood volume, ensuring effective oxygen and nutrient delivery to working muscles. <marks>1 mark</marks> \n\n- Supports muscle function by preserving sodium, potassium, and other electrolyte concentrations necessary for nerve impulses and contractions. <marks>1 mark</marks> \n\n- Reduces the risk of heat-related illnesses such as heat exhaustion or heatstroke. <marks>1 mark</marks> \n\n- Aids in sustaining performance and delaying fatigue by preserving physiological efficiency and preventing cramps. <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3534b4cc-e547-4147-93cc-24cbc6c5b235",
+        "specification": "An endurance runner (70 kg) completes a 90-minute training run.\n\nEnvironmental conditions and intake:\n- Day 1: $30\\,^{\\circ}\\mathrm{C}$, 70% relative humidity; drinks 0.5 L of plain water.\n- Day 2: $10\\,^{\\circ}\\mathrm{C}$, 40% relative humidity; drinks 0.5 L of a sports drink containing 20 mmol L$^{-1}$ sodium.\n\nMeasured data:\n\n| Condition | Sweat rate (L h$^{-1}$) | Estimated respiratory water loss (L h$^{-1}$) |\n|---|---:|---:|\n| Day 1 (hot/humid) | 1.2 | 0.20 |\n| Day 2 (cool) | 0.6 | 0.15 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:02:33.496Z",
+            "resultId": 42714
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T16:02:52.687Z",
+              "reasoning": "All parts focus on hydration during exercise: causes of fluid loss, hyponatremia, functions of water, fluid replacement strategies, and sodium/potassium roles\u2014core content of water and electrolyte balance.",
+              "confidence": 0.97
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T16:02:52.687Z",
+              "reasoning": "Questions about regulating hydration status and electrolyte balance (eg sodium/potassium, hyponatremia) link to maintaining homeostasis mechanisms, though primarily framed within hydration/nutrition.",
+              "confidence": 0.48
+            }
+          ]
+        },
+        "currentRevisionId": 1696711,
+        "parts": [
+          {
+            "id": 1158985,
+            "content": "Identify two causes of fluid loss during exercise.",
+            "order": 0,
+            "markscheme": "- Sweating (loss of water in sweat) <marks>1 mark</marks>\n- Increased ventilation/respiration leading to water loss from the lungs <marks>1 mark</marks>\n\nOR\n\n- Urination (increased urine output) <marks>1 mark</marks>\n- Vomiting/diarrhoea (gastrointestinal fluid loss) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158986,
+            "content": "State two effects of hyponatremia (low blood sodium).",
+            "order": 1,
+            "markscheme": "- Nausea <marks>1 mark</marks>\n- Headache <marks>1 mark</marks>\n- Confusion/disorientation <marks>1 mark</marks>\n- Seizures (severe cases) <marks>1 mark</marks>\n- Muscle cramps/weakness <marks>1 mark</marks>\n\n<Note> Any two",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158987,
+            "content": "Describe three functions of water during physical activity.",
+            "order": 2,
+            "markscheme": "- Regulates body temperature via sweat production and evaporation from the skin <marks>1 mark</marks>\n- Maintains plasma volume/blood volume to support stroke volume and blood pressure during exercise <marks>1 mark</marks>\n- Transports nutrients/oxygen and removes metabolic waste products (e.g. via blood plasma) <marks>1 mark</marks>\n- Lubricates joints and acts as a shock absorber (synovial fluid) <marks>1 mark</marks>\n- Supports digestion/absorption and metabolic reactions (solvent/medium) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158988,
+            "content": "Explain how fluid replacement strategies can prevent a decline in performance in endurance events, with reference to the scenario.",
+            "order": 3,
+            "markscheme": "- Replacing fluid limits dehydration and associated reductions in endurance performance (e.g. earlier fatigue/increased perceived exertion) <marks>1 mark</marks>\n- Maintains plasma/blood volume, supporting stroke volume/cardiac output and oxygen delivery to working muscles <marks>1 mark</marks>\n- Supports thermoregulation by allowing continued sweating and limiting excessive rises in core temperature (particularly relevant on Day 1) <marks>1 mark</marks>\n- Reduces cardiovascular drift and helps sustain pace/power output during prolonged exercise <marks>1 mark</marks>\n- Using an appropriate drink composition (water vs electrolyte-containing drink) can help maintain sodium balance and reduce risk of hyponatremia when large volumes are consumed <marks>1 mark</marks>\n- Helps maintain cognitive function/decision-making and reduces risk of cramping associated with fluid\u2013electrolyte disturbance <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158989,
+            "content": "Outline the roles of sodium and potassium in regulating hydration status.",
+            "order": 4,
+            "markscheme": "- Sodium is the main extracellular cation; helps maintain extracellular osmolality and water retention <marks>1 mark</marks>\n- Sodium supports water absorption in the small intestine (sodium\u2013glucose co-transport), improving fluid uptake during exercise <marks>1 mark</marks>\n- Sodium promotes thirst and helps conserve water via hormonal/kidney mechanisms (e.g. ADH/aldosterone-mediated reabsorption) <marks>1 mark</marks>\n- Potassium is the main intracellular cation; helps maintain intracellular fluid volume/osmolality <marks>1 mark</marks>\n- Potassium is important for normal nerve impulse transmission and muscle contraction; imbalance can affect fluid distribution and function <marks>1 mark</marks>\n- Sodium and potassium gradients maintain osmotic balance across cell membranes and the distribution of water between compartments <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1158990,
+            "content": "Discuss how hydration needs vary depending on environmental conditions and exercise intensity, with reference to the scenario.",
+            "order": 5,
+            "markscheme": "- In hot/humid conditions (Day 1), sweat rate is higher, increasing total fluid requirements to limit dehydration <marks>1 mark</marks>\n- Higher exercise intensity increases metabolic heat production and ventilation, increasing fluid loss via sweat and respiration <marks>1 mark</marks>\n- Greater sweat losses increase electrolyte (especially sodium) losses; longer/hotter sessions may require electrolyte-containing fluids rather than only plain water <marks>1 mark</marks>\n- In cool conditions (Day 2), thirst can be blunted but fluid is still lost through respiration and sweat, increasing risk of under-drinking <marks>1 mark</marks>\n- Individual variation (body size, fitness, sweat rate, acclimatization) means hydration strategies should be personalized <marks>1 mark</marks>\n- Pre-hydration status and planned intake opportunities influence needs during the session (access to fluids, pacing, duration) <marks>1 mark</marks>\n- Over-drinking hypotonic fluid without replacing sodium can increase hyponatremia risk during prolonged exercise <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3c3c4c34-59ed-4447-97df-b1be942c3dfb",
+        "specification": "Which strategy best prevents both dehydration and hyponatremia in ultra-endurance athletes?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:19:15.067Z",
+            "resultId": 44664
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:18:20.473Z",
+              "reasoning": "The question targets optimal hydration strategy in ultra-endurance events to avoid both dehydration and hyponatremia, centering on fluid intake with appropriate electrolyte (sodium) balance and related risks from overconsuming plain water.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1697405,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941320,
+            "content": "Drinking as much plain water as possible",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4941321,
+            "content": "Avoiding fluid intake until thirst occurs",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4941322,
+            "content": "Consuming fluids with balanced electrolytes and carbohydrates",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4941323,
+            "content": "Relying only on solid food for electrolytes",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "40a326d4-4dba-4f73-9067-4a9991dcc397",
+        "specification": "Which statement explains how electrolyte balance affects nerve impulse transmission?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:02:27.453Z",
+            "resultId": 41764
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T15:57:04.762Z",
+              "reasoning": "The question asks how electrolyte balance affects nerve impulses; this directly relates to the role of electrolytes (Na+, K+) in body functioning and neuromuscular signaling within water/electrolyte balance.",
+              "confidence": 0.87
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T15:57:04.762Z",
+              "reasoning": "Correct option refers to Na+ and K+ being essential for action potential transmission in neurons, which is part of nervous system coordination and physiological responses.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1696924,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940024,
+            "content": "$\text{Na}^+$ and $\text{K}^+$ ions are essential for transmission of action potentials in neurons.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Sodium ($\\text{Na}^+$) and potassium ($\\text{K}^+$) ions are responsible for maintaining the resting membrane potential and generating the action potential through their movement across the neuronal membrane."
+          },
+          {
+            "id": 4940025,
+            "content": "$\text{Ca}^{2+}$ and $\text{Mg}^{2+}$ ions affect nerve impulses mainly by controlling ATP production in neurons.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "While calcium ($\\text{Ca}^{2+}$) is involved in neurotransmitter release and magnesium ($\\text{Mg}^{2+}$) can modulate excitability at ion channels, ATP is produced through metabolic pathways (cellular respiration), not controlled directly by these electrolytes."
+          },
+          {
+            "id": 4940026,
+            "content": "$\text{Fe}^{2+}$ ions directly increase the speed of synaptic transmission by making neurotransmitters diffuse faster.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Iron is involved in oxygen transport (as part of haemoglobin) and cellular respiration, but it does not directly increase synaptic transmission speed or neurotransmitter diffusion."
+          },
+          {
+            "id": 4940027,
+            "content": "Electrolytes affect nerve impulses mainly by acting as the energy source that neurons use to fire.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Electrolytes are ions that help set membrane potentials and excitability; they do not act as an energy source. Neurons use ATP generated by metabolic pathways such as aerobic and anaerobic respiration."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4503d440-2751-49cb-bab6-8b64429711ac",
+        "specification": "A group of researchers conducted a study on 6 endurance athletes participating in a 4-hour ultra-marathon in hot and humid conditions. Blood sodium concentration and cognitive reaction time were measured pre-race and post-race. Some athletes developed hyponatremia (blood sodium concentration < 135 mmol/L), while others developed hypernatremia (blood sodium concentration > 145 mmol/L) as shown in the table below. The remaining maintained normal sodium levels.\n\n| Athlete | Pre-race sodium (mmol/L) | Post-race sodium (mmol/L) |\n| ------- | ------------------------ | ------------------------- |\n| A       | 139                      | 146                       |\n| B       | 138                      | 142                       |\n| C       | 140                      | 133                       |\n| D       | 141                      | 147                       |\n| E       | 137                      | 134                       |\n| F       | 139                      | 144                       |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1b",
+        "subjectId": 6423,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T11:19:37.931Z",
+            "resultId": 44634
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:18:14.862Z",
+              "reasoning": "The question centers on blood sodium changes during endurance exercise, identifying hypo-/hypernatremia, and explaining how fluid/electrolyte strategies mitigate these risks\u2014core water and electrolyte balance.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:18:14.862Z",
+              "reasoning": "Parts b/c involve physiological regulation and consequences of disrupted sodium balance (homeostasis) affecting neuromuscular function and how strategies maintain internal stability during heat stress.",
+              "confidence": 0.56
+            }
+          ]
+        },
+        "currentRevisionId": 1697561,
+        "parts": [
+          {
+            "id": 1159845,
+            "content": "Using the table, identify the number of athletes who experienced hyponatremia post-race.",
+            "order": 0,
+            "markscheme": "2\n<marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159846,
+            "content": "Explain how electrolyte imbalance can impair neuromuscular function.",
+            "order": 1,
+            "markscheme": "- Electrolyte imbalances alter resting membrane potential and synaptic transmission <marks>1 mark</marks>\n- Sodium and potassium gradients are essential for muscle contraction and nerve signal conduction <marks>1 mark</marks>\n- Disturbed ion balance can lead to abnormal action potentials (eg reduced excitability or inappropriate firing), impairing force production and coordination <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159847,
+            "content": "Describe how fluid intake strategies could reduce the risk of both hyponatremia and hypernatremia.",
+            "order": 2,
+            "markscheme": "- Balanced electrolyte drinks prevent overhydration or excessive sodium loss <marks>1 mark</marks>\n- Scheduled fluid intake based on sweat rate and environmental conditions prevents imbalance <marks>1 mark</marks>\n- Avoid drinking \u201cas much as possible\u201d; match intake to losses to reduce dilutional hyponatremia and dehydration-related hypernatremia <marks>1 mark</marks>\n\n<Note> Accept strategies that prevent both dilutional hyponatremia and excessive dehydration.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "501cd328-77ef-4880-bcce-511addeeb360",
+        "specification": "Refer to the urine color chart. If an athlete\u2019s urine consistently matches color D, what does this suggest about their hydration status?\n\n![](https://pub-images.revisiondojo.com/question-images/lFlZ09EwDUigbMEnUSPCF)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:21:43.224Z",
+              "reasoning": "The question uses a urine color chart to interpret an athlete\u2019s hydration status (dehydration vs optimal/overhydration), which directly assesses understanding of water and electrolyte balance in the body.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:21:43.224Z",
+              "reasoning": "Hydration status relates to maintenance of homeostasis (fluid balance and regulation), though the primary focus is practical hydration assessment rather than broader homeostatic mechanisms.",
+              "confidence": 0.35
+            }
+          ]
+        },
+        "currentRevisionId": 1423165,
+        "parts": [],
+        "options": [
+          {
+            "id": 4161705,
+            "content": "The athlete is optimally hydrated; electrolyte excretion is balanced",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4161706,
+            "content": "The athlete is slightly dehydrated; risk of hyponatremia is increased",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4161707,
+            "content": "The athlete is dehydrated; reduced plasma volume may impair thermoregulation",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4161708,
+            "content": "The athlete is overhydrated; antidiuretic hormone (ADH) is being suppressed",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "52d1e7ef-5356-4318-8864-5f2c4e013aa8",
+        "specification": "Which hormone regulates sodium reabsorption in the kidneys to maintain electrolyte balance during endurance exercise?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T17:36:35.923Z",
+              "reasoning": "The question focuses on maintaining electrolyte balance during endurance exercise via sodium reabsorption in the kidneys, which is directly tied to water and electrolyte balance.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-07T17:36:35.923Z",
+              "reasoning": "Identifying aldosterone as the hormone regulating renal sodium reabsorption tests endocrine system function and hormonal regulation.",
+              "confidence": 0.8
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T17:36:35.923Z",
+              "reasoning": "Electrolyte balance is a key aspect of homeostasis, and the item frames the function as maintaining internal balance during exercise.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1419838,
+        "parts": [],
+        "options": [
+          {
+            "id": 4150869,
+            "content": "Aldosterone",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4150870,
+            "content": "Adrenaline",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4150871,
+            "content": "Insulin",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4150872,
+            "content": "Thyroxine",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "58294492-c362-47cf-ae00-9ade9f9c0884",
+        "specification": "An athlete\u2019s urine is dark yellow and concentrated after training. What does this most likely indicate?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:09:52.908Z",
+            "resultId": 30418
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:18:17.038Z",
+              "reasoning": "Dark urine after training is a common indicator of inadequate fluid intake/low hydration status, directly relating to water and electrolyte balance in the body.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695381,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936205,
+            "content": "Dehydration",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: dark yellow, concentrated urine most commonly indicates dehydration."
+          },
+          {
+            "id": 4936206,
+            "content": "Overhydration",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: overhydration is more likely to produce clear or very pale urine."
+          },
+          {
+            "id": 4936207,
+            "content": "High dietary protein intake",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: protein intake is not a primary direct indicator of dark yellow, concentrated urine immediately after training."
+          },
+          {
+            "id": 4936208,
+            "content": "High glycogen stores",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: glycogen stores are not typically inferred from urine colour."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6579c193-c154-4edc-8b6a-63e747071962",
+        "specification": "An endurance athlete consumes excessive amounts of pure water during a marathon without replacing lost salts. What is the most likely consequence of this behavior on the athlete's blood chemistry?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-6579c193-c154-4edc-8b6a-63e747071962-1771953315939",
+            "generatedAt": "2026-02-25T08:04:41.485Z",
+            "sourceRevisionId": 1419792
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:44:16.803Z",
+            "resultId": 30539
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:20:41.122Z",
+              "reasoning": "The scenario describes excessive water intake without electrolyte replacement during endurance exercise, leading to diluted blood sodium (exercise-associated hyponatremia). This directly tests water and electrolyte balance.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695213,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935653,
+            "content": "Hypernatremia",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935654,
+            "content": "Hyponatremia",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935655,
+            "content": "Hypo-osmolality (decreased plasma osmolarity)",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935656,
+            "content": "Hypoglycemia",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "671c9e53-1a8d-496a-b1df-09b5edaa3e24",
+        "specification": "SEHS: Nutrition and Energy Balance",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-07T17:36:35.550Z",
+              "reasoning": "All parts focus on nutrition/energy balance for performance: daily energy needs, energy-dense foods, under-fuelling, pre-exercise meals, and the roles of carbohydrate and protein in recovery\u2014core content of macronutrients and fuelling strategies.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-07T17:36:35.550Z",
+              "reasoning": "Parts (d) and (e) specifically address performance/recovery effects of under-fuelling and post-exercise recovery nutrition, which overlaps with recovery strategies content.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583678,
+        "parts": [
+          {
+            "id": 1137503,
+            "content": "State two factors that influence an individual's daily energy needs.",
+            "order": 1,
+            "markscheme": "- State the individual's physical activity level <marks>A1</marks>\n- State the body size and composition of the individual <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include age, sex, and metabolic rate.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137504,
+            "content": "Identify two types of energy-dense foods.",
+            "order": 2,
+            "markscheme": "- Identify nuts and seeds as energy-dense foods <marks>A1</marks>\n- Identify fried foods as energy-dense foods <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include cheese, butter, and pastries.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137505,
+            "content": "Describe how under-fueling affects performance and recovery.",
+            "order": 3,
+            "markscheme": "- Describe how under-fueling limits muscle repair and synthesis <marks>A1</marks>\n- Describe how it reduces training adaptations over time <marks>A1</marks>\n- Describe how it increases the risk of injury <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137506,
+            "content": "Explain how protein and carbohydrate intake work together in post-exercise recovery.",
+            "order": 4,
+            "markscheme": "- Explain that protein supports muscle rebuilding and protein synthesis <marks>A1</marks>\n- Explain that carbohydrates replenish muscle and liver glycogen stores <marks>A1</marks>\n- Describe how the combined intake speeds up the overall recovery process <marks>A1</marks>\n- Conclude that the synergy between nutrients improves performance capacity for subsequent training sessions <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137507,
+            "content": "Outline the benefits of a pre-exercise meal in performance sports.",
+            "order": 5,
+            "markscheme": "- Outline how a pre-exercise meal stabilizes blood glucose levels before physical activity <marks>A1</marks>\n- Outline how it tops up glycogen stores to provide sustained energy <marks>A1</marks>\n- State that it reduces the perceived effort (RPE) during exercise <marks>A1</marks>\n- Describe how it supports optimal mental focus and physical readiness <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137508,
+            "content": "Discuss the long-term risks of chronic energy imbalance in athletes.",
+            "order": 6,
+            "markscheme": "- Discuss decreased bone mineral density, which increases the risk of stress fractures and osteoporosis <marks>A1</marks>\n- Discuss impaired immune function, leading to a higher susceptibility to illness <marks>A1</marks>\n- Discuss hormonal disruptions such as amenorrhea in females or reduced testosterone in males <marks>A1</marks>\n- Discuss the loss of muscle mass and resulting decreased strength or performance <marks>A1</marks>\n- Discuss the increased risk of overtraining and fatigue-related injuries <marks>A1</marks>\n- Discuss long-term metabolic slowdown, which makes recovery and weight regulation more difficult <marks>A1</marks>\n\n5 marks total\n\n<note>Award a maximum of [5] marks. Other acceptable answers include nutrient deficiencies and psychological stress.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "72e4d5c3-0aa0-46bf-a3e5-8ded6dbb5e12",
+        "specification": "During prolonged exercise, how does the body attempt to maintain electrolyte balance despite heavy sweating?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:34:34.005Z",
+            "resultId": 30729
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:25:53.031Z",
+              "reasoning": "The question focuses on maintaining electrolyte balance during prolonged exercise with heavy sweating, specifically sodium conservation via renal reabsorption.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:25:53.031Z",
+              "reasoning": "Electrolyte regulation under sweating involves homeostatic mechanisms (e.g., osmoregulation) to maintain internal balance.",
+              "confidence": 0.62
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T05:25:53.031Z",
+              "reasoning": "The correct mechanism described (kidney sodium reabsorption under hormonal control, e.g., aldosterone/ADH axis) is endocrine regulation.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695169,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935505,
+            "content": "By storing sodium in muscle tissue",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935506,
+            "content": "By reabsorbing sodium in the kidneys under hormonal control",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: aldosterone (and other hormones) increase renal sodium reabsorption to help conserve electrolytes during heavy sweating."
+          },
+          {
+            "id": 4935507,
+            "content": "By increasing aldosterone secretion to increase renal sodium reabsorption",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: this describes the same mechanism as option B, so it cannot be an alternative distractor in a single-correct MCQ."
+          },
+          {
+            "id": 4935508,
+            "content": "By increasing sodium loss in urine to offset sweat losses",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: increasing urinary sodium excretion would worsen electrolyte loss, not maintain electrolyte balance."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "79d175b8-306d-4814-b6b8-d30e7d6124c5",
+        "specification": "A hiker traveling through a desert has not consumed any fluids for several hours and is beginning to experience dehydration. Which physiological change in the blood is detected by the hypothalamus?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-79d175b8-306d-4814-b6b8-d30e7d6124c5-1771953315939",
+            "generatedAt": "2026-02-25T07:33:02.984Z",
+            "sourceRevisionId": 1419796
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:30:15.569Z",
+            "resultId": 33822
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T09:12:18.024Z",
+              "reasoning": "Dehydration triggers hypothalamic osmoreceptors; the question asks which blood change is detected to restore homeostasis (increased plasma osmolarity).",
+              "confidence": 0.86
+            },
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T09:12:18.024Z",
+              "reasoning": "Directly concerns water balance/dehydration and the physiological marker (plasma osmolarity) used to regulate thirst/ADH responses.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1695468,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936457,
+            "content": "A decrease in the concentration of blood glucose",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Blood glucose concentration is primarily regulated by the pancreas (insulin/glucagon), not detected by hypothalamic osmoreceptors for dehydration control."
+          },
+          {
+            "id": 4936458,
+            "content": "An increase in the osmolarity of the blood plasma",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct (B). Dehydration increases plasma osmolarity, detected by hypothalamic osmoreceptors, triggering thirst and increased ADH release to conserve water."
+          },
+          {
+            "id": 4936459,
+            "content": "An increase in the total volume of the blood",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Dehydration tends to decrease blood/plasma volume rather than increase it."
+          },
+          {
+            "id": 4936460,
+            "content": "A decrease in the partial pressure of carbon dioxide",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Changes in CO$_2$ are primarily detected by chemoreceptors involved in ventilatory control, not the hypothalamic osmoreceptor pathway for dehydration."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7ef8d5d7-5181-46ea-9bec-b44a34067ccc",
+        "specification": "A middle-distance runner is preparing for a 1500 m race. The athlete records the following information during a race simulation and the 24 hours before it.\n\nRace simulation splits and physiological data\n\n| Segment | Time (s) | Heart rate (beats min$^{-1}$) at end of segment | Blood lactate (mmol L$^{-1}$) at end of segment |\n|---|---:|---:|---:|\n| 0\u2013300 m | 44 | 168 | 5.2 |\n| 300\u2013800 m | 78 | 182 | 8.6 |\n| 800\u20131200 m | 68 | 188 | 9.1 |\n| 1200\u20131500 m | 49 | 196 | 12.4 |\n\nPre-race food log (24 h)\n\n| Food/drink | Amount | Main macronutrient emphasis |\n|---|---:|---|\n| Pasta with tomato sauce | 2 large servings | carbohydrate |\n| Banana | 2 | carbohydrate |\n| Sports drink | 1.0 L | carbohydrate |\n| Greek yogurt | 200 g | protein |\n| Salmon | 150 g | fat/protein |\n| Olive oil (in salad) | 2 tbsp | fat |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:16:52.689Z",
+            "resultId": 44780
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-07T08:19:10.136Z",
+              "reasoning": "Parts b\u2013f focus on macronutrients (carbohydrate, fat, protein), dietary sources, how carbs are used in high-intensity exercise, protein\u2019s role in recovery, and carbohydrate loading\u2014core content of fuelling/macronutrients.",
+              "confidence": 0.94
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T08:19:10.136Z",
+              "reasoning": "Part g asks for discussion of energy system contributions in a 1500 m race, requiring understanding of phosphagen, glycolytic, and oxidative system contributions.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1697291,
+        "parts": [
+          {
+            "id": 1159488,
+            "content": "With reference to the pre-race food log, identify the three energy-providing macronutrients.",
+            "order": 0,
+            "markscheme": "- Carbohydrate (e.g., pasta/banana/sports drink) <marks>1 mark</marks>\n- Fat/lipid (e.g., salmon/olive oil) <marks>1 mark</marks>\n- Protein (e.g., yogurt/salmon) <marks>1 mark</marks>\n\nAdditional acceptable identification examples from the log:\n- Carbohydrate identified as sugars/starch <marks>1 mark</marks>\n- Fat identified as triglyceride/unsaturated fat (contextual) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159489,
+            "content": "State two sources of dietary fat shown in the pre-race food log.",
+            "order": 1,
+            "markscheme": "- Olive oil <marks>1 mark</marks>\n- Salmon <marks>1 mark</marks>\n\n_**OR**_\n\nOther acceptable sources from the log:\n- Greek yogurt <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159490,
+            "content": "Describe how carbohydrates are used to provide energy during the first 300 m segment.",
+            "order": 2,
+            "markscheme": "- Carbohydrate is digested/broken down to glucose (or glucose is supplied from ingested carbohydrate) <marks>1 mark</marks>\n- Glucose (and/or muscle glycogen-derived glucose) is used in glycolysis to produce ATP rapidly <marks>1 mark</marks>\n- Muscle glycogen is an important carbohydrate store supplying glucose during high-intensity efforts <marks>1 mark</marks>\n\nAdditional acceptable detail:\n- Anaerobic glycolysis predominates early at high intensity, producing lactate (consistent with 5.2 mmol L$^{-1}$ at 300 m) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159491,
+            "content": "Explain the role of protein in recovery after resistance training.",
+            "order": 3,
+            "markscheme": "- Protein provides amino acids for repair of damaged muscle fibres/microtears <marks>1 mark</marks>\n- Stimulates muscle protein synthesis leading to hypertrophy/adaptation <marks>1 mark</marks>\n- Helps replace/maintain amino acid pool (positive nitrogen balance) following training <marks>1 mark</marks>\n- Supports recovery processes (e.g., enzyme/hormone synthesis, immune function) contributing to faster return to performance <marks>1 mark</marks>\n\nAdditional acceptable point:\n- Timing/adequate intake post-exercise can increase muscle protein synthesis rate <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159492,
+            "content": "Outline the process and benefit of carbohydrate loading for athletes competing in endurance events.",
+            "order": 4,
+            "markscheme": "- Increase carbohydrate intake in the days before an endurance event <marks>1 mark</marks>\n- Typically taper/reduce training volume/intensity while increasing carbohydrate intake to maximise glycogen stores <marks>1 mark</marks>\n- Increased muscle (and liver) glycogen increases carbohydrate availability during prolonged exercise <marks>1 mark</marks>\n- Delays fatigue/maintains pace by sustaining blood glucose and reducing the need to rely on lower-intensity fat oxidation early on <marks>1 mark</marks>\n\nAdditional acceptable point:\n- Can improve endurance performance by allowing a higher sustainable intensity before glycogen depletion <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159493,
+            "content": "Discuss the energy system contributions during this 1500 m race simulation, using the split times and lactate values.",
+            "order": 5,
+            "markscheme": "Award up to <marks>4 marks</marks> for a discussion linking energy systems to the stimulus data. For example:\n- ATP-PC contributes most at the start/acceleration (very high power demand in early seconds), supporting the fast opening 0\u2013300 m split (44 s) <marks>1 mark</marks>\n- Anaerobic glycolysis contributes substantially during high-intensity running, consistent with lactate already elevated at 300 m (5.2 mmol L$^{-1}$) and rising to 8.6 mmol L$^{-1}$ by 800 m <marks>1 mark</marks>\n- Aerobic system provides a large proportion of ATP across the middle of the race as duration increases, consistent with sustained high heart rates (e.g., 182\u2013188 beats min$^{-1}$ by 800\u20131200 m) <marks>1 mark</marks>\n- In the final segment, increased anaerobic contribution is indicated by the lactate rise to 12.4 mmol L$^{-1}$ and the ability to produce a fast closing split (49 s), while aerobic metabolism remains active but cannot meet total ATP demand alone <marks>1 mark</marks>\n\nAdditional acceptable discussion points:\n- Lactate accumulation/H$^+$ associated fatigue may contribute to pacing changes and the high end value at 1500 m <marks>1 mark</marks>\n- Oxygen deficit at the start and increased reliance on anaerobic pathways early, with greater aerobic contribution as VO$_2$ rises <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "81c066fa-3ee5-4ab7-abdd-b36e19d12bc5",
+        "specification": "During a marathon, why is maintaining hydration (fluid balance) essential for effective performance?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:46:02.285Z",
+            "resultId": 31399
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:39:18.423Z",
+              "reasoning": "The question asks why water balance is essential during a marathon, focusing on maintaining blood volume and thermoregulation\u2014core aspects of water and electrolyte balance for body functioning.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:39:18.423Z",
+              "reasoning": "Maintaining water balance during prolonged exercise relates to homeostasis (regulation of internal conditions such as temperature and fluid balance).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1694814,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934345,
+            "content": "To maintain plasma volume for cardiovascular function and thermoregulation",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: maintaining hydration helps preserve plasma volume, supporting stroke volume, skin blood flow and sweating for temperature regulation."
+          },
+          {
+            "id": 4934346,
+            "content": "To maximize lactate clearance by directly increasing muscle oxygen content",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: hydration supports cardiovascular delivery indirectly, but it does not directly increase muscle oxygen content or specifically maximize lactate clearance."
+          },
+          {
+            "id": 4934347,
+            "content": "To prevent a decline in sweating rate and an excessive rise in core temperature",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: this is a genuine benefit of hydration, but it is a consequence within thermoregulation and is encompassed by option A rather than being the single best answer here."
+          },
+          {
+            "id": 4934348,
+            "content": "To maintain muscle excitability by keeping electrolyte concentration stable",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: electrolyte balance is important, but the stem specifies hydration (fluid balance); maintaining plasma volume/thermoregulation is the primary performance-critical effect in this context."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "865aa658-d635-4cd7-9612-1ff28784a918",
+        "specification": "An experiment was conducted to examine the effects of water and electrolyte imbalance on athletes during prolonged submaximal exercise in hot conditions. Participants were monitored for fluid loss and key electrolyte concentrations (Na\u207a, Cl\u207b, K\u207a). The visual summary in the figure outlines key physiological and performance effects of sweat electrolyte loss.\n\nAdditionally, the table presents data for three hydration states and their associated biomarkers: plasma osmolality, urine colour score, and percentage of body mass change.\n\nTable: Hydration Status Indicators\n\n| Hydration State | Plasma Osmolality (mOsm/kg) | Urine Colour Score (1\u20138) | Body Mass Change (%) |\n| --------------- | --------------------------- | ------------------------ | -------------------- |\n| Dehydration     | 305                         | 8                        | +3.5                 |\n| Euhydration     | 285                         | 4                        | +0.5                 |\n| Overhydration   | 270                         | 1                        | \u20130.2                 |\n\n\n\nFigure: Impact of Sweat Electrolyte Loss on Sports Performance\n\n![](https://pub-images.revisiondojo.com/question-images/RueGemuhcoowiM6XZ1G2A)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1b",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:16:56.836Z",
+              "reasoning": "Core of the question is hydration status and sweat electrolyte (Na+, Cl\u2212, K+) loss effects, using biomarkers (plasma osmolality, urine colour, body mass change) and linking imbalance to thermoregulation, performance, and thirst.",
+              "confidence": 0.94
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:16:56.836Z",
+              "reasoning": "Parts involve homeostatic regulation in heat stress (thermoregulation risk) and physiological control of thirst/osmolality, which are homeostasis mechanisms.",
+              "confidence": 0.7
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:16:56.836Z",
+              "reasoning": "Cardiovascular drift during prolonged submaximal exercise is a cardiovascular response linked here to reduced plasma volume from dehydration/electrolyte imbalance.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1496975,
+        "parts": [
+          {
+            "id": 1135398,
+            "content": "Using the table, calculate the difference in plasma osmolality and urine colour score between dehydration and euhydration.",
+            "order": 0,
+            "markscheme": "- Plasma osmolality: 305 \u2212 285 = 20 mOsm/kg <marks>1 mark</marks>\n\n- Urine colour score: 8 \u2212 4 = 4 units <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "3a2a5357-7884-4ceb-973d-197a63dcfc28",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135399,
+            "content": "Based on the table, state the hydration state that poses the highest risk of impaired thermoregulation?",
+            "order": 1,
+            "markscheme": "- Dehydration poses the highest risk  <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": "0bf8a402-f376-43fd-9766-de990b90bb18",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135400,
+            "content": "List two performance consequences shown that would be most influenced by Na\u207a and Cl\u207b loss. Justify using physiological reasoning.",
+            "order": 2,
+            "markscheme": "- Heat-related muscle cramps and muscle performance decrements  <marks>1 mark</marks>\n\n- Na\u207a and Cl\u207b regulate action potentials and neuromuscular transmission <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "3f0bbefe-b23f-4e59-b236-d90642bd1b5d",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135401,
+            "content": "Explain how electrolyte imbalance could contribute to cardiovascular drift during submaximal aerobic exercise.",
+            "order": 3,
+            "markscheme": "- Electrolyte loss reduces plasma volume <marks>1 mark</marks>\n\n- This leads to reduced stroke volume and increased heart rate to maintain cardiac output (CV drift)   <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "32141924-fc74-4165-a278-db67294ff862",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1135402,
+            "content": "The research team noticed a participant in the dehydration group with a high sweat rate but low thirst perception. Suggest two physiological explanations for this discrepancy.",
+            "order": 4,
+            "markscheme": "- Delayed activation of hypothalamic osmoreceptors  <marks>1 mark</marks>\n\n- Hormonal factors suppressing thirst (e.g., during intense focus or competition)   <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "789f5ac2-a209-412c-9a9f-2f4bfd97d88f",
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "87a87243-8682-4f82-958c-f8d0480f7a35",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T08:16:56.486Z",
+              "reasoning": "Parts b\u2013e and g ask about identifying energy systems (ATP-PC, anaerobic glycolysis, aerobic/oxidative), their characteristics, carbohydrate use under aerobic vs anaerobic conditions, and how systems contribute/interplay in 400 m and 1500 m events\u2014core content of phosphagen, glycolytic, and oxidative energy production.",
+              "confidence": 0.97
+            },
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-07T08:16:56.486Z",
+              "reasoning": "Part f focuses on balanced macronutrient intake and how it supports sports performance, directly targeting roles of carbohydrates, fats, and proteins in energy maintenance and performance.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1583709,
+        "parts": [
+          {
+            "id": 1137568,
+            "content": "Identify two energy systems used during exercise.",
+            "order": 1,
+            "markscheme": "Award <marks>A1</marks> for each of the following up to <marks>[2]</marks>:\n- ATP-PC system / creatine phosphate system <marks>A1</marks>\n- anaerobic glycolytic system / lactic acid system <marks>A1</marks>\n- aerobic system / oxidative system <marks>A1</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137569,
+            "content": "State one characteristic of the ATP-PC system and one of the aerobic system.",
+            "order": 2,
+            "markscheme": "- ATP-PC system: provides immediate energy for short-duration, high-intensity activity / has a low capacity but rapid energy production <marks>A1</marks>\n- aerobic system: uses oxygen to produce energy for prolonged, lower-intensity activity / has a high capacity but slower energy production <marks>A1</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137570,
+            "content": "Describe how carbohydrates are utilized differently during aerobic and anaerobic exercise.",
+            "order": 3,
+            "markscheme": "- during aerobic exercise, carbohydrates (glucose/glycogen) are broken down in the presence of oxygen <marks>A1</marks>\n- in anaerobic exercise, carbohydrates are broken down without the presence of oxygen (anaerobic glycolysis) <marks>A1</marks>\n- anaerobic metabolism produces lactic acid/lactate and a more limited amount of ATP compared to aerobic metabolism <marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137571,
+            "content": "Explain the contribution of the anaerobic glycolytic (lactic acid) system during a $400\\text{ m}$ sprint.",
+            "order": 4,
+            "markscheme": "- the anaerobic glycolytic system becomes the dominant energy provider after ATP-PC stores are depleted / after approximately $10\\text{--}15\\text{ seconds}$ <marks>A1</marks>\n- it provides ATP through the incomplete breakdown of glucose (anaerobic glycolysis) <marks>A1</marks>\n- this process results in the accumulation of lactic acid/lactate in the muscles and blood <marks>A1</marks>\n- it supports high-intensity efforts for a duration of up to approximately $90\\text{ seconds}$ <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137572,
+            "content": "Outline how balanced macronutrient intake supports sports performance.",
+            "order": 5,
+            "markscheme": "- carbohydrates provide the primary energy source for high-intensity training and competition <marks>A1</marks>\n- proteins support muscle repair, growth, and recovery after exercise <marks>A1</marks>\n- fats serve as a fuel source for low-intensity or long-duration activity <marks>A1</marks>\n- a balanced intake enhances overall recovery, maintains immune function, and supports metabolic health <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137573,
+            "content": "Discuss the interplay of energy systems during a $1500\\text{ m}$ middle-distance race.",
+            "order": 6,
+            "markscheme": "- all three energy systems (ATP-PC, anaerobic glycolytic, and aerobic) contribute simultaneously, shifting in their relative contribution (energy continuum) <marks>A1</marks>\n- the ATP-PC system initiates the race, providing immediate energy for the first $10\\text{--}15\\text{ seconds}$ <marks>A1</marks>\n- the anaerobic glycolytic (lactic acid) system supports sustained speed in the early stages and during any mid-race surges <marks>A1</marks>\n- the aerobic system becomes the dominant provider for pacing as the race progresses and oxygen delivery meets demand <marks>A1</marks>\n- toward the end of the race, the anaerobic glycolytic system contribution increases to support a final sprint finish <marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "9347bea0-e985-4e17-b5f5-0fe94ec23ce9",
+        "specification": "Which of the following is the most effective strategy for a marathon runner to maintain water and electrolyte balance during competition?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:09:24.221Z",
+            "resultId": 41169
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T15:37:44.828Z",
+              "reasoning": "The question asks about maintaining water and electrolyte balance during a marathon, specifically using sports drinks with electrolytes\u2014directly matching water/electrolyte balance for body functioning.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696984,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940228,
+            "content": "Drinking only water after the race",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect: rehydration should occur during the race, and plain water alone may not replace electrolytes lost in sweat."
+          },
+          {
+            "id": 4940229,
+            "content": "Consuming sports drinks with electrolytes during the race",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: sports drinks provide fluid plus electrolytes (and often carbohydrate) to help maintain hydration and electrolyte balance during prolonged endurance exercise."
+          },
+          {
+            "id": 4940230,
+            "content": "Drinking large amounts of plain water throughout the race without electrolytes",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: replacing fluid without electrolytes can dilute blood sodium and does not replace electrolyte losses from sweat."
+          },
+          {
+            "id": 4940231,
+            "content": "Taking salt tablets during the race without adequate fluid intake",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: electrolytes without sufficient fluid do not maintain hydration and may increase gastrointestinal discomfort or worsen dehydration risk."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "96a38ad5-9b11-4306-9a97-1c3026185b65",
+        "specification": "Which ion is vital for maintaining resting membrane potential in muscle cells?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:53:21.678Z",
+            "resultId": 42089
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T15:59:04.840Z",
+              "reasoning": "Resting membrane potential in muscle cells depends on ion gradients and membrane permeability (especially K+), which is core to nervous system control of excitation and muscle activation.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T15:59:04.840Z",
+              "reasoning": "The question targets a specific electrolyte (potassium) and its physiological role; this links to electrolyte balance concepts, though the primary focus is membrane potential rather than hydration.",
+              "confidence": 0.46
+            }
+          ]
+        },
+        "currentRevisionId": 1696865,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939808,
+            "content": "Sodium",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939809,
+            "content": "Calcium",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939810,
+            "content": "Potassium",
+            "correct": true,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939811,
+            "content": "Chloride",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9e1202be-2110-49b7-b8ae-452effe73b11",
+        "specification": "Which drink is best for maintaining water and electrolyte balance during a marathon?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:26:50.555Z",
+            "resultId": 44456
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:16:43.633Z",
+              "reasoning": "The question asks which drink best maintains water and electrolyte balance during a marathon, directly assessing knowledge of hydration and electrolyte replacement (e.g., sodium) during endurance exercise.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1697422,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941384,
+            "content": "Pure water",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4941385,
+            "content": "Sports drink with sodium and carbohydrates",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4941386,
+            "content": "Low-sodium sports drink (carbohydrate only)",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4941387,
+            "content": "Oral rehydration solution with electrolytes only (no carbohydrates)",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a1a34e9c-1b05-4b30-9615-03543c2a6fb0",
+        "specification": "Which of the following best describes the physiological role of sodium in maintaining fluid balance during a period of heavy sweating?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-a1a34e9c-1b05-4b30-9615-03543c2a6fb0-1771953315939",
+            "generatedAt": "2026-02-25T07:24:28.721Z",
+            "sourceRevisionId": 1419822
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:24:17.373Z",
+            "resultId": 42166
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T15:59:51.631Z",
+              "reasoning": "The question asks about sodium\u2019s physiological role in fluid balance during heavy sweating\u2014specifically maintaining extracellular fluid volume via osmotic pressure\u2014which is core water and electrolyte balance content.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1697058,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940460,
+            "content": "It supports nerve impulse transmission and muscle contraction by contributing to membrane depolarization.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. This is a key role of Na+, but it does not best describe sodium\u2019s role in maintaining fluid balance during heavy sweating."
+          },
+          {
+            "id": 4940461,
+            "content": "It increases intracellular fluid volume by drawing water into cells through osmotic pressure.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Sodium is the main extracellular cation and primarily helps maintain extracellular (not intracellular) fluid volume via osmotic effects."
+          },
+          {
+            "id": 4940462,
+            "content": "It helps to maintain extracellular fluid volume through osmotic pressure.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct (C). Sodium is the primary extracellular cation and helps maintain extracellular fluid volume/osmolality; losses in sweat reduce ECF volume and can contribute to dehydration and hyponatremia if not replaced appropriately."
+          },
+          {
+            "id": 4940463,
+            "content": "It directly increases sweat rate so that core body temperature decreases faster.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Sweat rate is primarily regulated by thermoregulatory control (e.g., body temperature, sympathetic activity); sodium does not directly increase sweat rate to lower core temperature."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a3c3afca-b192-451c-97c1-235156df2228",
+        "specification": "A tennis player loses large amounts of sweat during a hot match. Which electrolyte is primarily lost?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:34:36.383Z",
+            "resultId": 44468
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:16:55.017Z",
+              "reasoning": "The question asks which electrolyte is primarily lost in sweat during a hot match; this directly tests knowledge of water and electrolyte balance (sodium being the main electrolyte lost in sweat).",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1697450,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941452,
+            "content": "Calcium",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4941453,
+            "content": "Sodium",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4941454,
+            "content": "Potassium",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4941455,
+            "content": "Chloride",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b0b62f46-4878-4c7e-9918-e901b672c9b6",
+        "specification": "Which of the following methods is commonly used to monitor the hydration status of athletes?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:35:01.300Z",
+            "resultId": 44569
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:17:38.507Z",
+              "reasoning": "Monitoring hydration status (e.g., using a urine color chart) directly relates to water and electrolyte balance in athletes.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1697455,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941472,
+            "content": "Urine color chart",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. Urine colour charts are commonly used as a practical field method to monitor hydration status."
+          },
+          {
+            "id": 4941473,
+            "content": "Heart rate monitoring",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Heart rate can be influenced by dehydration but it is not a commonly used direct method for monitoring hydration status."
+          },
+          {
+            "id": 4941474,
+            "content": "Change in body mass (pre- and post-exercise)",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Body mass change can estimate sweat loss, but the commonly used hydration monitoring method in this context is urine colour assessment."
+          },
+          {
+            "id": 4941475,
+            "content": "Body mass index (BMI) calculation",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. BMI reflects body size/composition and is not used to monitor acute hydration status."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b3ae0073-35a0-46d9-b114-aa2c7c232460",
+        "specification": "An athlete performs a steady-state run at a constant intensity in a warm environment ($28^{\\circ}C$) for 90 minutes without consuming any fluids. The following data shows their physiological profile during the session:\n\n| Time (minutes) | Heart Rate (bpm) | Plasma Volume Change (%) |\n| :--- | :--- | :--- |\n| 15 | 145 | $-1.5$ |\n| 45 | 158 | $-4.2$ |\n| 75 | 171 | $-7.8$ |\n\nWhich physiological mechanism most likely accounts for the trend observed in the heart rate data?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-sehs-b3ae0073-35a0-46d9-b114-aa2c7c232460-1771953315939",
+            "generatedAt": "2026-02-24T17:15:35.353Z",
+            "sourceRevisionId": 1583599
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:09:42.793Z",
+            "resultId": 41211
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T15:38:06.124Z",
+              "reasoning": "The question links progressive heart rate rise during constant-intensity exercise to reduced plasma volume (dehydration), implicating cardiovascular drift via decreased stroke volume and compensatory increased heart rate\u2014core cardiovascular system function.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T15:38:06.124Z",
+              "reasoning": "Plasma volume decreases over time due to no fluid intake in a warm environment, reflecting water/fluid balance and dehydration effects on performance and physiology.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T15:38:06.124Z",
+              "reasoning": "Thermoregulatory/homeostatic responses in a warm environment (fluid loss, maintaining blood pressure and temperature) underpin the observed cardiovascular adjustments.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1696986,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940236,
+            "content": "A decrease in stroke volume due to reduced blood volume.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4940237,
+            "content": "A decrease in stroke volume due to increased skin blood flow for thermoregulation.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4940238,
+            "content": "An increase in blood viscosity causing a rise in peripheral resistance and blood pressure.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4940239,
+            "content": "A reduction in stroke volume due to reduced ventricular filling time at higher heart rates.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b6f9286b-058f-4f14-8a2c-2c46b2161eea",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-07T17:36:47.752Z",
+              "reasoning": "Parts c\u2013f focus on macronutrient selection (carb vs fat at high intensity), athlete-specific macronutrient needs (power vs endurance), and nutrition periodization to optimize performance\u2014all central to fuelling/macronutrients.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T17:36:47.752Z",
+              "reasoning": "Parts b and g address aerobic metabolism by-products and the combined use of aerobic and anaerobic energy systems during intermittent sports\u2014directly testing phosphagen/glycolytic/oxidative energy production.",
+              "confidence": 0.84
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-07T17:36:47.752Z",
+              "reasoning": "Part d explicitly asks how energy availability influences hormonal function in endurance athletes, linking nutrition/energy status to endocrine regulation.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1583627,
+        "parts": [
+          {
+            "id": 1137429,
+            "content": "Identify two by-products of aerobic metabolism.",
+            "order": 1,
+            "markscheme": "- Identify carbon dioxide as a by-product of aerobic metabolism <marks>A1</marks>\n- Identify water as a by-product of aerobic metabolism <marks>A1</marks>\n\n2 marks total\n\n<note>Accept heat.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137430,
+            "content": "State two reasons why carbohydrate intake is prioritized over fat during high-intensity exercise.",
+            "order": 2,
+            "markscheme": "- State that carbohydrates can be metabolized more quickly than fat <marks>A1</marks>\n- State that carbohydrate metabolism requires less oxygen per unit of energy produced compared to fat <marks>A1</marks>\n\n2 marks total\n\n<note>Accept that carbohydrates are more readily available for rapid energy demands.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137431,
+            "content": "Describe how energy availability influences hormonal function in endurance athletes.",
+            "order": 3,
+            "markscheme": "- Describe how low energy availability reduces leptin and sex hormones such as estrogen or testosterone <marks>A1</marks>\n- State that this leads to impaired metabolism and recovery <marks>A1</marks>\n- Describe how low energy availability can cause fatigue and menstrual dysfunction in females <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137432,
+            "content": "Explain how macronutrient needs vary between power athletes and endurance athletes.",
+            "order": 4,
+            "markscheme": "- Explain that power athletes require higher protein intake for muscle repair and hypertrophy <marks>A1</marks>\n- Explain that endurance athletes prioritize carbohydrate intake for glycogen replenishment <marks>A1</marks>\n- State that power athletes may benefit from higher fat intake to maintain hormone balance <marks>A1</marks>\n- Explain that endurance athletes need consistent calorie intake to support high total energy output <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137433,
+            "content": "Outline the role of nutrition periodization in optimizing competition performance.",
+            "order": 5,
+            "markscheme": "- Outline how adjusting carbohydrate intake based on training intensity improves fuel efficiency <marks>A1</marks>\n- State that pre-competition loading enhances glycogen stores and performance <marks>A1</marks>\n- Outline how low-carbohydrate training phases can improve metabolic flexibility <marks>A1</marks>\n- Describe how the timing of nutrients improves training adaptation and race-day readiness <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137434,
+            "content": "Discuss the combined use of the aerobic and anaerobic systems in sports requiring intermittent bursts of activity, such as basketball or hockey.",
+            "order": 6,
+            "markscheme": "- State that the ATP-PC system is dominant during explosive movements lasting up to 10 seconds <marks>A1</marks>\n- Explain how anaerobic glycolysis supports high-intensity efforts but leads to lactate accumulation <marks>A1</marks>\n- Describe the use of the aerobic system during lower-intensity periods to enable recovery and resynthesis of ATP <marks>A1</marks>\n- Outline how aerobic metabolism clears lactate and replenishes phosphocreatine stores between bursts <marks>A1</marks>\n- Discuss how the efficient interaction of both systems improves performance by allowing sustained high-intensity efforts <marks>A1</marks>\n\n5 marks total\n\n<note>Accept discussion of tactical substitution and pacing strategies as part of the interplay between systems.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "b8edec0c-9b15-4a9d-9775-1a7a567e4ac3",
+        "specification": "A person is exercising in a hot environment and losing fluid through sweat. How does the body respond to maintain hydration levels in this situation?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-b8edec0c-9b15-4a9d-9775-1a7a567e4ac3-1771953315939",
+            "generatedAt": "2026-02-25T07:26:44.259Z",
+            "sourceRevisionId": 1419828
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:30:01.977Z",
+            "resultId": 30152
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:17:19.337Z",
+              "reasoning": "Question focuses on dehydration from sweating and physiological regulation of fluid balance (ADH increasing water reabsorption) to maintain hydration/electrolyte levels.",
+              "confidence": 0.88
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:17:19.337Z",
+              "reasoning": "Maintaining hydration during heat stress is an example of homeostasis, involving feedback control mechanisms (osmoregulation).",
+              "confidence": 0.75
+            },
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T05:17:19.337Z",
+              "reasoning": "Correct response involves endocrine regulation via pituitary release of ADH, testing hormonal control of body processes.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1695467,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936453,
+            "content": "The pituitary gland releases more antidiuretic hormone (ADH), which increases water reabsorption in the kidneys.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936454,
+            "content": "The kidneys increase the volume of urine produced to remove excess electrolytes from the blood.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936455,
+            "content": "Sweat rate decreases due to reduced plasma volume (dehydration), which helps conserve body water.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936456,
+            "content": "The adrenal glands release more adrenaline, which increases the filtration rate in the nephrons.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c857ed70-23e4-4412-b53b-df70a45ef1b0",
+        "specification": "During prolonged cycling, which combination of fluids is most effective for restoring fluid and electrolyte balance?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:32:16.558Z",
+            "resultId": 30596
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:20:42.066Z",
+              "reasoning": "The question asks which fluid combination best supports rehydration during prolonged cycling, directly targeting water/electrolyte replacement and the role of sodium and glucose in hydration.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695481,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936497,
+            "content": "Water only",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936498,
+            "content": "Water with sodium and glucose",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936499,
+            "content": "Carbonated drinks",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936500,
+            "content": "Fruit juice without electrolytes",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d55b7ec3-5590-4967-86f7-1daffc74bd56",
+        "specification": "Which option best describes the role of electrolytes in maintaining fluid balance and normal nerve and muscle function during intense exercise?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:14:34.186Z",
+            "resultId": 30001
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:15:52.261Z",
+              "reasoning": "The question asks about electrolytes\u2019 role during intense exercise\u2014maintaining fluid balance and supporting nerve and muscle function\u2014core to water and electrolyte balance.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1696173,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938412,
+            "content": "They provide energy for ATP resynthesis",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938413,
+            "content": "They maintain fluid balance and support normal nerve and muscle function",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938414,
+            "content": "They increase oxygen uptake in the lungs",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938415,
+            "content": "They build muscle tissue directly",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d66aea44-047b-4111-bad5-f62eb805b3f9",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:17:34.273Z",
+              "reasoning": "All parts focus on hydration: electrolyte sources, factors affecting sweat rate, pre-exercise fluid intake, water conservation during exercise, electrolyte replacement for recovery, and monitoring hydration status\u2014core content of water and electrolyte balance.",
+              "confidence": 0.97
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-07T08:17:34.273Z",
+              "reasoning": "Explaining how the body conserves water during exercise (e.g., hormonal/renal regulation, thermoregulation responses) draws on general homeostasis mechanisms.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583722,
+        "parts": [
+          {
+            "id": 1137612,
+            "content": "State two sources of dietary electrolytes.",
+            "order": 1,
+            "markscheme": "- Table salt (sodium chloride) <marks>1</marks>\n- Bananas (potassium) <marks>1</marks>\n<note>(Other acceptable answers: sports drinks, dairy products, or leafy greens \u2014 any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137613,
+            "content": "Identify two factors that influence sweat rate.",
+            "order": 2,
+            "markscheme": "- Exercise intensity <marks>1</marks>\n- Ambient temperature <marks>1</marks>\n<note>(Other acceptable answers: humidity, hydration status, or body size \u2014 any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137614,
+            "content": "Describe the importance of fluid intake before exercise.",
+            "order": 3,
+            "markscheme": "- Helps maintain plasma volume <marks>1</marks>\n- Reduces cardiovascular strain <marks>1</marks>\n- Minimizes risk of early dehydration <marks>1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137615,
+            "content": "Explain two ways the body conserves water during exercise.",
+            "order": 4,
+            "markscheme": "- Release of ADH to reduce urine output <marks>1</marks>\n- Redirection of blood flow away from kidneys to reduce filtration <marks>1</marks>\n- Conservation of body fluids as a result of these mechanisms <marks>1</marks>\n- Maintenance of physiological and sports performance <marks>1</marks>\n<note>Award 1 mark for each way the body conserves water, and 1 mark each for the effects on physiological and sports performance.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137616,
+            "content": "Outline how electrolyte replacement improves recovery.",
+            "order": 5,
+            "markscheme": "- Replenishes lost sodium and potassium <marks>1</marks>\n- Supports nerve and muscle function <marks>1</marks>\n- Speeds up rehydration <marks>1</marks>\n- Restores fluid balance <marks>1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137617,
+            "content": "Discuss the importance of monitoring hydration status in competitive athletes.",
+            "order": 6,
+            "markscheme": "- Prevents performance decline due to dehydration <marks>1</marks>\n- Reduces risk of heat-related illness <marks>1</marks>\n- Guides personalized rehydration plans <marks>1</marks>\n- Allows for early detection of imbalances <marks>1</marks>\n- Enhances consistency in training and competition <marks>1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "dac7b10c-2b6d-42f8-889b-a1c93dbc2e2b",
+        "specification": "During a triathlon, an athlete overdrinks plain water, diluting blood sodium levels. What condition develops?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-07T08:19:41.167Z",
+              "reasoning": "The scenario describes overdrinking plain water leading to diluted blood sodium (exercise-associated hyponatremia), which falls under water and electrolyte balance.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1419843,
+        "parts": [],
+        "options": [
+          {
+            "id": 4150889,
+            "content": "Hyperkalemia",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4150890,
+            "content": "Hypoglycemia",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4150891,
+            "content": "Hyponatremia",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4150892,
+            "content": "Hyperthermia",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e5b27a4b-9d89-414f-a767-5ec0d128b612",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29909,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "title": "A.2.3.1 Energy production through phosphagen, glycolytic, and oxidative systems",
+              "labeledAt": "2026-03-07T08:17:36.240Z",
+              "reasoning": "All parts focus on energy system pathways and fuels: anaerobic glycolysis products, ATP-PC characteristics, aerobic system in endurance, and interaction of energy systems in sport/training.",
+              "confidence": 0.96
+            },
+            {
+              "id": 29906,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.2 Fuelling for health and performance > A.2.2.1 Macronutrients and their role in energy maintenance",
+              "title": "A.2.2.1 Macronutrients and their role in energy maintenance",
+              "labeledAt": "2026-03-07T08:17:36.240Z",
+              "reasoning": "Asks about why fats are not dominant at high intensity and the role of carbohydrates in football\u2014macronutrient fuel selection and use.",
+              "confidence": 0.7
+            },
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:17:36.240Z",
+              "reasoning": "Part (g) discusses how training improves efficiency and interaction between energy systems, linking to training design and adaptations.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1583686,
+        "parts": [
+          {
+            "id": 1137531,
+            "content": "Identify two products of anaerobic glycolysis.",
+            "order": 1,
+            "markscheme": "\u25cf Lactic acid <marks>A1</marks>\n\u25cf ATP <marks>A1</marks>\n\n<note>(Other acceptable answers: Pyruvate \u2013 any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137532,
+            "content": "State two reasons why fats are not the dominant fuel during high-intensity activity.",
+            "order": 2,
+            "markscheme": "\u25cf Fat metabolism is slower than carbohydrate metabolism <marks>A1</marks>\n\u25cf Requires more oxygen to break down fats <marks>A1</marks>\n\n<note>(Other acceptable answers: Fats are less readily available for immediate energy needs \u2013 any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137533,
+            "content": "Describe the characteristics of the ATP-PC system.",
+            "order": 3,
+            "markscheme": "\u25cf Provides energy instantly <marks>A1</marks>\n\u25cf Lasts for 6\u201310 seconds <marks>A1</marks>\n\u25cf Uses stored phosphocreatine in muscles <marks>A1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137534,
+            "content": "Explain how the aerobic system supports performance in long-duration events.",
+            "order": 4,
+            "markscheme": "\u25cf Uses oxygen to break down fats and carbohydrates <marks>A1</marks>\n\u25cf Supports sustained ATP production <marks>A1</marks>\n\u25cf Fuels endurance at low to moderate intensity <marks>A1</marks>\n\u25cf Delays fatigue during events like marathons <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137535,
+            "content": "Outline the role of carbohydrates in a mixed-energy sport like Football (Soccer).",
+            "order": 5,
+            "markscheme": "\u25cf Carbohydrates are a readily available energy source for high-intensity efforts <marks>A1</marks>\n\u25cf They provide quick energy required for sprinting in soccer <marks>A1</marks>\n\u25cf Glycogen stores help maintain pace during repeated bursts of activity <marks>A1</marks>\n\u25cf Carbohydrates support both the anaerobic and aerobic energy demands of the match <marks>A1</marks>\n\n<note>Award 1 mark for explaining traits of carbohydrates. Award up to 3 marks for explanation of adaptation to Football (Soccer).</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137536,
+            "content": "Discuss how training can improve efficiency and interaction between the body's energy systems.",
+            "order": 6,
+            "markscheme": "\u25cf Endurance training enhances mitochondrial density and oxidative capacity <marks>A1</marks>\n\u25cf Anaerobic training improves the capacity of the glycolytic system <marks>A1</marks>\n\u25cf Interval training improves the lactate threshold, allowing higher intensities to be maintained <marks>A1</marks>\n\u25cf Training enhances the coordination and transition between different energy systems <marks>A1</marks>\n\u25cf Greater overall efficiency delays the onset of fatigue and improves performance <marks>A1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "e84449e7-8e90-494d-8db5-e5af2e4e3d43",
+        "specification": "How does dehydration impair thermoregulation during exercise?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:39:12.292Z",
+            "resultId": 42069
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T15:58:53.644Z",
+              "reasoning": "The question asks how dehydration affects thermoregulation during exercise, focusing on reduced sweating and heat dissipation\u2014core concepts of water and electrolyte balance in body functioning.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T15:58:53.644Z",
+              "reasoning": "Thermoregulation is a homeostatic process; dehydration impairing heat loss links to mechanisms maintaining homeostasis, though the hydration topic is more direct.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1696773,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939452,
+            "content": "By reducing the ability to sweat and dissipate heat",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4939453,
+            "content": "By reducing skin blood flow and heat loss to the environment",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4939454,
+            "content": "By increasing plasma volume to enhance evaporative cooling",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939455,
+            "content": "By increasing heat loss by lowering core body temperature",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e8e16a7d-efec-4e48-965a-d7f8bcec714c",
+        "specification": "Which electrolyte is primarily responsible for the depolarization phase of a nerve impulse during sprinting?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:04:02.292Z",
+            "resultId": 42058
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T15:58:59.498Z",
+              "reasoning": "The question asks which electrolyte is most important for nerve impulse transmission during sprinting, directly targeting knowledge of electrolyte roles and balance in physiological function.",
+              "confidence": 0.82
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-06T15:58:59.498Z",
+              "reasoning": "Nerve impulse transmission is a nervous system function; selecting the key electrolyte (sodium) relates to how the nervous system coordinates physiological responses during exercise.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1696789,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939516,
+            "content": "Potassium",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939517,
+            "content": "Chloride",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939518,
+            "content": "Sodium",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939519,
+            "content": "Magnesium",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ef804557-3874-4bf1-bcf1-99ef4a2f80ef",
+        "specification": "In hot and humid conditions, why are athletes at a higher risk of dehydration?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T16:00:01.285Z",
+              "reasoning": "The question asks why hot and humid conditions increase dehydration risk; the correct rationale is increased sweating leading to fluid and electrolyte loss, which directly falls under water and electrolyte balance.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1583613,
+        "parts": [],
+        "options": [
+          {
+            "id": 4554369,
+            "content": "They breathe faster, absorbing less oxygen",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4554370,
+            "content": "Sweating increases fluid and electrolyte loss",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4554371,
+            "content": "The kidneys stop reabsorbing water",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4554372,
+            "content": "Energy expenditure decreases",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "f0295714-fb2c-4047-a399-1f0ecddaacc7",
+        "specification": "Based on the data in the table, which participant is at the highest risk of both hypernatremia and cardiovascular drift? (Assume hypernatremia risk increases with higher serum $\\text{Na}^+$, and cardiovascular drift risk increases with greater dehydration (body mass loss), higher core temperature, and longer exercise duration.)\n\n| Participant | Duration of Exercise / minutes | Body Mass Loss / % | Serum $\\text{Na}^+ / \\text{mmol L}^{-1}$ | Core Temperature / $^\\circ\\text{C}$ |\n| :--- | :---: | :---: | :---: | :---: |\n| A | 60 | 1.5 | 137 | 38.4 |\n| B | 90 | 2.3 | 142 | 39.1 |\n| C | 120 | 3.2 | 145 | 39.8 |",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:59:31.746Z",
+            "resultId": 30610
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29905,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.1 Water and electrolyte balance > A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "title": "A.2.1.1 Importance of water and electrolyte balance for body functioning",
+              "labeledAt": "2026-03-06T05:20:58.021Z",
+              "reasoning": "The question asks who is at highest risk of hypernatremia using serum Na+ values and hydration status (body mass loss), which directly targets water and electrolyte balance concepts.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-06T05:20:58.021Z",
+              "reasoning": "Cardiovascular drift relates to cardiovascular responses during prolonged exercise/heat stress (elevated core temperature, dehydration), linking to cardiovascular system function.",
+              "confidence": 0.62
+            },
+            {
+              "id": 30050,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.2 Maintaining homeostasis > A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "title": "A.1.2.1 Mechanisms and processes maintaining homeostasis",
+              "labeledAt": "2026-03-06T05:20:58.021Z",
+              "reasoning": "Hypernatremia and thermoregulatory strain (core temperature changes) involve maintaining homeostasis (fluid balance and temperature regulation) during exercise.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695316,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936029,
+            "content": "Participant A",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Participant A has the lowest duration, lowest body mass loss, lowest serum $\\text{Na}^+$, and lowest core temperature, so is least likely to be at the highest risk."
+          },
+          {
+            "id": 4936030,
+            "content": "Participant B",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Participant B shows intermediate duration, dehydration, serum $\\text{Na}^+$ and core temperature, so is not at the highest risk compared with Participant C."
+          },
+          {
+            "id": 4936031,
+            "content": "Participant C",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Participant C has the highest serum $\\text{Na}^+$ (145 $\\text{mmol L}^{-1}$), greatest body mass loss (3.2%), highest core temperature (39.8 $^\\circ\\text{C}$), and longest duration (120 min), indicating the greatest combined risk of hypernatremia and cardiovascular drift."
+          },
+          {
+            "id": 4936032,
+            "content": "None of the participants",
+            "correct": false,
+            "order": 3,
+            "markscheme": "The table shows clear differences, and Participant C has the highest serum $\\text{Na}^+$ and the greatest indicators associated with cardiovascular drift (duration, dehydration, and core temperature)."
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "45",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 21850,
+      "title": "A.2.1 Water and electrolyte balance",
+      "slug": "ib-sehs-new-a21-water-and-electrolyte-balance",
+      "parentTopicId": 21852
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "45",
+      "byQuestion": {}
+    }
+  }
+}

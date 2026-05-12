@@ -1,3 +1,903 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ded8a6a1fcb4d4e709721955dd5ac2ff1ad810d5420a11503e9e0e1a5fb1006
-size 64202
+{
+  "json": {
+    "questions": [
+      {
+        "id": "3559de67-5cfb-46dc-93bf-f6dcea596c0e",
+        "specification": "A healthcare analytics platform processes patient data from multiple hospitals for population health studies.\n\nWhich stored procedure feature best helps protect patient privacy while still allowing analysis?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:56:03.317Z",
+            "resultId": 3312
+          }
+        },
+        "currentRevisionId": 1691871,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930925,
+            "content": "Remove direct identifiers (such as names or patient ID numbers) from query results and use a pseudonymous research ID instead",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: removing direct identifiers and using a pseudonymous ID reduces re-identification risk while still allowing grouping/analysis."
+          },
+          {
+            "id": 4930926,
+            "content": "Use stored procedures to permanently delete all patient records after each report is generated",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: deleting all records prevents ongoing analysis and is not a privacy-preserving anonymisation technique for research datasets."
+          },
+          {
+            "id": 4930927,
+            "content": "Encrypt the database and then share the encryption key with all researchers so they can decrypt the full dataset",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: encryption protects data at rest/in transit, but sharing the key widely exposes full identifiable data and does not achieve anonymised analysis."
+          },
+          {
+            "id": 4930928,
+            "content": "Store all patient data in a single table with no constraints to make querying faster",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: this does not address privacy and may reduce data integrity."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3a6e84c7-ca35-4de3-a3bc-541fb84a659a",
+        "specification": "A customer relationship management (CRM) system requires complex reporting and data analysis capabilities.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494359,
+        "parts": [
+          {
+            "id": 1125963,
+            "content": "Compare different approaches to database programming including embedded SQL, stored procedures, and ORM (Object-Relational Mapping) frameworks.",
+            "order": 1,
+            "markscheme": "- **Describe** embedded SQL as direct SQL strings within application code, which is simple to implement for basic tasks but can become difficult to maintain and secure as the application grows. <marks>A2</marks>\n\n- **Describe** stored procedures as logic stored and executed on the database server, providing high performance and centralizing business logic, though they are often specific to a particular database vendor. <marks>A2</marks>\n\n- **Describe** ORM (Object-Relational Mapping) as an abstraction layer that allows developers to interact with the database using object-oriented code, promoting portability and speed of development, but potentially introducing performance overhead. <marks>A2</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "sequential_description",
+                  "label": "Sequential Descriptive Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the CRM Requirements",
+                      "content": "For a CRM system that needs **complex reporting and data analysis**, we need to evaluate how different database programming approaches handle performance, maintainability, and complexity. This question falls under **Topic A3.3: Database programming**. \n\nWe will examine three distinct methods sequentially: Embedded SQL, Stored Procedures, and ORM frameworks.",
+                      "highlights": [
+                        {
+                          "text": "complex reporting and data analysis capabilities",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Evaluate Embedded SQL",
+                      "content": "Embedded SQL involves placing **direct SQL strings** directly inside your application code (e.g., inside a Java or Python script).\n\n*   **Characteristics**: The application sends a query string to the database at runtime.\n*   **Advantages**: It is very simple to implement for quick, basic tasks because you don't need additional layers or server-side configurations.\n*   **Limitations**: As the CRM grows, these strings become **difficult to maintain** and update. Furthermore, they are prone to security vulnerabilities like SQL injection if not handled carefully.",
+                      "highlights": [
+                        {
+                          "text": "direct SQL strings within application code",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Evaluate Stored Procedures",
+                      "content": "Stored Procedures move the logic from the application directly into the database engine itself.\n\n*   **Characteristics**: The code is **stored and executed on the database server** rather than the application server.\n*   **Advantages**: They provide **high performance** because the database pre-compiles the code, and they centralize business logic, ensuring all applications use the same reporting rules.\n*   **Limitations**: They are usually written in vendor-specific languages (like PL/SQL for Oracle or T-SQL for SQL Server), which makes it very hard to switch database providers later.",
+                      "highlights": [
+                        {
+                          "text": "logic stored and executed on the database server",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Evaluate ORM Frameworks",
+                      "content": "Object-Relational Mapping (ORM) acts as a bridge between the database tables and the objects used in programming.\n\n*   **Characteristics**: It is an **abstraction layer** that lets developers interact with data using **object-oriented code** (like classes and objects) instead of writing SQL.\n*   **Advantages**: This significantly speeds up development and makes the application portable across different types of databases.\n*   **Limitations**: Because the ORM has to \"translate\" objects into SQL, it can introduce **performance overhead**, which might slow down the complex data analysis required by this CRM.",
+                      "highlights": [
+                        {
+                          "text": "abstraction layer that allows developers to interact with the database using object-oriented code",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary of Marks",
+                      "content": "To achieve the full 6 marks, ensure you have provided both a strength and a weakness for each of the three approaches:\n\n1.  **Embedded SQL**: Mention direct strings (simple) vs. maintenance/security issues. (<marks>2</marks>)\n2.  **Stored Procedures**: Mention server-side execution (performance) vs. vendor lock-in. (<marks>2</marks>)\n3.  **ORM**: Mention object-oriented abstraction (development speed) vs. performance overhead. (<marks>2</marks>)"
+                    }
+                  ]
+                },
+                {
+                  "id": "thematic_comparison",
+                  "label": "Thematic Comparative Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the CRM requirements",
+                      "content": "A Customer Relationship Management (CRM) system often handles large datasets and requires complex reporting. To choose between **Embedded SQL**, **Stored Procedures**, and **ORM (Object-Relational Mapping)**, we must evaluate how each handles data logic and interaction.\n\nThis comparison uses the **Thematic Comparative Approach**, evaluating performance, security, maintenance, and portability across these three technologies.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "complex reporting and data analysis capabilities",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Performance and data analysis",
+                      "content": "For a CRM requiring complex reporting, performance is critical:\n\n*   **Stored Procedures**: Offer the highest performance because they are pre-compiled and executed directly on the database server. This reduces network traffic since only the result is sent back, not the raw data.\n*   **Embedded SQL**: Has moderate performance. SQL strings are sent from the application to the database, which must then parse and execute them. This increases network overhead for complex reports.\n*   **ORM**: Generally has the lowest performance. It introduces an \"abstraction penalty\" or overhead when converting database rows into objects, and it may generate inefficient SQL queries compared to hand-written ones.",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Security and Ease of Maintenance",
+                      "content": "How we manage and protect data is vital for sensitive customer information:\n\n*   **Embedded SQL**: Logic is scattered directly within the application code as strings. This makes it **difficult to maintain** as the app grows and increases the risk of **SQL injection** if inputs are not sanitized correctly.\n*   **Stored Procedures**: Centralize business logic on the database server. This makes maintenance easier for data-heavy tasks and provides **high security**, as users can be granted permission to run a procedure without having direct access to the underlying tables.\n*   **ORM**: Promotes high **ease of maintenance** for developers. It allows them to interact with the database using object-oriented code (e.g., Python or Java), which is cleaner and usually handles basic security (like parameter binding) automatically.",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Vendor Portability and Development Speed",
+                      "content": "If the CRM needs to work with different database types (e.g., moving from MySQL to PostgreSQL):\n\n*   **ORM**: Provides the highest **vendor portability**. Because the code is written in an abstract way, switching databases often only requires a small configuration change.\n*   **Embedded SQL**: Offers moderate portability. While SQL is standard, small differences in syntax between vendors (dialects) might still require code changes.\n*   **Stored Procedures**: Offer the lowest portability. They are often written in vendor-specific languages (like Oracle's PL/SQL or Microsoft's T-SQL). Moving to a different database vendor would require a complete rewrite of the procedures.",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Summary for CRM",
+                      "content": "In summary, to gain full marks, you should describe each technology's trade-offs:\n\n1.  **Embedded SQL**: Simple for basics but high maintenance and security risks.\n2.  **Stored Procedures**: High performance and centralized logic, but tied to a specific vendor.\n3.  **ORM**: Fast development and high portability, but suffers from performance overhead.",
+                      "calculator": []
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:06:11.856Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125964,
+            "content": "Write pseudocode for a stored procedure that calculates monthly sales performance metrics, including error handling and transaction management.",
+            "order": 2,
+            "markscheme": "Example Pseudocode:\n\n```sql\nCREATE PROCEDURE CalculateSalesMetrics(IN target_month INT, IN target_year INT)\nBEGIN\n    -- Error handling definition\n    DECLARE EXIT HANDLER FOR SQLEXCEPTION \n    BEGIN\n        ROLLBACK;\n    END;\n\n    START TRANSACTION;\n\n    -- Logic to calculate metrics and insert into summary table\n    INSERT INTO monthly_metrics (month_id, year_id, total_sales)\n    SELECT target_month, target_year, SUM(sales_amount)\n    FROM orders\n    WHERE MONTH(order_date) = target_month AND YEAR(order_date) = target_year;\n\n    COMMIT;\nEND\n```\n\n- **Construct** a proper procedure structure with input parameters. <marks>A1</marks>\n\n- **Implement** error handling using an appropriate exception handler and rollback mechanism. <marks>A1</marks>\n\n- **Apply** transaction management using specific commands like `START TRANSACTION` and `COMMIT`. <marks>A1</marks>\n\n- **Formulate** the SQL logic to correctly aggregate and store the sales metrics. <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "integrated_sql",
+                  "label": "Integrated SQL Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define Procedure and Parameters",
+                      "content": "To start, we define the stored procedure with the appropriate input parameters. Since we are calculating monthly metrics, we need to pass in the month and year as integers. This structure ensures the procedure is reusable for any given time period.\n\n$$ \\text{CREATE PROCEDURE CalculateSalesMetrics(IN target\\_month INT, IN target\\_year INT)} $$",
+                      "highlights": [
+                        {
+                          "text": "Construct a proper procedure structure with input parameters.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Establish Error Handling",
+                      "content": "In database programming, it is crucial to handle errors to maintain data integrity. We use an `EXIT HANDLER` for `SQLEXCEPTION`. If any error occurs during the process, the handler will trigger a `ROLLBACK`, which undoes any partial changes made during the transaction.\n\n$$\\begin{aligned} &\\text{DECLARE EXIT HANDLER FOR SQLEXCEPTION} \\\\ &\\text{BEGIN} \\\\ &\\quad \\text{ROLLBACK;} \\\\ &\\text{END;} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "Implement error handling using an appropriate exception handler and rollback mechanism.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Initiate Transaction Management",
+                      "content": "To ensure the operation is atomic (all-or-nothing), we use transaction commands. We begin the block with `START TRANSACTION`. This tells the database to treat the following commands as a single unit of work.\n\nThis concept is a key part of **Topic A3.3.6: How Transactions Maintain Data Integrity**.",
+                      "highlights": [
+                        {
+                          "text": "Apply transaction management using specific commands like START TRANSACTION and COMMIT.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Integrated SQL Calculation",
+                      "content": "Using the **Integrated SQL Approach**, we calculate the metrics and store them in a single, set-based operation. Instead of retrieving data and then saving it separately, we use `INSERT INTO ... SELECT`. This utilizes aggregate functions like `SUM()` to calculate totals directly from the `orders` table for the specified month and year.\n\n$$\\begin{aligned} &\\text{INSERT INTO monthly\\_metrics (month\\_id, year\\_id, total\\_sales)} \\\\ &\\text{SELECT target\\_month, target\\_year, SUM(sales\\_amount)} \\\\ &\\text{FROM orders} \\\\ &\\text{WHERE MONTH(order\\_date) = target\\_month} \\\\ &\\quad \\text{AND YEAR(order\\_date) = target\\_year;} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "Formulate the SQL logic to correctly aggregate and store the sales metrics.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Finalize and Commit",
+                      "content": "Once the integrated logic successfully executes, we call `COMMIT` to permanently save the changes to the database. We then close the procedure block with `END`. \n\nThis completes the 4-mark requirement by covering the procedure header, exception handling, transaction control, and the calculation logic."
+                    }
+                  ]
+                },
+                {
+                  "id": "variable_calculation",
+                  "label": "Variable-Based Logic",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Procedure Structure",
+                      "content": "To begin, we define the stored procedure and its input parameters. In IB Computer Science, stored procedures are modular blocks of code that can be called to perform specific tasks. We need two inputs: the month and the year we are analyzing.\n\n$$\\begin{aligned} &\\text{CREATE PROCEDURE CalculateSalesMetrics(IN target\\_month INT, IN target\\_year INT)} \\\\ &\\text{BEGIN} \\end{aligned}$$\n\nThis structure satisfies the first requirement of the markscheme by establishing the procedure and accepting parameters.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Construct a proper procedure structure with input parameters.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Implement Error Handling",
+                      "content": "Data integrity is crucial in databases (**Topic A3.3.6**). We use an exception handler to ensure that if any SQL error occurs, the system doesn't leave the data in a messy, partial state. \n\n$$\\begin{aligned} &\\text{DECLARE EXIT HANDLER FOR SQLEXCEPTION} \\\\ &\\text{BEGIN} \\\\ &\\quad \\text{ROLLBACK;} \\\\ &\\text{END;} \\end{aligned}$$\n\nBy including `ROLLBACK`, we tell the database to undo any changes made during the current transaction if an error happens.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Implement error handling using an appropriate exception handler and rollback mechanism.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate Using a Variable",
+                      "content": "Using the **Variable-Based Logic** approach, we don't insert directly from a query. Instead, we first calculate the sum and store it in a local variable. This is helpful for debugging or if we need to perform extra logic on the value before saving it.\n\nFirst, we declare the variable and use `SELECT ... INTO`:\n\n$$\\begin{aligned} &\\text{DECLARE total\\_sales DECIMAL(15,2);} \\\\ &\\text{START TRANSACTION;} \\\\ &\\text{SELECT SUM(sales\\_amount) INTO total\\_sales} \\\\ &\\text{FROM orders} \\\\ &\\text{WHERE MONTH(order\\_date) = target\\_month AND YEAR(order\\_date) = target\\_year;} \\end{aligned}$$\n\nThis uses an **Aggregate Function** (`SUM`), which is an HL requirement found in **Topic A3.3.4**.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Apply transaction management using specific commands like START TRANSACTION and COMMIT.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Insert and Commit",
+                      "content": "Now that we have our metric stored in the `total\\_sales` variable, we perform a separate `INSERT` statement to save it to our summary table. Once finished, we use `COMMIT` to permanently save the transaction.\n\n$$\\begin{aligned} &\\text{INSERT INTO monthly\\_metrics (month\\_id, year\\_id, total\\_sales)} \\\\ &\\text{VALUES (target\\_month, target\\_year, total\\_sales);} \\\\ &\\text{COMMIT;} \\\\ &\\text{END} \\end{aligned}$$\n\nThis final step completes the logic required to aggregate and store the sales metrics while maintaining strict transaction control.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Formulate the SQL logic to correctly aggregate and store the sales metrics.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "generic_programming_style",
+                  "label": "Generic Pseudocode Style",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define procedure and parameters",
+                      "content": "To begin, we need to define the procedure. A stored procedure in a CRM system often requires specific inputs to know which data to process. In this case, we need the month and year as input parameters.\n\n$$PROCEDURE \\ CalculateSalesMetrics(target\\_month, target\\_year)$$\n\nThis identifies the task and prepares the system to receive the specific time frame for the report.",
+                      "highlights": [
+                        {
+                          "text": "Construct a proper procedure structure with input parameters.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Implement error handling logic",
+                      "content": "Using a **Generic Pseudocode Style**, we use a `TRY...CATCH` block. This ensures that if any database error occurs during the calculation, the system doesn't crash but instead follows a predefined path to handle the failure.\n\n$$\\begin{aligned} &TRY \\\\ &\\quad \\text{// Database operations go here} \\\\ &CATCH \\ ERROR \\\\ &\\quad \\text{// Error recovery goes here} \\\\ &END \\ TRY \\end{aligned}$$\n\nThis aligns with **Topic B2.1.3** regarding exception handling techniques.",
+                      "highlights": [
+                        {
+                          "text": "Implement error handling using an appropriate exception handler",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply transaction management",
+                      "content": "To maintain data integrity (as seen in **Topic A3.3.6**), we wrap our operations in a transaction. This ensures that the data is either fully processed or not processed at all. If an error occurs, we use `ROLLBACK` to undo any partial changes.\n\n$$\\begin{aligned} &BEGIN \\ TRANSACTION \\\\ &\\quad \\text{// Perform SQL Logic} \\\\ &COMMIT \\ TRANSACTION \\\\ &CATCH \\ ERROR \\\\ &\\quad ROLLBACK \\ TRANSACTION \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "Apply transaction management using specific commands",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "rollback mechanism",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Formulate SQL aggregation logic",
+                      "content": "Inside the transaction, we perform the actual calculation. We use the `SUM()` aggregate function to calculate total sales from the `orders` table and then `INSERT` that result into our `summary` table.\n\n$$\\begin{aligned} &INSERT \\ INTO \\ monthly\\_metrics(month\\_id, year\\_id, total\\_sales) \\\\ &SELECT \\ target\\_month, target\\_year, SUM(sales\\_amount) \\\\ &FROM \\ orders \\\\ &WHERE \\ month = target\\_month \\ AND \\ year = target\\_year \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "Formulate the SQL logic to correctly aggregate and store the sales metrics.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Finalize the pseudocode",
+                      "content": "Now, we combine all the components into a single coherent block of pseudocode. This structure satisfies all 4 marks by including parameters, error handling, transaction commands, and the calculation logic.\n\n$$\\begin{aligned} &PROCEDURE \\ CalculateSalesMetrics(target\\_month, target\\_year) \\\\ &BEGIN \\\\ &\\quad TRY \\\\ &\\quad \\quad BEGIN \\ TRANSACTION \\\\ &\\quad \\quad INSERT \\ INTO \\ monthly\\_metrics \\dots \\\\ &\\quad \\quad \\text{// SQL Logic for SUM and SELECT} \\\\ &\\quad \\quad COMMIT \\ TRANSACTION \\\\ &\\quad CATCH \\ ANY \\ EXCEPTION \\\\ &\\quad \\quad ROLLBACK \\ TRANSACTION \\\\ &\\quad END \\ TRY \\\\ &END \\ PROCEDURE \\end{aligned}$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:07:48.134Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "452b0151-840d-45f6-9c7c-a0c8fcfbdcd0",
+        "specification": "An inventory management system needs to handle real-time stock updates and generate automated alerts.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:58:46.560Z",
+            "resultId": 3539
+          }
+        },
+        "currentRevisionId": 1690767,
+        "parts": [
+          {
+            "id": 1153225,
+            "content": "Explain how database triggers can automate business logic and maintain data consistency, providing specific examples for inventory management.",
+            "order": 0,
+            "markscheme": "- Explain how an `AFTER INSERT` trigger on the sales table can automatically update inventory quantities to ensure stock levels remain accurate after every sale. <marks>1 mark</marks>\n- Explain how a `BEFORE UPDATE` trigger can be used to validate stock levels to prevent negative inventory by verifying availability before the database is updated. <marks>1 mark</marks>\n- Explain how an `AFTER UPDATE` trigger can monitor inventory levels and generate automated alerts when stock falls below specific reorder points. <marks>1 mark</marks>\n- Clear link to automating business logic (logic runs automatically in response to data changes). <marks>1 mark</marks>\n- Clear link to maintaining data consistency/integrity (e.g. preventing invalid states such as negative stock). <marks>1 mark</marks>\n- At least one specific inventory-related example is described with sufficient detail to show how it works. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153226,
+            "content": "Discuss the potential drawbacks of using triggers extensively and alternative approaches for implementing business rules.",
+            "order": 1,
+            "markscheme": "- Discuss how extensive use of triggers can make debugging complex systems difficult, as business logic becomes \"hidden\" and executes automatically within the database. <marks>1 mark</marks>\n- Suggest an alternative approach, such as implementing business rules in the application layer, which allows for better visibility, logging, and unit testing. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6a741b6f-3e07-45b9-92da-130491fc5e62",
+        "specification": "A content management system handles articles, user comments, and search functionality across multiple languages.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:04:04.537Z",
+            "resultId": 3154
+          }
+        },
+        "currentRevisionId": 1692016,
+        "parts": [
+          {
+            "id": 1153799,
+            "content": "Design a database solution for implementing search functionality that supports multiple languages and sensible ordering of results.",
+            "order": 0,
+            "markscheme": "- Identify appropriate tables/fields to store article content and its language (e.g., an Article table with title/body and a language field/code) <marks>1 mark</marks>\n- Describe using SQL queries with $LIKE$ and/or pattern matching to search for a user-entered keyword/phrase within relevant text fields (e.g., title/body) <marks>1 mark</marks>\n- Explain how to handle multiple languages at a basic level, such as filtering by the selected language or storing separate translated versions linked to the same article <marks>1 mark</marks>\n- Describe ordering results using standard SQL (e.g., sorting by date, alphabetical order, or a simple prioritisation such as title matches before body matches via an additional computed field) <marks>1 mark</marks>\n- State the use of appropriate indexes on searched/sorted columns (e.g., indexing language and title) to improve query performance <marks>1 mark</marks>\n- Include an example of the key SQL operations needed (SELECT with WHERE and ORDER BY) showing how the search and ordering would be performed <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153800,
+            "content": "Analyze how database cursors and pagination techniques handle large result sets efficiently in web applications.",
+            "order": 1,
+            "markscheme": "- State that database cursors maintain a stable pointer to a specific position in the result set, facilitating efficient sequential access for server-side pagination <marks>1 mark</marks>\n- Explain that while $\\text{LIMIT} / \\text{OFFSET}$ clauses provide a simple pagination method, performance can degrade with large offsets as the engine must scan and discard preceding rows <marks>1 mark</marks>\n- Describe an alternative pagination approach suitable at this level, such as using page numbers with $\\text{LIMIT} / \\text{OFFSET}$ plus a consistent $\\text{ORDER BY}$ on a unique/immutable column (e.g., articleId or createdAt) to keep paging stable <marks>1 mark</marks>\n- Discuss the importance of transaction isolation levels and consistency strategies to ensure results remain accurate during concurrent data modifications <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6df94eb7-e604-45d8-a2c9-6f16a67ccd24",
+        "specification": "A gaming platform tracks player statistics, achievements, and leaderboards with real-time updates.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494299,
+        "parts": [
+          {
+            "id": 1125854,
+            "content": "Compare different approaches to handling concurrent updates to player scores and rankings, including optimistic vs pessimistic locking strategies.",
+            "order": 1,
+            "markscheme": "- Describe the optimistic locking strategy, which utilizes version numbers to allow concurrent reads while detecting conflicts during the update process. <marks>M1</marks>\n- State that optimistic locking requires a retry mechanism if a version conflict is identified, ensuring eventual consistency. <marks>A1</marks>\n- Describe the pessimistic locking strategy, which prevents conflicts by locking data records during an update to ensure exclusive access. <marks>M1</marks>\n- Identify drawbacks of pessimistic locking, such as reduced system concurrency and the potential for deadlocks. <marks>A1</marks>\n- Compare the strategies by noting that gaming applications typically favor an optimistic approach to improve performance and user experience. <marks>R1</marks>\n- Identify the use of atomic operations, such as `INCREMENT`, to safely update scores without the overhead of explicit record locks. <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "comparative_strategy_analysis",
+                  "label": "Comparative Strategy Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understanding Concurrency in Gaming",
+                      "content": "In a real-time gaming platform, thousands of players might update their scores simultaneously. If two updates happen at the exact same time on the same record, we face a **concurrency** problem. This falls under **Topic A3.3.6 (How transactions maintain data integrity)** in your syllabus. We need a strategy to ensure that when a player earns an achievement, their score is recorded accurately without overwriting someone else's data.",
+                      "highlights": [
+                        {
+                          "text": "real-time updates",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Pessimistic Locking Mechanism",
+                      "content": "**Pessimistic locking** assumes the worst: that a conflict *will* happen. To prevent this, the system locks a data record the moment a player starts an update. \n\n- **Mechanism:** It ensures exclusive access; while Player A is updating their score, Player B is blocked from even reading that specific record until the lock is released.\n- **Drawbacks:** This significantly reduces system concurrency (speed) and can lead to **deadlocks**, where two processes are stuck waiting for each other to release locks.",
+                      "highlights": [
+                        {
+                          "text": "pessimistic locking strategies",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Optimistic Locking and Versioning",
+                      "content": "**Optimistic locking** assumes conflicts are rare. Instead of locking records, it uses **version numbers**.\n\n- **Mechanism:** Every time a record is read, the system notes its version (e.g., `version: 5`). When the player tries to save the new score, the system checks if the version is still 5. If it is, the update proceeds and the version increments to 6.\n- **Conflict Handling:** If the version has changed (meaning another player updated it first), the system identifies a conflict and triggers a **retry mechanism** to attempt the update again, ensuring eventual consistency.",
+                      "highlights": [
+                        {
+                          "text": "optimistic vs pessimistic locking strategies",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Strategy Evaluation for Gaming",
+                      "content": "When we compare these strategies for a gaming environment:\n\n- **Performance:** Pessimistic locking creates \"lag\" because players have to wait for locks to clear. \n- **User Experience (UX):** Optimistic locking is generally favored because it allows for high-speed, concurrent reads and writes, which is essential for real-time leaderboards.\n- **Efficiency:** In high-traffic games, the overhead of managing thousands of locks (pessimistic) is much more taxing on the CPU than occasionally retrying an update (optimistic)."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Using Atomic Operations",
+                      "content": "A highly efficient alternative often used alongside these strategies is the use of **atomic operations**. \n\nInstead of \"Reading, Calculating, and Writing\" (which requires locking), the system can use a command like `INCREMENT`. This safely adds a value to a score in a single, unbreakable step at the database level. This avoids the overhead of explicit record locks while maintaining perfect data integrity.",
+                      "highlights": [
+                        {
+                          "text": "player scores and rankings",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Final Summary for Marks",
+                      "content": "To secure all 6 marks, your answer should clearly distinguish between the \"lock-first\" nature of pessimistic strategies and the \"check-at-the-end\" nature of optimistic strategies.\n\n- **M1 & A1:** Describe optimistic locking (versioning) and the retry mechanism.\n- **M1 & A1:** Describe pessimistic locking (exclusive access) and its drawbacks (deadlocks/low concurrency).\n- **R1:** Conclude that gaming favors optimistic locking for better performance.\n- **A1:** Mention atomic operations (`INCREMENT`) as a specific implementation technique."
+                    }
+                  ]
+                },
+                {
+                  "id": "conflict_resolution_framework",
+                  "label": "Conflict Resolution Framework",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the concurrency conflict",
+                      "content": "In a real-time gaming platform, a **collision** occurs when two processes try to update a player's score or a leaderboard ranking at the exact same time. Without a conflict resolution framework, one update might overwrite the other, leading to data loss. This is often discussed in **Topic A3.3.6: How Transactions Maintain Data Integrity**.",
+                      "highlights": [
+                        {
+                          "text": "concurrent updates to player scores and rankings",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Optimistic locking: Versioning",
+                      "content": "Optimistic locking assumes that conflicts are rare. It allows multiple users to read the player data simultaneously. To maintain integrity, it utilizes **version numbers** or timestamps. \n\nWhen a process reads a record, it notes the version number. When it attempts to save the update, it checks if the version number in the database is still the same. If it is, the update proceeds and the version number is incremented.",
+                      "highlights": [
+                        {
+                          "text": "utilizes version numbers to allow concurrent reads while detecting conflicts during the update process",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme Reference"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Optimistic locking: Retry mechanism",
+                      "content": "If the version number has changed (meaning another player's update finished first), a conflict is detected. Instead of blocking the system, optimistic locking uses a **retry mechanism**. \n\nThe application will typically discard the failed update, fetch the new data (with the updated version), and try the calculation again. This ensures **eventual consistency** without making users wait.",
+                      "highlights": [
+                        {
+                          "text": "requires a retry mechanism if a version conflict is identified",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme Reference"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Pessimistic locking: Exclusive access",
+                      "content": "Pessimistic locking takes a \"safety first\" approach by **blocking** others. When a process starts an update, it places a lock on the data record. \n\nNo other process can read or modify that record until the first process is finished. This ensures exclusive access and prevents conflicts from ever occurring in the first place.",
+                      "highlights": [
+                        {
+                          "text": "prevents conflicts by locking data records during an update to ensure exclusive access",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme Reference"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Drawbacks of the blocking approach",
+                      "content": "While pessimistic locking guarantees integrity, it has significant drawbacks for a gaming platform:\n1. **Reduced Concurrency**: If many players update scores, the queue of \"waiting\" processes grows, slowing down the game.\n2. **Deadlocks**: Two processes might each lock a resource the other needs, causing the system to freeze.",
+                      "highlights": [
+                        {
+                          "text": "reduced system concurrency and the potential for deadlocks",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme Reference"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Atomic operations for performance",
+                      "content": "To avoid the overhead of full record locks, platforms use **atomic operations** like `INCREMENT`. \n\nAn atomic operation is a single, indivisible step. Instead of \"Read -> Add -> Write,\" the database is told to \"Add 10 to Score.\" This is handled at a low level by the system, ensuring the update is safe without needing complex locking logic.",
+                      "highlights": [
+                        {
+                          "text": "use of atomic operations, such as INCREMENT, to safely update scores",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme Reference"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 6,
+                      "title": "Summary and recommendation",
+                      "content": "In high-traffic gaming environments, **optimistic locking** is generally preferred. Because players are usually updating their own unique stats, collisions are infrequent. The improved performance and lack of \"blocking\" provide a much smoother user experience than the rigid waiting required by pessimistic locking.",
+                      "highlights": [
+                        {
+                          "text": "gaming applications typically favor an optimistic approach to improve performance and user experience",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme Reference"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:06:12.758Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125855,
+            "content": "Explain how batch processing techniques can efficiently update aggregated statistics and leaderboards.",
+            "order": 2,
+            "markscheme": "- Explain how batch processing aggregates multiple individual score updates into a single transaction to significantly reduce database input/output load. <marks>R1</marks>\n- Identify the use of scheduled jobs to recalculate complex leaderboard rankings during off-peak hours to minimize impact on real-time performance. <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "io_optimization",
+                  "label": "Database I/O Optimization",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the I/O Bottleneck",
+                      "content": "In a high-traffic gaming platform, every time a player earns points, the system could potentially trigger a database write operation. If thousands of players are active, performing thousands of individual updates per second creates a massive **I/O (Input/Output) bottleneck**, as each write requires system resources for logging and data integrity."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Aggregate into Single Transactions",
+                      "content": "Instead of processing every score update immediately, **batch processing** collects multiple individual data points into a single group. By using the **Database I/O Optimization** approach, these are sent as one single transaction. \n\nFor example, if we have $N$ updates:\n- **Individual updates:** $N$ separate write operations.\n- **Batch update:** $1$ write operation for all $N$ records.\n\nThis significantly reduces the database load by minimizing the overhead associated with opening and closing multiple connections.",
+                      "highlights": [
+                        {
+                          "text": "aggregates multiple individual score updates into a single transaction to significantly reduce database input/output load",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Schedule for Off-Peak Hours",
+                      "content": "Calculating global leaderboards often requires complex sorting and aggregation across the entire dataset. To avoid slowing down the game during busy periods, these heavy batch jobs are **scheduled during off-peak hours**. \n\nBy recalculating rankings when player activity is lowest, the system ensures that the primary database resources remain available for real-time gameplay updates, maintaining a smooth user experience.",
+                      "highlights": [
+                        {
+                          "text": "scheduled jobs to recalculate complex leaderboard rankings during off-peak hours to minimize impact on real-time performance",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary of Marks",
+                      "content": "To secure full marks on this question, you must mention two distinct points:\n1.  **Efficiency:** Explain that grouping updates into one transaction reduces the total number of I/O operations (1 mark).\n2.  **Performance:** Mention scheduling complex calculations for off-peak times to protect real-time performance (1 mark)."
+                    }
+                  ]
+                },
+                {
+                  "id": "load_scheduling",
+                  "label": "Scheduled Off-Peak Processing",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the efficiency problem",
+                      "content": "In a gaming platform, updating every single player's rank the moment their score changes (real-time) can be incredibly demanding on the database. If thousands of players are active, the system might lag. To solve this, we use **batch processing**, which groups many small updates into one larger task."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Aggregating updates into transactions",
+                      "content": "The first mark in this question is earned by explaining how batching reduces the workload. Instead of performing a database update for every single point earned, the system collects (aggregates) multiple individual score updates and processes them as a single **transaction**. \n\nThis significantly reduces the **Input/Output (I/O) load** on the database, as the system spends less time opening and closing connections for small, repetitive tasks.",
+                      "highlights": [
+                        {
+                          "text": "Explain how batch processing techniques can efficiently update aggregated statistics and leaderboards.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Scheduled off-peak processing",
+                      "content": "The second mark involves the **Scheduled Off-Peak Processing** strategy. Recalculating the entire global leaderboard is a complex task that requires comparing all players' scores. \n\nBy using **scheduled jobs**, the platform can delay these heavy recalculations until **off-peak hours** (times with the lowest player traffic). This prevents the complex ranking logic from consuming server resources during peak gaming times, ensuring a smooth, lag-free experience for active players."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary for the exam",
+                      "content": "To get full marks on this question, your explanation should include:\n1. **Batching:** Collecting multiple updates into one transaction to reduce I/O load. \n2. **Scheduling:** Running the heavy recalculations during off-peak times as scheduled jobs to preserve real-time performance.\n\nThis aligns with concepts of **Scheduling** and **Resource Allocation** found in **Topic A1.3 (Operating systems)** and **Topic A3.3 (Database programming)**."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:06:54.476Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "76da0c86-15c3-4afc-9dc6-87cd1fdb14b1",
+        "specification": "A financial trading platform processes millions of transactions daily and requires high-performance database operations.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T06:09:35.517Z",
+            "resultId": 3999
+          }
+        },
+        "currentRevisionId": 1693609,
+        "parts": [
+          {
+            "id": 1155687,
+            "content": "Complete the following table to **analyse** SQL **optimisation** techniques for improving query performance:\n\n| Optimisation Technique | Implementation Method     | Performance Impact | Use Case       | Potential Drawbacks     |\n|------------------------|---------------------------|--------------------|----------------|--------------------------|\n| Index Optimisation     |                           | High               |                | Storage overhead         |\n| Query Rewriting        |                           |                    | Complex joins  |                          |\n| Partitioning           | Horizontal/Vertical split |                    | Large tables   |                          |\n| Materialised Views     |                           | Medium             |                | Data consistency         |",
+            "order": 0,
+            "markscheme": "- Identify and describe index optimisation: implementation methods include B-tree, bitmap, or hash indexes; used for frequent `WHERE` clauses; drawbacks include storage and update overhead. <marks>2 marks</marks>\n- Identify and describe query rewriting: methods include subquery to join conversion; performance impact varies depending on the query planner; increases code complexity. <marks>2 marks</marks>\n- Identify and describe partitioning: provides very high performance impact for large datasets; ideal for time-series data; potential for complex cross-partition queries. <marks>2 marks</marks>\n- Identify and describe materialised views: uses pre-computed results for complex aggregations; involves refresh overhead and potential data latency. <marks>2 marks</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155688,
+            "content": "Explain how database connection pooling and prepared statements improve application performance in high-transaction environments.",
+            "order": 1,
+            "markscheme": "- Explain connection pooling: reduces the computational overhead of establishing database connections by reusing a pool of existing connections rather than creating new ones for each request. <marks>1 mark</marks>\n- Explain connection pooling: links reduced connection setup/teardown to improved throughput/latency under high load. <marks>1 mark</marks>\n- Explain prepared statements: reduces SQL parsing and compilation overhead for repeated queries by reusing execution plans. <marks>1 mark</marks>\n- Explain prepared statements: enhances security by preventing SQL injection through parameter binding. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cbe7d8ef-003f-4d4f-aaf5-73ccc64e81cb",
+        "specification": "An e-commerce platform experiences rapid growth requiring database scalability and performance optimization.\n\nWhich option best explains how performance can be improved under high load?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:09:46.809Z",
+            "resultId": 2519
+          }
+        },
+        "currentRevisionId": 1692130,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931069,
+            "content": "Use database connection pooling to reuse open connections (reducing connection setup overhead), and optimize queries by indexing and rewriting queries to reduce the amount of data scanned and improve response times.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: describes both reuse of connections to reduce overhead and query/index improvements to reduce work per request."
+          },
+          {
+            "id": 4931070,
+            "content": "Disable connection pooling so each request creates a fresh connection, and avoid indexes so inserts are always fastest, which improves overall performance under high load.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: creating new connections per request increases overhead; avoiding indexes can slow read queries substantially under load."
+          },
+          {
+            "id": 4931071,
+            "content": "Increase the number of columns returned in each query so fewer queries are needed, and open a new database connection for every user to isolate sessions.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: returning extra data can increase I/O and latency; per-user new connections increase connection overhead and contention."
+          },
+          {
+            "id": 4931072,
+            "content": "Improve performance only by adding more database servers; connection management and query design have negligible impact under high load.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: scaling hardware can help, but connection management and query optimization are significant factors affecting performance and throughput."
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "7",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 36322,
+      "title": "A3.3 Database programming",
+      "slug": "ib-computer-science-new-a3-3-database-programming",
+      "parentTopicId": 36319
+    },
+    "subject": {
+      "id": 6523,
+      "title": "Computer Science (First Exam 2027)",
+      "slug": "ib-computer-science-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "7",
+      "byQuestion": {}
+    }
+  }
+}

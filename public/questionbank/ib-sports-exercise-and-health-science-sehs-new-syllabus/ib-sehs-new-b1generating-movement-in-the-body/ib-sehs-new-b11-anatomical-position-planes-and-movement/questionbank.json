@@ -1,3 +1,3261 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7d340a19341d9ba734577a039a7c101539aeb2073b759f0a290228a11241d5d6
-size 146479
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0436d8be-4ede-432e-a1c0-36bbc807a357",
+        "specification": "A student is asked to identify a bone that belongs to the axial skeleton. Which of the following should they select?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-0436d8be-4ede-432e-a1c0-36bbc807a357-1771867193188",
+            "generatedAt": "2026-02-24T05:45:42.171Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420544
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:28:37.490Z",
+            "resultId": 30183
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-06T05:17:21.541Z",
+              "reasoning": "The question asks which bone belongs to the axial skeleton (vs appendicular). Identifying axial skeleton components (e.g., sternum) is directly covered under axial and appendicular skeleton components and their functions.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695461,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936429,
+            "content": "Tibia",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936430,
+            "content": "Scapula",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936431,
+            "content": "Sternum",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936432,
+            "content": "Fibula",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "04cf41ec-fda1-4921-b5a5-5b18c82c387f",
+        "specification": "Which axis is the axis of rotation for movement in the sagittal plane (e.g., a somersault)?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:42:47.769Z",
+            "resultId": 30180
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:17:21.056Z",
+              "reasoning": "The question asks which axis corresponds to movement in the sagittal plane (e.g., a somersault), which is directly about the relationship between planes of movement and axes of rotation.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695517,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936577,
+            "content": "Mediolateral axis",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936578,
+            "content": "Vertical axis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936579,
+            "content": "Longitudinal axis",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936580,
+            "content": "Anteroposterior axis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "082c75c3-8298-4793-853e-9cdd34ffcda3",
+        "specification": "Rotation of the head occurs along which axis?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:27:02.255Z",
+            "resultId": 44436
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:16:36.638Z",
+              "reasoning": "The question asks which axis head rotation occurs along, which directly tests knowledge of axes of rotation associated with movements in human motion.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1697425,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941388,
+            "content": "Longitudinal",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4941389,
+            "content": "Mediolateral",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4941390,
+            "content": "Anteroposterior",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4941391,
+            "content": "Vertical",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0864af81-74b9-47d4-a927-e858148ddaf0",
+        "specification": "Motion $X$ shows circumduction at the shoulder joint.\n\nWhich biomechanical principle best explains the functional advantage of this movement?\n\n![](https://pub-images.revisiondojo.com/question-images/MYmXRMSfQZVBO9CZi76a_)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:13:25.910Z",
+            "resultId": 42691
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T16:02:52.125Z",
+              "reasoning": "The diagram and options point to multi-directional control of movement (e.g., throwing/serving/swimming), which is explained biomechanically by movement occurring in multiple planes with associated axes of rotation (e.g., circumduction/ball-and-socket joint allowing motion across planes).",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1696418,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938788,
+            "content": "It limits movement to rotation about the longitudinal axis only, improving precision in turning actions",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Circumduction is a combined movement (flexion, extension, abduction and adduction) resulting in a circular path of the distal limb; it is not rotation about a single axis only."
+          },
+          {
+            "id": 4938789,
+            "content": "It allows force generation along a single fixed axis for maximal stability in compound lifts",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Circumduction involves movement across multiple planes/axes rather than force generation along one fixed axis."
+          },
+          {
+            "id": 4938790,
+            "content": "It increases movement efficiency by reducing joint range of motion across multiple planes",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Circumduction increases the available range of motion and the directions a limb can move, rather than reducing range of motion."
+          },
+          {
+            "id": 4938791,
+            "content": "It enables a wide range of directional control, crucial for skills like throwing, serving, and swimming",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Correct. Circumduction allows the distal end of a limb to move in a circular path, providing versatility and directional control in multi-planar movements."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0b2b0207-8e71-454c-a875-78e548ce0679",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Parts b\u2013d focus on synovial joint movements, anatomical terms for body position, and the roles of tendons and ligaments\u2014core content on joint/connective tissue structure and function supporting movement.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Part e asks how skeletal muscle structure enables force production, aligning with muscle ultrastructure and the sliding filament/molecular basis of contraction.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Part f is explicitly about third-class levers and their function/application in sport, which fits classes of levers and applications in human movement.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1583815,
+        "parts": [
+          {
+            "id": 1137845,
+            "content": "Identify three types of movement possible at synovial joints.",
+            "order": 1,
+            "markscheme": "* Flexion <marks>A1</marks>\n* Extension <marks>A1</marks>\n* Rotation <marks>A1</marks>\n\n<note> (Other acceptable answers: Abduction, Adduction, Circumduction \u2014 any three) </note>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137846,
+            "content": "State three anatomical terms used to describe body position.",
+            "order": 2,
+            "markscheme": "* Superior <marks>A1</marks>\n* Inferior <marks>A1</marks>\n* Anterior <marks>A1</marks>\n\n<note> (Other acceptable answers: Posterior, Medial, Lateral, Proximal, Distal \u2014 any three) </note>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137847,
+            "content": "Describe the role of tendons and ligaments in generating and controlling movement.",
+            "order": 3,
+            "markscheme": "* Tendons connect muscle to bone <marks>A1</marks>\n* Transmit force from muscle contraction to bone <marks>A1</marks>\n* Ligaments connect bone to bone <marks>A1</marks>\n* Stabilize joints during movement <marks>A1</marks>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137848,
+            "content": "Explain how the structure of skeletal muscle enables force production.",
+            "order": 4,
+            "markscheme": "* Skeletal muscle is striated and multinucleated <marks>A1</marks>\n* Contains myofibrils with actin and myosin filaments <marks>A1</marks>\n* Contracts via sliding filament mechanism <marks>A1</marks>\n* Neuromuscular junction triggers action potential <marks>A1</marks>\n* Produces force to move bones <marks>A1</marks>\n\n[5 marks total]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137849,
+            "content": "Describe the function and application of third-class levers in sport.",
+            "order": 5,
+            "markscheme": "* Effort is between fulcrum and load <marks>A1</marks>\n* Allows large range of motion and speed <marks>A1</marks>\n* Requires more force than the load <marks>A1</marks>\n* Example: Biceps curl \u2014 elbow is fulcrum, weight is load, biceps apply effort <marks>A1</marks>\n* Common in sporting movements like kicking, throwing, running <marks>A1</marks>\n\n<note> Any sport as an example of application is acceptable </note>\n\n[5 marks total]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "10b0d666-4699-4aa0-bea1-0d0555eb6f59",
+        "specification": "When performing a jumping jack, the arm and leg abduction/adduction phase occurs primarily in which anatomical plane?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:01:36.307Z",
+            "resultId": 30671
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:21:51.390Z",
+              "reasoning": "The question asks which anatomical plane a jumping jack primarily occurs in, directly testing knowledge of planes of movement (sagittal/frontal/transverse) and related human motion concepts.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695331,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936065,
+            "content": "Sagittal",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936066,
+            "content": "Frontal",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936067,
+            "content": "Transverse",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936068,
+            "content": "Coronal",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "112045f2-6bf4-4492-a376-819d33e648e0",
+        "specification": "Sports, Exercise and Health Science: Anatomy and Exercise Physiology",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:56.320Z",
+              "reasoning": "Parts (b) and (d) focus on identifying movements in the frontal plane and relating the sagittal plane to running mechanics\u2014directly testing planes of movement and axes of rotation.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T17:36:56.320Z",
+              "reasoning": "Parts (c) and (e) ask about synovial fluid functions and ligaments\u2019 role in injury prevention\u2014core joint/connective-tissue structure and function.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1583843,
+        "parts": [
+          {
+            "id": 1137946,
+            "content": "Identify two frontal plane movements.",
+            "order": 1,
+            "markscheme": "- Abduction <marks>A1</marks>\n- Adduction <marks>A1</marks>\n- Lateral flexion <marks>A1</marks>\n- Inversion or eversion <marks>A1</marks>\n- Elevation or depression of the scapula <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for any of the above identified movements, up to a maximum of [2].</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137947,
+            "content": "State two functions of synovial fluid.",
+            "order": 2,
+            "markscheme": "- **Lubrication**: reduces friction between the articular surfaces of the joint <marks>A1</marks>\n- **Nutrient supply**: provides oxygen and nutrients to the articular cartilage <marks>A1</marks>\n- **Waste removal**: removes metabolic by-products from the joint capsule <marks>A1</marks>\n- **Shock absorption**: protects the joint by distributing pressure during movement <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for any of the above stated functions, up to a maximum of [2].</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137948,
+            "content": "Describe how the sagittal plane relates to running mechanics.",
+            "order": 3,
+            "markscheme": "- The sagittal plane divides the body into left and right halves, and most running mechanics occur within this plane <marks>A1</marks>\n- Movement involves forward and backward motion, such as the stride progression <marks>A1</marks>\n- Key joint actions include flexion and extension at the hip, knee, and ankle (dorsiflexion/plantarflexion) <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137949,
+            "content": "Explain the relationship between ligaments and injury prevention.",
+            "order": 4,
+            "markscheme": "- Ligaments connect bone to bone across a joint, providing passive stability <marks>A1</marks>\n- They limit excessive or unwanted ranges of motion, such as preventing hyper-extension <marks>A1</marks>\n- They help maintain correct joint alignment during dynamic activities <marks>A1</marks>\n- By restricting joint movement to safe planes, they reduce the risk of dislocations and sprains <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137950,
+            "content": "Outline the differences between fast-twitch and slow-twitch muscle fibers.",
+            "order": 5,
+            "markscheme": "- Fast-twitch (Type II) fibers produce high force/power, whereas slow-twitch (Type I) produce lower force <marks>A1</marks>\n- Fast-twitch fibers fatigue quickly, while slow-twitch fibers are highly fatigue-resistant <marks>A1</marks>\n- Fast-twitch fibers have low mitochondrial density/aerobic capacity, whereas slow-twitch have high density/capacity <marks>A1</marks>\n- Fast-twitch are suited for explosive anaerobic activities like sprinting, while slow-twitch are suited for prolonged aerobic activities like marathons <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137951,
+            "content": "Explain how understanding anatomical movements improves sports technique.",
+            "order": 6,
+            "markscheme": "- Coaches can identify and correct poor joint alignment to optimize power and force production <marks>A1</marks>\n- Ensuring movement stays within correct planes of motion prevents inefficient or dangerous mechanics <marks>A1</marks>\n- Knowledge of movements enables more effective muscle engagement for specific sporting tasks <marks>A1</marks>\n- Analysis of movement improves overall biomechanical efficiency, leading to enhanced performance <marks>A1</marks>\n- Understanding movements assists in developing targeted injury prevention and rehabilitation programs <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "195f8f8c-459d-46f5-84a9-06c7178710f7",
+        "specification": "Why is anthropometry important in sports science research?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:45:04.642Z",
+            "resultId": 42424
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29920,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "title": "B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "labeledAt": "2026-03-06T16:01:03.667Z",
+              "reasoning": "The question asks why anthropometry is important in sports science research, focusing on standardized body measurements for comparison across populations\u2014directly matching anthropometry and its applications in sport and health science.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696838,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939704,
+            "content": "It provides standardized body measurements for comparison across individuals and populations.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939705,
+            "content": "It is used to estimate body composition, such as percentage body fat, from skinfold and girth measures.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939706,
+            "content": "It classifies athletes\u2019 body types (somatotypes) to support talent identification and sport selection.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939707,
+            "content": "It is used primarily to calculate BMI as a complete measure of health and performance.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "C"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1e0d2e03-13e9-47ae-b9be-f5044add6d6c",
+        "specification": "Which anthropometric measure is most relevant when assessing risk of obesity?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:17:12.180Z",
+            "resultId": 42659
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29920,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "title": "B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "labeledAt": "2026-03-06T16:02:47.207Z",
+              "reasoning": "The question asks which anthropometric measure best assesses obesity risk (waist-to-hip ratio), which falls under anthropometry and its applications in sport and health science.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696440,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938860,
+            "content": "Body mass index (BMI)",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. BMI is commonly used to classify overweight/obesity but is not the most relevant measure for obesity-related health risk compared with central adiposity measures."
+          },
+          {
+            "id": 4938861,
+            "content": "Waist circumference",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Waist circumference is a key measure of central obesity and health risk, but this question targets the ratio-based measure often used to indicate fat distribution pattern."
+          },
+          {
+            "id": 4938862,
+            "content": "Waist-to-hip ratio",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. Waist-to-hip ratio reflects body fat distribution (central/android adiposity), which is strongly associated with obesity-related health risks."
+          },
+          {
+            "id": 4938863,
+            "content": "Waist-to-height ratio",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Waist-to-height ratio is also used to assess central adiposity risk, but it is not the keyed answer for this item."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1f9dbf8a-19a9-471b-a216-88c501191614",
+        "specification": "Sporting movements and their primary anatomical planes (based on the overall body motion):\n\n| Row | Movement | Anatomical Plane |\n| :--- | :--- | :--- |\n| A | A jumping jack (star jump) exercise | Sagittal |\n| B | A gymnast performing a forward roll | Frontal |\n| C | A figure skater spinning about the longitudinal axis (vertical spin in place) | Frontal |\n| D | A track athlete\u2019s leg action while sprinting | Sagittal |\n\nWhich row correctly matches the movement with its primary anatomical plane?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-1f9dbf8a-19a9-471b-a216-88c501191614-1771953315939",
+            "generatedAt": "2026-02-25T07:27:14.389Z",
+            "sourceRevisionId": 1420554
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:50:22.223Z",
+            "resultId": 31404
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:40:14.990Z",
+              "reasoning": "The question asks to match sporting movements to their primary anatomical plane, which is directly about planes of movement (sagittal/frontal/transverse) and associated human motion.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1694820,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934369,
+            "content": "Row A",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934370,
+            "content": "Row B",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934371,
+            "content": "Row C",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934372,
+            "content": "Row D",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1faa95e9-79a3-4a71-89dc-5df33c7013bf",
+        "specification": "Which anthropometric factor is most relevant in predicting performance in competitive swimming?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:05:25.879Z",
+            "resultId": 31406
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29920,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "title": "B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "labeledAt": "2026-03-06T05:40:15.075Z",
+              "reasoning": "The question asks which anthropometric factor best predicts swimming performance; selecting relevant body measurements/proportions is directly covered under anthropometry and its applications in sport.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1694727,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934001,
+            "content": "Height",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934002,
+            "content": "Waist circumference",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934003,
+            "content": "Arm span relative to height",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934004,
+            "content": "Leg-to-torso ratio",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "21181b7e-881b-4aa2-ae9a-ad147caa6293",
+        "specification": "Which of the following correctly identifies the labeled arm movements A and B at the shoulder and the anatomical plane in which they occur?\n\n![](https://pub-images.revisiondojo.com/question-images/LYVfgjIf2VjkxvVXUPfy9.jpeg)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:08:56.957Z",
+            "resultId": 42616
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T16:02:19.814Z",
+              "reasoning": "The question asks to identify specific arm movements (e.g., flexion/extension, abduction/adduction, horizontal flexion/extension, pronation/supination) and the anatomical plane in which they occur, which is directly about planes of movement and axes of rotation.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696716,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939224,
+            "content": "A = Supination, B = Pronation; Transverse plane",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Supination/pronation are movements at the radioulnar joints in the transverse plane, not the labeled shoulder movements A and B."
+          },
+          {
+            "id": 4939225,
+            "content": "A = Flexion, B = Extension; Sagittal plane",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Flexion/extension occur in the sagittal plane, but the labeled movements A and B show the arm moving away from and back toward the body (abduction/adduction)."
+          },
+          {
+            "id": 4939226,
+            "content": "A = Abduction, B = Adduction; Frontal plane",
+            "correct": true,
+            "order": 2,
+            "markscheme": "A shows shoulder abduction (arm moving laterally away from the midline) and B shows shoulder adduction (returning toward the midline). These occur in the frontal (coronal) plane."
+          },
+          {
+            "id": 4939227,
+            "content": "A = Horizontal extension, B = Horizontal flexion; Transverse plane",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Horizontal flexion/extension occur at the shoulder in the transverse plane with the arm at $90^\\circ$ abduction; this is not the movement shown by A and B."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a47c1a3-a640-4409-9ff2-ff4c66be6899",
+        "specification": "Which skeleton component is primarily responsible for movement?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-06T16:01:51.331Z",
+              "reasoning": "The question asks which skeleton component is primarily responsible for movement, distinguishing between axial and appendicular skeleton and their functions.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420578,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153127,
+            "content": "Axial skeleton",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153128,
+            "content": "Appendicular skeleton",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153129,
+            "content": "Cartilage only",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153130,
+            "content": "Spinal column only",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3856048e-4c49-45f4-ad34-84674380f782",
+        "specification": "Why is anthropometry important when designing protective sports equipment?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:46:53.678Z",
+            "resultId": 30506
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29920,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "title": "B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "labeledAt": "2026-03-06T05:19:21.248Z",
+              "reasoning": "The question asks why anthropometry matters in designing protective sports equipment\u2014using body measurements to ensure correct sizing/fit and safety, which is a direct application of anthropometry in sport/health science.",
+              "confidence": 0.96
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-06T05:19:21.248Z",
+              "reasoning": "Protective equipment design aims to minimize injury risk and improve force absorption, which connects secondarily to strategies that minimize risk and maximize the body\u2019s ability to absorb forces.",
+              "confidence": 0.5
+            }
+          ]
+        },
+        "currentRevisionId": 1695226,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935705,
+            "content": "It improves thermoregulation during exercise",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935706,
+            "content": "It ensures proper fit and reduces risk of injury",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935707,
+            "content": "It optimizes range of motion while maintaining protection",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935708,
+            "content": "It enhances comfort and reduces pressure points",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3ff780cc-793c-4732-98c9-6daf2bf2693c",
+        "specification": "In rowing, trunk flexion and extension mainly occur in which anatomical plane?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:02:39.547Z",
+            "resultId": 41759
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T15:57:00.433Z",
+              "reasoning": "The question asks which anatomical plane trunk flexion/extension occurs in during rowing; this directly assesses knowledge of planes of movement (sagittal, frontal, transverse) and associated motions.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1696925,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940028,
+            "content": "Frontal",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940029,
+            "content": "Transverse",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940030,
+            "content": "Sagittal",
+            "correct": true,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4940031,
+            "content": "Horizontal",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "40e490b9-00a1-4b83-a873-4f7327fa9074",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Parts (b) and (e) ask about cartilage functions and the role of connective tissue in muscle function and joint integrity\u2014core content on connective tissues and joint structures.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Part (c) focuses on the frontal plane in human movement, which falls under planes of movement and axes of rotation.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Part (d) asks for characteristics of second-class levers and an example, directly matching lever classes and applications.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1583818,
+        "parts": [
+          {
+            "id": 1137855,
+            "content": "State two functions of cartilage.",
+            "order": 1,
+            "markscheme": "- State that cartilage reduces friction between bones at joints <marks>A1</marks>\n- State that cartilage absorbs shock during movement <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid functions such as supporting soft tissues or maintaining joint stability.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137856,
+            "content": "Describe the function of the frontal plane in human movement.",
+            "order": 2,
+            "markscheme": "- Describe that the frontal plane divides the body into anterior (front) and posterior (back) sections <marks>A1</marks>\n- State that movements occurring in this plane include abduction and adduction <marks>A1</marks>\n- Identify that it is important in lateral sports actions such as jumping jacks or star jumps <marks>A1</marks>\n- Describe its use in analyzing side-stepping and lateral lunges <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137857,
+            "content": "Outline the characteristics of second-class levers with one example.",
+            "order": 3,
+            "markscheme": "- Outline that the load is positioned between the fulcrum and the effort <marks>A1</marks>\n- State that second-class levers offer a mechanical advantage <marks>A1</marks>\n- Explain that they increase force output, allowing a large load to be moved with less effort <marks>A1</marks>\n- Provide a correct example and identify its components (e.g., calf raise where the fulcrum is the toes, the load is the body weight, and the effort is provided by the calf muscles) <marks>A1</marks>\n\n4 marks total\n\n<note>Award [1 max] for any correct example with components identified.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137858,
+            "content": "Explain the role of connective tissue in muscle function and joint integrity.",
+            "order": 4,
+            "markscheme": "- Explain that ligaments stabilize joints by connecting bone to bone <marks>A1</marks>\n- Explain that tendons transmit force produced by muscles to the bones to enable movement <marks>A1</marks>\n- Describe how fascia surrounds, protects, and separates muscle groups <marks>A1</marks>\n- Identify that connective tissue contributes to overall joint function and the maintenance of posture <marks>A1</marks>\n- Describe the role of connective tissue in shock absorption and providing proprioceptive feedback <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137859,
+            "content": "Discuss how anatomical terms of direction assist in communication between sports professionals.",
+            "order": 5,
+            "markscheme": "- Explain how anatomical terms ensure precise and standardized communication during rehabilitation and coaching <marks>A1</marks>\n- Describe how they help to identify the location of structures and the direction of movement clearly <marks>A1</marks>\n- Explain how they avoid ambiguity when describing the site or nature of an injury <marks>A1</marks>\n- Identify their utility in performing standardized kinesiology or postural assessments <marks>A1</marks>\n- Discuss how they enhance interdisciplinary understanding between different professionals such as coaches, physiotherapists, and doctors <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "417eb895-473b-4589-b9a2-0c19357e17a6",
+        "specification": "Which of the following describes the orientation of the palms when the human body is in the standard anatomical position?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-417eb895-473b-4589-b9a2-0c19357e17a6-1771953315939",
+            "generatedAt": "2026-02-25T08:06:16.429Z",
+            "sourceRevisionId": 1420586
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:18:10.140Z",
+              "reasoning": "The question tests knowledge of standard anatomical position and directional orientation terms (palms facing anteriorly), which aligns most closely with anatomical position and movement terminology covered under planes/axes/motion.",
+              "confidence": 0.64
+            },
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-07T08:18:10.140Z",
+              "reasoning": "Anatomical position is sometimes taught alongside basic skeletal/anatomical reference concepts; this is a secondary fit if the curriculum places anatomical position terminology here.",
+              "confidence": 0.36
+            }
+          ]
+        },
+        "currentRevisionId": 1687546,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926287,
+            "content": "Facing medially",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926288,
+            "content": "Facing posteriorly",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926289,
+            "content": "Facing anteriorly",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926290,
+            "content": "Facing laterally",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "427f509c-4ae3-498b-9655-8adafff78430",
+        "specification": "In sports science, anthropometric measurements (e.g., arm span, leg length, body proportions) are used primarily to:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:05:32.914Z",
+            "resultId": 41703
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29920,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "title": "B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "labeledAt": "2026-03-06T15:56:56.320Z",
+              "reasoning": "The question asks the purpose of anthropometric measurements (arm span, leg length, body proportions) in sports science\u2014specifically assessing body segment ratios and proportions for performance advantages, which is covered under anthropometry applications.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696950,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940112,
+            "content": "Predict oxygen uptake capacity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940113,
+            "content": "Assess body segment ratios for performance advantages",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940114,
+            "content": "Directly measure bone mineral density",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940115,
+            "content": "Estimate maximum heart rate",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "44adfe9f-e11b-4002-9c91-046f056bd332",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Parts b) and d) ask about synovial joint types and movements at the shoulder joint, which fall under joint structure and function.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Parts c) and f) focus on lever components and the advantages/disadvantages of lever classes in the human body.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Part e) addresses muscle fibre types and their functional roles in performance, fitting muscular function content (muscle characteristics/functional output).",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1697598,
+        "parts": [
+          {
+            "id": 1160006,
+            "content": "Identify two types of synovial joints.",
+            "order": 0,
+            "markscheme": "* ball and socket <marks>1 mark</marks>\n* hinge <marks>1 mark</marks>\n* pivot <marks>1 mark</marks>\n* saddle <marks>1 mark</marks>\n* condyloid / ellipsoid <marks>1 mark</marks>\n* gliding / plane <marks>1 mark</marks>\n\n<note> Any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160007,
+            "content": "State the four components of a lever system.",
+            "order": 1,
+            "markscheme": "* lever (bone) <marks>1 mark</marks>\n* fulcrum (joint) <marks>1 mark</marks>\n* effort (muscle contraction) <marks>1 mark</marks>\n* load / resistance (weight of body part or object) <marks>1 mark</marks>\n\n<note> Any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160008,
+            "content": "State and explain five types of movement that occur at the shoulder joint.",
+            "order": 2,
+            "markscheme": "Award <marks> 1 mark</marks> for each correct movement and explanation pair:\n\n* Flexion: a movement that decreases the angle between two body parts <marks>1 mark</marks>\n* Extension: a movement that increases the angle between two body parts <marks>1 mark</marks>\n* Abduction: movement of a limb away from the midline of the body <marks>1 mark</marks>\n* Adduction: movement of a limb toward the midline of the body <marks>1 mark</marks>\n* Rotation: a movement where a bone or whole limb pivots or revolves around a single long axis <marks>1 mark</marks>\n\n<note>Accept circumduction as an alternative movement: circular movement combining flexion, extension, abduction, and adduction.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160009,
+            "content": "Explain the functional roles of different muscle fiber types in athletic performance.",
+            "order": 3,
+            "markscheme": "* Type I (Slow Twitch): high aerobic capacity / endurance and low force output, suited for long-duration activities like marathons <marks>1 mark</marks>\n* Type IIa (Fast Twitch Oxidative): moderate endurance and moderate force output, suited for repeated high-intensity efforts like middle-distance running <marks>1 mark</marks>\n* Type IIx (Fast Twitch Glycolytic): low endurance and high force output, suited for explosive activities like weightlifting or sprinting <marks>1 mark</marks>\n* Fiber composition determines training adaptations / how an athlete responds to specific training stimulus <marks>1 mark</marks>\n* The balance of fiber types influences sport specificity / an athlete's predisposition for certain types of sports <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "50163a08-b9bc-4afd-b376-cdc95156610b",
+        "specification": "A discus thrower rotates their body rapidly during the delivery phase of a throw. Which anatomical plane and axis of rotation are primarily involved in this movement?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-50163a08-b9bc-4afd-b376-cdc95156610b-1771953315939",
+            "generatedAt": "2026-02-25T07:13:18.841Z",
+            "sourceRevisionId": 1420590
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:36.434Z",
+              "reasoning": "The question asks which anatomical plane and axis are primarily involved in rapid body rotation during a discus throw\u2014this directly tests knowledge of planes of movement and axes of rotation (e.g., transverse plane around a vertical/longitudinal axis).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1687505,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926147,
+            "content": "Transverse plane and vertical axis",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926148,
+            "content": "Sagittal plane and transverse axis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926149,
+            "content": "Frontal plane and anteroposterior axis",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926150,
+            "content": "Transverse plane and mediolateral axis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6de8fde4-8584-43fc-91c2-877e93dc217c",
+        "specification": "This question assesses knowledge of connective tissues, the role of skeletal muscles in movement, and the mechanics of levers in a sporting context.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Parts (b)\u2013(d) ask for types of connective tissue, tendon functions, and how ligaments stabilize joints\u2014directly assessing connective tissues and joint structures supporting movement.",
+              "confidence": 0.96
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Parts (f)\u2013(g) focus on lever classes (first-class) and evaluating third-class levers in sport, which is exactly lever classes and their applications.",
+              "confidence": 0.94
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Part (e) asks the role of skeletal muscle in generating movement; this aligns with muscular function in movement, typically covered via contraction roles (even though specific contraction types aren\u2019t explicitly requested).",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1583838,
+        "parts": [
+          {
+            "id": 1137930,
+            "content": "Identify two types of connective tissue.",
+            "order": 1,
+            "markscheme": "- Tendons <marks>A1</marks>\n- Ligaments <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid examples such as cartilage, fascia, bone, or adipose tissue.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137931,
+            "content": "State two functions of tendons.",
+            "order": 2,
+            "markscheme": "- Connect muscle to bone <marks>A1</marks>\n- Transmit force to enable movement <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid functions such as joint stabilization or assistance in absorbing shock.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137932,
+            "content": "Describe how ligaments contribute to joint stability.",
+            "order": 3,
+            "markscheme": "- Connect bone to bone <marks>A1</marks>\n- Limit excessive or unwanted movement at the joint <marks>A1</marks>\n\n2 marks total\n\n<note>Accept description of providing structural support and maintaining joint alignment.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137933,
+            "content": "Explain the role of skeletal muscle in generating movement.",
+            "order": 4,
+            "markscheme": "- Muscles contract to produce force, pulling on bones to create movement at joints <marks>A1</marks>\n- Muscles work in reciprocal pairs (agonists and antagonists) to allow controlled motion <marks>A1</marks>\n- Muscles convert chemical energy (ATP) into mechanical energy <marks>A1</marks>\n- Muscles provide stability to joints during motion and help maintain posture <marks>A1</marks>\n\n4 marks total\n\n<note>Award [max 4 marks]. Accept mention of different muscle fiber types (slow-twitch and fast-twitch) and their roles in endurance versus power.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137934,
+            "content": "Outline the structure of a first-class lever with one sporting example.",
+            "order": 5,
+            "markscheme": "- A first-class lever consists of three components: a fulcrum, a load, and an effort <marks>A1</marks>\n- The fulcrum is positioned between the effort and the load <marks>A1</marks>\n- This arrangement can result in either mechanical advantage or disadvantage depending on the relative distances of the load and effort from the fulcrum <marks>A1</marks>\n- Sporting example: Heading a football, where the neck joint acts as the fulcrum, neck muscles provide the effort, and the weight of the head acts as the load <marks>A1</marks>\n\n4 marks total\n\n<note>Accept other valid examples such as triceps extension during a throw.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137935,
+            "content": "Discuss the advantages and disadvantages of third-class levers in sport.",
+            "order": 6,
+            "markscheme": "Advantages:\n- Allow for a greater range of motion at the distal end of the limb <marks>A1</marks>\n- Enable high speed and velocity of movement at the distal end, beneficial for throwing or kicking <marks>A1</marks>\n- Well-suited for precision and coordination in sporting skills <marks>A1</marks>\n\nDisadvantages:\n- Require a greater effort force to move a relatively smaller load (mechanical disadvantage) <marks>A1</marks>\n- Inefficient for lifting or moving heavy weights <marks>A1</marks>\n- Can place higher strain on muscles and joints when high forces are required <marks>A1</marks>\n\n6 marks total\n\n<note>Accept mention of agility/finesse as an advantage or increased injury risk as a disadvantage.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "7350485b-49e5-4a83-90cb-065ab7e4422f",
+        "specification": "Which joint action occurs primarily around the anteroposterior axis?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-7350485b-49e5-4a83-90cb-065ab7e4422f-1771953315939",
+            "generatedAt": "2026-02-25T07:28:09.497Z",
+            "sourceRevisionId": 1420579
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:20:48.356Z",
+              "reasoning": "The question asks which joint action occurs around the anteroposterior axis, which directly tests knowledge of axes of rotation and their associated movement actions (e.g., AP axis with abduction/adduction in the frontal plane).",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1687549,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926299,
+            "content": "Flexion of the knee",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926300,
+            "content": "Rotation of the neck",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926301,
+            "content": "Abduction of the hip",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926302,
+            "content": "Extension of the elbow",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "74a6f162-6861-4de3-9a04-7f886e07452e",
+        "specification": "When a tennis player rotates their trunk to perform a backhand swing, the movement occurs in which plane?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:29.620Z",
+              "reasoning": "The question asks which plane a trunk rotation (tennis backhand swing) occurs in, which directly tests knowledge of planes of movement and axes of rotation in human motion (rotation occurs in the transverse plane).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420558,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153047,
+            "content": "Frontal plane",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153048,
+            "content": "Sagittal plane",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153049,
+            "content": "Transverse plane",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153050,
+            "content": "Oblique plane",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "776487bd-3e3c-40dc-8f53-b102dc640982",
+        "specification": "A fracture is identified in one of the bones of the appendicular skeleton. Which of the following bones was most likely involved?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-chemistry-new-776487bd-3e3c-40dc-8f53-b102dc640982-1771866504453",
+            "generatedAt": "2026-02-24T06:34:31.536Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420551
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:54:44.159Z",
+            "resultId": 41979
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-06T15:58:39.444Z",
+              "reasoning": "The question asks to identify a bone of the appendicular skeleton among options, directly testing knowledge of axial vs appendicular skeleton components.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696875,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939844,
+            "content": "Thoracic vertebra",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939845,
+            "content": "Sacrum",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939846,
+            "content": "Fibula",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939847,
+            "content": "Hyoid bone",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7dabdb77-b61c-45a5-85b0-6f33f90751da",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Parts (b) and (f) focus on synovial joint structure and the roles of connective tissues (ligaments, tendons, fascia, cartilage) in joint stability/efficiency.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (c) asks for examples of third-class levers in sport, directly assessing lever classes and applications.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (d) asks for characteristics of skeletal muscle contributing to movement, aligning with muscular function content (properties/role in producing movement).",
+              "confidence": 0.78
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (e) explicitly addresses movement in multiple planes contributing to complex actions (e.g., tennis serve), matching planes of movement/axes content.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1697576,
+        "parts": [
+          {
+            "id": 1159906,
+            "content": "Identify three structural components of a synovial joint.",
+            "order": 0,
+            "markscheme": "- Articular cartilage <marks>1 mark</marks>\n- Synovial membrane <marks>1 mark</marks>\n- Joint capsule <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers: Synovial fluid, Ligaments, Bursae - any three)</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159907,
+            "content": "State two examples of third-class levers in sport.",
+            "order": 1,
+            "markscheme": "- Bicep curl <marks>1 mark</marks>\n- Kicking a football <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers: Swinging a tennis racket, Throwing a javelin - any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159908,
+            "content": "Describe four characteristics of skeletal muscle that contribute to movement.",
+            "order": 2,
+            "markscheme": "- Contractility: the ability of the muscle to generate force and shorten <marks>1 mark</marks>\n- Extensibility: the ability of the muscle to stretch beyond its normal resting length <marks>1 mark</marks>\n- Elasticity: the ability of the muscle to return to its original shape after being stretched <marks>1 mark</marks>\n- Excitability: the ability of the muscle to respond to stimuli from the nervous system <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159909,
+            "content": "Explain how joint movement in multiple planes contributes to complex sports actions such as a tennis serve.",
+            "order": 3,
+            "markscheme": "- Complex sports actions like a tennis serve require coordinated joint movements across all three anatomical planes: sagittal, frontal, and transverse <marks>1 mark</marks>\n- The shoulder moves in the sagittal (flexion/extension), frontal (abduction), and transverse (internal/external rotation) planes to position and accelerate the arm <marks>1 mark</marks>\n- The elbow undergoes flexion and extension in the sagittal plane, contributing to the preparatory phase and follow-through <marks>1 mark</marks>\n- The wrist adds fine control and power through flexion/extension (sagittal) and radial/ulnar deviation (frontal) <marks>1 mark</marks>\n- The trunk rotates in the transverse plane and laterally flexes in the frontal plane to generate torque and maintain balance <marks>1 mark</marks>\n- The hips and knees extend in the sagittal plane during the jump phase, providing upward propulsion <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers include descriptions of how coordinated use of multiple joints improves accuracy, power transfer, and injury prevention.)</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159910,
+            "content": "Discuss how connective tissues (ligaments, tendons, fascia, and cartilage) work together to support joint stability and efficiency during explosive movement.",
+            "order": 4,
+            "markscheme": "- Ligaments limit excessive movement and stabilize joints <marks>1 mark</marks>\n- Tendons transmit muscular force to bones for movement <marks>1 mark</marks>\n- Fascia maintains muscle alignment and reduces friction <marks>1 mark</marks>\n- Cartilage cushions joint surfaces and absorbs impact <marks>1 mark</marks>\n- Together, these tissues reduce injury risk and increase force efficiency <marks>1 mark</marks>\n- They provide mechanical support and optimize movement patterns <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "87a7b02c-ffba-4b27-aab5-b9dfa1b147eb",
+        "specification": "An athlete performs a series of squats during a training session. In which anatomical plane does this movement primarily occur?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-87a7b02c-ffba-4b27-aab5-b9dfa1b147eb-1771953315939",
+            "generatedAt": "2026-02-25T07:53:43.226Z",
+            "sourceRevisionId": 1420572
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:54:36.976Z",
+            "resultId": 30692
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:25:10.465Z",
+              "reasoning": "The question asks which anatomical plane a squat primarily occurs in, which directly tests knowledge of planes of movement (sagittal/frontal/transverse) and associated human motion.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695274,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935893,
+            "content": "Frontal plane",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935894,
+            "content": "Sagittal plane",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct answer: B"
+          },
+          {
+            "id": 4935895,
+            "content": "Transverse plane",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935896,
+            "content": "Horizontal plane",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "885ee940-1394-43a0-a0ba-f1ad56d2c0c9",
+        "specification": "The diagram illustrates a gymnast performing a cartwheel. Which anatomical plane and axis of rotation best describe the overall body rotation during the cartwheel shown?\n\n![Gymnast cartwheel](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-sehs-885ee940-1394-43a0-a0ba-f1ad56d2c0c9-1771953315939/1bb7713b-7a91-41a6-851b-49b78ffc7c41.jpeg)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-885ee940-1394-43a0-a0ba-f1ad56d2c0c9-1771953315939",
+            "generatedAt": "2026-02-25T07:20:06.193Z",
+            "sourceRevisionId": 1420584
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:55:08.486Z",
+            "resultId": 30701
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:25:07.793Z",
+              "reasoning": "The question asks which anatomical plane and axis of rotation are primarily used in a cartwheel, directly assessing knowledge of planes of movement and axes of rotation in human motion.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695277,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935905,
+            "content": "Frontal plane and sagittal axis",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4935906,
+            "content": "Sagittal plane and frontal axis",
+            "correct": false,
+            "order": 1,
+            "markscheme": "A cartwheel is characterised by lateral (sideways) rotation of the body in the frontal plane, not forward/backward rotation in the sagittal plane."
+          },
+          {
+            "id": 4935907,
+            "content": "Transverse plane and longitudinal axis",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Transverse plane/longitudinal axis describes twisting (e.g., pirouette), not a cartwheel."
+          },
+          {
+            "id": 4935908,
+            "content": "Frontal plane and longitudinal axis",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Movement in the frontal plane occurs about the sagittal axis, not the longitudinal axis."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8b37881f-260b-44fc-87e4-dc3ece663704",
+        "specification": "During the upward phase of a jumping jack, an athlete\u2019s arms and legs move laterally away from the midline of the body. Which movement and anatomical plane are associated with this action?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-8b37881f-260b-44fc-87e4-dc3ece663704-1771953315939",
+            "generatedAt": "2026-02-25T07:09:17.210Z",
+            "sourceRevisionId": 1420585
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:17:02.612Z",
+              "reasoning": "The question asks to identify the movement (abduction\u2014moving limbs away from the midline) and the anatomical plane (frontal plane) during a jumping jack, which is directly about planes of movement and axes of rotation in human motion.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1687412,
+        "parts": [],
+        "options": [
+          {
+            "id": 4925847,
+            "content": "Adduction in the sagittal plane",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4925848,
+            "content": "Abduction in the frontal plane",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4925849,
+            "content": "Flexion in the transverse plane",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4925850,
+            "content": "Circumduction in the horizontal plane",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8ca0345c-01f9-4ffb-8053-034cf4c19aa7",
+        "specification": "Which statement best explains the relationship between planes and axes of movement?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:32:07.810Z",
+            "resultId": 30640
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:21:45.962Z",
+              "reasoning": "The question asks about the relationship between planes of movement and axes of rotation (movement occurs in a plane and rotates about a perpendicular axis), which directly matches this leaf topic.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1695480,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936493,
+            "content": "Movements occur in a plane and rotate around a perpendicular axis",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: movement in a plane occurs about an axis perpendicular to that plane."
+          },
+          {
+            "id": 4936494,
+            "content": "Axes and planes are unrelated",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: each plane of movement has a corresponding perpendicular axis of rotation."
+          },
+          {
+            "id": 4936495,
+            "content": "Movements in the sagittal plane occur around a mediolateral axis",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: this is true for sagittal-plane movements, but it does not best explain the general plane\u2013axis relationship across all planes."
+          },
+          {
+            "id": 4936496,
+            "content": "Movements occur along the same line as the axis",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: the axis is the line about which rotation occurs; movement occurs in a plane, not along the axis."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "921f0c9b-5888-4ec1-9560-564088f8c786",
+        "specification": "Which of the following correctly identifies the anatomical regions labeled A, B, and C?\n\n![](https://pub-images.revisiondojo.com/question-images/rVmEkE5LP-kTBTjV-MKCa.jpeg)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:51:45.841Z",
+            "resultId": 42109
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-06T15:59:10.965Z",
+              "reasoning": "The question asks to identify regions of a long bone (epiphysis, metaphysis, diaphysis), which falls under knowledge of skeletal components and their functions.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1696858,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939784,
+            "content": "A = Diaphysis, B = Metaphysis, C = Epiphysis",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939785,
+            "content": "A = Epiphysis, B = Metaphysis, C = Diaphysis",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939786,
+            "content": "A = Metaphysis, B = Diaphysis, C = Epiphysis",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939787,
+            "content": "A = Epiphyseal line, B = Compact bone, C = Medullary cavity",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "96355ef3-ca47-4263-bd7c-dd0060212dfc",
+        "specification": "During a discus throw, rotation of the trunk occurs in which plane and axis?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:16:19.667Z",
+              "reasoning": "The question asks which plane and axis trunk rotation occurs in during a discus throw; this directly assesses knowledge of planes of movement and axes of rotation.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420592,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153183,
+            "content": "Frontal plane, anteroposterior axis",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153184,
+            "content": "Sagittal plane, mediolateral axis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153185,
+            "content": "Transverse plane, longitudinal axis",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153186,
+            "content": "Sagittal plane, vertical axis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a0b80c5a-6c06-4f74-b724-718acd09bf93",
+        "specification": "Which of the following is an example of anthropometry used in basketball talent identification?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:30:04.618Z",
+            "resultId": 30775
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29920,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "title": "B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "labeledAt": "2026-03-06T05:27:02.293Z",
+              "reasoning": "The question asks how anthropometry is used in basketball talent identification\u2014i.e., assessing body measurements like height, arm span, and leg length\u2014directly matching anthropometry applications in sport.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695144,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935441,
+            "content": "Monitoring $VO_{2\\text{max}}$",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935442,
+            "content": "Measuring bone density",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935443,
+            "content": "Assessing height, arm span, and leg length",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935444,
+            "content": "Measuring heart rate",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a1a29c43-2cfd-4a88-aa2c-92d353d518fe",
+        "specification": "A diver performs a forward somersault during a competition. Which anatomical plane and axis of rotation are primarily used to execute this movement?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-a1a29c43-2cfd-4a88-aa2c-92d353d518fe-1771929956947",
+            "generatedAt": "2026-02-25T09:26:54.856Z",
+            "sourceRevisionId": 1420576
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:12:49.196Z",
+            "resultId": 42547
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T16:01:48.295Z",
+              "reasoning": "The question asks which anatomical plane and axis of rotation are used in a forward somersault, directly assessing knowledge of planes of movement and axes of rotation in human motion.",
+              "confidence": 0.99
+            }
+          ]
+        },
+        "currentRevisionId": 1696726,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939264,
+            "content": "Frontal plane and sagittal axis",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Movement in the frontal plane occurs about the sagittal axis (e.g., abduction/adduction), not a forward somersault."
+          },
+          {
+            "id": 4939265,
+            "content": "Transverse plane and vertical axis",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Movement in the transverse plane occurs about the vertical (longitudinal) axis (e.g., rotation), not a forward somersault."
+          },
+          {
+            "id": 4939266,
+            "content": "Sagittal plane and frontal axis",
+            "correct": true,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939267,
+            "content": "Frontal plane and vertical axis",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Movement in the frontal plane occurs about the sagittal axis, not the vertical axis, and does not describe a forward somersault."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c01abd9a-7aa4-46a3-934b-520d477f5ac2",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Part (b) explicitly asks for axes of rotation; part (f) discusses anatomical planes (and their relation to movement), which falls under planes and axes.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Parts (d) and (f) focus on lever classes/mechanical advantage and how levers operate in sports movements.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Part (c) asks effects of aging on the muscular or skeletal system impacting movement; skeletal-system effects align with axial/appendicular skeleton components and functions (closest available leaf to musculoskeletal aging impacts).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583863,
+        "parts": [
+          {
+            "id": 1137991,
+            "content": "Identify two axes of rotation used in human movement.",
+            "order": 1,
+            "markscheme": "- Longitudinal axis <marks>A1</marks>\n- Frontal (mediolateral) axis <marks>A1</marks>\n- Sagittal (anteroposterior) axis <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for each axis identified, up to [2]. Accept correct spelling of \"sagittal\" only; do not accept \"saggital\".</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137992,
+            "content": "State three effects of aging on the muscular or skeletal system that impact movement.",
+            "order": 2,
+            "markscheme": "- Decreased muscle mass <marks>A1</marks>\n- Reduced bone density <marks>A1</marks>\n- Decreased joint flexibility <marks>A1</marks>\n\n3 marks total\n\n<note>Other acceptable answers include slower muscle contraction speed and increased risk of injury. Award [1] for each effect stated, up to [3].</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137993,
+            "content": "Describe the mechanical advantage of second-class levers and its implication in sports performance.",
+            "order": 3,
+            "markscheme": "- The load is positioned between the fulcrum and the effort <marks>A1</marks>\n- This arrangement describes the mechanical advantage ($MA > 1$) where force output is increased with minimal effort (a small effort can move a large load) <marks>A1</marks>\n- It is useful in power-based actions like jumping and pushing off the ground <marks>A1</marks>\n- While it provides strong leverage, it offers a limited range of motion and speed <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137994,
+            "content": "Explain how differences in muscle fiber arrangement (e.g., fusiform vs. pennate) influence force and speed generation.",
+            "order": 4,
+            "markscheme": "- Fusiform: fibers run parallel to the long axis, allowing for a greater range of motion and contraction speed (e.g., biceps brachii) <marks>A1</marks>\n- Pennate: fibers are arranged at an angle to the tendon, allowing more fibers to be packed into a given area <marks>A1</marks>\n- Pennate muscles generate greater force due to higher physiological cross-sectional area <marks>A1</marks>\n- Fusiform muscles contract faster but with less overall force compared to pennate muscles <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137995,
+            "content": "Discuss the interplay between anatomical planes and levers during multi-joint athletic movements like the clean and jerk.",
+            "order": 5,
+            "markscheme": "- The sagittal plane is dominant in the clean and jerk, as most joint movements (hip, knee, ankle, shoulder, and elbow flexion/extension) occur in an anterior-posterior direction <marks>A1</marks>\n- The frontal plane contributes during the stabilization phase, particularly in shoulder abduction and maintaining core balance during the overhead jerk <marks>A1</marks>\n- The transverse plane is engaged through rotational stability and torque required during the lift and transition phases <marks>A1</marks>\n- First-class levers are utilized during head and neck stabilization where neck extensors counterbalance head tilt <marks>A1</marks>\n- Second-class levers are involved at the ankle joint during plantarflexion (e.g., raising the heel to generate power during the jerk) <marks>A1</marks>\n- Third-class levers dominate in elbow flexion (biceps acting between the load and fulcrum) and hip extension (gluteus maximus) to allow for speed of movement <marks>A1</marks>\n\n6 marks total\n\n<note>Other acceptable answers include discussion of joint alignment with planes and how lever arms impact performance and injury risk.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "c022bed4-e1df-43bb-bd20-e197eec7eb61",
+        "specification": "Which of the following best represents a sagittal plane exercise around the mediolateral axis?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:45.953Z",
+              "reasoning": "The question asks to identify an exercise in the sagittal plane around the mediolateral axis, which directly assesses knowledge of planes of movement and axes of rotation in human motion.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420593,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153187,
+            "content": "Cartwheel",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153188,
+            "content": "Spinal rotation",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153189,
+            "content": "Squat",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153190,
+            "content": "Shoulder abduction",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c127de13-508b-4180-94e7-51c33e1c2666",
+        "specification": "Which skeleton region includes the limbs?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-07T17:36:45.936Z",
+              "reasoning": "The question asks which skeleton region includes the limbs, directly testing knowledge of the axial vs appendicular skeleton components and functions.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420587,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153163,
+            "content": "Thoracic",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153164,
+            "content": "Cranial",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153165,
+            "content": "Appendicular",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153166,
+            "content": "Axial",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c2ccfe4d-af72-4c33-a278-d004b2ded20a",
+        "specification": "Which spinal condition is shown in the right-hand panel of the image?\n\n![](https://pub-images.revisiondojo.com/question-images/PeiJYQ2QTUL3YiHfyFnXD)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:59:04.930Z",
+            "resultId": 30197
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-06T05:17:18.520Z",
+              "reasoning": "The question asks to identify a spinal condition (lordosis/kyphosis/scoliosis/hemivertebra) from an image, which falls under knowledge of axial skeleton (spine) structure and related conditions.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1695622,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936861,
+            "content": "Lordosis",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936862,
+            "content": "Kyphosis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936863,
+            "content": "Scoliosis",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936864,
+            "content": "Hemivertebra",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c5ce03db-80cb-4a56-b927-c93f840ecf4f",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:18:33.894Z",
+              "reasoning": "All parts focus on anatomical planes (sagittal etc.), standard anatomical position (palms orientation), movement terminology (abduction/adduction), and movements at ball-and-socket joints\u2014core content of planes of movement and axes/associated movements used in human motion analysis.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1697592,
+        "parts": [
+          {
+            "id": 1159980,
+            "content": "Identify two anatomical planes used in movement analysis.",
+            "order": 0,
+            "markscheme": "- sagittal plane <marks>1 mark</marks>\n- frontal plane <marks>1 mark</marks>\n\n<note>Other acceptable answers: transverse plane (award marks for any two correct planes identified).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159981,
+            "content": "State the anatomical position of the palms in the standard reference position.",
+            "order": 1,
+            "markscheme": "- palms face forward <marks>1 mark</marks>\n- thumbs point away from the body <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159982,
+            "content": "Describe three movements that occur in the sagittal plane.",
+            "order": 2,
+            "markscheme": "- flexion, for example, the elbow during a bicep curl <marks>1 mark</marks>\n- extension, for example, the knee during a squat <marks>1 mark</marks>\n- dorsiflexion or plantarflexion, for example, the ankle during running <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159983,
+            "content": "Explain the difference between abduction and adduction with examples.",
+            "order": 3,
+            "markscheme": "- abduction is movement away from the midline of the body <marks>1 mark</marks>\n- adduction is movement toward the midline of the body <marks>1 mark</marks>\n- example of abduction, such as lifting the arm sideways <marks>1 mark</marks>\n- example of adduction, such as returning the arm to the side <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159984,
+            "content": "Outline four types of movement that occur at a ball and socket joint.",
+            "order": 4,
+            "markscheme": "- flexion <marks>1 mark</marks>\n- extension <marks>1 mark</marks>\n- abduction <marks>1 mark</marks>\n- adduction <marks>1 mark</marks>\n\n<note>Other acceptable answers include rotation and circumduction.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159985,
+            "content": "Discuss the importance of understanding anatomical planes when analyzing sports performance.",
+            "order": 5,
+            "markscheme": "- helps analyze motion mechanics in different sports <marks>1 mark</marks>\n- assists in identifying specific movement planes for performance enhancement <marks>1 mark</marks>\n- useful for injury prevention by understanding stress on joints in different planes <marks>1 mark</marks>\n- supports effective exercise selection to target specific movements <marks>1 mark</marks>\n- enhances technique analysis in coaching and rehabilitation settings <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d038a897-b8bf-420e-8d4a-564ee1edabec",
+        "specification": "Which axis of rotation is involved when a gymnast performs a forward somersault (no twist)?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:02:26.715Z",
+            "resultId": 31232
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:38:14.624Z",
+              "reasoning": "The question asks which axis of rotation applies to a forward somersault, directly assessing knowledge of planes of movement and axes of rotation in human motion.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1694849,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934485,
+            "content": "Longitudinal axis",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934486,
+            "content": "Frontal axis",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934487,
+            "content": "Sagittal axis",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934488,
+            "content": "Transverse axis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d0668b09-e5d2-4fa9-81de-d1716ab71f94",
+        "specification": "During a bicep curl, movement of the forearm primarily occurs in which anatomical plane?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:19:51.003Z",
+            "resultId": 41770
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T15:56:56.019Z",
+              "reasoning": "The question asks which anatomical plane the forearm moves in during a bicep curl (elbow flexion), which is content on planes of movement and axes of rotation.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1697023,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940328,
+            "content": "Frontal plane",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940329,
+            "content": "Sagittal plane",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940330,
+            "content": "Transverse plane",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940331,
+            "content": "Coronal plane",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d177608e-f120-40d6-88f1-b686a0c2449e",
+        "specification": "A gymnast performing a cartwheel is moving in which plane and around which axis?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:17:28.319Z",
+              "reasoning": "The question asks to identify the plane of movement and axis of rotation for a cartwheel, which directly assesses knowledge of planes of movement and axes of rotation in human motion.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1420597,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153203,
+            "content": "Frontal plane, anteroposterior axis",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153204,
+            "content": "Transverse plane, longitudinal axis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153205,
+            "content": "Frontal plane, longitudinal axis",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153206,
+            "content": "Sagittal plane, mediolateral axis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e3796866-e82c-46c9-b7dc-134a4a2d2758",
+        "specification": "A football player performs a maximal instep kick. At the point of ball contact, the hip is flexed and the knee is rapidly extending. Figure 1 shows a simplified lateral view of the right knee joint during knee extension and the quadriceps muscle group acting via the patellar tendon.\n\n![Simplified knee extension during an instep kick showing the femur, tibia, patella, quadriceps muscle, patellar tendon, and the knee joint axis of rotation. The quadriceps attaches proximally on the femur/ilium and distally via the patellar tendon to the tibia. The moment arm of the patellar tendon relative to the knee joint axis is indicated.](img:knee_kick_figure1)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:13:44.280Z",
+            "resultId": 44819
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Parts (c) and (e) focus on fascia (a connective tissue) and synovial joint properties/structures enabling movement, which sit under connective tissues and joint structures.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Part (g) asks how the neuromuscular/nervous system coordinates voluntary movement, aligning with nervous system coordination of physiological responses.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Parts (d) and (f) address skeletal muscle actions in movement and how attachment points affect mechanics, which broadly relates to muscular function and contractions in producing movement.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1697277,
+        "parts": [
+          {
+            "id": 1159463,
+            "content": "State one type of muscle tissue found in the human body.",
+            "order": 0,
+            "markscheme": "- Skeletal muscle <marks>1 mark</marks>\n- Cardiac muscle <marks>1 mark</marks>\n- Smooth muscle <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for any one correct type.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159464,
+            "content": "With reference to Figure 1, state two roles of fascia in muscular function during the kick.",
+            "order": 1,
+            "markscheme": "- Surrounds/separates muscles to allow independent movement (reduces interference between adjacent muscles) <marks>1 mark</marks>\n- Transmits force generated by muscle contraction to tendons/bone (force transmission through connective tissue) <marks>1 mark</marks>\n- Provides structural support/maintains alignment of muscle compartments <marks>1 mark</marks>\n- Reduces friction between muscles/acts as a gliding surface between tissues <marks>1 mark</marks>\n\n<note>Award <marks>2 marks</marks> for any two distinct correct roles.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159465,
+            "content": "Outline three actions of skeletal muscle relevant to producing the instep kick.",
+            "order": 2,
+            "markscheme": "- Produces voluntary movement by contracting and pulling on bones (e.g., knee extension via quadriceps) <marks>1 mark</marks>\n- Maintains posture/body position against gravity (e.g., trunk/hip stabilization during the kick) <marks>1 mark</marks>\n- Stabilizes joints/supports the skeletal structure (e.g., dynamic stabilization of the knee) <marks>1 mark</marks>\n- Generates heat during activity (thermogenesis during muscular work) <marks>1 mark</marks>\n\n<note>Award <marks>3 marks</marks> for any three distinct correct actions.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159466,
+            "content": "With reference to the knee in Figure 1, describe two properties of synovial joints that allow movement.",
+            "order": 3,
+            "markscheme": "- Synovial fluid reduces friction between the articular surfaces <marks>1 mark</marks>\n- Articular cartilage provides a smooth surface and absorbs shock <marks>1 mark</marks>\n- Joint capsule/ligaments maintain joint integrity while allowing movement and contain synovial fluid <marks>1 mark</marks>\n\n<note>Award <marks>2 marks</marks> for any two distinct correct properties.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159467,
+            "content": "Explain how the quadriceps attachment points shown in Figure 1 influence movement mechanics at the knee joint.",
+            "order": 4,
+            "markscheme": "- Origin is typically the more fixed/proximal attachment and insertion is the more movable/distal attachment (during knee extension the tibia moves relative to the femur) <marks>1 mark</marks>\n- Relative positions of the attachment points determine the line of pull and therefore the direction of movement/torque produced <marks>1 mark</marks>\n- Distance of the tendon from the joint axis (moment arm) affects torque and mechanical advantage for a given muscle force <marks>1 mark</marks>\n- Greater moment arm (insertion further from the joint axis) increases torque/strength but reduces angular velocity/range for a given shortening <marks>1 mark</marks>\n- Smaller moment arm (insertion closer to the joint axis) reduces torque but favours speed and range of motion <marks>1 mark</marks>\n\n<note>Award <marks>3 marks</marks> for any three linked correct points. Accept other correct biomechanical explanations consistent with Figure 1.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159468,
+            "content": "Explain how the neuromuscular system coordinates voluntary knee extension during the kick (motor cortex \u2192 motor neuron \u2192 neuromuscular junction \u2192 contraction).",
+            "order": 5,
+            "markscheme": "- Motor cortex initiates the signal for voluntary movement <marks>1 mark</marks>\n- Action potentials travel along motor neurons to the relevant motor units in the quadriceps <marks>1 mark</marks>\n- At the neuromuscular junction, the nerve impulse leads to release of acetylcholine, generating an action potential in the muscle fibre <marks>1 mark</marks>\n- The action potential causes calcium release in the muscle fibre, enabling actin\u2013myosin cross-bridge cycling to produce force <marks>1 mark</marks>\n- CNS integrates sensory feedback/proprioception to coordinate timing and force for smooth/precise movement <marks>1 mark</marks>\n\n<note>Award <marks>4 marks</marks> for any four correct, sequentially linked points showing coordination from the CNS to contraction.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ec08c1ee-21ac-4e7e-9cf2-f556fde81469",
+        "specification": "Why might anthropometric analysis be especially useful for talent identification in basketball?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:34:25.252Z",
+            "resultId": 30742
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29920,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "title": "B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "labeledAt": "2026-03-06T05:26:35.124Z",
+              "reasoning": "The question asks why anthropometric analysis is useful for talent identification in basketball, focusing on body measurements/proportions like height and arm span that confer performance advantage\u2014core application of anthropometry in sport.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1695168,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935501,
+            "content": "It indicates an athlete\u2019s somatotype (for example, ectomorph) as the key predictor of shooting accuracy.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935502,
+            "content": "It predicts coordination and agility levels.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935503,
+            "content": "It highlights height, arm span, and body proportions advantageous for performance.",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935504,
+            "content": "It estimates body fat percentage as the sole determinant of on-court performance.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fb3807d5-c7fb-4bfa-87aa-1f6813fc10bb",
+        "specification": "Which of the labeled bones (A, B, or C) belongs to the appendicular skeleton?\n\n![](https://pub-images.revisiondojo.com/question-images/mxwT146F49OIpGnOYlsSi)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:13:35.784Z",
+            "resultId": 30327
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-06T05:18:32.247Z",
+              "reasoning": "The question asks which labeled bones belong to the appendicular skeleton, directly testing identification of axial vs. appendicular skeleton components.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695405,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936281,
+            "content": "A only",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936282,
+            "content": "B only",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936283,
+            "content": "A and B",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936284,
+            "content": "A, B and C",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fedd87c9-32c6-413c-9a6c-e8bba9b3891d",
+        "specification": "The image shows the thumb moving across the palm to touch the fingers.\n![Image](https://pub-images.revisiondojo.com/question-images/a09a3797-199e-43d4-92ee-cbe6e2339d1d)\n\nWhich of the following movements is demonstrated?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 7,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:39:56.001Z",
+            "resultId": 30563
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:20:02.775Z",
+              "reasoning": "The question asks to identify the type of anatomical movement shown at the thumb (e.g., flexion, adduction, opposition), which falls under describing movements relative to anatomical position/planes and axes.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1695202,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935613,
+            "content": "Flexion",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935614,
+            "content": "Pronation",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935615,
+            "content": "Adduction",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935616,
+            "content": "Opposition",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "45",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 21860,
+      "title": "B.1.1 Anatomical position, planes and movement ",
+      "slug": "ib-sehs-new-b11-anatomical-position-planes-and-movement",
+      "parentTopicId": 21859
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "45",
+      "byQuestion": {}
+    }
+  }
+}

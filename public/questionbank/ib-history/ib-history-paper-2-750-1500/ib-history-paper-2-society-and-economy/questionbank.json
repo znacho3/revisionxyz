@@ -1,3 +1,804 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:892d8061501c4fa8210de132db88a872fc1fece38ebc689dd79e86b0af8ccaaf
-size 79854
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0c0fde09-1fde-48cc-898b-e2b81212c238",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57022,
+              "isHl": false,
+              "path": "Paper 2 - (1400-1700) > Societies in transition (1400\u20131700)",
+              "title": "Societies in transition (1400\u20131700)",
+              "labeledAt": "2026-03-07T17:34:54.185Z",
+              "reasoning": "The question is a broad comparative prompt about the extent of religious institutions\u2019 control over land and wealth in two societies, which aligns most closely with socio-economic structures in early modern societies rather than a specific named event/person/topic elsewhere in the hierarchy.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1319766,
+        "parts": [
+          {
+            "id": 993016,
+            "content": "Examine the extent to which religious institutions controlled land and wealth in two societies.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Go beyond description to critically analyse the scale, nature, and consequences of religious economic power.\n- Meaningfully analyse two societies (not necessarily in equal depth).\n\n**Contextual Examples May Include:**\n- **Catholic Church in Medieval Europe:**\n  - Owned extensive landholdings\n  - Collected tithes and fees\n  - Funded cathedrals, monasteries, and charity; also used wealth for political influence\n- **Islamic Institutions (e.g., waqf endowments):**\n  - Controlled land and revenue\n  - Funded mosques, madrasas, hospitals, and poor relief\n  - Played roles in both urban governance and rural land management\n- **Hindu Temples or Buddhist Monastic Complexes (e.g., in South Asia, Sri Lanka, Southeast Asia):**\n  - Functioned as landlords, employers, and patrons of crafts and trade\n  - Collected offerings and tribute\n  - Sometimes rivalled secular rulers in wealth and influence\n\n**Key Analytical Points to Address:**\n- Whether religious institutions were dominant landholders or economic players in each context\n- How they interacted with secular authorities: collaboration, tension, or overlap\n- Whether wealth was used for religious, social, or political aims\u2014and the consequences\n- Regional and cultural variations in how religious institutions acquired and maintained economic power\n\n**Best Responses Will:**\n- Provide specific and relevant evidence for each society\n- Compare the extent and nature of economic control by religious institutions across both cases\n- Explore long-term impacts such as the entrenchment of clerical elites or resistance from secular powers\n- Reach a balanced and well-substantiated conclusion assessing the overall economic significance of religious bodies\n\n**Strong Responses Show:**\n- Clear analytical structure, linking evidence to argument\n- Comparative insight, even if explicit comparison is brief\n- Nuance and complexity, avoiding overgeneralisation or uncritical praise/blame\n\n**Limited Responses:**\n- Simply describe wealth or influence without assessing the economic roles or significance of religious institutions",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1283d370-c989-420d-ac1b-fd197277baa8",
+        "specification": "Between c. 750 and c. 1400, many societies experienced agricultural change shaped by both technological innovations and expanding interregional trade networks.",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "revisedAt": "2025-08-22T00:56:10.421Z",
+          "totalCost": 0.025574,
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "revisedFromIssues": [
+            {
+              "type": "Timeframe mismatch between prompt and markscheme",
+              "message": "The markscheme requires analysis of two societies between 750\u20131400, but the question prompt does not specify any timeframe. This unstated constraint can penalize valid answers outside that period and creates inconsistency between the task and assessment criteria.",
+              "severity": "critical",
+              "proposedChange": "Revise the prompt to: \u201cTechnological innovation had greater long-term impact on agriculture than trade. Discuss with reference to two societies between c. 750 and c. 1400.\u201d"
+            },
+            {
+              "type": "Factual misclassification / internal inconsistency",
+              "message": "Champa rice is listed under \u201cTechnological Innovation in Song China,\u201d but it was introduced to China via trade; elsewhere the markscheme treats spread of rice as a trade effect. This contradicts the category definitions and may misguide marking.",
+              "severity": "high",
+              "proposedChange": "Move \u201cChampa rice\u201d from the Technological Innovation examples to the Agricultural Effects of Trade examples (e.g., \u201cTrade-introduced early-ripening rice varieties, such as Champa rice, enabled double cropping\u201d), keeping irrigation and hydraulic engineering as the technological innovations for Song China."
+            }
+          ],
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T17:29:31.306Z",
+              "reasoning": "The question asks about agricultural change driven by technology and interregional trade between c.750\u2013c.1400, which fits the medieval \u2018Society and Economy\u2019 thematic unit for 750\u20131400.",
+              "confidence": 0.84
+            }
+          ]
+        },
+        "currentRevisionId": 1415916,
+        "parts": [
+          {
+            "id": 1033243,
+            "content": "\u201cTechnological innovation had greater long-term impact on agriculture than trade.\u201d Discuss with reference to two societies between c. 750 and c. 1400.",
+            "order": 1,
+            "markscheme": "\n\n**Analytical Focus**\n- Evaluate whether technology contributed more to long-term agricultural development than trade did.\n- Maintain a clear and consistent focus on long-term agricultural development, not just listing changes.\n- Analyse two societies between c. 750 and c. 1400 (not necessarily in equal depth, but both must be meaningfully addressed).\n\n**Contextualised Examples Should Include:**\n\n**Technological Innovation:**\n- Heavy plough and three-field system in medieval Europe:\n  - Improved soil aeration and crop rotation\n  - Increased land use and yield efficiency\n- Irrigation systems and hydraulic engineering in Song China (e.g., canal construction, water-control works, water-lifting devices):\n  - Enabled expansion of arable land and more reliable water supply\n  - Supported higher productivity and population growth\n\n**Agricultural Effects of Trade:**\n- Spread of new crops via interregional exchange:\n  - Bananas from Southeast Asia to Africa\n  - Sugarcane, citrus fruits, and rice varieties via Islamic and Indian Ocean trade networks\n  - Trade-introduced early-ripening rice (e.g., Champa rice to China), enabling double-cropping and supporting demographic growth\n- Commercialisation of agriculture:\n  - Increased demand from trade routes led to estate farming and surplus production for markets\n\n**Key Analytical Points to Address:**\n- Long-term impacts of each factor:\n  - Sustainability\n  - Productivity\n  - Food security\n  - Rural social change\n  - Demographic growth\n- Indirect effects:\n  - Trade facilitating technological adoption and the diffusion of crops/knowledge\n  - Technology enabling greater integration into agricultural trade networks\n\n**Best Responses Will:**\n- Demonstrate nuanced understanding of the interdependence between trade and technology\n- Present a clear argument about which factor was more transformative\n- Offer relevant comparative insight, considering:\n  - Environmental conditions\n  - Political systems\n  - Geographic positioning\n- Use a balanced analytical structure:\n  - Integrate both trade and technology perspectives\n  - Avoid over-simplification or one-sided narratives\n\n**Conclusion Expectations:**\n- Reasoned and well-substantiated judgement\n- Supported by historical evidence from both societies\n\n**Limited Responses:**\n- Descriptive accounts that list inventions or crops\n- Lack of analysis regarding long-term agricultural significance or broader societal impact\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2815eac3-e0cc-49b1-8ac2-8689ca53e241",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 64882,
+              "isHl": true,
+              "path": "Paper 3 - History of Asia and Oceania > Section 1: Trade & Exchange: The Silk Road in the Medieval World  > Political and Cultural Integration",
+              "title": "Political and Cultural Integration",
+              "labeledAt": "2026-03-05T15:10:43.664Z",
+              "reasoning": "The question uses the specific terminology 'cultural integration' and 'political unification' found in this leaf topic, which explores how trade routes like the Silk Road influenced the development and cohesion of medieval societies.",
+              "confidence": 0.95
+            },
+            {
+              "id": 64883,
+              "isHl": true,
+              "path": "Paper 3 - History of Asia and Oceania > Section 1: Trade & Exchange: The Silk Road in the Medieval World  > Cultural Interaction & Exchange",
+              "title": "Cultural Interaction & Exchange",
+              "labeledAt": "2026-03-05T15:10:43.664Z",
+              "reasoning": "The prompt focuses on economic exchange as a driver for cultural interaction and integration, which is the primary subject of this leaf topic.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 730753,
+        "parts": [
+          {
+            "id": 27003,
+            "content": "\u201cEconomic exchange was more significant as a force of cultural integration than political unification.\u201d Discuss with reference to two societies.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Evaluate whether economic exchange (via trade, commerce, and markets) was a stronger force for cultural integration than political unification (through conquest, administration, or law).\n- Focus on two societies between 750 and 1400; both must be analysed (though not necessarily in equal depth).\n- Clearly define and conceptualise \"cultural integration\"\u2014considering:\n  - Shared religion\n  - Language\n  - Artistic and architectural forms\n  - Technological transfer\n  - Norms and values across populations\n\n**Examples of Economic Exchange:**\n- Silk Road and Indian Ocean networks:\n  - Spread of Islam, Buddhism, Persian art, paper-making, and Arabic numerals\n- Coastal hubs like Kilwa, Calicut, Malacca:\n  - Multicultural cities shaped by trade and religious pluralism\n- Jewish and Armenian diasporas, Sufi missionaries, merchant guilds:\n  - Agents of integration travelling along trade routes\n\n**Examples of Political Unification:**\n- Abbasid Caliphate:\n  - Promotion of Arabic, Islamic law and education (madrasas), administrative cohesion\n- Mongol Empire:\n  - Imperial courier networks, religious tolerance, and multicultural governance\n- Byzantine Empire:\n  - Support for Orthodox Christianity, mosaics, and administrative uniformity across diverse regions\n\n**Key Analytical Points to Address:**\n- Compare mechanisms of cultural transmission:\n  - Centralised, state-sponsored policies vs. decentralised, voluntary exchanges\n- Evaluate relative:\n  - Reach and durability of cultural integratio\n  - Degree of voluntariness (adoption vs. imposition)\n  - Social and geographical breadth of influence\n- Acknowledge interdependence:\n  - Political unity often secured trade routes\n  - Commerce thrived under stable political conditions\n\n**Best Responses Will:**\n- Show nuanced understanding of *how* and *why* cultural transmission occurred\n- Offer comparative analysis across two societies, identifying:\n  - Where trade or politics had greater cultural impact\n  - Factors influencing the effectiveness of each\n- Address the relationship between trade and political structures\n- Provide a clear and well-substantiated argument throughout\n- Consider regional, temporal, and societal variations in integration\n\n**Strong Responses Will Also:**\n- Use rich, specific evidence:\n  - Names of cities, policies, religious/artistic movements, or technological spread\n- Maintain a consistent analytical structure\n- Avoid vague claims or generalisations about \"politics\" or \"trade\"\n\n**Limited Responses:**\n- Merely list examples of cultural contact\n- Fail to evaluate the relative strength of economic vs. political integration\n- Lack clear analysis or comparative insight\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2957e07b-c2dd-4360-a955-34ede281bb2a",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57022,
+              "isHl": false,
+              "path": "Paper 2 - (1400-1700) > Societies in transition (1400\u20131700)",
+              "title": "Societies in transition (1400\u20131700)",
+              "labeledAt": "2026-03-06T02:15:26.020Z",
+              "reasoning": "The prompt is a broad comparative essay on how the emergence of merchant classes changed social structures in two societies, aligning with early modern societal transition themes (urbanization, commerce, changing social hierarchies).",
+              "confidence": 0.78
+            },
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-06T02:15:26.020Z",
+              "reasoning": "Merchant-class rise and its impact on society is also a core angle within medieval society/economy questions, and the question allows choosing societies in this timeframe as well.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1412533,
+        "parts": [
+          {
+            "id": 1027994,
+            "content": "\u201cThe rise of powerful merchant classes transformed society.\u201d Evaluate with reference to two societies.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Assess the extent to which the emergence and empowerment of merchant classes brought social change in two societies between 750 and 1400.\n- Both societies must be meaningfully analysed (though not necessarily in equal depth).\n- Focus specifically on the *social implications* of merchant empowerment:\n  - Shifts in social structure, hierarchy, or cultural influence\n  - Whether economic success translated into broader social transformation\n\n**Specific Examples May Include:**\n\n**Merchant Empowerment and Social Change:**\n- Italian city-states (e.g., Florence):\n  - Rise of merchant guilds and banking families such as the Medici\n  - Use of wealth to challenge aristocratic dominance through political involvement and cultural patronage\n- Islamic cities like Baghdad and Cairo:\n  - Merchants held both economic and administrative roles in urban centres\n  - Some attained elite status and contributed to intellectual and architectural patronage\n- Indian Ocean trade hubs (e.g., Kilwa, Calicut, Malacca):\n  - Cosmopolitan exchange through merchant networks\n  - Local influence and soft power of merchant communities in diverse, multicultural societies\n\n**Constraints and Resistance to Social Change:**\n- Feudal Europe:\n  - Aristocratic and landowning elites retained dominance despite urban commercial growth\n  - Merchants gained wealth but remained excluded from the ruling class in many regions\n- Confucian China:\n  - Merchants officially ranked below peasants in social hierarchy\n  - Often excluded from bureaucratic or political power despite material success\n\n**Key Analytical Points to Address:**\n- Did merchant wealth lead to upward mobility or cultural influence?\n- Where did merchants remain economically powerful but socially marginal?\n- What ideological or structural constraints limited social change?\n  - Religious values (e.g., Confucianism)\n  - Political resistance from entrenched elites\n- How did urbanisation, trade networks, and cultural pluralism shape the status of merchants?\n\n**Best Responses Will:**\n- Demonstrate nuanced understanding of the relationship between wealth and social status\n- Recognise regional variation in the *degree* and *form* of social change\n- Analyse both transformations and continuities\n- Evaluate broader cultural and political factors shaping societal responses to merchant classes\n\n**Strong Responses Will Also:**\n- Use accurate and relevant historical examples with clear contextual grounding\n- Develop a coherent argument weighing the *extent* of social change in both cases\n- Include comparative insight (explicit or implicit)\n- Reach a reasoned, well-supported conclusion on whether merchants altered social structures or remained socially marginal\n\n**Limited Responses:**\n- Focus only on economic activity without analysing social implications\n- Offer description without evaluation\n- Fail to distinguish between wealth and broader social power",
+            "marks": 15,
+            "label_id": "cfa1df09-015b-4e7c-9a71-81f2da45a714",
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2b34d608-8b10-4cc1-a9e7-0c56c03e7995",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57022,
+              "isHl": false,
+              "path": "Paper 2 - (1400-1700) > Societies in transition (1400\u20131700)",
+              "title": "Societies in transition (1400\u20131700)",
+              "labeledAt": "2026-03-05T17:30:14.718Z",
+              "reasoning": "The prompt is a broad comparative essay on economic and social effects of disease across two societies, fitting the general theme of societies in transition rather than a specific event/topic.",
+              "confidence": 0.35
+            },
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T17:30:14.718Z",
+              "reasoning": "Disease impacts are commonly treated within medieval social/economic history; this is the closest leaf that captures economy and society effects without specifying a region or event.",
+              "confidence": 0.3
+            }
+          ]
+        },
+        "currentRevisionId": 730755,
+        "parts": [
+          {
+            "id": 26996,
+            "content": "Examine the economic and social effects of the spread of disease in two societies.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Explore both the economic and social consequences of disease outbreaks between 750 and 1400 in two societies.\n- Uneven coverage is acceptable, but both societies must be substantively analysed.\n- Move beyond descriptions of outbreaks to evaluate how disease shaped:\n  - Economic structures\n  - Social hierarchies\n  - Institutional change\n- Emphasise the *interconnected effects* of social and economic transformations.\n\n**Specific, Contextualised Examples May Include:**\n\n**Europe (e.g., the Black Death):**\n- Massive population decline leading to labour shortages and wage increases\n- Decline of feudal obligations and serfdom\n- Uprisings such as the Peasants\u2019 Revolt in 1381\n- Shifts in the role and authority of the Church due to clergy deaths\n\n**Islamic or Central Asian Societies:**\n- Disruption of trade networks such as the Silk Road\n- Urban depopulation and economic decline in pilgrimage-based economies\n- Decreased confidence in religious and political authorities\n\n**Yuan China:**\n- Plague intensified rural economic collapse\n- Contributed to political instability and unrest\n- Weakened Mongol authority and facilitated the dynasty\u2019s eventual fall\n\n**Key Sectors and Effects to Examine:**\n- **Agriculture:** labour supply, crop yields, land redistribution\n- **Urban Life:** depopulation, wage labour, guild structure, social unrest\n- **Trade and Commerce:** disruption of routes, inflation, loss of markets\n- **Religious Institutions:** loss of clergy, shifts in spiritual authority, religious anxiety\n\n**Best Responses Will:**\n- Offer detailed *comparative insight*:\n  - Identify similarities and differences across both societies\n  - Explore context-specific responses and long-term effects\n- Evaluate whether consequences were:\n  - Short-term disruptions\n  - Enduring structural transformations (e.g., labour systems, social mobility)\n- Maintain a coherent argument that integrates economic and social effects, showing how they influenced one another\n\n**Strong Responses Will Also:**\n- Avoid generalisations and vague claims\n- Use accurate, relevant historical evidence to support analysis\n- Demonstrate awareness of regional political, cultural, and institutional contexts\n- Show how societal responses were shaped by internal dynamics and external pressures\n\n**Limited Responses:**\n- Merely describe the effects of disease without analytical depth\n- Treat economic and social consequences separately without exploring their interconnections\n- Fail to assess the long-term significance of pandemics in shaping historical change\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "337d5512-a617-4a03-a9db-ca5990910924",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T16:57:43.959Z",
+              "reasoning": "The question is a classic comparative essay prompt from the IB History Paper 2 thematic topic 'Society and Economy (750\u20131400)', which explicitly requires students to discuss the influence of religion on social and economic structures across two different societies.",
+              "confidence": 0.95
+            },
+            {
+              "id": 57022,
+              "isHl": false,
+              "path": "Paper 2 - (1400-1700) > Societies in transition (1400\u20131700)",
+              "title": "Societies in transition (1400\u20131700)",
+              "labeledAt": "2026-03-05T16:57:43.959Z",
+              "reasoning": "This prompt also fits the Paper 2 topic 'Societies in transition (1400\u20131700)', which examines the changing nature of social and economic structures during the early modern period, often with a focus on the shifting role of religious influence.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 730628,
+        "parts": [
+          {
+            "id": 27004,
+            "content": "\u201cReligion had a greater influence on social structures than on the economy.\u201d Discuss with reference to two societies.\n",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Evaluate the extent to which religion shaped *social structures* more significantly than *economic systems* in two societies between 750 and 1400.\n- Both societies must be analysed (not necessarily in equal depth).\n- Maintain a clear, sustained, and comparative evaluation of religion\u2019s impact on both domains.\n- Focus on weighing the *relative influence* of religion in shaping social versus economic frameworks.\n\n**Religion and Social Structures:**\n- Reinforcement of hierarchical systems:\n  - Caste system in India\n  - Feudal orders in Christian Europe\n- Justification of political authority:\n  - Divine right of kings in Europe\n  - Mandate of Heaven in China\n- Empowerment of religious elites:\n  - Ulema in Islamic societies\n  - Confucian scholar-officials in China\n  - Clergy and monastic orders in medieval Europe\n\n**Religion and Economic Systems:**\n- Religious taxation:\n  - Zakat in Islamic states\n  - Tithes in Christian Europe\n- Monastic landownership:\n  - Control over land, labour, and production by religious institutions\n- Trade ethics and restrictions:\n  - Prohibitions on usury in Islamic and Christian traditions\n  - Ethical codes influencing profit-making\n- Pilgrimage economies:\n  - Hajj boosting transregional commerce in the Islamic world\n  - Pilgrimage routes supporting towns and markets in Christian Europe\n\n**Key Analytical Points to Address:**\n- Use accurate, well-contextualised examples to explore:\n  - The *scale*, *mechanisms*, and *intensity* of religious influence\n- Address interconnections where relevant:\n  - For example, religious authority shaping both land ownership (economic) and class status (social)\n- Consider the nature of religious influence:\n  - Ideological and structural in social spheres?\n  - Pragmatic and institutional in economic life?\n- Explore variation:\n  - Differences *between* societies\n  - Changes *within* societies over time or regionally\n\n**Best Responses Will:**\n- Demonstrate detailed contextual knowledge of both societies\n- Offer analytical depth beyond description, engaging in evaluative argument\n- Include meaningful *comparative insight*:\n  - Highlighting parallels or contrasts across societies\n- Present a clear, reasoned, and substantiated conclusion:\n  - State which sphere\u2014social or economic\u2014was more significantly shaped by religion and explain why\n\n**Strong Responses Will Also:**\n- Use precise and relevant historical evidence\n- Maintain a consistent, coherent line of argument\n- Integrate both thematic and comparative analysis effectively\n\n**Limited Responses:**\n- Merely describe religious practices without evaluating impact\n- Treat social and economic impacts in isolation without comparison\n- Fail to make a clear judgement or comparative conclusion\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "40bafa32-8ef4-43bb-967e-be88e2a3a41d",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 9,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T16:57:11.697Z",
+              "reasoning": "The question specifically addresses the time period 750\u20131400 and focuses on how societies utilized technological and institutional innovations to address economic and environmental challenges, which is the core subject of the 'Society and Economy (750\u20131400)' topic.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 824079,
+        "parts": [
+          {
+            "id": 27002,
+            "content": "To what extent did technological and institutional innovation between 750 and 1400 allow societies to overcome environmental limitations? Refer to two societies in your response.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Evaluate how effectively societies between 750 and 1400 responded to environmental constraints such as:\n  - Poor soil\n  - Drought\n  - Mountainous terrain\n  - Arid climate\n- Assess responses through both **technological** and **institutional** innovation.\n- Move beyond description to provide a sustained, comparative, and analytical evaluation of adaptation strategies.\n\n**Balance of Focus**\n- Candidates must address both forms of innovation:\n  - **Technological innovations:** irrigation systems (qanats, canals), terracing, crop diversification, transport infrastructure\n  - **Institutional innovations:** communal labour systems (e.g. mit\u2019a), state-driven land reform, taxation policies, water regulation laws\n\n**Contextual Examples May Include:**\n\n**Inca Empire:**\n- Extensive use of terracing and vertical ecological zones (vertical archipelagos)\n- Mit\u2019a system for organising agricultural and infrastructural labour\n- Road networks enhancing communication and control over mountainous regions\n\n**Abbasid Caliphate:**\n- Qanat and canal systems increasing agricultural output in arid Mesopotamia\n- State engineers and investment in large-scale irrigation\n- Bureaucratic institutions coordinating land and water management\n\n**Song China:**\n- Adoption of drought-resistant Champa rice\n- Expansion of irrigation, dike systems, and state-sponsored hydraulic works\n- Land redistribution to promote productivity in environmentally limited areas\n\n**Mayan Civilisation:**\n- Attempts to adapt to seasonal droughts and manage deforestation\n- Partial or failed institutional responses contributing to demographic decline and political fragmentation\n\n**Key Analytical Points to Address:**\n- Effectiveness of responses in terms of:\n  - Sustainability and resilience\n  - Geographic scope\n  - Long-term agricultural and demographic stability\n- Interaction between technological and institutional innovations:\n  - Did they reinforce each other or fail to align?\n- Conditions influencing success or failure:\n  - Political centralisation\n  - Economic surplus\n  - Social cohesion and labour organisation\n  - Knowledge diffusion and engineering capability\n\n**Best Responses Will:**\n- Offer clear **comparative insight**:\n  - Explore how two societies either succeeded, partially adapted, or failed\n- Maintain distinction between:\n  - Human innovation as agency vs. environmental determinism\n- Provide a well-reasoned and substantiated conclusion:\n  - Assess which forms of innovation were most effective and under what circumstances\n\n**Strong Responses Will Also:**\n- Use regionally specific, historically accurate examples\n- Integrate both societies effectively (even if one is treated in more detail)\n- Present a coherent analytical structure combining argument, evidence, and evaluation\n\n**Limited Responses:**\n- Treat only one type of innovation (technological or institutional)\n- Describe environmental challenges without analysing the effectiveness of responses\n- Fail to make evaluative or comparative judgements\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4184c5b4-43fe-46e0-9422-9153f7197be4",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 64431,
+              "isHl": true,
+              "path": "Paper 3 - History of the Americas > Section 5: Slavery and the New World (1500\u20131800) > Economic & Social Impact of Slavery",
+              "title": "Economic & Social Impact of Slavery",
+              "labeledAt": "2026-03-07T17:36:03.774Z",
+              "reasoning": "The prompt asks about the extent to which slavery was integral to economic systems in two societies, directly aligning with analysis of slavery\u2019s economic role and effects.",
+              "confidence": 0.78
+            },
+            {
+              "id": 64430,
+              "isHl": true,
+              "path": "Paper 3 - History of the Americas > Section 5: Slavery and the New World (1500\u20131800) >  Expansion of Slavery",
+              "title": " Expansion of Slavery",
+              "labeledAt": "2026-03-07T17:36:03.774Z",
+              "reasoning": "Assessing how integral slavery was to economies commonly involves discussing its growth/scale and embedment in production systems, which fits expansion of slavery.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 824103,
+        "parts": [
+          {
+            "id": 27000,
+            "content": "Examine the extent to which slavery was integral to economic systems in two societies.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Examine how far slavery was a structural component of the economy in two societies between 750 and 1400.\n- Go beyond description to evaluate:\n  - The scale of slavery\n  - Its economic function\n  - Its systemic integration into broader economic life\n- Focus on the *extent to which slavery underpinned economic systems*, not just isolated practices or individual experiences.\n\n**Contextual Examples May Include:**\n\n**Islamic World:**\n- Enslaved individuals in domestic service and administration (e.g. eunuchs, concubines)\n- Agricultural labour on large estates, particularly in Iraq and Egypt\n- Mamluks as elite military slaves who later gained political authority\n- Trans-Saharan and Indian Ocean slave trades:\n  - Supplied labour to cities and plantations\n  - Supported consumption and prestige among urban elites\n\n**Aztec Society:**\n- Enslaved captives used in:\n  - Construction projects\n  - Tribute labour systems\n  - Religious sacrifices\n- Slavery integrated into the broader tribute-based economy\n\n**Mongol Empire:**\n- Enslaved peoples used in:\n  - Households\n  - Military logistics\n  - Labour-intensive state and aristocratic enterprises\n- Slave acquisition closely tied to military conquest\n\n**Key Analytical Questions to Address:**\n- Was slavery *widespread*, *institutionalised*, and *economically essential*, or more peripheral and supplementary?\n- In which sectors was enslaved labour concentrated?\n  - Agriculture\n  - Craft production\n  - Urban services\n  - Construction\n  - Military operations\n- What alternatives to slavery existed?\n  - Free peasant labour\n  - Guild-based production\n  - Tribute systems or corv\u00e9e\n- What were the social and legal structures underpinning slavery?\n  - Religious laws\n  - Customary norms\n  - Political authority\n\n**Best Responses Will:**\n- Offer *comparative insight*:\n  - Identify similarities and differences in how slavery functioned within each society's economy\n- Evaluate slavery\u2019s *centrality* to:\n  - Wealth accumulation\n  - Labour supply\n  - Long-term productivity\n  - Social power structures\n- Reach a *clear, well-substantiated conclusion*:\n  - Was slavery a foundational pillar of the economy or a context-dependent supplement?\n\n**Strong Responses Will Also:**\n- Integrate accurate and specific historical evidence within broader economic analysis\n- Demonstrate analytical depth\u2014avoiding surface-level accounts or moral judgements\n- Maintain a coherent, comparative structure throughout\n- Connect slavery explicitly to:\n  - Economic sustainability\n  - Elite power\n  - Labour systems\n\n**Limited Responses:**\n- Merely describe slavery without evaluating its economic significance\n- Fail to compare or contextualise the role of slavery in both societies\n- Treat slavery as a social phenomenon without linking it to broader economic structures\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8e9c377b-ba72-4851-ae19-d038c078efb9",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T16:57:39.536Z",
+              "reasoning": "The question is a standard prompt for the IB World History Topic 'Society and Economy (750\u20131400)', which explicitly requires students to evaluate the relative importance of environmental factors (such as climate or geography) versus political factors (such as state administration or laws) in the development of economic systems.",
+              "confidence": 0.95
+            },
+            {
+              "id": 57022,
+              "isHl": false,
+              "path": "Paper 2 - (1400-1700) > Societies in transition (1400\u20131700)",
+              "title": "Societies in transition (1400\u20131700)",
+              "labeledAt": "2026-03-05T16:57:39.536Z",
+              "reasoning": "This prompt is also frequently used in the context of 'Societies in transition (1400\u20131700)', where the shift from medieval to early modern economic systems is discussed through the lens of environmental change, exploration, and the consolidation of state power.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 730780,
+        "parts": [
+          {
+            "id": 27001,
+            "content": "\u201cEnvironmental factors shaped economic activity more than political ones.\u201d Discuss with reference to two societies.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Evaluate whether geographic and environmental factors had a greater influence on economic life than political systems in two societies between 750 and 1400.\n- Explore both environmental/geographic and political influences through a balanced, comparative, and analytical approach.\n- Avoid generalisations by assessing the *relative importance* and *interactions* between these two forces.\n\n**Environmental and Geographic Factors (Examples):**\n- **Nile River in Egypt:**\n  - Enabled predictable agricultural cycles\n  - Facilitated riverine transport and long-distance trade\n- **Monsoon Winds in the Indian Ocean:**\n  - Structured seasonal maritime trade in East Africa, India, Southeast Asia\n  - Encouraged the rise of port cities and commercial hubs\n- **Desert Trade Routes and Natural Resources in West Africa:**\n  - Trans-Saharan trade based on gold, salt, and strategic oases\n  - Underpinned the wealth of empires like Ghana and Mali\n\n**Political Systems (Examples):**\n- **Abbasid Caliphate:**\n  - Investment in infrastructure, irrigation, taxation bureaucracy\n  - State-sponsored protection of trade routes and caravanserais\n- **Song Dynasty:**\n  - Use of paper money and state-issued coinage\n  - Granaries, dike construction, and canal systems boosting agriculture and commerce\n- **Feudal Europe:**\n  - Fragmented political authority impacted trade regulation and taxation\n  - Manorial systems shaped rural labour and agricultural production\n\n**Key Analytical Points to Address:**\n- Did geography offer enduring *advantages or constraints*?\n  - Natural trade routes, fertile lands, isolation, or climatic challenges\n- How did political systems *respond to* or *leverage* geographic opportunities?\n  - Development of irrigation, roads, ports, taxation systems\n- Was economic life primarily shaped by:\n  - Environmental determinism?\n  - Institutional design and political leadership?\n  - Or the *interplay* of both?\n\n**Best Responses Will:**\n- Present a *clear, comparative argument*:\n  - Evaluate the *relative weight* of geography/environment vs. political systems\n- Use specific, *contrasting case studies* across two societies\n- Offer *comparative insight*:\n  - Show how different combinations of geography and governance led to distinct economic outcomes\n- Acknowledge:\n  - Regional variation\n  - Temporal shifts\n  - Instances of interdependence (e.g. politics enhancing geography\u2019s economic potential)\n\n**Strong Responses Will Also:**\n- Use accurate, context-rich evidence\n- Integrate argument, evidence, and evaluation into a coherent structure\n- Conclude with a *substantive judgement*:\n  - Was one factor more influential?\n  - Or was their interaction more critical than either force alone?\n\n**Limited Responses:**\n- Simply describe environmental or political features without evaluating their influence\n- Lack specific examples or comparative analysis\n- Treat the two factors in isolation without recognising their interaction\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "9fb2bc62-7f9e-4a21-82fb-9f7c91e6d9eb",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T16:59:18.373Z",
+              "reasoning": "The question specifically asks about technological innovation and economic development within the timeframe of 750 to 1400, which aligns perfectly with the title and scope of this leaf topic.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 730605,
+        "parts": [
+          {
+            "id": 27007,
+            "content": "\u201cTechnological innovation was the key driver of economic development between 750 and 1400.\u201d To what extent do you agree with this statement? Refer to two societies in your response.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Maintain a clear and consistent focus on the extent to which *technological innovation* was the key driver of economic development between 750 and 1400.\n- Provide a balanced and considered evaluation across *two societies*, offering both depth and comparative insight.\n- Develop a sustained and coherent line of argument throughout the essay.\n\n**Use of Evidence**\n- Support arguments with *well-selected and well-integrated examples*:\n  - **Medieval Europe:** heavy plough, three-field system\u2014boosting soil productivity and agricultural output\n  - **Song China:** Champa rice enabling double cropping; paper money increasing commercial efficiency\n  - **Abbasid Caliphate:** irrigation systems and navigation tools enhancing agriculture and trade in arid regions\n- Accurately situate examples within *economic, social, and political* contexts to demonstrate understanding of broader conditions and impacts.\n\n**Consideration of Alternative Drivers**\n- Evaluate the relative importance of other key factors in economic development:\n  - Long-distance trade networks (e.g. Silk Road, Indian Ocean)\n  - State unification and administrative systems\n  - Natural resource endowments (e.g. gold, fertile land)\n  - Demographic trends and population growth\n- Assess how these factors may have *interacted with* or *competed with* technological innovation in driving development.\n\n**Best Responses Will:**\n- Demonstrate *analytical depth* with reasoned arguments and clearly substantiated claims\n- Weave together multiple perspectives, avoiding overly deterministic or one-sided explanations\n- Compare and contrast the role of technology across both societies, showing:\n  - Where innovation was transformative\n  - Where other factors were more decisive\n- Reach a *well-substantiated conclusion* that reflects on the conditions under which technology served as the principal economic driver\n\n**Strong Responses Will Also:**\n- Maintain clear structure, linking points logically to the central question\n- Use precise historical terminology and context\n- Show awareness of regional variation and the diversity of development paths\n\n**Limited Responses:**\n- Describe technological innovations without evaluating their significance\n- Ignore or dismiss alternative factors driving economic development\n- Fail to sustain a coherent argument or use comparative analysis\n",
+            "marks": 15,
+            "label_id": "e430a28d-3d19-4ebe-b572-dd36806c17aa",
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c138b98e-93a4-463f-b45e-1fa5209685cd",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-07T17:33:57.962Z",
+              "reasoning": "The question asks about economic effects of empire-building in two societies within 750\u20131400, which aligns directly with the medieval 'Society and Economy (750-1400)' paper 2 theme.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1072139,
+        "parts": [
+          {
+            "id": 27009,
+            "content": "Examine the economic effects of empire-building in two societies between 750 and 1400.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Examine how the *expansion of empires* influenced *economic developments* in two societies between 750 and 1400.\n- Go beyond narrative accounts of conquest to analyse the mechanisms through which empire-building shaped:\n  - Economic structures\n  - Commercial activity\n  - Patterns of production, redistribution, and integration\n\n**Examples of Imperial Influence:**\n\n**Abbasid Caliphate:**\n- Promotion of trans-regional trade through infrastructure and monetary reform\n- Agricultural expansion via irrigation projects\n- Supportive commercial policies, such as merchant protections and standardised coinage\n\n**Mongol Empire:**\n- Enabled trans-Eurasian commerce through protection of Silk Road routes\n- Introduced tax reforms and a postal system to facilitate trade\n- Simultaneously caused disruption through military campaigns and resource extraction\n\n**Mali Empire:**\n- Dominated trans-Saharan gold-salt trade networks\n- Centralised control over commerce contributed to urban growth (e.g. Timbuktu, Gao)\n- State patronage of Islamic education and pilgrimage boosted economic prestige\n\n**Song Dynasty:**\n- State expansion led to development of the Grand Canal and road networks\n- Standardised currency (e.g. paper money) supported market activity\n- State monopolies in salt, iron, and tea drove fiscal strength\n\n**Aztec Empire:**\n- Tribute system extracted goods from subject regions and redistributed them centrally\n- Strengthened imperial centres at the expense of peripheral regions\n- Codified economic hierarchies through state-imposed obligations\n\n**Key Analytical Points to Address:**\n- What *positive economic effects* did empire-building bring?\n  - Trade expansion, stable taxation, infrastructure, agricultural productivity\n- What *negative consequences* were associated with imperial rule?\n  - Exploitation, regional inequality, forced labour, burdensome tribute\n- How did political control facilitate or hinder:\n  - Economic integration\n  - Market access\n  - Access to natural resources and labour\n- Was economic development a deliberate policy aim or an incidental outcome of expansion?\n\n**Best Responses Will:**\n- Demonstrate *accurate, detailed historical knowledge*\n- Explicitly link *imperial expansion* to *economic change*\n- Use *comparative analysis* to highlight:\n  - Similarities (e.g. how both empires promoted trade)\n  - Contrasts (e.g. centralisation vs. decentralisation of economic control)\n- Present a *clear, consistent argument* supported by well-integrated evidence\n- Conclude with a *reasoned judgement* about the nature, scope, and effectiveness of economic transformations under empire\n\n**Strong Responses Will Also:**\n- Acknowledge temporal or regional variation within empires\n- Avoid oversimplification\u2014recognising both the benefits and limitations of imperial economics\n- Consider the agency of local actors and the unevenness of imperial impact\n\n**Limited Responses:**\n- Describe conquests without linking them to economic outcomes\n- Mention economic developments without analysing their connection to imperial systems\n- Lack comparative insight or detailed contextual evidence\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cc83af50-cb5c-4eba-9836-55ae22f45b94",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T17:31:02.179Z",
+              "reasoning": "The prompt asks about the relationship between political stability and economic growth in two societies between 750 and 1400, which fits the broad medieval 'Society and Economy (750\u20131400)' thematic topic.",
+              "confidence": 0.92
+            },
+            {
+              "id": 57016,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Dynasties and rulers (750\u20131500)",
+              "title": "Paper 2 - Dynasties and rulers (750\u20131500)",
+              "labeledAt": "2026-03-05T17:31:02.179Z",
+              "reasoning": "Discussing 'political stability' as a condition for economic growth necessarily involves governance and rulers/dynastic stability within 750\u20131500, aligning secondarily with 'Dynasties and rulers (750\u20131500)'.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 730766,
+        "parts": [
+          {
+            "id": 26998,
+            "content": "\u201cPolitical stability was essential for economic growth.\u201d Discuss with reference to two societies between 750 and 1400.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Discuss whether *political stability* was a *necessary condition* for economic development in two societies between 750 and 1400.\n- Focus on evaluating the *necessity* of stability, rather than simply describing its presence.\n- Explore the *relationship between governance and economic outcomes*, while comparing the role of stability to other factors.\n\n**Context-Specific Examples May Include:**\n\n**Cases Where Political Stability Supported Development:**\n- **Abbasid Caliphate:**\n  - Bureaucratic administration, taxation systems, and trade route protection\n  - Urban growth and commercial networks across the Islamic world\n- **Tang and Song China:**\n  - Centralised governance supported infrastructure (canals, roads, granaries)\n  - Currency reforms and legal uniformity enhanced agricultural and market integration\n\n**Cases Where Development Occurred Despite Instability:**\n- **Mongol Empire:**\n  - Initial violent expansion gave way to the *Pax Mongolica*\n  - Facilitated trans-Eurasian trade, cultural exchange, and commercial revival\n- **Feudal Europe:**\n  - Despite fragmented power, local lords and towns fostered:\n    - Agricultural innovation (e.g. three-field system)\n    - Urbanisation and rise of merchant guilds\n    - Trade fairs and regional markets\n\n**Key Analytical Points to Address:**\n- How and why political stability could promote economic development:\n  - Legal consistency\n  - Infrastructure investment\n  - Security of trade and property\n  - Predictable taxation systems\n- Limits and exceptions:\n  - Stability without reform or innovation may result in stagnation\n  - Corruption, over-taxation, or rigidity may hinder development even under stable rule\n- Counterpoints and additional drivers of economic growth:\n  - **Geography:** proximity to trade networks, access to fertile land\n  - **Technology:** agricultural techniques, transport systems, coinage\n  - **Religion/Culture:** shared belief systems fostering cooperation and trust\n  - **Resources:** access to valuable commodities (gold, salt, silk)\n\n**Best Responses Will:**\n- Use accurate, relevant, and well-contextualised historical evidence\n- Offer a *sustained and comparative argument* across two societies\n- Weigh the *necessity* of political stability against:\n  - Cases of successful development without it\n  - The presence of other influential factors\n- Present a clear and *well-substantiated conclusion*:\n  - Was stability a prerequisite, a facilitator, or one variable among many?\n\n**Strong Responses Will Also:**\n- Make meaningful comparisons, showing where societies diverged or converged\n- Analyse the *interaction* between political and non-political influences\n- Structure arguments clearly, linking claims to supporting evidence throughout\n\n**Limited Responses:**\n- Merely describe stable governments or list causes of economic growth\n- Fail to evaluate *how* or *why* stability mattered\n- Ignore counterexamples or broader contextual variables\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cd08e652-2300-420c-bf43-fe10d799b657",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-06T15:31:21.272Z",
+              "reasoning": "The question focuses on urbanisation in the period 750\u20131400 and asks about the role of trade in causing urban growth across two societies, fitting the society/economy thematic paper for 750\u20131400.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 730756,
+        "parts": [
+          {
+            "id": 26995,
+            "content": "\u201cUrbanisation during 750\u20131400 was primarily the result of trade.\u201d Discuss with reference to two societies.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Discuss the extent to which *trade* was the *main cause of urbanisation* in two societies between 750 and 1400.\n- Maintain a clear and analytical focus on trade as a driver, while evaluating its *relative importance* compared to other contributing factors.\n- Both societies must be clearly analysed, though not necessarily in equal depth.\n\n**Trade as a Driver of Urbanisation:**\n- Examine how trade stimulated urban growth by:\n  - Establishing marketplaces and commercial hubs\n  - Attracting merchants, artisans, and migrant labour\n  - Embedding cities into regional and long-distance trade networks\n- Relevant examples:\n  - **Baghdad:** positioned on Silk Road and river trade routes; centre of Islamic commerce and culture\n  - **Timbuktu:** flourished from trans-Saharan gold and salt trade\n  - **Chang\u2019an and Hangzhou:** key terminus cities in Silk Road and maritime trade, with thriving markets and cosmopolitan populations\n  - **Venice:** major Mediterranean port and commercial intermediary between East and West\n\n**Alternative Causes of Urbanisation:**\n- **Religious or cultural significance:**\n  - Cities as pilgrimage sites or religious centres (e.g. Mecca, Varanasi)\n- **Political/administrative centralisation:**\n  - Capitals and garrison towns established by empires or dynasties (e.g. Cairo under Fatimids, Delhi under Delhi Sultanate)\n- **Migration patterns:**\n  - Conflict, famine, or search for opportunity pushing people into urban spaces\n- **Agricultural innovation:**\n  - Surplus production enabled rural\u2013urban labour shifts (e.g. Champa rice in Song China)\n- **Craft industries and education:**\n  - Specialised production centres and institutions (e.g. guilds in Europe, madrasas in Islamic cities, universities in Bologna and Paris)\n\n**Key Analytical Questions to Address:**\n- To what extent was trade *necessary or sufficient* for urban growth?\n- Did trade *sustain*, *initiate*, or merely *enhance* existing urban centres?\n- How did different societies balance trade with other structural or cultural drivers?\n\n**Best Responses Will:**\n- Use *accurate and detailed evidence* contextualised within broader regional or global networks\n- Provide *comparative insight* into how and why cities grew in different societies\n- Maintain a *coherent and consistent line of argument* throughout\n- Evaluate *the weight of trade* relative to other explanatory factors\n\n**Strong Responses Will Also:**\n- Incorporate multiple causes into a nuanced explanation of urbanisation\n- Avoid overgeneralising trade as the sole cause\n- Highlight temporal and regional variation in urban development\n- Reach a *reasoned and well-supported conclusion*:\n  - Was trade the primary cause, or one among several significant influences?\n\n**Limited Responses:**\n- Simply describe urban growth or list examples without causal analysis\n- Focus exclusively on trade without assessing alternatives\n- Lack comparative perspective or a clear evaluative judgement\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d4eecb1c-cb33-45b2-85d4-29d2d7fa29b2",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d4eecb1c-cb33-45b2-85d4-29d2d7fa29b2-1772167695732",
+            "generatedAt": "2026-02-27T15:17:37.581Z",
+            "sourceRevisionId": 823656
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T16:59:23.891Z",
+              "reasoning": "The question asks to evaluate the impact of long-distance trade on urban growth and the merchant class between 750 and 1400, which aligns perfectly with the Paper 2 topic 'Society and Economy (750-1400)'.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1689275,
+        "parts": [
+          {
+            "id": 1151543,
+            "content": "Evaluate the impact of long-distance trade on the growth of urban centers and the status of the merchant class in two societies between 750 and 1400.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Evaluate how *interregional or long-distance trade* drove the *expansion of cities* and altered the *social standing of merchants* in two societies within the period 750\u20131400.\n- Analyze the *relationship* between commercial wealth and social/political influence.\n- Focus on the *economic and structural changes* in urban environments rather than just listing trade goods.\n\n**Examples of Trade and Urban Growth:**\n\n**The Islamic World (e.g., Abbasid Caliphate or Fatimid Egypt):**\n- Expansion of the **Silk Road** and **Indian Ocean trade** networks.\n- Development of major hubs like **Baghdad, Cairo, or Samarkand**.\n- Impact:\n  - The **Bazaar (Suq)** as a central urban institution.\n  - High social status of merchants, often supported by **Islamic law (Sharia)** which protected property and contracts.\n  - Merchants acting as patrons of learning and religious endowments (**waqfs**).\n\n**The Italian City-States (e.g., Venice, Genoa, or Florence):**\n- Control of **Mediterranean maritime routes** connecting Europe to the Levant.\n- Growth of independent or semi-autonomous **communes**.\n- Impact:\n  - Introduction of sophisticated financial tools like the **commenda system** and early banking.\n  - Rise of a powerful **patrician class** of merchant-bankers who challenged traditional feudal nobility.\n  - The role of **guilds** in organizing urban life and securing political representation for tradesmen.\n\n**Key Areas of Evaluation:**\n- **Urban Infrastructure:**\n  - Construction of ports, warehouses (caravanserais/fondacos), and marketplaces.\n  - Physical expansion of city walls to accommodate growing populations.\n- **Social Mobility:**\n  - Extent to which wealth from trade allowed for entry into political elites.\n  - The tension between traditional land-owning aristocracies and the new commercial 'nouveau riche'.\n- **Legal and Political Changes:**\n  - Development of commercial courts or maritime laws.\n  - The degree of autonomy cities gained from central imperial or monarchical authorities.\n- **Cultural Influence:**\n  - Merchants as conduits for the exchange of ideas, technologies, and artistic styles between regions.\n\n**Best Responses Will:**\n- Use *specific historical evidence* regarding cities and trade routes from both chosen societies.\n- Move beyond a description of trade to analyze *how* commerce reshaped the social hierarchy.\n- Demonstrate an understanding of the *chronological developments* within the 750\u20131400 timeframe.\n- Employ *comparative analysis* to show how trade had differing or similar effects based on the political structure of the societies (e.g., centralized empire vs. fragmented city-states).\n\n**Strong Responses Will Also:**\n- Maintain a *well-structured argument* that addresses both urban growth and merchant status.\n- Offer *critical insight* into the limitations of merchant power (e.g., susceptibility to political whim or economic shifts).\n- Evaluate the *long-term significance* of these commercial developments for the transition toward early modern economies.\n\n**Limited Responses:**\n- Provide a list of trade items (silk, spices, etc.) without analyzing the impact on cities or social classes.\n- Generalize about trade without referencing specific societies or the 750\u20131400 period.\n- Fail to distinguish between the economic growth of the city and the social status of its inhabitants.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ec3147df-6502-45b2-9199-757b752f60ef",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T17:30:55.441Z",
+              "reasoning": "The prompt explicitly targets economic organization and labour systems (forced vs free labour) in the period 750\u20131400, which matches the Paper 2 topic on Society and Economy (750\u20131400).",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1319779,
+        "parts": [
+          {
+            "id": 993029,
+            "content": "\u201cThe economy of most societies between 750 and 1400 depended more on forced labour than free labour.\u201d Discuss with reference to two societies.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Evaluate the extent to which *forced labour* (e.g. slavery, serfdom, corv\u00e9e) was the *primary basis of economic production* in two societies between 750 and 1400.\n- Move beyond description to assess whether coerced labour was central to economic systems, or whether *alternative labour structures* played a more significant role.\n\n**Examples of Forced Labour Systems:**\n\n**Medieval Europe:**\n- **Serfdom** as the foundation of *manorial economies*:\n  - Serfs tied to land, providing agricultural labour and feudal dues\n  - Coerced labour sustained local subsistence and elite wealth\n- Alternative systems:\n  - Emergence of *free peasant farming* and later, *urban guilds* in developing towns\n\n**Islamic Caliphates / Mamluk Egypt:**\n- Use of **slave labour** in:\n  - Agriculture (plantations, estates)\n  - Households and military (e.g. Mamluks as elite slave soldiers)\n  - Commerce and state administration\n- Coexistence with *free urban labour*, *merchants*, and *guild-based economies*\n\n**Incan Empire:**\n- The **mit\u2019a system** as a form of *state-organised corv\u00e9e labour*:\n  - Used for agriculture, infrastructure (e.g. roads, terraces), and military\n  - Labour redistributed across ecological zones via vertical archipelagos\n\n**Aztec Empire:**\n- Labour extracted through **tribute and public obligations**:\n  - Agricultural surplus and goods collected from subject regions\n  - Some slave labour used in elite households and sacrificial rituals\n- Economic activity also based on *market exchange*, especially in cities like Tenochtitlan\n\n**West Africa (e.g. Ghana, Mali):**\n- **Trans-Saharan slave trade** supported elite households, mining, and agriculture\n- Coexisted with significant *merchant-based economies* and Islamic commercial law\n\n**Key Analytical Points to Address:**\n- To what extent was forced labour *systematically embedded* in economic structures?\n  - Was it the *dominant* or *supplementary* labour force?\n- Compare coerced labour with alternative systems:\n  - Free peasant labour, tenant farming, artisan guilds, trade-based production\n- Examine the *role of the state* and *elite classes* in organising and benefiting from forced labour\n- Assess broader *socio-economic implications*:\n  - Social stratification, state control, urban development, and productivity\n\n**Best Responses Will:**\n- Use *accurate, well-contextualised historical knowledge* for both societies\n- Maintain *analytical focus* on the economic function and scale of forced labour\n- Provide *comparative insight*\u2014identifying similarities and differences in how coerced labour shaped economic life\n- Present a *clear, evaluative line of argument*, leading to a *well-substantiated conclusion*\n\n**Strong Responses Will Also:**\n- Analyse the *interplay between labour systems*, not treat them in isolation\n- Consider *temporal or regional variation* within societies\n- Avoid simplistic assumptions about coercion or freedom\u2014recognising degrees of obligation, status, and autonomy\n\n**Limited Responses:**\n- Merely list types of labour without evaluating their economic role\n- Describe societies in isolation without comparative insight\n- Fail to assess the *relative* impact of forced labour compared to other economic drivers",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fe2f03f9-921e-419f-ac71-815551766646",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 298,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-fe2f03f9-921e-419f-ac71-815551766646-1772167695732",
+            "generatedAt": "2026-02-27T15:15:57.169Z",
+            "sourceRevisionId": 1319773
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 57014,
+              "isHl": false,
+              "path": "Paper 2 - (750-1500) > Paper 2 - Society and Economy (750-1400)",
+              "title": "Paper 2 - Society and Economy (750-1400)",
+              "labeledAt": "2026-03-05T15:10:51.683Z",
+              "reasoning": "The question explicitly asks to evaluate social and economic factors (urban expansion and social mobility) within the specific timeframe of 750-1400, which corresponds exactly to the Paper 2 'Society and Economy (750-1400)' topic.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1689292,
+        "parts": [
+          {
+            "id": 1151578,
+            "content": "Evaluate the extent to which the expansion of urban centers promoted social mobility in two societies between 750 and 1400.",
+            "order": 0,
+            "markscheme": "**Analytical Focus**\n- Evaluate the *relationship between urbanization and social stratification* in two societies within the specified timeframe.\n- Move beyond a description of city growth to analyse how urban environments created opportunities for or barriers to social advancement.\n- Address specific mechanisms of mobility such as trade, education, guild systems, or administrative service.\n\n**Contextualised Examples May Include:**\n\n**Song China (e.g., Kaifeng, Hangzhou):**\n- The **commercial revolution** allowed merchants to accumulate significant wealth, though they often remained lower in the official social hierarchy.\n- Urbanization supported the expansion of the **civil service examination system**, allowing some commoners to enter the scholar-official class.\n- The rise of a \"middle\" urban class of artisans, shopkeepers, and entertainers who operated outside traditional rural feudal-like structures.\n\n**Medieval Europe (e.g., Venice, Bruges, Florence):**\n- The concept of ***'Stadtluft macht frei'*** (city air makes you free), where serfs could gain legal freedom by living in a city for a year and a day.\n- The **guild system** provided a structured path from apprentice to master, offering economic stability and social status.\n- The emergence of the **bourgeoisie** or merchant-banker families (like the early Medici) who challenged the traditional landed aristocracy.\n\n**Islamic World (e.g., Baghdad, Cairo):**\n- Cities functioned as **intellectual hubs** where the *ulama* (scholars) gained prestige through education in *madrasas*, regardless of their origins.\n- The **waqf system** (pious endowments) provided urban infrastructure and services, creating roles for administrators and legal experts.\n- Long-distance trade networks centered in cities allowed for significant wealth accumulation among non-noble merchant classes.\n\n**Key Analytical Themes to Address:**\n\n- **Economic Diversification:**\n  - How shifting from agriculture to trade/manufacturing created new categories of wealth.\n  - The role of currency expansion and credit in facilitating movement between classes.\n\n- **Legal and Institutional Frameworks:**\n  - City charters and communal movements that granted urban dwellers rights distinct from the peasantry.\n  - Limitations to mobility, such as hereditary guild memberships or sumptuary laws.\n\n- **Education and Meritocracy:**\n  - The availability of schools or universities in urban centers and their role in prestige-building.\n  - The transition from status based on birth (land) to status based on merit or liquid capital.\n\n- **Barriers to Mobility:**\n  - Ways in which established urban elites (patricians) restricted the upward movement of newer immigrants or the poor.\n  - The impact of crises (e.g., the Black Death) on accelerating or halting social shifts.\n\n**Best Responses Will:**\n- Provide a *balanced evaluation* of both opportunities for and constraints on social mobility.\n- Support arguments with *specific evidence* tied to the unique urban characteristics of the chosen societies.\n- Offer *comparative analysis*, identifying whether urbanization had a similar or distinct impact across different cultural contexts.\n- Reach a nuanced conclusion regarding whether cities truly transformed social structures or merely created new types of hierarchies.\n\n**Strong Responses Will Also:**\n- Distinguish between different levels of mobility (e.g., movement within a class vs. movement between major social tiers).\n- Analyse the intersection of economic power and political influence in urban settings.\n- Discuss the role of the state in either encouraging or fearing the social fluidity found in cities.\n\n**Limited Responses:**\n- Simply describe the growth of cities or the layout of urban areas.\n- Fail to connect urbanization directly to the concept of social mobility.\n- Provide vague or non-specific examples that lack chronological or geographical grounding.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "4a2a946a-6755-43d2-afc3-a4d3ee87eba3",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "16",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 57014,
+      "title": "Paper 2 - Society and Economy (750-1400)",
+      "slug": "ib-history-paper-2-society-and-economy",
+      "parentTopicId": 57017
+    },
+    "subject": {
+      "id": 298,
+      "title": "History",
+      "slug": "ib-history",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "16",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,2906 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a24ae2233cefc27d5adc234150770bdaabf78e6c0d2c5250150303ebc1a701d
-size 191450
+{
+  "json": {
+    "questions": [
+      {
+        "id": "00e43487-dd1d-46fb-821c-55412398608a",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:16:18.605Z",
+            "resultId": 1210
+          }
+        },
+        "currentRevisionId": 1692436,
+        "parts": [
+          {
+            "id": 1154436,
+            "content": "State what the bias-variance trade-off in machine learning refers to.",
+            "order": 0,
+            "markscheme": "- The balance between underfitting (high bias) and overfitting (high variance), i.e. model complexity versus generalization performance <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "140b4384-1a21-4f9f-9f1c-8c51dede248b",
+        "specification": "A smart city traffic management system uses machine learning to optimise traffic flow, reduce emissions, and improve public safety across a metropolitan area.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:37.905Z",
+            "resultId": 1512
+          }
+        },
+        "currentRevisionId": 1692353,
+        "parts": [
+          {
+            "id": 1154331,
+            "content": "Analyse how different machine learning approaches handle the complexity of urban traffic prediction with multiple variables and real-time constraints.",
+            "order": 0,
+            "markscheme": "- Describe how time-series forecasting processes historical data to identify temporal patterns and predict future congestion levels <marks>1 mark</marks>\n- Explain how reinforcement learning optimises traffic signal timings by learning from trial and error to maximise traffic flow or minimise wait times <marks>1 mark</marks>\n- Analyse the role of decentralised/cooperative learning approaches in coordinating traffic flow between different intersections and zones to manage spatial complexity and distributed variables <marks>1 mark</marks>\n- Outline how real-time adaptation through online learning allows models to adjust immediately to unforeseen events such as accidents or weather changes <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "19ed4835-6772-4fc4-8041-0c97dbc699ac",
+        "specification": "A cybersecurity company uses machine learning for threat detection, anomaly detection, and automated incident response across enterprise networks.\n\nWhich statement best describes a limitation of supervised learning for cybersecurity threat detection?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:41:46.196Z",
+            "resultId": 3750
+          }
+        },
+        "currentRevisionId": 1690448,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930633,
+            "content": "It can detect previously unseen threats without labelled training data.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This describes a typical strength of unsupervised/anomaly detection rather than a limitation of supervised learning."
+          },
+          {
+            "id": 4930634,
+            "content": "It is effective for known attack patterns but may fail on new or evolving attacks not represented in the training data.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Supervised models learn from labelled examples; if attack patterns change or new attacks appear, performance can degrade because those patterns were not in the training set."
+          },
+          {
+            "id": 4930635,
+            "content": "It always produces a high false positive rate because it does not use labels.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Supervised learning uses labels; high false positives are more commonly associated with some anomaly-detection approaches depending on thresholds and data quality."
+          },
+          {
+            "id": 4930636,
+            "content": "It cannot be used for classification tasks such as malware detection.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Supervised learning is commonly used for classification, including malware detection and phishing detection."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1f7a6d4f-ccf7-423c-aa23-244fc779aadf",
+        "specification": "A financial institution develops machine learning models for credit scoring and fraud detection to assess loan applications and monitor transactions.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:22.937Z",
+            "resultId": 1563
+          }
+        },
+        "currentRevisionId": 1692342,
+        "parts": [
+          {
+            "id": 1154322,
+            "content": "Evaluate the importance of model interpretability and explainability in financial machine learning applications, considering regulatory requirements and customer trust.",
+            "order": 0,
+            "markscheme": "- **Identify** the importance of regulatory compliance: Financial institutions must often comply with regulations (such as GDPR) that require a 'right to explanation' for automated decisions, like loan rejections, to ensure accountability <marks>2</marks>\n\n- **Discuss** the role of customer trust: Explainability builds transparency and consumer confidence, as users are more likely to trust and accept decisions when they can understand the underlying logic and reasoning <marks>2</marks>\n\n- **Examine** the necessity for fairness and bias detection: Interpretable models allow human auditors to identify and mitigate unfair bias or discrimination against protected groups that might be hidden in 'black box' models <marks>2</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154323,
+            "content": "Analyse how feature selection and feature engineering impact the performance and reliability of financial ML models.",
+            "order": 1,
+            "markscheme": "- **State** how feature selection removes irrelevant or redundant variables, which reduces noise and prevents the model from overfitting to specific datasets <marks>1 mark</marks>\n\n- **Explain** how feature engineering (e.g. creating a debt-to-income ratio) provides the model with more meaningful context, allowing it to capture complex relationships in financial data <marks>1 mark</marks>\n\n- **Analyse** the impact on performance: High-quality features improve model accuracy and can significantly reduce the computational resources and time required for training <marks>1 mark</marks>\n\n- **Analyse** the impact on reliability: Careful feature selection and engineering ensure that models do not rely on biased proxy variables, leading to more consistent and ethical predictions <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "227fffc0-bc40-45d5-b471-8c7045441a38",
+        "specification": "A content moderation system for a global social media platform uses AI to detect harmful content while balancing free speech concerns and cultural differences.\n\nWhich comparison best describes the effectiveness of different machine learning approaches for detecting hate speech, misinformation, and violent content across multiple languages?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:24:13.561Z",
+            "resultId": 3398
+          }
+        },
+        "currentRevisionId": 1691001,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930789,
+            "content": "Transformer-based NLP models provide context-aware detection for text-based hate speech and misinformation; CNNs are effective for detecting violent or inappropriate imagery; ensemble methods can combine multiple modalities and languages for a more robust moderation system.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "This matches the expected comparison: transformers for multilingual/context-aware text tasks, CNNs for image content, and ensembles for robustness across modalities/languages."
+          },
+          {
+            "id": 4930790,
+            "content": "CNNs provide the best context-aware detection of hate speech and misinformation in text across multiple languages; Transformer-based NLP models are mainly used for violent image detection; ensembles are not suitable for multilingual systems.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "CNNs are primarily used for image/spatial data rather than context-rich multilingual text, transformers are the typical approach for text, and ensembles can be suitable for multilingual systems."
+          },
+          {
+            "id": 4930791,
+            "content": "Transformer-based NLP models are only effective for a single language at a time; CNNs detect misinformation in text; ensemble methods reduce performance because they cannot combine modalities.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Transformers can be trained/used for multilingual text, CNNs are not the standard for text misinformation detection, and ensembles can improve robustness and performance when combining modalities/models."
+          },
+          {
+            "id": 4930792,
+            "content": "Rule-based keyword filters are generally more effective than Transformer-based NLP models for multilingual hate speech and misinformation; CNNs are ineffective for violent imagery; ensembles are unnecessary for robust moderation.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Modern transformer NLP models typically outperform simple keyword filters for multilingual/contextual tasks; CNNs are effective for image detection tasks; ensembles can improve robustness and coverage."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2752ace5-94a8-4bcc-84f1-bb16dc90b582",
+        "specification": "A medical diagnosis system uses machine learning to analyse patient symptoms and medical images for disease detection.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494341,
+        "parts": [
+          {
+            "id": 1125930,
+            "content": "Explain the difference between training data, validation data, and test data in the context of developing a medical AI system. Discuss why each dataset is crucial for reliable model development.",
+            "order": 1,
+            "markscheme": "- **Describe** training data as the primary dataset, typically comprising $60\\text{--}70\\%$ of the total data, used to teach the model patterns by adjusting internal weights <marks>A1</marks>\n- **Explain** that it is crucial for establishing the initial predictive capability of the diagnostic system by learning from known symptoms and images <marks>A1</marks>\n- **Describe** validation data as a separate dataset used during the development phase for hyperparameter tuning and model selection <marks>A1</marks>\n- **Explain** that it is crucial for preventing overfitting by evaluating the model on data not used for direct weight updates during training <marks>A1</marks>\n- **Describe** test data as the final dataset used to evaluate the model's performance only after the training and tuning processes are complete <marks>A1</marks>\n- **Explain** that it is crucial for providing an unbiased estimation of the system's accuracy on entirely unseen patient cases in a real-world setting <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "component_analysis",
+                  "label": "Component-Based Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the Training Data Component",
+                      "content": "The **training data** is the primary and largest portion of the dataset, typically accounting for approximately $60\\text{--}70\\%$ of the total available data. During this phase, the machine learning model \"learns\" by processing known medical images and symptoms, adjusting its internal **weights** (parameters) to minimize errors in its predictions.\n\n**Why it is crucial for reliability:**\nIn a medical context, the training dataset is essential because it establishes the system's fundamental ability to recognize patterns. Without a robust training set, the AI cannot build the initial predictive capability required to distinguish between healthy and diseased states.",
+                      "highlights": [
+                        {
+                          "text": "training data as the primary dataset, typically comprising $60\\text{--}70\\%$ of the total data, used to teach the model patterns by adjusting internal weights",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "crucial for establishing the initial predictive capability of the diagnostic system by learning from known symptoms and images",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze the Validation Data Component",
+                      "content": "The **validation data** is a separate subset of data used during the development phase. Unlike the training data, it is not used to change the model's weights directly. Instead, it is used for **hyperparameter tuning** (adjusting settings like learning rate or model architecture) and model selection.\n\n**Why it is crucial for reliability:**\nThis dataset is vital for preventing **overfitting**. Overfitting occurs when a model performs perfectly on training data but fails to generalize to new cases. By checking the model against validation data, developers ensure the AI is learning general medical features rather than just memorizing specific training examples.",
+                      "highlights": [
+                        {
+                          "text": "validation data as a separate dataset used during the development phase for hyperparameter tuning and model selection",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "crucial for preventing overfitting by evaluating the model on data not used for direct weight updates during training",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the Test Data Component",
+                      "content": "The **test data** is the final dataset used only after the training and validation processes are completely finished. It serves as a \"final exam\" for the model, consisting of patient cases the system has never encountered at any point during its development.\n\n**Why it is crucial for reliability:**\nIn medicine, accuracy is a matter of safety. The test data provides an **unbiased estimation** of how the system will perform in a real-world clinical setting. It confirms that the AI can reliably diagnose entirely new patients with the same level of accuracy it showed during development.",
+                      "highlights": [
+                        {
+                          "text": "test data as the final dataset used to evaluate the model's performance only after the training and tuning processes are complete",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "crucial for providing an unbiased estimation of the system's accuracy on entirely unseen patient cases in a real-world setting",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "lifecycle_stages",
+                  "label": "Sequential Lifecycle Stages",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Introduction to the ML Lifecycle",
+                      "content": "In machine learning, we don't just give a model all our data at once. Instead, we follow a **Sequential Lifecycle** where data is split into three distinct sets. This ensures that the medical AI system doesn't just \"memorize\" specific patients but actually learns to detect diseases in anyone it encounters. \n\nThis process follows three main stages: **Learning**, **Selection**, and **Verification**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Stage 1: Learning (Training Data)",
+                      "content": "The first stage is the learning phase, which uses **training data**. This is the largest portion of your dataset, typically making up **$60\\text{--}70\\%$** of the total data. \n\nIn this stage, the medical AI \"studies\" thousands of examples of patient symptoms and medical images. As it processes this data, it **adjusts its internal weights** to minimize errors. This is crucial because it establishes the system's **initial predictive capability**, allowing it to recognize patterns that differentiate a healthy scan from a diseased one.",
+                      "highlights": [
+                        {
+                          "text": "typically comprising 60--70% of the total data",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "used to teach the model patterns by adjusting internal weights",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Stage 2: Selection (Validation Data)",
+                      "content": "Once the model has learned the basics, we move to the selection and tuning stage using **validation data**. This is a separate dataset that the model does not use for direct weight updates.\n\nIts main purpose is **hyperparameter tuning** (fine-tuning the settings of the algorithm) and **model selection**. This step is crucial for **preventing overfitting**\u2014a situation where the AI becomes so specialized in the training data that it fails to work on new patients. By checking performance on the validation set, developers can see if the model is truly generalizing its knowledge.",
+                      "highlights": [
+                        {
+                          "text": "used during the development phase for hyperparameter tuning and model selection",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "crucial for preventing overfitting",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Stage 3: Verification (Test Data)",
+                      "content": "The final stage is verification using **test data**. This dataset is strictly kept \"hidden\" from the model until all training and tuning are completely finished. \n\nThe test data provides an **unbiased estimation** of how the AI will perform in a real hospital setting. In medical AI, this is the most critical safety check; it proves the system's accuracy on **entirely unseen patient cases**, ensuring that the software is reliable enough to assist in actual disease detection.",
+                      "highlights": [
+                        {
+                          "text": "evaluate the model's performance only after the training and tuning processes are complete",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "unbiased estimation of the system's accuracy on entirely unseen patient cases",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:07:38.661Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125931,
+            "content": "Describe the concepts of overfitting and underfitting in machine learning models, providing specific examples of how each might occur in medical diagnosis applications.",
+            "order": 2,
+            "markscheme": "- **Define** overfitting as a scenario where the model captures noise or specific artifacts in the training data rather than general patterns, leading to poor generalization to new patients <marks>A1</marks>\n- **Provide** an example of overfitting, such as a model memorizing specific imaging artifacts (e.g., text overlays or hospital-specific markers) instead of actual pathology <marks>A1</marks>\n- **Define** underfitting as a scenario where the model is too simplistic to capture the underlying complexity of the medical data <marks>A1</marks>\n- **Provide** an example of underfitting, such as using a linear model to analyze complex, non-linear interactions between multiple symptoms, resulting in failure to detect a disease <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "conceptual_descriptive",
+                  "label": "Conceptual Definition and Application",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define Overfitting",
+                      "content": "In machine learning, **overfitting** occurs when a model is overly complex and learns the training data \"too well.\" Instead of identifying the underlying patterns, the model captures random noise, outliers, or specific details that are unique to that dataset. This results in high accuracy on training data but **poor generalization** when presented with data from new patients.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "captures noise or specific artifacts in the training data rather than general patterns, leading to poor generalization to new patients",
+                          "location": "data_booklet",
+                          "sectionName": "A4 Machine learning"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Overfitting in Medical Diagnosis",
+                      "content": "A specific medical example of overfitting is a diagnostic model that \"memorizes\" hospital-specific markers on medical images. For instance, if all images of a certain disease in the training set come from one specific hospital and contain a unique text overlay (e.g., a hospital ID tag), the model might learn to associate that text with the disease rather than looking at the actual pathology. When tested on images from a different hospital without that tag, the model fails.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "model memorizing specific imaging artifacts (e.g., text overlays or hospital-specific markers) instead of actual pathology",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Define Underfitting",
+                      "content": "Conversely, **underfitting** happens when a model is too simplistic to learn the relationship between the input data and the target output. It fails to capture the underlying trend or complexity of the medical data, leading to poor performance on both the training data and new datasets.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "scenario where the model is too simplistic to capture the underlying complexity of the medical data",
+                          "location": "data_booklet",
+                          "sectionName": "A4 Machine learning"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Underfitting in Medical Diagnosis",
+                      "content": "An example of underfitting is using a simple linear model to analyze a complex condition like heart disease, which involves non-linear interactions between many variables (age, blood pressure, cholesterol, and genetics). A model that is too simple will ignore these complex interactions, resulting in a failure to detect the disease accurately in most patients.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "using a linear model to analyze complex, non-linear interactions between multiple symptoms, resulting in failure to detect a disease",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "bias_variance",
+                  "label": "Bias-Variance Framework",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understanding the Bias-Variance Tradeoff",
+                      "content": "To understand overfitting and underfitting in a medical context, we use the **Bias-Variance Framework**. This framework explains how the complexity of a model affects its ability to generalize to new patients.\n\nTotal error in a machine learning model is often expressed as:\n$$\\text{Total Error} = \\text{Bias}^2 + \\text{Variance} + \\text{Irreducible Error}$$\n\nIn medical diagnosis, finding the right balance between bias and variance is critical for patient safety."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Underfitting: The Problem of High Bias",
+                      "content": "**Underfitting** occurs when a model is too simplistic to capture the underlying patterns in medical data. In the Bias-Variance Framework, this is known as **High Bias**.\n\n*   **Definition:** The model makes strong assumptions about the data that are incorrect, leading to a failure to learn the relationship between symptoms and diseases. It performs poorly on both the training data and new patient data.\n*   **Medical Example:** Using a basic **linear model** to analyze a patient's risk for a complex condition like heart disease. Since heart disease involves non-linear interactions between many factors (age, blood pressure, genetics, and diet), a simple linear model might fail to detect the disease entirely because it cannot \"see\" these complex relationships."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Overfitting: The Problem of High Variance",
+                      "content": "**Overfitting** occurs when a model is overly complex and captures random noise or specific artifacts instead of the actual pathology. In our framework, this is known as **High Variance**.\n\n*   **Definition:** The model \"memorizes\" the training data so well that it loses the ability to generalize. It shows very high accuracy on training data but fails when tested on new patients.\n*   **Medical Example:** A diagnostic system trained on X-rays might learn to recognize a specific **hospital-specific marker** or a text overlay (like a timestamp) rather than the actual tumor. If all \"positive\" cases in the training set came from one hospital with a specific digital watermark, the model might mistakenly predict \"disease\" whenever it sees that watermark, even in a healthy patient."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary for the Markscheme",
+                      "content": "To secure all 4 marks, ensure your description includes both the definition and a specific example for each concept:\n\n$$\\begin{aligned} \\text{Underfitting} &\\rightarrow \\text{High Bias (Too simple)} \\\\ \\text{Overfitting} &\\rightarrow \\text{High Variance (Captures noise)} \\end{aligned}$$\n\n1.  **Underfitting Definition:** Model is too simple to capture complexity. (A1)\n2.  **Underfitting Example:** Using a linear model for non-linear symptom interactions. (A1)\n3.  **Overfitting Definition:** Model captures noise/artifacts rather than general patterns. (A1)\n4.  **Overfitting Example:** Model memorizing hospital-specific text overlays on images instead of pathology. (A1)"
+                    }
+                  ]
+                },
+                {
+                  "id": "performance_analysis",
+                  "label": "Performance Metrics Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understanding the Performance Metrics",
+                      "content": "To understand how well a medical diagnosis system works, we compare its performance on two distinct sets of data: the **training data** (the cases the model learns from) and the **unseen test data** (new patients the model has never encountered). Discrepancies between these two performance metrics help us identify if the model is overfitted or underfitted."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Overfitting: High Training, Low Test",
+                      "content": "Overfitting occurs when a model performs exceptionally well on the training data but fails to generalize to new patients. In terms of performance metrics:\n\n$$\\text{Training Accuracy} \\approx 100\\% \\gg \\text{Test Accuracy}$$\n\nThis happens because the model has \"memorized\" specific noise or artifacts rather than learning actual medical patterns.",
+                      "highlights": [
+                        {
+                          "text": "captures noise or specific artifacts in the training data rather than general patterns",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "poor generalization to new patients",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Medical Example of Overfitting",
+                      "content": "In a medical context, a model might overfit by learning to recognize the specific brand of X-ray machine or a hospital's text overlay rather than the tumor itself. \n\n**Misdiagnosis Impact:** If a patient from a different hospital (without those specific markers) is scanned, the model may fail to detect the disease even if it's clearly visible, leading to a dangerous false negative.",
+                      "highlights": [
+                        {
+                          "text": "memorizing specific imaging artifacts (e.g., text overlays or hospital-specific markers) instead of actual pathology",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Underfitting: Low Performance Overall",
+                      "content": "Underfitting occurs when the model is too simple to learn the underlying trends in the data. Here, the performance metrics show poor results across the board:\n\n$$\\text{Training Accuracy} \\approx \\text{Test Accuracy} \\approx \\text{Low}$$\n\nThe model essentially \"misses the point\" because it lacks the complexity required to understand the medical condition.",
+                      "highlights": [
+                        {
+                          "text": "model is too simplistic to capture the underlying complexity of the medical data",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Medical Example of Underfitting",
+                      "content": "An example of underfitting is using a simple linear model to analyze a complex disease like sepsis, where multiple symptoms (heart rate, temperature, blood pressure) interact in non-linear ways. \n\n**Misdiagnosis Impact:** Because the model cannot grasp these complex interactions, it might report a patient as \"healthy\" simply because no single symptom is extreme enough on its own, missing the life-threatening condition entirely.",
+                      "highlights": [
+                        {
+                          "text": "using a linear model to analyze complex, non-linear interactions between multiple symptoms",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:09:17.657Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "29e18436-870e-4fda-9e71-1429916f02c0",
+        "specification": "A ride-sharing platform uses machine learning for dynamic pricing, driver matching, and route optimization while facing scrutiny over algorithmic fairness and labor practices.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:59:53.497Z",
+            "resultId": 3454
+          }
+        },
+        "currentRevisionId": 1690814,
+        "parts": [
+          {
+            "id": 1153298,
+            "content": "Analyse how different machine learning models could be used to support decisions that aim to reduce passenger wait times, increase driver income, and improve route choices.",
+            "order": 0,
+            "markscheme": "- Identifies that the platform has competing goals and explains that changes to one goal can affect the others (trade-offs) <marks>1 mark</marks>\n- Describes an appropriate ML model for predicting demand/wait times (e.g., regression or classification using historical trip data) and links this to reducing wait times <marks>1 mark</marks>\n- Describes an appropriate ML model for estimating prices/earnings (e.g., regression to predict trip price/expected income from features such as distance, time, demand) and links this to driver income <marks>1 mark</marks>\n- Describes an appropriate ML approach to route choice (e.g., using supervised learning to predict travel time for candidate routes, or using a simple model to choose the route with lowest predicted time) and links this to improving routes <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2b2e3914-4777-462c-be37-4b1b9477ab1a",
+        "specification": "A technology company is developing a recommendation system for their streaming platform to suggest movies to users based on viewing history.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494353,
+        "parts": [
+          {
+            "id": 1125951,
+            "content": "Complete the following table comparing different types of machine learning approaches in the context of a streaming platform recommendation system.\n\n| ML Type | Learning Method | Data Requirements | Example Algorithms | Use Case in Streaming | Human Supervision |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Supervised | (i) | Labeled data | (ii) | Content classification | Yes |\n| Unsupervised | Pattern discovery | (iii) | K-means, PCA | (iv) | No |\n| Reinforcement | (v) | Feedback / rewards | Q-learning | (vi) | Indirect |\n| Semi-supervised | (vii) | Some labeled data | (viii) | User preference learning | Partial |",
+            "order": 1,
+            "markscheme": "- **Supervised**: Identify the method as learning from examples (i) and provide examples of algorithms such as Decision trees, SVM, or Neural Networks (ii) <marks>A2</marks>\n\n- **Unsupervised**: State that the data required is unlabeled (iii) and provide use cases such as user clustering or content grouping (iv) <marks>A2</marks>\n\n- **Reinforcement**: Identify the method as trial and error (v) and the use case as adaptive recommendations or dynamic content delivery (vi) <marks>A2</marks>\n\n- **Semi-supervised**: Explain the method as a combination of supervised and unsupervised approaches (vii) and identify algorithms such as self-training or co-training (viii) <marks>A2</marks>\n\n8 marks total",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "theoretical_recall",
+                  "label": "Direct Theoretical Recall",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze Supervised Learning",
+                      "content": "Supervised learning is a paradigm where the model is trained on a predefined set of examples. \n\nFor **(i)**, the learning method involves learning from **labeled data** (input-output pairs) to map new inputs to correct outputs. \n\nFor **(ii)**, common algorithms include **Decision Trees**, **Support Vector Machines (SVM)**, or **Neural Networks**. In a streaming context, these help classify content (e.g., tagging a movie as \"Action\") based on known features.",
+                      "highlights": [
+                        {
+                          "text": "Supervised",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Identify the method as learning from examples (i) and provide examples of algorithms such as Decision trees, SVM, or Neural Networks (ii)",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze Unsupervised Learning",
+                      "content": "Unsupervised learning focuses on finding hidden patterns or structures in data without explicit labels.\n\nFor **(iii)**, the data requirement is **unlabeled data**. The algorithm is given raw data and must find its own structure.\n\nFor **(iv)**, a typical use case in streaming is **user clustering**. This involves grouping users with similar viewing habits together to suggest what other people in that \"cluster\" enjoyed.",
+                      "highlights": [
+                        {
+                          "text": "Unsupervised",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "State that the data required is unlabeled (iii) and provide use cases such as user clustering or content grouping (iv)",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze Reinforcement Learning",
+                      "content": "Reinforcement learning involves an agent that learns to make decisions by performing actions within an environment to maximize a reward.\n\nFor **(v)**, the method is **trial and error** (or learning through a system of rewards and penalties).\n\nFor **(vi)**, the use case is **adaptive recommendations**. The system learns in real-time; if a user clicks a suggestion (reward), the system reinforces that path; if they ignore it (penalty), it adjusts future suggestions.",
+                      "highlights": [
+                        {
+                          "text": "Reinforcement",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Identify the method as trial and error (v) and the use case as adaptive recommendations or dynamic content delivery (vi)",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Analyze Semi-supervised Learning",
+                      "content": "Semi-supervised learning acts as a middle ground, often used when labeling data is expensive or time-consuming.\n\nFor **(vii)**, the method is a **combination of supervised and unsupervised approaches**, utilizing a small amount of labeled data to guide the processing of a larger volume of unlabeled data.\n\nFor **(viii)**, common algorithms include **self-training** or **co-training**.",
+                      "highlights": [
+                        {
+                          "text": "Semi-supervised",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Explain the method as a combination of supervised and unsupervised approaches (vii) and identify algorithms such as self-training or co-training (viii)",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Table Completion",
+                      "content": "Based on the theoretical definitions from Topic **A4.1** and **A4.3**, here is the completed table:\n\n| ML Type | Learning Method | Data Requirements | Example Algorithms | Use Case in Streaming |\n| :--- | :--- | :--- | :--- | :--- |\n| **Supervised** | Learning from examples | Labeled data | Decision Trees / SVM | Content classification |\n| **Unsupervised** | Pattern discovery | Unlabeled data | K-means, PCA | User clustering |\n| **Reinforcement** | Trial and error | Feedback / rewards | Q-learning | Adaptive recommendations |\n| **Semi-supervised** | Hybrid (Supervised + Unsupervised) | Some labeled data | Self-training | User preference learning |"
+                    }
+                  ]
+                },
+                {
+                  "id": "contextual_inference",
+                  "label": "Contextual Table Deduction",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze Supervised Learning Row",
+                      "content": "To find **(i)** and **(ii)**, we look at the clues: \"Labeled data\" and \"Human Supervision: Yes\". \n\nIn supervised learning, the system is \"taught\" by a human who provides correct answers (labels). Therefore, the **learning method (i)** is learning from examples or mapping inputs to known outputs. For **example algorithms (ii)**, common IB syllabus examples include Decision Trees, Support Vector Machines (SVM), or Neural Networks.",
+                      "highlights": [
+                        {
+                          "text": "Supervised",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Labeled data",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Deduce Unsupervised Learning Needs",
+                      "content": "For **(iii)** and **(iv)**, the clues are \"Pattern discovery\" and \"No human supervision\". \n\nSince there is no human labeling the data, the **data requirement (iii)** must be unlabeled data. In a streaming context, **use cases (iv)** for finding patterns without labels include \"User Clustering\" (grouping users with similar tastes) or \"Content Grouping\" (categorizing movies based on hidden features).",
+                      "highlights": [
+                        {
+                          "text": "Unsupervised",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Pattern discovery",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Evaluate Reinforcement Learning Feedback",
+                      "content": "Looking at **(v)** and **(vi)**, the clue is \"Feedback / rewards\". \n\nReinforcement learning involves an agent interacting with an environment. The **learning method (v)** is trial and error, where the system tries an action and receives a reward or penalty. A **use case in streaming (vi)** would be adaptive recommendations\u2014learning in real-time if a user likes a suggestion based on whether they click it or skip it.",
+                      "highlights": [
+                        {
+                          "text": "Reinforcement",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Feedback / rewards",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Identify Semi-supervised Characteristics",
+                      "content": "For **(vii)** and **(viii)**, we see \"Some labeled data\" and \"Partial supervision\". \n\nThis is a hybrid approach. The **learning method (vii)** is a combination of supervised and unsupervised learning (using a small labeled set to guide the interpretation of a large unlabeled set). **Example algorithms (viii)** typically used in this context are self-training or co-training.",
+                      "highlights": [
+                        {
+                          "text": "Semi-supervised",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Some labeled data",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Table Summary",
+                      "content": "Based on our deductions, here are the completed values for the table:\n\n*   **(i)**: Learning from examples / mapping input to output\n*   **(ii)**: Neural Networks, Decision Trees, or SVM\n*   **(iii)**: Unlabeled data\n*   **(iv)**: User clustering or content grouping\n*   **(v)**: Trial and error / Maximizing rewards\n*   **(vi)**: Adaptive or dynamic recommendation delivery\n*   **(vii)**: Combination of supervised and unsupervised methods\n*   **(viii)**: Self-training or co-training"
+                    }
+                  ]
+                },
+                {
+                  "id": "application_reasoning",
+                  "label": "Case-Study Application",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Introduction to the Case Study",
+                      "content": "To solve this problem, we need to look at how different Machine Learning (ML) types behave through the lens of a streaming service (like Netflix or Disney+). This helps us move from abstract definitions to practical applications. \n\nThis topic is covered in **Topic A4.1: Machine learning fundamentals** and **A4.3: Machine learning approaches**. Understanding these distinctions is key to building an effective recommendation engine."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Supervised Learning: Learning from Labels",
+                      "content": "In a streaming service, **Supervised Learning** is like a student learning from an answer key. If we have a dataset where movies are already tagged (e.g., \"Action\" or \"Comedy\"), the system learns to classify new movies based on these known examples.\n\n*   **(i) Learning Method**: Learning from examples using labeled data (input-output pairs).\n*   **(ii) Example Algorithms**: Common choices include **Decision Trees**, **Support Vector Machines (SVM)**, or **Neural Networks**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Unsupervised Learning: Finding Patterns",
+                      "content": "Think of **Unsupervised Learning** as the system trying to find groups of people with similar tastes without being told what those tastes are. It looks for hidden structures in the data.\n\n*   **(iii) Data Requirements**: This requires **unlabeled data**. The system doesn't know the \"correct answer\" beforehand.\n*   **(iv) Use Case**: **User clustering**. For example, the system might group users who all enjoy 80s sci-fi and modern documentaries together to recommend similar content to that specific cluster."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Reinforcement Learning: Trial and Error",
+                      "content": "In **Reinforcement Learning**, the system acts as an agent that learns by interacting with the user. If the system suggests a movie and you click it, it gets a \"reward.\" If you ignore it, it gets a \"penalty.\"\n\n*   **(v) Learning Method**: **Trial and error** to maximize rewards based on feedback.\n*   **(vi) Use Case**: **Adaptive recommendations** or **dynamic content delivery**. The platform constantly adjusts the homepage layout in real-time based on your immediate reactions to what is shown."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Semi-supervised Learning: The Hybrid",
+                      "content": "In reality, a streaming service has millions of users, but only a few might actually rate movies (labeled). **Semi-supervised Learning** uses those few ratings to make sense of the massive amount of unrated history (unlabeled).\n\n*   **(vii) Learning Method**: A **combination of supervised and unsupervised approaches**.\n*   **(viii) Example Algorithms**: Techniques like **self-training** (where the model labels the data for itself) or **co-training**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Final Summary Table",
+                      "content": "Based on our case study analysis, here is the completed table:\n\n| ML Type | Learning Method | Data Requirements | Example Algorithms | Use Case in Streaming |\n| :--- | :--- | :--- | :--- | :--- |\n| **Supervised** | (i) Learning from examples | Labeled data | (ii) Decision Trees / SVM | Content classification |\n| **Unsupervised** | Pattern discovery | (iii) Unlabeled data | K-means, PCA | (iv) User clustering |\n| **Reinforcement** | (v) Trial and error | Feedback / rewards | Q-learning | (vi) Adaptive recommendations |\n| **Semi-supervised**| (vii) Hybrid (Sup + Unsup) | Some labeled data | (viii) Self-training | User preference learning |"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:07:27.080Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125952,
+            "content": "Analyse why machine learning is more suitable than traditional rule-based programming for movie recommendation systems.",
+            "order": 2,
+            "markscheme": "- Identify that ML systems adapt to individual user preferences dynamically, whereas rule-based systems rely on static, fixed rules <marks>R1</marks>\n\n- Explain that ML handles complex, multi-dimensional patterns in viewing history that are too intricate to explicitly program <marks>R1</marks>\n\n- Describe how ML models automatically improve recommendation accuracy as more user interaction data becomes available over time <marks>R1</marks>\n\n- State that ML scales efficiently to millions of users with diverse preferences without the need for manual rule creation and maintenance <marks>R1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "comparative_analytical_approach",
+                  "label": "Comparative Analytical Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Two Paradigms",
+                      "content": "To understand why machine learning (ML) is preferred, we must contrast two ways of giving instructions to a computer. \n\n1. **Rule-based programming**: Uses explicit \"If-Then\" logic (e.g., *If* user watches a comedy, *Then* suggest another comedy). This is **static** and relies on human-written rules.\n2. **Machine Learning (Topic A4)**: Uses algorithms to find patterns in data without being explicitly programmed for every scenario. It is **dynamic** and data-driven.\n\nThis question asks us to analyze the shift from fixed rules to learning systems in the context of a streaming platform.",
+                      "highlights": [
+                        {
+                          "text": "movie recommendation systems",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Compare Adaptability",
+                      "content": "The first major difference is how the system responds to change.\n\n*   **Rule-based**: These systems are static. If a user's taste changes, the rules remain the same unless a developer manually updates the code.\n*   **Machine Learning**: These systems **adapt to individual user preferences dynamically**. As a user watches different genres or stops watching a particular series, the ML model adjusts its output instantly to match the new behavior.",
+                      "highlights": [
+                        {
+                          "text": "viewing history",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyse Pattern Complexity",
+                      "content": "Movie tastes are rarely simple. They involve hundreds of factors like director, color palette, pacing, and even the time of day a user watches.\n\n*   **Rule-based**: It is impossible for humans to write enough rules to cover every combination of these factors.\n*   **Machine Learning**: ML is designed to handle **complex, multi-dimensional patterns** in data. It can identify subtle correlations\u2014such as a user liking \"slow-paced sci-fi movies on Sunday nights\"\u2014that are far too intricate for a programmer to define manually."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Evaluate Performance Improvement",
+                      "content": "In a competitive market, recommendation accuracy must improve over time to keep users engaged.\n\n*   **Rule-based**: The accuracy is capped by the quality of the rules. To improve it, humans must perform manual analysis and code updates.\n*   **Machine Learning**: These models **automatically improve recommendation accuracy** through a feedback loop. Every time a user clicks (or ignores) a suggestion, the system uses that data to \"learn\" and refine its future predictions, becoming more accurate the more it is used."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Assess Scalability and Maintenance",
+                      "content": "Finally, we consider the scale of a global streaming platform.\n\n*   **Rule-based**: Managing rules for millions of unique users with diverse cultures and languages is unmanageable (it doesn't scale).\n*   **Machine Learning**: ML **scales efficiently to millions of users**. One general model can learn the specific nuances of millions of different people simultaneously without requiring a human to write a single new rule for a new subscriber."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:08:15.973Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "2ecfe502-519f-4d1e-ac55-5baad3bdd475",
+        "specification": "A smart agriculture system uses machine learning to predict crop yields, detect plant diseases, and optimize irrigation schedules based on sensor data and weather patterns.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:47.855Z",
+            "resultId": 1486
+          }
+        },
+        "currentRevisionId": 1692368,
+        "parts": [
+          {
+            "id": 1154355,
+            "content": "Explain how machine learning models can integrate multiple data sources (sensors, weather, satellite imagery) to make agricultural predictions.",
+            "order": 0,
+            "markscheme": "- Feature fusion combines different data types into a unified input representation for the model <marks>1 mark</marks>\n- Temporal models process time-series sensor and weather data to capture seasonal patterns <marks>1 mark</marks>\n- Ensemble methods combine predictions from models trained on different data sources to increase robustness <marks>1 mark</marks>\n- Data preprocessing normalizes different scales and formats across sources for consistent training <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154356,
+            "content": "Describe the role of domain expertise in agriculture when developing and validating machine learning models for farming applications.",
+            "order": 1,
+            "markscheme": "- Agricultural experts validate model predictions against known farming principles and plant physiology <marks>1 mark</marks>\n- Domain knowledge guides feature engineering (selecting relevant variables) and model interpretation <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154357,
+            "content": "Describe the potential consequences of false positives and false negatives in agricultural ML systems for disease detection and yield prediction.",
+            "order": 2,
+            "markscheme": "- False positives: unnecessary treatments waste resources, increase costs, and may harm the environment <marks>1 mark</marks>\n- False negatives: missing diseases or yield problems causes crop loss and significant economic damage <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3b3cc2e6-c8f6-4f4d-b392-7158c17ed0e4",
+        "specification": "An e-commerce platform implements machine learning for dynamic pricing, inventory management, and customer segmentation across millions of products and users.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:50.342Z",
+            "resultId": 1461
+          }
+        },
+        "currentRevisionId": 1692371,
+        "parts": [
+          {
+            "id": 1154363,
+            "content": "Compare the computational and storage requirements of **deep learning**, **linear models**, and **tree-based models** for large-scale e-commerce applications.",
+            "order": 0,
+            "markscheme": "- Deep learning: high computational needs (often benefits from GPUs/accelerators); large models can require significant storage for parameters and checkpoints <marks>1 mark</marks>\n- Linear models: low computational cost; typically fast to train/infer and require minimal storage (few parameters) <marks>1 mark</marks>\n- Tree-based models: moderate computational/storage requirements; suitable for tabular data and often more interpretable than deep learning <marks>1 mark</marks>\n- Clear comparative statements across the three approaches (e.g., highest vs lowest vs moderate) <marks>3 marks</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154364,
+            "content": "Explain how online learning differs from batch learning in the context of e-commerce applications that need to adapt quickly to market changes.",
+            "order": 1,
+            "markscheme": "- Online learning updates the model incrementally as new data arrives (streaming/one-by-one or small batches) <marks>1 mark</marks>\n- Batch learning retrains the model periodically using a complete (or large) collected dataset <marks>1 mark</marks>\n- Online learning enables faster adaptation to changing prices, demand, or trends <marks>1 mark</marks>\n- Batch learning can be more stable/consistent but adapts more slowly between retraining cycles <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3d60b3ae-609c-46f9-9b8a-ac64fac53210",
+        "specification": "A language translation service uses machine learning to provide real-time translation across 100+ languages while addressing challenges of linguistic diversity and cultural nuance.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494346,
+        "parts": [
+          {
+            "id": 1125938,
+            "content": "Compare different machine learning approaches for language translation including statistical, neural, and hybrid methods.",
+            "order": 1,
+            "markscheme": "- Outline statistical methods as phrase-based models using parallel corpora. <marks>1</marks>\n- Outline neural networks as end-to-end learning with encoder-decoder architectures. <marks>1</marks>\n- Outline hybrid approaches as a combination of statistical and neural methods for robustness. <marks>1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "descriptive_comparison",
+                  "label": "Descriptive Comparative Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the task",
+                      "content": "The question asks us to compare three specific machine learning approaches used in language translation: **statistical**, **neural**, and **hybrid**. To earn all 3 marks, we need to outline the unique technological foundation and purpose of each method as defined in the IB Computer Science syllabus.",
+                      "highlights": [
+                        {
+                          "text": "Compare different machine learning approaches for language translation including statistical, neural, and hybrid methods.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Outline Statistical Machine Translation",
+                      "content": "Statistical Machine Translation (SMT) relies on **phrase-based models**. This approach analyzes large collections of existing translations, known as **parallel corpora**, to determine the mathematical probability that a specific word or phrase in the source language corresponds to one in the target language. \n\nInstead of \"understanding\" the text, it identifies the most likely statistical match based on previous data.",
+                      "highlights": [
+                        {
+                          "text": "Outline statistical methods as phrase-based models using parallel corpora.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Outline Neural Machine Translation",
+                      "content": "Neural Machine Translation (NMT) utilizes **Artificial Neural Networks (ANNs)** to perform **end-to-end learning**. This method typically uses an **encoder-decoder architecture**:\n\n1.  **Encoder**: Processes the input sentence and converts it into a complex numerical vector (representing meaning).\n2.  **Decoder**: Takes that vector and generates the translated text in the target language.\n\nThis approach, covered in **Topic A4.3.8 (Structure and function of ANNs)**, allows the system to better capture linguistic context and nuance compared to statistical methods.",
+                      "highlights": [
+                        {
+                          "text": "Outline neural networks as end-to-end learning with encoder-decoder architectures.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Outline Hybrid Machine Translation",
+                      "content": "Hybrid approaches focus on **robustness** by combining the strengths of both statistical and neural methods. For example, a system might use a neural network to ensure the translation sounds fluent and natural, while using statistical data to ensure that rare words or specific technical terms are translated with high accuracy. \n\nBy using **combined logic**, hybrid systems can overcome the individual limitations of SMT (which can be clunky) and NMT (which can occasionally \"hallucinate\" or omit words).",
+                      "highlights": [
+                        {
+                          "text": "Outline hybrid approaches as a combination of statistical and neural methods for robustness.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "architectural_contrast",
+                  "label": "Architectural Contrast Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the translation task",
+                      "content": "To answer this question, we need to compare three distinct architectures used in machine translation. We will look at how each handles the translation process, moving from traditional statistical models to modern neural networks, and finally seeing how hybrids combine the strengths of both. This topic is covered in **Topic A4.3: Machine learning approaches**.",
+                      "highlights": [
+                        {
+                          "text": "Compare different machine learning approaches for language translation including statistical, neural, and hybrid methods.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Statistical Machine Translation (SMT)",
+                      "content": "Statistical methods represent the traditional architecture of translation. They are **phrase-based models** that rely on large sets of data called **parallel corpora** (aligned pairs of sentences in different languages). \n\nInstead of \"understanding\" the language, the architecture calculates the probability that a phrase in Language A corresponds to a phrase in Language B. It essentially functions as a very complex, probabilistic lookup table."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Neural Machine Translation (NMT)",
+                      "content": "In contrast to SMT, Neural Machine Translation uses an **end-to-end learning** architecture. This typically involves an **encoder-decoder** structure using Artificial Neural Networks (ANNs).\n\n- The **Encoder** converts the source text into a continuous mathematical representation (a vector).\n- The **Decoder** then generates the target language from that representation.\n\nUnlike SMT, which looks at isolated phrases, NMT considers the entire context of a sentence, leading to much more fluid and natural translations."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Hybrid Machine Translation",
+                      "content": "Hybrid methods integrate both architectures to improve **robustness**. \n\nWhile NMT is great for fluency, it can sometimes struggle with very rare words or strict terminology. Hybrid systems might use the neural network for the main translation task while using a statistical model (or a rule-based system) to ensure that specific technical terms are translated accurately and consistently. This combination helps handle both linguistic diversity and cultural nuance more effectively."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Comparison Summary",
+                      "content": "To secure all 3 marks, ensure you have clearly distinguished the three architectures:\n\n1.  **Statistical:** Phrase-based and uses parallel corpora.\n2.  **Neural:** End-to-end learning using encoder-decoder structures.\n3.  **Hybrid:** A combination of both for increased robustness."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:07:20.707Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "451d3256-2589-4450-97b2-f38f3ab99377",
+        "specification": "A technology company is developing a recommendation system for their streaming platform to suggest movies to users based on viewing history.\nComplete the following table comparing different types of machine learning approaches by filling **eight** empty cells only (one mark per correct entry): [8]\n\nML Type\nLearning Method\nData Requirements\nExample Algorithms\nUse Case in Streaming\nHuman Supervision\nSupervised\n\n\nLabelled data\n\nContent classification\n\nUnsupervised\nPattern discovery\n\nK-means, PCA\n\nNone\nReinforcement\n\n\nQ-learning\n\n\n\nSemi-supervised\n\n\n\nUser preference learning\n\n\n(b) Analyse why machine learning is more suitable than traditional rule-based programming for movie recommendation systems. [4]",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:58:51.700Z",
+            "resultId": 3538
+          }
+        },
+        "currentRevisionId": 1690773,
+        "parts": [
+          {
+            "id": 1153246,
+            "content": "Complete the following table comparing different types of machine learning approaches by filling eight empty cells only (one mark per correct entry).",
+            "order": 0,
+            "markscheme": "- Supervised learning method: learn from examples <marks>1 mark</marks>\n- Supervised example algorithms: decision trees, SVM <marks>1 mark</marks>\n- Supervised human supervision: high <marks>1 mark</marks>\n- Unsupervised data requirements: unlabelled data <marks>1 mark</marks>\n- Unsupervised use case in streaming: user clustering, content grouping <marks>1 mark</marks>\n- Reinforcement learning method: trial and error <marks>1 mark</marks>\n- Reinforcement data requirements: reward feedback <marks>1 mark</marks>\n- Reinforcement use case in streaming: adaptive recommendations <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153247,
+            "content": "Analyse why machine learning is more suitable than traditional rule-based programming for movie recommendation systems.",
+            "order": 1,
+            "markscheme": "- ML adapts to individual user preferences rather than fixed rules <marks>1 mark</marks>\n- Handles complex patterns in viewing behaviour that are difficult to program explicitly <marks>1 mark</marks>\n- Automatically improves recommendations as more data becomes available <marks>1 mark</marks>\n- Scales to millions of users with diverse preferences without manual rule creation <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4917f44a-9483-4ac3-ac8c-1f53fd614560",
+        "specification": "A natural language processing application translates text between languages and provides sentiment analysis for customer feedback across global markets.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494363,
+        "parts": [
+          {
+            "id": 1125970,
+            "content": "Analyse the challenges of developing ML models that handle multiple languages with different writing systems, grammar rules, and cultural contexts. Discuss the specific issues, impact on model performance, and mitigation strategies for each of the following challenge categories: (i) Data Representation challenges (ii) Training Data challenges (iii) Cultural Context challenges (iv) Technical Implementation challenges",
+            "order": 1,
+            "markscheme": "(i) Data Representation \n- Identify specific issues such as Unicode differences, character encoding variations, and tokenization complexity across scripts. <marks>A1</marks>\n- Explain that inconsistent encoding affects model performance and outline the use of standardized preprocessing or multilingual tokenizers as mitigation. <marks>A1</marks>\n\n(ii) Training Data \n- Identify specific issues such as limited data for low-resource languages and variations in data quality across languages. <marks>A1</marks>\n- Explain that underrepresentation leads to poor performance and outline the use of data augmentation or cross-lingual training as mitigation. <marks>A1</marks>\n\n(iii) Cultural Context\n- Identify specific issues such as context-dependent meanings, cultural references, and idiomatic expressions. <marks>A1</marks>\n- Explain how these lead to misinterpretation of sentiment and outline the need for localized validation and cultural adaptation. <marks>A1</marks>\n\n(iv) Technical Implementation\n- Identify specific issues such as high memory requirements for multilingual models and increased computational complexity. <marks>A1</marks>\n- Explain that these issues impact scalability and outline the use of multilingual embeddings or efficient architectures as mitigation. <marks>A1</marks>\n\n8 marks total",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "systematic-categorical-analysis",
+                  "label": "Systematic Categorical Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Categorical Analysis: Data Representation",
+                      "content": "Developing a global NLP model starts with how we represent text. In this category, we analyze the technical bridge between human characters and machine-readable data.\n\n*   **Specific Issue**: Different languages use diverse writing systems. While English relies on the Latin alphabet, languages like Arabic are right-to-left, and Chinese uses logographic characters. This leads to **Unicode encoding variations** and **tokenization complexity**, where the model struggles to identify where one word ends and the next begins in languages without spaces (like Japanese).\n*   **Impact on Performance**: If encoding is inconsistent, the model may see \"garbage\" characters (mojibake), leading to high error rates. Poor tokenization means the model cannot build an accurate vocabulary, resulting in a failure to capture the meaning of complex words.\n*   **Mitigation Strategy**: Implement **Unicode standardization** (e.g., UTF-8) and use **subword tokenizers** (like Byte Pair Encoding) that can handle any script by breaking text into smaller, consistent units.",
+                      "highlights": [
+                        {
+                          "text": "Data Representation challenges",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Unicode differences, character encoding variations, and tokenization complexity across scripts.",
+                          "location": "data_booklet",
+                          "sectionName": "A4.2 Data preprocessing (HL only)"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Categorical Analysis: Training Data",
+                      "content": "The quality and quantity of data directly determine how well a model learns. This is a major hurdle for global applications.\n\n*   **Specific Issue**: There is a massive disparity between \"high-resource\" languages (like English or Spanish) and \"low-resource\" languages (like Swahili or Quechua). This creates **limited data availability** and variations in data quality.\n*   **Impact on Performance**: Models become heavily biased toward dominant languages. For low-resource languages, the model will have poor accuracy, often producing nonsensical translations or incorrect sentiment scores because it hasn't seen enough examples to generalize.\n*   **Mitigation Strategy**: Use **data augmentation** techniques, such as back-translation (translating a sentence to a target language and back to create a new training pair), or employ **cross-lingual transfer learning**, where a model pre-trained on many languages shares its knowledge with a data-poor one.",
+                      "highlights": [
+                        {
+                          "text": "Training Data challenges",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "limited data for low-resource languages and variations in data quality across languages.",
+                          "location": "data_booklet",
+                          "sectionName": "A4.4 Ethical considerations"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Categorical Analysis: Cultural Context",
+                      "content": "Language is more than just words; it carries cultural weight that a computer doesn't inherently understand.\n\n*   **Specific Issue**: Models struggle with **idiomatic expressions** (e.g., \"kicking the bucket\") and **context-dependent meanings**. Sentiment is often expressed differently; for instance, some cultures use heavy sarcasm or polite indirectness that a model might take literally.\n*   **Impact on Performance**: This leads to a total **misinterpretation of sentiment**. A customer's polite but firm complaint might be flagged as \"positive\" by a model that only looks for keywords like \"please\" and \"thank you,\" leading to poor business decisions.\n*   **Mitigation Strategy**: Develop **localized validation sets** that involve native speakers to verify nuances. Additionally, incorporating **cultural sentiment lexicons** helps the model recognize specific regional slang or emotional markers.",
+                      "highlights": [
+                        {
+                          "text": "Cultural Context challenges",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "context-dependent meanings, cultural references, and idiomatic expressions.",
+                          "location": "data_booklet",
+                          "sectionName": "A4.4 Ethical considerations"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Categorical Analysis: Technical Implementation",
+                      "content": "Finally, we look at the physical and architectural constraints of running these complex systems.\n\n*   **Specific Issue**: Supporting dozens of languages simultaneously requires massive models with hundreds of millions of parameters. This leads to **high memory requirements** and significant **computational complexity**.\n*   **Impact on Performance**: These issues limit **scalability**. A model might be too slow to provide real-time translations for a mobile app or too expensive to run on standard servers, resulting in high latency for the end-user.\n*   **Mitigation Strategy**: Utilize **efficient architectures** like the Transformer model or **model distillation**, where a smaller \"student\" model is trained to mimic a large \"teacher\" model. Using **multilingual embeddings** also allows different languages to share the same mathematical space, reducing the need for separate models for every language pair.",
+                      "highlights": [
+                        {
+                          "text": "Technical Implementation challenges",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "high memory requirements for multilingual models and increased computational complexity.",
+                          "location": "data_booklet",
+                          "sectionName": "A4.1 Machine learning fundamentals"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:07:25.337Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125971,
+            "content": "Explain how transfer learning can help develop NLP models for languages with limited training data.",
+            "order": 2,
+            "markscheme": "- Outline that pre-trained models learn general language patterns from high-resource languages. <marks>A1</marks>\n- Explain how fine-tuning adapts these learned patterns to specific low-resource target languages. <marks>A1</marks>\n- State that this process reduces training data requirements and improves model performance. <marks>A1</marks>\n- Identify that cross-lingual embeddings enable knowledge transfer between related languages. <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "pipeline",
+                  "label": "Sequential Pipeline Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Sequential Pipeline",
+                      "content": "In machine learning, **transfer learning** via a sequential pipeline involves taking a model that has already been trained on one task and repurposing it for a second, related task. \n\nThis is particularly useful for **low-resource languages** (languages with very little digital text available) because training a high-quality Natural Language Processing (NLP) model from scratch requires massive amounts of data that these languages simply do not have.",
+                      "highlights": [
+                        {
+                          "text": "languages with limited training data",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Phase 1: Large-scale Pre-training",
+                      "content": "The first step of the pipeline is **pre-training**. A model (usually a deep Artificial Neural Network) is trained on vast amounts of data from **high-resource languages** like English, Spanish, or Mandarin.\n\nDuring this stage, the model learns general linguistic patterns, such as:\n*   **Syntax:** How sentences are structured.\n*   **Semantics:** The meanings of words and their relationships.\n*   **Context:** How the meaning of a word changes based on surrounding text."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Phase 2: Targeted Fine-tuning",
+                      "content": "In the second stage of the pipeline, we perform **fine-tuning**. Instead of starting with random weights, we initialize the model with the weights learned during pre-training.\n\nWe then continue the training process using the small amount of available data from the **low-resource target language**. This allows the model to adapt its existing \"knowledge\" of how language works to the specific vocabulary and grammar of the new language."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Utilizing Cross-lingual Embeddings",
+                      "content": "A key mechanism in this transfer is the use of **cross-lingual embeddings**. These represent words from different languages in the same mathematical vector space. \n\nIf the pre-trained model knows that the English word \"apple\" and \"fruit\" are related, it can quickly learn that the equivalent words in a low-resource language should share that same relationship in the vector space. This effectively \"transfers\" knowledge between related languages."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary of Benefits",
+                      "content": "By following this sequential pipeline, we achieve two major goals:\n1.  **Reduced Data Requirements:** We don't need millions of sentences in the target language to teach the model basic grammar; it already knows that from the pre-training phase.\n2.  **Improved Performance:** The model performs better than a model trained only on the limited data because it leverages complex patterns learned from the high-resource datasets."
+                    }
+                  ]
+                },
+                {
+                  "id": "mechanism",
+                  "label": "Mechanism and Efficiency Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Pre-training on High-Resource Languages",
+                      "content": "Transfer learning begins with a model that has been pre-trained on a massive dataset from a 'high-resource' language (such as English). During this phase, the model learns fundamental language mechanisms like syntax, grammar, and general contextual relationships. Because it has already mastered how language works in general, it doesn't need to learn these basics from scratch for every new language."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Utilizing Cross-lingual Embeddings",
+                      "content": "To bridge the gap between languages, researchers use **cross-lingual embeddings**. This mechanism maps words from different languages into a shared semantic space (a mathematical vector space). In this shared space, words with similar meanings\u2014like \"hello\" in English and \"hola\" in Spanish\u2014are positioned close together. This allows the model to transfer its understanding of concepts from the high-resource language to the language with limited data."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Fine-tuning for Specificity",
+                      "content": "After pre-training, the model undergoes **fine-tuning**. This is where the model is trained on a much smaller, specific dataset of the 'low-resource' language. Instead of learning language from zero, the model simply adapts its existing 'knowledge' to the specific vocabulary and cultural nuances of the target language. This is highly efficient because the heavy lifting of learning linguistic structures was already done during pre-training.",
+                      "highlights": [
+                        {
+                          "text": "limited training data",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Reducing Data Requirements",
+                      "content": "The main benefit of this approach is data efficiency. Because the model leverages shared semantic representations, it requires significantly less data to reach high performance levels. For a language with **limited training data**, transfer learning is often the only way to achieve high accuracy in tasks like sentiment analysis, as a model built from scratch would likely fail to generalize with so few examples."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:08:03.526Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "4b47c3bf-8dc9-4e05-8e9a-9af06e07a03d",
+        "specification": "A multinational technology company develops AI systems for various applications including healthcare, finance, and social media across different countries with varying regulations and cultural norms.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494377,
+        "parts": [
+          {
+            "id": 1125994,
+            "content": "Compare the machine learning requirements for healthcare diagnosis versus social media content recommendation, considering accuracy needs, data types, and performance metrics.",
+            "order": 1,
+            "markscheme": "- **Compare** accuracy requirements, identifying that healthcare requires high precision and recall due to safety-critical diagnostic impacts, whereas social media optimizes for user engagement with a higher tolerance for errors <marks>A1</marks>\n\n- **Contrast** data types, noting that healthcare primarily utilizes structured medical data (e.g., vital signs, lab results) while social media relies on unstructured data such as text, images, and video <marks>A1</marks>\n\n- **State** that performance metrics for healthcare prioritize clinical validity and reliability <marks>A1</marks>\n\n- **Identify** performance metrics for social media, focusing on volume-based metrics such as click-through rates, watch time, and user retention <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "attribute_comparison",
+                  "label": "Comparison by Attribute",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze Accuracy Requirements",
+                      "content": "When comparing these systems by attribute, the first key difference is the cost of failure. \n\nIn **healthcare**, machine learning models require extremely high **precision** and **recall**. Because these are safety-critical systems, a false negative (failing to diagnose a disease) can have life-threatening consequences. \n\nIn contrast, **social media** recommendation systems have a much higher tolerance for error. If an algorithm suggests a video the user doesn't like, the consequence is minimal, so the system optimizes for broad user engagement rather than perfect diagnostic accuracy.",
+                      "highlights": [
+                        {
+                          "text": "accuracy needs",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Compare accuracy requirements, identifying that healthcare requires high precision and recall due to safety-critical diagnostic impacts, whereas social media optimizes for user engagement with a higher tolerance for errors",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Contrast Data Types",
+                      "content": "Next, we look at the nature of the data being processed. \n\n**Healthcare** systems primarily rely on **structured medical data**. This includes quantitative values like vital signs (heart rate, blood pressure), laboratory results, and encoded medical histories. \n\n**Social media** systems, however, largely process **unstructured data**. This includes natural language text (comments, posts), images, and video content, which require complex preprocessing (like Computer Vision or Natural Language Processing) to interpret.",
+                      "highlights": [
+                        {
+                          "text": "data types",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Contrast data types, noting that healthcare primarily utilizes structured medical data (e.g., vital signs, lab results) while social media relies on unstructured data such as text, images, and video",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Healthcare Performance Metrics",
+                      "content": "For the attribute of performance metrics, we must look at how success is measured in each field.\n\nIn **healthcare**, the priority is **clinical validity** and **reliability**. The model must prove that its predictions are medically sound and consistent across different patient demographics to be useful in a clinical setting.",
+                      "highlights": [
+                        {
+                          "text": "performance metrics",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "State that performance metrics for healthcare prioritize clinical validity and reliability",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Social Media Performance Metrics",
+                      "content": "Finally, we evaluate performance metrics for **social media**. \n\nThese systems focus on **volume-based metrics** that track user behavior. Key indicators include:\n- **Click-through rates (CTR)**: How often users click on recommended content.\n- **Watch time**: How long a user stays engaged with a video.\n- **User retention**: How effectively the algorithm keeps the user coming back to the platform.",
+                      "highlights": [
+                        {
+                          "text": "Identify performance metrics for social media, focusing on volume-based metrics such as click-through rates, watch time, and user retention",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "sector_analysis",
+                  "label": "Analysis by Application Domain",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze Healthcare Diagnosis Requirements",
+                      "content": "In the healthcare domain, machine learning systems are **safety-critical**, meaning a wrong prediction can have life-altering consequences. \n\n*   **Accuracy Needs**: Because of the high stakes, these systems require extremely high **precision** (avoiding false positives) and **recall** (avoiding false negatives/missed diagnoses). \n*   **Data Types**: The data is primarily **structured medical data**, such as numerical lab results, blood pressure readings, and vital signs, or highly standardized image data like X-rays.\n*   **Performance Metrics**: Success is measured by **clinical validity and reliability**, ensuring the model's output is medically sound and consistent across different patient demographics."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze Social Media Recommendations",
+                      "content": "In contrast, social media platforms utilize AI to drive user interaction. The consequences of a \"wrong\" prediction (e.g., suggesting a video a user doesn't like) are very low, resulting only in minor user annoyance.\n\n*   **Accuracy Needs**: These systems prioritize **engagement** over absolute precision. There is a much higher tolerance for errors because the goal is to keep the user scrolling, not to provide a definitive \"correct\" answer.\n*   **Data Types**: Unlike healthcare, social media relies heavily on **unstructured data**, such as text from posts, images, videos, and complex user-interaction logs (likes, shares, and comments).\n*   **Performance Metrics**: Success is defined by **volume-based metrics** such as click-through rates (CTR), total watch time, and user retention rates."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Synthesize the Contrast",
+                      "content": "By comparing these two domains, we can see a clear divergence in requirements:\n\n1.  **Accuracy**: Healthcare requires near-perfection due to safety risks, **whereas** social media optimizes for engagement with a higher tolerance for error.\n2.  **Data**: Healthcare primarily uses structured data (e.g., vital signs), **while** social media relies on unstructured data (e.g., video/text).\n3.  **Metrics**: Performance in healthcare is judged by clinical reliability, **unlike** social media, which focuses on engagement volume (e.g., watch time).\n\nThis highlights how the application domain dictates the fundamental design and evaluation of an AI system.",
+                      "highlights": [
+                        {
+                          "text": "healthcare requires high precision and recall due to safety-critical diagnostic impacts, whereas social media optimizes for user engagement with a higher tolerance for errors",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "healthcare primarily utilizes structured medical data (e.g., vital signs, lab results) while social media relies on unstructured data such as text, images, and video",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "performance metrics for healthcare prioritize clinical validity and reliability",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "performance metrics for social media, focusing on volume-based metrics such as click-through rates, watch time, and user retention",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:07:18.828Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "53685d65-0065-4835-9394-16142d15ea93",
+        "specification": "A smart city traffic management system uses machine learning to optimize traffic flow, reduce emissions, and improve public safety across a metropolitan area.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440344,
+        "parts": [
+          {
+            "id": 1055585,
+            "content": "[A4.1] Analyse how different machine learning approaches handle the complexity of urban traffic prediction with multiple variables and real-time constraints.",
+            "order": 0,
+            "markscheme": "[4 marks]\nTime-series forecasting: Predicts traffic patterns based on historical data [1]\nReinforcement learning: Optimizes traffic light timing through trial and error [1]\nMulti-agent systems: Coordinates between different intersections and zones [1]\nReal-time adaptation: Online learning adjusts to current conditions quickly [1]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "5d544ba9-a78c-4b5b-b8d9-7d22d775ed90",
+        "specification": "An autonomous vehicle system uses machine learning for object detection and path planning in real-time driving scenarios.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440324,
+        "parts": [
+          {
+            "id": 1055557,
+            "content": "Compare supervised and unsupervised learning approaches for training autonomous vehicle systems, considering data availability and safety requirements.",
+            "order": 0,
+            "markscheme": "[6 marks]\nSupervised learning: Requires expensive labelled data (manually tagged objects) but provides precise control [2]\nUnsupervised learning: Can use abundant unlabeled sensor data but less predictable outcomes [2]\nSafety-critical applications typically favor supervised learning for better control and validation [2]\n",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1055561,
+            "content": "Explain how the bias-variance trade-off affects the performance of machine learning models in safety-critical autonomous driving applications.",
+            "order": 1,
+            "markscheme": "[2 marks]\nHigh bias models may miss important patterns leading to accidents [1]\nHigh variance models may be inconsistent in similar driving situations [1]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7426bcad-c02d-40b3-899c-9dcf796582e2",
+        "specification": "A social media platform uses machine learning for content moderation, detecting harmful content, spam, and misinformation across multiple languages and media types.\n\nWhich evaluation metric is defined as $\\frac{TP}{TP + FP}$ (true positives divided by all positive predictions)?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:03:48.167Z",
+            "resultId": 3202
+          }
+        },
+        "currentRevisionId": 1692003,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931041,
+            "content": "Precision",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: precision is $\\frac{TP}{TP+FP}$."
+          },
+          {
+            "id": 4931042,
+            "content": "Recall",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: recall is $\\frac{TP}{TP+FN}$."
+          },
+          {
+            "id": 4931043,
+            "content": "Accuracy",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: accuracy is $\\frac{TP+TN}{TP+FP+TN+FN}$."
+          },
+          {
+            "id": 4931044,
+            "content": "F1-score",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: F1-score is $2\\times\\frac{\\text{Precision}\\times\\text{Recall}}{\\text{Precision}+\\text{Recall}}$."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7af8f983-32dd-4bd0-8449-057945a1899a",
+        "specification": "An educational technology platform uses AI to personalize learning experiences for students while addressing concerns about data privacy and algorithmic bias.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:04:05.676Z",
+            "resultId": 3122
+          }
+        },
+        "currentRevisionId": 1692018,
+        "parts": [
+          {
+            "id": 1153803,
+            "content": "Outline different machine learning approaches for adaptive learning systems that adjust to individual student needs and learning styles.",
+            "order": 0,
+            "markscheme": "- Supervised learning: predicts student performance based on historical/labeled data <marks>1 mark</marks>\n- Reinforcement learning: adapts content/difficulty based on student responses and feedback/reward <marks>1 mark</marks>\n- Collaborative filtering: recommends resources based on patterns from similar students\u2019 preferences/behaviours <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "81bcc8c5-66f1-4d47-ad9c-fd68e3196fc6",
+        "specification": "A predictive maintenance system for manufacturing equipment uses IoT sensors and machine learning to prevent failures while optimizing production efficiency.\n\nWhich option best explains how time-series analysis and anomaly detection work together to predict equipment failures before they occur?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:59:15.461Z",
+            "resultId": 3257
+          }
+        },
+        "currentRevisionId": 1691926,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930985,
+            "content": "Time-series analysis models temporal patterns in sensor readings over time, and anomaly detection identifies deviations from normal operating patterns to flag potential failures early.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: combines temporal modelling with deviation detection, matching the intended explanation."
+          },
+          {
+            "id": 4930986,
+            "content": "Time-series analysis converts sensor data into images, and anomaly detection compresses the images to reduce storage requirements.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: image conversion/compression is not the purpose of time-series analysis or anomaly detection in predictive maintenance."
+          },
+          {
+            "id": 4930987,
+            "content": "Time-series analysis only detects sudden spikes in data, while anomaly detection predicts remaining useful life using physics-based simulations.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: time-series analysis is broader than spike detection, and anomaly detection is not inherently physics-based simulation of remaining useful life."
+          },
+          {
+            "id": 4930988,
+            "content": "Time-series analysis encrypts sensor streams, and anomaly detection authenticates devices to prevent unauthorized access to the network.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: encryption/authentication are cybersecurity functions, not time-series analysis/anomaly detection roles in failure prediction."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8f68a97f-65c9-4dfa-b074-f645a1dc31ac",
+        "specification": "A multinational technology company develops AI systems for various applications including healthcare, finance, and social media across different countries with varying regulations and cultural norms.\n\nWhich option best compares the machine learning requirements for healthcare diagnosis versus social media content recommendation, considering accuracy needs, data types, and performance metrics?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:08:26.764Z",
+            "resultId": 2666
+          }
+        },
+        "currentRevisionId": 1692096,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931053,
+            "content": "Healthcare diagnosis typically requires very high precision/recall (strict accuracy), uses more structured medical data, and is evaluated with clinical metrics such as sensitivity/specificity or ROC-AUC; social media recommendation often uses largely unstructured text/images/video, optimizes engagement metrics such as click-through rate/watch time, and can tolerate some errors.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correctly contrasts accuracy requirements (strict vs more error-tolerant), typical data types (structured medical vs unstructured social), and typical metrics (clinical performance vs engagement)."
+          },
+          {
+            "id": 4931054,
+            "content": "Healthcare diagnosis and social media recommendation have similar accuracy requirements, both primarily optimize for engagement metrics, and both mainly use unstructured text data.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: healthcare diagnosis generally prioritizes strict clinical accuracy and uses structured/clinical data and metrics, not engagement."
+          },
+          {
+            "id": 4931055,
+            "content": "Social media recommendation requires higher precision/recall than healthcare diagnosis, relies mostly on structured tabular data, and is evaluated mainly by sensitivity and specificity.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: the comparison is reversed and mismatches typical data types/metrics used in social media systems."
+          },
+          {
+            "id": 4931056,
+            "content": "Healthcare diagnosis mainly optimizes for click-through rate using unstructured memes and videos, while social media recommendation is evaluated by sensitivity/specificity on structured lab results.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: this swaps the usual data types and performance metrics of the two domains."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9243aa24-d8ee-4ceb-a0f8-aa0512d7e25f",
+        "specification": "A natural language processing application translates text between languages and provides sentiment analysis for customer feedback across global markets.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440339,
+        "parts": [
+          {
+            "id": 1055579,
+            "content": "Analyse the challenges of developing ML models that handle multiple languages with different writing systems, grammar rules, and cultural contexts. Discuss the specific issues, impact on model performance, and mitigation strategies for each of the following challenge categories: (i) Data Representation challenges (ii) Training Data challenges (iii) Cultural Context challenges (iv) Technical Implementation challenges",
+            "order": 0,
+            "markscheme": "[8 marks - 2 marks per category]\n(i) Data Representation [2 marks]\nSpecific Issues: Unicode differences, character encoding variations, tokenization complexity across scripts [1]\nImpact/Mitigation: Inconsistent encoding affects model performance; standardized preprocessing and multilingual tokenizers needed [1]\n(ii) Training Data [2 marks]\nSpecific Issues: Limited data for low-resource languages, quality variations across languages [1]\nImpact/Mitigation: Poor performance on underrepresented languages; data augmentation and cross-lingual training approaches [1]\n(iii) Cultural Context [2 marks]\nSpecific Issues: Context-dependent meanings, cultural references, idiomatic expressions vary by region [1]\nImpact/Mitigation: Misinterpretation of sentiment and meaning; localized validation and cultural adaptation required [1]\n(iv) Technical Implementation [2 marks]\nSpecific Issues: Memory requirements for multiple language models, computational complexity [1]\nImpact/Mitigation: Scalability problems; multilingual embeddings and efficient model architectures needed [1]",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1055580,
+            "content": "Explain how transfer learning can help develop NLP models for languages with limited training data.",
+            "order": 1,
+            "markscheme": "[4 marks]\nPre-trained models learn general language patterns from high-resource languages [1]\nFine-tuning adapts these patterns to specific low-resource target languages [1]\nReduces training data requirements and improves performance [1]\nCross-lingual embeddings enable knowledge transfer between related languages [1]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "93bbc336-5b5e-4fd7-b6f1-1a60a1091295",
+        "specification": "What is the primary purpose of using a validation dataset during machine learning model development?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440345,
+        "parts": [],
+        "options": [
+          {
+            "id": 4184693,
+            "content": "To train the model parameters",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4184694,
+            "content": "To test final model performance",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4184695,
+            "content": "To tune hyperparameters and select models",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4184696,
+            "content": "To collect additional training data",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "98e1ec55-c5c5-4b13-899e-db71ddb2806f",
+        "specification": "A content moderation system for a global social media platform uses AI to detect harmful content while balancing free speech concerns and cultural differences.",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:09:36.514Z",
+            "resultId": 2547
+          }
+        },
+        "currentRevisionId": 1692123,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931061,
+            "content": "Transformer-based NLP models are generally more effective than simple bag-of-words models for detecting hate speech and misinformation across multiple languages, because they can use context and word order.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This would be more suited to an extended response; Paper 1 is MCQ and should test a single, clearly defined point rather than broad comparative evaluation."
+          },
+          {
+            "id": 4931062,
+            "content": "Supervised machine learning for text moderation requires labelled training data; performance can drop when the language or cultural context differs from the training set (domain shift).",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: supervised ML depends on labelled data, and models often generalize poorly across languages/cultures due to domain shift and differences in wording/context."
+          },
+          {
+            "id": 4931063,
+            "content": "Unsupervised machine learning always outperforms supervised learning for detecting misinformation because it does not require labelled data.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: unsupervised methods do not always outperform supervised approaches; they may be useful for clustering/anomaly detection but typically need careful validation and may be less accurate for classification tasks like misinformation detection."
+          },
+          {
+            "id": 4931064,
+            "content": "If an ML model is trained on one language, it will perform equally well on any other language as long as the dataset is large enough.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: cross-lingual performance is not guaranteed; language structure and vocabulary differences, dataset bias, and domain shift can still reduce accuracy even with large datasets."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9bf1a1c4-3897-4360-937d-c0f876a146f8",
+        "specification": "A language translation service uses machine learning to provide real-time translation across 100+ languages while addressing challenges of linguistic diversity and cultural nuance.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440334,
+        "parts": [
+          {
+            "id": 1055574,
+            "content": "[A4.1] Compare different machine learning approaches for language translation including statistical, neural, and hybrid methods.",
+            "order": 0,
+            "markscheme": "[3 marks]\nStatistical methods: Phrase-based models using parallel corpora [1]\nNeural networks: End-to-end learning with encoder-decoder architectures [1]\nHybrid approaches: Combine statistical and neural methods for robustness [1]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ae00b193-3b9e-488e-a4e6-ae61f21b9594",
+        "specification": "A smart agriculture platform uses machine learning to optimize crop yields while addressing concerns about environmental impact and farmer autonomy.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440331,
+        "parts": [
+          {
+            "id": 1055570,
+            "content": "[A4.1] Explain how supervised learning can predict crop diseases while unsupervised learning identifies optimal planting patterns.",
+            "order": 0,
+            "markscheme": "[3 marks]\nSupervised learning: Uses labelled disease images to train classification models [1]\nUnsupervised learning: Clusters soil/weather data to find optimal growing conditions [1]\n\nIntegration: Combines predictive and pattern discovery approaches [1]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b0a1da58-5df1-4ae9-81e4-a17e19fc7610",
+        "specification": "A financial institution develops machine learning models for credit scoring and fraud detection to assess loan applications and monitor transactions.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440330,
+        "parts": [
+          {
+            "id": 1055569,
+            "content": "Evaluate the importance of model interpretability and explainability in financial machine learning applications, considering regulatory requirements and customer trust.",
+            "order": 0,
+            "markscheme": "[6 marks]\nRegulatory compliance requires explainable decisions for loan approvals/rejections [2]\nCustomer trust depends on understanding why decisions were made [2]\nInterpretable models enable detection of unfair bias and discrimination [2]\n",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1055571,
+            "content": "Analyse how feature selection and feature engineering impact the performance and reliability of financial ML models.",
+            "order": 1,
+            "markscheme": "[4 marks]\nFeature selection removes irrelevant variables, reducing overfitting and noise [1]\nFeature engineering creates meaningful variables from raw data (debt-to-income ratio) [1]\nGood features improve model accuracy and reduce training time [1]\nPoor feature selection can lead to biased or unreliable predictions [1]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b3f4eb7d-bb12-48be-a4b1-5a3599293e95",
+        "specification": "A ride-sharing platform uses machine learning for dynamic pricing, driver matching, and route optimization while facing scrutiny over algorithmic fairness and labor practices.\n\nWhich statement best explains how machine learning models can support balancing the goals of reducing passenger wait times, improving driver earnings, and choosing efficient routes?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:10:06.760Z",
+            "resultId": 2469
+          }
+        },
+        "currentRevisionId": 1692152,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931077,
+            "content": "Machine learning can be used to predict demand and travel times, then adjust prices and recommend driver-passenger pairings and routes to trade off between faster pickups, better earnings, and shorter journeys.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: describes ML at an SL-appropriate level (prediction + using outputs to adjust pricing/matching/routing) and explicitly acknowledges trade-offs across objectives."
+          },
+          {
+            "id": 4931078,
+            "content": "Machine learning always finds a single best solution that simultaneously minimizes wait time, maximizes driver income, and optimizes routes without any compromise.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: in practice these objectives can conflict, so systems often need to balance/compromise rather than achieve all optima simultaneously."
+          },
+          {
+            "id": 4931079,
+            "content": "Machine learning is only used for route optimization; dynamic pricing and driver matching do not require data-driven models.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: dynamic pricing and matching commonly use data-driven prediction/decision rules; limiting ML to routing is not accurate."
+          },
+          {
+            "id": 4931080,
+            "content": "Machine learning can guarantee fairness and eliminate labor-practice concerns automatically once trained on enough historical ride data.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: ML does not automatically guarantee fairness; historical data can encode bias and fairness requires additional design, monitoring, and policy choices."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "bd881ad1-e912-41a2-b435-c295acf0501a",
+        "specification": "A healthcare analytics company develops machine learning models to predict patient readmission risks and optimize treatment protocols.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:10:18.987Z",
+            "resultId": 2422
+          }
+        },
+        "currentRevisionId": 1692163,
+        "parts": [
+          {
+            "id": 1154049,
+            "content": "Explain the importance of cross-validation techniques in healthcare ML applications and describe different cross-validation strategies.",
+            "order": 0,
+            "markscheme": "- Explain that cross-validation assesses model performance across multiple data splits to prevent overfitting and ensure the model generalizes well to unseen patient records <marks>1 mark</marks>\n- Describe $k$-fold cross-validation, where the dataset is partitioned into $k$ subsets, with the model trained on $k-1$ folds and tested on the remaining fold iteratively <marks>1 mark</marks>\n- Describe a simple train/validation/test split as a basic evaluation strategy (e.g., train on one subset, validate/tune on another, then test once on held-out data) <marks>1 mark</marks>\n- Describe stratified cross-validation, which ensures that each fold maintains the same percentage of samples from each target class (e.g., readmitted vs. not) as the complete dataset <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154050,
+            "content": "Describe how class imbalance problems affect healthcare ML models and discuss strategies to address these issues.",
+            "order": 1,
+            "markscheme": "- State that class imbalance in healthcare refers to a scenario where one outcome (e.g., readmissions) is significantly less frequent than the other (e.g., non-readmissions) <marks>1 mark</marks>\n- Explain that this imbalance can lead to models being biased towards the majority class, resulting in high overall accuracy but poor detection of high-risk patients <marks>1 mark</marks>\n- Identify strategies to address imbalance, such as oversampling the minority class, undersampling the majority class, or using class weights/cost-sensitive learning <marks>1 mark</marks>\n- Explain the importance of evaluating models using measures such as precision and recall rather than accuracy, which can be misleading for imbalanced datasets <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c977c159-b35d-4ed3-ae14-c698c7784db0",
+        "specification": "A healthcare analytics company develops machine learning models to predict patient readmission risks and optimize treatment protocols.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440327,
+        "parts": [
+          {
+            "id": 1055563,
+            "content": "Explain the importance of cross-validation techniques in healthcare ML applications and describe different cross-validation strategies.",
+            "order": 0,
+            "markscheme": "[4 marks]\nCross-validation prevents overfitting by testing on multiple unseen data splits [1]\nK-fold CV: Splits data into k parts, trains on k-1, tests on 1, repeats k times [1]\nStratified CV maintains class distribution across folds [1]\nTime-series CV respects temporal order for healthcare sequential data [1]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1055564,
+            "content": "Describe how class imbalance problems affect healthcare ML models and discuss strategies to address these issues.",
+            "order": 1,
+            "markscheme": "[4 marks]\nClass imbalance: Few positive cases (readmissions) vs many negative cases [1]\nProblems: Models biased toward majority class, poor minority class detection [1]\nSolutions: SMOTE oversampling, cost-sensitive learning, ensemble methods [1]\nEvaluation: Use precision/recall metrics instead of accuracy [1]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cf25a3db-7873-4009-82ee-3edace36ebbd",
+        "specification": "A predictive maintenance system for manufacturing equipment uses IoT sensors and machine learning to prevent failures while optimizing production efficiency.\n\nWhich option best explains how time-series analysis and anomaly detection work together to predict equipment failures before they occur?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:29.597Z",
+            "resultId": 2103
+          }
+        },
+        "currentRevisionId": 1692223,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931097,
+            "content": "Time-series analysis establishes a model of normal sensor behaviour over time (including trends and cycles), and anomaly detection flags significant deviations from this model so maintenance can be scheduled before failure.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "This correctly combines (1) modelling normal operation over time and (2) detecting deviations to enable early intervention."
+          },
+          {
+            "id": 4931098,
+            "content": "Anomaly detection creates a baseline of normal operation from historical sensor data, and time-series analysis is used only after a failure to determine the cause.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Reverses the roles and incorrectly limits time-series analysis to post-failure analysis."
+          },
+          {
+            "id": 4931099,
+            "content": "Time-series analysis removes all seasonal variation from sensor data so that anomaly detection never reports false positives, guaranteeing failures are prevented.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Overstates capability: seasonal variation may be modelled, but false positives cannot be eliminated and failures cannot be guaranteed prevented."
+          },
+          {
+            "id": 4931100,
+            "content": "Time-series analysis and anomaly detection both rely on fixed thresholds for each sensor; if a reading crosses a threshold, the system schedules maintenance.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Describes simple thresholding rather than time-series modelling of temporal patterns and deviation-from-model anomaly detection."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d13ab1e9-17e9-42bb-a8dd-0173e3178b37",
+        "specification": "A smart agriculture platform uses machine learning to optimize crop yields while addressing concerns about environmental impact and farmer autonomy.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494374,
+        "parts": [
+          {
+            "id": 1125990,
+            "content": "Explain how supervised learning can predict crop diseases while unsupervised learning identifies optimal planting patterns.",
+            "order": 1,
+            "markscheme": "- Explain that supervised learning uses labelled datasets (e.g., images of diseased crops) to train a classification model that recognizes specific disease signatures <marks>R1</marks>\n- Explain that unsupervised learning processes unlabelled data (e.g., soil and weather history) to identify clusters or patterns that indicate optimal planting conditions <marks>R1</marks>\n- Explain how combining these methods allows for both proactive disease detection and the data-driven optimization of crop placement <marks>R1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "paradigm_differentiation",
+                  "label": "Paradigm Differentiation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Supervised Learning for Disease Classification",
+                      "content": "Supervised learning relies on the paradigm of **labeled datasets**. In this context, the system is trained using images of crops that have been pre-identified by experts as either 'healthy' or 'diseased' (with specific labels for different diseases). \n\nBy processing these labels, the machine learning model learns to map specific visual signatures to a known output. This allows the platform to perform **classification**, accurately predicting the presence of a disease when it encounters new, unseen crop images.",
+                      "highlights": [
+                        {
+                          "text": "labelled datasets (e.g., images of diseased crops) to train a classification model",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Unsupervised Learning for Pattern Discovery",
+                      "content": "In contrast, unsupervised learning operates on **unlabeled data**, meaning the input data (such as historical soil moisture levels or weather trends) does not come with pre-defined answers. \n\nThe algorithm searches for inherent structures within the data to identify **clusters or patterns**. For agriculture, this means the system can discover optimal planting patterns or environmental conditions that lead to high yields without being explicitly told what an 'optimal' pattern looks like beforehand.",
+                      "highlights": [
+                        {
+                          "text": "unlabelled data (e.g., soil and weather history) to identify clusters or patterns",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Combining Paradigms for Optimization",
+                      "content": "The true optimization of the smart agriculture platform comes from combining these two paradigms. While supervised learning provides **proactive detection** (identifying a disease before it spreads), unsupervised learning provides **data-driven optimization** (finding the best locations and times to plant). \n\nTogether, they allow the farmer to minimize crop loss through classification while maximizing output through pattern discovery, leading to a more efficient and autonomous farming system.",
+                      "highlights": [
+                        {
+                          "text": "combining these methods allows for both proactive disease detection and the data-driven optimization of crop placement",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:08:31.533Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "da1da56f-b4e9-4b86-b4a1-67a239ffd7da",
+        "specification": "Which type of machine learning is most appropriate for a recommendation system that suggests products based on user purchase history?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:13:04.734Z",
+            "resultId": 1938
+          }
+        },
+        "currentRevisionId": 1692255,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931109,
+            "content": "Supervised learning with classification",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Recommendation systems are commonly framed as finding patterns/similarities in user behaviour rather than predicting a single pre-labelled class for each item-user pair, so this is not the most appropriate choice here."
+          },
+          {
+            "id": 4931110,
+            "content": "Supervised learning with regression",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Regression predicts continuous values; while it can be used (e.g., rating prediction), it is not the most appropriate general approach compared with pattern-finding methods for purchase-history recommendations."
+          },
+          {
+            "id": 4931111,
+            "content": "Unsupervised learning with clustering",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Clustering (unsupervised learning) can group similar users or products from purchase-history patterns (e.g., \"customers who bought X also bought Y\") without requiring labelled outputs, which is the standard introductory framing for recommendation systems."
+          },
+          {
+            "id": 4931112,
+            "content": "Reinforcement learning with rewards",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Reinforcement learning focuses on learning actions via rewards over time; while possible in interactive recommenders, it is not the most appropriate standard approach for purchase-history based recommendations in this context."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "df91d829-b9e7-4b22-85af-5bd973f3eca0",
+        "specification": "An autonomous vehicle system uses machine learning for object detection and path planning in real-time driving scenarios.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:54.462Z",
+            "resultId": 1989
+          }
+        },
+        "currentRevisionId": 1692245,
+        "parts": [
+          {
+            "id": 1154170,
+            "content": "Compare supervised and unsupervised learning approaches for training autonomous vehicle systems, considering data availability and safety requirements.",
+            "order": 0,
+            "markscheme": "- Identify that supervised learning requires expensive labelled data but provides precise control over model outputs <marks>1 mark</marks>\n- Identify that unsupervised learning utilizes abundant unlabelled sensor data but can lead to less predictable outcomes <marks>1 mark</marks>\n- Justify the preference for supervised learning in safety-critical applications due to better validation and control <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154171,
+            "content": "Explain how the bias-variance trade-off affects the performance of machine learning models in safety-critical autonomous driving applications.",
+            "order": 1,
+            "markscheme": "- Explain that models with high bias may miss critical patterns or obstacles, potentially leading to safety failures <marks>1 mark</marks>\n- Explain that models with high variance may exhibit inconsistent performance in varying driving conditions <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e9216f85-9f1a-42c9-8f0e-3a028d0007fd",
+        "specification": "What is the main difference between precision and recall in machine learning evaluation?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1440335,
+        "parts": [],
+        "options": [
+          {
+            "id": 4184681,
+            "content": "Precision measures speed, recall measures accuracy",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4184682,
+            "content": "Precision measures true positives over predicted positives, recall measures true positives over actual positives",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4184683,
+            "content": "Precision is for classification, recall is for regression",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4184684,
+            "content": "Precision measures training performance, recall measures test performance",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e9b180fb-5b97-42a7-8d35-e43155691a97",
+        "specification": "A smart agriculture system uses machine learning to predict crop yields, detect plant diseases, and optimize irrigation schedules based on sensor data and weather patterns.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:02.347Z",
+            "resultId": 1719
+          }
+        },
+        "currentRevisionId": 1692316,
+        "parts": [
+          {
+            "id": 1154277,
+            "content": "Explain how machine learning models can integrate multiple data sources (sensors, weather, satellite imagery) to make agricultural predictions.",
+            "order": 0,
+            "markscheme": "- Feature fusion combines different data types into a unified input representation <marks>1 mark</marks>\n- Temporal models process time-series sensor and weather data <marks>1 mark</marks>\n- Ensemble methods combine predictions from models trained on different data sources <marks>1 mark</marks>\n- Data preprocessing normalises different scales and formats across sources <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154278,
+            "content": "Describe the role of domain expertise in agriculture when developing and validating machine learning models for farming applications.",
+            "order": 1,
+            "markscheme": "- Agricultural experts validate model predictions against known farming principles <marks>1 mark</marks>\n- Domain knowledge guides feature engineering and model interpretation <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154279,
+            "content": "Analyse the potential consequences of false positives and false negatives in agricultural ML systems for disease detection and yield prediction.",
+            "order": 2,
+            "markscheme": "- False positives: Unnecessary treatments waste resources and may harm crops <marks>1 mark</marks>\n- False negatives: Missing diseases or yield problems causes crop loss and economic damage <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ed80cc10-96bb-41a4-8fd6-e70077f94f00",
+        "specification": "A cybersecurity company uses machine learning for threat detection, anomaly detection, and automated incident response across enterprise networks.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:13:20.700Z",
+            "resultId": 1851
+          }
+        },
+        "currentRevisionId": 1692273,
+        "parts": [
+          {
+            "id": 1154208,
+            "content": "Evaluate different machine learning approaches for cybersecurity applications, considering the adversarial nature of the problem where attackers actively try to evade detection.",
+            "order": 0,
+            "markscheme": "- Analyze the use of anomaly detection, noting its ability to identify unknown or zero-day threats <marks>1 mark</marks>\n- Analyze the use of anomaly detection, noting its potential for high false-positive rates <marks>1 mark</marks>\n- Evaluate supervised learning, which provides high accuracy for known attack signatures <marks>1 mark</marks>\n- Evaluate supervised learning, noting its limitation due to the need for labeled data and susceptibility to novel attack variants <marks>1 mark</marks>\n- Discuss ensemble methods, which combine multiple models to increase overall detection robustness <marks>1 mark</marks>\n- Discuss ensemble methods, noting they can mitigate the impact of adversarial evasion techniques <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154209,
+            "content": "Explain how concept drift affects cybersecurity ML models and describe strategies to maintain model effectiveness over time.",
+            "order": 1,
+            "markscheme": "- Define concept drift as the change in the underlying statistical properties of attack patterns over time, causing model performance to degrade <marks>1 mark</marks>\n- Identify detection methods such as monitoring real-time performance metrics or tracking shifts in prediction confidence <marks>1 mark</marks>\n- Describe adaptation strategies including the use of sliding windows for training or automated retraining with the most recent data <marks>1 mark</marks>\n- Explain validation procedures like benchmarking the model against current threat intelligence feeds to verify effectiveness <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f9cd9806-60dc-45f2-9acd-7603c949b4f8",
+        "specification": "A social media platform uses machine learning for content moderation, detecting harmful content, spam, and misinformation across multiple languages and media types.\n\nDesign a comprehensive evaluation framework for content moderation ML systems by completing the table below. Use **prose** for the *Definition* and *Importance* columns, and use a **formula** for the *Calculation Method* column.\n\nEvaluation Metric | Definition | Importance for Moderation | Calculation Method | Acceptable Threshold\n---|---|---|---|---\nPrecision |  | Minimize false positives |  | \nRecall |  |  | $\\frac{\\text{TP}}{\\text{TP}+\\text{FN}}$ | High ($>90\\%$)\nF1-Score |  |  |  | \nAccuracy |  |  | $\\frac{\\text{TP}+\\text{TN}}{\\text{Total}}$ |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:13:16.753Z",
+            "resultId": 1895
+          }
+        },
+        "currentRevisionId": 1692267,
+        "parts": [
+          {
+            "id": 1154196,
+            "content": "Complete the evaluation framework table.",
+            "order": 0,
+            "markscheme": "- Precision definition: $\\frac{\\text{TP}}{\\text{TP}+\\text{FP}}$ / positive predictive value / true positives over predicted positives <marks>1 mark</marks>\n- Precision acceptable threshold: e.g. $>85\\%$ / $85$\u2013$90\\%$ / \u201chigh precision needed\u201d <marks>1 mark</marks>\n- Recall importance: catch harmful content / minimise false negatives / detect as much harmful content as possible <marks>1 mark</marks>\n- F1-score definition: harmonic mean of precision and recall / balanced precision\u2013recall metric <marks>1 mark</marks>\n- F1-score calculation method: $\\frac{2PR}{P+R}$ / $2\\times\\frac{P\\times R}{P+R}$ <marks>1 mark</marks>\n- F1-score acceptable threshold: e.g. $>80\\%$ / $80$\u2013$85\\%$ / \u201cbalanced performance\u201d <marks>1 mark</marks>\n- Accuracy definition: overall correctness / proportion of correct predictions <marks>1 mark</marks>\n- Accuracy importance: overall performance measure / general effectiveness (noting it can be misleading with class imbalance) <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154197,
+            "content": "Analyse the challenges of developing ML models that work effectively across different languages, cultures, and content types (text, images, videos).",
+            "order": 1,
+            "markscheme": "- Language differences require multilingual training data and models <marks>1 mark</marks>\n- Cultural context affects what constitutes harmful content across regions <marks>1 mark</marks>\n- Different modalities (text/image/video) need specialized architectures <marks>1 mark</marks>\n- Evolving nature of harmful content requires continuous model updates <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fb025db7-c686-48e4-99be-6d995ed0ecbd",
+        "specification": "An e-commerce platform implements machine learning for dynamic pricing, inventory management, and customer segmentation across millions of products and users.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494368,
+        "parts": [
+          {
+            "id": 1125979,
+            "content": "Compare the computational and storage requirements of different machine learning approaches for large-scale e-commerce applications.",
+            "order": 1,
+            "markscheme": "- **Describe** deep learning requirements: High computational needs requiring specialized hardware (GPUs/TPUs) and large storage for millions of model parameters <marks>A2</marks>\n\n- **Describe** linear model requirements: Very low computational costs for training and inference, requiring minimal storage for a simple weight vector <marks>A2</marks>\n\n- **Describe** tree-based model requirements: Moderate computational and storage requirements that scale with tree depth and ensemble size, efficient for tabular data <marks>A2</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "model_analysis",
+                  "label": "Model-by-Model Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the Task",
+                      "content": "In an e-commerce context with millions of users and products, choosing the right machine learning model involves balancing performance with resource constraints. We need to evaluate three approaches\u2014Deep Learning, Linear Models, and Tree-based Models\u2014specifically focusing on their **computational needs** (processing power) and **storage requirements** (memory/disk space).",
+                      "highlights": [
+                        {
+                          "text": "Compare the computational and storage requirements",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze Deep Learning Models",
+                      "content": "Deep Learning models (like Artificial Neural Networks) are powerful but demanding. For a large-scale e-commerce platform, these models often contain millions of parameters ($w_1, w_2, ... w_n$) that must be stored.\n\n- **Computational Requirements:** Extremely high. Training these models usually requires specialized hardware like **GPUs (Graphics Processing Units)** or **TPUs (Tensor Processing Units)** to handle massive parallel matrix multiplications.\n- **Storage Requirements:** High. The model files are large because they must store every weight and bias across many layers.",
+                      "highlights": [
+                        {
+                          "text": "High computational needs requiring specialized hardware (GPUs/TPUs) and large storage for millions of model parameters",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze Linear Models",
+                      "content": "Linear models (such as Linear or Logistic Regression) represent the simplest approach. They are highly efficient for real-time dynamic pricing.\n\n- **Computational Requirements:** Very low. Training involves solving relatively simple linear equations, and inference (making a prediction) is just a quick dot product calculation.\n- **Storage Requirements:** Minimal. You only need to store a single **weight vector** and a bias term, which takes up very little memory compared to other models.",
+                      "highlights": [
+                        {
+                          "text": "Very low computational costs for training and inference, requiring minimal storage for a simple weight vector",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Analyze Tree-based Models",
+                      "content": "Tree-based models (like Decision Trees, Random Forests, or Gradient Boosted Trees) are excellent for tabular e-commerce data (e.g., product features).\n\n- **Computational Requirements:** Moderate. While more intensive than linear models, they are generally faster than deep learning. The cost increases with **ensemble size** (the number of trees) and the **depth** of each tree.\n- **Storage Requirements:** Moderate. The system must store the logic for every split in every tree. While not as large as neural networks, complex ensembles can still require significant memory.",
+                      "highlights": [
+                        {
+                          "text": "Moderate computational and storage requirements that scale with tree depth and ensemble size, efficient for tabular data",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary for Marks",
+                      "content": "To secure all 6 marks, ensure you clearly distinguish between the three levels of intensity:\n\n1.  **Deep Learning:** High/Specialized (A2)\n2.  **Linear:** Low/Minimal (A2)\n3.  **Tree-based:** Moderate/Scaling (A2)\n\nThis comparison shows that while Deep Learning might offer high accuracy, Linear models are often preferred for high-speed, low-cost tasks in large-scale systems."
+                    }
+                  ]
+                },
+                {
+                  "id": "requirement_comparison",
+                  "label": "Requirement-based Comparison",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify model types",
+                      "content": "To address the needs of an e-commerce platform managing millions of products, we need to look at three standard approaches covered in **Topic A4: Machine Learning**: Deep Learning (Neural Networks), Tree-based models (like Random Forests), and Linear models (like Linear Regression). \n\nWe will first compare their **computational requirements** (processing power) and then their **storage requirements** (memory/disk space).",
+                      "highlights": [
+                        {
+                          "text": "millions of products and users",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Compare computational requirements",
+                      "content": "Computational requirements refer to the processing power needed for training and real-time inference:\n\n*   **Deep Learning:** These models have the highest computational needs. Training involves complex matrix calculations that require specialized hardware like **GPUs or TPUs** (Topic A1.1.2) to handle the scale of millions of users.\n*   **Tree-based Models:** These have moderate computational requirements. While training can be intensive as the algorithm searches for the best \"splits\" in the data, the cost scales with the depth of the trees and the size of the ensemble (number of trees).\n*   **Linear Models:** These are the most efficient. They require very low computational power because the math is limited to a simple weighted sum, making them ideal for high-speed, large-scale predictions on standard CPUs.",
+                      "highlights": [
+                        {
+                          "text": "High computational needs requiring specialized hardware (GPUs/TPUs)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Compare storage requirements",
+                      "content": "Storage requirements refer to the space needed to save the model's \"knowledge\" (parameters):\n\n*   **Deep Learning:** Requires significant storage. A large-scale model can have millions (or billions) of parameters (weights and biases) that must be stored and loaded into memory.\n*   **Tree-based Models:** These have moderate storage needs. The system must store the structure of every tree, including the feature and threshold used at every node. As the trees get deeper, the storage size increases.\n*   **Linear Models:** These require minimal storage. The model only needs to save a single **weight vector** (one number per input feature), making the model file size extremely small compared to the others.",
+                      "highlights": [
+                        {
+                          "text": "large storage for millions of model parameters",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "minimal storage for a simple weight vector",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary of comparison",
+                      "content": "In summary, an e-commerce platform must balance these needs based on the task:\n\n$$\\begin{array}{|l|l|l|} \\hline \\textbf{Model Type} & \\textbf{Computational Need} & \\textbf{Storage Need} \\\\ \\hline \\text{Deep Learning} & \\text{Very High (GPU/TPU)} & \\text{High (Millions of params)} \\\\ \\hline \\text{Tree-based} & \\text{Moderate} & \\text{Moderate (Scales with depth)} \\\\ \\hline \\text{Linear Models} & \\text{Low} & \\text{Minimal (Weight vector)} \\\\ \\hline \\end{array}$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "complexity_hierarchy",
+                  "label": "Complexity-based Gradient",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Categorize by Model Complexity",
+                      "content": "To compare these machine learning approaches for a large-scale e-commerce platform, we can arrange them on a gradient of increasing complexity. As models become more sophisticated, their computational and storage requirements scale accordingly. We will evaluate:\n\n1. **Linear Models** (Low complexity)\n2. **Tree-based Models** (Moderate complexity)\n3. **Deep Learning** (High complexity)\n\nThis aligns with **Topic A4.1.2**, which discusses hardware requirements for different machine learning deployment scenarios.",
+                      "highlights": [
+                        {
+                          "text": "dynamic pricing, inventory management, and customer segmentation across millions of products and users",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Evaluate Linear Model Requirements",
+                      "content": "Linear models (like Linear or Logistic Regression) represent the simplest approach. \n\n*   **Computational Requirements:** They have very low costs for both training and inference. Calculations usually involve simple dot products, which the CPU can handle extremely quickly.\n*   **Storage Requirements:** These models are highly efficient, requiring only enough memory to store a simple **weight vector** (one coefficient per feature). For an e-commerce platform with millions of products, these models are often used for quick, real-time predictions where latency must be minimal.",
+                      "highlights": [
+                        {
+                          "text": "Very low computational costs for training and inference, requiring minimal storage for a simple weight vector",
+                          "location": "data_booklet",
+                          "sectionName": "Key Chemistry Equations"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze Tree-based Model Requirements",
+                      "content": "Tree-based models (such as Random Forests or Gradient Boosted Trees) occupy the middle ground of complexity. They are particularly effective for the **tabular data** found in e-commerce databases (e.g., user purchase history, product categories).\n\n*   **Computational Requirements:** Training is more intensive than linear models because the algorithm must search for optimal splits in the data. Inference speed is moderate.\n*   **Storage Requirements:** Storage needs scale directly with the **depth of the trees** and the **ensemble size** (the number of trees in the model). While larger than linear models, they still fit easily within standard server memory without specialized hardware.",
+                      "highlights": [
+                        {
+                          "text": "Moderate computational and storage requirements that scale with tree depth and ensemble size, efficient for tabular data",
+                          "location": "data_booklet",
+                          "sectionName": "Key Chemistry Equations"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Describe Deep Learning Requirements",
+                      "content": "Deep Learning (Artificial Neural Networks) represents the highest level of complexity, often used for complex tasks like image recognition for products or deep personalization.\n\n*   **Computational Requirements:** These models have massive computational needs. They typically require **specialized hardware** such as **GPUs (Graphics Processing Units)** or **TPUs (Tensor Processing Units)** to handle the high-volume parallel matrix multiplications required during training (refer to **Topic A1.1.2** for the role of a GPU).\n*   **Storage Requirements:** They require significant storage and RAM to hold **millions of model parameters** (weights and biases). For an e-commerce platform, this involves managing large-scale server clusters to store and serve the models.",
+                      "highlights": [
+                        {
+                          "text": "High computational needs requiring specialized hardware (GPUs/TPUs) and large storage for millions of model parameters",
+                          "location": "data_booklet",
+                          "sectionName": "Key Chemistry Equations"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Comparison Summary",
+                      "content": "In summary, the choice of model depends on the balance between performance and resources:\n\n$$\\text{Complexity: Linear} < \\text{Tree-based} < \\text{Deep Learning}$$\n\n*   **Linear:** Minimal resources, best for high-speed, simple tasks.\n*   **Tree-based:** Moderate resources, best for structured e-commerce data.\n*   **Deep Learning:** Maximum resources, requires specialized hardware for the most complex patterns."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:08:32.973Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125980,
+            "content": "Explain how online learning differs from batch learning in the context of e-commerce applications that need to adapt quickly to market changes.",
+            "order": 2,
+            "markscheme": "- **State** that online learning updates models incrementally as new data arrives rather than waiting for a full dataset <marks>A1</marks>\n\n- **State** that batch learning retrains the entire model periodically on complete historical datasets <marks>A1</marks>\n\n- **Explain** that online learning enables real-time adaptation to rapid price changes and customer trends <marks>A1</marks>\n\n- **Explain** that batch learning provides more stable models but has higher latency in responding to market shifts <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "comparative",
+                  "label": "Comparative Explanation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Contrast the Update Mechanisms",
+                      "content": "The fundamental difference lies in **how and when** the model is updated. \n\n*   **Online learning** is incremental; it updates the model immediately as each new piece of data arrives. In an e-commerce setting, every single click or purchase can slightly shift the model's parameters.\n*   **Batch learning** is periodic; it requires a full historical dataset to be present. The system waits to collect a large 'batch' of data (e.g., at the end of the day) and then retrains the model from scratch using the entire accumulated dataset.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "online learning",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "batch learning",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Compare Responsiveness to Market",
+                      "content": "In an e-commerce environment where market conditions shift rapidly, the speed of adaptation is crucial:\n\n*   **Online Learning (Real-time):** Because it processes data continuously, the model can adapt to a flash sale or a sudden surge in demand for a specific product almost instantly. This is vital for **dynamic pricing** where prices need to reflect current supply and demand.\n*   **Batch Learning (Latency):** This method suffers from high latency. If a market trend changes at 9:00 AM, a batch model that only retrains at midnight will remain outdated for the rest of the day, potentially leading to lost revenue or poor inventory management.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "adapt quickly to market changes",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "dynamic pricing",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Evaluate Stability vs. Flexibility",
+                      "content": "While online learning is faster, there is a trade-off regarding the consistency of the results:\n\n*   **Batch Learning (Stability):** Because it retrains on the entire historical dataset, it is generally more stable. It is less likely to be 'distracted' by a single anomalous data point (like one customer making an unusual bulk purchase).\n*   **Online Learning (Noise Sensitivity):** While flexible, it can be more sensitive to 'noise' or outliers. A single unusual event could temporarily skew the model's performance until more data corrects it.",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary of Marks",
+                      "content": "To ensure you get all 4 marks, your explanation should clearly link the mechanism to the e-commerce outcome:\n\n1.  **Online Mechanism:** State it is incremental/continuous (<A1>).\n2.  **Batch Mechanism:** State it is periodic/uses full datasets (<A1>).\n3.  **Online Impact:** Explain it allows for real-time adaptation to trends/pricing (<A1>).\n4.  **Batch Impact:** Explain it provides stability but has high latency (slow response) (<A1>).",
+                      "calculator": []
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:09:17.373Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "fd2bdbc6-27a1-4042-98ff-788dd49c10e9",
+        "specification": "An educational technology platform uses AI to personalize learning experiences for students while addressing concerns about data privacy and algorithmic bias.",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:04.314Z",
+            "resultId": 1657
+          }
+        },
+        "currentRevisionId": 1692319,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931125,
+            "content": "Supervised learning, unsupervised learning, reinforcement learning",
+            "correct": true,
+            "order": 0,
+            "markscheme": "This option correctly lists three distinct machine learning approaches suitable for personalization in adaptive learning systems."
+          },
+          {
+            "id": 4931126,
+            "content": "Encryption, hashing, access control",
+            "correct": false,
+            "order": 1,
+            "markscheme": "These are security/privacy techniques, not machine learning approaches."
+          },
+          {
+            "id": 4931127,
+            "content": "HTML, CSS, JavaScript",
+            "correct": false,
+            "order": 2,
+            "markscheme": "These are web technologies, not machine learning approaches."
+          },
+          {
+            "id": 4931128,
+            "content": "Bubble sort, merge sort, binary search",
+            "correct": false,
+            "order": 3,
+            "markscheme": "These are algorithms/data-structure methods, not machine learning approaches."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fe82ae3a-f90f-48d4-8982-fb34b460d41b",
+        "specification": "A medical diagnosis system uses machine learning to analyse patient symptoms and medical images for disease detection.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:13:50.161Z",
+            "resultId": 1725
+          }
+        },
+        "currentRevisionId": 1692301,
+        "parts": [
+          {
+            "id": 1154252,
+            "content": "Explain the difference between training data, validation data, and test data in the context of developing a medical AI system. Discuss why each dataset is crucial for reliable model development.",
+            "order": 0,
+            "markscheme": "- Training data: used to teach the model patterns; typically the largest dataset (e.g. 60\u201370% of total) <marks>2 marks</marks>\n- Validation data: used for hyperparameter tuning and model selection during development <marks>2 marks</marks>\n- Test data: final evaluation on unseen data to estimate real-world performance <marks>2 marks</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154253,
+            "content": "Describe the concepts of overfitting and underfitting in machine learning models, providing specific examples of how each might occur in medical diagnosis applications.",
+            "order": 1,
+            "markscheme": "- Overfitting: model memorises training data; poor generalisation to new patients <marks>2 marks</marks>\n- Underfitting: model too simple to capture disease patterns; poor performance overall <marks>1 mark</marks>\n- Example: overfitting \u2014 memorising specific scan artefacts; underfitting \u2014 linear model for complex symptoms <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "40",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 36343,
+      "title": "A4.1 Machine learning fundamentals",
+      "slug": "ib-computer-science-new-a4-1-machine-learning-fundamentals",
+      "parentTopicId": 36342
+    },
+    "subject": {
+      "id": 6523,
+      "title": "Computer Science (First Exam 2027)",
+      "slug": "ib-computer-science-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "40",
+      "byQuestion": {}
+    }
+  }
+}

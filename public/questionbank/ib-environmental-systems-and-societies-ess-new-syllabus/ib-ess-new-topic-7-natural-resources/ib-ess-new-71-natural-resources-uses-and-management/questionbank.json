@@ -1,3 +1,1135 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8dc571e8f29ed88dad49c724300c3b9df6dbd8e21b146b27b015447eb82ad1f1
-size 103444
+{
+  "json": {
+    "questions": [
+      {
+        "id": "1c306d9a-f3f8-4be8-adb4-25099c962ac8",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-1c306d9a-f3f8-4be8-adb4-25099c962ac8-1771929956947",
+            "generatedAt": "2026-02-26T06:25:49.008Z",
+            "sourceRevisionId": 1083759
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T10:33:18.506Z",
+            "resultId": 6358
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30549,
+              "isHl": true,
+              "path": "Topic 6: Atmosphere and climate change > 6.3 Climate change - mitigation and adaptation > 6.3F Climate change perspectives (HL)",
+              "title": "6.3F Climate change perspectives (HL)",
+              "labeledAt": "2026-03-05T08:14:57.898Z",
+              "reasoning": "Part (c) asks students to evaluate different philosophical approaches (lifestyle changes vs. technocentric geoengineering) to addressing climate change, which falls directly under climate change perspectives.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30548,
+              "isHl": true,
+              "path": "Topic 6: Atmosphere and climate change > 6.3 Climate change - mitigation and adaptation > 6.3E Geoengineering (HL)",
+              "title": "6.3E Geoengineering (HL)",
+              "labeledAt": "2026-03-05T08:14:57.898Z",
+              "reasoning": "Part (c) explicitly mentions large-scale technocentric geoengineering as a strategy for addressing climate change.",
+              "confidence": 0.98
+            },
+            {
+              "id": 38293,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3B Carbon cycle",
+              "title": "2.3B Carbon cycle",
+              "labeledAt": "2026-03-05T08:14:57.898Z",
+              "reasoning": "Part (a) specifically requires an outline of how land-use conversion (forest to agriculture) influences processes within the carbon cycle.",
+              "confidence": 0.98
+            },
+            {
+              "id": 30574,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1C Natural capital",
+              "title": "7.1C Natural capital",
+              "labeledAt": "2026-03-05T08:14:57.898Z",
+              "reasoning": "Part (b) discusses the value of natural gas as a resource and how that value changes over time, which is a core concept of natural capital valuation.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30593,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2A Energy sources, global energy consumption and energy choices",
+              "title": "7.2A Energy sources, global energy consumption and energy choices",
+              "labeledAt": "2026-03-05T08:14:57.898Z",
+              "reasoning": "Part (b) focuses on natural gas, which is a key non-renewable energy source, and its utilization by society.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693756,
+        "parts": [
+          {
+            "id": 1155974,
+            "content": "Outline **four** ways that the conversion of primary forests to intensive agricultural land may influence processes in the carbon cycle.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following; <marks>4 marks max</marks>\n\n- Removal of trees/biomass reduces the rate of photosynthesis $${\\therefore}$$ reducing the amount of carbon dioxide ($$CO_2$$) sequestered from the atmosphere; <marks>1 mark</marks>\n- Burning of cleared vegetation (slash-and-burn) involves rapid combustion $${\\therefore}$$ releasing stored organic carbon as $$CO_2$$ into the atmosphere; <marks>1 mark</marks>\n- Frequent tilling/ploughing of the soil increases aeration $${\\therefore}$$ accelerating aerobic decomposition/microbial respiration of soil organic matter into $$CO_2$$; <marks>1 mark</marks>\n- Introduction of ruminant livestock (e.g., cattle) leads to enteric fermentation $${\\therefore}$$ increasing the output of methane ($$CH_4$$) into the atmosphere; <marks>1 mark</marks>\n- Use of fossil-fuel-powered machinery for planting/harvesting involves combustion $${\\therefore}$$ transferring long-term geological carbon stores to the atmospheric pool; <marks>1 mark</marks>\n\n\n<Note>Ensure each markpoint includes a clear link between the agricultural activity and a specific process in the carbon cycle (e.g., photosynthesis, respiration, combustion). Award <marks>1 mark max</marks> for general statements about \"pollution\" without naming a specific carbon-based gas or process.</Note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155975,
+            "content": "Natural gas is a resource that can be exploited from geological reserves. Discuss how the value of this resource to a society may vary over time.",
+            "order": 1,
+            "markscheme": "_Positive changes promoting the value of natural gas_:  \n- Natural gas may be seen as a \"bridge fuel\" by anthropocentric/technocentric thinkers because it produces lower $$CO_2$$ emissions than coal per unit of energy; <marks>1 mark</marks>\n- Technological advancements in hydraulic fracturing (fracking) have made previously inaccessible reserves economically viable, increasing its value as a source of energy security; <marks>1 mark</marks>\n- Economic crises or high inflation may increase the value of natural gas as a relatively cheap and abundant domestic energy source; <marks>1 mark</marks>\n- Shift in political priorities towards industrial growth may lead to deregulation, making natural gas extraction more profitable/attractive to investors; <marks>1 mark</marks>\n\n_Negative changes reducing the value of natural gas_:  \n- Increasing environmental awareness of \"fugitive emissions\" (methane leaks) during extraction may lead to an EVS shift that views natural gas as just as damaging as other fossil fuels; <marks>1 mark</marks>\n- Rapid cost reductions in renewable technologies (e.g., solar, wind) may render natural gas power plants less economically competitive; <marks>1 mark</marks>\n- Local social movements (e.g., anti-fracking campaigns) due to fears of groundwater contamination or seismic activity can decrease the societal acceptance/value of the resource; <marks>1 mark</marks>\n- Stricter international climate legislation (e.g., Net Zero targets) may mandate a complete transition away from all fossil fuels, including gas, reducing its long-term investment value; <marks>1 mark</marks>\n- A shift toward deep ecocentrism may lead to the belief that fossil fuels should be \"left in the ground\" to respect the intrinsic value of the lithosphere/environment; <marks>1 mark</marks>\n\n<Note> Award <marks>4 marks max</marks> if no balanced discussion present. For full marks, both positive and negative factors influencing the perceived value must be discussed, with clear links to EVS or societal context.</Note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155976,
+            "content": "To what extent are the impacts of global climate change better addressed through radical shifts in human lifestyle and consumption than through large-scale technocentric geoengineering?",
+            "order": 2,
+            "markscheme": "* **understanding concepts and terminology** of ecocentrism (lifestyle/consumption focus), technocentrism (geoengineering/innovation), anthropocentrism; mitigation vs. adaptation; carbon footprint; degrowth; renewable energy transition; carbon capture and storage (CCS); stratospheric aerosol injection; ocean fertilization; afforestation; circular economy; resource efficiency, etc.;\n* **breadth in addressing and linking** the efficacy of changing human behaviors (e.g., plant-based diets, reduced travel, minimalism) versus high-tech interventions (e.g., solar radiation management, atmospheric carbon removal) across different societal and economic contexts;\n* **examples** of behavioral shifts (e.g., the \"flight shame\" movement, urban cycling infrastructure in Copenhagen) and technocentric proposals (e.g., the Orca carbon capture plant in Iceland, proposed marine cloud brightening projects);\n* **balanced analysis** evaluating the feasibility, scalability, and risks of both approaches; for instance, the risk of \"moral hazard\" associated with geoengineering versus the political and cultural resistance to radical lifestyle changes;\n* **a conclusion that is consistent with, and supported by, analysis and examples given** e.g., \"while geoengineering may provide a necessary emergency buffer against tipping points, only a fundamental shift in societal values and consumption patterns can address the root cause of the climate crisis\u2014the unsustainable pursuit of infinite growth on a finite planet\";\n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| 1\u20133 | The response contains:\u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| 4\u20136 | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| 7\u20139 | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "29fd64fb-d2c5-45fb-a8be-30db24d05aed",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-17N.2.SL.TZ0.6",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T10:41:08.574Z",
+            "resultId": 6317
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30604,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.3 Solid waste > 7.3B Waste disposal and management",
+              "title": "7.3B Waste disposal and management",
+              "labeledAt": "2026-03-05T08:15:04.699Z",
+              "reasoning": "Part (c) explicitly asks for an evaluation of the three levels of the pollution management model as applied specifically to solid domestic waste (SDW).",
+              "confidence": 0.95
+            },
+            {
+              "id": 30580,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1I Natural resource insecurity and security (HL)",
+              "title": "7.1I Natural resource insecurity and security (HL)",
+              "labeledAt": "2026-03-05T08:15:04.699Z",
+              "reasoning": "Part (b) focuses on how inequitable distribution of resources leads to conflict, which is a core theme in natural resource security and insecurity (Topic 7.1I).",
+              "confidence": 0.9
+            },
+            {
+              "id": 30574,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1C Natural capital",
+              "title": "7.1C Natural capital",
+              "labeledAt": "2026-03-05T08:15:04.699Z",
+              "reasoning": "Part (a) directly asks for an outline of the reasons why natural capital is considered dynamic in nature, which is a specific syllabus requirement for Topic 7.1C.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1693763,
+        "parts": [
+          {
+            "id": 1155990,
+            "content": "Outline the reasons why natural capital has a dynamic nature.",
+            "order": 0,
+            "markscheme": "_Award <marks>1 mark</marks> for each correct reason and/or example, up to <marks>4 marks max</marks>. N.B. Credit may be allowed for alternative examples of equivalent validity, detail and relevance_.\n\n- the value and status of natural capital may vary regionally;  \n_eg_ cork may be highly valued in areas where grapes for wine are grown;  \n- the value may also vary over time;  \n_eg_ cork has been used for millennia as bottle stoppers for wine and other products but in the last 20 years its value has decreased as other resources have been used to seal wine bottles;  \n- the value may vary due to other reasons, _eg_ social/political;  \n_eg_ uranium\u2019s value decreased quickly after the Fukushima nuclear disaster when public pressure led to several countries declaring they would phase out nuclear power;  \n- the value may vary due to environmental/technological reasons;  \n_eg_ lithium\u2019s value has increased as it is used to make batteries for electric cars and personal devices;",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155991,
+            "content": "Explain how the inequitable distribution of natural resources can lead to conflict.",
+            "order": 1,
+            "markscheme": "- Natural resources like water/food/productive land/fossil fuel/ore deposits are distributed unequally around the globe, with some countries having an abundance while others face scarcity. This inequitable distribution can lead to conflict, as countries with limited resources may invade others to access their resources. For example, conflicts have arisen over ore deposits in Congo and Afghanistan. <marks>1 mark</marks>\n\n- Inequalities in resource distribution can also arise within societies due to factors such as overconsumption, population growth, lack of technology (agricultural/extraction/mining), or unsustainable development. Changes in surroundings, such as climatic change, international politics, economics, war, or embargoes, can further exacerbate these inequalities. <marks>1 mark</marks>\n  - For instance, the food price crisis in 2008 caused protests, riots, and political, economic, and social unrest in both less economically developed countries (LEDCs) and more economically developed countries (MEDCs). <marks>1 mark</marks>\n  - Additionally, water scarcity due to climate change in Syria is argued to be a major cause of the civil war in 2011. <marks>1 mark</marks>\n\n- Conflicts often arise when a resource is shared across national borders, such as water storages or oil deposits. For example, the sharing of the Nile's water resources between Ethiopia, Sudan, and Egypt has been a source of tension. <marks>1 mark</marks>\n\n- Inequalities in energy and fuel reserves are particularly significant for a country's economics and national security, leading to and promulgating many conflicts in regions like the Middle East. <marks>1 mark</marks>\n\n- Conflicts can also occur between constituencies within a country, such as social classes, ethnic groups, or resentments over government regulations, bans, taxation, or private ownership versus public ownership. For instance, conflicts may arise when the cost of clean water is prohibitive for lower social classes. <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for any argument/valid example connecting unequal resource distribution to conflict. Allow a maximum of <marks>4 marks</marks> for outlining inequality in resource distribution without clear reference to how it leads to conflict.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155992,
+            "content": "The management of a resource can impact the production of solid domestic waste.\n\nTo what extent have the three levels of the pollution management model been successfully applied to the management of solid domestic waste?",
+            "order": 2,
+            "markscheme": "_The following guide for using the markbands suggests certain features that may be offered in responses. The five headings coincide with the criteria given in each of the markbands (although \u201cESS terminology\u201d has been conflated with\u201cUnderstanding concepts\u201d). This guide simply provides some possible inclusions and should not be seen as requisite or comprehensive. It outlines the kind of elements to look for when deciding on the appropriate markband and the specific mark within that band._\n\n_Answers may include_:\n\n*   **understanding concepts and terminology** of pollution management model and its \u201cthree levels\u201d _ie_ A. altering human activity/reducing production, B. regulating/limiting release, C. clean-up/restoration, economic incentives/disincentives, legislation, emission standards, pollutant extraction, habitat restoration, solid domestic waste, e-waste, hazardous waste, reduce/reuse/recycle, landfills, incineration, composting, biodegradable/non-biodegradable, zero-waste, waste to energy, _etc_\n*   **breadth in addressing and linking** different levels with each other and with relevant management strategies to each _ie_ A. educational campaigns/legislation for reduced packaging/non-biodegradable products, product longevity, _etc_ and B. promotion of reuse/recycling, composting, landfills, incineration, waste to energy schemes, _etc_ and C. landfill reclamation, litter collection, bioremediation, detoxification of hazardous waste, restocking,_etc_\n*   **examples** of specific schemes _eg_ A. tax on plastic bags/waste collection (_eg_ Germany/Rwanda), San Francisco zero waste by 2020, rewards for low-waste manufacturing, B. government waste to energy schemes, sponsored recycling schemes, C. mining landfills to remove hazardous waste (_e.g._ Switzerland), clean-up schemes for Pacific Garbage Patch, _etc_\n*   **balanced analysis** of the success or otherwise i.e. relative strengths & weaknesses of a range of strategies from all three levels of the pollution management model acknowledging relevant counterarguments/alternative viewpoints.\n*   **a conclusion that is consistent with, and supported by, analysis and examples given** _eg_ \u201cLogically, it must be most effective to manage waste at the first level which prevents problems arising but, due to the inevitable inertia in changing people\u2019s perceptions, values and activities, more is currently being successfully achieved through the next two levels.\u201d _NB This is only an example of a possible conclusion. Candidates\u2019 conclusions do not have to agree._\n\n_Please refer to paper 2 markbands, available under the 'your tests' tab > supplemental materials_",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "40b9d98e-891f-44cc-8e64-298baff2084f",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-40b9d98e-891f-44cc-8e64-298baff2084f-1771929956947",
+            "generatedAt": "2026-02-24T10:47:20.275Z",
+            "sourceRevisionId": 1109338
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30604,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.3 Solid waste > 7.3B Waste disposal and management",
+              "title": "7.3B Waste disposal and management",
+              "labeledAt": "2026-03-06T05:41:14.564Z",
+              "reasoning": "Parts (b) and (c) focus on evaluating strategies for managing non-biodegradable plastic waste, aligning with solid waste disposal and management approaches and decision-making.",
+              "confidence": 0.82
+            },
+            {
+              "id": 30147,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.4 Water pollution > 4.4A Water pollution",
+              "title": "4.4A Water pollution",
+              "labeledAt": "2026-03-06T05:41:14.564Z",
+              "reasoning": "Plastic waste in marine ecosystems is a form of water pollution; part (a) asks about point vs non-point sources and examples, which fits general water pollution concepts.",
+              "confidence": 0.74
+            },
+            {
+              "id": 30153,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.4 Water pollution > 4.4G Water quality management (HL)",
+              "title": "4.4G Water quality management (HL)",
+              "labeledAt": "2026-03-06T05:41:14.564Z",
+              "reasoning": "Part (b) explicitly uses the pollution management model to evaluate management strategies; this maps to water quality management/management frameworks for pollution control.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1688646,
+        "parts": [
+          {
+            "id": 1150574,
+            "content": "Compare the characteristics of point source pollution and non-point source pollution, providing a named example for each.",
+            "order": 0,
+            "markscheme": "- point source pollution is released from a single, clearly identifiable site/origin;\n...whereas non-point source pollution is released from numerous widely dispersed origins;\n\n- point source is generally easier to monitor/control/attribute legal responsibility to;\n...whereas non-point source is difficult to monitor as it may combine from many sources (e.g., runoff);\n\n- point source example: a factory chimney/effluent pipe discharging into a river/a specific oil well leak;\n\n- non-point source example: nitrogen runoff from multiple agricultural fields across a watershed/exhaust emissions from all vehicles in a city/microplastics from domestic synthetic clothing wear;\n\n<Note> Award <marks>1 mark max</marks> for each distinct point of comparison (up to <marks>2 marks</marks>). Award <marks>1 mark</marks> for a valid example of point source and <marks>1 mark</marks> for a valid example of non-point source._",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150575,
+            "content": "Using the pollution management model, evaluate strategies to manage the impact of non-biodegradable plastic waste in marine ecosystems.",
+            "order": 1,
+            "markscheme": "**Altering human activity (Replace)**\n- Educational campaigns to discourage single-use plastics <marks>1 mark</marks>\n- Legislation/taxes on plastic bags or straws to reduce consumption <marks>1 mark</marks>\n- Development of biodegradable alternatives/bioplastics <marks>1 mark</marks>\n- _Evaluation_: Addresses the root cause but requires significant cultural shift and may be slow to show results <marks>1 mark</marks>\n\n**Controlling release at source (Regulate)**\n- Improving municipal waste management/recycling infrastructure to prevent leakage into waterways <marks>1 mark</marks>\n- Implementing circular economy models where manufacturers are responsible for plastic recovery <marks>1 mark</marks>\n- _Evaluation_: Effective in urban areas but expensive for LEDCs to implement and does not address plastics already in the system <marks>1 mark</marks>\n\n**Clean-up and Restoration (Remediate)**\n- Large-scale ocean cleanup projects (e.g., using booms to collect surface plastic) <marks>1 mark</marks>\n- Community-led beach cleaning initiatives <marks>1 mark</marks>\n- _Evaluation_: Highly visible and removes immediate threats to wildlife, but is the most expensive/least efficient and does not stop the flow of new pollutants <marks>1 mark</marks>\n\n<note> Award 7 marks max. To achieve full marks, at least one strategy from each level of the model must be evaluated.",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150576,
+            "content": "\u201cThe success of pollution management is determined more by cultural and economic factors than by the availability of technological solutions.\u201d To what extent do you agree with this statement?",
+            "order": 2,
+            "markscheme": "_Refer to paper 2 markbands._\n\n_Answers may include:_\n\n*   **Understanding concepts and terminology**: pollution management model (replace, regulate, restore); Environmental Value Systems (EVS) (technocentric, anthropocentric, ecocentric); circular economy; sustainability; tragedy of the commons; LEDCs vs MEDCs; persistent vs biodegradable pollutants.\n*   **Breadth in addressing and linking**: how economic development (GDP) influences a country's priority (Environment vs Industry); how cultural attitudes (e.g., consumerism vs minimalism) drive waste production; the role of technology in monitoring (satellites) and remediation (renewables).\n*   **Examples**: contrast between recycling success in Northern Europe (cultural/economic) vs plastic pollution in rapidly industrializing nations; the use of DDT (economic trade-off between malaria and environment); the transition to electric vehicles (technological availability vs economic subsidies/infrastructure).\n*   **Balanced analysis**: \n    *   _Support for statement_: even where technology exists (e.g., carbon capture, advanced recycling), high costs may prevent adoption in LEDCs. Cultural resistance to changing diets or transport habits can stall management regardless of tech.\n    *   _Counter-argument_: without technology (e.g., scrubbers, renewable energy tech, GPS monitoring), even a willing culture cannot effectively reduce certain pollutants. Technology can drive down costs, making management economically feasible over time.\n*   **Conclusion**: Should summarize the relative importance of both. For example, technology provides the tools, but cultural and economic frameworks provide the will and the means to use them. In many cases, the most effective management occurs when economic incentives (taxes/subsidies) align with cultural values and technological capability.",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "49f7250d-f4dd-4bb6-b094-53d20e068e00",
+        "specification": "There are increasing concerns of carbon dioxide emissions and its relationship to climate change.\n\n**Figure 1: CO2 emissions of select countries in 2007 and 2030 (Projected)**\n\n![Image](https://pub-images.revisiondojo.com/question-images/47aa86b5-8831-48f8-a160-711829ef964f)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-17M.2.SL.TZ0.3",
+          "labeledSubSubTopics": [
+            {
+              "id": 30544,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.3 Climate change - mitigation and adaptation > 6.3A Mitigation and adaptation strategies ",
+              "title": "6.3A Mitigation and adaptation strategies ",
+              "labeledAt": "2026-03-07T17:38:25.124Z",
+              "reasoning": "Parts (b), (d), and (e) explicitly ask about mitigation vs adaptation and examples of strategies to reduce impacts and emissions.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30530,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2A Climate and anthropogenic GHG emissions",
+              "title": "6.2A Climate and anthropogenic GHG emissions",
+              "labeledAt": "2026-03-07T17:38:25.124Z",
+              "reasoning": "Parts (a) and (c) concern anthropogenic CO2 emissions trends by country and how CO2 (a GHG) drives climate change.",
+              "confidence": 0.82
+            },
+            {
+              "id": 30523,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.1 Introduction to the atmosphere  > 6.1C Greenhouse effect",
+              "title": "6.1C Greenhouse effect",
+              "labeledAt": "2026-03-07T17:38:25.124Z",
+              "reasoning": "Part (c) asks for the mechanism by which increased CO2 changes global climate, i.e., enhanced greenhouse effect.",
+              "confidence": 0.74
+            },
+            {
+              "id": 30531,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2B Climate change",
+              "title": "6.2B Climate change",
+              "labeledAt": "2026-03-07T17:38:25.124Z",
+              "reasoning": "Overall framing is climate change causes/impacts and emissions projections; connects CO2 emissions to global climate change broadly.",
+              "confidence": 0.63
+            }
+          ]
+        },
+        "currentRevisionId": 1645446,
+        "parts": [
+          {
+            "id": 1141079,
+            "content": "Identify **two** possible reasons for China's projected change in CO2 emissions.",
+            "order": 0,
+            "markscheme": "- Growing number of fossil-fuelled vehicles/transport <marks>1 mark</marks>\n- Rapidly advancing economy/standard of living <marks>1 mark</marks>\n- Increase in fossil-fuelled power plants / increased industrialization <marks>1 mark</marks>\n- Increase in intensive/mechanized farming systems (in place of traditional) <marks>1 mark</marks>\n- Burning of forests to clear land for agriculture <marks>1 mark</marks>\n\n<note>Accept any other reasonable suggestions. Award <marks>1 mark</marks> for each correct reason identified, up to <marks>2 max</marks></note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1141080,
+            "content": "Discuss how the ability to implement mitigation and adaptation strategies may vary from one country to another.",
+            "order": 1,
+            "markscheme": "Award <marks>1 mark</marks> for each correct explanation, up to <marks>4 max</marks>.\n\n- Political will/pressure for change may differ due to some countries being more/less committed to their industrial lifestyles/economic growth / inhibited through political corruption\n- Finance/economics may/may not allow some countries to fund new technologies/infrastructures\n- Some countries may depend upon others for knowledge transfer/technological assistance to implement resolutions\n- Religious/political/cultural norms/education in some countries may promote/limit their perception of environmental threats/approach to management\n- Geographical location of some countries may place them at greater/more immediate risk from impacts of climate change (_e.g._ low-lying islands/tropical storm-prone nations) / or offer them greater opportunities for mitigation (_e.g._ available sources of alternative energy)\n- Some countries may perceive greater immediate priorities _e.g._ war in Syria/poverty in Somalia\n\n\n<note>Accept other valid explanations of equivalent validity.</note>\n<note>Do not accept e.g. \"Economics\" alone without an explanatory note.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1141081,
+            "content": "Outline how CO2 emissions may cause a change in the global climate.",
+            "order": 2,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following (<marks>2 marks max</marks>):\n\n-  CO2 emissions (lead to higher concentration) of CO2 which is a greenhouse gas <marks>1 mark</marks>\n- Causing greater absorption of infra-red/heat radiation and rise in global temperature <marks>1 mark</marks>  \n- Leading to increased evaporation/changing winds/shifting patterns of precipitation/droughts/extreme weather events/storms/hurricanes/El Ni\u00f1o. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1141082,
+            "content": "Identify **one** adaptation strategy that can be used to reduce the impacts of climate change.",
+            "order": 3,
+            "markscheme": "Award <marks>1 mark max</marks> for any of the following:\n\n- Flood defences (_e.g._ levees/dikes) <marks>1 mark</marks>\n- Desalinization plants to replace freshwater losses <marks>1 mark</marks>  \n- Planting of crops in previously unsuitable areas <marks>1 mark</marks>\n- Water conservation (_e.g._ restrictions on use of irrigation/sprinklers) <marks>1 mark</marks>\n- Exploiting areas that have become more productive for crops through climate change <marks>1 mark</marks>\n- Developing (_e.g._ drought-resistant) crops better adapted to areas impacted by climate change <marks>1 mark</marks>\n- Green roof system that cools the building through evapotranspiration/reflection <marks>1 mark</marks>\n\n<note>Accept any other reasonable suggestions.</note>  \n<note>Some strategies can be acknowledged as both adaptive and mitigating e.g. a \"green roof\" both reduces impact of climate change by cooling the building (adaptation) and reduces cause of climate change by reducing C emission (mitigation). Such suggestions should not be credited unless the link to reducing impact is made clear.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1141083,
+            "content": "Identify **one** reduction strategy the United States might use to achieve its projected change in CO2 emissions.",
+            "order": 4,
+            "markscheme": "Award <marks>1 mark max</marks> for any of the following:\n\n- Implementing carbon pricing/taxes on fossil fuel emissions to incentivize a shift towards renewable energy sources <marks>1 mark</marks>\n- Increasing investment and subsidies for renewable energy sources like solar, wind, and hydroelectric power <marks>1 mark</marks>  \n- Promoting energy efficiency measures in industries and buildings through regulations and incentives <marks>1 mark</marks>\n- Transitioning towards electric vehicles and improving public transportation infrastructure <marks>1 mark</marks>\n- Implementing carbon capture and storage (CCS) technologies in power plants and industrial facilities <marks>1 mark</marks>\n- Encouraging reforestation and afforestation programs to increase carbon sinks <marks>1 mark</marks>\n\n<note>Accept any other reasonable suggestions explicitly linked to reducing carbon emissions.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "557cb63c-6d2b-4ffa-9edd-c180a93a195a",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30596,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2D Energy security (HL)",
+              "title": "7.2D Energy security (HL)",
+              "labeledAt": "2026-03-06T15:38:43.166Z",
+              "reasoning": "Part (a) explicitly asks for ways a country can increase its energy security.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30639,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.3 Urban air pollution > 8.3C Photochemical smog (HL)",
+              "title": "8.3C Photochemical smog (HL)",
+              "labeledAt": "2026-03-06T15:38:43.166Z",
+              "reasoning": "Part (b) is directly about photochemical smog: factors causing it and its impacts on societies.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30628,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.2 Urban systems and urban planning > 8.2E Sustainable urban systems (HL)",
+              "title": "8.2E Sustainable urban systems (HL)",
+              "labeledAt": "2026-03-06T15:38:43.166Z",
+              "reasoning": "Part (c) discusses building sustainable cities; this aligns best with sustainable urban systems at HL level.",
+              "confidence": 0.72
+            },
+            {
+              "id": 38266,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3I Frameworks and models for sustainability",
+              "title": "1.3I Frameworks and models for sustainability",
+              "labeledAt": "2026-03-06T15:38:43.166Z",
+              "reasoning": "The doughnut economy is a sustainability framework/model used to guide development within social and ecological limits.",
+              "confidence": 0.63
+            },
+            {
+              "id": 30626,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.2 Urban systems and urban planning > 8.2C Urban planning",
+              "title": "8.2C Urban planning",
+              "labeledAt": "2026-03-06T15:38:43.166Z",
+              "reasoning": "Applying the doughnut economy to city building connects to urban planning approaches and policy/design choices.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 780093,
+        "parts": [
+          {
+            "id": 527911,
+            "content": "State four ways in which a country can increase its energy security.",
+            "order": 0,
+            "markscheme": "\n\n- <marks>1 mark</marks> Reducing reliance on fossil fuels/non-renewable energy to stockpile energy for future use alongside transitioning to renewable energy.\n- <marks>1 mark</marks> Diversifying range of energy options (e.g. mix of renewable sources to account for changes in climate/weather).\n- <marks>1 mark</marks> Reducing demand for energy to reduce reliance on imported energy.\n- <marks>1 mark</marks> Reducing demand for imports and shift towards local types of energy.\n\n<marks>4 marks max</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527912,
+            "content": "Describe four factors that contribute to the occurrence of photochemical smog, and the direct and indirect impact it can have on societies.",
+            "order": 1,
+            "markscheme": "### Factors contributing to photochemical smog\n\n- <marks>1 mark</marks> Presence of nitrogen oxides (NO$_{x}$) from vehicle emissions/combustion of fossil fuels.\n- <marks>1 mark</marks> Presence of volatile organic compounds (VOCs) from vehicle emissions/industrial processes.\n- <marks>1 mark</marks> Presence of sunlight/heat to initiate photochemical reactions.\n- <marks>1 mark</marks> Stagnant atmospheric conditions/lack of wind to disperse pollutants.\n\n### Direct impacts\n\n- <marks>1 mark</marks> Respiratory problems/lung irritation due to inhalation of ozone and other pollutants.\n- <marks>1 mark</marks> Damage to crops/vegetation due to exposure to ozone and other pollutants.\n\n### Indirect impacts\n\n- <marks>1 mark</marks> Increased healthcare costs due to respiratory illnesses.\n- <marks>1 mark</marks> Reduced agricultural productivity/food shortages due to crop damage.\n- <marks>1 mark</marks> Economic losses due to reduced productivity of workforce/absenteeism.\n\n<note>Maximum 7 marks</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527913,
+            "content": "Discuss the use of the doughnut economy model in building sustainable cities.",
+            "order": 2,
+            "markscheme": "### Describing the doughnut economy model\n- The doughnut economy model has two boundaries:\n  - An inner boundary representing the social foundation below which lie shortfalls in areas like food, water, housing, education, energy, etc. <marks>1 mark</marks>\n  - An outer boundary representing the ecological ceiling beyond which lies environmental stress from climate change, biodiversity loss, etc. <marks>1 mark</marks>\n\n### Using the model for sustainable cities\n- The model aims to create an economy that meets the needs of all people within the boundaries of the planet. <marks>1 mark</marks>\n- For sustainable cities, it means providing essential services and infrastructure to meet social needs (inner boundary) $$ \\text{while minimizing ecological footprint (outer boundary).} $$<marks>2 marks</marks>\n\n### Examples of application\n- Investing in affordable housing, public transport, renewable energy to meet social needs sustainably. <marks>1 mark</marks>\n- Promoting circular economy, green spaces, sustainable urban planning to reduce environmental impact. <marks>1 mark</marks>\n- Involving community in decision making to ensure inclusive development. <marks>1 mark</marks>\n\n<note>Responses should cover both boundaries of the model and how they can be applied in an urban context for sustainability.</note>\n\n<marks>9 marks max</marks>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "5f108db7-a6d6-44c1-8b37-5e8a522f483d",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30577,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1F Environmental impact assessment (HL)",
+              "title": "7.1F Environmental impact assessment (HL)",
+              "labeledAt": "2026-03-06T15:39:19.910Z",
+              "reasoning": "Part (a) explicitly asks about baseline studies within an Environmental Impact Assessment (EIA).",
+              "confidence": 0.9
+            },
+            {
+              "id": 30593,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2A Energy sources, global energy consumption and energy choices",
+              "title": "7.2A Energy sources, global energy consumption and energy choices",
+              "labeledAt": "2026-03-06T15:39:19.910Z",
+              "reasoning": "Part (b) discusses sustainability of renewable energy choices and trade-offs, fitting energy sources and energy choices.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30596,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2D Energy security (HL)",
+              "title": "7.2D Energy security (HL)",
+              "labeledAt": "2026-03-06T15:39:19.910Z",
+              "reasoning": "Part (c) directly addresses how atmospheric change affects energy sources and the implications for energy security.",
+              "confidence": 0.8
+            },
+            {
+              "id": 38262,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3E Environmental justice and inequality",
+              "title": "1.3E Environmental justice and inequality",
+              "labeledAt": "2026-03-06T15:39:19.910Z",
+              "reasoning": "Part (b) explicitly refers to environmental justice and unequal distribution of benefits/harms from renewable energy systems.",
+              "confidence": 0.7
+            },
+            {
+              "id": 30531,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2B Climate change",
+              "title": "6.2B Climate change",
+              "labeledAt": "2026-03-06T15:39:19.910Z",
+              "reasoning": "Part (c) involves anthropogenic changes to the atmosphere (climate change drivers/impacts) affecting energy systems.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 845857,
+        "parts": [
+          {
+            "id": 527918,
+            "content": "Outline four reasons for the baseline study in an EIA (Environmental Impact Assessment).",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following (<marks>4 marks max</marks>):\n\n- <marks>1 mark</marks> To record abiotic conditions, biodiversity, key species, habitats, or resources\n- <marks>1 mark</marks> To survey the opinion, value systems, perspectives, social and economic interests of the local population\n- <marks>1 mark</marks> To research or evaluate potential impacts on ecosystems, biodiversity, or key species\n- <marks>1 mark</marks> To research or evaluate potential social or economic impacts on communities\n\n<note>The command term \"outline\" means students must give a brief account or summary.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527919,
+            "content": "Explain why renewable energies may not be sustainable and may not allow for environmental justice for all.",
+            "order": 1,
+            "markscheme": "Award <marks>1 mark</marks> for each of the relevant statements (<marks>7 marks max</marks>):\n\n- <marks>1 mark</marks> Renewable energy sources like hydroelectric dams can disrupt ecosystems and displace indigenous communities\n- <marks>1 mark</marks> Wind farms can impact bird and bat populations\n- <marks>1 mark</marks> Solar farms require large areas of land, impacting habitats\n- <marks>1 mark</marks> Mining for materials used in renewable technologies (e.g., lithium, rare earth metals) can cause environmental damage and human rights issues\n- <marks>1 mark</marks> Renewable energy infrastructure may be concentrated in certain areas, leading to unequal distribution of environmental impacts\n- <marks>1 mark</marks> The high cost of renewable energy technologies can make them inaccessible to low-income communities\n- <marks>1 mark</marks> Renewable energy projects may prioritize economic interests over environmental and social concerns",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527920,
+            "content": "To what extent are energy sources impacted by anthropogenic (human-caused) changes to the atmosphere, and how may this influence energy security?",
+            "order": 2,
+            "markscheme": "\n\n- Award <marks>1 mark</marks> for each valid way that energy sources are impacted by anthropogenic changes to the atmosphere, up to a maximum of <marks>5 marks</marks>. Possible impacts include:\n  - Climate change affecting availability/reliability of renewable energy sources like solar, wind, hydropower\n  - Rising temperatures reducing efficiency of thermal power plants\n  - Air pollution affecting solar panel efficiency\n  - Sea level rise threatening coastal energy infrastructure\n\n- Award up to <marks>4 marks</marks> for explaining how these impacts may influence energy security:\n  - <marks>1 mark</marks> for decreased reliability/availability of energy supply\n  - <marks>1 mark</marks> for increased costs of energy production/distribution\n  - <marks>1 mark</marks> for increased vulnerability of energy infrastructure\n  - <marks>1 mark</marks> for increased dependence on imported energy sources\n\n<note>Responses should address both parts of the question: impacts on energy sources and implications for energy security.</note>\n\n<marks>9 marks max</marks>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6d305fa7-5dd1-4c8f-bcbe-07ea26e5e11a",
+        "specification": "**Figure 1: Fact file on Iceland**\n\n- Covers a land area of 103,000 $\\mathrm{km}^2$.\n- Characterized by mountainous and volcanic terrain.\n- As an isolated island, it has low biological diversity and few endemic species.\n- Only $0.7 \\%$ of the land is arable, with harsh climatic conditions limiting agriculture to livestock farming and geothermally-heated greenhouses.\n- Reykjavik, the capital city, is home to $60 \\%$ of the population.\n- The total fertility rate is two children per woman.\n- Key industries include fishing, aluminum smelting, and tourism.\n- The ecological footprint is 7.4 GHa , significantly higher than the global average of 2.6 GHa .\n- A high-income nation with a representative democracy, ranked 13 th on the Human Development Index.\n- Severely impacted by the 2008 global financial crisis.\n- Hydroelectric and geothermal energy sources supply $85 \\%$ of its primary energy.\n- Aims to achieve full energy independence with $100 \\%$ renewable energy by 2050.\n- The government has recently approved oil exploration in Icelandic waters by oil companies.\n\nSource: Open access/Wikipedia\n\n**Figure 2: Graph showing primary energy consumption in Iceland 1940\u20132008**\n\n![Image](https://pub-images.revisiondojo.com/question-images/5f8c11c7-f916-455b-a53e-1f08aec04c14)\n\nSource: https://www.sciencedirect.com/science/article/abs/pii/S0301421509007721\n\n\n",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-17N.1.SL.TZ0.6",
+          "labeledSubSubTopics": [
+            {
+              "id": 30593,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2A Energy sources, global energy consumption and energy choices",
+              "title": "7.2A Energy sources, global energy consumption and energy choices",
+              "labeledAt": "2026-03-05T16:46:38.806Z",
+              "reasoning": "The question focuses on analyzing primary energy consumption trends over time and identifies specific energy sources used by a nation, directly falling under global energy consumption and energy choices.",
+              "confidence": 0.98
+            },
+            {
+              "id": 30597,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2E Global economy and fossil fuels (HL)",
+              "title": "7.2E Global economy and fossil fuels (HL)",
+              "labeledAt": "2026-03-05T16:46:38.806Z",
+              "reasoning": "Part b requires linking a decline in energy demand to the 2008 global financial crisis, demonstrating the relationship between the global economy and energy use patterns.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1162149,
+        "parts": [
+          {
+            "id": 867560,
+            "content": "With reference to **Figure 2** outline how Iceland\u2019s primary energy consumption has changed over time.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following (<marks>2 marks max</marks>):\n\n- the energy consumption has increased overtime (from 1940 to 2008);  \n- in 1940s/initially energy consumption was reliant mainly on coal;  \n- in 2008/more recently it was predominantly reliant on geothermal/renewable energy/ has relatively little reliance on fossil fuels/coal/overtime it has changed from being mainly coal/fossil fuels/non-renewable to geothermal/renewable energy;  \n- from around 1940-1970 there is a steady growth in consumption/greater use of oil and geothermal;  \nfrom 2004/05 there is a rapid increase in consumption/expansion of geothermal and hydropower;\n\n_Accept other responses that correctly link the change in growth in energy or the balance of energy sources to the time period_.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 867561,
+            "content": "With reference to **Figure 1** outline **two** possible reasons why energy demand declined in Iceland after 2008.",
+            "order": 1,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following (<marks>2 marks max</marks>):\n\n- economic crisis in 2008 led to industrial decline /reduction of demand for aluminium world-wide;  \n- following economic crisis, households had less money/tighter budgets and therefore reduced energy use;  \n- industry accounts for the largest share of energy consumption (40 %);  \n- deliberate efforts to reduce consumption through energy conservation\n\n_Do not accept only \u20182008 economic crisis has led to reduction in energy demand\u2019 without explanation or \u2018emigration could reduce energy demand'_.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cd3b7d6e-0397-4b06-8703-05f36569cdce",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30595,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2C Energy conservation and energy efficiency",
+              "title": "7.2C Energy conservation and energy efficiency",
+              "labeledAt": "2026-03-05T16:50:06.603Z",
+              "reasoning": "Part (a) explicitly asks for examples of energy conservation and energy efficiency strategies, which are the core components of this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 30544,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.3 Climate change - mitigation and adaptation > 6.3A Mitigation and adaptation strategies ",
+              "title": "6.3A Mitigation and adaptation strategies ",
+              "labeledAt": "2026-03-05T16:50:06.603Z",
+              "reasoning": "Part (c) discusses the transition to low-carbon technologies as a form of climate change mitigation, specifically focusing on the societal factors that influence these strategies.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30058,
+              "isHl": true,
+              "path": "Topic 3: Conservation and biodiversity > 3.1 Biodiversity and evolution > 3.1G Earth history and the Anthropocene (HL)",
+              "title": "3.1G Earth history and the Anthropocene (HL)",
+              "labeledAt": "2026-03-05T16:50:06.603Z",
+              "reasoning": "Part (b) requires explaining the historical interaction between the atmosphere's composition and the evolution of life, which is covered under Earth's history and the evolution of biological diversity.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30593,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2A Energy sources, global energy consumption and energy choices",
+              "title": "7.2A Energy sources, global energy consumption and energy choices",
+              "labeledAt": "2026-03-05T16:50:06.603Z",
+              "reasoning": "Part (c) also relates to energy choices, where political, geographic, and economic factors dictate a society's selection of energy sources.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 813703,
+        "parts": [
+          {
+            "id": 527937,
+            "content": "Outline one example of a strategy for energy conservation and one example of a strategy for energy efficiency.",
+            "order": 0,
+            "markscheme": "### Energy conservation strategy\n- Turning off lights/appliances when not in use <marks>1 mark</marks>\n- Using public transport/walking/cycling instead of private vehicles <marks>1 mark</marks>\n- Reducing heating/cooling in buildings <marks>1 mark</marks>\n\n### Energy efficiency strategy\n- Using LED light bulbs instead of incandescent bulbs <marks>1 mark</marks>\n- Installing double/triple glazed windows <marks>1 mark</marks>\n- Using energy efficient appliances with high energy star ratings <marks>1 mark</marks>\n\n<note>Award 1 mark for each valid strategy outlined, up to a maximum of 2 marks for conservation and 2 marks for efficiency.</note>\n\n<marks>4 marks max</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527938,
+            "content": "Explain how the interaction between the composition of the atmosphere and life on Earth influences evolution.",
+            "order": 1,
+            "markscheme": "\n\n- Atmospheric composition influences evolution through natural selection <marks>1 mark</marks>\n  - Organisms better adapted to atmospheric conditions have higher fitness / reproductive success <marks>1 mark</marks>\n  - Example: Organisms that can use available gases (e.g. oxygen, carbon dioxide) more efficiently are selected for <marks>1 mark</marks>\n\n- Life on Earth influences atmospheric composition through biological processes <marks>1 mark</marks>\n  - Example: Photosynthesis by plants/algae increases oxygen levels and decreases carbon dioxide levels <marks>1 mark</marks>\n  - Example: Respiration by organisms increases carbon dioxide levels and decreases oxygen levels <marks>1 mark</marks>\n\n- Changes in atmospheric composition exert selective pressures, driving evolution <marks>1 mark</marks>\n  - Example: Increased oxygen levels allowed evolution of more complex aerobic organisms <marks>A1</marks>\n\n<marks>7 marks max</marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527939,
+            "content": "Using named examples, discuss how political, environmental, geographic, and economic factors influence societies when switching to low-carbon technologies.",
+            "order": 2,
+            "markscheme": "### Political factors\n- Government policies and regulations <marks>1 mark</marks>\n  - Carbon taxes, emissions trading schemes incentivize low-carbon technologies\n  - Subsidies and tax credits for renewable energy, electric vehicles, etc.\n- Political will and public support <marks>1 mark</marks>\n  - Example: Germany's Energiewende policy to transition to renewable energy\n\n### Environmental factors\n- Concerns about climate change and pollution <marks>1 mark</marks>\n  - Driving adoption of clean technologies to reduce greenhouse gas emissions\n- Availability of renewable energy sources <marks>1 mark</marks>\n  - Example: Countries with high solar/wind potential can more easily adopt solar/wind power\n\n### Geographic factors\n- Availability of land for renewable energy projects <marks>1 mark</marks>\n  - Example: Densely populated areas may have limited space for wind farms or solar farms\n- Distance from energy sources <marks>1 mark</marks>\n  - Example: Remote communities may find it harder to connect to national grids\n\n### Economic factors\n- Upfront costs of low-carbon technologies <marks>1 mark</marks>\n  - Example: High costs of solar panels, wind turbines, electric vehicles can be a barrier\n- Long-term cost savings and economic benefits <marks>1 mark</marks>\n  - Example: Renewable energy can reduce dependence on imported fossil fuels\n- Availability of financing and investment <marks>1 mark</marks>\n  - Example: Government incentives or private investment can facilitate adoption\n\n<note>Award up to <marks>3 marks</marks> for each factor discussed, with named examples. </note>\n<marks>9 marks in total</marks>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d08a278a-eca7-451c-8261-1838561b1e67",
+        "specification": "Topic 1.4: Sustainability",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d08a278a-eca7-451c-8261-1838561b1e67-1771929956947",
+            "generatedAt": "2026-02-26T05:51:15.409Z",
+            "sourceRevisionId": 1137003
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 38263,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3F Sustainability indicators",
+              "title": "1.3F Sustainability indicators",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "The question asks about Ecological Footprint categories and evaluates EF as a measure of national sustainability, which are sustainability indicators.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30577,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1F Environmental impact assessment (HL)",
+              "title": "7.1F Environmental impact assessment (HL)",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "Part (a) explicitly asks for the essential stages of an Environmental Impact Assessment (EIA) and its role in sustainable decision-making.",
+              "confidence": 0.84
+            },
+            {
+              "id": 38264,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3G Biocapacity",
+              "title": "1.3G Biocapacity",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "Ecological Footprint calculations are interpreted relative to biocapacity, and evaluating EF accuracy commonly involves comparing EF to a nation\u2019s biocapacity.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1685347,
+        "parts": [
+          {
+            "id": 1146068,
+            "content": "State **four** specific categories of land or water use that are incorporated into the calculation of an Ecological Footprint (EF).",
+            "order": -1,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following up to a maximum of <marks>4 marks</marks>:\n\n1.  **Arable land:** Land required for growing food crops for human consumption or animal feed.\n2.  **Pasture land:** Land used for grazing livestock for meat, dairy, or wool production.\n3.  **Forest land:** Land required to provide timber products, pulp, and fuel wood.\n4.  **Carbon footprint (Carbon uptake land):** The amount of forest land required to sequester the carbon dioxide emissions produced by fossil fuel combustion.\n5.  **Built-up land:** Land occupied by infrastructure, including housing, transport, and industrial sites.\n6.  **Fishing grounds:** Area of marine and inland water required to support the sustainable harvest of fish and seafood.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146069,
+            "content": "Outline the essential stages of an Environmental Impact Assessment (EIA) and its role in sustainable decision-making.",
+            "order": 0,
+            "markscheme": "### Outline the essential stages and role of an EIA\n\n- **Baseline study:** Conducting an initial survey of the site to establish the current state of the environment (biotic and abiotic factors) before any development begins. <marks>1 mark</marks>\n- **Identification of impacts:** Predicting the potential positive and negative environmental consequences of the proposed project. <marks>1 mark</marks>\n- **Mitigation strategies:** Proposing measures to avoid, reduce, or compensate for the negative impacts identified. <marks>1 mark</marks>\n- **Assessment of alternatives:** Comparing the proposed project with alternative designs or locations to find the least damaging option. <marks>1 mark</marks>\n- **Public consultation:** Involving local communities and stakeholders to ensure social concerns and local knowledge are considered. <marks>1 mark</marks>\n- **Reporting:** Producing a formal Environmental Impact Statement (EIS) for decision-makers to review before granting or denying permission. <marks>1 mark</marks>\n- **Monitoring:** Establishing a plan to track environmental changes during and after construction to ensure mitigation measures are effective. <marks>1 mark</marks>\n\n<note>Award a maximum of <marks>7 marks</marks> for this question.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146070,
+            "content": "To what extent does the use of the 'Ecological Footprint' (EF) provide an accurate measure of a nation's sustainability?",
+            "order": 1,
+            "markscheme": "### Arguments that EF is an accurate/useful measure\n\n- It provides a simple, quantitative model that is easy for the public and policymakers to understand. <marks>1 mark</marks>\n- It allows for direct comparison between a population's consumption and the available biocapacity of their region/country. <marks>1 mark</marks>\n- It highlights 'ecological overshoot,' where a population's demand exceeds the earth's regenerative capacity. <marks>1 mark</marks>\n- It accounts for the indirect land use required for carbon sequestration, linking consumption to climate change. <marks>1 mark</marks>\n- It provides a standardized metric that allows for global comparisons between different countries and lifestyles. <marks>1 mark</marks>\n\n### Limitations of EF as an accurate measure\n\n- It is a simplified model that does not account for many types of pollution, such as toxic chemical releases or plastic waste. <marks>1 mark</marks>\n- It does not measure the depletion of non-renewable resources (e.g., minerals, ores) until they result in land use or carbon emissions. <marks>1 mark</marks>\n- It often ignores the complexity of ecosystem services that do not have a direct 'land area' equivalent (e.g., pollination, water purification). <marks>1 mark</marks>\n- It assumes that all land types (e.g., forest vs. pasture) are used at a sustainable yield, which may not be true in practice. <marks>1 mark</marks>\n- Data quality varies significantly between countries, which can lead to inaccuracies in the calculated footprint. <marks>1 mark</marks>\n\n<note>Award a maximum of <marks>9 marks</marks> for a balanced discussion of both the strengths and limitations of the Ecological Footprint as a model.</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d0a0f5c9-5a5b-4dd5-b4c2-0131f0ee87a5",
+        "specification": "Foundations of Environmental Systems and Societies (ESS): Topic 1.4 Sustainability",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d0a0f5c9-5a5b-4dd5-b4c2-0131f0ee87a5-1771929956947",
+            "generatedAt": "2026-02-26T05:07:29.109Z",
+            "sourceRevisionId": 1160002
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30574,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1C Natural capital",
+              "title": "7.1C Natural capital",
+              "labeledAt": "2026-03-05T16:50:12.520Z",
+              "reasoning": "Part 0 explicitly asks about the management of natural capital and natural income to ensure sustainability, which is the core focus of topic 7.1C.",
+              "confidence": 1
+            },
+            {
+              "id": 30577,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1F Environmental impact assessment (HL)",
+              "title": "7.1F Environmental impact assessment (HL)",
+              "labeledAt": "2026-03-05T16:50:12.520Z",
+              "reasoning": "Part (b) specifically requires an evaluation of the effectiveness of Environmental Impact Assessments (EIAs), which is the subject of topic 7.1F.",
+              "confidence": 1
+            },
+            {
+              "id": 38263,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3F Sustainability indicators",
+              "title": "1.3F Sustainability indicators",
+              "labeledAt": "2026-03-05T16:50:12.520Z",
+              "reasoning": "Part (a) asks about factors affecting the ecological footprint, which is a primary example of a sustainability indicator as categorized in topic 1.3F.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1685952,
+        "parts": [
+          {
+            "id": 1146614,
+            "content": "To what extent does the management of natural capital, by limiting use to the natural income generated, ensure the long-term sustainability of a society?\n\nIn your response, include references to specific examples of natural capital.",
+            "order": -1,
+            "markscheme": "### Understanding Concepts and Terminology\n- **Natural capital**: Natural resources that can produce a sustainable natural income of goods or services (e.g., a forest, a stock of fish). <marks>1 mark</marks>\n- **Natural income**: The yield, harvest, or services obtained from natural capital (e.g., timber, annual catch). <marks>1 mark</marks>\n- **Sustainability**: The use and management of resources that allows full replenishment of the resources exploited and full recovery of the ecosystems affected by their extraction and use. <marks>1 mark</marks>\n- **Sustainable development**: Development that meets the needs of the present without compromising the ability of future generations to meet their own needs. <marks>1 mark</marks>\n\n### Breadth in Addressing and Linking\n- Links the exploitation of natural capital to the depletion of the 'standing stock' if income is exceeded. <marks>1 mark</marks>\n- Links sustainable management to the maintenance of ecosystem services (e.g., carbon sequestration, water purification). <marks>1 mark</marks>\n\n### Examples\n- **Example 1**: Overfishing (e.g., Bluefin tuna or North Sea Cod) where harvesting exceeds natural income, leading to stock collapse. <marks>1 mark</marks>\n- **Example 2**: Sustainable forestry (e.g., FSC certified logging) where harvest rates match regrowth rates. <marks>1 mark</marks>\n- **Example 3**: Groundwater extraction (e.g., Ogallala Aquifer) where extraction exceeds recharge. <marks>1 mark</marks>\n\n### Balanced Analysis\n- **Supporting argument**: Limiting use to income prevents the 'Tragedy of the Commons' and ensures resources are available for the future. <marks>1 mark</marks>\n- **Counter-argument/Complexity**: It is difficult to quantify 'natural income' accurately due to dynamic environmental variables; some natural capital is non-renewable (e.g., minerals/fossil fuels) and has no 'natural income' in human timescales, meaning any use is inherently unsustainable. <marks>2 marks</marks>\n\n### Conclusion\n- Conclusion consistent with the analysis. <marks>1 mark</marks>\n  - *Example*: While limiting use to natural income is the theoretical basis for sustainability, it is practically difficult to measure, and modern societies still rely heavily on non-renewable capital which cannot be managed as 'income'.\n\n<note>Total marks: 9 marks (Max 9 from points above).</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146615,
+            "content": "Outline **four** specific factors that would cause a country\u2019s ecological footprint to be significantly higher than the global average.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each distinct factor identified and outlined; <marks>4 marks max</marks>.\n\n- **High meat consumption**: Diets rich in meat require significantly more land area for grain production and grazing compared to plant-based diets. <marks>1 mark</marks>\n- **Reliance on fossil fuels**: High carbon dioxide emissions require large areas of vegetation (forests) to sequester the carbon, increasing the 'carbon' component of the footprint. <marks>1 mark</marks>\n- **High levels of industrialization/consumption**: Results in high energy demands and high waste production, which increases the land required for resource extraction and waste assimilation. <marks>1 mark</marks>\n- **Low population density/High affluence**: Leads to greater per capita use of private transport and larger housing, which consumes more energy and land resources. <marks>1 mark</marks>\n- **Low efficiency of resource use**: Use of outdated technology or lack of recycling infrastructure leads to higher waste and higher demand for raw materials per unit of output. <marks>1 mark</marks>\n- **Import-intensive economy**: Relying on goods transported from far away increases the carbon footprint due to transport emissions. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146616,
+            "content": "Environmental Impact Assessments (EIAs) are intended to support sustainable development.\n\nEvaluate the effectiveness of an EIA in ensuring the sustainability of a named development project.",
+            "order": 1,
+            "markscheme": "### Named Project\n- Identification of a specific project (e.g., Three Gorges Dam, HS2 Rail, local housing development). <note>If no project is named, or project is generic, max 4 marks.</note>\n\n### Analysis of Effectiveness (Points for/against)\n- **Baseline studies**: Provides a starting point to measure future environmental change; allows for the identification of sensitive species or habitats before damage occurs. <marks>1 mark</marks>\n- **Mitigation strategies**: Suggests ways to reduce impact (e.g., building 'wildlife bridges' or replanting forest elsewhere), which can make a project more sustainable. <marks>1 mark</marks>\n- **Decision-making tool**: Informs local authorities/governments, potentially leading to the rejection of the most damaging proposals. <marks>1 mark</marks>\n- **Public participation**: Can provide a platform for local stakeholders to voice concerns, though this varies by country. <marks>1 mark</marks>\n\n### Limitations\n- **Lack of standardisation**: Guidelines vary globally; some countries may have very weak requirements for what constitutes a 'significant' impact. <marks>1 mark</marks>\n- **Economic/Political pressure**: Governments may ignore EIA findings if the economic benefits of a project are high (e.g., prioritising short-term jobs over long-term ecology). <marks>1 mark</marks>\n- **Difficulty in prediction**: Ecological systems are complex; EIAs may fail to predict indirect or cumulative effects (e.g., downstream impacts of a dam). <marks>1 mark</marks>\n- **Bias**: The scientists/consultants conducting the EIA are often paid by the developer, which can lead to a conflict of interest/underestimation of impacts. <marks>1 mark</marks>\n- **Lack of post-project monitoring**: Many EIAs are only done *before* construction; there is often no legal requirement to check if predictions were accurate or if mitigation worked. <marks>1 mark</marks>\n\n### Conclusion\n- A summary statement reflecting on whether the EIA actually made the named project 'sustainable' or merely 'less damaging'. <marks>1 mark</marks>\n\n<note>Award 1 mark for each valid evaluative point, up to 7 marks max.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d2ad7abb-9d6b-4a48-9197-37e519c9a04d",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d2ad7abb-9d6b-4a48-9197-37e519c9a04d-1771929956947",
+            "generatedAt": "2026-02-26T04:59:02.612Z",
+            "sourceRevisionId": 1160096
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 38250,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.1 Perspectives  > 1.1B Environmental value system",
+              "title": "1.1B Environmental value system",
+              "labeledAt": "2026-03-05T16:50:35.125Z",
+              "reasoning": "Parts (a) and (b) directly address the components of an Environmental Value System (EVS), its formation through inputs, and the comparison of different perspectives within the EVS spectrum.",
+              "confidence": 1
+            },
+            {
+              "id": 38251,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.1 Perspectives  > 1.1C Environmental movements",
+              "title": "1.1C Environmental movements",
+              "labeledAt": "2026-03-05T16:50:35.125Z",
+              "reasoning": "Part (c) focuses specifically on the role of historical events and environmental literature in the development of the modern environmental movement.",
+              "confidence": 1
+            },
+            {
+              "id": 30136,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.3 Aquatic food production systems > 4.3F Conservation and Management of Global Fisheries (HL) ",
+              "title": "4.3F Conservation and Management of Global Fisheries (HL) ",
+              "labeledAt": "2026-03-05T16:50:35.125Z",
+              "reasoning": "Part (b) uses the management of wild fish stocks as the specific case study for applying EVS perspectives, falling under global fisheries management.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1688415,
+        "parts": [
+          {
+            "id": 1149890,
+            "content": "Outline the role of different \"inputs\" in the formation and development of an individual's environmental value system (EVS).",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following, up to a maximum of <marks>4 marks</marks>:\n\n- **Culture and Social Groups:** Shared values within a community or family shape an individual's initial perspective on the environment/relationship with nature.\n- **Religious/Ethical Beliefs:** Many religions provide a framework for how humans should interact with the Earth (e.g., stewardship vs. dominion).\n- **Education:** Formal schooling and scientific knowledge provide facts and data that can reinforce or challenge existing beliefs about ecological issues.\n- **Media and Technology:** Documentaries, news reports, and social media expose individuals to global environmental crises (e.g., plastic pollution, climate change) from a distance.\n- **Personal Experience:** Direct interaction with nature (e.g., hiking) or experiencing an environmental disaster firsthand (e.g., flooding) can trigger a shift in values.\n- **Economic Context:** An individual's wealth or poverty level influences their priorities, such as focusing on basic survival versus conservation.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149891,
+            "content": "Using the environmental value system (EVS) spectrum, compare and contrast how different perspectives would approach the management of a diminishing natural resource, such as wild fish stocks.",
+            "order": 1,
+            "markscheme": "#### Ecocentric Perspective\n- Emphasizes the intrinsic value of the fish and the marine ecosystem, rather than their use-value to humans. <marks>1 mark</marks>\n- Would advocate for a total ban on fishing in certain areas (Marine Protected Areas) to allow for natural recovery without human interference. <marks>1 mark</marks>\n- Encourages a shift in human lifestyles to reduce the overall consumption of fish products. <marks>1 mark</marks>\n\n#### Anthropocentric Perspective\n- Focuses on sustainable management and stewardship to ensure fish stocks remain available for future human generations. <marks>1 mark</marks>\n- Supports the use of legal regulations, such as government-mandated fishing quotas and seasonal restrictions. <marks>1 mark</marks>\n- Utilizes economic tools like taxes on commercial fishing or subsidies for sustainable small-scale fisheries. <marks>1 mark</marks>\n\n#### Technocentric Perspective\n- Suggests that technological innovation can compensate for the loss of wild stocks, such as through large-scale aquaculture or fish farming. <marks>1 mark</marks>\n- Believes that scientific research will lead to more efficient tracking and harvesting methods that minimize unintended bycatch. <marks>1 mark</marks>\n- Argues that market demand and economic growth will drive the development of synthetic or alternative protein sources. <marks>1 mark</marks>\n\n<note>Award [4 max] if only one EVS perspective is described.</note>\n<note>Award [7 max] for a response that effectively compares at least two perspectives with balanced points.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149892,
+            "content": "Evaluate the impact of significant historical events and environmental literature on the development of the modern environmental movement.",
+            "order": 2,
+            "markscheme": "_Answers may demonstrate_:\n\n*   **understanding concepts & terminology of** environmental value systems (EVS); environmental movement; preservation; conservation; stewardship; NGOs; intergovernmental bodies; key historical landmarks (e.g., Minamata, Bhopal, Chernobyl, Fukushima); key literature (e.g., *Silent Spring*, *The Gaia Hypothesis*, *An Inconvenient Truth*);\n*   **breadth in addressing and linking** specific events to changes in public perception, policy shifts, and the growth of environmental organizations. Linking the localized nature of early disasters to the globalized awareness of modern issues;\n*   **examples** of specific events (e.g., the 1984 Bhopal disaster highlighting industrial safety; the 1986 Chernobyl disaster showing the transboundary nature of pollution; Rachel Carson\u2019s *Silent Spring* (1962) catalyzing the ban on DDT and the birth of modern environmentalism);\n*   **balanced analysis** of how these factors influenced different EVSs (e.g., how disasters might push an individual toward ecocentrism, while scientific literature might bolster technocentric solutions);\n*   **a conclusion that is consistent with, and supported by analysis and examples given** _e.g._ While literature has provided the intellectual framework for environmental concern, it is often the shock of major industrial disasters that provides the political momentum necessary for international agreements and legislative change.\n\t\t\n| Marks | Level descriptor |\n|-------|-----------------|\n| <marks>0 </marks> | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| <marks>1-3 </marks> | The response contains: \u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| <marks>4-6 </marks> | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| <marks>7-9 </marks> | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fbf71975-19ec-4837-93a9-59fb7968229f",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-fbf71975-19ec-4837-93a9-59fb7968229f-1771929956947",
+            "generatedAt": "2026-02-26T04:57:13.241Z",
+            "sourceRevisionId": 762878
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30593,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2A Energy sources, global energy consumption and energy choices",
+              "title": "7.2A Energy sources, global energy consumption and energy choices",
+              "labeledAt": "2026-03-06T15:39:45.406Z",
+              "reasoning": "Part (a) directly compares national energy mixes (coal, gas, nuclear, renewables) and asks for physical/economic/political reasons for different energy choices\u2014core of energy sources and energy choices.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30596,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2D Energy security (HL)",
+              "title": "7.2D Energy security (HL)",
+              "labeledAt": "2026-03-06T15:39:45.406Z",
+              "reasoning": "Part (b) explicitly frames unconventional fuels (shale gas/tar sands) as a response to energy insecurity and asks for trade-offs\u2014links to energy security.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30578,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1G Unsustainable extracting, harvesting, transporting, and processes",
+              "title": "7.1G Unsustainable extracting, harvesting, transporting, and processes",
+              "labeledAt": "2026-03-06T15:39:45.406Z",
+              "reasoning": "Part (b) focuses on environmental trade-offs of extracting unconventional fossil fuels (e.g., fracking, tar sands), which involves potentially unsustainable extraction and processing impacts.",
+              "confidence": 0.74
+            },
+            {
+              "id": 30660,
+              "isHl": true,
+              "path": "HL lenses  > HL.b Environmental economics > HL.bA Environmental economics and its key concepts",
+              "title": "HL.bA Environmental economics and its key concepts",
+              "labeledAt": "2026-03-06T15:39:45.406Z",
+              "reasoning": "Parts (b) and (c) require discussing economic trade-offs and the role of policy in balancing development vs sustainability\u2014fits environmental economics concepts (costs/benefits, externalities, regulation).",
+              "confidence": 0.63
+            },
+            {
+              "id": 38259,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3B Sustainable development",
+              "title": "1.3B Sustainable development",
+              "labeledAt": "2026-03-06T15:39:45.406Z",
+              "reasoning": "Part (c) explicitly evaluates balancing economic development and environmental sustainability in national policy\u2014aligned with sustainable development.",
+              "confidence": 0.57
+            }
+          ]
+        },
+        "currentRevisionId": 1688414,
+        "parts": [
+          {
+            "id": 1149887,
+            "content": "The following table shows the energy consumption profiles of two anonymous countries, Country X and Country Y.\n\n| Energy Source | Country X (% of total) | Country Y (% of total) |\n| :--- | :--- | :--- |\n| Coal | 62 | 5 |\n| Natural Gas | 18 | 25 |\n| Nuclear | 0 | 42 |\n| Renewables (Hydro, Wind, Solar) | 20 | 28 |\n\nExplain **four** factors (physical, economic, or political) that may account for the differences in the energy choices made by these two countries. <marks>4 marks</marks>",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each distinct factor explained with reference to the table:\n\n- **Physical/Geographical availability:** Country X may have large domestic reserves of coal, whereas Country Y may lack fossil fuel deposits but have the geography suitable for high nuclear or gas imports. <marks>1 mark</marks>\n- **Economic factors/Level of development:** Country Y may be a wealthier nation able to afford the high capital costs of nuclear infrastructure, while Country X relies on coal which is often cheaper and utilizes older, established infrastructure. <marks>1 mark</marks>\n- **Political/Energy Security goals:** Country Y may have a policy to reduce greenhouse gas emissions or dependency on coal, leading to a higher nuclear/gas share, whereas Country X may prioritize low-cost energy for industrial growth. <marks>1 mark</marks>\n- **Technological expertise:** Country Y may possess the advanced scientific and technical workforce required to safely manage a large nuclear sector, while Country X may focus on simpler extraction technologies. <marks>1 mark</marks>\n- **Environmental legislation:** Country Y may have implemented strict carbon taxes or signed international agreements that make coal use prohibitively expensive, unlike Country X. <marks>1 mark</marks>\n\n<note>Do not award marks for simply stating the data from the table; the response must explain the *reason* for the difference.</note>\n<note>Accept any other valid explanations of factors influencing energy mix.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149888,
+            "content": "The exploitation of unconventional energy sources, such as shale gas (via hydraulic fracturing) or tar sands, is often promoted as a solution to energy insecurity. Discuss the environmental and economic trade-offs associated with this strategy. <marks>7 marks</marks>",
+            "order": 1,
+            "markscheme": "Award marks for points discussing both positive (security/economic) and negative (environmental) aspects. \n\n**Economic/Security Benefits (Max 4 marks):**\n- **Domestic Supply:** Reduces dependence on energy imports from politically unstable regions, increasing national sovereignty. <marks>1 mark</marks>\n- **Price Stability:** Increased supply can lead to lower and more stable domestic energy prices for consumers and industry. <marks>1 mark</marks>\n- **Job Creation:** Exploration and extraction of unconventional sources create significant local employment and stimulate the economy. <marks>1 mark</marks>\n- **Bridge Fuel:** Natural gas from fracking produces less $$CO_2$$ per unit of energy than coal, potentially acting as a transition fuel. <marks>1 mark</marks>\n\n**Environmental Trade-offs (Max 4 marks):**\n- **Water Contamination:** The chemicals used in fracking or the tailings ponds in tar sands can leak into local groundwater/aquifers. <marks>1 mark</marks>\n- **High Water Consumption:** These processes require vast quantities of freshwater, which may compete with agricultural or domestic needs. <marks>1 mark</marks>\n- **Methane Leakage:** Extraction and transport of shale gas often involve significant fugitive methane emissions (a potent greenhouse gas). <marks>1 mark</marks>\n- **Habitat Destruction:** Tar sands extraction involves large-scale surface mining, leading to the total removal of overlying ecosystems/boreal forests. <marks>1 mark</marks>\n- **Induced Seismicity:** The injection of wastewater from fracking has been linked to increased frequency of minor earthquakes. <marks>1 mark</marks>\n\n<note>A maximum of <marks>7 marks</marks> total can be awarded. Ensure the response addresses both economic/security benefits and environmental costs for full marks.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149889,
+            "content": "Evaluate the role of national energy policies in balancing the conflict between economic development and environmental sustainability, with reference to two named countries. <marks>9 marks</marks>",
+            "order": 2,
+            "markscheme": "Evaluation should consider how the level of development and domestic priorities shape energy choices and the resulting impact on sustainability.\n\n**Example 1: China (Rapidly Industrializing/Emerging Economy)**\n- **Policy:** China has historically prioritized coal to fuel rapid economic growth and urbanization (energy equity/growth). <marks>1 mark</marks>\n- **Conflict:** This led to severe air pollution and high global $$CO_2$$ emissions, compromising environmental sustainability. <marks>1 mark</marks>\n- **Shift:** Recent policies have made China the world leader in wind and solar investment to mitigate health costs and meet international climate commitments (balancing act). <marks>1 mark</marks>\n\n**Example 2: Germany (Developed Economy - Energiewende)**\n- **Policy:** The *Energiewende* aimed for a massive shift to renewables and a phase-out of nuclear power for environmental safety. <marks>1 mark</marks>\n- **Conflict:** This has led to high electricity prices for citizens (impacting energy equity) and a temporary increase in coal use to maintain grid stability after nuclear shutdowns. <marks>1 mark</marks>\n- **Outcome:** While sustainability has improved through carbon reduction, the policy faces challenges in maintaining industrial competitiveness due to energy costs. <marks>1 mark</marks>\n\n**Example 3: Iceland (Geographically Favored)**\n- **Policy:** Utilizing 100% renewable domestic heat and power (hydro/geothermal). <marks>1 mark</marks>\n- **Outcome:** High energy security and sustainability achieved simultaneously, though this is heavily dependent on unique physical geography rather than policy alone. <marks>1 mark</marks>\n\n**Evaluation/Conclusion:**\n- National policies are often dictated by the \"Energy Trilemma\" (security, equity, sustainability). <marks>1 mark</marks>\n- Lower-income nations often prioritize development and equity (cheap fossil fuels), while higher-income nations have the capital to prioritize sustainability. <marks>1 mark</marks>\n- Transitioning energy systems is slow due to the \"infrastructure lock-in\" of existing fossil fuel plants. <marks>1 mark</marks>\n\n**Award marks according to the following levels:**\n- **[7\u20139 marks]** for a well-balanced evaluation referencing two named countries, clearly identifying the trade-offs between development and sustainability, and providing a reasoned conclusion.\n- **[4\u20136 marks]** for a discussion that identifies conflicts in one or two countries but lacks depth in evaluation or has a less balanced approach.\n- **[1\u20133 marks]** for a descriptive response that lacks specific country examples or only addresses one side of the conflict.",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "12",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 24627,
+      "title": "7.1 Natural resources - uses and management",
+      "slug": "ib-ess-new-71-natural-resources-uses-and-management",
+      "parentTopicId": 24626
+    },
+    "subject": {
+      "id": 6455,
+      "title": "Environmental systems and societies (ESS)",
+      "slug": "ib-environmental-systems-and-societies-ess-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "12",
+      "byQuestion": {}
+    }
+  }
+}

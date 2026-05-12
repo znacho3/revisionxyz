@@ -1,3 +1,614 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f701572b355e527d1ab859cd614ad5031b0b99de983f658eeb9bb4bb1e1e0821
-size 32078
+{
+  "json": {
+    "questions": [
+      {
+        "id": "08859d13-b642-44ed-8027-e77caa6aabd5",
+        "specification": "Discuss the impact of data quality on model performance. <marks> 2 marks </marks>",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:15:18.875Z",
+            "resultId": 1318
+          }
+        },
+        "currentRevisionId": 1692406,
+        "parts": [
+          {
+            "id": 1154416,
+            "content": "Discuss the impact of data quality on model performance.",
+            "order": 0,
+            "markscheme": "- Data quality directly influences the model\u2019s accuracy and reliability. <marks>1 mark</marks>\n- Models trained on high-quality data are better able to generalize. <marks>1 mark</marks>\n- A high-quality diverse dataset ensures that the model does not have any biases. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0889cb79-692b-47d3-9ba5-4fa4d1e403d6",
+        "specification": "Define the concepts of normalization and standardization.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 1351606,
+        "parts": [
+          {
+            "id": 1011544,
+            "content": "Define the concepts of normalization and standardization.",
+            "order": 0,
+            "markscheme": "Normalizing is transforming values into a specific range. <marks> 1 mark </marks>\n\nStandardization is transforming values to have a mean of 0 and a standard deviation of 1. <marks> 1 mark </marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2911c63d-e573-4d2d-8a55-c7d5167e1d19",
+        "specification": "Outline why data cleaning is needed in training models.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:53:11.942Z",
+            "resultId": 3665
+          }
+        },
+        "currentRevisionId": 1690634,
+        "parts": [
+          {
+            "id": 1153131,
+            "content": "Outline why data cleaning is needed in training models.",
+            "order": 0,
+            "markscheme": "- Award a maximum of <marks>2 marks</marks>\n\n- In order to produce high-quality data that is accurate, which enables models to make more precise predictions. <marks>1 mark</marks>\n\n- Without data cleaning, poor-quality data can lead to inaccurate and unreliable outcomes. <marks>1 mark</marks>\n\n- Data that is noisy, incomplete or non-representative can lead to biases in the model. <marks>1 mark</marks>\n\n- Models trained on high-quality data produced using data cleaning are better able to generalize. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3ae83d0c-0621-44aa-b476-7e455b16452d",
+        "specification": "Describe how linear regression may be used to predict continuous outcomes.",
+        "questionType": null,
+        "level": "hl",
+        "paper": null,
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 1351594,
+        "parts": [
+          {
+            "id": 1011527,
+            "content": "Describe how linear regression may be used to predict continuous outcomes.",
+            "order": 0,
+            "markscheme": "Definition - linear regression is used to model the relationship between a dependent variable and one or more independent variables. <marks> 1 mark </marks>\nThe fit of the model can be assessed using elements such as variance from the linear line. <marks> 1 mark </marks>\nContinuous outcomes refer to variables that can take on an infinite number of values within a specific range. <marks> 1 mark </marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "41e67f5f-3df2-4035-a430-5568882e019d",
+        "specification": "A social media analytics platform preprocesses text data from multiple languages and platforms for sentiment analysis and trend detection.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:55:22.686Z",
+            "resultId": 3634
+          }
+        },
+        "currentRevisionId": 1690689,
+        "parts": [
+          {
+            "id": 1153171,
+            "content": "Design a text preprocessing pipeline that handles emojis, hashtags, and informal language.",
+            "order": 0,
+            "markscheme": "- **Handle** emojis by converting them to text descriptions or sentiment scores <marks>1 mark</marks>\n- **Process** hashtags through splitting (e.g., segmenting #LoveProgramming to Love Programming), normalization, and feature extraction <marks>1 mark</marks>\n- **Apply** text normalization techniques such as lowercasing, punctuation removal, and spell correction for informal text <marks>1 mark</marks>\n- **Implement** tokenization and stop word removal adapted specifically for the nuances of informal language <marks>1 mark</marks>\n- **Remove** noise such as URLs, repeated characters, and extra whitespace common in social media posts <marks>1 mark</marks>\n- **Filter** or standardize mentions (e.g., @user) and common abbreviations/slang using a predefined mapping <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153172,
+            "content": "Compare different text vectorization techniques (Bag of Words, $TF-IDF$, Word Embeddings) for social media analysis, considering computational efficiency and semantic understanding.",
+            "order": 1,
+            "markscheme": "- **Describe** Bag of Words (BoW) as simple and computationally efficient, but noting that it loses word order and context <marks>1 mark</marks>\n- **Explain** that $TF-IDF$ weights important words relative to the corpus while maintaining a sparse representation <marks>1 mark</marks>\n- **Detail** how Word Embeddings capture semantic relationships and context within a dense vector representation <marks>1 mark</marks>\n- **State** that the choice of technique depends on factors such as dataset size, available computational resources, and specific task requirements <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "5d5f1366-631e-4ab5-8f4e-2a2f83911ab5",
+        "specification": "A financial technology company preprocesses market data, transaction records, and economic indicators for algorithmic trading and risk assessment models.\n\nWhich statement best describes Z-score standardization for numerical data?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:04:14.041Z",
+            "resultId": 3947
+          }
+        },
+        "currentRevisionId": 1689927,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930389,
+            "content": "It rescales values to a fixed interval such as $[0,1]$ using the minimum and maximum of the dataset.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This describes min-max scaling, not Z-score standardization."
+          },
+          {
+            "id": 4930390,
+            "content": "It centers values by subtracting the mean and scales them by dividing by the standard deviation.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: Z-score standardization computes $z=\\frac{x-\\mu}{\\sigma}$, giving data with mean $0$ and standard deviation $1$ (using the dataset mean $\\mu$ and standard deviation $\\sigma$)."
+          },
+          {
+            "id": 4930391,
+            "content": "It scales values using the median and interquartile range (IQR) to reduce the influence of outliers.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "This describes robust scaling (median/IQR), not Z-score standardization."
+          },
+          {
+            "id": 4930392,
+            "content": "It converts each value into its rank order within the dataset and then maps ranks to $[0,1]$.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This describes a rank-based/quantile transformation, not Z-score standardization."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "65e70d4c-fe2f-4395-99f8-75879cffbbf9",
+        "specification": "A retail analytics team preprocesses customer transaction data from multiple sources to build predictive models for inventory management and sales forecasting.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:56:06.201Z",
+            "resultId": 3264
+          }
+        },
+        "currentRevisionId": 1691873,
+        "parts": [
+          {
+            "id": 1153616,
+            "content": "Analyse the benefits and challenges of multi-model databases that support document, graph, and key-value data models within a single system. In your analysis, discuss the impact on data modelling flexibility, query language complexity, performance considerations, and operational management. Include specific examples of implementation considerations and use cases where multi-model databases would be advantageous or problematic.",
+            "order": 0,
+            "markscheme": "- Data modelling: benefits include flexibility for diverse data types and unified schema management; challenges include schema complexity and model conflicts; examples include product catalogues with relationships or mixed content requiring different storage approaches. <marks>2 mark</marks>\n- Query languages: benefits include unified interface capabilities; challenges include learning multiple query syntaxes and API complexity; implementation requires consistent APIs and query translation layers. <marks>2 mark</marks>\n- Performance: benefits include reduced data movement and optimized storage; challenges include cross-model optimization difficulties and resource contention; requires model-specific engines and intelligent query routing. <marks>2 mark</marks>\n- Operational complexity: benefits include simplified architecture and reduced integration overhead; challenges include the need for expertise in multiple technical domains; examples include single logistics tracking systems or consolidated data platforms requiring unified monitoring strategies. <marks>2 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153617,
+            "content": "Analyse the trade-offs between different missing value imputation strategies (deletion, mean imputation, advanced methods) for retail transaction data.",
+            "order": 1,
+            "markscheme": "- Deletion: simple to implement but results in loss of potentially valuable information; particularly problematic when dealing with high missing rates or non-random patterns. <marks>1 mark</marks>\n- Mean imputation: preserves the overall dataset size and is easy to compute, but reduces variance and can bias results as it does not account for relationships between variables. <marks>1 mark</marks>\n- Advanced methods: techniques such as KNN or regression provide better accuracy by considering correlations, but are computationally expensive and may introduce noise if the model is poorly fitted. <marks>1 mark</marks>\n- Strategy selection: the optimal choice depends on the specific missing data pattern (MCAR, MAR, MNAR) and the specific requirements of the downstream predictive model. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6a80caf3-3fb8-4961-8856-f53a5212e95e",
+        "specification": "A computer vision system preprocesses satellite imagery and drone footage for environmental monitoring and agricultural assessment.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:04:02.791Z",
+            "resultId": 3155
+          }
+        },
+        "currentRevisionId": 1692013,
+        "parts": [
+          {
+            "id": 1153791,
+            "content": "Describe image preprocessing techniques appropriate for computer vision models working with satellite imagery, including resizing/cropping, normalisation/standardisation, and noise reduction.",
+            "order": 0,
+            "markscheme": "- **Describe** resizing/cropping as adjusting image dimensions (and optionally selecting a region of interest) to create consistent input sizes for the model <marks>1 mark</marks>\n- **Describe** that resizing/cropping can reduce computational cost while keeping relevant features in the image <marks>1 mark</marks>\n- **Describe** normalisation/standardisation as scaling pixel values to a consistent range (e.g. $[0,1]$) or to zero mean and unit variance <marks>1 mark</marks>\n- **Describe** that normalisation/standardisation helps stabilise training and makes images more comparable across the dataset <marks>1 mark</marks>\n- **Describe** noise reduction (e.g. median/Gaussian filtering) as smoothing to reduce random sensor noise or compression artefacts <marks>1 mark</marks>\n- **Describe** that reducing noise can improve feature extraction by lowering irrelevant variation while preserving important structures/edges <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153792,
+            "content": "Explain how data augmentation techniques can improve the robustness of computer vision models for environmental applications.",
+            "order": 1,
+            "markscheme": "- **Explain** that geometric augmentations, such as rotation and flipping, simulate different viewing angles and orientations <marks>1 mark</marks>, making the model invariant to object placement\n- **Explain** that color and brightness adjustments simulate varying lighting and seasonal conditions <marks>1 mark</marks>, which helps the model generalize across different environmental contexts",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "80c8f691-47c5-45f8-b26e-8eddab4f4c77",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:59:12.842Z",
+            "resultId": 3246
+          }
+        },
+        "currentRevisionId": 1691923,
+        "parts": [
+          {
+            "id": 1153682,
+            "content": "In the context of modelling and simulation, list two benefits of feature selection for improving a model.",
+            "order": 0,
+            "markscheme": "- Enhanced model accuracy <marks>1 mark</marks>\n- Reduced overfitting <marks>1 mark</marks>\n- Faster training <marks>1 mark</marks>\n- Improved interpretability <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b9f3a37d-20d4-4b63-9f56-547704f1687a",
+        "specification": "Identify one reason data cleaning is needed before training a convolutional neural network.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:16.020Z",
+            "resultId": 2170
+          }
+        },
+        "currentRevisionId": 1692210,
+        "parts": [
+          {
+            "id": 1154105,
+            "content": "Identify one reason data cleaning is needed before training a convolutional neural network.",
+            "order": 0,
+            "markscheme": "- To improve model accuracy <marks>1 mark</marks>\n- To ensure inaccuracies/errors/inconsistencies in the data don\u2019t lead to false assumptions <marks>1 mark</marks>\n- Reduces processing power on training <marks>1 mark</marks>\n- Avoid overfitting <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "beae2539-ebe7-4d55-8f35-06234b5e0ef1",
+        "specification": "Outline why standardization is needed.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:10:19.394Z",
+            "resultId": 2429
+          }
+        },
+        "currentRevisionId": 1692164,
+        "parts": [
+          {
+            "id": 1154051,
+            "content": "Outline why standardization is needed.",
+            "order": 0,
+            "markscheme": "Standardization is useful for data with unknown minimums and maximums or when there are outliers that would distort min-max scaling. It maintains useful information about outliers and makes the algorithm less sensitive to them. <marks> 2 marks </marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c2414a29-8a6e-4306-a08d-6bb9796aa572",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:11:23.532Z",
+            "resultId": 2314
+          }
+        },
+        "currentRevisionId": 1692182,
+        "parts": [
+          {
+            "id": 1154070,
+            "content": "Identify three techniques used in data cleaning.",
+            "order": 0,
+            "markscheme": "- Award <marks>1 mark</marks> for identifying a valid data-cleaning technique. <marks>1 mark</marks>\n- Award <marks>1 mark</marks> for an appropriate explanation of how that technique cleans data. <marks>1 mark</marks>\n- Award up to <marks>2 marks</marks> per technique (identification + explanation) for a maximum of <marks>6 marks</marks> (three techniques). <marks>1 mark</marks>\n\n- Handling outliers. <marks>1 mark</marks>\n- Values that fall beyond a defined threshold are considered outliers. Outliers can be removed from the dataset entirely, capped by replacing them with the nearest value that falls within an acceptable range, or transformed by applying transformations like log or square root to reduce the effect of extreme values. <marks>1 mark</marks>\n\n- Removing or consolidating duplicate data. <marks>1 mark</marks>\n- Duplicate data can be removed automatically using software or a database, manually reviewed in cases where duplicates are not exact or the dataset is small, or consolidated when duplicates containing partially varying data exist. <marks>1 mark</marks>\n\n- Correcting incorrect data. <marks>1 mark</marks>\n- Implementing data validation rules based on known ranges or data formats, cross-referencing data by using external or additional data sources to validate and correct questionable entries, or employing machine learning techniques to detect anomalies. <marks>1 mark</marks>\n\n- Filtering irrelevant data. <marks>1 mark</marks>\n- Utilizing feature selection techniques like correlation matrices, backward elimination, and random forest importance to identify and remove irrelevant or less important features. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d4e16ac9-c133-4f1d-922f-b085e174b797",
+        "specification": "A meteorology company is developing a new model for weather forecasts. Their machine learning model uses the following inputs for each geographical area.\nTemperature, humidity, wind speed and direction, atmospheric pressure, cloud cover percentage, current season, time of day, elevation, distance to nearest body of water, and precipitation amount.\n\nDuring exploratory data analysis, the company finds some strong correlations between certain inputs (for example, humidity and precipitation amount, and elevation and atmospheric pressure).",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:33.365Z",
+            "resultId": 2041
+          }
+        },
+        "currentRevisionId": 1692229,
+        "parts": [
+          {
+            "id": 1154143,
+            "content": "Explain what is meant by the \u201ccurse of dimensionality\u201d in the context of machine learning models.",
+            "order": 0,
+            "markscheme": "- The \u201ccurse of dimensionality\u201d refers to problems that arise when working with high-dimensional data (many input features), where data becomes sparse and learning/generalisation becomes harder compared to low-dimensional settings. <marks>2 marks</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154144,
+            "content": "Analyze two specific problems that high dimensionality could cause this company\u2019s weather forecasting model.",
+            "order": 1,
+            "markscheme": "- Identifies a valid problem caused by high dimensionality (e.g. increased computation/training time, increased memory/storage, data sparsity leading to overfitting/poor generalisation, harder model interpretation/visualisation). <marks>1 mark</marks>\n- Explains how that problem affects this model (in terms of the many input features and required training/prediction). <marks>1 mark</marks>\n- Identifies a second valid problem caused by high dimensionality. <marks>1 mark</marks>\n- Explains how that second problem affects this model. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154145,
+            "content": "Explain how these correlations justify reducing dimensions.",
+            "order": 2,
+            "markscheme": "- Identifies that high correlations indicate redundancy/overlap in information between features. <marks>1 mark</marks>\n- Explains that redundant correlated features add little new information and can increase noise/overfitting and computational cost, so removing/combining them can improve generalisation/efficiency. <marks>1 mark</marks>\n- Explains an acceptable method/idea for reduction (e.g. drop one of a highly correlated pair, or combine them using feature extraction such as PCA into fewer components). <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f5d6f80a-2d2a-44c0-92ab-bc7a6131e0e0",
+        "specification": "A healthcare research project preprocesses electronic health records (EHR) containing patient demographics, medical history, lab results, and clinical notes for predictive modelling.\n\n*This question is intended for Higher Level and is suitable for Paper 2 (structured/extended response), not Paper 1 (MCQ).*",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:13:36.435Z",
+            "resultId": 1833
+          }
+        },
+        "currentRevisionId": 1692284,
+        "parts": [
+          {
+            "id": 1154223,
+            "content": "Explain the specific challenges of preprocessing healthcare data including privacy requirements, data standardization, temporal relationships, and data quality issues.",
+            "order": 0,
+            "markscheme": "- Identify the challenge of privacy where sensitive patient data must be protected; explain that de-identification or anonymization techniques are required to comply with regulations (e.g., HIPAA) while maintaining data utility. <marks>1 mark</marks>\n- Identify the challenge of standardization across disparate medical coding systems (e.g., ICD-10 and SNOMED); explain that mapping these to a common ontology is necessary to ensure data consistency for modelling. <marks>1 mark</marks>\n- Identify the challenge of temporal relationships where medical events are time-dependent; explain how disease progression and treatment sequences must be modelled to preserve predictive accuracy. <marks>1 mark</marks>\n- Identify data quality issues such as missing values or coding errors; explain the necessity of robust imputation or filtering methods to prevent bias in the predictive model. <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154224,
+            "content": "Describe how feature engineering can create meaningful variables from raw EHR data for disease prediction models.",
+            "order": 1,
+            "markscheme": "- Describe the creation of derived features by calculating secondary metrics from raw data, such as determining Body Mass Index (BMI) from recorded height and weight. <marks>1 mark</marks>\n- Describe the creation of aggregated features, such as calculating the average of lab values or medication compliance rates over a specific clinical period. <marks>1 mark</marks>\n- Describe the creation of temporal features, such as calculating the time elapsed since the last hospital visit or performing trend analysis on vital signs. <marks>1 mark</marks>\n- Describe the use of text processing (NLP) to extract symptoms, conditions, or social determinants of health from unstructured clinical notes. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fa384c1b-cbff-4dbb-85b0-c243ea5853ae",
+        "specification": "Describe feature selection in data preprocessing.",
+        "questionType": null,
+        "level": "hl",
+        "paper": null,
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 1351593,
+        "parts": [
+          {
+            "id": 1011529,
+            "content": "Describe feature selection in data preprocessing.",
+            "order": 0,
+            "markscheme": "Feature selection is the process of identifying and retaining the most prominent attributes of a dataset. <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "15",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 36344,
+      "title": "A4.2 Data preprocessing (HL only)",
+      "slug": "ib-computer-science-new-a4-2-data-preprocessing-hl-only",
+      "parentTopicId": 36342
+    },
+    "subject": {
+      "id": 6523,
+      "title": "Computer Science (First Exam 2027)",
+      "slug": "ib-computer-science-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "15",
+      "byQuestion": {}
+    }
+  }
+}

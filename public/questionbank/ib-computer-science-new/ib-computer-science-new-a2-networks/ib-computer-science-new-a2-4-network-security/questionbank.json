@@ -1,3 +1,497 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e4bcf7b59c79f741cbd6307bf5b0d5dc413e2f1bad40e47aab046fe39ffb9db0
-size 32061
+{
+  "json": {
+    "questions": [
+      {
+        "id": "13452003-9da5-42f5-ac91-ee0d116588b5",
+        "specification": "A government agency implements advanced persistent threat (APT) detection capabilities across its classified network infrastructure.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:40.089Z",
+            "resultId": 1504
+          }
+        },
+        "currentRevisionId": 1692357,
+        "parts": [
+          {
+            "id": 1154339,
+            "content": "Develop a comprehensive APT detection strategy covering network traffic analysis, endpoint behaviour monitoring, email security, DNS monitoring, and user behaviour analytics. Discuss the technologies, detection methods, time requirements, and coverage areas for each layer.",
+            "order": 0,
+            "markscheme": "- **Describe** the use of AI/ML analytics and anomaly detection for network traffic analysis, providing network-wide coverage with detection within minutes <marks>1 mark</marks>\n- **Explain** the role of EDR systems in monitoring endpoint behaviour through behavioural analysis, noting detection within hours and high evasion resistance <marks>1 mark</marks>\n- **Identify** how content analysis in email security systems provides detection in seconds across email infrastructure <marks>1 mark</marks>\n- **Outline** the use of DNS analytics and reputation monitoring for real-time detection of malicious DNS queries <marks>1 mark</marks>\n- **Discuss** the implementation of User and Entity Behaviour Analytics (UEBA) using machine learning to identify subtle anomalies over several days <marks>1 mark</marks>\n- **Analyse** the necessity of integration and correlation between these detection layers to identify multi-stage attacks <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154340,
+            "content": "Analyse the specific challenges of detecting APTs that employ \"living off the land\" techniques using legitimate system tools.",
+            "order": 1,
+            "markscheme": "- **Analyse** how APTs use legitimate system tools (e.g., PowerShell), making detection difficult through traditional signature-based methods <marks>1 mark</marks>\n- **Explain** how \"living off the land\" techniques allow malicious activities to blend with normal system administration tasks <marks>1 mark</marks>\n- **Identify** the requirement for behavioural analysis rather than signature-based detection to uncover misuse of tools <marks>1 mark</marks>\n- **Discuss** the need for extended monitoring periods and historical data to identify subtle attack patterns over time <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "23bfa2fe-e9e3-48e5-ae9e-a8b1aa346a20",
+        "specification": "A financial institution detects and responds to sophisticated cyber attacks using advanced network security tools.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:36.010Z",
+            "resultId": 1540
+          }
+        },
+        "currentRevisionId": 1692350,
+        "parts": [
+          {
+            "id": 1154324,
+            "content": "Compare the capabilities of different security tools: IDS (Intrusion Detection Systems), IPS (Intrusion Prevention Systems), and log monitoring/centralised logging. Discuss their detection methods, response capabilities, scope, and automation levels.",
+            "order": 0,
+            "markscheme": "- Outline that IDS uses pattern matching/signature rules for detection and provides passive alerts only. <marks>1 mark</marks>\n- State that IDS typically has a network traffic scope and low automation levels. <marks>1 mark</marks>\n- Describe how IPS utilizes signature-based detection for real-time blocking of threats at the network perimeter. <marks>1 mark</marks>\n- Outline that IPS features higher levels of automation than IDS. <marks>1 mark</marks>\n- Explain that log monitoring/centralised logging collects and reviews event logs from systems/services to detect suspicious activity (for example via filtering/correlation). <marks>1 mark</marks>\n- State that log monitoring/centralised logging typically has a broader (multi-system) scope than a single device but relies on event/log data rather than inspecting all live traffic. <marks>1 mark</marks>\n- State that log monitoring/centralised logging response is usually indirect (alerting/reporting) rather than automatic blocking. <marks>1 mark</marks>\n- Identify that automation for log monitoring/centralised logging can be low to medium (for example scheduled reports/alert rules). <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154325,
+            "content": "Evaluate the role of automation (for example, playbooks/runbooks and scripted responses) in modern cybersecurity operations.",
+            "order": 1,
+            "markscheme": "- Outline how automation can handle routine response tasks, reducing human error and response time. <marks>1 mark</marks>\n- Explain that automation can coordinate actions across multiple tools/systems (for example alerting, isolating a host, updating firewall rules) to support incident response. <marks>1 mark</marks>\n- Identify that automation provides consistent response procedures across different incident types, ensuring standardization. <marks>1 mark</marks>\n- State that automation enables analysts to focus on complex threats that require higher-level human judgment. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3837ec56-066d-4919-bc61-58a906a3ecf0",
+        "specification": "A company wants to improve security throughout the software development lifecycle.",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:27:56.287Z",
+            "resultId": 3333
+          }
+        },
+        "currentRevisionId": 1691149,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930833,
+            "content": "Traditional network security focuses mainly on a perimeter (for example, firewalls) and assumes internal traffic is trusted, while modern approaches also use encryption and authentication for internal communications.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "This matches the general comparison: perimeter-based trust vs securing internal traffic as well."
+          },
+          {
+            "id": 4930834,
+            "content": "Traditional network security is based entirely on encrypting all internal traffic, while modern approaches rely only on perimeter firewalls.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Reverses the ideas: traditional approaches are typically perimeter-focused, not \u201centirely\u201d internal encryption."
+          },
+          {
+            "id": 4930835,
+            "content": "Traditional network security and modern approaches are identical because both only use a single firewall at the network edge.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: modern approaches commonly include additional controls beyond a single edge firewall."
+          },
+          {
+            "id": 4930836,
+            "content": "Traditional network security only uses biometric authentication, while modern approaches only use physical locks.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Not relevant to network security approaches; these are not accurate characterisations."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "38d13c6c-0496-40fa-9202-260d3d788f8c",
+        "specification": "A healthcare network implements advanced persistent threat (APT) detection using behavioural analytics and threat hunting.\n\nWhich statement best explains how automated behavioural monitoring and manual investigation can work together to detect sophisticated, long-term intrusions?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:27:57.027Z",
+            "resultId": 3337
+          }
+        },
+        "currentRevisionId": 1691150,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930837,
+            "content": "Automated monitoring establishes a baseline of normal activity and flags deviations (such as unusual login times or atypical access patterns), while manual investigation reviews logs and context to confirm and further investigate suspicious activity that automation may miss.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: combines baseline/anomaly detection with analyst-led log/context review for sophisticated attacks."
+          },
+          {
+            "id": 4930838,
+            "content": "Automated monitoring detects attacks only by matching known malware signatures, and manual investigation is unnecessary once signatures are up to date.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: behavioural monitoring is not limited to signatures; manual investigation can still be needed."
+          },
+          {
+            "id": 4930839,
+            "content": "Manual investigation is fully automated by behavioural monitoring tools, so analysts do not need to review logs or network activity.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: threat hunting/manual investigation is analyst-led and not the same as automated alerting."
+          },
+          {
+            "id": 4930840,
+            "content": "Behavioural monitoring can only detect insider threats, while manual investigation can only detect external attackers, so the two methods do not complement each other.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: both approaches can help detect a range of threats and can complement each other."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7b8d9096-34d8-4075-9b71-cc81f792c927",
+        "specification": "A multinational bank implements advanced threat intelligence and incident response capabilities.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:04:18.580Z",
+            "resultId": 3131
+          }
+        },
+        "currentRevisionId": 1692021,
+        "parts": [
+          {
+            "id": 1153804,
+            "content": "Design a threat intelligence framework that incorporates feeds from multiple sources including commercial providers, government agencies, industry sharing groups, and internal security teams. Discuss data quality, timeliness, and integration challenges.",
+            "order": 0,
+            "markscheme": "- Commercial/Government/Industry/Internal sources: Discussion of the trade-offs between broad coverage (commercial), authoritative/restricted advisories (government), sector-specific relevance (industry), and high internal context (internal security teams). <marks>1 mark</marks>\n- Data quality: Discussion of checking reliability/accuracy and relevance to the bank\u2019s systems to reduce noise and false positives. <marks>1 mark</marks>\n- Timeliness: Discussion of the time-sensitive nature of threat information and the need for quick updates to support proactive defence. <marks>1 mark</marks>\n- Integration challenges: Discussion of difficulties combining information from different sources (e.g. inconsistent terminology, duplicates, varying levels of detail) into a single view. <marks>1 mark</marks>\n- Integration challenges: Discussion of the need to relate external threat information to internal logs/monitoring to confirm whether the bank is affected. <marks>1 mark</marks>\n- Appropriate controls/process: Central collection and dissemination process (e.g. a shared repository/dashboard and defined procedures for validation and escalation). <marks>1 mark</marks>\n- Prioritisation: Use of filtering/prioritisation based on risk/critical assets to ensure actionable intelligence. <marks>1 mark</marks>\n- Governance: Roles/responsibilities for who reviews, approves, and acts on intelligence (e.g. security team ownership and communication to relevant stakeholders). <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153805,
+            "content": "Evaluate how machine learning and artificial intelligence enhance threat detection capabilities while considering false positive rates and analyst workload.",
+            "order": 1,
+            "markscheme": "- Detection: Machine learning/AI can help identify unusual patterns compared to normal behaviour, which may indicate new threats. <marks>1 mark</marks>\n- Workload: Automation can help with initial sorting/triage of alerts, reducing time spent on routine checks. <marks>1 mark</marks>\n- False positives: AI systems can still generate false alarms, which can create alert fatigue and waste analyst time. <marks>1 mark</marks>\n- Mitigation: Regular review/tuning using feedback from analysts improves usefulness and balances automation with human judgement. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ad263d73-42f2-4415-9ed6-4ba00801204b",
+        "specification": "A cryptocurrency exchange implements security measures to protect digital assets and customer funds.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:11:58.428Z",
+            "resultId": 2268
+          }
+        },
+        "currentRevisionId": 1692193,
+        "parts": [
+          {
+            "id": 1154080,
+            "content": "Complete the cryptocurrency security architecture table by identifying the missing components:\n\n| Security Component | Technology | Function | Risk Mitigation | Implementation Complexity | Regulatory Compliance |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Cold Storage | \u2014 | Offline key storage | Hot wallet compromise | High | \u2014 |\n| Multi-signature Wallets | Cryptographic signatures | \u2014 | Unauthorized transfers | Medium | Security policy requirements |\n| Hardware Security Modules | HSM | \u2014 | Key compromise | Very High | Audit requirements |\n| Network Segmentation | VLANs/firewalls | Traffic isolation | \u2014 | Medium | Data protection |\n| Real-time Monitoring | \u2014 | Threat detection | Undetected attacks | High | Financial regulations |",
+            "order": 0,
+            "markscheme": "- Air-gapped systems / offline physical media for Cold Storage technology <marks>1 mark</marks>\n- Custody regulations / asset protection standards for Cold Storage regulatory compliance <marks>1 mark</marks>\n- Multi-signature Wallets function: requires multiple independent signatures/keys to authorize a single transaction <marks>1 mark</marks>\n- Hardware Security Modules function: secure generation, storage, and management of digital keys <marks>1 mark</marks>\n- Network Segmentation risk mitigated: lateral movement (spreading an attack across the internal network) <marks>1 mark</marks>\n- SIEM (Security Information and Event Management) / AI-driven anomaly detection for Real-time Monitoring technology <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154081,
+            "content": "Explain how distributed denial of service (DDoS) attacks specifically threaten cryptocurrency exchanges and describe mitigation strategies.",
+            "order": 1,
+            "markscheme": "- Threat explained: DDoS floods exchange services with traffic so legitimate users cannot access trading/withdrawal systems (loss of availability) <marks>1 mark</marks>\n- Consequence linked to exchanges: disruption can cause financial loss (missed trades/failed withdrawals) and reputational damage <marks>1 mark</marks>\n- Mitigation strategy described: use DDoS protection such as CDNs/anycast to absorb traffic <marks>1 mark</marks>\n- Mitigation strategy described: rate limiting and/or filtering/scrubbing (e.g., WAF, upstream scrubbing centre) to block malicious traffic <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c240c1d3-9e57-4449-a879-0172163360c2",
+        "specification": "A smart grid utility company secures critical infrastructure networks against cyber threats.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:11:24.412Z",
+            "resultId": 2313
+          }
+        },
+        "currentRevisionId": 1692183,
+        "parts": [
+          {
+            "id": 1154071,
+            "content": "Explain the security vulnerabilities found in networked systems used in critical infrastructure. Your answer should refer to industrial control contexts such as monitoring devices, control devices, and operator interface devices, and explain how these challenges differ from traditional IT security.",
+            "order": 0,
+            "markscheme": "- Explain that some industrial monitoring/control communications may be unencrypted or unauthenticated, creating risks of interception or tampering. <marks>1 mark</marks>\n- Describe that control devices may lack strong authentication and may use simple/insecure protocols, allowing unauthorised commands. <marks>1 mark</marks>\n- Identify that operator interface devices can provide direct access to controls and could be misused to disrupt operations. <marks>1 mark</marks>\n- Explain that legacy infrastructure was often designed for reliability/availability rather than security, so modern protections may be missing. <marks>1 mark</marks>\n- Describe that weak network segmentation can allow an attacker who gains access to move between systems. <marks>1 mark</marks>\n- Discuss that physical access risks can be higher (for example, remote sites), so device tampering or unauthorised connection is a concern. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154072,
+            "content": "Analyse why operational technology (OT) networks require different security approaches compared to information technology (IT) networks, considering availability requirements, legacy systems, and safety implications.",
+            "order": 1,
+            "markscheme": "- Explain that OT networks prioritise availability/continuous operation, so patching or taking systems offline is more difficult. <marks>1 mark</marks>\n- Describe that real-time operational requirements can limit security controls that introduce latency or unpredictability. <marks>1 mark</marks>\n- Identify that legacy OT systems may lack modern security features (for example, strong encryption/authentication) and may not support frequent updates. <marks>1 mark</marks>\n- Analyse that OT incidents can have safety consequences (damage to equipment or risk to people), not just data loss. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ca1229ee-e85e-4629-b8ab-3bb669996923",
+        "specification": "A healthcare organization implements comprehensive network security to protect patient data and comply with privacy regulations.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:10:53.218Z",
+            "resultId": 2400
+          }
+        },
+        "currentRevisionId": 1692170,
+        "parts": [
+          {
+            "id": 1154053,
+            "content": "Complete the following network security architecture table by identifying the missing components (i) to (x):\n\n| Security Layer | Technology | Function | Protection Level | Performance Impact | Compliance Role |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Perimeter | (i) | External threat blocking | Medium | Low | (ii) |\n| Network Segmentation | VLANs, subnets | Data isolation | High | (iii) | (iv) |\n| Access Control | (v) | User authentication | High | (vi) | Access Logs |\n| Data Protection | (vii) | (viii) | Very High | High | Data protection legislation |\n| Monitoring | SIEM, IDS | (ix) | (x) | Medium | Audit Logs |",
+            "order": 0,
+            "markscheme": "- State a technology for Perimeter security: Firewalls / Intrusion Prevention Systems (IPS) <marks>1 mark</marks>\n- Identify a compliance role for Perimeter security: Border access logging / Perimeter auditing <marks>1 mark</marks>\n- State the performance impact of Network Segmentation: Low / Negligible <marks>1 mark</marks>\n- Identify the compliance role for Network Segmentation: Isolation of sensitive patient data (e.g., patient records) / Separation of duties <marks>1 mark</marks>\n- State a technology for Access Control: Multi-factor Authentication (MFA) / Biometrics / Single Sign-On (SSO) <marks>1 mark</marks>\n- State the performance impact of Access Control: Low (one-time check per session) <marks>1 mark</marks>\n- State a technology for Data Protection: Encryption (AES/TLS) / Tokenization <marks>1 mark</marks>\n- State the primary function of Data Protection: Ensuring data confidentiality / Preventing unauthorized data reading <marks>1 mark</marks>\n- State the primary function of Monitoring: Real-time threat detection / Alerting for incident response <marks>1 mark</marks>\n- State the protection level provided by Monitoring: High (detects internal and advanced threats) <marks>1 mark</marks>",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154054,
+            "content": "Analyse how Zero Trust architecture principles apply to healthcare network security and discuss two implementation challenges.",
+            "order": 1,
+            "markscheme": "- Identify the core principle of Zero Trust: \"Never trust, always verify,\" requiring authentication/authorisation for every user and device regardless of location <marks>1 mark</marks>\n- Explain how this reduces risk in a healthcare network by limiting access to patient systems/data to only what is required (least privilege) and reducing the impact of compromised accounts/devices <marks>1 mark</marks>\n- Discuss implementation challenge 1: Increased administrative complexity due to managing granular access policies and continuous identity verification <marks>1 mark</marks>\n- Discuss implementation challenge 2: Potential for increased network latency as requests must be inspected and verified, which can impact time-sensitive medical applications <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d7c31b69-33ef-446a-bcbf-7790c9d28e56",
+        "specification": "A cloud service provider implements multi-layered security for customers' sensitive data across distributed data centres.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:49.219Z",
+            "resultId": 2022
+          }
+        },
+        "currentRevisionId": 1692237,
+        "parts": [
+          {
+            "id": 1154151,
+            "content": "Analyse the encryption strategies across different network layers by identifying the missing entries for **(i)**, **(ii)**, **(iii)**, and **(iv)** in the table below.\n\n| Network Layer | Encryption Type / Protocol | Key Management | Performance Impact | Use Case |\n| :--- | :--- | :--- | :--- | :--- |\n| Application | Object-level | Certificates | **(i)** | APIs, Email |\n| Transport | TLS / SSL | **(ii)** | Medium | Web browsing |\n| Network | **(iii)** | Pre-shared keys | Medium | Site-to-site VPN |\n| Data Link | **(iv)** | Hardware-based | Low | LAN Security |",
+            "order": 0,
+            "markscheme": "- **(i)**: High (Accept: High computational overhead / Low processing speed as it is software-based) <marks>1 mark</marks>\n- **(ii)**: PKI (Public Key Infrastructure) / Certificate Authority <marks>1 mark</marks>\n- **(iii)**: IPSec <marks>1 mark</marks>\n- **(iv)**: Link-layer encryption (Accept: MACsec / IEEE 802.1AE) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154152,
+            "content": "Explain how Perfect Forward Secrecy (PFS) enhances security in VPN communications and discuss two implementation challenges.",
+            "order": 1,
+            "markscheme": "- PFS ensures that if a long-term private key is compromised in the future, it cannot be used to decrypt past session data (as session keys are not derived from it) <marks>1 mark</marks>\n- It achieves this by using ephemeral/unique key exchanges for every individual session (accept: Diffie-Hellman) <marks>1 mark</marks>\n- **Challenge 1**: Significant increase in computational overhead/CPU load because a new key exchange must be performed for every connection <marks>1 mark</marks>\n- **Challenge 2**: Increased latency during the initial handshake process OR potential lack of support/compatibility with legacy hardware/software <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "df043925-cd3f-471e-a599-433aab493ca5",
+        "specification": "A multinational corporation implements a comprehensive firewall strategy across its global network infrastructure.\n\nWhich statement best describes a next-generation firewall (NGFW)?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:53.844Z",
+            "resultId": 1984
+          }
+        },
+        "currentRevisionId": 1692244,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931101,
+            "content": "It only filters traffic based on IP addresses and port numbers to provide high-throughput basic security.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This describes a packet filter firewall, not an NGFW."
+          },
+          {
+            "id": 4931102,
+            "content": "It tracks the state of active network connections and makes filtering decisions based on session information.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This describes a stateful firewall. NGFWs may also be stateful, but they include additional inspection and security features."
+          },
+          {
+            "id": 4931103,
+            "content": "It integrates traditional firewall functions with deeper traffic inspection and additional security services such as intrusion prevention and application awareness.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct: NGFWs combine standard firewalling with deeper inspection and integrated security features (e.g., IPS, application awareness)."
+          },
+          {
+            "id": 4931104,
+            "content": "It inspects only the contents of HTTP/HTTPS requests to protect web applications from attacks such as SQL injection and cross-site scripting.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This describes a web application firewall (WAF), which focuses specifically on web application (HTTP/HTTPS) traffic rather than general network traffic."
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "10",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 36301,
+      "title": "A2.4 Network security",
+      "slug": "ib-computer-science-new-a2-4-network-security",
+      "parentTopicId": 36297
+    },
+    "subject": {
+      "id": 6523,
+      "title": "Computer Science (First Exam 2027)",
+      "slug": "ib-computer-science-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "10",
+      "byQuestion": {}
+    }
+  }
+}

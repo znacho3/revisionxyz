@@ -1,3 +1,489 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:199b42ef28c6343b6c0a7e2c39cd451546490b14b5c5a734bb2a1204c34741d3
-size 34558
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0f09ace3-915b-4e1d-9d75-2744f38d15cc",
+        "specification": "A data centre implements various error detection and correction mechanisms for high-reliability storage systems.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:15:12.104Z",
+            "resultId": 1326
+          }
+        },
+        "currentRevisionId": 1692396,
+        "parts": [
+          {
+            "id": 1154387,
+            "content": "Complete the following table to describe the capabilities and limitations of different error handling methods.\n\n| Method | Detection Capabilities | Correction Abilities | Overhead Costs | Typical Applications |\n|---|---|---|---|---|\n| **Parity bits** |  |  |  |  |\n| **Checksums** |  |  |  |  |\n| **CRC** |  |  |  |  |\n| **Hamming codes** |  |  |  |  |\n| **Reed-Solomon** |  |  |  |  |",
+            "order": 0,
+            "markscheme": "- Parity bits: detects single-bit errors (odd number of bit flips); does not correct; very low overhead (1 bit per data unit); simple memory/serial links <marks>1 mark</marks>\n- Checksums: detects many errors (incl. many multi-bit/burst patterns depending on algorithm); does not correct; low to moderate overhead; data integrity in files/network protocols <marks>1 mark</marks>\n- CRC: strong detection of burst errors up to polynomial length (and single-bit errors); does not correct; moderate overhead (e.g., 16/32 bits); data link/storage interfaces <marks>1 mark</marks>\n- Hamming codes: detects and corrects single-bit errors and can detect double-bit errors (SECDED); corrects single-bit errors; moderate overhead (about $\\log_2(n)$ check bits); ECC memory/low-error-rate comms <marks>1 mark</marks>\n- Reed-Solomon: detects and corrects multiple symbol errors, good for burst errors; corrects multiple errors; higher overhead; optical media/QR/satellite/deep-space/storage <marks>1 mark</marks>\n- Clear comparative descriptions across methods (detection vs correction vs overhead vs application) with generally correct matching <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154388,
+            "content": "Explain why Reed-Solomon codes are specifically chosen for satellite communications and optical storage media.",
+            "order": 1,
+            "markscheme": "- Good performance against burst errors common in these channels/media <marks>1 mark</marks>\n- Can correct multiple symbol errors, improving reliability on noisy links/media <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "11b027f1-ecdf-4ab1-8b3a-9c091f741ff7",
+        "specification": "A financial trading firm implements ultra-low latency networking for high-frequency trading operations.\n\nWhich statement best explains the business impact of microsecond latency differences in high-frequency trading?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:15:30.953Z",
+            "resultId": 1259
+          }
+        },
+        "currentRevisionId": 1692424,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931157,
+            "content": "Microsecond advantages can allow a firm to act on short-lived price differences before competitors, improving the chance of profitable trades.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "This matches the key business impact: in HFT, very small time advantages can secure execution ahead of others and capture fleeting opportunities."
+          },
+          {
+            "id": 4931158,
+            "content": "Microsecond advantages guarantee higher profits because the fastest firm always receives the best market price on every trade.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Too absolute: lower latency can improve opportunities and execution quality, but it does not guarantee profits or the best price on every trade."
+          },
+          {
+            "id": 4931159,
+            "content": "Microsecond advantages mainly reduce the amount of data transmitted across the network, lowering bandwidth costs.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Latency improvements affect time-to-execute rather than the volume of data transmitted or bandwidth costs."
+          },
+          {
+            "id": 4931160,
+            "content": "Microsecond advantages are only relevant for long-term investors and have little effect on short-term trading strategies.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: microsecond differences matter most in short-term/high-frequency strategies, not long-term investing."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "180575b5-b4b6-40dd-b4ed-c80d87245675",
+        "specification": "A financial trading firm reviews its network for high-frequency trading operations and wants to reduce end-to-end communication delay.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:29:43.793Z",
+            "resultId": 3804
+          }
+        },
+        "currentRevisionId": 1690268,
+        "parts": [
+          {
+            "id": 1152943,
+            "content": "Evaluate different factors and approaches that can reduce network transmission delay, including transmission medium choice (e.g. copper vs fibre), bandwidth, distance/propagation delay, congestion/traffic load, packet size, routing path/hops, and protocol overhead. Discuss their latency reduction potential, implementation costs, complexity, and typical performance impact.",
+            "order": 0,
+            "markscheme": "- Explains that fibre typically has higher bandwidth/lower attenuation and is less susceptible to interference than copper, but can have higher installation cost <marks>1 mark</marks>\n- Links distance to propagation delay and explains that reducing physical distance/choosing a shorter route reduces latency <marks>1 mark</marks>\n- Explains that higher bandwidth can reduce serialization/transmission time, especially for larger packets/throughput-heavy links <marks>1 mark</marks>\n- Explains that congestion increases queuing delay and that reducing traffic load/improving capacity/QoS can reduce latency <marks>1 mark</marks>\n- Explains that more hops/routers increase processing and queuing delays; fewer hops/efficient routing can reduce latency <marks>1 mark</marks>\n- Evaluates cost\u2013benefit trade-offs (e.g. dedicated links/extra capacity vs complexity and cost) with a justified conclusion <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152944,
+            "content": "Explain the business impact of small (e.g. microsecond-level) latency differences in high-frequency trading.",
+            "order": 1,
+            "markscheme": "- Small latency advantages can enable capturing short-lived price differences/arbitrage opportunities before competitors <marks>1 mark</marks>\n- Faster execution can improve order fill priority and reduce slippage, affecting profitability and risk <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "26cc765a-949e-4678-a90d-14b8d8a29744",
+        "specification": "An autonomous vehicle manufacturer develops vehicle-to-everything (V2X) communication systems for traffic safety.\n\nThe following indicative characteristics of some wireless technologies may be used for comparison in Parts 0 and 1:\n| Technology | Typical range (V2X context) | Typical latency | Typical bandwidth / data rate | Reliability | Infrastructure required | Example safety application |\n|---|---:|---:|---|---|---|---|\n| DSRC (IEEE 802.11p) | ~300 m | <100 ms | up to 27 Mbps | High (short-range, local) | Optional roadside units (RSUs) | Collision avoidance |\n| C-V2X (LTE/5G sidelink) | ~500 m to 1 km | <20 ms | Medium to high | Medium to high | Cellular network for wider coverage; can operate direct sidelink without RSUs | Traffic management |\n| 5G mmWave | typically <300 m (line-of-sight) | very low (often <10 ms) | Very high | Variable (blocked by obstacles) | Dense small cells | High-definition sensor sharing at junctions |\n| WiFi 6 (802.11ax) | tens to ~100 m | <50 ms | High | Medium | Access points | Parking assistance |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:57:06.526Z",
+            "resultId": 3568
+          }
+        },
+        "currentRevisionId": 1690737,
+        "parts": [
+          {
+            "id": 1153214,
+            "content": "Analyse different wireless communication technologies for V2X applications by completing the missing entries in the following table.\n| Technology  | Range       | Latency  | Bandwidth | Reliability | Infrastructure Required | Safety Application |\n|-------------|-------------|----------|-----------|-------------|-------------------------|--------------------|\n| DSRC (802.11p) | *Not specified* | <100 ms | High      | *Not specified* | *Not specified*          | *Not specified*     |",
+            "order": 0,
+            "markscheme": "- DSRC (802.11p) range: about $300\\ \\text{m}$ <marks>1 mark</marks>\n- DSRC (802.11p) bandwidth / data rate: up to $27\\ \\text{Mbps}$ (accept \u201cabout $27\\ \\text{Mbps}$\u201d) <marks>1 mark</marks>\n- DSRC reliability: high for short-range local broadcast (accept \u201chigh\u201d) <marks>1 mark</marks>\n- DSRC infrastructure required: optional roadside units (RSUs) (accept \u201cRSUs\u201d / \u201croadside units\u201d) <marks>1 mark</marks>\n- DSRC safety application: collision avoidance (accept equivalent immediate hazard warning, e.g. \u201ccrash warning\u201d) <marks>1 mark</marks>\n\n- C-V2X latency: < $20\\ \\text{ms}$ <marks>1 mark</marks>\n- 5G mmWave typical V2X range: typically < $300\\ \\text{m}$ (line-of-sight) <marks>1 mark</marks>\n- WiFi 6 infrastructure required: access points <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153215,
+            "content": "Evaluate the trade-offs between direct vehicle-to-vehicle communication and infrastructure-based communication for emergency braking scenarios.",
+            "order": 1,
+            "markscheme": "- Direct V2V can provide faster response because messages are exchanged locally without relying on network backhaul <marks>1 mark</marks>\n- Infrastructure-based communication can offer better coverage and coordination beyond line-of-sight/local range <marks>1 mark</marks>\n- V2V typically has limited range but can achieve lower latency for immediate hazards nearby <marks>1 mark</marks>\n- Infrastructure systems can provide broader situational awareness (e.g., aggregating data from multiple sources) but may introduce dependency on coverage/congestion <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "36f8a7df-8a75-4c8e-83b6-895a90f479f5",
+        "specification": "A data centre implements various error detection and correction mechanisms for high-reliability storage systems.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:26:20.866Z",
+            "resultId": 3326
+          }
+        },
+        "currentRevisionId": 1691061,
+        "parts": [
+          {
+            "id": 1153423,
+            "content": "Describe the capabilities and limitations of different error handling methods: parity bits, checksums, and $CRC$. Include their detection capabilities, correction abilities, overhead costs, and typical applications.",
+            "order": 0,
+            "markscheme": "- Describes parity bits as detecting single bit errors with no correction and low overhead, used in basic system memory. <marks>1 mark</marks>\n- Describes checksums as detecting some multiple bit errors using summation with no correction and low overhead. <marks>1 mark</marks>\n- Describes $CRC$ as detecting burst errors using a generator algorithm (e.g. polynomial-based method) with no correction and medium overhead, used in network protocols. <marks>1 mark</marks>\n- Provides an overall comparison of the trade-offs between error-handling strength and computational/storage overhead. <marks>1 mark</marks>\n- Includes at least one valid typical application example for each method (parity, checksum, $CRC$). <marks>1 mark</marks>\n- Identifies a limitation for each method (e.g. parity cannot locate/correct, checksum may miss some patterns, $CRC$ adds more bits/processing). <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153424,
+            "content": "Explain why $CRC$ is commonly chosen for network communications compared to simple parity bits or checksums.",
+            "order": 1,
+            "markscheme": "- Explains that $CRC$ is designed to detect burst errors more reliably than simple parity bits or basic checksums, which is important in network frames/packets. <marks>1 mark</marks>\n- Explains that the additional overhead/processing is acceptable in networking because it provides stronger error detection while still not requiring correction. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "62f550aa-2c8b-4d65-ba4d-66d694ee5c34",
+        "specification": "A company is designing a data transmission system that must reliably send data over a network.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:56:21.567Z",
+            "resultId": 3597
+          }
+        },
+        "currentRevisionId": 1690711,
+        "parts": [
+          {
+            "id": 1153181,
+            "content": "Complete the following data transmission analysis table by identifying the missing characteristics labeled (i) to (vi):\n\n| Transmission concept | Description | Key characteristic | Example / Note |\n| :--- | :--- | :--- | :--- |\n| Serial transmission | Sends data one bit at a time over a single channel | (i) | Often used over long distances |\n| Parallel transmission | Sends multiple bits simultaneously over multiple channels | (ii) | Often used over short distances |\n| Simplex | Data travels in one direction only | (iii) | e.g. broadcast transmission |\n| Half-duplex | Data travels both ways, but not at the same time | (iv) | e.g. walkie-talkies |\n| Full-duplex | Data travels both ways at the same time | (v) | e.g. telephone call |\n| Packet switching | Data is split into packets routed independently | (vi) | Packets may arrive out of order |\n\n",
+            "order": 0,
+            "markscheme": "- (i) Uses a single channel / one bit at a time <marks>1 mark</marks>\n- (ii) Uses multiple channels / multiple bits at the same time <marks>1 mark</marks>\n- (iii) One-way transmission only <marks>1 mark</marks>\n- (iv) Two-way but not simultaneous / takes turns <marks>1 mark</marks>\n- (v) Two-way simultaneous transmission <marks>1 mark</marks>\n- (vi) Data is divided into packets that can take different routes (and may be reordered) <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153182,
+            "content": "Explain how parity bits can be used for error detection during data transmission.",
+            "order": 1,
+            "markscheme": "- States that a parity bit is added to a group of bits to make the number of 1s either even (even parity) or odd (odd parity) <marks>1 mark</marks>\n- Describes how the receiver recomputes/checks the parity and compares it with the received parity bit to detect an error <marks>1 mark</marks>\n- Notes limitation: detects single-bit errors (or any odd number of bit errors) but may fail to detect an even number of bit errors <marks>1 mark</marks>\n- Gives a correct example showing parity calculation and detection (e.g. data $1011001$ has four 1s so even parity bit $0$; if a bit flips parity becomes incorrect) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7edec302-5d16-49e8-9f46-64e1bb0653f2",
+        "specification": "A live streaming platform optimizes video transmission quality across varying network conditions.\n\n**Paper note:** This structured question is appropriate for **Paper 2** (not Paper 1, which is multiple-choice only).\n\nAnalyse how Quality of Experience (QoE) metrics guide adaptive bitrate decisions in video streaming.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:03:08.198Z",
+            "resultId": 3222
+          }
+        },
+        "currentRevisionId": 1691997,
+        "parts": [
+          {
+            "id": 1153769,
+            "content": "Complete the adaptive streaming protocol analysis table by filling in the blank cells.\n\n| Streaming Protocol | Adaptation Method    | Buffer Requirements | Latency | Quality Switching | Network Efficiency |\n|--------------------|---------------------|---------------------|---------|-------------------|--------------------|\n| HLS (HTTP Live Streaming) |                     | Good                |         |                   |                    |\n| DASH               | Bitrate adaptation   | Medium              | Fast    |                   |                    |\n| WebRTC             |                     | Low                 |         |                   | High               |\n| RTMP               |                     | Manual              |         |                   |                    |\n| SRT                |                     |                     |         |                   |                    |",
+            "order": 0,
+            "markscheme": "- HLS: Adaptation: Segment-based <marks>1 mark</marks>\n- HLS: Latency: High <marks>1 mark</marks>\n- HLS: Quality switching: Smooth <marks>1 mark</marks>\n- WebRTC: Adaptation: Real-time <marks>1 mark</marks>\n- WebRTC: Quality switching: Dynamic <marks>1 mark</marks>\n- WebRTC: Latency: Ultra-low <marks>1 mark</marks>\n- DASH: Network efficiency: Very good <marks>1 mark</marks>\n- RTMP: Adaptation: Limited <marks>1 mark</marks>\n- RTMP: Quality switching: None <marks>1 mark</marks>\n- RTMP: Network efficiency: Medium <marks>1 mark</marks>\n- SRT: Adaptation: Packet-level <marks>1 mark</marks>\n- SRT: Buffer requirements: Medium <marks>1 mark</marks>\n- SRT: Latency: Low <marks>1 mark</marks>\n\n*Award up to 6 marks total for correct completions of blank cells.*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153770,
+            "content": "Analyse how Quality of Experience (QoE) metrics guide adaptive bitrate decisions in video streaming.",
+            "order": 1,
+            "markscheme": "- Measures like rebuffering events trigger quality reductions <marks>1 mark</marks>\n- Startup time metrics influence initial bitrate selection <marks>1 mark</marks>\n- Bandwidth estimation guides proactive quality adjustments <marks>1 mark</marks>\n- User engagement data informs long-term optimization strategies <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a32bef3a-3b89-4525-8ace-2471864d283a",
+        "specification": "A satellite communication company optimizes data transmission protocols for low Earth orbit (LEO) satellite constellations.\n\nWhich statement best compares TCP and UDP for satellite communications, considering reliability, overhead, latency tolerance, error recovery, and suitable use cases?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:08:28.900Z",
+            "resultId": 2651
+          }
+        },
+        "currentRevisionId": 1692098,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931057,
+            "content": "TCP provides reliable, ordered delivery with higher overhead due to acknowledgements and retransmissions, which can reduce performance on high-latency links; it suits file transfer and web browsing. UDP has lower overhead with no built-in reliability, so it can be better for real-time voice/video where occasional loss is acceptable and the application can handle timing and any recovery.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: accurately contrasts TCP (reliable, higher overhead, retransmissions/ACKs affected by latency) with UDP (low overhead, no built-in recovery) and links to appropriate use cases."
+          },
+          {
+            "id": 4931058,
+            "content": "TCP has lower overhead than UDP because it does not use acknowledgements, making it ideal for real-time voice/video over satellites; UDP is more reliable because it automatically retransmits lost packets.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: reverses key properties\u2014TCP uses acknowledgements/retransmissions (higher overhead) and UDP does not automatically retransmit (no built-in reliability)."
+          },
+          {
+            "id": 4931059,
+            "content": "TCP and UDP offer identical reliability and overhead, so the choice depends only on whether the satellite is in low Earth orbit; TCP is required for all real-time applications.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: TCP and UDP differ substantially in reliability/overhead, and orbit type does not make them identical; TCP is not required for all real-time applications."
+          },
+          {
+            "id": 4931060,
+            "content": "UDP is always preferred for satellite communications because it guarantees delivery with minimal overhead, while TCP cannot recover from errors on any network link.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: UDP does not guarantee delivery; TCP includes error recovery via retransmission and is commonly used on many networks, including over high-latency paths."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e9f4ed63-9427-4843-81ca-af7365044515",
+        "specification": "A satellite communication company optimizes data transmission protocols for low Earth orbit (LEO) satellite constellations.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:00.560Z",
+            "resultId": 1720
+          }
+        },
+        "currentRevisionId": 1692313,
+        "parts": [
+          {
+            "id": 1154271,
+            "content": "Compare the effectiveness of TCP, UDP, and custom protocols for satellite communications, considering reliability, overhead, latency tolerance, error recovery mechanisms, and optimal use cases.",
+            "order": 0,
+            "markscheme": "- **Describes** TCP as having high reliability but higher overhead and poor latency tolerance; it is best for file transfers where data integrity is critical. <marks>1 mark</marks>\n- **Describes** UDP as having low overhead and higher latency tolerance but no built-in error recovery; it is optimal for real-time applications such as voice or video streaming. <marks>1 mark</marks>\n- **Describes** custom protocols as being specialized for satellite constraints (e.g., using Forward Error Correction and/or tuned retransmission strategies) to minimize overhead and maximize throughput. <marks>1 mark</marks>\n- **Compares** TCP and UDP in terms of reliability vs overhead/latency tolerance in a satellite environment. <marks>1 mark</marks>\n- **Compares** a custom approach against TCP/UDP by linking features to satellite constraints (e.g., long RTT, variable loss, limited power). <marks>1 mark</marks>\n- **Provides** an overall comparison noting that the choice of protocol depends on balancing the specific application's reliability needs against the high-latency and high-loss constraints of the satellite environment. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154272,
+            "content": "Explain why traditional TCP performs poorly in satellite communications and propose two specific modifications that would improve performance.",
+            "order": 1,
+            "markscheme": "- **Explains** that the high round-trip time (RTT) in satellite links can limit throughput because the sender may not have enough unacknowledged data in flight to fill the large bandwidth-delay product. <marks>1 mark</marks>\n- **Explains** that TCP can interpret packet loss due to link errors as network congestion, causing the protocol to unnecessarily reduce its transmission rate. <marks>1 mark</marks>\n- **Proposes** increasing the amount of data that can be sent before waiting for acknowledgements (e.g., larger TCP window sizes) to better utilize available bandwidth in high-latency environments. <marks>1 mark</marks>\n- **Proposes** improving loss recovery so that only missing data is resent rather than reducing the rate excessively (e.g., selective retransmission / more precise acknowledgements). <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f320169f-f173-410f-ac50-5244c3bd1bcb",
+        "specification": "An autonomous vehicle manufacturer develops vehicle-to-everything (V2X) communication systems for traffic safety.\n\n*Note:* You do not need detailed knowledge of named V2X standards. Use general properties of wireless data transmission (e.g., relative range, latency, bandwidth, reliability, and infrastructure needs) to justify your answers.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:13:48.445Z",
+            "resultId": 1768
+          }
+        },
+        "currentRevisionId": 1692298,
+        "parts": [
+          {
+            "id": 1154242,
+            "content": "Analyse different wireless communication technologies for V2X applications by completing the table below.\n\nFill **exactly two** missing characteristics for **each** technology (any two blanks in that row). You may use **approximate values** (e.g., metres, milliseconds, Gbps) or **clear relative terms** (e.g., short/medium/long; low/medium/high).\n\n| Technology | Range | Latency | Bandwidth | Reliability | Infrastructure Required | Safety Application |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| DSRC (802.11p) | \u2014 | $<10\\text{ ms}$ | Medium | \u2014 | \u2014 | \u2014 |\n| C-V2X (LTE) | Long | \u2014 | High | \u2014 | Cellular towers | \u2014 |\n| 5G mmWave | \u2014 | $<1\\text{ ms}$ | \u2014 | \u2014 | Dense deployment | High-speed coordination |\n| WiFi 6 | Short | \u2014 | High | \u2014 | \u2014 | \u2014 |",
+            "order": 0,
+            "markscheme": "- **DSRC (802.11p)**: range approximately $300\\text{--}1000\\text{ m}$ <marks>1 mark</marks>\n- **DSRC (802.11p)**: high reliability in dedicated spectrum / suitable for safety-critical use <marks>1 mark</marks>\n- **DSRC (802.11p)**: infrastructure: RSUs may be used but can also operate directly vehicle-to-vehicle <marks>1 mark</marks>\n- **DSRC (802.11p)**: safety application such as collision avoidance / emergency braking warnings <marks>1 mark</marks>\n\n- **C-V2X (LTE)**: latency typically $<20\\text{ ms}$ (low but higher than DSRC/5G) <marks>1 mark</marks>\n- **C-V2X (LTE)**: reliability generally high (managed cellular network, but depends on coverage/congestion) <marks>1 mark</marks>\n- **C-V2X (LTE)**: safety application such as wide-area traffic management / hazard warnings over a larger area <marks>1 mark</marks>\n\n- **5G mmWave**: very short range (e.g., $<200\\text{ m}$) due to propagation limits <marks>1 mark</marks>\n- **5G mmWave**: extremely high bandwidth (e.g., $>1\\text{ Gbps}$) <marks>1 mark</marks>\n- **5G mmWave**: reliability can be variable/line-of-sight sensitive (blocked easily) <marks>1 mark</marks>\n\n- **WiFi 6**: latency low/medium but not guaranteed for safety-critical use <marks>1 mark</marks>\n- **WiFi 6**: reliability variable due to interference/contention in unlicensed spectrum <marks>1 mark</marks>\n- **WiFi 6**: infrastructure required: local access points (APs) <marks>1 mark</marks>\n- **WiFi 6**: typical use: non-safety tasks such as parking assistance data exchange / firmware updates <marks>1 mark</marks>\n\n*Award up to* **2 marks per technology** *for any two correct missing characteristics filled in that row (maximum 8 marks).*",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154243,
+            "content": "Evaluate the trade-offs between direct vehicle-to-vehicle (V2V) communication and infrastructure-based (V2I) communication for emergency braking scenarios.",
+            "order": 1,
+            "markscheme": "- V2V provides direct communication with minimal latency ($<10\\text{ ms}$), which is critical for the immediate reaction required in emergency braking. <marks>1 mark</marks>\n- V2V is independent of network coverage, ensuring safety functions work in remote areas or during network outages. <marks>1 mark</marks>\n- Infrastructure (V2I) provides a broader situational awareness (beyond line-of-sight), allowing vehicles to be warned of hazards several cars ahead. <marks>1 mark</marks>\n- V2I systems can coordinate braking across multiple vehicles simultaneously but introduce dependency on cellular network availability and higher overhead latency. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "10",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 36300,
+      "title": "A2.3 Data transmissions",
+      "slug": "ib-computer-science-new-a2-3-data-transmissions",
+      "parentTopicId": 36297
+    },
+    "subject": {
+      "id": 6523,
+      "title": "Computer Science (First Exam 2027)",
+      "slug": "ib-computer-science-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "10",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,3622 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:71ee5564fdd13389696618a7682b7708dc81a565d6aee2356389bb0825e97684
-size 170753
+{
+  "json": {
+    "questions": [
+      {
+        "id": "007d0afe-562e-49bc-9bba-19819fd49d84",
+        "specification": "A **community** in ecology refers to:",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29136,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.10 A community as all of the interacting organisms in an ecosystem",
+              "title": "C4.1.10 A community as all of the interacting organisms in an ecosystem",
+              "labeledAt": "2026-03-05T11:11:53.074Z",
+              "reasoning": "The question asks for the definition of a community in ecology, which is specifically covered in topic C4.1.10: 'A community as all of the interacting organisms in an ecosystem'.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1086902,
+        "parts": [],
+        "options": [
+          {
+            "id": 3741343,
+            "content": "One species only",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3741344,
+            "content": "All non-living components of an ecosystem",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3741345,
+            "content": "All populations living and interacting in an ecosystem",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3741346,
+            "content": "A habitat used only by plants",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "09a2d87e-b4f5-4d1d-957c-534c06085d3d",
+        "specification": "The Lincoln index is used to estimate populations of which type of organism?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T14:55:35.292Z",
+            "resultId": 43306
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29130,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "title": "C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "labeledAt": "2026-03-06T16:06:31.041Z",
+              "reasoning": "The Lincoln index is the capture\u2013mark\u2013release\u2013recapture method used to estimate population size, typically for motile organisms.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1697617,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941844,
+            "content": "sessile organisms",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. The Lincoln index is a mark\u2013release\u2013recapture method and is not used for sessile organisms."
+          },
+          {
+            "id": 4941845,
+            "content": "trees",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Trees are not typically estimated using mark\u2013release\u2013recapture methods such as the Lincoln index."
+          },
+          {
+            "id": 4941846,
+            "content": "motile organisms",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. The Lincoln index (mark\u2013release\u2013recapture) is used to estimate populations of motile organisms."
+          },
+          {
+            "id": 4941847,
+            "content": "microorganisms in lab cultures",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Microorganisms in lab cultures are usually estimated by methods such as plate counts or optical density, not the Lincoln index."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "18ebbff6-fc69-4210-bb22-928332067862",
+        "specification": "In a mark\u2013recapture study, the following were recorded:\n\n*   $M = 24$ (initially marked)\n*   $n = 60$ (total in second capture)\n*   $R = 12$ (marked in second capture)\n\nWhat is the estimated population size?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:48:20.260Z",
+            "resultId": 8394
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29130,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "title": "C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "labeledAt": "2026-03-05T11:33:51.884Z",
+              "reasoning": "The question provides data from a mark-recapture study and asks for the estimated population size. This is a direct application of the Lincoln index, which is specifically covered under topic C4.1.4.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1694191,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932769,
+            "content": "120",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Use the Lincoln index formula: $N = \\frac{n \\times M}{R}$\n$N = \\frac{60 \\times 24}{12} = 120$"
+          },
+          {
+            "id": 4932770,
+            "content": "80",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4932771,
+            "content": "96",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4932772,
+            "content": "144",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "22bba8a5-b6e9-4dd8-8901-007b0ee26a0d",
+        "specification": "Why is **random sampling** often used in population studies?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29128,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.2 Estimation of population size by random sampling",
+              "title": "C4.1.2 Estimation of population size by random sampling",
+              "labeledAt": "2026-03-05T11:32:08.064Z",
+              "reasoning": "The question specifically asks why random sampling is used in population studies, which is the core concept of estimating population size through random sampling as described in topic C4.1.2.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1086878,
+        "parts": [],
+        "options": [
+          {
+            "id": 3741335,
+            "content": "It guarantees no error",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3741336,
+            "content": "It helps remove unwanted organisms",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3741337,
+            "content": "It is quicker and reduces bias compared to full counts",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3741338,
+            "content": "It avoids estimating population size",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "23f65405-5a13-49f2-bde6-2c3cbbe5fc43",
+        "specification": "A population of wildflowers fluctuates year by year. Quadrat sampling shows lower densities during droughts, followed by recovery.\n\nWhich statement best explains this pattern?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29133,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.7 Population growth curves",
+              "title": "C4.1.7 Population growth curves",
+              "labeledAt": "2026-03-06T05:39:57.044Z",
+              "reasoning": "The pattern described (lower density during drought, recovery afterward) aligns with changes in population growth dynamics over time; the option referencing sigmoid growth parameters directly targets understanding of population growth curves.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29132,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "title": "C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "labeledAt": "2026-03-06T05:39:57.044Z",
+              "reasoning": "Drought is an abiotic stress that can reduce survival/reproduction and interact with density-dependent limits (carrying capacity/negative feedback control of population size), matching the best explanatory option given.",
+              "confidence": 0.73
+            },
+            {
+              "id": 29129,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "title": "C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "labeledAt": "2026-03-06T05:39:57.044Z",
+              "reasoning": "The question context explicitly involves quadrat sampling to estimate wildflower density; although the best explanation is ecological (drought effects), sampling methodology is part of what\u2019s being considered in distractors.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1486307,
+        "parts": [],
+        "options": [
+          {
+            "id": 4238465,
+            "content": "Sampling error due to a clumped distribution",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4238466,
+            "content": "Abiotic stress altering sigmoid growth parameters and enhancing density-dependent limits",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4238467,
+            "content": "Herbivory increasing growth rates and masking real change",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4238468,
+            "content": "Quadrat size that was too large to detect individual plants",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "3dedf3f5-5112-4fca-aaa4-3ad2908cc9b0",
+        "specification": "In a mark\u2013recapture (Lincoln index) study, the second sample contains fewer marked animals than expected if marked and unmarked individuals have equal probability of capture. Assume the population is closed (no immigration or emigration), no births or deaths occurred, and marks were not lost or missed.\n\nWhat is the most likely explanation?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:55:16.103Z",
+            "resultId": 31428
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29130,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "title": "C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "labeledAt": "2026-03-06T05:39:42.260Z",
+              "reasoning": "The scenario describes a capture\u2013mark\u2013release\u2013recapture study with fewer marked individuals in the second sample, pointing to a violated Lincoln index assumption (e.g., trap avoidance/behavioral response affecting recapture probability).",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695004,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935037,
+            "content": "Marked individuals avoided the trap after the first capture, so recapture probability was reduced.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: trap shyness/stress changes capture probability, violating the equal catchability assumption."
+          },
+          {
+            "id": 4935038,
+            "content": "The population size increased due to immigration between the two samples.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: the stem specifies a closed population (no immigration/emigration)."
+          },
+          {
+            "id": 4935039,
+            "content": "Marked and unmarked animals did not mix fully before the second sample was taken.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: inadequate mixing can bias results, but the observation most directly indicates reduced recapture probability of marked individuals."
+          },
+          {
+            "id": 4935040,
+            "content": "The marks became less visible between samples, so marked animals were recorded as unmarked.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: the stem states marks were not lost or missed."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "45519bb5-7503-4408-b6e6-7a7a3a4b4ba7",
+        "specification": "A species of pine secretes toxins that inhibit the root growth of nearby competing plants. However, fungi living symbiotically on the pine roots are unaffected.\n\nWhich statement best describes the ecological interactions shown?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:55:06.450Z",
+            "resultId": 31425
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29144,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.18 Allelopathy and secretion of antibiotics",
+              "title": "C4.1.18 Allelopathy and secretion of antibiotics",
+              "labeledAt": "2026-03-06T05:39:08.417Z",
+              "reasoning": "The scenario describes allelopathy: a pine secretes toxins that inhibit nearby root growth, a classic example of chemical suppression between plants.",
+              "confidence": 0.94
+            },
+            {
+              "id": 29137,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.11 Herbivory, predation, interspecific competition, mutualism, parasitism and pathogenicity",
+              "title": "C4.1.11 Herbivory, predation, interspecific competition, mutualism, parasitism and pathogenicity",
+              "labeledAt": "2026-03-06T05:39:08.417Z",
+              "reasoning": "The best-supported conclusion involves interpreting multiple interspecific interactions simultaneously (competitive suppression via allelopathy alongside a mutualistic fungus that is unaffected).",
+              "confidence": 0.82
+            },
+            {
+              "id": 29138,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.12 Mutualism as an interspecific relationship that benefits both species",
+              "title": "C4.1.12 Mutualism as an interspecific relationship that benefits both species",
+              "labeledAt": "2026-03-06T05:39:08.417Z",
+              "reasoning": "The fungus living symbiotically on pine roots indicates a mutualistic relationship (mycorrhizae), relevant to concluding mutualism can coexist with competition.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1695003,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935033,
+            "content": "The pine\u2019s toxins harm its mutualistic fungi, reducing mutualism.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Fungi on the pine roots are stated to be unaffected, so mutualists are not harmed."
+          },
+          {
+            "id": 4935034,
+            "content": "The pine\u2019s allelopathy enhances competition with mutualists.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "The fungi are mutualists and are unaffected by the toxins, so the toxins do not enhance competition with mutualists."
+          },
+          {
+            "id": 4935035,
+            "content": "Mutualism and competitive suppression can occur simultaneously.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "The pine\u2013fungus relationship is mutualism, while toxins suppress nearby competing plants; both interactions coexist."
+          },
+          {
+            "id": 4935036,
+            "content": "Allelopathy only occurs in high-density forests.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Allelopathy (chemical inhibition of competitors) is not restricted to high-density forests; the absolute claim is unsupported."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "50bfe54f-18d5-45e9-9137-2dea6be08c37",
+        "specification": "What type of interaction is **mutualism**?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29138,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.12 Mutualism as an interspecific relationship that benefits both species",
+              "title": "C4.1.12 Mutualism as an interspecific relationship that benefits both species",
+              "labeledAt": "2026-03-07T17:33:14.770Z",
+              "reasoning": "The question asks for the definition of mutualism as an interaction where both species benefit, matching the leaf topic on mutualism as an interspecific relationship benefiting both species.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1480117,
+        "parts": [],
+        "options": [
+          {
+            "id": 4232725,
+            "content": "One species benefits, one is harmed",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4232726,
+            "content": "One species benefits, one is unaffected",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4232727,
+            "content": "Both species benefit",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4232728,
+            "content": "Both species are harmed",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "514d722b-f7bc-4417-bebb-1134d39fe655",
+        "specification": "Random quadrat sampling in a meadow produced the results below.\n\n| Quadrat<br>Number | Area<br>(m\u00b2) | Number of Buttercups<br>Counted |\n|-------------------|--------------|---------------------------------|\n| 1 | 1.0 | 6 |\n| 2 | 1.0 | 4 |\n| 3 | 1.0 | 7 |\n| 4 | 1.0 | 3 |\n| 5 | 1.0 | 5 |\n\nThe total area of the meadow is 100 m\u00b2. What is the best estimate for the total population of buttercups in the meadow?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:46:36.465Z",
+            "resultId": 31624
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29129,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "title": "C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "labeledAt": "2026-03-06T05:40:23.571Z",
+              "reasoning": "The question describes random quadrat sampling in a meadow and asks for an estimate of total population from quadrat counts and total area\u2014direct application of random quadrat sampling to estimate population size for sessile organisms.",
+              "confidence": 0.98
+            },
+            {
+              "id": 29128,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.2 Estimation of population size by random sampling",
+              "title": "C4.1.2 Estimation of population size by random sampling",
+              "labeledAt": "2026-03-06T05:40:23.571Z",
+              "reasoning": "More generally, it is about estimating population size by random sampling using sample density scaled to total area.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1694950,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934825,
+            "content": "25",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Mean density is $\\frac{25}{5}=5$ buttercups m$^{-2}$, so 25 is the total counted in the sampled quadrats, not the estimate for the whole meadow."
+          },
+          {
+            "id": 4934826,
+            "content": "500",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Total counted = $6+4+7+3+5=25$ in $5\\,\\text{m}^2$ so mean density $=\\frac{25}{5}=5$ buttercups m$^{-2}$. Estimated total for $100\\,\\text{m}^2$ is $5\\times 100=500$."
+          },
+          {
+            "id": 4934827,
+            "content": "100",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Would correspond to a density of 1 buttercup m$^{-2}$, which is lower than the sample mean of 5 buttercups m$^{-2}$."
+          },
+          {
+            "id": 4934828,
+            "content": "125",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Would correspond to a density of 1.25 buttercups m$^{-2}$, which does not match the sample mean of 5 buttercups m$^{-2}$."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5375c132-4cee-4368-93ce-1eeed821a6c6",
+        "specification": "Garlic mustard is an invasive plant that secretes chemicals toxic to surrounding tree seedlings. A chi-squared test shows a strong negative association between their presence.\n\nWhat is the best interpretation of this pattern?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:17:35.814Z",
+            "resultId": 43537
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29141,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.15 Use of the chi-squared test for association between two species",
+              "title": "C4.1.15 Use of the chi-squared test for association between two species",
+              "labeledAt": "2026-03-06T16:08:30.935Z",
+              "reasoning": "The prompt explicitly uses a chi-squared test showing a strong negative association between presence/absence of two species, which is exactly the use of chi-squared for association between two species.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29144,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.18 Allelopathy and secretion of antibiotics",
+              "title": "C4.1.18 Allelopathy and secretion of antibiotics",
+              "labeledAt": "2026-03-06T16:08:30.935Z",
+              "reasoning": "Garlic mustard secretes toxic chemicals affecting nearby seedlings; interpreting the negative association as likely caused by chemical inhibition matches allelopathy/antibiotic secretion.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1697300,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941004,
+            "content": "Their distributions are positively associated",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. A negative association indicates the two are found together less often than expected, not more often."
+          },
+          {
+            "id": 4941005,
+            "content": "Mutualism enhances survival of both",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Mutualism would tend to increase co-occurrence, not produce a strong negative association."
+          },
+          {
+            "id": 4941006,
+            "content": "A statistically significant association, likely due to allelopathy",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. A significant negative association is consistent with garlic mustard inhibiting seedling establishment via toxic secretions (allelopathy)."
+          },
+          {
+            "id": 4941007,
+            "content": "Both species rely on the same pollinators",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Sharing pollinators does not directly explain reduced co-occurrence of a plant and tree seedlings; competitive/allelopathic effects better match the pattern."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7a83d618-07fa-46ce-90d2-73aa9f49cde8",
+        "specification": "What happens when a population **exceeds carrying capacity**?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29131,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.5 Carrying capacity and competition for limited resources",
+              "title": "C4.1.5 Carrying capacity and competition for limited resources",
+              "labeledAt": "2026-03-05T14:52:54.093Z",
+              "reasoning": "The question specifically asks about the consequences of a population exceeding its carrying capacity, which is the primary focus of this leaf topic.",
+              "confidence": 1
+            },
+            {
+              "id": 29132,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "title": "C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "labeledAt": "2026-03-05T14:52:54.093Z",
+              "reasoning": "The increase in death rate mentioned in the correct option is a density-dependent factor that provides negative feedback to regulate population size when it exceeds carrying capacity.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1480136,
+        "parts": [],
+        "options": [
+          {
+            "id": 4232753,
+            "content": "The population will stabilize permanently.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4232754,
+            "content": "Resource availability increases.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4232755,
+            "content": "The death rate tends to increase.",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4232756,
+            "content": "Density-independent factors are activated.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "8d5a6032-4e2c-45b5-840e-59c5baf2068e",
+        "specification": "The graph shows the population densities of two species of herbivorous insects (Species A and B) feeding on the same host plant over a growing season.\n\n![](https://pub-images.revisiondojo.com/plots/6e90272d-2ac9-4fd4-85c3-8ee706eafe10.png)\n\nWhich ecological interaction best explains the observed changes in population densities over time?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29137,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.11 Herbivory, predation, interspecific competition, mutualism, parasitism and pathogenicity",
+              "title": "C4.1.11 Herbivory, predation, interspecific competition, mutualism, parasitism and pathogenicity",
+              "labeledAt": "2026-03-05T14:50:47.951Z",
+              "reasoning": "The question requires identifying an ecological interaction (interspecific competition) from a set of options that directly match the types of interactions listed in this syllabus point.",
+              "confidence": 1
+            },
+            {
+              "id": 28943,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.13 Competitive exclusion and the uniqueness of ecological niches",
+              "title": "B4.2.13 Competitive exclusion and the uniqueness of ecological niches",
+              "labeledAt": "2026-03-05T14:50:47.951Z",
+              "reasoning": "The graph depicts a scenario where one species outcompetes and potentially excludes another while feeding on the same host plant, which is a classic illustration of the competitive exclusion principle.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1480137,
+        "parts": [],
+        "options": [
+          {
+            "id": 4232757,
+            "content": "Predation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4232758,
+            "content": "Mutualism",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4232759,
+            "content": "Interspecific competition",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4232760,
+            "content": "Parasitism",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "9b0d1c18-9343-4f82-9cdf-5e8601e9eaeb",
+        "specification": "Which of the following best describes a **predator\u2013prey relationship**?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:29:17.699Z",
+            "resultId": 13701
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29142,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.16 Predator\u2013prey relationships",
+              "title": "C4.1.16 Predator\u2013prey relationships",
+              "labeledAt": "2026-03-05T15:23:37.484Z",
+              "reasoning": "The question explicitly asks to describe the 'predator-prey relationship', which matches the leaf topic C4.1.16 perfectly. The options provided describe the population dynamics characteristic of these relationships.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1693907,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931669,
+            "content": "Predator numbers increase \u2192 prey numbers decrease \u2192 predator numbers then decrease.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931670,
+            "content": "Predator and prey populations always remain constant over time.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931671,
+            "content": "Predator and prey compete directly for the same food resource.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931672,
+            "content": "Prey numbers increase \u2192 predator numbers follow \u2192 prey numbers drop.",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9cc5a229-dd12-4c3b-b7eb-6f60cf81e1c2",
+        "specification": "When applying a $\\chi^2$ test to two species' distributions, which result most strongly supports a non-random association?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:43:16.965Z",
+            "resultId": 12849
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29141,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.15 Use of the chi-squared test for association between two species",
+              "title": "C4.1.15 Use of the chi-squared test for association between two species",
+              "labeledAt": "2026-03-05T15:21:01.246Z",
+              "reasoning": "The question asks about the interpretation of the chi-squared test in the context of species distribution and association, which is directly covered by the leaf topic C4.1.15.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1693979,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931953,
+            "content": "A high $p$-value",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931954,
+            "content": "A low $\\chi^2$ value",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931955,
+            "content": "Observed and expected values are identical",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931956,
+            "content": "A $p$-value below $0.05$",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e4b683d1-5fcb-44be-aac8-a6e299b19a13",
+        "specification": "A native plant species declines after an invasive plant species spreads. Removal of the invasive plant leads to partial recovery in the native plant population size. A chi-squared test between the species distributions yields $p < 0.05$.\n\nWhat is the most reasonable conclusion?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T09:16:53.258Z",
+            "resultId": 5894
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29139,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.13 Resource competition between endemic and invasive species",
+              "title": "C4.1.13 Resource competition between endemic and invasive species",
+              "labeledAt": "2026-03-05T08:12:55.317Z",
+              "reasoning": "The question specifically describes the interaction between an invasive plant species and a native (endemic) species, where the invasive species outcompetes the native one for resources.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29141,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.15 Use of the chi-squared test for association between two species",
+              "title": "C4.1.15 Use of the chi-squared test for association between two species",
+              "labeledAt": "2026-03-05T08:12:55.317Z",
+              "reasoning": "The question explicitly mentions using a chi-squared test to evaluate the association between the distributions of the two plant species.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29140,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.14 Tests for interspecific competition",
+              "title": "C4.1.14 Tests for interspecific competition",
+              "labeledAt": "2026-03-05T08:12:55.317Z",
+              "reasoning": "The scenario involves a removal experiment (removing the invasive species to observe recovery), which is a standard method used to test for interspecific competition.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1693690,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931225,
+            "content": "There is strong evidence of mutualism",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931226,
+            "content": "The species coexist due to shared niches",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931227,
+            "content": "Interspecific competition likely exists between the two plant species",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931228,
+            "content": "The chi-squared test is inconclusive",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ed3ab837-fbb8-42fa-bc78-6c89786a027a",
+        "specification": "A community contains five species: a grass, a rodent, a hawk, a decomposer, and a parasitic mite. Each plays a different ecological role.\n\nWhich interaction represents **top-down control**?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T02:56:33.624Z",
+            "resultId": 16134
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29143,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.17 Top-down and bottom-up control of populations in communities",
+              "title": "C4.1.17 Top-down and bottom-up control of populations in communities",
+              "labeledAt": "2026-03-05T17:02:01.599Z",
+              "reasoning": "The question explicitly asks to identify an interaction categorized as 'top-down control', which is the central concept of topic C4.1.17.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1694335,
+        "parts": [],
+        "options": [
+          {
+            "id": 4933201,
+            "content": "Hawks limit rodent numbers through predation.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4933202,
+            "content": "Decomposers increase nutrient cycling.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4933203,
+            "content": "Parasitic mites reduce rodent fitness and survival.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4933204,
+            "content": "Grass provides food for rodents, increasing rodent population size.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f1cc5c1a-e42e-4f6a-adbc-86e9658a91d6",
+        "specification": "What defines a **population** in ecology?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:15:39.230Z",
+            "resultId": 13840
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29127,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.1 Populations",
+              "title": "C4.1.1 Populations",
+              "labeledAt": "2026-03-05T16:09:01.283Z",
+              "reasoning": "The question specifically asks for the definition of a population, which is the central concept covered under topic C4.1.1 Populations.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1694067,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932305,
+            "content": "All the organisms of various species living in a defined area",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This describes a community rather than a population."
+          },
+          {
+            "id": 4932306,
+            "content": "A group of organisms of the same species living in the same area at the same time",
+            "correct": true,
+            "order": 1,
+            "markscheme": "This is the formal definition of a population in the IB Biology syllabus."
+          },
+          {
+            "id": 4932307,
+            "content": "A group of different species living and interacting with each other",
+            "correct": false,
+            "order": 2,
+            "markscheme": "This is the definition of a community."
+          },
+          {
+            "id": 4932308,
+            "content": "A group of organisms that occupy the same trophic level in an ecosystem",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Trophic levels identify the position in a food chain/web, but include many different species and populations."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fff2bc56-5c52-4569-a14e-32bbd22b9520",
+        "specification": "Which of these organisms uses **photosynthesis** as its primary mode of nutrition?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T03:48:45.776Z",
+            "resultId": 15576
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28933,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.3 Photosynthesis as the mode of nutrition ",
+              "title": "B4.2.3 Photosynthesis as the mode of nutrition ",
+              "labeledAt": "2026-03-05T16:58:51.622Z",
+              "reasoning": "The question directly asks to identify which organism uses photosynthesis as its mode of nutrition, which is the specific subject of this leaf topic.",
+              "confidence": 1
+            },
+            {
+              "id": 29150,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.6 Autotrophs",
+              "title": "C4.2.6 Autotrophs",
+              "labeledAt": "2026-03-05T16:58:51.622Z",
+              "reasoning": "Organisms that use photosynthesis are autotrophs; this topic covers the classification of organisms as autotrophs based on their nutritional strategy.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29151,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.7 Use of light as the external energy source",
+              "title": "C4.2.7 Use of light as the external energy source",
+              "labeledAt": "2026-03-05T16:58:51.622Z",
+              "reasoning": "Photosynthesis is defined by the use of light as the external energy source to produce carbon compounds.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1694419,
+        "parts": [],
+        "options": [
+          {
+            "id": 4933537,
+            "content": "Amoeba",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4933538,
+            "content": "Mushroom",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4933539,
+            "content": "A cyanobacterium",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4933540,
+            "content": "Earthworm",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0157dc13-93d6-4fb5-8ffe-d0ccaf34ac5c",
+        "specification": "In an ecological survey, the presence of two species of lichen, *Parmelia* and *Cladonia*, was recorded on 100 trees. The results are shown in the contingency table.\n\n| | *Cladonia* present | *Cladonia* absent | Total |\n| :--- | :---: | :---: | :---: |\n| **_Parmelia_ present** | 15 | 25 | 40 |\n| **_Parmelia_ absent** | 35 | 25 | 60 |\n| **Total** | 50 | 50 | 100 |\n\nWhat is the expected frequency of trees containing both species if there is no association between them?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-0157dc13-93d6-4fb5-8ffe-d0ccaf34ac5c-1771929956947",
+            "generatedAt": "2026-02-25T04:58:47.641Z",
+            "sourceRevisionId": 1481885
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T14:43:48.388Z",
+            "resultId": 8568
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29141,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.15 Use of the chi-squared test for association between two species",
+              "title": "C4.1.15 Use of the chi-squared test for association between two species",
+              "labeledAt": "2026-03-05T11:37:51.693Z",
+              "reasoning": "The question asks to calculate the expected frequency for a cell in a contingency table assuming no association between two species. This is a fundamental step in the chi-squared test for association between species, which is explicitly covered by topic C4.1.15.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1693856,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931525,
+            "content": "15",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931526,
+            "content": "20",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931527,
+            "content": "40",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931528,
+            "content": "50",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "13e32630-1b73-409d-8c3d-b3b227cc5178",
+        "specification": "Ecologists monitored the development of an ecosystem on a newly formed volcanic island over a period of 150 years. The study tracked changes in biomass and energy flow as the community underwent primary succession.\n\n| Stage | Years since formation | Total Biomass ($kg\\ m^{-2}$) | Gross Primary Productivity ($g\\ m^{-2}\\ yr^{-1}$) | Respiration ($g\\ m^{-2}\\ yr^{-1}$) |\n| :--- | :--- | :--- | :--- | :--- |\n| Pioneer | 10 | 0.2 | 150 | 90 |\n| Intermediate | 50 | 4.5 | 800 | 450 |\n| Climax | 150 | 18.2 | 1200 | 1150 |",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-13e32630-1b73-409d-8c3d-b3b227cc5178-1771929956947",
+            "generatedAt": "2026-02-25T05:29:30.254Z",
+            "sourceRevisionId": 1480580
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:15:45.880Z",
+            "resultId": 32438
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29323,
+              "isHl": true,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.13 Changes occurring during primary succession (HL)",
+              "title": "D4.2.13 Changes occurring during primary succession (HL)",
+              "labeledAt": "2026-03-06T07:58:34.749Z",
+              "reasoning": "The question is explicitly about primary succession on a newly formed volcanic island, tracking biomass changes across pioneer/intermediate/climax stages and asking about how conditions change during succession.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29159,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.15 Primary production as accumulation of carbon compounds in biomass by autotrophs",
+              "title": "C4.2.15 Primary production as accumulation of carbon compounds in biomass by autotrophs",
+              "labeledAt": "2026-03-06T07:58:34.749Z",
+              "reasoning": "Calculating NPP from GPP and respiration and discussing changing energy storage as climax is approached directly tests primary production/biomass accumulation concepts.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29325,
+              "isHl": true,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.15 Climax communities and arrested succession (HL)",
+              "title": "D4.2.15 Climax communities and arrested succession (HL)",
+              "labeledAt": "2026-03-06T07:58:34.749Z",
+              "reasoning": "References to the ecosystem approaching a climax community and comparison of energy flow/respiration in the climax stage align with climax community characteristics.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 1695061,
+        "parts": [
+          {
+            "id": 1157030,
+            "content": "State the relationship between time and total biomass during this process of primary succession.",
+            "order": 0,
+            "markscheme": "- Total biomass increases with time during succession (positive correlation). <marks>1 mark</marks>\n- Biomass is lowest in the pioneer stage and highest in the climax stage (increasing trend across stages). <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157031,
+            "content": "Calculate the net primary productivity (NPP) for the intermediate stage. Then discuss how energy storage (biomass accumulation/NPP) changes from the intermediate stage to the climax community.",
+            "order": 1,
+            "markscheme": "- NPP calculation: $\\text{NPP} = \\text{GPP} - R = 800 - 450 = 350\\ g\\ m^{-2}\\ yr^{-1}$. <marks>1 mark</marks>\n- Correct units stated for NPP: $g\\ m^{-2}\\ yr^{-1}$. <marks>1 mark</marks>\n- From intermediate to climax, respiration increases substantially (higher community maintenance costs). <marks>1 mark</marks>\n- In the climax stage, $\\text{GPP} \\approx R$ (e.g. $1200$ vs $1150$), so NPP is low and little additional energy is stored as new biomass. <marks>1 mark</marks>\n- Biomass is still high in the climax community because it has accumulated over time, even though net biomass gain per year is small. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157032,
+            "content": "Explain how pioneer species, such as lichens and mosses, alter the abiotic environment to allow for the establishment of later successional stages.",
+            "order": 2,
+            "markscheme": "- Physical and/or chemical weathering: pioneer organisms break down bare rock to produce smaller particles. <marks>1 mark</marks>\n_**OR**_\n- Organic matter/humus addition: death and decomposition of pioneers adds organic material, improving water retention and soil structure. <marks>1 mark</marks>\n_**OR**_\n- Nutrient enrichment: some pioneers (e.g. cyanobacteria in lichens) fix nitrogen, increasing soil fertility. <marks>1 mark</marks>\n\n- Award any two of the above points. <marks>2 marks</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2869273c-0689-4883-ba32-6f557c22ad06",
+        "specification": "An ecologist is investigating the various organizational levels of a savanna in East Africa. During the study, the following data sets were collected:\n\n| Research Focus | Data Collected |\n| :--- | :--- |\n| Focus I | The growth rate and birth frequency of a group of *Loxodonta africana* (African elephants) in the park. |\n| Focus II | The interactions between the various species of grasses, herbivores, and predators (biotic interactions only) within the park boundary. |\n| Focus III | The relationship between the total biodiversity of the park and the annual cycle of wet and dry seasons. |\n\nWhich ecological term identifies the level of biological organization described in **Focus II**?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-2869273c-0689-4883-ba32-6f557c22ad06-1771929956947",
+            "generatedAt": "2026-02-25T04:55:08.590Z",
+            "sourceRevisionId": 1108839
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:45:26.181Z",
+            "resultId": 31647
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29136,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.10 A community as all of the interacting organisms in an ecosystem",
+              "title": "C4.1.10 A community as all of the interacting organisms in an ecosystem",
+              "labeledAt": "2026-03-06T05:40:33.376Z",
+              "reasoning": "Focus II describes interactions among multiple species (grasses, herbivores, predators) within the same area, which matches the definition of a community: all interacting organisms in an ecosystem.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1694938,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934777,
+            "content": "Population",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934778,
+            "content": "Community",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934779,
+            "content": "Ecosystem",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934780,
+            "content": "Biosphere",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2ece5915-35dd-49a1-80e7-943be2b75a6c",
+        "specification": "The following data were collected during a study to estimate the population size of a species of ground beetle in a woodland habitat, assuming the population remained closed during the study period.\n\n| Description | Number of individuals |\n| :--- | :--- |\n| Beetles captured, marked and released in first sample | 60 |\n| Total beetles captured in second sample | 75 |\n| Marked beetles recaptured in second sample | 15 |\n\nWhat is the estimated population size of the beetles?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-2ece5915-35dd-49a1-80e7-943be2b75a6c-1771929956947",
+            "generatedAt": "2026-02-25T05:32:04.998Z",
+            "sourceRevisionId": 1109077
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:17:30.158Z",
+            "resultId": 43532
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29130,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "title": "C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "labeledAt": "2026-03-06T16:08:27.233Z",
+              "reasoning": "The question gives capture\u2013mark\u2013release\u2013recapture data (first sample marked, second sample total caught, number of marked recaptured) and asks for estimated population size using the Lincoln index for a closed population.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1697298,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941000,
+            "content": "120",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4941001,
+            "content": "135",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4941002,
+            "content": "300",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4941003,
+            "content": "4500",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3095be1f-bbf6-4721-900a-df90ab67ebb0",
+        "specification": "An ecologist is monitoring the growth of a pioneer species introduced into a new, stable environment with abundant resources and no predators. Which graph represents the phase of exponential increase?\n\n![Population growth curves](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-biology-new-3095be1f-bbf6-4721-900a-df90ab67ebb0-1771815806714/30bb042c-c392-47c7-a8a4-c1f020a6755d.jpeg)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-biology-new-3095be1f-bbf6-4721-900a-df90ab67ebb0-1771815806714",
+            "generatedAt": "2026-02-23T04:10:10.243Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1106085
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T11:30:29.412Z",
+            "resultId": 6705
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29133,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.7 Population growth curves",
+              "title": "C4.1.7 Population growth curves",
+              "labeledAt": "2026-03-05T11:11:44.433Z",
+              "reasoning": "The question specifically asks to identify a phase within a population growth curve, which directly maps to this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 29134,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.8 Modelling of the sigmoid population growth curve",
+              "title": "C4.1.8 Modelling of the sigmoid population growth curve",
+              "labeledAt": "2026-03-05T11:11:44.433Z",
+              "reasoning": "The growth curve shown is a sigmoid (logistic) growth curve, and identifying its components is part of modelling this curve.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1693779,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931345,
+            "content": "A",
+            "correct": false,
+            "order": 0,
+            "markscheme": "<note>Graph A shows sigmoidal (logistic) growth, which includes a plateau phase where the population reaches carrying capacity.</note>"
+          },
+          {
+            "id": 4931346,
+            "content": "B",
+            "correct": false,
+            "order": 1,
+            "markscheme": "<note>Graph B shows a constant linear increase, where the growth rate does not change relative to the population size.</note>"
+          },
+          {
+            "id": 4931347,
+            "content": "C",
+            "correct": true,
+            "order": 2,
+            "markscheme": "<note>Graph C shows a J-shaped curve, which is characteristic of exponential growth where the rate of increase is proportional to the size of the population.</note>"
+          },
+          {
+            "id": 4931348,
+            "content": "D",
+            "correct": false,
+            "order": 3,
+            "markscheme": "<note>Graph D shows a boom-and-bust cycle or a bell-shaped growth followed by a crash, not continuous exponential increase.</note>"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4a6ce03a-eb53-46b6-93e9-91e072e15724",
+        "specification": "A chi-squared test was conducted to determine if an association exists between the distribution of two plant species in a grassland. The results of the statistical analysis are shown in the table below (df = 1).\n\n| Statistical Parameter | Value |\n| :--- | :--- |\n| Calculated $\\chi^2$ value | 4.85 |\n| Critical value ($p = 0.05$) | 3.84 |\n\nWhich conclusion can be drawn from these results?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-4a6ce03a-eb53-46b6-93e9-91e072e15724-1771929956947",
+            "generatedAt": "2026-02-25T05:45:54.664Z",
+            "sourceRevisionId": 1108043
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:47:19.205Z",
+            "resultId": 31610
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29141,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.15 Use of the chi-squared test for association between two species",
+              "title": "C4.1.15 Use of the chi-squared test for association between two species",
+              "labeledAt": "2026-03-06T05:40:02.088Z",
+              "reasoning": "The question interprets chi-squared test results (calculated \u03c7\u00b2 vs critical value at p=0.05) to decide whether to reject the null hypothesis of independence/association between two species.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1694955,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934845,
+            "content": "The null hypothesis is accepted because the calculated value is greater than the critical value",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. If calculated $\\chi^2$ is greater than the critical value, the null hypothesis is rejected."
+          },
+          {
+            "id": 4934846,
+            "content": "There is no statistically significant association between the distribution of the two species",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Since $4.85 > 3.84$, the result is statistically significant at $p=0.05$."
+          },
+          {
+            "id": 4934847,
+            "content": "The null hypothesis of independence is rejected at the 5% significance level",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. Because the calculated $\\chi^2$ value (4.85) exceeds the critical value (3.84), reject the null hypothesis at $p=0.05$."
+          },
+          {
+            "id": 4934848,
+            "content": "The observed distribution of the two species is likely due to chance alone",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Rejecting the null hypothesis implies the observed distribution is unlikely to be due to chance alone at $p=0.05$."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5042f575-3c8b-4f92-9fd5-4cf98aa28162",
+        "specification": "In a marine study area measuring $50\\text{ m}$ by $50\\text{ m}$, scientists took samples to estimate the population of giant clams (*Tridacna gigas*). The number of clams counted in five sample quadrats of $100\\text{ m}^2$ each was recorded in the grid below.\n\n![diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-biology-new-5042f575-3c8b-4f92-9fd5-4cf98aa28162-1771815806714/fad1a6f0-95ed-4878-9f9e-701a8d3e4c42.jpeg)\n\nApproximately how many giant clams are in the $2,500\\text{ m}^2$ study area?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-biology-new-5042f575-3c8b-4f92-9fd5-4cf98aa28162-1771815806714",
+            "generatedAt": "2026-02-23T04:04:37.000Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1107739
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29129,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "title": "C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "labeledAt": "2026-03-05T11:31:29.731Z",
+              "reasoning": "The question involves estimating the population size of giant clams, which are sessile organisms, using random quadrat sampling and data provided from a set of sample areas.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1681515,
+        "parts": [],
+        "options": [
+          {
+            "id": 4910131,
+            "content": "6",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4910132,
+            "content": "30",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4910133,
+            "content": "150",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4910134,
+            "content": "750",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "53fc8a0c-aae2-4cf7-989c-f25061877a7b",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:07:46.290Z",
+            "resultId": 32613
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29109,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.1 Pathogens as the cause of infectious diseases",
+              "title": "C3.2.1 Pathogens as the cause of infectious diseases",
+              "labeledAt": "2026-03-06T07:59:48.240Z",
+              "reasoning": "The question asks about how population density affects transmission of infectious diseases, which directly relates to how pathogens spread and cause infectious disease.",
+              "confidence": 0.7
+            },
+            {
+              "id": 29125,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.17 Herd immunity and the prevention of epidemics",
+              "title": "C3.2.17 Herd immunity and the prevention of epidemics",
+              "labeledAt": "2026-03-06T07:59:48.240Z",
+              "reasoning": "Population density influences contact rates and thus epidemic spread/containment; this links to herd immunity concepts in preventing epidemics, though not explicitly about vaccination.",
+              "confidence": 0.55
+            },
+            {
+              "id": 29132,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "title": "C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "labeledAt": "2026-03-06T07:59:48.240Z",
+              "reasoning": "Population density as a density-dependent factor affecting outcomes (here, disease transmission) aligns with density-dependent control concepts, even though framed as disease rather than population size.",
+              "confidence": 0.45
+            }
+          ]
+        },
+        "currentRevisionId": 1695034,
+        "parts": [
+          {
+            "id": 1156994,
+            "content": "Explain how population density affects the transmission of infectious diseases.",
+            "order": 0,
+            "markscheme": "- Higher population density leads to increased contact rates / closer proximity of individuals, increasing the chance of transmission <marks>1 mark</marks>\n- Pathogens spread more easily in dense populations (e.g., more frequent encounters/shared spaces), so infection can pass through the population more rapidly <marks>1 mark</marks>\n- Higher density can increase the basic reproductive number ($R_0$) / encounter rate, promoting faster outbreaks <marks>1 mark</marks>\n- Lower density reduces contact rate, so transmission is less likely and outbreaks spread more slowly <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "5d7751d1-3724-4b50-b150-849ebd5c6cb2",
+        "specification": "Which of the following processes is primarily responsible for the recycling of inorganic nutrients in a sustainable ecosystem?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-5d7751d1-3724-4b50-b150-849ebd5c6cb2-1771929956947",
+            "generatedAt": "2026-02-25T03:01:51.771Z",
+            "sourceRevisionId": 1106266
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29166,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.22 Recycling of all chemical elements required by living organisms in ecosystems",
+              "title": "C4.2.22 Recycling of all chemical elements required by living organisms in ecosystems",
+              "labeledAt": "2026-03-06T16:09:01.205Z",
+              "reasoning": "Question asks about recycling of inorganic nutrients in ecosystems; this is directly the concept of recycling chemical elements via decomposers/nutrient cycles.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29149,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.5 Supply of energy to decomposers",
+              "title": "C4.2.5 Supply of energy to decomposers",
+              "labeledAt": "2026-03-06T16:09:01.205Z",
+              "reasoning": "Correct option involves decomposers breaking down dead organic matter, linking to decomposers\u2019 role in ecosystem matter/energy transfer.",
+              "confidence": 0.72
+            },
+            {
+              "id": 28936,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.6 Saprotrophic nutrition in some fungi and bacteria",
+              "title": "B4.2.6 Saprotrophic nutrition in some fungi and bacteria",
+              "labeledAt": "2026-03-06T16:09:01.205Z",
+              "reasoning": "Mentions saprotrophic organisms specifically; saprotrophic nutrition covers decomposition of dead organic matter.",
+              "confidence": 0.64
+            }
+          ]
+        },
+        "currentRevisionId": 1686104,
+        "parts": [],
+        "options": [
+          {
+            "id": 4922739,
+            "content": "The transfer of chemical energy between different trophic levels",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4922740,
+            "content": "The loss of energy as heat during the process of cellular respiration",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4922741,
+            "content": "The breakdown of dead organic matter by saprotrophic organisms",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4922742,
+            "content": "The conversion of carbon dioxide into glucose by primary producers",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5d8b992d-5f0f-4e40-a21f-62b2408ed0d8",
+        "specification": "The distribution of salt marsh plants is often determined by their tolerance to environmental stressors. A study was conducted along a belt transect to observe the density of the annual sea-blite (*Suaeda maritima*) in relation to soil salinity (ppm = mg kg$^{-1}$ soil) at varying distances from the high-tide mark.\n\n| Distance from high-tide mark (m) | Soil salinity (ppm) | Density of *S. maritima* (individuals per $m^2$) |\n| :--- | :--- | :--- |\n| 0 | 35,000 | 4 |\n| 10 | 28,000 | 12 |\n| 20 | 22,000 | 25 |\n| 30 | 15,000 | 18 |\n| 40 | 8,000 | 2 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-5d8b992d-5f0f-4e40-a21f-62b2408ed0d8-1771929956947",
+            "generatedAt": "2026-02-25T07:01:08.605Z",
+            "sourceRevisionId": 1481995
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:09:07.783Z",
+            "resultId": 32618
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28926,
+              "isHl": false,
+              "path": "B - Form and Function > B4.1 Adaptation to environment > B4.1.4 Range of tolerance of a limiting factor",
+              "title": "B4.1.4 Range of tolerance of a limiting factor",
+              "labeledAt": "2026-03-06T07:59:53.318Z",
+              "reasoning": "Focuses on how soil salinity (an abiotic limiting factor) affects plant density along a transect, reflecting tolerance ranges and limiting factors determining distribution.",
+              "confidence": 0.84
+            },
+            {
+              "id": 28925,
+              "isHl": false,
+              "path": "B - Form and Function > B4.1 Adaptation to environment > B4.1.3 Abiotic variables affecting species distribution",
+              "title": "B4.1.3 Abiotic variables affecting species distribution",
+              "labeledAt": "2026-03-06T07:59:53.318Z",
+              "reasoning": "Requires describing the relationship between an abiotic variable (salinity) and species distribution/abundance in a habitat.",
+              "confidence": 0.8
+            },
+            {
+              "id": 28942,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.12 Fundamental and realized niches",
+              "title": "B4.2.12 Fundamental and realized niches",
+              "labeledAt": "2026-03-06T07:59:53.318Z",
+              "reasoning": "Part (b) explicitly asks to distinguish fundamental vs realized niche for the species.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1695038,
+        "parts": [
+          {
+            "id": 1157002,
+            "content": "Using the data in the table, describe the relationship between soil salinity and the density of *S. maritima*.",
+            "order": 0,
+            "markscheme": "- Density increases as salinity decreases from 35,000 to 22,000 ppm <marks>1 mark</marks>\n\n_**OR**_\n\n- The species has an optimum salinity level around 22,000 ppm <marks>1 mark</marks>\n\n_**OR**_\n\n- Density decreases at both very high and very low salinity levels <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157003,
+            "content": "Explain how abiotic factors, such as soil salinity, act as limiting factors for plant distribution in coastal ecosystems.",
+            "order": 1,
+            "markscheme": "- Abiotic factors define the limits of tolerance for a species <marks>1 mark</marks>\n- High salinity can cause osmotic stress or dehydration in tissues <marks>1 mark</marks>\n\n_**OR**_\n\n- Abiotic factors define the limits of tolerance for a species <marks>1 mark</marks>\n- Species are distributed along a gradient according to their physiological adaptations <marks>1 mark</marks>\n\n_**OR**_\n\n- High salinity can cause osmotic stress or dehydration in tissues <marks>1 mark</marks>\n- Low salinity may allow for more competitive species to outcompete *S. maritima* <marks>1 mark</marks>\n\n<note>Award a maximum of <marks>2 marks</marks>.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157004,
+            "content": "Distinguish between the fundamental niche and the realized niche of a species like *S. maritima*.",
+            "order": 2,
+            "markscheme": "- **Fundamental niche**: the potential mode of existence/full range of environmental conditions under which a species can survive and reproduce <marks>1 mark</marks>\n- **Realized niche**: the actual mode of existence/narrower range of conditions occupied due to limiting factors such as competition or predation <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "61ba503c-6245-4fbe-8748-c9fa17c1a879",
+        "specification": "What is exchanged between a sealed mesocosm and the surrounding external environment?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Biology-21N.1.SL.TZ0.17",
+          "labeledSubSubTopics": [
+            {
+              "id": 29314,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.4 Use of a model to investigate the effect of variables on ecosystem stability",
+              "title": "D4.2.4 Use of a model to investigate the effect of variables on ecosystem stability",
+              "labeledAt": "2026-03-05T12:04:23.863Z",
+              "reasoning": "A mesocosm is the primary example of an ecological model used in biology to investigate ecosystem stability. This question specifically tests the fundamental principle that a sealed mesocosm is a closed system, which allows for the exchange of energy (heat/light) but not matter (water/air) with the external environment.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29312,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.2 Sustainability and change > D4.2.2 Requirements for stability in ecosystems",
+              "title": "D4.2.2 Requirements for stability in ecosystems",
+              "labeledAt": "2026-03-05T12:04:23.863Z",
+              "reasoning": "The fact that only energy is exchanged is a key requirement for the long-term stability and sustainability of a sealed ecosystem (mesocosm), as it must recycle nutrients internally while receiving external energy.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1108128,
+        "parts": [],
+        "options": [
+          {
+            "id": 1259364,
+            "content": "Energy",
+            "correct": true,
+            "order": 0,
+            "markscheme": null
+          },
+          {
+            "id": 1259365,
+            "content": "Water",
+            "correct": false,
+            "order": 1,
+            "markscheme": null
+          },
+          {
+            "id": 1259366,
+            "content": "Air",
+            "correct": false,
+            "order": 2,
+            "markscheme": null
+          },
+          {
+            "id": 1259367,
+            "content": "Nothing can pass",
+            "correct": false,
+            "order": 3,
+            "markscheme": null
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6b522e7c-9b87-4ed8-aabb-7743cf29a841",
+        "specification": "Which of the following describes a mutualistic relationship between two different species?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-6b522e7c-9b87-4ed8-aabb-7743cf29a841-1771929956947",
+            "generatedAt": "2026-02-25T05:45:54.682Z",
+            "sourceRevisionId": 827055
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29138,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.12 Mutualism as an interspecific relationship that benefits both species",
+              "title": "C4.1.12 Mutualism as an interspecific relationship that benefits both species",
+              "labeledAt": "2026-03-06T15:31:33.531Z",
+              "reasoning": "The question asks for the definition of a mutualistic interspecific relationship, i.e., an interaction where both species benefit.",
+              "confidence": 0.99
+            }
+          ]
+        },
+        "currentRevisionId": 1687953,
+        "parts": [],
+        "options": [
+          {
+            "id": 4927265,
+            "content": "One species benefits while the other is harmed by the interaction.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4927266,
+            "content": "One species benefits and the other species is neither helped nor harmed.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4927267,
+            "content": "Both species involved in the interaction receive a benefit.",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4927268,
+            "content": "Both species are negatively affected as they compete for the same resource.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6ea51061-383f-4ba3-8da6-ea40f883da69",
+        "specification": "A study was conducted to observe the population dynamics of rabbits and foxes in an ecosystem over 20 years. The data below represents their estimated population sizes:\n\n| Year | Rabbit Population (thousands) | Fox Population (thousands) |\n|------|-------------------------------|-----------------------------|\n| 1    | 50                            | 5                           |\n| 3    | 80                            | 8                           |\n| 5    | 120                           | 12                          |\n| 7    | 180                           | 20                          |\n| 9    | 90                            | 25                          |\n| 11   | 60                            | 18                          |\n| 13   | 110                           | 15                          |\n| 15   | 150                           | 22                          |\n| 17   | 80                            | 28                          |\n| 19   | 50                            | 20                          |",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T14:40:55.203Z",
+            "resultId": 9987
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29142,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.16 Predator\u2013prey relationships",
+              "title": "C4.1.16 Predator\u2013prey relationships",
+              "labeledAt": "2026-03-05T12:05:05.563Z",
+              "reasoning": "The question explicitly involves the population dynamics and relationship between a predator (foxes) and their prey (rabbits), which is the definition of predator-prey relationships.",
+              "confidence": 1
+            },
+            {
+              "id": 29132,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "title": "C4.1.6 Negative feedback control of population size by density-dependent factors",
+              "labeledAt": "2026-03-05T12:05:05.563Z",
+              "reasoning": "Predator-prey oscillations are a classic example of density-dependent factors acting as negative feedback loops to regulate population sizes in an ecosystem.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693843,
+        "parts": [
+          {
+            "id": 1156089,
+            "content": "Describe the relationship between the rabbit and fox populations over time.",
+            "order": 0,
+            "markscheme": "- Rabbit population rises first and the fox population increases after a time lag (predator population follows prey) <marks>1 mark</marks>\n- As fox numbers increase, rabbit numbers decrease, indicating predation pressure and cyclical fluctuations <marks>1 mark</marks>\n- Maxima/minima in fox population occur after maxima/minima in rabbit population (phase shift) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156090,
+            "content": "Explain how predator-prey interactions contribute to population fluctuations in this ecosystem.",
+            "order": 1,
+            "markscheme": "- Increased rabbit abundance provides more food, improving fox survival/reproduction so fox numbers rise <marks>1 mark</marks>\n- Rising fox numbers increase predation rate on rabbits, causing rabbit numbers to fall <marks>1 mark</marks>\n- Reduced rabbit numbers lead to food limitation so fox numbers subsequently decline, allowing rabbits to recover and the cycle repeats <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "73f81af6-6bb2-4f5c-a216-1431abe3ee0f",
+        "specification": "The table below classifies four different organisms ($I$, $II$, $III$, and $IV$) based on their source of nutrition and their method of digestion.\n\n| Organism | Source of organic matter | Method of digestion |\n| :--- | :--- | :--- |\n| **I** | Tissues from living plants | Ingestion and internal digestion |\n| **II** | Dead leaves and wood | Secretion of enzymes and absorption |\n| **III** | Dead leaves and wood | Ingestion and internal digestion |\n| **IV** | None (Uses inorganic compounds) | Not applicable |\n\nWhich organism should be classified as a detritivore?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-73f81af6-6bb2-4f5c-a216-1431abe3ee0f-1771929956947",
+            "generatedAt": "2026-02-25T05:23:17.338Z",
+            "sourceRevisionId": 1481872
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:25:14.500Z",
+            "resultId": 11464
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29152,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.8 Heterotrophs",
+              "title": "C4.2.8 Heterotrophs",
+              "labeledAt": "2026-03-05T14:51:54.260Z",
+              "reasoning": "The question requires classifying organisms based on their heterotrophic modes of nutrition\u2014specifically identifying a detritivore based on its source of organic matter (dead material/detritus) and its method of digestion (internal/ingestion). This is a core component of classifying heterotrophs into consumers, detritivores, and saprotrophs.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1694110,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932477,
+            "content": "I",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4932478,
+            "content": "II",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4932479,
+            "content": "III",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4932480,
+            "content": "IV",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "800b0d41-29ec-4d89-9869-ba26e1bf6d29",
+        "specification": "The table shows the salinity tolerance ranges of two marsh plants, *Spartina alterniflora* and *Typha angustifolia*.\n\n| Plant Species | Salinity Tolerance Range (ppt) |\n| :--- | :--- |\n| *Spartina alterniflora* | 5 \u2013 75 |\n| *Typha angustifolia* | 0 \u2013 35 |\n\nIn a salt marsh with a salinity gradient of 5 to 60 ppt, *Spartina alterniflora* is observed to grow only in areas where salinity exceeds 32 ppt, while *Typha angustifolia* occupies the lower salinity zones. Which statement best explains the observed distribution of *Spartina alterniflora*?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-800b0d41-29ec-4d89-9869-ba26e1bf6d29-1771929956947",
+            "generatedAt": "2026-02-25T06:57:26.850Z",
+            "sourceRevisionId": 1108268
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28942,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.12 Fundamental and realized niches",
+              "title": "B4.2.12 Fundamental and realized niches",
+              "labeledAt": "2026-03-06T16:03:12.119Z",
+              "reasoning": "The question contrasts fundamental tolerance range with observed distribution, pointing to realized vs fundamental niche and the role of biotic interactions (competition) in restricting realized niche.",
+              "confidence": 0.88
+            },
+            {
+              "id": 28943,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.13 Competitive exclusion and the uniqueness of ecological niches",
+              "title": "B4.2.13 Competitive exclusion and the uniqueness of ecological niches",
+              "labeledAt": "2026-03-06T16:03:12.119Z",
+              "reasoning": "The explanation implied by the options involves interspecific competition/competitive exclusion causing Spartina to be absent from lower-salinity zones despite physiological tolerance.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1685652,
+        "parts": [],
+        "options": [
+          {
+            "id": 4921463,
+            "content": "Its fundamental niche is restricted to hypersaline conditions.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4921464,
+            "content": "Its realized niche is narrower than its fundamental niche due to competition.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4921465,
+            "content": "The abiotic factors in low-salinity zones exceed its physiological tolerance levels.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4921466,
+            "content": "Intraspecific competition has expanded its niche into higher salinity areas.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "82a45418-c6fa-4745-a820-d1c85f736148",
+        "specification": "The table below provides demographic data for a population of prairie dogs observed over a one-year period. At the start of the study, the initial population size was $2,000$.\n\n| Demographic Factor | Number of Individuals |\n| :--- | :--- |\n| Natality | $420$ |\n| Mortality | $310$ |\n| Immigration | $70$ |\n| Emigration | $140$ |\n\nBased on this data, what is the total population size at the conclusion of the year?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-82a45418-c6fa-4745-a820-d1c85f736148-1771929956947",
+            "generatedAt": "2026-02-25T06:05:07.102Z",
+            "sourceRevisionId": 1486330
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:02:57.457Z",
+            "resultId": 11882
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29127,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.1 Populations",
+              "title": "C4.1.1 Populations",
+              "labeledAt": "2026-03-05T14:52:18.325Z",
+              "reasoning": "The question requires calculating the change in population size over time based on the four fundamental demographic factors: natality, mortality, immigration, and emigration. This falls directly under the study of Populations (C4.1.1).",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1693887,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931601,
+            "content": "$1,550$",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This value represents the initial population minus only the total losses ($2,000 - 310 - 140$), incorrectly ignoring the population gains from natality and immigration."
+          },
+          {
+            "id": 4931602,
+            "content": "$2,040$",
+            "correct": true,
+            "order": 1,
+            "markscheme": "The final population size is determined by adding the net change (gains minus losses) to the initial population size.\n\n$\\text{Net Change} = (\\text{Natality} + \\text{Immigration}) - (\\text{Mortality} + \\text{Emigration})$\n\n$\\text{Net Change} = (420 + 70) - (310 + 140) = 490 - 450 = +40$\n\n$\\text{Final Population} = 2,000 + 40 = 2,040$"
+          },
+          {
+            "id": 4931603,
+            "content": "$2,110$",
+            "correct": false,
+            "order": 2,
+            "markscheme": "This value only accounts for the difference between natality and mortality ($2,000 + 420 - 310$), omitting the combined effects of immigration and emigration on the total population."
+          },
+          {
+            "id": 4931604,
+            "content": "$2,490$",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This value represents the initial population plus all demographic gains ($2,000 + 420 + 70$) but fails to subtract the individuals lost through mortality and emigration."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8947ebae-6dc5-4593-97d9-64597e81b7e8",
+        "specification": "Modern genetics allows for the comparison of genomic characteristics across diverse species, ranging from viruses to multicellular eukaryotes. The genome size represents the total amount of DNA in a haploid set of chromosomes, while the gene number refers to the total count of protein-coding sequences. Mutations, such as base substitutions, can create new alleles that significantly alter the phenotype. The Human Genome Project (HGP) provided the first comprehensive map of the human genome, enabling more precise studies of genetic variation and its molecular consequences.\n\nThe scatter plot below compares the genome size and the number of protein-coding genes for five different species: the T2 bacteriophage, the bacterium *Escherichia coli*, the fruit fly *Drosophila melanogaster*, the human *Homo sapiens*, and the canopy plant *Paris japonica*.\n\n![Genome Comparison Graph](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-8947ebae-6dc5-4593-97d9-64597e81b7e8-1771929956947/48bb5889-2167-4ec4-b3fc-1669e09fccdc.jpeg)\n\nA specific base substitution mutation in the beta-globin gene results in a different form of hemoglobin, leading to sickle cell anemia. The diagram below illustrates the molecular changes from the DNA level to the resulting polypeptide for the normal ($Hb^A$) and mutant ($Hb^S$) alleles.\n\n![Beta-globin Mutation Diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-8947ebae-6dc5-4593-97d9-64597e81b7e8-1771929956947/086503f1-f2d9-417c-8bba-74a5d243c49f.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-8947ebae-6dc5-4593-97d9-64597e81b7e8-1771929956947",
+            "generatedAt": "2026-02-25T04:52:09.308Z",
+            "sourceRevisionId": 1492402
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:37:44.815Z",
+            "resultId": 33494
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28787,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A3.1 Diversity of organisms > A3.1.10  Comparison of genome sizes",
+              "title": "A3.1.10  Comparison of genome sizes",
+              "labeledAt": "2026-03-06T08:43:55.514Z",
+              "reasoning": "Parts (b), (c) and (g) use a scatter plot comparing genome size and protein-coding gene number across species and discuss how these relate to organismal complexity.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29196,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.3 Mutations and gene editing > D1.3.2 Consequences of base substitutions",
+              "title": "D1.3.2 Consequences of base substitutions",
+              "labeledAt": "2026-03-06T08:43:55.514Z",
+              "reasoning": "Parts (d) and (e) focus on a specific base substitution in the beta-globin gene and its molecular consequences (normal vs sickle allele).",
+              "confidence": 0.8
+            },
+            {
+              "id": 29186,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.11 Mutations that change protein structure",
+              "title": "D1.2.11 Mutations that change protein structure",
+              "labeledAt": "2026-03-06T08:43:55.514Z",
+              "reasoning": "Part (e) requires linking a DNA/mRNA sequence change to altered amino acid sequence/protein (HbA vs HbS), i.e., mutations changing protein structure.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29184,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.9 Using the genetic code expressed as a table of mRNA codons",
+              "title": "D1.2.9 Using the genetic code expressed as a table of mRNA codons",
+              "labeledAt": "2026-03-06T08:43:55.514Z",
+              "reasoning": "Part (e) asks to distinguish between mRNA codons and the resulting amino acids, requiring use of the genetic code table.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1695505,
+        "parts": [
+          {
+            "id": 1157335,
+            "content": "State the definition of a *gene locus*.",
+            "order": 0,
+            "markscheme": "The specific/fixed position of a gene on a chromosome. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157336,
+            "content": "Identify the organism from the graph with the largest genome.",
+            "order": 1,
+            "markscheme": "*Paris japonica* <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157337,
+            "content": "Compare and contrast the relationship between genome size and gene number for the prokaryote *E. coli* and the eukaryote *Drosophila melanogaster*.",
+            "order": 2,
+            "markscheme": "Award marks for any two appropriate points, one similarity and one difference. \n\n**Similarity (any one):**\n- In both, larger genome size is associated with a higher number of protein-coding genes (compared with the virus shown). <marks>1 mark</marks>\n- Both have far more genes than T2 phage, consistent with their larger genomes. <marks>1 mark</marks>\n\n**Difference (any one):**\n- *Drosophila* has a much larger genome size ($180$ Mb) than *E. coli* ($4.6$ Mb) but gene number does not increase proportionally. <marks>1 mark</marks>\n- *E. coli* has a higher gene density (more genes per Mb) than *Drosophila*. <marks>1 mark</marks>\n- Much of the additional DNA in *Drosophila* is non-coding (e.g. introns/repetitive sequences), unlike *E. coli* where most DNA is coding. <marks>1 mark</marks>\n\n*One similarity and one difference required for [2 marks].*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157338,
+            "content": "Identify the specific base substitution that occurs in the DNA sense (coding) strand to produce the $Hb^S$ allele.",
+            "order": 3,
+            "markscheme": "Adenine (A) is replaced by Thymine (T) (coding strand $GAG \\rightarrow GTG$). <marks>1 mark</marks>\n\n*Accept A $\\rightarrow$ T.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157339,
+            "content": "Distinguish between the mRNA codons and the resulting amino acids for the $Hb^A$ and $Hb^S$ alleles.",
+            "order": 4,
+            "markscheme": "Award marks for any two appropriate distinctions.\n- $Hb^A$ has the mRNA codon GAG whereas $Hb^S$ has the codon GUG. <marks>1 mark</marks>\n- $Hb^A$ results in the amino acid Glutamic acid (Glu) whereas $Hb^S$ results in Valine (Val). <marks>1 mark</marks>\n- The second base in the codon changes from A to U (GAG $\\rightarrow$ GUG). <marks>1 mark</marks>\n- This is a missense substitution causing a single amino-acid change in the polypeptide. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157340,
+            "content": "State one outcome of the Human Genome Project.",
+            "order": 5,
+            "markscheme": "Mapping of the entire human base sequence. <marks>1 mark</marks>\n\n_**OR**_\n\nDiscovery of new genes / identification of specific loci for diseases. <marks>1 mark</marks>\n\n_**OR**_\n\nIdentification of variations/SNPs between individuals. <marks>1 mark</marks>\n\n_**OR**_\n\nDevelopment of new technologies for DNA sequencing. <marks>1 mark</marks>\n\n_**OR**_\n\nRealization that much of the genome is non-coding DNA. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157341,
+            "content": "Using the data provided and your own knowledge, discuss the relationship between genome size, gene number, and the complexity of an organism.",
+            "order": 6,
+            "markscheme": "a. Generally, eukaryotes (*Homo sapiens* / *Paris japonica*) have larger genomes and more genes than prokaryotes (*E. coli*) or viruses (T2 phage). <marks>1 mark</marks>\n\nb. Genome size does not always correlate with the number of genes (e.g., *Paris japonica* has a much larger genome than humans but only slightly more genes). <marks>1 mark</marks>\n\nc. Genome size is not a reliable indicator of organismal complexity (C-value paradox). <marks>1 mark</marks>\n\nd. For example, *Paris japonica* (a plant) has a significantly larger genome than *Homo sapiens*, yet is not considered more complex. <marks>1 mark</marks>\n\ne. Large genomes in some eukaryotes are often due to repetitive / non-coding DNA rather than more functional genes. <marks>1 mark</marks>\n\nf. Gene number is a better, though still imperfect, predictor of complexity than total DNA content. <marks>1 mark</marks>\n\n*[4 max]*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8dccbb72-3a60-4ac3-99ec-c1285cec0bb7",
+        "specification": "The graph illustrates the population density of a specific grass species across a range of soil salinity levels under two different conditions: when grown in isolation and when grown in competition with a second grass species.\n\n![Niche Graph](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-8dccbb72-3a60-4ac3-99ec-c1285cec0bb7-1771929956947/c9439bf0-d099-43be-86d8-f67cbc33c017.jpeg)\n\nWhich of the following conclusions can be drawn from the data?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-8dccbb72-3a60-4ac3-99ec-c1285cec0bb7-1771929956947",
+            "generatedAt": "2026-02-25T03:49:50.742Z",
+            "sourceRevisionId": 1481966
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:33:58.978Z",
+            "resultId": 11317
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28942,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.12 Fundamental and realized niches",
+              "title": "B4.2.12 Fundamental and realized niches",
+              "labeledAt": "2026-03-05T14:51:28.535Z",
+              "reasoning": "The question directly illustrates the concepts of fundamental and realized niches by comparing a species' distribution in isolation versus its distribution under interspecific competition across an environmental gradient (salinity).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1694144,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932609,
+            "content": "The species' fundamental niche is broader than its realized niche.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4932610,
+            "content": "The competing species is likely more effectively adapted to high salinity environments.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4932611,
+            "content": "The solid line represents the species' fundamental niche in its natural habitat.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4932612,
+            "content": "Abiotic factors are the only determinants of the species' geographical distribution.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "946246d9-8e85-4bed-850f-f25f78185fde",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:53:01.148Z",
+            "resultId": 33520
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29121,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.13 Antibiotics ",
+              "title": "C3.2.13 Antibiotics ",
+              "labeledAt": "2026-03-06T08:44:06.648Z",
+              "reasoning": "Part (b) asks for the role of antibiotics in controlling bacterial infections, directly matching the antibiotics topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29122,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.14 Evolution of resistance to several antibiotics",
+              "title": "C3.2.14 Evolution of resistance to several antibiotics",
+              "labeledAt": "2026-03-06T08:44:06.648Z",
+              "reasoning": "Part (c) asks how antibiotic resistance develops in bacterial populations, which is covered by evolution of resistance to antibiotics.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1695569,
+        "parts": [
+          {
+            "id": 1157417,
+            "content": "Describe the role of antibiotics in controlling bacterial infections.",
+            "order": 0,
+            "markscheme": "- Antibiotics are substances that kill bacteria or inhibit their growth <marks>1 mark</marks>\n- They control infections by targeting specific bacterial processes or structures (e.g. cell wall synthesis or protein synthesis) <marks>1 mark</marks>\n- They do not affect viruses because viruses lack the cellular structures and metabolism targeted by antibiotics <marks>1 mark</marks>\n[Max 2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157418,
+            "content": "Explain how antibiotic resistance develops in bacterial populations.",
+            "order": 1,
+            "markscheme": "- Genetic variation exists in bacterial populations due to mutation or the acquisition of resistance genes (via horizontal gene transfer/plasmids) <marks>1 mark</marks>\n- Antibiotics act as a selective pressure, killing susceptible/non-resistant bacteria <marks>1 mark</marks>\n- Resistant bacteria survive and reproduce, passing the resistance allele/gene to their offspring <marks>1 mark</marks>\n- The frequency of the resistant trait increases in the population over time <marks>1 mark</marks>\n[Max 2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "98bbef0b-f52e-41d5-9d21-36b95c0c0d9f",
+        "specification": "The graph below shows the population growth curve of a colony of bacteria in a laboratory culture.\n\n![diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-biology-new-98bbef0b-f52e-41d5-9d21-36b95c0c0d9f-1771815806714/9be8b1d7-2834-4ba0-8d82-4a4621a28041.jpeg)\n\nIn which phase has the population reached the carrying capacity of its environment?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-biology-new-98bbef0b-f52e-41d5-9d21-36b95c0c0d9f-1771815806714",
+            "generatedAt": "2026-02-23T04:33:17.343Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1479415
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29133,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.7 Population growth curves",
+              "title": "C4.1.7 Population growth curves",
+              "labeledAt": "2026-03-05T15:21:58.881Z",
+              "reasoning": "The question presents a sigmoid population growth curve and requires identification of its specific phases (lag, exponential, deceleration, and stationary).",
+              "confidence": 1
+            },
+            {
+              "id": 29131,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.5 Carrying capacity and competition for limited resources",
+              "title": "C4.1.5 Carrying capacity and competition for limited resources",
+              "labeledAt": "2026-03-05T15:21:58.881Z",
+              "reasoning": "The question specifically asks to identify the phase where the population reaches the carrying capacity, which is the maximum population size the environment can sustain.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29134,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.8 Modelling of the sigmoid population growth curve",
+              "title": "C4.1.8 Modelling of the sigmoid population growth curve",
+              "labeledAt": "2026-03-05T15:21:58.881Z",
+              "reasoning": "The graph is a classic representation of the sigmoid growth model used to understand population dynamics in a resource-limited environment.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1681544,
+        "parts": [],
+        "options": [
+          {
+            "id": 4910223,
+            "content": "I",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4910224,
+            "content": "II",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4910225,
+            "content": "III",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4910226,
+            "content": "IV",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9b2f2c48-c0db-4f4d-88da-99732f6c50dc",
+        "specification": "Two organisms are described below:\n\n*   **Organism 1:** A woodlouse that ingests dead plant matter and digests it internally.\n*   **Organism 2:** A bracket fungus that secretes digestive enzymes onto a dead tree stump and absorbs the nutrients.\n\nWhich classification correctly identifies these organisms?\n\n| | Organism 1 | Organism 2 |\n| :--- | :--- | :--- |\n| A | Saprotroph | Detritivore |\n| B | Detritivore | Saprotroph |\n| C | Consumer | Autotroph |\n| D | Detritivore | Consumer |",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-9b2f2c48-c0db-4f4d-88da-99732f6c50dc-1771929956947",
+            "generatedAt": "2026-02-25T04:04:15.025Z",
+            "sourceRevisionId": 1106532
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:29:44.151Z",
+            "resultId": 13706
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28936,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.6 Saprotrophic nutrition in some fungi and bacteria",
+              "title": "B4.2.6 Saprotrophic nutrition in some fungi and bacteria",
+              "labeledAt": "2026-03-05T15:23:59.451Z",
+              "reasoning": "Organism 2 is a bracket fungus that secretes digestive enzymes and absorbs nutrients, which is the specific definition of saprotrophic nutrition.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28934,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.4 Holozoic nutrition in animals",
+              "title": "B4.2.4 Holozoic nutrition in animals",
+              "labeledAt": "2026-03-05T15:23:59.451Z",
+              "reasoning": "Organism 1 is a woodlouse that ingests dead plant matter and digests it internally. This describes holozoic nutrition, where food is ingested and then digested internally, which includes the specialized case of detritivory.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693908,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931673,
+            "content": "A",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931674,
+            "content": "B",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931675,
+            "content": "C",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931676,
+            "content": "D",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a2ebc106-b2c4-400b-b9ca-8aaea2939c35",
+        "specification": "The graph below shows the performance of a certain plant species across a range of soil pH levels. The dashed line represents the species' performance when grown in isolation. The solid line represents the species' performance when grown in a community alongside several other competing plant species.\n\n![Plant Growth Graph](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-a2ebc106-b2c4-400b-b9ca-8aaea2939c35-1771929956947/7e5036b8-2cd0-4d74-811b-4ca3cb0ff347.jpeg)\n\nWhat does the solid line represent for this species?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-a2ebc106-b2c4-400b-b9ca-8aaea2939c35-1771929956947",
+            "generatedAt": "2026-02-25T06:12:06.737Z",
+            "sourceRevisionId": 1481920
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:37:56.200Z",
+            "resultId": 13441
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28942,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.12 Fundamental and realized niches",
+              "title": "B4.2.12 Fundamental and realized niches",
+              "labeledAt": "2026-03-05T15:22:18.377Z",
+              "reasoning": "The question specifically asks to distinguish between the performance of a species in isolation (fundamental niche) versus its performance in a community with competition (realized niche), which is the core concept of topic B4.2.12.",
+              "confidence": 1
+            },
+            {
+              "id": 28943,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.13 Competitive exclusion and the uniqueness of ecological niches",
+              "title": "B4.2.13 Competitive exclusion and the uniqueness of ecological niches",
+              "labeledAt": "2026-03-05T15:22:18.377Z",
+              "reasoning": "The reduction from the fundamental niche to the realized niche shown in the graph is a result of interspecific competition and the competitive exclusion principle.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1693955,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931857,
+            "content": "Its fundamental niche",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. The fundamental niche is the total range of environmental conditions under which a species can survive and reproduce, represented here by the dashed line."
+          },
+          {
+            "id": 4931858,
+            "content": "Its realized niche",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. The realized niche is the actual conditions and resources a species uses after taking into account biotic interactions like competition and predation."
+          },
+          {
+            "id": 4931859,
+            "content": "Its maximum physiological tolerance",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Physiological tolerance limits are typically associated with the fundamental niche (dashed line), not the distribution restricted by competition."
+          },
+          {
+            "id": 4931860,
+            "content": "Its competitive exclusion point",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Competitive exclusion is a principle stating that two species cannot occupy the same niche indefinitely; it does not describe a specific curve on a performance graph."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ac830eff-4568-4eec-ad0e-bcce37677c9f",
+        "specification": "The graph below illustrates Shelford\u2019s Law of Tolerance, showing the response of a population to an environmental abiotic factor.\n\n![Shelford's Law](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-ac830eff-4568-4eec-ad0e-bcce37677c9f-1771929956947/ac39d2a8-addc-4b8b-ab37-d769c53e2e98.jpeg)\n\nWhich labelled region represents the **zone of intolerance**, where the species cannot survive?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-ac830eff-4568-4eec-ad0e-bcce37677c9f-1771929956947",
+            "generatedAt": "2026-02-25T02:07:19.876Z",
+            "sourceRevisionId": 1481917
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:35:01.709Z",
+            "resultId": 13278
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28926,
+              "isHl": false,
+              "path": "B - Form and Function > B4.1 Adaptation to environment > B4.1.4 Range of tolerance of a limiting factor",
+              "title": "B4.1.4 Range of tolerance of a limiting factor",
+              "labeledAt": "2026-03-05T15:22:10.264Z",
+              "reasoning": "The question specifically asks about Shelford\u2019s Law of Tolerance and the identification of the 'zone of physiological stress' within a species' range, which is the direct focus of topic B4.1.4: Range of tolerance of a limiting factor.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1693934,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931777,
+            "content": "X only",
+            "correct": false,
+            "order": 0,
+            "markscheme": "X represents the optimum range where population density is highest and reproductive success is maximized."
+          },
+          {
+            "id": 4931778,
+            "content": "Y only",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Y represents the zone of physiological stress where the abiotic factor is too high or too low for optimal function; individuals survive but reproduction is compromised."
+          },
+          {
+            "id": 4931779,
+            "content": "Z only",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Z represents the zone of intolerance where the species cannot survive."
+          },
+          {
+            "id": 4931780,
+            "content": "X and Y only",
+            "correct": false,
+            "order": 3,
+            "markscheme": "X is the optimum range, whereas Y is the zone of physiological stress; neither is the zone of intolerance."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b9c9a67f-a1c7-4149-bfdc-0378c08d8c48",
+        "specification": "The table displays characteristics of three different organisms discovered in a forest floor ecosystem.\n\n| Organism | Type of organic matter used as a source | Site of digestion |\n| :--- | :--- | :--- |\n| **1** | Non-living (detritus) | Internal |\n| **2** | Living (prey) | Internal |\n| **3** | Non-living (detritus) | External |\n\nWhich of the following correctly identifies the nutritional classification for these three organisms?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-b9c9a67f-a1c7-4149-bfdc-0378c08d8c48-1771929956947",
+            "generatedAt": "2026-02-25T07:01:02.905Z",
+            "sourceRevisionId": 1108456
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28936,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.6 Saprotrophic nutrition in some fungi and bacteria",
+              "title": "B4.2.6 Saprotrophic nutrition in some fungi and bacteria",
+              "labeledAt": "2026-03-06T16:04:01.871Z",
+              "reasoning": "The question distinguishes saprotrophs by using non-living detritus with external digestion, which directly matches saprotrophic nutrition in fungi/bacteria.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29154,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.10 Classification of organisms into trophic levels",
+              "title": "C4.2.10 Classification of organisms into trophic levels",
+              "labeledAt": "2026-03-06T16:04:01.871Z",
+              "reasoning": "It also involves classifying organisms by feeding mode (consumer vs detritivore vs saprotroph), aligning with classification of organisms into trophic/functional feeding categories in ecosystems.",
+              "confidence": 0.66
+            }
+          ]
+        },
+        "currentRevisionId": 1685541,
+        "parts": [],
+        "options": [
+          {
+            "id": 4921147,
+            "content": "1: Saprotroph; 2: Consumer; 3: Detritivore",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4921148,
+            "content": "1: Detritivore; 2: Saprotroph; 3: Consumer",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4921149,
+            "content": "1: Detritivore; 2: Consumer; 3: Saprotroph",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4921150,
+            "content": "1: Consumer; 2: Detritivore; 3: Saprotroph",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c0f84c6f-7690-4400-8a56-e21b514afb07",
+        "specification": "A team of ecologists surveyed a coastal grassland ecosystem using two methods.\n\nFor sessile organisms (clumped grass species), they used random quadrat sampling. They placed 20 quadrats ($1 \\text{ m}^2$ each) randomly across the area and recorded the following counts per quadrat:\n\n14, 17, 12, 15, 18, 10, 13, 15, 16, 19, 14, 11, 15, 17, 13, 14, 12, 18, 16, 15.\n\nFor motile organisms (a local crab species), they used a capture-mark-release-recapture approach. On day 1, they captured and marked 80 crabs. On day 2, they captured 100 crabs, of which 20 were marked.\n\nFinally, the researchers noted that the grassy habitat can only sustain a maximum of approximately 250 individual crabs because of limited burrow space, food availability, and competition.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T11:13:11.758Z",
+            "resultId": 33903
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29129,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "title": "C4.1.3 Random quadrat sampling to estimate population size for sessile organisms",
+              "labeledAt": "2026-03-06T10:08:26.489Z",
+              "reasoning": "Parts (a) and (b) use random quadrat sampling data for a sessile grass population, including calculating mean and interpreting variability.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29130,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "title": "C4.1.4 Capture\u2013mark\u2013release\u2013recapture and the Lincoln index",
+              "labeledAt": "2026-03-06T10:08:26.489Z",
+              "reasoning": "Parts (c) and (d) require using the Lincoln index (capture\u2013mark\u2013release\u2013recapture) and stating its assumptions.",
+              "confidence": 0.97
+            },
+            {
+              "id": 29131,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.5 Carrying capacity and competition for limited resources",
+              "title": "C4.1.5 Carrying capacity and competition for limited resources",
+              "labeledAt": "2026-03-06T10:08:26.489Z",
+              "reasoning": "Part (e) refers to a maximum sustainable crab population (~250), i.e., carrying capacity, and predicts consequences of exceeding it due to resource competition.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1695847,
+        "parts": [
+          {
+            "id": 1157789,
+            "content": "Calculate the mean number of grass individuals per $1\\text{ m}^2$ quadrat from the quadrat sampling data.",
+            "order": 0,
+            "markscheme": "Mean $= \\frac{294}{20} = 14.7$ individuals per $1\\text{ m}^2$ quadrat <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157790,
+            "content": "Based on the quadrat data, explain what the standard deviation would tell the researchers about this grass population.",
+            "order": 1,
+            "markscheme": "- Standard deviation is a measure of spread/variation in the number of grass individuals per quadrat around the mean <marks>1 mark</marks>\n- Larger standard deviation indicates greater variability between quadrats (some quadrats have many individuals, others few) <marks>1 mark</marks>\n- Smaller standard deviation indicates counts are more similar between quadrats (more uniform distribution across the sampled area) <marks>1 mark</marks>\n- Link to distribution pattern: greater variability is consistent with patchy/clumped distribution; low variability is consistent with a more even distribution <marks>1 mark</marks>\n\nAward up to 2 marks.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157791,
+            "content": "Using the Lincoln index (Lincoln\u2013Petersen estimator), predict the total population size of the crabs.",
+            "order": 2,
+            "markscheme": "- Identify values: marked on day 1 ($M=80$), total caught on day 2 ($C=100$), marked recaptured on day 2 ($R=20$) <marks>1 mark</marks>\n- Use Lincoln index: $N = \\frac{MC}{R}$ <marks>1 mark</marks>\n- Substitute: $N = \\frac{80 \\times 100}{20}$ <marks>1 mark</marks>\n- $N = 400$ crabs (individuals) <marks>1 mark</marks>\n\nAward up to 2 marks.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157792,
+            "content": "List two major assumptions that must hold true for the Lincoln index estimate to be valid.",
+            "order": 3,
+            "markscheme": "Any two of the following: <marks>2 marks</marks>\n- No immigration or emigration between samples (closed population)\n_**OR**_\n- No births or deaths between samples\n_**OR**_\n- Marked individuals mix randomly back into the population\n_**OR**_\n- Marking does not affect survival or likelihood of recapture / marks are not lost and are recognised on recapture",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157793,
+            "content": "Suppose the crab population increases beyond 250 individuals. Predict two likely ecological consequences related to resource competition.",
+            "order": 4,
+            "markscheme": "Any two of the following: <marks>2 marks</marks>\n- Increased intraspecific competition for burrows/food leading to reduced survival (higher mortality)\n_**OR**_\n- Reduced growth rate and/or reduced reproductive success due to limited resources\n_**OR**_\n- Depletion of available resources/habitat degradation (e.g., food scarcity, fewer suitable burrow sites)",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cc2830bc-6770-4a2b-9f29-8ae1cfa0bb70",
+        "specification": "What is the primary cause for a species occupying a realized niche that is smaller than its fundamental niche?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-cc2830bc-6770-4a2b-9f29-8ae1cfa0bb70-1771929956947",
+            "generatedAt": "2026-02-25T04:10:47.353Z",
+            "sourceRevisionId": 1165614
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28942,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.12 Fundamental and realized niches",
+              "title": "B4.2.12 Fundamental and realized niches",
+              "labeledAt": "2026-03-05T17:00:39.216Z",
+              "reasoning": "The question directly addresses the relationship between a species' fundamental and realized niches, which is the specific subject of this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 29137,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.11 Herbivory, predation, interspecific competition, mutualism, parasitism and pathogenicity",
+              "title": "C4.1.11 Herbivory, predation, interspecific competition, mutualism, parasitism and pathogenicity",
+              "labeledAt": "2026-03-05T17:00:39.216Z",
+              "reasoning": "The correct answer identifies competition and predation as the limiting factors, which are primary interspecific interactions covered under this topic.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1687915,
+        "parts": [],
+        "options": [
+          {
+            "id": 4927113,
+            "content": "Competition and predation",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4927114,
+            "content": "Adaptation to abiotic factors",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4927115,
+            "content": "Increased geographical range",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4927116,
+            "content": "High genetic diversity",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ce900ebb-2c26-4d72-ac41-97112ca30fe3",
+        "specification": "Photosynthesis has had major impacts on Earth\u2019s environment and is influenced by several environmental factors.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-ce900ebb-2c26-4d72-ac41-97112ca30fe3-1771929956947",
+            "generatedAt": "2026-02-24T10:48:22.893Z",
+            "sourceRevisionId": 1481898
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:00:58.023Z",
+            "resultId": 16304
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28984,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C1.3 Photosynthesis > C1.3.7 The effects of limiting factors on the rate of photosynthesis",
+              "title": "C1.3.7 The effects of limiting factors on the rate of photosynthesis",
+              "labeledAt": "2026-03-05T17:02:21.534Z",
+              "reasoning": "Part (b) specifically requires an explanation of how temperature, light intensity, and carbon dioxide concentration act as limiting factors on the rate of photosynthesis.",
+              "confidence": 1
+            },
+            {
+              "id": 28981,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C1.3 Photosynthesis > C1.3.4 Separation and identification of photosynthetic pigments by chromatography",
+              "title": "C1.3.4 Separation and identification of photosynthetic pigments by chromatography",
+              "labeledAt": "2026-03-05T17:02:21.534Z",
+              "reasoning": "Part (a) directly asks for an outline of the use of chromatography to separate and identify photosynthetic pigments.",
+              "confidence": 1
+            },
+            {
+              "id": 28980,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C1.3 Photosynthesis > C1.3.3 Oxygen as a by-product of photosynthesis",
+              "title": "C1.3.3 Oxygen as a by-product of photosynthesis",
+              "labeledAt": "2026-03-05T17:02:21.534Z",
+              "reasoning": "Part (0) asks for the effects of the evolution of photosynthesis on the atmosphere and oceans, which is the direct result of oxygen being produced as a by-product of photosynthesis.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1694441,
+        "parts": [
+          {
+            "id": 1156290,
+            "content": "Describe the changes in the Earth\u2019s atmosphere and oceans resulting from the evolution of photosynthesis.",
+            "order": 0,
+            "markscheme": "- The first photosynthetic organisms were prokaryotes/cyanobacteria <marks>1 mark</marks>\n- They produced oxygen ($O_2$) through the photolysis of water <marks>1 mark</marks>\n- Oxygen reacted with dissolved iron in the oceans, causing it to precipitate as iron oxide <marks>1 mark</marks>\n- This led to the formation of banded iron formations in sedimentary rocks <marks>1 mark</marks>\n- Atmospheric oxygen concentrations rose significantly from trace amounts/near zero to approximately $20\\%$ <marks>1 mark</marks>\n- This oxygenation allowed for the development of the ozone layer\n\n_**OR**_\n\n- This oxygenation allowed for the evolution of aerobic respiration <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156291,
+            "content": "Outline how chromatography is used to separate and identify photosynthetic pigments.",
+            "order": 1,
+            "markscheme": "- Leaf tissue is ground with a solvent (e.g., acetone or propanone) to extract pigments <marks>1 mark</marks>\n- A concentrated spot of the extract is placed on the baseline/origin of the chromatography paper or TLC plate <marks>1 mark</marks>\n- The paper/plate is placed in a container with a running solvent <marks>1 mark</marks>\n- Pigments travel at different speeds based on their solubility in the solvent/affinity for the paper <marks>1 mark</marks>\n- The distance moved by the pigment is compared to the solvent front to calculate the $Rf$ value <marks>1 mark</marks>\n- $Rf = \\frac{\\text{distance moved by pigment}}{\\text{distance moved by solvent front}}$ <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156292,
+            "content": "Explain how temperature, light intensity, and carbon dioxide concentration act as limiting factors of photosynthesis.",
+            "order": 2,
+            "markscheme": "- A limiting factor is the factor furthest from its optimum that restricts the rate of a reaction <marks>1 mark</marks>\n- As light intensity increases, the rate increases up to a plateau <marks>1 mark</marks>\n- At the plateau, light is no longer limiting and another factor (e.g., $CO_2$) is in short supply <marks>1 mark</marks>\n- As $CO_2$ concentration increases, the rate increases up to a plateau <marks>1 mark</marks>\n- Temperature increases the rate up to an optimum due to increased molecular collisions <marks>1 mark</marks>\n- Beyond the optimum temperature, enzymes (e.g., Rubisco) denature and the rate drops sharply <marks>1 mark</marks>\n- The rate of photosynthesis can be measured directly by oxygen ($O_2$) production/bubble counting <marks>1 mark</marks>\n- ...or by the rate of carbon dioxide ($CO_2$) uptake/pH change in water <marks>1 mark</marks>\n- ...or indirectly by the increase in dry biomass of the plant <marks>1 mark</marks>\n\n<note>Up to one additional mark for an accurate detail from AHL (e.g., mention of the light-independent stage or carboxylation)</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ddda03ce-c6dc-49f5-a8a4-f9a8f505d95c",
+        "specification": "The table shows observations of two different organisms found in forest soil.\n\n| Organism | Observation |\n| :--- | :--- |\n| Organism 1 | Ingests dead organic matter and digests it internally |\n| Organism 2 | Secretes digestive enzymes onto dead organic matter and absorbs the products |\n\nHow should these organisms be classified?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-ddda03ce-c6dc-49f5-a8a4-f9a8f505d95c-1771929956947",
+            "generatedAt": "2026-02-25T05:51:53.103Z",
+            "sourceRevisionId": 1108592
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T03:07:35.788Z",
+            "resultId": 15899
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28936,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.6 Saprotrophic nutrition in some fungi and bacteria",
+              "title": "B4.2.6 Saprotrophic nutrition in some fungi and bacteria",
+              "labeledAt": "2026-03-05T17:00:36.207Z",
+              "reasoning": "Organism 2's feeding method (secreting enzymes and absorbing products) is the specific definition of saprotrophic nutrition.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28934,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.4 Holozoic nutrition in animals",
+              "title": "B4.2.4 Holozoic nutrition in animals",
+              "labeledAt": "2026-03-05T17:00:36.207Z",
+              "reasoning": "Organism 1's feeding method (ingesting dead matter and digesting it internally) is a form of holozoic nutrition, characteristic of detritivores.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1694368,
+        "parts": [],
+        "options": [
+          {
+            "id": 4933333,
+            "content": "Organism 1 is a saprotroph; Organism 2 is a detritivore",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4933334,
+            "content": "Organism 1 is a consumer; Organism 2 is an autotroph",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4933335,
+            "content": "Organism 1 is a detritivore; Organism 2 is a saprotroph",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4933336,
+            "content": "Organism 1 is an autotroph; Organism 2 is a consumer",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e60e922b-0b7f-4c7c-968d-fec2a9acc1ae",
+        "specification": "Woodlice are terrestrial crustaceans that live in damp leaf litter and feed by ingesting decaying plant material. Which term best describes their method of nutrition?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-e60e922b-0b7f-4c7c-968d-fec2a9acc1ae-1771929956947",
+            "generatedAt": "2026-02-25T05:27:43.453Z",
+            "sourceRevisionId": 1108637
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29154,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.2 Transfer of energy and matter > C4.2.10 Classification of organisms into trophic levels",
+              "title": "C4.2.10 Classification of organisms into trophic levels",
+              "labeledAt": "2026-03-06T16:04:39.426Z",
+              "reasoning": "The question asks for the correct nutritional category for an organism feeding on decaying plant material; this is classification into trophic/nutritional groups (detritivore vs saprotroph etc.).",
+              "confidence": 0.87
+            },
+            {
+              "id": 28934,
+              "isHl": false,
+              "path": "B - Form and Function > B4.2 Ecological niches > B4.2.4 Holozoic nutrition in animals",
+              "title": "B4.2.4 Holozoic nutrition in animals",
+              "labeledAt": "2026-03-06T16:04:39.426Z",
+              "reasoning": "Woodlice are animals that ingest organic matter (holozoic nutrition); identifying detritivory relies on understanding animal feeding modes rather than external digestion (saprotrophy).",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1684915,
+        "parts": [],
+        "options": [
+          {
+            "id": 4919403,
+            "content": "Autotroph",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4919404,
+            "content": "Saprotroph",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4919405,
+            "content": "Detritivore",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4919406,
+            "content": "Secondary consumer",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e6a60570-717c-4126-90d1-129d794fbab6",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:02:38.101Z",
+            "resultId": 16201
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29124,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.16 Vaccines and immunization",
+              "title": "C3.2.16 Vaccines and immunization",
+              "labeledAt": "2026-03-05T17:01:44.531Z",
+              "reasoning": "The question explicitly asks for a description of factors affecting vaccine effectiveness, which is the core subject of this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 28777,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.6  Rapid evolution in viruses (HL)",
+              "title": "A2.3.6  Rapid evolution in viruses (HL)",
+              "labeledAt": "2026-03-05T17:01:44.531Z",
+              "reasoning": "Antigen variability is primarily caused by rapid evolution and mutation (antigenic drift and shift), particularly in viruses, which necessitates frequent updates to vaccines.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29115,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.7 Antigens as recognition molecules that trigger antibody production",
+              "title": "C3.2.7 Antigens as recognition molecules that trigger antibody production",
+              "labeledAt": "2026-03-05T17:01:44.531Z",
+              "reasoning": "To explain why variability reduces effectiveness, one must understand that antigens are the specific recognition molecules that vaccines train the immune system to target.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1694449,
+        "parts": [
+          {
+            "id": 1156308,
+            "content": "Describe the effect of antigen variability on vaccine effectiveness.",
+            "order": 0,
+            "markscheme": "- Antigen variability refers to changes in the pathogen\u2019s antigen molecules/epitopes that are recognized by the immune system <marks>1 mark</marks>\n- Vaccines stimulate production of specific antibodies and memory cells to those antigens <marks>1 mark</marks>\n- If antigens change, existing antibodies/memory cells bind less well or do not recognize the new antigen, so the secondary response is less effective (reduced immunity/protection) <marks>1 mark</marks>\n- As a result vaccine effectiveness decreases and updated vaccines/booster doses may be needed to match circulating variants <marks>1 mark</marks>\n- Antigen changes can arise by mutation/recombination leading to new strains/variants that escape immunity <marks>1 mark</marks>\n- Even with variability, some protection may remain if conserved epitopes are shared (partial cross-immunity) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f58a8a71-8537-4dd5-b8c6-3adb3a6fadfc",
+        "specification": "Ecologists investigated the distribution of two species of grasses, *Agrostis tenuis* and *Festuca ovina*, in a prairie ecosystem. After sampling 100 quadrats, they performed a chi-squared test to determine if there was an association between the species. The calculated chi-squared ($$\\chi^2$$) value was $$1.14$$, while the critical value at the $$5\\%$$ significance level was $$3.84$$. \n\nWhich of the following is the most appropriate conclusion for this investigation?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-f58a8a71-8537-4dd5-b8c6-3adb3a6fadfc-1771929956947",
+            "generatedAt": "2026-02-25T03:49:19.022Z",
+            "sourceRevisionId": 1106953
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29141,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C4.1 Populations and communities > C4.1.15 Use of the chi-squared test for association between two species",
+              "title": "C4.1.15 Use of the chi-squared test for association between two species",
+              "labeledAt": "2026-03-05T17:01:49.338Z",
+              "reasoning": "The question specifically involves interpreting a chi-squared test used to investigate the association between two species in a community, which is the exact subject of this leaf-level topic.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1686126,
+        "parts": [],
+        "options": [
+          {
+            "id": 4922800,
+            "content": "There is a significant positive association between the species.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4922804,
+            "content": "The null hypothesis must be rejected.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4922805,
+            "content": "The two species are distributed independently of each other.",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4922806,
+            "content": "The species are significantly less likely to be found together than expected.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "49",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10863,
+      "title": "C4.1 Populations and communities",
+      "slug": "ib-biology-new-c41-populations-and-communities",
+      "parentTopicId": 10855
+    },
+    "subject": {
+      "id": 308,
+      "title": "Biology",
+      "slug": "ib-biology-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "49",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,1037 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:388f0363b0b4eb3d6a9bfbbf2aaff2ad2b3d6aeba0b632dbef48bf3aca1a190b
-size 75196
+{
+  "json": {
+    "questions": [
+      {
+        "id": "11976f9b-cb04-4111-80f1-c80bd36d4df4",
+        "specification": "The following table shows selected demographic indicators for two contrasting countries, Country X and Country Y.\n\n**Table 1: Demographic data for Country X and Country Y**\n\n| Demographic Indicator | Country X | Country Y |\n| :--- | :---: | :---: |\n| Crude Birth Rate (per 1,000) | 42 | 9 |\n| Crude Death Rate (per 1,000) | 14 | 11 |\n| Life Expectancy at Birth (years) | 52 | 81 |\n| Infant Mortality Rate (per 1,000 live births) | 72 | 4 |\n",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-11976f9b-cb04-4111-80f1-c80bd36d4df4-1771929956947",
+            "generatedAt": "2026-02-25T10:36:48.516Z",
+            "sourceRevisionId": 1179238
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30614,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1C Age-sex pyramids and demographic transition model",
+              "title": "8.1C Age-sex pyramids and demographic transition model",
+              "labeledAt": "2026-03-05T16:50:06.494Z",
+              "reasoning": "The question explicitly requires identifying the stage of the Demographic Transition Model (DTM) for Country Y based on birth rates, death rates, and life expectancy.",
+              "confidence": 1
+            },
+            {
+              "id": 30612,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1A Birth and Immigration as Inputs to Population Growth",
+              "title": "8.1A Birth and Immigration as Inputs to Population Growth",
+              "labeledAt": "2026-03-05T16:50:06.494Z",
+              "reasoning": "Part 0 requires the calculation of the annual natural increase rate (NIR) using Crude Birth Rate (CBR) and Crude Death Rate (CDR), which are primary inputs to population growth.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30616,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1E Dependency ratio and population momentum (HL)",
+              "title": "8.1E Dependency ratio and population momentum (HL)",
+              "labeledAt": "2026-03-05T16:50:06.494Z",
+              "reasoning": "Part b asks for socio-economic challenges associated with the demographic profile of Country Y (low birth rate, low death rate, high life expectancy), which typically involves issues like aging populations and dependency ratios.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1684842,
+        "parts": [
+          {
+            "id": 1145634,
+            "content": "Using **Table 1**, calculate the annual natural increase rate (%) for Country X.",
+            "order": -1,
+            "markscheme": "2.8%\n\nCalculation: $$\\frac{42 - 14}{10} = 2.8$$\n\n<marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1145635,
+            "content": "Identify the stage of the Demographic Transition Model (DTM) that Country Y is most likely entering, and provide **one** reason for your answer based on the data in **Table 1**.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for identifying the stage and <marks>1 mark</marks> for the reason:\n\n- Stage 5 (also accept Late Stage 4);\n- The Crude Death Rate (11) is higher than the Crude Birth Rate (9), indicating a natural decrease in population / the birth rate is extremely low (9 per 1000) which is characteristic of the final stages of the DTM.\n\n<marks>2 marks max</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1145636,
+            "content": "Outline **two** socio-economic challenges that are likely to occur in Country Y as a result of its demographic profile.",
+            "order": 1,
+            "markscheme": "Award <marks>1 mark</marks> for each challenge, up to <marks>2 marks max</marks>:\n\n- labor shortages / shrinking workforce (due to low birth rates and an aging population);\n- increased old-age dependency ratio (fewer workers to support a growing number of retirees);\n- increased government spending/economic pressure on healthcare services for the elderly;\n- potential insolvency or strain on national pension schemes/social security systems;\n- decline in domestic markets/consumer demand due to a shrinking population.\n\n<marks>2 marks max</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1260ea58-ec5a-499b-9468-a4a6092e2150",
+        "specification": "**Table 1: Selected demographic data for Country X and Country Y.**\n\n| Demographic Variable | Country X | Country Y |\n| :--- | :---: | :---: |\n| Crude Birth Rate (CBR) | 36.0 | 8.0 |\n| Crude Death Rate (CDR) | 6.0 | 11.0 |\n| % of population aged 0\u201314 | 46% | 14% |\n| % of population aged 15\u201364 | 51% | 64% |\n| % of population aged 65+ | 3% | 22% |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-1260ea58-ec5a-499b-9468-a4a6092e2150-1771929956947",
+            "generatedAt": "2026-02-26T04:58:14.936Z",
+            "sourceRevisionId": 1179249
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30614,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1C Age-sex pyramids and demographic transition model",
+              "title": "8.1C Age-sex pyramids and demographic transition model",
+              "labeledAt": "2026-03-05T16:46:17.380Z",
+              "reasoning": "The question requires identifying the shape of a population pyramid (Country X) and explains demographic patterns consistent with the Demographic Transition Model (DTM), such as why an aging population (Country Y) has a higher death rate.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30616,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1E Dependency ratio and population momentum (HL)",
+              "title": "8.1E Dependency ratio and population momentum (HL)",
+              "labeledAt": "2026-03-05T16:46:17.380Z",
+              "reasoning": "Part (a) specifically asks for the calculation of the total dependency ratio using the age-group percentages provided in the table.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30612,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1A Birth and Immigration as Inputs to Population Growth",
+              "title": "8.1A Birth and Immigration as Inputs to Population Growth",
+              "labeledAt": "2026-03-05T16:46:17.380Z",
+              "reasoning": "The question involves calculating the Natural Increase Rate (NIR) from CBR and CDR, and discusses factors like women's empowerment that influence birth rates and the Total Fertility Rate (TFR).",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1685532,
+        "parts": [
+          {
+            "id": 1146247,
+            "content": "Using the data provided in **Table 1**, calculate the natural increase rate (NIR) for Country X.",
+            "order": -1,
+            "markscheme": "$$NIR = \\frac{36.0 - 6.0}{10} = 3.0$$ <marks>1 mark</marks>\n\n_**Note**: Accept 3 or 3%._",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146248,
+            "content": "Using the data provided in **Table 1**, calculate the total dependency ratio for Country Y.",
+            "order": 0,
+            "markscheme": "$$\\text{Dependency Ratio} = \\frac{(14 + 22)}{64} \\times 100 = 56.25$$ <marks>1 mark</marks>\n\n_**Note**: Accept 56.3 or 56._",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146249,
+            "content": "State the term used to describe the general shape of a population pyramid for a country with the demographic profile of Country X.",
+            "order": 1,
+            "markscheme": "Expansive (pyramid) / triangular / wide-based <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146250,
+            "content": "Outline **two** reasons why Country Y has a higher crude death rate (CDR) than Country X, despite likely having a more advanced healthcare system.",
+            "order": 2,
+            "markscheme": "Award <marks>1 mark</marks> for each valid reason, up to <marks>2 marks</marks>:\n\n*   Country Y has an aging population/higher proportion of elderly people (who have a naturally higher mortality risk);\n*   Higher prevalence of lifestyle-related or degenerative diseases (e.g., cardiovascular disease, type 2 diabetes, certain cancers) in more developed nations;\n*   Country X has a very young population structure with few people in the oldest age brackets where death is most frequent;\n*   Country X may have seen rapid improvements in basic sanitation/immunization which drastically lowered CDR while the population remains youthful;",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146251,
+            "content": "Explain how the empowerment of women can lead to a significant reduction in the total fertility rate (TFR) of a population.",
+            "order": 3,
+            "markscheme": "Award <marks>1 mark</marks> for each explanatory point, up to <marks>3 marks</marks>:\n\n*   **Education**: Improved education for girls leads to higher literacy and awareness, often resulting in delayed marriage and childbearing ages;\n*   **Economic Independence**: Increased access to employment and career paths allows women to prioritize financial stability/careers over large families/increases the opportunity cost of having children;\n*   **Health and Choice**: Empowerment typically involves better access to reproductive healthcare and family planning services, giving women greater control over the number and spacing of their children;\n*   **Social Status**: As women's status improves, they move away from traditional roles where their value is defined by the number of children (especially sons) they produce;",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "39df5eec-3196-4119-800a-bf2e00e5d57e",
+        "specification": "Table 1 displays demographic indicators for three hypothetical nations (Country X, Country Y, and Country Z) collected during a single census year. These metrics are used to evaluate a nation's position within the Demographic Transition Model (DTM).\n\nTable 1: Demographic data for three nations\n\n| Indicator | Country X | Country Y | Country Z |\n| :--- | :--- | :--- | :--- |\n| Crude Birth Rate (per 1,000) | 38 | 13 | 8 |\n| Crude Death Rate (per 1,000) | 12 | 9 | 11 |\n| Total Fertility Rate (TFR) | 5.2 | 1.8 | 1.3 |\n| Infant Mortality Rate (per 1,000) | 54 | 5 | 3 |",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-39df5eec-3196-4119-800a-bf2e00e5d57e-1772167695732",
+            "generatedAt": "2026-02-27T07:59:35.099Z",
+            "sourceRevisionId": 1324004
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30614,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1C Age-sex pyramids and demographic transition model",
+              "title": "8.1C Age-sex pyramids and demographic transition model",
+              "labeledAt": "2026-03-06T15:39:49.407Z",
+              "reasoning": "Core of the question is interpreting demographic indicators (CBR, CDR, TFR, IMR), calculating NIR, and assigning DTM stages for Countries Y and Z.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30613,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1B Human population management",
+              "title": "8.1B Human population management",
+              "labeledAt": "2026-03-06T15:39:49.407Z",
+              "reasoning": "Asks for pro-natalist strategies to reverse population decline and discusses policy responses to low fertility/declining population (Country Z).",
+              "confidence": 0.72
+            },
+            {
+              "id": 30616,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1E Dependency ratio and population momentum (HL)",
+              "title": "8.1E Dependency ratio and population momentum (HL)",
+              "labeledAt": "2026-03-06T15:39:49.407Z",
+              "reasoning": "Country Z\u2019s low birth rate and likely aging population imply dependency-ratio challenges; part (c) targets socio-economic issues typically tied to high old-age dependency and population momentum in late DTM stages.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1688700,
+        "parts": [
+          {
+            "id": 1150641,
+            "content": "Calculate the Natural Increase Rate (NIR) for Country X based on the data provided in Table 1.",
+            "order": -1,
+            "markscheme": "- Use the formula: $$NIR = \\frac{\\text{Crude Birth Rate} - \\text{Crude Death Rate}}{10}$$\n- Calculation: $$\\frac{38 - 12}{10} = 2.6$$\n- The Natural Increase Rate is $$2.6\\%$$.\n<marks>1 mark</marks> for the correct calculation of 2.6%.\n\n<note>Units (%) are required for the mark.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150642,
+            "content": "Identify which stage of the Demographic Transition Model (DTM) most likely represents Country Y and Country Z.",
+            "order": 0,
+            "markscheme": "<markscheme>\n- <marks>1 mark</marks> Country Y: Stage 4 (Low birth and death rates, resulting in low or stabilizing population growth).\n- <marks>1 mark</marks> Country Z: Stage 5 (Death rate exceeds birth rate, resulting in a natural decrease/declining population).\n</markscheme>\n<marks>2 marks total</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150643,
+            "content": "Explain the relationship between increasing levels of female education and the Total Fertility Rate (TFR) observed in nations like Country Y.",
+            "order": 1,
+            "markscheme": "<marks>1 mark</marks> Higher education often leads to women entering the workforce and pursuing careers, which typically results in delaying marriage and the birth of the first child.\n\n<marks>1 mark</marks> Increased literacy and education provide women with greater knowledge of and access to family planning and contraceptive methods.\n\n<marks>1 mark</marks> Education empowers women to have greater autonomy in reproductive decision-making, often leading to a preference for smaller family sizes.\n\n<note>Award <marks>1 mark</marks> for each distinct explanatory point, up to a <marks>2 marks max</marks>.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150644,
+            "content": "Describe two socio-economic challenges that Country Z might face due to its current demographic trends.",
+            "order": 2,
+            "markscheme": "<marks>1 mark</marks> A shrinking workforce leads to labor shortages, which can reduce industrial output and overall economic growth.\n\n<marks>1 mark</marks> An aging population increases the old-age dependency ratio, placing a significant financial strain on the government to provide pensions and healthcare.\n\n<marks>1 mark</marks> There may be a decline in domestic demand for goods and services as the total population size decreases, potentially leading to economic stagnation.\n\n<marks>1 mark</marks> Increased tax burden on the smaller remaining working-age population to support social services for the elderly.\n\n<note>Award <marks>1 mark</marks> for each valid challenge described, up to a <marks>2 marks max</marks>.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150645,
+            "content": "Outline three pro-natalist strategies a government might implement to reverse the population decline seen in Country Z.",
+            "order": 3,
+            "markscheme": "<markscheme>\n- <marks>1 mark</marks> Financial incentives, such as direct cash payments (\"baby bonuses\") or tax credits for each child born to a family.\n- <marks>1 mark</marks> Provision of heavily subsidized or free high-quality childcare services to reduce the economic burden on working parents.\n- <marks>1 mark</marks> Legislation of generous parental leave policies (both maternity and paternity leave) to ensure job security and income during early childhood.\n- <marks>1 mark</marks> Public health campaigns and propaganda aimed at promoting the social benefits of larger families or framing childbearing as a civic duty.\n- <marks>1 mark</marks> Government investment in affordable housing programs specifically targeted at young families to encourage household formation.\n\n<note>Award <marks>1 mark</marks> for each distinct policy outlined, up to a <marks>3 marks max</marks>.</note>\n</markscheme>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "484f11ce-0ed5-4f9b-b07b-442557e71cc7",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30637,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.3 Urban air pollution > 8.3A Urban air pollution",
+              "title": "8.3A Urban air pollution",
+              "labeledAt": "2026-03-06T05:15:15.796Z",
+              "reasoning": "Parts (a) and (c) focus on atmospheric primary pollutants (natural vs anthropogenic) and evaluating management strategies to reduce urban air pollution, which is central to urban air pollution.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30624,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.2 Urban systems and urban planning > 8.2A Urban systems",
+              "title": "8.2A Urban systems",
+              "labeledAt": "2026-03-06T05:15:15.796Z",
+              "reasoning": "Part (b) asks about reasons for high human population density within urban systems, aligning with concepts of how urban systems function and concentrate people/activities.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30625,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.2 Urban systems and urban planning > 8.2B Urbanization and suburbanization",
+              "title": "8.2B Urbanization and suburbanization",
+              "labeledAt": "2026-03-06T05:15:15.796Z",
+              "reasoning": "Discussion of high population density in cities commonly draws on processes of urbanization/suburbanization (push\u2013pull factors, migration to cities).",
+              "confidence": 0.65
+            },
+            {
+              "id": 30626,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.2 Urban systems and urban planning > 8.2C Urban planning",
+              "title": "8.2C Urban planning",
+              "labeledAt": "2026-03-06T05:15:15.796Z",
+              "reasoning": "Part (c) includes pollution management strategies that often involve urban planning measures (zoning, transport planning, green infrastructure) to reduce air pollution.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 813656,
+        "parts": [
+          {
+            "id": 527332,
+            "content": "Using named examples, outline the difference between natural and anthropogenic atmospheric primary pollutants.",
+            "order": 0,
+            "markscheme": "### Natural atmospheric primary pollutants\n- Come from natural processes\n- Examples:\n  - Wildfires\n  - Volcanic eruptions\n  - Dust storms\n\n### Anthropogenic atmospheric primary pollutants\n- Result of humans releasing pollutants into the atmosphere\n- Examples:\n  - Slash and burn technique\n  - Dust from construction\n  - Combustion of fossil fuels\n  - Biomass\n\n<marks>2 marks</marks> for each pollution type and its example <marks>4 marks max</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527333,
+            "content": "Discuss reasons for high human population density within urban systems.",
+            "order": 1,
+            "markscheme": "### Reasons for high human population density within urban systems\n\nPull factors, i.e., reasons people are attracted to urban developments/voluntary migration:\n\n- Collaboration of people in larger settlements was advantageous in the past leading to larger settlements\n- Initially rural populations/small towns had high economic activity along with subsistence agriculture\n- Improved agricultural techniques increased food yield meaning less labor was required for farming\n- Industrial revolution had an increased demand for labor thus incentivizing people to move to urban areas <marks>A1</marks>\n- The increase in population led to an increase in service industries (for example, schools, and health and transport sectors) <marks>A1</marks>\n- More people can lead to more economic activity thus attracting more people for financial reasons <marks>A1</marks>\n- This has created a positive feedback loop as people still continue to migrate into cities to gain access to these services <marks>A1</marks>\n\nPush factors, i.e., reasons people have to move to urban developments/forced migration:\n\n- Many rural areas lack sufficient employment and have low wages due to less overall demand in certain skills <marks>A1</marks>\n- In some rural areas, food shortages may be low forcing people to move elsewhere for sufficient supply <marks>A1</marks>\n- Lack of access to sufficient schools and healthcare systems due to lack of demand <marks>A1</marks>\n- Poor infrastructure in rural areas to recover after natural disasters <marks>A1</marks>\n\n<note>The question asks for reasons for high population density in urban systems. Any links to de-urbanisation or suburbanisation are irrelevant.</note>\n\n<marks>7 marks max </marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527334,
+            "content": "Evaluate a range of pollution management strategies that can be used to reduce urban air pollution.",
+            "order": 2,
+            "markscheme": "### Pollution Management Strategies\n\nPollution management strategies can be categorized into three main approaches:\n\n1. **Altering human activity** <marks>1 mark</marks>:\n- Reducing the use of private vehicles by promoting public transportation, cycling, and walking\n- Encouraging carpooling and ride-sharing\n- Implementing congestion charges or low-emission zones in city centers\n- Promoting energy-efficient buildings and renewable energy sources\n- Reducing consumption of imported goods to lower transportation emissions\n\n2. **Controlling the release of pollutants** <marks>1 mark</marks>:\n- Setting emission standards and regulations for vehicles and industries\n- Requiring the use of catalytic converters and particulate filters in vehicles\n- Installing scrubbers and electrostatic precipitators in industrial facilities\n- Promoting the use of cleaner fuels, such as natural gas or biofuels\n\n3. **Clean-up and restoration** <marks>1 mark</marks>:\n- Planting trees and vegetation to absorb pollutants\n- Using limestone or other materials to neutralize acid rain\n- Investing in healthcare systems to mitigate the impacts of air pollution on human health\n\n\n### Evaluation\n\nThe effectiveness of these strategies depends on various factors, including:\n\n- **Feasibility and cost**: Some strategies, such as upgrading public transportation systems or implementing large-scale renewable energy projects, can be costly and require significant infrastructure changes. <marks>1 mark</marks>\n- **Public acceptance and participation**: Strategies that involve changes in individual behavior, such as reducing private vehicle usage or energy consumption, may face resistance from the public. <marks>1 mark</marks>\n- **Enforcement and monitoring**: Effective implementation and enforcement of regulations and standards are crucial for controlling pollutant emissions. <marks>1 mark</marks>\n- **Local context**: Different urban areas may have varying levels of air pollution, sources of emissions, and socioeconomic conditions, requiring tailored approaches. <marks>1 mark</marks>\n\nA combination of strategies targeting different aspects of pollution management is often necessary for effective reduction of urban air pollution. For example, while controlling the release of pollutants through regulations and cleaner technologies is crucial, altering human activities and promoting sustainable transportation and energy choices can address the root causes of pollution.\n\n<marks>7 marks total</marks>\n\n<examTip>Remember to provide a balanced evaluation, considering both the strengths and limitations of the strategies discussed.</examTip>\n\n<note>The best approach may vary depending on the specific urban area, available resources, and the types of pollutants being targeted.</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7170c993-bbc7-4e81-96b9-efac287237ef",
+        "specification": "**Table 1: Percentage of population by age group for a nation in 1975 and 2025 (projected)**\n\n| Age Group (years) | 1975 (% of total population) | 2025 (% of total population) |\n| :--- | :--- | :--- |\n| 0\u201314 | 46.2 | 17.8 |\n| 15\u201364 | 50.5 | 63.4 |\n| 65 and over | 3.3 | 18.8 |\n",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-7170c993-bbc7-4e81-96b9-efac287237ef-1772167695732",
+            "generatedAt": "2026-02-27T06:56:21.301Z",
+            "sourceRevisionId": 1179250
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30616,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1E Dependency ratio and population momentum (HL)",
+              "title": "8.1E Dependency ratio and population momentum (HL)",
+              "labeledAt": "2026-03-05T16:12:42.319Z",
+              "reasoning": "The question asks for socio-economic challenges resulting from a shift in age groups (increase in elderly, decrease in young), which directly relates to the concept of the dependency ratio and its impact on a nation's economy.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30614,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1C Age-sex pyramids and demographic transition model",
+              "title": "8.1C Age-sex pyramids and demographic transition model",
+              "labeledAt": "2026-03-05T16:12:42.319Z",
+              "reasoning": "The data provided in the table represents changes in population structure over time, which is fundamental to the study of age-sex pyramids and the stages of the demographic transition model.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1689084,
+        "parts": [
+          {
+            "id": 1151245,
+            "content": "Using the data in **Table 1**, explain **three** socio-economic challenges that this nation may face as its population structure shifts from that of 1975 to that projected for 2025.",
+            "order": -1,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following explained challenges, up to <marks>3 marks</marks> max.\n\n- **Increased Elderly Dependency:** The significant rise in the population aged 65 and over (from 3.3% to 18.8%) will increase government spending on pensions and specialized geriatric healthcare / puts pressure on the working-age population to fund social services;\n- **Future Labor Shortages:** The sharp decline in the 0\u201314 age group (46.2% to 17.8%) suggests there will be far fewer young people entering the labor market in the coming decades, potentially leading to a shortage of workers and higher labor costs;\n- **Economic Stagnation:** A shrinking youthful population and a growing retired population can lead to decreased innovation and reduced domestic consumer demand, which may slow overall economic growth;\n- **Redundancy of Infrastructure for Youth:** The drastic drop in the proportion of children may lead to the underutilization and eventual closure of schools and childcare centers, requiring a costly reallocation of resources to other sectors;\n- **Increased Tax Burden:** As the proportion of retirees grows relative to the working-age group (15\u201364), those in employment may be required to pay higher taxes to support the social welfare system for the elderly;\n\n_**Note**: For credit, both the identified challenge and a clear explanation linking it to the specific demographic shift in the table must be provided. Do not accept only 'aging population' or 'fewer children'._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8533bf4a-1d4f-4cae-9285-f3641c747a61",
+        "specification": "The table below provides demographic indicators for two hypothetical nations, Country A and Country B, in the year 2023.\n\n**Table 1: Demographic Data for Country A and Country B**\n\n| Demographic Indicator | Country A | Country B |\n| :--- | :--- | :--- |\n| Crude Birth Rate (per 1,000) | 36.0 | 8.5 |\n| Crude Death Rate (per 1,000) | 9.0 | 11.5 |\n| Percentage of population under age 15 | 44% | 12% |\n| Percentage of population over age 65 | 3% | 27% |",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-8533bf4a-1d4f-4cae-9285-f3641c747a61-1772167695732",
+            "generatedAt": "2026-02-27T08:00:09.672Z",
+            "sourceRevisionId": 756951
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30614,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1C Age-sex pyramids and demographic transition model",
+              "title": "8.1C Age-sex pyramids and demographic transition model",
+              "labeledAt": "2026-03-07T17:37:25.390Z",
+              "reasoning": "Uses under-15 and over-65 percentages to infer age structure and compare challenges between a youthful vs ageing population (age-sex pyramids / demographic transition implications).",
+              "confidence": 0.92
+            },
+            {
+              "id": 30613,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1B Human population management",
+              "title": "8.1B Human population management",
+              "labeledAt": "2026-03-07T17:37:25.390Z",
+              "reasoning": "Asks to suggest and justify population policies to manage high growth in Country A and demographic decline in Country B (population management strategies).",
+              "confidence": 0.88
+            },
+            {
+              "id": 30616,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1E Dependency ratio and population momentum (HL)",
+              "title": "8.1E Dependency ratio and population momentum (HL)",
+              "labeledAt": "2026-03-07T17:37:25.390Z",
+              "reasoning": "Socioeconomic challenges from age structure closely relate to dependency burdens/ratios and population momentum concepts, even if dependency ratio isn\u2019t explicitly calculated.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30615,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1D Rapid population growth (HL)",
+              "title": "8.1D Rapid population growth (HL)",
+              "labeledAt": "2026-03-07T17:37:25.390Z",
+              "reasoning": "High crude birth rate and resulting rapid growth plus doubling time via Rule of 70 align with rapid population growth concepts.",
+              "confidence": 0.65
+            },
+            {
+              "id": 30612,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1A Birth and Immigration as Inputs to Population Growth",
+              "title": "8.1A Birth and Immigration as Inputs to Population Growth",
+              "labeledAt": "2026-03-07T17:37:25.390Z",
+              "reasoning": "Calculation of NIR directly uses crude birth rate and crude death rate (births as inputs; demographic rates driving growth).",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1688695,
+        "parts": [
+          {
+            "id": 1150629,
+            "content": "Calculate the Natural Increase Rate (NIR) for both Country A and Country B.",
+            "order": -1,
+            "markscheme": "The Natural Increase Rate is calculated as $$\\text{NIR} = \\frac{\\text{CBR} - \\text{CDR}}{10}$$.\n\nAward <marks>1 mark</marks> for each correct calculation:\n- Country A: $$\\frac{36.0 - 9.0}{10} = 2.7\\%$$ (or 27 per 1,000)\n- Country B: $$\\frac{8.5 - 11.5}{10} = -0.3\\%$$ (or -3 per 1,000)\n\n<note>Units (%) are required for the mark.</note>\n\n<marks>2 marks max</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150630,
+            "content": "Using the 'Rule of 70', calculate the doubling time for the population of Country A.",
+            "order": 0,
+            "markscheme": "The formula for doubling time is $$\\frac{70}{\\text{NIR}}$$ (where NIR is expressed as a percentage).\n\nAward <marks>2 marks</marks> for the correct calculation and unit:\n- $$\\frac{70}{2.7} = 25.93$$ years (accept 25.9 or 26 years).\n\nAward <marks>1 mark</marks> if the formula is applied correctly but a calculation error occurs based on a wrong NIR from part 1.\n\n<marks>2 marks max</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150631,
+            "content": "Using the data in Table 1, compare the socioeconomic challenges created by the age structure of Country A with those of Country B.",
+            "order": 1,
+            "markscheme": "Award <marks>1 mark</marks> per point of comparison/explanation, up to <marks>4 marks</marks>:\n\n- **Country A (High Youth Dependency):** With 44% of the population under 15, there is a high \"youth dependency ratio.\" This requires significant government investment in schools, pediatric healthcare, and eventually job creation for a large incoming workforce. \n- **Country B (High Elderly Dependency):** With 27% of the population over 65, there is a high \"elderly dependency ratio.\" This places a strain on the economy to provide pensions and specialized geriatric medical care.\n- **Workforce comparison:** Country A has a growing future workforce but currently lacks enough adults to support the young; Country B faces a shrinking workforce (low % of youth) which may lead to labor shortages and a reduced tax base.\n- **Economic impact:** In Country A, poverty may be cycle-persistent due to high per-capita costs of raising children; in Country B, the economy may stagnate due to lack of innovation and high costs of elder care.\n\n<marks>4 marks max</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150632,
+            "content": "Suggest and justify one specific population policy that Country A could implement to manage its growth, and one policy Country B could implement to address its demographic decline.",
+            "order": 2,
+            "markscheme": "Award <marks>2 marks</marks> for Country A (1 for policy, 1 for justification) and <marks>2 marks</marks> for Country B (1 for policy, 1 for justification).\n\n**Country A (Anti-natalist approach):**\n- **Policy:** Increasing female access to education or providing free family planning services.\n- **Justification:** Education correlates with lower fertility rates as it delays marriage and provides women with career alternatives; family planning reduces the number of unplanned pregnancies.\n\n**Country B (Pro-natalist approach):**\n- **Policy:** Financial incentives (e.g., child subsidies, tax breaks) or expanded parental leave/subsidized childcare.\n- **Justification:** Lowering the \"cost\" of having children encourages families to have more offspring, which can help raise the birth rate toward replacement levels and balance the aging population.\n\n<marks>4 marks max</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8925a03b-6779-4e3d-8a00-3e32b52980b9",
+        "specification": "**Table 1: Demographic and economic indicators for four selected countries (2022 data)**\n\n| Country | Crude Birth Rate (per 1000) | Crude Death Rate (per 1000) | GNI per capita (USD) | Ecological Footprint (gha/person) |\n| :--- | :--- | :--- | :--- | :--- |\n| Country A | 33 | 8 | 650 | 0.9 |\n| Country B | 16 | 6 | 9,500 | 3.2 |\n| Country C | 7 | 11 | 45,000 | 4.8 |\n| Country D | 14 | 7 | 8,000 | 2.5 |\n",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-economics-8925a03b-6779-4e3d-8a00-3e32b52980b9-1771937587718",
+            "generatedAt": "2026-02-26T05:04:45.177Z",
+            "sourceRevisionId": 1162114
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30614,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1C Age-sex pyramids and demographic transition model",
+              "title": "8.1C Age-sex pyramids and demographic transition model",
+              "labeledAt": "2026-03-05T16:49:49.102Z",
+              "reasoning": "Parts (a) and (c) specifically require knowledge of the Demographic Transition Model (DTM), its stages (Stage 5), and its limitations as a predictive model.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30615,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1D Rapid population growth (HL)",
+              "title": "8.1D Rapid population growth (HL)",
+              "labeledAt": "2026-03-05T16:49:49.102Z",
+              "reasoning": "Part (d) focuses on the theories of Thomas Malthus and Ester Boserup regarding population growth and resource constraints, which are central to discussions on rapid population growth and carrying capacity.",
+              "confidence": 0.9
+            },
+            {
+              "id": 38263,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3F Sustainability indicators",
+              "title": "1.3F Sustainability indicators",
+              "labeledAt": "2026-03-05T16:49:49.102Z",
+              "reasoning": "Part (b) requires understanding the Ecological Footprint as a sustainability indicator to assess the demand on the biosphere's regenerative capacity.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30612,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1A Birth and Immigration as Inputs to Population Growth",
+              "title": "8.1A Birth and Immigration as Inputs to Population Growth",
+              "labeledAt": "2026-03-05T16:49:49.102Z",
+              "reasoning": "Part (0) requires the calculation of the Natural Increase Rate (NIR) using Crude Birth Rate (CBR) and Crude Death Rate (CDR).",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1688190,
+        "parts": [
+          {
+            "id": 1149303,
+            "content": "Using the data for **Country B** in **Table 1**, calculate the Natural Increase Rate (NIR).",
+            "order": -1,
+            "markscheme": "<marks>1 mark</marks>\n\n$1.0\\%$ (or $10$ per $1000$)\n\n<note>Calculation: $(16 - 6) / 10 = 1.0\\%$. Accept $1$ or $1.0$. Units are not strictly required if the number is correct, but preferred.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149304,
+            "content": "Identify the country in **Table 1** that has most likely entered Stage 5 (declining) of the Demographic Transition Model (DTM).",
+            "order": 0,
+            "markscheme": "<marks>1 mark</marks>\n\nCountry C\n\n<note>Reasoning: The Crude Death Rate ($11$) is higher than the Crude Birth Rate ($7$), indicating natural decrease.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149305,
+            "content": "Using **Table 1**, identify the country that currently has the lowest demand on the biosphere's regenerative capacity per person.",
+            "order": 1,
+            "markscheme": "<marks>1 mark</marks>\n\nCountry A\n\n<note>Reasoning: It has the lowest Ecological Footprint ($0.9$ gha/person).</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149306,
+            "content": "Outline **two** reasons why the Demographic Transition Model (DTM) may fail to accurately predict the future population growth of Country A.",
+            "order": 2,
+            "markscheme": "<marks>1 mark</marks> for each valid reason outlined, up to <marks>2 marks</marks>:\n\n- **Eurocentric bias**: The model is based on the historical experience of Western Europe and may not account for different cultural or religious values regarding family size in LEDCs.\n- **Impact of Migration**: The DTM only considers natural increase/decrease and ignores the significant effect that net migration (immigration/emigration) has on total population size.\n- **Technological Leapfrogging**: Modern countries may transition through stages much faster than historical examples due to the rapid transfer of medical technology and family planning knowledge.\n- **External Shocks**: The model does not account for sudden changes in death rates due to pandemics (e.g., HIV/AIDS), civil conflict, or natural disasters which can reverse demographic trends.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149307,
+            "content": "Explain how the views of Thomas Malthus and Ester Boserup differ regarding the relationship between population growth and resource availability.",
+            "order": 3,
+            "markscheme": "<marks>1 mark</marks> for each descriptive point of comparison/contrast up to <marks>4 marks</marks>:\n\n- **Malthusian View (Pessimistic)**: Argues that population grows geometrically ($1, 2, 4, 8$) while food production only grows arithmetically ($1, 2, 3, 4$).\n- **Malthusian Limits**: Believes that population will inevitably exceed carrying capacity, leading to \"positive checks\" (famine, disease, war) or \"preventative checks\" (delayed marriage).\n- **Boserupian View (Optimistic)**: Argues that population growth acts as a stimulus for technological innovation; \"necessity is the mother of invention.\"\n- **Boserupian Intensification**: Suggests that as population increases, humans find ways to increase food production (e.g., Green Revolution, irrigation, GMOs) to raise the carrying capacity.\n- **Fundamental Difference**: Malthus sees resources as a fixed limit to growth, whereas Boserup sees human ingenuity as a way to overcome resource constraints.\n\n<note>For full marks, both theories must be addressed and the fundamental difference between them must be clear.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8ef716d7-417d-48d2-80df-8e32d4943197",
+        "specification": "_The resource booklet provides information on Brazil. Use the resource booklet and your own studies to answer the following_.\n\n**Figure 5(a): Fact file on population**\n\n*   Brazil\u2019s population is approximately 204 million (July 2015).\n*   Approximately 86\u2009% of the population live in urban areas.\n*   240 indigenous tribes make up 0.4\u2009% of the population.\n*   Over 70\u2009% of the total country population live in the Atlantic Rainforest region.\n*   S\u00e3o Paulo is the largest city with a population of about 21 million, followed by Rio de Janeiro with apopulation of about 13 million.\n*   Brasilia, the capital city, is located in the Cerrado region and has a population of about 4 million.\n*   Birth rate: 14.46 births/1000 population (2015 estimate).\n*   Death rate: 6.58 death/1000 population (2015 estimate).\n*   Median age of population: 31.1 years.\n\n\\[Sources: www.wwf.org.uk and www.survivalinternational.org\\]",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-17M.1.SL.TZ0.5",
+          "labeledSubSubTopics": [
+            {
+              "id": 30612,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1A Birth and Immigration as Inputs to Population Growth",
+              "title": "8.1A Birth and Immigration as Inputs to Population Growth",
+              "labeledAt": "2026-03-05T16:10:18.042Z",
+              "reasoning": "The question requires the calculation of the natural increase rate (based on birth and death rates) and identifying factors (like migration) that differentiate it from the actual growth rate. These concepts are fundamental components of human population growth inputs and outputs covered in topic 8.1A.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1162115,
+        "parts": [
+          {
+            "id": 527296,
+            "content": "Using data from **Figure 5(a)** in the resource booklet, calculate the natural increase rate for Brazil in 2015.",
+            "order": 0,
+            "markscheme": "(natural increase = ( 14.46 \u2212 6.58 ) 10 ) =0.788%/ 0.79% / 0.8%;\n\n7.88 per thousand.\n\n_Correct units (% or per thousand) are required to be credited the mark._\n\n<marks>1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527297,
+            "content": "Identify **one** reason why the natural increase rate, calculated in part (a), is different from the actual growth rate of the population, which was 0.63% in 2015.",
+            "order": 1,
+            "markscheme": "migration/emigration\n\n<marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d0b2d857-7eb5-4950-bc7b-3c6cda891c12",
+        "specification": "**Table 1:** Estimated Annual Global Carbon Budget (approximate annual averages).\n\n| Component | Flow Type | Quantity ($GtC \\text{ yr}^{-1}$) |\n| :--- | :--- | :--- |\n| Fossil Fuel Combustion | Input to Atmosphere | 9.4 |\n| Land-Use Change (e.g., Deforestation) | Input to Atmosphere | 1.5 |\n| Terrestrial Vegetation Uptake | Output from Atmosphere | 3.2 |\n| Ocean Absorption | Output from Atmosphere | 2.6 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-d0b2d857-7eb5-4950-bc7b-3c6cda891c12-1771929956947",
+            "generatedAt": "2026-02-24T10:47:12.737Z",
+            "sourceRevisionId": 813657
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 38293,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3B Carbon cycle",
+              "title": "2.3B Carbon cycle",
+              "labeledAt": "2026-03-06T07:59:15.233Z",
+              "reasoning": "The question uses a global carbon budget table (inputs/outputs to the atmosphere) and asks for net atmospheric accumulation and implications of changing carbon sinks/sources\u2014core carbon cycle content.",
+              "confidence": 0.92
+            },
+            {
+              "id": 38255,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2D Models",
+              "title": "1.2D Models",
+              "labeledAt": "2026-03-06T07:59:15.233Z",
+              "reasoning": "Part (e) asks about limitations of using a global model to predict local changes, directly assessing understanding of models and their constraints.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30532,
+              "isHl": true,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2C Climate models (HL)",
+              "title": "6.2C Climate models (HL)",
+              "labeledAt": "2026-03-06T07:59:15.233Z",
+              "reasoning": "The limitation/prediction aspect also overlaps with climate modelling concepts (scale, uncertainty), though the prompt is framed as a carbon budget model rather than full climate models.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30100,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1C Oceans as a carbon sink (HL)",
+              "title": "4.1C Oceans as a carbon sink (HL)",
+              "labeledAt": "2026-03-06T07:59:15.233Z",
+              "reasoning": "Part (d) concerns increased ocean absorption of carbon and its environmental implications, aligning with oceans as a carbon sink.",
+              "confidence": 0.5
+            },
+            {
+              "id": 30660,
+              "isHl": true,
+              "path": "HL lenses  > HL.b Environmental economics > HL.bA Environmental economics and its key concepts",
+              "title": "HL.bA Environmental economics and its key concepts",
+              "labeledAt": "2026-03-06T07:59:15.233Z",
+              "reasoning": "Part (c) asks for an economic consequence of continued atmospheric carbon accumulation, linking climate change to economic impacts within environmental economics concepts.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 1688644,
+        "parts": [
+          {
+            "id": 1150566,
+            "content": "Calculate the net annual accumulation of carbon in the atmosphere based on the data in Table 1.",
+            "order": 0,
+            "markscheme": "$$(9.4 + 1.5) - (3.2 + 2.6) = 5.1 \\text{ GtC yr}^{-1}$$ <marks>1 mark</marks>\n\n<note>Accept $5.1$. Units are not required but must be correct if used.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150567,
+            "content": "Identify two processes from the table that involve a transformation of matter or energy.",
+            "order": 1,
+            "markscheme": "- Photosynthesis / Terrestrial Vegetation Uptake (transforms light energy to chemical energy / inorganic $$CO_2$$ to organic biomass)\n- Combustion of Fossil Fuels (transforms chemical energy to heat/light / organic carbon to inorganic $$CO_2$$)\n- Respiration (if linked to land-use change/decomposition)\n- Calcification (if linked to ocean processes)\n\n<Note> Award <marks>1 mark</marks> for each of the following, <marks>2 marks max</marks>.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150568,
+            "content": "Outline one economic consequence of the continued accumulation of atmospheric carbon.",
+            "order": 2,
+            "markscheme": "- Increased costs for disaster relief/infrastructure repair due to extreme weather events\n- Financial losses in the agricultural sector due to changing rainfall patterns/droughts\n- Rising insurance premiums in high-risk coastal or fire-prone areas\n- Costs associated with building coastal defenses/sea walls against rising sea levels\n- Loss of revenue from the tourism industry (e.g., bleaching of coral reefs/loss of ski resorts)\n\n<note>Accept any other reasonable economic response. Award <marks>1 mark</marks> for any one",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150569,
+            "content": "Outline one environmental implication of the \"Ocean Absorption\" flow increasing significantly.",
+            "order": 3,
+            "markscheme": "- Ocean acidification / decrease in pH of seawater\n- Reduced availability of carbonate ions for calcifying organisms (e.g., corals, shellfish)\n- Disruption of marine food webs due to loss of sensitive species\n- Potential for the ocean to reach a tipping point where it becomes a source rather than a sink\n\n<note>Any one. Do not accept just \"global warming\" or \"sea level rise\" as these are atmospheric/thermal effects, not direct consequences of the chemical absorption flow itself.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150570,
+            "content": "Outline one limitation of using a global carbon model to predict specific local environmental changes.",
+            "order": 4,
+            "markscheme": "- Global models lack the resolution/detail to account for local microclimates or topography\n- Data for certain regions (e.g., deep oceans or remote rainforests) may be incomplete or estimated\n- High level of uncertainty in the magnitude of regional feedback mechanisms\n- Human behavior and policy changes are unpredictable and can alter the system's trajectory\n\n<Note> Any one",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d2ad7abb-9d6b-4a48-9197-37e519c9a04d",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d2ad7abb-9d6b-4a48-9197-37e519c9a04d-1771929956947",
+            "generatedAt": "2026-02-26T04:59:02.612Z",
+            "sourceRevisionId": 1160096
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 38250,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.1 Perspectives  > 1.1B Environmental value system",
+              "title": "1.1B Environmental value system",
+              "labeledAt": "2026-03-05T16:50:35.125Z",
+              "reasoning": "Parts (a) and (b) directly address the components of an Environmental Value System (EVS), its formation through inputs, and the comparison of different perspectives within the EVS spectrum.",
+              "confidence": 1
+            },
+            {
+              "id": 38251,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.1 Perspectives  > 1.1C Environmental movements",
+              "title": "1.1C Environmental movements",
+              "labeledAt": "2026-03-05T16:50:35.125Z",
+              "reasoning": "Part (c) focuses specifically on the role of historical events and environmental literature in the development of the modern environmental movement.",
+              "confidence": 1
+            },
+            {
+              "id": 30136,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.3 Aquatic food production systems > 4.3F Conservation and Management of Global Fisheries (HL) ",
+              "title": "4.3F Conservation and Management of Global Fisheries (HL) ",
+              "labeledAt": "2026-03-05T16:50:35.125Z",
+              "reasoning": "Part (b) uses the management of wild fish stocks as the specific case study for applying EVS perspectives, falling under global fisheries management.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1688415,
+        "parts": [
+          {
+            "id": 1149890,
+            "content": "Outline the role of different \"inputs\" in the formation and development of an individual's environmental value system (EVS).",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following, up to a maximum of <marks>4 marks</marks>:\n\n- **Culture and Social Groups:** Shared values within a community or family shape an individual's initial perspective on the environment/relationship with nature.\n- **Religious/Ethical Beliefs:** Many religions provide a framework for how humans should interact with the Earth (e.g., stewardship vs. dominion).\n- **Education:** Formal schooling and scientific knowledge provide facts and data that can reinforce or challenge existing beliefs about ecological issues.\n- **Media and Technology:** Documentaries, news reports, and social media expose individuals to global environmental crises (e.g., plastic pollution, climate change) from a distance.\n- **Personal Experience:** Direct interaction with nature (e.g., hiking) or experiencing an environmental disaster firsthand (e.g., flooding) can trigger a shift in values.\n- **Economic Context:** An individual's wealth or poverty level influences their priorities, such as focusing on basic survival versus conservation.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149891,
+            "content": "Using the environmental value system (EVS) spectrum, compare and contrast how different perspectives would approach the management of a diminishing natural resource, such as wild fish stocks.",
+            "order": 1,
+            "markscheme": "#### Ecocentric Perspective\n- Emphasizes the intrinsic value of the fish and the marine ecosystem, rather than their use-value to humans. <marks>1 mark</marks>\n- Would advocate for a total ban on fishing in certain areas (Marine Protected Areas) to allow for natural recovery without human interference. <marks>1 mark</marks>\n- Encourages a shift in human lifestyles to reduce the overall consumption of fish products. <marks>1 mark</marks>\n\n#### Anthropocentric Perspective\n- Focuses on sustainable management and stewardship to ensure fish stocks remain available for future human generations. <marks>1 mark</marks>\n- Supports the use of legal regulations, such as government-mandated fishing quotas and seasonal restrictions. <marks>1 mark</marks>\n- Utilizes economic tools like taxes on commercial fishing or subsidies for sustainable small-scale fisheries. <marks>1 mark</marks>\n\n#### Technocentric Perspective\n- Suggests that technological innovation can compensate for the loss of wild stocks, such as through large-scale aquaculture or fish farming. <marks>1 mark</marks>\n- Believes that scientific research will lead to more efficient tracking and harvesting methods that minimize unintended bycatch. <marks>1 mark</marks>\n- Argues that market demand and economic growth will drive the development of synthetic or alternative protein sources. <marks>1 mark</marks>\n\n<note>Award [4 max] if only one EVS perspective is described.</note>\n<note>Award [7 max] for a response that effectively compares at least two perspectives with balanced points.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149892,
+            "content": "Evaluate the impact of significant historical events and environmental literature on the development of the modern environmental movement.",
+            "order": 2,
+            "markscheme": "_Answers may demonstrate_:\n\n*   **understanding concepts & terminology of** environmental value systems (EVS); environmental movement; preservation; conservation; stewardship; NGOs; intergovernmental bodies; key historical landmarks (e.g., Minamata, Bhopal, Chernobyl, Fukushima); key literature (e.g., *Silent Spring*, *The Gaia Hypothesis*, *An Inconvenient Truth*);\n*   **breadth in addressing and linking** specific events to changes in public perception, policy shifts, and the growth of environmental organizations. Linking the localized nature of early disasters to the globalized awareness of modern issues;\n*   **examples** of specific events (e.g., the 1984 Bhopal disaster highlighting industrial safety; the 1986 Chernobyl disaster showing the transboundary nature of pollution; Rachel Carson\u2019s *Silent Spring* (1962) catalyzing the ban on DDT and the birth of modern environmentalism);\n*   **balanced analysis** of how these factors influenced different EVSs (e.g., how disasters might push an individual toward ecocentrism, while scientific literature might bolster technocentric solutions);\n*   **a conclusion that is consistent with, and supported by analysis and examples given** _e.g._ While literature has provided the intellectual framework for environmental concern, it is often the shock of major industrial disasters that provides the political momentum necessary for international agreements and legislative change.\n\t\t\n| Marks | Level descriptor |\n|-------|-----------------|\n| <marks>0 </marks> | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| <marks>1-3 </marks> | The response contains: \u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| <marks>4-6 </marks> | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| <marks>7-9 </marks> | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ecb9b258-9daf-46e4-a70a-80673877b884",
+        "specification": "**Figure 1: Demographic indicators for a developing nation (1995 and 2025 predicted)**\n\n| Indicator | 1995 | 2025 (Projected) |\n| :--- | :--- | :--- |\n| Crude birth rate (CBR) | 42.0 per 1000 | 21.0 per 1000 |\n| Crude death rate (CDR) | 14.0 per 1000 | 7.0 per 1000 |\n| Total fertility rate (TFR) | 5.8 | 2.4 |\n| Female secondary education enrollment | 18% | 65% |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-ecb9b258-9daf-46e4-a70a-80673877b884-1772167695732",
+            "generatedAt": "2026-02-27T04:48:54.508Z",
+            "sourceRevisionId": 1108401
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30612,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1A Birth and Immigration as Inputs to Population Growth",
+              "title": "8.1A Birth and Immigration as Inputs to Population Growth",
+              "labeledAt": "2026-03-05T16:49:48.720Z",
+              "reasoning": "Part (a) requires calculating the natural increase rate (NIR) and doubling time using crude birth rate (CBR) and crude death rate (CDR), which are primary inputs to population growth.",
+              "confidence": 1
+            },
+            {
+              "id": 30613,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.1 Human populations  > 8.1B Human population management",
+              "title": "8.1B Human population management",
+              "labeledAt": "2026-03-05T16:49:48.720Z",
+              "reasoning": "Part (b) focuses on how female education enrollment impacts total fertility rates, which is a key social factor used in human population management and understanding population dynamics.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1689229,
+        "parts": [
+          {
+            "id": 1151438,
+            "content": "Using the data in Figure 1, calculate the natural increase rate (NIR) for the year 1995 and determine the doubling time for the population at that rate.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for the correct NIR calculation and <marks>1 mark</marks> for the correct doubling time calculation.\n\n- Natural Increase Rate (NIR) for 1995: $$\\frac{\\text{42.0 - 14.0} }{10}= 2.8\\%$$ <marks>1 mark</marks>\n- Doubling Time for 1995: $$\\frac{70}{2.8} = 25 \\text{ years}$$ <marks>1 mark</marks>\n\n\n<note>Accept calculations using the formula $$\\frac{\\text{CBR} - \\text{CDR}}{10}$$ for NIR and $$\\frac{70}{\\text{NIR}}$$ for doubling time. Units must be correct (percentage for NIR, years for doubling time) for full marks.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151439,
+            "content": "With reference to the data in Figure 1, explain how the change in female education enrollment may have contributed to the projected shift in the total fertility rate (TFR) by 2025.",
+            "order": 1,
+            "markscheme": "Award <marks>1 mark</marks> for identifying a relevant link and <marks>1 mark</marks> for the explanation; <marks>2 marks max</marks>\n\n- Increased enrollment in secondary education often leads to later marriage/childbearing, which reduces the number of reproductive years and thus the TFR;  \n- Higher education levels for women are strongly correlated with increased knowledge and use of family planning/contraceptives;  \n- Women with more education are more likely to pursue careers/employment, which can lead to a preference for smaller family sizes;  \n- Education increases female empowerment and autonomy in household decision-making regarding the number of children;  \n- Improved education often leads to better health literacy, reducing infant mortality and consequently the perceived need for many children as \"insurance.\";",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "11",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 24631,
+      "title": "8.1 Human populations ",
+      "slug": "ib-ess-new-81-human-populations",
+      "parentTopicId": 24630
+    },
+    "subject": {
+      "id": 6455,
+      "title": "Environmental systems and societies (ESS)",
+      "slug": "ib-environmental-systems-and-societies-ess-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "11",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,1267 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c16bbb277c5ae6568654603c720733d766c9d8b0e4b8dbf42b6844f1005ce161
-size 69957
+{
+  "json": {
+    "questions": [
+      {
+        "id": "126bbfdc-5a94-4a99-b1e0-e1df038f201c",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29819,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2A First law of thermodynamics",
+              "title": "2.2A First law of thermodynamics",
+              "labeledAt": "2026-03-06T15:38:53.872Z",
+              "reasoning": "Directly asks to explain the First Law of Thermodynamics and link it to energy flow in ecosystems, which is exactly this leaf topic under Energy and biomass in ecosystems.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 877440,
+        "parts": [
+          {
+            "id": 487058,
+            "content": "Explain the First Law of Thermodynamics and its relevance to ecosystem energy flow.",
+            "order": 0,
+            "markscheme": "- The First Law of Thermodynamics states that energy cannot be created or destroyed, but can only be transformed from one form to another. <marks>1 mark</marks>\n\n- It states that the total energy in a closed system remains constant. <marks>1 mark</marks>\n\n- In ecosystems, energy is transformed through various processes such as photosynthesis and respiration. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "25c457c5-1f96-459c-bbe3-55415dac4657",
+        "specification": "The following figure (Figure 1) shows the average residence times of water within four different global storages:\n\n![Average residence times of water in global storages](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-25c457c5-1f96-459c-bbe3-55415dac4657-1772167695732/a5b9c6fa-d700-4215-8abc-037d15ead4fd.jpeg)",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-25c457c5-1f96-459c-bbe3-55415dac4657-1772167695732",
+            "generatedAt": "2026-02-27T08:00:25.196Z",
+            "sourceRevisionId": 877443
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T10:42:36.069Z",
+            "resultId": 6311
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-05T08:14:57.377Z",
+              "reasoning": "The question specifically asks about water residence times in global storages and the role of solar radiation in driving the flows of the global hydrological cycle, which are primary components of the Topic 4.1A syllabus.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1693765,
+        "parts": [
+          {
+            "id": 1155996,
+            "content": "Using Figure 1, identify the storage with the longest average residence time and the storage with the shortest average residence time. Identify two other storages shown in Figure 1.",
+            "order": 0,
+            "markscheme": "- Longest average residence time: oceans <marks>1 mark</marks>\n- Shortest average residence time: atmospheric water / atmosphere <marks>1 mark</marks>\n- Any one other correct storage from Figure 1 (e.g. soil water) <marks>1 mark</marks>\n- Any one other correct storage from Figure 1, different from the previous point (e.g. glaciers and ice sheets) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155997,
+            "content": "Explain how solar radiation drives flows in the global hydrological cycle, with reference to processes shown or implied by Figure 1.",
+            "order": 1,
+            "markscheme": "- Solar radiation provides energy for evaporation from surface stores (especially oceans) to the atmosphere <marks>1 mark</marks>\n- Evaporation (latent heat) transfers water to atmospheric storage, enabling subsequent movement through the cycle <marks>1 mark</marks>\n- Solar heating creates temperature/pressure gradients that drive winds/atmospheric circulation, moving water vapour (advection) <marks>1 mark</marks>\n- Solar energy ultimately powers condensation/precipitation patterns by lifting air (e.g. convection) and cooling aloft <marks>1 mark</marks>\n- Solar-driven evapotranspiration from soils/vegetation links terrestrial stores (e.g. soil water) back to the atmosphere <marks>1 mark</marks>\n- Flow rates/residence times are influenced by the strength of solar input (greater solar input can increase evaporation and reduce residence time in some surface stores) <marks>1 mark</marks>\n- Clear, linked explanation of how these processes produce transfers between at least two storages in Figure 1 <marks>1 mark</marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155998,
+            "content": "Discuss how differences in residence time among global water storages (as shown in Figure 1) influence the impacts and management of human pressures on the hydrological cycle.",
+            "order": 2,
+            "markscheme": "0 marks: Not relevant or no standard reached.\n\n1\u20133 marks: States limited impacts/management ideas with minimal linkage to residence time; may mention one store only; few or no examples; weak or absent conclusion.\n\n4\u20136 marks: Explains several ways residence time affects impacts and management (e.g. short-residence atmospheric water responds quickly to change; long-residence oceans/glaciers respond slowly but have long-term consequences); uses some correct ESS terminology (stores/flows/residence time); includes at least one relevant example (e.g. glacier melt affecting sea level; groundwater/soil moisture and irrigation; pollution persistence); some balance and a conclusion with limited support.\n\n7\u20139 marks: Thorough, balanced discussion clearly linking Figure 1 residence-time contrasts to both impacts and management across multiple stores (e.g. rapid atmospheric/soil responses vs slow ocean/glacier responses; timescales of drought/flood risk, contamination recovery, and climate-change feedbacks); integrates well-explained examples and, where appropriate, different perspectives (ecological, economic, social/political); explicit, well-supported conclusion about how residence time should influence prioritisation of management strategies.",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a863ae7-ed1d-4f66-a984-4057e08cdf23",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29820,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2B Photosynthesis and cellular respiration",
+              "title": "2.2B Photosynthesis and cellular respiration",
+              "labeledAt": "2026-03-05T16:12:34.136Z",
+              "reasoning": "The question explicitly asks for a description of the process of photosynthesis, which is the primary focus of this leaf-level topic.",
+              "confidence": 1
+            },
+            {
+              "id": 29822,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2D Food Chain and Energy Loss",
+              "title": "2.2D Food Chain and Energy Loss",
+              "labeledAt": "2026-03-05T16:12:34.136Z",
+              "reasoning": "The second part of the question addresses energy flow in ecosystems, which is inherently linked to how energy from photosynthesis moves through food chains and is lost as heat.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 771997,
+        "parts": [
+          {
+            "id": 487072,
+            "content": "Describe the process of photosynthesis and its role in ecosystem energy flow.",
+            "order": 0,
+            "markscheme": "- Photosynthesis converts light energy into chemical energy <marks>1 mark</marks>\n- Produces glucose from $\\text{CO}_2$ and water using light energy <marks>1 mark</marks>\n- Releases oxygen as a byproduct <marks>1 mark</marks>\n- Forms the basis of most food chains by capturing solar energy <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4547996f-b8cd-4f40-ba56-19af0929ab4e",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-05T16:50:27.921Z",
+              "reasoning": "The terms 'energy' and 'matter' are foundational concepts in the systems approach to Environmental Systems and Societies. Topic 1.2A specifically deals with systems as sets of components (matter) that interact through flows and transformations of energy.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38275,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1I Ecosystems",
+              "title": "2.1I Ecosystems",
+              "labeledAt": "2026-03-05T16:50:27.921Z",
+              "reasoning": "The question specifies the context of 'ecosystem processes', making the definition of an ecosystem as a system of interacting biotic and abiotic components (involving matter and energy) highly relevant.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 877445,
+        "parts": [
+          {
+            "id": 487057,
+            "content": "Define the terms \"energy\" and \"matter\" in the context of ecosystem processes.",
+            "order": 0,
+            "markscheme": "Energy: The capacity to do work or cause change in a system <marks>1 mark</marks>\n\nMatter: Physical substance that occupies space and has mass <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "62a016c1-1943-440b-99b8-8f6663654388",
+        "specification": "Explain how the following factors affect decomposition rates in ecosystems:",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30164,
+              "isHl": false,
+              "path": "Topic 5: Land > 5.1 Soil > 5.1A Soil system",
+              "title": "5.1A Soil system",
+              "labeledAt": "2026-03-06T15:39:19.387Z",
+              "reasoning": "Decomposition rates are strongly controlled by soil-system conditions; temperature and moisture affect decomposer activity and organic matter breakdown in the soil system.",
+              "confidence": 0.63
+            },
+            {
+              "id": 30170,
+              "isHl": true,
+              "path": "Topic 5: Land > 5.1 Soil > 5.1G Soil properties (HL)",
+              "title": "5.1G Soil properties (HL)",
+              "labeledAt": "2026-03-06T15:39:19.387Z",
+              "reasoning": "Temperature and moisture are key abiotic factors influencing soil properties (e.g., aeration/waterlogging, microbial activity), which in turn control decomposition rate.",
+              "confidence": 0.57
+            }
+          ]
+        },
+        "currentRevisionId": 877446,
+        "parts": [
+          {
+            "id": 487073,
+            "content": "Temperature",
+            "order": 0,
+            "markscheme": "- Higher temperatures generally increase decomposition rates <marks>1 mark</marks>\n- Affects microbial activity and chemical reaction rates <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 487074,
+            "content": "Moisture",
+            "order": 1,
+            "markscheme": "\n- Adequate moisture is necessary for decomposer activity  <marks>1 mark</marks>\n\n- Too much moisture can lead to anaerobic conditions, slowing decomposition <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "76f4e677-53eb-4ad5-8498-a36923b28dfb",
+        "specification": "The transfer of energy and matter through trophic levels determines the productivity of an ecosystem.\n\n**Table 1: Productivity data for a grassland ecosystem**\n\n| Parameter | Energy ($$MJ \\cdot m^{-2} \\cdot yr^{-1}$$) |\n| :--- | :--- |\n| Gross Primary Productivity (GPP) | 85.0 |\n| Respiration (R) | 48.0 |\n\n**Figure 1: Simplified terrestrial carbon cycle**\n\n![Carbon Cycle](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-76f4e677-53eb-4ad5-8498-a36923b28dfb-1771929956947/c6a72fe0-144e-438a-8fae-1ee2f8bec21f.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-76f4e677-53eb-4ad5-8498-a36923b28dfb-1771929956947",
+            "generatedAt": "2026-02-26T05:09:27.466Z",
+            "sourceRevisionId": 1161919
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64915,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2E Gross productivity and Net productivity ",
+              "title": "2.2E Gross productivity and Net productivity ",
+              "labeledAt": "2026-03-07T17:37:44.104Z",
+              "reasoning": "Calculating NPP from GPP and respiration directly tests gross vs net productivity concepts.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29822,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2D Food Chain and Energy Loss",
+              "title": "2.2D Food Chain and Energy Loss",
+              "labeledAt": "2026-03-07T17:37:44.104Z",
+              "reasoning": "Explaining energy loss between trophic levels and linking it to thermodynamics addresses energy transfer inefficiency in food chains.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29821,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2C Second law of thermodynamics",
+              "title": "2.2C Second law of thermodynamics",
+              "labeledAt": "2026-03-07T17:37:44.104Z",
+              "reasoning": "Part (a) explicitly references the second law of thermodynamics in the context of energy transfer through trophic levels.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29820,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2B Photosynthesis and cellular respiration",
+              "title": "2.2B Photosynthesis and cellular respiration",
+              "labeledAt": "2026-03-07T17:37:44.104Z",
+              "reasoning": "Parts (c) and the productivity context rely on photosynthesis and plant respiration flows to/from atmospheric CO2.",
+              "confidence": 0.8
+            },
+            {
+              "id": 38293,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3B Carbon cycle",
+              "title": "2.3B Carbon cycle",
+              "labeledAt": "2026-03-07T17:37:44.104Z",
+              "reasoning": "Figure-based questions (c\u2013e) focus on inputs/outputs of the atmospheric CO2 store within the terrestrial carbon cycle.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1688123,
+        "parts": [
+          {
+            "id": 1149271,
+            "content": "Using the data in **Table 1**, calculate the Net Primary Productivity (NPP) for this grassland ecosystem.",
+            "order": -1,
+            "markscheme": "$$37.0\\ (MJ \\cdot m^{-2} \\cdot yr^{-1})$$ <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149272,
+            "content": "Explain why energy is lost as it is transferred between trophic levels, with reference to the second law of thermodynamics.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following, <marks>2 marks max</marks>:\n\n- the second law states that in any energy transfer, entropy increases / energy is degraded to a lower quality;\n- much of the energy is dissipated as heat/thermal energy during respiration;\n- heat energy cannot be reused by organisms and is lost to the environment;\n- not all biomass is consumed or digested by the next trophic level (e.g., bones, fiber).",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149273,
+            "content": "Describe how a significant increase in local temperature might alter the Net Primary Productivity (NPP) of the ecosystem in **Table 1**.",
+            "order": 1,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following, <marks>2 marks max</marks>:\n\n- increased temperature can increase the rate of plant respiration ($$R$$);\n- if respiration increases more than GPP, the NPP will decrease ($$NPP = GPP - R$$);\n- very high temperatures may lead to water stress/closing of stomata, which would decrease GPP;\n- conversely, in cold climates, a moderate increase may increase both GPP and NPP by extending the growing season.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149274,
+            "content": "Draw a flow diagram to show the flows of photosynthesis and plant respiration associated with the 'Atmospheric $$CO_2$$' storage in **Figure 1**.",
+            "order": 2,
+            "markscheme": "![Flow Diagram](https://pub-images.revisiondojo.com/question-images/6a830c6e-5811-4522-a1ec-0808dbb9f938)\n\n_Award <marks>1 mark</marks> for a box labeled 'Atmospheric CO2' with an incoming arrow for 'Respiration' (or 'Plant Respiration') and an outgoing arrow for 'Photosynthesis'._\n\n_Award <marks>1 mark</marks> for correct labels and arrow directions._\n\n<marks>2 marks max</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149275,
+            "content": "Identify **one** other input to the 'Atmospheric $$CO_2$$' storage that is not already shown in **Figure 1**.",
+            "order": 3,
+            "markscheme": "Award <marks>1 mark max</marks> for any of the following:\n\n- combustion of fossil fuels;\n- volcanic eruptions / outgassing;\n- diffusion from the ocean surface (ocean-to-atmosphere flux);\n- animal/consumer respiration;\n- forest fires (combustion of biomass).",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149276,
+            "content": "Identify **one** other output from the 'Atmospheric $$CO_2$$' storage that is not already shown in **Figure 1**.",
+            "order": 4,
+            "markscheme": "Award <marks>1 mark max</marks> for any of the following:\n\n- dissolving/diffusion into the oceans (carbonic acid formation);\n- carbon capture and storage (human-engineered removal);\n- weathering of silicate rocks (carbonation).",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "844a6b90-47f9-413b-af95-eb0dbe9b7852",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29824,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2J Modes of nutrition (HL)",
+              "title": "2.2J Modes of nutrition (HL)",
+              "labeledAt": "2026-03-05T16:12:44.231Z",
+              "reasoning": "This topic (Modes of nutrition) specifically addresses the various ways organisms, including plants, have adapted to acquire nutrients from their environment, which is the core of the question.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38296,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3E Nitrogen cycle (HL)",
+              "title": "2.3E Nitrogen cycle (HL)",
+              "labeledAt": "2026-03-05T16:12:44.231Z",
+              "reasoning": "Many primary adaptations for nutrient uptake, such as symbiotic relationships with nitrogen-fixing bacteria (rhizobia) and mycorrhizal fungi, are covered under the nitrogen cycle and biological nutrient acquisition.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30165,
+              "isHl": false,
+              "path": "Topic 5: Land > 5.1 Soil > 5.1B Contribution of soil",
+              "title": "5.1B Contribution of soil",
+              "labeledAt": "2026-03-05T16:12:44.231Z",
+              "reasoning": "The question relates to how plants obtain minerals from the soil; this topic specifically covers the role of soil as a reservoir and provider of essential mineral nutrients for plant growth.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 877452,
+        "parts": [
+          {
+            "id": 487078,
+            "content": "Describe two adaptations that plants have developed to increase their nutrient uptake efficiency.",
+            "order": 0,
+            "markscheme": "- Mycorrhizal associations: Symbiotic relationships with fungi to extend nutrient absorption <marks>2 marks</marks>\n- Root hairs: Increase surface area for nutrient absorption <marks>2 marks</marks>\n- Nitrogen-fixing nodules: House bacteria that convert atmospheric nitrogen into usable forms <marks>2 marks</marks>\n- Carnivorous adaptations: Allow plants to obtain nutrients from insects in nutrient-poor environments <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8f320fba-009f-4d7b-8933-9e981c4c7d8a",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29823,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2H Pollutants and human activities",
+              "title": "2.2H Pollutants and human activities",
+              "labeledAt": "2026-03-05T16:49:34.239Z",
+              "reasoning": "Biomagnification is the process by which the concentration of persistent pollutants increases as they move up a food chain. This is a core concept under Topic 2.2H, which addresses how pollutants interact with ecosystems and food chains.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 855146,
+        "parts": [
+          {
+            "id": 487075,
+            "content": "Describe the concept of biomagnification and provide an example.",
+            "order": 0,
+            "markscheme": "- Biomagnification is the increase in concentration of a substance up the food chain <marks>1 mark</marks>\n- Occurs with persistent, fat-soluble substances <marks>1 mark</marks>\n- Example: DDT accumulation in fish-eating birds <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "92943252-7872-4521-bcad-b9bf068c90b1",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38292,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3A Biogeochemical cycles",
+              "title": "2.3A Biogeochemical cycles",
+              "labeledAt": "2026-03-07T17:37:17.949Z",
+              "reasoning": "The question asks generally about human alteration of global nutrient cycles, which is covered under biogeochemical cycles broadly.",
+              "confidence": 0.86
+            },
+            {
+              "id": 38296,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3E Nitrogen cycle (HL)",
+              "title": "2.3E Nitrogen cycle (HL)",
+              "labeledAt": "2026-03-07T17:37:17.949Z",
+              "reasoning": "A common expected example is disruption of the nitrogen cycle via Haber-Bosch fertilizer production, intensive agriculture, and combustion producing NOx.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30187,
+              "isHl": false,
+              "path": "Topic 5: Land > 5.2 Agriculture and food > 5.2C Synthetic fertilizers ",
+              "title": "5.2C Synthetic fertilizers ",
+              "labeledAt": "2026-03-07T17:37:17.949Z",
+              "reasoning": "One major human driver of altered nutrient cycles is the use of synthetic fertilizers, directly changing nitrogen (and often phosphorus) flows through ecosystems.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 855792,
+        "parts": [
+          {
+            "id": 487071,
+            "content": "Describe two ways in which human activities have altered global nutrient cycles.",
+            "order": 0,
+            "markscheme": "- Fertilizer use: Increases nitrogen and phosphorus inputs to ecosystems <marks>2 marks</marks>\n- Fossil fuel combustion: Releases nitrogen oxides into the atmosphere <marks>2 marks</marks>\n- Deforestation: Disrupts nutrient storage and cycling in forest ecosystems <marks>2 marks</marks>\n- Urbanization: Concentrates nutrient flows in human-dominated areas <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a1a8af27-fe39-46f7-bdba-c5d62dc02dfa",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29821,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2C Second law of thermodynamics",
+              "title": "2.2C Second law of thermodynamics",
+              "labeledAt": "2026-03-05T16:12:51.937Z",
+              "reasoning": "The concept of 'energy quality' changing from a concentrated form (like sunlight or chemical energy) to a dispersed form (heat) as it moves through a system is the central application of the Second Law of Thermodynamics in ecology.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29822,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2D Food Chain and Energy Loss",
+              "title": "2.2D Food Chain and Energy Loss",
+              "labeledAt": "2026-03-05T16:12:51.937Z",
+              "reasoning": "The question specifically addresses energy flow through an ecosystem, which involves food chains and the significant loss of energy (decline in quality/availability) between trophic levels.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 813514,
+        "parts": [
+          {
+            "id": 487061,
+            "content": "Explain how energy quality changes as it flows through an ecosystem.",
+            "order": 0,
+            "markscheme": "- Energy quality decreases as it moves through trophic levels <marks>1 mark</marks>\n- High-quality energy (e.g., sunlight) is converted to lower-quality forms (e.g., heat) <marks>1 mark</marks>\n- This is in accordance with the Second Law of Thermodynamics <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "be120751-6cb3-4ac9-a888-e574ae279159",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38292,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3A Biogeochemical cycles",
+              "title": "2.3A Biogeochemical cycles",
+              "labeledAt": "2026-03-06T15:38:30.825Z",
+              "reasoning": "Decomposers\u2019 main ESS role is breaking down dead organic matter and releasing nutrients back into ecosystems, which is core to nutrient/biogeochemical cycling.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 877463,
+        "parts": [
+          {
+            "id": 487064,
+            "content": "Describe the role of decomposers in nutrient cycling.",
+            "order": 0,
+            "markscheme": "- Break down dead organic matter <marks>1 mark</marks>\n- Release nutrients back into the ecosystem <marks>1 mark</marks>\n- Make nutrients available for uptake by producers <marks>1 mark</marks>\n- Play a crucial role in closing nutrient cycles <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c0c98b06-bc26-4221-bc37-b16dcad3d207",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-c0c98b06-bc26-4221-bc37-b16dcad3d207-1771929956947",
+            "generatedAt": "2026-02-26T04:45:06.310Z",
+            "sourceRevisionId": 1163301
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30577,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1F Environmental impact assessment (HL)",
+              "title": "7.1F Environmental impact assessment (HL)",
+              "labeledAt": "2026-03-05T16:49:58.050Z",
+              "reasoning": "Part (b) specifically asks for the procedures required to conduct an Environmental Impact Assessment (EIA), which is the primary focus of this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 30574,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1C Natural capital",
+              "title": "7.1C Natural capital",
+              "labeledAt": "2026-03-05T16:49:58.050Z",
+              "reasoning": "Part (a) refers to 'natural income' derived from ecosystem services, and part (c) explicitly requires a comparison involving Natural Capital assessments.",
+              "confidence": 1
+            },
+            {
+              "id": 38266,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3I Frameworks and models for sustainability",
+              "title": "1.3I Frameworks and models for sustainability",
+              "labeledAt": "2026-03-05T16:49:58.050Z",
+              "reasoning": "Part (c) asks for an evaluation of the Ecological Footprint (EF) as a model for sustainability, which falls under frameworks and models for sustainability.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30573,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1B Ecosystem services",
+              "title": "7.1B Ecosystem services",
+              "labeledAt": "2026-03-05T16:49:58.050Z",
+              "reasoning": "Part (a) requires identification of the four categories of ecosystem services as defined by the Millennium Ecosystem Assessment.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1688411,
+        "parts": [
+          {
+            "id": 1149878,
+            "content": "Identify **four** distinct categories of ecosystem services, as defined by the Millennium Ecosystem Assessment, that provide 'natural income' for human societies.",
+            "order": 0,
+            "markscheme": "- Supporting services (e.g., primary production, soil formation, nutrient cycling) <marks>1 mark</marks>\n- Provisioning services (e.g., food, fresh water, timber, fiber, fuel) <marks>1 mark</marks>\n- Regulating services (e.g., climate regulation, flood regulation, water purification, pollination) <marks>1 mark</marks>\n- Cultural services (e.g., aesthetic, spiritual, educational, recreational benefits) <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for each correct category identified. Examples are not required but may be used to clarify the category.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149879,
+            "content": "Outline the sequence of procedures required to conduct a comprehensive Environmental Impact Assessment (EIA) for a proposed urban development project.",
+            "order": 1,
+            "markscheme": "- **Screening**: Determine if the project requires an EIA based on local legislation/scale of impact. <marks>1 mark</marks>\n- **Scoping**: Identify the key environmental issues and requirements that need to be addressed. <marks>1 mark</marks>\n- **Baseline Study**: Conduct a detailed inventory of the existing environment (biotic and abiotic factors) before development starts. <marks>1 mark</marks>\n- **Impact Prediction**: Use models or expert judgment to estimate the potential scale and duration of environmental changes. <marks>1 mark</marks>\n- **Mitigation Planning**: Propose specific measures to avoid, reduce, or compensate for identified negative impacts. <marks>1 mark</marks>\n- **Environmental Statement (Production)**: Compile all findings and mitigation strategies into a formal report for public and government review. <marks>1 mark</marks>\n- **Monitoring and Auditing**: Establish a program to track actual impacts during and after construction to ensure compliance and effectiveness of mitigation. <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for each distinct procedural stage described, up to a maximum of <marks>7 marks</marks>.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149880,
+            "content": "To what extent can the **Ecological Footprint (EF)** be considered a more effective model for measuring the sustainability of a human population than a **Natural Capital** assessment?",
+            "order": 2,
+            "markscheme": "_Answers may include_:\n\n*   **Understanding of concepts**: Ecological Footprint (the area of land and water required to sustainably provide all resources at the rate at which they are being consumed and to assimilate all waste); Natural Capital (the stock of natural resources that produces a sustainable yield of goods and services).\n*   **Breadth of comparison**: EF as a single indicator of consumption vs. Natural Capital as a measurement of available stocks; national vs. global scales; use of biocapacity; ecological overshoot; non-renewable vs. renewable capital.\n*   **Examples**: Comparison of EF between MEDCs and LEDCs; specific examples of natural capital (e.g., fossil fuels vs. timber); the role of technological advancement in changing EF; local depletion of natural capital despite a stable global EF.\n*   **Balanced analysis**: \n    *   **Strengths of EF**: Simple, easy to communicate/compare between countries, highlights global inequality, clearly demonstrates overshoot (where consumption exceeds regeneration).\n    *   **Weaknesses of EF**: Ignores many forms of pollution (e.g., toxics, plastics), assumes land is used for only one purpose, does not distinguish between sustainable and unsustainable land management within the footprint.\n    *   **Strengths of Natural Capital**: More comprehensive for local resource management, accounts for both biotic and abiotic (non-renewable) stocks, useful for economic valuation/GDP greening.\n    *   **Weaknesses of Natural Capital**: Harder to quantify in a single metric, difficult to account for the mobility of resources (trade).\n*   **Conclusion**: A conclusion that is supported by the analysis provided. _e.g._, \"While the Ecological Footprint is a superior tool for raising public awareness and showing global imbalances, Natural Capital assessments provide the detailed data necessary for local policy-making and managing specific resource stocks sustainably.\"",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d0eead66-ca17-4a7c-be06-7fd1c36c80f7",
+        "specification": "Explain how the following human activities affect the carbon cycle:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38293,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3B Carbon cycle",
+              "title": "2.3B Carbon cycle",
+              "labeledAt": "2026-03-06T15:39:49.312Z",
+              "reasoning": "Both parts ask how fossil fuel combustion and deforestation alter transfers/storage in the carbon cycle (moving carbon from lithosphere/biomass to atmospheric CO2 and reducing uptake).",
+              "confidence": 0.94
+            },
+            {
+              "id": 30530,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2A Climate and anthropogenic GHG emissions",
+              "title": "6.2A Climate and anthropogenic GHG emissions",
+              "labeledAt": "2026-03-06T15:39:49.312Z",
+              "reasoning": "Fossil fuel combustion and deforestation are key anthropogenic sources of greenhouse gases; linking carbon-cycle disruption to anthropogenic GHG emissions fits this topic.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 877466,
+        "parts": [
+          {
+            "id": 487079,
+            "content": "Fossil fuel combustion",
+            "order": 0,
+            "markscheme": "- Releases stored carbon into the atmosphere as $\\text{CO}_2$ <marks>1 mark</marks>\n- Increases atmospheric carbon dioxide levels <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 487080,
+            "content": "Deforestation",
+            "order": 1,
+            "markscheme": "### General Points <marks>2 marks</marks>\n\n- Destruction/removal of forests and trees -\n- Agriculture/farming expansion\n- Logging for timber/wood\n- Mining/drilling\n- Urbanization/infrastructure development\n\n\n- Negative environmental impacts:\n    - Loss of biodiversity/habitats for animals and plants\n    - Soil erosion/degradation\n    - Disruption of water cycles\n    - Increased greenhouse gas emissions/climate change\n    - Disruption of indigenous communities\n\n<examTip>Discuss both the causes and effects of deforestation for full marks.</examTip>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d79caaa1-539b-4439-b881-0bdca6e886de",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d79caaa1-539b-4439-b881-0bdca6e886de-1771929956947",
+            "generatedAt": "2026-02-26T05:33:13.191Z",
+            "sourceRevisionId": 1107639
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 38253,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2B Negative feedback loops",
+              "title": "1.2B Negative feedback loops",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (c) explicitly requires a discussion of the role of negative feedback loops in system stability.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38254,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2C Positive feedback loops",
+              "title": "1.2C Positive feedback loops",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (c) explicitly requires a discussion of the role of positive feedback loops with named examples.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38255,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2D Models",
+              "title": "1.2D Models",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (b) asks for an evaluation of box-and-arrow diagrams as models to represent ecosystem flows and storages.",
+              "confidence": 0.9
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (a) focuses on identifying transfers and transformations, which are fundamental concepts of systems analysis.",
+              "confidence": 0.85
+            },
+            {
+              "id": 38257,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2F Resilience of a system",
+              "title": "1.2F Resilience of a system",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (c) discusses the stability of systems, which is intrinsically linked to the concept of resilience in ESS.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1688427,
+        "parts": [
+          {
+            "id": 1149924,
+            "content": "Identify **two** transfers and **two** transformations of energy or matter that occur within a glacier system.",
+            "order": 0,
+            "markscheme": "Potential transfers (any two): \n- Movement of ice mass downslope due to gravity. <marks>1 mark</marks>\n- Accumulation of snow/precipitation on the glacier surface. <marks>1 mark</marks>\n- Movement of meltwater through internal channels or out of the snout. <marks>1 mark</marks>\n- Wind-blown transport of surface debris. <marks>1 mark</marks>\n\nPotential transformations (any two):\n- Solid ice melting into liquid water. <marks>1 mark</marks>\n- Snow compressing and recrystallizing into dense glacial ice (firnification). <marks>1 mark</marks>\n- Sublimation of ice directly into water vapor. <marks>1 mark</marks>\n- Absorption of solar radiation being converted into heat/internal energy. <marks>1 mark</marks>\n\n<note>Award 1 mark for each correctly identified process, up to a maximum of 2 for transfers and 2 for transformations.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149925,
+            "content": "Evaluate the use of a box-and-arrow flow diagram (a model) to represent the storages and flows of a named ecosystem.",
+            "order": 1,
+            "markscheme": "**Strengths:**\n- Simplifies complex biological/geochemical interactions into a format that is easy to visualize. <marks>1 mark</marks>\n- Allows for the quantitative comparison of different storages (e.g., biomass vs. litter in a rainforest). <marks>1 mark</marks>\n- Helps to identify the most significant pathways of energy or matter loss. <marks>1 mark</marks>\n- Can be used to predict how a change in one component (e.g., removal of a predator) might affect the rest of the system. <marks>1 mark</marks>\n\n**Limitations:**\n- Often oversimplifies the system by excluding minor species or pathways that may still be critical. <marks>1 mark</marks>\n- Static diagrams do not easily show how flows change over time or with seasons. <marks>1 mark</marks>\n- The accuracy of the model is entirely dependent on the quality of the initial data collected. <marks>1 mark</marks>\n- It may ignore the 'human factor' or external unpredictable disturbances (e.g., sudden forest fires). <marks>1 mark</marks>\n\n**Application to named ecosystem:**\n- For example, in a Tropical Rainforest: Storages (Biomass, Litter, Soil) and Flows (Leaching, Decomposition, Uptake). <marks>1 mark</marks>\n\n<note>A maximum of 4 marks may be awarded for strengths and a maximum of 4 marks for limitations. A named ecosystem must be referenced for the highest marks.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149926,
+            "content": "\"The stability of an environmental system is solely dependent on the presence of negative feedback loops.\"\n\nDiscuss the validity of this statement with reference to named examples of both positive and negative feedback.",
+            "order": 2,
+            "markscheme": "Answers may include:\n- Definition of stability/equilibrium (steady-state vs. static).\n- Explanation of negative feedback: mechanisms that reverse/dampen a change, bringing the system back to its original state (e.g., predator-prey cycles, temperature regulation in organisms).\n- Explanation of positive feedback: mechanisms that amplify change, driving the system toward a tipping point or a new equilibrium (e.g., Albedo effect in the Arctic, methane release from thawing permafrost).\n- Discussion on resilience: high biodiversity and complex webs contribute to stability alongside feedback.\n- Discussion on how positive feedback can lead to system collapse or a \"regime shift\" (loss of current stability).\n\n- <marks>2 marks</marks> for a balanced analysis of the extent to which negative feedback is the \"sole\" factor, acknowledging the role of other factors like ecosystem complexity or the destabilizing influence of positive feedback.\n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| 1\u20133 | The response contains: \u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| 4\u20136 | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| 7\u20139 | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "dd41ec20-03a2-4221-9297-a1bbf047e757",
+        "specification": "The following table displays measurements of various air pollutants collected at a busy urban intersection over a 24-hour period.\n\n**Table 1: Concentrations of atmospheric pollutants in an urban area**\n\n| Time of day | Nitrogen Oxides ($$NO_x$$) (ppb) | Ozone ($$O_3$$) (ppb) | Particulate Matter ($$PM_{2.5}$$) ($$\\mu g/m^3$$) |\n| :--- | :--- | :--- | :--- |\n| 06:00 | 85 | 12 | 18 |\n| 12:00 | 35 | 92 | 42 |\n| 18:00 | 70 | 28 | 38 |\n| 00:00 | 15 | 8 | 12 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-dd41ec20-03a2-4221-9297-a1bbf047e757-1771929956947",
+            "generatedAt": "2026-02-25T11:07:47.293Z",
+            "sourceRevisionId": 1109335
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30637,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.3 Urban air pollution > 8.3A Urban air pollution",
+              "title": "8.3A Urban air pollution",
+              "labeledAt": "2026-03-06T07:59:20.811Z",
+              "reasoning": "Question focuses on urban air pollutants (NOx, O3, PM2.5), primary vs secondary pollutants, non-point sources, and management strategies for urban air pollution.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30640,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.3 Urban air pollution > 8.3D Tropospheric ozone (HL)",
+              "title": "8.3D Tropospheric ozone (HL)",
+              "labeledAt": "2026-03-06T07:59:20.811Z",
+              "reasoning": "Includes ozone as a secondary pollutant in an urban setting and asks to explain NOx\u2013O3 patterns consistent with tropospheric ozone formation.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1686470,
+        "parts": [
+          {
+            "id": 1147021,
+            "content": "State **one** example of a non-point source of air pollution in an urban area.",
+            "order": -1,
+            "markscheme": "Road traffic/vehicle exhausts (across a city) / domestic heating / household activities / small-scale agricultural runoff in the outskirts <marks> 1 mark </marks>\n\n_Do not credit specific single sources like a factory chimney (point source)_.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147022,
+            "content": "Identify the **secondary pollutant** listed in **Table 1**.",
+            "order": 0,
+            "markscheme": "Ozone / $$O_3$$ <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147023,
+            "content": "Identify the time of day when the concentration of **particulate matter ($$PM_{2.5}$$)** is at its highest.",
+            "order": 1,
+            "markscheme": "12:00 / Noon <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147024,
+            "content": "With reference to the data in **Table 1**, explain how the concentrations of nitrogen oxides ($$NO_x$$) and ozone ($$O_3$$) illustrate the difference between primary and secondary pollutants.",
+            "order": 2,
+            "markscheme": "- Nitrogen oxides are primary pollutants because they are highest at 06:00/18:00 when they are emitted directly (e.g. from rush hour traffic) <marks> 1 mark </marks>\n- Ozone is a secondary pollutant because its concentration peaks later (12:00) as it is formed from the reaction of primary pollutants in the presence of sunlight <marks> 1 mark </marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147025,
+            "content": "State the term for a pollutant, such as certain heavy metals or plastics, that cannot be broken down by natural biological processes.",
+            "order": 3,
+            "markscheme": "Persistent (pollutant) / non-biodegradable <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147026,
+            "content": "Outline **two** pollution management strategies at the \"regulating and reducing\" level of the pollution management model that could be used to address urban air pollution.",
+            "order": 4,
+            "markscheme": "- implementation of government legislation/laws to set maximum emission standards for vehicles/industries <marks> 1 mark </marks>\n- use of technological solutions such as catalytic converters / scrubbers to remove pollutants from exhaust gases <marks> 1 mark </marks>\n- establishing \"low emission zones\" where high-polluting vehicles are restricted or fined <marks> 1 mark </marks>\n- regular mandatory vehicle emissions testing (e.g., MOT/smog checks) <marks> 1 mark </marks>\n\n_Award [1] for each distinct strategy up to [2] max. Do not credit \"altering human activity\" (Level 1) or \"clean up and restoration\" (Level 3) strategies._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e8e2b47a-0ed1-4229-830b-17578ed45795",
+        "specification": "Analyze the following diagram of the carbon cycle:\n![Image](https://pub-images.revisiondojo.com/question-images/6de32c63-afd3-44e1-b18a-77e2bdb2dd25)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38293,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3B Carbon cycle",
+              "title": "2.3B Carbon cycle",
+              "labeledAt": "2026-03-07T17:37:22.857Z",
+              "reasoning": "The question explicitly analyzes a carbon cycle diagram, asks for carbon sinks, and asks how human activities alter the cycle\u2014core carbon-cycle understanding.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 813605,
+        "parts": [
+          {
+            "id": 487062,
+            "content": "Identify two carbon sinks shown in the diagram.",
+            "order": 0,
+            "markscheme": "- Oceans <marks>1 mark</marks>\n- Forests <marks>1 mark</marks>\n- Soil <marks>1 mark</marks>\n- Sediments <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 487063,
+            "content": "Explain one way human activities have altered this cycle.",
+            "order": 1,
+            "markscheme": "\n- Burning fossil fuels has increased atmospheric CO2 levels\n<marks>1 mark</marks>\n\n\n- Deforestation has reduced the capacity of forests to act as carbon sinks\n<marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e9595e62-9246-4b94-81c1-9361a80e343b",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38296,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3E Nitrogen cycle (HL)",
+              "title": "2.3E Nitrogen cycle (HL)",
+              "labeledAt": "2026-03-06T05:15:40.986Z",
+              "reasoning": "The question explicitly asks to describe the nitrogen cycle and the roles of nitrogen-fixing and denitrifying bacteria, which are core components of the nitrogen cycle topic.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 877467,
+        "parts": [
+          {
+            "id": 487065,
+            "content": "Describe the nitrogen cycle, including the roles of nitrogen-fixing bacteria and denitrifying bacteria.",
+            "order": 0,
+            "markscheme": "- Nitrogen fixation: Conversion of atmospheric $N_2$ to biologically available forms <marks>1 mark</marks>\n- Nitrification: Conversion of ammonia to nitrates <marks>1 mark</marks>\n- Assimilation: Uptake of nitrogen compounds by plants <marks>1 mark</marks>\n- Denitrification: Conversion of nitrates back to atmospheric $N_2$ <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ee6a4b61-6ff3-47ec-a245-2b1cb51305fe",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30573,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1B Ecosystem services",
+              "title": "7.1B Ecosystem services",
+              "labeledAt": "2026-03-05T16:51:27.837Z",
+              "reasoning": "The question asks for the 'role' of an ecosystem (wetlands), which refers to the ecosystem services they provide, such as nutrient cycling and water purification.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38292,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3A Biogeochemical cycles",
+              "title": "2.3A Biogeochemical cycles",
+              "labeledAt": "2026-03-05T16:51:27.837Z",
+              "reasoning": "The question specifically asks to describe the process of nutrient cycling within the wetland ecosystem.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30148,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.4 Water pollution > 4.4B Water quality",
+              "title": "4.4B Water quality",
+              "labeledAt": "2026-03-05T16:51:27.837Z",
+              "reasoning": "The question addresses water purification, which is a key process in maintaining or improving water quality, a core part of this topic.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 826046,
+        "parts": [
+          {
+            "id": 487081,
+            "content": "Describe the role of wetlands in nutrient cycling and water purification.",
+            "order": 0,
+            "markscheme": "- Act as natural filters, removing excess nutrients from water <marks>1 mark</marks>\n- Provide habitat for microorganisms that break down pollutants <marks>1 mark</marks>\n- Store and slowly release nutrients, regulating their flow in ecosystems <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fc5100fa-473e-4fab-9c9e-91bfede2a85d",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 64915,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2E Gross productivity and Net productivity ",
+              "title": "2.2E Gross productivity and Net productivity ",
+              "labeledAt": "2026-03-05T16:50:50.825Z",
+              "reasoning": "The question asks for factors that limit primary productivity (such as light, water, temperature, or nutrients). This is a core concept under Topic 2.2 (Energy and biomass in ecosystems), specifically relating to the definitions and controls of Gross and Net Primary Productivity found in topic 2.2E.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 876508,
+        "parts": [
+          {
+            "id": 487060,
+            "content": "Describe two factors that can limit primary productivity in ecosystems.",
+            "order": 0,
+            "markscheme": "### Light availability\n- Light availability affects photosynthesis rates, especially in aquatic ecosystems <marks>2 marks</marks>\n\n### Nutrient availability\n- Essential elements like nitrogen and phosphorus can limit growth <marks>2 marks</marks>\n\n### Water availability\n- Water availability is crucial for photosynthesis and overall plant function <marks>2 marks</marks>\n\n### Temperature\n- Temperature influences metabolic rates and enzyme activity <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "19",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 24602,
+      "title": "2.3 Biogeochemical cycles",
+      "slug": "ib-ess-new-23-biogeochemical-cycles",
+      "parentTopicId": 24599
+    },
+    "subject": {
+      "id": 6455,
+      "title": "Environmental systems and societies (ESS)",
+      "slug": "ib-environmental-systems-and-societies-ess-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "19",
+      "byQuestion": {}
+    }
+  }
+}

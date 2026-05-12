@@ -1,3 +1,1444 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:514ec63d06999ae215a3c9175f3da095c1a086c271c30aa86bb3d0ebe0dfdad3
-size 88430
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0464f500-8f43-4c29-b89d-8f4d16c8d607",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30115,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2D Water conservation",
+              "title": "4.2D Water conservation",
+              "labeledAt": "2026-03-06T05:41:09.506Z",
+              "reasoning": "The question asks for methods to conserve water in agricultural systems, which directly aligns with water conservation strategies.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30186,
+              "isHl": false,
+              "path": "Topic 5: Land > 5.2 Agriculture and food > 5.2B Agriculture systems",
+              "title": "5.2B Agriculture systems",
+              "labeledAt": "2026-03-06T05:41:09.506Z",
+              "reasoning": "Water-saving methods (e.g., irrigation choices, crop/field management) are part of managing agricultural systems, so the question also fits within agriculture systems.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 813583,
+        "parts": [
+          {
+            "id": 535510,
+            "content": "Describe two methods for conserving water in agricultural systems.",
+            "order": 0,
+            "markscheme": "### Method #1\n\n- Using drip irrigation / trickle irrigation / micro-irrigation systems $\\blacksquare$ <marks>1 mark</marks>\n- Water is supplied slowly / in small amounts directly to the roots of plants $\\blacksquare$ <marks>1 mark</marks>\n\n### Method #2\n\n- Using mulches / covering the soil with organic matter $\\blacksquare$ <marks>1 mark</marks>\n- Reduces evaporation / water loss from the soil $\\blacksquare$ <marks>1 mark</marks>\n\n<note>Award [4 max]</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1333f04b-9382-464d-93b2-cca8c4f45f76",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-07T17:37:18.101Z",
+              "reasoning": "Describing the global distribution of Earth\u2019s water by percentage is commonly taught alongside the hydrological cycle and major water reservoirs (oceans, ice, groundwater, surface water, atmosphere).",
+              "confidence": 0.72
+            },
+            {
+              "id": 30116,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2E Freshwater resources and use (HL)",
+              "title": "4.2E Freshwater resources and use (HL)",
+              "labeledAt": "2026-03-07T17:37:18.101Z",
+              "reasoning": "Breaking down water into saltwater vs freshwater and where freshwater is stored (ice caps/glaciers, groundwater, surface water) aligns with freshwater resources and use.",
+              "confidence": 0.58
+            }
+          ]
+        },
+        "currentRevisionId": 815378,
+        "parts": [
+          {
+            "id": 535520,
+            "content": "Describe the global distribution of water on Earth using percentages.",
+            "order": 0,
+            "markscheme": "- Oceans: approximately 97.5% <marks>1 mark</marks>\n- Glaciers and ice caps: approximately 1.7% <marks>1 mark</marks>  \n- Groundwater: approximately 0.8% <marks>1 mark</marks>\n- Freshwater (lakes, rivers, atmosphere): less than 0.01% <marks>1 mark</marks>\n\n<marks>4 marks in total</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1350b917-f518-4054-b208-4ff8aef9c3f6",
+        "specification": "**Figure 1**: A system diagram of the global carbon cycle.\n\n![diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-ess-1350b917-f518-4054-b208-4ff8aef9c3f6-1771953681492/813334e1-c953-467d-a3ae-8209aeed4c1d.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-ess-1350b917-f518-4054-b208-4ff8aef9c3f6-1771953681492",
+            "generatedAt": "2026-02-26T05:07:17.209Z",
+            "sourceRevisionId": 1453829
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 38293,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3B Carbon cycle",
+              "title": "2.3B Carbon cycle",
+              "labeledAt": "2026-03-06T15:38:55.452Z",
+              "reasoning": "The question is centered on a system diagram of the global carbon cycle, requiring identification of inorganic carbon storages and transformation flows, and impacts of warming on carbon storages.",
+              "confidence": 0.92
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-06T15:38:55.452Z",
+              "reasoning": "Parts (b) and (c) test systems concepts: steady-state equilibrium in the atmospheric carbon store and identifying the system type that exchanges energy but not matter (closed system).",
+              "confidence": 0.78
+            },
+            {
+              "id": 30531,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2B Climate change",
+              "title": "6.2B Climate change",
+              "labeledAt": "2026-03-06T15:38:55.452Z",
+              "reasoning": "Part (a) links increased global surface temperatures to changes in carbon storages (climate change impacts interacting with the carbon cycle).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1687562,
+        "parts": [
+          {
+            "id": 1148697,
+            "content": "Identify **one** storage of inorganic carbon and **one** flow that represents a transformation in **Figure 1**.",
+            "order": -1,
+            "markscheme": "### Inorganic storage\n<marks>1 mark</marks> for any of the following:\n- Atmospheric $$\\text{CO}_{2}$$\n- Ocean Surface (dissolved inorganic carbon)\n- Fossil Fuel Reserves\n\n### Transformation process\n<marks>1 mark</marks> for any of the following:\n- Photosynthesis (conversion of inorganic $$\\text{CO}_{2}$$ to organic biomass)\n- Respiration (conversion of organic biomass to inorganic $$\\text{CO}_{2}$$)\n- Combustion (chemical change from fuel/biomass to $$\\text{CO}_{2}$$)\n\n<note>Do not credit Diffusion/Dissolution as this is a physical transfer (moving matter between phases/locations without chemical change).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1148698,
+            "content": "Outline how a significant increase in global surface temperatures could impact **two** of the carbon storages shown in **Figure 1**.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each relevant impact on a named storage, <marks>2 marks max</marks>:\n\n- **Ocean Surface**: Reduction in carbon storage because warmer water holds less dissolved $$\\text{CO}_{2}$$ (decreased solubility).\n- **Terrestrial Vegetation**: Reduction in storage due to increased frequency/intensity of wildfires OR plant dieback from heat stress/drought.\n- **Atmospheric $$\\text{CO}_{2}$$**: Increase in storage as a result of reduced uptake by oceans/vegetation or increased release from permafrost/soils.\n- **Fossil Fuel Reserves**: No direct impact from temperature, but may be reduced if warming leads to increased energy demand for cooling (indirect combustion).\n\n<note>Credit can be given for any logically sound impact of temperature on a specific storage box in the diagram. Do not credit impacts on flows unless they are explicitly linked to a change in the storage level.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1148699,
+            "content": "Explain how the atmospheric storage in **Figure 1** could be considered to be in a state of **steady-state equilibrium**.",
+            "order": 1,
+            "markscheme": "Award up to <marks>3 marks</marks> for a clear explanation:\n\n- Steady-state equilibrium occurs when the total inputs to a storage are equal to the total outputs over a period of time. <marks>1 mark</marks>\n- In the context of the atmosphere, inputs include processes like respiration and combustion (which add carbon). <marks>1 mark</marks>\n- Outputs include processes like photosynthesis and diffusion into the ocean (which remove carbon). <marks>1 mark</marks>\n- Despite constant flows of carbon into and out of the atmosphere, the overall concentration of $$\\text{CO}_{2}$$ remains relatively constant/stable. <marks>1 mark</marks>\n\n<note>Award 3 marks max. The student must demonstrate the concept of balanced inputs/outputs maintaining a stable storage level.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1148700,
+            "content": "State the name of the system type that exchanges energy but not matter with its surroundings.",
+            "order": 2,
+            "markscheme": "- Closed system <marks>1 mark</marks>\n\n<note>Do not accept \"isolated system\" (no exchange of energy or matter) or \"open system\" (exchange of both).</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1413e09c-444f-4e78-9aaa-0d67f75106c5",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-05T16:49:45.558Z",
+              "reasoning": "Infiltration is a key transfer/flow within the hydrological cycle, and the drainage basin is the standard system used to study these water processes in ESS.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30164,
+              "isHl": false,
+              "path": "Topic 5: Land > 5.1 Soil > 5.1A Soil system",
+              "title": "5.1A Soil system",
+              "labeledAt": "2026-03-05T16:49:45.558Z",
+              "reasoning": "The rate of infiltration is primarily determined by soil system characteristics such as soil texture, structure, and organic content, making soil a fundamental factor in this process.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 872177,
+        "parts": [
+          {
+            "id": 535521,
+            "content": "Describe two factors that influence the rate of infiltration in a drainage basin.",
+            "order": 0,
+            "markscheme": "### Factor 1\n- Soil texture/structure <marks>1 mark</marks>\n  - Sandy/porous soils allow faster infiltration OR\n  - Clay/compacted soils slow infiltration <marks>1 mark</marks>\n\n### Factor 2\n- Vegetation cover <marks>1 mark</marks>\n  - More vegetation increases infiltration by protecting soil and increasing porosity OR\n  - Less vegetation reduces infiltration as soil is exposed/compacted <marks>1 mark</marks>\n\nAward <marks>1 mark</marks> for each other valid factor (max 2):\n- Soil moisture content\n- Slope angle/gradient\n- Rainfall intensity\n- Human activities (e.g. compaction by vehicles)\n\n<note>Accept other reasonable responses</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "159a5039-59c0-4cd1-ba07-c835886db213",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30116,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2E Freshwater resources and use (HL)",
+              "title": "4.2E Freshwater resources and use (HL)",
+              "labeledAt": "2026-03-07T17:38:26.101Z",
+              "reasoning": "Watershed concept is central to understanding freshwater resources, catchment-based allocation, and management of water availability.",
+              "confidence": 0.7
+            },
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-07T17:38:26.101Z",
+              "reasoning": "A watershed is a key component of hydrological drainage and runoff pathways within the hydrological cycle.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30112,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2A Water security",
+              "title": "4.2A Water security",
+              "labeledAt": "2026-03-07T17:38:26.101Z",
+              "reasoning": "Importance in water resource management links to planning for reliable access and managing competing demands within a basin (water security).",
+              "confidence": 0.35
+            }
+          ]
+        },
+        "currentRevisionId": 767892,
+        "parts": [
+          {
+            "id": 535519,
+            "content": "Describe the concept of a watershed and its importance in water resource management.",
+            "order": 0,
+            "markscheme": "A watershed is the area of land draining into a particular river or water body. <marks>1 mark</marks>\n\nDefines the boundaries for water resource management. <marks>1 mark</marks>\n\nImpacts on one part of the watershed can affect the entire system. <marks>1 mark</marks>\n\nImportant for planning conservation and pollution control measures. <marks>1 mark</marks>\n\n<marks>3 marks max</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "22bc76d0-dcaf-44d0-b543-d36ebab464c7",
+        "specification": "Analyse the following graph showing annual precipitation and evapotranspiration for a region:\n\n![Image](https://pub-images.revisiondojo.com/question-images/7de0133b-16dd-4d12-815e-6e34b7a1f49e)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30112,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2A Water security",
+              "title": "4.2A Water security",
+              "labeledAt": "2026-03-06T15:38:43.005Z",
+              "reasoning": "The question asks for implications of a precipitation vs evapotranspiration pattern for managing available water through the year, which directly links to water security (reliable access/availability over time).",
+              "confidence": 0.74
+            },
+            {
+              "id": 30114,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2C Water scarcity",
+              "title": "4.2C Water scarcity",
+              "labeledAt": "2026-03-06T15:38:43.005Z",
+              "reasoning": "Periods where evapotranspiration exceeds precipitation imply water deficits and potential drought conditions, relating to water scarcity concerns relevant to management.",
+              "confidence": 0.64
+            },
+            {
+              "id": 30113,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2B Water supply",
+              "title": "4.2B Water supply",
+              "labeledAt": "2026-03-06T15:38:43.005Z",
+              "reasoning": "Discussing management implications typically involves supply-side responses (storage, reservoirs, allocation), fitting water supply.",
+              "confidence": 0.52
+            },
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-06T15:38:43.005Z",
+              "reasoning": "Interpreting precipitation and evapotranspiration as parts of the hydrological cycle underpins the graph analysis, though the focus is management rather than cycle processes.",
+              "confidence": 0.41
+            }
+          ]
+        },
+        "currentRevisionId": 877476,
+        "parts": [
+          {
+            "id": 535524,
+            "content": "Explain the implications of this pattern for water resource management.",
+            "order": 0,
+            "markscheme": "#### Water resource management implications\n\n- Water storage may be necessary during surplus months for use in deficit periods <marks>1 mark</marks>\n- Irrigation might be required during deficit months for agriculture <marks>1 mark</marks>\n- Water conservation measures may be needed during deficit periods <marks>1 mark</marks>\n\n<marks>2 marks max</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "22c8c98b-a257-488e-b62b-e4aa0143df2b",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-22c8c98b-a257-488e-b62b-e4aa0143df2b-1772167695732",
+            "generatedAt": "2026-02-27T04:48:51.278Z",
+            "sourceRevisionId": 1107755
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 38250,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.1 Perspectives  > 1.1B Environmental value system",
+              "title": "1.1B Environmental value system",
+              "labeledAt": "2026-03-07T17:37:14.859Z",
+              "reasoning": "Part (a) explicitly asks about shifts in environmental value systems (EVS) driven by historical events; part (b) compares Soft Technologist vs Cornucopian assumptions about humans\u2013environment relationships, which is core EVS.",
+              "confidence": 0.93
+            },
+            {
+              "id": 38251,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.1 Perspectives  > 1.1C Environmental movements",
+              "title": "1.1C Environmental movements",
+              "labeledAt": "2026-03-07T17:37:14.859Z",
+              "reasoning": "Part (a) focuses on major historical events shaping the development of the environmental movement and how these contributed to EVS shifts.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30575,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1D Resource scarcity and use of natural resource",
+              "title": "7.1D Resource scarcity and use of natural resource",
+              "labeledAt": "2026-03-07T17:37:14.859Z",
+              "reasoning": "Part (b) is framed around management of global fossil fuel depletion, which links to resource scarcity and use of natural resources.",
+              "confidence": 0.64
+            },
+            {
+              "id": 30597,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.2 Energy sources - uses and management > 7.2E Global economy and fossil fuels (HL)",
+              "title": "7.2E Global economy and fossil fuels (HL)",
+              "labeledAt": "2026-03-07T17:37:14.859Z",
+              "reasoning": "Part (b) specifically concerns fossil fuels in a global context and viewpoints on their depletion/management, aligning with global economy and fossil fuels.",
+              "confidence": 0.53
+            }
+          ]
+        },
+        "currentRevisionId": 1689230,
+        "parts": [
+          {
+            "id": 1151440,
+            "content": "Identify two major historical events that have influenced the development of the environmental movement and explain how each event contributed to a shift in environmental value systems (EVS).",
+            "order": 0,
+            "markscheme": "*   **Event 1: Publication of *Silent Spring* by Rachel Carson (1962)**\n    - *Impact*: Raised public awareness of the dangers of chemical pesticides (DDT) on ecosystems / catalyzed the move toward ecocentrism by highlighting human-nature interdependence. <marks>1 mark</marks>\n*   **Event 2: Bhopal Disaster (1984)**\n    - *Impact*: A massive gas leak in India that killed thousands / raised awareness of the risks of industrialization and poor technological oversight, shifting perspectives toward more cautious, anthropocentric, or technophobic views. <marks>1 mark</marks>\n*   **Event 3: Chernobyl Nuclear Disaster (1986)**\n    - *Impact*: Highlighted the transboundary nature of pollution and the potential global catastrophes associated with high-technology solutions, fostering skepticism toward technocentrism. <marks>1 mark</marks>\n*   **Event 4: Minamata Disaster (1950s)**\n    - *Impact*: Linked industrial mercury pollution to human health issues (mercury poisoning), leading to a stronger anthropocentric push for environmental regulation and corporate responsibility. <marks>1 mark</marks>\n*   **Event 5: Gaia Hypothesis (James Lovelock)**\n    - *Impact*: Proposed the Earth as a self-regulating organism, reinforcing a deep-ecology/ecocentric perspective where humans are just one part of a larger system. <marks>1 mark</marks>\n\n<note>Accept any other valid historical event (e.g., Fukushima, Whaling protests, Al Gore\u2019s \"An Inconvenient Truth\") provided the link to EVS change is clearly explained. Award <marks>1 mark</marks> for identifying a relevant event and <marks>1 mark</marks> for explaining its impact on EVS, <marks>4 marks max</marks>.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151441,
+            "content": "Contrast the perspectives of a 'Soft Technologist' and a 'Cornucopian' regarding the management of global fossil fuel depletion.\n\nTo what extent do these two viewpoints reflect different underlying assumptions about the relationship between humans and the environment?",
+            "order": 1,
+            "markscheme": "_Answers may include_:\n\n*   **understanding concepts and terminology** of EVS sub-categories (Soft Technologist, Cornucopian), technocentrism, sustainability, resource management, finite vs. infinite resources, etc.;\n*   **breadth in addressing and linking** the specific beliefs of each group. Soft technologists emphasize small-scale technology, community involvement, and local self-sufficiency, while Cornucopians believe in the power of markets, large-scale technology, and human ingenuity to overcome any resource limit;\n*   **examples** of strategies for fossil fuel depletion: Soft technologists might favor decentralized renewable energy (solar, wind) and energy conservation at the local level. Cornucopians might favor deep-sea drilling, fracking, or the development of nuclear fusion/carbon capture to allow continued use of fossil fuels while transitioning through technology;\n*   **balanced analysis** of the underlying assumptions. Cornucopians assume the environment is a provider of resources for human benefit and that there are no physical limits to growth. Soft technologists assume that while technology is useful, it must be appropriate to the scale of the community and that humans should aim for a more balanced relationship with nature to avoid social or ecological collapse;\n*   **a conclusion that is consistent with, and supported by, analysis and examples given** e.g., \"While both occupy the technocentric spectrum, they represent a divide between 'trust in the system/market' (Cornucopian) and 'trust in the community/appropriate scale' (Soft Technologist). Their disagreement on fossil fuels is not about whether to use technology, but about who controls that technology and how it integrates with human society.\";\n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| 1\u20133 | The response contains: \u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| 4\u20136 | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| 7\u20139 | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "336269dd-ba66-438d-a964-18795e7f264c",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-05T16:51:07.050Z",
+              "reasoning": "The question asks for the difference between surface runoff and baseflow, which are key transfer processes within the hydrological cycle. This falls directly under the 'Hydrological cycle' topic.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 877477,
+        "parts": [
+          {
+            "id": 535505,
+            "content": "Explain the difference between surface runoff and baseflow in a river system.",
+            "order": 0,
+            "markscheme": "- Surface runoff is water that flows over the land surface to the river. <marks>1 mark</marks>\n- Baseflow is the contribution to river flow from groundwater. <marks>1 mark</marks>\n- Surface runoff responds quickly to precipitation events. <marks>1 mark</marks>\n- Baseflow provides a more constant supply of water to rivers. <marks>1 mark</marks>\n\n<marks>3 marks max</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3b29fda2-a0df-4d37-bb8b-77130da2e114",
+        "specification": "Explain how the following human activities can impact the water cycle:",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-06T15:39:51.061Z",
+              "reasoning": "The question asks how urbanization and deforestation affect the water cycle (runoff, infiltration, evapotranspiration), which is core to the hydrological cycle.",
+              "confidence": 0.93
+            },
+            {
+              "id": 30625,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.2 Urban systems and urban planning > 8.2B Urbanization and suburbanization",
+              "title": "8.2B Urbanization and suburbanization",
+              "labeledAt": "2026-03-06T15:39:51.061Z",
+              "reasoning": "Part (a) specifically focuses on urbanization, which links to urbanization/suburbanization processes and their environmental effects (e.g., impermeable surfaces altering runoff).",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1645437,
+        "parts": [
+          {
+            "id": 1141070,
+            "content": "Urbanization",
+            "order": 0,
+            "markscheme": "- Increased impermeable surfaces \u2192 reduced infiltration OR reduced groundwater recharge <marks>1 mark</marks>\n- Increased surface runoff \u2192 increased river discharge OR increased flood risk <marks>1 mark</marks>\n\n<Note> Award <marks>1 mark</marks> for reduced infiltration / groundwater recharge and <marks>1 mark</marks> for increased runoff / river discharge / flooding",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1141071,
+            "content": "Deforestation",
+            "order": 1,
+            "markscheme": "- Reduced transpiration \u2192 reduced water vapour returned to atmosphere OR reduced evapotranspiration <marks>1 mark</marks>\n\n- Increased surface runoff \u2192 reduced interception OR increased soil erosion OR reduced infiltration <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "42c4cb76-dc0b-45c6-97dc-49dbb8ecb0ef",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-05T08:14:57.607Z",
+              "reasoning": "Groundwater recharge is a fundamental process within the hydrological cycle, representing a flux from surface water or precipitation into the groundwater storage (aquifer).",
+              "confidence": 0.95
+            },
+            {
+              "id": 30116,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2E Freshwater resources and use (HL)",
+              "title": "4.2E Freshwater resources and use (HL)",
+              "labeledAt": "2026-03-05T08:14:57.607Z",
+              "reasoning": "This topic focuses on freshwater resources including groundwater; management of recharge is critical to ensuring the sustainable use and longevity of these resources.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30113,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2B Water supply",
+              "title": "4.2B Water supply",
+              "labeledAt": "2026-03-05T08:14:57.607Z",
+              "reasoning": "Groundwater is a major component of global water supply, and understanding its recharge is essential for managing supply stability and availability.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693749,
+        "parts": [
+          {
+            "id": 1155957,
+            "content": "Explain the concept of groundwater recharge and its importance in water resource management.",
+            "order": 0,
+            "markscheme": "- Groundwater recharge is the process by which water enters aquifers <marks>1 mark</marks>\n- Crucial for maintaining groundwater levels and preventing depletion <marks>1 mark</marks>\n- Important for sustaining baseflow in rivers during dry periods <marks>1 mark</marks>\n- Can be enhanced through artificial recharge methods <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "48f79c8f-5fad-4db9-aa49-b02df0c1e588",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30113,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2B Water supply",
+              "title": "4.2B Water supply",
+              "labeledAt": "2026-03-05T16:12:50.385Z",
+              "reasoning": "The question asks for the description and characteristics of aquifers, which are a primary source of freshwater. This falls directly under 'Water supply' where aquifers are identified as a critical source for human use.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-05T16:12:50.385Z",
+              "reasoning": "Aquifers are a major storage component of the hydrological cycle. Understanding groundwater storage and its characteristics is a fundamental part of describing the water cycle's components.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 882007,
+        "parts": [
+          {
+            "id": 535526,
+            "content": "Describe two types of aquifers and their characteristics.",
+            "order": 0,
+            "markscheme": "#### Unconfined aquifer\n- Water table forms upper boundary\n- Directly recharged by precipitation\n<marks>2 marks</marks>\n\n#### Confined aquifer\n- Bounded by impermeable layers\n- Can be under pressure\n<marks>2 marks</marks>\n\n#### Artesian aquifer\n- Confined aquifer where water level rises above ground surface <marks>2 marks</marks>\n#### Perched aquifer\n- Localized aquifer above the main water table, separated by impermeable layer <marks>2 marks</marks>\n\n<marks>4 marks max</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "51b98189-4c2a-475b-89e0-9b36b6f47e4e",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-19N.2.SL.TZ0.7",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-05T16:51:43.749Z",
+              "reasoning": "Part (a) specifically asks to explain the hydrological cycle driven by energy, and Part (b) focuses on flows within this cycle.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38250,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.1 Perspectives  > 1.1B Environmental value system",
+              "title": "1.1B Environmental value system",
+              "labeledAt": "2026-03-05T16:51:43.749Z",
+              "reasoning": "Part (c) is a high-mark essay question specifically requiring an evaluation based on different Environmental Value Systems (EVS).",
+              "confidence": 0.95
+            },
+            {
+              "id": 30112,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2A Water security",
+              "title": "4.2A Water security",
+              "labeledAt": "2026-03-05T16:51:43.749Z",
+              "reasoning": "Part (c) addresses fresh water access, which is the core definition and focus of water security.",
+              "confidence": 0.9
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-05T16:51:43.749Z",
+              "reasoning": "Part (b) explicitly requires the construction and explanation of a system diagram, which is a fundamental concept in Topic 1.2.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1109349,
+        "parts": [
+          {
+            "id": 527994,
+            "content": "Explain how energy drives the hydrological cycle.",
+            "order": 0,
+            "markscheme": "- Primary source of energy driving hydrological cycle is solar energy <marks>1 mark</marks>\n- Solar energy causes changes of state in water <marks>1 mark</marks>\n- Condensation of water releases (latent) heat energy causing air to rise/hurricanes <marks>1 mark</marks>\n- Solar energy causes the temperature differences that create winds/cause movement of water vapour in the atmosphere/advection <marks>1 mark</marks>\n- Kinetic/wind energy moves clouds (from ocean over land, usually) <marks>1 mark</marks>\n- Solar energy melts ice producing streams/lakes/rising ocean levels <marks>1 mark</marks>\n- Solar energy causes both transfers (_e.g._ advection) and transformations (_e.g._ evaporation) in hydrological cycle <marks>1 mark</marks>\n- Precipitation/run-off/streamflow occurs due to gravitational energy/difference in potential energy between the high and low positions <marks>1 mark</marks>\n- Transpiration is driven by opening of leaf stomata which is due to chemical energy (cellular respiration in mitochondria) <marks>1 mark</marks>\n\n<marks>4 marks max</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527995,
+            "content": "Using a system diagram, explain how human activities affect global water cycle flows.",
+            "order": 1,
+            "markscheme": "**Identifying Impacts** <marks>up to 4 marks</marks>\n- Melting will increase due to global warming/climate change/increased greenhouse gas emissions\n- Freezing will decrease due to global warming/climate change/etc.\n- Precipitation will be polluted due to acid formation/emissions of NOx & SOx/combustion of coal\n- Precipitation could change/increase/decrease due to climate change/etc.\n- Percolation/infiltration will decrease due to urbanization/soil compaction caused by overgrazing\n- Run-off will increase due to urbanization/deforestation\n- Warmer/polluted streams due to thermal/toxic pollution from industrial effluent\n- Evaporation will increase due to global warming/climate change/etc.\n- Evapotranspiration will increase due to global warming/climate change/etc.\n- Evapotranspiration will be reduced due to deforestation\n- Uptake by plants will be reduced due to deforestation/urbanization/long fallow periods\n- Groundwater flow/aquifers will change dependent on climatic impacts/precipitation/rate of human extraction\n- Cloud seeding increases precipitation (addressing problem of drought/fog around airports)\n\n**Quality of Diagram** <marks>up to 3 marks</marks>\n\nAward 1 mark for every 3 correctly labeled flows or storages. No marks for less than 3.\n\n<note>Maximum 2 marks if gradient is left as a fraction</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 527996,
+            "content": "To what extent do different environmental value systems improve fresh water access?",
+            "order": 2,
+            "markscheme": "Answers may include: \n- Availability & distribution of water\n- Water security\n- Climate change\n- Water pollution\n- Sustainable management of freshwater resources\n- Reservoirs\n- Desalination\n- Artificial recharge\n- Water conservation\n- Environmental value systems\n- Increasing demand for water\n- Water scarcity\n- Link a range of environmental value systems to specific management strategies\n- Link environmental value systems to general approaches that improve or hinder widespread access to freshwater\n- Consider geographical locations differing in freshwater availability/quality\n- Consider societies of different economic development\n- Provide examples of strategies and human management activities/approaches linked to specific value systems that impact water accessibility\n\n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| 1\u20133 | The response contains:\u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| 4\u20136 | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| 7\u20139 | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "58a832d4-97f7-43d2-9e67-3fdf571ad10b",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-06T15:38:42.155Z",
+              "reasoning": "Defining the hydrosphere and its importance links directly to Earth\u2019s water system and cycling of water, which is covered under the hydrological cycle within Water systems.",
+              "confidence": 0.74
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-06T15:38:42.155Z",
+              "reasoning": "The prompt asks for the hydrosphere\u2019s importance in the Earth system, invoking an Earth-systems framing (interacting components/subsystems), which aligns with foundational systems thinking.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 780787,
+        "parts": [
+          {
+            "id": 535528,
+            "content": "Define the term \"hydrosphere\" and explain its importance in the Earth system.",
+            "order": 0,
+            "markscheme": "The hydrosphere is all water on Earth's surface and in the atmosphere. It includes oceans, rivers, lakes, groundwater, glaciers, and water vapor. <marks>1 mark</marks>\n\nThe hydrosphere plays a crucial role in climate regulation and supporting life. <marks>1 mark</marks>\n\nIt facilitates the movement of energy and materials around the planet. <marks>1 mark</marks>\n\n<marks>3 marks max</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "66267b21-ce1c-4dbc-afb8-024c7bd1c788",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-66267b21-ce1c-4dbc-afb8-024c7bd1c788-1771929956947",
+            "generatedAt": "2026-02-25T12:33:50.705Z",
+            "sourceRevisionId": 1179265
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 38253,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2B Negative feedback loops",
+              "title": "1.2B Negative feedback loops",
+              "labeledAt": "2026-03-05T16:12:16.643Z",
+              "reasoning": "Part (d) explicitly asks for the role of negative feedback mechanisms in maintaining stable equilibrium in a system.",
+              "confidence": 1
+            },
+            {
+              "id": 38254,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2C Positive feedback loops",
+              "title": "1.2C Positive feedback loops",
+              "labeledAt": "2026-03-05T16:12:16.643Z",
+              "reasoning": "Part (d) discusses the role of feedback mechanisms in pushing systems toward tipping points, which is the function of positive feedback loops.",
+              "confidence": 1
+            },
+            {
+              "id": 38257,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2F Resilience of a system",
+              "title": "1.2F Resilience of a system",
+              "labeledAt": "2026-03-05T16:12:16.643Z",
+              "reasoning": "Part (d) specifically mentions resilience and the transition of systems between states of equilibrium.",
+              "confidence": 1
+            },
+            {
+              "id": 38255,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2D Models",
+              "title": "1.2D Models",
+              "labeledAt": "2026-03-05T16:12:16.643Z",
+              "reasoning": "Part (c) is a detailed evaluation of the use of models, such as systems diagrams and simulations, in understanding ecosystems.",
+              "confidence": 1
+            },
+            {
+              "id": 30164,
+              "isHl": false,
+              "path": "Topic 5: Land > 5.1 Soil > 5.1A Soil system",
+              "title": "5.1A Soil system",
+              "labeledAt": "2026-03-05T16:12:16.643Z",
+              "reasoning": "Part (b) requires knowledge of the soil system, specifically identifying transfers and transformations within it.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-05T16:12:16.643Z",
+              "reasoning": "Part (a) requires understanding of the basic components of a system (storages and matter) applied to an aquatic context.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1688189,
+        "parts": [
+          {
+            "id": 1149299,
+            "content": "Identify **two** major storages of matter that are present in a named aquatic ecosystem.",
+            "order": 0,
+            "markscheme": "- Biomass (e.g., fish, plankton, aquatic plants) <marks>1 mark</marks>\n- Dissolved nutrients (e.g., nitrates, phosphates in the water column) <marks>1 mark</marks>\n- Benthic sediments (e.g., organic matter or minerals on the lake/sea floor) <marks>1 mark</marks>\n- Dissolved gases (e.g., oxygen, carbon dioxide) <marks>1 mark</marks>\n- The water body itself (as a storage of $$H_2O$$) <marks>1 mark</marks>\n\n<note>Award 1 mark for each valid storage identified, up to 2 marks. Do not credit flows (e.g., precipitation or runoff) unless they are clearly defined as a storage within the context of the system.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149300,
+            "content": "State **one** transfer and **one** transformation of matter that occur within a soil system.",
+            "order": 1,
+            "markscheme": "- Transfer: Leaching (minerals moving downwards through soil profiles) / Runoff / Infiltration of water / Deposition of leaf litter <marks>1 mark</marks>\n- Transformation: Decomposition (organic matter turning into inorganic nutrients) / Weathering of parent rock / Nitrification / Denitrification <marks>1 mark</marks>\n\n<note>Max 2 marks. Ensure one of each (transfer and transformation) is provided for full marks.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149301,
+            "content": "Evaluate the use of models (such as systems diagrams or computer simulations) in understanding the complexities of an ecosystem.",
+            "order": 2,
+            "markscheme": "- Models simplify complex systems, making them easier to visualize and study <marks>1 mark</marks>\n- They allow scientists to predict future changes or the impacts of human activities (e.g., climate change models) <marks>1 mark</marks>\n- They serve as effective communication tools for explaining environmental issues to the public or policy-makers <marks>1 mark</marks>\n- They can identify gaps in current knowledge or data by highlighting where the model fails to match observations <marks>1 mark</marks>\n- However, models are often over-simplified and may miss emergent properties or small-scale interactions <marks>1 mark</marks>\n- The accuracy of a model is limited by the quality of the input data (\"garbage in, garbage out\") <marks>1 mark</marks>\n- Models often cannot account for unpredictable, stochastic events such as natural disasters <marks>1 mark</marks>\n- Predictions are often probabilistic and involve a high degree of uncertainty, which can be misinterpreted <marks>1 mark</marks>\n\n\n\n<note>Accept any other reasonable evaluation points. </note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149302,
+            "content": "Environmental systems are often characterized by their resilience and state of equilibrium. \n\nDiscuss the role of feedback mechanisms in determining whether a system maintains a stable equilibrium or crosses a tipping point into a new state.",
+            "order": 3,
+            "markscheme": "_Answers may include:_\n\n*   **understanding concepts and terminology** of open systems, negative feedback, positive feedback, steady-state equilibrium, resilience, tipping points, thresholds, stability, lags, etc.;\n*   **breadth in addressing and linking** the role of negative feedback as a stabilizing force that maintains homeostasis (e.g., predator-prey population dynamics) and positive feedback as a destabilizing force that drives a system toward a threshold (e.g., the melting of permafrost releasing methane);\n*   **examples** of specific feedback loops such as the ice-albedo effect in polar regions (positive), the carbon cycle/ocean absorption (negative/positive depending on temp), or the collapse of a forest ecosystem into a savanna (tipping point);\n*   **balanced analysis** of how resilience (the capacity of a system to absorb disturbance) allows a system to remain in equilibrium despite stress, and how the depletion of this resilience (e.g., through biodiversity loss) makes a system more vulnerable to positive feedback loops that trigger a tipping point;\n*   **a conclusion that is consistent with, and supported by, analysis and examples given** _eg_ \"While negative feedback mechanisms are essential for maintaining the stability of ecosystems, the increasing scale of human-induced stressors is frequently overriding these regulatory flows, leading to positive feedback loops that threaten to push global systems past critical, irreversible tipping points.\";\n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| 1\u20133 | The response contains:\u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| 4\u20136 | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| 7\u20139 | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "84514451-feac-43b5-a062-0721e760d243",
+        "specification": "Analyze the following graph showing per capita water availability in different years:\n![Image](https://pub-images.revisiondojo.com/question-images/ad654a74-1200-43dd-8b21-243df62f4e21)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30116,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2E Freshwater resources and use (HL)",
+              "title": "4.2E Freshwater resources and use (HL)",
+              "labeledAt": "2026-03-06T15:39:42.992Z",
+              "reasoning": "The graph concerns per-capita water availability over time; explaining the overall trend typically involves changes in freshwater resources and human use/demand patterns.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30114,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2C Water scarcity",
+              "title": "4.2C Water scarcity",
+              "labeledAt": "2026-03-06T15:39:42.992Z",
+              "reasoning": "A declining per-capita availability indicates increasing water scarcity relative to population and withdrawals, which aligns with identifying and explaining scarcity trends.",
+              "confidence": 0.74
+            },
+            {
+              "id": 30112,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.2 Water access, use and security > 4.2A Water security",
+              "title": "4.2A Water security",
+              "labeledAt": "2026-03-06T15:39:42.992Z",
+              "reasoning": "Per-capita availability is a key indicator used to assess water security; the question asks to interpret decline and drivers affecting security.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 813625,
+        "parts": [
+          {
+            "id": 535540,
+            "content": "Identify the year with the steepest decline in water availability.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for correctly identifying the year (1991) with the steepest decline.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 535541,
+            "content": "Explain two reasons for the overall trend shown in the graph.",
+            "order": 1,
+            "markscheme": "### Reason 1 <marks>2 marks</marks>\n\nAward <marks>1 mark</marks> for identifying a valid reason, for example:\n- Population growth/increase in population\n- Increased demand for water (for domestic/industrial/agricultural use)\n- Climate change/global warming (leading to droughts/reduced rainfall)\n- Overexploitation/overconsumption of water resources\n- Deforestation/destruction of watersheds\n- Pollution/contamination of water sources\n\nAward <marks>1 mark</marks> for a clear explanation linking the reason to the decreasing trend in water availability.\n\n### Reason 2 <marks>2 marks</marks>\n\nAward <marks>1 mark</marks> for identifying a different valid reason from the list above.\n\nAward <marks>1 mark</marks> for a clear explanation linking the reason to the decreasing trend in water availability.\n\n<note>Award a maximum of 2 marks if only one reason is given.</note>\n\n<commonMistake>\nConfusing reasons for the overall trend with reasons for the year-to-year fluctuations.\n</commonMistake>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ac2b2e2a-6e67-4939-b093-a13ebbd34873",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30102,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1E Thermohaline circulation (HL)",
+              "title": "4.1E Thermohaline circulation (HL)",
+              "labeledAt": "2026-03-05T16:50:24.113Z",
+              "reasoning": "The 'great ocean conveyor belt' is the standard term used to describe the thermohaline circulation, which is the primary subject of topic 4.1E. The question specifically asks for the drivers (temperature and salinity gradients) that move this system.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 877480,
+        "parts": [
+          {
+            "id": 535542,
+            "content": "Outline the processes that drive the movement of the great ocean conveyor belt.",
+            "order": 0,
+            "markscheme": "- Circulation in the ocean is driven by temperature variations. <marks>1 mark</marks>\n- Cold water has a lower density, which causes it to sink and hot water to rise. <marks>1 mark</marks>\n- Salinity also affects ocean circulation. <marks>1 mark</marks>\n- More saline water will sink, and less saline water will rise. <marks>1 mark</marks>\n- Differences in temperature and salinity lead to differences in water density, which drive the circulation of water in the ocean conveyor belt. <marks>1 mark</marks>\n\n<marks>4 marks max</marks>\n",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c120cfe0-766d-4350-ae5e-b0eeff42e6e5",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-06T05:15:52.152Z",
+              "reasoning": "A drainage basin (catchment) is part of river/hydrological system terminology (inputs, stores, flows, watershed), typically taught within the hydrological cycle/water systems content.",
+              "confidence": 0.72
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-06T05:15:52.152Z",
+              "reasoning": "Describing components of a drainage basin can be framed as identifying system components (stores/flows/boundary), linking to general systems concepts, though it is secondary to water systems.",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 1324009,
+        "parts": [
+          {
+            "id": 999249,
+            "content": "Describe three main components of a drainage basin.",
+            "order": 0,
+            "markscheme": "- Watershed/divide: The boundary separating different drainage basins.\n- River channel: The path water follows as it flows downstream.\n- Tributaries: Smaller streams that feed into the main river channel.\n- Floodplain: Flat area adjacent to the river that floods during high water.\n\n<Note> Award <marks>1 mark</marks> for each correctly described component, up to <marks>3 marks</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "dc3d7031-03bd-4c8a-b9de-a5b1dc261934",
+        "specification": "Earth's water is distributed among various storages with vastly different volumes and residence times. While the majority of water is found in the oceans, the small fraction of freshwater is critical for terrestrial life and is redistributed through global systems such as the thermohaline circulation.\n\n**Table 1: Distribution of Earth's Water Storages**\n\n| Storage | Percentage of Total Earth Water (%) |\n| :--- | :--- |\n| Oceans | 97.41 |\n| Ice caps and glaciers | 1.98 |\n| Groundwater | 0.59 |\n| Lakes | 0.007 |\n| Soil moisture | 0.001 |\n| Atmosphere | 0.001 |",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-dc3d7031-03bd-4c8a-b9de-a5b1dc261934-1772167695732",
+            "generatedAt": "2026-02-27T06:57:41.935Z",
+            "sourceRevisionId": 877497
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30102,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1E Thermohaline circulation (HL)",
+              "title": "4.1E Thermohaline circulation (HL)",
+              "labeledAt": "2026-03-06T15:38:37.256Z",
+              "reasoning": "Part (a) explicitly asks about the Global Conveyor Belt (thermohaline circulation) and how density differences drive it.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-06T15:38:37.256Z",
+              "reasoning": "The data table and Part (0) focus on identifying major freshwater reservoirs (ice caps/glaciers and groundwater), which relates to storages within the hydrological cycle and global water distribution.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1688809,
+        "parts": [
+          {
+            "id": 1150779,
+            "content": "Using the data provided in Table 1, identify the two largest reservoirs of freshwater on Earth.",
+            "order": -1,
+            "markscheme": "Award <marks>1 mark</marks> for each correctly identified storage, up to <marks>2 marks</marks>:\n- Ice caps and glaciers\n- Groundwater\n\n<note>Do not accept 'Oceans' as they are a saltwater storage.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150780,
+            "content": "Explain how differences in water density drive the movement of the 'Global Conveyor Belt' (thermohaline circulation).",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for identifying the cause of density changes and <marks>1 mark</marks> for describing the resulting flow, up to <marks>2 marks</marks>:\n- Variations in temperature (thermal) and salinity (haline) cause water to become more dense, particularly in polar regions where it cools and salt is concentrated by ice formation.\n- This dense water sinks (downwelling) to the ocean floor, creating a deep-water current that pulls in warmer surface water from the tropics to replace it, driving global circulation.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "eb592021-3f8a-401e-ba1a-3a89ceea21f6",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-07T17:37:41.400Z",
+              "reasoning": "The question asks about impacts of climate change on the global water cycle, which directly concerns processes/components of the hydrological cycle (evaporation, precipitation, runoff, storage).",
+              "confidence": 0.9
+            },
+            {
+              "id": 30531,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2B Climate change",
+              "title": "6.2B Climate change",
+              "labeledAt": "2026-03-07T17:37:41.400Z",
+              "reasoning": "It specifically frames the changes as consequences of climate change, so it also assesses understanding of climate change impacts.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 813641,
+        "parts": [
+          {
+            "id": 535514,
+            "content": "Describe two ways in which climate change might impact the global water cycle.",
+            "order": 0,
+            "markscheme": "#### Method #1\n\n- Increased evaporation rates due to higher temperatures leading to more moisture in the atmosphere <marks>2 marks</marks>\n\n#### Method #2\n\n- Changes in precipitation patterns, with some areas becoming wetter and others drier <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ec671d41-d3ae-4789-843d-343edfbabb50",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30098,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1A Hydrological cycle",
+              "title": "4.1A Hydrological cycle",
+              "labeledAt": "2026-03-06T15:38:49.808Z",
+              "reasoning": "Infiltration and percolation are key processes within the hydrological cycle describing movement of water into soil and downward to aquifers, directly relating to groundwater recharge.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 809541,
+        "parts": [
+          {
+            "id": 535515,
+            "content": "Compare and contrast infiltration and percolation in terms of their roles in groundwater recharge.",
+            "order": 0,
+            "markscheme": "### Infiltration\n- Infiltration is the entry of water into the soil surface <marks>1 mark</marks>\n- It is the first stage in groundwater recharge <marks>1 mark</marks>\n\n### Percolation\n- Percolation is the downward movement of water within the soil and underlying rock <marks>1 mark</marks>\n- It allows water to reach the water table and recharge groundwater supplies\n\n<note>Award 1 mark for each valid comparison/contrast of the roles of infiltration and percolation in groundwater recharge. Maximum 3 marks.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fd706439-9f10-475f-96ca-018df1b5f095",
+        "specification": "**Figure 1: Taiga**\n\n*   Taiga is the world\u2019s largest terrestrial biome.\n*   The Siberian taiga contains about 20\u2009% of the world\u2019s forested areas.\n*   The taiga includes evergreen trees such as pine, spruce, fir, and some deciduous trees such as birch and poplar.\n*   Nutrient-poor soil and the climatic conditions contribute to slow rate of tree growth.\n*   Threats to taiga include forest fires, clearance for agriculture land, logging for timber, mining, road building and climate change.\n*   The region suffers deforestation rates of 20000km2 annually.\n*   Conservation measures include restoration of forests through replanting and designating protected areas such as National Parks and selective logging policies.\n*   There is high global demand for timber with markets throughout Asia, Europe and the USA. Economic incentives to increase exports have increased timber production, destroying more of the forest ecosystems.\n",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-21M.1.SL.TZ0.6",
+          "labeledSubSubTopics": [
+            {
+              "id": 30573,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1B Ecosystem services",
+              "title": "7.1B Ecosystem services",
+              "labeledAt": "2026-03-07T17:37:59.860Z",
+              "reasoning": "Part (a) asks for an ecological service provided by the taiga, which directly targets ecosystem services.",
+              "confidence": 0.86
+            },
+            {
+              "id": 38293,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.3 Biogeochemical cycles > 2.3B Carbon cycle",
+              "title": "2.3B Carbon cycle",
+              "labeledAt": "2026-03-07T17:37:59.860Z",
+              "reasoning": "Deforestation affecting the world\u2019s oceans is most plausibly via increased atmospheric CO2/reduced carbon sequestration, linking terrestrial forests to the carbon cycle and ocean uptake.",
+              "confidence": 0.8
+            },
+            {
+              "id": 30100,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.1 Water systems  > 4.1C Oceans as a carbon sink (HL)",
+              "title": "4.1C Oceans as a carbon sink (HL)",
+              "labeledAt": "2026-03-07T17:37:59.860Z",
+              "reasoning": "Part (b) explicitly connects land deforestation to impacts on the oceans, commonly explained through altered CO2 levels and oceans\u2019 role as a carbon sink (ocean acidification).",
+              "confidence": 0.72
+            },
+            {
+              "id": 30085,
+              "isHl": false,
+              "path": "Topic 3: Conservation and biodiversity > 3.3 Conservation and regeneration > 3.3B Regeneration and rewilding",
+              "title": "3.3B Regeneration and rewilding",
+              "labeledAt": "2026-03-07T17:37:59.860Z",
+              "reasoning": "Part (c) concerns restoration through replanting and what limits regeneration, fitting regeneration/restoration concepts.",
+              "confidence": 0.64
+            },
+            {
+              "id": 29874,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.4 Climate and biomes > 2.4B Biomes",
+              "title": "2.4B Biomes",
+              "labeledAt": "2026-03-07T17:37:59.860Z",
+              "reasoning": "The stimulus and questions are set in the taiga biome context (climate/soil constraints), so understanding biomes underpins limiting factors and services.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1107642,
+        "parts": [
+          {
+            "id": 536683,
+            "content": "Outline **one** ecological service provided by the Siberian taiga.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for any of the following <marks>1 mark max</marks>\n\n- provides habitat for animals/birds;  \n- (photosynthesis) acts as a carbon sink/absorbs CO2 reducing greenhouse emissions;  \n- (photosynthesis) releases O2 necessary for living organisms;  \n- filters water / maintains water table;  \n- cools/moistens climate through evapotranspiration / source of moisture for precipitation;  \n- vegetation prevents soil erosion;  \n- increases/maintains biodiversity (increasing/maintaining resilience of biosphere);  \n- pollination of plants/crops;\n\n_Do not accept only \u2018photosynthesis._  \n_Do not accept provision of goods e.g. timber/food._  \n_Do not accept cultural, intrinsic or aesthetical benefits e.g. spiritual/tourism/recreation.  \nFor credit response must focus on ecological service/function._",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 536684,
+            "content": "Explain how deforestation in the taiga may impact the world\u2019s oceans.",
+            "order": 1,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following (<marks>3 marks max</marks>):\n\n- removing vegetation increases CO2 levels in atmosphere which promotes global warming / deforestation increases melting of permafrost which releases CO2 and CH4 which promotes global warming;  \n- increased CO2 levels lead to ocean acidification (reduction in ocean pH) / carbon stores within oceans increase;  \nocean acidification causes the bleaching of corals/corrosion of shells/loss of marine species/diversity;  \n- global warming/higher temperatures cause thermal expansion which raises sea levels;  \n- global warming/higher temperatures cause the melting of glaciers which raises sea levels;  \n- higher sea water temperature causes bleaching of corals/loss of breeding grounds for marine organisms/loss of marine species;  \n- deforestation leads to an increase in surface runoff which raises sea levels;  \n- increase in freshwater input results in a reduction in seawater salinity;  \n- reduction in forest cover so more soil erosion (by rain), leading to sediment input to the ocean / roots no longer hold soil in place which results in soil erosion, leading to sediment input into the ocean;  \n- warmer waters can lead to a reduction in oxygen levels within the oceans;  \n- lower oxygen levels within the oceans can reduce biodiversity;\n\n_Do not accept \u2018the transport/exportation of timber causes ocean pollution\u2019._  \n_Do not accept only \u2018global warming causes sea-level rise\u2019._  \n_Do not accept that deforestation causes an increase in nutrient run-off that causes eutrophication (taiga soils are nutrient poor)._  \n_Do not accept \u2018climate change\u2019 instead of the term \u2018global warming\u2019._  \n_Accept other reasonable responses._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 536685,
+            "content": "State **one** natural limiting factor to the successful restoration of taiga through replanting.",
+            "order": 2,
+            "markscheme": "Award <marks>1 mark</marks> for any of the following (<marks>1 max</marks>):\n\nnutrient poor soils / low temperature / low rainfall / limited growing season / limited amount of sunlight / slow growth rates / permafrost inhibits plant growth;\n\n_Do not accept \u2018wildfires / grazers/animals eat the plants/seedlings\u2019._  \n_Do not accept just \u2018temperature/rainfall/soil fertility/time it takes for trees to grow/long mature time for trees\u2019._",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fdc93972-b0db-4556-bc10-8f999f22cf1b",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30148,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.4 Water pollution > 4.4B Water quality",
+              "title": "4.4B Water quality",
+              "labeledAt": "2026-03-05T16:50:20.628Z",
+              "reasoning": "The question asks for methods to assess water quality in a river system, which directly corresponds to the 'Water quality' sub-topic that covers biological (e.g., biotic indices), chemical (e.g., dissolved oxygen, pH), and physical (e.g., turbidity) indicators of water health.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 812155,
+        "parts": [
+          {
+            "id": 486648,
+            "content": "Describe two ways in which water quality can be assessed in a river system.",
+            "order": 0,
+            "markscheme": "#### Method #1\n\nChemical analysis: Measure parameters like ${pH}$, dissolved oxygen, nutrients\n\nDissolved oxygen levels indicate the amount of oxygen available for aquatic life\n\npH measures acidity/alkalinity which affects biological processes\n\nNutrient levels like nitrates and phosphates can lead to eutrophication\n\n<marks>2 marks</marks>\n\n#### Method #2\n\nBiological indicators: Use presence/absence of certain species to indicate water quality\n\n- Some organisms are sensitive to pollution, their absence suggests poor water quality\n- Other organisms are tolerant of pollution, their presence indicates contamination\n\n<marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "22",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 24614,
+      "title": "4.1 Water systems ",
+      "slug": "ib-ess-new-41-water-systems",
+      "parentTopicId": 24613
+    },
+    "subject": {
+      "id": 6455,
+      "title": "Environmental systems and societies (ESS)",
+      "slug": "ib-environmental-systems-and-societies-ess-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "22",
+      "byQuestion": {}
+    }
+  }
+}

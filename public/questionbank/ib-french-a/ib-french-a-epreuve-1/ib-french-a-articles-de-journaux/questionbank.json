@@ -1,3 +1,443 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9ed1ec9eed76d9e4ed4276ef6877aa86a33a49e8253e478355330d287b02fd61
-size 39237
+{
+  "json": {
+    "questions": [
+      {
+        "id": "5ca2233b-db4d-4548-8f9f-923c7b06eaa1",
+        "specification": "## \u00ab L\u2019intelligence artificielle dans la m\u00e9decine : un progr\u00e8s ou un danger ? \u00bb\nL\u2019intelligence artificielle (IA) transforme rapidement le domaine m\u00e9dical, offrant des opportunit\u00e9s sans pr\u00e9c\u00e9dent en mati\u00e8re de diagnostic, de traitement et de gestion des donn\u00e9es de sant\u00e9. Gr\u00e2ce \u00e0 des algorithmes capables d\u2019analyser d\u2019immenses quantit\u00e9s d\u2019informations, l\u2019IA permet aujourd\u2019hui de d\u00e9tecter certaines maladies plus rapidement et avec une pr\u00e9cision accrue. Pourtant, malgr\u00e9 ces avanc\u00e9es, l\u2019automatisation croissante de la m\u00e9decine soul\u00e8ve des interrogations \u00e9thiques et pratiques.\n\nD\u2019un c\u00f4t\u00e9, l\u2019IA r\u00e9volutionne le diagnostic m\u00e9dical. Dans certains h\u00f4pitaux, elle est d\u00e9j\u00e0 utilis\u00e9e pour rep\u00e9rer des anomalies sur des radiographies ou identifier des cancers \u00e0 un stade pr\u00e9coce. Son utilisation permet \u00e9galement de personnaliser les traitements en fonction des ant\u00e9c\u00e9dents et des caract\u00e9ristiques g\u00e9n\u00e9tiques des patients, am\u00e9liorant ainsi l\u2019efficacit\u00e9 des soins. En outre, l\u2019IA all\u00e8ge la charge administrative des professionnels de sant\u00e9, leur permettant de consacrer plus de temps aux patients.\n\nCependant, ces progr\u00e8s ne sont pas sans risques. L\u2019un des principaux dangers r\u00e9side dans la d\u00e9pendance aux technologies et la diminution du r\u00f4le du m\u00e9decin dans la prise de d\u00e9cision. Certains experts mettent en garde contre le risque de diagnostic erron\u00e9 en cas de donn\u00e9es biais\u00e9es ou mal interpr\u00e9t\u00e9es par l\u2019algorithme. De plus, la question de la confidentialit\u00e9 des donn\u00e9es m\u00e9dicales devient cruciale : qui garantit que ces informations sensibles ne seront pas exploit\u00e9es \u00e0 des fins commerciales ?\n\nAinsi, l\u2019intelligence artificielle s\u2019impose comme un outil puissant dans le domaine m\u00e9dical, mais son int\u00e9gration doit \u00eatre encadr\u00e9e par des r\u00e9gulations strictes. Plut\u00f4t que de remplacer les m\u00e9decins, elle doit \u00eatre consid\u00e9r\u00e9e comme un compl\u00e9ment \u00e0 leur expertise, garantissant une m\u00e9decine plus efficace tout en pr\u00e9servant le lien humain essentiel \u00e0 la relation soignant-soign\u00e9.\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 563,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 813369,
+        "parts": [
+          {
+            "id": 888656,
+            "content": "Quel est le sujet principal de cet article ? Justifiez votre r\u00e9ponse en citant un passage du texte.",
+            "order": 0,
+            "markscheme": "<marks>1 mark</marks>: Identification du sujet central. Exemple : L'article explore les avantages et les limites de l'intelligence artificielle en m\u00e9decine.\n\n<marks>2 marks</marks>: Justification avec une citation. Exemple : \u00ab L'intelligence artificielle transforme rapidement le domaine m\u00e9dical, offrant des opportunit\u00e9s sans pr\u00e9c\u00e9dent en mati\u00e8re de diagnostic, de traitement et de gestion des donn\u00e9es de sant\u00e9. \u00bb",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888657,
+            "content": "Relevez un argument en faveur de l\u2019IA et un contre-argument. Expliquez leur impact dans l\u2019argumentation.",
+            "order": 1,
+            "markscheme": "<marks>2 marks</marks> Identification d'un argument en faveur de l'IA. Exemple : \u00ab Elle est d\u00e9j\u00e0 utilis\u00e9e pour rep\u00e9rer des anomalies sur des radiographies ou identifier des cancers \u00e0 un stade pr\u00e9coce. \u00bb\n\n<marks>2 marks</marks> Identification d'un contre-argument et explication. Exemple : \u00ab Certains experts mettent en garde contre le risque de diagnostic erron\u00e9 en cas de donn\u00e9es biais\u00e9es. \u00bb Cela montre que l'IA, bien qu'efficace, peut aussi pr\u00e9senter des limites importantes.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888658,
+            "content": "Comment l\u2019auteur structure-t-il son argumentation ? Identifiez les grandes parties du texte.",
+            "order": 2,
+            "markscheme": "<marks>2 marks</marks> Identification des parties du texte. Exemple : Introduction (pr\u00e9sentation du sujet et des enjeux), d\u00e9veloppement (avantages et limites de l'IA en m\u00e9decine), conclusion (synth\u00e8se et perspective d'avenir).\n\n<marks>2 marks</marks> Explication de leur fonction. Exemple : L'auteur commence par exposer les avanc\u00e9es technologiques, puis introduit les risques, et enfin propose une conclusion \u00e9quilibr\u00e9e.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888659,
+            "content": "Quels \u00e9l\u00e9ments permettent d\u2019identifier cet article comme journalistique ? Appuyez votre r\u00e9ponse sur des exemples pr\u00e9cis.",
+            "order": 3,
+            "markscheme": "<marks>1 mark</marks> Identification du style journalistique. Exemple : Pr\u00e9sence de faits et de citations d'experts.\n\n<marks>2 marks</marks> Justification avec des exemples. Exemple : L'article cite des faits pr\u00e9cis (\u00ab Dans certains h\u00f4pitaux, elle est d\u00e9j\u00e0 utilis\u00e9e\u2026 \u00bb) et pose des questions \u00e9thiques, typiques d'un article de presse.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888660,
+            "content": "Quels proc\u00e9d\u00e9s sont utilis\u00e9s pour souligner \u00e0 la fois les b\u00e9n\u00e9fices et les risques de l\u2019IA ? Justifiez avec un exemple du texte.",
+            "order": 4,
+            "markscheme": "<marks>2 marks</marks> Identification des proc\u00e9d\u00e9s de nuance. Exemple : L'auteur utilise des connecteurs contrastifs comme \u00ab cependant \u00bb et \u00ab pourtant \u00bb pour pr\u00e9senter \u00e0 la fois les b\u00e9n\u00e9fices et les risques de l'IA.\n\n<marks>2 marks</marks> Explication avec un exemple. Exemple : \u00ab Cependant, ces progr\u00e8s ne sont pas sans risques. \u00bb marque une transition entre les avantages et les dangers de l'IA, soulignant ainsi la dualit\u00e9 de cette technologie.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888661,
+            "content": "L\u2019auteur prend-il une position favorable ou critique sur l\u2019IA m\u00e9dicale ? Justifiez avec des \u00e9l\u00e9ments du texte.",
+            "order": 5,
+            "markscheme": "<marks>1 mark</marks>: Identification de la posture de l'auteur. Exemple : L'auteur adopte une approche \u00e9quilibr\u00e9e.\n\n<marks>2 marks</marks>: Justification avec des \u00e9l\u00e9ments du texte. Exemple : Il reconna\u00eet \u00e0 la fois les b\u00e9n\u00e9fices et les dangers de l'IA, soulignant qu'elle doit \u00eatre un \u00ab compl\u00e9ment \u00bb et non un remplacement des m\u00e9decins.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6d53f5a3-c679-40bb-950d-34a46eb5d31f",
+        "specification": "## \u00ab Le tourisme de masse : b\u00e9n\u00e9diction \u00e9conomique ou catastrophe \u00e9cologique ? \u00bb\n\nLe tourisme de masse est un ph\u00e9nom\u00e8ne en pleine expansion qui contribue fortement \u00e0 l\u2019\u00e9conomie mondiale. Chaque ann\u00e9e, des millions de voyageurs affluent vers des destinations pris\u00e9es, g\u00e9n\u00e9rant des revenus consid\u00e9rables pour les pays h\u00f4tes. Cependant, cette industrie florissante engendre \u00e9galement des cons\u00e9quences environnementales pr\u00e9occupantes, notamment la surconsommation des ressources, la pollution et la destruction des \u00e9cosyst\u00e8mes.\n\nD\u2019un c\u00f4t\u00e9, les d\u00e9fenseurs du tourisme de masse soulignent ses bienfaits \u00e9conomiques. Ce secteur repr\u00e9sente une source majeure de revenus pour de nombreux pays, en particulier ceux dont l\u2019\u00e9conomie repose sur l\u2019afflux de visiteurs \u00e9trangers. Le tourisme cr\u00e9e \u00e9galement des emplois, stimule les infrastructures locales et favorise les \u00e9changes culturels entre les populations.\n\nCependant, cet essor touristique n\u2019est pas sans cons\u00e9quences. L\u2019augmentation du nombre de visiteurs dans des sites naturels fragiles entra\u00eene une d\u00e9gradation de la biodiversit\u00e9. Par exemple, certains littoraux sont menac\u00e9s par la pollution et l\u2019\u00e9rosion due \u00e0 l\u2019am\u00e9nagement massif des plages et des h\u00f4tels. De plus, les d\u00e9placements touristiques g\u00e9n\u00e8rent une empreinte carbone consid\u00e9rable, notamment en raison de l\u2019aviation, qui contribue au r\u00e9chauffement climatique.\n\nFace \u00e0 ces d\u00e9fis, certains pays adoptent des strat\u00e9gies pour encadrer le tourisme et minimiser son impact environnemental. Le d\u00e9veloppement du tourisme durable, qui privil\u00e9gie le respect de l\u2019environnement et des populations locales, appara\u00eet comme une alternative n\u00e9cessaire pour concilier \u00e9conomie et \u00e9cologie.\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 563,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 877240,
+        "parts": [
+          {
+            "id": 888662,
+            "content": "Quel est le principal enjeu soulev\u00e9 par cet article ? Justifiez votre r\u00e9ponse avec une citation.",
+            "order": 0,
+            "markscheme": "<marks>1 mark</marks> Identification de l'enjeu central. Exemple : L'article traite de l'opposition entre les b\u00e9n\u00e9fices \u00e9conomiques du tourisme et son impact environnemental.\n\n<marks>2 marks</marks> Justification avec une citation. Exemple : \u00ab Cependant, cette industrie florissante engendre \u00e9galement des cons\u00e9quences environnementales pr\u00e9occupantes, notamment la surconsommation des ressources, la pollution et la destruction des \u00e9cosyst\u00e8mes. \u00bb",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888663,
+            "content": "Relevez deux arguments en faveur du tourisme de masse et expliquez leur importance.",
+            "order": 1,
+            "markscheme": "<marks>1 mark</marks> Identification d'un premier argument en faveur du tourisme de masse. Exemple : \u00ab Ce secteur repr\u00e9sente une source majeure de revenus pour de nombreux pays. \u00bb\n\n<marks>1 mark</marks> Identification d'un deuxi\u00e8me argument en faveur du tourisme de masse. Exemple : \u00ab Le tourisme de masse cr\u00e9e \u00e9galement des emplois et stimule les infrastructures locales. \u00bb\n\n<marks>1 mark</marks> Explication de leur importance. Exemple : Ces arguments montrent que le tourisme de masse est un moteur \u00e9conomique essentiel pour de nombreux pays en d\u00e9veloppement.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888664,
+            "content": "Comment l\u2019auteur structure-t-il son raisonnement ? D\u00e9crivez les grandes parties du texte.",
+            "order": 2,
+            "markscheme": "<marks>2 marks</marks> Identification des parties du texte. Exemple : Introduction (pr\u00e9sentation du sujet et de l'enjeu), d\u00e9veloppement (avantages et inconv\u00e9nients du tourisme), conclusion (perspective du tourisme durable).\n\n<marks>2 marks</marks> Explication de leur fonction. Exemple : L'auteur expose d'abord les bienfaits \u00e9conomiques du tourisme, puis en souligne les effets n\u00e9gatifs avant de proposer une solution.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888665,
+            "content": "Quels indices montrent que cet article appartient au registre journalistique ? Appuyez votre r\u00e9ponse sur des exemples pr\u00e9cis.",
+            "order": 3,
+            "markscheme": "<marks>1 mark</marks> Identification des \u00e9l\u00e9ments journalistiques. Exemple : Pr\u00e9sence de faits, structure argumentative et ton informatif.\n\n<marks>2 marks</marks> Justification avec des exemples. Exemple : L'article cite des cons\u00e9quences pr\u00e9cises (\u00ab l'\u00e9rosion due \u00e0 l'am\u00e9nagement massif des plages et des h\u00f4tels \u00bb) et pr\u00e9sente des solutions concr\u00e8tes (\u00ab le d\u00e9veloppement du tourisme durable \u00bb).",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888666,
+            "content": "Quels proc\u00e9d\u00e9s d\u2019opposition sont utilis\u00e9s dans l\u2019article pour confronter les arguments \u00e9conomiques et \u00e9cologiques ? Justifiez avec un exemple.",
+            "order": 4,
+            "markscheme": "<marks>2 marks</marks> Identification des proc\u00e9d\u00e9s d'opposition. Exemple : L'auteur utilise des connecteurs contrastifs comme \u00ab cependant \u00bb et \u00ab de plus \u00bb.\n\n<marks>2 marks</marks> Justification avec un exemple. Exemple : \u00ab Cependant, cet essor touristique n'est pas sans cons\u00e9quences. \u00bb Cette phrase introduit les impacts n\u00e9gatifs \u00e9cologiques apr\u00e8s avoir pr\u00e9sent\u00e9 les bienfaits \u00e9conomiques du tourisme.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888667,
+            "content": "L\u2019auteur prend-il une position tranch\u00e9e ou nuanc\u00e9e sur le sujet ? Justifiez avec des \u00e9l\u00e9ments du texte.",
+            "order": 5,
+            "markscheme": "<marks>1 mark</marks> Identification de la posture de l'auteur. Exemple : L'auteur adopte une approche nuanc\u00e9e.\n\n<marks>2 marks</marks> Justification avec des \u00e9l\u00e9ments du texte. Exemple : Il reconna\u00eet \u00e0 la fois l'importance \u00e9conomique du tourisme et ses dangers environnementaux avant de proposer une solution \u00e9quilibr\u00e9e.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "77b51d1c-e460-4d9b-92d4-e4c1bccc1a69",
+        "specification": "## \u00ab Le t\u00e9l\u00e9travail : libert\u00e9 ou isolement ? \u00bb\n\nDepuis la crise sanitaire mondiale, le t\u00e9l\u00e9travail s\u2019est impos\u00e9 comme une nouvelle norme pour de nombreuses entreprises. Pr\u00e9sent\u00e9 comme un progr\u00e8s permettant plus de flexibilit\u00e9 et un meilleur \u00e9quilibre entre vie professionnelle et vie personnelle, il a pourtant aussi r\u00e9v\u00e9l\u00e9 des effets n\u00e9gatifs, notamment sur le lien social et la productivit\u00e9. Faut-il consid\u00e9rer le t\u00e9l\u00e9travail comme une avanc\u00e9e ou un risque pour le monde du travail ?\n\nD\u2019un c\u00f4t\u00e9, le t\u00e9l\u00e9travail offre une libert\u00e9 in\u00e9dite aux employ\u00e9s. Il permet d\u2019\u00e9viter les trajets quotidiens, r\u00e9duisant ainsi le stress et am\u00e9liorant la qualit\u00e9 de vie. De plus, il favorise l\u2019autonomie et la concentration, en permettant \u00e0 chacun de travailler \u00e0 son propre rythme, loin des distractions des open spaces. Certaines \u00e9tudes montrent m\u00eame une augmentation de la productivit\u00e9 pour certains types de t\u00e2ches n\u00e9cessitant une concentration prolong\u00e9e.\n\nCependant, cette organisation du travail a aussi ses limites. L\u2019isolement social constitue l\u2019un des principaux d\u00e9fis, privant les employ\u00e9s d\u2019interactions spontan\u00e9es qui stimulent la cr\u00e9ativit\u00e9 et renforcent la coh\u00e9sion d\u2019\u00e9quipe. De plus, la fronti\u00e8re entre la vie priv\u00e9e et la vie professionnelle devient plus floue, rendant plus difficile la d\u00e9connexion apr\u00e8s le travail. Enfin, tous les m\u00e9tiers ne sont pas compatibles avec le t\u00e9l\u00e9travail, ce qui creuse parfois des in\u00e9galit\u00e9s entre les travailleurs.\n\nAinsi, si le t\u00e9l\u00e9travail pr\u00e9sente de nombreux avantages, il ne peut pas \u00eatre adopt\u00e9 de mani\u00e8re uniforme pour tous. L\u2019enjeu r\u00e9side dans la capacit\u00e9 des entreprises \u00e0 trouver un \u00e9quilibre entre travail \u00e0 distance et pr\u00e9sentiel, afin d\u2019offrir aux employ\u00e9s \u00e0 la fois flexibilit\u00e9 et interaction sociale.\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 563,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 813374,
+        "parts": [
+          {
+            "id": 888678,
+            "content": "Quel est l\u2019enjeu principal soulev\u00e9 par cet article ? Justifiez votre r\u00e9ponse avec une citation.",
+            "order": 0,
+            "markscheme": "<marks>1 mark</marks> Identification de l'enjeu central. Exemple : L'article examine les avantages et les inconv\u00e9nients du t\u00e9l\u00e9travail.\n\n<marks>2 marks</marks> Justification avec une citation. Exemple : \u00ab Faut-il consid\u00e9rer le t\u00e9l\u00e9travail comme une avanc\u00e9e ou un risque pour le monde du travail ? \u00bb",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888679,
+            "content": "Relevez deux avantages du t\u00e9l\u00e9travail \u00e9voqu\u00e9s dans l\u2019article et expliquez leur importance.",
+            "order": 1,
+            "markscheme": "<marks>1 mark</marks> Identification d'un premier avantage. Exemple : \u00ab Il permet d'\u00e9viter les trajets quotidiens, r\u00e9duisant ainsi le stress et am\u00e9liorant la qualit\u00e9 de vie. \u00bb\n\n<marks>1 mark</marks> Identification d'un deuxi\u00e8me avantage. Exemple : \u00ab Il favorise l'autonomie et la concentration, en permettant \u00e0 chacun de travailler \u00e0 son propre rythme. \u00bb\n\n<marks>1 mark</marks> Explication de leur importance. Exemple : Ces arguments montrent que le t\u00e9l\u00e9travail am\u00e9liore le bien-\u00eatre des employ\u00e9s et leur efficacit\u00e9.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888680,
+            "content": "Comment l\u2019auteur structure-t-il son argumentation ? D\u00e9crivez les grandes parties du texte.",
+            "order": 2,
+            "markscheme": "Comment l'auteur structure-t-il son argumentation ? D\u00e9crivez les grandes parties du texte.\n\n<marks>2 marks</marks> Identification des parties du texte. Exemple : Introduction (pr\u00e9sentation du d\u00e9bat), d\u00e9veloppement (arguments pour et contre le t\u00e9l\u00e9travail), conclusion (appel \u00e0 l'\u00e9quilibre entre t\u00e9l\u00e9travail et pr\u00e9sentiel).\n\n<marks>2 marks</marks> Explication de leur fonction. Exemple : L'auteur expose d'abord les b\u00e9n\u00e9fices du t\u00e9l\u00e9travail, puis ses limites, et conclut en sugg\u00e9rant un \u00e9quilibre entre travail \u00e0 distance et en pr\u00e9sentiel.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888681,
+            "content": "Quels \u00e9l\u00e9ments permettent de qualifier cet article comme un article journalistique ? Appuyez votre r\u00e9ponse sur des exemples pr\u00e9cis.",
+            "order": 3,
+            "markscheme": "<marks>1 mark</marks> Identification des \u00e9l\u00e9ments journalistiques. Exemple : L'article informe sur un sujet d'actualit\u00e9 et adopte un ton neutre et factuel.\n\n<marks>2 marks</marks> Justification avec des exemples. Exemple : Il s'appuie sur des faits (\u00ab Certaines \u00e9tudes montrent une augmentation de la productivit\u00e9 \u00bb) et structure clairement les arguments oppos\u00e9s.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888682,
+            "content": "Quels proc\u00e9d\u00e9s sont utilis\u00e9s pour opposer les arguments en faveur et les limites du t\u00e9l\u00e9travail ? Justifiez avec un exemple du texte.",
+            "order": 4,
+            "markscheme": "\n\n<marks>2 marks</marks> Identification des proc\u00e9d\u00e9s d'opposition. Exemple : L'auteur utilise des connecteurs contrastifs comme \u00ab cependant \u00bb et \u00ab enfin \u00bb.\n\n<marks>2 marks</marks> Justification avec un exemple. Exemple : \u00ab Cependant, cette organisation du travail a aussi ses limites. \u00bb marque une transition entre les b\u00e9n\u00e9fices et les probl\u00e8mes du t\u00e9l\u00e9travail.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888683,
+            "content": "L\u2019auteur prend-il une position tranch\u00e9e ou propose-t-il une approche \u00e9quilibr\u00e9e ? Justifiez avec des \u00e9l\u00e9ments du texte.",
+            "order": 5,
+            "markscheme": "<marks>1 mark</marks> Identification de la posture de l'auteur. Exemple : L'auteur adopte une position \u00e9quilibr\u00e9e.\n\n<marks>2 marks</marks> Justification avec des \u00e9l\u00e9ments du texte. Exemple : Il pr\u00e9sente \u00e0 la fois les avantages et les inconv\u00e9nients, et conclut que l'id\u00e9al serait un \u00e9quilibre entre les deux.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "9fcc36ca-71a7-43af-90de-fd4bad309f6e",
+        "specification": "## \u00ab Les r\u00e9seaux sociaux : un outil de libert\u00e9 ou de manipulation ? \u00bb\n\nDepuis leur apparition, les r\u00e9seaux sociaux ont boulevers\u00e9 notre mani\u00e8re de communiquer, de nous informer et de partager nos opinions. Ils offrent une plateforme d\u2019expression sans pr\u00e9c\u00e9dent, permettant \u00e0 chacun de diffuser ses id\u00e9es et de s\u2019engager dans des d\u00e9bats publics. Cependant, ces espaces num\u00e9riques, bien qu\u2019apparaissant comme des symboles de libert\u00e9, soul\u00e8vent \u00e9galement de nombreuses pr\u00e9occupations li\u00e9es \u00e0 la manipulation de l\u2019information, \u00e0 la d\u00e9sinformation et \u00e0 l\u2019impact sur l\u2019opinion publique.\n\nD\u2019un c\u00f4t\u00e9, les r\u00e9seaux sociaux favorisent l\u2019acc\u00e8s \u00e0 une diversit\u00e9 d\u2019informations et encouragent l\u2019engagement citoyen. Ils permettent aux mouvements sociaux de se structurer et de mobiliser rapidement un grand nombre de personnes autour de causes importantes. De nombreux \u00e9v\u00e9nements, comme le printemps arabe ou le mouvement #MeToo, ont d\u00e9montr\u00e9 le r\u00f4le cl\u00e9 de ces plateformes dans la diffusion de messages et la sensibilisation du public.\n\nCependant, ces outils sont aussi utilis\u00e9s \u00e0 des fins plus pr\u00e9occupantes. La propagation de fausses informations, souvent amplifi\u00e9e par des algorithmes de recommandation, influence consid\u00e9rablement l\u2019opinion publique. Certaines campagnes de d\u00e9sinformation ont m\u00eame eu un impact direct sur des \u00e9lections ou des crises sanitaires, semant le doute et la m\u00e9fiance. De plus, les bulles de filtres, qui exposent les utilisateurs uniquement \u00e0 des contenus correspondant \u00e0 leurs opinions, renforcent la polarisation et limitent l\u2019ouverture d\u2019esprit.\n\nAinsi, les r\u00e9seaux sociaux se pr\u00e9sentent \u00e0 la fois comme un formidable moyen d\u2019expression et comme un outil pouvant \u00eatre d\u00e9tourn\u00e9 pour influencer et manipuler les esprits. Face \u00e0 ces enjeux, il appara\u00eet n\u00e9cessaire de renforcer l\u2019\u00e9ducation aux m\u00e9dias et de mettre en place des r\u00e9gulations pour pr\u00e9server la libert\u00e9 d\u2019expression tout en luttant contre les d\u00e9rives.\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 563,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 813373,
+        "parts": [
+          {
+            "id": 888668,
+            "content": "Quel est le probl\u00e8me central abord\u00e9 par cet article ? Justifiez votre r\u00e9ponse avec une citation du texte.",
+            "order": 0,
+            "markscheme": "<marks>1 mark</marks> Identification du probl\u00e8me central. Exemple : L'article s'interroge sur le r\u00f4le des r\u00e9seaux sociaux entre libert\u00e9 d'expression et manipulation.\n\n<marks>2 marks</marks> Justification avec une citation. Exemple : \u00ab Cependant, ces espaces num\u00e9riques, bien qu'apparaissant comme des symboles de libert\u00e9, soul\u00e8vent \u00e9galement de nombreuses pr\u00e9occupations li\u00e9es \u00e0 la manipulation de l'information. \u00bb",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888669,
+            "content": "Relevez deux aspects positifs des r\u00e9seaux sociaux \u00e9voqu\u00e9s dans l\u2019article et expliquez leur impact.",
+            "order": 1,
+            "markscheme": "<marks>1 mark</marks> Identification d'un premier aspect positif. Exemple : \u00ab Ils permettent aux mouvements sociaux de se structurer et de mobiliser rapidement un grand nombre de personnes. \u00bb\n\n<marks>1 mark</marks> Identification d'un deuxi\u00e8me aspect positif. Exemple : \u00ab Ils favorisent l'acc\u00e8s \u00e0 une diversit\u00e9 d'informations et encouragent l'engagement citoyen. \u00bb\n\n<marks>1 mark</marks> Explication de leur impact. Exemple : Ces \u00e9l\u00e9ments montrent que les r\u00e9seaux sociaux sont un levier puissant pour la d\u00e9mocratie et la mobilisation citoyenne.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888670,
+            "content": "Comment l\u2019auteur structure-t-il son argumentation ? D\u00e9crivez les diff\u00e9rentes \u00e9tapes du texte.",
+            "order": 2,
+            "markscheme": "<marks>2 marks</marks> Identification des \u00e9tapes du texte. Exemple : Introduction (pr\u00e9sentation du d\u00e9bat), d\u00e9veloppement (avantages et inconv\u00e9nients des r\u00e9seaux sociaux), conclusion (n\u00e9cessit\u00e9 de r\u00e9gulation et d'\u00e9ducation aux m\u00e9dias).\n\n<marks>2 marks</marks> Explication de leur fonction. Exemple : L'auteur expose d'abord les aspects positifs, puis les dangers des r\u00e9seaux sociaux avant de proposer une solution.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888671,
+            "content": "Quels \u00e9l\u00e9ments permettent d\u2019identifier cet article comme un texte journalistique ? Appuyez votre r\u00e9ponse sur des exemples pr\u00e9cis.",
+            "order": 3,
+            "markscheme": "<marks>1 mark</marks> Identification des caract\u00e9ristiques journalistiques. Exemple : Pr\u00e9sence de faits et d'exemples concrets.\n\n<marks>2 marks</marks> Justification avec des exemples. Exemple : L'article \u00e9voque des \u00e9v\u00e9nements r\u00e9els comme le printemps arabe et cite des concepts pr\u00e9cis comme les bulles de filtres.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888672,
+            "content": "Quels proc\u00e9d\u00e9s d\u2019opposition sont utilis\u00e9s dans l\u2019article pour confronter les avantages et les risques des r\u00e9seaux sociaux ? Justifiez avec un exemple.",
+            "order": 4,
+            "markscheme": "<marks>2 marks</marks> Identification des proc\u00e9d\u00e9s d'opposition. Exemple : L'auteur utilise des connecteurs contrastifs comme \u00ab cependant \u00bb et \u00ab cependant ces outils sont aussi utilis\u00e9s \u00e0 des fins plus pr\u00e9occupantes \u00bb.\n\n<marks>2 marks</marks> Justification avec un exemple. Exemple : Apr\u00e8s avoir \u00e9voqu\u00e9 les bienfaits des r\u00e9seaux sociaux, l'auteur met en avant les d\u00e9rives en mentionnant \u00ab la propagation de fausses informations \u00bb et \u00ab la polarisation des opinions \u00bb.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888673,
+            "content": "L\u2019auteur adopte-t-il une posture engag\u00e9e ou neutre ? Justifiez votre r\u00e9ponse avec des \u00e9l\u00e9ments du texte.",
+            "order": 5,
+            "markscheme": "<marks>1 mark</marks>: Identification de la posture de l'auteur. Exemple : L'auteur adopte une approche \u00e9quilibr\u00e9e.\n\n<marks>2 marks</marks>: Justification avec des \u00e9l\u00e9ments du texte. Exemple : Il reconna\u00eet \u00e0 la fois l'utilit\u00e9 des r\u00e9seaux sociaux mais met en garde contre leurs d\u00e9rives, proposant une solution bas\u00e9e sur l'\u00e9ducation et la r\u00e9gulation.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "da5973cf-de26-4905-8cb0-8947d46240b6",
+        "specification": "## \u00ab La transition \u00e9cologique, un d\u00e9fi mondial aux multiples enjeux \u00bb\nFace \u00e0 l\u2019urgence climatique, la transition \u00e9cologique est devenue une priorit\u00e9 pour les gouvernements et les entreprises du monde entier. Cependant, sa mise en \u0153uvre s\u2019av\u00e8re complexe, n\u00e9cessitant un \u00e9quilibre entre imp\u00e9ratifs \u00e9conomiques, sociaux et environnementaux. Si certains pays ont pris des mesures ambitieuses, d\u2019autres peinent encore \u00e0 concilier d\u00e9veloppement durable et croissance \u00e9conomique.\n\nD\u2019un c\u00f4t\u00e9, des initiatives encourageantes voient le jour. L\u2019Union europ\u00e9enne, par exemple, a adopt\u00e9 un plan de neutralit\u00e9 carbone d\u2019ici 2050, investissant massivement dans les \u00e9nergies renouvelables et les technologies vertes. De nombreuses entreprises adoptent \u00e9galement des strat\u00e9gies plus durables, r\u00e9duisant leur empreinte carbone et int\u00e9grant l\u2019\u00e9conomie circulaire dans leur production.\n\nCependant, ces efforts restent insuffisants face \u00e0 l\u2019ampleur de la crise. Les in\u00e9galit\u00e9s entre pays riches et pays en d\u00e9veloppement ralentissent la coop\u00e9ration internationale, certaines nations n\u2019ayant pas les ressources n\u00e9cessaires pour op\u00e9rer une transition \u00e9nerg\u00e9tique rapide. Par ailleurs, la d\u00e9pendance aux \u00e9nergies fossiles reste forte dans de nombreux secteurs, rendant difficile une rupture imm\u00e9diate avec les mod\u00e8les \u00e9conomiques actuels.\n\nAinsi, la transition \u00e9cologique repose sur une mobilisation collective et une volont\u00e9 politique forte. Il s\u2019agit non seulement d\u2019innover technologiquement, mais aussi de changer les comportements individuels et les politiques publiques. L\u2019avenir de la plan\u00e8te en d\u00e9pend.\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 563,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 877239,
+        "parts": [
+          {
+            "id": 888650,
+            "content": "Quel est l\u2019enjeu principal abord\u00e9 dans cet article ? Justifiez votre r\u00e9ponse en citant un passage du texte.",
+            "order": 0,
+            "markscheme": "<marks>1 mark</marks> Identification de l'enjeu central. Exemple : L'article traite des d\u00e9fis et des enjeux de la transition \u00e9cologique.\n\n<marks>2 marks</marks> Justification avec une citation. Exemple : \u00ab Face \u00e0 l'urgence climatique, la transition \u00e9cologique est devenue une priorit\u00e9 pour les gouvernements et les entreprises du monde entier. \u00bb",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888651,
+            "content": "Relevez un fait et une opinion dans l\u2019article et expliquez leur r\u00f4le dans l\u2019argumentation.",
+            "order": 1,
+            "markscheme": "<marks>1 mark</marks> Identification d'un fait. Exemple : \u00ab L'Union europ\u00e9enne a adopt\u00e9 un plan de neutralit\u00e9 carbone d'ici 2050. \u00bb\n\n<marks>1 mark</marks> Identification d'une opinion. Exemple : \u00ab Cependant, ces efforts restent insuffisants face \u00e0 l'ampleur de la crise. \u00bb\n\n<marks>1 mark</marks> Explication de leur r\u00f4le. Exemple : Le fait apporte une information v\u00e9rifiable, tandis que l'opinion exprime un jugement pour orienter la r\u00e9flexion du lecteur.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888652,
+            "content": "Comment l\u2019auteur organise-t-il son argumentation ? Identifiez les grandes \u00e9tapes du texte.",
+            "order": 2,
+            "markscheme": "<marks>2 marks</marks> Identification des \u00e9tapes du texte. Exemple : Introduction (pr\u00e9sentation du probl\u00e8me), d\u00e9veloppement (exemples et arguments pour et contre), conclusion (synth\u00e8se et appel \u00e0 l'action).\n\n<marks>2 marks</marks> Explication de leur fonction. Exemple : L'auteur expose d'abord le contexte, pr\u00e9sente des initiatives en faveur de la transition, puis met en \u00e9vidence les limites et les obstacles.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888653,
+            "content": "Quels \u00e9l\u00e9ments permettent de qualifier cet article comme journalistique ? Appuyez votre r\u00e9ponse sur des exemples pr\u00e9cis.",
+            "order": 3,
+            "markscheme": "<marks>1 mark</marks> Identification du style journalistique. Exemple : Pr\u00e9sence de faits chiffr\u00e9s, r\u00e9f\u00e9rences aux politiques internationales.\n\n<marks>2 marks</marks> Justification avec des exemples. Exemple : L'article cite des initiatives concr\u00e8tes (\u00ab L'Union europ\u00e9enne [\u2026] investissant massivement dans les \u00e9nergies renouvelables \u00bb) et adopte une structure typique des articles d'actualit\u00e9.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888654,
+            "content": "Quels proc\u00e9d\u00e9s stylistiques sont utilis\u00e9s pour renforcer le message de l\u2019article ? Justifiez avec un exemple.",
+            "order": 4,
+            "markscheme": "<marks>2 marks</marks> Identification des proc\u00e9d\u00e9s stylistiques. Exemple : Utilisation de formules engageantes, de termes forts comme \u00ab urgence climatique \u00bb et \u00ab mobilisation collective \u00bb.\n\n<marks>2 marks</marks> Explication avec un exemple. Exemple : \u00ab L'avenir de la plan\u00e8te en d\u00e9pend. \u00bb Cette phrase met en avant l'aspect alarmiste pour interpeller le lecteur.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 888655,
+            "content": "L\u2019auteur adopte-t-il une position neutre ou engag\u00e9e ? Justifiez avec des \u00e9l\u00e9ments du texte.",
+            "order": 5,
+            "markscheme": "<marks>1 mark</marks> Identification de la posture de l'auteur. Exemple : L'auteur adopte une position engag\u00e9e.\n\n<marks>2 marks</marks> Justification avec des \u00e9l\u00e9ments du texte. Exemple : Il insiste sur la n\u00e9cessit\u00e9 d'une action collective et critique le manque d'efforts de certains pays.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "5",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 36886,
+      "title": "Articles de journaux",
+      "slug": "ib-french-a-articles-de-journaux",
+      "parentTopicId": 36877
+    },
+    "subject": {
+      "id": 563,
+      "title": "French A",
+      "slug": "ib-french-a",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "5",
+      "byQuestion": {}
+    }
+  }
+}

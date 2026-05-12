@@ -1,3 +1,1889 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3457538fb075f1aa1c6343f3459914cf1f5ad7a3909d720fa5a2d72e8e1dcbd1
-size 118297
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0f22d20b-6c9b-4cb0-ba69-5e3cabe8ccbb",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494473,
+        "parts": [
+          {
+            "id": 1126240,
+            "content": "State what is meant by \"file buffering\" in computer systems.",
+            "order": 1,
+            "markscheme": "- **Define** file buffering as a technique where data is temporarily stored in memory (a buffer) before being written to or after being read from files <marks>A1</marks>\n\n- **State** that it reduces the number of physical disk operations by batching multiple read/write requests together <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "direct_explanation",
+                  "label": "Direct Definition and Purpose",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define file buffering",
+                      "content": "File buffering is a technique where data is **temporarily stored in primary memory (RAM)**, in a specific area called a buffer, while it is being transferred. This happens either before the data is written to a file on the disk or after it has been read from the disk and is waiting to be processed by an application.",
+                      "highlights": [
+                        {
+                          "text": "temporarily stored in memory (a buffer)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the primary purpose",
+                      "content": "The primary goal of buffering is to increase system efficiency. Because accessing secondary storage (like a hard drive or SSD) is much slower than accessing RAM, the operating system **batches** multiple small read or write requests together. This **reduces the total number of physical disk operations** required, allowing the computer to handle data more quickly.",
+                      "highlights": [
+                        {
+                          "text": "reduces the number of physical disk operations by batching",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Summary for marks",
+                      "content": "To earn full marks on this question, you must mention both the **location** (temporary storage in memory) and the **function** (reducing disk access via batching).\n\n1.  **Definition**: Temporary storage in RAM/memory.\n2.  **Purpose**: Reduces physical disk operations through batching.\n\nThis concept relates closely to **Topic A1.1.4 (Primary Memory)** and **A1.1.7 (Secondary Memory)** in your syllabus."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:10:52.772Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1126241,
+            "content": "Explain how file buffering improves performance and describe the trade-offs involved in different buffer sizes.",
+            "order": 2,
+            "markscheme": "- **Explain** that performance is improved by grouping multiple small write/read requests into single, larger I/O operations, which reduces the overhead and latency of disk access <marks>A1</marks>\n\n- **Explain** that buffering allows for faster access to data that has been recently read or is about to be written, as accessing data from RAM is significantly faster than from disk storage <marks>A1</marks>\n\n- **Describe** the trade-off that larger buffers generally provide better performance and fewer disk accesses but consume more system memory <marks>A1</marks>\n\n- **Describe** the trade-off that smaller buffers use less memory but lead to more frequent disk access, which can slow down system performance <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "conceptual-explanation",
+                  "label": "Conceptual Technical Explanation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understanding File Buffering",
+                      "content": "To understand file buffering, think of it as a waiting room in **RAM (Primary Memory)** for data traveling to or from the **disk (Secondary Memory)**. Instead of the CPU waiting for the slow disk every time a single byte of data is needed, the Operating System manages a \"buffer\" to handle data in larger chunks.\n\nThis process is essential because there is a massive speed disparity between electronic RAM and physical or flash-based disk storage, as covered in **Topic A1.1: Computer hardware and operation**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Batching I/O Operations",
+                      "content": "The first major performance boost comes from **batching**. Every time the computer communicates with the disk (an I/O operation), there is a significant amount of \"overhead\"\u2014time spent preparing the hardware and software for the transfer.\n\nBy grouping multiple small read or write requests into a single, larger I/O operation, the system reduces the total number of times it has to pay that \"overhead tax.\" Fewer disk accesses mean less latency and a much smoother user experience.",
+                      "highlights": [
+                        {
+                          "text": "grouping multiple small write/read requests into single, larger I/O operations, which reduces the overhead and latency of disk access",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Physical Speed Advantage",
+                      "content": "The second performance factor is the physical difference in speed. Accessing data stored in RAM is orders of magnitude faster than accessing it from a hard drive or even an SSD.\n\nBuffering allows the CPU to interact with data at \"RAM speeds.\" If the data the program needs is already sitting in the buffer, the system can retrieve it almost instantly without triggering a slow disk search.",
+                      "highlights": [
+                        {
+                          "text": "accessing data from RAM is significantly faster than from disk storage",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Trade-off: Large Buffers",
+                      "content": "Now, let's look at the trade-offs. You might think, \"Why not make the buffer as large as possible?\"\n\n**Large Buffers:**\n*   **Benefit:** They provide the best performance because they maximize batching and minimize disk calls.\n*   **Cost:** They consume a lot of system memory (RAM). If a buffer is too large, it leaves less RAM available for other running applications, which could actually slow the whole system down if it runs out of memory.",
+                      "highlights": [
+                        {
+                          "text": "larger buffers generally provide better performance and fewer disk accesses but consume more system memory",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Trade-off: Small Buffers",
+                      "content": "On the flip side, we have smaller buffers.\n\n**Small Buffers:**\n*   **Benefit:** They use very little RAM, making them ideal for systems with limited resources (like embedded devices).\n*   **Cost:** Because they fill up quickly, the system must perform more frequent disk accesses. This high frequency of I/O operations creates a bottleneck, significantly slowing down the overall performance of the file operations.",
+                      "highlights": [
+                        {
+                          "text": "smaller buffers use less memory but lead to more frequent disk access, which can slow down system performance",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:11:33.691Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1126242,
+            "content": "A data logging application writes sensor readings to a file every few seconds continuously for days. Analyse how buffering strategies would affect both performance and data integrity for this application.",
+            "order": 3,
+            "markscheme": "- **Analyse** that using a buffer improves the performance of the data logger by preventing the application from being frequently blocked while waiting for slow disk write operations <marks>A1</marks>\n\n- **Analyse** the data integrity risk where recent sensor readings residing in the buffer could be lost if the system crashes or loses power before the buffer is flushed to the physical disk <marks>A1</marks>\n\n- **Suggest** that a balanced strategy, such as using smaller buffers or implementing periodic forced flush operations, can mitigate the risk to data integrity while maintaining acceptable performance <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "tradeoff-analysis",
+                  "label": "Conceptual Trade-off Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Performance Analysis (Efficiency)",
+                      "content": "In computer science, a buffer is a temporary storage area in the computer's primary memory (RAM). In this scenario, writing data directly to secondary storage (the disk) every time a sensor reading occurs is inefficient because disk I/O operations are significantly slower than CPU processing.\n\nBy using a **buffering strategy**, the application writes data to the fast RAM instead. This improves performance by preventing the application from being \"blocked\" or paused while waiting for a slow disk write to complete. The application can continue collecting sensor data without interruption.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "writes sensor readings to a file every few seconds continuously for days",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Integrity Analysis (Safety)",
+                      "content": "The trade-off for this performance gain is a risk to **data integrity**. Primary memory (RAM) is volatile, meaning it requires power to maintain data. \n\nIf the system experience a crash or a power failure, any sensor readings currently sitting in the buffer that haven't been \"flushed\" (moved) to the physical disk will be lost forever. For an application running continuously for days, this could result in significant gaps in the data set.",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Synthesis and Mitigation",
+                      "content": "To resolve this conflict, we look for a **balanced strategy** that provides the best of both worlds. Instead of choosing between extreme speed or extreme safety, developers can:\n\n1.  **Use smaller buffers**: This reduces the maximum amount of data at risk at any one time.\n2.  **Implement periodic forced flushes**: The system can be programmed to force a write to the disk every $X$ seconds or after $Y$ readings. \n\nThis synthesis maintains high application performance while ensuring that the maximum possible data loss is limited to a small, predictable window.",
+                      "calculator": []
+                    }
+                  ]
+                },
+                {
+                  "id": "comparative-scenarios",
+                  "label": "Comparative Scenarios Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Scenarios",
+                      "content": "To understand how buffering affects our data logger, we can compare two extreme scenarios: one where we write every single reading directly to the disk (**No Buffering**), and one where we store a massive amount of data in memory before writing (**Large Buffering**). This helps us see the trade-off between speed and safety.",
+                      "highlights": [
+                        {
+                          "text": "Analyse how buffering strategies would affect both performance and data integrity",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Scenario A: No Buffering",
+                      "content": "Imagine the application writes every sensor reading directly to the physical disk immediately. \n\n*   **Performance:** This would be very slow. Because disk I/O (Input/Output) is significantly slower than RAM, the application would be frequently \"blocked\" or paused while waiting for the disk to finish writing. \n*   **Integrity:** This is the safest method. If the power cuts, only the very last reading might be lost because everything else is already on the permanent disk.",
+                      "highlights": [
+                        {
+                          "text": "preventing the application from being frequently blocked while waiting for slow disk write operations",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Scenario B: Large Buffers",
+                      "content": "Now imagine we use a very large buffer in primary memory (RAM) and only write to the disk once an hour.\n\n*   **Performance:** The application would be incredibly fast because writing to RAM is almost instantaneous. \n*   **Integrity:** This is very risky. If the system crashes after 59 minutes, you lose an entire hour of sensor data because that data only existed in **volatile** RAM and was never saved to the non-volatile disk.",
+                      "highlights": [
+                        {
+                          "text": "recent sensor readings residing in the buffer could be lost if the system crashes or loses power",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "The Compromise: Periodic Flushing",
+                      "content": "Based on our comparison, the best approach for a continuous data logger is a **balanced strategy**. \n\nBy using a smaller buffer or implementing a **periodic forced flush** (e.g., every 30 seconds), we get the best of both worlds: \n1.  **Good Performance:** Most readings are written to RAM quickly. \n2.  **Managed Integrity:** If a crash occurs, we only lose a maximum of 30 seconds of data, which is acceptable for an application running for days.",
+                      "highlights": [
+                        {
+                          "text": "using smaller buffers or implementing periodic forced flush operations",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:12:12.945Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "13de811a-39bc-4ae4-85b1-fe29ac7ed155",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:38.767Z",
+            "resultId": 1510
+          }
+        },
+        "currentRevisionId": 1692354,
+        "parts": [
+          {
+            "id": 1154332,
+            "content": "State what is meant by \"file compression\" in data storage.",
+            "order": 0,
+            "markscheme": "- **Define** file compression as a technique that reduces file size by encoding data more efficiently <marks>1 mark</marks>\n- **State** that it involves the removal of redundancy or less important information to decrease storage requirements <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154333,
+            "content": "Distinguish between lossless and lossy compression techniques, providing examples of when each would be appropriate.",
+            "order": 1,
+            "markscheme": "- **Distinguish** lossless compression as a method where original data can be perfectly reconstructed with no information lost <marks>1 mark</marks>\n- **Identify** that lossless is appropriate for files where data integrity is critical, such as text documents or program files <marks>1 mark</marks>\n- **Distinguish** lossy compression as a method where some data is permanently lost but file size is greatly reduced <marks>1 mark</marks>\n- **Identify** that lossy is appropriate for multimedia files, such as images or audio, where small quality loss is acceptable <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154334,
+            "content": "A medical imaging system stores thousands of X-ray images that must maintain perfect quality for diagnostic purposes but also needs to manage storage costs. Analyse which compression approach would be most suitable and justify your reasoning.",
+            "order": 2,
+            "markscheme": "- **State** that lossless compression would be the most suitable approach for medical X-ray images <marks>1 mark</marks>\n- **Explain** that diagnostic accuracy requires perfect image quality, as any loss of data or artifacts from lossy compression could lead to an incorrect diagnosis <marks>1 mark</marks>\n- **Justify** the choice by noting that legal and medical standards often prohibit the use of lossy compression for diagnostic images to ensure patient safety and record integrity <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1ab71719-3942-475e-bfac-de446ad9340d",
+        "specification": "Distributed systems often require data to be shared and updated across multiple locations. One mechanism used to manage this is file synchronization.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:41:48.866Z",
+            "resultId": 3759
+          }
+        },
+        "currentRevisionId": 1690451,
+        "parts": [
+          {
+            "id": 1153030,
+            "content": "Define what is meant by \"file synchronization\" in distributed systems.",
+            "order": 0,
+            "markscheme": "- The process of ensuring files remain consistent and up-to-date across multiple devices or locations <marks>1 mark</marks>\n- Automatically updating files when changes are made in any synchronized location <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153031,
+            "content": "Explain the challenges involved in keeping files synchronized across multiple locations and describe potential solutions.",
+            "order": 1,
+            "markscheme": "- Network connectivity issues (e.g., latency or outages) can prevent timely synchronization <marks>1 mark</marks>\n- Conflicts arise when the same file is modified simultaneously in different locations <marks>1 mark</marks>\n- Implementation of version control systems to track and merge changes <marks>1 mark</marks>\n- Usage of conflict resolution algorithms (like timestamping) and user notification systems <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153032,
+            "content": "A collaborative document editing system allows multiple users to work on the same file simultaneously from different locations. Analyse the file synchronization challenges this creates and explain how conflicts might be resolved.",
+            "order": 2,
+            "markscheme": "- Multiple users editing simultaneously creates significant version conflicts that must be managed <marks>1 mark</marks>\n- The system requires real-time change detection and efficient merging capabilities to maintain a single 'truth' <marks>1 mark</marks>\n- Conflicts can be resolved through methods such as operational transformation (OT), last-writer-wins (LWW), or user-mediated manual resolution <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1ce687cc-392f-4636-bd90-fa00948e8ba3",
+        "specification": "Identify two benefits of using NoSQL databases over relational databases.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:11:10.542Z",
+            "resultId": 3885
+          }
+        },
+        "currentRevisionId": 1690027,
+        "parts": [
+          {
+            "id": 1152771,
+            "content": "Identify two benefits of using NoSQL databases over relational databases.",
+            "order": 0,
+            "markscheme": "- Award max <marks>2 marks</marks>\n- High write throughput <marks>1 mark</marks>\n- Flexible schema <marks>1 mark</marks>\n- Horizontal scaling <marks>1 mark</marks>\n- High performance (low latency for read/write operations) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "25ea5dda-c2f7-4cf8-964f-2c323f2a93e3",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:57:02.019Z",
+            "resultId": 3560
+          }
+        },
+        "currentRevisionId": 1690733,
+        "parts": [
+          {
+            "id": 1153204,
+            "content": "Using the Scanner class, create a class that reads the radius of a circle from a text file and calculates the area. The radius should be a float.",
+            "order": 0,
+            "markscheme": "- Imports Scanner correctly <marks>1 mark</marks>\n- Reads radius from a file using Scanner <marks>1 mark</marks>\n- Uses area formula correctly ($A=\\pi r^2$) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2c4b7638-e418-48ef-836e-b56db323c897",
+        "specification": "State one reason why a programmer would use file processing in a program.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:15:02.303Z",
+            "resultId": 1384
+          }
+        },
+        "currentRevisionId": 1692386,
+        "parts": [
+          {
+            "id": 1154379,
+            "content": "State one reason why a programmer would use file processing in a program.",
+            "order": 0,
+            "markscheme": "- To store data permanently <marks>1 mark</marks>\n\n_**OR**_\n\n- To save input/output for later use <marks>1 mark</marks>\n\n_**OR**_\n\n- To allow the program to save information between runs <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2d1ca2ed-64d9-47b5-bea8-1e46d64ed7be",
+        "specification": "Write a program that takes a string input from the user and prints the reversed version of the string using BufferedReader.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:15:03.390Z",
+            "resultId": 1394
+          }
+        },
+        "currentRevisionId": 1692387,
+        "parts": [
+          {
+            "id": 1154380,
+            "content": "Write a program that takes a string input from the user and prints the reversed version of the string using BufferedReader.",
+            "order": 0,
+            "markscheme": "- Example code\n\nimport java.io.*;\n\npublic class ReverseString {\n    public static void main(String[] args) throws IOException {\n        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));\n\n        System.out.print(\"Enter a string: \");\n        String input = reader.readLine();\n\n        String reversed = new StringBuilder(input).reverse().toString();\n\n        System.out.println(reversed);\n    }\n}\n\n- Sets up BufferedReader correctly <marks>1 mark</marks>\n- Reads input from user <marks>1 mark</marks>\n- Reverses string correctly <marks>1 mark</marks>\n- Prints reversed string <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3534295b-9554-41de-9b7c-0bb7b78da9b8",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:31:03.772Z",
+            "resultId": 3308
+          }
+        },
+        "currentRevisionId": 1691274,
+        "parts": [
+          {
+            "id": 1153471,
+            "content": "Define what is meant by \"file formats\" in data storage.",
+            "order": 0,
+            "markscheme": "- Standards that define how data is organized and encoded within a file <marks>1 mark</marks>\n- Specify the structure, syntax, and meaning of data elements <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153472,
+            "content": "Compare structured file formats (like CSV) with unstructured file formats in terms of data organization and processing requirements.",
+            "order": 1,
+            "markscheme": "**Structured formats (e.g. CSV, XML, JSON):**\n- Data is organized in predictable patterns with defined delimiters or tags <marks>1 mark</marks>\n- Easier to parse programmatically, allowing for standardized processing <marks>1 mark</marks>\n\n**Unstructured formats:**\n- Data has no predefined organization or internal format <marks>1 mark</marks>\n- Requires custom/complex parsing logic; more flexible but harder to process automatically <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153473,
+            "content": "A research team needs to share experimental data between different software applications and research institutions. Evaluate whether a structured or unstructured file format would be more appropriate, considering interoperability and data analysis requirements.",
+            "order": 2,
+            "markscheme": "- A structured format (such as CSV or XML) would be more appropriate <marks>1 mark</marks>\n- It ensures compatibility and interoperability between different software applications and institutions <marks>1 mark</marks>\n- The standardized structure enables automated data analysis and reduces the risk of interpretation errors <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "47cce6ec-9db6-47c9-abd7-d29c3089c510",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494489,
+        "parts": [
+          {
+            "id": 1126289,
+            "content": "Define what is meant by \"file handles\" or \"file pointers\" in programming.",
+            "order": 1,
+            "markscheme": "- Define a file handle or file pointer as a reference or unique identifier that represents an open file within a program. <marks>A1</marks>\n\n- State that it is used by the operating system to manage file operations and track the current state (e.g., read/write position) of the file. <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "technical_definition",
+                  "label": "Technical Definition",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the identifier",
+                      "content": "In programming, a **file handle** (or file pointer) is a **unique reference** or identifier assigned by the operating system to a file when a program opens it. \n\nInstead of the program constantly searching for the file on the hard drive by its name (like `\"data.txt\"`), it uses this handle as a shortcut to interact with the file throughout the duration of the program.",
+                      "highlights": [
+                        {
+                          "text": "reference or unique identifier that represents an open file within a program.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Track file state",
+                      "content": "Beyond just identifying the file, the handle is crucial for **managing the file's current state**. \n\nThe operating system uses it to keep track of:\n1.  **Read/Write Position:** Where the \"cursor\" is currently located within the file, ensuring the next operation starts at the correct byte.\n2.  **Access Permissions:** Whether the file was opened for reading, writing, or appending.\n\nThis functionality is part of the **Operating System's role in resource management**, which you can study further in **Topic A1.3**.",
+                      "highlights": [
+                        {
+                          "text": "manage file operations and track the current state (e.g., read/write position) of the file.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Final Definition Summary",
+                      "content": "To secure both marks in an IB exam, your definition should combine these two aspects:\n\n*   **Mark 1:** A unique identifier or reference that represents an open file.\n*   **Mark 2:** A tool used by the OS to track the file's state, specifically its current read/write position."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:10:56.097Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1126290,
+            "content": "Describe the typical sequence of operations required for file processing and explain why each step is necessary.",
+            "order": 2,
+            "markscheme": "- Describe 'Open': This operation establishes a connection between the program and the file, and allocates the necessary system resources. <marks>A1</marks>\n\n- Describe 'Process': This involves performing read or write operations to manipulate the file data as required by the application. <marks>A1</marks>\n\n- Describe 'Close': This operation releases system resources and ensures all buffered data is properly saved to the storage device. <marks>A1</marks>\n\n- Describe 'Error handling': This step checks for and handles potential failures (such as file not found or permission denied) to ensure program stability. <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "logical_sequence",
+                  "label": "Chronological Sequence Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Establish the connection (Open)",
+                      "content": "The first step in any file interaction is the **Open** operation. This acts as a 'handshake' between your program and the operating system. It is necessary because the system needs to locate the file on the physical disk and set up a file pointer. This process also sets aside memory (buffers) to manage the data flow, which is known as allocating resources.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "establishes a connection between the program and the file, and allocates the necessary system resources.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Manage potential failures (Error Handling)",
+                      "content": "Before or during the opening process, the program must implement **Error handling**. This is a critical step for data integrity and program stability. If a file is missing, corrupted, or the program doesn't have the correct permissions, the code needs a way to handle this without crashing. \n\nYou can review how to implement this using `try-catch` blocks in **Topic B2.1.3: Exception Handling**.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "checks for and handles potential failures (such as file not found or permission denied) to ensure program stability.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Data manipulation (Process)",
+                      "content": "Once the file is successfully opened and verified, we enter the **Process** stage. This is where the actual 'work' happens. Depending on the mode the file was opened in, the program will either read data (input) into variables or write new data (output) to the file. This is the stage that fulfills the functional requirements of your application.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "performing read or write operations to manipulate the file data as required by the application.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Resource cleanup (Close)",
+                      "content": "The final chronological step is the **Close** operation. This is mandatory for two main reasons:\n1. **Data Integrity**: It 'flushes' any remaining data from the RAM buffers to the physical storage, ensuring nothing is lost.\n2. **Efficiency**: It informs the operating system that the file is no longer in use, which releases the allocated system resources (memory and file handles) for other programs to use.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "releases system resources and ensures all buffered data is properly saved to the storage device.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "code_logic_approach",
+                  "label": "Implementation-Based Explanation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Establish connection (Open)",
+                      "content": "The first step in any implementation is the **Open** operation. In IB pseudocode or high-level languages like Python, this is written as `f = open(\"data.txt\", \"r\")`. \n\nThis is necessary because the operating system must establish a logical connection (a **file handle** or pointer) between the program and the physical file on the disk. It also allocates a **buffer** in primary memory (RAM) to temporarily hold data during transfer.",
+                      "highlights": [
+                        {
+                          "text": "Describe 'Open': This operation establishes a connection between the program and the file, and allocates the necessary system resources.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Manipulate data (Process)",
+                      "content": "Once the file is open, we enter the **Process** stage. This involves executing commands like `READ` or `WRITE`. \n\n*   **Read:** Data is copied from the file into variables in the program.\n*   **Write:** Data from the program is sent to the file's buffer.\n\nThis step is where the actual logic of your application occurs, such as searching for a specific record or updating a user's score.",
+                      "highlights": [
+                        {
+                          "text": "Describe 'Process': This involves performing read or write operations to manipulate the file data as required by the application.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Clean up (Close)",
+                      "content": "After processing, the **Close** operation must be called (e.g., `f.close()`). \n\nThis is critical for two reasons: \n1.  **Flushing Buffers:** It ensures that any data remaining in the temporary RAM buffer is actually written to the disk.\n2.  **Resource Management:** It releases the system resources and the file lock, allowing other applications to access the file. If you don't close the file, you risk data corruption or 'file in use' errors.",
+                      "highlights": [
+                        {
+                          "text": "Describe 'Close': This operation releases system resources and ensures all buffered data is properly saved to the storage device.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Manage failures (Error Handling)",
+                      "content": "Finally, a robust implementation includes **Error Handling** (often using `try...catch` or `try...except` blocks). \n\nThis step checks for runtime exceptions such as a \"File Not Found\" error if the path is incorrect, or \"Permission Denied\" if the file is read-only. This is necessary to prevent the program from crashing unexpectedly and to provide the user with helpful feedback.",
+                      "highlights": [
+                        {
+                          "text": "Describe 'Error handling': This step checks for and handles potential failures (such as file not found or permission denied) to ensure program stability.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:11:40.314Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1126291,
+            "content": "A program that processes customer orders crashes unexpectedly while writing to an order file. Explain the potential consequences if proper file handling procedures were not followed and describe how these issues could be prevented.",
+            "order": 3,
+            "markscheme": "- Explain that a consequence of a crash is data corruption, which may result in incomplete or unreadable order records. <marks>A1</marks>\n\n- Explain that system resources like file handles may remain open, leading to resource leaks that can degrade system performance. <marks>A1</marks>\n\n- Describe prevention by using $\\texttt{try-catch}$ blocks with a $\\texttt{finally}$ block or using $\\texttt{using}$-statements to ensure files are closed automatically. <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "technical_explanation",
+                  "label": "Systematic Technical Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze Data Integrity Risks",
+                      "content": "When a program crashes during a write operation, the most immediate risk is **data corruption**. \n\nSince the file was mid-update, the record being written might be only partially saved. This results in \"garbage\" data or incomplete entries that make the file unreadable for future processes. In a customer order system, this could mean losing transaction details or having inconsistent order IDs, directly compromising the integrity of the business data."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify Resource Management Issues",
+                      "content": "Beyond data, we must consider **system resource management**. When a program opens a file, the Operating System allocates a \"file handle\" or pointer to that resource.\n\nIf the program crashes before reaching a close command, that handle may remain locked in memory. This is known as a **resource leak**. Over time, if many crashes occur or multiple files are left open, the system may run out of available handles, preventing other applications from opening files and significantly degrading system performance."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply Technical Exception Handling",
+                      "content": "To ensure safe execution, we implement a systematic exception handling structure using $\\texttt{try-catch-finally}$ blocks:\n\n1.  **$\\texttt{try}$**: Place the file-processing code here. If an error (like a crash or disk full) occurs, the program stops this block immediately.\n2.  **$\\texttt{catch}$**: This block \"catches\" the error, allowing the program to log the crash details instead of simply stopping.\n3.  **$\\texttt{finally}$**: This is the most critical part for resource management. Code inside the $\\texttt{finally}$ block is **guaranteed to run** whether an error occurred or not. We place the $\\texttt{.close()}$ command here to ensure the file handle is released and the file is saved correctly.\n\nAlternatively, many modern languages use a $\\texttt{using}$ statement which automatically handles the closing of the file once the block is exited."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:12:23.128Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "6d6eb12f-5df9-4760-b12a-ceb7ac1a895a",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494463,
+        "parts": [
+          {
+            "id": 1126210,
+            "content": "Define what is meant by \"file permissions\" or \"file security\" in operating systems.",
+            "order": 1,
+            "markscheme": "- Security mechanisms that control which users or processes can access files; <marks>A1</marks>\n- Specify what operations (read, write, or execute) are allowed for different users; <marks>A1</marks>\n\n[2 marks total]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "formal_definition",
+                  "label": "Formal Technical Definition",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define as access control",
+                      "content": "To provide a formal technical definition, we first identify **file permissions** as a **security mechanism** used by the operating system for **access control**. This mechanism regulates which specific users or system processes are granted the authority to interact with file system objects.\n\nThis concept is a key function of an operating system, covered in **Topic A1.3: Operating systems and control systems**.",
+                      "highlights": [
+                        {
+                          "text": "Security mechanisms that control which users or processes can access files",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "List specific permitted operations",
+                      "content": "A technical definition must explicitly list the operations being controlled. File permissions specify whether a user is allowed to perform the following actions:\n\n*   **Read**: The ability to view or open the contents of the file.\n*   **Write**: The ability to modify, edit, or delete the file.\n*   **Execute**: The ability to run the file if it is a program or script.",
+                      "highlights": [
+                        {
+                          "text": "Specify what operations (read, write, or execute) are allowed",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "State the full definition",
+                      "content": "Combining these elements, we get a complete 2-mark answer:\n\n**File permissions** are security mechanisms that control which users or processes can access files, explicitly specifying which operations (**read, write, or execute**) are allowed for **different users**.",
+                      "highlights": [
+                        {
+                          "text": "different users",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:10:59.021Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1126211,
+            "content": "Describe the different types of file permissions typically available and explain how they control access to file operations.",
+            "order": 2,
+            "markscheme": "- **Read permission**: Allows users to view or copy the contents of a file; <marks>A1</marks>\n- **Write permission**: Allows users to modify, append, or delete the contents of a file; <marks>A1</marks>\n- **Execute permission**: Allows users to run a file as a program or script; <marks>A1</marks>\n- **Access levels**: These permissions can be independently assigned to different categories of users, such as the file owner, a specific user group, or others (the public); <marks>A1</marks>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "structured_description",
+                  "label": "Structured Conceptual Description",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define Read permission",
+                      "content": "In an operating system, file permissions are essential for maintaining security and data integrity. The first primary permission is **Read**. \n\nThis permission allows a user to open a file and view its contents. It also grants the ability to copy the file's data to another location. However, a user with *only* read access cannot change or save any edits back to the original file.",
+                      "highlights": [
+                        {
+                          "text": "Read permission: Allows users to view or copy the contents of a file",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define Write permission",
+                      "content": "The second primary permission is **Write**. \n\nThis is a more powerful permission because it allows for modification. A user with write access can edit the text, append (add) new information to the end of the file, or even delete the file entirely. In some operating systems, this permission is also required to rename a file.",
+                      "highlights": [
+                        {
+                          "text": "Write permission: Allows users to modify, append, or delete the contents of a file",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Define Execute permission",
+                      "content": "The third primary permission is **Execute**. \n\nThis permission is unique because it doesn't deal with the *data* inside the file, but rather with the file's ability to perform a task. It allows the operating system to run the file as a program, application, or script. Without this permission, a computer would treat a program file like a regular text document and refuse to launch it.",
+                      "highlights": [
+                        {
+                          "text": "Execute permission: Allows users to run a file as a program or script",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Explain user categories hierarchy",
+                      "content": "Finally, these three permissions ($r, w, x$) are applied to a specific hierarchy of user categories to control access levels effectively:\n\n1.  **Owner**: Usually the person who created the file. They typically have full control.\n2.  **Group**: A collection of users (e.g., the \"Marketing Dept\") who share the same access needs.\n3.  **Others (Public)**: Anyone else who has access to the system but is not the owner or part of the specific group.\n\nBy assigning different permissions to each category, the operating system ensures that only authorized people can perform specific operations.",
+                      "highlights": [
+                        {
+                          "text": "Access levels: These permissions can be independently assigned to different categories of users, such as the file owner, a specific user group, or others (the public)",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:11:37.035Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1126212,
+            "content": "A hospital database contains patient medical records stored in files. Explain why implementing proper file permissions is critical for this application and describe what types of access controls would be necessary.",
+            "order": 3,
+            "markscheme": "- **Confidentiality**: Ensuring patient privacy and compliance with legal requirements regarding medical data protection; <marks>A1</marks>\n- **Integrity**: Preventing unauthorized modification or tampering of sensitive health information to ensure data accuracy; <marks>A1</marks>\n- **Role-based Access (RBAC)**: Implementation of access controls based on job function, such as doctors having read/write access to their specific patients, nurses having limited read access, and IT staff having system maintenance access without viewing clinical data; <marks>A1</marks>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "security_principles_approach",
+                  "label": "Security Principles Framework",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify security requirements",
+                      "content": "In a hospital setting, medical records are highly sensitive. To protect this data, we apply the **Security Principles Framework**, focusing on two core pillars: **Confidentiality** and **Integrity**. We then implement these principles using a mechanism called **Role-Based Access Control (RBAC)**.",
+                      "highlights": [
+                        {
+                          "text": "Explain why implementing proper file permissions is critical for this application and describe what types of access controls would be necessary.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Establish confidentiality",
+                      "content": "The first reason permissions are critical is to maintain **confidentiality**. This ensures that private patient data is only accessible to authorized individuals. \n\nIn a hospital, this is not just a best practice but a legal requirement. Without strict permissions, sensitive information could be leaked, leading to privacy breaches and legal consequences for the institution."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Maintain data integrity",
+                      "content": "The second reason is **integrity**. This refers to the accuracy and consistency of the data. \n\nIf any user could modify a file, a patient's prescription or allergy information could be changed accidentally or maliciously. Proper permissions prevent unauthorized tampering, ensuring that the medical information remains a reliable source of truth for patient care."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Implement RBAC",
+                      "content": "To put these principles into practice, the hospital should use **Role-Based Access Control (RBAC)**. This system assigns permissions based on a user's specific job function rather than their individual identity. \n\nFor example:\n*   **Doctors**: Need 'Read' and 'Write' access to update patient clinical notes.\n*   **Nurses**: May only need 'Read' access to check dosages.\n*   **IT Staff**: Need 'Administrative' access to maintain the database but should be restricted from viewing the actual clinical content of the files."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary of marks",
+                      "content": "To secure full marks, ensure your explanation covers these three distinct areas:\n1.  **Confidentiality**: Protecting privacy and meeting legal standards.\n2.  **Integrity**: Preventing unauthorized changes to maintain accuracy.\n3.  **RBAC**: Granting access levels (Read/Write) based on specific roles (Doctor/Nurse/IT)."
+                    }
+                  ]
+                },
+                {
+                  "id": "role_impact_analysis",
+                  "label": "Stakeholder Role Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Ensure Patient Confidentiality",
+                      "content": "From the perspective of medical staff and patients, the most critical need is **confidentiality**. Medical records contain sensitive personal data that, if leaked, could lead to legal issues or personal harm. Implementing file permissions ensures that only authorized personnel can view specific patient files, fulfilling legal requirements like GDPR or HIPAA.\n\nThis maps to the first requirement in the markscheme: ensuring privacy and compliance.",
+                      "highlights": [
+                        {
+                          "text": "Confidentiality",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Maintain Data Integrity",
+                      "content": "From a clinical safety perspective, **integrity** is vital. If a nurse or a non-medical staff member accidentally (or maliciously) modifies a dosage or a diagnosis, the consequences could be fatal. \n\nPermissions must restrict 'Write' access so that only the primary physician can change sensitive medical diagnoses, while others might only have 'Read' access. This prevents unauthorized tampering and ensures the information remains accurate for treatment.",
+                      "highlights": [
+                        {
+                          "text": "Integrity",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply Role-based Access (RBAC)",
+                      "content": "To manage these needs efficiently, the hospital should use **Role-based Access Control (RBAC)**. This assigns permissions based on the specific job function of the stakeholder:\n\n*   **Doctors**: Full Read/Write access to their assigned patients' clinical records.\n*   **Nurses**: Read access to medical history and Write access for daily vitals/observations.\n*   **IT Administrators**: System-level access for maintenance and backups, but restricted from viewing the actual clinical content of the files to maintain privacy.\n\nThis approach ensures that every stakeholder has the tools they need to work without creating unnecessary security risks.",
+                      "highlights": [
+                        {
+                          "text": "Role-based Access (RBAC)",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "file_attribute_focus",
+                  "label": "File-Level Access Control",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define File-Level Access Control",
+                      "content": "In a hospital setting, **File-Level Access Control** is a security mechanism managed by the Operating System (Topic A1.3) that determines which users can interact with specific files containing patient data. It is critical because medical records contain sensitive, private information that must be protected from unauthorized access.",
+                      "highlights": [
+                        {
+                          "text": "hospital database",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "patient medical records",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Confidentiality: Preventing Unauthorized Viewing",
+                      "content": "Proper file permissions are critical for **Confidentiality**. This ensures that patient privacy is maintained and the hospital complies with legal data protection regulations. Without restricted access, any user on the system could view sensitive medical histories, leading to a breach of trust and legal consequences."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Integrity: Preventing Unauthorized Tampering",
+                      "content": "Permissions are also vital for **Integrity**. If unauthorized users could modify files, they might accidentally or maliciously change diagnoses, prescriptions, or blood types. Ensuring that only specific personnel can edit data prevents tampering and guarantees that the information remains accurate and safe for clinical use."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Implementation via Permissions",
+                      "content": "Access is controlled by assigning specific permissions to different **user groups**:\n\n*   **Read (r):** Allows users to view the file. This would be granted to doctors and nurses.\n*   **Write (w):** Allows users to modify the file. This might be restricted to the patient's primary doctor to ensure data integrity.\n*   **Execute (x):** Allows a user to run a file as a program. IT staff might have execute permissions for database management tools without having 'Read' access to the actual medical data files."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Assigning Access to Roles",
+                      "content": "By combining these permissions, we implement **Role-Based Access Control (RBAC)**:\n\n*   **Doctors:** Read and Write (to update patient charts).\n*   **Administrative Staff:** Read-only (to check insurance details without changing medical history).\n*   **IT Support:** Administrative permissions to maintain the system, but restricted from 'Reading' clinical data to protect privacy."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:12:23.292Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "774384e6-478e-4171-bb66-43ddc3f146df",
+        "specification": "Ask the user for their name and write it to a file called names.txt. Use Scanner for input and FileWriter for output. <marks> 4 marks </marks>",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:04:37.123Z",
+            "resultId": 3034
+          }
+        },
+        "currentRevisionId": 1692030,
+        "parts": [
+          {
+            "id": 1153830,
+            "content": "Example code\nimport java.util.Scanner;\nimport java.io.FileWriter;\nimport java.io.IOException;\npublic class SaveName {\n    public static void main(String[] args) throws IOException {\n        Scanner scanner = new Scanner(System.in);\n\n        System.out.print(\"Enter your name: \");\n        String name = scanner.nextLine();\n\n\n        FileWriter writer = new FileWriter(\"names.txt\");\n        writer.write(name);\n        writer.close();\n        scanner.close();\n    }\n}",
+            "order": 0,
+            "markscheme": "- Uses Scanner to get user input <marks>1 mark</marks>\n- Sets up FileWriter correctly <marks>1 mark</marks>\n- Writes name to file <marks>1 mark</marks>\n- Closes writer and scanner <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8adaa9ea-5a32-4125-891c-847349f55814",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:06:31.032Z",
+            "resultId": 2811
+          }
+        },
+        "currentRevisionId": 1692078,
+        "parts": [
+          {
+            "id": 1153921,
+            "content": "State what is meant by \"file system organization\" in operating systems.",
+            "order": 0,
+            "markscheme": "- States that it is the method by which files and directories are structured and managed on storage devices <marks>1 mark</marks>\n- States that it defines how files are named, located, and accessed within the storage system <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153922,
+            "content": "Describe the advantages and disadvantages of hierarchical file systems compared to flat file systems.",
+            "order": 1,
+            "markscheme": "- Describes an advantage of hierarchical systems such as logical organization through folders and directories, making navigation easier <marks>1 mark</marks>\n- Describes a disadvantage of hierarchical systems such as the creation of deep folder structures that can be complex to navigate <marks>1 mark</marks>\n- Describes an advantage of flat systems such as its simple structure where all files are stored at the same level <marks>1 mark</marks>\n- Describes a disadvantage of flat systems such as becoming unmanageable with large numbers of files and leading to naming conflicts <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153923,
+            "content": "A university needs to organize thousands of research papers, student submissions, and administrative documents. The files need to be easily searchable by department, year, and document type. Discuss how hierarchical organization would benefit this scenario and describe an effective folder structure.",
+            "order": 2,
+            "markscheme": "- Discusses that hierarchical organization enables logical grouping by multiple criteria such as department, year, and type <marks>1 mark</marks>\n- Describes a systematic folder structure such as $\\text{Root/Department/Year/Document\\_Type/}$ <marks>1 mark</marks>\n- Outlines benefits such as easy browsing, predictable file locations, or simplified backup and maintenance procedures <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "91759004-e0c3-4d06-bc5f-699db56424a9",
+        "specification": "Syllabus reference: 1.1 (Systems Fundamentals \u2014 backup and recovery strategies)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:08:26.225Z",
+            "resultId": 2686
+          }
+        },
+        "currentRevisionId": 1692095,
+        "parts": [
+          {
+            "id": 1153948,
+            "content": "State what is meant by \"file backup and recovery\" in data management.",
+            "order": 0,
+            "markscheme": "- Backup is the process of creating copies of files to protect against data loss from hardware failure, corruption, or accidental deletion <marks>1 mark</marks>\n- Recovery refers to the procedures for restoring files from backup copies when they are needed <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153949,
+            "content": "Compare different backup strategies (full, incremental, differential) in terms of storage requirements and recovery time.",
+            "order": 1,
+            "markscheme": "- Full backup involves a complete copy of all data; it has high storage needs but allows for the fastest recovery time <marks>1 mark</marks>\n- Incremental backup only copies data changed since the last backup; it requires the least storage but has the slowest recovery time <marks>1 mark</marks>\n- Differential backup copies data changed since the last full backup; it requires moderate storage and offers a moderate recovery time <marks>1 mark</marks>\n- The choice between these strategies involves balancing available storage capacity against the acceptable recovery time objective (RTO) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153950,
+            "content": "A small business runs an e-commerce website with a product database that changes frequently throughout the day. Customers expect 24/7 availability. Analyse which backup strategy would be most appropriate and explain the considerations involved.",
+            "order": 2,
+            "markscheme": "- A combination approach, such as daily incremental backups with weekly full backups, is most appropriate for this scenario <marks>1 mark</marks>\n- Frequent incremental backups minimize potential data loss given frequent database changes throughout the day <marks>1 mark</marks>\n- Regular full backups ensure complete recovery capability and provide a baseline for the incremental sets while managing storage costs <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "9d9c72a5-b8cd-4485-954c-b5ccf64f6a58",
+        "specification": "Outline the difference between sequential access and random access in data processing.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 1359229,
+        "parts": [
+          {
+            "id": 1017735,
+            "content": "Outline the difference between sequential access and random access in data processing.",
+            "order": 0,
+            "markscheme": "Definition of sequential access <marks> 1 mark </marks>\n\nDefinition of random access <marks> 1 mark </marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b2556b4c-604b-4753-b6ad-8ef7f3d35a41",
+        "specification": "Create a class that reads text from a file called inputs.txt and displays the contents line by line. Use FileReader and BufferedReader.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:14.481Z",
+            "resultId": 2201
+          }
+        },
+        "currentRevisionId": 1692208,
+        "parts": [
+          {
+            "id": 1154102,
+            "content": "Create a class that reads text from a file called inputs.txt and displays the contents line by line. Use FileReader and BufferedReader.",
+            "order": 0,
+            "markscheme": "Example code\n\n```java\nimport java.io.*;\npublic class ReadFile {\n    public static void main(String[] args) throws IOException {\n        BufferedReader reader = new BufferedReader(new FileReader(\"inputs.txt\"));\n        String line;\n        while ((line = reader.readLine()) != null) {\n            System.out.println(line);\n        }\n\n        reader.close();\n    }\n}\n```\n\n- Imports FileReader and BufferedReader <marks>1 mark</marks>\n- Opens inputs.txt <marks>1 mark</marks>\n- Reads file line by line using readLine() <marks>1 mark</marks>\n- Prints each line <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b3244903-500b-48d1-b166-74f887640b76",
+        "specification": "Ask the user to enter 5 integers using Scanner and calculate the total sum of the integers. <marks> 4 marks </marks>",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:13.190Z",
+            "resultId": 2209
+          }
+        },
+        "currentRevisionId": 1692206,
+        "parts": [
+          {
+            "id": 1154098,
+            "content": "Ask the user to enter 5 integers using Scanner and calculate the total sum of the integers.",
+            "order": 0,
+            "markscheme": "Example code \nimport java.util.Scanner;\npublic class SumFiveNumbers {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        int sum = 0;\n\n        System.out.println(\"enter number:\");\n        for (int i = 0; i < 5; i++) {\n            int num = scanner.nextInt();\n            sum += num;\n        }\n\n        System.out.println(\"Sum: \" + sum);\n    }\n}\n- Imports Scanner correctly <marks>1 mark</marks>\n- Uses the for loop to ask 5 times <marks>1 mark</marks>\n- Reads integer input correctly using the Scanner class <marks>1 mark</marks>\n- Adds to total correctly <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c9c71a08-6fad-40f4-baa0-9be5dab88a92",
+        "specification": "Create a function in Python which takes in an int as a parameter and saves it to a file.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:10:52.702Z",
+            "resultId": 2398
+          }
+        },
+        "currentRevisionId": 1692169,
+        "parts": [
+          {
+            "id": 1154052,
+            "content": "Create a function in Python which takes in an int as a parameter and saves it to a file.",
+            "order": 0,
+            "markscheme": "Example\n```\ndef save_number(n):\n  f = open(\"number.txt\", \"w\")\n  f.write(str(n))\n  f.close()\n```\n\n- Successfully created a function with a parameter <marks>1 mark</marks>\n- Opened/created a file to write to <marks>1 mark</marks>\n- Specified the file will be written to <marks>1 mark</marks>\n- Writes the number to the file <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d56e3741-b600-4cc8-a5bc-6f4b97b9804b",
+        "specification": "Computer Science File Processing",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:12:47.273Z",
+            "resultId": 2049
+          }
+        },
+        "currentRevisionId": 1692235,
+        "parts": [
+          {
+            "id": 1154146,
+            "content": "Define what is meant by \"file processing\" in computer science.",
+            "order": 0,
+            "markscheme": "- Define file processing as the manipulation of data stored in files through reading, writing, and modifying operations <marks>1 mark</marks>\n- State that it involves a lifecycle of opening, processing, and closing files to manage persistent data storage <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154147,
+            "content": "Explain the difference between text files and binary files, describing the advantages and disadvantages of each format.",
+            "order": 1,
+            "markscheme": "- Describe text files as storing data as human-readable characters using encoding schemes such as ASCII or Unicode <marks>1 mark</marks>\n- State an advantage (easy to read/edit) and a disadvantage (larger file sizes or slower processing) <marks>1 mark</marks>\n- Describe binary files as storing data in a format that matches the computer's internal representation <marks>1 mark</marks>\n- State an advantage (more compact and efficient storage) and a disadvantage (not human-readable without specialized tools) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154148,
+            "content": "A school needs to store student records containing names, grades, and attendance data. Analyse whether text files or binary files would be more appropriate for this application, considering both human readability and storage efficiency.",
+            "order": 2,
+            "markscheme": "- Recommend that text files would be more appropriate for school student records <marks>1 mark</marks>\n- Analyse that human readability is highly important for administrators and teachers to review or verify data easily <marks>1 mark</marks>\n- Analyse that the scale of student records is typically not large enough for the storage efficiency of binary files to be a significant factor <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e8d1e2dc-deb8-4046-a170-ca7b4e0feb10",
+        "specification": "List two common operations that can be performed when a program processes files.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:14:01.847Z",
+            "resultId": 1710
+          }
+        },
+        "currentRevisionId": 1692315,
+        "parts": [
+          {
+            "id": 1154276,
+            "content": "List two common operations that can be performed when a program processes files.",
+            "order": 0,
+            "markscheme": "- Award max <marks>2 marks</marks>\n- Reading from a file <marks>1 mark</marks>\n- Writing to a file <marks>1 mark</marks>\n- Appending to a file <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ec84f272-aa80-4101-9a04-f9d760a62ee4",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6523,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494492,
+        "parts": [
+          {
+            "id": 1126298,
+            "content": "State what is meant by \"file access modes\" in programming.",
+            "order": 1,
+            "markscheme": "- Identification that file access modes represent different methods of opening and interacting with files (e.g., read, write, append) <marks>A1</marks>\n\n- Recognition that these modes determine the permitted operations on the file <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "conceptual_definition",
+                  "label": "Conceptual Definition",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define file access modes",
+                      "content": "In programming, **file access modes** are specific settings or parameters passed to the system when a file is opened. These modes establish the initial state of the file pointer and define the nature of the interaction between the program and the stored data."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify methods of interaction",
+                      "content": "The first mark is awarded for identifying that these modes represent different methods of opening and interacting with a file. Common examples include:\n\n*   **Read ('r'):** Opens an existing file for reading only.\n*   **Write ('w'):** Creates a new file or overwrites an existing one to add data.\n*   **Append ('a'):** Opens a file to add data to the end without deleting existing content.",
+                      "highlights": [
+                        {
+                          "text": "Identification that file access modes represent different methods of opening and interacting with files (e.g., read, write, append)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Establish permitted operations",
+                      "content": "The second mark is awarded for recognizing that these modes act as a set of rules for the program. They determine exactly which **operations are permitted** on the file. \n\nFor instance, if a file is opened in 'read mode', the operating system will block any attempt by the program to modify or delete data within that file, ensuring data integrity and security.",
+                      "highlights": [
+                        {
+                          "text": "Recognition that these modes determine the permitted operations on the file",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final definition summary",
+                      "content": "To get full marks on this question, your answer should combine these two ideas:\n\n**File access modes are parameters used when opening a file that specify how the program will interact with it (such as reading or writing) and define the specific operations that are permitted during that session.**"
+                    }
+                  ]
+                },
+                {
+                  "id": "example_led_explanation",
+                  "label": "Example-led Explanation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understanding file interaction",
+                      "content": "In **Topic B2.5 (File processing)**, we learn that programs often need to interact with external data stored in files. To do this, the program must tell the operating system exactly how it intends to use that file. This is where **file access modes** come in."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Examples of access modes",
+                      "content": "To understand the concept, let's look at the three most common examples used in programming:\n\n*   **Read Mode ($r$):** The program can only view or retrieve data. It cannot change anything.\n*   **Write Mode ($w$):** The program creates a new file or clears an existing one to add new data.\n*   **Append Mode ($a$):** The program adds new data to the very end of an existing file without deleting what is already there.",
+                      "highlights": [
+                        {
+                          "text": "read, write, append",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Permissions and restrictions",
+                      "content": "These examples show that access modes act as **permissions**. \n\nBy choosing a specific mode, you are setting **restrictions** on what the program can do. For example, if you open a file in \"Read\" mode, the system will prevent the program from accidentally deleting the file's contents. This manages the interaction between the software and the data safely."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "The final definition",
+                      "content": "To earn the 2 marks, your definition should combine these ideas:\n\n1.  **Identification:** File access modes are the different methods or settings used to open and interact with files (such as read, write, or append).\n2.  **Purpose:** They determine the **permitted operations** (what the program is allowed to do) and the restrictions placed on the file data during that session.",
+                      "highlights": [
+                        {
+                          "text": "Identification that file access modes represent different methods of opening and interacting with files (e.g., read, write, append)",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Recognition that these modes determine the permitted operations on the file",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:11:54.326Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1126299,
+            "content": "Compare sequential file access with random file access in terms of how data is retrieved and their typical use cases.",
+            "order": 2,
+            "markscheme": "- **Sequential access retrieval:** Data must be read from the beginning to the end in a fixed order <marks>A1</marks>\n\n- **Sequential use case:** Processing log files, transaction files, or batch data processing <marks>A1</marks>\n\n- **Random access retrieval:** Ability to jump to any specific position or record in the file directly <marks>A1</marks>\n\n- **Random use case:** Database records, multimedia files, or interactive applications <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "categorical",
+                  "label": "Categorical Comparison",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understanding the Task",
+                      "content": "In this question, we need to compare two fundamental ways computer systems handle files: **sequential access** and **random access**. To earn all 4 marks, we must organize our answer into two categories: how data is retrieved (the mechanism) and where these methods are typically used (the use cases). \n\nThis topic is part of **Topic B2.5: File processing** in your syllabus. Understanding how files are accessed helps us choose the right data structures and algorithms for efficiency."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Retrieval Mechanisms",
+                      "content": "First, let's look at the \"how.\" The main difference is whether you have to follow a path or can jump straight to your destination.\n\n*   **Sequential Access:** Data must be read from the beginning to the end in a fixed, linear order. To reach record 100, the system must first pass through records 1 to 99. Think of this like an old cassette tape.\n*   **Random Access:** The system has the ability to jump to any specific position or record in the file directly without reading the preceding data. This is often done using an index or a specific memory address. Think of this like a digital music player or a hard drive.",
+                      "highlights": [
+                        {
+                          "text": "Data must be read from the beginning to the end in a fixed order",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Ability to jump to any specific position or record in the file directly",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Typical Use Cases",
+                      "content": "Next, let's look at the \"where.\" The choice of access method depends on whether we need to process every record or just find specific ones quickly.\n\n*   **Sequential Use Cases:** This method is ideal for tasks where you need to process every piece of data in the file anyway. Common examples include **processing log files**, **transaction files**, or **batch data processing** (like calculating monthly payroll for every employee).\n*   **Random Use Cases:** This is used when speed and interactivity are required. Common examples include **database records** (where you search for one specific customer), **multimedia files** (skipping to a specific scene in a movie), or **interactive applications**.",
+                      "highlights": [
+                        {
+                          "text": "Processing log files, transaction files, or batch data processing",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Database records, multimedia files, or interactive applications",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary of Marks",
+                      "content": "To ensure you get the full 4 marks, check that you have mentioned:\n\n1.  **Sequential Retrieval:** Data read from start to end in order. <marks>A1</marks>\n2.  **Random Retrieval:** Ability to jump directly to a record. <marks>A1</marks>\n3.  **Sequential Use Case:** Batch processing or logs. <marks>A1</marks>\n4.  **Random Use Case:** Databases or interactive apps. <marks>A1</marks>"
+                    }
+                  ]
+                },
+                {
+                  "id": "entity-based",
+                  "label": "Entity-based Comparison",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Sequential Access: Retrieval Method",
+                      "content": "In **sequential file access**, data is retrieved in a strict, linear order. To find a specific piece of information, the system must start at the very beginning of the file and read through every preceding record until it reaches the target. \n\nYou can think of this like a classic VHS tape: if you want to watch a scene in the middle, you have to fast-forward through everything that comes before it. This method is simple but becomes slow if the file is very large and you only need data from the end.",
+                      "highlights": [
+                        {
+                          "text": "Data must be read from the beginning to the end in a fixed order",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Sequential Access: Use Cases",
+                      "content": "Sequential access is most efficient when you need to process **every single record** in a file. \n\nTypical use cases include:\n*   **Log files:** Systems record events chronologically, and administrators often review them from start to finish.\n*   **Batch processing:** For example, a payroll system that calculates the salary for every employee in a company one by one.\n*   **Transaction files:** Processing a day's worth of bank transactions in the order they occurred.",
+                      "highlights": [
+                        {
+                          "text": "Processing log files, transaction files, or batch data processing",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Random Access: Retrieval Method",
+                      "content": "In contrast, **random file access** (also known as direct access) allows the system to \"jump\" directly to any specific record or memory address without reading the data that comes before it.\n\nThis is achieved using a pointer or an index that identifies the exact location of the data. It is much faster than sequential access for finding individual items because the retrieval time is independent of the record's position in the file.",
+                      "highlights": [
+                        {
+                          "text": "Ability to jump to any specific position or record in the file directly",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Random Access: Use Cases",
+                      "content": "Random access is essential for applications where speed and non-linear data retrieval are priorities.\n\nTypical use cases include:\n*   **Databases:** When a user searches for a specific customer ID, the system needs to find that record instantly among millions.\n*   **Multimedia files:** Allowing a user to click a progress bar in a video and jump to a specific timestamp.\n*   **Interactive applications:** Any software where user input dictates which data needs to be loaded next (like a video game or a web browser).",
+                      "highlights": [
+                        {
+                          "text": "Database records, multimedia files, or interactive applications",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "efficiency-oriented",
+                  "label": "Efficiency-oriented Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze Sequential Access Efficiency",
+                      "content": "Sequential access works like an old cassette tape. To find a specific piece of data, the system must start at the beginning and read through every single record until it reaches the target. In terms of computational efficiency, this follows a linear search pattern.\n\nIf there are $n$ records in a file, the time complexity is $O(n)$. This means that as the file size grows, the time taken to find a specific record increases proportionally.",
+                      "highlights": [
+                        {
+                          "text": "Data must be read from the beginning to the end in a fixed order",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Evaluate Sequential Use Cases",
+                      "content": "Because sequential access is $O(n)$, it is highly efficient when you need to process **every** record in a file (where you would have to visit $n$ records anyway). \n\nTypical use cases include:\n*   **Processing log files**: Reading history from start to finish.\n*   **Batch processing**: Updating a whole payroll file at once.\n*   **Transaction files**: Recording events in the order they occurred.",
+                      "highlights": [
+                        {
+                          "text": "Processing log files, transaction files, or batch data processing",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze Random Access Efficiency",
+                      "content": "Random access (or direct access) works more like a modern SSD or a book index. The system calculates the exact physical address of the data and \"jumps\" there immediately without reading the preceding records.\n\nIn Big O notation, this is $O(1)$ (constant time). Regardless of whether the file has 10 records or 10 million, the time to retrieve a specific record remains virtually the same.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "1000000 / 1",
+                            "instructions": "Calculate the ratio of operations between O(n) and O(1) for n = 1,000,000."
+                          },
+                          "ti84": {
+                            "expression": "1000000 / 1",
+                            "instructions": "Compare search operations: Sequential (worst case) vs Random."
+                          },
+                          "desmos": {
+                            "expression": "10^6 / 1",
+                            "instructions": "View the efficiency gap: Sequential (1,000,000 steps) vs Random (1 step)."
+                          },
+                          "description": "Compare the number of 'read operations' for a file with 1,000,000 records."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "Ability to jump to any specific position or record in the file directly",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Evaluate Random Use Cases",
+                      "content": "The $O(1)$ performance of random access is essential for systems where users need immediate results from a large dataset. \n\nTypical use cases include:\n*   **Databases**: Finding a specific student record in a school system.\n*   **Multimedia files**: Skipping to a specific timestamp in a video.\n*   **Interactive applications**: Real-time systems where lag would break the user experience.",
+                      "highlights": [
+                        {
+                          "text": "Database records, multimedia files, or interactive applications",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary Comparison",
+                      "content": "To earn all 4 marks, ensure you clearly contrast the retrieval method and provide specific examples for each:\n\n$$\\begin{array}{|l|l|l|} \\hline \\textbf{Feature} & \\textbf{Sequential Access} & \\textbf{Random Access} \\\\ \\hline \\text{Retrieval} & \\text{Fixed order (Start to end)} & \\text{Direct jump to position} \\\\ \\hline \\text{Complexity} & O(n) \\text{ (Linear)} & O(1) \\text{ (Constant)} \\\\ \\hline \\text{Best Use} & \\text{Batch processing / Logs} & \\text{Databases / Interactive} \\\\ \\hline \\end{array}$$\n\nEach point above maps to one mark in the markscheme."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:12:52.148Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1126300,
+            "content": "A music streaming service needs to access song files for playback. Users may skip to any point in a song or jump between different songs. Justify which file access method would be more suitable and explain the reasoning.",
+            "order": 3,
+            "markscheme": "- **Identification** that random access is the more suitable method for music streaming <marks>A1</marks>\n\n- **Reasoning** that users need to skip to different time positions within songs or jump between songs instantly <marks>R1</marks>\n\n- **Explanation** that sequential access would require reading through the file from the start to reach a desired position, causing significant delays <marks>R1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "comparative_analysis",
+                  "label": "Comparative Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the access method",
+                      "content": "For a music streaming service, the most suitable file access method is **random access** (also known as direct access). \n\nThis identification earns you the first mark <mark>A1</mark>."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Justify using user behavior",
+                      "content": "The primary requirement for a streaming service is that users must be able to \"skip to any point in a song or jump between different songs\" instantly. \n\nRandom access allows the system to calculate the physical address of the data and move the read pointer directly to that location. This ensures the music starts playing immediately without any perceptible lag for the user <mark>R1</mark>.",
+                      "highlights": [
+                        {
+                          "text": "skip to any point in a song or jump between different songs",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Contrast with sequential access",
+                      "content": "To fully justify the choice, we must compare it to the alternative. If the service used **sequential access**, the system would be forced to read through the file linearly from the very beginning to reach a specific timestamp.\n\nFor example, to play the last 30 seconds of a 5-minute song, the system would have to process the first 4.5 minutes of data first. This would result in significant delays and buffering, making the user experience frustrating and inefficient <mark>R1</mark>."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary of Marks",
+                      "content": "In an IB exam, you earn your 3 marks by:\n1.  **Naming** the method (Random Access).\n2.  **Explaining** why it meets user needs (instant skipping/jumping).\n3.  **Contrasting** it with the inefficiency of the alternative (Sequential Access causing delays).\n\nThis topic relates to **B2.5 File processing** in your syllabus. Understanding how data is retrieved is a fundamental part of software efficiency!"
+                    }
+                  ]
+                },
+                {
+                  "id": "requirement_mapping",
+                  "label": "Requirement-Based Mapping",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify User Requirements",
+                      "content": "To choose the best file access method, we first look at the specific requirements of a music streaming user. The question highlights two key actions:\n1. **Skipping** to any point within a song (e.g., moving from 0:30 to 2:15).\n2. **Jumping** between different songs (e.g., changing tracks in a playlist).\n\nBoth of these require the system to find specific data almost instantly without processing everything in between.",
+                      "highlights": [
+                        {
+                          "text": "skip to any point in a song or jump between different songs",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Select the Suitable Method",
+                      "content": "Based on these requirements, **random access** (also known as direct access) is the most suitable method. \n\nIn random access, the computer can calculate the exact physical address of the data it needs and go there immediately, rather than starting from the beginning of the file."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Map Requirements to Random Access",
+                      "content": "Random access satisfies the user's needs through **direct addressing**. \n\nIf a user skips to the middle of a song, the system calculates the byte offset for that specific timestamp and \"jumps\" the read-head (or pointer) directly to that location. This results in **instant playback**, which is essential for a smooth streaming experience."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Contrast with Sequential Access",
+                      "content": "To justify this choice, we must explain why the alternative, **sequential access**, is unsuitable. \n\nIf the service used sequential access, it would have to read every byte of data from the start of the file until it reached the desired point. This would cause significant **latency (delays)**, making the app feel slow and unresponsive to the user."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Summary for Marks",
+                      "content": "To secure all 3 marks, your answer should include:\n- **Identification:** State that random access is the correct method ($1$ mark).\n- **Requirement Mapping:** Explain that users need to skip or jump to specific positions instantly ($1$ mark).\n- **Justification/Contrast:** Explain that sequential access would be too slow because it must read from the beginning ($1$ mark)."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:13:38.339Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      }
+    ],
+    "count": "20",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 36375,
+      "title": "B2.5 File processing",
+      "slug": "ib-computer-science-new-b2-5-file-processing",
+      "parentTopicId": 36370
+    },
+    "subject": {
+      "id": 6523,
+      "title": "Computer Science (First Exam 2027)",
+      "slug": "ib-computer-science-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "20",
+      "byQuestion": {}
+    }
+  }
+}

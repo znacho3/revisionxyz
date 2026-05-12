@@ -1,3 +1,2256 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:088bd14d06e22faff251eebccbed9ba202f2be31f56d45a67f1451f15e3c71ac
-size 91673
+{
+  "json": {
+    "questions": [
+      {
+        "id": "03bc7045-294d-4f4f-9bb3-71aad0bb4598",
+        "specification": "A company is designing everyday electronic devices for public and home use that integrate basic input and output systems to improve usability and efficiency.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:49:08.351Z",
+            "resultId": 1194
+          }
+        },
+        "currentRevisionId": 1693465,
+        "parts": [
+          {
+            "id": 1155220,
+            "content": "They start with a digital bathroom scale that uses a strain gauge to sense weight and display results.\n\n![Image](https://pub-images.revisiondojo.com/question-images/a3f99728-f2a8-4463-ba0a-83f79939c6fd)\n\nState the input signal produced by a strain gauge.",
+            "order": 0,
+            "markscheme": "- An analogue sensor. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155221,
+            "content": "Outline two roles of the microcontroller inside the digital scale.",
+            "order": 1,
+            "markscheme": "- Converts analogue signal from the strain gauge to digital weight data. <marks>1 mark</marks>\n- Sends data to the LCD for user display. <marks>1 mark</marks>\n\n*Award <marks>1 mark</marks>per valid point, up to <marks>2 marks</marks>*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155222,
+            "content": "To promote hygiene in public bathrooms, the company develops a touchless automatic faucet system using infrared sensing.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/39284989-1133-47c1-a423-fefca71275c5)\n\nIdentify the type of output component used to release water.",
+            "order": 2,
+            "markscheme": "- A solenoid valve. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155223,
+            "content": "Explain how the electronic system ensures water only flows when hands are detected.",
+            "order": 3,
+            "markscheme": "- The IR sensor detects reflected IR light from nearby hands. <marks>1 mark</marks>\n- It sends a digital signal to the controller. <marks>1 mark</marks>\n- The controller activates the solenoid valve to release water. <marks>1 mark</marks>\n\n*Award <marks>1 mark</marks> per valid explanation, up to <marks>3 marks</marks>*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155224,
+            "content": "In a final product concept, they create a kitchen appliance that uses a capacitive touch panel and piezo buzzer to improve safety and control.\n\n![Image](https://pub-images.revisiondojo.com/question-images/90de92c6-a05c-40ae-baf0-cc674c42c4a1)\n\nDescribe how the capacitive touch panel and piezo buzzer work together to improve user experience.",
+            "order": 4,
+            "markscheme": "- Touch panel allows buttonless control for easier cleaning. <marks>1 mark</marks>\n- Touch input is detected via change in capacitance. <marks>1 mark</marks>\n- Piezo buzzer gives audio feedback for each input. <marks>1 mark</marks>\n- Users can confirm actions through sound without looking. <marks>1 mark</marks>\n\n*Award <marks>1 mark</marks> per valid explanation, up to <marks>4 marks</marks>.*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155225,
+            "content": "Evaluate the advantages and limitations of using capacitive sensors and piezo buzzers in high-use home appliances.",
+            "order": 5,
+            "markscheme": "- Advantage: Touch input is durable and sealed against moisture. <marks>1 mark</marks>\n- Advantage: Buzzer alerts help users with visual impairments. <marks>1 mark</marks>\n- Limitation: Capacitive sensors may misfire with wet fingers. <marks>1 mark</marks>\n- Limitation: Buzzers may not be heard in noisy environments. <marks>1 mark</marks>\n- Advantage: Low maintenance and fewer moving parts. <marks>1 mark</marks>\n- Limitation: Lacks haptic feedback of physical buttons. <marks>1 mark</marks>\n\n*Award <marks>1 mark</marks> per well-explained point, up to <marks>6 marks</marks>.*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1c62ef25-f1ee-443b-846d-d820508c6feb",
+        "specification": "How does a digital system process and use information?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T12:52:04.245Z",
+            "resultId": 3882
+          }
+        },
+        "currentRevisionId": 1689866,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930273,
+            "content": "By using binary logic to execute tasks",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930274,
+            "content": "By representing data as discrete binary states (0s and 1s) and manipulating them using logic gates",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930275,
+            "content": "By processing information as continuously varying analogue signals",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930276,
+            "content": "By amplifying input signals without converting them into digital data",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1ef9cbfe-cd84-47e0-a60e-4267fe67adea",
+        "specification": "What does this diagram most likely represent in an electronic system?\n\n![](https://pub-images.revisiondojo.com/plots/f7e41a88-810d-466d-a2e5-78549e85f12d.png)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584751,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556637,
+            "content": "A blueprint for structural reinforcement",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This would typically represent the physical arrangement of support elements in a building or structure, not an electronic system."
+          },
+          {
+            "id": 4556638,
+            "content": "A diagram showing mechanical gear ratios",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This would be used for mechanical systems like transmissions or machinery to show how power is transferred through gears."
+          },
+          {
+            "id": 4556639,
+            "content": "A flowchart for software decision-making",
+            "correct": false,
+            "order": 2,
+            "markscheme": "A flowchart uses blocks and decision diamonds to show the logic flow of a program or process, rather than the physical connections of components."
+          },
+          {
+            "id": 4556640,
+            "content": "A schematic showing electronic component connections",
+            "correct": true,
+            "order": 3,
+            "markscheme": "A circuit schematic uses standardized symbols (like those for batteries, resistors, and lamps) to show how electronic components are interconnected in a system."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "289ef55e-566f-4bdc-bcf3-a9ee7012186f",
+        "specification": "In the sensor circuit shown below, why is it critical that the operational amplifier possesses a very high input impedance?\n\n![Sensor Circuit](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-289ef55e-566f-4bdc-bcf3-a9ee7012186f-1772167695732/854f053e-d073-4600-9dd3-b1ea2733b270.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-289ef55e-566f-4bdc-bcf3-a9ee7012186f-1772167695732",
+            "generatedAt": "2026-02-27T15:17:17.431Z",
+            "sourceRevisionId": 1343972
+          }
+        },
+        "currentRevisionId": 1688994,
+        "parts": [],
+        "options": [
+          {
+            "id": 4928793,
+            "content": "To ensure the output voltage is always inverted relative to the reference voltage",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4928794,
+            "content": "To prevent the amplifier from drawing current and changing the voltage at the potential divider junction",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Ideal operational amplifiers have infinite input impedance. This is essential in sensor circuits so that the amplifier does not \"load\" the potential divider; if current were drawn into the op-amp, the voltage at the junction would drop, leading to inaccurate sensing and switching."
+          },
+          {
+            "id": 4928795,
+            "content": "To allow the motor to draw its required operating current directly from the non-inverting input",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4928796,
+            "content": "To increase the sensitivity of the LDR by boosting the voltage across the 10k\u03a9 resistor",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a12ee01-47d6-4760-b99e-60b6a4394543",
+        "specification": "What does the comparison in the image best demonstrate?\n![Image](https://pub-images.revisiondojo.com/question-images/f28e1d37-1917-413b-abab-7a79d6ff8d7f)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:04:49.026Z",
+            "resultId": 3457
+          }
+        },
+        "currentRevisionId": 1689947,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930413,
+            "content": "Feedback control of digital circuits",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930414,
+            "content": "Noise reduction in resistors",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930415,
+            "content": "Difference between analogue and digital signals",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930416,
+            "content": "Amplification using op-amps",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "343fb39e-c16e-45bd-9da6-c08777680736",
+        "specification": "Which symbol is typically used to represent a fixed resistor in an IB circuit diagram?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584756,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556649,
+            "content": "A rectangle",
+            "correct": true,
+            "order": 1,
+            "markscheme": "In the International Electrotechnical Commission (IEC) standards adopted by the IB, a fixed resistor is represented by a rectangle."
+          },
+          {
+            "id": 4556650,
+            "content": "A zigzag line",
+            "correct": false,
+            "order": 2,
+            "markscheme": "A zigzag line is the standard symbol for a resistor in North American (ANSI) standards, but is not the standard symbol used in IB exam papers."
+          },
+          {
+            "id": 4556651,
+            "content": "A triangle",
+            "correct": false,
+            "order": 3,
+            "markscheme": "A triangle (often with a line at one vertex) is the standard symbol for a diode."
+          },
+          {
+            "id": 4556652,
+            "content": "A circle",
+            "correct": false,
+            "order": 4,
+            "markscheme": "A circle is typically used as a base symbol for components such as lamps, voltmeters, or ammeters."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "512c1c60-2798-475b-8f99-707546d17a89",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:04:40.999Z",
+            "resultId": 3487
+          }
+        },
+        "currentRevisionId": 1689945,
+        "parts": [
+          {
+            "id": 1152658,
+            "content": "Describe how an analogue system works using voltage, current, resistance, and other relevant SI units.",
+            "order": 0,
+            "markscheme": "- State that analogue systems represent information using signals that are continuously variable. <marks>1 mark</marks>\n- State that voltage is measured in volts ($\\text{V}$). <marks>1 mark</marks>\n- State that current is measured in amperes ($\\text{A}$). <marks>1 mark</marks>\n- State that resistance is measured in ohms ($\\Omega$). <marks>1 mark</marks>\n- Identify that the frequency of signals is measured in hertz ($\\text{Hz}$). <marks>1 mark</marks>\n- Identify that electrical power is measured in watts ($\\text{W}$). <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "574b26e0-4292-4dc1-addb-64fee3e69f6b",
+        "specification": "Which concept is best illustrated by this waveform graph?\n\n![](https://pub-images.revisiondojo.com/plots/021b761d-ced4-41a3-b4a7-524378d80ee1.png)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T12:58:24.873Z",
+            "resultId": 3799
+          }
+        },
+        "currentRevisionId": 1689888,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930321,
+            "content": "Pulse-width modulation output",
+            "correct": true,
+            "order": 0,
+            "markscheme": "The graph shows a series of pulses with a constant frequency/period but varying pulse widths (duty cycles). This is the definition of pulse-width modulation (PWM)."
+          },
+          {
+            "id": 4930322,
+            "content": "Intermittent digital transmission",
+            "correct": false,
+            "order": 1,
+            "markscheme": "While the signal is digital and non-continuous, the specific variation in pulse width identifies it as PWM rather than just intermittent transmission."
+          },
+          {
+            "id": 4930323,
+            "content": "Continuously varying analogue signal",
+            "correct": false,
+            "order": 2,
+            "markscheme": "An analogue signal would vary smoothly in amplitude over time, rather than switching between discrete high and low voltage states."
+          },
+          {
+            "id": 4930324,
+            "content": "Step-down voltage regulation",
+            "correct": false,
+            "order": 3,
+            "markscheme": "While PWM is often used within step-down voltage regulators (like buck converters), the waveform itself represents the PWM concept specifically."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "59015a80-4cab-48be-821b-0e7c00e6de27",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584815,
+        "parts": [
+          {
+            "id": 1139764,
+            "content": "Describe the four basic elements of an electronic system.",
+            "order": 1,
+            "markscheme": "Award **[1]** for each element correctly identified and described.\n\n- **Input**: receives a physical signal or energy from the environment and converts it into an electrical signal (e.g., using a sensor or transducer). <marks>A1</marks>\n- **Process**: performs an operation, calculation, or transformation on the electrical signal (e.g., amplification, timing, or logic functions). <marks>A1</marks>\n- **Output**: converts the processed electrical signal back into a useful form of energy or information for the user (e.g., using an actuator or display). <marks>A1</marks>\n- **Feedback**: returns a portion of the output signal back to the input to control, regulate, or stabilize the system's performance. <marks>A1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "5a6e59b5-0c9e-43da-b8c4-7e4f502f4913",
+        "specification": "In an electronic control system, an operational amplifier is often used in a comparator configuration. What is the primary purpose of the reference voltage ($$V_{ref}$$) in such a circuit?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-5a6e59b5-0c9e-43da-b8c4-7e4f502f4913-1772167695732",
+            "generatedAt": "2026-02-27T15:14:45.399Z",
+            "sourceRevisionId": 1584734
+          }
+        },
+        "currentRevisionId": 1688866,
+        "parts": [],
+        "options": [
+          {
+            "id": 4928537,
+            "content": "It establishes the specific threshold at which the output signal switches state.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "In a comparator circuit, the operational amplifier compares an input signal (from a sensor) against the reference voltage; the output toggles high or low depending on which input is greater, effectively setting the activation threshold."
+          },
+          {
+            "id": 4928538,
+            "content": "It provides the high-current power required to drive an output transducer directly.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Operational amplifiers are signal processors and generally lack the current capacity to drive high-load transducers directly; this is typically the role of a relay or transistor."
+          },
+          {
+            "id": 4928539,
+            "content": "It acts as a negative feedback loop to stabilize the voltage gain of the system.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Negative feedback involves connecting the output back to an input to control gain; a reference voltage is a static or adjustable input used for comparison, not for gain stabilization."
+          },
+          {
+            "id": 4928540,
+            "content": "It converts the analogue sensor data into a 4-bit digital binary signal.",
+            "correct": false,
+            "order": 4,
+            "markscheme": "This describes the function of an analogue-to-digital converter (ADC), whereas a simple comparator only provides a single-bit (high/low) binary output."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "5db28df9-ca18-419a-9f84-dc6dac5931a5",
+        "specification": "What is the primary role of the **cylindrical components** shown on this electronic circuit board?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfCsLxzsG6wEqEg6z_rco9sMXxbNCoGOQrUC9dazvfSuBJ8T0N8gJfFNNPnXYb57PM0qlGKJZ8GJyutDiEvExX-HAQ--4KoLwG13v7FXlSHV1OEXFcgcmvoCgulfrOs6rdZVXmT4g?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T12:54:11.654Z",
+            "resultId": 3830
+          }
+        },
+        "currentRevisionId": 1689874,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930297,
+            "content": "To store electrical energy briefly and help smooth/filter voltage in the circuit",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: cylindrical components on circuit boards are commonly electrolytic capacitors used for energy storage and power-supply smoothing/filtering."
+          },
+          {
+            "id": 4930298,
+            "content": "To provide long-term backup storage for digital data when the power is off",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: long-term data storage is provided by non-volatile memory devices, not electrolytic capacitors."
+          },
+          {
+            "id": 4930299,
+            "content": "To amplify electrical signals like a transistor-based gain stage",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: amplification is typically performed by transistors/op-amps, not electrolytic capacitors."
+          },
+          {
+            "id": 4930300,
+            "content": "To act as a protective heat-insulating covering for the board",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: heat insulation is a materials/packaging function; these components are part of the circuit\u2019s electrical function."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5eee69ab-baff-4350-9e9f-6b2cf0ac851c",
+        "specification": "What is the function of an input device in an electronic system?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333247,
+        "parts": [],
+        "options": [
+          {
+            "id": 3882963,
+            "content": "To amplify output voltage",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3882964,
+            "content": "To detect changes in the environment",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3882965,
+            "content": "To initiate chemical reactions",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3882966,
+            "content": "To transfer data from storage",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "67718f89-66ef-4d5c-8c97-4f5089cca47e",
+        "specification": "What function do the input devices in this smart home setup most likely serve?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXchrmGQwmyMvqy5fciLi3SJvn_jDv8NOPS3PW3hbIrUjUtNVla9FK4w-6Qbh08Dcxq0Cf1FbPYDbuvEofCX-cJpurZJJNnAggeCXfX5kNqq5c4-umTdPqCsKU1z8qRk59kueQdR?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584740,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556621,
+            "content": "Serve as analog signal filters",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Filtering is a signal processing step that may occur within the device, but it is not the primary function of the input device in the context of the overall smart home system."
+          },
+          {
+            "id": 4556622,
+            "content": "Trigger a response to surrounding change",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Input devices in a smart home setup, such as sensors (motion, light, temperature), are designed to detect changes in the environment and provide data to the processor, which then triggers a programmed response."
+          },
+          {
+            "id": 4556623,
+            "content": "Display media content",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This is a function of output devices like monitors or speakers."
+          },
+          {
+            "id": 4556624,
+            "content": "Transmit heat through walls",
+            "correct": false,
+            "order": 4,
+            "markscheme": "This is a physical process performed by actuators or heating elements, not a function of an input device."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "6bd944c2-9eed-4496-84e3-c8a001c23f64",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584746,
+        "parts": [
+          {
+            "id": 1139722,
+            "content": "Outline two reasons why energy-efficient electronic products are important in modern society.",
+            "order": 1,
+            "markscheme": "- Identification of environmental benefits, such as a reduced carbon footprint or lower consumption of natural resources <marks>A1</marks>\n- Outline of how lower energy demand results in fewer emissions from power plants and reduced environmental impact <marks>A1</marks>\n- Identification of economic benefits, such as reduced operating costs for the end-user <marks>A1</marks>\n- Outline of how energy-efficient products consume less electricity, leading to financial savings on utility bills over the product's lifespan <marks>A1</marks>\n\n4 marks total\n\n<note>Award [1] for identifying a valid reason and [1] for its outline, up to [4] marks total. Accept other valid points such as regulatory compliance (meeting sustainability standards) or brand reputation (enhanced market appeal).</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "6dba1818-d76c-4da8-91ca-445b4176fe8f",
+        "specification": "What function does the control circuit in this appliance most likely serve?\n![Image](https://pub-images.revisiondojo.com/question-images/9e270434-ec67-4891-8d5d-41cc61616aa2)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:09:14.209Z",
+            "resultId": 3188
+          }
+        },
+        "currentRevisionId": 1689992,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930469,
+            "content": "To amplify sound signals before output",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This describes an audio amplifier/output stage, not the appliance\u2019s control (process) circuit."
+          },
+          {
+            "id": 4930470,
+            "content": "To power external connected speakers",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Powering speakers is an output/power-delivery function (e.g., a power amplifier), not the role of a control (process) circuit in an appliance."
+          },
+          {
+            "id": 4930471,
+            "content": "To control and monitor the device's internal processes",
+            "correct": true,
+            "order": 2,
+            "markscheme": "A control circuit is the process/control block: it handles logic and sequencing, processes input signals (e.g., switches/sensors), and controls/monitors internal outputs (e.g., motors, magnetron)."
+          },
+          {
+            "id": 4930472,
+            "content": "To detect radiation leakage from the casing",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Radiation leakage detection would be a specific sensing/safety subsystem, not the primary general function of the control (process) circuit shown in the system block diagram."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "77ce734a-f038-4bee-80f5-11590f65e2a4",
+        "specification": "What should designers consider when creating electronic systems for everyday use?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584728,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556589,
+            "content": "If they use wires or wireless modules",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556590,
+            "content": "Responsible use and improvement of quality of life",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556591,
+            "content": "Whether they are used in homes or hospitals",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556592,
+            "content": "Durability and affordability only",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "786f3ee1-bba2-4188-8cc7-eff5df513406",
+        "specification": "How do embedded systems in digital electronics function?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:11:58.179Z",
+            "resultId": 2996
+          }
+        },
+        "currentRevisionId": 1690051,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930509,
+            "content": "They only process analogue signals",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930510,
+            "content": "They connect analogue devices",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930511,
+            "content": "They transmit audio through radio",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930512,
+            "content": "They execute dedicated tasks via programmed instructions",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8aa63b07-3e7a-476d-a92a-4a91d37a4900",
+        "specification": "Which best describes a feedback loop in an electronic system?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333242,
+        "parts": [],
+        "options": [
+          {
+            "id": 3882943,
+            "content": "A switch between alternating and direct current",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3882944,
+            "content": "An output that becomes a new input for control",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3882945,
+            "content": "The process of amplifying voltage",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3882946,
+            "content": "The conversion of digital signals into analogue",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8b3d4f8d-7d91-450b-abbd-b1e48c434416",
+        "specification": "A team of university students is building a smart indoor hydroponic garden to optimise plant growth using sensors, actuators, and feedback control. The system includes light and moisture monitoring, an automatic watering mechanism, an LED grow light, and a microcontroller interface.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:17:53.592Z",
+            "resultId": 2896
+          }
+        },
+        "currentRevisionId": 1690086,
+        "parts": [
+          {
+            "id": 1152839,
+            "content": "To monitor moisture levels, they integrated a soil moisture sensor into the system.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/51450335-6400-4e53-9533-3e3cfda4ca5a)\n\nIdentify the component shown in **Figure 1** and describe its role in the hydroponic system.",
+            "order": 0,
+            "markscheme": "- Capacitive moisture sensor <marks>1 mark</marks>\n- Detects soil or substrate moisture to determine irrigation needs <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152840,
+            "content": "When low moisture is detected, a peristaltic pump is activated to deliver water.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/259e6d51-6458-4fa5-8b34-2eef6596949f)\n\ni.) Explain why a peristaltic pump is well suited for hydroponic applications.",
+            "order": 1,
+            "markscheme": "- Provides accurate flow control of water/nutrient solutions <marks>1 mark</marks>\n- Prevents contamination due to sealed tube design <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152841,
+            "content": "ii.) Outline how the pump is actuated using a transistor-based circuit.",
+            "order": 2,
+            "markscheme": "- Microcontroller sends signal to base of transistor <marks>1 mark</marks>\n- Transistor acts as a switch to complete pump circuit <marks>1 mark</marks>\n- Pump receives power and starts water delivery <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152842,
+            "content": "To track environmental conditions, the students used a compact sensor for temperature and humidity.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/f92e17fc-fe71-4a14-8871-345a74121cff)\n\nIdentify two types of data the module in **Figure 3** provides and explain how each is used.",
+            "order": 3,
+            "markscheme": "- Temperature: helps avoid overheating in grow area <marks>1 mark</marks>\n- Humidity: ensures optimal plant transpiration rates <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152843,
+            "content": "Describe how the system (**Figures 1-3**) uses feedback to regulate growing conditions in a closed-loop control system.",
+            "order": 4,
+            "markscheme": "- Sensors monitor variables like moisture and temperature/humidity <marks>1 mark</marks>\n- Microcontroller evaluates input against ideal thresholds <marks>1 mark</marks>\n- Actuators adjust water flow (pump) and lighting (LED grow light) as needed <marks>1 mark</marks>\n- Changes are continually re-monitored and adjusted <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152844,
+            "content": "Evaluate the benefits and drawbacks of using microcontroller-based systems in smart agriculture.",
+            "order": 5,
+            "markscheme": "- Automation reduces human error and maintenance <marks>1 mark</marks>\n- Enables precise environmental control for better yields <marks>1 mark</marks>\n- Can be expensive and complex to set up initially <marks>1 mark</marks>\n- Requires programming and electronic skills <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "9291ed86-5571-451c-8f2e-99cae2293b74",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:16:17.460Z",
+            "resultId": 2951
+          }
+        },
+        "currentRevisionId": 1690070,
+        "parts": [
+          {
+            "id": 1152816,
+            "content": "Using a single, labelled circuit diagram that includes **at least four** different component symbols, explain how electronic components are represented in a circuit diagram and state the function of each component you include. You may choose your components from the following list: resistor, capacitor, diode, transistor, switch, relay, LED, operational amplifier.",
+            "order": 0,
+            "markscheme": "- Clear, labelled circuit diagram containing at least four correct component symbols from the given list <marks>1 mark</marks>\n- Resistor: controls/limits current <marks>1 mark</marks>\n- Capacitor: stores energy/charge <marks>1 mark</marks>\n- Diode: allows current in one direction <marks>1 mark</marks>\n- Transistor: amplifies or switches current <marks>1 mark</marks>\n- Switch: opens/closes circuit <marks>1 mark</marks>\n- Relay: uses electromagnetism to switch <marks>1 mark</marks>\n- LED: emits light when current flows <marks>1 mark</marks>\n- Operational amplifier: boosts/amplifies signal <marks>1 mark</marks>\n- Award 1 mark for each correctly labelled and explained component (symbol and function) up to 9 marks maximum. <marks>1 mark</marks>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "92edca89-dff9-4681-92d9-aa075c2d3fca",
+        "specification": "Which of the following would likely be an input device in an electronic circuit?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584732,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556601,
+            "content": "Microcontroller",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556602,
+            "content": "Temperature sensor",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556603,
+            "content": "Speaker",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556604,
+            "content": "Transistor",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "94364565-bb93-4455-98df-6dd656ee2528",
+        "specification": "What is the main purpose of this digital system?\n\n![](https://pub-images.revisiondojo.com/notes/c72c8562-3899-4b04-825f-7c8d5fa4dee0.jpeg)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T08:15:12.918Z",
+            "resultId": 5404
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 56803,
+              "isHl": true,
+              "path": "A. Design in theory > A3.4 Introduction to electronic systems (HL only) > A3.4.12 Embedded systems communication",
+              "title": "A3.4.12 Embedded systems communication",
+              "labeledAt": "2026-03-05T07:57:37.351Z",
+              "reasoning": "The question asks for the purpose of a digital system, and the correct option (C) specifically mentions communication and task performance via embedded systems, which is the core focus of Topic A3.4.12.",
+              "confidence": 0.95
+            },
+            {
+              "id": 56791,
+              "isHl": true,
+              "path": "A. Design in theory > A3.4 Introduction to electronic systems (HL only) > A3.4.1 Electronic systems",
+              "title": "A3.4.1 Electronic systems",
+              "labeledAt": "2026-03-05T07:57:37.351Z",
+              "reasoning": "The question identifies the subject as a digital system, which falls under the broader category of electronic systems covered in A3.4.1.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693667,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931189,
+            "content": "Transmit encrypted radio signals",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931190,
+            "content": "Communicate and perform tasks via embedded systems",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931191,
+            "content": "Store visual data locally",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931192,
+            "content": "Deliver analog signals to speakers",
+            "correct": true,
+            "order": 3,
+            "markscheme": "<marks>1 mark</marks>"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "95fde452-6c92-4613-b123-47527b51cea8",
+        "specification": "What task is the embedded digital system shown in the image performing?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe0AXF65JKfZmVY1XMbCRicR5rl64vVwlKabQQA9wReScMGbDhHWa4GdEcpfidVJ7R_TfAGtFAscGuNbVVVnW_M1byCsy8qyHxDbr_jTRtavLsNgfEXAhQNimnkSMtUJgDLu75AQw?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:25:22.205Z",
+            "resultId": 2599
+          }
+        },
+        "currentRevisionId": 1690246,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930573,
+            "content": "Storing, processing, and communicating information",
+            "correct": true,
+            "order": 0,
+            "markscheme": "This matches the functional role of an embedded digital system (processor/controller): to store, process and communicate data/signals."
+          },
+          {
+            "id": 4930574,
+            "content": "Changing voltage using a rectifier",
+            "correct": false,
+            "order": 1,
+            "markscheme": "A rectifier is an analogue power-conversion component, not the core task of an embedded digital system."
+          },
+          {
+            "id": 4930575,
+            "content": "Cooling internal hardware",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Cooling is performed by an output device (e.g., a fan) and is not the functional task of the embedded digital system itself."
+          },
+          {
+            "id": 4930576,
+            "content": "Generating sound using an op-amp",
+            "correct": false,
+            "order": 3,
+            "markscheme": "An op-amp is an analogue circuit element; sound generation is not the defining task of an embedded digital system."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "976e031d-0bf1-414b-810a-2b7d93c91911",
+        "specification": "A start-up company is designing a smart bathroom ventilation system that automatically adjusts fan speed based on humidity levels and user preferences. The system includes sensors, a microcontroller, actuators, and a user interface.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1367813,
+        "parts": [
+          {
+            "id": 1019551,
+            "content": "The designers first selected a suitable input device to monitor changing humidity conditions.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/048cd43e-e238-45c5-983f-3110f8411644)\n\nIdentify the type of input device shown in **Figure 1** and its function in the system.",
+            "order": 0,
+            "markscheme": "Humidity sensor <marks>1 mark</marks>\n\nDetects moisture levels in the air and sends a digital signal to the microcontroller <marks>1 mark</marks>\n\n*Award [1] per correct identification and function, up to [2 max].*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019552,
+            "content": "The humidity readings are used to control a motor that adjusts airflow within the space.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/d2d93004-bc6e-4e58-a95f-589b46fa5560)\n\ni.)\u00a0 Outline one reason why a variable-speed motor improves energy efficiency in this system.",
+            "order": 1,
+            "markscheme": "Operates only at the required speed to maintain comfort, reducing energy waste <marks>1 mark</marks>\n\n*Award [1] for valid explanation.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019553,
+            "content": "ii.) Explain how the microcontroller controls the fan motor in response to input from the humidity sensor.",
+            "order": 2,
+            "markscheme": "Receives humidity data from the sensor <marks>1 mark</marks>\n\nUses programmed logic to determine appropriate fan speed <marks>1 mark</marks>\n\nSends control signals to the motor driver or fan circuit <marks>1 mark</marks>\n\n*Award [1] per valid point, up to [3 max].*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019554,
+            "content": "To make the system intuitive, the engineers added a touchscreen interface that lets users customize their experience.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/065ead92-4a1c-4cce-909c-0f91ed5423ba)\n\nDescribe two ways the touchscreen interface enhances user interaction with the ventilation system.",
+            "order": 3,
+            "markscheme": "Allows users to set preferred humidity thresholds <marks>1 mark</marks>\n\nProvides real-time feedback on air quality and fan speed <marks>1 mark</marks>\n\n*Award [1] per well-explained interaction benefit, up to [2 max].*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019555,
+            "content": "Referencing **Figures 1-3**, Discuss how feedback loops are used in this system to maintain optimal humidity.",
+            "order": 4,
+            "markscheme": "Sensor constantly monitors humidity levels <marks>1 mark</marks>\n\nMicrocontroller compares readings to user-defined threshold <marks>1 mark</marks>\n\nAdjusts fan speed accordingly and re-checks conditions <marks>1 mark</marks>\n\nEnsures stable humidity within desired range <marks>1 mark</marks>\n\n*Award [1] per point, up to [4 max].*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1019556,
+            "content": "Evaluate the advantages and disadvantages of using an automated electronic control system versus a manual switch for this ventilation system.",
+            "order": 5,
+            "markscheme": "**Advantages**:\n\nAutomated adjustments improve comfort and efficiency <marks>1 mark</marks>\n\nReduced need for user intervention <marks>1 mark</marks>\n\nCan collect data for future optimization <marks>1 mark</marks> **Disadvantages**:\n\nHigher initial cost due to sensors and interface <marks>1 mark</marks>\n\nSystem complexity may require maintenance <marks>1 mark</marks>\n\nPower usage from always-on microcontroller <marks>1 mark</marks>\n\n*Award [1] per balanced advantage/disadvantage, up to [6 max].*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "99882688-da02-4eaf-a100-0455c1125dad",
+        "specification": "What does an electronic feedback mechanism do?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333251,
+        "parts": [],
+        "options": [
+          {
+            "id": 3882979,
+            "content": "Controls sound frequency",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3882980,
+            "content": "Lowers resistance in wiring",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3882981,
+            "content": "Monitors conditions and adjusts system response",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3882982,
+            "content": "Reduces cost of materials",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9a7aad03-d4ce-44c4-bee5-0e97031d18dd",
+        "specification": "Which of the following is a feature of digital electronic systems?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333245,
+        "parts": [],
+        "options": [
+          {
+            "id": 3882955,
+            "content": "They use high-voltage input only",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3882956,
+            "content": "They encode information in discrete binary values",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3882957,
+            "content": "They can only function without processors",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3882958,
+            "content": "They transmit randomly changing signals",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a17eee5b-e0fe-4a8a-98da-e7c61f17d90c",
+        "specification": "What key concept of electronic systems is being illustrated in this diagram?\n\n![Block diagram showing a feedback loop](https://pub-images.revisiondojo.com/notes/644e58c1-5104-4d4e-93a5-ed9e7548aaa6.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584781,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556709,
+            "content": "Signal amplification through op-amps",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4556710,
+            "content": "Feedback loop in an electronic system",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556711,
+            "content": "Parallel circuit design",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556712,
+            "content": "Digital system architecture",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "ad2f45ec-4467-4177-93c4-d3f3f757de2a",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584760,
+        "parts": [
+          {
+            "id": 1139736,
+            "content": "Explain how input devices are used to trigger responses in electronic systems. Give two examples.",
+            "order": 1,
+            "markscheme": "- **Describe** how input devices detect changes in physical properties (such as light or temperature) within the environment <marks>A1</marks>\n\n- **State** that these sensors convert physical changes into electrical signals which are then sent to a processing unit to trigger a response <marks>A1</marks>\n\n- **Identify** a first valid example, such as a light-dependent resistor (LDR) being used to trigger a security light <marks>A1</marks>\n\n- **Identify** a second valid example, such as a thermistor used to activate a cooling fan when a temperature threshold is reached <marks>A1</marks>\n\n4 marks total\n\n<note>Award 1 mark for each valid point or example up to a maximum of 4 marks.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "b4f51e22-35e5-439c-8d97-74502201c1d4",
+        "specification": "Topic 5.2: Heating effect of electric currents\n\nWhat is the role of electronic components in a system?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584775,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556693,
+            "content": "They each perform specific tasks",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556694,
+            "content": "They cool down the system",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556695,
+            "content": "They connect different wires",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556696,
+            "content": "They transmit heat energy",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "b55022b7-8f51-4a60-b39c-3166255f782a",
+        "specification": "What is the key difference between analogue and digital systems?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584745,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556633,
+            "content": "Analogue systems use continuous signals, while digital systems use discrete signals.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Analogue signals can take any value within a continuous range, whereas digital signals consist of discrete values, typically represented as $0$ and $1$."
+          },
+          {
+            "id": 4556634,
+            "content": "Analogue systems cannot be automated.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556635,
+            "content": "Digital systems only use switches, while analogue systems do not.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556636,
+            "content": "Analogue systems are battery-powered, while digital systems are not.",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "c0ae7903-c4e6-4d97-8dbc-fa5383f43b00",
+        "specification": "Which of the following is true about an analogue system?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333244,
+        "parts": [],
+        "options": [
+          {
+            "id": 3882951,
+            "content": "It stores data as binary digits",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3882952,
+            "content": "It uses a processor to calculate logic operations",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3882953,
+            "content": "It sends signals using light pulses",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3882954,
+            "content": "It uses signals like sine waves that vary continuously",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c32ac062-4d6f-44e5-a929-64e42ba207e4",
+        "specification": "Why are electronic systems represented with circuit diagrams?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584754,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556645,
+            "content": "To test voltage and resistance",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556646,
+            "content": "To illustrate current speed",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556647,
+            "content": "To check software compatibility",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556648,
+            "content": "To visually show the connection and function of components",
+            "correct": true,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "c356021f-8a1c-4fc0-8894-4e23a5003daa",
+        "specification": "The microchip of the black box is most likely used to\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe6VZuDkZ19UILoXyUdI6YXhXQODesmNBfWUhwM4gvdS31qzFluEzneHdQH8wuqjSnElqHSwXB1YCj_DTwY2mHsqBEXBAKhlbEjwiTAi2tHKDd5dgHiCEm1b_mJaG4-WNHrUW_z?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584764,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556665,
+            "content": "Increase signal strength",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556666,
+            "content": "Translate input into output",
+            "correct": true,
+            "order": 2,
+            "markscheme": "A microchip in this context acts as a processor, taking input data or signals and processing them to produce a corresponding output based on its internal logic."
+          },
+          {
+            "id": 4556667,
+            "content": "Transmit wireless power",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556668,
+            "content": "Charge internal batteries",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "c6d18fc0-9a27-4311-9b09-f1da8737b36d",
+        "specification": "A company is developing various smart home appliances that rely on electronic systems to optimize energy usage, respond to environmental stimuli, and interact with users efficiently.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:31:25.775Z",
+            "resultId": 2511
+          }
+        },
+        "currentRevisionId": 1693506,
+        "parts": [
+          {
+            "id": 1155379,
+            "content": "**Figure 1** shows a smart home thermostat mounted on a wall that automatically regulates room temperature based on time of day and user preferences\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/39c43c07-dfce-427e-806e-13dd6c282022)\n\nState the type of system (analogue or digital) used in this thermostat.",
+            "order": 0,
+            "markscheme": "- Digital system <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155380,
+            "content": "Outline two advantages of using a digital thermostat compared to an analogue one.",
+            "order": 1,
+            "markscheme": "- Digital thermostats offer more precise temperature control. <marks>1 mark</marks>\n- They can be integrated with software for remote access or learning behaviour. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155381,
+            "content": "**Figure 2** shows a soil moisture sensor module with an Arduino board connected to a small LCD display.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/c5b83c34-7ba4-4e3d-b398-6a06c00e65cb)\n\nDescribe the role of the microcontroller in this system.",
+            "order": 2,
+            "markscheme": "- The microcontroller receives input from the moisture sensor. <marks>1 mark</marks>\n- It processes the input to determine if action is needed. <marks>1 mark</marks>\n- It sends output to the LCD display or an actuator like a water pump. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155382,
+            "content": "Compare open-loop and closed-loop systems using this example.",
+            "order": 3,
+            "markscheme": "- An open-loop system would water plants without checking soil moisture again. <marks>1 mark</marks>\n- A closed-loop system continuously monitors the soil and adjusts watering accordingly. <marks>1 mark</marks>\n- Closed-loop systems reduce over-watering and increase efficiency. <marks>1 mark</marks>\n- Open-loop systems are simpler but lack feedback accuracy. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155383,
+            "content": "**Figure 3** shows a diagram of basic electronic components, all connected in a circuit.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/a7d00d10-5951-4267-acdd-575963f4f732)\n\nExplain how the different components in the diagram perform specific roles in the system.",
+            "order": 4,
+            "markscheme": "- Resistor limits the current to prevent damage to components. <marks>1 mark</marks>\n- Capacitor stores and releases electrical energy to smooth out voltage fluctuations. <marks>1 mark</marks>\n- Transistor acts as a switch or amplifier depending on circuit configuration. <marks>1 mark</marks>\n- Relay controls high-power devices using a low-power signal from the microcontroller. <marks>1 mark</marks>\n- Diode ensures current flows in only one direction, protecting circuits. <marks>1 mark</marks>\n- Each component contributes to system stability, safety, or control. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c86423a0-5a31-4ec4-b88e-1c37b200988c",
+        "specification": "This smart thermostat automatically adjusts based on room temperature. This most directly demonstrates:\n\n![](https://pub-images.revisiondojo.com/notes/a5ab89df-1d32-4fd8-982f-b64a70911f3e.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584788,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556733,
+            "content": "Environmental feedback in electronics",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556734,
+            "content": "Digital display resolution",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556735,
+            "content": "Signal noise suppression",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556736,
+            "content": "Thermal insulation",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "c9d963c2-e97e-4d57-9d00-b341995a3ea2",
+        "specification": "## Question\nWhat happens during the processing stage of an electronic system?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584779,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556697,
+            "content": "A signal is stored for future use",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556698,
+            "content": "Voltage is converted to mechanical motion",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556699,
+            "content": "Current flows through the entire system",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556700,
+            "content": "An input signal is transformed into an output",
+            "correct": true,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "cf02e97b-1f41-4d89-a46b-162af13829cb",
+        "specification": "The circuit is designed to activate a fan when the temperature exceeds a threshold. What role does the circuit play?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfbgT_Y8zQbWRCIs9tK1U4eqvIbuHnGeWjIFZpTNA_iHnHS34hjSBQ3SKZz3NvPqYvcDdWdmTkX34SWfvSBjV-LRqJ8TyQE2DNgde5oMpHd1v90EfviT7UFakekR_0Shv3Y6uF-?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:52:04.652Z",
+            "resultId": 2100
+          }
+        },
+        "currentRevisionId": 1690617,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930701,
+            "content": "Controlling output based on sensor input",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: the circuit uses a temperature sensor input and a threshold condition to switch/activate the fan output (a control function)."
+          },
+          {
+            "id": 4930702,
+            "content": "Amplifying audio signals",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: audio amplification is unrelated to temperature-threshold fan activation/control."
+          },
+          {
+            "id": 4930703,
+            "content": "Providing wireless data sync",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: wireless data synchronisation is not part of a simple temperature-triggered fan control circuit."
+          },
+          {
+            "id": 4930704,
+            "content": "Displaying sensor values",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: the described function is to control a fan based on temperature, not to display readings."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d2a8c8e8-159e-438a-a916-e7502864fc81",
+        "specification": "What is the correct sequence for the basic operation of an electronic system?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584763,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556661,
+            "content": "Input $\\rightarrow$ Process $\\rightarrow$ Output $\\rightarrow$ Feedback",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556662,
+            "content": "Output $\\rightarrow$ Input $\\rightarrow$ Process $\\rightarrow$ Feedback",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556663,
+            "content": "Process $\\rightarrow$ Input $\\rightarrow$ Output $\\rightarrow$ Feedback",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556664,
+            "content": "Input $\\rightarrow$ Output $\\rightarrow$ Feedback $\\rightarrow$ Process",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "f2f93c81-9d09-44cb-9404-4abe8ef7f3f6",
+        "specification": "What feature defines the digital nature of a sensor such as a digital thermometer?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:26:31.380Z",
+            "resultId": 1766
+          }
+        },
+        "currentRevisionId": 1691076,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930809,
+            "content": "Output of quantized, binary-coded data",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930810,
+            "content": "Reading of continuous values in amperes",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930811,
+            "content": "Display of values as fluctuating waveforms",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930812,
+            "content": "Output of a continuous analog voltage proportional to temperature",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f41dc9bd-f81d-4603-9625-a56281877c48",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-f41dc9bd-f81d-4603-9625-a56281877c48-1772167695732",
+            "generatedAt": "2026-02-27T15:16:56.900Z",
+            "sourceRevisionId": 1584777
+          }
+        },
+        "currentRevisionId": 1689278,
+        "parts": [
+          {
+            "id": 1151546,
+            "content": "The table below displays the voltage readings recorded from two different sensors in an automated factory system over a period of $$1.5$$ seconds.\n\n| Time ($$\\text{s}$$) | Sensor A ($$\\text{V}$$) | Sensor B ($$\\text{V}$$) |\n| :--- | :--- | :--- |\n| 0.0 | 0.5 | 0 |\n| 0.5 | 1.8 | 0 |\n| 1.0 | 3.2 | 5 |\n| 1.5 | 4.6 | 5 |\n\nUsing the data provided, explain why Sensor A is classified as an analogue component while Sensor B is classified as a digital component.",
+            "order": 0,
+            "markscheme": "- **State** that Sensor A is analogue because its output varies continuously (shows a range of intermediate values over time) <marks>1 mark</marks>\n\n- **State** that Sensor B is digital because it consists of only two discrete states (specifically $$0\\text{V}$$ and $$5\\text{V}$$, representing binary off/on) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f54cc0ce-f9d6-4879-9f61-ffcf3585ac3c",
+        "specification": "## Question\nWhat are the essential functional blocks of an electronic system?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:24:45.773Z",
+            "resultId": 1827
+          }
+        },
+        "currentRevisionId": 1691020,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930793,
+            "content": "Input, process, output, feedback loop",
+            "correct": true,
+            "order": 0,
+            "markscheme": "In systems theory, particularly in electronic control systems, the standard model consists of an input, a processing unit, an output, and a feedback loop to monitor and adjust the system."
+          },
+          {
+            "id": 4930794,
+            "content": "Resistor, capacitor, inductor, diode",
+            "correct": false,
+            "order": 1,
+            "markscheme": "These are specific electronic components (passive and active), but they do not describe the functional architecture of a system."
+          },
+          {
+            "id": 4930795,
+            "content": "Sensor, motor, cable, LED",
+            "correct": false,
+            "order": 2,
+            "markscheme": "These are examples of specific input (sensor) and output (motor, LED) devices, but they do not represent the general components of a system model."
+          },
+          {
+            "id": 4930796,
+            "content": "Battery, switch, resistor, light bulb",
+            "correct": false,
+            "order": 3,
+            "markscheme": "These are components of a basic electrical circuit, whereas an electronic system refers to the functional blocks of input, process, and output."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f95de34d-548f-4af1-9912-6b9ab7dfc876",
+        "specification": "What function do control circuits perform in many electronic devices?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584769,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556681,
+            "content": "Monitor and regulate performance",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4556682,
+            "content": "Deliver alternating current",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4556683,
+            "content": "Boost wireless connectivity",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4556684,
+            "content": "Store and compress data",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "f9bfcda0-b4ce-4ac5-b3c4-a5b701c3b0c4",
+        "specification": "A small product design team is developing a night-light that automatically turns on when the room is dark. The team is prototyping the system using a breadboard, a light-dependent resistor (LDR), and a microcontroller.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1693512,
+        "parts": [
+          {
+            "id": 1155413,
+            "content": "The system uses an LDR to detect ambient light levels.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/78742e38-7f05-4f8e-8e27-0343eaf73792)\n\nState the type of signal an LDR provides to the microcontroller.",
+            "order": 0,
+            "markscheme": "An analogue signal that varies with light intensity. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155414,
+            "content": "Explain how the microcontroller interprets the LDR input to activate the night light.",
+            "order": 1,
+            "markscheme": "It uses an analogue-to-digital converter (ADC) to measure voltage. <marks>1 mark</marks>\n\nIt compares the value to a preset threshold to determine darkness. <marks>1 mark</marks>\n\nIf the value is below the threshold, it turns the light on. <marks>1 mark</marks>\n\n*Award [1] per correct point, up to [3 max].*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155415,
+            "content": "The microcontroller turns on an LED strip when the room is dark.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/b1d2a899-4510-4a50-94f4-f196c3ca9ee0)\n\nIdentify the type of signal sent from the microcontroller to control the LED strip.",
+            "order": 2,
+            "markscheme": "A digital output signal. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155416,
+            "content": "Outline two safety considerations when connecting a high-brightness LED strip.",
+            "order": 3,
+            "markscheme": "Ensure correct voltage supply to avoid overloading components. <marks>1 mark</marks>\n\nInclude a resistor or current-limiting driver circuit. <marks>1 mark</marks>\n\n*Award [1] per valid point, up to [2 max].*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155417,
+            "content": "The team wants to upgrade the system to include a motion sensor.\n\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/37aac554-e5cd-4e3e-a587-3490cf19300b)\n\nDescribe how the motion sensor improves the efficiency of the night-light system.",
+            "order": 4,
+            "markscheme": "Prevents the light from turning on unnecessarily when no one is present. <marks>1 mark</marks>\n\nSaves energy by combining motion and light detection logic. <marks>1 mark</marks>\n\n*Award [1] per explanation point, up to [2 max].*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155418,
+            "content": "Suggest one other sensor that could enhance the product and justify its use.",
+            "order": 5,
+            "markscheme": "Temperature sensor to adjust LED brightness based on room temperature. <marks>1 mark</marks>\n\nAdds comfort by dimming the light if the room is warm and brightening it if cold. <marks>1 mark</marks>\n\n*Award [1] for a relevant sensor and [1] for a valid justification, up to [2 max].*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fd31dda2-b8e0-4f23-80b3-7b2d103410d9",
+        "specification": "Which describes the function of an output device?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1584778,
+        "parts": [],
+        "options": [
+          {
+            "id": 4556705,
+            "content": "Stores information long-term.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This describes the function of a secondary storage device."
+          },
+          {
+            "id": 4556706,
+            "content": "Measures humidity or temperature.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "This describes the function of an input device, specifically a sensor."
+          },
+          {
+            "id": 4556707,
+            "content": "Sends heat into the environment.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This is a specific example of a physical effect caused by an actuator, but it does not represent the general function of all output devices."
+          },
+          {
+            "id": 4556708,
+            "content": "Responds to a stimulus by performing a task.",
+            "correct": true,
+            "order": 4,
+            "markscheme": "This correctly identifies the role of an output device, particularly an actuator in a control system, which performs a physical action or task based on processed data."
+          }
+        ],
+        "examBoardId": null
+      }
+    ],
+    "count": "44",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 56790,
+      "title": "A3.4 Introduction to electronic systems (HL only)",
+      "slug": "ib-design-technology-new-a3-4-introduction-to-electronic-systems-hl-only",
+      "parentTopicId": 56736
+    },
+    "subject": {
+      "id": 1,
+      "title": "Design Technology (First Exam 2027)",
+      "slug": "ib-design-technology-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "44",
+      "byQuestion": {}
+    }
+  }
+}

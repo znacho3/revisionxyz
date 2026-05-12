@@ -1,3 +1,2585 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c5fcadf8c910529485104e6006a3f30aed77291d6934272af919870362084b6d
-size 159191
+{
+  "json": {
+    "questions": [
+      {
+        "id": "1c7cf5c5-ec5b-4db2-a1d1-2df51c73ff2e",
+        "specification": "<div class='specification'><p>John likes to go sailing every day in July. To help him make a decision on whether it is safe to go sailing he classifies each day in July as windy or calm. Given that a day in July is calm, the probability that the next day is calm is $0.9$. Given that a day in July is windy, the probability that the next day is calm is $0.3$. The weather forecast for 1 July predicts that the probability that it will be calm is $0.8$.</p></div>",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:30:31.103Z",
+            "resultId": 44054
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 64702,
+              "isHl": true,
+              "path": "Statistics and Probability > AHL 4.19\u2014Transition matrices \u2013 Markov chains > Question Type 3: Using Markov chains to model real-world processes",
+              "title": "Question Type 3: Using Markov chains to model real-world processes",
+              "labeledAt": "2026-03-07T03:33:50.010Z",
+              "reasoning": "Weather over consecutive days is modeled by conditional transition probabilities (calm/windy), i.e., a 2\u2011state Markov chain; questions ask for multi-step probabilities and conditional probability across days.",
+              "confidence": 0.88
+            },
+            {
+              "id": 64636,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.6\u2014Venn diagrams > Question Type 3: Given a worded problem, converting to a tree diagram to calculate probability of an outcome",
+              "title": "Question Type 3: Given a worded problem, converting to a tree diagram to calculate probability of an outcome",
+              "labeledAt": "2026-03-07T03:33:50.010Z",
+              "reasoning": "Part (b) explicitly requires drawing a tree diagram from a worded probability problem to represent sequential conditional probabilities over the first three days.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1697443,
+        "parts": [
+          {
+            "id": 1159672,
+            "content": "<div class='question' style='padding-left: 20px; padding-right: 20px;'><p>Draw a tree diagram to represent this information for the first three days of July.</p></div>",
+            "order": 0,
+            "markscheme": "<p>Attempt to draw a tree diagram with three levels showing probabilities for calm (C) and windy (W):</p>\n<p><img src=\"https://pub-images.revisiondojo.com/notes/cd6697c3-11a0-4c10-9900-7772dd892948.jpeg\" alt=\"Tree Diagram\" /></p>\n<p><strong>Note:</strong> Award 1 mark for each level drawn correctly with appropriate probabilities.</p>\n<p><marks>3 marks</marks></p>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159673,
+            "content": "<div class='question' style='padding-left: 20px; padding-right: 20px;'><p>Find the probability that 3 July is calm.</p></div>",
+            "order": 1,
+            "markscheme": "<p>Identify the four paths that lead to a calm day on 3rd July:</p>\n<p>$(C, C, C), (C, W, C), (W, C, C), (W, W, C)$</p>\n<p>Summing the probabilities of these paths:</p>\n<p>$(0.8 \\times 0.9 \\times 0.9) + (0.8 \\times 0.1 \\times 0.3) + (0.2 \\times 0.3 \\times 0.9) + (0.2 \\times 0.7 \\times 0.3)$ <marks>M1</marks></p>\n<p>$= 0.648 + 0.024 + 0.054 + 0.042 = 0.768$ <marks>A1</marks></p>\n<p><marks>2 marks</marks></p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159674,
+            "content": "<div class='question' style='padding-left: 20px; padding-right: 20px;'><p>Find the probability that 1 July was calm given that 3 July is windy.</p></div>",
+            "order": 2,
+            "markscheme": "<p>Use the conditional probability formula:</p>\n<p>$P(C_1 | W_3) = \\frac{P(C_1 \\cap W_3)}{P(W_3)}$ <marks>M1</marks></p>\n<p>Find the probability that 3rd July is windy:</p>\n<p>$P(W_3) = 1 - P(C_3) = 1 - 0.768 = 0.232$ <marks>A1</marks></p>\n<p>Find the probability that 1st July is calm and 3rd July is windy:</p>\n<p>$P(C_1 \\cap W_3) = (0.8 \\times 0.9 \\times 0.1) + (0.8 \\times 0.1 \\times 0.7) = 0.072 + 0.056 = 0.128$ <marks>A1</marks></p>\n<p>Substitute into the formula:</p>\n<p>$P(C_1 | W_3) = \\frac{0.128}{0.232}$</p>\n<p>$= 0.552$ ($0.551724...$) <marks>A1</marks></p>\n<p><marks>4 marks</marks></p>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2fe86935-fbc5-499e-8063-f3546d9f2460",
+        "specification": "<p>A Chocolate Shop advertises free gifts to customers that collect three vouchers. The vouchers are placed at random into 10% of all chocolate bars sold at this shop. Kati buys some of these bars and she opens them one at a time to see if they contain a voucher. Let $\\text{P}(X = n)$ be the probability that Kati obtains her third voucher on the $n$th bar opened.</p><p>(It is assumed that the probability that a chocolate bar contains a voucher stays at 10% throughout the question.)</p><p>It is given that $\\text{P}(X = n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}$ for $n \\geqslant 3, n \\in \\mathbb{N}$.</p><p>Kati\u2019s mother goes to the shop and buys $x$ chocolate bars. She takes the bars home for Kati to open.</p>",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28584,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.7\u2014Discrete random variables > Question Type 1: Finding the probability of certain outcomes of random variables",
+              "title": "Question Type 1: Finding the probability of certain outcomes of random variables",
+              "labeledAt": "2026-03-05T16:13:54.656Z",
+              "reasoning": "The question centers on a discrete random variable X defined by a specific probability mass function. Parts (a) and (c) involve calculating and manipulating probabilities for specific outcomes of this variable.",
+              "confidence": 0.95
+            },
+            {
+              "id": 64639,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.7\u2014Discrete random variables > Question Type 3: Finding certain values of parameters such that the probability table holds true",
+              "title": "Question Type 3: Finding certain values of parameters such that the probability table holds true",
+              "labeledAt": "2026-03-05T16:13:54.656Z",
+              "reasoning": "Part (b) requires determining the values of constants 'a' and 'b' within the probability mass function formula, which is a task of finding parameters to fit a distribution's definition.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28588,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.8\u2014Binomial distribution > Question Type 3: Using n and p as parameters and finding what values of either satisfy some conditions",
+              "title": "Question Type 3: Using n and p as parameters and finding what values of either satisfy some conditions",
+              "labeledAt": "2026-03-05T16:13:54.656Z",
+              "reasoning": "Part (e) asks for the minimum number of trials 'x' such that the probability of at least 3 successes (a free gift) is greater than 0.5. This is a classic problem of finding the parameter 'n' in a Binomial context.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1456153,
+        "parts": [
+          {
+            "id": 1066361,
+            "content": "<p>Show that $\\text{P}(X = 3) = 0.001$ and $\\text{P}(X = 4) = 0.0027$.</p>",
+            "order": 0,
+            "markscheme": "<ul>\n<li>$\\text{P}(X = 3) = (0.1)^3$ <marks>A1</marks></li>\n<li>$= 0.001$ <marks>AG</marks></li>\n<li>$\\text{P}(X = 4) = \\text{P}(VV\\bar{V}V) + \\text{P}(V\\bar{V}VV) + \\text{P}(\\bar{V}VVV)$ <marks>M1</marks></li>\n<li>$= 3 \\times (0.1)^3 \\times 0.9$ (or equivalent) <marks>A1</marks></li>\n<li>$= 0.0027$ <marks>AG</marks></li>\n</ul>\n<p>3 marks total</p>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "sequence_listing",
+                  "label": "Sequence Listing",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the event",
+                      "content": "To find $P(X = n)$, we need to identify the probability that the **third** voucher is found exactly on the $n$th bar. Using the **Sequence Listing** approach, we list all possible sequences of vouchers ($V$) and non-vouchers ($\\bar{V}$) that satisfy this condition.\n\nKey information:\n- Probability of a voucher: $P(V) = 0.1$\n- Probability of no voucher: $P(\\bar{V}) = 0.9$",
+                      "highlights": [
+                        {
+                          "text": "third voucher on the nth bar",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate P(X = 3)",
+                      "content": "For $X = 3$, Kati must find her third voucher on the 3rd bar. This means the 1st, 2nd, and 3rd bars must all contain vouchers.\n\nThere is only one possible sequence:\n- $VVV$\n\nUsing the multiplication rule for independent events:\n\n$$P(X = 3) = P(V) \\times P(V) \\times P(V) = (0.1)^3 = 0.001$$\n\nThis matches the value given in the question.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.1^3",
+                            "instructions": "Enter 0.1^3 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "0.1^3",
+                            "instructions": "Enter 0.1 ^ 3 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "0.1^3",
+                            "instructions": "Type 0.1^3."
+                          },
+                          "description": "Calculate 0.1 cubed to verify the probability."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "P(X = 3) = 0.001",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate P(X = 4)",
+                      "content": "For $X = 4$, Kati must find her third voucher on the 4th bar. This implies two conditions:\n\n1. The 4th bar **must** be a voucher ($V$).\n2. Exactly **two** vouchers must have appeared in the first three bars.\n\nWe list all sequences that fit this description:\n- $VV\\bar{V}V$\n- $V\\bar{V}VV$\n- $\\bar{V}VVV$\n\nEach sequence has three vouchers and one non-voucher. The probability for each individual sequence is:\n\n$$(0.1)^3 \\times 0.9 = 0.0009$$\n\nSince there are 3 such sequences, we sum them up:\n\n$$P(X = 4) = 3 \\times (0.1)^3 \\times 0.9 = 3 \\times 0.0009 = 0.0027$$\n\nThis confirms the second part of the show-that question.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3 * (0.1^3) * 0.9",
+                            "instructions": "Enter 3 * (0.1^3) * 0.9 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "3 * (0.1^3) * 0.9",
+                            "instructions": "Enter 3 * (0.1^3) * 0.9 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "3 * (0.1^3) * 0.9",
+                            "instructions": "Type 3 * (0.1^3) * 0.9."
+                          },
+                          "description": "Calculate the probability for the sum of the three sequences."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "P(X = 4) = 0.0027",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "combinatorial",
+                  "label": "Combinatorial Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the combinatorial logic",
+                      "content": "To find the probability that the $3^{\\text{rd}}$ voucher is found on the $n^{\\text{th}}$ bar, we use a combinatorial approach. For this to happen:\n1. Exactly **2 vouchers** must be found in the first $n-1$ bars opened.\n2. The **$3^{\\text{rd}}$ voucher** must be found specifically on the $n^{\\text{th}}$ bar.\n\nThe number of ways to arrange 2 vouchers in $n-1$ positions is given by the combination formula $\\binom{n-1}{2}$. \n\nThe probability of success (finding a voucher) is $p = 0.1$, and the probability of failure (no voucher) is $q = 0.9$.",
+                      "highlights": [
+                        {
+                          "text": "10% of all chocolate bars",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "third voucher on the $n$th bar opened",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate P(X = 3)",
+                      "content": "For $n=3$, Kati must find exactly 2 vouchers in the first 2 bars ($n-1 = 2$), and then find the $3^{\\text{rd}}$ voucher on the $3^{\\text{rd}}$ bar.\n\n$$\\begin{aligned} P(X=3) &= \\binom{2}{2} \\times (0.1)^2 \\times (0.9)^{2-2} \\times (0.1) \\\\ &= 1 \\times (0.1)^2 \\times (0.9)^0 \\times (0.1) \\\\ &= (0.1)^3 \\end{aligned}$$\n\nUsing the calculator, we find:\n$$P(X=3) = 0.001$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.1^3",
+                            "instructions": "Enter 0.1^3 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "0.1^3",
+                            "instructions": "Enter 0.1, press the ^ key, then 3, and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "0.1^3",
+                            "instructions": "Type 0.1^3 into the input bar."
+                          },
+                          "description": "Calculate 0.1 raised to the power of 3."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate P(X = 4)",
+                      "content": "For $n=4$, Kati must find exactly 2 vouchers in the first 3 bars ($n-1 = 3$), and then find the $3^{\\text{rd}}$ voucher on the $4^{\\text{th}}$ bar.\n\nThe number of ways to pick 2 bars out of the first 3 is $\\binom{3}{2} = 3$. The probability of getting 2 vouchers and 1 non-voucher in those 3 bars is $(0.1)^2 \\times (0.9)^1$.\n\n$$\\begin{aligned} P(X=4) &= \\binom{3}{2} \\times (0.1)^2 \\times (0.9)^1 \\times (0.1) \\\\ &= 3 \\times (0.1)^3 \\times 0.9 \\end{aligned}$$\n\nUsing the calculator:\n$$P(X=4) = 0.0027$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3 * 0.1^3 * 0.9",
+                            "instructions": "Enter 3 * 0.1^3 * 0.9 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "3 * (0.1^3) * 0.9",
+                            "instructions": "Enter 3 * (0.1^3) * 0.9 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "3 * 0.1^3 * 0.9",
+                            "instructions": "Type 3 * 0.1^3 * 0.9 into the input bar."
+                          },
+                          "description": "Calculate 3 times 0.1 cubed times 0.9."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:57:08.054Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1066362,
+            "content": "<p>Find the values of the constants $a$ and $b$.</p>",
+            "order": 1,
+            "markscheme": "<p><strong>METHOD 1</strong></p>\n<ul>\n<li>Attempting to form equations in $a$ and $b$ <marks>M1</marks></li>\n<li>$\\frac{9 + 3a + b}{2000} = \\frac{1}{1000} \\Rightarrow 3a + b = - 7$ <marks>A1</marks></li>\n<li>$\\frac{16 + 4a + b}{2000} \\times \\frac{9}{10} = \\frac{27}{10\\,000} \\Rightarrow 4a + b = - 10$ <marks>A1</marks></li>\n<li>Attempting to solve simultaneously <marks>M1</marks></li>\n<li>$a = - 3, b = 2$ <marks>A1</marks></li>\n</ul>\n<p><strong>METHOD 2</strong></p>\n<ul>\n<li>$\\text{P}(X = n) = \\binom{n - 1}{2} \\times 0.1^3 \\times 0.9^{n - 3}$ <marks>M1</marks></li>\n<li>$= \\frac{(n - 1)(n - 2)}{2000} \\times 0.9^{n - 3}$ <marks>M1 A1</marks></li>\n<li>$= \\frac{n^2 - 3n + 2}{2000} \\times 0.9^{n - 3}$ <marks>A1</marks></li>\n<li>$a = - 3, b = 2$ <marks>A1</marks></li>\n</ul>\n<p>5 marks total</p>\n<note>Condone the absence of $0.9^{n - 3}$ in the determination of the values of $a$ and $b$.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "substitution_method",
+                  "label": "Substitution and Simultaneous Equations",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Calculate $P(X=3)$",
+                      "content": "To find the constants $a$ and $b$, we first need to calculate actual probabilities for specific values of $n$ using the logic of independent trials. \n\nFor $X=3$, Kati must find a voucher in each of the first three bars she opens. Since the probability of finding a voucher is $10\\%$ or $0.1$:\n\n$$P(X=3) = 0.1 \\times 0.1 \\times 0.1 = 0.1^3 = 0.001$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.1^3",
+                            "instructions": "Enter 0.1^3 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "0.1^3",
+                            "instructions": "Enter 0.1^3 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "0.1^3",
+                            "instructions": "Type 0.1^3 into the input bar."
+                          },
+                          "description": "Calculate 0.1 cubed to verify the probability."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "10% of all chocolate bars",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Form the first equation",
+                      "content": "Now we substitute $n=3$ and our calculated probability $P(X=3) = 0.001$ into the given formula:\n\n$$P(X=n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}$$\n\nSubstituting $n=3$:\n$$\\begin{aligned} 0.001 &= \\frac{3^2 + 3a + b}{2000} \\times 0.9^{3-3} \\\\ 0.001 &= \\frac{9 + 3a + b}{2000} \\times 1 \\\\ 2 &= 9 + 3a + b \\\\ 3a + b &= -7 \\end{aligned}$$\n\nThis is our **Equation 1**.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.001 * 2000",
+                            "instructions": "Enter 0.001 * 2000 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "0.001 * 2000",
+                            "instructions": "Enter 0.001 * 2000 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "0.001 * 2000",
+                            "instructions": "Type 0.001 * 2000."
+                          },
+                          "description": "Verify 0.001 * 2000."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "$$\\text{P}(X = n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}$$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate $P(X=4)$",
+                      "content": "For $X=4$, Kati must find exactly 2 vouchers in the first 3 bars, and then the 4th bar must contain the 3rd voucher.\n\nUsing the binomial logic for the first 3 bars and multiplying by the probability of the 4th bar:\n$$P(X=4) = \\binom{3}{2} \\times (0.1)^2 \\times (0.9)^1 \\times 0.1$$\n\nCalculating this:\n$$P(X=4) = 3 \\times 0.01 \\times 0.9 \\times 0.1 = 0.0027$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "3 * 0.1^3 * 0.9",
+                            "instructions": "Enter 3 * 0.1^3 * 0.9 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "3 * 0.1^3 * 0.9",
+                            "instructions": "Enter 3 * 0.1^3 * 0.9 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "3 * 0.1^3 * 0.9",
+                            "instructions": "Type 3 * 0.1^3 * 0.9."
+                          },
+                          "description": "Calculate the probability P(X=4)."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Form the second equation",
+                      "content": "Substitute $n=4$ and $P(X=4) = 0.0027$ into the formula:\n\n$$\\begin{aligned} 0.0027 &= \\frac{4^2 + 4a + b}{2000} \\times 0.9^{4-3} \\\\ 0.0027 &= \\frac{16 + 4a + b}{2000} \\times 0.9 \\\\ \\frac{0.0027}{0.9} &= \\frac{16 + 4a + b}{2000} \\\\ 0.003 &= \\frac{16 + 4a + b}{2000} \\\\ 6 &= 16 + 4a + b \\\\ 4a + b &= -10 \\end{aligned}$$\n\nThis is our **Equation 2**.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.003 * 2000",
+                            "instructions": "Enter 0.003 * 2000 and press EXE."
+                          },
+                          "ti84": {
+                            "expression": "0.003 * 2000",
+                            "instructions": "Enter 0.003 * 2000 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "0.003 * 2000",
+                            "instructions": "Type 0.003 * 2000."
+                          },
+                          "description": "Verify 0.003 * 2000."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Solve the system",
+                      "content": "We now have a system of two linear equations:\n1) $3a + b = -7$\n2) $4a + b = -10$\n\nSubtract Equation 1 from Equation 2:\n$$(4a - 3a) + (b - b) = -10 - (-7)$$\n$$a = -3$$\n\nNow substitute $a = -3$ back into Equation 1:\n$$\\begin{aligned} 3(-3) + b &= -7 \\\\ -9 + b &= -7 \\\\ b &= 2 \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "Go to 'EQUA' mode. Select 'Simultaneous'. Set Unknowns to 2. Enter coefficients: 3x + 1y = -7 and 4x + 1y = -10. Press 'SOLVE'."
+                          },
+                          "ti84": {
+                            "instructions": "Go to [APPS] then 'PlySmlt2'. Choose 'Simult Eqn Solver'. Set equations to 2 and unknowns to 2. Enter coefficients: [[3, 1, -7], [4, 1, -10]]. Press [SOLVE]."
+                          },
+                          "desmos": {
+                            "instructions": "Type the two equations on separate lines: 3a + b = -7 and 4a + b = -10. The intersection point of the lines represents (a, b)."
+                          },
+                          "description": "Solve the system using a matrix or simultaneous equation solver."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Final Answer",
+                      "content": "The constants are:\n$$a = -3, b = 2$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "negative_binomial_formula",
+                  "label": "Negative Binomial General Form",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the probability distribution",
+                      "content": "To find the values of $a$ and $b$, we need to express the probability $P(X = n)$ using the logic of the **Negative Binomial distribution**. \n\nFor Kati to get her **third** voucher on exactly the **$n$th** bar, two things must happen:\n1. She must get exactly **2 vouchers** in the first **$n-1$** bars.\n2. She must get a **voucher** on the **$n$th** bar.\n\nThe probability of getting a voucher is $p = 0.1$, and the probability of not getting one is $q = 0.9$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Set up the general formula",
+                      "content": "Using the binomial probability logic for the first $n-1$ trials and multiplying by the probability of success on the final trial, the general form is:\n\n$$P(X = n) = \\binom{n-1}{2} \\times (0.1)^2 \\times (0.9)^{(n-1)-2} \\times (0.1)^1$$\n\nSimplifying the powers of $0.1$ and $0.9$, we get:\n\n$$P(X = n) = \\binom{n-1}{2} \\times (0.1)^3 \\times (0.9)^{n-3}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Expand the binomial coefficient",
+                      "content": "Next, we expand the binomial coefficient $\\binom{n-1}{2}$ into a quadratic expression in terms of $n$:\n\n$$\\binom{n-1}{2} = \\frac{(n-1)!}{2!(n-1-2)!} = \\frac{(n-1)(n-2)}{2}$$\n\nExpanding the numerator:\n\n$$(n-1)(n-2) = n^2 - 2n - n + 2 = n^2 - 3n + 2$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Simplify the full expression",
+                      "content": "Now we substitute this back into our probability formula and simplify the constants. Note that $(0.1)^3 = 0.001$, which is the same as $\\frac{1}{1000}$.\n\n$$\\begin{aligned} P(X = n) &= \\frac{n^2 - 3n + 2}{2} \\times \\frac{1}{1000} \\times 0.9^{n-3} \\\\ &= \\frac{n^2 - 3n + 2}{2000} \\times 0.9^{n-3} \\end{aligned}$$\n\nLet's verify the calculation of the denominator.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2 * 1000",
+                            "instructions": "Type the calculation on the main screen."
+                          },
+                          "ti84": {
+                            "expression": "2 * 1000",
+                            "instructions": "Type the calculation on the home screen."
+                          },
+                          "desmos": {
+                            "expression": "2 * 1000",
+                            "instructions": "Type the expression in a new cell."
+                          },
+                          "description": "Verify that 2 * 1000 equals 2000."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Equate coefficients",
+                      "content": "Finally, we compare our derived formula to the one given in the question:\n\nGiven: $P(X = n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}$\n\nDerived: $P(X = n) = \\frac{n^2 - 3n + 2}{2000} \\times 0.9^{n-3}$\n\nBy equating the coefficients of the quadratic in the numerator, we find:\n$$a = -3, \\quad b = 2$$",
+                      "highlights": [
+                        {
+                          "text": "P(X = n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T07:26:09.109Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1066363,
+            "content": "<p>Deduce that $\\frac{\\text{P}(X = n)}{\\text{P}(X = n - 1)} = \\frac{0.9(n - 1)}{n - 3}$ for $n > 3$.</p>",
+            "order": 2,
+            "markscheme": "<p><strong>METHOD 1</strong></p>\n<ul>\n<li>$\\text{P}(X = n) = \\frac{n^2 - 3n + 2}{2000} \\times 0.9^{n - 3}$ <strong>OR</strong> $\\text{P}(X = n) = \\binom{n - 1}{2} \\times 0.1^3 \\times 0.9^{n - 3}$ <marks>M1</marks></li>\n<li>$= \\frac{(n - 1)(n - 2)}{2000} \\times 0.9^{n - 3}$ <marks>A1</marks></li>\n<li>$\\text{P}(X = n - 1) = \\frac{(n - 2)(n - 3)}{2000} \\times 0.9^{n - 4}$ <marks>A1</marks></li>\n<li>$\\frac{\\text{P}(X = n)}{\\text{P}(X = n - 1)} = \\frac{(n - 1)(n - 2)}{(n - 2)(n - 3)} \\times 0.9$ <marks>A1</marks></li>\n<li>$= \\frac{0.9(n - 1)}{n - 3}$ <marks>AG</marks></li>\n</ul>\n<p><strong>METHOD 2</strong></p>\n<ul>\n<li>$\\frac{\\text{P}(X = n)}{\\text{P}(X = n - 1)} = \\frac{\\frac{n^2 - 3n + 2}{2000} \\times 0.9^{n - 3}}{\\frac{(n - 1)^2 - 3(n - 1) + 2}{2000} \\times 0.9^{n - 4}}$ <marks>M1</marks></li>\n<li>$= \\frac{0.9(n^2 - 3n + 2)}{n^2 - 5n + 6}$ <marks>A1 A1</marks></li>\n<li>$= \\frac{0.9(n - 1)(n - 2)}{(n - 2)(n - 3)}$ <marks>A1</marks></li>\n<li>$= \\frac{0.9(n - 1)}{n - 3}$ <marks>AG</marks></li>\n</ul>\n<p>4 marks total</p>\n<note>In Method 2, award A1 for a correct numerator and A1 for a correct denominator.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic_substitution",
+                  "label": "Algebraic Substitution",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the given formula",
+                      "content": "To start, we look at the probability density function given in the problem. From the previous parts of the question, we have already determined that $a = -3$ and $b = 2$. \n\nWe will use the general expression:\n\n$$\\text{P}(X = n) = \\frac{n^2 - 3n + 2}{2000} \\times 0.9^{n - 3}$$",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "\\text{P}(X = n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Factorize the quadratic expression",
+                      "content": "Before substituting $n-1$, let's simplify the numerator $n^2 - 3n + 2$ by factorizing it. This will make the division much easier later on.\n\n$$\\begin{aligned} n^2 - 3n + 2 &= (n - 1)(n - 2) \\end{aligned}$$\n\nSo, the expression for $\\text{P}(X = n)$ is:\n\n$$\\text{P}(X = n) = \\frac{(n - 1)(n - 2)}{2000} \\times 0.9^{n - 3}$$",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Determine P(X = n-1)",
+                      "content": "Now, we find the expression for $\\text{P}(X = n - 1)$ by substituting $(n - 1)$ for every $n$ in our factorized formula.\n\n$$\\begin{aligned} \\text{P}(X = n - 1) &= \\frac{((n - 1) - 1)((n - 1) - 2)}{2000} \\times 0.9^{(n - 1) - 3} \\\\ &= \\frac{(n - 2)(n - 3)}{2000} \\times 0.9^{n - 4} \\end{aligned}$$",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Set up the ratio",
+                      "content": "We now divide $\\text{P}(X = n)$ by $\\text{P}(X = n - 1)$:\n\n$$\\frac{\\text{P}(X = n)}{\\text{P}(X = n - 1)} = \\frac{\\frac{(n - 1)(n - 2)}{2000} \\times 0.9^{n - 3}}{\\frac{(n - 2)(n - 3)}{2000} \\times 0.9^{n - 4}}$$",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Simplify and deduce",
+                      "content": "Now we cancel out the common terms. \n\n1. The $2000$ in the denominators cancels out.\n2. The $(n - 2)$ factor cancels out.\n3. For the powers of $0.9$, we use the rule $\\frac{x^a}{x^b} = x^{a - b}$:\n\n$$\\frac{0.9^{n - 3}}{0.9^{n - 4}} = 0.9^{(n - 3) - (n - 4)} = 0.9^1 = 0.9$$\n\nPutting it all together, we get:\n\n$$\\frac{\\text{P}(X = n)}{\\text{P}(X = n - 1)} = \\frac{0.9(n - 1)}{n - 3}$$",
+                      "calculator": []
+                    }
+                  ]
+                },
+                {
+                  "id": "combinatorial_definition",
+                  "label": "Combinatorial Definition",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define P(X = n)",
+                      "content": "To find the probability that Kati gets her third voucher on the $n^{th}$ bar, we use the combinatorial definition of the negative binomial distribution. For this to happen, she must have exactly $2$ successes in the first $n-1$ trials, followed by a success on the $n^{th}$ bar.\n\nGiven the probability of a voucher is $p = 0.1$ and the probability of no voucher is $q = 0.9$, we have:\n\n$$P(X = n) = \\binom{n - 1}{2} \\times (0.1)^3 \\times (0.9)^{n - 3}$$",
+                      "highlights": [
+                        {
+                          "text": "vouchers are placed at random into 10% of all chocolate bars",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "obtain her third voucher on the $n$th bar opened",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define P(X = n-1)",
+                      "content": "To find $P(X = n - 1)$, we replace $n$ with $n - 1$ in the previous formula:\n\n$$P(X = n - 1) = \\binom{(n - 1) - 1}{2} \\times (0.1)^3 \\times (0.9)^{(n - 1) - 3}$$\n\nSimplifying the terms, we get:\n\n$$P(X = n - 1) = \\binom{n - 2}{2} \\times (0.1)^3 \\times (0.9)^{n - 4}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Set up the ratio",
+                      "content": "Now, we form the ratio $\\frac{P(X = n)}{P(X = n - 1)}$ and cancel the common constant factor $(0.1)^3$:\n\n$$\\frac{P(X = n)}{P(X = n - 1)} = \\frac{\\binom{n - 1}{2} \\times (0.1)^3 \\times (0.9)^{n - 3}}{\\binom{n - 2}{2} \\times (0.1)^3 \\times (0.9)^{n - 4}} = \\frac{\\binom{n - 1}{2} \\times (0.9)^{n - 3}}{\\binom{n - 2}{2} \\times (0.9)^{n - 4}}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Simplify powers and coefficients",
+                      "content": "Using the exponent rule $\\frac{a^m}{a^{m-1}} = a^1$, the powers of $0.9$ simplify to:\n\n$$\\frac{0.9^{n - 3}}{0.9^{n - 4}} = 0.9$$\n\nNext, expand the binomial coefficients using $\\binom{k}{2} = \\frac{k(k-1)}{2}$:\n\n$$\\begin{aligned} \\frac{P(X = n)}{P(X = n - 1)} &= \\frac{\\frac{(n - 1)(n - 2)}{2}}{\\frac{(n - 2)(n - 3)}{2}} \\times 0.9 \\\\ &= \\frac{(n - 1)(n - 2)}{(n - 2)(n - 3)} \\times 0.9 \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final result",
+                      "content": "Canceling the common factor $(n - 2)$ from the numerator and the denominator, we obtain the required result:\n\n$$\\frac{P(X = n)}{P(X = n - 1)} = \\frac{0.9(n - 1)}{n - 3}$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:59:44.229Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1066364,
+            "content": "<p>(i) Hence show that $X$ has two modes $m_1$ and $m_2$.</p><p>(ii) State the values of $m_1$ and $m_2$.</p>",
+            "order": 3,
+            "markscheme": "<p>(i)</p>\n<ul>\n<li>Attempting to solve $\\frac{0.9(n - 1)}{n - 3} = 1$ for $n$ <marks>M1</marks></li>\n<li>$n = 21$ <marks>A1</marks></li>\n<li>$\\frac{0.9(n - 1)}{n - 3} < 1 \\Rightarrow n > 21$ <marks>R1</marks></li>\n<li>$\\frac{0.9(n - 1)}{n - 3} > 1 \\Rightarrow n < 21$ <marks>R1</marks></li>\n<li>$X$ has two modes <marks>AG</marks></li>\n</ul>\n<p>(ii)</p>\n<ul>\n<li>The modes are 20 and 21 <marks>A1</marks></li>\n</ul>\n<p>5 marks total</p>\n<note>Award R1R1 for a clearly labelled graphical representation of the two inequalities (using the ratio).</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "ratio_test",
+                  "label": "Ratio of Successive Terms",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Probability Ratio",
+                      "content": "To find the modes of a discrete distribution, we can examine the ratio of successive terms. A mode occurs where the probability reaches its maximum value. We start by setting up the ratio:\n\n$$\\frac{P(X = n)}{P(X = n - 1)}$$\n\nUsing the given formula $P(X = n) = \\frac{(n-1)(n-2)}{2000} \\times 0.9^{n-3}$ (which comes from the expansion of $n^2 + an + b$ in previous parts), we substitute for $n$ and $n-1$.",
+                      "highlights": [
+                        {
+                          "text": "$P(X = n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Simplify the Ratio",
+                      "content": "We simplify the ratio by canceling common terms:\n\n$$\\begin{aligned} \\frac{P(X = n)}{P(X = n - 1)} &= \\frac{\\frac{(n-1)(n-2)}{2000} \\times 0.9^{n-3}}{\\frac{(n-2)(n-3)}{2000} \\times 0.9^{n-4}} \\\\ &= \\frac{(n-1)(n-2)}{(n-2)(n-3)} \\times \\frac{0.9^{n-3}}{0.9^{n-4}} \\\\ &= \\frac{n-1}{n-3} \\times 0.9 \\end{aligned}$$\n\nThis gives us the simplified ratio: \n\n$$\\frac{0.9(n-1)}{n-3}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for Equal Probabilities",
+                      "content": "If two adjacent probabilities are equal, the ratio will be $1$. This indicates the peak of the distribution. We solve for $n$:\n\n$$\\begin{aligned} \\frac{0.9(n-1)}{n-3} &= 1 \\\\ 0.9n - 0.9 &= n - 3 \\\\ 3 - 0.9 &= n - 0.9n \\\\ 2.1 &= 0.1n \\\\ n &= 21 \\end{aligned}$$\n\nSince $n=21$ is the solution, we know that $P(X=21) = P(X=20)$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.9(x-1)/(x-3) = 1",
+                            "instructions": "Enter the equation 0.9(x-1)/(x-3) = 1 into your solver or find the intersection of Y1 = 0.9(x-1)/(x-3) and Y2 = 1."
+                          },
+                          "ti84": {
+                            "instructions": "Go to the solver (MATH -> B:Solver or Numeric Solver). Enter 0.9(X-1)/(X-3) - 1 = 0 and solve for X."
+                          },
+                          "desmos": {
+                            "expression": "0.9(x-1)/(x-3) = 1",
+                            "instructions": "Graph y = 0.9(x-1)/(x-3) and y = 1 and find the point of intersection."
+                          },
+                          "description": "Calculate the value of n by isolating the variable."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "Attempting to solve $\\frac{0.9(n - 1)}{n - 3} = 1$ for $n$",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Analyze the Distribution's Trend",
+                      "content": "To confirm these are modes, we check the behavior of the ratio around $n=21$:\n\n1.  **Increasing:** If $n < 21$, the ratio $\\frac{0.9(n-1)}{n-3} > 1$. This means probabilities are increasing ($P(X=n) > P(X=n-1)$).\n2.  **Decreasing:** If $n > 21$, the ratio $\\frac{0.9(n-1)}{n-3} < 1$. This means probabilities are decreasing ($P(X=n) < P(X=n-1)$).\n\nBecause the distribution increases up to $n=20$, stays the same at $n=21$, and decreases afterwards ($P(19) < P(20) = P(21) > P(22)$), there are exactly two modes.",
+                      "highlights": [
+                        {
+                          "text": "$\\frac{0.9(n - 1)}{n - 3} < 1 \\Rightarrow n > 21$",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme"
+                        },
+                        {
+                          "text": "$\\frac{0.9(n - 1)}{n - 3} > 1 \\Rightarrow n < 21$",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the Values",
+                      "content": "The two modes occur at the trials where the probability is at its maximum and equal.\n\n$$m_1 = 20, m_2 = 21$$",
+                      "highlights": [
+                        {
+                          "text": "The modes are 20 and 21",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "table_values",
+                  "label": "GDC Table of Values",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Probability Function",
+                      "content": "To find the modes, we need to find the values of $n$ that maximize the probability $P(X = n)$. \n\nUsing the results from previous parts of the question, we have $a = -3$ and $b = 2$. Thus, the probability mass function is:\n\n$$P(X = n) = \\frac{n^2 - 3n + 2}{2000} \\times 0.9^{n - 3}$$\n\nfor $n \\geqslant 3, n \\in \\mathbb{N}$.",
+                      "highlights": [
+                        {
+                          "text": "P(X = n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Set Up GDC Table",
+                      "content": "We can use the Table function on a graphing calculator to calculate the probabilities for discrete values of $n$. Enter the function into your calculator and set the table to start at $n = 3$ with increments of $1$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "(x^2 - 3x + 2)/2000 * 0.9^(x-3)",
+                            "instructions": "1. Go to the Table menu.\n2. Enter the function f(x) = (x^2 - 3x + 2)/2000 * 0.9^(x-3).\n3. Set the table range from 3 to 30 with a step of 1.\n4. View the table of values."
+                          },
+                          "ti84": {
+                            "expression": "(X^2 - 3X + 2)/2000 * 0.9^(X-3)",
+                            "instructions": "1. Press [Y=] and enter Y1 = (X^2 - 3X + 2)/2000 * 0.9^(X-3).\n2. Press [2nd] [WINDOW] (TBLSET) and set TblStart = 3 and \u0394Tbl = 1.\n3. Press [2nd] [GRAPH] (TABLE) to view the values."
+                          },
+                          "desmos": {
+                            "expression": "f(n) = (n^2 - 3n + 2)/2000 * 0.9^{n-3}",
+                            "instructions": "1. Type f(n) = (n^2 - 3n + 2)/2000 * 0.9^(n-3).\n2. Click the gear icon and select 'Convert to Table'.\n3. Change the 'n' values to 19, 20, 21, and 22 to compare the probabilities."
+                          },
+                          "description": "Generate a table of values for the probability function."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the Table",
+                      "content": "By scrolling through the table, we observe how $P(X = n)$ changes as $n$ increases. We are looking for the point where the probabilities reach their maximum.\n\n$$\\begin{array}{|c|c|} \\hline n & P(X=n) \\\\ \\hline 18 & 0.02798... \\\\ 19 & 0.02835... \\\\ 20 & 0.02852... \\\\ 21 & 0.02852... \\\\ 22 & 0.02837... \\\\ \\hline \\end{array}$$\n\nThe probabilities increase until $n = 20$, stay exactly the same at $n = 21$, and then begin to decrease for $n > 21$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Verify Equality of Modes",
+                      "content": "To confirm that $P(X = 20)$ and $P(X = 21)$ are identical, we can look at the ratio:\n\n$$\\frac{P(X = 21)}{P(X = 20)} = \\frac{\\frac{21^2 - 3(21) + 2}{2000} \\times 0.9^{18}}{\\frac{20^2 - 3(20) + 2}{2000} \\times 0.9^{17}}$$\n\n$$\\frac{P(X = 21)}{P(X = 20)} = \\frac{380}{342} \\times 0.9 = \\frac{190}{171} \\times 0.9 = 1.111... \\times 0.9 = 1$$\n\nSince the ratio is $1$, the probabilities are exactly equal."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Identify the Modes",
+                      "content": "Since $P(X=n)$ reaches its maximum value at both $n = 20$ and $n = 21$, the distribution is bimodal.\n\n(i) Because the peak is shared by two adjacent values ($P(X=20) = P(X=21)$) and all other values are lower, $X$ has two modes.\n\n(ii) The values are $m_1 = 20$ and $m_2 = 21$.",
+                      "highlights": [
+                        {
+                          "text": "X has two modes",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "State the values of m_1 and m_2.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T07:00:54.835Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1066365,
+            "content": "<p>Determine the minimum value of $x$ such that the probability Kati receives at least one free gift is greater than 0.5.</p>",
+            "order": 4,
+            "markscheme": "<p><strong>METHOD 1</strong></p>\n<ul>\n<li>$Y \\sim \\text{B}(x, 0.1)$ <marks>A1</marks></li>\n<li>Attempting to solve $\\text{P}(Y \\geqslant 3) > 0.5$ (or equivalent e.g. $1 - \\text{P}(Y \\leqslant 2) > 0.5$) for $x$ <marks>M1</marks></li>\n<li>$x = 27$ <marks>A1</marks></li>\n</ul>\n<p><strong>METHOD 2</strong></p>\n<ul>\n<li>$\\sum_{n = 0}^x \\text{P}(X = n) > 0.5$ <marks>A1</marks></li>\n<li>Attempting to solve for $x$ <marks>M1</marks></li>\n<li>$x = 27$ <marks>A1</marks></li>\n</ul>\n<p>3 marks total</p>\n<note>Award M1 for attempting to solve an equality (obtaining x = 26.4).</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "binomial_distribution",
+                  "label": "Binomial Distribution Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the distribution",
+                      "content": "To solve this using a binomial approach, we let $Y$ be the random variable representing the number of vouchers Kati finds in $x$ chocolate bars.\n\nSince each bar is independent and has a constant probability of containing a voucher, we model $Y$ with a Binomial Distribution:\n\n$$Y \\sim \\text{B}(x, 0.1)$$\n\nWhere:\n- $x$ is the number of trials (chocolate bars).\n- $p = 0.1$ is the probability of finding a voucher in one bar.",
+                      "highlights": [
+                        {
+                          "text": "vouchers are placed at random into 10% of all chocolate bars",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "$$E(X)=np$$",
+                          "location": "data_booklet",
+                          "sectionName": "Statistics and Probability"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Set up the inequality",
+                      "content": "Kati receives a free gift if she collects at least three vouchers. We want to find the minimum number of bars $x$ such that the probability of getting at least 3 vouchers is greater than $0.5$:\n\n$$\\text{P}(Y \\geqslant 3) > 0.5$$\n\nUsing the complement rule, this is equivalent to:\n\n$$1 - \\text{P}(Y \\leqslant 2) > 0.5$$\n\n$$\\text{P}(Y \\leqslant 2) < 0.5$$",
+                      "highlights": [
+                        {
+                          "text": "collect three vouchers",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "probability Kati receives at least one free gift is greater than 0.5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve using technology",
+                      "content": "We can use a Graphing Display Calculator (GDC) to evaluate the cumulative binomial probability $\\text{P}(Y \\leqslant 2)$ for different values of $x$. We are looking for the smallest integer $x$ where the probability drops below $0.5$.\n\nTesting integer values for $x$:\n- For $x = 26$: $\\text{P}(Y \\geqslant 3) = 1 - \\text{P}(Y \\leqslant 2) \\approx 0.4895$\n- For $x = 27$: $\\text{P}(Y \\geqslant 3) = 1 - \\text{P}(Y \\leqslant 2) \\approx 0.5154$\n\nSince $x=27$ is the first integer where the probability exceeds $0.5$, this is our minimum value.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "1. Go to the Statistics or Table menu.\n2. Define a function or list for 1 - BinomialCD(2, x, 0.1).\n3. Find the smallest integer x that produces a result > 0.5."
+                          },
+                          "ti84": {
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = 1 - binomcdf(X, 0.1, 2).\n3. Press [2nd] [GRAPH] to view the TABLE.\n4. Scroll down to find the first X where Y1 is greater than 0.5."
+                          },
+                          "desmos": {
+                            "expression": "f(x) = 1 - binomialdist(x, 0.1).cumulative(0, 2)",
+                            "instructions": "1. Define the cumulative probability function: f(x) = 1 - binomialdist(x, 0.1).cumulative(0, 2).\n2. Create a table for x values (20, 21, ..., 30) to see when f(x) > 0.5."
+                          },
+                          "description": "Find the value of x where 1 - binomcdf(x, 0.1, 2) > 0.5 by using a table or graph."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The calculation shows that with $26$ bars, the probability is just under $50\\%$, but with $27$ bars, the probability rises to approximately $51.5\\%$.\n\nTherefore, the minimum value is $x = 27$."
+                    }
+                  ]
+                },
+                {
+                  "id": "summation_method",
+                  "label": "Summation of Probabilities",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the event",
+                      "content": "Kati receives a free gift if she collects **three vouchers**. The random variable $X$ represents the number of the bar where she finds her third voucher. For her to receive *at least* one gift from $x$ bars, she must find that third voucher on or before the $x$-th bar.\n\nMathematically, this means we are looking for the probability that $X \\leq x$.",
+                      "highlights": [
+                        {
+                          "text": "at least one free gift is greater than 0.5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Set up the summation",
+                      "content": "The probability of getting the third voucher on exactly the $n$-th bar is given by $P(X=n)$. To find the probability of getting it within $x$ bars, we sum these individual probabilities from the minimum possible value ($n=3$) up to $x$:\n\n$$\\sum_{n=3}^{x} P(X=n) > 0.5$$\n\nSubstituting the given formula for $P(X=n)$ (where $a = -3$ and $b = 2$ are derived from the properties of a negative binomial distribution):\n\n$$\\sum_{n=3}^{x} \\left( \\frac{n^2 - 3n + 2}{2000} \\times 0.9^{n-3} \\right) > 0.5$$",
+                      "highlights": [
+                        {
+                          "text": "$$\\text{P}(X = n) = \\frac{n^2 + an + b}{2000} \\times 0.9^{n - 3}$$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Use technology to calculate",
+                      "content": "Since we need to find the minimum integer $x$, we can use a GDC to calculate the cumulative sum for different values of $x$. We are looking for the first value where the total probability exceeds $0.5$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "Use the 'Summation' function in the Run-Matrix menu. Enter \u03a3((x^2 - 3x + 2)/2000 * 0.9^(x-3), 3, x_upper). Test values for x_upper."
+                          },
+                          "ti84": {
+                            "instructions": "Go to [MATH] -> [0:summation \u03a3(]. Enter the expression: \u03a3( (N^2 - 3N + 2)/2000 * 0.9^(N-3), N, 3, X). Alternatively, use the Table feature by setting Y1 = sum(seq((N^2 - 3N + 2)/2000 * 0.9^(N-3), N, 3, X))."
+                          },
+                          "desmos": {
+                            "expression": "\\sum_{n=3}^{x}\\frac{n^{2}-3n+2}{2000}\\cdot0.9^{n-3}",
+                            "instructions": "Type 'sum' to get the summation symbol. Set the lower limit to n=3 and the upper limit to x. Enter the formula and adjust x to see the result."
+                          },
+                          "description": "Calculate the cumulative sum for x = 26 and x = 27 to find the threshold."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Evaluate results",
+                      "content": "By testing values of $x$ near the threshold, we find:\n\n*   For $x = 26$:\n    $$\\sum_{n=3}^{26} P(X=n) \\approx 0.4895$$\n*   For $x = 27$:\n    $$\\sum_{n=3}^{27} P(X=n) \\approx 0.5154$$\n\nSince $0.4895 < 0.5$ and $0.5154 > 0.5$, the first time the probability exceeds $0.5$ is at $x = 27$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final answer",
+                      "content": "The minimum number of chocolate bars Kati's mother needs to buy to ensure the probability of at least one free gift is greater than $0.5$ is:\n\n$$x = 27$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T07:01:57.807Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "3f2f3345-ea27-4dad-b694-3125e5416eb5",
+        "specification": "A soccer team's performance is analyzed by looking at the number of goals they score in each match. Let $X$ be the discrete random variable representing the number of goals scored by the team in a single match. The probability distribution of $X$ is shown in the table below.\n\n| $x$ | $0$ | $1$ | $2$ | $3$ |\n| :--- | :--- | :--- | :--- | :--- |\n| $P(X=x)$ | $0.20$ | $p$ | $q$ | $0.15$ |\n\nIt is known that the mean number of goals scored per match is $1.3$.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-3f2f3345-ea27-4dad-b694-3125e5416eb5-1771929956947",
+            "generatedAt": "2026-02-26T11:48:46.613Z",
+            "sourceRevisionId": 1456307
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64639,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.7\u2014Discrete random variables > Question Type 3: Finding certain values of parameters such that the probability table holds true",
+              "title": "Question Type 3: Finding certain values of parameters such that the probability table holds true",
+              "labeledAt": "2026-03-07T17:26:38.550Z",
+              "reasoning": "Uses a discrete random variable probability table with unknown parameters p and q; requires enforcing probabilities sum to 1 to relate q to p and solve for p.",
+              "confidence": 0.92
+            },
+            {
+              "id": 28585,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.7\u2014Discrete random variables > Question Type 2: Finding the expected value of outcomes of random variables",
+              "title": "Question Type 2: Finding the expected value of outcomes of random variables",
+              "labeledAt": "2026-03-07T17:26:38.550Z",
+              "reasoning": "Requires forming and using the expected value E(X) from a discrete distribution (given mean 1.3) to find p.",
+              "confidence": 0.88
+            },
+            {
+              "id": 28584,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.7\u2014Discrete random variables > Question Type 1: Finding the probability of certain outcomes of random variables",
+              "title": "Question Type 1: Finding the probability of certain outcomes of random variables",
+              "labeledAt": "2026-03-07T17:26:38.550Z",
+              "reasoning": "Asks for probabilities of events from the distribution, specifically P(X\u22652)=P(X=2)+P(X=3).",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1688378,
+        "parts": [
+          {
+            "id": 1149730,
+            "content": "Write down an expression for $q$ in terms of $p$.",
+            "order": -1,
+            "markscheme": "- $\\sum P(X=x) = 1$\n- $0.20 + p + q + 0.15 = 1$\n- $q = 0.65 - p$ <marks>A1</marks>\n\n1 mark total",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149731,
+            "content": "Find an expression for the expected value $E(X)$ in terms of $p$.",
+            "order": 0,
+            "markscheme": "- $E(X) = 0(0.20) + 1(p) + 2(q) + 3(0.15)$\n- $E(X) = p + 2(0.65 - p) + 0.45$\n- $E(X) = 1.75 - p$ <marks>A1</marks>\n\n1 mark total\n\n<note>Award A1 for the simplified expression.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149732,
+            "content": "Calculate the value of $p$.",
+            "order": 1,
+            "markscheme": "- Setting up the equation: $1.75 - p = 1.3$ <marks>M1</marks>\n- $p = 0.45$ <marks>A1</marks>\n\n2 marks total\n\n<note>Award M1 for equating their expression in (b) to $1.3$.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149733,
+            "content": "Find the probability that the team scores at least $2$ goals in a match.",
+            "order": 2,
+            "markscheme": "- $q = 0.65 - 0.45 = 0.20$\n- $P(X \\ge 2) = P(X=2) + P(X=3)$\n- $0.20 + 0.15 = 0.35$ <marks>A1</marks>\n\n1 mark total",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "953122a4-3873-4658-9706-05d02721e7a8",
+        "specification": "A study at Sector 7 University surveyed 200 students about their usage of two AI tools for research: Tool S and Tool T. The results showed that 110 students use Tool S and 90 students use Tool T. Additionally, it was recorded that 40 students do not use either tool. This data is represented in the Venn diagram below, where $x, y, z,$ and $w$ represent the number of students in each region.\n\n![Venn diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-953122a4-3873-4658-9706-05d02721e7a8-1771929956947/6eb052c4-5f87-408b-aa2a-1681751de667.jpeg)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-953122a4-3873-4658-9706-05d02721e7a8-1771929956947",
+            "generatedAt": "2026-02-25T20:41:39.040Z",
+            "sourceRevisionId": 1457241
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28580,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.6\u2014Venn diagrams > Question Type 1: Constructing Venn diagrams to calculate probabilities for 2 events",
+              "title": "Question Type 1: Constructing Venn diagrams to calculate probabilities for 2 events",
+              "labeledAt": "2026-03-07T03:33:29.133Z",
+              "reasoning": "Parts (a\u2013f) require filling regions in a 2-set Venn diagram from totals and then finding related and conditional probabilities.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28581,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.6\u2014Venn diagrams > Question Type 5: Working with conditions",
+              "title": "Question Type 5: Working with conditions",
+              "labeledAt": "2026-03-07T03:33:29.133Z",
+              "reasoning": "Includes conditional probability such as P(T | at least one tool), i.e., probability with conditions interpreted via the Venn diagram.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28587,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.8\u2014Binomial distribution > Question Type 1: Finding the probability of outcomes for binomial distribution using the GDC",
+              "title": "Question Type 1: Finding the probability of outcomes for binomial distribution using the GDC",
+              "labeledAt": "2026-03-07T03:33:29.133Z",
+              "reasoning": "Parts (g\u2013h) model the count of students using neither tool in a sample of 8 as Bin(n,p) and compute exact/at-least probabilities.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1686390,
+        "parts": [
+          {
+            "id": 1146955,
+            "content": "Find the value of $y$.",
+            "order": 0,
+            "markscheme": "- Calculate the total number of students using at least one tool: $200 - 40 = 160$ <marks>M1</marks>\n- Calculate the intersection: $110 + 90 - 160 = 40$. So, $y = 40$. <marks>A1</marks>\n\n2 marks total\n\n<note>y represents the number of students who use both Tool S and Tool T.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146956,
+            "content": "Find the value of $x$.",
+            "order": 1,
+            "markscheme": "- State the value for students using only Tool S: $110 - 40 = 70$. So, $x = 70$. <marks>A1</marks>\n\n1 mark total\n\n<note>x represents the number of students who use Tool S but not Tool T.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146957,
+            "content": "Find the value of $z$.",
+            "order": 2,
+            "markscheme": "- Calculate the number of students using only Tool T: $90 - 40 = 50$ <marks>M1</marks>\n- State the value: $z = 50$. <marks>A1</marks>\n\n2 marks total\n\n<note>z represents the number of students who use Tool T but not Tool S.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146958,
+            "content": "State the value of $w$.",
+            "order": 3,
+            "markscheme": "- State the value: $w = 40$ <marks>A1</marks>\n\n1 mark total\n\n<note>w is given in the text as the number of students who use neither tool.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146959,
+            "content": "Find the probability that a randomly chosen student uses Tool T but does not use Tool S.",
+            "order": 4,
+            "markscheme": "- Identify the number of students in region $z$: $50$ <marks>M1</marks>\n- State the probability: $\\frac{50}{200} = 0.25$ (or $\\frac{1}{4}, 25\\%$) <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146960,
+            "content": "Find the probability that a randomly chosen student uses Tool T, given that they use at least one tool.",
+            "order": 5,
+            "markscheme": "- Use the conditional probability formula: $P(T | S \\cup T) = \\frac{n(T \\cap (S \\cup T))}{n(S \\cup T)} = \\frac{90}{160}$ <marks>M1</marks>\n- State the final answer: $0.5625$ (or $\\frac{9}{16}, 56.3\\%$) <marks>A1</marks>\n\n2 marks total\n\n<note>The denominator must be the total number of students in the union (160).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146961,
+            "content": "An investigator selects 8 students at random. Let $N$ be the number of students who use neither tool. Assuming $N$ follows a binomial distribution, find the probability that exactly 2 of these students use neither tool.",
+            "order": 6,
+            "markscheme": "- Recognize the binomial distribution parameters $n=8, p=0.2$: $P(N=2) = \\binom{8}{2}(0.2)^2(0.8)^6$ <marks>M1</marks>\n- Calculate the probability: $0.294$ (to 3 sig figs) <marks>A1</marks>\n\n2 marks total\n\n<note>p is calculated from $w/200 = 40/200 = 0.2$.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146962,
+            "content": "Find the probability that at least 2 of the 8 students use neither tool.",
+            "order": 7,
+            "markscheme": "- State the condition: $P(N \\geq 2) = 1 - P(N \\leq 1)$ <marks>M1</marks>\n- Expand cumulative probability: $1 - (P(N=0) + P(N=1))$ <marks>M1</marks>\n- Calculate the result: $1 - (0.16777 + 0.33554) = 0.497$ (to 3 sig figs) <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146963,
+            "content": "Find the probability that in the sample of 8 students, exactly 7 in succession use neither tool.",
+            "order": 8,
+            "markscheme": "- Identify the two possible sequences: $NNNNNNNU$ and $UNNNNNNN$ where $U$ is a student using at least one tool. <marks>M1</marks>\n- Calculate the probability: $2 \\times (0.2)^7 \\times 0.8^1 = 0.00002048$ ($2.05 \\times 10^{-5}$) <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146964,
+            "content": "Suggest one reason why the binomial distribution might not be an appropriate model for the number of students who use neither tool in this survey.",
+            "order": 9,
+            "markscheme": "- State a valid reason related to the assumptions: e.g. \"The sample size is small compared to the population, but if the students were chosen from the same study group, their choices might not be independent\" OR \"The probability $p$ might change if sampling is done without replacement from a small population.\" <marks>A1</marks>\n\n1 mark total",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ac4f476e-559e-4338-9eee-4b45c0aff16b",
+        "specification": "<p>A manufacturer produces 1500 boxes of breakfast cereal every day.</p><p>The weights of these boxes are normally distributed with a mean of 502 grams and a standard deviation of 2 grams.</p><p>All boxes of cereal with a weight between 497.5 grams and 505 grams are sold. The manufacturer\u2019s income from the sale of each box of cereal is $2.00.</p><p>The manufacturer recycles any box of cereal with a weight <strong>not</strong> between 497.5 grams and 505 grams. The manufacturer\u2019s recycling cost is $0.16 per box.</p><p>A <strong>different</strong> manufacturer produces boxes of cereal with weights that are normally distributed with a mean of 350 grams and a standard deviation of 1.8 grams.</p><p>This manufacturer sells all boxes of cereal that are above a minimum weight, $w$.</p><p>They sell 97% of the cereal boxes produced.</p>",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28590,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.9\u2014Normal distribution > Question Type 3: Finding the probability values of normally distributed variables",
+              "title": "Question Type 3: Finding the probability values of normally distributed variables",
+              "labeledAt": "2026-03-07T17:25:26.402Z",
+              "reasoning": "Parts (a) and (b) require calculating probabilities for a normally distributed weight falling inside/outside given bounds, then using these probabilities to find expected recycling cost and income.",
+              "confidence": 0.86
+            },
+            {
+              "id": 64642,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.9\u2014Normal distribution > Question Type 4: Finding the value of X using inverse normal ",
+              "title": "Question Type 4: Finding the value of X using inverse normal ",
+              "labeledAt": "2026-03-07T17:25:26.402Z",
+              "reasoning": "Part (c) asks for the minimum weight w such that 97% of boxes are sold, i.e., finding a cutoff value from a normal distribution via an inverse normal/quantile.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1457454,
+        "parts": [
+          {
+            "id": 1069880,
+            "content": "<p>Calculate the manufacturer\u2019s expected daily recycling cost.</p>",
+            "order": 0,
+            "markscheme": "<ul>\n<li>Calculate the expected recycling cost: $1500 \\times 0.16 \\times 0.079031\\ldots$ <marks>M1</marks></li>\n<note>Award <marks>A1</marks> for $1500 \\times 0.16 \\times \\text{their }(1 - 0.920968\\ldots)$.</note>\n<li><strong>OR</strong></li>\n<li>Calculate using the number of recycled boxes: $(1500 - 1381.45) \\times 0.16$ <marks>M1</marks></li>\n<note>Award <marks>M1</marks> for $(1500 - \\text{their } 1381.45) \\times 0.16$.</note>\n<li>$= \\text{\\$}19.0 \\, (18.9676\\ldots)$ <marks>A1</marks> <marks>FT</marks> <marks>G2</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "complement_probability",
+                  "label": "Using Complement Probability",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the distribution",
+                      "content": "First, we identify the parameters for the normal distribution of the cereal box weights ($W$). The problem provides the mean ($\\mu$) and the standard deviation ($\\sigma$).\n\n$$W \\sim N(502, 2^2)$$\n\nThis distribution helps us calculate the probability of any weight range occurring.",
+                      "highlights": [
+                        {
+                          "text": "mean of 502 grams",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "standard deviation of 2 grams",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate probability of selling",
+                      "content": "We are told that a box is sold if its weight is between $497.5\\text{ g}$ and $505\\text{ g}$. We can use a Graphic Display Calculator (GDC) to find this probability:\n\n$$P(\\text{Sold}) = P(497.5 \\leq W \\leq 505)$$\n\nUsing the normal cumulative distribution function (Ncd/normalcdf), we find:\n\n$$P(\\text{Sold}) \\approx 0.920968\\dots$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "NormCD(497.5, 505, 2, 502)",
+                            "instructions": "In the Statistics menu, go to DIST -> NORM -> Ncd. Enter: Lower: 497.5, Upper: 505, \u03c3: 2, \u03bc: 502."
+                          },
+                          "ti84": {
+                            "expression": "normalcdf(497.5, 505, 502, 2)",
+                            "instructions": "Press [2nd] [VARS] (DISTR), select '2:normalcdf(', and enter: lower: 497.5, upper: 505, \u03bc: 502, \u03c3: 2."
+                          },
+                          "desmos": {
+                            "expression": "normaldist(502, 2).cdf(497.5, 505)",
+                            "instructions": "Type 'normaldist(502, 2)' and then use the '.cdf(497.5, 505)' function."
+                          },
+                          "description": "Calculate the probability that the weight is between 497.5 and 505."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "between 497.5 grams and 505 grams are sold",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Find probability of recycling",
+                      "content": "A box is recycled if it is **not** sold. To find the probability that a box is recycled, we use the complement rule:\n\n$$\\begin{aligned} P(\\text{Recycle}) &= 1 - P(\\text{Sold}) \\\\ &= 1 - 0.920968\\dots \\\\ &= 0.079031\\dots \\end{aligned}$$\n\nThis represents the proportion of the 1500 daily boxes that the manufacturer expects to recycle."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate expected daily cost",
+                      "content": "To find the total expected cost, we multiply the total number of boxes produced by the probability of a box being recycled and the cost per recycled box.\n\n$$\\begin{aligned} \\text{Expected Cost} &= 1500 \\times 0.079031\\dots \\times 0.16 \\\\ \\text{Expected Cost} &\\approx \\$18.9676\\dots \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "1500 * 0.07903185 * 0.16",
+                            "instructions": "Multiply the values on your main calculation screen."
+                          },
+                          "ti84": {
+                            "expression": "1500 * 0.07903185 * 0.16",
+                            "instructions": "Type: 1500 * (1 - Ans) * 0.16 (where Ans is the probability from the previous step)."
+                          },
+                          "desmos": {
+                            "expression": "1500 * 0.07903185 * 0.16",
+                            "instructions": "Multiply the probability by 1500 and then by 0.16."
+                          },
+                          "description": "Multiply the number of boxes, recycling probability, and cost per box."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "1500 boxes of breakfast cereal every day",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "recycling cost is $0.16 per box",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final answer",
+                      "content": "Rounding to three significant figures, the expected daily recycling cost is:\n\n$$\\text{Expected Cost} = \\$19.0$$\n\nIn IB examinations, you are usually expected to provide your final answer to 3 significant figures unless otherwise specified."
+                    }
+                  ]
+                },
+                {
+                  "id": "summing_tails",
+                  "label": "Direct Tail Summation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Normal Model",
+                      "content": "First, let's define the random variable $W$ as the weight of a cereal box in grams. The question states that weights follow a normal distribution:\n\n$$W \\sim N(502, 2^2)$$\n\nWhere the mean $\\mu = 502$ and the standard deviation $\\sigma = 2$.",
+                      "highlights": [
+                        {
+                          "text": "normally distributed with a mean of 502 grams and a standard deviation of 2 grams",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify Recycling Conditions",
+                      "content": "A box is recycled if its weight is **not** between $497.5$ g and $505$ g. Using the **Direct Tail Summation** approach, we need to find the probability of a box falling into either of these two \"tail\" regions:\n\n1. The lower tail: $W < 497.5$\n2. The upper tail: $W > 505$",
+                      "highlights": [
+                        {
+                          "text": "recycles any box of cereal with a weight not between 497.5 grams and 505 grams",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate Tail Probabilities",
+                      "content": "Using a Graphic Display Calculator (GDC), we find the probability for each tail:\n\n- Lower tail: $P(W < 497.5) \\approx 0.012224...$\n- Upper tail: $P(W > 505) \\approx 0.066807...$\n\nAdding these together gives the total probability that a box is recycled ($P_{\\text{recycle}}$):\n\n$$P_{\\text{recycle}} = 0.012224 + 0.066807 = 0.079031...$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "Go to the Statistics menu, select Distributions -> Normal -> Cumulative. For the first calculation, set Lower: -1E99, Upper: 497.5, \u03bc: 502, \u03c3: 2. For the second, set Lower: 505, Upper: 1E99."
+                          },
+                          "ti84": {
+                            "instructions": "For the lower tail, use 2nd -> DISTR -> 2:normalcdf(-1E99, 497.5, 502, 2). For the upper tail, use normalcdf(505, 1E99, 502, 2)."
+                          },
+                          "desmos": {
+                            "expression": "normaldist(502, 2).cdf(max: 497.5) + normaldist(502, 2).cdf(min: 505)",
+                            "instructions": "Type normaldist(502, 2).cdf(max: 497.5) and normaldist(502, 2).cdf(min: 505). Sum the results."
+                          },
+                          "description": "Calculate the probabilities for the lower and upper tails of the normal distribution."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate Expected Daily Cost",
+                      "content": "To find the expected daily cost, we use the formula for expected value from the data booklet:\n\n$$\\mathrm{E}(X) = np$$\n\nHere, $n = 1500$ (total boxes) and $p = 0.079031\\dots$ (probability of recycling). Finally, we multiply the expected number of recycled boxes by the recycling cost per box ($0.16$):\n\n$$\\begin{aligned} \\text{Expected Cost} &= 1500 \\times 0.079031\\dots \\times 0.16 \\\\ \\text{Expected Cost} &\\approx \\$18.9676\\dots \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "1500 * 0.07903167 * 0.16",
+                            "instructions": "Perform the multiplication: 1500 * 0.07903167 * 0.16."
+                          },
+                          "ti84": {
+                            "expression": "1500 * 0.07903167 * 0.16",
+                            "instructions": "Enter 1500 * Ans * 0.16 (where Ans is the sum of the probabilities)."
+                          },
+                          "desmos": {
+                            "expression": "1500 * 0.07903167 * 0.16",
+                            "instructions": "Type 1500 * 0.07903167 * 0.16."
+                          },
+                          "description": "Multiply the total boxes, the combined probability, and the unit cost."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "$\\mathrm{E}(X)=np$",
+                          "location": "data_booklet",
+                          "sectionName": "Statistics and Probability"
+                        },
+                        {
+                          "text": "1500 boxes",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "recycling cost is $0.16 per box",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Answer",
+                      "content": "Rounding to three significant figures, the expected daily recycling cost is:\n\n$$\\$19.0$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "expected_sold_subtraction",
+                  "label": "Expected Sold Quantity Subtraction",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the task",
+                      "content": "Hi there! To find the expected daily recycling cost, we'll use a step-by-step approach. First, we'll calculate how many boxes we expect to **sell** and subtract that from the total to see how many are left for recycling. \n\nWe are given that the weights follow a normal distribution with:\n- Mean $\\mu = 502$ g\n- Standard deviation $\\sigma = 2$ g",
+                      "highlights": [
+                        {
+                          "text": "mean of 502 grams and a standard deviation of 2 grams",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate probability of sale",
+                      "content": "A box is sold if its weight is between $497.5$ g and $505$ g. We can find this probability using the normal cumulative distribution function (normalCDF) on a graphing calculator.\n\nLet $X$ be the weight of a cereal box. We want to find:\n$$P(497.5 \\leq X \\leq 505)$$\n\nUsing the calculator, we find:\n$$P(\\text{sold}) \\approx 0.920968...$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "normCdf(497.5, 505, 502, 2)",
+                            "instructions": "Go to the Statistics menu, choose Distributions, then Normal, and select Ncd (Normal Cumulative Distribution). Enter Lower: 497.5, Upper: 505, \u03c3: 2, \u03bc: 502."
+                          },
+                          "ti84": {
+                            "expression": "normalcdf(497.5, 505, 502, 2)",
+                            "instructions": "Press 2nd, then VARS. Select 2:normalcdf. Enter lower: 497.5, upper: 505, \u03bc: 502, \u03c3: 2. Highlight Paste and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "normaldist(502, 2).cdf(497.5, 505)",
+                            "instructions": "Type 'normaldist(502, 2)' and click the 'Find Cumulative Probability (CDF)' checkbox. Enter 497.5 for the Min and 505 for the Max."
+                          },
+                          "description": "Calculate the probability that a box falls within the saleable weight range."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "weight between 497.5 grams and 505 grams are sold",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Find expected boxes sold",
+                      "content": "Now, we multiply this probability by the total number of boxes produced daily ($1500$) to find the expected number of boxes sold.\n\n$$\\begin{aligned} \\text{Expected Sold} &= 1500 \\times 0.920968\\dots \\\\ \\text{Expected Sold} &\\approx 1381.452\\dots \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "1500 boxes",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate expected recycled boxes",
+                      "content": "Since every box not sold is recycled, we subtract the number of sold boxes from the total production:\n\n$$\\begin{aligned} \\text{Expected Recycled} &= 1500 - 1381.452\\dots \\\\ \\text{Expected Recycled} &\\approx 118.548\\dots \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "recycles any box of cereal with a weight not between 497.5 grams and 505 grams",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Calculate total recycling cost",
+                      "content": "Finally, we multiply the expected number of recycled boxes by the cost per box ($0.16) to find the total expected daily cost.\n\n$$\\begin{aligned} \\text{Recycling Cost} &= 118.548\\dots \\times 0.16 \\\\ \\text{Recycling Cost} &\\approx 18.9676\\dots \\end{aligned}$$\n\nRounding to 3 significant figures, we get **$19.0$**.",
+                      "highlights": [
+                        {
+                          "text": "recycling cost is $0.16 per box",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:57:27.134Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1069881,
+            "content": "<p>(i) Find the probability that a box of cereal, chosen at random, is sold.</p><p>(ii) Calculate the manufacturer\u2019s expected daily income from these sales.</p>",
+            "order": 1,
+            "markscheme": "<ul>\n<li>(i) Find the probability: $0.921 \\, (0.920968\\ldots, \\, 92.0968\\ldots\\%)$ <marks>G2</marks></li>\n<note>Award <marks>M1</marks> for a diagram showing the correct shaded region.</note>\n<li>(ii) Calculate the expected daily income: $1500 \\times 2 \\times 0.920968\\ldots$ <marks>M1</marks></li>\n<li>$= \\text{\\$}2760 \\, (2762.90\\ldots)$ <marks>A1</marks> <marks>FT</marks> <marks>G2</marks></li>\n<note>Follow through from their answer to part (i).</note>\n</ul>\n<p>4 marks total</p>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1069882,
+            "content": "<p>Calculate the value of $w$.</p>",
+            "order": 2,
+            "markscheme": "<ul>\n<li>$347 \\text{ grams} \\, (346.614\\ldots)$ <marks>G3</marks></li>\n<note>Award <marks>G1</marks> for $353.385\\ldots$ seen without working (for finding the top 3%).</note>\n</ul>\n<p>3 marks total</p>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "inverse_normal_gdc",
+                  "label": "Inverse Normal GDC Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify distribution parameters",
+                      "content": "From the question, we know the cereal box weights follow a normal distribution. We are given the following values for this specific manufacturer:\n\n- Mean $(\\mu) = 350$ grams\n- Standard deviation $(\\sigma) = 1.8$ grams\n\nThis falls under **Topic 4: Statistics and Probability** in your syllabus. Specifically, we are looking for a boundary value $(w)$ given a probability, which requires the **Inverse Normal** function.",
+                      "highlights": [
+                        {
+                          "text": "mean of 350 grams",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "standard deviation of 1.8 grams",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define the probability area",
+                      "content": "The manufacturer sells all boxes *above* a minimum weight $w$. Since they sell $97\\%$ of the boxes, we can write this as a probability statement:\n\n$$P(X > w) = 0.97$$\n\nMost graphing calculators require the area to the **left** of the value to perform the inverse normal calculation. Since the total area under the curve is $1$, we calculate the left-tail area:\n\n$$\\text{Area to the left} = 1 - 0.97 = 0.03$$",
+                      "highlights": [
+                        {
+                          "text": "above a minimum weight, $w$",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "sell 97% of the cereal boxes produced",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate using GDC",
+                      "content": "Now, we use the Inverse Normal function on the calculator. We input our calculated area, the mean, and the standard deviation.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "invNorm(0.03, 1.8, 350)",
+                            "instructions": "Go to the Statistics menu, select Distributions -> Normal -> Inverse Normal. Input: Area = 0.03, SD (\u03c3) = 1.8, Mean (\u03bc) = 350."
+                          },
+                          "ti84": {
+                            "expression": "invNorm(0.03, 350, 1.8)",
+                            "instructions": "Press [2nd] [VARS] (DISTR), select '3:invNorm('. Enter: Area: 0.03, \u03bc: 350, \u03c3: 1.8, Tail: LEFT. Press 'Paste' and [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "inverseNormal(normaldist(350, 1.8), 0.03)",
+                            "instructions": "In a new cell, type 'inverseNormal(normaldist(350, 1.8), 0.03)'."
+                          },
+                          "description": "Calculate the minimum weight w using the inverse normal distribution function."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State final answer",
+                      "content": "The calculator gives us a value of $346.614\\dots$. \n\nIn IB exams, we usually round our final answer to 3 significant figures unless stated otherwise.\n\n$$w \\approx 347 \\text{ grams}$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "standardization_z_score",
+                  "label": "Standardization Formula Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify distribution parameters",
+                      "content": "From the problem, we know the weights of the cereal boxes for this manufacturer follow a normal distribution. We are given the following parameters:\n\n- Mean $(\\mu) = 350$ grams\n- Standard deviation $(\\sigma) = 1.8$ grams\n\nWe need to find the minimum weight $w$ such that 97% of the boxes are sold.",
+                      "highlights": [
+                        {
+                          "text": "mean of 350 grams",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "standard deviation of 1.8 grams",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Determine cumulative probability",
+                      "content": "The manufacturer sells all boxes that are *above* weight $w$. If they sell 97% of the boxes, this means the area to the right of $w$ on the normal curve is $0.97$.\n\nTo find the $z$-score, we usually need the cumulative probability (the area to the left). Since the total area under the curve is 1:\n\n$$P(X < w) = 1 - 0.97 = 0.03$$\n\nSo, $w$ is the 3rd percentile of the distribution.",
+                      "highlights": [
+                        {
+                          "text": "sell 97% of the cereal boxes produced",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Find the z-score",
+                      "content": "Now we find the $z$-score corresponding to a cumulative probability of $0.03$. This is the number of standard deviations $w$ is away from the mean.\n\nUsing the inverse normal function on your calculator:\n\n$$z \\approx -1.88079...$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "invNorm(0.03, 0, 1)",
+                            "instructions": "Go to the Statistics menu, select Distributions, then Normal, and Inverse Normal. Set the area to 0.03, \u03bc to 0, and \u03c3 to 1."
+                          },
+                          "ti84": {
+                            "expression": "invNorm(0.03, 0, 1)",
+                            "instructions": "Press [2nd] [VARS] (DISTR), select 'invNorm(', enter Area: 0.03, \u03bc: 0, \u03c3: 1, and select Paste."
+                          },
+                          "desmos": {
+                            "expression": "inverseNormal(normaldist(0, 1), 0.03)",
+                            "instructions": "Type 'inverseNormal(normaldist(0, 1), 0.03)' into a cell."
+                          },
+                          "description": "Find the z-score for a cumulative probability of 0.03."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Apply standardization formula",
+                      "content": "The standardization formula relates the actual value ($w$), the mean ($\\mu$), and the standard deviation ($\\sigma$) to the $z$-score:\n\n$$z = \\frac{w - \\mu}{\\sigma}$$\n\nRearranging to solve for $w$:\n\n$$\\begin{aligned} w &= \\mu + z \\cdot \\sigma \\\\ w &= 350 + (-1.88079...) \\cdot 1.8 \\\\ w &\\approx 346.614... \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State final answer",
+                      "content": "Rounding the result to 3 significant figures, we find the minimum weight required for a box to be sold.\n\n$$w = 347 \\text{ grams}$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T07:01:50.691Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b393d0a0-ce09-4d56-946f-6f28cc579507",
+        "specification": "<div class='specification'><p>Mr Burke teaches a mathematics class with 15 students. In this class there are 6 female students and 9 male students.</p><p>Each day Mr Burke randomly chooses one student to answer a homework question.</p><p>In the first month, Mr Burke will teach his class 20 times.</p></div>",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28587,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.8\u2014Binomial distribution > Question Type 1: Finding the probability of outcomes for binomial distribution using the GDC",
+              "title": "Question Type 1: Finding the probability of outcomes for binomial distribution using the GDC",
+              "labeledAt": "2026-03-07T17:25:40.140Z",
+              "reasoning": "Both parts involve computing/using the binomial probability of getting a certain number of successes in 20 independent trials (female chosen 8 times; male chosen 8 times) and in part (b) solving for p (hence number of males) from a given binomial probability.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1457471,
+        "parts": [
+          {
+            "id": 1069940,
+            "content": "<div class='question' style='padding-left: 20px; padding-right: 20px;'><p>Find the probability he will choose a female student 8 times.</p></div>",
+            "order": 0,
+            "markscheme": "<p>- Evidence of recognizing binomial probability e.g., $P(X=8)$, $X \\sim \\text{B}\\left(20, \\frac{6}{15}\\right)$ <marks>M1</marks></p><p>- $0.180 \\ (0.179705\\dots)$ <marks>A1</marks></p><p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "gdc",
+                  "label": "Using a Graphic Display Calculator (GDC)",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the distribution",
+                      "content": "To solve this, we first need to recognize the type of probability distribution. Since Mr. Burke chooses a student randomly each day for a fixed number of days, and the probability of choosing a female student remains constant, this is a **Binomial Distribution**.\n\nLet $X$ be the number of times a female student is chosen. We write this as:\n$$X \\sim \\text{B}(n, p)$$ \nwhere $n$ is the number of trials and $p$ is the probability of success (choosing a female student).",
+                      "highlights": [
+                        {
+                          "text": "Binomial: $\\mathrm{E}(X)=np$, $\\mathrm{Var}(X)=np(1-p)$",
+                          "location": "data_booklet",
+                          "sectionName": "Statistics and Probability"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Determine the parameters",
+                      "content": "From the question, we identify the values for our parameters $n$ and $p$:\n\n*   The total number of trials is $n = 20$.\n*   The probability of choosing a female student is the number of females divided by the total number of students:\n\n$$\\begin{aligned} p &= \\frac{6}{15} \\\\ p &= 0.4 \\end{aligned}$$\n\nWe want to find the probability that the female student is chosen exactly 8 times, which is $P(X = 8)$.",
+                      "highlights": [
+                        {
+                          "text": "Mr Burke will teach his class 20 times",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "6 female students and 9 male students",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Use the GDC",
+                      "content": "Since we are looking for the probability of an exact value ($X = 8$), we use the **Binomial Probability Density Function (binomPdf)** on our Graphic Display Calculator (GDC).",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "binomPdf(20, 0.4, 8)",
+                            "instructions": "Go to the Statistics menu, then Distribution -> Binomial -> BPD (Binomial Probability Density). Set Numtrial: 20, p: 0.4, x: 8."
+                          },
+                          "ti84": {
+                            "expression": "binompdf(20, 0.4, 8)",
+                            "instructions": "Press [2nd] [VARS] (DISTR). Scroll down to 'binompdf('. Enter: trials: 20, p: 0.4, x value: 8. Select 'Paste' and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "binomialdist(20, 0.4).pdf(8)",
+                            "instructions": "Type 'binomialdist(20, 0.4)' then select 'Find Probability' and set both the min and max to 8."
+                          },
+                          "description": "Calculate the binomial probability for exactly 8 successes."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The calculator gives us a value of approximately $0.179705...$\n\nFollowing IB rounding rules, we provide the answer to 3 significant figures:\n$$P(X = 8) \\approx 0.180$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "formula",
+                  "label": "Using the Binomial Formula",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the binomial parameters",
+                      "content": "This situation follows a binomial distribution because there are a fixed number of trials ($n=20$), two possible outcomes (choosing a female student or a male student), and the probability of picking a female student remains constant each day.\n\nFirst, let's identify our values:\n- $n = 20$ (the number of times Mr Burke teaches the class)\n- $r = 8$ (the number of times we want a female student to be chosen)\n- $p$ is the probability of choosing a female student in a single trial.",
+                      "highlights": [
+                        {
+                          "text": "teach his class 20 times",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "choose a female student 8 times",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the probability $p$",
+                      "content": "We calculate $p$ by looking at the total number of students and the number of female students in the class:\n\n$$p = \\frac{\\text{Number of females}}{\\text{Total students}} = \\frac{6}{15}$$\n\nUsing a calculator, we find:\n$$p = 0.4$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "6 / 15",
+                            "instructions": "Enter 6 / 15"
+                          },
+                          "ti84": {
+                            "expression": "6 / 15",
+                            "instructions": "Enter 6 / 15"
+                          },
+                          "desmos": {
+                            "expression": "6 / 15",
+                            "instructions": "Enter 6 / 15"
+                          },
+                          "description": "Calculate the probability p."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "6 female students and 9 male students",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply the Binomial Formula",
+                      "content": "The probability of exactly $r$ successes in $n$ trials is given by the binomial formula:\n\n$$P(X = r) = \\binom{n}{r} p^r (1-p)^{n-r}$$\n\nSubstituting our values $n=20$, $r=8$, and $p=0.4$:\n\n$$\\begin{aligned} P(X = 8) &= \\binom{20}{8} (0.4)^8 (1-0.4)^{20-8} \\\\ P(X = 8) &= \\binom{20}{8} (0.4)^8 (0.6)^{12} \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate the final probability",
+                      "content": "Now we compute the final value. While you can calculate the combinations and powers separately, it's most efficient to use the binomial function on your calculator.\n\n$$P(X = 8) \\approx 0.180$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "binomPdf(20, 0.4, 8)",
+                            "instructions": "In the Statistics or Probability menu, select Binomial Distribution -> Binomial PD. Enter x: 8, Numtrials: 20, p: 0.4."
+                          },
+                          "ti84": {
+                            "expression": "binompdf(20, 0.4, 8)",
+                            "instructions": "Press [2nd] [VARS] (DISTR), scroll down to 'binompdf(', and enter trials: 20, p: 0.4, x value: 8."
+                          },
+                          "desmos": {
+                            "expression": "binomialdist(20, 0.4).probability(8)",
+                            "instructions": "Type 'binomialdist(20, 0.4)' then select 'Find Probability' and set the range from 8 to 8."
+                          },
+                          "description": "Calculate the binomial probability for exactly 8 successes."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final answer",
+                      "content": "To three significant figures, the probability is:\n\n$$P(X = 8) = 0.180$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:58:17.887Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1069941,
+            "content": "<div class='question' style='padding-left: 20px; padding-right: 20px;'><p>The Head of Year, Mrs Smith, decides to select a student at random from the year group to read the notices in assembly. There are 80 students in total in the year group. Mrs Smith calculates the probability of picking a male student 8 times in the first 20 assemblies is 0.153357 correct to 6 decimal places.</p><p>Find the number of male students in the year group.</p></div>",
+            "order": 1,
+            "markscheme": "<p>- Let $x$ be the number of male students</p><p>- Recognize that probability of selecting a male is equal to $\\frac{x}{80}$ <marks>A1</marks></p><p>- Set up equation: $\\binom{20}{8} \\left(\\frac{x}{80}\\right)^8 \\left(\\frac{80-x}{80}\\right)^{12} = 0.153357$ <marks>M1</marks></p><p>- Attempt to solve for $x$ <marks>M1</marks></p><p>- Number of male students $= 37$ <marks>A1</marks></p><p>4 marks total</p><note>Award <marks>M1</marks><marks>A0</marks> for 27.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "cf17c0e2-a2b5-4df1-9be1-ab072f0e7084",
+        "specification": "<p>In a large university the probability that a student is left handed is 0.08. A sample of 150 students is randomly selected from the university. Let $k$ be the expected number of left-handed students in this sample.</p>",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64640,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.8\u2014Binomial distribution > Question Type 2: Finding the expected value and variance for a binomially distributed variable",
+              "title": "Question Type 2: Finding the expected value and variance for a binomially distributed variable",
+              "labeledAt": "2026-03-06T04:39:19.133Z",
+              "reasoning": "Uses a binomial model with n=150, p=0.08; part (a) asks for expected value k=np and later parts use binomial probabilities for exactly k and fewer than k successes.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28587,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.8\u2014Binomial distribution > Question Type 1: Finding the probability of outcomes for binomial distribution using the GDC",
+              "title": "Question Type 1: Finding the probability of outcomes for binomial distribution using the GDC",
+              "labeledAt": "2026-03-06T04:39:19.133Z",
+              "reasoning": "Parts (b) and (c) require computing binomial probabilities P(X=k) and P(X<k), typically using a GDC/binomial cdf/pdf.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1457721,
+        "parts": [
+          {
+            "id": 1070601,
+            "content": "<p>Find $k$.</p>",
+            "order": 0,
+            "markscheme": "<ul>\n<li>Evidence of binomial distribution (may be seen in part 2):<br>\ne.g. $np$, $150 \\times 0.08$ <marks>M1</marks></li>\n<li>Calculate the value of $k$:<br>\n$k = 12$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "binomial_expectation",
+                  "label": "Binomial Expectation Formula",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the given information",
+                      "content": "To find the expected number of left-handed students, we first need to identify our two main variables:\n- The total number of students in the sample, $n = 150$.\n- The probability of a student being left-handed, $p = 0.08$.",
+                      "highlights": [
+                        {
+                          "text": "sample of 150 students",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "probability that a student is left handed is 0.08",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Recall the expectation formula",
+                      "content": "Since this situation follows a binomial distribution (each student is either left-handed or not), we can use the formula for the expected value $E(X)$ from your IB Data Booklet:\n\n$$\\mathrm{E}(X) = np$$\n\nIn this question, the expected value is represented by the variable $k$.",
+                      "highlights": [
+                        {
+                          "text": "$\\mathrm{E}(X)=np$",
+                          "location": "data_booklet",
+                          "sectionName": "Statistics and Probability"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the value of k",
+                      "content": "Now, we simply substitute our values for $n$ and $p$ into the formula:\n\n$$\\begin{aligned} k &= 150 \\times 0.08 \\\\ k &= 12 \\end{aligned}$$\n\nThis means that in a random sample of 150 students, we would expect 12 of them to be left-handed.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "150 * 0.08",
+                            "instructions": "Enter the multiplication directly on the main screen."
+                          },
+                          "ti84": {
+                            "expression": "150 * 0.08",
+                            "instructions": "Enter the multiplication directly on the main screen."
+                          },
+                          "desmos": {
+                            "expression": "150 * 0.08",
+                            "instructions": "Type the multiplication expression."
+                          },
+                          "description": "Calculate the expected value k."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:57:02.267Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1070602,
+            "content": "<p>Hence, find the probability that exactly $k$ students are left handed.</p>",
+            "order": 1,
+            "markscheme": "<ul>\n<li>Substitute parameters into binomial probability formula:<br>\n$P(X = 12) = \\binom{150}{12}(0.08)^{12}(0.92)^{138}$ <marks>A1</marks></li>\n<li>$0.119231\\dots$</li>\n<li>State the final probability:<br>\n$0.119$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "formulaic",
+                  "label": "Binomial Probability Formula",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify binomial parameters",
+                      "content": "From the problem, we are looking at a sample of students where each student is either left-handed or not. This follows a binomial distribution with:\n\n- $n = 150$ (the number of trials/students)\n- $p = 0.08$ (the probability of being left-handed)",
+                      "highlights": [
+                        {
+                          "text": "probability that a student is left handed is 0.08",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "sample of 150 students",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate expected value $k$",
+                      "content": "The expected number of students, $k$, is found using the formula for the expected value of a binomial distribution:\n\n$$E(X) = np$$\n\nSubstituting our values:\n\n$$k = 150 \\times 0.08 = 12$$",
+                      "highlights": [
+                        {
+                          "text": "$$\\mathrm{E}(X)=np$$",
+                          "location": "data_booklet",
+                          "sectionName": "Statistics and Probability"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Use binomial formula",
+                      "content": "We need to find the probability that exactly $k = 12$ students are left-handed. We use the binomial probability mass function formula (often denoted as $P(X=r)$ in your IB studies):\n\n$$P(X = r) = \\binom{n}{r} p^r (1-p)^{n-r}$$\n\nSubstituting $n=150$, $r=12$, and $p=0.08$:\n\n$$P(X = 12) = \\binom{150}{12}(0.08)^{12}(0.92)^{138}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate and round result",
+                      "content": "Using your Graphic Display Calculator (GDC), you can compute this value directly.\n\n$$P(X = 12) \\approx 0.119231...$$\n\nRounding to three significant figures as required by the IB:\n\n$$P(X = 12) = 0.119$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "binompdf(150, 0.08, 12)",
+                            "instructions": "Go to the Statistics or Probability menu. Select 'Distributions' -> 'Binomial' -> 'Binomial PDF'. Enter $n=150$, $p=0.08$, and $x=12$."
+                          },
+                          "ti84": {
+                            "expression": "binompdf(150, 0.08, 12)",
+                            "instructions": "Press [2nd] [VARS] (DISTR). Select 'binompdf('. Enter trials: 150, p: 0.08, x value: 12. Press 'Paste' and [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "binomialdist(150, 0.08).pdf(12)",
+                            "instructions": "Type the binomial distribution function and use the PDF at 12."
+                          },
+                          "description": "Calculate the binomial probability for exactly 12 successes."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "gdc",
+                  "label": "Graphing Calculator (binomPdf)",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Calculate the expected value",
+                      "content": "First, we need to find the value of $k$, which is the expected number of left-handed students. Using the formula from the data booklet:\n\n$$E(X) = np$$\n\nSubstituting our values:\n\n$$k = 150 \\times 0.08 = 12$$",
+                      "highlights": [
+                        {
+                          "text": "$$E(X)=np$$",
+                          "location": "data_booklet",
+                          "sectionName": "Statistics and Probability"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the distribution",
+                      "content": "The number of left-handed students $X$ follows a binomial distribution because there is a fixed number of trials ($n = 150$) and a constant probability of success ($p = 0.08$). We want to find the probability that $X$ is exactly $k$.\n\n$$X \\sim B(150, 0.08)$$\n\nWe are looking for $P(X = 12)$.",
+                      "highlights": [
+                        {
+                          "text": "exactly $k$ students are left handed",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Use binomPdf on calculator",
+                      "content": "Since we are looking for the probability of a single specific value (exactly 12), we use the **Binomial Probability Density Function (binomPdf)** on our calculator.\n\nWe enter the following parameters:\n- $n$ (trials) $= 150$\n- $p$ (probability) $= 0.08$\n- $x$ (value) $= 12$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "BinomialPD(12, 150, 0.08)",
+                            "instructions": "Go to the Statistics menu, select Distributions, then Binomial, and choose 'Binomial PD'. Set x to 12, Numtrial to 150, and p to 0.08."
+                          },
+                          "ti84": {
+                            "expression": "binompdf(150, 0.08, 12)",
+                            "instructions": "Press [2nd] [VARS] (DISTR), scroll down to 'binompdf('. Enter trials: 150, p: 0.08, x value: 12. Press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "binomialdist(150, 0.08).pdf(12)",
+                            "instructions": "Type 'binomialdist(150, 0.08).pdf(12)' into a new expression line."
+                          },
+                          "description": "Calculate the binomial probability for exactly 12 successes."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The calculator gives a value of approximately $0.119231...$.\n\nIn IB exams, we usually round our final answer to **3 significant figures** unless stated otherwise.\n\n$$P(X = 12) = 0.119$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:57:40.843Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1070603,
+            "content": "<p>Hence, find the probability that fewer than $k$ students are left handed.</p>",
+            "order": 2,
+            "markscheme": "<ul>\n<li>Recognition that fewer than $k$ corresponds to $X \\leq 11$ <marks>M1</marks></li>\n<li>$0.456800\\dots$</li>\n<li>State the final probability:<br>\n$P(X < 12) = 0.457$ <marks>A1</marks></li>\n</ul>\n<p>2 marks total</p>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "eabf3bb0-cd7f-4366-8833-fb90d76091f4",
+        "specification": "A local sports club has $$160$$ members. The members are categorized by their age group and their preferred activity, as shown in the table below.\n\n| | Swimming | Tennis |\n| :--- | :---: | :---: |\n| Junior | 28 | 12 |\n| Senior | 48 | 52 |\n| Veteran | 14 | 6 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-eabf3bb0-cd7f-4366-8833-fb90d76091f4-1771929956947",
+            "generatedAt": "2026-02-25T20:22:16.758Z",
+            "sourceRevisionId": 1457994
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64637,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.6\u2014Venn diagrams > Question Type 4: Creating a table of outcomes to calculate probabilities of two different random events cojoint into one",
+              "title": "Question Type 4: Creating a table of outcomes to calculate probabilities of two different random events cojoint into one",
+              "labeledAt": "2026-03-07T17:27:01.332Z",
+              "reasoning": "Uses a two-way table of categorical data (age group vs preferred activity) to compute overall and conditional probabilities, which aligns with using tables to calculate probabilities of combined events.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28582,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.6\u2014Venn diagrams > Question Type 6: Working with replacement",
+              "title": "Question Type 6: Working with replacement",
+              "labeledAt": "2026-03-07T17:27:01.332Z",
+              "reasoning": "Part (b) selects two different members (i.e., without replacement) and asks for the probability of neither being a veteran.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1685422,
+        "parts": [
+          {
+            "id": 1146132,
+            "content": "Find the probability that a member chosen at random from the club prefers Tennis.",
+            "order": -1,
+            "markscheme": "- Identify the total number of members who prefer Tennis: $$12 + 52 + 6 = 70$$ <marks>A1</marks>\n- Calculate the probability: $$\\frac{70}{160} = \\frac{7}{16} = 0.4375$$\n\n1 mark total",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146133,
+            "content": "A member is selected at random from the club. Given that this member is in the Senior age group, find the probability that they prefer swimming.",
+            "order": 0,
+            "markscheme": "- Identify the total number of Seniors and those who prefer swimming: $$100$$ and $$48$$ <marks>A1</marks>\n- Calculate the conditional probability: $$\\frac{48}{100} = 0.48$$ <marks>A1</marks>\n\n2 marks total\n\n<note>Award A1 for the correct numerator (48) and A1 for the correct denominator (100). \nAward A1A0 for an answer of $$\\frac{48}{160}$$ or if the denominator from part 1 is used incorrectly.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146134,
+            "content": "Two different members are chosen at random from the club. Find the probability that neither of these members is in the Veteran age group.",
+            "order": 1,
+            "markscheme": "- Determine the number of non-Veteran members: $$160 - (14 + 6) = 140$$ <marks>A1</marks>\n- Set up the product for selection without replacement: $$\\frac{140}{160} \\times \\frac{139}{159}$$ <marks>M1</marks>\n- Calculate the final probability: $$\\frac{19460}{25440} = \\frac{973}{1272} \\approx 0.765$$ <marks>A1</marks>\n\n3 marks total\n\n<note>Award A1 for identifying the correct count of non-Veterans (140) or seeing the first fraction. \nAward M1 for multiplying two decreasing fractions. \nAccept answers that round to 0.765.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f2056e01-8428-494b-84a5-150aab58fc23",
+        "specification": "The Home Shine factory produces light bulbs, $7\\%$ of which are found to be defective.\n\nFrancesco buys two light bulbs produced by Home Shine.\n\nThe Bright Light factory also produces light bulbs. The probability that a light bulb produced by Bright Light is not defective is $a$.\n\nDeborah buys three light bulbs produced by Bright Light.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28577,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.5\u2014Trial and outcome > Question Type 1: Creating sample spaces for different experiments",
+              "title": "Question Type 1: Creating sample spaces for different experiments",
+              "labeledAt": "2026-03-06T12:37:11.039Z",
+              "reasoning": "Computes probabilities for multiple independent trials (two or three bulbs) via complements such as 'at least one defective', which aligns with constructing/using sample spaces for experiments.",
+              "confidence": 0.74
+            },
+            {
+              "id": 58013,
+              "isHl": false,
+              "path": "Statistics and Probability > SL 4.5\u2014Trial and outcome > Question Type 3: Using simple events to calculate probabilities",
+              "title": "Question Type 3: Using simple events to calculate probabilities",
+              "labeledAt": "2026-03-06T12:37:11.039Z",
+              "reasoning": "Uses basic probability rules for independent events and complements (not defective, both not defective, at least one defective).",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1492755,
+        "parts": [
+          {
+            "id": 1121511,
+            "content": "Write down the probability that a light bulb produced by Home Shine is not defective.",
+            "order": 1,
+            "markscheme": "- State the probability: $1 - 0.07 = 0.93$ ($93\\%$) <marks>A1</marks>\n\n1 mark total",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "complement_rule",
+                  "label": "Complement Rule",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the given probability",
+                      "content": "From the question, we are told that the Home Shine factory produces light bulbs where $7\\%$ are found to be defective. \n\nIn probability terms, this means:\n$$P(\\text{defective}) = 7\\% = 0.07$$",
+                      "highlights": [
+                        {
+                          "text": "7\\% of which are found to be defective",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply the Complement Rule",
+                      "content": "The **Complement Rule** tells us that the probability of an event *not* happening is simply $1$ minus the probability of it happening (or $100\\%$ minus the percentage). \n\nSince a bulb is either defective or not defective, these two probabilities must add up to $1$ (or $100\\%$). To find the probability that a bulb is **not defective**, we subtract the defective rate from the total:"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the final probability",
+                      "content": "Using the values we identified:\n\n$$\\begin{aligned} P(\\text{not defective}) &= 1 - P(\\text{defective}) \\\\ &= 1 - 0.07 \\\\ &= 0.93 \\end{aligned}$$\n\nYou can also express this as a percentage: $100\\% - 7\\% = 93\\%$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "1 - 0.07",
+                            "instructions": "Perform the simple subtraction on the run-matrix screen."
+                          },
+                          "ti84": {
+                            "expression": "1 - 0.07",
+                            "instructions": "Enter the subtraction directly on the main screen."
+                          },
+                          "desmos": {
+                            "expression": "1 - 0.07",
+                            "instructions": "Type the expression in the input bar."
+                          },
+                          "description": "Calculate the complement of the defective probability."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:52:59.937Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1121512,
+            "content": "Find the probability that both light bulbs are not defective.",
+            "order": 2,
+            "markscheme": "- Multiply the probabilities (or square the answer from Part 1): $0.93 \\times 0.93$ <marks>M1</marks>\n- Calculate the result: $0.865$ ($0.8649$; $86.5\\%$) <marks>A1</marks>\n\n2 marks total\n\n<note>Follow through from Part 1. Accept $0.86$ unless it follows from $\\frac{93}{100} \\times \\frac{92}{99}$.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "multiplication",
+                  "label": "Multiplication Rule for Independent Events",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Find single bulb probability",
+                      "content": "From the question, we know that $7\\%$ of the bulbs are defective. To find the probability that one bulb is **not** defective, we subtract the defective rate from $1$:\n\n$$P(\\text{Not Defective}) = 1 - 0.07 = 0.93$$",
+                      "highlights": [
+                        {
+                          "text": "7% of which are found to be defective",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply the Multiplication Rule",
+                      "content": "Francesco buys **two** light bulbs. Since the selection of one bulb is independent of the other, we use the multiplication rule for independent events:\n\n$$\\mathrm{P}(\\text{Both Not Defective}) = 0.93 \\times 0.93$$\n\nThis is equivalent to calculating $0.93^2$.",
+                      "highlights": [
+                        {
+                          "text": "Francesco buys two light bulbs",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the final result",
+                      "content": "Now, perform the final calculation:\n\n$$0.93 \\times 0.93 = 0.8649$$\n\nFollowing IB rounding conventions, we can express this to three significant figures as $0.865$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "0.93^2",
+                            "instructions": "Use the calculation menu to evaluate the square of 0.93."
+                          },
+                          "ti84": {
+                            "expression": "0.93 * 0.93",
+                            "instructions": "Enter the multiplication on the home screen."
+                          },
+                          "desmos": {
+                            "expression": "0.93 * 0.93",
+                            "instructions": "Type the expression to get the result instantly."
+                          },
+                          "description": "Calculate the probability of two independent non-defective outcomes."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "binomial",
+                  "label": "Binomial Distribution Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define success and probability",
+                      "content": "First, we need to find the probability that a single light bulb is **not defective**. We are told that $7\\%$ are defective.\n\n$$\\begin{aligned} P(\\text{not defective}) &= 1 - P(\\text{defective}) \\\\ &= 1 - 0.07 \\\\ &= 0.93 \\end{aligned}$$\n\nThis will be our probability of success, $p$.",
+                      "highlights": [
+                        {
+                          "text": "7% of which are found to be defective",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Model with Binomial Distribution",
+                      "content": "Since Francesco buys two light bulbs and each bulb is independent with the same probability of being non-defective, we can model this using a Binomial Distribution.\n\nLet $X$ be the number of non-defective light bulbs.\n$$X \\sim B(n, p)$$\n\nWhere:\n- $n = 2$ (the number of bulbs bought)\n- $p = 0.93$ (the probability a bulb is not defective)",
+                      "highlights": [
+                        {
+                          "text": "buys two light bulbs",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the probability",
+                      "content": "We want to find the probability that **both** light bulbs are not defective, which means we are looking for $P(X = 2)$. \n\nUsing the binomial probability formula:\n$$P(X = k) = \\binom{n}{k} p^k (1-p)^{n-k}$$\n\nSubstituting our values:\n$$\\begin{aligned} P(X = 2) &= \\binom{2}{2} (0.93)^2 (0.07)^0 \\\\ &= 1 \\times 0.93^2 \\times 1 \\\\ &= 0.8649 \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "binomPdf(2, 0.93, 2)",
+                            "instructions": "Use the Binomial Probability Density function (binomPdf). Go to 2nd -> DISTR -> binomPdf(n: 2, p: 0.93, x value: 2)."
+                          },
+                          "ti84": {
+                            "expression": "0.93^2",
+                            "instructions": "Enter 0.93^2 on the home screen."
+                          },
+                          "desmos": {
+                            "expression": "0.93^2",
+                            "instructions": "Type the expression or use the binomialdist function."
+                          },
+                          "description": "Calculate 0.93 squared to find the probability."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final Answer",
+                      "content": "The probability that both light bulbs are not defective is $0.8649$.\n\nIn IB exams, we usually round to 3 significant figures unless otherwise stated.\n\n$$\\text{Probability} \\approx 0.865$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:57:45.633Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1121513,
+            "content": "Find the probability that at least one of Francesco\u2019s light bulbs is defective.",
+            "order": 3,
+            "markscheme": "- Use the complement rule: $1 - 0.8649$ <marks>M1</marks>\n- **OR**\n- Sum the probabilities of defective outcomes: $0.07 \\times 0.07 + 2 \\times (0.07 \\times 0.93)$ <marks>M1</marks>\n- State the final probability: $0.135$ ($0.1351$; $13.5\\%$) <marks>A1</marks>\n\n2 marks total\n\n<note>Follow through from Part 2.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1121514,
+            "content": "Write down an expression, in terms of $a$, for the probability that at least one of Deborah\u2019s three light bulbs is defective.",
+            "order": 4,
+            "markscheme": "- State the expression using the complement of no defective bulbs: $1 - a^3$ <marks>A1</marks>\n\n1 mark total\n\n<note>Accept $3a^2(1 - a) + 3a(1 - a)^2 + (1 - a)^3$ or equivalent.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "complementary_approach",
+                  "label": "Complementary Event Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the complementary event",
+                      "content": "In probability, the phrase \"at least one\" is a huge hint to use the **complementary event approach**. \n\nThe complement of \"at least one bulb is defective\" is the event where **zero bulbs are defective**. \n\nMathematically, we can state this relationship as:\n$$P(\\text{at least one defective}) = 1 - P(\\text{zero defective})$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Calculate the probability of zero defects",
+                      "content": "If Deborah buys three bulbs and zero are defective, it means all three bulbs must be \"not defective.\"\n\nThe question states that the probability of a single bulb being not defective is $a$. Since the condition of each bulb is independent, we multiply the probabilities for all three bulbs together:\n\n$$P(\\text{zero defective}) = a \\times a \\times a = a^3$$",
+                      "highlights": [
+                        {
+                          "text": "probability that a light bulb produced by Bright Light is not defective is a",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "State the final expression",
+                      "content": "Now, we substitute our result back into the complement formula from Step 0 to find the final expression:\n\n$$P(\\text{at least one defective}) = 1 - a^3$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "direct_sum_approach",
+                  "label": "Summing Mutually Exclusive Outcomes",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the individual probabilities",
+                      "content": "To start, we need the probability of a single light bulb being defective. The question states that the probability of a bulb being **not defective** is $a$. \n\nSince a bulb is either defective or not defective, these are complementary events. Therefore:\n\n$$P(\\text{Defective}) = 1 - a$$",
+                      "highlights": [
+                        {
+                          "text": "probability that a light bulb produced by Bright Light is not defective is a",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define \"at least one\"",
+                      "content": "Deborah buys **three** light bulbs. We want the probability that **at least one** is defective. This means we are looking for the total probability of having:\n- Exactly 1 defective bulb\n- Exactly 2 defective bulbs\n- Exactly 3 defective bulbs\n\nThese three scenarios are mutually exclusive, so we can find the total probability by summing the individual probability of each case.",
+                      "highlights": [
+                        {
+                          "text": "Deborah buys three light bulbs",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Find binomial terms",
+                      "content": "Using the binomial distribution concepts found in **Topic 4: Statistics and Probability**, we can determine the terms for each outcome where $n=3$, $p=(1-a)$, and $q=a$:\n\n*   **Exactly 1 defective:** $\\binom{3}{1} \\times a^2 \\times (1-a)^1 = 3a^2(1-a)$\n*   **Exactly 2 defective:** $\\binom{3}{2} \\times a^1 \\times (1-a)^2 = 3a(1-a)^2$\n*   **Exactly 3 defective:** $\\binom{3}{3} \\times a^0 \\times (1-a)^3 = (1-a)^3$\n\nSubstituting these into our sum:\n\n$$\\text{Probability} = 3a^2(1-a) + 3a(1-a)^2 + (1-a)^3$$",
+                      "highlights": [
+                        {
+                          "text": "Binomial: E(X)=np, Var(X)=np(1-p)",
+                          "location": "data_booklet",
+                          "sectionName": "Statistics and Probability"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final expression",
+                      "content": "The expression for the probability that at least one of Deborah's light bulbs is defective is:\n\n$$3a^2(1-a) + 3a(1-a)^2 + (1-a)^3$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T06:54:48.729Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      }
+    ],
+    "count": "9",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 13623,
+      "title": "SL 4.7\u2014Discrete random variables",
+      "slug": "ai-sl-4-7-discrete-random-variables",
+      "parentTopicId": 10461
+    },
+    "subject": {
+      "id": 289,
+      "title": "Mathematics Applications & Interpretation (AI)",
+      "slug": "ib-math-ai",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "9",
+      "byQuestion": {}
+    }
+  }
+}

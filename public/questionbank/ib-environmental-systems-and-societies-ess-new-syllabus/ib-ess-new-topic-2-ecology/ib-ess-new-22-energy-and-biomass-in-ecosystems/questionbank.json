@@ -1,3 +1,1686 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0f28469e21e5c40b9a1bb510b4bce7203f474dfc3ae6fbe2cb3f8273b2224ccb
-size 105567
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0ed4e455-03db-47a6-9a93-1f26fde5d70b",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30573,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1B Ecosystem services",
+              "title": "7.1B Ecosystem services",
+              "labeledAt": "2026-03-06T05:15:39.062Z",
+              "reasoning": "The question explicitly asks for ecosystem services provided by healthy ecosystems, which directly matches the 'Ecosystem services' sub-topic.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 879034,
+        "parts": [
+          {
+            "id": 487051,
+            "content": "Describe two ecosystem services provided by healthy ecosystems.",
+            "order": 0,
+            "markscheme": "Award <marks>2 marks</marks> for each correctly described service, up to <marks>4 marks</marks>:\n\n- Nutrient cycling: Decomposition and recycling of essential nutrients\n- Water purification: Filtration of pollutants by wetlands and forests\n- Climate regulation: Carbon sequestration by forests and oceans\n- Pollination: Essential for crop production and plant reproduction",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3378284b-31bb-4acf-a1b7-968bf00203da",
+        "specification": "**Table 1** displays various ecological characteristics measured at three different stages (A, B, and C) of a primary succession on a newly formed volcanic island.\n\n**Table 1: Ecological characteristics of three stages in a primary succession**\n\n| Characteristic | Stage A | Stage B | Stage C |\n| :--- | :--- | :--- | :--- |\n| **Species Diversity** | Low | High | Medium-High |\n| **Total Biomass** | Low | Intermediate | High |\n| **Mineral Cycling** | Open | Improving | Largely closed |\n| **Net Productivity** | High | Decreasing | Low |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-economics-3378284b-31bb-4acf-a1b7-968bf00203da-1771937587718",
+            "generatedAt": "2026-02-25T11:12:52.774Z",
+            "sourceRevisionId": 1162077
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29889,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5D Community and productivity in succession (HL)",
+              "title": "2.5D Community and productivity in succession (HL)",
+              "labeledAt": "2026-03-05T16:46:19.786Z",
+              "reasoning": "Part (c) specifically focuses on the relationship between Gross Primary Productivity (GPP) and Respiration (R) as it evolves through successional stages, which is a core component of this topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29890,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5E Climax communities and plagioclimax (HL)",
+              "title": "2.5E Climax communities and plagioclimax (HL)",
+              "labeledAt": "2026-03-05T16:46:19.786Z",
+              "reasoning": "Part (a) asks about human activities that arrest succession, which leads to a plagioclimax community, and the question refers to the climax stage (Stage C).",
+              "confidence": 0.9
+            },
+            {
+              "id": 29887,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5B Succession",
+              "title": "2.5B Succession",
+              "labeledAt": "2026-03-05T16:46:19.786Z",
+              "reasoning": "The question is centered on primary succession and requires the identification of a pioneer community (Stage A) and the progression between stages.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1686913,
+        "parts": [
+          {
+            "id": 1147419,
+            "content": "Identify which stage in **Table 1** represents a pioneer community.",
+            "order": -1,
+            "markscheme": "Stage A <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147420,
+            "content": "State **one** human activity that could arrest an ecological succession, preventing it from reaching **Stage C**.",
+            "order": 0,
+            "markscheme": "Award <marks> 1 mark </marks> for any of the following:\n\n- livestock grazing;  \n- controlled burning / fire management;  \n- regular mowing / clearance of vegetation;  \n- use of herbicides;  \n- agriculture / crop cultivation;  \n- urbanization / land development. \n\n",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147421,
+            "content": "Outline **two** reasons why species diversity typically increases as a site progresses from **Stage A** to **Stage B**.",
+            "order": 1,
+            "markscheme": "Award <marks> 1 mark </marks> for each of the following, up to <marks> 2 marks </marks>:\n\n- soil development (increased depth/humus/nutrients) allows more complex plant species to establish;  \n- increased structural complexity / vertical layering of vegetation provides more ecological niches;  \n- more stable microclimate (e.g., increased shade/moisture) allows less hardy species to survive;  \n- increased primary production provides a larger energy base to support longer/more complex food chains. \n\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147422,
+            "content": "Explain how the relationship between Gross Primary Productivity ($$GPP$$) and total community Respiration ($$R$$) changes as an ecosystem reaches the climax stage (**Stage C**).",
+            "order": 2,
+            "markscheme": "Award <marks> 1 mark </marks> for each correct point, up to <marks> 4 marks </marks>:\n\n- in early stages ($$A/B$$), $$GPP$$ is significantly greater than $$R$$ / the $$P/R$$ ratio is greater than 1;  \n- this allows for the accumulation of biomass/growth of the ecosystem;  \n- as the system matures towards Stage C, the total biomass increases, leading to a higher total community respiration ($$R$$) to maintain that biomass;  \n- in the climax community (Stage C), energy fixed through photosynthesis ($$GPP$$) is roughly equal to the energy lost through respiration ($$R$$);  \n- therefore, the $$P/R$$ ratio approaches 1;  \n- resulting in a Net Productivity ($$NP = GPP - R$$) that falls to near zero / the system reaches a steady-state equilibrium.\n\n",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3c916206-6462-42c5-a584-c61a45bb74ba",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29822,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2D Food Chain and Energy Loss",
+              "title": "2.2D Food Chain and Energy Loss",
+              "labeledAt": "2026-03-05T16:49:07.029Z",
+              "reasoning": "The question asks for an explanation of energy flow through an ecosystem, which is the core concept of food chains and energy loss between trophic levels.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29820,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2B Photosynthesis and cellular respiration",
+              "title": "2.2B Photosynthesis and cellular respiration",
+              "labeledAt": "2026-03-05T16:49:07.029Z",
+              "reasoning": "Energy flow starts with sunlight being converted into chemical energy via photosynthesis, which is the entry point for energy into most ecosystems.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29821,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2C Second law of thermodynamics",
+              "title": "2.2C Second law of thermodynamics",
+              "labeledAt": "2026-03-05T16:49:07.029Z",
+              "reasoning": "The second law of thermodynamics explains why energy is lost as heat at each trophic level transfer, which is essential for explaining how energy reaches top predators.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 813519,
+        "parts": [
+          {
+            "id": 487046,
+            "content": "Explain how energy flows through an ecosystem, from sunlight to top predators.",
+            "order": 0,
+            "markscheme": "- Sunlight energy is captured by producers (plants) through photosynthesis <marks>1 mark</marks>\n- Energy is transferred to primary consumers (herbivores) when they eat producers <marks>1 mark</marks>\n- Secondary consumers (carnivores) obtain energy by eating primary consumers <marks>1 mark</marks>\n- Energy continues to flow up the food chain to top predators <marks>1 mark</marks>\n- At each step, energy is lost through heat, respiration, and waste",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "508135e8-d7d3-4063-8e6d-0c625e8d2ca8",
+        "specification": "**Figure 1: Fact file on North American beavers**\n\n- Typically, one family per square kilometer of river habitat.\n- Live in family groups consisting of two adults and up to three kits, born annually between April and June.\n- Experience high mortality rates due to harsh weather, limited suitable habitats, and predation.\n- North American beaver population:\n- Estimated at 250 million before the fur trade.\n- Currently around 9 million.\n- Primarily feed on tree bark.\n- Build lodges using wood and mud, which serve as:\n- Safe spaces for eating, sleeping, and raising young.\n- Winter shelters where they remain during the colder months.\n- Defended structures to keep other beavers out.\n- Beavers are being reintroduced in Europe to aid in wetland restoration.\n\nSource: adapted from www.sbaa.ca, www.ecology.info, www.tobyhemenway.com and http://acs7.cortland.edu\n\n**Figure 2: Algonquin wolf pack territories and protected areas**\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/8ce84dd7-b5df-4399-b126-1b4f661fc35c)\n\nSource: https://www.researchgate.net/publication/222046620_Protection_from_harvesting_restores_the_natural_social_structure_of_eastern_wolf_packs",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-18N.1.SL.TZ0.10",
+          "labeledSubSubTopics": [
+            {
+              "id": 38272,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1F Population abundance estimation",
+              "title": "2.1F Population abundance estimation",
+              "labeledAt": "2026-03-07T17:38:10.894Z",
+              "reasoning": "Part (b) asks why it is difficult to estimate wolf numbers accurately, which directly targets methods/limitations of population abundance estimation for mobile, wide-ranging animals.",
+              "confidence": 0.93
+            },
+            {
+              "id": 38269,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1C Ecological Niche and Population Interactions",
+              "title": "2.1C Ecological Niche and Population Interactions",
+              "labeledAt": "2026-03-07T17:38:10.894Z",
+              "reasoning": "Parts (a) and (c) involve predator\u2013prey interactions (wolves and beavers) and how protection/territory boundaries affect survival and sustainability of wolf populations.",
+              "confidence": 0.82
+            },
+            {
+              "id": 38274,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1H Habitat",
+              "title": "2.1H Habitat",
+              "labeledAt": "2026-03-07T17:38:10.894Z",
+              "reasoning": "Part (c) focuses on protection in a limited area (protected areas vs surrounding landscape), implicating habitat size/fragmentation and edge effects on long-term population viability.",
+              "confidence": 0.7
+            },
+            {
+              "id": 38271,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1E Population size and growth",
+              "title": "2.1E Population size and growth",
+              "labeledAt": "2026-03-07T17:38:10.894Z",
+              "reasoning": "Part (c) concerns maintaining a small sustainable wolf population, linking to factors affecting population size and long-term persistence (e.g., mortality, reproduction, dispersal).",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1162096,
+        "parts": [
+          {
+            "id": 879438,
+            "content": "With reference to **Figure 1**, outline **one** reason why there are more beaver remains in wolf faeces during summer.",
+            "order": 0,
+            "markscheme": "*Award <marks> 1 mark </marks> for any of the following:*\n\n- beavers remain in lodges in winter so they are unavailable as a food source / harder for wolves to catch them / easier to spot beavers in summer when they are out of their lodges;  \n- other species (_eg_ moose) are easier to catch in winter;  \nother prey of wolves like snowshoe hare or foxes may be harder to catch in summer;  \n- young are out in summer and are more vulnerable/easily caught;  \ndensity of population higher in summer following breeding.\n\n",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 879439,
+            "content": "The number of wolves in Algonquin Provincial Park is estimated to be between 250 and 1000. Outline **two** reasons why it is so difficult to estimate the number of wolves accurately.",
+            "order": 1,
+            "markscheme": "*Award <marks> 1 mark </marks> for each of the following, up to 2 marks:*\n\n- remote wilderness areas so hard for scientists to spot them easily / densely wooded so not easily visible from the air;  \n- large territorial range (35 $\\mathrm{km}^2$)/highly mobile so hard to locate;  \n- wolves are nocturnal/hunt at night/sleep during the day and therefore difficult to spot;  \n- look very similar to coyotes so hard to identify accurately;  \n- lack of long-term records to use as baseline data;  \n- camouflaged so hard to see especially in winter;  \n- seasonal fluctuations in numbers.\n\n_Do not accept \u201cwolves are dangerous/predators/migrate\u201d._  \n_Do not accept \u201cwolves are mobile so use of quadrat method is not effective\u201d or \u201cuse of capture, mark, release, recapture method is not suitable (as it may harm the wolves)\u201d._  \n_Do not accept only \u201cwolves look similar to coyotes / have large territorial range\u201d._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 879440,
+            "content": "With reference to **Figure 2**, explain the threats to the future existence of a small and sustainable population of wolves as a result of their protection in limited area.",
+            "order": 2,
+            "markscheme": "*Award <marks> 1 mark </marks> for each of the following, up to 3 marks:*\n\n- if the range overlaps with areas outside of Algonquin Provincial Park, _ie_ not protected, the wolf is at risk of being hunted / may be mistaken as coyotes in the buffer zone and killed by accident;  \n- genetic isolation may occur as there may be no mixing with wolf populations from outside of Algonquin Provincial Park;  \n- restricted gene pool can lead to less resistance to diseases;  \n- high population density increases risk of diseases spreading;  \n- wolves may end up competing for territory/food with each other leading to higher mortality/limiting population growth / increase in intraspecific competition;  \n- concentrated population is more prone to high losses during event of wildfires/natural disasters.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "647708fb-500b-459e-b0bc-4c6c7134057c",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30531,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2B Climate change",
+              "title": "6.2B Climate change",
+              "labeledAt": "2026-03-07T17:37:59.142Z",
+              "reasoning": "The question asks for impacts of climate change on ecosystem structure and function, which is directly within climate change causes and impacts.",
+              "confidence": 0.74
+            },
+            {
+              "id": 38275,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1I Ecosystems",
+              "title": "2.1I Ecosystems",
+              "labeledAt": "2026-03-07T17:37:59.142Z",
+              "reasoning": "Ecosystem structure and function refers to ecosystem components, interactions, and processes (e.g., productivity, species composition), aligning with the ecosystems topic.",
+              "confidence": 0.58
+            },
+            {
+              "id": 29888,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5C Ecosystem resilience ",
+              "title": "2.5C Ecosystem resilience ",
+              "labeledAt": "2026-03-07T17:37:59.142Z",
+              "reasoning": "Climate change as a disturbance can alter resilience and lead to ecosystem change/state shifts, which relates to ecosystem resilience.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 813568,
+        "parts": [
+          {
+            "id": 487052,
+            "content": "Explain how climate change can affect ecosystem structure and function.",
+            "order": 0,
+            "markscheme": "- Alters species distributions and migration patterns <marks>1 mark</marks>\n- Changes in temperature and precipitation affect plant growth and productivity <marks>1 mark</marks>\n- Can lead to mismatches in timing of ecological events (e.g., flowering and pollinator activity) <marks>1 mark</marks>\n- May increase frequency and intensity of disturbances (e.g., fires, storms) <marks>1 mark</marks>\n- Can alter competitive relationships between species <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6eec81f8-b22e-4bd0-b3c0-1e808c508edc",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29887,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5B Succession",
+              "title": "2.5B Succession",
+              "labeledAt": "2026-03-06T15:38:47.576Z",
+              "reasoning": "The question asks to describe ecological succession and distinguish between primary and secondary succession, which is directly covered under the Succession subtopic.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 813569,
+        "parts": [
+          {
+            "id": 487038,
+            "content": "Describe the process of succession in an ecosystem, distinguishing between primary and secondary succession.",
+            "order": 0,
+            "markscheme": "- Succession is the gradual change in species composition over time <marks>1 mark</marks>\n- Primary succession occurs in newly formed habitats (e.g., volcanic islands) <marks>1 mark</marks>\n- Secondary succession occurs in disturbed habitats with existing soil <marks>1 mark</marks>\n- Both involve a series of stages leading to a climax community <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6fe2a0b0-ddc6-43ef-a0c5-d70638337bc5",
+        "specification": "**Figure 1: Example of a Tundra food web**\n\n![Image](https://pub-images.revisiondojo.com/question-images/da30eebd-4265-407a-a1ff-a7010f7fd0bd)\n\nSource: https://www.sciencefacts.net/tundra-food-chain.html",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-21M.1.SL.TZ0.7",
+          "labeledSubSubTopics": [
+            {
+              "id": 64942,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2F Food Web and Biomass",
+              "title": "2.2F Food Web and Biomass",
+              "labeledAt": "2026-03-05T16:50:12.169Z",
+              "reasoning": "Part (a) requires analyzing a specific food web diagram and explaining how changes in one population (polar bears) affect other populations through trophic levels and feeding relationships.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38271,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1E Population size and growth",
+              "title": "2.1E Population size and growth",
+              "labeledAt": "2026-03-05T16:50:12.169Z",
+              "reasoning": "Part (b) addresses the relationship between population size and the probability of extinction, focusing on why smaller populations are more vulnerable (e.g., genetic drift, loss of resilience).",
+              "confidence": 0.85
+            },
+            {
+              "id": 38269,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1C Ecological Niche and Population Interactions",
+              "title": "2.1C Ecological Niche and Population Interactions",
+              "labeledAt": "2026-03-05T16:50:12.169Z",
+              "reasoning": "The question examines population interactions such as predation and competitive release within a community context.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1162091,
+        "parts": [
+          {
+            "id": 879451,
+            "content": "Outline the impact that a reduction in the polar bear population may have on other populations in the food web shown in **Figure 1**.",
+            "order": 0,
+            "markscheme": "*Award <marks> 1 mark </marks> for each relevant answer, up to 2 marks:*\n\nit is likely to lead to an increase in its prey populations;  \n\u2026which in turn may lead to decreases in their prey/food populations;  \n\u2026causing fluctuations in population size/instability/reduced resilience throughout web;\n\n_Do not accept \u2018collapse in food chain\u2019_.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 879452,
+            "content": "Outline why a reduction in the polar bear population may increase its probability of extinction.",
+            "order": 1,
+            "markscheme": "*Award <marks> 1 mark </marks> for each relevant answer, up to 2 marks.*\n\nsmaller population will reduce its gene pool/genetic diversity;  \n\u2026reducing its resilience / making it more vulnerable/less adaptable to changes in environment/disease/resource availability;  \nharder to find a mate / reduce successful pairing/mating/reproduction/favourable gender ratios;  \n\n\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7e09ed6d-217c-4d29-9f9c-611d390e4bc2",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38269,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1C Ecological Niche and Population Interactions",
+              "title": "2.1C Ecological Niche and Population Interactions",
+              "labeledAt": "2026-03-05T16:49:30.917Z",
+              "reasoning": "The question directly asks for the definition of an ecological niche and its role in species coexistence, which is the core subject of this leaf topic focusing on niches and how populations interact.",
+              "confidence": 0.98
+            },
+            {
+              "id": 38279,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1M Niche (HL)",
+              "title": "2.1M Niche (HL)",
+              "labeledAt": "2026-03-05T16:49:30.917Z",
+              "reasoning": "This HL topic covers advanced niche concepts such as fundamental and realized niches, which are essential for explaining the mechanism of species coexistence in greater depth.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 813571,
+        "parts": [
+          {
+            "id": 487045,
+            "content": "Explain the concept of ecological niche and its importance in species coexistence.",
+            "order": 0,
+            "markscheme": "- An ecological niche is the role and position a species has in its environment. <marks>1 mark</marks>\n- It includes habitat, resources used, and interactions with other species. <marks>1 mark</marks>\n- Niche differentiation allows multiple species to coexist in the same habitat. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "82b539c7-a25d-4f01-8c92-e472a9032864",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38276,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1J Keystone species",
+              "title": "2.1J Keystone species",
+              "labeledAt": "2026-03-05T16:13:28.593Z",
+              "reasoning": "The question explicitly asks to explain the concept of a keystone species, which is the direct focus of this leaf-level topic.",
+              "confidence": 1
+            },
+            {
+              "id": 29888,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5C Ecosystem resilience ",
+              "title": "2.5C Ecosystem resilience ",
+              "labeledAt": "2026-03-05T16:13:28.593Z",
+              "reasoning": "The question asks about the importance of keystone species for ecosystem stability, which is directly related to the concept of ecosystem resilience covered in this topic.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 852696,
+        "parts": [
+          {
+            "id": 487037,
+            "content": "Explain the concept of a keystone species and its importance in ecosystem stability.",
+            "order": 0,
+            "markscheme": "- A keystone species has a disproportionate effect on its environment relative to its abundance <marks>1 mark</marks>\n- Its removal can cause significant changes in ecosystem structure and function <marks>1 mark</marks>\n- Plays a crucial role in maintaining the organization and diversity of the ecosystem <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8c6c0f9b-327a-42f1-82ad-ee3e5362825a",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38269,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1C Ecological Niche and Population Interactions",
+              "title": "2.1C Ecological Niche and Population Interactions",
+              "labeledAt": "2026-03-05T16:51:12.053Z",
+              "reasoning": "The question focuses on species (population) interactions such as competition, predation, and mutualism, which are the core content of topic 2.1C (Ecological Niche and Population Interactions).",
+              "confidence": 0.95
+            },
+            {
+              "id": 38273,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1G Community",
+              "title": "2.1G Community",
+              "labeledAt": "2026-03-05T16:51:12.053Z",
+              "reasoning": "The question specifically asks how these interactions affect 'community structure', which is the central concept of topic 2.1G (Community).",
+              "confidence": 0.85
+            },
+            {
+              "id": 38276,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1J Keystone species",
+              "title": "2.1J Keystone species",
+              "labeledAt": "2026-03-05T16:51:12.053Z",
+              "reasoning": "Keystone species are a primary example taught in ESS to demonstrate how a single species' interactions can disproportionately shape the entire community structure.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 854593,
+        "parts": [
+          {
+            "id": 487044,
+            "content": "Describe two examples of how species interactions can shape community structure.",
+            "order": 0,
+            "markscheme": "### Example 1\nCompetition: Can lead to resource partitioning or competitive exclusion <marks>2 marks</marks>\n\n### Example 2\nPredation: Can control prey populations and influence their behavior <marks>2 marks</marks>\n\n### Example 3\nMutualism: Can enhance survival and reproduction of both species involved <marks>2 marks</marks>\n\n### Example 4\nParasitism: Can regulate host populations and affect community dynamics <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "97096e3a-79a0-4da4-a21b-f541dc41b23b",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-97096e3a-79a0-4da4-a21b-f541dc41b23b-1771929956947",
+            "generatedAt": "2026-02-26T05:52:41.686Z",
+            "sourceRevisionId": 1116838
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 38254,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2C Positive feedback loops",
+              "title": "1.2C Positive feedback loops",
+              "labeledAt": "2026-03-05T16:49:27.151Z",
+              "reasoning": "Part (a) specifically asks for an explanation of positive feedback mechanisms using a climate-based example to illustrate system destabilization.",
+              "confidence": 1
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-05T16:49:27.151Z",
+              "reasoning": "Part (b) requires justifying the classification of a biosphere as a closed system, which involves understanding definitions of open, closed, and isolated systems.",
+              "confidence": 1
+            },
+            {
+              "id": 38255,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2D Models",
+              "title": "1.2D Models",
+              "labeledAt": "2026-03-05T16:49:27.151Z",
+              "reasoning": "Part (c) focuses on the evaluation of quantitative models, their strengths, and their limitations in environmental science.",
+              "confidence": 1
+            },
+            {
+              "id": 38257,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2F Resilience of a system",
+              "title": "1.2F Resilience of a system",
+              "labeledAt": "2026-03-05T16:49:27.151Z",
+              "reasoning": "Part (c) discusses predicting tipping points, which are critical thresholds related to the resilience and stability of environmental systems.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1688434,
+        "parts": [
+          {
+            "id": 1149945,
+            "content": "Using the example of global temperature rise and Arctic sea ice, explain how positive feedback mechanisms can lead to the destabilization of a system.",
+            "order": 0,
+            "markscheme": "1. **Definition of positive feedback:** A process where an initial change in a system is amplified or increased, leading to further deviation from the original equilibrium. <marks>1 mark</marks>\n2. **Initial Trigger:** Rising global temperatures (due to greenhouse gas emissions) cause the melting of Arctic sea ice. <marks>1 mark</marks>\n3. **Albedo Effect:** Sea ice has a high albedo (reflectivity), while the dark ocean water has a low albedo. <marks>1 mark</marks>\n4. **Mechanism of Change:** As ice melts, more dark ocean surface is exposed. <marks>1 mark</marks>\n5. **Absorption of Energy:** The darker ocean absorbs more solar radiation/heat compared to the reflective ice. <marks>1 mark</marks>\n6. **Temperature Increase:** This absorption leads to further warming of the local atmosphere and ocean. <marks>1 mark</marks>\n7. **Amplification:** The increased warmth leads to even more ice melting, creating a self-reinforcing cycle. <marks>1 mark</marks>\n8. **Destabilization:** This can push the system toward a tipping point where the Arctic becomes ice-free in summer, representing a new state of equilibrium. <marks>1 mark</marks>\n9. **Impact on global systems:** This change can alter global weather patterns/ocean currents, further destabilizing the global climate system. <marks>1 mark</marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149946,
+            "content": "A scientist creates a sealed, self-sustaining glass biosphere containing producers, consumers, and decomposers, which is then placed in a temperature-controlled room with a constant light source. \n\nJustify the classification of this biosphere as a **closed system** by describing the behavior of energy and matter within it.",
+            "order": 1,
+            "markscheme": "1. **Definition of a closed system:** A system that exchanges energy but not matter across its boundaries. <marks>1 mark</marks>\n2. **Energy Flow:** Energy enters the system as light (solar radiation) and leaves the system as heat (long-wave radiation/respiration). <marks>1 mark</marks>\n3. **Matter Cycling:** Matter (nutrients, water, carbon, oxygen) remains trapped within the glass boundaries. <marks>1 mark</marks>\n4. **Internal Processes:** The producers use the energy to cycle the existing matter (e.g., photosynthesis converting $$CO_2$$ to glucose), which is then used by consumers/decomposers and returned to the system. <marks>1 mark</marks>\n5. **Boundary justification:** The glass seal prevents the input of new organic matter or the output of waste products to the external environment. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149947,
+            "content": "Evaluate the use of quantitative models in predicting tipping points within complex environmental systems.",
+            "order": 2,
+            "markscheme": "1. **Definitions and Concepts:** tipping point (the minimum amount of change within a system that will destabilize it, causing it to reach a new equilibrium); quantitative models (mathematical representations of systems using numerical data); resilience; delay in feedback loops; non-linear change. <marks>1 mark</marks>\n\n2. **Strengths of Models:** \n- Allow scientists to simplify complex interactions to identify key drivers of change.\n- Can predict future scenarios (e.g., IPCC climate projections) based on current data.\n- Enable the testing of \"what if\" scenarios without harming the actual ecosystem.\n- Provide a visual or numerical output that is easier for policymakers to understand. <marks>1 mark</marks>\n\n3. **Limitations of Models:**\n- Complex systems often have emergent properties that models cannot account for.\n- Quality of the model depends entirely on the accuracy of the input data (\"garbage in, garbage out\").\n- Non-linear changes/tipping points are notoriously difficult to predict because small changes can have disproportionately large effects.\n- Models may omit minor variables that become critical as the system nears a threshold. <marks>1 mark</marks>\n\n4. **Examples:** \n- Amazon Rainforest: Models predicting the \"dieback\" threshold where forest turns to savannah due to reduced transpiration.\n- Eutrophication: Models predicting the nutrient loading limit before a lake shifts from clear to turbid state.\n- Coral Reefs: Quantitative models of ocean acidification and temperature thresholds for bleaching. <marks>1 mark</marks>\n\n5. **Synthesis/Evaluation:** \n- Models are essential tools for early warning, but they should not be treated as certainties.\n- Predicting the exact timing of a tipping point is rarely possible due to the chaotic nature of environmental systems.\n- Models are most effective when combined with long-term field observations and the precautionary principle. <marks>1 mark</marks>\n\n<note>Marking should follow the standard IB ESS descriptors for 9-mark questions, focusing on holistic understanding, balanced analysis, and use of relevant examples.</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "aa5da056-2844-436e-aadd-d79bac0c15c5",
+        "specification": "Explain how the following abiotic factors can influence ecosystem structure and function:",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29876,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.4 Climate and biomes > 2.4D Climate in biomes (HL)",
+              "title": "2.4D Climate in biomes (HL)",
+              "labeledAt": "2026-03-06T15:39:17.949Z",
+              "reasoning": "The question asks how abiotic factors (temperature and precipitation) influence ecosystem structure and function\u2014core to how climate variables shape biome characteristics.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29873,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.4 Climate and biomes > 2.4A Climate",
+              "title": "2.4A Climate",
+              "labeledAt": "2026-03-06T15:39:17.949Z",
+              "reasoning": "Temperature and precipitation are fundamental components of climate; explaining their ecological effects aligns directly with the climate subtopic.",
+              "confidence": 0.62
+            },
+            {
+              "id": 29874,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.4 Climate and biomes > 2.4B Biomes",
+              "title": "2.4B Biomes",
+              "labeledAt": "2026-03-06T15:39:17.949Z",
+              "reasoning": "Ecosystem structure/function changes driven by temperature and rainfall often manifest as different biome types and distributions, so biome understanding is relevant.",
+              "confidence": 0.56
+            }
+          ]
+        },
+        "currentRevisionId": 877433,
+        "parts": [
+          {
+            "id": 487042,
+            "content": "Temperature",
+            "order": 0,
+            "markscheme": "### Temperature\n\n- Affects metabolic rates of organisms  <marks>1 mark</marks>\n- Influences species distribution and abundance  <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 487043,
+            "content": "Precipitation",
+            "order": 1,
+            "markscheme": "- Precipitation is a key component of the water cycle <marks>1 mark</marks>\n\n\nPrecipitation= => Surface runoff ==> Streams/Rivers ==>Oceans}\n\n<marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "bd4e6552-40c7-49de-b26e-e49e96e37c75",
+        "specification": "Analyze the following food web diagram:\n![Image](https://pub-images.revisiondojo.com/question-images/26a165d1-c278-41ef-b9c9-c5420a7579f6)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 64942,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2F Food Web and Biomass",
+              "title": "2.2F Food Web and Biomass",
+              "labeledAt": "2026-03-05T16:49:34.680Z",
+              "reasoning": "The question specifically focuses on the analysis of a food web, identifying roles (producers/consumers) and explaining interactions and dependencies within that web.",
+              "confidence": 0.98
+            },
+            {
+              "id": 29822,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2D Food Chain and Energy Loss",
+              "title": "2.2D Food Chain and Energy Loss",
+              "labeledAt": "2026-03-05T16:49:34.680Z",
+              "reasoning": "Identifying trophic levels such as producers and tertiary consumers is a fundamental part of understanding food chains and the flow of energy through an ecosystem.",
+              "confidence": 0.9
+            },
+            {
+              "id": 38269,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1C Ecological Niche and Population Interactions",
+              "title": "2.1C Ecological Niche and Population Interactions",
+              "labeledAt": "2026-03-05T16:49:34.680Z",
+              "reasoning": "The second part of the question asks for an analysis of how the removal of one species affects others, which directly relates to population interactions and ecological niches.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 813573,
+        "parts": [
+          {
+            "id": 487053,
+            "content": "Identify one producer and one tertiary consumer in this food web.",
+            "order": 0,
+            "markscheme": "Producer: <marks>1 mark</marks> for identifying any of the plants (grass, trees, etc.)\n\nTertiary consumer: <marks>1 mark</marks> for identifying any of the top predators (hawk, fox, etc.)",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 487054,
+            "content": "Explain how the removal of one species might affect the entire food web.",
+            "order": 1,
+            "markscheme": "- Removal could disrupt energy flow through the ecosystem <marks>1 mark</marks>\n- Could lead to population changes in other connected species <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "be450458-108f-4158-bfce-02a004b34afa",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38269,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1C Ecological Niche and Population Interactions",
+              "title": "2.1C Ecological Niche and Population Interactions",
+              "labeledAt": "2026-03-05T16:50:47.760Z",
+              "reasoning": "The question asks to describe symbiotic relationships and provide examples. Symbiosis (including mutualism, parasitism, and commensalism) is a core component of population interactions within the ESS ecology syllabus, specifically categorized under 'Ecological Niche and Population Interactions'.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 877434,
+        "parts": [
+          {
+            "id": 487056,
+            "content": "Describe two types of symbiotic relationships in ecosystems, providing an example for each.",
+            "order": 0,
+            "markscheme": "- Mutualism: both species benefit\n  - Example: Pollination by bees. Bees obtain nectar from flowers, while plants are pollinated by the bees, allowing reproduction.\n\n- Commensalism: one species benefits, the other is unaffected\n  - Example: Remora fish and sharks. Remora fish attach themselves to sharks and feed on the shark's leftover food, while the shark is neither harmed nor benefited.\n\n- Parasitism: one species benefits at the expense of the other\n  - Example: Tapeworms in humans. Tapeworms live in the human intestine, obtaining nutrients from the host, while causing harm and disease to the human host.\n\n<marks>2 marks</marks> for each correctly described relationship with an example, up to <marks>4 marks</marks>.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cc011c02-8dbe-4133-a19b-1da33c808e60",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38275,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1I Ecosystems",
+              "title": "2.1I Ecosystems",
+              "labeledAt": "2026-03-05T16:51:12.537Z",
+              "reasoning": "The question directly asks for the definition and components of an ecosystem, which is the primary focus of leaf topic 2.1I 'Ecosystems'.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 803232,
+        "parts": [
+          {
+            "id": 487034,
+            "content": "Define the term \"ecosystem\" and explain its key components.",
+            "order": 0,
+            "markscheme": "An ecosystem is defined as:\n\n- A community of living organisms (biotic components such as plants, animals, microorganisms) <marks>1 mark</marks>\n- Interacting with their physical environment (abiotic components such as soil, water, climate) <marks>1 mark</marks>\n- The biotic and abiotic components are linked through nutrient cycles and energy flows <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cf54115b-6cce-49c2-8e8b-4e3b2ea4bf7f",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29822,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2D Food Chain and Energy Loss",
+              "title": "2.2D Food Chain and Energy Loss",
+              "labeledAt": "2026-03-07T17:37:42.985Z",
+              "reasoning": "Trophic levels are the feeding positions in a food chain; explaining their role in ecosystem structure directly links to food chains and how energy is transferred and lost between levels.",
+              "confidence": 0.93
+            },
+            {
+              "id": 64942,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2F Food Web and Biomass",
+              "title": "2.2F Food Web and Biomass",
+              "labeledAt": "2026-03-07T17:37:42.985Z",
+              "reasoning": "Trophic levels are also used to describe structure in food webs (interconnected feeding relationships), which may be referenced when discussing overall ecosystem structure.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 803875,
+        "parts": [
+          {
+            "id": 487041,
+            "content": "Explain the concept of trophic levels and their role in ecosystem structure.",
+            "order": 0,
+            "markscheme": "- Trophic levels represent the feeding position of organisms in a food chain <marks>1 mark</marks>\n- Include producers, primary consumers, secondary consumers, etc. <marks>1 mark</marks>  \n- Determine the flow of energy and matter through the ecosystem  <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d08a278a-eca7-451c-8261-1838561b1e67",
+        "specification": "Topic 1.4: Sustainability",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d08a278a-eca7-451c-8261-1838561b1e67-1771929956947",
+            "generatedAt": "2026-02-26T05:51:15.409Z",
+            "sourceRevisionId": 1137003
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 38263,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3F Sustainability indicators",
+              "title": "1.3F Sustainability indicators",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "The question asks about Ecological Footprint categories and evaluates EF as a measure of national sustainability, which are sustainability indicators.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30577,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1F Environmental impact assessment (HL)",
+              "title": "7.1F Environmental impact assessment (HL)",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "Part (a) explicitly asks for the essential stages of an Environmental Impact Assessment (EIA) and its role in sustainable decision-making.",
+              "confidence": 0.84
+            },
+            {
+              "id": 38264,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3G Biocapacity",
+              "title": "1.3G Biocapacity",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "Ecological Footprint calculations are interpreted relative to biocapacity, and evaluating EF accuracy commonly involves comparing EF to a nation\u2019s biocapacity.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1685347,
+        "parts": [
+          {
+            "id": 1146068,
+            "content": "State **four** specific categories of land or water use that are incorporated into the calculation of an Ecological Footprint (EF).",
+            "order": -1,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following up to a maximum of <marks>4 marks</marks>:\n\n1.  **Arable land:** Land required for growing food crops for human consumption or animal feed.\n2.  **Pasture land:** Land used for grazing livestock for meat, dairy, or wool production.\n3.  **Forest land:** Land required to provide timber products, pulp, and fuel wood.\n4.  **Carbon footprint (Carbon uptake land):** The amount of forest land required to sequester the carbon dioxide emissions produced by fossil fuel combustion.\n5.  **Built-up land:** Land occupied by infrastructure, including housing, transport, and industrial sites.\n6.  **Fishing grounds:** Area of marine and inland water required to support the sustainable harvest of fish and seafood.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146069,
+            "content": "Outline the essential stages of an Environmental Impact Assessment (EIA) and its role in sustainable decision-making.",
+            "order": 0,
+            "markscheme": "### Outline the essential stages and role of an EIA\n\n- **Baseline study:** Conducting an initial survey of the site to establish the current state of the environment (biotic and abiotic factors) before any development begins. <marks>1 mark</marks>\n- **Identification of impacts:** Predicting the potential positive and negative environmental consequences of the proposed project. <marks>1 mark</marks>\n- **Mitigation strategies:** Proposing measures to avoid, reduce, or compensate for the negative impacts identified. <marks>1 mark</marks>\n- **Assessment of alternatives:** Comparing the proposed project with alternative designs or locations to find the least damaging option. <marks>1 mark</marks>\n- **Public consultation:** Involving local communities and stakeholders to ensure social concerns and local knowledge are considered. <marks>1 mark</marks>\n- **Reporting:** Producing a formal Environmental Impact Statement (EIS) for decision-makers to review before granting or denying permission. <marks>1 mark</marks>\n- **Monitoring:** Establishing a plan to track environmental changes during and after construction to ensure mitigation measures are effective. <marks>1 mark</marks>\n\n<note>Award a maximum of <marks>7 marks</marks> for this question.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146070,
+            "content": "To what extent does the use of the 'Ecological Footprint' (EF) provide an accurate measure of a nation's sustainability?",
+            "order": 1,
+            "markscheme": "### Arguments that EF is an accurate/useful measure\n\n- It provides a simple, quantitative model that is easy for the public and policymakers to understand. <marks>1 mark</marks>\n- It allows for direct comparison between a population's consumption and the available biocapacity of their region/country. <marks>1 mark</marks>\n- It highlights 'ecological overshoot,' where a population's demand exceeds the earth's regenerative capacity. <marks>1 mark</marks>\n- It accounts for the indirect land use required for carbon sequestration, linking consumption to climate change. <marks>1 mark</marks>\n- It provides a standardized metric that allows for global comparisons between different countries and lifestyles. <marks>1 mark</marks>\n\n### Limitations of EF as an accurate measure\n\n- It is a simplified model that does not account for many types of pollution, such as toxic chemical releases or plastic waste. <marks>1 mark</marks>\n- It does not measure the depletion of non-renewable resources (e.g., minerals, ores) until they result in land use or carbon emissions. <marks>1 mark</marks>\n- It often ignores the complexity of ecosystem services that do not have a direct 'land area' equivalent (e.g., pollination, water purification). <marks>1 mark</marks>\n- It assumes that all land types (e.g., forest vs. pasture) are used at a sustainable yield, which may not be true in practice. <marks>1 mark</marks>\n- Data quality varies significantly between countries, which can lead to inaccuracies in the calculated footprint. <marks>1 mark</marks>\n\n<note>Award a maximum of <marks>9 marks</marks> for a balanced discussion of both the strengths and limitations of the Ecological Footprint as a model.</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d0c28ea5-2da6-4a37-97bc-9b80f6966c91",
+        "specification": "Explain how the following factors contribute to ecosystem resilience:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29888,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5C Ecosystem resilience ",
+              "title": "2.5C Ecosystem resilience ",
+              "labeledAt": "2026-03-05T16:12:42.701Z",
+              "reasoning": "The question specifically asks to explain factors contributing to 'ecosystem resilience', which is the primary focus of leaf topic 2.5C.",
+              "confidence": 1
+            },
+            {
+              "id": 38257,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2F Resilience of a system",
+              "title": "1.2F Resilience of a system",
+              "labeledAt": "2026-03-05T16:12:42.701Z",
+              "reasoning": "Resilience is also a core concept in system theory within the ESS foundation, where the relationship between complexity (biodiversity) and stability is established.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 813575,
+        "parts": [
+          {
+            "id": 487047,
+            "content": "Biodiversity",
+            "order": 0,
+            "markscheme": "- Greater biodiversity provides more potential responses to disturbances $\\implies$ <marks>1 mark</marks>\n- Increases the likelihood of species that can adapt to changes $\\implies$ <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 487048,
+            "content": "Functional redundancy",
+            "order": 1,
+            "markscheme": "- Multiple species performing similar ecological roles <marks>1 mark</marks>\n- If one species is lost, others can maintain ecosystem function <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d79caaa1-539b-4439-b881-0bdca6e886de",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d79caaa1-539b-4439-b881-0bdca6e886de-1771929956947",
+            "generatedAt": "2026-02-26T05:33:13.191Z",
+            "sourceRevisionId": 1107639
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 38253,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2B Negative feedback loops",
+              "title": "1.2B Negative feedback loops",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (c) explicitly requires a discussion of the role of negative feedback loops in system stability.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38254,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2C Positive feedback loops",
+              "title": "1.2C Positive feedback loops",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (c) explicitly requires a discussion of the role of positive feedback loops with named examples.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38255,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2D Models",
+              "title": "1.2D Models",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (b) asks for an evaluation of box-and-arrow diagrams as models to represent ecosystem flows and storages.",
+              "confidence": 0.9
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (a) focuses on identifying transfers and transformations, which are fundamental concepts of systems analysis.",
+              "confidence": 0.85
+            },
+            {
+              "id": 38257,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2F Resilience of a system",
+              "title": "1.2F Resilience of a system",
+              "labeledAt": "2026-03-05T16:12:59.479Z",
+              "reasoning": "Part (c) discusses the stability of systems, which is intrinsically linked to the concept of resilience in ESS.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1688427,
+        "parts": [
+          {
+            "id": 1149924,
+            "content": "Identify **two** transfers and **two** transformations of energy or matter that occur within a glacier system.",
+            "order": 0,
+            "markscheme": "Potential transfers (any two): \n- Movement of ice mass downslope due to gravity. <marks>1 mark</marks>\n- Accumulation of snow/precipitation on the glacier surface. <marks>1 mark</marks>\n- Movement of meltwater through internal channels or out of the snout. <marks>1 mark</marks>\n- Wind-blown transport of surface debris. <marks>1 mark</marks>\n\nPotential transformations (any two):\n- Solid ice melting into liquid water. <marks>1 mark</marks>\n- Snow compressing and recrystallizing into dense glacial ice (firnification). <marks>1 mark</marks>\n- Sublimation of ice directly into water vapor. <marks>1 mark</marks>\n- Absorption of solar radiation being converted into heat/internal energy. <marks>1 mark</marks>\n\n<note>Award 1 mark for each correctly identified process, up to a maximum of 2 for transfers and 2 for transformations.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149925,
+            "content": "Evaluate the use of a box-and-arrow flow diagram (a model) to represent the storages and flows of a named ecosystem.",
+            "order": 1,
+            "markscheme": "**Strengths:**\n- Simplifies complex biological/geochemical interactions into a format that is easy to visualize. <marks>1 mark</marks>\n- Allows for the quantitative comparison of different storages (e.g., biomass vs. litter in a rainforest). <marks>1 mark</marks>\n- Helps to identify the most significant pathways of energy or matter loss. <marks>1 mark</marks>\n- Can be used to predict how a change in one component (e.g., removal of a predator) might affect the rest of the system. <marks>1 mark</marks>\n\n**Limitations:**\n- Often oversimplifies the system by excluding minor species or pathways that may still be critical. <marks>1 mark</marks>\n- Static diagrams do not easily show how flows change over time or with seasons. <marks>1 mark</marks>\n- The accuracy of the model is entirely dependent on the quality of the initial data collected. <marks>1 mark</marks>\n- It may ignore the 'human factor' or external unpredictable disturbances (e.g., sudden forest fires). <marks>1 mark</marks>\n\n**Application to named ecosystem:**\n- For example, in a Tropical Rainforest: Storages (Biomass, Litter, Soil) and Flows (Leaching, Decomposition, Uptake). <marks>1 mark</marks>\n\n<note>A maximum of 4 marks may be awarded for strengths and a maximum of 4 marks for limitations. A named ecosystem must be referenced for the highest marks.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149926,
+            "content": "\"The stability of an environmental system is solely dependent on the presence of negative feedback loops.\"\n\nDiscuss the validity of this statement with reference to named examples of both positive and negative feedback.",
+            "order": 2,
+            "markscheme": "Answers may include:\n- Definition of stability/equilibrium (steady-state vs. static).\n- Explanation of negative feedback: mechanisms that reverse/dampen a change, bringing the system back to its original state (e.g., predator-prey cycles, temperature regulation in organisms).\n- Explanation of positive feedback: mechanisms that amplify change, driving the system toward a tipping point or a new equilibrium (e.g., Albedo effect in the Arctic, methane release from thawing permafrost).\n- Discussion on resilience: high biodiversity and complex webs contribute to stability alongside feedback.\n- Discussion on how positive feedback can lead to system collapse or a \"regime shift\" (loss of current stability).\n\n- <marks>2 marks</marks> for a balanced analysis of the extent to which negative feedback is the \"sole\" factor, acknowledging the role of other factors like ecosystem complexity or the destabilizing influence of positive feedback.\n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| 1\u20133 | The response contains: \u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| 4\u20136 | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| 7\u20139 | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "da8447df-55ff-4e59-b8f6-dd409d1d7e36",
+        "specification": "**Figure 1: Net primary productivity of selected world biomes (kJ m\u20132 a\u20131, average)**\n\n![Image](https://pub-images.revisiondojo.com/question-images/c09297c5-cbb1-4c89-ae21-a5375f51a886)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-19N.1.SL.TZ0.1",
+          "labeledSubSubTopics": [
+            {
+              "id": 64915,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2E Gross productivity and Net productivity ",
+              "title": "2.2E Gross productivity and Net productivity ",
+              "labeledAt": "2026-03-05T16:46:25.712Z",
+              "reasoning": "The question explicitly requires the identification and interpretation of Net Primary Productivity (NPP) values from a provided graph for various ecosystems.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30135,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.3 Aquatic food production systems > 4.3E Productivity, thermal stratification, nutrient mixing, and loading (HL)",
+              "title": "4.3E Productivity, thermal stratification, nutrient mixing, and loading (HL)",
+              "labeledAt": "2026-03-05T16:46:25.712Z",
+              "reasoning": "Parts b and c specifically ask for explanations regarding the high productivity of estuaries, which is directly linked to nutrient mixing and loading in aquatic systems.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29874,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.4 Climate and biomes > 2.4B Biomes",
+              "title": "2.4B Biomes",
+              "labeledAt": "2026-03-05T16:46:25.712Z",
+              "reasoning": "The comparison of productivity levels across different world biomes (tropical rainforest, temperate forest, tundra, etc.) is a central theme of the data analysis portion.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1645436,
+        "parts": [
+          {
+            "id": 1141067,
+            "content": "Identify an ecosystem with an average \nnet primary productivity above 30\u2009000 kJ m\u20132 a\u20131, using figure 1.",
+            "order": 0,
+            "markscheme": "Estuary/tropical rainforest <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1141068,
+            "content": "Estuaries account for only 3\u2009% of global productivity yet are one of the most productive ecosystems.\n\nState **one** reason why this is the case.",
+            "order": 1,
+            "markscheme": "- Estuaries have a high nutrient input $\\Rightarrow$ from rivers/runoff/upwelling\n- Estuaries have high light availability $\\Rightarrow$ due to shallow waters\n- Estuaries have a range of habitats/niches $\\Rightarrow$ for different species to occupy\n\n<marks>1 mark max</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1141069,
+            "content": "Explain why estuaries are highly productive ecosystems.",
+            "order": 2,
+            "markscheme": "<marks> 3 marks max </marks>\n\n- Mix of saline and fresh water creates different habitats, resulting in greater biodiversity and higher productivity <marks>1 mark</marks>\n- Zonation/range of temperature/salinity leads to greater habitat diversity, allowing for higher productivity <marks>1 mark</marks>\n- Shallow waters receive more light and warmth, promoting primary productivity <marks>1 mark</marks>\n- Tides, river systems, and upwellings bring in nutrients, fueling phytoplankton blooms and primary productivity <marks>1 mark</marks>\n- Mineral/nutrient run-off from surrounding agricultural land and watersheds enters the estuary <marks>1 mark</marks>\n- Rising and falling water levels expose mud flats, providing food sources for shorebirds, increasing secondary productivity <marks>1 mark</marks>\n- Migratory birds and whales stop to feed, temporarily raising secondary productivity <marks>1 mark</marks>\n\n<note>Do not accept only 'high biodiversity' or 'large/complex food webs'.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "dd22957f-dfba-410a-bcc9-e8d0ed0d4963",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-18N.2.SL.TZ0.4",
+          "labeledSubSubTopics": [
+            {
+              "id": 30086,
+              "isHl": false,
+              "path": "Topic 3: Conservation and biodiversity > 3.3 Conservation and regeneration > 3.3C Choice of conservation",
+              "title": "3.3C Choice of conservation",
+              "labeledAt": "2026-03-05T16:49:43.318Z",
+              "reasoning": "Part (c) asks for a discussion comparing habitat conservation to species-based approaches, which is the core focus of topic 3.3C.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30071,
+              "isHl": false,
+              "path": "Topic 3: Conservation and biodiversity > 3.2 Human impact on biodiversity > 3.2A Human impacts on biodiversity",
+              "title": "3.2A Human impacts on biodiversity",
+              "labeledAt": "2026-03-05T16:49:43.318Z",
+              "reasoning": "Part (b) requires explaining the causes and consequences of the loss of an endangered species, which aligns directly with human impacts on biodiversity.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30573,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1B Ecosystem services",
+              "title": "7.1B Ecosystem services",
+              "labeledAt": "2026-03-05T16:49:43.318Z",
+              "reasoning": "Part (a) specifically asks for an outline of ecosystem services.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29874,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.4 Climate and biomes > 2.4B Biomes",
+              "title": "2.4B Biomes",
+              "labeledAt": "2026-03-05T16:49:43.318Z",
+              "reasoning": "Part (a) requires the identification of a named biome as the context for ecosystem services.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 870441,
+        "parts": [
+          {
+            "id": 525692,
+            "content": "Outline **two** ecosystem services in a named biome.",
+            "order": 0,
+            "markscheme": "**Tundra**\n\n- Permafrost/glaciers in tundra provide important storage in hydrological cycle <marks>1 mark</marks>\n- Ice in tundra provides reflective surface/increases planetary albedo, thus moderating global temperatures <marks>1 mark</marks>\n\n**Wetlands**\n\n- Decomposers/high productivity in swamps/wetlands provides filtration of inorganic nutrients / water purification <marks>1 mark</marks>\n- Storage of water in wetlands prevents flooding / provides ideal resting grounds for migratory birds <marks>1 mark</marks>\n\n#### Tropical rainforests\n\n- High biodiversity in tropical rainforests promotes ecotourism/recreation <marks>1 mark</marks>  \n- High rate of photosynthesis in tropical rainforests maintains balance of O2/CO2 in atmosphere <marks>1 mark</marks>\n\n#### Boreal/temperate forests\n\n- Tree populations in boreal/temperate forests prevent soil erosion on mountainsides <marks>1 mark</marks>\n- Forest canopies in forests provide shade/shelter/habitat for diversity of species <marks>1 mark</marks>\n\n<note>Be careful only to credit \"services\" (maintenance/establishment of favourable conditions) and not \"goods\" (consumable/harvestable/physical products).</note>  \n\n<note>Award **[2 max]** if no biome is identified. If more than one biome is given, credit only highest scoring biome addressed.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 525693,
+            "content": "Explain the causes, and the possible consequences, of the loss of a named critically endangered species.",
+            "order": 1,
+            "markscheme": "### Causes <marks>3 max</marks>\n\n- Habitat loss / deforestation\n- Habitat degradation / pollution\n- Narrowly distributed / endemic\n- Poaching / overhunting\n- Illegal trafficking of species\n- Disease\n- Small population size/gene pool / inbreeding\n- Specialised niche\n- Slow reproduction rate / specialised reproductive behaviour\n- High trophic level/top predator\n- Low/negative cultural value\n- Influence/competition/predation from invasive species\n\n### Consequences <marks>3 max</marks>\n\n- Loss of an aesthetically attractive organism\n- Loss of ethically significant life / breach of biorights\n- Loss of biodiversity\n- Increase in organisms upon which the species fed or competed with\n- Decline in other organisms due to loss of food source\n- If keystone species, widespread impacts/cascade effects on food chains/ecosystem\n- Economic costs from loss of ecosystem services provided by the species\n- Economic costs from loss of tourism opportunities\n- Social impacts on local culture as important/significant cultural loss\n\n<note>Max. 4 marks without explaination </note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 525694,
+            "content": "Using examples, discuss whether habitat conservation is more successful than a species-based approach to protecting threatened species.",
+            "order": 2,
+            "markscheme": "Answers may include: \n- Habitat conservation aims to protect entire ecosystems and the various species within them, while a species-based approach focuses on specific threatened species.\n- Protects multiple species and their interactions within an ecosystem \n- Addresses root causes of biodiversity loss like habitat destruction and fragmentation \n- Maintains ecosystem services like water purification, nutrient cycling, and climate regulation \n- Examples: Establishing protected areas, restoring degraded habitats, sustainable forestry practices \n- Targets critically endangered species at high risk of extinction \n- Allows for focused efforts on specific species' needs and threats \n- Examples: Captive breeding programs, reintroduction efforts, anti-poaching measures \n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| 1\u20133 | The response contains:\u2022 minimal evidence of knowledge and understanding of ESS issues or concepts \u2022 fragmented knowledge statements poorly linked to the context of the question \u2022 some appropriate use of ESS terminology \u2022 no examples where required, or examples with insufficient explanation/relevance \u2022 superficial analysis that amounts to no more than a list of facts/ideas \u2022 judgments/conclusions that are vague or not supported by evidence/argument. |\n| 4\u20136 | The response contains: \u2022 some evidence of sound knowledge and understanding of ESS issues and concepts \u2022 knowledge statements effectively linked to the context of the question \u2022 largely appropriate use of ESS terminology \u2022 some use of relevant examples where required, but with limited explanation \u2022 clear analysis that shows a degree of balance \u2022 some clear judgments/conclusions, supported by limited evidence/arguments. |\n| 7\u20139 | The response contains: \u2022 substantial evidence of sound knowledge and understanding of ESS issues and concepts \u2022 a wide breadth of knowledge statements effectively linked with each other, and to the context of the question \u2022 consistently appropriate and precise use of ESS terminology \u2022 effective use of pertinent, well-explained examples, where required, showing some originality \u2022 thorough, well-balanced, insightful analysis \u2022 explicit judgments/conclusions that are well-supported by evidence/arguments and that include some critical reflection. |\n",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "dd41ec20-03a2-4221-9297-a1bbf047e757",
+        "specification": "The following table displays measurements of various air pollutants collected at a busy urban intersection over a 24-hour period.\n\n**Table 1: Concentrations of atmospheric pollutants in an urban area**\n\n| Time of day | Nitrogen Oxides ($$NO_x$$) (ppb) | Ozone ($$O_3$$) (ppb) | Particulate Matter ($$PM_{2.5}$$) ($$\\mu g/m^3$$) |\n| :--- | :--- | :--- | :--- |\n| 06:00 | 85 | 12 | 18 |\n| 12:00 | 35 | 92 | 42 |\n| 18:00 | 70 | 28 | 38 |\n| 00:00 | 15 | 8 | 12 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-dd41ec20-03a2-4221-9297-a1bbf047e757-1771929956947",
+            "generatedAt": "2026-02-25T11:07:47.293Z",
+            "sourceRevisionId": 1109335
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30637,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.3 Urban air pollution > 8.3A Urban air pollution",
+              "title": "8.3A Urban air pollution",
+              "labeledAt": "2026-03-06T07:59:20.811Z",
+              "reasoning": "Question focuses on urban air pollutants (NOx, O3, PM2.5), primary vs secondary pollutants, non-point sources, and management strategies for urban air pollution.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30640,
+              "isHl": true,
+              "path": "Topic 8: Human populations and urban systems > 8.3 Urban air pollution > 8.3D Tropospheric ozone (HL)",
+              "title": "8.3D Tropospheric ozone (HL)",
+              "labeledAt": "2026-03-06T07:59:20.811Z",
+              "reasoning": "Includes ozone as a secondary pollutant in an urban setting and asks to explain NOx\u2013O3 patterns consistent with tropospheric ozone formation.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1686470,
+        "parts": [
+          {
+            "id": 1147021,
+            "content": "State **one** example of a non-point source of air pollution in an urban area.",
+            "order": -1,
+            "markscheme": "Road traffic/vehicle exhausts (across a city) / domestic heating / household activities / small-scale agricultural runoff in the outskirts <marks> 1 mark </marks>\n\n_Do not credit specific single sources like a factory chimney (point source)_.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147022,
+            "content": "Identify the **secondary pollutant** listed in **Table 1**.",
+            "order": 0,
+            "markscheme": "Ozone / $$O_3$$ <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147023,
+            "content": "Identify the time of day when the concentration of **particulate matter ($$PM_{2.5}$$)** is at its highest.",
+            "order": 1,
+            "markscheme": "12:00 / Noon <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147024,
+            "content": "With reference to the data in **Table 1**, explain how the concentrations of nitrogen oxides ($$NO_x$$) and ozone ($$O_3$$) illustrate the difference between primary and secondary pollutants.",
+            "order": 2,
+            "markscheme": "- Nitrogen oxides are primary pollutants because they are highest at 06:00/18:00 when they are emitted directly (e.g. from rush hour traffic) <marks> 1 mark </marks>\n- Ozone is a secondary pollutant because its concentration peaks later (12:00) as it is formed from the reaction of primary pollutants in the presence of sunlight <marks> 1 mark </marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147025,
+            "content": "State the term for a pollutant, such as certain heavy metals or plastics, that cannot be broken down by natural biological processes.",
+            "order": 3,
+            "markscheme": "Persistent (pollutant) / non-biodegradable <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147026,
+            "content": "Outline **two** pollution management strategies at the \"regulating and reducing\" level of the pollution management model that could be used to address urban air pollution.",
+            "order": 4,
+            "markscheme": "- implementation of government legislation/laws to set maximum emission standards for vehicles/industries <marks> 1 mark </marks>\n- use of technological solutions such as catalytic converters / scrubbers to remove pollutants from exhaust gases <marks> 1 mark </marks>\n- establishing \"low emission zones\" where high-polluting vehicles are restricted or fined <marks> 1 mark </marks>\n- regular mandatory vehicle emissions testing (e.g., MOT/smog checks) <marks> 1 mark </marks>\n\n_Award [1] for each distinct strategy up to [2] max. Do not credit \"altering human activity\" (Level 1) or \"clean up and restoration\" (Level 3) strategies._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "eb67a13d-6634-4488-9102-8943e9387ab4",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 2,
+            "workflowId": "ramen-ib-ess-eb67a13d-6634-4488-9102-8943e9387ab4-1771954110475",
+            "generatedAt": "2026-02-25T11:12:26.540Z",
+            "sourceRevisionId": 1105942
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29822,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2D Food Chain and Energy Loss",
+              "title": "2.2D Food Chain and Energy Loss",
+              "labeledAt": "2026-03-07T17:37:42.855Z",
+              "reasoning": "Part (a) asks about low efficiency of energy transfers between trophic levels (energy loss in food chains).",
+              "confidence": 0.9
+            },
+            {
+              "id": 30544,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.3 Climate change - mitigation and adaptation > 6.3A Mitigation and adaptation strategies ",
+              "title": "6.3A Mitigation and adaptation strategies ",
+              "labeledAt": "2026-03-07T17:37:42.855Z",
+              "reasoning": "Part (b) explicitly evaluates preventative vs restorative strategies for system management in the context of climate change (mitigation/adaptation approaches).",
+              "confidence": 0.8
+            },
+            {
+              "id": 30531,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2B Climate change",
+              "title": "6.2B Climate change",
+              "labeledAt": "2026-03-07T17:37:42.855Z",
+              "reasoning": "If climate change is chosen for part (b), evaluation may require reference to climate change impacts and the issue overall, not just strategies.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30071,
+              "isHl": false,
+              "path": "Topic 3: Conservation and biodiversity > 3.2 Human impact on biodiversity > 3.2A Human impacts on biodiversity",
+              "title": "3.2A Human impacts on biodiversity",
+              "labeledAt": "2026-03-07T17:37:42.855Z",
+              "reasoning": "If deforestation is chosen for part (b), it concerns human impacts on ecosystems/biodiversity and associated management responses.",
+              "confidence": 0.5
+            }
+          ]
+        },
+        "currentRevisionId": 1688642,
+        "parts": [
+          {
+            "id": 1150559,
+            "content": "State four factors that contribute to the low efficiency of energy transfers between trophic levels.",
+            "order": 0,
+            "markscheme": "- **Metabolic heat loss:** Energy is lost as heat during the process of cellular respiration. <marks>1 mark</marks>\n- **Incomplete consumption:** Certain parts of organisms are not eaten by consumers (e.g., bones, shells, woody stems, roots). <marks>1 mark</marks>\n- **Egestion/Waste:** Not all consumed food is digested and absorbed; energy is lost as feces. <marks>1 mark</marks>\n- **Energy for life processes:** Energy is used by the organism for movement, repair, and maintaining homeostasis rather than being stored as biomass. <marks>1 mark</marks>\n- **Death/Decomposition:** Organisms may die before being consumed, diverting energy to the decomposer/detritus food chain rather than the next consumer level. <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for each correct factor identified, up to a maximum of <marks>4 marks</marks>.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150560,
+            "content": "With reference to either climate change or deforestation, evaluate the relative efficiency of preventative strategies (changing human activity) versus restorative strategies (mitigating the impact) as approaches to system management.",
+            "order": 1,
+            "markscheme": "Answers may include:\n\n*   **Conceptual links:** steady-state equilibrium, tipping points, positive/negative feedback, resilience of the system, the 1st/2nd laws of thermodynamics (energy requirements for restoration), _etc._\n*   **Management framework:** Distinguishing between Level 1 (altering human activity/prevention) and Level 3 (clean-up and restoration). \n\n**Option 1: Climate Change**\n*   **Preventative (Level 1):** Shifting to renewable energy, carbon taxes, lifestyle changes (reduced meat consumption, energy efficiency). \n    *   *Strengths:* Addresses the root cause (greenhouse gas emissions); prevents the system from reaching a tipping point (e.g., permafrost melt); more sustainable in the long term.\n    *   *Weaknesses:* Requires global cooperation; significant economic transition costs; slow political implementation.\n*   **Restorative (Level 3):** Carbon Capture and Storage (CCS), afforestation, geo-engineering.\n    *   *Strengths:* Can provide immediate reduction in atmospheric concentrations; potentially buys time for the energy transition.\n    *   *Weaknesses:* High energy cost (2nd Law of Thermodynamics\u2014requires energy to reverse entropy); expensive; potentially unforeseen ecological consequences (geo-engineering); does not address the cause.\n\n**Option 2: Deforestation**\n*   **Preventative (Level 1):** Promoting sustainable timber harvesting, consumer boycotts of non-certified soy/palm oil, legal protection of primary forests.\n    *   *Strengths:* Protects existing high-biodiversity/high-resilience systems; prevents loss of carbon sinks and soil erosion.\n    *   *Weaknesses:* Difficult to enforce in remote areas; conflicts with local economic development.\n*   **Restorative (Level 3):** Reforestation projects, creating biological corridors, soil enrichment programs.\n    *   *Strengths:* Restores ecosystem services; can increase resilience in fragmented landscapes.\n    *   *Weaknesses:* Secondary forests rarely match the biodiversity or complexity of primary forests; long time-lag for system stability to return; high cost.\n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below and is not relevant to the question. |\n| 1\u20133 | The response contains: \u2022 minimal evidence of knowledge of management strategies \u2022 fragmented statements poorly linked to the context of system equilibrium \u2022 superficial analysis that amounts to a list of strategies without evaluation. |\n| 4\u20136 | The response contains: \u2022 some evidence of sound knowledge of preventative and restorative strategies \u2022 knowledge statements linked to the chosen context (climate or deforestation) \u2022 clear analysis showing the differences between strategies \u2022 some judgments or conclusions supported by limited evidence. |\n| 7\u20139 | The response contains: \u2022 substantial evidence of sound knowledge of system management and equilibrium \u2022 effective use of a specific context (climate change or deforestation) \u2022 thorough, well-balanced analysis of the efficiency and limitations of both preventative and restorative approaches \u2022 explicit, well-supported judgments on which approach is more efficient for maintaining system stability. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "eef8946d-fbe8-4d9f-8918-ecd69d979a80",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 64915,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2E Gross productivity and Net productivity ",
+              "title": "2.2E Gross productivity and Net productivity ",
+              "labeledAt": "2026-03-05T16:49:59.840Z",
+              "reasoning": "The question directly asks for the definitions and the distinction between gross primary productivity (GPP) and net primary productivity (NPP), which is the core subject of this specific leaf topic.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 813576,
+        "parts": [
+          {
+            "id": 487035,
+            "content": "Describe the difference between gross primary productivity (GPP) and net primary productivity (NPP).",
+            "order": 0,
+            "markscheme": "- GPP is the total rate of energy capture by producers through photosynthesis <marks>1 mark</marks>\n- NPP is the rate of energy storage in plant tissues after accounting for respiration <marks>1 mark</marks>\n- $$NPP = GPP - Respiration$$<marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "24",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 24601,
+      "title": "2.2 Energy and biomass in ecosystems",
+      "slug": "ib-ess-new-22-energy-and-biomass-in-ecosystems",
+      "parentTopicId": 24599
+    },
+    "subject": {
+      "id": 6455,
+      "title": "Environmental systems and societies (ESS)",
+      "slug": "ib-environmental-systems-and-societies-ess-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "24",
+      "byQuestion": {}
+    }
+  }
+}

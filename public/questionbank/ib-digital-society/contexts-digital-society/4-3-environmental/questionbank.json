@@ -1,3 +1,1374 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2e6a05c03fb94b031edc0006bae4e033de194a471d87ab19621f4e60ceec0772
-size 125005
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0c339d8f-a07a-40b7-a64e-fbad359578aa",
+        "specification": "### Source A: Sensors Used in Autonomous Vehicles \n\n![Image](https://pub-images.revisiondojo.com/question-images/2de20cf1-8009-49d9-a2be-a0589005c479)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30928,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.7 Robots and autonomous technologies > 3.7B Characteristics of Robots and Autonomous Technologies",
+              "title": "3.7B Characteristics of Robots and Autonomous Technologies",
+              "labeledAt": "2026-03-05T16:12:47.709Z",
+              "reasoning": "The question focuses on the sensors (components) and the functional processes (how they avoid obstacles) which are core characteristics of robots and autonomous systems.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30927,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.7 Robots and autonomous technologies > 3.7A Types of Robots and Autonomous Technologies",
+              "title": "3.7A Types of Robots and Autonomous Technologies",
+              "labeledAt": "2026-03-05T16:12:47.709Z",
+              "reasoning": "The question specifically asks for a definition of an autonomous vehicle, which falls under identifying types of autonomous technologies.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 878891,
+        "parts": [
+          {
+            "id": 479865,
+            "content": "Define the term \u2018autonomous vehicle\u2019. ",
+            "order": 0,
+            "markscheme": "An autonomous vehicle is a vehicle that is capable of sensing its environment and navigating without human input. <marks>1 mark</marks>\n\nIt combines sensors and software to control the vehicle's movements. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479866,
+            "content": "Identify and explain the function of 2 sensors on an autonomous vehicle ",
+            "order": 1,
+            "markscheme": "### Sensor 1 <marks>2 marks</marks>\n\n- Identify sensor: (e.g. camera, radar, lidar, ultrasonic) <marks>1 mark</marks>\n- Explain function: (e.g. detect obstacles/pedestrians, map surroundings, measure distance)  <marks>1 mark</marks>\n\n### Sensor 2 <marks>2 marks</marks>\n\n- Identify sensor: (e.g. camera, radar, lidar, ultrasonic)  <marks>1 mark</marks>\n- Explain function:  (e.g. detect obstacles/pedestrians, map surroundings, measure distance) <marks>1 mark</marks>\n\n<note>Award marks for any two appropriate sensors and their functions. Do not award the same function twice.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479867,
+            "content": "Explain how sensors would be used by autonomous vehicles to avoid obstacles in the road. ",
+            "order": 2,
+            "markscheme": "### Possible Responses\n\n- Autonomous vehicles use a variety of sensors to detect obstacles in the road, such as:\n  - Cameras to capture visual data <marks>1 mark</marks>\n  - Radar to detect the position and movement of objects <marks>1 mark</marks>\n  - Lidar (light detection and ranging) to create 3D maps of the environment <marks>1 mark</marks>\n- The data from these sensors is processed by the vehicle's computer systems to identify obstacles and plan a safe path around them. <marks>1 mark</marks>\n\n<note>Award marks for any reasonable explanation of how sensors are used to detect obstacles. Do not expect specific technical details.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1542003c-2448-45fb-9076-a94491c04573",
+        "specification": null,
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-18M.1.HL.TZ0.5",
+          "labeledSubSubTopics": [
+            {
+              "id": 30961,
+              "isHl": true,
+              "path": "Topic 5 - Challenges and Interventions - Digital Society (HL) > 5.3 Sustainable development > 5.3A Climate Change and Responsible Use of Resources",
+              "title": "5.3A Climate Change and Responsible Use of Resources",
+              "labeledAt": "2026-03-05T15:14:35.159Z",
+              "reasoning": "The core of the question is evaluating sustainability and the 'responsible use' of hardware resources (replace vs. upgrade), which maps directly to the Sustainable Development challenge of Responsible Use of Resources.",
+              "confidence": 0.98
+            },
+            {
+              "id": 30963,
+              "isHl": true,
+              "path": "Topic 5 - Challenges and Interventions - Digital Society (HL) > 5.3 Sustainable development > 5.3B Managing Pollution and Waste",
+              "title": "5.3B Managing Pollution and Waste",
+              "labeledAt": "2026-03-05T15:14:35.159Z",
+              "reasoning": "The strategy of replacing hardware every three years involves managing the resulting e-waste, which falls under managing pollution and waste in the context of sustainable development.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30940,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.3 Environmental > 4.3B Pollution and Waste",
+              "title": "4.3B Pollution and Waste",
+              "labeledAt": "2026-03-05T15:14:35.159Z",
+              "reasoning": "The environmental impact of discarded IT equipment (e-waste) is a key aspect of pollution and waste context in Digital Society.",
+              "confidence": 0.88
+            },
+            {
+              "id": 30908,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3B Components of a Computer",
+              "title": "3.3B Components of a Computer",
+              "labeledAt": "2026-03-05T15:14:35.159Z",
+              "reasoning": "The second strategy specifically mentions upgrading computer components such as storage, memory, and processing capabilities to extend the device's life cycle.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1149863,
+        "parts": [
+          {
+            "id": 23335,
+            "content": "**Can digital technologies be used sustainably?**\n\nMany organizations claim that the most efficient use of information technology (IT) equipment, such as laptops and printers, is to replace them on a regular basis. For example, an organization\u2019s strategy may be to do this every three years.\n\nOther organizations purchase IT equipment that can easily be upgraded by increasing the storage and memory **or** upgrading the processing capabilities only when required. They claim they do not need to replace their IT equipment on such a regular basis and believe this is a more sustainable practice.\n\nEvaluate the sustainability of these two strategies.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n**Replacing IT equipment on a regular basis: (claim)**\n\n*   Potentially less disruptive as change at an organizational level only occurs for a relatively short period of time (feasibility).\n*   Less disruptive for the employee, as the laptop/printer a direct changeover.\n*   All employees are likely to use the same IT equipment, so easier to support (equity).\n*   The legacy equipment may be disposed of (reconditioned) as a batch and the process will be managed better/more sustainable than an _ad hoc_ approach that may be used if the equipment is upgraded on demand.\n*   This may be more effective than using higher specification IT equipment than necessary as the advances in technology (Moore\u2019s Law) may require the upgrade process to be an almost continual cycle.\n\n**Increasing the specification of the IT equipment: (counter-claim)**\n\n*   Potentially less disruptive/less change, especially if the organization changes the manufacturer of the IT equipment, which would require employees to \u201clearn\u201d how to use it.\n*   The upgrade of the IT equipment will be more focused and may be carried out only as and when required \u2013 more sustainable / feasible.\n*   It requires the least use of \u201cnew\u201d IT equipment.\n*   It may involve the fewest changes to the IT systems.\n\n**Conclusions:**\n\nThe strategy chosen can be justified as:\n\n*   being the most sustainable/green strategy, and this would be in keeping with the organization\u2019s values\n*   requiring the least change/cost for the organization\n*   the most acceptable solution.\n\n_In this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** responsible consumption, waste prevention, green computing, e-waste, planned obsolescence, economic, pollution, waste, Moore\u2019s Law, CPU, central processing unit, memory, systems, change, values, equity, feasibility\n\n_Refer to **HL paper 1 Section B markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document._",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2764a49b-a5d0-4fdd-a7dd-726b43eb2e70",
+        "specification": "**Digital currency**\n\nBitcoin is a type of digital currency (cryptocurrency). This is money that can be sent via the internet and exchanged for goods, services, or money in different currencies. Users can buy bitcoins using real money, and bitcoins can either be spent or stored in a digital wallet for later use. Bitcoins can be used in every country, and sending bitcoins is as simple as sending an email.\n\nA bitcoin wallet is an application that can be installed on a computer or mobile device. Once a bitcoin wallet is installed, the user will get a bitcoin address to use when transferring bitcoins to and from the wallet. This transfer uses private and public key encryption. Users should have a strong password to access their bitcoin wallet.\n\nBitcoin operates on a peer-to-peer (P2P) network, and users of bitcoins are identified by their bitcoin address. Some users of bitcoins wish to remain anonymous, but this is not always possible.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-18M.1.SL.TZ0.2",
+          "labeledSubSubTopics": [
+            {
+              "id": 30913,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.4 Networks and the internet > 3.4C Characteristics of Computing Networks",
+              "title": "3.4C Characteristics of Computing Networks",
+              "labeledAt": "2026-03-06T15:32:13.653Z",
+              "reasoning": "Parts (a) and (e) ask about characteristics and security challenges of peer-to-peer networks, which are network characteristics.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30917,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.4 Networks and the internet > 3.4F Internet Dilemmas",
+              "title": "3.4F Internet Dilemmas",
+              "labeledAt": "2026-03-06T15:32:13.653Z",
+              "reasoning": "Parts (b)\u2013(f) cover strong passwords, authentication methods, encryption, and anonymity/privacy risks, aligning with internet/security dilemmas.",
+              "confidence": 0.8
+            },
+            {
+              "id": 30950,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.6 Political > 4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "title": "4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "labeledAt": "2026-03-06T15:32:13.653Z",
+              "reasoning": "Part (g) asks to evaluate the appropriateness of government regulation of digital transactions (laws, regulations, policies).",
+              "confidence": 0.75
+            },
+            {
+              "id": 30937,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.2 Economic > 4.2C Goods, Services, and Currencies",
+              "title": "4.2C Goods, Services, and Currencies",
+              "labeledAt": "2026-03-06T15:32:13.653Z",
+              "reasoning": "The scenario and part (g) center on digital currency/bitcoin used to exchange goods, services, and currencies.",
+              "confidence": 0.65
+            },
+            {
+              "id": 30874,
+              "isHl": false,
+              "path": "Topic 2 - Concepts - Digital Society > 2.3 Identity > 2.3A Defining Identity in Digital Society",
+              "title": "2.3A Defining Identity in Digital Society",
+              "labeledAt": "2026-03-06T15:32:13.653Z",
+              "reasoning": "Part (f) concerns how a bitcoin address can be linked to a person, relating to identity being revealed through digital identifiers.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1168477,
+        "parts": [
+          {
+            "id": 23936,
+            "content": "Identify **two** characteristics of a peer-to-peer (P2P) network.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n*   There is no central administrator.\n*   All users of the network have the same importance.\n*   Each computer acts as both client and server.\n*   Each computer can exchange files directly with every other computer on the network.\n\n_Award **\\[1\\]** mark for identifying each characteristic of a peer-to-peer network up to a maximum of **\\[2\\]** marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 23937,
+            "content": "Identify **two** characteristics of a strong password.",
+            "order": 1,
+            "markscheme": "_Answers may include:_\n\n*   Sufficient length (usually more than six characters)\n*   Made up of a mixture of letters, numbers and symbols\n*   Uses upper and lower case characters\n*   Not a dictionary word/common word\n*   Not based on personal information (e.g., name, birth date, etc.) (i.e., can\u2019t be guessed).\n\n_Award **\\[1\\]** mark for identifying each characteristic of a strong password up to a maximum of **\\[2\\]** marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 23938,
+            "content": "The use of a password is one method of authentication.\n\nIdentify **two** other methods of authentication.",
+            "order": 2,
+            "markscheme": "_Answers may include:_\n\n*   Biometric authentication\n*   Fingerprint\n*   Palm print\n*   Palm vein\n*   Facial recognition\n*   Voice recognition\n*   Retinal scan\n*   PIN\n*   Passphrase\n*   Two-factor authentication\n*   Authentication token (or security token)\n*   One-time code, i.e., contact user via phone/SMS/email to provide the code\n*   Asking user to provide answers to security questions set-up when creating an account (e.g., what was the first school you attended?).\n\n_Award **\\[1\\]** mark for identifying each additional method of authentication up to a maximum of **\\[2\\]** marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 23939,
+            "content": "Explain **one** reason why bitcoin makes use of encryption when transmitting data.",
+            "order": 3,
+            "markscheme": "_Answers may include:_\n\n*   To ensure there is trust in the security of the data\u2026\n*   as users see this as an additional layer of data security.  \n      \n    \n*   To prevent regulatory fines\u2026\n*   as encryption may be seen to as an attempt to comply with regulations such as GDPR.\n\n_  \nAward **\\[1\\]** for the reason why encryption is used when transmitting data and an additional **\\[1\\]** for the explanation up to a maximum of **\\[2\\]**._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 23940,
+            "content": "Explain **one** reason why it may be difficult to ensure the security of information in a large peer-to-peer network such as bitcoin.",
+            "order": 4,
+            "markscheme": "_Answers may include:_\n\n*   The security may be carried out at the level of the individual user.\n*   This may mean that the network\u2019s security may only be as strong as the weakest link.  \n      \n    \n\n*   There is no central control that manages the security of each computer by providing virus protection/firewall\u2026\n*   so an inexperienced user may unintentionally allow access to their whole hard drive instead of allowing access to specific folders.\n\n_  \nAward **\\[1\\]** for the reason why the security of information may be difficult to maintain in a large peer-to-peer network such as bitcoin and an additional **\\[1\\]** for the explanation up to a maximum of **\\[2\\]**._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 23941,
+            "content": "Some users of bitcoins are concerned that their anonymity may be compromised by their bitcoin address.\n\nExplain **one** way in which a bitcoin address may be used to reveal information about a bitcoin user.",
+            "order": 5,
+            "markscheme": "_Answers may include:_\n\n*   When transmitted, a bitcoin address may include additional information, such as the IP address of the user\u2019s device.\n*   This information may be aggregated from a number of sources and this larger data set will then provide sufficient information to link the bitcoin address to a person\u2019s identity.\n\n_  \nAward **\\[1\\]** for identifying how a bitcoin address may be used to reveal the name of a bitcoin user and an additional **\\[1\\]** for the explanation up to a maximum of **\\[2\\]** marks.  \n_",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 23942,
+            "content": "Bitcoin transactions are made between individuals without the knowledge of banks, governments, or credit card companies. Some governments are investigating whether they should regulate digital transactions, such as those made using bitcoins.\n\nTo what extent is it appropriate for governments to regulate digital transactions, such as those made using bitcoins?",
+            "order": 6,
+            "markscheme": "_Answers may include:_\n\n*   If transactions can be done without disclosing the name of the individuals (anonymity), it could be a way to use money obtained illegally (money laundering \u2013values).\n*   Governments will not be able to see all commercial transactions and therefore may miss the possibility to tax commercial activities \u2013 informality, lack of transparency.\n*   Bitcoin wallet providers may have an agreement with clients not to disclose information \u2013 privacy invasion.\n*   It is also possible to send a payment without revealing your identity. This allows people to transfer funds across country borders without cost but also allows users to buy illegal products anonymously.\n*   Unregulated services, such as bitcoin, do not provide the protection of regulated services, such as banks.\n*   For governments to be able to forecast financial trends, they need to have all of the information available. If some information is withheld, it makes forecasting more problematic.\n*   There is an ongoing debate between the privacy of the user versus the security of the state. The questions could be reframed as what is an acceptable level of regulation/surveillance?\n*   If regulation is too strict, it will stifle innovation and may prevent worthwhile developments in digital currency.\n*   Different degrees of regulation by governments of different countries could create an uneven playing field for digital currency transactions.\n*   As bitcoin is global, regulation could also impact the rights of people outside the government\u2019s jurisdiction.\n\n_In part (c) of this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\nKeywords: laws, regulations, environment, cryptocurrency, privacy, anonymity, surveillance, change, power, systems, values\n\n_Refer to **SL/HL paper 1, part c** **markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document_.",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2c00f770-f956-4b23-9d3b-a62bfdba96bf",
+        "specification": "\n![Image](https://pub-images.revisiondojo.com/question-images/7e16e6fc-d48e-40dd-be4e-77d76eae1157)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30941,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.3 Environmental > 4.3C Cities, Infrastructures, Built Environments, and Agriculture",
+              "title": "4.3C Cities, Infrastructures, Built Environments, and Agriculture",
+              "labeledAt": "2026-03-06T15:32:20.691Z",
+              "reasoning": "Smart city technologies are directly tied to cities and built environments (e.g., smart transport, utilities, infrastructure) and their impacts on residents.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30917,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.4 Networks and the internet > 3.4F Internet Dilemmas",
+              "title": "3.4F Internet Dilemmas",
+              "labeledAt": "2026-03-06T15:32:20.691Z",
+              "reasoning": "Impacts on citizens commonly include internet dilemmas such as privacy/surveillance, security, data ownership, and digital inclusion arising from connected smart-city systems.",
+              "confidence": 0.62
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-06T15:32:20.691Z",
+              "reasoning": "Smart cities rely on large-scale citizen data collection/use; discussion of impacts often involves data dilemmas (consent, misuse, bias, transparency).",
+              "confidence": 0.55
+            },
+            {
+              "id": 30900,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1F Big Data and Data Analytics",
+              "title": "3.1F Big Data and Data Analytics",
+              "labeledAt": "2026-03-06T15:32:20.691Z",
+              "reasoning": "Smart city services typically depend on big data and analytics for monitoring and optimization, affecting citizens via profiling, prediction, and service personalization.",
+              "confidence": 0.48
+            }
+          ]
+        },
+        "currentRevisionId": 836201,
+        "parts": [
+          {
+            "id": 479037,
+            "content": "Discuss how citizens could be impacted through the use of smart city digital technologies ",
+            "order": 0,
+            "markscheme": "### Possible Impacts on Citizens\n\n- Privacy and data security concerns due to increased data collection and surveillance <marks>1 mark</marks>\n  - <commonMistake>Failure to discuss privacy implications</commonMistake>\n\n- Improved access to services and information through digital platforms <marks>1 mark</marks>\n\n- Potential for social exclusion of those without access to technology or digital literacy <marks>1 mark</marks>\n\n- Changes in employment opportunities and job displacement due to automation <marks>1 mark</marks>\n\n- Environmental benefits from efficient resource management and reduced emissions $\\implies$ improved quality of life <marks>1 mark</marks>\n\n- Increased convenience and time savings through smart mobility solutions <marks>1 mark</marks>\n\n- Concerns over control and decision-making processes in smart city governance <marks>1 mark</marks>\n\n- Potential for increased community engagement and citizen participation <marks>1 mark</marks>\n\n<note>Marks should be awarded for well-developed points that address both positive and negative impacts on citizens.</note>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2de91f6c-0390-40dd-97b8-48ff93835c20",
+        "specification": "**Source A**\n![Image](https://pub-images.revisiondojo.com/question-images/7d7162f2-f79d-4531-afed-2864c786daa3)\n\n**Source B**\nThrough this article today, we are here to share with you the various challenges in the internet of things.\nSecurity challenges- The first and foremost on the list of challenges is security. As the backbone of IoT is data storage and sharing, the biggest question arises about the security of data. Enabling every small physical object with the feature of sharing information may attract multiple raised brows.\nLack of encryption- Encryption sounds like the ultimate answer to security issues. But hackers may manipulate these algorithms and turn a protective system into the most serious loophole.\nLack of sufficient testing and updating- With the increasing market of IoT, production has to be faster. To compete in the race of production, manufacturers lack tests and updates. The main focus of IoT manufacturers now seems to be production, not security. Thus products lack proper and regular testing and updates. This makes IOTs prone to being attacked by hackers.\n\n\n**Source C**\nA smart home is a household with internet-connected appliances you can remotely control using a tablet or smartphone. It uses smart devices such as smart TVs, smart thermostats, air conditioners, and even a robot vacuum. They are then connected together in a single network, through either hardwired or wireless systems like Zigbee, Wi-Fi, Bluetooth, and NFC, among others.\nUsing the Internet of Things (IoT) technology, your smart appliances can communicate and share real time data with each other. This allows the devices to perform scheduled and automated tasks.\nIoT home gadgets bounce data back and forth with the use of sensors, learning and processing your patterns to automatically adjust themselves to your comfort. Some smart home Internet of Things applications are automatic light switches, burglar alarms, and voice-activated sound systems.\n\n**Source D** \nA tired business person returns to their certified IoT smart home after a long working week. The smart security system senses they are alone and initiates the \u201cFriday Night In\u201d sequence. An intercom with a thoughtful, comforting voice suggests they might want to order in tonight. The business person unloads their things in the kitchen where the smart stove displays a selection of take-outs, rather than its default recipe guide.\nAfter the food arrives they retreat to the living room to watch some TV. The smart TV prepares a selection of Netflix marathons categorized by mood. They choose: \u201cLooking to be cheered up? Comedy Playlist.\u201d\nBefore starting the program, they review a set of graphs displaying the data from their activity and diet throughout the day. A list of tips for smart living is generated, one of which reads that based on the number of consecutive nights spent alone, they might consider exploring a selection of popular dating sites instead of watching TV.\nWith an inadvertent slip of their thumb the request is OK\u2019d and instantly a set of profiles are displayed, each chosen from a generated list of their tracked preferences. A flurry of pings and messages from other stay-at-home hopefuls fills the screen. The smart home intercom exclaims, \u201cYou\u2019ve got mail!\u201d The confused and beleaguered business person fumbles for the remote and\u2026 uh-oh, the TV snaps a selfie in response to the flood of pings.\nTheir image, sitting in their underwear eating noodles appears briefly on the screen before being whisked off into the ether. The flood of messages doubles, the system freezes causing the smart home to reboot. The house goes dark.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-07T17:33:30.694Z",
+              "reasoning": "Sources focus on IoT smart homes collecting/sharing personal data and the associated privacy/security risks (hacking, encryption weaknesses, data misuse), which are core data dilemmas.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30917,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.4 Networks and the internet > 3.4F Internet Dilemmas",
+              "title": "3.4F Internet Dilemmas",
+              "labeledAt": "2026-03-07T17:33:30.694Z",
+              "reasoning": "Discussion of internet-connected smart home devices and security challenges of being online aligns with broader internet dilemmas (cybersecurity, risks of connectivity).",
+              "confidence": 0.78
+            },
+            {
+              "id": 30867,
+              "isHl": false,
+              "path": "Topic 2 - Concepts - Digital Society > 2.1 Change > 2.1A Change and Types of Change",
+              "title": "2.1A Change and Types of Change",
+              "labeledAt": "2026-03-07T17:33:30.694Z",
+              "reasoning": "Part (d) explicitly asks whether IoT in smart homes is an incremental or transformational change, directly targeting types of change.",
+              "confidence": 0.73
+            },
+            {
+              "id": 30913,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.4 Networks and the internet > 3.4C Characteristics of Computing Networks",
+              "title": "3.4C Characteristics of Computing Networks",
+              "labeledAt": "2026-03-07T17:33:30.694Z",
+              "reasoning": "Source C references how smart home devices connect via Wi\u2011Fi/Bluetooth/Zigbee/NFC and communicate on a network, relating to network characteristics in practice.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30944,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.4 Health > 4.4B The Human Body and Mental Health",
+              "title": "4.4B The Human Body and Mental Health",
+              "labeledAt": "2026-03-07T17:33:30.694Z",
+              "reasoning": "Impacts on homeowners include comfort, behaviour shaping, and potential stress/mental impact from intrusive automation and privacy loss (Source D), linking to mental health aspects.",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 1410331,
+        "parts": [
+          {
+            "id": 1025023,
+            "content": "With reference to Source A identify 2 positives of IoT.",
+            "order": 0,
+            "markscheme": "- Increased efficiency/productivity\n- Improved safety/security\n- Better decision making\n- Cost savings\n\nExample responses:\n\n- \"IoT can increase efficiency and productivity by automating processes and reducing human error.\" <marks>1 mark</marks>\n- \"IoT devices can improve safety by monitoring hazardous environments and alerting personnel to potential dangers.\" <marks>1 mark</marks>\n- \"Data collected from IoT sensors can enable better decision making by providing real-time insights.\" <marks>1 mark</marks>\n\n<note>Do not award marks for vague or generic responses that do not clearly identify a positive from the source material.</note>\n\n<note> Award <marks>1 mark</marks> for each of the following positives of IoT identified from Source A, up to a maximum of <marks>2 marks</marks>:",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1025024,
+            "content": "With reference to Source B and one other real-world example you have studied, explain why it may be difficult to have IoT in smart homes.",
+            "order": 1,
+            "markscheme": "**Possible Response 1**\n\n- <marks>1 mark</marks> for identifying a relevant issue from Source B, such as privacy/security concerns $\\bullet$ <commonMistake>Do not award this mark for simply stating \"privacy\" or \"security\" without any explanation</commonMistake>\n\ne.g. \"Source B mentions that smart home devices can be hacked, leading to privacy issues\"\n\n- <marks>1 mark</marks> for explaining why this issue makes IoT difficult in smart homes $\\bullet$ <note>The explanation must be relevant to the issue identified</note>\n\ne.g. \"If smart home devices can be hacked, users may be reluctant to adopt IoT technology\" due to fears of their personal data being compromised, making widespread IoT adoption difficult\"\n\n- <marks>1 mark</marks> for identifying a different relevant issue from another real-world example studied\n\ne.g. \"High cost of installing smart home systems\" or \"Lack of universal standards/compatibility issues\"\n\n- <marks>1 mark</marks> for explaining why this issue makes IoT difficult in smart homes $\\bullet$ <note>The explanation must be relevant to the issue identified</note>\n\ne.g. \"The high cost may deter many homeowners from adopting smart home technology, limiting IoT\" growth\" or \"Lack of universal standards means devices from different manufacturers may not work together, creating frustration for users and slowing IoT adoption\"\n\n<examTip>Ensure explanations are specific to smart homes/IoT and not just general issues with technology</examTip>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1025025,
+            "content": "Compare what Source C and Source D reveal about impacts of homeowners with IoT smart homes.",
+            "order": 2,
+            "markscheme": "**Source C**\n\n- Highlights potential security risks of IoT devices being hacked <marks>1 mark</marks>\n- Mentions privacy concerns of data being collected by companies <marks>1 mark</marks>\n\n**Source D**\n\n- Discusses convenience and efficiency benefits of smart home technology <marks>1 mark</marks>\ne.g. \"turning on lights/heating remotely\", \"automating household tasks\"\n- Mentions cost savings from reduced energy usage <marks>1 mark</marks>\n- Implies improved quality of life/comfort for homeowners <marks>1 mark</marks>\n\n<note>Award 1 mark for each relevant aspect compared between the two sources, up to a maximum of 6 marks.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": "9a1e867e-263f-4f65-963a-43ee8c79f294",
+            "explanation": null
+          },
+          {
+            "id": 1025026,
+            "content": "With reference to the sources and your own knowledge, discuss whether the use of IoT in smart homes is an incremental or transformational change.",
+            "order": 3,
+            "markscheme": "Define Transformational and Incremental Change <marks>1 mark\n\n\n**Possible Arguments for Incremental Change**\n\n- IoT in smart homes builds on existing technologies like sensors, automation, and internet connectivity <marks>1 mark</marks>\n- It enhances convenience and efficiency in homes, but does not fundamentally change the purpose or function of a home <marks>1 mark</marks>\n- Smart home features can be gradually added or removed without drastically altering the living experience <marks>1 mark</marks>\n\n**Possible Arguments for Transformational Change**\n\n- IoT enables homes to become highly interconnected and responsive to user needs, changing the way we interact with our living spaces <marks>1 mark</marks>\nExample: Voice assistants allowing control of various home systems\n- It introduces new capabilities like remote monitoring, predictive maintenance, and personalized environments, transforming the concept of a home <marks>1 mark</marks>\n- Widespread adoption of smart homes could lead to changes in housing design, energy consumption patterns, and even social norms <marks>1 mark</marks>\n\n**Other Relevant Points**\n\n- The degree of change may depend on the specific IoT applications and the extent of their integration <marks>1 mark</marks>\n- Early stages of IoT adoption may be incremental, but as technology matures, it could lead to more transformational changes <marks>1 mark</marks>\n<examTip>Discuss both perspectives and use relevant examples from the sources and own knowledge to support the arguments</examTip>\n<marks>4 marks</marks> for a well-developed, balanced discussion considering multiple perspectives and using relevant examples from the sources and own knowledge.",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "ea6b8dae-641b-4a09-a019-739abc86969d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "34b40030-3801-4cee-959a-610d146fcc7c",
+        "specification": "Quantum computers encode in qubits instead of binary data. Where 8 bits in a computer can represent any number between 0 and 255, 8 qubits can represent those same numbers simultaneously. In research situations, quantum computers are able to examine a multitude of possible combinations and run a variety of simulations simultaneously. \n",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30946,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.5 Human knowledge > 4.5A Learning and Education, Science and Technology Innovation",
+              "title": "4.5A Learning and Education, Science and Technology Innovation",
+              "labeledAt": "2026-03-06T15:32:29.428Z",
+              "reasoning": "The question asks about the impact of quantum computing on research and development in academic environments, directly aligning with learning/education and science & technology innovation.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30910,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3D Evolution of Computing",
+              "title": "3.3D Evolution of Computing",
+              "labeledAt": "2026-03-06T15:32:29.428Z",
+              "reasoning": "Quantum computing is an emerging stage in the evolution of computing; discussing its potential impact in academia fits the evolution of computing theme.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30907,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3A Types of Computers",
+              "title": "3.3A Types of Computers",
+              "labeledAt": "2026-03-06T15:32:29.428Z",
+              "reasoning": "Quantum computers are a distinct type of computer; the prompt contrasts qubits with bits and implies discussing what quantum computers enable.",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 880950,
+        "parts": [
+          {
+            "id": 482222,
+            "content": "To what extent will quantum computing impact research and development in academic environments?",
+            "order": 0,
+            "markscheme": "\n- Quantum computing has the potential to greatly accelerate research and development in academic environments by enabling computations that are intractable with classical computers <marks>1 mark</marks>\n  - Simulating quantum systems and materials with high accuracy <marks>1 mark</marks>\n  - Solving optimization problems more efficiently (e.g. protein folding, drug design) <marks>1 mark</marks>\n  - Factoring large numbers quickly, with implications for cryptography <marks>1 mark</marks>\n\n- However, there are significant challenges and limitations: <marks>1 mark</marks>\n  - Quantum computers are still in early stages and face issues with noise, decoherence, and scalability <marks>1 mark</marks>\n  - Developing quantum algorithms is extremely difficult and limited by our understanding of quantum mechanics <marks>1 mark</marks>\n  - Quantum supremacy has not yet been achieved for practical applications <marks>1 mark</marks>\n\n- Potential impacts on academic research: <marks>1 mark</marks>\n  - New discoveries in physics, chemistry, and materials science through accurate simulations <marks>1 mark</marks>\n  - Advances in machine learning, optimization, and other areas of computer science <marks>1 mark</marks>\n  - Cryptography and cybersecurity research to develop quantum-resistant algorithms <marks>1 mark</marks>\n\n<note>Marks should be awarded for well-reasoned arguments addressing both the potential benefits and limitations of quantum computing in academic research.</note>",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3b1eb35d-603b-476d-ac39-9bf33f475e3a",
+        "specification": null,
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-18N.1.HL.TZ0.6",
+          "labeledSubSubTopics": [
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-07T17:33:39.075Z",
+              "reasoning": "The scenario centers on using AI to score questionnaires and applicant videos for selection, raising issues such as bias/fairness, transparency/explainability, accountability for decisions, and potential harms from automated assessment.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30959,
+              "isHl": true,
+              "path": "Topic 5 - Challenges and Interventions - Digital Society (HL) > 5.2 Governance and human rights > 5.2B Participation and Representation",
+              "title": "5.2B Participation and Representation",
+              "labeledAt": "2026-03-07T17:33:39.075Z",
+              "reasoning": "It is explicitly about selecting political party representatives; the digital system affects participation and representation by influencing who gets access to interviews/roles.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30950,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.6 Political > 4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "title": "4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "labeledAt": "2026-03-07T17:33:39.075Z",
+              "reasoning": "Introducing AI-based screening in a political process can implicate regulation/policy (e.g., data protection, lawful/ethical use of automated decision-making) and governance concerns about due process.",
+              "confidence": 0.7
+            },
+            {
+              "id": 30900,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1F Big Data and Data Analytics",
+              "title": "3.1F Big Data and Data Analytics",
+              "labeledAt": "2026-03-07T17:33:39.075Z",
+              "reasoning": "The system collects and analyzes large amounts of applicant data (questionnaire responses and video data) using analytics to produce scores for decision-making.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 839182,
+        "parts": [
+          {
+            "id": 22170,
+            "content": "**Selecting candidates for political parties**\n\nPolitical parties often have large numbers of applicants who wish to act as representatives in their various governing bodies. A senior party official must make the final decision about which applicants should be offered which roles. Many roles receive as many as 15 applications, and it is not possible to interview each applicant.\n\nIn an attempt to streamline the application process, a prospective representative will need to complete two tasks:\n\n1.  Completing an online questionnaire.\n2.  Submitting a video where they explain the reasons behind their application.\n\nNeither task will involve the team in the political party.\n\nThe applicants will be directed to a link provided by the software developer where they can complete both tasks. The responses to the questionnaires and the videos will be analysed using artificial intelligence (AI).\n\nThe software will score the questionnaire and video for each applicant and send it to the senior party official\u2019s team. The applicants with the highest scores will then be invited by the political party for an interview.\n\nThe software developers claim this will reduce the number of applications the senior party official needs to process and lead to the most appropriate applicants being selected for an interview.\n\nDiscuss whether the political party should introduce the digital system to assist the senior party official when deciding which applicants should be offered roles as representatives.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n**Introduce the digital system (claim):**\n\n*   Will speed up the process and ensure that candidates who are most unlikely to be suitable can be removed, allowing time to be spent on the candidates who are likely to be suitable to act as a representative (automation, cost).\n*   The digital system may provide consistent outcomes, so the candidates whose application is rejected cannot claim there was an inherent bias in the values of the selection team making the decisions (values, ethics).\n*   If a large number of decisions are programmed into the digital system, it should give reliable results.\n*   If the digital system has machine learning capabilities, the algorithms in the digital system may be able to group similar candidates (cluster analysis / unsupervised analysis) (innovation).\n\n**Not introduce the digital system (counter-claim):**\n\n*   The selection team know additional information that can have an impact on their decision, and this will require their professional judgement / intuition.\n*   The selection team may find that there are candidates that apply for the position of representative that cannot be evaluated by the system, which limits its usability / effectiveness / reliability / feasibility.\n*   There may be new requirements that have not been incorporated into the system (change).\n*   The algorithms that exist within the digital system may have inherent/subconscious biases (power, ethics, values).\n\n_In this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:**change, power, systems, ethics, values, judgement, intuition, bias, algorithm, transparency, reliability, automation, cost, innovation\n\n_Refer to**HL paper 1 Section B markbands**when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document._",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4d178cd1-1473-4883-8c39-5509153bf901",
+        "specification": "**Automatic crop watering system**\n\nSince 1990, Bertha Ascayo has been the manager of _El Pallar_, a farm in Chacra Province, where fruit trees are grown. In recent years, the climate has become more unpredictable, and the farm has suffered from periods of drought. Bertha is aware that she now needs to manage the watering of her fruit trees more than she has had to in the past.\n\nBertha will need to make some improvements to the watering system by adding a rain sensor and use a computer program to automate the watering process. She has chosen a company that uses open-source software. The same company also installed the equipment for the watering of the trees.\n\nBy using this software, Bertha can program a different watering plan for each type of tree. This includes programming the days of the week, times of the day, and length of the water cycle for each type of tree to be watered. For example, orange trees will be watered on Mondays and Thursdays at 6am for 45 minutes and at 8pm for 30 minutes.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-21M.1.SL.TZ0.1",
+          "labeledSubSubTopics": [
+            {
+              "id": 30904,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2C Representing Algorithms",
+              "title": "3.2C Representing Algorithms",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "Part (b) explicitly asks for three ways an algorithm may be represented (e.g., pseudocode, flowcharts, natural language), directly matching representing algorithms.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "Parts (c) and (d) focus on reliance on a government computer model for allocating scarce water (trust, bias/assumptions, transparency, consequences), aligning with dilemmas arising from data-driven modelling.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30902,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2A Characteristics of an Algorithm",
+              "title": "3.2A Characteristics of an Algorithm",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "Part (b) involves an algorithm making a decision from sensor input (watering vs not), touching on what makes an algorithm (clear steps, inputs/outputs, decision logic).",
+              "confidence": 0.55
+            },
+            {
+              "id": 30909,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3C Uses and Forms of Computer Coding",
+              "title": "3.3C Uses and Forms of Computer Coding",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "The scenario involves programming/using software to automate watering schedules; while not asking to code, it relates to how computer programs are used to implement automation.",
+              "confidence": 0.45
+            },
+            {
+              "id": 30941,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.3 Environmental > 4.3C Cities, Infrastructures, Built Environments, and Agriculture",
+              "title": "4.3C Cities, Infrastructures, Built Environments, and Agriculture",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "The context is agricultural infrastructure and water management for farms, which situates the digital system within agriculture/built-environment infrastructure.",
+              "confidence": 0.4
+            },
+            {
+              "id": 30961,
+              "isHl": true,
+              "path": "Topic 5 - Challenges and Interventions - Digital Society (HL) > 5.3 Sustainable development > 5.3A Climate Change and Responsible Use of Resources",
+              "title": "5.3A Climate Change and Responsible Use of Resources",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "Scarcity of water and responsible allocation/usage are central to (c) and (d), linking the digital intervention to sustainable resource use.",
+              "confidence": 0.35
+            }
+          ]
+        },
+        "currentRevisionId": 1170297,
+        "parts": [
+          {
+            "id": 16083,
+            "content": "Identify **three** characteristics of open-source software.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n*   Anyone can edit and adapt it.\n*   It is community driven (i.e., people who use and adapt the software can support each other in developing the software).\n*   Open-source code can be viewed and adapted.\n*   It is license free, with free redistribution rights.\n\n_Award **\\[1\\]** for identifying each characteristic of open-source software up to a maximum of **\\[3\\]** marks._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16084,
+            "content": "A computer program uses data provided by a rain sensor to decide whether to water the trees. Identify **three** ways how the algorithm may be represented.",
+            "order": 1,
+            "markscheme": "_Answers may include:_\n\n*   Flow chart\n*   Pseudocode\n*   Natural language\n*   Structured language\n\n_Award **\\[1\\]** for identifying each way the algorithm may be represented up to a maximum of **\\[3\\]** marks._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16085,
+            "content": "Water is becoming increasingly scarce in Chacra Province, and the provincial government is concerned there will be a point when there is not enough water for all of the farms to water their crops or fruit trees.\n\nTo manage water for the watering of crops and fruit trees, the provincial government of Chacra Province intends to use computer modelling to calculate how much water each farm in the province will receive.\n\nExplain **three** factors that will contribute to the accuracy of this computer model.",
+            "order": 2,
+            "markscheme": "_Answers may include:_\n\n*   Quality of data input\n*   High-quality data will allow for a more accurate model to be developed, as this data will be more reliable / current water levels within each area must be accurate.  \n      \n    \n\n*   Frequency of readings taken\n*   More frequent readings may be able to pick up more subtle changes in the patterns of rainfall to increase the accuracy of the model / taking daily readings and using them to create the model will be more accurate than using monthly readings.  \n      \n    \n\n*   Number of variables taken into account when developing the model\n*   More variables will enable other, potentially less important, factors to be considered when developing the model / what crops are farmed in different areas in the province / the weather conditions in different areas of the province.  \n      \n    \n\n*   Number of assumptions that have been built into the model\n*   If any of the assumptions are weak or false, the model will be inaccurate.  \n      \n    \n\n*   Quantity of data input\n*   If the sample of data is larger, the resulting model will be more accurate / spans several years.\n\n_Award **\\[1\\]** for identifying a factor that will contribute to the accuracy of the model and **\\[1\\]** for explanation why that will contribute to the accuracy of the model up to maximum of **\\[2\\]** marks._\n\n**_OR_**\n\n_Award **\\[1\\]** for each example given and an additional **\\[1\\]** if the explanation contributes to the accuracy of the model up to a maximum of **\\[2\\]** marks._\n\n_  \nMark as **\\[2\\]** \\+ **\\[2\\]** \\+ **\\[2\\]**._",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16086,
+            "content": "The farmers of Chacra Province are concerned about the provincial government using a computer model to determine the amount of water they will be allowed to use to water their fruit trees.\n\nTo what extent should the farmers of Chacra Province rely on their knowledge and experience, rather than the computer-based solution provided by the provincial government, to manage the watering of the fruit trees?",
+            "order": 3,
+            "markscheme": "_Answers may include:_\n\n**Knowledge and experience will:**\n\n*   allow the farmers to see more than water needs for a plant (sick leaves, buds falling, etc.) without needing to develop a model (judgement)\n*   be able to include other factors that may arise from time to time, such as quality of the water (e.g., coming with mud), and adjust their watering accordingly (judgement)\n*   be able to resolve potential issues that cannot be programmed into the computer or that would be outside the scope of a computational solution (intuition)\n*   provide expertise that cannot be quantified / ensure that in a worst-case scenario some of the farmers will be able to grow crops/trees (intuition).\n\n**Use of the provincial model will:**\n\n*   allow water to be distributed evenly between the farmers on a needs basis rather than based on the opinions of one or two stronger characters (equity)\n*   potentially have problems, as a scientific approach has limits (e.g., there may be variables that the model does not take into account) \u2013 accuracy, the decisions around the water requirements of the trees may be based as much on intuition as algorithms and models\n*   potentially have biased model/algorithms influenced by politics, e.g., farmers may not have fully disclosed their data / government may favour certain groups or industries.\n\n**Use of the computer system will:**\n\n*   reduce the amount of time farmers need to spend visibly checking their fields (automation)\n*   allow exact water usage to be measured and lead to potential efficiencies in its usage (accuracy)\n*   provide quantitative data that could be used as a model for other farmers growing the same trees in similar locations.\n\n_In part (c) of this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** agriculture, ecosystems, algorithm, accuracy, reliability, model, modelling, judgement, automation, change, power, systems, ethics, values\n\n_Refer to **SL/HL paper 1, part c** **markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document_.",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "5cbabf13-1023-4bad-99a8-465da69dac49",
+        "specification": "In 2014, NASA sent 3D printing hardware to the International Space Station.\n\n![Image](https://pub-images.revisiondojo.com/question-images/cd7347a1-e470-4fc6-b02a-1fb3119c2d9e)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30946,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.5 Human knowledge > 4.5A Learning and Education, Science and Technology Innovation",
+              "title": "4.5A Learning and Education, Science and Technology Innovation",
+              "labeledAt": "2026-03-06T15:31:10.921Z",
+              "reasoning": "3D printing on the ISS is a technological innovation that changes how science/engineering is done in space (rapid prototyping, in-situ manufacturing), so the question is mainly about impacts/implications of innovation in science and technology.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30867,
+              "isHl": false,
+              "path": "Topic 2 - Concepts - Digital Society > 2.1 Change > 2.1A Change and Types of Change",
+              "title": "2.1A Change and Types of Change",
+              "labeledAt": "2026-03-06T15:31:10.921Z",
+              "reasoning": "The prompt asks to discuss impact and implications, which aligns with understanding technological change and its effects (new capabilities, altered processes/logistics, shifting practices).",
+              "confidence": 0.55
+            },
+            {
+              "id": 30880,
+              "isHl": false,
+              "path": "Topic 2 - Concepts - Digital Society > 2.5 Space > 2.5A Spaces and Digital Society",
+              "title": "2.5A Spaces and Digital Society",
+              "labeledAt": "2026-03-06T15:31:10.921Z",
+              "reasoning": "3D printing access in a remote/isolated environment (space station) highlights how digital tech reshapes what is possible in different spaces by enabling local production rather than Earth-dependent supply chains.",
+              "confidence": 0.34
+            }
+          ]
+        },
+        "currentRevisionId": 781613,
+        "parts": [
+          {
+            "id": 548399,
+            "content": " Discuss the impact and implications of providing astronauts with access to 3D printing technology. ",
+            "order": 0,
+            "markscheme": "### Possible Points\n\n- 3D printing allows for on-demand manufacturing of tools, spare parts, and equipment in space $\\blacksquare$ <marks>1 mark</marks>\n- Reduces need to carry large inventories of spare parts on long-duration missions $\\blacksquare$ <marks>1 mark</marks>\n- Enables self-sufficiency and reduces reliance on resupply missions $\\blacksquare$ <marks>1 mark</marks>\n\n$$\n\\begin{align*}\n\\text{Potential benefits:} \\\\\n&\\bullet\\; \\text{Repair and replacement of broken components} \\\\\n&\\bullet\\; \\text{Customized tools for specific tasks} \\\\\n&\\bullet\\; \\text{Reduced launch mass and volume requirements}\n\\end{align*}\n$$\n\n<marks>1 mark</marks>\n\n$$\n\\begin{align*}\n\\text{Potential challenges:} \\\\\n&\\bullet\\; \\text{Limited build volume and material choices} \\\\\n&\\bullet\\; \\text{Quality control and certification issues} \\\\\n&\\bullet\\; \\text{Power and resource requirements for 3D printers}\n\\end{align*}\n$$\n\n<marks>1 mark</marks>\n\n- Implications for mission planning, logistics, and crew training $\\blacksquare$ <marks>1 mark</marks>\n- Ethical considerations (e.g., intellectual property, safety) $\\blacksquare$ <marks>1 mark</marks>\n- Potential for enabling more ambitious exploration missions $\\blacksquare$ <marks>1 mark</marks>\n\n<note>Marks should be awarded for well-developed points that address both the impact and implications of 3D printing technology for astronauts.</note>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7cb7f58e-a839-4ec2-8258-8b7488bb7a94",
+        "specification": "Networks rely on various components, such as routers and switches, to manage and direct data. For instance, in an office network, a router connects the network to the internet, while switches connect different devices within the network, facilitating communication between computers, printers, and servers.\n![Image](https://pub-images.revisiondojo.com/question-images/bc730b74-510f-4eb2-8c82-5a6c60054987)\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30912,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.4 Networks and the internet > 3.4B Components of Computing Networks",
+              "title": "3.4B Components of Computing Networks",
+              "labeledAt": "2026-03-05T16:12:46.181Z",
+              "reasoning": "Parts b and c of the question specifically address physical and logical components of a network, including hardware such as routers and switches, as well as transmission media like wired and wireless connections.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30913,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.4 Networks and the internet > 3.4C Characteristics of Computing Networks",
+              "title": "3.4C Characteristics of Computing Networks",
+              "labeledAt": "2026-03-05T16:12:46.181Z",
+              "reasoning": "Part a focuses on network protocols (TCP/IP) and the nature of data exchange, which falls under the characteristics and functional rules of computing networks.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 788000,
+        "parts": [
+          {
+            "id": 544995,
+            "content": "Outline the role of network protocols, such as TCP/IP, in enabling data exchange. ",
+            "order": 0,
+            "markscheme": "- Network protocols define a set of rules/standards for data communication over a network  <marks>1 mark</marks>\n- TCP/IP is a suite of protocols that enables communication between different devices/networks <marks>1 mark</marks>\n\n$$\n\\begin{align*}\n&\\text{TCP (Transmission Control Protocol):} \\\\\n&\\quad\\bullet\\; \\text{Ensures reliable data transfer} \\\\\n&\\quad\\bullet\\; \\text{Handles flow control, error checking, and retransmission}\n\\end{align*}\n$$\n\n$$\n\\begin{align*}\n&\\text{IP (Internet Protocol):}\\\\\n&\\quad\\bullet\\; \\text{Handles logical addressing and routing of data packets}\\\\\n&\\quad\\bullet\\; \\text{Allows communication across different networks}\n\\end{align*}\n$$\n\n<marks>1 mark</marks> for explaining the role of TCP\n<marks>1 mark</marks> for explaining the role of IP",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 544996,
+            "content": "Explain how routers and switches work together to support connectivity within a network. ",
+            "order": 1,
+            "markscheme": "- Routers connect multiple networks together and route data packets between them <marks>1 mark</marks>\n- Switches connect devices within the same network and forward data packets to the intended destination <marks>1 mark</marks>\n\n$$\n\\begin{aligned}\n&\\text{Routers:} \\\\\n&\\bullet\\: \\text{Operate at the network layer (layer 3) of the OSI model} \\\\\n&\\bullet\\: \\text{Use IP addresses to determine where to forward packets} \\\\\n&\\bullet\\: \\text{Connect different networks (e.g., LAN to WAN)}\n\\end{aligned}\n$$\n\n$$\n\\begin{aligned}\n&\\text{Switches:} \\\\\n&\\bullet\\: \\text{Operate at the data link layer (layer 2) of the OSI model} \\\\\n&\\bullet\\: \\text{Use MAC addresses to forward packets within the same network} \\\\\n&\\bullet\\: \\text{Connect devices in the same LAN}\n\\end{aligned}\n$$\n\n- Routers and switches work together to enable communication across networks <marks>2 marks</marks>\n  - Switches connect devices within a LAN\n  - Routers connect LANs to other networks (e.g., the internet)",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 544997,
+            "content": "Evaluate the benefits and challenges of using wireless transmission media over wired media in a corporate network.",
+            "order": 2,
+            "markscheme": "### Benefits of wireless transmission media\n\n- Mobility/portability <marks>1 mark</marks>\n  - Users can move around freely with wireless devices\n  - Devices are not tethered to a fixed location\n\n- Ease of installation/deployment <marks>1 mark</marks>\n  - No need to install cables/wires\n  - Wireless networks can be set up quickly\n\n- Cost savings <marks>1 mark</marks>\n  - Eliminates cabling costs\n  - Reduces labor costs for installation\n\n- Scalability/flexibility <marks>1 mark</marks>\n  - Easy to expand wireless network coverage\n  - Can accommodate changes in office layout/environment\n\n### Challenges of wireless transmission media\n\n- Security risks <marks>1 mark</marks>\n  - Wireless signals can be intercepted/eavesdropped\n  - Vulnerable to unauthorized access/hacking\n\n- Interference/signal degradation <marks>1 mark</marks>\n  - Signals can be disrupted by obstacles, other wireless devices\n  - Limited range/coverage compared to wired networks\n\n- Bandwidth limitations <marks>1 mark</marks>\n  - Wireless networks generally have lower bandwidth than wired\n  - May not be suitable for high-bandwidth applications\n\n- Compliance/regulatory issues <marks>1 mark</marks>\n  - Need to follow wireless regulations/standards\n  - Potential legal issues with unauthorized wireless access points",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a0c544fa-55eb-4888-93e6-1a0af7131091",
+        "specification": null,
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-18N.1.HL.TZ0.5",
+          "labeledSubSubTopics": [
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-06T15:31:22.960Z",
+              "reasoning": "The prompt asks whether drivers should rely on an app\u2019s route recommendations versus human knowledge, raising issues of trust, accountability, transparency, and dependence on algorithmic decision-making.",
+              "confidence": 0.74
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-06T15:31:22.960Z",
+              "reasoning": "The app captures and integrates real-time journey/location/speed data and past-journey records; discussion naturally involves privacy, consent, surveillance, and responsible use of personal/geo-location data.",
+              "confidence": 0.66
+            },
+            {
+              "id": 30900,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1F Big Data and Data Analytics",
+              "title": "3.1F Big Data and Data Analytics",
+              "labeledAt": "2026-03-06T15:31:22.960Z",
+              "reasoning": "Mentions using previous journeys and real-time traffic data to recommend routes and estimate fares\u2014an example of data analytics over large datasets to optimize decisions.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 822326,
+        "parts": [
+          {
+            "id": 20918,
+            "content": "**App or intuition?**\n\nApps have been developed that allow a customer to submit a trip request to a taxi company on their smartphone. These apps allow the customer to select the starting point and final destination of the journey as well as add other information, such as the time of journey and number of passengers.\n\nThe developers of the taxi journey app claim it can capture the real-time details of a journey, including the starting point, route, distance travelled, the speed of the car and the final destination. The app integrates this information with real-time traffic information, such as closed roads or accidents. Fares can be estimated before the journey, and the customer can pay digitally with their credit card or by PayPal.\n\nSome traditional taxi drivers in cities such as Paris and Rio de Janeiro have campaigned against the introduction of these apps in taxi companies. Based on previous journeys recorded by the app, the taxi company recommends that their taxi drivers rely on the taxi journey app rather than their own knowledge of the city when determining the best route.\n\nDiscuss whether the taxi driver should rely on the taxi journey app, rather than their own knowledge of the city, when determining the best route.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n**Rely on the taxi journey app (claim)**\n\n*   It will speed up the process of drivers being able to learn the routes (automation), meaning they are able to provide a better service to customers more quickly.\n*   The app will give consistency in the routes used, so the passengers should be confident that the route being selected is the most appropriate (trust, transparency).\n*   If the decisions of the route in the app are collected, the results may be analysed and the reliability evaluated/increased. It may make it possible to monitor the drivers more closely.\n*   The app may be updated in real time, so the driver may not need to check on changes such as roads being closed or reopening (change).\n*   The app may result in shorter distances being travelled and cost savings for the taxi company (cost).\n*   The driver may not have sufficient knowledge of these areas to be able to determine an effective route.\n\n**Rely on driver\u2019s knowledge and intuition (counter-claim)**\n\n*   They may use their professional judgement / intuition that has been gained by doing the job for a number of years.\n*   The system may not be able to determine certain routes, such as those that go outside of the central part of the city. This may mean the usability / effectiveness / reliability of the app is reduced.\n*   There may be new requirements that have not been incorporated into the system (change) that may mean it is not providing the most up-to-date information (cost).\n*   The route-finding algorithms that exist within the digital system may have inherent/subconscious biases (power, values, ethics). For example, they may route the driver past certain locations, or avoid others.\n*   There may be parts of the city where the connection cannot be maintained, such as where there are very tall buildings surrounding the road. This may lead to the app not performing as expected (reliability, feasibility).\n*   The taxi driver may feel that they are being surveilled (power, values, ethics).\n*   Would the installation of the app be a requirement for the job (systems, ethics, values)?\n\n_In this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:**change, power, systems, values, ethics, apps, security, privacy, algorithms, transparency, reliability, surveillance, cost, feasibility\n\n_Refer to**HL paper 1 Section B markbands**when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document._",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a6475032-d4c3-4591-adee-57cf1bf6b322",
+        "specification": "Internet Service Providers (ISPs) offer essential network services, enabling activities like video conferencing, VOIP, and online messaging. For example, during the COVID-19 pandemic, ISPs played a vital role in supporting remote work and education by ensuring stable and high-speed internet connections for millions of people.\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30914,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.4 Networks and the internet > 3.4D Network Providers and Services",
+              "title": "3.4D Network Providers and Services",
+              "labeledAt": "2026-03-07T17:33:28.942Z",
+              "reasoning": "All parts focus on ISPs as network providers and the services they deliver (e.g., video conferencing support, VOIP, messaging) and evaluating their impact on remote work.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30935,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.2 Economic > 4.2A Business",
+              "title": "4.2A Business",
+              "labeledAt": "2026-03-07T17:33:28.942Z",
+              "reasoning": "Parts (b) and (d) specifically discuss benefits to businesses and productivity/flexibility in remote work, which aligns with digital tech use in business contexts.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30936,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.2 Economic > 4.2B Employment and Labour",
+              "title": "4.2B Employment and Labour",
+              "labeledAt": "2026-03-07T17:33:28.942Z",
+              "reasoning": "Part (d) evaluates remote work flexibility and productivity, linking ISP services to employment and labour practices (working from home).",
+              "confidence": 0.48
+            }
+          ]
+        },
+        "currentRevisionId": 795834,
+        "parts": [
+          {
+            "id": 479765,
+            "content": "Identify two services commonly provided by ISPs and explain their purposes. ",
+            "order": 0,
+            "markscheme": "### Service 1: Internet Connectivity <marks>1 mark</marks>\n\n- ISPs provide internet access by connecting customers to their network infrastructure $\\\\ $ and the global internet.\n- This allows users to browse websites, send/receive emails, stream content, etc.\n\n### Service 2: Email Services <marks>1 mark</marks>\n\n- ISPs offer email services with email addresses associated with their domain.\n- This allows users to send and receive emails using the ISP's email servers.\n\n<note>Award 1 mark for each service identified and its purpose explained correctly. Accept any other reasonable services provided by ISPs.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479766,
+            "content": "Outline how video conferencing services benefited businesses during the COVID-19 pandemic. ",
+            "order": 1,
+            "markscheme": "Video conferencing services benefited businesses during the COVID-19 pandemic in the following ways:\n\n- Allowed employees to work remotely/from home while maintaining communication and collaboration <marks>1 mark</marks>\n- Enabled meetings, presentations, and training sessions to be conducted online without physical presence <marks>1 mark</marks>\n- Reduced travel costs and time associated with in-person meetings <marks>1 mark</marks>\n- Facilitated international/global collaboration and communication despite travel restrictions <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479767,
+            "content": "Explain how VOIP services allow for cost-effective communication over the internet.",
+            "order": 2,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following points up to a maximum of <marks>4 marks</marks>:\n\n- Voice over IP (VoIP) converts analog voice signals into digital data packets\n- These data packets are transmitted over the internet/IP network\n- This allows voice communication to be transmitted over existing internet infrastructure\n- Avoiding the need for traditional telephone networks/infrastructure reduces costs\n\n<commonMistake>\nCandidates may confuse VoIP with video conferencing or other internet communication services.\n</commonMistake>\n\n<examTip>\nEnsure you explain how VoIP specifically allows for cost savings compared to traditional telephony.\n</examTip>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479768,
+            "content": "Evaluate the impact of ISP-provided services on the flexibility and productivity of remote work, including both benefits and limitations. ",
+            "order": 3,
+            "markscheme": "### Benefits of ISP-provided services for remote work flexibility and productivity\n\n- Reliable high-speed internet connectivity enables seamless access to cloud-based applications, video conferencing, and file sharing <marks>1 mark</marks>\n- ISPs may offer virtual private network (VPN) services for secure remote access to company networks and resources <marks>1 mark</marks>\n- Bundled communication services like VoIP telephony facilitate remote collaboration and communication <marks>1 mark</marks>\n\n### Limitations of ISP-provided services for remote work\n\n- Dependence on ISP for internet availability and quality of service, potential for outages or throttling <marks>1 mark</marks>\n- Data caps or usage limits on internet plans may restrict bandwidth-intensive activities like video calls <marks>1 mark</marks>\n- Limited technical support or customer service from ISPs for troubleshooting remote work issues <marks>1 mark</marks>\n- Potential security risks if ISP-provided VPN or remote access solutions are not properly configured or maintained <marks>1 mark</marks>\n- Geographic availability and pricing of ISP services may vary, impacting remote work feasibility in certain areas <marks>1 mark</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cc036481-c056-45fc-851b-fc92858c8af8",
+        "specification": "Robots and autonomous technologies possess distinct characteristics that allow them to sense, reason, and interact with environments. For instance, autonomous vehicles rely on sensors to detect obstacles and machine learning to make driving decisions, helping them operate safely and independently.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30928,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.7 Robots and autonomous technologies > 3.7B Characteristics of Robots and Autonomous Technologies",
+              "title": "3.7B Characteristics of Robots and Autonomous Technologies",
+              "labeledAt": "2026-03-05T15:14:34.717Z",
+              "reasoning": "The question specifically asks for characteristics of robots and autonomous technologies, and explores their ability to sense and interact with the environment, which are core components of topic 3.7B.",
+              "confidence": 1
+            },
+            {
+              "id": 30923,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6B Types and Uses of Machine Learning",
+              "title": "3.6B Types and Uses of Machine Learning",
+              "labeledAt": "2026-03-05T15:14:34.717Z",
+              "reasoning": "Parts (c) and (d) of the question focus specifically on the role and effectiveness of machine learning in autonomous technologies, making topic 3.6B highly relevant.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 803233,
+        "parts": [
+          {
+            "id": 481364,
+            "content": "Identify two characteristics of autonomous technologies and describe their importance. ",
+            "order": 0,
+            "markscheme": "### Characteristic 1: Sensing capabilities\nAutonomous technologies have the ability to sense and perceive their environment through various sensors such as cameras, radar, lidar, and ultrasonic sensors. This sensing capability is crucial for autonomous systems to gather data about their surroundings, detect obstacles, identify objects, and navigate safely. <marks>1 mark</marks>\n\n### Characteristic 2: Decision-making and reasoning\nAutonomous technologies possess decision-making and reasoning capabilities, often powered by machine learning algorithms and artificial intelligence. They can process the data collected from sensors, analyze the situation, and make informed decisions about how to respond or act. This decision-making ability allows autonomous systems to operate independently and adapt to changing environments. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 481365,
+            "content": " Outline the role of sensory inputs in enabling robots to interact with physical environments.",
+            "order": 1,
+            "markscheme": "Sensory inputs play a crucial role in enabling robots to interact with physical environments:\n\n- Sensors allow robots to perceive their surroundings and gather data about the environment. <marks>1 mark</marks>\n  - Examples include cameras for vision, ultrasonic sensors for distance measurement, and force/torque sensors for detecting contact. <marks>1 mark</marks>\n\n- This sensory data is processed by the robot's control system, allowing it to build a model of the environment and make decisions about how to interact with it. $$\n\\begin{aligned}\n\\text{Sensory data} &\\rightarrow \\text{Perception} \\\\\n&\\rightarrow \\text{Decision making} \\\\\n&\\rightarrow \\text{Action}\n\\end{aligned}\n$$ <marks>1 mark</marks>\n\n- Without sensory inputs, robots would be unable to navigate, manipulate objects, or react to changes in their environment in a meaningful way. <marks>1 mark</marks>\n\n<note>Maximum 4 marks</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 481366,
+            "content": "Explain how machine learning helps autonomous technologies adapt to complex environments.",
+            "order": 2,
+            "markscheme": "Machine learning allows autonomous technologies to adapt to complex environments by:\n\n<marks>1 mark</marks>\n$$\n\\bullet \\text{Identifying patterns and trends from large datasets}\n$$\nThis enables the system to learn from experience and make predictions or decisions based on the data.\n\n<marks>1 mark</marks>\n$$\n\\bullet \\text{Continuously improving performance through iterative training}\n$$\nAs more data is collected, the machine learning model can be retrained to enhance its accuracy and capabilities.\n\n<marks>1 mark</marks>\n$$\n\\bullet \\text{Generalizing to new situations not present in the initial training data}\n$$\nMachine learning models can extrapolate their learning to novel scenarios, allowing adaptation to changing or unfamiliar environments.\n\n<marks>1 mark</marks>\n$$\n\\bullet \\text{Adjusting decision-making processes based on feedback or reinforcement signals}\n$$\nAutonomous systems can fine-tune their behavior by receiving rewards or penalties, enabling them to optimize their actions for the given environment.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 481367,
+            "content": "Evaluate the effectiveness of sensory inputs and machine learning in enhancing the safety and functionality of autonomous vehicles. ",
+            "order": 3,
+            "markscheme": "### Sensory Inputs\n\n- Sensory inputs such as cameras, radar, and lidar allow autonomous vehicles to perceive their surroundings and detect obstacles, pedestrians, and other vehicles. <marks>1 mark</marks>\n- This enhances safety by enabling the vehicle to identify potential hazards and take appropriate actions to avoid collisions. <marks>1 mark</marks>\n\n### Machine Learning\n\n- Machine learning algorithms can process the data from sensory inputs to recognize patterns and make decisions about steering, braking, and acceleration. <marks>1 mark</marks>\n- This improves functionality by allowing the vehicle to navigate complex environments and respond to changing conditions in real-time. <marks>1 mark</marks>\n\n### Effectiveness\n\n- The combination of sensory inputs and machine learning is highly effective in enhancing safety and functionality. <marks>1 mark</marks>\n$$\n\\begin{aligned}\n&\\text{Sensory inputs provide accurate and comprehensive data about the environment,} \\\\\n&\\text{while machine learning algorithms can process this data and make intelligent decisions.}\n\\end{aligned}\n$$\n\n- However, there are limitations, such as the potential for sensor failures or errors in machine learning models, which could compromise safety. <marks>1 mark</marks>\n- Ongoing improvements in sensor technology and machine learning algorithms, as well as redundancy and fail-safe mechanisms, can help mitigate these limitations. <marks>1 mark</marks>\n\n<note>Maximum 8 marks</note>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d1e65c26-6a13-4f2e-a8b1-14e3dc698848",
+        "specification": "**Source A** \n\n![Image](https://pub-images.revisiondojo.com/question-images/4e45e252-5fa8-473c-952d-57c87060f953)\n\n**Source B (venture capitalists\u2019 website excerpt)** \n\n Northvale Grocers introduced ShiftOpt, a scheduling and workforce-management system that generates staff rotas based on predicted customer demand. Workers receive shifts through a mobile app, can request time off, and can accept extra hours when the system flags peak periods. Northvale says ShiftOpt reduces waste by matching staffing to demand and claims it improves fairness because \u201crules are consistent.\u201d However, the app updates schedules more frequently than the previous weekly rota: some staff report changes within 24\u201348 hours. ShiftOpt also produces a \u201cperformance score\u201d derived from checkout speed, attendance patterns, and customer feedback tags, and the system prioritizes higher-scoring workers for extra shifts. Northvale states that managers can override the system, but it encourages them to \u201cfollow the model\u201d to meet store targets.\n\n**Source C (same as above)** \n\nAfter ShiftOpt, overtime hours fell 34%, but the share of workers reporting \u201cunpredictable income\u201d rose from 28% to 46%.\n\nAverage schedule notice: 9 days \u2192 3.5 days.\n\nStaff turnover increased from 18% to 27% annually; turnover was highest among students and single parents.\n\nStore-level productivity (items scanned per labour hour) rose 11%.\n\nAn internal audit found that workers in the bottom performance-score band received 22% fewer offered hours, even when availability was similar.\n\n**Source D (local newspaper criticism)** \n\nShiftOpt is presented as efficiency, but it is really a new labour market inside the storeone where hours are allocated like a platform \u201cgig.\u201d The economic benefit is clear in the productivity and overtime figures, yet the costs are pushed onto workers through volatility: fewer days of notice, more last-minute changes, and income that becomes harder to plan around rent, childcare, or study. Northvale calls the rules \u201cconsistent,\u201d but consistency is not the same as justice. A performance score built from speed, attendance patterns, and customer tags will reflect unequal circumstances: transport reliability, disability, language barriers, or biased customer behaviour. When managers are told to \u201cfollow the model,\u201d responsibility becomes blurred. If the system quietly reduces hours for lower-scoring staff, it can create a feedback loop: fewer hours leads to less practice, lower scores, and even fewer hours. That is not merely management; it is automated inequality.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 296,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30936,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.2 Economic > 4.2B Employment and Labour",
+              "title": "4.2B Employment and Labour",
+              "labeledAt": "2026-03-06T08:03:37.879Z",
+              "reasoning": "The question focuses on algorithmic scheduling\u2019s effects on workers (economic security, unpredictable income, turnover, job quality) and who gains/loses\u2014core employment and labour issues.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-06T08:03:37.879Z",
+              "reasoning": "Sources describe automated allocation of shifts via a performance score, potential bias, feedback loops, and blurred responsibility\u2014algorithmic fairness, accountability, and transparency dilemmas.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-06T08:03:37.879Z",
+              "reasoning": "ShiftOpt uses AI/analytics to predict demand and generate rotas plus a performance scoring system; discussion includes automated inequality and impacts of AI-driven management.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30900,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1F Big Data and Data Analytics",
+              "title": "3.1F Big Data and Data Analytics",
+              "labeledAt": "2026-03-06T08:03:37.879Z",
+              "reasoning": "The system relies on predicted customer demand and performance metrics derived from multiple data streams (speed, attendance, customer tags), fitting big data/analytics used for decision-making.",
+              "confidence": 0.65
+            },
+            {
+              "id": 30897,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1D Methods for Collecting and Organizing Data",
+              "title": "3.1D Methods for Collecting and Organizing Data",
+              "labeledAt": "2026-03-06T08:03:37.879Z",
+              "reasoning": "Part (a) asks for identifying input data types shown in Source A, aligning with how data is collected/used as inputs to a digital system.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1496331,
+        "parts": [
+          {
+            "id": 1132548,
+            "content": "Identify two types of input data that ShiftOpt uses, shown in Source A.",
+            "order": 0,
+            "markscheme": "**Identify (Total <marks>2 marks</marks>)**\n\n\n**Answer points**\n\n\n* Employee availability or time-off requests shown in Source A. <marks>1 mark</marks>\n* Sales, footfall, or customer demand data displayed in Source A. <marks>1 mark</marks>\n* Checkout transaction or scan-rate data visible in Source A. <marks>1 mark</marks>\n* Attendance or clock-in records depicted in Source A. <marks>1 mark</marks>\n* Customer feedback ratings or tags shown in Source A. <marks>1 mark</marks>\n* Performance score metrics illustrated in Source A. <marks>1 mark</marks>\n* Shift history or rota patterns visible in Source A. <marks>1 mark</marks>\n\n\n**Awarding marks**\n\n\nAward one mark for each correctly identified type of input data clearly shown in Source A.\n\nAward a maximum of two marks for this question.\n\n\n**Marking guidance**\n\n\n<note>Responses must reference data types clearly visible in Source A. Do not award marks for inputs that are only described in the text sources but not shown in the image. The same data type repeated in different wording only counts once.</note>\n\n\n**Sample answer**\n\n\nShiftOpt uses employee availability and time-off request data shown in the interface.\n\nIt also uses sales, footfall, or customer demand data displayed on the dashboard to predict staffing needs.",
+            "marks": 2,
+            "label_id": "d1f32b39-441e-4f28-b7fc-89054caca27b",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1132549,
+            "content": "Explain how ShiftOpt\u2019s scheduling approach in Source B could change workers\u2019 economic security.",
+            "order": 1,
+            "markscheme": "**Explain (Total <marks>4 marks</marks>)**\n\n\n**Answer points**\n\n\n* More frequent schedule updates and short-notice changes reduce income predictability for workers. <marks>1 mark</marks>\n* Reduced notice periods make budgeting and financial planning more difficult for workers. <marks>1 mark</marks>\n* Prioritising higher-scoring workers for extra shifts concentrates income opportunities among top performers. <marks>1 mark</marks>\n* Workers with lower performance scores receive fewer shift opportunities, reducing their earning potential. <marks>1 mark</marks>\n* App-based acceptance of extra hours creates pressure to remain constantly available. <marks>1 mark</marks>\n* Always-on availability interferes with other commitments and stable scheduling. <marks>1 mark</marks>\n* Mobile app control enables rapid roster changes that workers cannot easily influence. <marks>1 mark</marks>\n* Performance-based allocation creates anxiety about maintaining scores to secure hours. <marks>1 mark</marks>\n\n\n**Awarding marks**\n\n\nAward up to two marks for clear explanations of scheduling mechanisms described in Source B.\n\nAward up to two marks for explaining how these mechanisms affect economic security outcomes.\n\nAward a maximum of four marks for this question.\n\n\n**Marking guidance**\n\n\n<note>Responses must explicitly link specific features of ShiftOpt described in Source B, such as frequent updates, performance scoring, or app-based shift acceptance, to impacts on economic security. Descriptions without clear impacts cannot earn full marks.</note>\n\n\n**Sample answer**\n\n\nShiftOpt changes workers\u2019 economic security by updating schedules more frequently and sometimes within short notice periods. This reduces income predictability and makes budgeting difficult because workers cannot reliably anticipate their hours or earnings.\n\nThe system also prioritises higher-scoring workers for extra shifts, which concentrates income among top performers and leaves lower-scoring workers with fewer opportunities, increasing insecurity.",
+            "marks": 4,
+            "label_id": "77bbc1ee-4da8-4b15-acd8-64408dc24e59",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1132550,
+            "content": "Contrast the economic impacts of ShiftOpt presented in Source C with the concerns raised in Source D.",
+            "order": 2,
+            "markscheme": "**Contrast (Total <marks>6 marks</marks>)**\n\n\n**Answer points**\n\n\n* Source C presents productivity gains and reduced overtime as measurable economic benefits, while Source D argues these benefits shift costs onto workers through volatility and gig-like allocation. <marks>2 marks</marks>\n* Source C quantifies reduced average notice from nine days to three point five days, whereas Source D interprets reduced notice as structural insecurity affecting rent, childcare, and study planning. <marks>2 marks</marks>\n* Source C reports unpredictable income rising from 28 percent to 46 percent, while Source D frames this unpredictability as hardship that undermines planning for essential expenses. <marks>2 marks</marks>\n* Source C finds workers in the bottom performance band received 22 percent fewer hours, whereas Source D argues performance scoring embeds unequal circumstances and creates feedback loops. <marks>2 marks</marks>\n* Source C documents increased turnover from 18 percent to 27 percent, while Source D presents this volatility as evidence of automated inequality rather than efficient management. <marks>2 marks</marks>\n* Source C frames outcomes as mixed gains and harms, while Source D frames them as structural injustice and unequal power distribution. <marks>2 marks</marks>\n\n\n**Awarding marks**\n\n\nAward two marks for each effective contrast that clearly references both Source C and Source D.\n\nAward a maximum of six marks for this question.\n\n\n**Marking guidance**\n\n\n<note>High-quality contrasts pair specific statistics or findings from Source C with interpretations or critiques from Source D. Separate descriptions without explicit contrast should be limited.</note>\n\n\n**Sample answer**\n\n\nSource C highlights productivity gains and reduced overtime as economic benefits, while Source D argues that these gains are achieved by shifting volatility and risk onto workers through gig-like scheduling.\n\nSimilarly, Source C presents reduced notice periods and rising income unpredictability as measurable outcomes, whereas Source D interprets these changes as structural insecurity that affects workers\u2019 ability to plan rent, childcare, or study.",
+            "marks": 6,
+            "label_id": "f766293a-2cdd-4cb0-b66a-b21e931a8a87",
+            "rubric_id": "9a1e867e-263f-4f65-963a-43ee8c79f294",
+            "explanation": null
+          },
+          {
+            "id": 1132551,
+            "content": "Discuss whether systems like ShiftOpt improve economic outcomes overall. With reference to all sources (A\u2013D) and your own knowledge, consider productivity/cost savings, job quality, accountability/transparency, and who gains/loses value.",
+            "order": 3,
+            "markscheme": "**Discuss (Total <marks>12 marks</marks>)**\n\n\n**Answer points**\n\n\n* Efficiency and productivity gains provide measurable economic benefits for employers. <marks>1 mark</marks>\n* Source C shows an 11 percent increase in items scanned per labour hour. <marks>1 mark</marks>\n* Source C reports a 34 percent reduction in overtime hours. <marks>1 mark</marks>\n* Algorithmic rules may reduce arbitrary or biased managerial decisions. <marks>1 mark</marks>\n* Job quality deteriorates through reduced schedule notice from nine days to three point five days. <marks>1 mark</marks>\n* Increased income unpredictability undermines financial stability and budgeting. <marks>1 mark</marks>\n* Staff turnover increased from 18 percent to 27 percent, creating recruitment and training costs. <marks>1 mark</marks>\n* Disproportionate turnover among students and single parents indicates unequal impacts. <marks>1 mark</marks>\n* Algorithmic management reduces transparency and makes decisions harder to contest. <marks>1 mark</marks>\n* Encouraging managers to follow the model blurs responsibility for unfair outcomes. <marks>1 mark</marks>\n* Performance scoring may embed inequalities linked to transport, disability, language, or biased customers. <marks>1 mark</marks>\n* Feedback loops create structural disadvantage when fewer hours lead to lower scores. <marks>1 mark</marks>\n* Procedural justice concerns arise around transparency and contestability. <marks>1 mark</marks>\n* Disparate impact testing can reveal unequal outcomes across worker groups. <marks>1 mark</marks>\n* Reduced human oversight increases worker power asymmetries. <marks>1 mark</marks>\n* Value capture primarily benefits employers rather than frontline workers. <marks>1 mark</marks>\n* Efficiency gains may come at the expense of worker security and wellbeing. <marks>1 mark</marks>\n\n\n**Awarding marks**\n\n\nAward up to twelve marks for a balanced discussion that synthesises evidence from all sources with relevant course knowledge and reaches a supported judgement.\n\n\n**Marking guidance**\n\n\n<note>High-mark responses balance efficiency benefits against distributional costs and integrate concepts such as algorithmic management, procedural justice, disparate impact, and worker power. A clear overall judgement is required.</note>\n\n\n**Sample answer**\n\n\nSystems like ShiftOpt produce mixed economic outcomes. On one hand, Source C shows clear efficiency benefits, including an 11 percent increase in productivity and a 34 percent reduction in overtime hours. These gains reduce labour costs and improve output, and consistent algorithmic rules may limit arbitrary managerial decisions.\n\nOn the other hand, these benefits are offset by significant costs to workers. Schedule notice fell sharply, income unpredictability increased, and staff turnover rose from 18 percent to 27 percent, especially among students and single parents. Source D argues that performance scoring embeds unequal circumstances and creates feedback loops that disadvantage already vulnerable workers. From a course perspective, this illustrates algorithmic management problems related to transparency, contestability, and worker power asymmetries. Overall, ShiftOpt improves economic outcomes for employers but worsens security and wellbeing for many workers unless stronger governance and safeguards are introduced.",
+            "marks": 12,
+            "label_id": "4e6ee9f9-2e62-4ebd-9f17-da3328d1b31a",
+            "rubric_id": "ea6b8dae-641b-4a09-a019-739abc86969d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fdd6b482-f359-478c-ab10-6019ed24b599",
+        "specification": "_Google_\u2019s DeepMind uses a machine learning algorithm and neural network to analyse data. _Google_ is now collaborating with the United Kingdom\u2019s National Health Service (NHS) to develop systems that can improve the quality of health care.\n\nIts first project is to create a system that can analyse digital scans of eyes and thus help doctors diagnose sight-destroying diseases in time for them to be treated. This is a complex problem for pattern recognition.\n\n_Google_ needs large quantities of retinal scans to test the algorithm. Moorfields Eye Hospital in London has the largest collection of retinal scans in the world and will share them with _Google_ for free. The scans will be anonymized. Patients can opt out of sharing their data by emailing an NHS data protection officer. _Google_ will use the knowledge gained from this project to help create future software that can eventually be marketed to health care providers.\n\nFor this project, _Google_ needs to consider the needs and concerns of multiple stakeholders, including patients, doctors, and the NHS. _Google_ plans to hold four patient forums a year and set up a panel of independent reviewers to oversee what the company is doing. Ultimately, _Google_ hopes to make a profit from this technology.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-18M.1.SL.TZ0.3",
+          "labeledSubSubTopics": [
+            {
+              "id": 30902,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2A Characteristics of an Algorithm",
+              "title": "3.2A Characteristics of an Algorithm",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (a) explicitly asks for characteristics of an algorithm.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30904,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2C Representing Algorithms",
+              "title": "3.2C Representing Algorithms",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (c) asks for ways algorithms may be represented (e.g., flowcharts, pseudocode, diagrams).",
+              "confidence": 0.88
+            },
+            {
+              "id": 30923,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6B Types and Uses of Machine Learning",
+              "title": "3.6B Types and Uses of Machine Learning",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Parts (b) and (e) concern pattern recognition and comparing deep learning with traditional machine learning techniques\u2014core machine learning types/uses.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30924,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6C Uses of Artificial Neural Networks",
+              "title": "3.6C Uses of Artificial Neural Networks",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Scenario centers on DeepMind using neural networks/deep learning to analyze retinal scans; part (e) references deep learning, which relies on artificial neural networks.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (f) focuses on ethical implications of sharing anonymized patient scan data with Google, including consent/opt-out and data privacy\u2014data dilemmas.",
+              "confidence": 0.84
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (f) also raises ethics around AI development and commercialization (stakeholders, oversight, bias/benefit vs harm), aligning with AI dilemmas.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30940,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.3 Environmental > 4.3B Pollution and Waste",
+              "title": "4.3B Pollution and Waste",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (d) asks concerns linked to increasing number of data centres; includes energy use/emissions and environmental impacts consistent with pollution and waste.",
+              "confidence": 0.73
+            },
+            {
+              "id": 30939,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.3 Environmental > 4.3A Natural Resources and Ecosystems",
+              "title": "4.3A Natural Resources and Ecosystems",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (d) can also involve resource consumption (electricity, water for cooling, land use), fitting natural resources and ecosystems concerns.",
+              "confidence": 0.64
+            }
+          ]
+        },
+        "currentRevisionId": 1178891,
+        "parts": [
+          {
+            "id": 20278,
+            "content": "Identify **two** characteristics of an algorithm.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n*   A step-by-step procedure\n*   A set of instructions\n*   Created to perform a specific task\n*   Used by computers to perform operations/tasks\n*   Must be followed in a specific order\n\n_Award **\\[1\\]** mark for each of the characteristics identified above up to a maximum of **\\[2\\]**_ _marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20279,
+            "content": "Identify **two** characteristics of pattern recognition.",
+            "order": 1,
+            "markscheme": "_Answers may include:_\n\n*   Uses training data\n*   Learns from examples\n*   Once trained, the software can identify new examples of the items it has \u201clearned\u201d\n*   Gives an estimate of the accuracy of the identification\n*   Recognizes shapes within an image\n*   Supervised AI\n\n_Award **\\[1\\]** mark for each of the characteristics identified above up to a maximum of **\\[2\\]**_ _marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20280,
+            "content": "_Google_ may use a range of representations of the algorithms during their development.\n\nIdentify**two** ways how these algorithms may be represented.",
+            "order": 2,
+            "markscheme": "_Answers may include:_\n\n*   Natural language\n*   Flow chart\n*   Pseudocode\n*   Programming code\n\n_Award **\\[1\\]** mark for each of the representations identified up to a maximum of **\\[2\\]**_ _marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20281,
+            "content": "_Google_ will collect large quantities of data that will be held in data centres.\n\nExplain **two** concerns linked to the increasing number of data centres.",
+            "order": 3,
+            "markscheme": "_Answers may include:_\n\n*   Data centres use considerable amounts of energy\u2026\n*   which may have negative impacts on the environment.  \n      \n    \n\n*   Data centres lead to the centralization of information\u2026\n*   which may make them susceptible to security breaches.\n\n_Award **\\[1\\]** for identifying a concern linked to the use of data centres and an additional **\\[1\\]** for the explanation of that concern up to a maximum of **\\[2\\]** marks._\n\n_Mark as **\\[2\\]** + **\\[2\\]**._",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20282,
+            "content": "Explain **one** advantage of using deep learning instead of traditional machine learning techniques.",
+            "order": 4,
+            "markscheme": "_Answers may include:_\n\n*   There does not need to be a domain expert involved to reduce the complexity of the data so it can be processed\u2026\n*   which reduces the requirement for human input that machine learning requires.  \n      \n    \n*   Deep learning algorithms solve the problem end-to-end\u2026\n*   whereas machine learning solves the problem in smaller parts and aggregates the solutions (which may lead to a less accurate outcome).\n\n_Award **\\[1\\]** for identifying an advantage of using deep learning and an additional **\\[1\\]** for the explanation of that advantage up to a maximum of **\\[2\\]** marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20283,
+            "content": "It is claimed that the NHS\u2019s partnership with _Google_ is beneficial for both stakeholders. However, concerns have been raised about the ethical implications of this data-sharing agreement.\n\nTo what extent is it ethical for the NHS to share patient information about eye scans from Moorfields Eye Hospital with _Google_?",
+            "order": 5,
+            "markscheme": "_Answers may include:_\n\n**Ethical problems:**\n\n*   Can the patients decide whether to opt in or opt out (power)?\n*   _Google_ is likely to profit from what they learn from this project.\n*   _Google_ will benefit from improvements in its algorithm.\n*   _Google_ will need to guarantee that the data is kept secure.\n*   _Google_ will need to guarantee that the data is kept private.\n*   _Google_ will need to guarantee that the data is only used for this project.\n*   Does this scheme cause harm to the patients? Is it ethical?\n\n**Benefits for the NHS and its patients:**\n\n*   _Google_ could provide free access to the system to the NHS vs other health providers.\n*   The knowledge gained about preserving sight could be shared with doctors around the world, thereby benefiting many people at risk of losing their sight (values).\n*   This data may be shared/mined, and other associations may be established that may lead to preventative health care in unrelated fields.\n*   Patients may feel the benefits of sharing their data outweigh the negative implications of their data being shared (values).\n\n_In part (c) of this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** health, medical care, medical diagnostics, data, privacy, anonymity, algorithm, change, power, systems, values\n\n_Refer to **SL/HL paper 1, part c** **markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document_.",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "15",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10075,
+      "title": "4.3 Environmental",
+      "slug": "4-3-environmental",
+      "parentTopicId": 10072
+    },
+    "subject": {
+      "id": 296,
+      "title": "Digital Society (DS)",
+      "slug": "ib-digital-society",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "15",
+      "byQuestion": {}
+    }
+  }
+}

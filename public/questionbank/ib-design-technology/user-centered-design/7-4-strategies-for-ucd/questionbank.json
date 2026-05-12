@@ -1,3 +1,222 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:63d12f69b69c8917a9877d15eebb80bc609534a77454e7cced66e9699779a9e5
-size 12638
+{
+  "json": {
+    "questions": [
+      {
+        "id": "6fefe5fe-ae7b-48d0-a596-de0569016946",
+        "specification": "A city council has commissioned a team to design a self-service ticketing kiosk for a new tram network. The kiosks will be installed at outdoor stops and inside stations. Users include daily commuters, tourists with limited local language skills, older adults, wheelchair users, and people who may have one hand occupied with luggage or a child.\n\nEarly trials of the first prototype (a touch-screen only interface) revealed several issues: some users could not read the on-screen text in bright sunlight; some struggled to find the \u201cbuy single ticket\u201d option; and several users accidentally purchased the wrong ticket type. The council also received complaints that the kiosk \u201cfeels stressful\u201d because it times out quickly and provides little feedback after a selection is made.\n\nThe design team proposes a user-centred design (UCD) approach that includes field observation at tram stops, low-fidelity paper prototypes, iterative usability testing with a diverse participant group, and clear design guidance for layout, feedback, and error prevention. The team must present a plan that justifies why UCD is necessary, how it will be carried out, and what design guidance will be used to improve the kiosk.\n\nFigure 1: Concept mock-up of the ticketing kiosk interface\n\n![](https://pub-images.revisiondojo.com/notes/63ecdf40-83d0-4385-9f75-c2947f65d143.png)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:53:50.944Z",
+            "resultId": 3085
+          }
+        },
+        "currentRevisionId": 1691852,
+        "parts": [
+          {
+            "id": 1153571,
+            "content": "Outline two reasons why using user-centred design (UCD) strategies is important for a public ticketing kiosk in this context.",
+            "order": 0,
+            "markscheme": "- Public products must be accessible to a wide range of users (e.g., tourists, older adults, disabled users), so UCD reduces exclusion and barriers to use <marks>1 mark</marks>\n- UCD reduces costly errors and redesign by identifying issues early (e.g., wrong ticket purchases, timeouts, unclear options) <marks>1 mark</marks>\n- UCD improves effectiveness/efficiency/satisfaction, increasing adoption and trust in the tram system <marks>1 mark</marks>\n- UCD helps manage real-world constraints (glare, noise, time pressure, one-handed use) through evidence from users and context <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153572,
+            "content": "Outline how the kiosk design could apply two principles of UCD strategies during development.",
+            "order": 1,
+            "markscheme": "- Involve users throughout: recruit representative participants (including accessibility needs) and gather feedback at multiple stages <marks>1 mark</marks>\n- Iterative design: test, analyse issues (e.g., mis-selections), refine, and re-test to progressively improve usability <marks>1 mark</marks>\n- Design is driven by user tasks/goals: base navigation and labels on common journeys (e.g., \u201cBuy single ticket quickly\u201d) and observed mental models <marks>1 mark</marks>\n- Evaluate in context of use: run field tests at stations/outdoors to capture glare, distractions, time pressure <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153573,
+            "content": "List two types of users that should be included in the usability test participant group for the kiosk.",
+            "order": 2,
+            "markscheme": "- Daily commuter users <marks>1 mark</marks>\n- Tourists / users with limited local language proficiency <marks>1 mark</marks>\n- Older adults <marks>1 mark</marks>\n- Wheelchair users / users with limited reach or mobility <marks>1 mark</marks>\n- Users with visual impairments (e.g., low vision) <marks>1 mark</marks>\n- Users with limited dexterity / one-handed users (e.g., holding luggage) <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153574,
+            "content": "Explain how the design team could use UCD methods to identify and fix the issue of users accidentally purchasing the wrong ticket type.",
+            "order": 3,
+            "markscheme": "- Observe and/or interview users to understand goals and where confusion occurs in the purchase flow (task analysis) <marks>1 mark</marks>\n- Run usability tests with realistic tasks (e.g., \u201cbuy a day pass in under 30 seconds\u201d) and record mis-clicks, hesitations, and error rates <marks>1 mark</marks>\n- Use think-aloud to reveal users\u2019 interpretation of labels/icons and decision points <marks>1 mark</marks>\n- Iterate the interface based on findings (e.g., clearer naming, better grouping, progressive disclosure, confirmation step) and re-test to verify reduced errors <marks>1 mark</marks>\n- Test with representative users in the real environment (glare/time pressure) to ensure improvements hold in context <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153575,
+            "content": "Using examples from the case study, explain three pieces of design guidance that can improve the kiosk\u2019s usability and accessibility.",
+            "order": 4,
+            "markscheme": "- Guidance 1 (legibility/visibility in context): identify a legibility improvement relevant to outdoor use (e.g., high-contrast text, larger type, anti-glare mode, adequate spacing) <marks>1 mark</marks>\n- Develop Guidance 1 with an application to the case (e.g., ensures on-screen text remains readable in bright sunlight at outdoor stops) <marks>1 mark</marks>\n- Give a specific interface example for Guidance 1 (e.g., larger fare labels and a high-contrast \u201cSingle ticket\u201d button on the first screen) <marks>1 mark</marks>\n- Guidance 2 (layout/information hierarchy): identify a layout/hierarchy principle (e.g., prioritise common actions like \u201cSingle ticket\u201d, consistent placement, clear grouping) <marks>1 mark</marks>\n- Develop Guidance 2 with an application to the case (e.g., reduces time spent searching and helps users quickly find \u201cbuy single ticket\u201d) <marks>1 mark</marks>\n- Give a specific interface example for Guidance 2 (e.g., place \u201cSingle ticket\u201d as the primary top-left option with supporting secondary options below) <marks>1 mark</marks>\n- Guidance 3 (feedback/error prevention/time pressure): identify a feedback and/or error-prevention/time-limit improvement (e.g., immediate selection highlighting, progress steps, confirmation before payment, longer timeout with warning) <marks>1 mark</marks>\n- Develop Guidance 3 with an application to the case (e.g., prevents wrong ticket purchases and reduces stress from quick timeouts) <marks>1 mark</marks>\n- Give a specific interface example for Guidance 3 (e.g., show a ticket summary screen with \u201cConfirm purchase\u201d and a clear \u201cBack/Cancel\u201d, plus a timeout warning and state saved) <marks>1 mark</marks>\n\n<note>Max 9 marks</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7360452c-f9c3-406d-9ac5-688e020f5a3d",
+        "specification": "A design team for a medical software application develops a detailed profile of 'Dr. Aris', a time-pressured surgeon who requires high-contrast displays and minimal data entry.\n\nWhich of the following is the primary purpose of using this strategy in user-centered design (UCD)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-7360452c-f9c3-406d-9ac5-688e020f5a3d-1771929956947",
+            "generatedAt": "2026-02-25T14:15:48.927Z",
+            "sourceRevisionId": 1179067
+          }
+        },
+        "currentRevisionId": 1685419,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920819,
+            "content": "To map the specific sequence of functional steps required to complete a digital task",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920820,
+            "content": "To create a representative archetype that guides design decisions toward specific user requirements",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920821,
+            "content": "To simulate a narrative story of how a user interacts with a device within their physical environment",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920822,
+            "content": "To measure the speed and accuracy of a user's performance through laboratory observation",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "af34bcb7-7756-4799-b630-368ca8a1fd70",
+        "specification": "A software development team is designing an educational platform for primary school students. They hold a workshop where students and teachers are invited to sketch potential interface layouts and collaborate with developers to build low-fidelity prototypes. This approach is an example of...",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-af34bcb7-7756-4799-b630-368ca8a1fd70-1771929956947",
+            "generatedAt": "2026-02-25T11:48:52.452Z",
+            "sourceRevisionId": 1161891
+          }
+        },
+        "currentRevisionId": 1684652,
+        "parts": [],
+        "options": [
+          {
+            "id": 4918683,
+            "content": "User personas",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4918684,
+            "content": "Participatory design",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4918685,
+            "content": "Affinity diagramming",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4918686,
+            "content": "Field research",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "3",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9924,
+      "title": "7.4 Strategies for UCD",
+      "slug": "7-4-strategies-for-ucd",
+      "parentTopicId": 9920
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "3",
+      "byQuestion": {}
+    }
+  }
+}

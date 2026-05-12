@@ -1,3 +1,317 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7a4272f8c959acaa4c9e4b3e10b9afc769bf7dc1876d032e653b3c04e5a55379
-size 19656
+{
+  "json": {
+    "questions": [
+      {
+        "id": "237e6adb-3c84-4e33-bcaf-d0fb7d9691ec",
+        "specification": "Which group of functional areas is typically connected through the shared database of a Computer-Integrated Manufacturing (CIM) system?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-237e6adb-3c84-4e33-bcaf-d0fb7d9691ec-1771929956947",
+            "generatedAt": "2026-02-25T10:42:48.301Z",
+            "sourceRevisionId": 1161936
+          }
+        },
+        "currentRevisionId": 1686063,
+        "parts": [],
+        "options": [
+          {
+            "id": 4922607,
+            "content": "Legal counsel, financial auditing, and human resource management",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4922608,
+            "content": "Product design, material requirements planning, and shop-floor production",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4922609,
+            "content": "Demographic research, retail marketing, and product disposal",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4922610,
+            "content": "Hand-sketching, manual assembly, and face-to-face sales",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "271428b5-b39f-45e0-abb5-279ecab709b1",
+        "specification": "A manufacturer of custom-fit mouthguards for school sports currently relies on manual steps: staff take dental impressions, hand-trim the moulds, heat-form plastic sheets, and engrave names. Orders surge at the start of each term and errors in sizing lead to remakes.\n\nThe company is considering a computer-integrated manufacturing (CIM) cell that links: intra-oral 3D scanning, CAD design of the mouthguard, CAM toolpath generation, a CNC trimming/finishing machine, a small robotic arm for part handling, and an automated inspection station that checks dimensions against the CAD model.\n\n![A technician viewing a 3D scan on a monitor beside a small CNC machine and a compact robotic arm placing a clear plastic mouthguard onto a conveyor for inspection.](https://pub-images.revisiondojo.com/notes/e0e147a0-5350-4bef-9406-4f01a48cda6e.png)\n\nFigure 1: Proposed CIM cell concept\n\n![A close-up of a computer screen showing a CAD model of a mouthguard with highlighted measurement points and an inspection pass/fail panel.](https://pub-images.revisiondojo.com/notes/0eaa9968-1d55-4646-91a3-59f46b95ce76.png)\n\nFigure 2: CAD model used for automated inspection",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:57:05.564Z",
+            "resultId": 3570
+          }
+        },
+        "currentRevisionId": 1690736,
+        "parts": [
+          {
+            "id": 1153210,
+            "content": "List two components or technologies that would typically be integrated in a CIM system for producing the mouthguards.",
+            "order": 0,
+            "markscheme": "- Identifies a valid CIM component/technology (e.g., CAD, CAM, CNC, robotics, automated inspection/CAI, sensors, PLC/SCADA, integrated database/networking). <marks>1 mark</marks>\n- Identifies a second valid CIM component/technology. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153211,
+            "content": "Outline how CIM could be applied to handle high order volumes at the start of term while still producing mouthguards customised to each student.",
+            "order": 1,
+            "markscheme": "- Explains use of a digital workflow linking scan data to CAD/CAM so each product is customised without retooling. <marks>1 mark</marks>\n- Explains how automation/integration (e.g., robotic handling, automated scheduling, rapid changeover, automated inspection) increases throughput to meet peak demand. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153212,
+            "content": "Outline one advantage and one disadvantage of moving from the current manual process to a CIM cell for this product.",
+            "order": 2,
+            "markscheme": "- States an appropriate advantage linked to CIM (e.g., improved consistency/quality, reduced labour per unit, faster lead times, better traceability, fewer remakes). <marks>1 mark</marks>\n- States an appropriate disadvantage linked to CIM (e.g., high capital cost, need for skilled technicians/training, dependence on software/data accuracy, downtime/cybersecurity risk, less flexibility for unusual cases). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153213,
+            "content": "Explain how integrating CAD, CAM and automated inspection in a CIM system could reduce remakes and improve the efficiency of the manufacturing process for the mouthguards.",
+            "order": 3,
+            "markscheme": "- Describes CAD as the source of an accurate digital model/specification for the customised mouthguard. <marks>1 mark</marks>\n- Describes CAM using the CAD data to generate machine instructions/toolpaths, reducing manual interpretation errors. <marks>1 mark</marks>\n- Explains automated inspection/CAI comparing measured part data to the CAD model/tolerances to detect defects early. <marks>1 mark</marks>\n- Links integration/feedback (e.g., traceability, automatic parameter adjustments, fewer reworks/remakes, reduced waste and cycle time) to improved efficiency. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4c70abcc-f867-40d0-8a97-9d6d1bc6cf6e",
+        "specification": "Forge manufactures aluminium bicycle crank arms. The company is planning to modernise its production by introducing a computer-integrated manufacturing (CIM) system that links design, planning, manufacture and inspection.\n\nThe proposed workflow is:\n1. A designer creates the crank arm in a CAD system and exports the model.\n2. CAM software generates CNC toolpaths for a milling machine.\n3. A central database stores the bill of materials (BOM), routings and machine programs.\n4. Barcodes on pallets identify each part as it moves via a conveyor to machining, washing and inspection.\n5. A coordinate measuring machine (CMM) checks key dimensions and automatically updates the quality records.\n6. The system can schedule jobs, reorder material when stock is low and produce traceability reports.\n\n![A factory cell showing a CNC milling machine behind a safety guard, a conveyor with barcode-tagged pallets, a robot arm loading parts into the CNC, a CMM inspection station with a probe, and a nearby computer terminal representing a central CIM database and production schedule.](https://pub-images.revisiondojo.com/notes/60082fa2-4c40-4e6a-bd7b-cb3165928021.png)\n\n![A close-up view of a barcode label on a pallet next to an aluminium crank arm blank, with arrows indicating data flow from the scanner to a central system and then to the CNC machine and CMM station.](https://pub-images.revisiondojo.com/notes/07068fd9-1d3b-4b27-a8b6-57ebe2ffaa60.png)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1689763,
+        "parts": [
+          {
+            "id": 1152127,
+            "content": "List two elements or technologies that could be part of Forge\u2019s CIM system.",
+            "order": 0,
+            "markscheme": "- CAD used to create/modify product designs <marks>1 mark</marks>\n- CAM used to generate toolpaths/CNC programs from CAD models <marks>1 mark</marks>\n- CNC machine tools controlled by computer programs <marks>1 mark</marks>\n- Robotics/robot arms for loading/unloading/handling parts <marks>1 mark</marks>\n- Automated material handling (e.g., conveyors/AGVs) <marks>1 mark</marks>\n- Barcoding/RFID for identification and tracking <marks>1 mark</marks>\n- CMM/automated inspection linked to quality records <marks>1 mark</marks>\n- Central database/MRP/ERP integrating BOM, routings, stock and schedules <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152128,
+            "content": "Outline one application of CIM in this factory beyond just machining the part.",
+            "order": 1,
+            "markscheme": "- Automated production planning/scheduling (e.g., prioritising jobs, allocating machines) <marks>1 mark</marks>\n- Inventory control and automatic reordering based on stock levels/usage <marks>1 mark</marks>\n- Real-time tracking/traceability of parts through barcode/RFID logging <marks>1 mark</marks>\n- Automated inspection/quality management where CMM results are captured and stored automatically <marks>1 mark</marks>\n- Automatic generation/management of documentation (e.g., work instructions, batch records) <marks>1 mark</marks>\n\n<note>Max 2 marks</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152129,
+            "content": "Explain how introducing CIM could affect Forge\u2019s operation, including advantages and disadvantages.",
+            "order": 2,
+            "markscheme": "- Integration of CAD\u2013CAM\u2013CNC reduces re-entry of data and speeds up changeovers/new product introduction <marks>1 mark</marks>\n- Higher consistency/accuracy from automated control and repeatable CNC programs, reducing variation <marks>1 mark</marks>\n- Improved quality assurance through automated inspection (e.g., CMM feedback) and better records/traceability <marks>1 mark</marks>\n- Better productivity/throughput from automation of handling/scheduling and reduced idle time <marks>1 mark</marks>\n- Reduced labour for repetitive tasks; roles shift toward programming, maintenance and supervision <marks>1 mark</marks>\n- High initial capital cost (machines, software, networking, integration) and ongoing licensing/support <marks>1 mark</marks>\n- Need for skilled staff/training; risk of skills gap and dependence on specialist technicians <marks>1 mark</marks>\n- Downtime risk: a system/network/software failure can stop multiple stages of production at once <marks>1 mark</marks>\n- Reduced flexibility for very small batches/custom one-offs if setup/programming overhead is significant <marks>1 mark</marks>\n- Cybersecurity/data integrity risks (e.g., tampered programs/incorrect database data causing scrap) <marks>1 mark</marks>\n\n<note>Max 6 marks</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "500033f5-49ed-4b4f-8931-3d370352aaab",
+        "specification": "Which of the following is **not** a characteristic of Computer-Integrated Manufacturing (CIM)?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:44:57.553Z",
+            "resultId": 3699
+          }
+        },
+        "currentRevisionId": 1690551,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930665,
+            "content": "Integration of design and manufacturing processes",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930666,
+            "content": "Real-time monitoring and control",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930667,
+            "content": "High dependence on manual labour",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930668,
+            "content": "Improved production efficiency",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "53f7c9bd-75fb-45b3-bcca-fe3ec1250e6e",
+        "specification": "A mid-sized bicycle manufacturer, VeloForge, produces commuter and e-bike frames. The firm is considering a shift to **computer-integrated manufacturing (CIM)** to link its design studio, production equipment, warehouse and order processing.\n\nVeloForge\u2019s proposal includes:\n- customers configuring a frame online (size, colour, accessory mounts)\n- automatic generation of a digital product file for the factory\n- robots and CNC machines cutting and welding tubes\n- sensors collecting data during welding and painting\n- automatic stock updates and scheduling of work orders\n\nFigure 1 shows a prototype screen from VeloForge\u2019s online configurator.\n\n![A web configurator for a bicycle frame showing size selection, colour picker, accessory mount toggles, and a live 3D preview of the frame. A panel lists \u201cEstimated build time\u201d and an automatically updated price as options are selected.](https://pub-images.revisiondojo.com/notes/99c3be38-f1dd-475c-bbeb-5b6ad7184296.png)\n\nFigure 2 shows an example of the order summary sent to the factory.\n\n![An order summary page listing the chosen frame size, paint colour, accessory mounts, and the final itemised price. A section titled \u201cManufacturing file generated\u201d shows a file name and timestamp, and a status line reading \u201cSent to production queue\u201d.](https://pub-images.revisiondojo.com/notes/a66d5d9d-4d9b-450c-8eba-1cd2e5823076.png)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1689722,
+        "parts": [
+          {
+            "id": 1151957,
+            "content": "State two components or technologies that are typically integrated within a CIM system.",
+            "order": 0,
+            "markscheme": "- Identifies a valid CIM-integrated component/technology (e.g., CAD, CAM, CNC/robotics, automated materials handling, sensors/IoT, automated storage/retrieval, ERP/MRP integration, barcodes/RFID, FMS) <marks>1 mark</marks>\n- Identifies a second valid CIM-integrated component/technology <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151958,
+            "content": "Outline how CIM could be applied to VeloForge\u2019s customer configurator to link the customer\u2019s choices to factory production.",
+            "order": 1,
+            "markscheme": "- Customer selections are converted into a digital design/specification (e.g., CAD model/BOM/routing) automatically <marks>1 mark</marks>\n- The specification is transmitted to production systems (e.g., CAM instructions to CNC/robots, automatic job scheduling/materials call-off) to manufacture the customised frame <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151959,
+            "content": "Outline one advantage and one disadvantage for VeloForge of adopting CIM for frame production.",
+            "order": 2,
+            "markscheme": "- Advantage linked to CIM (e.g., faster throughput, higher consistency/precision, lower unit costs at volume, fewer errors via data integration, greater flexibility/mass customisation, improved traceability) <marks>1 mark</marks>\n- Disadvantage linked to CIM (e.g., high capital cost, need for skilled staff/training, cyber/security risk, breakdowns causing system-wide stoppage, inflexibility if software/data errors, implementation disruption) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1151960,
+            "content": "Explain how CIM could help VeloForge coordinate design, production and inventory so that customised frames are produced accurately and on time.",
+            "order": 3,
+            "markscheme": "- Explains end-to-end integration (e.g., CAD updates flow to CAM/production instructions without re-entry, reducing transcription/specification errors) <marks>1 mark</marks>\n- Explains automated scheduling/production control (e.g., real-time machine status and queue management to prioritise orders and meet due dates) <marks>1 mark</marks>\n- Explains inventory/material coordination (e.g., BOM triggers automatic stock checks, barcode/RFID updates, reordering, and materials movement to the correct workstations) <marks>1 mark</marks>\n- Explains monitoring/feedback (e.g., sensor data/traceability flags deviations, enabling quick correction and preventing defective items reaching dispatch) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "5",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9940,
+      "title": "10.3 Computer-integrated manufacturing (CIM)",
+      "slug": "10-3-computer-integrated-manufacturing-cim",
+      "parentTopicId": 9937
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "5",
+      "byQuestion": {}
+    }
+  }
+}

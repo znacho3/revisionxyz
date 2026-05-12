@@ -1,3 +1,2517 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ff2511f32413317576fa3e227853a3ee45694618ff5224a4b7335d4a556e3c1b
-size 170373
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0150a246-2bbe-4b04-a55f-c260242dd5f1",
+        "specification": "A competitive gaming platform stores high-score data using a Binary Search Tree (BST) to allow for efficient searching and sorting. Each node in the tree is an object of the `Player` class, which is defined as follows:\n\n```java\npublic class Player\n{\n    private String username;\n    private int score;\n    public Player left;  // pointer to the left child node\n    public Player right; // pointer to the right child node\n\n    public Player(String u, int s)\n    {\n        username = u;\n        score = s;\n        left = null;\n        right = null;\n    }\n\n    public int getScore()\n    {\n        return score;\n    }\n\n    public String getUsername()\n    {\n        return username;\n    }\n}\n```\n\nThe BST is managed by a class named `Leaderboard`, which contains the following member variable:\n\n`private Player root; // the root node of the binary search tree`",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-0150a246-2bbe-4b04-a55f-c260242dd5f1-1771929956947",
+            "generatedAt": "2026-02-26T11:11:42.289Z",
+            "sourceRevisionId": 1494238
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:43:05.990Z",
+            "resultId": 1216
+          }
+        },
+        "currentRevisionId": 1693333,
+        "parts": [
+          {
+            "id": 1155143,
+            "content": "Outline one advantage of using a Binary Search Tree (BST) rather than a linear linked list for storing and retrieving player scores in a large system.",
+            "order": 0,
+            "markscheme": "- States that a BST can allow faster search/retrieval (average $O(\\log n)$) than a linked list ($O(n)$) <marks>1 mark</marks>\n- Explains in context that comparisons allow the search to discard half a subtree (or avoid traversing all nodes) <marks>1 mark</marks>\n\n_**OR**_\n\n- States that a BST keeps data in sorted order (in-order traversal gives ascending scores) <marks>1 mark</marks>\n- Explains in context that this makes operations like finding the maximum score / printing in order more efficient than traversing an unsorted list <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155144,
+            "content": "Construct the recursive method `Player addPlayer(Player current, Player newPlayer)` that will correctly insert a `newPlayer` object into the existing Binary Search Tree based on the player's score. You should assume all scores are unique and make use of the provided methods.",
+            "order": 1,
+            "markscheme": "```java\npublic Player addPlayer(Player current, Player newPlayer)\n{\n    if (current == null)\n    {\n        return newPlayer;\n    }\n\n    if (newPlayer.getScore() < current.getScore())\n    {\n        // Recurse down the left subtree\n        current.left = addPlayer(current.left, newPlayer);\n    }\n    else\n    {\n        // Recurse down the right subtree\n        current.right = addPlayer(current.right, newPlayer);\n    }\n\n    return current;\n}\n```\n\n- Correct method signature including return type `Player` and check for the base case (`current == null`) <marks>1 mark</marks>\n- Correct return of `newPlayer` when the insertion point is found <marks>1 mark</marks>\n- Correct comparison of scores using `.getScore()` <marks>1 mark</marks>\n- Correct recursive call for the left subtree <marks>1 mark</marks>\n- Correct recursive call for the right subtree <marks>1 mark</marks>\n- Correct assignment of the recursive result back to the child pointers and final return of `current` <marks>1 mark</marks>\n\n**Note:**\n- Award full marks for an iterative solution that correctly handles pointer updates and the root case.\n- Do not penalize for minor syntax errors if the logic for tree traversal and pointer assignment is clear.",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0f00422d-142a-4d10-aa92-92bfdce1adc6",
+        "specification": "Image processing software needs to perform operations on a collection of pixels.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:40:06.420Z",
+            "resultId": 1325
+          }
+        },
+        "currentRevisionId": 1693236,
+        "parts": [
+          {
+            "id": 1155098,
+            "content": "Explain the advantages of using library collections like `ArrayList` or `LinkedList` in this context.",
+            "order": 0,
+            "markscheme": "- Convenience: Providing ready-made methods for common operations such as `add()`, `remove()`, and `iterator()` <marks>1 mark</marks>\n- Efficiency: Using optimized implementations that can improve the overall performance of the application <marks>1 mark</marks>\n- Flexibility: Allowing dynamic resizing to handle varying amounts of pixel data <marks>1 mark</marks>\n- Reliability: Utilizing tested and well-documented code reduces potential bugs and development time <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155099,
+            "content": "Construct code to add a `Pixel` to an `ArrayList` and iterate over all pixels to apply a filter.",
+            "order": 1,
+            "markscheme": "- Declare an `ArrayList` of `Pixel` objects: `ArrayList<Pixel> pixels = new ArrayList<>();` <marks>1 mark</marks>\n- Add a new `Pixel` to the list: `pixels.add(new Pixel(x, y, color));` <marks>1 mark</marks>\n- Set up an iteration loop: `for (Pixel p : pixels)` <marks>1 mark</marks>\n- Apply the filter operation inside the loop: `p.applyFilter();` <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155100,
+            "content": "Describe one situation where a `LinkedList` might be preferred over an `ArrayList` in this application.",
+            "order": 2,
+            "markscheme": "- Identify a situation where frequent insertions or deletions at arbitrary positions (or the start) of the list are required <marks>1 mark</marks>\n- Explain that a `LinkedList` offers better performance for these operations compared to an `ArrayList`, which requires shifting elements <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1b3ed7a2-bdc1-4e14-8e9b-d8acb932a398",
+        "specification": "A text editor needs to implement an undo functionality using stacks.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494210,
+        "parts": [
+          {
+            "id": 1125637,
+            "content": "Describe how a stack can be used to implement the undo feature.",
+            "order": 1,
+            "markscheme": "**Describe** how each user action is pushed onto the stack when performed. <marks>A1</marks>\n\n**Explain** how the undo operation pops the last action from the stack. <marks>A1</marks>\n\n**Outline** how this reverses actions in the opposite order they were performed (LIFO). <marks>R1</marks>\n\n[3 marks]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "stack_logic",
+                  "label": "Stack Operations and LIFO",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Pushing Actions onto Stack",
+                      "content": "In a text editor, every discrete user action\u2014such as typing a word, deleting a sentence, or formatting text\u2014is treated as a data object. Whenever the user performs one of these actions, the system performs a **push** operation, adding that action to the top of the 'undo' stack.\n\nThis ensures that the history of what the user has done is stored sequentially.",
+                      "highlights": [
+                        {
+                          "text": "Describe how each user action is pushed onto the stack when performed.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Popping for Undo Command",
+                      "content": "When the user triggers the 'undo' command (often by pressing $Ctrl+Z$), the system performs a **pop** operation. This operation removes the element currently at the top of the stack. \n\nThe system then uses the information from this popped object to reverse the action (e.g., if the popped action was 'delete word,' the system will re-insert that word).",
+                      "highlights": [
+                        {
+                          "text": "Explain how the undo operation pops the last action from the stack.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "The LIFO Logic",
+                      "content": "The reason a stack is perfect for this is the **LIFO (Last-In-First-Out)** property. Since the last action performed was the most recent one pushed onto the stack, it is naturally the first one to be popped off.\n\nThis ensures that the editor reverses actions in the exact **opposite order** to how they were originally performed, which is the expected behavior for an undo feature.",
+                      "highlights": [
+                        {
+                          "text": "Outline how this reverses actions in the opposite order they were performed (LIFO).",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary of Marks",
+                      "content": "To get full marks on this IB question, ensure you mention these three components:\n1. **Pushing** user actions as they occur ($1$ mark).\n2. **Popping** the top action when undo is requested ($1$ mark).\n3. Explaining how **LIFO** ensures the reverse chronological order ($1$ mark).\n\nThis concept is a core part of **Topic 5: Abstract Data Structures**. If you're finding stacks interesting, you might also want to look at **Topic 5.1.5: Queues**, which use a different logic called $FIFO$."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:01:44.271Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125638,
+            "content": "Construct code to push actions onto the stack when changes are made.",
+            "order": 2,
+            "markscheme": "**Construct** code to create or access the stack data structure. <marks>A1</marks>\n\n**Construct** code to capture the action as an object or command with required parameters. <marks>A1</marks>\n\n**Construct** code to push the action onto the stack using an appropriate method. <marks>A1</marks>\n\nExample implementation:\n```java\nStack<Action> undoStack = new Stack<>();\n\npublic void performAction(Action action) {\n    action.execute();\n    undoStack.push(action);\n}\n```\n\nNote: Code must show all three elements: stack creation, action handling, and stack operation.\n\n[3 marks]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "java_collections",
+                  "label": "Java Standard Library Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Initialize the Stack Structure",
+                      "content": "To implement undo functionality, we first need a container to store the history of actions. In Java, the Standard Library provides the `Stack` class within `java.util`. We use **Generics** to ensure our stack only holds `Action` objects.\n\n$$\\text{Stack}<\\text{Action}> \\text{ undoStack} = \\text{new Stack}<>();$$\n\nThis line fulfills the first requirement of the markscheme: creating or accessing the stack data structure.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Construct code to create or access the stack data structure.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Capture the Action Object",
+                      "content": "In an undo system, every change (like typing a letter or deleting a word) is treated as a command or object. We define a method that receives this `Action` object as a parameter. This allows the program to handle the specific change being made before saving it for a potential undo.\n\n$$\\text{public void performAction(Action action)}$$\n\nThis represents the step of capturing the action as an object with its required parameters.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Construct code to capture the action as an object or command with required parameters.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Push the Action",
+                      "content": "Once the action is captured and executed, we must add it to the top of our stack. The `java.util.Stack` class uses the `.push()` method for this operation. This ensures that the most recent change is the first one removed when the user triggers an \"undo\".\n\n$$\\text{undoStack.push(action);}$$\n\nCombining these elements results in the following implementation:\n\n```java\nStack<Action> undoStack = new Stack<>();\n\npublic void performAction(Action action) {\n    action.execute(); // Optional: perform the change\n    undoStack.push(action); // Push onto stack\n}\n```",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Construct code to push the action onto the stack using an appropriate method.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final Review",
+                      "content": "To earn all 3 marks in an IB Computer Science exam for a 'Construct' question, ensure your code snippet includes:\n1. The **declaration** of the stack (Topic 5.1.4).\n2. A **method or logic** that receives the object.\n3. The **push operation** call.\n\nThis follows the logic of Abstract Data Types (ADTs) where the Stack follows a Last-In, First-Out (LIFO) principle.",
+                      "calculator": []
+                    }
+                  ]
+                },
+                {
+                  "id": "ib_pseudocode",
+                  "label": "IB Pseudocode Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the stack's role",
+                      "content": "To implement an undo feature, we use a **Stack** because it follows the **Last-In, First-Out (LIFO)** principle. The last action performed is the first one we want to \"undo.\" This is covered in **Topic 5: Abstract data structures**, specifically section **5.1.4 Stacks**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Initialize the stack structure",
+                      "content": "First, we must create or declare the stack that will hold our action objects. In IB pseudocode or Java-style syntax, we define a collection that supports stack operations.\n\n$$UNDO\\_STACK = new\\ Stack()$$",
+                      "highlights": [
+                        {
+                          "text": "create or access the stack data structure",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Capture the action object",
+                      "content": "Every time a change is made in the text editor (like typing a character or deleting a word), we need to encapsulate that event into an object. Let's assume we have a class called `Action` that stores the details of what happened.\n\n$$Action\\ currentAction = new\\ Action(\"type\", \"Hello\")$$\n\nThis captures the command and its parameters so it can be replayed or reversed later.",
+                      "highlights": [
+                        {
+                          "text": "capture the action as an object or command with required parameters",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Perform the push operation",
+                      "content": "Finally, we use the `.push()` method to add the action to the top of the stack. This ensures the most recent change is always at the top.\n\n$$\\begin{aligned} &UNDO\\_STACK.push(currentAction) \\end{aligned}$$\n\nBy combining these steps into a method, we satisfy all three marking criteria: creating the structure, capturing the data, and performing the stack operation.",
+                      "highlights": [
+                        {
+                          "text": "push the action onto the stack using an appropriate method",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final code construction",
+                      "content": "Here is the complete logic required for the 3 marks:\n\n```java\n// 1. Create the stack\nStack undoStack = new Stack(); \n\npublic void recordChange(Action action) {\n    // 2. The action is passed in as an object parameter\n    // 3. Push the action onto the stack\n    undoStack.push(action);\n}\n```\n\nThis approach ensures that every change is safely stored and ready to be popped off if the user clicks \"Undo.\""
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:02:27.226Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125639,
+            "content": "Construct code to pop actions from the stack to undo the last change.",
+            "order": 3,
+            "markscheme": "**Construct** code to check if the stack is not empty using `!undoStack.isEmpty()`. <marks>A1</marks>\n\n**Construct** code to pop the action from the stack and execute the undo operation. <marks>A1</marks>\n\nExample implementation:\n```java\npublic void undo() {\n    if (!undoStack.isEmpty()) {\n        Action action = undoStack.pop();\n        action.undo();\n    }\n}\n```\n\n[2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "java-standard",
+                  "label": "Java Implementation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the Stack Logic",
+                      "content": "To implement an \"undo\" feature, we use a **Stack** data structure. Stacks follow the **Last-In, First-Out (LIFO)** principle, which is perfect for undoing because the very last action performed is the first one we want to revert. \n\nThis concept is a key part of **Topic 5: Abstract data structures**. Before we can remove an item, we must always ensure the stack isn't empty to avoid errors.",
+                      "highlights": [
+                        {
+                          "text": "undo functionality using stacks",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Check for Empty Stack",
+                      "content": "In Java, we use the `.isEmpty()` method to check if the stack contains any elements. To award the first mark, we must construct an `if` statement that checks if the stack is **not** empty using the logical NOT operator (`!`).\n\n$$\\text{if (!undoStack.isEmpty())}$$",
+                      "highlights": [
+                        {
+                          "text": "check if the stack is not empty using !undoStack.isEmpty()",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Pop and Execute Action",
+                      "content": "Once we've confirmed the stack has data, we use the `.pop()` method. This method does two things: it retrieves the top element and removes it from the stack. \n\nAfter popping the action, we call the `undo()` method on that specific object to revert the change in the text editor. This earns the second mark.",
+                      "highlights": [
+                        {
+                          "text": "pop actions from the stack",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final Java Implementation",
+                      "content": "Combining these steps into a standard Java method looks like this:\n\n```java\npublic void undo() {\n    if (!undoStack.isEmpty()) { // Check if stack is not empty\n        Action lastAction = undoStack.pop(); // Remove and retrieve top action\n        lastAction.undo(); // Execute the undo logic\n    }\n}\n```"
+                    }
+                  ]
+                },
+                {
+                  "id": "ib-pseudocode",
+                  "label": "IB Pseudocode Implementation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Check stack status",
+                      "content": "Before we can perform an undo operation, we must ensure there is actually something to undo! Attempting to remove an item from an empty stack causes an error. In IB pseudocode, we use a conditional check to see if the stack is **not** empty.\n\nThis uses concepts from **Topic 5.1.4: Stacks**, where we learn that managing the \"underflow\" (trying to pop from an empty structure) is a critical part of algorithm design."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Remove the last action",
+                      "content": "Once we know the stack contains data, we use the `pop()` operation. Because a stack is a **Last-In-First-Out (LIFO)** structure, `pop()` will automatically give us the very last action the user performed.\n\nWe store this result in a variable so we can interact with it in the next step."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Execute the undo logic",
+                      "content": "After popping the action object from the stack, we need to call its internal logic to actually reverse the change in the text editor. We do this by calling a method (like `.undo()`) on the object we just retrieved."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Construct the pseudocode",
+                      "content": "Combining these steps into the standard IB notation, we use the `if` and `NOT` keywords. Note that in pseudocode, we often use `isEmpty()` or `isEmpty()` as a standard method for collections.\n\n$$\\begin{aligned} & \\text{if NOT undoStack.isEmpty() then} \\\\ & \\quad \\text{ACTION = undoStack.pop()} \\\\ & \\quad \\text{ACTION.undo()} \\\\ & \\text{end if} \\end{aligned}$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:03:21.336Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "1bf71fb8-1d12-4dd6-a521-00fdd025e81f",
+        "specification": "A network routing system uses a binary tree to store and retrieve routing information.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:11:09.967Z",
+            "resultId": 3876
+          }
+        },
+        "currentRevisionId": 1690026,
+        "parts": [
+          {
+            "id": 1152768,
+            "content": "Outline the features of the abstract data type (ADT) binary tree.",
+            "order": 0,
+            "markscheme": "- Outline that a binary tree is a hierarchical data structure where each node has at most two children, typically referred to as the left child and the right child. <marks>1 mark</marks>\n- Outline that it is designed to allow for efficient searching, insertion, and deletion operations. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152769,
+            "content": "Explain the importance of style and naming conventions in the code for the binary tree implementation.",
+            "order": 1,
+            "markscheme": "- Explain that using clear and descriptive variable names, such as `leftChild` or `rightChild`, improves code readability and allows other developers to understand the tree's structure quickly. <marks>1 mark</marks>\n- Explain that consistent coding style and formatting (such as indentation) make the maintenance and debugging of the hierarchical implementation significantly easier. <marks>1 mark</marks>\n- Explain that following established naming conventions enables better team collaboration and facilitates code sharing within a project. <marks>1 mark</marks>\n- Explain that professional coding practices result in clean, well-structured code that reduces the likelihood of logic errors and reflects industry standards. <marks>1 mark</marks>\n\n<note>The response should use specific examples from a binary tree implementation, such as `root` or `childNode`, when explaining naming conventions.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152770,
+            "content": "Describe one application of binary trees in computing, with reference to the routing system.",
+            "order": 2,
+            "markscheme": "- Describe that binary trees are used to organize data hierarchically to facilitate quick retrieval of specific items. <marks>1 mark</marks>\n- Describe that in routing systems, binary trees (or related structures like tries) can represent routing tables for efficient lookup of network paths. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1c49634e-db4b-40e4-8ffd-004be733e6a4",
+        "specification": "A compiler uses a stack to evaluate expressions in reverse Polish notation (RPN).",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494122,
+        "parts": [
+          {
+            "id": 1125365,
+            "content": "Outline the features of the abstract data type (ADT) stack.",
+            "order": 1,
+            "markscheme": "- Last-In-First-Out (LIFO) ordering <marks>1</marks>\n- Primary operations are `push` (add to top) and `pop` (remove from top) <marks>1</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "standard_definition",
+                  "label": "Standard Definition and Operations",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the LIFO principle",
+                      "content": "A stack is a linear data structure that follows the **Last-In-First-Out (LIFO)** principle. This means that the last element added to the stack is the very first one to be removed. \n\nThink of it like a physical stack of cafeteria trays: you place a new tray on the top, and when someone needs a tray, they take the one from the top (the one most recently placed there).",
+                      "highlights": [
+                        {
+                          "text": "Outline the features of the abstract data type (ADT) stack.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify primary operations",
+                      "content": "The ADT stack is defined by two fundamental operations that occur at only one end, called the \"top\":\n\n1.  **`push`**: This operation adds a new item to the top of the stack.\n2.  **`pop`**: This operation removes the item that is currently at the top of the stack.\n\nIn the context of Reverse Polish Notation (RPN), the compiler uses these operations to hold operands until an operator is encountered."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Review Markscheme Requirements",
+                      "content": "To earn the full 2 marks for this question, you must mention both the ordering logic and the specific names of the operations:\n\n- **Mark 1**: State that it is a **LIFO** (Last-In-First-Out) structure.\n- **Mark 2**: Identify the primary operations as **`push`** and **`pop`**.\n\nThis fundamental understanding is covered in **Topic 5.1.4: Stacks** of the IB Computer Science syllabus."
+                    }
+                  ]
+                },
+                {
+                  "id": "structural_access",
+                  "label": "Structural Access Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "The structural access point",
+                      "content": "A stack is an abstract data type defined by its physical structure: it has only one accessible end, known as the **top**. Unlike an array where you can access any index, a stack restricts all additions and removals to this single point."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define LIFO logic",
+                      "content": "Because items can only be added or removed from the top, the stack follows a **Last-In-First-Out (LIFO)** ordering. This means the most recent element placed onto the stack is the very first one to be taken off.",
+                      "highlights": [
+                        {
+                          "text": "Last-In-First-Out (LIFO) ordering",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Identify primary operations",
+                      "content": "To interact with this structure, we use two primary operations:\n\n- `push`: Adds a new element to the top of the stack.\n- `pop`: Removes the element currently at the top of the stack.\n\nIn the context of Reverse Polish Notation (RPN), the compiler 'pushes' operands onto the stack and 'pops' them when it encounters an operator.",
+                      "highlights": [
+                        {
+                          "text": "Primary operations are push (add to top) and pop (remove from top)",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:01:29.565Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125366,
+            "content": "Explain why a stack is suitable for expression evaluation.",
+            "order": 2,
+            "markscheme": "- Stacks allow easy access to the most recently added elements (operands) <marks>1</marks>\n- Suitable for tracking operands and operators during expression evaluation where operands are stored until an operator is encountered <marks>1</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "lifo_principle",
+                  "label": "LIFO Property Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the LIFO property",
+                      "content": "A stack is a linear data structure that operates on the **Last-In-First-Out (LIFO)** principle. This means that the most recently added item is always the first one to be removed. In the context of expression evaluation, this property is crucial because it allows immediate access to the values needed for an operation."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Store operands until needed",
+                      "content": "In Reverse Polish Notation (RPN), operands (numbers) appear before their operators. As the compiler reads the expression from left to right, it uses the stack to store these operands. They are held there until an operator is encountered, at which point the calculation can begin.",
+                      "highlights": [
+                        {
+                          "text": "operands are stored until an operator is encountered",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Access recent operands immediately",
+                      "content": "When an operator (like $+$ or $\\times$) is reached, it needs to be applied to the two most recently seen operands. Because of the **LIFO property**, these two operands are conveniently located at the very top of the stack. The stack provides easy and direct access to these most recently added elements, allowing the compiler to 'pop' them, perform the math, and 'push' the result back for the next step.",
+                      "highlights": [
+                        {
+                          "text": "Stacks allow easy access to the most recently added elements (operands)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary of suitability",
+                      "content": "To summarize, a stack is suitable because its LIFO nature perfectly matches the requirements of RPN evaluation: it efficiently tracks operands and ensures that the specific values required for an operator are always the first ones retrieved."
+                    }
+                  ]
+                },
+                {
+                  "id": "algorithmic_role",
+                  "label": "Algorithmic Storage Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "The Stack as a Buffer",
+                      "content": "In Reverse Polish Notation (RPN), operands (numbers) always precede their operators. Because of this, we need a way to store these numbers temporarily while we wait for an operator to appear. The stack serves as an **algorithmic storage buffer**, holding operands in the exact order they are received.\n\nThis concept is explored in **Topic 5.1: Abstract data structures**, specifically focusing on how stacks manage data."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Accessing the Recent Elements",
+                      "content": "The defining characteristic of a stack is its **Last-In, First-Out (LIFO)** nature. When evaluating an expression, the operator always applies to the most recently seen numbers. \n\nA stack is suitable because it allows **easy access to the most recently added elements (operands)** by simply 'popping' them from the top when an operator is encountered.",
+                      "highlights": [
+                        {
+                          "text": "Stacks allow easy access to the most recently added elements (operands)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Tracking and Evaluation",
+                      "content": "The stack tracks the state of the calculation. It is **suitable for tracking operands and operators** because it keeps the operands in a waiting state. \n\nOnce an operator (like $+$ or $\\times$) is encountered, the stack provides the necessary operands, the calculation is performed, and the result is pushed back onto the stack to be used for the next part of the expression. This removes the need for complex parentheses.",
+                      "highlights": [
+                        {
+                          "text": "Suitable for tracking operands and operators during expression evaluation where operands are stored until an operator is encountered",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final Summary of Marks",
+                      "content": "To secure the 2 marks for this question, your explanation should focus on these two points:\n1. The LIFO nature provides quick access to the most recently stored operands.\n2. The stack effectively manages the 'storage' phase (keeping operands) and the 'execution' phase (when an operator appears)."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:02:05.822Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125367,
+            "content": "Construct methods `push` and `pop` for a static implementation of a stack to handle integer operands.",
+            "order": 3,
+            "markscheme": "- Method signature for `push` (`public void push(int value)`) <marks>1</marks>\n- Check if stack is full before pushing (`if (top == capacity - 1)`) <marks>1</marks>\n- Add item to top of stack using pre-increment (`stack[++top] = value;`) <marks>1</marks>\n- Method signature for `pop` (`public int pop()`) <marks>1</marks>\n- Check if stack is empty before popping (`if (top == -1)`) <marks>1</marks>\n- Remove and return item from top using post-decrement (`return stack[top--];`) <marks>1</marks>\n\n**Note:** Full implementation for reference:\n```java\npublic class Stack {\n    private int[] stack;\n    private int top = -1; \n    private int capacity;\n\n    public Stack(int capacity) {\n        this.capacity = capacity;\n        stack = new int[capacity];\n    }\n\n    public void push(int value) {\n        if (top == capacity - 1) {\n            return;\n        }\n        stack[++top] = value;\n    }\n\n    public int pop() {\n        if (top == -1) {\n            return -1;\n        }\n        return stack[top--];\n    }\n}\n```",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "standard-last-occupied",
+                  "label": "Top Pointer at Last Occupied Index",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Stack Logic",
+                      "content": "Before we write the code, let's understand the **Top Pointer at Last Occupied Index** approach. In this method, the variable `top` always points to the index of the most recently added item. \n\nBecause arrays are 0-indexed, if the stack is empty, there is no \"last occupied index,\" so we initialize `top = -1`. This is a core concept from **Topic 5.1: Abstract Data Structures**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Implement the Push Signature",
+                      "content": "The `push` method is used to add an integer to the stack. It doesn't need to return anything, so we use the `void` return type. It takes one parameter: the integer `value` we want to store.",
+                      "highlights": [
+                        {
+                          "text": "Construct methods `push` and `pop`",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "handle integer operands",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Handle Stack Overflow (Push)",
+                      "content": "Before adding an item, we must check if the stack is full (Stack Overflow). Since the array has a fixed `capacity`, it is full when `top` reaches the last available index, which is `capacity - 1`.\n\n$$\\begin{aligned} \\text{Condition: } & \\text{if } (top == capacity - 1) \\\\ \\text{Action: } & \\text{Stack is full, cannot add more.} \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Add Element (Push)",
+                      "content": "Using the **Last Occupied Index** approach, we must increment the pointer *before* adding the new value. We can do this efficiently using the pre-increment operator `++top`.\n\n```java\nstack[++top] = value;\n```\nThis line first increases `top` and then places the `value` at that new index."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Implement the Pop Signature",
+                      "content": "The `pop` method removes and returns the top item from the stack. Since our stack handles integers, the return type must be `int`.",
+                      "highlights": [
+                        {
+                          "text": "Construct methods `push` and `pop`",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Handle Stack Underflow (Pop)",
+                      "content": "We cannot remove an item if the stack is empty (Stack Underflow). Since we initialized `top` to -1, the stack is empty whenever `top` is still -1.\n\n$$\\begin{aligned} \\text{Condition: } & \\text{if } (top == -1) \\\\ \\text{Action: } & \\text{Stack is empty, return error value (e.g., -1).} \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 6,
+                      "title": "Remove Element (Pop)",
+                      "content": "To pop the item, we return the value currently at `top` and then decrement the pointer. This is done using the post-decrement operator `top--`.\n\n```java\nreturn stack[top--];\n```\nThis returns the value at the current index and *afterward* reduces `top` by 1 so it points to the new \"last occupied\" index."
+                    }
+                  ]
+                },
+                {
+                  "id": "alternative-next-free",
+                  "label": "Top Pointer at Next Available Index",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Stack Pointers",
+                      "content": "In the **Top Pointer at Next Available Index** approach, we initialize the pointer `top` to $0$. This means `top` always points to the empty slot where the next pushed item will go. \n\nBefore we write the methods, we assume we have a class with:\n- An array `stack[]` of a fixed size.\n- An integer `top` initialized to $0$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "The Push Method: Signature",
+                      "content": "The `push` method needs to receive an integer as a parameter and does not need to return a value. The standard IB method signature is:\n\n$$public\\ void\\ push(int\\ value)$$\n\nThis would earn the first mark for the method signature.",
+                      "highlights": [
+                        {
+                          "text": "push",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "integer operands",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Push: Check for Overflow",
+                      "content": "Since we are using a **static** implementation (a fixed-size array), we must check if the stack is full before adding a new item. \n\nIf `top` is equal to the length of the array, there are no more empty slots left. \n\n$$\\begin{aligned} &if\\ (top == stack.length) \\\\ &\\quad // Handle\\ overflow \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "static implementation",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Push: Implementation Logic",
+                      "content": "Following the **Next Available Index** approach, we store the new value at the current `top` index and then increment `top` to the next empty spot.\n\n$$\\begin{aligned} &stack[top] = value; \\\\ &top++; \\end{aligned}$$\n\nAlternatively, this can be written concisely using the post-increment operator: `stack[top++] = value;`."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "The Pop Method: Signature",
+                      "content": "The `pop` method should return the integer that was most recently added and removed from the stack. The signature is:\n\n$$public\\ int\\ pop()$$\n\nThis earns the mark for the correct `pop` method signature.",
+                      "highlights": [
+                        {
+                          "text": "pop",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Pop: Check for Underflow",
+                      "content": "We cannot remove an item from an empty stack. In this approach, if `top == 0`, it means no items have been added (or all have been removed).\n\n$$\\begin{aligned} &if\\ (top == 0) \\\\ &\\quad // Handle\\ underflow \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 6,
+                      "title": "Pop: Implementation Logic",
+                      "content": "Because `top` points to the *next available* (empty) slot, the actual data is at `top - 1`. We must decrement the pointer first, and then retrieve the value.\n\n$$\\begin{aligned} &top--; \\\\ &return\\ stack[top]; \\end{aligned}$$\n\nThis can be written concisely using the pre-decrement operator: `return stack[--top];`."
+                    },
+                    {
+                      "type": "text",
+                      "order": 7,
+                      "title": "Final Implementation Summary",
+                      "content": "Here is how the final methods look using the **Next Available Index** logic required for this specific approach:\n\n$$\\begin{aligned} &public\\ void\\ push(int\\ value) \\{ \\\\ &\\quad if\\ (top == stack.length)\\ return; \\\\ &\\quad stack[top] = value; \\\\ &\\quad top++; \\\\ &\\} \\\\ \\\\ &public\\ int\\ pop() \\{ \\\\ &\\quad if\\ (top == 0)\\ return\\ -1; \\\\ &\\quad top--; \\\\ &\\quad return\\ stack[top]; \\\\ &\\} \\end{aligned}$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:03:28.128Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "216d03b6-2ddf-4952-bae7-1e1fe691f65b",
+        "specification": "A gaming application uses recursion to generate a maze.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494289,
+        "parts": [
+          {
+            "id": 1125834,
+            "content": "Describe an application of recursive algorithms in maze generation.",
+            "order": 1,
+            "markscheme": "- Describe how recursion divides the maze area into smaller sections by placing walls and creating gaps (e.g., the recursive division algorithm) <marks>M1</marks>\n\n- Explain how recursion simplifies the overall process by solving sub-problems (sub-grids) until a base case of minimal size is reached <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "recursive_division",
+                  "label": "Recursive Division Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the Recursive Division Method",
+                      "content": "In maze generation, the **Recursive Division** algorithm works by taking a large, empty space and \"dividing\" it into smaller and smaller pieces. This is a classic example of a \"divide and conquer\" strategy, which is a core concept in recursive thinking (covered in **Topic 5.1.1: Recognizing Recursive Thinking**)."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "The Division Process",
+                      "content": "The algorithm starts with an empty rectangular grid. It places a wall (either horizontally or vertically) to split the area into two smaller rectangular sub-grids. \n\nTo ensure the maze is solvable, the algorithm must create a **gap** (a doorway) at a random location along that wall. This ensures that a path exists between the two newly created sections.",
+                      "highlights": [
+                        {
+                          "text": "Describe how recursion divides the maze area into smaller sections by placing walls and creating gaps (e.g., the recursive division algorithm)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Applying Recursion to Sub-problems",
+                      "content": "The beauty of recursion here is that the algorithm then treats each of the two smaller sub-grids as a \"new\" maze-generation problem. It calls itself (the recursive step) to divide those sub-sections again. This simplifies the complex task of building a whole maze into the repetitive task of dividing smaller and smaller rectangles."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Defining the Base Case",
+                      "content": "Every recursive algorithm needs a **base case** to prevent it from running forever. In this application, the recursion stops when a sub-grid reaches a **minimal size** (for example, a $1 \\times 1$ area or a rectangle too narrow to be split further). Once all sub-grids reach this base case, the complete maze is finished.",
+                      "highlights": [
+                        {
+                          "text": "Explain how recursion simplifies the overall process by solving sub-problems (sub-grids) until a base case of minimal size is reached",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "recursive_backtracking",
+                  "label": "Recursive Backtracking (DFS) Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Recursive Step",
+                      "content": "In the **Recursive Backtracking (DFS)** approach, the algorithm begins at a specific starting cell and marks it as visited. It then randomly selects an unvisited neighbor, removes the wall between them, and performs a recursive call on that neighbor. This process treats each movement as a **sub-problem**, where the algorithm focuses on exploring from the new current cell as if it were the start of a new, smaller maze.",
+                      "highlights": [
+                        {
+                          "text": "recursion to generate a maze",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the Base Case",
+                      "content": "The **base case** occurs when the algorithm reaches a cell that has no unvisited neighbors (a 'dead end'). At this point, the current recursive instance finishes, and the algorithm **backtracks** to the previous cell in the call stack to check for other available paths. This ensures the complex task of maze generation is simplified into manageable steps until the entire grid has been visited."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Review Markscheme Alignment",
+                      "content": "To earn full marks, your answer must address two key points:\n1.  **Sub-problems**: Mention how recursion simplifies the task by breaking the maze exploration into sub-grids or individual cell paths.\n2.  **Base Case**: Explain that the recursion continues until a base case (no unvisited neighbors) is reached, leading to backtracking.\n\nThis follows the concepts found in **Topic 5.1: Abstract Data Structures**, specifically regarding recursive thinking and tracing."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:01:52.517Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125835,
+            "content": "Construct a recursive method $\\texttt{generateMaze}$ that divides a grid into sub-grids.",
+            "order": 2,
+            "markscheme": "- Award 1 mark for an appropriate method signature, such as $\\texttt{public void generateMaze(Grid grid)}$ <marks>A1</marks>\n\n- Award 1 mark for a base case check to prevent infinite recursion when the grid reaches a minimal size <marks>A1</marks>\n\n- Award 1 mark for the logic of adding walls to divide the grid and creating passages between them <marks>M1</marks>\n\n- Award 1 mark for correctly structured recursive calls on each of the resulting sub-grids <marks>A1</marks>\n\n4 marks total\n\n**Sample Solution:**\n```java\npublic void generateMaze(Grid grid) {\n    // Base case: check if the grid is too small to divide\n    if (grid.getHeight() < MIN_SIZE || grid.getWidth() < MIN_SIZE) {\n        return;\n    }\n\n    // Divide the grid into sub-grids by adding walls\n    Wall wall = grid.addRandomWall();\n    wall.addPassage(); // Ensure the maze remains solvable\n\n    // Recursive calls on the resulting sub-grids\n    generateMaze(grid.getSubgrid(1));\n    generateMaze(grid.getSubgrid(2));\n    generateMaze(grid.getSubgrid(3));\n    generateMaze(grid.getSubgrid(4));\n}\n```\n\n<note>Logic can be expressed in any programming language or pseudo-code as long as the recursive structure and base case are clear.</note>\n\n<examTip>Ensure recursive calls are made on smaller sub-grids to avoid infinite recursion.</examTip>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "java",
+                  "label": "Java Programming Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the method signature",
+                      "content": "To start, we need to define the method header using standard Java syntax. The method should be $\\texttt{public}$, return $\\texttt{void}$ (as it modifies the grid object directly), and take a $\\texttt{Grid}$ object as a parameter.\n\n$$\\texttt{public void generateMaze(Grid grid)}$$",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "appropriate method signature",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Establish the base case",
+                      "content": "Every recursive function requires a base case to prevent infinite recursion and a $\\texttt{StackOverflowError}$. In this maze generation algorithm, the recursion should stop when the current sub-grid becomes too small to be divided further (e.g., its width or height is less than a constant $MIN\\_SIZE$).\n\n$$\\begin{aligned} &\\texttt{if (grid.getHeight() < MIN\\_SIZE || grid.getWidth() < MIN\\_SIZE) {} \\\\ &\\quad \\texttt{return;} \\\\ &\\texttt{}} \\end{aligned}$$",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "base case check to prevent infinite recursion",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Add walls and passages",
+                      "content": "The core logic of the algorithm involves dividing the current grid. We do this by adding a wall and then creating at least one passage through that wall to ensure the maze remains solvable.\n\n$$\\begin{aligned} &\\texttt{Wall wall = grid.addRandomWall();} \\\\ &\\texttt{wall.addPassage();} \\end{aligned}$$",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "logic of adding walls to divide the grid and creating passages",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Implement recursive calls",
+                      "content": "Finally, we call the $\\texttt{generateMaze}$ method recursively on the new sub-grids created by the wall. This breaks the problem down into smaller and smaller pieces until the base case is met.\n\n$$\\begin{aligned} &\\texttt{generateMaze(grid.getSubgrid(1));} \\\\ &\\texttt{generateMaze(grid.getSubgrid(2));} \\\\ &\\texttt{generateMaze(grid.getSubgrid(3));} \\\\ &\\texttt{generateMaze(grid.getSubgrid(4));} \\end{aligned}$$",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "correctly structured recursive calls",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Consolidate the final code",
+                      "content": "Combining these steps gives us a complete recursive method. Notice how the structure mirrors the \"Divide and Conquer\" strategy often used in **Topic 4: Computational Thinking**.\n\n$$\\begin{aligned} &\\texttt{public void generateMaze(Grid grid) {} \\\\ &\\quad \\texttt{if (grid.getHeight() < MIN\\_SIZE || grid.getWidth() < MIN\\_SIZE) {} \\\\ &\\quad \\quad \\texttt{return;} \\\\ &\\quad \\texttt{}} \\\\ \\\\ &\\quad \\texttt{Wall wall = grid.addRandomWall();} \\\\ &\\quad \\texttt{wall.addPassage();} \\\\ \\\\ &\\quad \\texttt{generateMaze(grid.getSubgrid(1));} \\\\ &\\quad \\texttt{generateMaze(grid.getSubgrid(2));} \\\\ &\\quad \\texttt{generateMaze(grid.getSubgrid(3));} \\\\ &\\quad \\texttt{generateMaze(grid.getSubgrid(4));} \\\\ &\\texttt{}} \\end{aligned}$$",
+                      "calculator": []
+                    }
+                  ]
+                },
+                {
+                  "id": "pseudocode",
+                  "label": "IB Pseudocode Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the method signature",
+                      "content": "To start, we need to define the method header. In IB pseudocode, we use the keyword `method` followed by the name and the parameters. Since the method performs an action on a grid, it should accept a `grid` object as a parameter.\n\n$$\\text{method generateMaze(grid)}$$",
+                      "highlights": [
+                        {
+                          "text": "appropriate method signature",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Establish the base case",
+                      "content": "Recursion must eventually stop to prevent an infinite loop (which would cause a stack overflow). We check if the grid is too small to be divided further. If it is, we use the `return` statement to exit the current call.\n\n$$\\begin{aligned} &\\textbf{if } \\text{grid.getHeight() < MIN_SIZE } \\textbf{OR } \\text{grid.getWidth() < MIN_SIZE } \\textbf{then} \\\\ &\\quad \\textbf{return} \\\\ &\\textbf{end if} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "base case check to prevent infinite recursion",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Implement the division logic",
+                      "content": "Once we know the grid is large enough, we perform the \"maze-making\" logic. This involves adding a wall to split the space and ensuring a passage is created so the maze remains solvable.\n\n$$\\begin{aligned} &\\text{wall = grid.addRandomWall()} \\\\ &\\text{wall.addPassage()} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "logic of adding walls to divide the grid and creating passages",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Execute recursive calls",
+                      "content": "Finally, the method must call itself on the smaller areas (sub-grids) created by the division. This repeat process continues until all sub-grids reach the minimum size defined in our base case.\n\n$$\\begin{aligned} &\\text{generateMaze(grid.getSubgrid(1))} \\\\ &\\text{generateMaze(grid.getSubgrid(2))} \\\\ &\\text{generateMaze(grid.getSubgrid(3))} \\\\ &\\text{generateMaze(grid.getSubgrid(4))} \\\\ &\\textbf{end method} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "recursive calls on each of the resulting sub-grids",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final pseudocode structure",
+                      "content": "Here is the complete recursive algorithm constructed using IB pseudocode standards:\n\n$$\\begin{aligned} &\\textbf{method } \\text{generateMaze(grid)} \\\\ &\\quad \\textbf{if } \\text{grid.getHeight() < MIN_SIZE } \\textbf{then} \\\\ &\\quad \\quad \\textbf{return} \\\\ &\\quad \\textbf{end if} \\\\ &\\\\ &\\quad \\text{wall = grid.addRandomWall()} \\\\ &\\quad \\text{wall.addPassage()} \\\\ &\\\\ &\\quad \\text{generateMaze(grid.getSubgrid(1))} \\\\ &\\quad \\text{generateMaze(grid.getSubgrid(2))} \\\\ &\\quad \\text{generateMaze(grid.getSubgrid(3))} \\\\ &\\quad \\text{generateMaze(grid.getSubgrid(4))} \\\\ &\\textbf{end method} \\end{aligned}$$\n\nThis approach uses the concepts found in **Topic 5.1: Abstract data structures** regarding recursive thinking and tracing."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:03:07.953Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125836,
+            "content": "Explain why recursive algorithms are rarely used in practice despite being elegant.",
+            "order": 3,
+            "markscheme": "- Explain that recursive algorithms incur significant memory overhead due to multiple function calls being stored on the call stack <marks>R1</marks>\n\n- Identify the risk of a stack overflow error if the recursion depth becomes too large (e.g., in a very large maze) <marks>R1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "technical_constraints",
+                  "label": "Technical Resource Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the call stack",
+                      "content": "To understand why recursion is memory-intensive, we have to look at how the computer handles function calls. Every time a recursive function calls itself, the operating system allocates a block of memory called a **stack frame** on the **call stack**. \n\nIn our maze example, each new path the algorithm explores adds a new frame to the stack to keep track of local variables, parameters, and the return address. If the maze is complex, these frames pile up quickly."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify memory overhead",
+                      "content": "The first reason recursive algorithms are often avoided is **significant memory overhead**. Unlike an iterative loop (like a `for` or `while` loop) which uses a fixed amount of memory, recursion requires more RAM for every single level of depth. \n\nThis means that for a large maze, the program might consume a disproportionate amount of system resources just to keep track of its own progress."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Evaluate stack overflow risk",
+                      "content": "The most critical technical risk is a **stack overflow error**. Computers allocate a finite, limited amount of memory to the call stack. \n\nIf the recursion depth (the number of active function calls) becomes too large\u2014which is very likely with a large or complex maze\u2014the stack will run out of space. This causes the application to crash immediately because it can no longer store the information needed to continue or return from the functions."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final Summary",
+                      "content": "To secure the 2 marks, your explanation should connect the **resource usage** (memory/stack frames) to the **system failure** (stack overflow).\n\n- **Mark 1:** Recursive algorithms incur high memory overhead because multiple function calls are stored on the call stack simultaneously.\n- **Mark 2:** This creates a risk of a stack overflow error if the recursion depth exceeds the stack's memory limit (e.g., in a very large maze)."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:03:44.939Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "25c2a36c-7828-4ae3-8775-2b059358ab9c",
+        "specification": "A hierarchical file system is structured such that a directory (or folder) can contain a set of files and a set of other sub-directories. This nesting can continue to any depth.\n\nTo calculate the total storage space occupied by a top-level directory, one must sum the sizes of all files directly within it, plus the total sizes of all its nested sub-directories.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-25c2a36c-7828-4ae3-8775-2b059358ab9c-1771929956947",
+            "generatedAt": "2026-02-26T11:07:12.929Z",
+            "sourceRevisionId": 1494136
+          }
+        },
+        "currentRevisionId": 1684789,
+        "parts": [
+          {
+            "id": 1145567,
+            "content": "Explain why a recursive algorithm is an effective method for calculating the total size of a directory and all its contents.",
+            "order": 0,
+            "markscheme": "The task (calculating size) is identical for both the parent directory and all nested sub-directories; <marks>1</marks>\nEach recursive call processes a smaller, more specific branch of the directory tree; <marks>1</marks>\nThe process terminates when it reaches a directory that contains no further sub-directories (base case); <marks>1</marks>\n\n*Note: Do not award marks for simply stating \"the method calls itself\".*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1145568,
+            "content": "A `Directory` object contains an array of `File` objects called `myFiles` (where each `File` has a `getSize()` method) and an array of `Directory` objects called `mySubDirs`.\n\nWithout providing specific code, describe the logic of a recursive method `totalSize()` that returns the combined size of all files in a directory tree.",
+            "order": 1,
+            "markscheme": "Initialize a sum variable by iterating through `myFiles` and adding their individual sizes; <marks>1</marks>\nIterate through each `Directory` object stored in the `mySubDirs` array; <marks>1</marks>\nMake a recursive call to the `totalSize()` method for each sub-directory; <marks>1</marks>\nAdd the value returned from each recursive call to the running sum; <marks>1</marks>\nReturn the final accumulated sum to the previous caller; <marks>1</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "51c5c452-8990-4158-8933-e643ba811815",
+        "specification": "Mathematical software needs to compute the factorial of large numbers using recursion.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:59:29.952Z",
+            "resultId": 3493
+          }
+        },
+        "currentRevisionId": 1690796,
+        "parts": [
+          {
+            "id": 1153275,
+            "content": "Describe how recursion can be applied to calculate the factorial of a number.",
+            "order": 0,
+            "markscheme": "- States that the factorial of $n$ can be defined recursively as $n \\times (n-1)!$ <marks>1 mark</marks>\n- States the base case occurs when $n = 0$ or $n = 1$, where the factorial is defined as $1$ <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153276,
+            "content": "Construct a recursive method `factorial` that computes the factorial of an integer $n$.",
+            "order": 1,
+            "markscheme": "- Correct method signature (e.g., `public long factorial(int n)`) <marks>1 mark</marks>\n- Correct base case condition (e.g., `if (n <= 1)`) <marks>1 mark</marks>\n- Correct return value for the base case (e.g., `return 1`) <marks>1 mark</marks>\n- Correct recursive call logic (e.g., `return n * factorial(n - 1)`) <marks>1 mark</marks>\n\nExample implementation:\n```java\npublic long factorial(int n) {\n    if (n <= 1) {\n        return 1;\n    } else {\n        return n * factorial(n - 1);\n    }\n}\n```\n\n<note>All components must be present for full marks</note>\n<commonMistake>Using int instead of long can cause overflow for large values of n</commonMistake>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153277,
+            "content": "Trace the recursive calls of `factorial(4)` and show all steps clearly.",
+            "order": 2,
+            "markscheme": "- Shows the sequence of recursive calls:\n  - `factorial(4)` calls $4 \\times factorial(3)$ <marks>1 mark</marks>\n  - `factorial(3)` calls $3 \\times factorial(2)$ <marks>1 mark</marks>\n  - `factorial(2)` calls $2 \\times factorial(1)$ <marks>1 mark</marks>\n- Identifies the base case `factorial(1)` returns $1$ <marks>1 mark</marks>\n- Shows the evaluation back up the recursion stack:\n  - `factorial(2)` $= 2 \\times 1 = 2$ and `factorial(3)` $= 3 \\times 2 = 6$ <marks>1 mark</marks>\n  - `factorial(4)` $= 4 \\times 6 = 24$ <marks>1 mark</marks>\n\n<note>All steps must be shown clearly with intermediate calculations</note>\n<examTip>Draw a tree diagram or indent each recursive call to show the nesting levels clearly</examTip>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "54d434a9-43fb-4eb0-bf06-a96074191968",
+        "specification": "Section 4: Computational thinking, problem-solving and programming",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-54d434a9-43fb-4eb0-bf06-a96074191968-1771929956947",
+            "generatedAt": "2026-02-26T11:21:20.851Z",
+            "sourceRevisionId": 1493686
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:41:45.702Z",
+            "resultId": 3780
+          }
+        },
+        "currentRevisionId": 1690447,
+        "parts": [
+          {
+            "id": 1153019,
+            "content": "Distinguish between the way a compiler and an interpreter translate high-level source code into a format the CPU can execute.",
+            "order": 0,
+            "markscheme": "- A compiler translates the entire source code into a standalone machine code or executable file before execution starts <marks>1 mark</marks>\n- An interpreter translates and executes the source code line-by-line (or statement-by-statement) during runtime, stopping if an error is encountered <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153020,
+            "content": "In the context of modular programming, explain two advantages of using local variables rather than global variables.",
+            "order": 1,
+            "markscheme": "- **Reduced side effects / Data Integrity**: Local variables are only accessible within their specific sub-program, preventing accidental modification by other parts of the program and making the code more reliable <marks>2 marks</marks>\n- **Memory Efficiency**: Local variables are typically created when the sub-program is called and destroyed when it finishes, freeing up memory; whereas global variables persist for the entire program duration <marks>2 marks</marks>\n- **Improved Reusability**: Functions using local variables are more self-contained and can be easily moved or copied to other projects without creating naming conflicts with existing global variables <marks>2 marks</marks>\n- **Ease of Debugging**: Because the variable's scope is limited, if a local variable has an incorrect value, the programmer only needs to search the specific sub-program rather than the entire codebase <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153021,
+            "content": "Identify three essential features that must be present in a recursive function to ensure it terminates and returns a correct result.",
+            "order": 2,
+            "markscheme": "- A base case (or termination condition) that stops the recursion without making a further call <marks>1 mark</marks>\n- A recursive call (the function calling itself) <marks>1 mark</marks>\n- A mechanism that ensures the input values move closer to the base case with each successive call (convergence) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153022,
+            "content": "An array named `SALES` contains 50 numerical values representing daily transaction amounts. \n\nConstruct a pseudocode algorithm that calculates and outputs the average of all transactions that are strictly greater than $100.00$. If no transactions meet this criterion, the algorithm should output the message \"No qualifying sales\".",
+            "order": 3,
+            "markscheme": "- Correct initialization of `TOTAL` and `COUNT` variables <marks>1 mark</marks>\n- Correct loop structure to iterate through all 50 elements (e.g., `FOR I FROM 0 TO 49`) <marks>1 mark</marks>\n- Correct `IF` condition to check if `SALES[I] > 100` <marks>1 mark</marks>\n- Correct accumulation of `TOTAL` and incrementing of `COUNT` inside the loop <marks>1 mark</marks>\n- Correct check for `COUNT > 0` after the loop to prevent division by zero <marks>1 mark</marks>\n- Correct output of the calculated average or the specific error message <marks>1 mark</marks>\n\n**Example Answer:**\n```\nTOTAL = 0\nCOUNT = 0\nFOR I FROM 0 TO 49\n    IF SALES[I] > 100 THEN\n        TOTAL = TOTAL + SALES[I]\n        COUNT = COUNT + 1\n    END IF\nEND FOR\n\nIF COUNT > 0 THEN\n    AVERAGE = TOTAL / COUNT\n    OUTPUT AVERAGE\nELSE\n    OUTPUT \"No qualifying sales\"\nEND IF\n```",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "54ef967f-b026-48b3-aa80-a42b0ca5d842",
+        "specification": "A task scheduler needs to manage tasks with varying priorities. The system uses a linked list where each node represents a `Task` and contains a priority value.\n\nAssume that a *higher numeric priority value means a higher priority* (e.g., priority 10 is higher than priority 5).",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:41:44.104Z",
+            "resultId": 3783
+          }
+        },
+        "currentRevisionId": 1690445,
+        "parts": [
+          {
+            "id": 1153011,
+            "content": "Describe how a priority queue differs from a regular queue.",
+            "order": 0,
+            "markscheme": "- State that a regular queue follows a $\\text{FIFO}$ (First-In-First-Out) principle where elements are removed in the order they were added <marks>1 mark</marks>\n- Describe how in a priority queue, elements are removed based on their priority value rather than arrival order, where higher priority elements are processed before lower priority ones <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153012,
+            "content": "Outline how a priority queue can be implemented using a linked list.",
+            "order": 1,
+            "markscheme": "- Outline that the linked list is maintained in a sorted order based on the priority of the tasks (highest numeric priority at the $head$) <marks>1 mark</marks>\n- State that new elements are inserted at the correct position to preserve this order, ensuring the highest priority element is always at the $head$ of the list for efficient access <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153013,
+            "content": "Construct the method `insertTask` to add tasks into the linked list so that tasks are ordered from highest numeric priority at the $head$ to lowest numeric priority at the end.",
+            "order": 2,
+            "markscheme": "- Correct method signature: `public void insertTask(Task newTask)` <marks>1 mark</marks>\n- Check if the list is empty or the new task has the highest numeric priority: `if (head == null || newTask.getPriority() > head.getPriority())` <marks>1 mark</marks>\n- Correctly insert the task at the $head$: `newTask.next = head; head = newTask;` <marks>1 mark</marks>\n- Use a temporary pointer and a loop to traverse the list (e.g., `Task current = head;`) <marks>1 mark</marks>\n- Correct loop condition to find the insertion point: `while (current.next != null && current.next.getPriority() >= newTask.getPriority())` <marks>1 mark</marks>\n- Correctly insert the new task at the found position by adjusting the `next` pointers: `newTask.next = current.next; current.next = newTask;` <marks>1 mark</marks>\n\n**Example Solution:**\n```java\npublic void insertTask(Task newTask) {\n    if (head == null || newTask.getPriority() > head.getPriority()) {\n        newTask.next = head;\n        head = newTask;\n    } else {\n        Task current = head;\n        while (current.next != null && current.next.getPriority() >= newTask.getPriority()) {\n            current = current.next;\n        }\n        newTask.next = current.next;\n        current.next = newTask;\n    }\n}\n```\n\n<note>The traversal logic must ensure that the priority order is maintained (highest numeric priority first). Using `>=` in the comparison ensures that if tasks have equal priority, the new task is inserted after existing ones.</note>\n\n<examTip>Always handle the edge case of an empty list or insertion at the head separately from middle/end insertions in linked list problems.</examTip>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7f9c94d8-6971-453b-8b5d-f0974f078738",
+        "specification": "A music playlist application needs to shuffle songs using recursion.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:55:43.582Z",
+            "resultId": 3227
+          }
+        },
+        "currentRevisionId": 1691865,
+        "parts": [
+          {
+            "id": 1153604,
+            "content": "Explain how recursion can be used to shuffle a list of songs.",
+            "order": 0,
+            "markscheme": "- Explain how the playlist can be broken down into smaller subsets to allow elements to be swapped randomly. <marks>1 mark</marks>\n- Describe the recursive process of shuffling smaller portions until the entire list is randomized. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153605,
+            "content": "Construct a recursive method $shufflePlaylist$ with the signature `public void shufflePlaylist(Song[] songs, int n)` that randomizes the order of songs in an array.",
+            "order": 1,
+            "markscheme": "- State the correct method signature: `public void shufflePlaylist(Song[] songs, int n)` <marks>1 mark</marks>\n- Construct the base case check to terminate when $n \\le 1$. <marks>1 mark</marks>\n- Calculate a $randomIndex$ using $Math.random()$. <marks>1 mark</marks>\n- Implement the swapping of elements and the recursive call with $n - 1$:\n```java\nint randomIndex = (int)(Math.random() * n);\nSong temp = songs[randomIndex];\nsongs[randomIndex] = songs[n - 1];\nsongs[n - 1] = temp;\nshufflePlaylist(songs, n - 1);\n```\n<marks>1 mark</marks>\n\n<note>\nAll parts must be present and in correct order for full marks.\nRemember to handle the base case before any other operations to prevent infinite recursion.\nUsing $n$ instead of $n - 1$ in the recursive call can lead to infinite recursion.\n</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153606,
+            "content": "Identify one limitation of using recursion for this problem.",
+            "order": 2,
+            "markscheme": "- Identify that recursion may lead to stack overflow errors with large datasets due to limited stack size. <marks>1 mark</marks>\n- Explain that iterative solutions may be more efficient and practical for large playlists to avoid excessive memory usage. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "82b39e73-1491-4f83-9725-d6f51e0a30ee",
+        "specification": "A hospital uses a Binary Search Tree (BST) to manage patient records. Each node in the tree is an object of the `Node` class, which contains a `Patient` object and references to its `left` and `right` children.\n\nThe `Patient` class includes the method `getPriority()`, which returns an integer value representing the urgency of the patient's condition (higher values indicate higher urgency). \n\nTo perform various analyses, the development team uses recursive methods to traverse the `hospitalTree` structure.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-82b39e73-1491-4f83-9725-d6f51e0a30ee-1771929956947",
+            "generatedAt": "2026-02-26T12:20:27.936Z",
+            "sourceRevisionId": 1494272
+          }
+        },
+        "currentRevisionId": 1685498,
+        "parts": [
+          {
+            "id": 1146207,
+            "content": "Identify **one** drawback of using a recursive approach to traverse the `hospitalTree` compared to an iterative approach.",
+            "order": 0,
+            "markscheme": "Recursive calls consume stack memory/space for each call (stack frames); <marks>1</marks>\n\nIf the tree is very deep/unbalanced, this can lead to a `StackOverflowError`, whereas an iterative approach uses a fixed amount of stack space; <marks>1</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146208,
+            "content": "The method `countUrgent(Node current, int limit)` is designed to find the total number of patients in the tree whose priority value is strictly greater than a given `limit`.\n\nConstruct the recursive method `countUrgent(Node current, int limit)`.",
+            "order": 1,
+            "markscheme": "Award marks as follows, up to **[6 max]**.\n\n- Award <marks>1</marks> for correct method signature and return type (`int`).\n- Award <marks>1</marks> for a correct base case (checking if `current == null`) returning 0.\n- Award <marks>1</marks> for correctly accessing the priority of the patient in the current node and comparing it to the `limit`.\n- Award <marks>1</marks> for a correct recursive call to the left child.\n- Award <marks>1</marks> for a correct recursive call to the right child.\n- Award <marks>1</marks> for correctly summing the results (1 or 0 + left result + right result) and returning the value.\n\n**Example Answer**\n```java\npublic int countUrgent(Node current, int limit) {\n    if (current == null) {\n        return 0;\n    }\n    \n    int count = 0;\n    if (current.getPatient().getPriority() > limit) {\n        count = 1;\n    }\n    \n    return count + countUrgent(current.left, limit) + countUrgent(current.right, limit);\n}\n```",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146209,
+            "content": "The hospital also maintains a Queue to manage patients waiting for a specific consultant. Contrast a **static** implementation of a Queue with a **dynamic** implementation of a Queue in terms of memory management.",
+            "order": 2,
+            "markscheme": "- A static implementation uses a fixed-size array where memory is allocated at compile-time/start of execution; <marks>1</marks>\n- This may lead to wasted memory if the queue is mostly empty or an overflow if the queue exceeds the array size; <marks>1</marks>\n- A dynamic implementation uses pointers/references (linked nodes) where memory is allocated at runtime as needed; <marks>1</marks>\n- This makes more efficient use of memory as it only occupies what is necessary and is only limited by the total available heap memory; <marks>1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "9a5514bc-db9c-4d6e-8622-999f685ee6d5",
+        "specification": "A software engineer is developing an inventory management system for a warehouse. To find specific items quickly, the engineer is implementing a search module. The initial version of the search function is shown below:\n\n```java\npublic int linearSearch(String[] inventory, String target)\n{\n    int index = -1;\n    for (int i = 0; i < inventory.length; i++) {\n        if (inventory[i].equals(target)) {\n            index = i;\n        }\n    }\n    return index;\n}\n```\n\nThe warehouse currently stores thousands of items. The engineer is considering ways to optimize the search process and ensure the software is easy to maintain for future developers who might work on the system.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-9a5514bc-db9c-4d6e-8622-999f685ee6d5-1771929956947",
+            "generatedAt": "2026-02-24T10:48:16.455Z",
+            "sourceRevisionId": 1494128
+          }
+        },
+        "currentRevisionId": 1688550,
+        "parts": [
+          {
+            "id": 1150256,
+            "content": "Outline one advantage of using modular sub-programs (methods or functions) in a large software project.",
+            "order": 0,
+            "markscheme": "* **Outline**: Modular sub-programs allow for independent development and testing; <marks>1</marks>\n* **Expansion**: Different programmers can work on separate modules simultaneously, and individual functions can be debugged in isolation without needing to run the entire system, which speeds up development; <marks>1</marks>\n\n[Total 2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150257,
+            "content": "Describe two ways in which a syntax error differs from a logical error during the development process.",
+            "order": 1,
+            "markscheme": "Award **[2]** for each difference described, up to a maximum of **[4]**.\n\n* **Describe**: A syntax error occurs when the code violates the grammatical rules of the programming language (e.g., a missing semicolon); <marks>1</marks>\n* these are usually detected by the compiler or IDE before the program can be executed; <marks>1</marks>\n* **Describe**: A logical error occurs when the program runs but produces incorrect or unexpected output (e.g., using the wrong mathematical formula); <marks>1</marks>\n* these are not caught by the compiler and must be identified through testing, dry runs, or trace tables; <marks>1</marks>\n\n[Total 4 marks]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150258,
+            "content": "State the appropriate data type for the `target` parameter in the `linearSearch` function.",
+            "order": 2,
+            "markscheme": "* **State**: the data type as `String`; <marks>1</marks>\n\n[Total 1 mark]",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150259,
+            "content": "State the appropriate data type to be used for a variable that stores the total quantity of a specific item in stock.",
+            "order": 3,
+            "markscheme": "* **State**: the data type as `int` (or `Integer`); <marks>1</marks>\n\n[Total 1 mark]",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150260,
+            "content": "State the appropriate data type for a variable that indicates whether a specific item is currently out of stock.",
+            "order": 4,
+            "markscheme": "* **State**: the data type as `boolean`; <marks>1</marks>\n\n[Total 1 mark]",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150261,
+            "content": "The developer is considering replacing the current linear search with a binary search algorithm. Identify two factors that must be considered to successfully implement this change.",
+            "order": 5,
+            "markscheme": "Award **[1]** for any of the following, up to a maximum of **[2]**.\n\n* **Identify**: the `inventory` array must be sorted (e.g., alphabetically) before a binary search can be performed; <marks>1</marks>\n* **Identify**: the search logic must be updated to use a divide-and-conquer approach involving high, low, and middle pointers; <marks>1</marks>\n* **Identify**: the time complexity will improve from $$O(n)$$ to $$O(log n)$$, making it more efficient for large datasets; <marks>1</marks>\n\n[Total 2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150262,
+            "content": "Outline three ways in which thorough internal documentation (comments) and external documentation (technical manuals) assist in the maintenance of this software.",
+            "order": 6,
+            "markscheme": "Award **[1]** for each of the following, up to a maximum of **[3]**.\n\n* **Outline**: internal comments explain complex logic or the purpose of specific variables, allowing new developers to understand the code quickly; <marks>1</marks>\n* **Outline**: technical manuals provide a high-level overview of the system architecture and dependencies, which simplifies the process of adding new features; <marks>1</marks>\n* **Outline**: documentation provides a record of original requirements and design decisions, which helps in identifying and fixing bugs during the maintenance phase; <marks>1</marks>\n\n[Total 3 marks]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a93e6f8f-aa51-4d1e-8d2b-9eb9ff14ebd6",
+        "specification": "A web browser uses a linked list to manage the history of visited pages.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494176,
+        "parts": [
+          {
+            "id": 1125539,
+            "content": "Construct a class `HistoryNode` with a `String` `url` and an object reference to the next node.",
+            "order": 1,
+            "markscheme": "- **Construct** the class declaration `public class HistoryNode` <marks>A1</marks>\n\n- **Declare** the private variable `url` of type `String` <marks>A1</marks>\n\n- **Declare** the private reference `next` of type `HistoryNode` <marks>A1</marks>\n\n- **Construct** a constructor that correctly initializes the `url` and sets `next` to `null` <marks>A1</marks>\n\n4 marks total\n\nExample implementation:\n```java\npublic class HistoryNode {\n    private String url;\n    private HistoryNode next;\n\n    public HistoryNode(String url) {\n        this.url = url;\n        this.next = null;\n    }\n\n    // Accessor and mutator methods\n    public String getUrl() { return url; }\n    public HistoryNode getNext() { return next; }\n    public void setNext(HistoryNode next) { this.next = next; }\n}\n```\n\n<note>The class should encapsulate its data fields using the private modifier.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "standard",
+                  "label": "Standard Class Implementation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify requirements",
+                      "content": "To build the `HistoryNode` class, we need to follow the **Standard Class Implementation**. This involves three main parts:\n1. Declaring the class.\n2. Defining private attributes for data and the next reference.\n3. Creating a constructor to initialize these values.\n\nThis follows the principles of **encapsulation** covered in **Topic D: Object-oriented programming**.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Construct a class HistoryNode",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Declare the class",
+                      "content": "First, we declare the class using the name specified in the question. In Java, we use the `public` modifier so it can be accessed by the rest of the program.\n\n$$ \\text{public class HistoryNode \\{ } $$\n\nThis earns the first mark for the correct class header.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "public class HistoryNode",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Declare private attributes",
+                      "content": "Next, we add the attributes. To ensure encapsulation, we mark them as `private`. We need one `String` for the URL and one reference of type `HistoryNode` to point to the next node in the list.\n\n$$\\begin{aligned} &\\text{private String url;} \\\\ &\\text{private HistoryNode next;} \\end{aligned}$$\n\nThis fulfills the requirements for the second and third marks.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "String url",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "object reference to the next node",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Construct the constructor",
+                      "content": "Finally, we implement the constructor. It must accept a `String` parameter to initialize the `url`. As per the **Standard Class Implementation**, we must also explicitly set the `next` reference to `null` to indicate that a new node doesn't point to anything yet.\n\n$$\\begin{aligned} &\\text{public HistoryNode(String url) \\{} \\\\ &\\quad \\text{this.url = url;} \\\\ &\\quad \\text{this.next = null;} \\\\ &\\text{\\}} \\end{aligned}$$\n\nThis completes the class and secures the final mark.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "initializes the url and sets next to null",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Implementation",
+                      "content": "Combining everything together, your complete code should look like this:\n\n$$\\begin{aligned} &\\text{public class HistoryNode \\{} \\\\ &\\quad \\text{private String url;} \\\\ &\\quad \\text{private HistoryNode next;} \\\\ \\\\ &\\quad \\text{public HistoryNode(String url) \\{} \\\\ &\\quad \\quad \\text{this.url = url;} \\\\ &\\quad \\quad \\text{this.next = null;} \\\\ &\\quad \\text{\\}} \\\\ &\\text{\\}} \\end{aligned}$$",
+                      "calculator": []
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:01:18.541Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125540,
+            "content": "Construct a method `addPage` to add a new page to the end of the history list. Assume that `head` is a reference to the first node in the list.",
+            "order": 2,
+            "markscheme": "- **State** the correct method signature `public void addPage(String url)` <marks>A1</marks>\n\n- **Determine** if the list is empty using a condition such as `if (head == null)` <marks>M1</marks>\n\n- **Traverse** the list to find the last node using a loop (e.g., `while` loop) <marks>M1</marks>\n\n- **Set** the `next` reference of the last node to the newly created `HistoryNode` <marks>A1</marks>\n\n4 marks total\n\nExample implementation:\n```java\npublic void addPage(String url) {\n    HistoryNode newNode = new HistoryNode(url);\n    if (head == null) {\n        head = newNode;\n    } else {\n        HistoryNode current = head;\n        while (current.getNext() != null) {\n            current = current.getNext();\n        }\n        current.setNext(newNode);\n    }\n}\n```\n\n<note>Accept implementation using direct field access if variables were defined as public in part (a), but encourage the use of accessor/mutator methods.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "iterative",
+                  "label": "Iterative Traversal",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the method signature",
+                      "content": "To start, we need to define the method as specified. The question asks for a method named `addPage` that takes a $String$ parameter representing the URL. Since this method modifies the list and doesn't return a value, we use the $void$ return type.\n\n$$public\\ void\\ addPage(String\\ url)$$\n\nThis is the standard way to define a behavior for a linked list in Topic 5: Abstract Data Structures.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Construct a method addPage",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Create the new node",
+                      "content": "Before we can add anything to the list, we must encapsulate the $url$ data into a new node object. We instantiate a new `HistoryNode` and pass the $url$ to its constructor.\n\n$$HistoryNode\\ newNode = new\\ HistoryNode(url);$$",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Check for empty list",
+                      "content": "We must handle the edge case where the list is currently empty. In a linked list, if the list is empty, the $head$ reference will be $null$. If this condition is true, our new node simply becomes the $head$ of the list.\n\n$$\\begin{aligned} &if\\ (head == null) \\{ \\\\ &\\quad head = newNode; \\\\ &\\} \\end{aligned}$$",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "head is a reference to the first node",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Traverse to the end",
+                      "content": "If the list is not empty, we need to find the current last node to attach our $newNode$ to it. We use a temporary pointer, often called $current$, and initialize it at the $head$. We then use a $while$ loop to move through the list as long as there is a \"next\" node available.\n\n$$\\begin{aligned} &HistoryNode\\ current = head; \\\\ &while\\ (current.getNext() != null) \\{ \\\\ &\\quad current = current.getNext(); \\\\ &\\} \\end{aligned}$$\n\nThe loop stops when $current$ points to the node where $getNext()$ is $null$, which is the definition of the last node.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "add a new page to the end",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Link the new node",
+                      "content": "Now that $current$ is referencing the last node in the history, we simply update its \"next\" pointer to point to our newly created node. This effectively appends the page to the end of the history.\n\n$$current.setNext(newNode);$$",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Final implementation",
+                      "content": "Combining these steps, here is the complete Java method for the browser history. This iterative approach is a fundamental linked list operation covered in **Topic 5.1.7**.\n\n```java\npublic void addPage(String url) {\n    HistoryNode newNode = new HistoryNode(url);\n    if (head == null) {\n        head = newNode;\n    } else {\n        HistoryNode current = head;\n        while (current.getNext() != null) {\n            current = current.getNext();\n        }\n        current.setNext(newNode);\n    }\n}\n```",
+                      "calculator": []
+                    }
+                  ]
+                },
+                {
+                  "id": "recursive",
+                  "label": "Recursive Traversal",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the method signature",
+                      "content": "To start, we define the method signature as required by the question. The method should be `public`, return nothing (`void`), and take a `String` parameter representing the URL of the new page.\n\n$$ \\text{public void addPage(String url)} $$",
+                      "highlights": [
+                        {
+                          "text": "public void addPage(String url)",
+                          "index": 0,
+                          "location": "option"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Handle the empty list",
+                      "content": "Before we can traverse the list, we must check if the list is empty. If the `head` reference is `null`, it means there are no pages in the history yet. In this case, we simply point `head` to our new node and stop.\n\n$$\\begin{aligned} &\\text{HistoryNode newNode = new HistoryNode(url);} \\\\ &\\text{if (head == null) \\{} \\\\ &\\quad \\text{head = newNode;} \\\\ &\\text{\\}} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "if (head == null)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Initiate recursive traversal",
+                      "content": "If the list is not empty, we need to find the very last node to attach our new page. Using the **Recursive Traversal** approach, we call a recursive helper method (let's call it `findEndAndAdd`) starting from the `head` node.\n\n$$\\begin{aligned} &\\text{else \\{} \\\\ &\\quad \\text{findEndAndAdd(head, newNode);} \\\\ &\\text{\\}} \\end{aligned}$$ \n\nThis approach is covered in **Topic 5.1: Abstract data structures**, specifically regarding recursive thinking and linked list operations."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Identify the base case",
+                      "content": "Inside our recursive helper method, we need a **base case**. The base case occurs when we reach the last node in the list. We know a node is the last one if its `next` pointer is `null`. \n\nWhen we find this node, we perform the link by setting its `next` reference to our new node.\n\n$$\\begin{aligned} &\\text{if (current.getNext() == null) \\{} \\\\ &\\quad \\text{current.setNext(newNode);} \\\\ &\\text{\\}} \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "Set the next reference of the last node",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Apply the recursive step",
+                      "content": "If the current node is not the last node (i.e., `getNext()` is not `null`), we move to the next node by calling the helper method again. This is the **recursive step**, which moves our pointer further down the list.\n\n$$\\begin{aligned} &\\text{else \\{} \\\\ &\\quad \\text{findEndAndAdd(current.getNext(), newNode);} \\\\ &\\text{\\}} \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Final recursive implementation",
+                      "content": "Combining these steps, here is the full implementation using the recursive traversal method. This earns the full 4 marks by handling the signature, the empty list condition, traversal, and the final link.\n\n$$\\begin{aligned} &\\text{public void addPage(String url) \\{} \\\\ &\\quad \\text{HistoryNode newNode = new HistoryNode(url);} \\\\ &\\quad \\text{if (head == null) head = newNode;} \\\\ &\\quad \\text{else findEndAndAdd(head, newNode);} \\\\ &\\text{\\}} \\\\ \\\\ &\\text{private void findEndAndAdd(HistoryNode current, HistoryNode newNode) \\{} \\\\ &\\quad \\text{if (current.getNext() == null) current.setNext(newNode);} \\\\ &\\quad \\text{else findEndAndAdd(current.getNext(), newNode);} \\\\ &\\text{\\}} \\end{aligned}$$"
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:02:35.258Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125541,
+            "content": "Explain one advantage of using object references in implementing the history list.",
+            "order": 3,
+            "markscheme": "- **State** that object references allow for dynamic memory allocation and pointers <marks>R1</marks>\n\n- **Explain** that this allows the list structure to grow and shrink at runtime as needed without requiring a fixed initial size <marks>R1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "dynamic-resizing",
+                  "label": "Dynamic Memory Allocation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the core concept",
+                      "content": "To answer this question, we need to look at how **object references** handle memory compared to static structures like arrays. This is covered in **Topic 5.1.9: Static and Dynamic Data Structures**. \n\nIn a linked list, each \"node\" (a visited page) is an object, and we use references (pointers) to connect them. This method relies on **dynamic memory allocation**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "State the mechanism",
+                      "content": "The first mark is awarded for stating that object references enable **dynamic memory allocation**. \n\nInstead of the computer reserving a single, continuous block of memory when the browser starts, object references allow the program to request small pieces of memory for each new node only when they are actually needed.",
+                      "highlights": [
+                        {
+                          "text": "object references allow for dynamic memory allocation and pointers",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Explain the runtime benefit",
+                      "content": "The second mark is for explaining the practical advantage: the list can **grow and shrink at runtime**.\n\nBecause the browser doesn't have to define a **fixed initial size**, it won't waste memory by over-allocating space for 1,000 pages if you only visit 5. Conversely, the history won't \"run out of room\" like a fixed-size array would, as it can keep adding new object references as long as there is free system memory.",
+                      "highlights": [
+                        {
+                          "text": "allows the list structure to grow and shrink at runtime as needed without requiring a fixed initial size",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "efficient-insertion-deletion",
+                  "label": "Efficient Node Manipulation",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define object references",
+                      "content": "In a linked list, each \"page\" in the browser history is an object. **Object references** act as pointers that store the memory address of the next node. Unlike a static array where elements must be stored in one continuous block of memory, references allow nodes to be scattered anywhere in the system's memory."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Explain dynamic memory usage",
+                      "content": "Because we use references, the history list uses **dynamic memory allocation**. This means the computer only allocates memory for a new page when the user actually visits it. \n\nThis is a huge advantage because we don't have to decide on a \"maximum size\" for the history list when the browser starts. If you're interested in why this matters, you can review **Topic 5.1.9: Static and Dynamic Data Structures**.",
+                      "highlights": [
+                        {
+                          "text": "object references allow for dynamic memory allocation and pointers",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Efficiency in manipulation",
+                      "content": "Using the **Efficient Node Manipulation** approach, we see that adding or deleting a page is very fast. \n\nIn a static array, if you wanted to insert a page at the start, you would have to shift every other element over by one spot in memory. With object references, you simply:\n1. Create a new node.\n2. Update its reference pointer to point to the current \"head\" of the list.\n\nThis allows the structure to **grow and shrink at runtime** as needed without the overhead of moving data around.",
+                      "highlights": [
+                        {
+                          "text": "allows the list structure to grow and shrink at runtime as needed without requiring a fixed initial size",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Final Summary for Marks",
+                      "content": "To get full marks on this 2-mark question, you must connect the technical feature to the functional benefit:\n\n*   **Mark 1:** State that object references enable dynamic memory allocation/pointers.\n*   **Mark 2:** Explain that this allows the list to change size (grow/shrink) while the program is running, avoiding the limitations of a fixed-size array."
+                    }
+                  ]
+                },
+                {
+                  "id": "memory-utilization",
+                  "label": "Non-Contiguous Memory Usage",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the advantage",
+                      "content": "One significant advantage of using object references is that they allow for **dynamic memory allocation**. In a linked list, each 'node' (representing a web page) is created only when it is needed, rather than pre-allocating a fixed amount of space at the start.",
+                      "highlights": [
+                        {
+                          "text": "object references",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Explain non-contiguous storage",
+                      "content": "Because the nodes are connected by references (pointers), they can be stored in **non-contiguous memory locations**. This means the computer doesn't need to find one large, empty block of memory to fit the entire history list. Instead, it can use small, scattered 'fragments' of available memory space to store individual nodes."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Connect to runtime flexibility",
+                      "content": "This approach allows the history list to **grow and shrink at runtime** as the user navigates the web. Unlike a static array which has a fixed size, the linked list can keep expanding as long as there is any free memory available, regardless of where that memory is located."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summary for marks",
+                      "content": "To secure both marks on the exam, ensure you mention:\n1.  **The Mechanism**: Object references allow for dynamic memory allocation and pointers.\n2.  **The Benefit**: This enables the list to grow or shrink during execution without requiring a fixed initial size."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:03:20.677Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "af2a09f1-010c-47ab-9647-29b00b63e372",
+        "specification": "An application needs to reverse a string using recursion.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1494159,
+        "parts": [
+          {
+            "id": 1125490,
+            "content": "Construct a recursive method `reverseString` that takes a `String` and returns its reverse.",
+            "order": 1,
+            "markscheme": "- Correct method signature: `public String reverseString(String str)` <marks>1</marks>\n- Base case check: `if (str.length() <= 1)` <marks>1</marks>\n- Return string in base case: `return str;` <marks>1</marks>\n- Recursive call with concatenation: `return reverseString(str.substring(1)) + str.charAt(0);` <marks>1</marks>\n\n<note>Code must show recursion; iterative solutions score 0 marks.</note>\n\n<examTip>Remember to handle empty strings and single character strings in the base case.</examTip>\n\n<commonMistake>Using a loop instead of recursion.</commonMistake>\n\nExample solution:\n```java\npublic String reverseString(String str) {\n    if (str.length() <= 1) {\n        return str;\n    } else {\n        return reverseString(str.substring(1)) + str.charAt(0);\n    }\n}\n```",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1125491,
+            "content": "Trace the execution of `reverseString(\"abc\")`, showing all recursive calls and returns.",
+            "order": 2,
+            "markscheme": "- `reverseString(\"abc\")` calls `reverseString(\"bc\") + 'a'` <marks>1</marks>\n- `reverseString(\"bc\")` calls `reverseString(\"c\") + 'b'` <marks>1</marks>\n- `reverseString(\"c\")` returns `\"c\"` (base case) <marks>1</marks>\n- `reverseString(\"bc\")` returns `\"c\" + 'b' = \"cb\"` <marks>1</marks>\n- `reverseString(\"abc\")` returns `\"cb\" + 'a' = \"cba\"` \n\n<note>Award maximum 4 marks for a complete and logical trace.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "linear_substitution",
+                  "label": "Sequential Substitution",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand Sequential Substitution",
+                      "content": "To trace this algorithm using **Sequential Substitution**, we will first expand each recursive call until we reach the simplest version (the base case). Then, we will substitute those values back into the expressions to find the final result. \n\nThis process is a key part of **Topic 5.1.2: Tracing Recursive Algorithms** in the IB Computer Science syllabus."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Expand the first call",
+                      "content": "We begin with the initial call. To reverse \"abc\", the function takes the substring from the second character onwards (\"bc\") and appends the first character (\"a\") to the end of that result.\n\n$$reverseString(\"abc\") = reverseString(\"bc\") + \"a\"$$",
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"abc\") calls reverseString(\"bc\") + 'a'",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Expand the second call",
+                      "content": "Now we need to evaluate the call produced in the previous step. Following the same logic, we take the substring \"c\" and append \"b\" to the end.\n\n$$reverseString(\"bc\") = reverseString(\"c\") + \"b\"$$",
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"bc\") calls reverseString(\"c\") + 'b'",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Identify the base case",
+                      "content": "The function continues until the string cannot be split further. When the string has only one character, it is its own reverse.\n\n$$reverseString(\"c\") = \"c\"$$",
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"c\") returns \"c\" (base case)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Substitute and return (Part 1)",
+                      "content": "Now we work backwards. Substitute the value from the base case into the expression for `reverseString(\"bc\")`:\n\n$$\\begin{aligned} reverseString(\"bc\") &= \"c\" + \"b\" \\\\ &= \"cb\" \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"bc\") returns \"c\" + 'b' = \"cb\"",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Substitute and return (Part 2)",
+                      "content": "Finally, substitute the result for `reverseString(\"bc\")` back into our very first equation to get the final answer:\n\n$$\\begin{aligned} reverseString(\"abc\") &= \"cb\" + \"a\" \\\\ &= \"cba\" \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"abc\") returns \"cb\" + 'a' = \"cba\"",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "recursive_tree",
+                  "label": "Recursive Tree Diagram",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the Recursive Structure",
+                      "content": "To trace `reverseString(\"abc\")`, we need to visualize how the function breaks down the problem. In recursion, each call creates a new 'node' in our tree. Based on the markscheme, the logic follows this pattern:\n\n$$\\text{reverseString}(\\text{string}) = \\text{reverseString}(\\text{substring starting at index 1}) + \\text{first character}$$\n\nThis falls under **Topic 5.1: Abstract Data Structures**, specifically tracing recursive algorithms.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"abc\")",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Build the Branching Tree",
+                      "content": "We start at the top (root) and branch down until we hit the base case. Each level represents a new function call:\n\n$$\\begin{matrix} \\text{Level 0:} & \\text{reverseString(\"abc\")} \\\\ & \\downarrow \\\\ \\text{Level 1:} & \\text{reverseString(\"bc\")} + \\text{'a'} \\\\ & \\downarrow \\\\ \\text{Level 2:} & \\text{reverseString(\"c\")} + \\text{'b'} \\end{matrix}$$\n\nEach step down reduces the string length until only one character remains.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"abc\") calls reverseString(\"bc\") + 'a'",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Identify the Base Case",
+                      "content": "The recursion must stop somewhere so it doesn't run forever. When the function reaches a string with only one character, it returns that character directly. This is our **Base Case**.\n\n$$\\text{reverseString(\"c\")} \\rightarrow \\text{returns \"c\"}$$\n\nThis is the bottom-most node of our tree.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"c\") returns \"c\" (base case)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Unwind and Return Values",
+                      "content": "Now we move back up the tree (from the bottom up), substituting the returned values into the waiting expressions:\n\n1.  **From Level 2 to Level 1:** \n    $$\\text{reverseString(\"bc\")} = \\text{\"c\"} + \\text{'b'} = \\text{\"cb\"}$$\n\n2.  **From Level 1 to Level 0:** \n    $$\\text{reverseString(\"abc\")} = \\text{\"cb\"} + \\text{'a'} = \\text{\"cba\"}$$\n\nBy following the return arrows up the tree, the final result is constructed.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"bc\") returns \"c\" + 'b' = \"cb\"",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Result Summary",
+                      "content": "The execution trace is complete. The total return value for the initial call is:\n\n$$\\text{Result} = \\text{\"cba\"}$$\n\nIn an IB exam, showing the clear progression from the initial call down to the base case and the subsequent concatenation back up will earn full marks.",
+                      "calculator": []
+                    }
+                  ]
+                },
+                {
+                  "id": "stack_trace",
+                  "label": "Stack-Based Trace",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understanding the Stack Process",
+                      "content": "To trace a recursive function using a **Stack-Based Trace**, we imagine a physical stack of \"frames.\" Each time the function calls itself, we push a new frame onto the stack. This frame stays there, \"waiting,\" until the call above it returns a value. This concept is a key part of **Topic 5: Abstract Data Structures**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Pushing Calls onto Stack",
+                      "content": "We start with the initial call and move toward the base case. Each step pushes a new frame onto the stack:\n\n1.  **Call 1:** `reverseString(\"abc\")` is called. It needs to calculate `reverseString(\"bc\") + \"a\"`. It pauses and waits.\n2.  **Call 2:** `reverseString(\"bc\")` is called. It needs to calculate `reverseString(\"c\") + \"b\"`. It pauses and waits.\n\n$$\\begin{bmatrix} \\text{reverseString(\"c\")} & \\text{(Top)} \\\\ \\text{reverseString(\"bc\")} & \\\\ \\text{reverseString(\"abc\")} & \\text{(Bottom)} \\end{bmatrix}$$\n\nAccording to the markscheme, identifying these specific calls is essential for earning marks.",
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"abc\") calls reverseString(\"bc\") + 'a'",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "reverseString(\"bc\") calls reverseString(\"c\") + 'b'",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Reaching the Base Case",
+                      "content": "The recursion must stop eventually. In this algorithm, when the string length is 1, it simply returns the character itself. This is our **Base Case**.\n\n*   `reverseString(\"c\")` is called. Since it is a single character, it returns `\"c\"` immediately.\n\nAt this point, the stack has reached its maximum height and is ready to start \"popping\" (removing) frames.",
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"c\") returns \"c\" (base case)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Popping and Returning Values",
+                      "content": "Now we move back down the stack, substituting the returned values into the waiting expressions:\n\n1.  **Pop Call 2:** `reverseString(\"bc\")` receives `\"c\"` from the base case. It calculates `\"c\" + \"b\"` and returns **`\"cb\"`**.\n2.  **Pop Call 1:** `reverseString(\"abc\")` receives `\"cb\"` from the previous step. It calculates `\"cb\" + \"a\"` and returns **`\"cba\"`**.\n\n$$\\begin{aligned} \\text{Step 2 Result: } & \"c\" + \"b\" = \"cb\" \\\\ \\text{Step 1 Result: } & \"cb\" + \"a\" = \"cba\" \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "reverseString(\"bc\") returns \"c\" + 'b' = \"cb\"",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Trace Summary",
+                      "content": "The final execution trace looks like this:\n\n*   `reverseString(\"abc\")` $\\rightarrow$ `reverseString(\"bc\") + \"a\"` \n*   `reverseString(\"bc\")` $\\rightarrow$ `reverseString(\"c\") + \"b\"` \n*   `reverseString(\"c\")` $\\rightarrow$ `\"c\"` (Base Case)\n*   `reverseString(\"bc\")` returns `\"cb\"` \n*   `reverseString(\"abc\")` returns `\"cba\"` \n\nThis complete logic earns the full 4 marks."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:05:55.763Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1125492,
+            "content": "Explain why recursion is suitable for this problem.",
+            "order": 3,
+            "markscheme": "- Recursion simplifies problems that can be divided into smaller, similar subproblems. <marks>1</marks>\n- It provides an elegant solution for reversing strings by processing one character at a time and combining results during the unwind phase. <marks>1</marks>\n\n<note>Maximum 2 marks.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "divide_and_conquer",
+                  "label": "Divide and Conquer Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify identical subproblems",
+                      "content": "Recursion is ideal for problems that can be broken down into smaller, identical versions of themselves\u2014a core principle of the **Divide and Conquer** approach. \n\nIn the case of a string, it can be viewed as a single character followed by a smaller substring. Reversing the entire string simply requires reversing that smaller substring and then moving the first character to the end. Since the process for reversing the smaller substring is exactly the same as reversing the original string, the problem is inherently recursive.",
+                      "highlights": [
+                        {
+                          "text": "Recursion simplifies problems that can be divided into smaller, similar subproblems.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze the unwinding phase",
+                      "content": "A recursive approach provides an elegant solution because it handles the logic of \"reversing\" during the **unwind phase**. \n\nAs the recursion \"dives\" deeper, it processes one character at a time until it reaches the base case (an empty string or a single character). As the function calls then return (unwind), the results are combined by concatenating the characters in the correct reversed order. This eliminates the need for complex loops or manual pointer management.",
+                      "highlights": [
+                        {
+                          "text": "It provides an elegant solution for reversing strings by processing one character at a time and combining results during the unwind phase.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Relate to IB syllabus",
+                      "content": "This logic is a fundamental part of **Topic 5.1: Abstract Data Structures** and **Topic D.4: Advanced Program Development**. Understanding how to recognize recursive thinking involves identifying when a data structure (like a string) can be treated as a combination of a head element and a tail that follows the same rules."
+                    }
+                  ]
+                },
+                {
+                  "id": "unwinding_logic",
+                  "label": "Stack Mechanics and Unwinding",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Divide into subproblems",
+                      "content": "Recursion is suitable because it simplifies problems that can be broken down into smaller, identical subproblems. For a string, reversing it can be viewed as taking the first character, reversing the remaining substring, and then appending the first character to the end. \n\nThis \"divide and conquer\" approach is a core characteristic of recursive thinking covered in **Topic 5.1: Abstract data structures**.",
+                      "highlights": [
+                        {
+                          "text": "Recursion simplifies problems that can be divided into smaller, similar subproblems.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "The Winding Phase",
+                      "content": "When a recursive function calls itself, the computer uses a **system stack** to keep track of each call. \n\nDuring the \"winding\" phase, we process the string one character at a time. Each character is essentially \"stored\" in a new layer of the stack while the function waits for the result of the next smaller subproblem. This continues until we reach the base case (an empty string)."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "The Unwinding Phase",
+                      "content": "The magic of reversal happens during the **unwind phase**. Because a stack is a **Last-In-First-Out (LIFO)** structure, the last character we reached (the end of the string) is the first one processed as the recursion completes. \n\nAs the stack unwinds, the characters are combined in the reverse order of how they were encountered, providing an elegant and efficient solution for string reversal.",
+                      "highlights": [
+                        {
+                          "text": "It provides an elegant solution for reversing strings by processing one character at a time and combining results during the unwind phase.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:06:32.648Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "c1338a3f-8f5c-4788-8895-38fb2cda740c",
+        "specification": "A software company is developing a navigation system that uses a recursive algorithm to calculate the shortest path (i.e. the path with the minimum number of edges/steps between nodes in an unweighted graph) between two points.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:25:48.098Z",
+            "resultId": 2449
+          }
+        },
+        "currentRevisionId": 1692699,
+        "parts": [
+          {
+            "id": 1154683,
+            "content": "Define the term recursion.",
+            "order": 0,
+            "markscheme": "- A programming technique where a method/function calls itself. <marks>1 mark</marks>\n- It involves breaking down a problem into smaller instances of the same problem. <marks>1 mark</marks>\n- It must include a base case (termination condition) to stop the recursive calls. <marks>1 mark</marks>\n\n_**OR**_\n\n- Any two of the above. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154684,
+            "content": "Describe one application of recursive algorithms in computing, with reference to the navigation system.",
+            "order": 1,
+            "markscheme": "- Recursive algorithms are commonly used for traversing hierarchical or networked data structures such as trees or graphs. <marks>1 mark</marks>\n- In a navigation system, locations are modeled as nodes and roads as edges in a graph. <marks>1 mark</marks>\n- Recursion allows the algorithm to explore all branching paths from a starting point to find and compare path lengths (number of edges) to the destination. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154685,
+            "content": "Construct a recursive method `calculateShortestPath` that takes a starting point and an endpoint and returns the shortest path as a list of nodes.",
+            "order": 2,
+            "markscheme": "- Correct method signature (e.g., `public List<Node> calculateShortestPath(Node start, Node end)`). <marks>1 mark</marks>\n- Base case that returns a path list when `start` equals `end`. <marks>1 mark</marks>\n- Cycle detection logic (e.g., checking if a node has been visited) to prevent infinite recursion. <marks>1 mark</marks>\n- Recursive call to neighbors of the current node. <marks>1 mark</marks>\n- Logic that compares multiple possible paths to identify the shortest one (fewest edges/nodes). <marks>1 mark</marks>\n- Correctly constructs the path by adding the current node to the beginning of the shortest sub-path and returning the list. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "dfc35880-620f-460d-892a-c785c226276f",
+        "specification": "An online bookstore uses a linked list to manage a wishlist of books. The nodes in the list are of type `BookNode`, which contain a `Book` object and a reference to the `next` node.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:32:14.687Z",
+            "resultId": 1993
+          }
+        },
+        "currentRevisionId": 1692851,
+        "parts": [
+          {
+            "id": 1154863,
+            "content": "Using IB standard pseudocode, write the methods `addBookToEnd(book)` and `removeBook(title)` for a singly linked list implementation.\n\nAssume the list has a reference `head` to the first node (or `null` if empty). Each node stores a `book` and a reference `next`.\n\nIn `removeBook(title)`, remove **only the first** node whose `book` has the given `title`. If no such node exists, the list should remain unchanged.",
+            "order": 0,
+            "markscheme": "- Construct the correct method header for `addBookToEnd(book)` using IB pseudocode conventions <marks>1 mark</marks>\n- Handle the case of an empty list by setting `head` to the new node <marks>1 mark</marks>\n- Traverse correctly to the end of the list and append the new node by updating the final node\u2019s `next` reference <marks>1 mark</marks>\n- Construct the correct method header for `removeBook(title)` using IB pseudocode conventions <marks>1 mark</marks>\n- Implement logic to find the first matching node to remove, including checking whether the match is at `head` <marks>1 mark</marks>\n- Adjust node references correctly to remove the node (e.g. setting `current.next` to skip over the removed node) <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154864,
+            "content": "Explain how object references are used in these methods.",
+            "order": 1,
+            "markscheme": "- State that object references (such as `next`) link nodes together to form the structure of the list <marks>1 mark</marks>\n- Explain that adjusting these references allows for adding or removing nodes without needing to shift other elements in memory <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1154865,
+            "content": "Describe one advantage and one disadvantage of using a linked list for the wishlist.",
+            "order": 2,
+            "markscheme": "- **Advantage:** Describe the benefit of dynamic size or efficient insertion/deletion as elements do not need to be shifted <marks>1 mark</marks>\n- **Disadvantage:** Describe the lack of direct access (random access) to elements by index, requiring $O(n)$ time for searches or accessing specific positions <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f40dd5d8-af98-4f20-b699-9c6fbe1d3a7d",
+        "specification": "An email application needs to manage a queue of outgoing messages using a static data structure.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1546600,
+        "parts": [
+          {
+            "id": 1136617,
+            "content": "Identify two features of the abstract data type (ADT) queue.",
+            "order": 1,
+            "markscheme": "- First-In-First-Out (FIFO) ordering <marks>A1</marks>\n- Operations include enqueue (add to tail) and dequeue (remove from head) <marks>A1</marks>\n\n[2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "recall_characteristics",
+                  "label": "Identification of Standard Characteristics",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the queue logic",
+                      "content": "In IB Computer Science, when we talk about an **Abstract Data Type (ADT)** like a queue, we are looking at its logical behavior. The most fundamental characteristic of a queue is its ordering system. Imagine a line of people waiting for coffee: the first person who gets in line is the first one served. \n\nThis behavior is known as **First-In-First-Out (FIFO)**. In our email application, the first email added to the outgoing queue will be the first one sent out.",
+                      "highlights": [
+                        {
+                          "text": "First-In-First-Out (FIFO)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define standard operations",
+                      "content": "To manage data within this FIFO structure, a queue uses two specific standard operations:\n\n1.  **Enqueue**: This adds an item to the 'tail' or back of the queue.\n2.  **Dequeue**: This removes an item from the 'head' or front of the queue.\n\nSince the question asks for features of the ADT, mentioning these operations is essential as they define how the structure is manipulated.",
+                      "highlights": [
+                        {
+                          "text": "enqueue",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "dequeue",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Final Review of Features",
+                      "content": "To secure both marks, we should clearly state the two distinct features identified through the standard characteristics of a queue:\n\n*   **Feature 1**: It follows a **First-In-First-Out (FIFO)** logic.\n*   **Feature 2**: It utilizes **Enqueue and Dequeue** operations to add and remove data.\n\nThis directly matches the requirements for Topic 5.1.5 (Queues) in your syllabus."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:01:31.389Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1136618,
+            "content": "Describe one application of a queue in computing, with reference to the email application.",
+            "order": 2,
+            "markscheme": "- Queues are used to manage tasks or data packets waiting for processing in the order they were received <marks>A1</marks>\n- In the email application, outgoing messages are queued to be sent sequentially to ensure they are dispatched in the correct submission order <marks>A1</marks>\n\n[2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "fifo-logic",
+                  "label": "FIFO Logic Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define FIFO Logic",
+                      "content": "To understand how a queue works, we first look at its core logic: **FIFO (First-In-First-Out)**. In computing, a queue is an abstract data structure where the first element added is the first one to be removed. \n\nThis ensures that data is processed fairly and in the exact sequence it arrived. If you're studying **Topic 5: Abstract data structures**, you'll recognize this as the fundamental characteristic of a queue."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "General Task Management",
+                      "content": "In a broader computing context, queues are used to manage tasks or data packets waiting for processing. When multiple requests arrive at a CPU or a printer at once, they can't all be handled simultaneously. \n\nThe system places them in a queue so they can be handled in the **order they were received**. This prevents data loss and ensures every task eventually gets its turn.",
+                      "highlights": [
+                        {
+                          "text": "Queues are used to manage tasks or data packets waiting for processing in the order they were received",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Application to Email",
+                      "content": "Applying this to the email application, the queue manages the flow of outgoing messages. When you hit 'send' on several emails quickly, the application places them into the queue structure.\n\nBecause of the FIFO logic, the messages are sent **sequentially**. This ensures that the first email you finished writing is the first one dispatched to the server, maintaining the correct **submission order**.",
+                      "highlights": [
+                        {
+                          "text": "outgoing messages are queued to be sent sequentially to ensure they are dispatched in the correct submission order",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "manage a queue of outgoing messages using a static data structure",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T06:02:18.090Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1136619,
+            "content": "Construct methods `enqueue` and `dequeue` for a static implementation of a queue to manage email messages.",
+            "order": 3,
+            "markscheme": "- Method signature for `enqueue` with appropriate parameters and return type <marks>A1</marks>\n- Check if queue is full before adding ($\\text{size} == \\text{capacity}$) <marks>A1</marks>\n- Add email message to tail and update tail pointer using modulo arithmetic ($\\text{tail} = (\\text{tail} + 1) \\mathbin{\\%} \\text{capacity}$) <marks>A1</marks>\n- Method signature for `dequeue` with appropriate return type <marks>A1</marks>\n- Check if queue is empty before removing ($\\text{size} == 0$) <marks>A1</marks>\n- Remove and return email from head position and update head pointer using modulo arithmetic ($\\text{head} = (\\text{head} + 1) \\mathbin{\\%} \\text{capacity}$) <marks>A1</marks>\n\n[6 marks]\n\n**Example implementation in Java:**\n\n```java\npublic class EmailQueue {\n    private Email[] queue;\n    private int head = 0;\n    private int tail = -1;\n    private int size = 0;\n    private int capacity;\n\n    public EmailQueue(int capacity) {\n        this.capacity = capacity;\n        queue = new Email[capacity];\n    }\n\n    public void enqueue(Email message) {\n        if (size == capacity) {\n            // Queue is full\n            return;\n        }\n        tail = (tail + 1) % capacity;\n        queue[tail] = message;\n        size++;\n    }\n\n    public Email dequeue() {\n        if (size == 0) {\n            // Queue is empty\n            return null;\n        }\n        Email message = queue[head];\n        head = (head + 1) % capacity;\n        size--;\n        return message;\n    }\n}\n```\n\n<note>Example implementation shown in Java, but other programming languages are acceptable if they demonstrate the same concepts.</note>\n\n<examTip>Make sure to use modulo arithmetic (`%`) to handle circular array implementation.</examTip>\n\n<commonMistake>Forgetting to update the size counter when enqueueing/dequeueing.</commonMistake>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      }
+    ],
+    "count": "18",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9867,
+      "title": "D.4 Advanced program development",
+      "slug": "d-4-advanced-program-development",
+      "parentTopicId": 9863
+    },
+    "subject": {
+      "id": 292,
+      "title": "Computer Science (CS)",
+      "slug": "ib-computer-science",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "18",
+      "byQuestion": {}
+    }
+  }
+}

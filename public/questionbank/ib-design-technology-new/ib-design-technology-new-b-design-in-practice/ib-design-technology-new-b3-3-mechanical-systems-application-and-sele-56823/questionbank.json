@@ -1,3 +1,2119 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a7080c3e2c519cfa0e4ca8db35b8d7d703d9e13c2bc2eb2ca7b4d7d27302a538
-size 90467
+{
+  "json": {
+    "questions": [
+      {
+        "id": "03e23595-3ef6-4876-bf8e-8a3720b3318c",
+        "specification": "What happens when a small gear drives a large gear?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585398,
+        "parts": [],
+        "options": [
+          {
+            "id": 4558133,
+            "content": "Output speed increases",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4558134,
+            "content": "Output torque decreases",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4558135,
+            "content": "Input force reduces",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4558136,
+            "content": "Output speed decreases",
+            "correct": true,
+            "order": 4,
+            "markscheme": "When a small gear (driver) drives a larger gear (driven), the driven gear rotates at a lower angular velocity due to the gear ratio $N_{\\text{driver}} : N_{\\text{driven}}$. This results in a decrease in output speed and a corresponding increase in output torque. <marks>A1</marks>"
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "1203f974-de2e-4f41-bea3-620cdc3c1f5d",
+        "specification": "What does the mechanical advantage of a system describe?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585310,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557909,
+            "content": "The energy loss due to heat",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4557910,
+            "content": "The amount of movement in the output",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4557911,
+            "content": "The force multiplication achieved",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4557912,
+            "content": "The friction within the system",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "1b8471fd-5dba-4b00-931d-31f78248e254",
+        "specification": "A product development team is designing a simple mechanical device that uses gears, levers, and cams to perform basic tasks with minimal power input. To evaluate different mechanical system components, the team examines standard configurations that affect motion, force, and efficiency. **Figures 1** to **3** show common mechanical systems used in such devices.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:02:06.525Z",
+            "resultId": 3768
+          }
+        },
+        "currentRevisionId": 1693516,
+        "parts": [
+          {
+            "id": 1155437,
+            "content": "**Figure 1** shows a simple gear train with three meshed spur gears mounted on parallel shafts.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/683abd9f-ec85-421b-897b-5603e4577b48)\n\nExplain the role of the idler gear in Figure 1.",
+            "order": 0,
+            "markscheme": "- The idler gear sits between the driver and driven gear <marks>1 mark</marks>\n- It does not change the speed or mechanical advantage <marks>1 mark</marks>\n- It ensures the direction of the driven gear matches the driver gear <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155438,
+            "content": "**Figure 2** shows a class 1 lever with labeled positions for the fulcrum, effort, and load. \n\n\n![Image](https://pub-images.revisiondojo.com/question-images/87e6a04f-beaf-4b5e-88f9-57e84ee0701c)\n\nUsing **Figure 2**, state which position (effort, load, or fulcrum) should be moved (and in which direction) to reduce the effort needed to lift the load.",
+            "order": 1,
+            "markscheme": "- Move the fulcrum closer to the load <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155439,
+            "content": "Describe how a first-class lever (**Figure 2**) provides mechanical advantage, and give one real-life example of its use.",
+            "order": 2,
+            "markscheme": "- A first-class lever has the fulcrum positioned between the load and effort <marks>1 mark</marks>\n- By increasing the distance from the effort to the fulcrum, less force is required <marks>1 mark</marks>\n- This increases the mechanical advantage of the system <marks>1 mark</marks>\n- Example: A seesaw or crowbar <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155440,
+            "content": "**Figure 3** shows a cam and follower system where a rotating cam drives a vertical follower up and down.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/93229864-480a-46e9-905c-c1615b76d0d3)\n\nIdentify two ways a cam and follower system (**Figure 3**) can be modified to change the motion of the follower.",
+            "order": 3,
+            "markscheme": "- Change the shape/profile of the cam (e.g. pear, snail, eccentric) <marks>1 mark</marks>\n- Adjust the speed of the cam rotation <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155441,
+            "content": "Using **Figures 1** and **3**, compare how gear systems and cam systems affect motion in mechanical designs.",
+            "order": 4,
+            "markscheme": "- Gears transmit rotary motion between shafts (Figure 1) <marks>1 mark</marks>\n- Cams convert rotary motion into reciprocating motion (Figure 3) <marks>1 mark</marks>\n- Gears can increase or decrease speed and torque <marks>1 mark</marks>\n- Cams can produce precise, repeated follower movements <marks>1 mark</marks>\n- Gear ratios determine output speed; cam profiles determine motion type <marks>1 mark</marks>\n- Gears are often continuous systems; cams operate cyclically <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1fd6b8e9-6685-4124-ad81-faff7ab69081",
+        "specification": "In which class of lever is the fulcrum located between the effort and the load?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333833,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884861,
+            "content": "First class",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884862,
+            "content": "Second class",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884863,
+            "content": "Third class",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884864,
+            "content": "Fourth class",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2379d768-4630-4f7f-a90e-1984b293ed59",
+        "specification": "What is the purpose of this cam-follower mechanism?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJlTZ4ICXPSLlEGMWj_302k5VBR9ha_quA41Y3EmbEry2vd4Tg-xtmjuTrCPuiL3zPcchvgLTwgWflnj7JrqMm432mvE4L31QFmb4adIb4Y6NSDcYixgYG_mh-qfd-IBKh3ThbqA?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333842,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884897,
+            "content": "Increase torque",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884898,
+            "content": "Maintain constant speed",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884899,
+            "content": "Convert rotary motion to reciprocating motion",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884900,
+            "content": "Enhance rotational friction",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "247389ca-1206-4b33-b46d-6752da16525e",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585295,
+        "parts": [
+          {
+            "id": 1139961,
+            "content": "Identify four key variables involved in calculating speed in a gear system.",
+            "order": 1,
+            "markscheme": "- Identifies the number of teeth on the drive gear <marks>A1</marks>\n- Identifies the number of teeth on the driven gear <marks>A1</marks>\n- Identifies the input speed (e.g., in RPM) <marks>A1</marks>\n- Identifies the output speed (e.g., in RPM) <marks>A1</marks>\n\n4 marks total\n\n<note>Award [1] for each accurate variable.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "25ba889f-6e9c-4438-b7a3-e5b20593e159",
+        "specification": "What is the likely effect of increasing the diameter of the effort wheel (pulley the effort is applied to) in this system?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXejFGdkHngHxqqZw2577uQHX27vvypjeBTZlpXM1yzLVRKSDbqvL3-0l5H1WrKZ5pZ6CEfCJGBjxZW_c-Tmp-hMmfYvfblv_xEoz2aCL5OehspMZFU-BoaSokWm88gNLQFZkoQHzg?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:04:00.550Z",
+            "resultId": 3556
+          }
+        },
+        "currentRevisionId": 1689921,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930381,
+            "content": "Higher effort required",
+            "correct": false,
+            "order": 0,
+            "markscheme": "An increase in the velocity ratio generally leads to a decrease in the effort required to move a given load."
+          },
+          {
+            "id": 4930382,
+            "content": "Increased velocity ratio",
+            "correct": true,
+            "order": 1,
+            "markscheme": "In a wheel and axle system, the velocity ratio ($VR$) is defined as the ratio of the effort arm (effort wheel diameter) to the load arm. Increasing the effort wheel diameter increases the distance the effort moves relative to the load, thereby increasing the $VR$."
+          },
+          {
+            "id": 4930383,
+            "content": "Lower mechanical advantage",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Since mechanical advantage ($MA$) is given by $MA = \\eta \\times VR$ (where $\\eta$ is efficiency), an increase in $VR$ would typically lead to an increase in $MA$."
+          },
+          {
+            "id": 4930384,
+            "content": "Reduced system mass",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Increasing the diameter of a pulley typically increases its physical dimensions and mass."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a327700-e7d8-4dd8-96a9-14f1f79332e7",
+        "specification": "What mechanical function does the lever serve here?\n\n![](https://pub-images.revisiondojo.com/notes/f25a7242-5dbf-4220-a07f-34913b6a458f.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585413,
+        "parts": [],
+        "options": [
+          {
+            "id": 4558165,
+            "content": "Reduces input speed",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. While there is a mathematical trade-off between force and speed in any lever system, the primary mechanical function of a bottle opener is force multiplication, not speed reduction."
+          },
+          {
+            "id": 4558166,
+            "content": "Changes rotary motion to linear",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. A lever does not change the type of motion from rotary to linear; it primarily transmits and magnifies force while moving through a rotational arc around its fulcrum."
+          },
+          {
+            "id": 4558167,
+            "content": "Magnifies force output",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Correct. A bottle opener acts as a second-class lever where the load (the cap edge) is located between the fulcrum (the center of the cap) and the effort (the user's hand). Since the effort arm is longer than the load arm, the lever provides a mechanical advantage $(\\text{MA} > 1)$, magnifying the input force to lift the cap."
+          },
+          {
+            "id": 4558168,
+            "content": "Balances torque",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Incorrect. While the principle of moments $(\\text{Torque} = \\text{Force} \\times \\text{Distance})$ explains how the lever works, the functional purpose of this tool is to overcome the resistance of the cap by generating a high output force, not to maintain a balanced state of equilibrium."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "2dc5d987-f22a-495f-aca1-4a23d2396c47",
+        "specification": "Which of the following is NOT a purpose of cams and followers?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333836,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884873,
+            "content": "Change direction of motion",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884874,
+            "content": "Maintain a constant rotary speed",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884875,
+            "content": "Convert rotary motion to reciprocating",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884876,
+            "content": "Control timing in mechanical systems",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2e769cbe-7154-4f39-95be-0a0eea6fc12c",
+        "specification": "Which component is used to convert rotary motion to reciprocating motion?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333818,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884801,
+            "content": "Pulley",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884802,
+            "content": "Cam and follower",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884803,
+            "content": "Gear train",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884804,
+            "content": "Belt drive",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3cb4aa15-fe39-470f-979a-9504f703ed05",
+        "specification": "Which formula best represents mechanical efficiency?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585319,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557933,
+            "content": "$\\frac{\\text{load}}{\\text{effort}}$",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This formula defines mechanical advantage (MA)."
+          },
+          {
+            "id": 4557934,
+            "content": "$\\text{input energy} \\times 100$",
+            "correct": false,
+            "order": 2,
+            "markscheme": "This is not a formula for efficiency; efficiency requires a ratio of output to input."
+          },
+          {
+            "id": 4557935,
+            "content": "$\\frac{\\text{useful output energy}}{\\text{input energy}} \\times 100$",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Efficiency is the ratio of useful energy output to the total energy input, expressed here as a percentage."
+          },
+          {
+            "id": 4557936,
+            "content": "$\\text{output torque} \\times \\text{time}$",
+            "correct": false,
+            "order": 4,
+            "markscheme": "This formula does not represent efficiency. Torque $\\times$ time is related to angular impulse, not efficiency."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "3f1adee4-b1dc-4320-a501-c1b821647afd",
+        "specification": "A designer is prototyping a manually operated tool that cuts thin sheet materials (like cardboard or plastic). To evaluate different mechanical systems that could be used in hand-operated tools, they analyze force transmission, motion type, and system efficiency across three concepts.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:02:24.882Z",
+            "resultId": 3710
+          }
+        },
+        "currentRevisionId": 1689897,
+        "parts": [
+          {
+            "id": 1152565,
+            "content": "**Figure 1** shows a simple pair of scissors.\n\n![](https://pub-images.revisiondojo.com/question-images/0838V6R64SlrwwIBXRKcF)\n\ni.) State the type of motion output by the scissors in **Figure 1**.",
+            "order": 0,
+            "markscheme": "- Oscillating (angular) motion about a pivot <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152566,
+            "content": "ii.) With reference to a standard pair of scissors, describe how material selection affects the performance of the scissors.",
+            "order": 1,
+            "markscheme": "- Blades made of hardened steel increase durability and sharpness <marks>1 mark</marks>\n- Plastic handles reduce weight and improve comfort <marks>1 mark</marks>\n- Handle shape and material influence grip and control <marks>1 mark</marks>\n- Poor material choices could lead to deformation or user fatigue <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152567,
+            "content": "**Figure 2** shows a wheel and axle mechanism connected to a hand crank.\n\n![](https://pub-images.revisiondojo.com/question-images/6WzBUi1USj67ay97tuYTZ)\n\nReferring to **Figure 2**, state two ways the wheel and axle mechanism increases mechanical advantage.",
+            "order": 2,
+            "markscheme": "- Larger wheel diameter (or radius) compared to axle diameter (or radius) <marks>1 mark</marks>\n- Allows a greater input distance at the wheel for the same output rotation at the axle <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152568,
+            "content": "**Figure 3** shows a basic pulley system with a movable pulley.\n\n![](https://pub-images.revisiondojo.com/question-images/TzLhPVGQfZYBcOn9pprsE)\n\nExplain how the use of a movable pulley in **Figure 3** reduces the required input force.",
+            "order": 3,
+            "markscheme": "- A movable pulley distributes the load between two rope sections <marks>1 mark</marks>\n- This reduces (approximately halves) the input force needed (ideal MA $=2$) <marks>1 mark</marks>\n- The trade-off is that the input rope must be pulled further for the same lift <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152569,
+            "content": "i.) Compare the systems shown in **Figures 2** and **3** in terms of their mechanical efficiency and force transmission for lifting or rotating tasks.",
+            "order": 4,
+            "markscheme": "- Figure 2 (wheel and axle): transmits rotary motion into rotation/winding <marks>1 mark</marks>\n- Figure 2: mechanical advantage depends on wheel:axle radius ratio <marks>1 mark</marks>\n- Figure 2: typically relatively efficient due to fewer moving parts/direct contact (though friction still exists) <marks>1 mark</marks>\n- Figure 3 (movable pulley): converts an input pull into linear lifting motion <marks>1 mark</marks>\n- Figure 3: offers higher mechanical advantage (typically $2:1$ for a single movable pulley) <marks>1 mark</marks>\n- Figure 3: can be less efficient due to friction in pulleys and rope stretch/bending losses <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152570,
+            "content": "ii.) Suggest one modification to the pulley system in **Figure 3** to increase the maximum lifting height (vertical travel of the load) and explain its effect.",
+            "order": 5,
+            "markscheme": "- Use a longer rope (or reposition the fixed support/anchor point higher) <marks>1 mark</marks>\n- This increases the available rope travel, allowing the load to be raised further before the pulley system \u201cruns out\u201d of movement/rope <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4b5a1c82-8bc1-409e-9a0f-e468e3ac98d1",
+        "specification": "A belt-driven system is particularly useful when:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585317,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557929,
+            "content": "Direct contact is required.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Gears or friction drives are used for direct contact between shafts. Belt drives are used when shafts are separated by a distance."
+          },
+          {
+            "id": 4557930,
+            "content": "A flexible connection between shafts is needed.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Belt drives provide a flexible connection, allowing for some misalignment and shock absorption between shafts."
+          },
+          {
+            "id": 4557931,
+            "content": "The load must increase.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "While belt drives can change torque, they do not 'increase the load' in a functional mechanical sense; load is usually determined by the driven component."
+          },
+          {
+            "id": 4557932,
+            "content": "Back-and-forth motion is desired.",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Belt drives typically transmit continuous rotary motion. Back-and-forth (reciprocating) motion is usually achieved through cams or linkages."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "51d4669f-cfb0-4b3c-a92c-53fd5b5e3c54",
+        "specification": "Mechanical systems (levers, gears, and cams) and their application in assistive technology innovation.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585337,
+        "parts": [
+          {
+            "id": 1139977,
+            "content": "Evaluate how understanding levers, gear ratios, and cams can support innovation in assistive technology devices.",
+            "order": 1,
+            "markscheme": "- Explain how levers reduce physical strain for users with limited strength, promoting ergonomic innovation <marks>A1</marks>\n- Describe how gear ratios enable fine motor control in mobility devices, allowing for precise user interaction <marks>A1</marks>\n- Discuss how cams automate complex movements to replicate natural human motion in prosthetics <marks>A1</marks>\n- Identify how customized motion profiles can be created using cam designs to tailor devices to specific user needs <marks>A1</marks>\n- Outline how levers provide mechanical advantage, enabling users to operate mechanisms with minimal input force <marks>A1</marks>\n- Evaluate how gearboxes adapt torque and speed output to specific environmental challenges faced by users <marks>A1</marks>\n- Analyze how compact cam and gear systems satisfy the portability and space constraints of wearable devices <marks>A1</marks>\n- Assess how improved mechanical systems increase the independence and daily usability of assistive technologies <marks>A1</marks>\n- Explain how these mechanisms reduce energy expenditure, allowing for longer and more active device use <marks>A1</marks>\n\n*Award [1] per relevant, thoughtful point up to [9 max].*\n\n9 marks total",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "5d7f04b8-c198-4dbe-833a-3a24326f8e6a",
+        "specification": "Which of the following systems is best for transmitting rotary motion over long distances?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333826,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884833,
+            "content": "Pulley and belt",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884834,
+            "content": "Cam and follower",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884835,
+            "content": "Worm gear",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884836,
+            "content": "Lever",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "62892417-0065-49fc-9f93-78099b2d94d5",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:03:49.000Z",
+            "resultId": 3592
+          }
+        },
+        "currentRevisionId": 1689919,
+        "parts": [
+          {
+            "id": 1152608,
+            "content": "A designer wants to use a Class 1 lever to reduce the force needed to lift a heavy load. Using the concept of mechanical advantage, discuss how the position of the fulcrum affects performance.",
+            "order": 0,
+            "markscheme": "- State that in a Class 1 lever, the fulcrum is positioned between the load and the effort <marks>1 mark</marks>\n- Explain that placing the fulcrum closer to the load increases the mechanical advantage $(MA)$ <marks>1 mark</marks>\n- Describe how an increased mechanical advantage reduces the amount of effort force required to move the load <marks>1 mark</marks>\n- Outline that a longer effort arm (distance from fulcrum to effort) provides greater force multiplication <marks>1 mark</marks>\n- Identify the trade-off where the load moves a shorter distance than the effort when the force is multiplied <marks>1 mark</marks>\n- Discuss the design implication that a longer effort arm requires more physical space for the lever to operate <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "64cfee73-b99a-4ee7-bcf3-df879911306b",
+        "specification": "What does a high velocity ratio typically indicate?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585358,
+        "parts": [],
+        "options": [
+          {
+            "id": 4558029,
+            "content": "Greater load movement",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4558030,
+            "content": "Reduced input distance",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4558031,
+            "content": "High efficiency with no losses",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4558032,
+            "content": "Increased torque with reduced speed",
+            "correct": true,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "69e79a69-d4a3-4191-aea4-dfc887abbfd5",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:09:29.330Z",
+            "resultId": 3151
+          }
+        },
+        "currentRevisionId": 1693532,
+        "parts": [
+          {
+            "id": 1155494,
+            "content": "Explain how velocity ratio affects the performance of a pulley system.",
+            "order": 0,
+            "markscheme": "- **State** that the velocity ratio ($VR$) determines the relative rotational speed between the driver and follower (driven) pulleys based on their diameters <marks>1 mark</marks>\n- **Explain** the inverse relationship between speed and torque, where a higher velocity ratio (where the follower pulley's diameter is greater than that of the driver pulley) results in a decrease in output speed but an increase in output torque <marks>1 mark</marks>\n- **Outline** how the $VR$ influences the suitability of the system for specific tasks by defining the mechanical advantage available for moving loads <marks>1 mark</marks>\n- **Describe** how designers utilize the $VR$ to select appropriate pulley diameters to achieve a target output speed from a fixed-speed power source <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "72f075a6-a367-440a-a598-57dbf4e0852b",
+        "specification": "Efficiency in a motion system can be improved by:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585292,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557869,
+            "content": "Using additional followers",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Adding more components like followers typically increases mechanical complexity and friction, which reduces efficiency."
+          },
+          {
+            "id": 4557870,
+            "content": "Increasing the load weight",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Increasing the load may increase the normal force and consequently the frictional forces, which does not improve efficiency."
+          },
+          {
+            "id": 4557871,
+            "content": "Reducing friction",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Efficiency is the ratio of useful work output to total energy input. Reducing friction minimizes energy losses as heat, thereby increasing efficiency."
+          },
+          {
+            "id": 4557872,
+            "content": "Decreasing input force",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Decreasing input force without an appropriate change in work input or output does not improve the efficiency of the system."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "885bd147-4806-45c4-a713-2a1f3aa8a5a1",
+        "specification": "Which system best suits applications requiring smooth and continuous power transfer?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585305,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557893,
+            "content": "Gear train",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4557894,
+            "content": "Chain drive",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4557895,
+            "content": "Belt drive",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4557896,
+            "content": "Cam",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "9018e4ad-6b3f-4e2c-b32b-625be95d0052",
+        "specification": "Which principle allows the output gear to rotate faster than the input?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd7xEtfaEeaizerX439kZZRlhd6f-EbE5DiFdXt2liro9BEzPbbXoKmQiS604ZsGT06zoIrkE6gw38YZgUZ7sEQuNhQeWbXyLfG5KLobRJOVn51GRJbajxBRvLcDzmxZN-ynExRLw?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:22:43.966Z",
+            "resultId": 2671
+          }
+        },
+        "currentRevisionId": 1690228,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930565,
+            "content": "Reduced efficiency",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930566,
+            "content": "Low velocity ratio (less than 1)",
+            "correct": true,
+            "order": 1,
+            "markscheme": "A gear train where $VR=\\frac{\\text{Speed}_{in}}{\\text{Speed}_{out}}=\\frac{N_{driven}}{N_{driver}}$ gives $VR<1$ when $\\text{Speed}_{out}>\\text{Speed}_{in}$ (speed multiplication)."
+          },
+          {
+            "id": 4930567,
+            "content": "Torque amplification",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Torque amplification is associated with $VR>1$ (output slower than input), not an output gear rotating faster than the input."
+          },
+          {
+            "id": 4930568,
+            "content": "Mechanical damping",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "90508306-831b-4a76-b599-a8f5102adc23",
+        "specification": "The velocity ratio in a gear system is calculated by",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585311,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557913,
+            "content": "dividing the effort by the load.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Dividing effort by load is the inverse of mechanical advantage ($MA = \\frac{\\text{load}}{\\text{effort}}$) and does not define velocity ratio."
+          },
+          {
+            "id": 4557914,
+            "content": "subtracting the number of teeth on the output gear from the number of teeth on the input gear.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "The velocity ratio is a ratio of magnitudes (teeth or speeds), not a difference between them."
+          },
+          {
+            "id": 4557915,
+            "content": "dividing the number of teeth on the driven gear by the number of teeth on the driver gear.",
+            "correct": true,
+            "order": 3,
+            "markscheme": "The velocity ratio ($VR$) for a gear system is defined as the ratio of the number of teeth on the driven (output) gear to the number of teeth on the driver (input) gear: $VR = \\frac{N_{\\text{driven}}}{N_{\\text{driver}}}$."
+          },
+          {
+            "id": 4557916,
+            "content": "multiplying the input speed by the output torque.",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Multiplying speed by torque relates to the power of the system ($P = \\tau \\omega$), not the velocity ratio."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "930c0e87-44ce-4dd1-8eeb-9c21bc11c000",
+        "specification": "What is the primary purpose of this lever configuration?\n\n![](https://pub-images.revisiondojo.com/plots/e9252450-6b56-4fbb-87da-0ea03b6e5451.png)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:12:22.707Z",
+            "resultId": 2956
+          }
+        },
+        "currentRevisionId": 1690063,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930521,
+            "content": "Input-output distance balance",
+            "correct": true,
+            "order": 0,
+            "markscheme": "In a first-class lever where the effort arm ($d_e$) and the resistance arm ($d_r$) are equal, the mechanical advantage is $1$. This configuration is used to balance the distance moved by the effort and the distance moved by the resistance, or to change the direction of the force without multiplying force or speed."
+          },
+          {
+            "id": 4930522,
+            "content": "Energy regeneration",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Levers do not regenerate energy; they are simple machines that transfer or transform work."
+          },
+          {
+            "id": 4930523,
+            "content": "Power output",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Power output is not specifically optimized by a lever with a mechanical advantage of $1$ compared to other configurations."
+          },
+          {
+            "id": 4930524,
+            "content": "Constant velocity",
+            "correct": false,
+            "order": 3,
+            "markscheme": "While velocity multiplication is a function of lever arms, a $1:1$ ratio does not optimize for a 'constant' velocity more than other ratios; it simply keeps input and output velocities equal."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "934837a8-037e-4f2c-a109-0b6d157a477f",
+        "specification": "Which of the following causes energy loss in mechanical systems?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585320,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557937,
+            "content": "Increased gear ratio",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4557938,
+            "content": "Reduced pulley diameter",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4557939,
+            "content": "Friction between moving parts",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4557940,
+            "content": "Using low-density materials",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "941c9827-bbdb-4cf6-be09-04f2484e0b0c",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1693546,
+        "parts": [
+          {
+            "id": 1155537,
+            "content": "Explain the function of cams and followers in mechanical systems and how cam shape affects motion.",
+            "order": 0,
+            "markscheme": "- **State** that the primary function of a cam and follower system is to convert rotary motion into reciprocating or oscillating motion. <marks>1 mark</marks>\n\n- **Explain** that the follower remains in constant contact with the cam, meaning its displacement is dictated by the specific contour or profile of the cam. <marks>1 mark</marks>\n\n- **Describe** how the cam profile is designed with specific segments to control the timing and nature of the rise, fall, and dwell (periods of no motion). <marks>1 mark</marks>\n\n- **Identify** that a heart-shaped cam is specifically designed to provide a uniform follower speed (constant velocity) during the stroke. <marks>1 mark</marks>\n\n- **Explain** that an eccentric (circular) cam produces a smooth movement known as simple harmonic motion (SHM). <marks>1 mark</marks>\n\n- **State** that a pear-shaped cam allows for a period of dwell while the follower is on the circular section, followed by a rise and fall. <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "95569707-8603-41d8-a863-3efa709c1f86",
+        "specification": "What is the most probable reason for using this type of gear?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcF8-L-BDGoWEBOMLbrBY7yld2mpB2IlmgcMlXqQiGZAMoJ6bkEf3DOuCqjPjNJKntGt6ndqBfSCKriP6GEsFpR0cLP6PmnVkLY9gP7wjVk0CRDGSQSVdtTrAvysJI9szG7xstlSw?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333845,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884909,
+            "content": "Reverses rotation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884910,
+            "content": "Allows axial shifting",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884911,
+            "content": "Locks motion to prevent back-driving",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884912,
+            "content": "Compresses input force",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "960a6322-971d-442c-a52f-df8d8e03ad23",
+        "specification": "In a pulley system, the mechanical advantage increases with:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585304,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557889,
+            "content": "Using gears with fewer teeth",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4557890,
+            "content": "Reducing belt tension",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4557891,
+            "content": "Increasing the diameter of the pulley",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4557892,
+            "content": "Adding more supporting rope sections",
+            "correct": true,
+            "order": 4,
+            "markscheme": "In an ideal pulley system, the mechanical advantage is determined by the number of rope sections supporting the movable load. Increasing the number of these sections increases the mechanical advantage because the effort force is distributed across more lines."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "a1d9e0ab-4931-48ee-9c87-6c1b67a03e81",
+        "specification": "What is the purpose of cams in mechanical systems?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333824,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884825,
+            "content": "Reduce vibration in a belt",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884826,
+            "content": "Provide constant rotary output",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884827,
+            "content": "Convert rotary motion to reciprocating motion",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884828,
+            "content": "Change gear ratios",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a88d8949-ceb7-422f-bca3-ec34513f751a",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1693550,
+        "parts": [
+          {
+            "id": 1155541,
+            "content": "Define mechanical advantage and provide the formula used to calculate it.",
+            "order": 0,
+            "markscheme": "- Define mechanical advantage as a measure of how much a system multiplies force <marks>1 mark</marks>\n- State the formula for mechanical advantage: $\\text{Mechanical Advantage} = \\frac{\\text{load force}}{\\text{effort force}}$ <marks>1 mark</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b68efb6f-62d4-464c-b276-430e67dda098",
+        "specification": "A design engineering team is evaluating simple mechanical systems to help reduce the manual effort needed in operating machinery. They investigate common mechanisms for force multiplication, motion transformation, and energy transmission.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1693575,
+        "parts": [
+          {
+            "id": 1155594,
+            "content": "**Figure 1** shows a simple worm gear driving a spur gear.\n\n![](https://pub-images.revisiondojo.com/question-images/-uo_T99HaeF0CrLfjM3lF)\n\nIdentify the input and output motions in the worm and spur gear system in **Figure 1**.",
+            "order": 0,
+            "markscheme": "The worm gear provides rotary input, and the spur gear also produces rotary output. <marks>1 mark</marks>\n\n*Award 1 mark for identifying both input and output motions as rotary.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155595,
+            "content": "Referring to **Figure 1**, explain why worm gear systems are often used in lifting devices or winches.",
+            "order": 1,
+            "markscheme": "Worm gears have a high gear ratio, allowing for significant torque multiplication. <marks>1 mark</marks>\n\nThis makes it easier to lift heavy loads with minimal input force. <marks>1 mark</marks>\n\nThey also prevent back-driving \u2014 the spur gear cannot rotate the worm gear. <marks>1 mark</marks>\n\nThis adds a safety feature by holding the load in place when power is off. <marks>1 mark</marks>\n\n*Award up to 4 marks for mechanical reasoning and practical explanation of usage.*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155596,
+            "content": "**Figure 2** shows a mechanical linkage made up of connected bars forming a four-bar chain.\n\n![](https://pub-images.revisiondojo.com/question-images/daeoWUxZUysiTqXBBC4sh)\n\nState one application of a four-bar linkage shown in **Figure 2** and explain how it functions.",
+            "order": 2,
+            "markscheme": "Application: Used in a bicycle brake mechanism. <marks>1 mark</marks>\n\nWhen the input link moves, it causes the output link to move in a controlled path. <marks>1 mark</marks>\n\nThis transmits force while allowing a specific type of constrained motion. <marks>1 mark</marks>\n\n*Award 1 mark for naming a valid application and up to 2 marks for describing its function.*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155597,
+            "content": "Using **Figure 2**, evaluate the advantages and limitations of using four-bar linkages in mechanical systems.",
+            "order": 3,
+            "markscheme": "Advantage: Allows controlled and predictable motion. <marks>1 mark</marks>\n\nAdvantage: Can convert rotary motion into complex paths (e.g. linear or curved). <marks>1 mark</marks>\n\nAdvantage: Compact and can be customized for many design needs. <marks>1 mark</marks>\n\nLimitation: High wear at joints due to constant pivoting. <marks>1 mark</marks>\n\nLimitation: Requires precise alignment to function properly. <marks>1 mark</marks>\n\nLimitation: Limited load-bearing compared to more rigid systems. <marks>1 mark</marks>\n\n*Award up to 6 marks for three well-explained advantages and three limitations.*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155598,
+            "content": "**Figure 3** shows a class 1 lever (e.g. a seesaw) with effort, fulcrum, and load clearly labeled.\n\n![](https://pub-images.revisiondojo.com/question-images/V8jAtrvgUGzlngBLJFhm0)\n\nReferring to **Figure 3**, state the main mechanical advantage of a class 1 lever when the effort arm is longer than the load arm.",
+            "order": 4,
+            "markscheme": "It allows a smaller effort to lift a heavier load. <marks>1 mark</marks>\n\nThis occurs because a longer effort arm increases the turning moment. <marks>1 mark</marks>\n\n*Award up to 2 marks for a correct explanation of force advantage due to lever arm length.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155599,
+            "content": "Calculate the mechanical advantage of the class 1 lever in **Figure 3** if the effort arm is 90 cm and the load arm is 30 cm.",
+            "order": 5,
+            "markscheme": "Mechanical Advantage = Effort arm \u00f7 Load arm = 90 \u00f7 30 = 3\n\n<marks>1 mark</marks> for correct formula\n\n<marks>1 mark</marks> for correct answer\n\n*Award 1 mark for correct formula and 1 mark for accurate calculation.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "bdf25640-2327-4eb2-b88f-7b28c3e535c5",
+        "specification": "A lever reduces effort by:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333820,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884809,
+            "content": "Eliminating energy losses",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884810,
+            "content": "Increasing mechanical advantage through its arm ratio",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884811,
+            "content": "Changing linear motion to rotary",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884812,
+            "content": "Adding friction to the system",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d01fe0c3-3d64-46cf-9eef-dd1082b58a65",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:06:07.726Z",
+            "resultId": 1915
+          }
+        },
+        "currentRevisionId": 1690906,
+        "parts": [
+          {
+            "id": 1153337,
+            "content": "Describe two formulas used to calculate efficiency and explain one way it can be improved in a belt system.",
+            "order": 0,
+            "markscheme": "- State the formula for efficiency as the ratio of energy transfer: $\\text{Efficiency} = \\frac{\\text{useful energy output}}{\\text{total energy input}} \\times 100\\%$ <marks>1 mark</marks>\n- State the formula for efficiency in mechanical systems using mechanical advantage ($\\text{MA}$) and velocity ratio ($\\text{VR}$): $\\text{Efficiency} = \\frac{\\text{MA}}{\\text{VR}} \\times 100\\%$ <marks>1 mark</marks>\n- State a method for improving efficiency in a belt system, such as reducing friction or performing regular maintenance <marks>1 mark</marks>\n- Explain how this method increases efficiency, for example, by reducing energy losses to heat through lubrication or preventing slippage through belt tensioning <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d5f4b464-fa81-4c9a-a6e6-47a875265317",
+        "specification": "Which property best explains why this setup changes direction of motion?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfeM8If7hKRN5MmKJFcByJxSPzMprh7qClFjnYZC8X2-kXZATLGJQeljqrD-Q16kCpPlyAI4Q40IJhhm8Pph9v-bDqmKsmH6z4VpYY7grOYE94d7YGfT_XD_CNq7PUy5Um-49HAHw?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1333844,
+        "parts": [],
+        "options": [
+          {
+            "id": 3884905,
+            "content": "Torque output",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3884906,
+            "content": "Contact material",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3884907,
+            "content": "Gear orientation",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3884908,
+            "content": "Pulley elasticity",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d9b4feff-089d-4115-8b54-dfe5508606d0",
+        "specification": "What mechanical principle is demonstrated in the pulley system shown below?\n\n![](https://pub-images.revisiondojo.com/notes/159a5118-8a06-4ba4-8206-f48de351d9b8.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585467,
+        "parts": [],
+        "options": [
+          {
+            "id": 4558285,
+            "content": "Mechanical advantage",
+            "correct": true,
+            "order": 1,
+            "markscheme": "- State the formula for mechanical advantage: $MA = \\frac{\\text{Load}}{\\text{Effort}}$\n- Substitute the values from the diagram: $MA = \\frac{100\\text{ N}}{50\\text{ N}}$\n- Calculate the result: $MA = 2$\n- Conclude that the principle demonstrated is mechanical advantage because the input effort is less than the output load. <marks>A1</marks>\n\n1 mark total"
+          },
+          {
+            "id": 4558286,
+            "content": "Magnetic resistance",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Magnetic resistance is a property of electromagnetic systems and is not demonstrated by a mechanical pulley system."
+          },
+          {
+            "id": 4558287,
+            "content": "Velocity ratio",
+            "correct": false,
+            "order": 3,
+            "markscheme": "While the system has a velocity ratio, the inclusion of force labels ($100\\text{ N}$ and $50\\text{ N}$) specifically highlights the multiplication of force, which is the definition of mechanical advantage."
+          },
+          {
+            "id": 4558288,
+            "content": "Energy storage transfer",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Energy storage transfer refers to systems like flywheels or springs; simple pulley systems are used to transmit and multiply force, not to store energy."
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "dd973450-7869-4d20-b27c-6b0974f46dc6",
+        "specification": "Which calculation determines the mechanical advantage (MA) of this system?\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdBA9S5kBn3IKg7liP_aYuiZ8c6VF_s1UYuXM109si3-hT-nqztkBVwwpj8x4PjYbMdq6sW1NhHDWufld-KPO3cn6Xp-3mtjsYIfH1LdIO6nVD1KOrYqpAUzPxJbNHNyututb00Ig?key=gz2IFjHMQBPKFRswYwU8xQ)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:53:51.073Z",
+            "resultId": 2072
+          }
+        },
+        "currentRevisionId": 1690655,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930713,
+            "content": "$\\text{Power} = \\text{force} \\times \\text{distance}$",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Power is not calculated as force $\\times$ distance (that is work done)."
+          },
+          {
+            "id": 4930714,
+            "content": "$\\text{Efficiency} = \\frac{\\text{input}}{\\text{output}}$",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Efficiency is typically calculated as $\\frac{\\text{output}}{\\text{input}}$ (often $\\times 100\\%$), not a direct calculation of MA."
+          },
+          {
+            "id": 4930715,
+            "content": "$\\text{Velocity ratio} = \\frac{\\text{driver diameter}}{\\text{driven diameter}}$",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Velocity ratio is a different concept from mechanical advantage (force ratio)."
+          },
+          {
+            "id": 4930716,
+            "content": "$\\text{MA} = \\frac{\\text{load}}{\\text{effort}}$",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Mechanical advantage is calculated as $\\frac{\\text{load (output force)}}{\\text{effort (input force)}}$."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e1bfa99c-a4af-4ea1-83a6-62bd7f236097",
+        "specification": "In gear-driven systems, speed is decreased when:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:49:08.392Z",
+            "resultId": 2111
+          }
+        },
+        "currentRevisionId": 1690603,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930693,
+            "content": "A smaller driver turns a larger driven gear",
+            "correct": true,
+            "order": 0,
+            "markscheme": "- Identify that in a gear-driven system, speed is decreased when a smaller driver gear (with fewer teeth) turns a larger driven gear (with more teeth). <marks>1 mark</marks>"
+          },
+          {
+            "id": 4930694,
+            "content": "Large driver turns a small driven gear",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This configuration results in a speed increase, often referred to as overdrive."
+          },
+          {
+            "id": 4930695,
+            "content": "Belts slip during rotation",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Slippage represents a loss of mechanical efficiency and is characteristic of belt-and-pulley systems rather than gear-driven systems."
+          },
+          {
+            "id": 4930696,
+            "content": "Torque is constant throughout",
+            "correct": false,
+            "order": 3,
+            "markscheme": "In a speed-reducing gear system, torque is increased as speed decreases; it does not remain constant."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "eb669410-3de3-41c6-b169-d307a965f913",
+        "specification": "Which type of motion do followers typically experience in a cam mechanism?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:24:47.754Z",
+            "resultId": 1804
+          }
+        },
+        "currentRevisionId": 1691022,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930797,
+            "content": "Oscillating",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930798,
+            "content": "Rotational",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930799,
+            "content": "Translational or reciprocating",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930800,
+            "content": "Spiral",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ed72618b-05e7-4dc1-973a-5a51e712a0fe",
+        "specification": "If the driver gear has $10$ teeth and the driven gear has $20$, the velocity ratio is:",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585339,
+        "parts": [],
+        "options": [
+          {
+            "id": 4557985,
+            "content": "$2:1$",
+            "correct": true,
+            "order": 1,
+            "markscheme": "The velocity ratio ($VR$) for a gear system is defined as the ratio of the number of teeth on the driven gear ($N_{\\text{driven}}$) to the number of teeth on the driver gear ($N_{\\text{driver}}$):\n\n$$VR = \\frac{N_{\\text{driven}}}{N_{\\text{driver}}}$$\n\nSubstituting the given values:\n\n$$VR = \\frac{20}{10} = 2$$\n\nThis is expressed as a ratio of $2:1$."
+          },
+          {
+            "id": 4557986,
+            "content": "$1:2$",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4557987,
+            "content": "$1:1$",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4557988,
+            "content": "$10:1$",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "f10092e8-abcd-4b6f-bb06-b418aa290d2a",
+        "specification": "An engineering team is designing an adjustable standing desk that allows users to raise and lower the desk surface manually. They compare different mechanical systems for torque, control, and space efficiency.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER"
+        },
+        "currentRevisionId": 1693578,
+        "parts": [
+          {
+            "id": 1155606,
+            "content": "**Figure 1** shows a basic rack and pinion mechanism.\n\n![](https://pub-images.revisiondojo.com/question-images/TVWLhlIDLS-SAdoMdTPf7)\n\nState the type of motion output by the rack in **Figure 1**.",
+            "order": 0,
+            "markscheme": "Linear motion. <marks>1 mark</marks>\n\n*Award 1 mark for correct identification.*",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155607,
+            "content": "**Figure 2** shows a lead screw used in a mechanical lifting system.\n\n![](https://pub-images.revisiondojo.com/question-images/hSMD3jzUccCfgxZYcB0rS)\n\nExplain why a lead screw system (**Figure 2**) is suitable for vertical adjustment of the desk.",
+            "order": 1,
+            "markscheme": "Converts rotary motion into linear vertical motion. <marks>1 mark</marks>\n\nProvides high precision and control over movement. <marks>1 mark</marks>\n\nSelf-locking nature prevents unintended lowering. <marks>1 mark</marks>\n\n*Award up to 3 marks for relevant, justified points.*",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155608,
+            "content": "Compare the motion conversion mechanisms in **Figures 1** and **2**.",
+            "order": 2,
+            "markscheme": "Figure 1 (rack and pinion) converts rotary motion into linear motion. <marks>1 mark</marks>\n\nFigure 2 (lead screw) also converts rotary to linear but with more friction. <marks>1 mark</marks>\n\nRack and pinion offers faster response and less resistance. <marks>1 mark</marks>\n\nLead screw offers greater load support and precision. <marks>1 mark</marks>\n\n*Award up to 4 marks for clear comparative analysis.*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155609,
+            "content": "**Figure 3** shows a worm and wheel gear mechanism.\n\n![](https://pub-images.revisiondojo.com/question-images/Gl7H9v0mC1UtFQNjR1rH3)\n\nReferring to **Figure 3**, state two advantages of using a worm and wheel mechanism.",
+            "order": 3,
+            "markscheme": "High torque output. <marks>1 mark</marks>\n\n\nPrevents back-driving (self-locking). <marks>1 mark</marks>\n\n*Award 1 mark for each correct advantage.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155610,
+            "content": "Suggest one reason why worm gears (**Figure 3**) are not ideal for quick height adjustments.",
+            "order": 4,
+            "markscheme": "Worm gears are slow due to high gear reduction. <marks>1 mark</marks>\n\n\nIncreased friction leads to energy loss and reduced speed. <marks>1 mark</marks>\n\n*Award 1 mark for correct identification and 1 for linked justification.*",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155611,
+            "content": "A designer must select between the three mechanisms for a motorized desk. Evaluate their suitability in terms of space, control, and torque output.",
+            "order": 5,
+            "markscheme": "**Rack and Pinion (Figure 1):**\n- Compact and simple. <marks>1 mark</marks>\n- Moderate control and moderate torque output. <marks>1 mark</marks>\n\n**Lead Screw (Figure 2)**:\n- Requires more space for thread length. <marks>1 mark</marks>\n- High control and precision. <marks>1 mark</marks>\n- Provides strong lifting force. <marks>1 mark</marks>\n\n**Worm and Wheel (Figure 3)**:\n- Compact for high torque transmission. <marks>1 mark</marks>\n- Slow speed, suitable for locking mechanisms.\n\n*Award up to 2 marks per mechanism. Accept other valid reasoning.*",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f21f4304-d1c7-4fbb-accf-16fc2d04f061",
+        "specification": "A second-class lever has the:",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:26:31.946Z",
+            "resultId": 1755
+          }
+        },
+        "currentRevisionId": 1691077,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930813,
+            "content": "Load between the effort and the fulcrum",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4930814,
+            "content": "Fulcrum between load and effort",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4930815,
+            "content": "Effort between load and fulcrum",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4930816,
+            "content": "Effort and load on opposite sides of the fulcrum",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f76e2421-23f1-4ee3-a6b2-58b6e751e158",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585408,
+        "parts": [
+          {
+            "id": 1140004,
+            "content": "Compare gear and belt-driven systems in terms of efficiency, noise, cost, maintenance, slippage, and precision.",
+            "order": 1,
+            "markscheme": "- **Efficiency**: Gear systems are generally more efficient than belt systems because they lose less energy through friction and heat <marks>1</marks>\n- **Noise**: Belt systems operate much more quietly during operation than gear systems, which involve metal-on-metal contact <marks>1</marks>\n- **Cost**: Belt systems are typically cheaper to produce and install compared to precision gear assemblies <marks>1</marks>\n- **Maintenance**: Gear systems require regular lubrication to function, whereas belt systems require periodic tensioning to remain effective <marks>1</marks>\n- **Slippage**: Gears provide a positive drive with no slippage, while belts may slip under heavy loads <marks>1</marks>\n- **Precision**: Gears offer more precise motion transfer and synchronized timing compared to the potential stretch or creep in belts <marks>1</marks>\n\n*Award [1] for each well-explained comparison up to [6 max].*\n\n[6 marks total]",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "f8593509-f2f6-44ea-901e-3aeab80300dd",
+        "specification": "A group of students is designing a mechanical toy that incorporates various motion and force transformation systems to achieve movement using minimal manual effort. To evaluate the mechanical components, they study commonly used mechanisms and analyze their functions and efficiency.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:17:34.568Z",
+            "resultId": 1876
+          }
+        },
+        "currentRevisionId": 1693582,
+        "parts": [
+          {
+            "id": 1155623,
+            "content": "**Figure 1** shows a belt and pulley system with two pulleys of different diameters connected by a belt.\n\n![](https://pub-images.revisiondojo.com/question-images/kPfzE8-NmDOtHuCrxNI7R)\n\nReferring to Figure 1, calculate the velocity ratio if the diameter of the drive pulley is 0.1 m and the driven pulley is 0.25 m.",
+            "order": 0,
+            "markscheme": "- Uses correct relationship: velocity ratio $=$ diameter of driven pulley $\\div$ diameter of drive pulley <marks>1 mark</marks>\n- Correct calculation and answer: $0.25 \\div 0.1 = 2.5$ <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155624,
+            "content": "State one advantage and one disadvantage of using a belt and pulley system compared to a gear train.",
+            "order": 1,
+            "markscheme": "- One valid advantage of belt and pulley compared to gears (e.g. quieter operation / less maintenance / can absorb shock) <marks>1 mark</marks>\n- One valid disadvantage of belt and pulley compared to gears (e.g. can slip under load, reducing accuracy / less suitable for high torque) <marks>1 mark</marks>\n- One additional relevant point (advantage or disadvantage), e.g. flexible positioning of components / longer centre distances possible <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155625,
+            "content": "A belt-driven system like Figure 1 has an input power of 120W and an output power of 90W. \n\nCalculate the efficiency and explain two factors that might contribute to energy loss.",
+            "order": 2,
+            "markscheme": "- Correct efficiency calculation using $\\text{Efficiency} = (\\text{Output power} \\div \\text{Input power}) \\times 100$ and obtains $75\\%$ <marks>1 mark</marks>\n- One valid factor causing energy loss (e.g. friction between belt and pulley / bearing friction) <marks>1 mark</marks>\n- Second valid factor causing energy loss (e.g. belt slip / heat buildup due to tension or misalignment / belt deformation) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155626,
+            "content": "**Figure 2** shows a crank and slider mechanism converting rotary motion into linear motion.\n\n![](https://pub-images.revisiondojo.com/question-images/M3WXaOVrgfTMG7EkU8x0a)\n\nIdentify the type of motion transformation occurring in the mechanism shown in **Figure 2**.",
+            "order": 3,
+            "markscheme": "- States that the mechanism converts rotary motion into reciprocating linear motion <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155627,
+            "content": "Explain how the crank and slider mechanism in **Figure 2** could be used in a product to perform practical functions.",
+            "order": 4,
+            "markscheme": "- Describes how continuous rotation of the crank produces back-and-forth (reciprocating) motion of the slider <marks>1 mark</marks>\n- Links the motion to a valid product/application (e.g. piston pump moving fluid / piston in a small engine / reciprocating saw) <marks>1 mark</marks>\n- Explains how the reciprocating motion achieves the stated function in that product (e.g. pushes/pulls fluid, compresses/expands, cuts on strokes) <marks>1 mark</marks>\n- Gives a second relevant, explained application or functional benefit (e.g. converting motor rotation to linear force at the output) <marks>1 mark</marks>\n- Includes relevant mechanical reasoning/detail (e.g. stroke length depends on crank radius; speed depends on rotational speed; force transmission through connecting rod) <marks>1 mark</marks>\n- Mentions a realistic design/operation consideration affecting function (e.g. need for lubrication to reduce friction/wear; alignment to reduce binding; material choice for durability) <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155628,
+            "content": "**Figure 3** shows a class 2 lever with the load between the fulcrum and the effort.\n\n![](https://pub-images.revisiondojo.com/question-images/s1jqYfaR9CQid3tgCDp1A)\n\nWith reference to Figure 3, explain how the positioning of the load, effort, and fulcrum makes the system a class 2 lever and how this affects mechanical advantage.",
+            "order": 5,
+            "markscheme": "- States that in a class 2 lever the load is positioned between the fulcrum and the effort <marks>1 mark</marks>\n- Explains that the effort arm is longer than the load arm <marks>1 mark</marks>\n- Links this to increased mechanical advantage / reduced effort force needed to lift a given load <marks>1 mark</marks>\n- Gives a relevant example such as a wheelbarrow and links it to efficient lifting <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fa0f1d3b-1045-4fab-a250-621b44ae0dac",
+        "specification": "In the illustrated system, which value would be directly calculated from input and output forces?\n\n![](https://pub-images.revisiondojo.com/notes/56a57ada-e83a-4087-9561-a95d0132d7d6.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 1,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1585532,
+        "parts": [],
+        "options": [
+          {
+            "id": 4558449,
+            "content": "Velocity ratio",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Velocity ratio ($VR$) is the ratio of the distance moved by the effort to the distance moved by the load ($VR = \\frac{d_{in}}{d_{out}}$). It is determined by the geometry of the system, not the forces applied."
+          },
+          {
+            "id": 4558450,
+            "content": "Rotational inertia",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Rotational inertia ($I$) depends on the mass of the object and the distribution of that mass relative to the axis of rotation ($I = \\sum mr^2$). It is not a ratio of forces."
+          },
+          {
+            "id": 4558451,
+            "content": "Mechanical advantage",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Mechanical advantage ($MA$) is defined as the ratio of the output force (load) to the input force (effort), given by the formula $MA = \\frac{F_{out}}{F_{in}}$."
+          },
+          {
+            "id": 4558452,
+            "content": "Efficiency loss",
+            "correct": false,
+            "order": 4,
+            "markscheme": "Efficiency loss is derived from the difference between the ideal and actual performance, often calculated using both mechanical advantage and velocity ratio (Efficiency $= \\frac{MA}{VR} \\times 100\\%$). It cannot be determined from forces alone without knowing the distance ratio."
+          }
+        ],
+        "examBoardId": null
+      }
+    ],
+    "count": "43",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 56823,
+      "title": "B3.3 Mechanical systems application and selection (HL only)",
+      "slug": "ib-design-technology-new-b3-3-mechanical-systems-application-and-sele-56823",
+      "parentTopicId": 56817
+    },
+    "subject": {
+      "id": 1,
+      "title": "Design Technology (First Exam 2027)",
+      "slug": "ib-design-technology-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "43",
+      "byQuestion": {}
+    }
+  }
+}

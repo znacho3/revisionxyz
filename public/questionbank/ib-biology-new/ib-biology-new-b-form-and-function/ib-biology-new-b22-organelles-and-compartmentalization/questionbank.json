@@ -1,3 +1,3560 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d1598e87e0c44920d2e10a53f54ca9df4ddc5b5b1d304092b851269390229ca8
-size 178106
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0349136a-1df3-4e61-a6cf-5473e050ae49",
+        "specification": "Which development most enabled scientists to isolate organelles and study their functions?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:18:26.142Z",
+            "resultId": 31749
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28760,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.3  Developments in microscopy",
+              "title": "A2.2.3  Developments in microscopy",
+              "labeledAt": "2026-03-06T05:40:50.523Z",
+              "reasoning": "The question asks what enabled scientists to study individual organelle function; this hinges on methodological advances (notably cell fractionation/ultracentrifugation) that are part of developments in cell study techniques.",
+              "confidence": 0.7
+            },
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-06T05:40:50.523Z",
+              "reasoning": "Focus is on organelles as functional subunits and how scientists could investigate organelle function individually, which aligns with the concept of organelles performing specific functions.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1694744,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934065,
+            "content": "Use of dyes and staining in microscopy",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934066,
+            "content": "Invention of ultracentrifugation and cell fractionation techniques",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934067,
+            "content": "Discovery of antibiotics",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934068,
+            "content": "Observation of mitosis under light microscopes",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "09cca698-7be0-4356-a2a2-f71202adbb79",
+        "specification": "How does compartmentalization improve **metabolic efficiency** in eukaryotic cells?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-06T15:31:35.004Z",
+              "reasoning": "The question asks how compartmentalization improves metabolic efficiency in eukaryotic cells, specifically via separating competing/incompatible biochemical pathways\u2014this matches advantages of cytoplasmic compartmentalization.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1085651,
+        "parts": [],
+        "options": [
+          {
+            "id": 3721629,
+            "content": "By preventing enzymes from interacting with each other",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3721630,
+            "content": "By lowering the temperature needed for chemical reactions",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3721631,
+            "content": "By isolating competing or incompatible biochemical pathways",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3721632,
+            "content": "By allowing water to flow freely between compartments",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "19a108b0-b6c4-42e7-9168-989ddd3ecdc3",
+        "specification": "In phagocytic cells, which **sequence of compartmentalized steps** correctly describes how a bacterium is digested?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29113,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.5 Infection control by phagocytes",
+              "title": "C3.2.5 Infection control by phagocytes",
+              "labeledAt": "2026-03-05T11:36:17.181Z",
+              "reasoning": "The question explicitly describes the process of phagocytosis (engulfing a bacterium and digesting it using lysosomes), which is the core mechanism of 'Infection control by phagocytes'.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T11:36:17.181Z",
+              "reasoning": "The question highlights the 'compartmentalized steps' of digestion, which relates directly to the advantages of compartmentalization in eukaryotes, such as keeping digestive enzymes (lysosomes) separate from the cytoplasm.",
+              "confidence": 0.85
+            },
+            {
+              "id": 28871,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.9 Structure and function of vesicles in cells (HL)",
+              "title": "B2.2.9 Structure and function of vesicles in cells (HL)",
+              "labeledAt": "2026-03-05T11:36:17.181Z",
+              "reasoning": "The sequence described involves the formation and fusion of vesicles (phagosomes and lysosomes), making the structure and function of vesicles highly relevant.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1479324,
+        "parts": [],
+        "options": [
+          {
+            "id": 4231125,
+            "content": "Engulfed into a vesicle \u2192 fused with lysosome \u2192 degraded by enzymes",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4231126,
+            "content": "Phagocytosis \u2192 protein synthesis \u2192 exocytosis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4231127,
+            "content": "Endocytosis \u2192 broken down by free cytoplasmic enzymes \u2192 vesicle formation",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4231128,
+            "content": "Translation \u2192 hydrolysis \u2192 pinocytosis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "1a413240-10bc-4d45-8f83-d1a0c54089a4",
+        "specification": "Which of the following is correctly classified as a **membrane-bound organelle**?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-05T11:36:16.868Z",
+              "reasoning": "This topic defines organelles as discrete subunits of cells with specific functions. The question requires classifying a cellular component (the nucleus) as a membrane-bound organelle.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-05T11:36:16.868Z",
+              "reasoning": "The nucleus and its role as a membrane-bound organelle is a fundamental part of eukaryotic cell structure.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28864,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "title": "B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "labeledAt": "2026-03-05T11:36:16.868Z",
+              "reasoning": "This topic specifically mentions the separation of the nucleus and cytoplasm into different compartments, which is achieved by its membrane-bound nature.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1085199,
+        "parts": [],
+        "options": [
+          {
+            "id": 3721649,
+            "content": "Cytoskeleton",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3721650,
+            "content": "Nucleus",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3721651,
+            "content": "Cell wall",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3721652,
+            "content": "Cytoplasm",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "24f1c4d3-fdb6-4e26-9027-3b5db13812fe",
+        "specification": "In eukaryotic cells, why is the **physical separation** of transcription and translation beneficial?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29190,
+              "isHl": true,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.15 Post-transcriptional modification in eukaryotic cells (HL)",
+              "title": "D1.2.15 Post-transcriptional modification in eukaryotic cells (HL)",
+              "labeledAt": "2026-03-06T16:03:00.505Z",
+              "reasoning": "Physical separation of transcription (nucleus) and translation (cytoplasm) in eukaryotes allows pre-mRNA processing (capping, splicing, polyadenylation) before ribosomes translate it.",
+              "confidence": 0.72
+            },
+            {
+              "id": 28864,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "title": "B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "labeledAt": "2026-03-06T16:03:00.505Z",
+              "reasoning": "The question is explicitly about why separating nucleus and cytoplasm is beneficial, i.e., advantages of compartmentalization (nucleus vs cytoplasm) in eukaryotic cells.",
+              "confidence": 0.63
+            }
+          ]
+        },
+        "currentRevisionId": 1085325,
+        "parts": [],
+        "options": [
+          {
+            "id": 3721581,
+            "content": "It allows immediate synthesis of protein from mRNA",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3721582,
+            "content": "It enables mRNA modification before it reaches ribosomes",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3721583,
+            "content": "It removes the need for ribosomes",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3721584,
+            "content": "It protects DNA from hydrolysis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a90211b-46ec-4bd6-b87c-f24393bee9b3",
+        "specification": "Which organelle packages and modifies proteins?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T11:52:12.286Z",
+            "resultId": 8362
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28870,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "title": "B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "labeledAt": "2026-03-05T11:32:49.589Z",
+              "reasoning": "The question asks for the organelle responsible for packaging and modifying proteins, which is the specific function of the Golgi apparatus covered in this topic.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1693784,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931361,
+            "content": "Golgi apparatus",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931362,
+            "content": "Cytosol",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931363,
+            "content": "Cytoskeleton",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931364,
+            "content": "Cell wall",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2acc2128-261a-4083-8fc1-8ac1c630f914",
+        "specification": "Which of the following pairs correctly identifies one structure as an organelle and the other as a non-organelle?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T11:51:52.776Z",
+            "resultId": 8366
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-05T11:32:47.038Z",
+              "reasoning": "The question specifically requires distinguishing between structures classified as organelles and those that are not, which directly relates to the definition of organelles as discrete subunits of cells.",
+              "confidence": 0.98
+            },
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-05T11:32:47.038Z",
+              "reasoning": "The structures mentioned in the options (nucleus, mitochondria, lysosome, ER, etc.) are all components of eukaryotic cell structure.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1693783,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931357,
+            "content": "Nucleus and ribosome",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Both the nucleus and ribosomes are considered organelles. The nucleus is a membrane-bound organelle that contains the cell's genetic material, while ribosomes, though not membrane-bound, are still classified as organelles that synthesize proteins in the IB curriculum."
+          },
+          {
+            "id": 4931358,
+            "content": "Cytoplasm and cell wall",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Neither the cytoplasm nor the cell wall are considered organelles. The cytoplasm is the gel-like substance that fills the cell, while the cell wall is an extracellular structure that provides support and protection."
+          },
+          {
+            "id": 4931359,
+            "content": "Mitochondrion and cytoskeleton",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. This pair does not include a non-organelle. Both are typically treated as organelles/cell structures within cells; mitochondria are membrane-bound organelles responsible for aerobic respiration, and the cytoskeleton is an intracellular cell structure (organelle) made of protein filaments."
+          },
+          {
+            "id": 4931360,
+            "content": "Cell wall and Golgi apparatus",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Correct. This pair includes one non-organelle and one organelle. The cell wall is an extracellular structure and is not classified as an organelle, while the Golgi apparatus is a membrane-bound organelle involved in modifying and packaging proteins/lipids for transport."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "339bf753-9ee8-42f6-a97c-5ee7687a166d",
+        "specification": "Which scientific advance most directly enabled the study of **individual organelle function**?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 9,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-05T11:32:32.519Z",
+              "reasoning": "The question asks about the methodology used to study the specific functions of individual organelles. Topic B2.2.1 states that organelles are discrete subunits adapted to perform specific functions. The advance mentioned in the correct option (ultracentrifugation/cell fractionation) is the primary technique used to isolate these subunits for functional analysis.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T11:32:32.519Z",
+              "reasoning": "Studying organelle function is fundamental to understanding the advantages of compartmentalization within the cytoplasm, which is the focus of this topic.",
+              "confidence": 0.8
+            },
+            {
+              "id": 28760,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.3  Developments in microscopy",
+              "title": "A2.2.3  Developments in microscopy",
+              "labeledAt": "2026-03-05T11:32:32.519Z",
+              "reasoning": "While the correct answer is cell fractionation, this topic covers historical and technological developments that advanced the field of cell biology, providing context for how our understanding of cell structure and function evolved.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1085197,
+        "parts": [],
+        "options": [
+          {
+            "id": 3721589,
+            "content": "Genetic sequencing techniques",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3721590,
+            "content": "Fluorescent antibody staining",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3721591,
+            "content": "Ultracentrifugation and cell fractionation",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3721592,
+            "content": "The invention of light microscopy",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "38b88067-0f94-47b1-af1f-bb243f07d007",
+        "specification": "What is a reason why **compartmentalization** benefits enzyme function in cells?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:54:28.878Z",
+            "resultId": 8283
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T11:31:45.574Z",
+              "reasoning": "The question directly asks for a benefit (advantage) of compartmentalization in cells, specifically regarding enzyme function (concentrating enzymes and substrates), which is a key concept covered in B2.2.3.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1694217,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932841,
+            "content": "It allows enzymes to permanently bind substrates",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Compartmentalization does not cause permanent binding; enzyme\u2013substrate binding is reversible."
+          },
+          {
+            "id": 4932842,
+            "content": "It keeps enzymes inactive until the entire cell is activated",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Compartmentalization separates processes; it does not generally keep all enzymes inactive until whole-cell activation."
+          },
+          {
+            "id": 4932843,
+            "content": "It maintains optimal pH for specific enzymes within organelles",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Different compartments can have different conditions (e.g. pH), allowing enzymes to function at their optimum."
+          },
+          {
+            "id": 4932844,
+            "content": "It allows the same enzyme to catalyze opposite reactions",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Enzymes are specific catalysts and do not catalyze opposite reactions simply due to compartmentalization."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4f088472-abae-4025-879d-d66fd7b33d44",
+        "specification": "What is one major advantage of **compartmentalization** in eukaryotic cells?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-06T16:19:28.070Z",
+              "reasoning": "The question asks for a major advantage of compartmentalization in eukaryotic cells\u2014specifically that different chemical reactions can occur in isolation within membrane-bound organelles.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1085647,
+        "parts": [],
+        "options": [
+          {
+            "id": 3721669,
+            "content": "It prevents cells from growing too large",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3721670,
+            "content": "It allows different chemical reactions to occur in isolation",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3721671,
+            "content": "It enables organelles to communicate directly using DNA",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3721672,
+            "content": "It eliminates the need for enzymes in the cytoplasm",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5e06bd1c-5bd3-4a1a-aeff-239d545ef67a",
+        "specification": "In what situation would **compartmentalisation of enzymes** be especially beneficial?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T11:32:16.326Z",
+              "reasoning": "The question asks for the benefits of enzyme compartmentalisation, which is the specific subject of topic B2.2.3. Compartmentalisation allows for the separation of incompatible biochemical processes, such as enzymes catalyzing opposite reactions.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1479335,
+        "parts": [],
+        "options": [
+          {
+            "id": 4231137,
+            "content": "When enzymes require high temperatures to function",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4231138,
+            "content": "When multiple enzymes catalyse opposite reactions",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4231139,
+            "content": "When enzymes are hydrophobic",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4231140,
+            "content": "When enzymes use DNA as a substrate",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "7ee8f6ec-a855-4800-9306-f27bd70e5746",
+        "specification": "Why is the **lysosome** considered a compartmentalized organelle?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:06:20.550Z",
+            "resultId": 11869
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T14:52:54.699Z",
+              "reasoning": "The question specifically asks why the lysosome is considered compartmentalized, which is the central concept of topic B2.2.3 regarding the advantages of separating specific processes and enzymes within the cytoplasm.",
+              "confidence": 0.98
+            },
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-05T14:52:54.699Z",
+              "reasoning": "Lysosomes are a key organelle in eukaryotic cells; understanding their role and membrane-bound structure is a fundamental part of studying eukaryote cell structure.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693892,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931621,
+            "content": "It surrounds enzymes with a membrane to prevent them from acting in the cytoplasm",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931622,
+            "content": "It stores DNA for protein synthesis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931623,
+            "content": "It contains ribosomes for translation",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931624,
+            "content": "It generates glucose through photosynthesis",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a2fba7b5-5a25-49de-aef9-9a539ca84214",
+        "specification": "Which labeled structure maximizes surface area for the light-dependent reactions?\n\n![](https://pub-images.revisiondojo.com/question-images/d_w4Fjs-Px-mwYtf9y0ra.jpeg)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 7,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:13:54.671Z",
+            "resultId": 43694
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28867,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.5 Adaptations of the chloroplast for photosynthesis (HL)",
+              "title": "B2.2.5 Adaptations of the chloroplast for photosynthesis (HL)",
+              "labeledAt": "2026-03-06T16:09:04.486Z",
+              "reasoning": "Focuses on structural adaptations of chloroplasts (e.g., stacked thylakoids/grana increasing membrane surface area) to optimize photosynthesis.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1697278,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940944,
+            "content": "Structures labeled 2 and 3",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. The chloroplast envelope membranes do not provide the main surface area for the light-dependent reactions."
+          },
+          {
+            "id": 4940945,
+            "content": "Structures labeled 7 and 8",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Thylakoid membranes (grana) provide a large membrane surface area containing photosystems and electron transport chains for the light-dependent reactions."
+          },
+          {
+            "id": 4940946,
+            "content": "Structure labeled 9",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Starch granules are storage products and are not the site of light-dependent reactions."
+          },
+          {
+            "id": 4940947,
+            "content": "Structures labeled 1 and 4",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. The outer envelope and intermembrane space do not increase surface area for the light-dependent reactions; these occur on thylakoid membranes."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a9f796bd-2a90-4aa6-80f9-90dd4e314d4e",
+        "specification": "Why is post-transcriptional modification of mRNA NOT possible in prokaryotes?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:32:07.645Z",
+            "resultId": 43714
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29190,
+              "isHl": true,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.15 Post-transcriptional modification in eukaryotic cells (HL)",
+              "title": "D1.2.15 Post-transcriptional modification in eukaryotic cells (HL)",
+              "labeledAt": "2026-03-06T16:09:11.993Z",
+              "reasoning": "The question asks why post-transcriptional modification of mRNA is not possible in prokaryotes, which directly targets understanding of post-transcriptional modification (capping/splicing/poly-A) and why it is eukaryote-specific.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1697340,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941112,
+            "content": "Their mRNA lacks a start codon",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect: prokaryotic mRNA contains start codons (commonly AUG) used to initiate translation."
+          },
+          {
+            "id": 4941113,
+            "content": "They do not possess tRNA molecules",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: prokaryotes have tRNA molecules essential for translation."
+          },
+          {
+            "id": 4941114,
+            "content": "Ribosomes attach to mRNA as it is being transcribed",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: coupling of transcription and translation occurs in prokaryotes, but it does not by itself mean mRNA modification is impossible; some RNA processing can occur."
+          },
+          {
+            "id": 4941115,
+            "content": "They lack enzymes for splicing",
+            "correct": true,
+            "order": 3,
+            "markscheme": "Correct: prokaryotes generally lack spliceosome-based splicing machinery used to remove introns from pre-mRNA, so eukaryote-style post-transcriptional mRNA processing (e.g., splicing) does not occur."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "af08ad6b-3713-4121-bcbe-09e832433a3b",
+        "specification": "Which of the following processes occurs in eukaryotic cells but **not** in prokaryotic cells due to the lack of compartmentalisation?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28864,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "title": "B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "labeledAt": "2026-03-05T15:24:24.905Z",
+              "reasoning": "The question specifically focuses on the functional consequences of compartmentalization, specifically the separation of the nucleus and cytoplasm in eukaryotes which allows for mRNA processing before translation, a feature prokaryotes lack.",
+              "confidence": 1
+            },
+            {
+              "id": 29190,
+              "isHl": true,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.15 Post-transcriptional modification in eukaryotic cells (HL)",
+              "title": "D1.2.15 Post-transcriptional modification in eukaryotic cells (HL)",
+              "labeledAt": "2026-03-05T15:24:24.905Z",
+              "reasoning": "The correct answer, mRNA splicing, is the primary example of post-transcriptional modification that occurs in eukaryotes but not in prokaryotes.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1479947,
+        "parts": [],
+        "options": [
+          {
+            "id": 4232417,
+            "content": "Translation of proteins",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4232418,
+            "content": "mRNA splicing",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4232419,
+            "content": "Glycolysis",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4232420,
+            "content": "DNA replication",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "afd56bd1-b731-4aa5-a759-2ec036af3c7e",
+        "specification": "What process occurs inside a phagocytic vacuole?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:57:04.974Z",
+            "resultId": 43863
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29113,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.5 Infection control by phagocytes",
+              "title": "C3.2.5 Infection control by phagocytes",
+              "labeledAt": "2026-03-06T16:20:04.124Z",
+              "reasoning": "A phagocytic vacuole (phagosome) is formed during phagocytosis and is the site where engulfed pathogens/particles are digested after fusion with lysosomes, matching innate immune defense by phagocytes.",
+              "confidence": 0.86
+            },
+            {
+              "id": 28871,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.9 Structure and function of vesicles in cells (HL)",
+              "title": "B2.2.9 Structure and function of vesicles in cells (HL)",
+              "labeledAt": "2026-03-06T16:20:04.124Z",
+              "reasoning": "A phagocytic vacuole is a type of vesicle involved in intracellular processing/digestion of engulfed material, relating to vesicle structure/function.",
+              "confidence": 0.52
+            }
+          ]
+        },
+        "currentRevisionId": 1697103,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940540,
+            "content": "DNA replication",
+            "correct": false,
+            "order": 0,
+            "markscheme": "DNA replication occurs in the nucleus (or nucleoid region in prokaryotes), not in a phagocytic vacuole."
+          },
+          {
+            "id": 4940541,
+            "content": "Digestion of engulfed particles",
+            "correct": true,
+            "order": 1,
+            "markscheme": "A phagocytic vacuole contains ingested material and fuses with lysosomes, where enzymes digest the engulfed particles."
+          },
+          {
+            "id": 4940542,
+            "content": "Passive diffusion of gases",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Gas exchange by diffusion occurs across membranes; it is not a specific function of phagocytic vacuoles."
+          },
+          {
+            "id": 4940543,
+            "content": "ATP synthesis",
+            "correct": false,
+            "order": 3,
+            "markscheme": "ATP synthesis primarily occurs in mitochondria (and chloroplasts in plants), not in phagocytic vacuoles."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c49b2455-9c49-40a3-b34b-95c1e66ebf3b",
+        "specification": "How does the separation of transcription and translation benefit **eukaryotic gene expression**?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29190,
+              "isHl": true,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.15 Post-transcriptional modification in eukaryotic cells (HL)",
+              "title": "D1.2.15 Post-transcriptional modification in eukaryotic cells (HL)",
+              "labeledAt": "2026-03-06T15:31:32.285Z",
+              "reasoning": "The key benefit of separating transcription (nucleus) and translation (cytoplasm) in eukaryotes is that mRNA can undergo processing (capping, poly-A tailing, splicing) before translation\u2014i.e., post-transcriptional modification.",
+              "confidence": 0.93
+            },
+            {
+              "id": 28864,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "title": "B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "labeledAt": "2026-03-06T15:31:32.285Z",
+              "reasoning": "The question explicitly frames the benefit as due to compartmentalization (nucleus vs cytoplasm), aligning with advantages of separating nucleus and cytoplasm in eukaryotic cells.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 827234,
+        "parts": [],
+        "options": [
+          {
+            "id": 3721613,
+            "content": "It speeds up protein synthesis",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3721614,
+            "content": "It allows mRNA to be modified before translation begins",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3721615,
+            "content": "It enables DNA replication and protein production to happen simultaneously",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3721616,
+            "content": "It increases the number of ribosomes inside the nucleus",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cd8ad902-2506-4887-827b-2ee1fd41add1",
+        "specification": "Enzymes within the **Golgi apparatus** are physically separated from enzymes in lysosomes. Why are they separated?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T17:06:45.210Z",
+            "resultId": 16454
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T17:03:56.138Z",
+              "reasoning": "The core concept being tested is compartmentalization, which allows different organelles to maintain distinct internal environments (like pH) tailored to the specific enzymes they contain.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1694251,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932961,
+            "content": "They compete for the same substrates",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4932962,
+            "content": "Their reaction conditions and pH requirements differ",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4932963,
+            "content": "They are encoded by different genes",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4932964,
+            "content": "Only one group uses ATP",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d25af4aa-3cf5-4072-a41c-1ab58782b085",
+        "specification": "What would most likely occur if lysosomal enzymes were **released into the cytoplasm** due to membrane rupture?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T16:59:16.792Z",
+              "reasoning": "The question tests the concept of compartmentalization in eukaryotic cells. Lysosomes are a primary example of why cells sequester specific enzymes (digestive hydrolases) within membranes to prevent the uncontrolled digestion of the cytoplasm and its organelles.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1085326,
+        "parts": [],
+        "options": [
+          {
+            "id": 3721577,
+            "content": "DNA synthesis would increase",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3721578,
+            "content": "Protein synthesis would accelerate",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3721579,
+            "content": "Uncontrolled digestion of cellular components",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3721580,
+            "content": "Enhanced vesicle transport",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e0522c55-ac36-4050-accc-dba6a64cbb94",
+        "specification": "Which of the following best illustrates the **functional advantage of compartmentalization**?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T17:00:38.963Z",
+              "reasoning": "The question directly asks for the functional advantage of compartmentalization. Option C provides a classic example of this advantage (the containment of digestive enzymes within lysosomes to protect the cytoplasm), which falls directly under the topic of advantages of compartmentalization in the cytoplasm.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-05T17:00:38.963Z",
+              "reasoning": "This topic covers the definition and adaptation of organelles as discrete subunits performing specific functions, which is the underlying principle of the compartmentalization described in the question.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1479942,
+        "parts": [],
+        "options": [
+          {
+            "id": 4232397,
+            "content": "Ribosomes are attached to both sides of the plasma membrane",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4232398,
+            "content": "DNA replication and transcription occur simultaneously in the nucleus",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4232399,
+            "content": "Digestive enzymes in lysosomes do not damage the cytoplasm",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4232400,
+            "content": "ATP is synthesized and immediately used in the cytoplasm",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "00a4c234-5d49-4e5a-9793-4051cd72bd84",
+        "specification": "The figure shows the synthesis and degradation of sulfatides across cellular compartments, including the endoplasmic reticulum, Golgi apparatus, and lysosome.\n\n![](https://pub-images.revisiondojo.com/plots/d816e996-8be9-46b8-ae08-edb85187a4a6.png)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T14:44:50.046Z",
+            "resultId": 8561
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28871,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.9 Structure and function of vesicles in cells (HL)",
+              "title": "B2.2.9 Structure and function of vesicles in cells (HL)",
+              "labeledAt": "2026-03-05T11:38:04.872Z",
+              "reasoning": "Part b specifically asks for an outline of the role of vesicular transport in moving precursors between the endoplasmic reticulum and the Golgi apparatus.",
+              "confidence": 0.98
+            },
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T11:38:04.872Z",
+              "reasoning": "The entire question and figure are centered on the synthesis and degradation of a molecule across distinct cellular compartments (ER, Golgi, lysosome), which is the core concept of compartmentalization.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28945,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C1.1 Enzymes and metabolism > C1.1.2 Role of enzymes in metabolism",
+              "title": "C1.1.2 Role of enzymes in metabolism",
+              "labeledAt": "2026-03-05T11:38:04.872Z",
+              "reasoning": "Part c requires interpreting enzyme activity data to understand metabolic pathways and the consequences of enzyme deficiency (catabolism).",
+              "confidence": 0.9
+            },
+            {
+              "id": 28870,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "title": "B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "labeledAt": "2026-03-05T11:38:04.872Z",
+              "reasoning": "Parts a and b involve identifying the Golgi apparatus as a functional site for specific enzymes and as a destination for vesicular transport.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29186,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.11 Mutations that change protein structure",
+              "title": "D1.2.11 Mutations that change protein structure",
+              "labeledAt": "2026-03-05T11:38:04.872Z",
+              "reasoning": "Part d asks to evaluate how a mutation in a specific gene (GAL3ST1) affects the levels of the resulting protein/metabolite, which relates to mutations changing protein function.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693862,
+        "parts": [
+          {
+            "id": 1156104,
+            "content": "Identify two enzymes involved in the metabolism of sulfatides, and state in which organelles these enzymes function.",
+            "order": 0,
+            "markscheme": "- UGT8 \u2013 Endoplasmic reticulum <marks>1 mark</marks>\n- GAL3ST1 \u2013 Golgi apparatus <marks>1 mark</marks>\n- ARSA \u2013 Lysosome <marks>1 mark</marks>\n- GALC \u2013 Lysosome <marks>1 mark</marks>\n<note>Award **[1]** for each correct enzyme identified with its corresponding organelle, up to **[2]** max.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156105,
+            "content": "Outline the role of vesicular transport in the movement of sulfatide precursors between the endoplasmic reticulum and the Golgi apparatus.",
+            "order": 1,
+            "markscheme": "- Transfers sulfatide precursors (e.g., ceramide and/or GalCer) from ER to Golgi <marks>1 mark</marks>\n- Via membrane-bound transport vesicles (e.g., COPII-mediated trafficking) <marks>1 mark</marks>\n- Ensures precursors reach Golgi enzymes (e.g., for further modification such as sulfation) <marks>1 mark</marks>\n- Maintains compartmentalisation/efficient lipid trafficking between organelles <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156106,
+            "content": "The table below shows the relative enzyme activity (in arbitrary units) of ARSA and GALC measured in cells from two different patients.\n\n| Enzyme | Patient A | Patient B |\n| :--- | :--- | :--- |\n| ARSA activity | 12 | 1.5 |\n| GALC activity | 9 | 0.3 |\n\nUsing the data, deduce which patient is more likely to accumulate sulfatides and justify your answer.",
+            "order": 2,
+            "markscheme": "- Patient B <marks>1 mark</marks>\n- ARSA activity is much lower in patient B $\rightarrow$ reduced sulfatide (desulfation) degradation <marks>1 mark</marks>\n- GALC activity is much lower in patient B $\rightarrow$ reduced breakdown of galactolipids/related intermediates in lysosome <marks>1 mark</marks>\n- Lower lysosomal degradation enzyme activities $\rightarrow$ accumulation of sulfatides in lysosomes <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156107,
+            "content": "Predict how mutations in the GAL3ST1 gene might affect the levels of sulfatides in the lysosome.",
+            "order": 3,
+            "markscheme": "- Reduced GAL3ST1 activity $\rightarrow$ reduced sulfatide synthesis, so fewer sulfatides reach/accumulate in the lysosome <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "22de8094-a0f2-4a3c-8d53-7528be75068c",
+        "specification": "The figure summarizes synthetic biology experiments:\n![](https://pub-images.revisiondojo.com/question-images/7hvefOYf2ibhIekX6RA7S.jpeg)\n\nBioinformatic analysis identified ADP/ATP carrier translocase proteins across plants, red algae, and endoparasites.\n\nThese genes were inserted into cyanobacteria (*Synechococcus elongatus*) to express ATP transporters.\n\nEngineered cyanobacteria were then used in synthetic endosymbiosis with yeast mutants lacking functional mitochondria, allowing the photosynthetic bacteria to provide ATP directly to the yeast.\n\nThis mimics proposed mechanisms in the evolution of plastids and mitochondria, where endosymbionts contributed metabolic functions (like ATP production) to their host eukaryotic cells.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:32:32.561Z",
+            "resultId": 31771
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28769,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.12  Origin of eukaryotic cells by endosymbiosis (HL)",
+              "title": "A2.2.12  Origin of eukaryotic cells by endosymbiosis (HL)",
+              "labeledAt": "2026-03-06T05:40:52.465Z",
+              "reasoning": "Parts (a) and (e) explicitly ask for molecular evidence for endosymbiotic origin of mitochondria/chloroplasts and relate the synthetic endosymbiosis to ancestral endosymbiont functions.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28866,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "title": "B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "labeledAt": "2026-03-06T05:40:52.465Z",
+              "reasoning": "Parts (b) and (c) center on ATP provision to a host cell and the role of ATP/ADP exchange, linking to mitochondrial ATP production/transport adaptations.",
+              "confidence": 0.6
+            },
+            {
+              "id": 28852,
+              "isHl": false,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.7 Pump proteins for active transport",
+              "title": "B2.1.7 Pump proteins for active transport",
+              "labeledAt": "2026-03-06T05:40:52.465Z",
+              "reasoning": "The ADP/ATP translocase is a membrane transport protein; parts (c) and (d) involve transporter function and metabolite exchange via membrane proteins (active transport/pumps broadly).",
+              "confidence": 0.55
+            },
+            {
+              "id": 28849,
+              "isHl": false,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.4 Integral and peripheral proteins in membranes",
+              "title": "B2.1.4 Integral and peripheral proteins in membranes",
+              "labeledAt": "2026-03-06T05:40:52.465Z",
+              "reasoning": "Part (d) asks for general functions of membrane proteins (e.g., transporters, receptors/enzymes/anchors), aligning with integral/peripheral membrane proteins.",
+              "confidence": 0.5
+            },
+            {
+              "id": 28978,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C1.3 Photosynthesis > C1.3.1 Transformation of light energy to chemical energy",
+              "title": "C1.3.1 Transformation of light energy to chemical energy",
+              "labeledAt": "2026-03-06T05:40:52.465Z",
+              "reasoning": "Light-driven ATP production in cyanobacteria (parts b/e) connects to photosynthesis as transformation of light energy into chemical energy used for ATP generation.",
+              "confidence": 0.45
+            }
+          ]
+        },
+        "currentRevisionId": 1694919,
+        "parts": [
+          {
+            "id": 1156951,
+            "content": "Describe two key molecular features of mitochondria and chloroplasts that provide evidence they originated through endosymbiosis.",
+            "order": 0,
+            "markscheme": "- Circular naked DNA <marks>1 mark</marks>\n- 70S ribosomes <marks>1 mark</marks>\n- Double membrane <marks>1 mark</marks>\n- Independent replication <marks>1 mark</marks>\n\n<Note>Award full marks for any two correct features.</Note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156952,
+            "content": "Using Figure C, explain how the engineered cyanobacteria support the survival of the yeast mutant lacking mitochondria.",
+            "order": 1,
+            "markscheme": "- Cyanobacteria carry out photosynthesis (light-dependent reactions) to generate ATP <marks>1 mark</marks>\n- The engineered ADP/ATP translocase transports ATP out of the cyanobacteria into the yeast cell <marks>1 mark</marks>\n- ATP supplied to the yeast can be used for energy-requiring processes (partially replacing ATP normally produced by mitochondria) <marks>1 mark</marks>\n- ADP can be transported back into the cyanobacteria, allowing continued ATP synthesis/export cycle <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156953,
+            "content": "Outline how the ADP/ATP translocase in the engineered cyanobacteria mimics the mitochondrial ADP/ATP translocase in the inner mitochondrial membrane.",
+            "order": 2,
+            "markscheme": "- Exchanges ADP into the cell/organellar compartment for ATP out, matching the direction of exchange used to supply ATP to the host/cytosol <marks>1 mark</marks>\n- Mimics carrier-mediated transport across a membrane to provide host-accessible ATP rather than keeping ATP only inside the ATP-producing compartment <marks>1 mark</marks>\n- Similarity is functional (ATP/ADP exchange) even though the engineered transporter is located in the cyanobacterial membrane rather than the mitochondrial inner membrane <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156954,
+            "content": "In a synthetic endosymbiosis, membrane proteins mediate the exchange of metabolites like ADP and ATP. State two functions of proteins in biological membranes.",
+            "order": 3,
+            "markscheme": "- Transport of molecules <marks>1 mark</marks>\n- Receptor function <marks>1 mark</marks>\n- Anchoring enzymes <marks>1 mark</marks>\n- Cell signaling <marks>1 mark</marks>\n- Structural support <marks>1 mark</marks>\n\n<Note>Award full marks for any two correct functions.</Note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156955,
+            "content": "The success of this synthetic system depends on light-driven ATP production in cyanobacteria. Explain how this resembles the proposed ancestral function of photosynthetic endosymbionts in eukaryotic cells.",
+            "order": 4,
+            "markscheme": "- Photosynthetic bacteria convert light energy into chemical energy (ATP) <marks>1 mark</marks>\n- ATP/energy-rich products from the endosymbiont could be made available to the host cell, increasing host survival/growth <marks>1 mark</marks>\n- This parallels the proposed early stage of chloroplast evolution where a photosynthetic endosymbiont provided a metabolic advantage to the host before full integration <marks>1 mark</marks>\n- Over evolutionary time such a relationship could become obligate, with the host relying on endosymbiont-derived energy products <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "27304110-d130-4d31-9b51-3ada76cae49f",
+        "specification": "Mitochondria are double-membraned organelles responsible for producing most of the cell's ATP through aerobic respiration. The inner mitochondrial membrane (IMM) contains proteins like ATP synthase and the respiratory chain complexes. The mitochondrial matrix (MM) houses enzymes involved in the Krebs cycle (TCA cycle), and mitochondria have their own DNA ($mtDNA$). Fatty acids and glucose can both contribute to $ATP$ production.\n\nDisruption in mitochondrial structure or function can lead to reduced energy production and the activation of cell death pathways.\n\n![](https://pub-images.revisiondojo.com/question-images/qKgozqQ5KkQ7WoctxMW2c.jpeg)\n\nMitochondrial structure and metabolism\n\n![](https://pub-images.revisiondojo.com/question-images/KHqqLyGhQVuFMq6MkuFKy.jpeg)\n\nConsequences of mitochondrial dysfunction",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T11:15:19.244Z",
+            "resultId": 33873
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28866,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "title": "B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "labeledAt": "2026-03-06T10:07:58.556Z",
+              "reasoning": "Parts (b) and (f) focus on mitochondrial structural adaptations (double membrane, cristae, matrix) and mtDNA, linking structure to ATP production function.",
+              "confidence": 0.86
+            },
+            {
+              "id": 28965,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C1.2 Cell respiration > C1.2.5 Differences between anaerobic and aerobic cell respiration in humans",
+              "title": "C1.2.5 Differences between anaerobic and aerobic cell respiration in humans",
+              "labeledAt": "2026-03-06T10:07:58.556Z",
+              "reasoning": "Part (d) asks why lactate-producing (anaerobic) pathways are less ATP-efficient than aerobic respiration, directly comparing aerobic vs anaerobic respiration in humans/cells.",
+              "confidence": 0.8
+            },
+            {
+              "id": 28977,
+              "isHl": true,
+              "path": "C - Interaction and Interdependence > C1.2 Cell respiration > C1.2.17 Differences between lipids and carbohydrates as respiratory substrates (HL)",
+              "title": "C1.2.17 Differences between lipids and carbohydrates as respiratory substrates (HL)",
+              "labeledAt": "2026-03-06T10:07:58.556Z",
+              "reasoning": "Part (c) asks for the two major energy sources entering mitochondria for ATP production (glucose-derived substrates and fatty acids), matching differences between lipids and carbohydrates as respiratory substrates.",
+              "confidence": 0.64
+            },
+            {
+              "id": 28975,
+              "isHl": true,
+              "path": "C - Interaction and Interdependence > C1.2 Cell respiration > C1.2.15 Chemiosmosis and the synthesis of ATP in the mitochondrion (HL)",
+              "title": "C1.2.15 Chemiosmosis and the synthesis of ATP in the mitochondrion (HL)",
+              "labeledAt": "2026-03-06T10:07:58.556Z",
+              "reasoning": "Figure/spec mentions IMM proteins (ATP synthase, respiratory chain) and ATP generation, aligning with chemiosmosis/ATP synthesis in mitochondria.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695863,
+        "parts": [
+          {
+            "id": 1157838,
+            "content": "Identify two structural features of the mitochondrion shown (labelled) in Figure a. Explain how each is related to its function.",
+            "order": 0,
+            "markscheme": "- **Double membrane (OMM and IMM)**: allows compartmentalization and creates an intermembrane space so a proton gradient can be established for chemiosmosis/oxidative phosphorylation <marks>1 mark</marks>\n- **Cristae / folded IMM**: increases surface area for attachment of respiratory chain complexes and $ATP$ synthase, increasing capacity for $ATP$ production <marks>1 mark</marks>\n\nAdditional acceptable points (do not award beyond max):\n- **IMM contains ETC/respiratory chain complexes and $ATP$ synthase** enabling oxidative phosphorylation\n- **Matrix (MM)** contains enzymes for the TCA cycle, producing reduced cofactors for the ETC",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157839,
+            "content": "State the two major energy sources that enter the mitochondria for $ATP$ production, based on Figure a.",
+            "order": 1,
+            "markscheme": "- Glucose (entering mitochondrial metabolism as pyruvate / acetyl-CoA) <marks>1 mark</marks>\n- Fatty acids (entering as fatty acyl-CoA for $\\beta$-oxidation) <marks>1 mark</marks>\n\nAdditional acceptable points (do not award beyond max):\n- Both feed into formation of acetyl-CoA which enters the TCA cycle\n- These sources provide electron carriers (e.g. NADH/FADH$_2$) for oxidative phosphorylation",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157840,
+            "content": "Cancer cells are shown to favor lactate production in Figure a. Explain why this results in less efficient $ATP$ production than aerobic respiration.",
+            "order": 2,
+            "markscheme": "- Lactate production is associated with anaerobic glycolysis, which yields a much lower net $ATP$ per glucose (e.g. 2 $ATP$) than aerobic respiration <marks>1 mark</marks>\n- Aerobic respiration uses the TCA cycle and oxidative phosphorylation, producing much more $ATP$ per glucose <marks>1 mark</marks>\n\nAdditional acceptable points (do not award beyond max):\n- Conversion of pyruvate to lactate regenerates NAD$^+$, allowing glycolysis to continue but bypasses oxidative phosphorylation\n- Less energy is extracted because glucose is not fully oxidized to CO$_2$ (energy remains in lactate)",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157841,
+            "content": "With reference to Figure b, suggest one reason why cells have multiple ways of responding to mitochondrial dysfunction.",
+            "order": 3,
+            "markscheme": "- Multiple pathways provide flexibility so the response can match the type or severity of mitochondrial damage <marks>1 mark</marks>\n_**OR**_\n- Different pathways allow the cell to respond to reversible damage (recovery/adaptation/mitophagy) versus irreversible damage requiring cell death (e.g. apoptosis) <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157842,
+            "content": "Outline one role of mitochondrial DNA ($mtDNA$) and explain how its damage could affect cell function.",
+            "order": 4,
+            "markscheme": "- $mtDNA$ contains genes that code for some proteins required for oxidative phosphorylation/electron transport and mitochondrial function <marks>1 mark</marks>\n- Damage to $mtDNA$ can lead to dysfunctional proteins/ETC complexes, reducing $ATP$ output and potentially triggering cell death pathways <marks>1 mark</marks>\n\nAdditional acceptable points (do not award beyond max):\n- Reduced efficiency of oxidative phosphorylation can increase electron leak and ROS production, further damaging cellular components\n- Impaired respiration can disrupt cellular processes that require $ATP$ (e.g. active transport)\n\n<note>Accept: \"codes for proteins specific to mitochondria\".</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "28c9afac-79dd-4c58-8fdf-4c58dbc45e74",
+        "specification": "The diagram shows the structure of a plant cell. What is the function of the central vacuole? \n![Image](https://pub-images.revisiondojo.com/question-images/9d9ffa29-292a-40cc-b175-f2f420674320)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-06T16:14:42.815Z",
+              "reasoning": "The question asks the function of the central vacuole in a plant cell, which is part of eukaryotic (plant) cell structure and organelle function.",
+              "confidence": 0.78
+            },
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-06T16:14:42.815Z",
+              "reasoning": "Focuses on an organelle (central vacuole) as a discrete subunit adapted for a specific function (storage/turgor).",
+              "confidence": 0.63
+            }
+          ]
+        },
+        "currentRevisionId": 827005,
+        "parts": [],
+        "options": [
+          {
+            "id": 2902635,
+            "content": "Storage of nutrients",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 2902636,
+            "content": "Photosynthesis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 2902637,
+            "content": "Protein synthesis",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 2902638,
+            "content": "Waste breakdown",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2a02721d-7fec-491e-af87-5b877b73cd05",
+        "specification": "The diagram shows the structure of a mitochondrion. What is the main function of this organelle?\n![Image](https://pub-images.revisiondojo.com/question-images/ea7b2bc3-345c-4599-8be1-0174a0dbbe02)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T11:44:13.409Z",
+            "resultId": 8352
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28866,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "title": "B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "labeledAt": "2026-03-05T11:32:24.488Z",
+              "reasoning": "The question specifically asks for the main function of the mitochondrion, which is described in this topic as the production of ATP by aerobic cell respiration.",
+              "confidence": 1
+            },
+            {
+              "id": 28964,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C1.2 Cell respiration > C1.2.4 Cell respiration",
+              "title": "C1.2.4 Cell respiration",
+              "labeledAt": "2026-03-05T11:32:24.488Z",
+              "reasoning": "Mitochondria are the primary site of aerobic cell respiration, which is the biological process responsible for energy production mentioned in the correct option.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-05T11:32:24.488Z",
+              "reasoning": "The question focuses on an organelle as a discrete subunit of a cell adapted for a specific function.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1693781,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931349,
+            "content": "Protein synthesis",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Protein synthesis occurs at ribosomes (free in cytoplasm or on rough ER), not in mitochondria."
+          },
+          {
+            "id": 4931350,
+            "content": "Lipid synthesis",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Most lipid synthesis occurs in the smooth ER; mitochondria are not the main site for lipid synthesis."
+          },
+          {
+            "id": 4931351,
+            "content": "ATP production",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Mitochondria are the site of aerobic respiration, producing ATP via oxidative phosphorylation (electron transport chain and ATP synthase) on the inner mitochondrial membrane."
+          },
+          {
+            "id": 4931352,
+            "content": "Storage of genetic information",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Genetic information is primarily stored in nuclear DNA; mitochondria contain some DNA but their main function is ATP production, not genetic storage."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3223261b-434f-4ed5-b669-45303087158a",
+        "specification": "The figure shows a schematic diagram and electron microscope (EM) images of mitochondria and mitochondria-derived vesicles (MDVs) involved in cellular degradation processes.\n\nThe schematic indicates the mitochondrion's outer membrane (brown arrow), inner membrane (orange arrow), and formation of vesicles that fuse with lysosomes for degradation. The EM images show mitochondria (M) and endoplasmic reticulum (E), with red arrows pointing to budding MDVs.\n\nThe scale bars are shown but are not intended to be used for measurement in this question.\n\n![](https://pub-images.revisiondojo.com/question-images/8TdtFknL9TSKbmxiBn9Q6.jpeg)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T11:24:32.603Z",
+            "resultId": 33884
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28866,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "title": "B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "labeledAt": "2026-03-06T10:08:06.302Z",
+              "reasoning": "Multiple parts focus on mitochondrion structure (outer vs inner membrane, comparison of cristae/double membrane in EM vs schematic) and its adaptations; this aligns with mitochondrion structure/adaptation content.",
+              "confidence": 0.86
+            },
+            {
+              "id": 28871,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.9 Structure and function of vesicles in cells (HL)",
+              "title": "B2.2.9 Structure and function of vesicles in cells (HL)",
+              "labeledAt": "2026-03-06T10:08:06.302Z",
+              "reasoning": "Question centers on mitochondria-derived vesicles budding and fusing with lysosomes for degradation\u2014vesicle structure/function in intracellular transport and degradation pathways.",
+              "confidence": 0.8
+            },
+            {
+              "id": 28767,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.10  Cell types and cell structures viewed in light and electron micrographs",
+              "title": "A2.2.10  Cell types and cell structures viewed in light and electron micrographs",
+              "labeledAt": "2026-03-06T10:08:06.302Z",
+              "reasoning": "Uses electron micrographs to identify/compare organelle structures (mitochondria, ER) versus schematic, requiring recognition of cell structures in EM images.",
+              "confidence": 0.67
+            }
+          ]
+        },
+        "currentRevisionId": 1695883,
+        "parts": [
+          {
+            "id": 1157867,
+            "content": "Identify two labeled structures in the figure that are involved in intracellular degradation (including transport to lysosomes).",
+            "order": 0,
+            "markscheme": "Any two correctly identified.\n\nMitochondria-derived vesicles (MDVs) <marks>1 mark</marks>\n_**OR**_\nLysosome <marks>1 mark</marks>\n_**OR**_\nMitochondrion / mitochondria (M) <marks>1 mark</marks>\n\nNote: Award a maximum of <marks>1 mark</marks> for two structures. No fractional marks.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157868,
+            "content": "Compare mitochondria in the electron micrographs with the schematic diagram.",
+            "order": 1,
+            "markscheme": "Any two.\n\nBoth show internal membrane infoldings/cristae within mitochondria <marks>1 mark</marks>\n\nSchematic shows a simplified, smooth outline and idealised internal structures; EM images show irregular/variable outline and less uniform internal detail <marks>1 mark</marks>\n\nEM images show mitochondria in a cellular context (e.g. near ER labelled E) whereas the schematic isolates the organelle and vesicle pathway <marks>1 mark</marks>\n\nEM images show multiple mitochondria/variable sizes and shapes; schematic shows a single representative mitochondrion <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157869,
+            "content": "State one function of mitochondria-derived vesicles (MDVs) shown in the figure, and explain why this function is important for cell homeostasis.",
+            "order": 2,
+            "markscheme": "Function (any one).\n\nTransport damaged mitochondrial components/cargo away from mitochondria <marks>1 mark</marks>\n_**OR**_\nDeliver damaged mitochondrial components/cargo to lysosomes for degradation <marks>1 mark</marks>\n_**OR**_\nMediate selective removal of damaged mitochondrial proteins/lipids via vesicle trafficking (mitochondrial quality control) <marks>1 mark</marks>\n\nImportance (explain, any one).\n\nPrevents accumulation of damaged mitochondrial components/organelles that could impair cell function <marks>1 mark</marks>\n\nMaintains mitochondrial function/ATP production by removing damaged components <marks>1 mark</marks>\n\nReduces harmful effects such as increased reactive oxygen species from dysfunctional mitochondria, supporting homeostasis <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157870,
+            "content": "Outline one difference between the outer and inner membranes of a mitochondrion.",
+            "order": 3,
+            "markscheme": "Any two points that together outline a difference.\n\nOuter membrane contains porins and is relatively permeable to small molecules/ions <marks>1 mark</marks>\n\nInner membrane is highly selective/less permeable and contains specific transport proteins <marks>1 mark</marks>\n\nInner membrane is folded into cristae; outer membrane is comparatively smooth <marks>1 mark</marks>\n\nInner membrane contains the electron transport chain and ATP synthase; outer membrane does not <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3ffebf06-9a9e-4c10-9277-6e4cc38914fe",
+        "specification": "A study investigated the activity of an enzyme involved in cellular respiration in different organelles. The enzyme activity was measured in arbitrary units (AU) from samples taken from the cytoplasm, mitochondria, and lysosomes. The results are shown below:\n\n| Organelle    | Enzyme Activity (AU) |\n|-------------|----------------------|\n| Cytoplasm   | 5                    |\n| Mitochondria | 50                   |\n| Lysosomes   | 2                    |",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T09:57:16.378Z",
+            "resultId": 5740
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-05T08:11:50.360Z",
+              "reasoning": "Part b explicitly asks about compartmentalization, and this topic specifically covers the advantages of compartmentalization within the cell cytoplasm, such as concentrating enzymes and substrates.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28866,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "title": "B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "labeledAt": "2026-03-05T08:11:50.360Z",
+              "reasoning": "The question specifies an enzyme involved in cellular respiration located in the mitochondria, which is the focus of this topic regarding mitochondrial adaptations for ATP production.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28964,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C1.2 Cell respiration > C1.2.4 Cell respiration",
+              "title": "C1.2.4 Cell respiration",
+              "labeledAt": "2026-03-05T08:11:50.360Z",
+              "reasoning": "The metabolic context of the question is cellular respiration, as the enzyme activity being measured is linked to this specific life process.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1693735,
+        "parts": [
+          {
+            "id": 1155929,
+            "content": "Describe the differences in enzyme activity between the three organelles.",
+            "order": 0,
+            "markscheme": "- The mitochondria show the highest enzyme activity (50 AU). <marks>1 mark</marks>\n- The cytoplasm has low enzyme activity (5 AU) and the lysosomes have the lowest enzyme activity (2 AU). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155930,
+            "content": "Explain why enzyme activity is highest in mitochondria based on compartmentalisation.",
+            "order": 1,
+            "markscheme": "- Mitochondria are the site of aerobic respiration, where enzymes for the Krebs cycle and electron transport chain are compartmentalised. <marks>1 mark</marks>\n- The double membrane structure provides an efficient environment, concentrating enzymes and substrates, enhancing reaction rates. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4420cd70-712d-46a2-bb5f-007a7cefb5c5",
+        "specification": "The figure shows the relative contribution of microtubules and microfilaments to various cell processes, measured by their functional activity (relative units) in intracellular transport, cell division, cell shape maintenance, muscle contraction, and endocytosis.\n\n![](https://pub-images.revisiondojo.com/question-images/HL6ReIMht0d9pQ0ZTL4Cp.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T11:15:12.411Z",
+            "resultId": 33871
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-06T10:07:53.807Z",
+              "reasoning": "Focuses on cytoskeleton components (microtubules and microfilaments) and their roles in eukaryotic cell processes and overall cell structure/function, which fits eukaryote cell structure.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29211,
+              "isHl": false,
+              "path": "D - Continuity and Change > D2.1 Cell and nuclear division > D2.1.7 Phases of mitosis",
+              "title": "D2.1.7 Phases of mitosis",
+              "labeledAt": "2026-03-06T10:07:53.807Z",
+              "reasoning": "Includes microtubule involvement in cell division (mitotic spindle) when comparing contributions to cell division in the figure.",
+              "confidence": 0.33
+            },
+            {
+              "id": 28914,
+              "isHl": true,
+              "path": "B - Form and Function > B3.3 Muscle and motility (HL) > B3.3.2 Sliding filament model of muscle contraction",
+              "title": "B3.3.2 Sliding filament model of muscle contraction",
+              "labeledAt": "2026-03-06T10:07:53.807Z",
+              "reasoning": "Asks why microfilaments play a larger role in muscle contraction; contraction is driven by actin (microfilaments) in the sliding filament mechanism.",
+              "confidence": 0.27
+            },
+            {
+              "id": 28858,
+              "isHl": true,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.13 Membrane fluidity and the fusion and formation of vesicles (HL)",
+              "title": "B2.1.13 Membrane fluidity and the fusion and formation of vesicles (HL)",
+              "labeledAt": "2026-03-06T10:07:53.807Z",
+              "reasoning": "Touches on endocytosis (vesicle formation) and could relate to membrane dynamics and vesicle formation/fusion, though not the main emphasis.",
+              "confidence": 0.22
+            }
+          ]
+        },
+        "currentRevisionId": 1695861,
+        "parts": [
+          {
+            "id": 1157830,
+            "content": "Identify two cell processes in which microfilaments contribute more than microtubules.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each correct process (any two, max <marks>1 mark</marks>):\n- Muscle contraction <marks>1 mark</marks>\n- Endocytosis <marks>1 mark</marks>\n- Cell shape maintenance (microfilaments slightly higher than microtubules) <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157831,
+            "content": "Compare the relative functional activity of microtubules and microfilaments in intracellular transport based on the data in the figure.",
+            "order": 1,
+            "markscheme": "Any two, max <marks>2 marks</marks>:\n- Microtubules have a higher functional activity/contribution than microfilaments in intracellular transport <marks>1 mark</marks>\n- Microtubules are approximately 90 relative units whereas microfilaments are approximately 40 relative units <marks>1 mark</marks>\n- Difference is approximately 50 relative units (microtubules higher) <marks>1 mark</marks>\n- Microtubules contribute a little over twice the activity of microfilaments (about $90/40\\approx2.25$) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157832,
+            "content": "Suggest why microfilaments play a larger role in muscle contraction and endocytosis compared to microtubules.",
+            "order": 2,
+            "markscheme": "Any two, max <marks>2 marks</marks>:\n- Microfilaments (actin) interact with myosin to generate contractile force in muscle contraction <marks>1 mark</marks>\n**OR**\n- Muscle contraction involves actin\u2013myosin interactions (sliding filament mechanism) <marks>1 mark</marks>\n- Endocytosis requires actin-driven membrane invagination/vesicle formation at the cell cortex <marks>1 mark</marks>\n- Microfilaments are more dynamic/flexible and concentrated near the plasma membrane, allowing rapid local shape changes needed for contraction/endocytosis <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157833,
+            "content": "Explain how the cytoskeleton supports the overall structure and function of an eukaryotic cell.",
+            "order": 3,
+            "markscheme": "Any two, max <marks>2 marks</marks>:\n- Cytoskeleton maintains cell shape and provides mechanical support to the cell/plasma membrane <marks>1 mark</marks>\n- Provides tracks for intracellular transport of vesicles/organelles (e.g., via motor proteins) <marks>1 mark</marks>\n- Involved in chromosome movement during mitosis/meiosis (spindle formation) <marks>1 mark</marks>\n- Helps position/anchor organelles and enables changes in cell shape and cell movement <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "44fed01d-b278-43d7-b8de-e35554d6e6d9",
+        "specification": "Which part of the nucleus produces ribosomal RNA (rRNA)?\n![Image](https://pub-images.revisiondojo.com/question-images/0658feee-3206-4a6e-9a10-2e124d4a8ac8)",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:54:14.619Z",
+            "resultId": 31420
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28864,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "title": "B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "labeledAt": "2026-03-06T05:39:05.031Z",
+              "reasoning": "The question asks which nucleus structure produces rRNA (nucleolus), fitting nucleus-related organelle structure/function content.",
+              "confidence": 0.55
+            },
+            {
+              "id": 29176,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.1 Transcription as the synthesis of RNA using a DNA template",
+              "title": "D1.2.1 Transcription as the synthesis of RNA using a DNA template",
+              "labeledAt": "2026-03-06T05:39:05.031Z",
+              "reasoning": "rRNA production is an example of transcription (RNA synthesis) occurring in the nucleus/nucleolus.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 1694993,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934993,
+            "content": "Nucleolus",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934994,
+            "content": "Nuclear envelope",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934995,
+            "content": "Nuclear pore",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934996,
+            "content": "Chromatin",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5615ba5f-3823-4ba4-b7a5-da94a50d1a69",
+        "specification": "![](https://pub-images.revisiondojo.com/notes/43dd88c5-3e6a-4939-ab5e-74a7d83566c4.jpeg)\n\nThe figure shows a schematic of the nuclear envelope (NE) and associated structures. The nucleus is enclosed by a double membrane with nuclear pore complexes (NPCs) and LINC protein complexes that link the inner and outer membranes. Type 1 and Type 2 nuclear envelope reticulations (NER) are dynamic membrane deformations.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:29:10.177Z",
+            "resultId": 32614
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28868,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.6 Functional benefits of the double membrane of the nucleus (HL)",
+              "title": "B2.2.6 Functional benefits of the double membrane of the nucleus (HL)",
+              "labeledAt": "2026-03-06T07:59:56.291Z",
+              "reasoning": "Question focuses on nuclear envelope as a double membrane and asks for structural adaptations (NPCs, LINC complexes, reticulations) that increase functional capacity\u2014directly aligned with benefits of the nucleus\u2019s double membrane.",
+              "confidence": 0.86
+            },
+            {
+              "id": 28864,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "title": "B2.2.2 Advantage of the separation of the nucleus and cytoplasm into separate compartments",
+              "labeledAt": "2026-03-06T07:59:56.291Z",
+              "reasoning": "Parts (a) and (b) emphasize structures linking nucleus and cytoplasm (NPCs for transport; LINC bridging inner/outer membranes), relating to separation and functional interface between nuclear and cytoplasmic compartments.",
+              "confidence": 0.62
+            },
+            {
+              "id": 28846,
+              "isHl": false,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.1 Lipid bilayers as the basis of cell membranes",
+              "title": "B2.1.1 Lipid bilayers as the basis of cell membranes",
+              "labeledAt": "2026-03-06T07:59:56.291Z",
+              "reasoning": "Discusses membrane structure and deformations (reticulations) in a double-membrane system; touches membrane structural principles, though the main emphasis is nuclear-envelope-specific rather than general membrane transport mechanisms.",
+              "confidence": 0.37
+            }
+          ]
+        },
+        "currentRevisionId": 1695136,
+        "parts": [
+          {
+            "id": 1157092,
+            "content": "Identify a structure in the Figure that directly bridges the inner and outer nuclear membranes.",
+            "order": 0,
+            "markscheme": "- Nuclear pore complex (NPC) <marks>1 mark</marks>\n\n_**OR**_\n\n- LINC complex <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157093,
+            "content": "Using the Figure, outline two features of the nuclear envelope shown that facilitate transport and/or physical connection between the nucleus and the cytoplasm.",
+            "order": 1,
+            "markscheme": "- Presence of nuclear pore complexes (NPCs) allows selective exchange of materials between cytoplasm and nucleoplasm (e.g. RNA and proteins) <marks>1 mark</marks>\n- Outer nuclear membrane is continuous with the endoplasmic reticulum (ER), linking nuclear and cytoplasmic membrane systems <marks>1 mark</marks>\n- LINC complexes span/bridge inner and outer nuclear membranes, mechanically linking nucleus to cytoplasm (e.g. cytoskeleton) <marks>1 mark</marks>\n- Double membrane with perinuclear space separates nucleoplasm from cytoplasm while permitting controlled exchange at pores <marks>1 mark</marks>\n- NPCs provide regulated/gated transport rather than free diffusion across the envelope <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157094,
+            "content": "Using the Figure, explain how the dynamic deformations (NER) increase the functional capacity of the nuclear envelope.",
+            "order": 2,
+            "markscheme": "- NER increases membrane surface area, increasing capacity for insertion of NPCs and other membrane proteins <marks>1 mark</marks>\n- Greater surface area can increase the total potential rate/amount of nucleocytoplasmic transport by providing more sites for exchange <marks>1 mark</marks>\n- Local invaginations bring cytoplasm closer to deeper regions of the nucleus, shortening diffusion distances for some signals/molecules <marks>1 mark</marks>\n- Dynamic folding can help accommodate mechanical stress and allow the envelope to change shape without rupturing <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6ce2a39f-1d53-43ef-bdcf-ae07be2dd35b",
+        "specification": "The endoplasmic reticulum (ER) is involved in the synthesis and processing of a range of biomolecules in eukaryotic cells.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T12:58:12.270Z",
+            "resultId": 9911
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-05T12:05:12.959Z",
+              "reasoning": "The question asks for the specific roles/functions of the smooth endoplasmic reticulum (SER). Topic B2.2.1 specifically addresses organelles as discrete subunits adapted to perform specific functions.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-05T12:05:12.959Z",
+              "reasoning": "The smooth endoplasmic reticulum is a fundamental component of eukaryotic cell structure, which is the focus of this leaf topic.",
+              "confidence": 0.85
+            },
+            {
+              "id": 28829,
+              "isHl": false,
+              "path": "B - Form and Function > B1.1 Carbohydrates and lipids > B1.1.9 Formation of triglycerides and phospholipids by condensation reactions",
+              "title": "B1.1.9 Formation of triglycerides and phospholipids by condensation reactions",
+              "labeledAt": "2026-03-05T12:05:12.959Z",
+              "reasoning": "A major part of the question focuses on lipid synthesis (triglycerides and phospholipids), which is the biochemical process described in this topic.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1693823,
+        "parts": [
+          {
+            "id": 1156063,
+            "content": "Outline the structural features that distinguish smooth endoplasmic reticulum (SER) from rough endoplasmic reticulum (RER).",
+            "order": 0,
+            "markscheme": "- SER lacks ribosomes on its cytosolic surface (unlike RER) <marks>1 mark</marks>\n- SER is composed mainly of interconnected tubules rather than flattened cisternae <marks>1 mark</marks>\n- RER has ribosomes attached and is often arranged as flattened cisternae <marks>1 mark</marks>\n- SER has a more tubular/branching network providing membrane surface for enzyme-catalysed reactions <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156064,
+            "content": "Describe the role of the smooth endoplasmic reticulum in lipid synthesis.",
+            "order": 1,
+            "markscheme": "- Synthesizes phospholipids for cell membranes <marks>1 mark</marks>\n- Produces cholesterol/steroid lipids (in appropriate cells) <marks>1 mark</marks>\n- Contains enzymes embedded in the SER membrane required for lipid synthesis <marks>1 mark</marks>\n- Lipids formed in SER can be transported (for example, to the Golgi apparatus) for further processing/packaging <marks>1 mark</marks>\n- Extensive tubular network provides large surface area for lipid-synthesizing enzymes <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156065,
+            "content": "Explain the role of the smooth endoplasmic reticulum in both lipid synthesis and detoxification.",
+            "order": 2,
+            "markscheme": "- ",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7a9ecd62-8c94-4429-8e2f-909981b47039",
+        "specification": "Topic: B2.1 Membranes and membrane transport, B2.2 Organelles and compartmentalization\nSection B: Up to one additional mark is available for the construction of your answers for each question.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-economics-7a9ecd62-8c94-4429-8e2f-909981b47039-1771937587718",
+            "generatedAt": "2026-02-24T12:53:34.112Z",
+            "sourceRevisionId": 1678008
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28860,
+              "isHl": true,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.15 Sodium\u2013potassium pumps as an example of exchange transporters (HL)",
+              "title": "B2.1.15 Sodium\u2013potassium pumps as an example of exchange transporters (HL)",
+              "labeledAt": "2026-03-06T16:05:09.450Z",
+              "reasoning": "Part (a) asks for the sequence of events in a Na+/K+ pump cycle and how it establishes an electrochemical gradient.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28857,
+              "isHl": true,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.12 Cholesterol and membrane fluidity in animal cells (HL)",
+              "title": "B2.1.12 Cholesterol and membrane fluidity in animal cells (HL)",
+              "labeledAt": "2026-03-06T16:05:09.450Z",
+              "reasoning": "Part (0) focuses on cholesterol\u2019s role in plasma membrane integrity/function via effects on membrane fluidity and stability.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28854,
+              "isHl": false,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.9 Structure and function of glycoproteins and glycolipids",
+              "title": "B2.1.9 Structure and function of glycoproteins and glycolipids",
+              "labeledAt": "2026-03-06T16:05:09.450Z",
+              "reasoning": "Part (0) asks for roles of glycoproteins in plasma membrane function (e.g., recognition, receptors, adhesion).",
+              "confidence": 0.85
+            },
+            {
+              "id": 28858,
+              "isHl": true,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.13 Membrane fluidity and the fusion and formation of vesicles (HL)",
+              "title": "B2.1.13 Membrane fluidity and the fusion and formation of vesicles (HL)",
+              "labeledAt": "2026-03-06T16:05:09.450Z",
+              "reasoning": "Part (b) asks how bilayer fluidity enables endocytosis/exocytosis via vesicle formation and membrane fusion.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1686894,
+        "parts": [
+          {
+            "id": 1147402,
+            "content": "Analyze the specific roles played by cholesterol and glycoproteins in maintaining the integrity and function of the plasma membrane.",
+            "order": -1,
+            "markscheme": "- Cholesterol is an amphipathic molecule that embeds within the hydrophobic tail region of the phospholipid bilayer <marks>1 mark</marks>\n- It regulates membrane fluidity by restricting the movement of phospholipids at high temperatures <marks>1 mark</marks>\n- It prevents the membrane from solidifying/crystallizing at low temperatures by disrupting the regular packing of hydrocarbon chains <marks>1 mark</marks>\n- Glycoproteins consist of carbohydrate chains covalently bonded to proteins on the extracellular surface <marks>1 mark</marks>\n- They serve as cell-to-cell recognition markers (e.g., identifying self vs. non-self in the immune system) <marks>1 mark</marks>\n- They act as receptors for chemical signals such as hormones or neurotransmitters <marks>1 mark</marks>\n- They are involved in cell adhesion, helping cells stick together to form tissues <marks>1 mark</marks>\n<note>Award maximum 4 marks</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147403,
+            "content": "Detail the sequence of events in a single cycle of the sodium-potassium ($$Na^+/K^+$$) pump and explain how this contributes to the cell's electrochemical gradient.",
+            "order": 0,
+            "markscheme": "- The pump is an integral transmembrane protein with high affinity for sodium ions in its internal configuration <marks>1 mark</marks>\n- Three sodium ions ($$3Na^+$$) bind to specific binding sites on the intracellular side of the pump <marks>1 mark</marks>\n- The binding of $$Na^+$$ triggers the hydrolysis of $$ATP$$, which phosphorylates the pump (attaches a phosphate group) <marks>1 mark</marks>\n- Phosphorylation causes a conformational change (shape change) in the protein, translocating the $$Na^+$$ across the membrane <marks>1 mark</marks>\n- The $$3Na^+$$ ions are released to the extracellular fluid, and the pump now has a high affinity for potassium ions <marks>1 mark</marks>\n- Two potassium ions ($$2K^+$$) bind to the pump from the extracellular side, triggering the release of the phosphate group <marks>1 mark</marks>\n- Dephosphorylation causes the pump to return to its original conformation, releasing the $$2K^+$$ into the cytoplasm <marks>1 mark</marks>\n- Because more positive charge is moved out ($$3Na^+$$) than in ($$2K^+$$), the pump is electrogenic and establishes a negative internal membrane potential <marks>1 mark</marks>\n<note>Award maximum 7 marks</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1147404,
+            "content": "Explain how the fluidity of the phospholipid bilayer enables the processes of endocytosis and exocytosis.",
+            "order": 1,
+            "markscheme": "- The fluid nature of the membrane is due to the weak hydrophobic interactions between the fatty acid tails, allowing phospholipids to move laterally <marks>1 mark</marks>\n- This flexibility allows the plasma membrane to change shape and invaginate to form vesicles during endocytosis <marks>1 mark</marks>\n- During exocytosis, the phospholipid bilayers of the secretory vesicle and the plasma membrane can merge/fuse because they are both fluid <marks>1 mark</marks>\n- Fusion is followed by the spontaneous rearrangement of the bilayer to become continuous, releasing the vesicle's contents <marks>1 mark</marks>\n- Fluidity ensures that the membrane can break and reform (re-seal) without losing its integrity or leaking cytoplasm <marks>1 mark</marks>\n<note>Award maximum 4 marks</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "85cb116a-ae80-402d-9e5d-1cebb9f7abe0",
+        "specification": "The table below shows the molecular properties of four different substances.\n\n| Substance | Relative Molecular Mass | Chemical Nature |\n| :--- | :--- | :--- |\n| I | 44 | Non-polar |\n| II | 18 | Polar |\n| III | 23 | Charged (ion) |\n| IV | 180 | Polar |\n\nIf an artificial membrane consisting only of a phospholipid bilayer were used, which substance would be expected to have the highest rate of simple diffusion through the membrane?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-85cb116a-ae80-402d-9e5d-1cebb9f7abe0-1771929956947",
+            "generatedAt": "2026-02-25T06:50:35.652Z",
+            "sourceRevisionId": 1164033
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28848,
+              "isHl": false,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.3 Simple diffusion across membranes",
+              "title": "B2.1.3 Simple diffusion across membranes",
+              "labeledAt": "2026-03-05T14:50:51.492Z",
+              "reasoning": "The question specifically asks for the rate of simple diffusion through a phospholipid bilayer based on molecular properties like size and polarity, which is the primary focus of this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 28847,
+              "isHl": false,
+              "path": "B - Form and Function > B2.1 Membranes and membrane transport > B2.1.2 Lipid bilayers as barriers",
+              "title": "B2.1.2 Lipid bilayers as barriers",
+              "labeledAt": "2026-03-05T14:50:51.492Z",
+              "reasoning": "The question examines how the chemical nature of different substances (polar, non-polar, charged) affects their ability to cross the lipid bilayer, which functions as a selective barrier.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1685631,
+        "parts": [],
+        "options": [
+          {
+            "id": 4921399,
+            "content": "Substance I",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4921400,
+            "content": "Substance II",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4921401,
+            "content": "Substance III",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4921402,
+            "content": "Substance IV",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9e8b38f1-b96a-40f7-8156-6b1bc4af81e9",
+        "specification": "Which organelle is responsible for protein synthesis?\n![Image](https://pub-images.revisiondojo.com/question-images/6514719b-56f7-49db-9f9c-d0f354231599)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:40:54.250Z",
+            "resultId": 12968
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28869,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "title": "B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "labeledAt": "2026-03-05T15:21:05.217Z",
+              "reasoning": "The question asks for the organelle responsible for protein synthesis, which is the primary function of ribosomes as described in this topic.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1693968,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931909,
+            "content": "Golgi apparatus",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931910,
+            "content": "Ribosome",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931911,
+            "content": "Lysosome",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931912,
+            "content": "Mitochondrion",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a29e5c21-7d27-466e-bc59-08cbb31330df",
+        "specification": "Identify the organelle that is the site of aerobic respiration and most ATP production in eukaryotic cells.",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 2,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T09:29:42.681Z",
+            "resultId": 5834
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-05T08:12:21.934Z",
+              "reasoning": "The question requires identifying the specific function (energy production) of a discrete cellular subunit (organelle), which is the core concept of this topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28866,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "title": "B2.2.4 Adaptations of the mitochondrion for production of ATP by aerobic cell respiration (HL)",
+              "labeledAt": "2026-03-05T08:12:21.934Z",
+              "reasoning": "This topic specifically links the mitochondrion to the production of ATP (energy), making it highly relevant despite being an HL-level topic focusing on adaptations.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-05T08:12:21.934Z",
+              "reasoning": "The question tests knowledge of eukaryotic cell structure by requiring the identification and functional knowledge of various organelles like mitochondria, ribosomes, and the Golgi apparatus.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693722,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931301,
+            "content": "Ribosome",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect: ribosomes synthesise proteins."
+          },
+          {
+            "id": 4931302,
+            "content": "Chloroplast",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: chloroplasts carry out photosynthesis (ATP is produced in photosynthesis, but not via aerobic respiration and not in all eukaryotic cells)."
+          },
+          {
+            "id": 4931303,
+            "content": "Mitochondrion",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct: mitochondria are the site of aerobic respiration and produce most ATP in eukaryotic cells."
+          },
+          {
+            "id": 4931304,
+            "content": "Golgi apparatus",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: the Golgi apparatus modifies and packages proteins/lipids."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b0ce05f2-93fa-4547-bdaf-5c55131491d6",
+        "specification": "Which factor is primarily responsible for the specific three-dimensional conformation of a single globular polypeptide?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-b0ce05f2-93fa-4547-bdaf-5c55131491d6-1771929956947",
+            "generatedAt": "2026-02-25T07:02:07.407Z",
+            "sourceRevisionId": 1107210
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T15:42:18.647Z",
+            "resultId": 12905
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28842,
+              "isHl": true,
+              "path": "B - Form and Function > B1.2 Proteins > B1.2.9 Dependence of tertiary structure on functional groups (HL)",
+              "title": "B1.2.9 Dependence of tertiary structure on functional groups (HL)",
+              "labeledAt": "2026-03-05T15:21:25.564Z",
+              "reasoning": "The question specifically asks for the factor responsible for the three-dimensional conformation (tertiary structure) of a polypeptide, which is determined by interactions between R-groups (functional groups).",
+              "confidence": 0.95
+            },
+            {
+              "id": 28843,
+              "isHl": true,
+              "path": "B - Form and Function > B1.2 Proteins > B1.2.10 Effect of polar and non-polar amino acids on tertiary structure of proteins (HL)",
+              "title": "B1.2.10 Effect of polar and non-polar amino acids on tertiary structure of proteins (HL)",
+              "labeledAt": "2026-03-05T15:21:25.564Z",
+              "reasoning": "For globular proteins, the interaction of polar and non-polar R-groups is a primary driver of the specific 3D folding pattern.",
+              "confidence": 0.85
+            },
+            {
+              "id": 28840,
+              "isHl": true,
+              "path": "B - Form and Function > B1.2 Proteins > B1.2.7 Impact of primary structure on the conformation of proteins (HL)",
+              "title": "B1.2.7 Impact of primary structure on the conformation of proteins (HL)",
+              "labeledAt": "2026-03-05T15:21:25.564Z",
+              "reasoning": "The primary structure (sequence of amino acids) ultimately dictates the final 3D conformation by determining the order and identity of the R-groups.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1693973,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931929,
+            "content": "The formation of hydrogen bonds between repeating units of the polypeptide backbone",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931930,
+            "content": "The sequence of covalent peptide bonds linking amino and carboxyl groups",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931931,
+            "content": "Chemical interactions between the variable R-groups of the constituent amino acids",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931932,
+            "content": "The total number of amino acids present within the chain's primary structure",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c0c7b738-a3c2-4294-a49f-dcfc2790ae55",
+        "specification": "The table shows the internal pH levels of two distinct regions within a eukaryotic cell.\n\n| Cell region | pH |\n| :--- | :--- |\n| Cytosol | 7.2 |\n| Lysosome | 4.5 |\n\nWhat is a primary biological advantage of the compartmentalization illustrated in the table?",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-c0c7b738-a3c2-4294-a49f-dcfc2790ae55-1772167695732",
+            "generatedAt": "2026-02-27T08:50:56.606Z",
+            "sourceRevisionId": 1322386
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28865,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "title": "B2.2.3 Advantages of compartmentalization in the cytoplasm of cells",
+              "labeledAt": "2026-03-06T16:03:59.255Z",
+              "reasoning": "The question focuses on differing pH in cytosol vs lysosome and asks for the biological advantage of such intracellular compartmentalization, i.e., isolating acidic conditions for enzyme function/safety.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-06T16:03:59.255Z",
+              "reasoning": "It implicitly relies on understanding lysosomes as specialized organelles with distinct internal conditions (acidic pH) adapted for degradation, tying organelle function to compartment environment.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1688860,
+        "parts": [],
+        "options": [
+          {
+            "id": 4928529,
+            "content": "It ensures that degradative enzymes are inactivated if they accidentally leak into the neutral cytosol.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4928530,
+            "content": "It provides a high concentration of oxygen required for the final stages of aerobic respiration.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4928531,
+            "content": "It allows for the sequestering of calcium ions used to trigger intracellular signaling pathways.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4928532,
+            "content": "It facilitates the fixation of carbon dioxide during the light-independent reactions of photosynthesis.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c77ccdc8-1aec-418f-b3a6-8ba6fcd10f8e",
+        "specification": "Which statement most accurately describes organelles?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-biology-new-c77ccdc8-1aec-418f-b3a6-8ba6fcd10f8e-1771815806714",
+            "generatedAt": "2026-02-23T03:17:42.462Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1333990
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T03:50:57.833Z",
+            "resultId": 15515
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-05T16:57:41.883Z",
+              "reasoning": "The question asks for the definition of organelles, and topic B2.2.1 explicitly defines organelles as discrete subunits of cells adapted to perform specific functions, which aligns perfectly with option B.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1694429,
+        "parts": [],
+        "options": [
+          {
+            "id": 4933577,
+            "content": "Subcellular structures all enclosed by a double membrane.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4933578,
+            "content": "Specialized units within a cell that perform specific biological functions.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4933579,
+            "content": "Groups of similar cells that work together to perform a single task.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4933580,
+            "content": "Internal cell components responsible for all metabolic processes simultaneously.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ca4cb14a-e771-420d-b632-a2194ad2fc04",
+        "specification": "The diagram shows the structure of the rough endoplasmic reticulum. What makes the rough ER \"rough\"? \n![Image](https://pub-images.revisiondojo.com/question-images/452b7a07-e1c3-448a-93a2-71099e2e8aa1)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 1,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28869,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "title": "B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "labeledAt": "2026-03-06T16:04:12.478Z",
+              "reasoning": "The question asks what makes rough ER appear 'rough'\u2014the presence of ribosomes attached to the ER membrane\u2014directly matching structure and function of free ribosomes and rough ER.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1094645,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556870,
+            "content": "Presence of ribosomes",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556871,
+            "content": "Presence of proteins",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556872,
+            "content": "Folding of the membrane",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556873,
+            "content": "Presence of DNA",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cce32ff8-c204-44dc-88aa-a5b1964227c1",
+        "specification": "A eukaryotic cell contains several specialized compartments for protein synthesis, modification, and transport.\n\nThe diagram shows protein trafficking from the endoplasmic reticulum (ER) to the Golgi apparatus and back, involving COPI and COPII vesicles. It also highlights the retrieval of ER proteins.\n\n![](https://pub-images.revisiondojo.com/question-images/oqxSOe3grzfqtiU7usjZX.jpeg)\n\nThe bar chart shows the number of vesicles of different types produced in a eukaryotic cell over one hour.\n\n![](https://pub-images.revisiondojo.com/question-images/KiJv7L2jkgdagMIjv2AyG.jpeg)",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T03:59:30.534Z",
+            "resultId": 16438
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28871,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.9 Structure and function of vesicles in cells (HL)",
+              "title": "B2.2.9 Structure and function of vesicles in cells (HL)",
+              "labeledAt": "2026-03-05T17:03:27.104Z",
+              "reasoning": "The question extensively discusses COPI, COPII, and clathrin-coated vesicles, their transport directions, and their relative production rates, which is the core subject of vesicle structure and function.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28870,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "title": "B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "labeledAt": "2026-03-05T17:03:27.104Z",
+              "reasoning": "Several parts of the question focus on the Golgi apparatus's role in protein modification, retrieval mechanisms (KDEL receptor), and sorting proteins to their final destinations.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28869,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "title": "B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "labeledAt": "2026-03-05T17:03:27.104Z",
+              "reasoning": "Part (g) specifically asks about the site of protein synthesis and the type of ribosomes involved in the secretory pathway, which pertains to the rough endoplasmic reticulum and bound ribosomes.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1694436,
+        "parts": [
+          {
+            "id": 1156279,
+            "content": "Using the diagram, state the direction of transport for COPII-coated vesicles.",
+            "order": 0,
+            "markscheme": "- From ER to Golgi apparatus. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156280,
+            "content": "Identify how proteins that mistakenly leave the ER are returned.",
+            "order": 1,
+            "markscheme": "- COPI vesicles return ER proteins from the Golgi to the ER (retrograde transport). <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156281,
+            "content": "Explain the role of the KDEL receptor in maintaining compartment identity.",
+            "order": 2,
+            "markscheme": "- KDEL receptor binds ER-resident proteins with a KDEL retention/retrieval signal. <marks>1 mark</marks>\n- Binding occurs in the Golgi and the receptor helps package these proteins into COPI vesicles for return to the ER. <marks>1 mark</marks>\n- Prevents loss of ER proteins to later secretory pathway compartments (e.g. secretion/lysosomes), maintaining ER composition/identity. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156282,
+            "content": "Using the bar graph, identify which vesicle type has the lowest formation rate and suggest a cellular process where it is critical.",
+            "order": 3,
+            "markscheme": "- COPI vesicles. <marks>1 mark</marks>\n- Retrograde transport/recycling (e.g. retrieval of ER proteins or recycling Golgi enzymes back to ER). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156283,
+            "content": "Suggest why clathrin-coated vesicles are produced in higher numbers than COPI vesicles.",
+            "order": 4,
+            "markscheme": "- Clathrin-coated vesicles function in multiple pathways (e.g. endocytosis at the plasma membrane and trafficking from the trans-Golgi network). <marks>1 mark</marks>\n- They are used to deliver cargo to several destinations (e.g. endosomes/lysosomes via mannose-6-phosphate receptors, or to the plasma membrane/for secretion). <marks>1 mark</marks>\n- Therefore overall demand/turnover is higher than for COPI, which is mainly retrograde Golgi-to-ER recycling. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156284,
+            "content": "In the diagram, where are proteins most likely to be synthesized for lysosomal targeting? Explain using ribosome type and pathway.",
+            "order": 5,
+            "markscheme": "- On ribosomes bound to the rough ER membrane. <marks>1 mark</marks>\n- These proteins enter the ER lumen, are transported to the Golgi, then sorted to lysosomes (e.g. via mannose-6-phosphate tagging and vesicles to endosomes/lysosomes). <marks>1 mark</marks>\n- Secretory/lysosomal proteins are translated on membrane-bound ribosomes rather than free ribosomes in the cytosol. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156285,
+            "content": "Explain how the Golgi apparatus modifies proteins before packaging them into vesicles, based on their final destination.",
+            "order": 6,
+            "markscheme": "- Golgi enzymes chemically modify proteins (e.g. glycosylation/processing of oligosaccharides). <marks>1 mark</marks>\n- Proteins can be tagged for specific destinations (e.g. mannose-6-phosphate for lysosomal enzymes). <marks>1 mark</marks>\n- The Golgi sorts/packages proteins into different vesicles for secretion, plasma membrane insertion, or delivery to lysosomes. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "da5e54f7-5771-42b7-ac2e-4b953e6f3a87",
+        "specification": "The diagram shows the structure of a prokaryotic cell.\n\n![Prokaryotic cell](https://pub-images.revisiondojo.com/question-images/5c808ba3-0f02-453c-a3a8-eef23802e17d)\n\nWhich feature of a prokaryotic cell distinguishes it from a eukaryotic cell?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:20:15.986Z",
+            "resultId": 13788
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28762,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.5  Prokaryote cell structure",
+              "title": "A2.2.5  Prokaryote cell structure",
+              "labeledAt": "2026-03-05T16:09:17.318Z",
+              "reasoning": "The question explicitly provides a diagram of a prokaryotic cell and asks for features that distinguish it from eukaryotes, directly testing knowledge of prokaryote cell structure.",
+              "confidence": 0.98
+            },
+            {
+              "id": 28763,
+              "isHl": false,
+              "path": "A - Unity and Diversity > A2.2 Cell structure > A2.2.6  Eukaryote cell structure",
+              "title": "A2.2.6  Eukaryote cell structure",
+              "labeledAt": "2026-03-05T16:09:17.318Z",
+              "reasoning": "Distinguishing prokaryotes from eukaryotes requires knowledge of eukaryotic cell features such as the presence of a nucleus and membrane-bound organelles.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1694086,
+        "parts": [],
+        "options": [
+          {
+            "id": 4932381,
+            "content": "Absence of a nucleus",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Prokaryotic cells do not have a membrane-bound nucleus; eukaryotic cells do."
+          },
+          {
+            "id": 4932382,
+            "content": "Absence of ribosomes",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: prokaryotic cells contain ribosomes (70S), so they are not absent."
+          },
+          {
+            "id": 4932383,
+            "content": "Absence of a cell wall",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: many prokaryotes have a cell wall (e.g. peptidoglycan in bacteria)."
+          },
+          {
+            "id": 4932384,
+            "content": "Presence of a membrane-bound organelle",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: membrane-bound organelles are characteristic of eukaryotic cells, not prokaryotic cells."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e9c10b93-f7c3-48a8-b453-49711fc6ac30",
+        "specification": "![Image](https://pub-images.revisiondojo.com/question-images/f45aa887-3a58-41ef-b8c1-6eb54e1bc9e7)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28869,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "title": "B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "labeledAt": "2026-03-05T17:00:55.056Z",
+              "reasoning": "The question explicitly requires an explanation of the structure and function of the rough endoplasmic reticulum.",
+              "confidence": 1
+            },
+            {
+              "id": 28870,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "title": "B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "labeledAt": "2026-03-05T17:00:55.056Z",
+              "reasoning": "The question explicitly requires an explanation of the structure and function of the Golgi apparatus.",
+              "confidence": 1
+            },
+            {
+              "id": 28871,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.9 Structure and function of vesicles in cells (HL)",
+              "title": "B2.2.9 Structure and function of vesicles in cells (HL)",
+              "labeledAt": "2026-03-05T17:00:55.056Z",
+              "reasoning": "The relationship between the rough ER and the Golgi apparatus is based on the movement of vesicles that transport proteins between these two organelles.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1332652,
+        "parts": [
+          {
+            "id": 1009025,
+            "content": "Using the diagram of a eukaryotic cell, explain how the structure and function of the rough ER and Golgi apparatus are related.",
+            "order": 0,
+            "markscheme": "For rough ER:\n- Ribosomes attached to outer membrane surface enables protein synthesis directly into ER lumen <marks>1 mark</marks>\n\n- Extensive membrane network provides large surface area for protein synthesis and processing <marks>1 mark</marks>\n\n- Connection to nuclear envelope allows efficient transfer of information from nucleus to site of protein synthesis <marks>1 mark</marks>\n\n- Continuous internal space (lumen) allows newly synthesized proteins to undergo folding/modification <marks>1 mark</marks>\n\nFor Golgi apparatus:\n- Stack of flattened cisternae provides compartmentalization for sequential protein modifications <marks>1 mark</marks>\n\n- Distinct cis and trans faces enable directional protein processing <marks>1 mark</marks>\n\n- Membrane-bound structure allows concentration of modifying enzymes for efficient protein processing <marks>1 mark</marks>\n\n- Vesicle formation at trans face enables sorted proteins to be packaged for specific destinations <marks>1 mark</marks>\n\n<note>Each marking point requires explicit linking of a structural feature to its functional significance</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "organelle_specific",
+                  "label": "Organelle-Specific Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the Rough ER: Ribosomes",
+                      "content": "The **rough endoplasmic reticulum (rER)** is characterized by having **ribosomes** attached to its outer membrane surface. This structural feature is essential for its function: it allows proteins to be synthesized (translated) directly into the **ER lumen** (the internal space). This ensures that proteins destined for secretion or membrane insertion are kept separate from the cytoplasm right from the start.",
+                      "highlights": [
+                        {
+                          "text": "rough ER",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze the Rough ER: Lumen",
+                      "content": "The rER consists of an extensive network of membrane-bound sacs. This provides a **large surface area** for ribosomes to attach, maximizing protein production. Inside, the **continuous internal lumen** provides a controlled environment where newly synthesized proteins can undergo essential **folding and initial modifications** (like adding carbohydrate chains) before being transported away."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the Rough ER: Connectivity",
+                      "content": "Structurally, the rER is often **continuous with the nuclear envelope**. This proximity is functional: it allows for the efficient transfer of genetic information (mRNA) from the nucleus directly to the site of protein synthesis, streamlining the gene expression process."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Analyze the Golgi: Cisternae",
+                      "content": "Moving to the **Golgi apparatus**, its structure consists of a stack of flattened, membrane-bound sacs called **cisternae**. Unlike the rER, these are usually not physically connected to each other. This compartmentalization allows the Golgi to contain different **modifying enzymes** in each sac, enabling the **sequential modification** of proteins as they move through the stack.",
+                      "highlights": [
+                        {
+                          "text": "Golgi apparatus",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Analyze the Golgi: Polarity",
+                      "content": "The Golgi apparatus has a distinct **polarity**, with a **cis face** (receiving side) and a **trans face** (shipping side). This structural arrangement ensures **directional processing**: vesicles from the rER fuse with the cis face, and after being processed, the finished products exit from the trans face."
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Analyze the Golgi: Vesicles",
+                      "content": "A key functional feature of the Golgi is its ability to form **vesicles** at the trans face. This allows the organelle to **sort and package** proteins into specialized containers. These vesicles then carry the proteins to specific destinations, such as the plasma membrane for secretion (exocytosis) or to become lysosomes."
+                    },
+                    {
+                      "type": "text",
+                      "order": 6,
+                      "title": "Synthesize the Relationship",
+                      "content": "The relationship is a functional relay: the rER focuses on the **synthesis and folding** of proteins, which are then transported via transport vesicles to the Golgi. The Golgi then takes over to **refine, sort, and distribute** these proteins. This collaboration is a core part of the secretory pathway discussed in **Topic B2.2: Organelles and compartmentalization**."
+                    }
+                  ]
+                },
+                {
+                  "id": "functional_pathway",
+                  "label": "Process-Oriented Pathway",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "The Endomembrane System Journey",
+                      "content": "To answer this question effectively, we need to trace the \"journey\" of a protein. The **rough Endoplasmic Reticulum (rER)** and the **Golgi apparatus** are the two primary stops in the endomembrane system. Their structures are specialized to ensure proteins are built, folded, modified, and shipped to the correct destination. \n\nThis process is covered in **Topic B2.2: Organelles and compartmentalization**. Understanding the relationship between these two organelles is key to explaining how eukaryotic cells manage complex secretions.",
+                      "highlights": [
+                        {
+                          "text": "explain how the structure and function of the rough ER and Golgi apparatus are related",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Synthesis at the rER",
+                      "content": "The journey begins on the surface of the **rough ER**. Its \"rough\" appearance comes from **ribosomes** attached to the outer membrane surface. This structural feature allows proteins to be synthesized directly into the **ER lumen** (the internal space). \n\nAdditionally, the rER membrane is often continuous with the **nuclear envelope**, which facilitates the efficient transfer of genetic information (mRNA) from the nucleus to the site of protein synthesis.",
+                      "highlights": [
+                        {
+                          "text": "Ribosomes attached to outer membrane surface enables protein synthesis directly into ER lumen",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Processing in the Lumen",
+                      "content": "The rER is an extensive network of folded membranes. This provides a **large surface area** for ribosomes to attach, maximizing protein production. Once inside the **lumen**, the environment is specialized to allow newly synthesized proteins to undergo their initial **folding** and chemical modifications (like adding carbohydrate chains to form glycoproteins).",
+                      "highlights": [
+                        {
+                          "text": "Continuous internal space (lumen) allows newly synthesized proteins to undergo folding/modification",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Transport to the Golgi",
+                      "content": "Once the initial processing is done in the rER, the proteins are packaged into **transport vesicles**. These membrane-bound bubbles bud off the rER and carry the proteins to the \"receiving\" side of the Golgi apparatus. This highlights the functional link: the rER creates the raw product, and vesicles provide the bridge to the next workstation."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Sequential Modification in Golgi",
+                      "content": "The **Golgi apparatus** consists of a stack of flattened membrane sacs called **cisternae**. This structure provides distinct **compartments**, which is crucial because protein modification happens in stages. \n\nBy keeping different enzymes in different cisternae, the cell can ensure that modifications (like trimming sugars or adding phosphate groups) occur in a specific, **sequential order**.",
+                      "highlights": [
+                        {
+                          "text": "Stack of flattened cisternae provides compartmentalization for sequential protein modifications",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Directionality and Faces",
+                      "content": "The Golgi has a clear polarity with two distinct sides:\n- The **cis face**: The \"receiving\" side that faces the rER.\n- The **trans face**: The \"shipping\" side that faces the plasma membrane.\n\nThis structural polarity ensures **directional protein processing**, preventing proteins from moving backward and ensuring they reach the final assembly stage correctly.",
+                      "highlights": [
+                        {
+                          "text": "Distinct cis and trans faces enable directional protein processing",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 6,
+                      "title": "Sorting and Final Export",
+                      "content": "Finally, at the **trans face**, the Golgi performs its \"post office\" function. It sorts the processed proteins and packages them into **secretory vesicles**. \n\nThe structure of the trans face allows it to bud off these vesicles, which then travel to specific destinations, such as the cell membrane for **exocytosis** or to become lysosomes within the cell.",
+                      "highlights": [
+                        {
+                          "text": "Vesicle formation at trans face enables sorted proteins to be packaged for specific destinations",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-20T16:30:46.636Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f49dc9cc-16a1-4417-8281-c5d5e0d8a820",
+        "specification": "The diagram shows the structure of a lysosome. What role does the lysosome play in the cell? \n![Image](https://pub-images.revisiondojo.com/question-images/f4565a0b-a04d-419e-b315-1f7ccc09ba08)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28863,
+              "isHl": false,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "title": "B2.2.1 Organelles as discrete subunits of cells that are adapted to perform specific functions",
+              "labeledAt": "2026-03-06T16:05:06.894Z",
+              "reasoning": "The question asks for the role/function of a specific organelle (lysosome) within the cell, which falls under organelles as functional subunits adapted for specific functions.",
+              "confidence": 0.74
+            },
+            {
+              "id": 28871,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.9 Structure and function of vesicles in cells (HL)",
+              "title": "B2.2.9 Structure and function of vesicles in cells (HL)",
+              "labeledAt": "2026-03-06T16:05:06.894Z",
+              "reasoning": "Lysosomes are membrane-bound vesicles involved in intracellular digestion; the question\u2019s focus on digestion of waste aligns with vesicle structure/function.",
+              "confidence": 0.52
+            }
+          ]
+        },
+        "currentRevisionId": 763523,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556890,
+            "content": "Protein synthesis",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556891,
+            "content": "Energy production",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556892,
+            "content": "Digestion of waste",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556893,
+            "content": "Storage of genetic material",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fba2384c-8160-4370-b8ae-d3b465e95875",
+        "specification": "After the insulin protein is synthesized, it must be chemically refined and then concentrated into transport vesicles for release. Which organelle is the site of this refining and vesicle-loading process?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-chemistry-new-fba2384c-8160-4370-b8ae-d3b465e95875-1771866504453",
+            "generatedAt": "2026-02-24T04:04:00.146Z",
+            "variationScope": 5,
+            "sourceRevisionId": 763421
+          },
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T02:37:41.893Z",
+            "resultId": 16206
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28870,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "title": "B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "labeledAt": "2026-03-05T17:01:58.288Z",
+              "reasoning": "The question describes the function of the Golgi apparatus, which includes the post-translational modification ('refining') of proteins like insulin and packaging them into vesicles for secretion.",
+              "confidence": 1
+            },
+            {
+              "id": 28871,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.9 Structure and function of vesicles in cells (HL)",
+              "title": "B2.2.9 Structure and function of vesicles in cells (HL)",
+              "labeledAt": "2026-03-05T17:01:58.288Z",
+              "reasoning": "The question specifically refers to the process of concentrating substances into transport vesicles for release, which is a key aspect of vesicle function and formation.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1694293,
+        "parts": [],
+        "options": [
+          {
+            "id": 4933033,
+            "content": "Lysosome",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4933034,
+            "content": "Golgi apparatus",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4933035,
+            "content": "Smooth endoplasmic reticulum",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4933036,
+            "content": "Mitochondrion",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "44",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10848,
+      "title": "B2.2 Organelles and compartmentalization",
+      "slug": "ib-biology-new-b22-organelles-and-compartmentalization",
+      "parentTopicId": 10844
+    },
+    "subject": {
+      "id": 308,
+      "title": "Biology",
+      "slug": "ib-biology-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "44",
+      "byQuestion": {}
+    }
+  }
+}

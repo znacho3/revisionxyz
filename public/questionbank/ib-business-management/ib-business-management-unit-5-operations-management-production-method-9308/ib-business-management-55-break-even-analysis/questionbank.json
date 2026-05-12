@@ -1,3 +1,2276 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ef13241e28fa6ac2e6378fb10a098925fa1a8d328b195a880b2a48836d3f9e79
-size 195338
+{
+  "json": {
+    "questions": [
+      {
+        "id": "14ecbc4a-cd17-45c9-96f0-a044f402e5d0",
+        "specification": "**BiteFresh Ltd.**\n\nBiteFresh Ltd. is a company that produces ready-made healthy meals for supermarkets and gyms. Due to growing demand, the business is planning to open a second production facility. Management is deciding between two locations: one in an urban area with higher rent but closer to suppliers and customers, and another in a rural area with lower operating costs but limited infrastructure.\n\nThe finance team has produced updated financial data to help evaluate the company\u2019s performance and support the location decision.\n\n**Table 1: Financial data for BiteFresh Ltd.**\n\n| Item                     | Amount ($) |\n|--------------------------|------------|\n| Revenue                  | 400,000    |\n| Cost of goods sold       | 220,000    |\n| Expenses                 | 130,000    |\n| Fixed costs (per month)  | 12,000     |\n| Selling price per unit   | 10         |\n| Variable cost per unit   | 4          |\n| Current assets           | 70,000     |\n| Current liabilities      | 35,000     |\n",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29686,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.5 Profitability and liquidity ratio analysis > 3.5.1 Profitability Ratios",
+              "title": "3.5.1 Profitability Ratios",
+              "labeledAt": "2026-03-06T04:30:35.173Z",
+              "reasoning": "Parts (a) and (b) require calculating net profit and net profit margin, which are profitability measures/ratios.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29688,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.5 Profitability and liquidity ratio analysis > 3.5.3 Liquidity Ratios",
+              "title": "3.5.3 Liquidity Ratios",
+              "labeledAt": "2026-03-06T04:30:35.173Z",
+              "reasoning": "Part (c) asks for the current ratio, a liquidity ratio.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29747,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.1 Total Contribution vs. Contribution per Unit",
+              "title": "5.5.1 Total Contribution vs. Contribution per Unit",
+              "labeledAt": "2026-03-06T04:30:35.173Z",
+              "reasoning": "Part (d) asks for break-even output using selling price, variable cost, and fixed costs\u2014requires contribution per unit/total contribution.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29745,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.4 Location > 5.4.1 Reasons for a Specific Location of Production",
+              "title": "5.4.1 Reasons for a Specific Location of Production",
+              "labeledAt": "2026-03-06T04:30:35.173Z",
+              "reasoning": "Part (e) asks for a factor to consider when choosing between urban vs rural production locations\u2014location decision criteria.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1087724,
+        "parts": [
+          {
+            "id": 16894,
+            "content": "Calculate the **net profit** for the business.  \n**Show all your working.**\n",
+            "order": 0,
+            "markscheme": "Net profit = Revenue \u2013 (Cost of goods sold + Expenses)  \n= 400,000 \u2013 (220,000 + 130,000) = 400,000 \u2013 350,000 = **$50,000**\n\nAward <marks>1 mark</marks>  for correct formula and working, and <marks>1 mark</marks> for correct final answer.  \n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16895,
+            "content": "Calculate the **net profit margin**.  \n**Show all your working.** \n",
+            "order": 1,
+            "markscheme": "Net profit margin = (Net profit / Revenue) \u00d7 100  \n= (50,000 / 400,000) \u00d7 100 = **12.5%**\n\nAward <marks>1 mark</marks> for correct formula and working, and <marks>1 mark</marks>  for final answer with percentage.  \n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16769,
+            "content": "Calculate the **current ratio**.  \n**Show all your working.**",
+            "order": 2,
+            "markscheme": "Current ratio = Current assets / Current liabilities  \n= 70,000 / 35,000 = **2:1**\n\nAward <marks>1 mark</marks> for correct formula and substitution, and <marks>1 mark</marks> for final answer in ratio format.  \n",
+            "marks": 2,
+            "label_id": "fea9d4f4-6c19-4665-a5b1-0f72b37a9ed3",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16770,
+            "content": "Calculate the **break-even output** per month.  \n**Show all your working.**",
+            "order": 3,
+            "markscheme": "Contribution per unit = Selling price \u2013 Variable cost = 10 \u2013 4 = 6  \nBreak-even output = Fixed costs / Contribution per unit = 12,000 / 6 = **2,000 units**\n\nAward <marks>1 mark</marks> for correct contribution per unit and <marks>1 mark</marks> for correct break-even output.  \n",
+            "marks": 2,
+            "label_id": "fea9d4f4-6c19-4665-a5b1-0f72b37a9ed3",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16771,
+            "content": "Outline one factor that BiteFresh Ltd. should consider when choosing between the urban and rural **location options**.",
+            "order": 4,
+            "markscheme": "- **Factor**: Proximity to suppliers and customers  \n- **Development**: An urban location may lead to higher transport efficiency and faster delivery, improving service quality despite higher rent costs\n\nAccept other valid factors such as infrastructure, labour availability, cost differences, or access to skilled workers.  \n\nAward <marks>1 mark</marks>  for identifying a valid factor and <marks>1 mark</marks> for development.\n",
+            "marks": 2,
+            "label_id": "0a0d2840-6cb5-49d5-b0e7-691be14b6308",
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "278cbbbb-6d12-488a-8450-24f3c6a9db10",
+        "specification": "**Alpha Robotics \u2013 Optimizing HR and Operations for Growth**\n\n<dialog>\n\t\n**Resource 1 \u2013 News Article**\n\t\nAlpha Robotics Struggles with HR and Operational Efficiency\n\n<br>\nAlpha Robotics, a technology firm specializing in AI-powered industrial robots, is experiencing rapid expansion as demand for automation increases globally. The company was founded in 2015 and has since grown to 2,500 employees across four locations: the United States, Germany, Japan, and India.\n\n<br>\nKey Challenges:\n\t\n<br>\n\t\n**(1)** HR management issues \u2013 Employees complain about unclear leadership, poor communication, and lack of motivation due to a highly hierarchical structure.\n\n<br>\n\t\n**(2)** Production inefficiencies \u2013 The company\u2019s batch production method is increasing lead times and reducing product quality.\n\n<br>\n\t\n**(3)** Location challenges \u2013 With rising costs in the US and Germany, Alpha Robotics must decide whether to expand in India (lower labor costs) or develop a new R&D facility in Singapore.\n\n<br>\n\t\nCEO Daniel Carter is considering the following strategic changes:\n\n<br>\n\t\n**(1)** Restructuring the organization to improve communication and motivation.\n\n<br>\n\t\n**(2)** Shifting to lean production and just-in-time (JIT) inventory management.\n\n<br>\n\t\n**(3)** Relocating part of production to India or Singapore while maintaining efficiency.\n\n</dialog>\n\n<dialog>\n\t\n**Resource 2 \u2013 Internal HR Survey Results**\n\t\n| **Issue**                           | **Percentage of Employees Concerned** |\n|--------------------------------------|---------------------------------------|\n| Lack of leadership clarity           | 42%                                   |\n| Poor communication from managers     | 38%                                   |\n| Low motivation and workplace morale  | 45%                                   |\n| Limited career advancement           | 41%                                   |\n\n**Key Insights**:\n\n<br>\n\n**(1)** Employees feel disconnected from leadership, affecting productivity.\n\n<br>\n\t\n**(2)** A lack of career growth opportunities is reducing motivation and increasing turnover.\n\n<br>\n\t\n**(3)** Middle management struggles with effective communication due to a rigid hierarchical structure.\n\n<br>\n\t\n</dialog>\n\n<dialog>\n\n**Resource 3 \u2013 Cost-Benefit Analysis for Production Relocation**\n\n<br>\n\n*Alpha Robotics \u2013 Cost Analysis for Facility Expansion*\n\n<br>\n\n| **Location**       | **Labor Costs per Hour ($)** | **Setup Costs ($M)** | **Expected Efficiency Gains** |\n|-------------------|----------------------|------------------|-----------------------|\n| **India**        | 12                   | 30               | 10% increase          |\n| **Singapore**    | 22                   | 50               | 18% increase          |\n\n\n<br>\n\nKey Considerations:\n\n<br>\n\t\n**(1)** India offers lower costs, but efficiency gains are lower compared to Singapore.\n\n<br>\n\t\n**(2)** Singapore provides greater efficiency but has significantly higher setup costs.\n</dialog>\t\n\t\n\n\n",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 288,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29650,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.2 Organizational structure > 2.2.1 Terminology of Organizational Structures",
+              "title": "2.2.1 Terminology of Organizational Structures",
+              "labeledAt": "2026-03-06T04:39:09.471Z",
+              "reasoning": "Central HR issue is a rigid, hierarchical organizational structure causing unclear leadership and communication problems; part (a) and (c) reference restructuring.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29658,
+              "isHl": true,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.2 Motivation Theories (HL Only)",
+              "title": "2.4.2 Motivation Theories (HL Only)",
+              "labeledAt": "2026-03-06T04:39:09.471Z",
+              "reasoning": "Part (a) explicitly asks to use an HR theory and the case highlights low motivation/morale and lack of career advancement\u2014best matched to HL motivation theories.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29670,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.6 Communication > 2.6.2 Barriers to Communication",
+              "title": "2.6.2 Barriers to Communication",
+              "labeledAt": "2026-03-06T04:39:09.471Z",
+              "reasoning": "Employee survey emphasizes poor communication from managers and disconnection from leadership; communication barriers are a key HR challenge.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29735,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.2 Operations methods > 5.2.2 Batch Production",
+              "title": "5.2.2 Batch Production",
+              "labeledAt": "2026-03-06T04:39:09.471Z",
+              "reasoning": "Resource 1 identifies batch production as increasing lead times and reducing quality; part (b) asks about operational challenges tied to improving efficiency.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29739,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.3 Lean production and quality management (HL only) > 5.3.2 Methods of Lean Production",
+              "title": "5.3.2 Methods of Lean Production",
+              "labeledAt": "2026-03-06T04:39:09.471Z",
+              "reasoning": "The CEO plans to shift to lean production; part (b) and (c) require explaining operational challenges and recommending actions linked to lean methods.",
+              "confidence": 0.77
+            },
+            {
+              "id": 29752,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.2 JIT vs. Just-in-Case (JIC)",
+              "title": "5.6.2 JIT vs. Just-in-Case (JIC)",
+              "labeledAt": "2026-03-06T04:39:09.471Z",
+              "reasoning": "The CEO specifically considers just-in-time (JIT) inventory management, requiring understanding of JIT vs JIC and implications for efficiency/lead times.",
+              "confidence": 0.76
+            },
+            {
+              "id": 29746,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.4 Location > 5.4.2 Reorganizing Production Nationally and Internationally",
+              "title": "5.4.2 Reorganizing Production Nationally and Internationally",
+              "labeledAt": "2026-03-06T04:39:09.471Z",
+              "reasoning": "Resources include a cost-benefit analysis for relocating production internationally (India vs Singapore); part (c) requires recommending a location/relocation plan.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 828963,
+        "parts": [
+          {
+            "id": 848947,
+            "content": "Using an appropriate business management theory, describe an HR challenge that Alpha Robotics is facing.",
+            "order": 0,
+            "markscheme": "Alpha Robotics faces several HR challenges, including:\n\n- **Poor communication and unclear leadership** \u2013 Employees feel disconnected from decision-making, leading to low morale.\n- **Limited career advancement** \u2013 A rigid structure is preventing employees from gaining promotions, reducing motivation.\n\nMark as <marks>1+1 marks</marks>.\n\nAward <marks>1 mark</marks> for using an appropriate business management theory (e.g., Maslow\u2019s Hierarchy of Needs, Herzberg\u2019s Two-Factor Theory, or McGregor\u2019s Theory X and Y) and <marks>1 mark</marks> for describing an HR challenge affecting Alpha Robotics.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 848948,
+            "content": "Explain two operational challenges Alpha Robotics faces in improving production efficiency.",
+            "order": 1,
+            "markscheme": "Alpha Robotics faces several operational challenges, including:\n\n**Inefficiencies in batch production**\n- The company relies on batch production, which increases lead times and creates inconsistencies in quality.\n- Application: A shift to lean production or continuous flow manufacturing would reduce waste and improve efficiency.\n\n**Challenges in location decision-making**\n- The company must choose between India (low costs) and Singapore (higher efficiency gains).\n- Application: The decision must weigh long-term financial benefits vs. operational efficiency.\n\nMark as <marks>3+3 marks</marks>.\n\nAward <marks>1 mark</marks> for identification of a challenge, <marks>1 mark</marks> for explanation, and <marks>1 mark</marks> for application to Alpha Robotics.",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 848949,
+            "content": "Using all the resources provided and your knowledge of business management, recommend a possible plan of action to improve both HR and operations management at Alpha Robotics.",
+            "order": 2,
+            "markscheme": "Alpha Robotics should implement a dual approach, focusing on HR improvements and operational efficiency:\n\n**(1) HR Improvements**\n- Restructure the organization to create a flatter hierarchy and improve communication flow.\n- Introduce leadership training programs to improve middle management effectiveness.\n- Implement performance-based promotions to encourage employee motivation and retention.\n\n**(2) Operations Strategy**\n- Adopt lean production techniques to reduce waste and improve efficiency.\n- Introduce automation in production to lower costs and increase speed.\n- Select Singapore for expansion due to higher long-term efficiency gains despite higher upfront costs.\n\n**Criterion A: Use of resource materials**\nTo what extent does the student use the resource materials provided to effectively support the recommended plan of action?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited reference to the resource materials, or resources are used ineffectively. |\n| **2** | Some reference to the resource materials, but in a superficial way. |\n| **3** | Most of the resource materials are used to support the plan of action. |\n| **4** | All resource materials are effectively used to support the plan of action. |\n\n**Criterion B: Business management tools and theories**\nTo what extent does the student\u2019s plan of action effectively apply appropriate business management tools and theories?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited application of business management tools and theories. |\n| **2** | Superficial application of business management tools and theories. |\n| **3** | Satisfactory application of business management tools and theories. |\n| **4** | Effective application of business management tools and theories. |\n\n**Criterion C: Evaluation**\nTo what extent does the student effectively evaluate the expected impact of their plan of action on the relevant areas of the business?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1-2** | Largely descriptive, with limited analysis or evaluation. |\n| **3-4** | Some evaluation of the expected impact, but not sustained. |\n| **5-6** | Effective evaluation, considering trade-offs and business impact. |\n\n**Criterion D: Sequencing of ideas and plan of action**\nTo what extent are the student\u2019s ideas and plan of action sequenced in a clear and coherent manner?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited sequencing of ideas and plan of action. |\n| **2** | Ideas and a plan of action exist, but not always in a clear manner. |\n| **3** | Effective sequencing of ideas and plan of action in a clear and coherent manner. |\n",
+            "marks": 17,
+            "label_id": null,
+            "rubric_id": "5b274239-3992-4deb-852a-bc27c1182cb2",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "305cf9f5-0240-46c0-967e-fce1ef95958b",
+        "specification": "**Global Solar Solutions (GSS)**\n\n<dialog> \n\n**Resource 1 \u2013 Background of the social enterprise**\n\nThree years ago, electrical engineer and entrepreneur Nadira Khan founded **Global Solar Solutions (GSS)** as a social enterprise in Morocco. Her goal was to provide **affordable, modular solar lighting kits** to off-grid rural communities. These kits, manufactured at GSS\u2019s urban facility, include rechargeable LED lights and mobile charging ports. GSS reinvests 100% of profits into R&D and local hiring.\n\nGSS operates in partnership with local NGOs and community councils. Its workforce includes 40 technicians and 20 community trainers who educate households about solar usage and maintenance. GSS applies lean production, Kaizen, and maintains a strong internal emphasis on quality control and after-sales support.\n\n</dialog>\n\n<dialog>\n\t\n**Resource 2 \u2013 Recent internal report on workforce issues**\n\n> \"High staff turnover and trainer burnout have increased over the past 12 months. Trainers, who work in remote villages for weeks at a time, report fatigue and a lack of recognition. Some have requested additional health support and clearer promotion opportunities.\"\n\nThe HR department suggested non-financial incentives such as increased job rotation and monthly feedback sessions but reported mixed engagement.\n\n</dialog>\n\n<dialog>\n\t\n**Resource 3 \u2013 Email from the Director of Rural Development (DRD)**\n\n> To: nadira.khan@GSS.org  \n> Subject: Expansion proposal  \n\nDear Ms. Khan,  \nWe are impressed by GSS\u2019s impact. The Ministry would like to propose a **contract to expand the solar program to 80,000 homes across North and West Africa** over five years. Your team would need to train local technicians and build capacity in three new countries. Please note, **the contract requires local sourcing of at least 60% of parts**.\n\nWe will require an initial trial rollout in 5,000 homes and evidence of social impact.\n\nRegards,  \nDirector, DRD\n\n</dialog>\n\n<dialog>\n\t\n**Resource 4 \u2013 Extract from a marketing audit summary**\n\nGSS currently relies on **word-of-mouth and NGO referrals**. Its brand is associated with trust and affordability. However, a 2024 brand perception survey in new markets revealed **low awareness** and **concerns about product durability** compared to larger multinationals such as SolarX.\n\nGSS\u2019s marketing team is small (3 staff) and has no formal digital strategy. There is also no localized messaging for francophone West African markets.\n\n</dialog>\n\n<dialog>\n\t\n**Resource 5 \u2013 Operations update from the Head of Production**\n\n> Our current facility is operating at **92% capacity**. To meet a major scale-up, we would need to either expand production or **outsource subassembly**. We have identified two regional partners with experience in sustainable component manufacturing. However, we are concerned about quality assurance if we lose full process control.\n\n</dialog>\n\n<dialog>\n\n**Resource 6 \u2013 Excerpt from a local newspaper article**\n\n> \u201cAccess to solar power has transformed daily life in remote villages. Children now study at night, families charge phones to access mobile banking, and kerosene usage has dropped. However, NGOs report that replacement parts for some GSS kits have been slow to arrive, creating frustrations in isolated regions.\u201d\n\n</dialog>",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 288,
+        "difficulty": 9,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29657,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.1 Motivation Theories ",
+              "title": "2.4.1 Motivation Theories ",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Part (a) explicitly asks for a motivation theory need satisfied for rural households (e.g., Maslow).",
+              "confidence": 0.86
+            },
+            {
+              "id": 29659,
+              "isHl": true,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.3 Labour Turnover (HL Only)",
+              "title": "2.4.3 Labour Turnover (HL Only)",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Resource 2 highlights high staff turnover and burnout; part (b) asks for an HR challenge, aligning with labour turnover.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29663,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.7 Non-Financial Rewards",
+              "title": "2.4.7 Non-Financial Rewards",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "HR responses mentioned include non-financial incentives (job rotation, feedback, recognition), directly matching non-financial rewards.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29751,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.1 The Local and Global Supply Chain Process",
+              "title": "5.6.1 The Local and Global Supply Chain Process",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Expansion contract requires 60% local sourcing and multi-country capacity building; operations challenges include supply chain and sourcing across countries.",
+              "confidence": 0.77
+            },
+            {
+              "id": 29741,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.3 Lean production and quality management (HL only) > 5.3.4 Quality Control vs. Quality Assurance",
+              "title": "5.3.4 Quality Control vs. Quality Assurance",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Outsourcing subassembly raises concerns about maintaining control over quality; this is quality control vs quality assurance.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29755,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.5 Cost to Buy (CTB) vs. Cost to Make (CTM)",
+              "title": "5.6.5 Cost to Buy (CTB) vs. Cost to Make (CTM)",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Decision between expanding production in-house vs outsourcing subassembly maps to cost-to-make vs cost-to-buy considerations.",
+              "confidence": 0.66
+            },
+            {
+              "id": 29710,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.2 Marketing planning > 4.2.1 The Role of Marketing Planning",
+              "title": "4.2.1 The Role of Marketing Planning",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Resource 4 is a marketing audit showing low awareness and lack of digital/localized strategy; the 5-year plan needs marketing planning.",
+              "confidence": 0.63
+            },
+            {
+              "id": 29722,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.5 The seven Ps of the marketing mix > 4.5.2 Branding",
+              "title": "4.5.2 Branding",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Brand perception issues (trust, durability concerns, low awareness) make branding a key element of the recommended plan.",
+              "confidence": 0.62
+            },
+            {
+              "id": 29724,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.5 The seven Ps of the marketing mix > 4.5.4 Promotion",
+              "title": "4.5.4 Promotion",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Need to raise awareness in new markets and develop a digital strategy implies promotional strategy decisions.",
+              "confidence": 0.6
+            },
+            {
+              "id": 11110,
+              "isHl": false,
+              "path": "BM Toolkit - Core business frameworks and tools > SWOT analysis",
+              "title": "SWOT analysis",
+              "labeledAt": "2026-03-06T04:33:25.591Z",
+              "reasoning": "Part (c) asks to use tools/theories with all resources to recommend a 5-year plan; SWOT is a common integrative planning tool for such case-based recommendations.",
+              "confidence": 0.57
+            }
+          ]
+        },
+        "currentRevisionId": 1087748,
+        "parts": [
+          {
+            "id": 27420,
+            "content": "With reference to business management motivation theory, describe one need that GSS satisfies for rural households requiring solar lighting.",
+            "order": 0,
+            "markscheme": "A business management theory which could be linked to needs in this case is **Maslow\u2019s Hierarchy of Needs**, especially **safety** and **physiological needs**.\n\nFrom the stimulus, the need which GSS satisfies through its solar kits is linked to:\n- **Lighting, security, and clean energy** (physiological/safety)\n- **Phone charging enabling access to finance** (social/economic participation)\n\nAward <marks>1 mark</marks> for using an appropriate motivation theory (e.g., Maslow\u2019s).  \nAward <marks>1 mark</marks> for describing one relevant human need satisfied by GSS.\n\n<note> Do not accept higher-order needs such as esteem or self-actualization. \u201cLighting = safety\u201d is acceptable. The command term is *describe* (AO1); only brief definitions are expected.\n",
+            "marks": 2,
+            "label_id": "4ddce03d-f6e3-4ce5-8a14-d6b49261575f",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 27421,
+            "content": "Explain one human resource challenge and one operations challenge GSS may face if it accepts the DRD expansion contract.",
+            "order": 1,
+            "markscheme": "**Human Resource Challenge**:\n- Field trainers are already experiencing **burnout and high turnover**.\n- Recruiting staff for **cross-border operations** may be difficult.\n- GSS may need to develop **bilingual or culturally aware training programs**.\n\n**Operations Challenge**:\n- Facility is already at **92% capacity**, leaving minimal room for expansion.\n- Outsourcing introduces **quality control risks**, especially with core product parts.\n- Meeting **local sourcing quotas (60%)** may strain procurement and logistics.\n\nAward <marks>1 mark</marks> for identification of an appropriate HR challenge.  \nAward <marks>1 mark</marks> for explanation of the HR challenge.  \nAward <marks>1 mark</marks> for clear application to GSS\u2019s context.  \nAward <marks>1 mark</marks> for identification of an appropriate operations challenge.  \nAward <marks>1 mark</marks> for explanation of the operations challenge.  \nAward <marks>1 mark</marks> for clear application to GSS\u2019s context.\n",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 27422,
+            "content": "Using all the resources provided and your knowledge of business management tools and theories, recommend a possible plan of action for GSS over the next five years.",
+            "order": 2,
+            "markscheme": "**Note to examiners concerning synoptic assessment**\n\nThis is a synoptic assessment task and asks the candidate to:\n- Draw together business management concepts from multiple topic areas.\n- Formulate a sustainable, ethical, and feasible strategic plan over five years.\n- Demonstrate deep application of Topics 2 (Human Resources), 4 (Marketing), and 5 (Operations).\n- Use business management tools and theories to support recommendations.\n- Critically engage with the stimulus material and sequence ideas logically.\n- Demonstrate balanced evaluation of trade-offs and stakeholder impacts.\n\n**One possible plan of action**:  \n\n**Controlled outsourcing of subassemblies + localized marketing + regional HR development**\n\nGSS should:\n- **Outsource** non-core components (e.g. frames, wiring) to trusted regional suppliers. Maintain control over final assembly and QA at GSS\u2019s main facility to reduce risk (Resource 5).\n- Recruit and train **local technicians and bilingual trainers** in new markets to comply with the DRD contract (Resource 3), while implementing job rotation and wellness programs to reduce burnout (Resource 2).\n- Develop a **localized marketing strategy**, translating materials into French, using mobile-first content, and leveraging NGO channels (Resource 4).\n- Apply **Kaizen principles** to improve logistics and reduce part replacement delays (Resource 6).\n\n**Tools and Theories (to be rewarded when applied appropriately)**:\n- **Ansoff Matrix** \u2013 Growth via market development in West/North Africa\n- **Marketing Mix (4Ps)** \u2013 Focus on Place and Promotion adaptation\n- **Workforce Planning / Job Rotation / Motivation Theory (Maslow)** \u2013 To address burnout and upskill local labor\n- **Capacity Utilization** \u2013 GSS currently at 92%; expansion or outsourcing needed\n- **TQM / Kaizen / Quality Assurance** \u2013 To manage outsourced quality risk\n- **Hofstede\u2019s Cultural Dimensions** \u2013 For managing staff across different regions\n- **CSR/Brand Positioning** \u2013 Maintaining social mission and trust in new markets",
+            "marks": 17,
+            "label_id": "00ac3621-86db-4e92-b277-695b52617b14",
+            "rubric_id": "5b274239-3992-4deb-852a-bc27c1182cb2",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3ddac431-54b2-4bcf-a678-a7c13b2e92f1",
+        "specification": "**GreenPulse Organics**\n\nGreenPulse Organics is a rapidly growing chain of organic grocery stores. The CEO, Amara, currently oversees four regional store managers. As the business has grown, Amara has maintained a centralized approach to decision-making, personally approving all major purchases and marketing strategies for every location.\n\nRecently, the Store Manager (North) reported low morale among shop assistants, noting that while they are satisfied with their wages and working conditions, they feel their work lacks variety and they have little responsibility. To address this and improve operational efficiency, Amara is considering delayering parts of the organization and delegating more authority to her regional managers.\n\n**Figure 1: Organizational Chart for GreenPulse Organics**\n\n![diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-chemistry-new-3ddac431-54b2-4bcf-a678-a7c13b2e92f1-1771938518510/6d7d4266-8f83-4bdd-89ce-9d180446a70a.jpeg)\n\n**Table 1: Weekly Performance Data**\n\n| Metric | North Store | South Store |\n| :--- | :--- | :--- |\n| Total Weekly Revenue | $45,000 | $38,000 |\n| Number of Employees (shop assistants shown in Figure 1) | 8 | 10 |\n| Average Weekly Wage | $600 | $600 |",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-chemistry-new-3ddac431-54b2-4bcf-a678-a7c13b2e92f1-1771938518510",
+            "generatedAt": "2026-02-24T13:09:30.740Z",
+            "sourceRevisionId": 1095411
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:59:20.049Z",
+            "resultId": 24567
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29650,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.2 Organizational structure > 2.2.1 Terminology of Organizational Structures",
+              "title": "2.2.1 Terminology of Organizational Structures",
+              "labeledAt": "2026-03-06T03:01:02.486Z",
+              "reasoning": "Part (a) requires calculating span of control from an organizational chart; parts (b) and (d) discuss centralization, delayering and delegation\u2014core organizational structure terminology.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29657,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.1 Motivation Theories ",
+              "title": "2.4.1 Motivation Theories ",
+              "labeledAt": "2026-03-06T03:01:02.486Z",
+              "reasoning": "Part (c) explicitly applies Herzberg\u2019s Two-Factor Theory to identify hygiene factors and motivators.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29754,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.4 Productivity Metrics",
+              "title": "5.6.4 Productivity Metrics",
+              "labeledAt": "2026-03-06T03:01:02.486Z",
+              "reasoning": "Part (e) asks to calculate labour productivity (revenue per employee), which is a productivity metric.",
+              "confidence": 0.88
+            }
+          ]
+        },
+        "currentRevisionId": 1694548,
+        "parts": [
+          {
+            "id": 1156563,
+            "content": "Using Figure 1, calculate the **span of control** (number of direct subordinates shown) for the Store Manager (North).",
+            "order": 0,
+            "markscheme": "- States span of control as the number of direct subordinates reporting to the Store Manager (North) in Figure 1 <marks>1 mark</marks>\n- Correctly calculates the span of control as $8$ (shop assistants) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156564,
+            "content": "Explain one disadvantage of **centralized decision-making** for GreenPulse Organics as the business expands.",
+            "order": 1,
+            "markscheme": "- Identifies a valid disadvantage of centralized decision-making (e.g. slower decision-making / bottlenecks) <marks>1 mark</marks>\n- Develops the disadvantage in context of GreenPulse Organics (e.g. delays in approving purchases/marketing leading to slow restocking or missed local opportunities and lost sales) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156565,
+            "content": "Using Herzberg\u2019s Two-Factor Theory, identify one **hygiene factor** and one **motivator** for staff at GreenPulse Organics.",
+            "order": 2,
+            "markscheme": "- Identifies an appropriate hygiene factor from the scenario (e.g. wages; working conditions) <marks>1 mark</marks>\n- Identifies an appropriate motivator from the scenario (e.g. responsibility; variety in work) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156566,
+            "content": "Explain one potential benefit of **delegation** for the Store Managers at GreenPulse Organics.",
+            "order": 3,
+            "markscheme": "- Identifies a valid benefit of delegation for store managers (e.g. increased motivation; empowerment; management development) <marks>1 mark</marks>\n- Explains the benefit in context (e.g. authority for local marketing/purchasing increases ownership and responsiveness to local customers) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156567,
+            "content": "Using the data in Table 1, calculate the **labor productivity** for the South Store in $ per employee per week. **Show all your working.**",
+            "order": 4,
+            "markscheme": "- Uses correct formula: $\\text{Labor Productivity} = \\frac{\\text{Total Weekly Revenue}}{\\text{Number of Employees}}$ <marks>1 mark</marks>\n- Correct calculation and unit: $\\$38{,}000 \\div 10 = \\$3{,}800$ per employee per week <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "40ae7139-b6b3-44d4-a974-e19d28089603",
+        "specification": "**GlowTea Ltd.**\n\nGlowTea Ltd. is a business that sells bottled herbal iced tea made with natural ingredients. The marketing team recently conducted market research through surveys and product sampling to understand customer preferences for flavour and price sensitivity. Based on the findings, the business created a marketing plan for a new product line aimed at health-conscious young adults.\n\nGlowTea has adjusted elements of its marketing mix, including the packaging design and pricing strategy, to reflect the preferences of this new market segment. The finance team has produced a break-even chart to assess whether the new line is financially viable before its official launch.\n\n**Figure 1: Break-even chart for GlowTea Ltd.\u2019s new product**\n\n![Image](https://pub-images.revisiondojo.com/question-images/4b03577c-2cb3-472d-8539-ced47e853a98)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:46:39.921Z",
+            "resultId": 24640
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29748,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.2 Aspects of a Break-Even Chart",
+              "title": "5.5.2 Aspects of a Break-Even Chart",
+              "labeledAt": "2026-03-06T04:34:21.533Z",
+              "reasoning": "Parts (a) and (e) require interpreting a break-even chart to find the break-even output and calculate profit/loss at a given output level.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29716,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.4 Market research > 4.4.1 Why Organizations Conduct Market Research",
+              "title": "4.4.1 Why Organizations Conduct Market Research",
+              "labeledAt": "2026-03-06T04:34:21.533Z",
+              "reasoning": "Part (b) asks for a reason why market research was important prior to launch, aligning with why organizations conduct market research.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29717,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.4 Market research > 4.4.2 Methods of Primary Market Research",
+              "title": "4.4.2 Methods of Primary Market Research",
+              "labeledAt": "2026-03-06T04:34:21.533Z",
+              "reasoning": "The stimulus mentions surveys and product sampling (primary research methods), which underpins the market research context in part (b).",
+              "confidence": 0.7
+            },
+            {
+              "id": 29729,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.5 The seven Ps of the marketing mix > 4.5.9 Appropriate Marketing Mixes",
+              "title": "4.5.9 Appropriate Marketing Mixes",
+              "labeledAt": "2026-03-06T04:34:21.533Z",
+              "reasoning": "Part (c) asks about changing an element of the marketing mix (e.g., packaging design/product and pricing) and how it supports success\u2014linking to selecting appropriate mixes.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29710,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.2 Marketing planning > 4.2.1 The Role of Marketing Planning",
+              "title": "4.2.1 The Role of Marketing Planning",
+              "labeledAt": "2026-03-06T04:34:21.533Z",
+              "reasoning": "Part (d) asks why creating a marketing plan is useful for launching a new product, matching the role of marketing planning.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1694530,
+        "parts": [
+          {
+            "id": 1156503,
+            "content": "Using Figure 1, identify the **break-even level of output (in units)** for the new product.",
+            "order": 0,
+            "markscheme": "- From Figure 1, the break-even point is at **5,000 units**, where total revenue equals total costs. <marks>1 mark</marks>\n- Uses correct terminology (e.g. \u201cbreak-even output/level of output\u201d). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156504,
+            "content": "Explain one reason why **market research** was important before launching the new product line.",
+            "order": 1,
+            "markscheme": "- Identifies a valid reason, e.g. it helps identify customer preferences, needs and price sensitivity. <marks>1 mark</marks>\n- Develops the point in context, e.g. GlowTea Ltd. used survey feedback to design a product that aligns with the tastes and health values of its target market. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156505,
+            "content": "Outline one element of the **marketing mix** that GlowTea Ltd. changed and explain how it may support the success of the product.",
+            "order": 2,
+            "markscheme": "- Identifies an element of the marketing mix changed by GlowTea (e.g. packaging design or pricing strategy). <marks>1 mark</marks>\n- Explains how the change may support success in context (e.g. packaging designed to appeal to health-conscious consumers may increase attractiveness and drive sales). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156506,
+            "content": "Explain one reason why **creating a marketing plan** is useful for the launch of a new product.",
+            "order": 3,
+            "markscheme": "- Identifies a benefit, e.g. provides clear objectives and strategies for launch. <marks>1 mark</marks>\n- Applies to the case, e.g. helps GlowTea coordinate pricing, promotion and product decisions to maximise market impact and reduce financial risk. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156507,
+            "content": "Using Figure 1, calculate the **profit or loss** GlowTea Ltd. would make if it sells 7,000 units.  \n**Show all your working.**",
+            "order": 4,
+            "markscheme": "- Reads values from Figure 1 at 7,000 units: total revenue $=70,000$ and total costs $=60,000$. <marks>1 mark</marks>\n- Calculates profit $=70,000-60,000=\\$10,000$ (profit). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "48b36b16-b894-4c5f-bcb8-a4a6575056bb",
+        "specification": "CrispCycle Ltd.\n\nCrispCycle Ltd. is a new business that produces healthy vegetable-based crisps using air-drying technology. The company recently conducted market research through focus groups and social media polls to better understand what health-conscious consumers look for in snack foods. Based on the findings, the company developed a marketing plan that includes adjustments to price, packaging, and promotional strategy.\n\nCrispCycle aims to position its product as a premium, guilt-free snack. The finance team has created a break-even chart to assess whether the new product line will be financially viable.\n\n**Figure 1: Break-even chart data for CrispCycle Ltd.\u2019s new product (values in US$)**\n\n| Output (units) | Total revenue (US$) | Total costs (US$) |\n|---:|---:|---:|\n| 0 | 0 | 15000 |\n| 3000 | 30000 | 30000 |\n| 4500 | 45000 | 37500 |",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:46:47.591Z",
+            "resultId": 24590
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29748,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.2 Aspects of a Break-Even Chart",
+              "title": "5.5.2 Aspects of a Break-Even Chart",
+              "labeledAt": "2026-03-06T04:34:08.222Z",
+              "reasoning": "Parts (a) and (e) require reading a break-even chart to identify break-even output and calculate profit/loss at a given sales volume\u2014core skills in interpreting aspects of a break-even chart.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29710,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.2 Marketing planning > 4.2.1 The Role of Marketing Planning",
+              "title": "4.2.1 The Role of Marketing Planning",
+              "labeledAt": "2026-03-06T04:34:08.222Z",
+              "reasoning": "Part (d) asks for a benefit of having a marketing plan when introducing a new product, which directly assesses the role/purpose of marketing planning.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29717,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.4 Market research > 4.4.2 Methods of Primary Market Research",
+              "title": "4.4.2 Methods of Primary Market Research",
+              "labeledAt": "2026-03-06T04:34:08.222Z",
+              "reasoning": "Part (b) refers to findings from market research (focus groups, social media polls) influencing a marketing plan\u2014this aligns with primary market research methods.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29729,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.5 The seven Ps of the marketing mix > 4.5.9 Appropriate Marketing Mixes",
+              "title": "4.5.9 Appropriate Marketing Mixes",
+              "labeledAt": "2026-03-06T04:34:08.222Z",
+              "reasoning": "Part (c) asks to outline one changed element of the marketing mix and explain its importance to the launch, which targets choosing and justifying an appropriate marketing mix.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1694532,
+        "parts": [
+          {
+            "id": 1156513,
+            "content": "Using Figure 1, identify the **break-even level of output** for CrispCycle Ltd.\u2019s new product.",
+            "order": 0,
+            "markscheme": "- Break-even level of output is **3,000 units** (where total revenue equals total costs) <marks>1 mark</marks>\n- Uses correct terminology e.g. \u201cbreak-even output/level of output\u201d <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156514,
+            "content": "Explain one way the findings from **market research** could influence the marketing plan.",
+            "order": 1,
+            "markscheme": "- Identifies a relevant market research insight (e.g. consumers prefer low-fat/air-dried crisps; resealable eco-packaging; willingness to pay for \u201cpremium\u201d health snacks) <marks>1 mark</marks>\n- Applies the insight to a marketing plan decision in context (e.g. change packaging design; set a premium price; tailor promotion/messages to health-conscious consumers) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156515,
+            "content": "Outline one element of the **marketing mix** that CrispCycle Ltd. changed and explain its importance to the product launch.",
+            "order": 2,
+            "markscheme": "- Identifies one element of the marketing mix that was changed (e.g. price, packaging/product, promotion) <marks>1 mark</marks>\n- Explains why it matters for a successful launch in context (e.g. premium pricing supports brand positioning; packaging supports convenience/sustainability; promotion communicates guilt-free benefits) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156516,
+            "content": "Explain one benefit of **having a marketing plan** when introducing a new product.",
+            "order": 3,
+            "markscheme": "- Identifies a valid benefit of having a marketing plan (e.g. clear objectives/targets; coordination; reduced risk; budgeting/control) <marks>1 mark</marks>\n- Explains the benefit in context of CrispCycle\u2019s launch (e.g. aligns product/price/promotion decisions to target segment; helps allocate resources and monitor performance) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156517,
+            "content": "Using Figure 1, calculate the **profit or loss** CrispCycle Ltd. would make if it sells 4,500 units.\n**Show all your working.**",
+            "order": 4,
+            "markscheme": "- Correct method shown using Figure 1 values (profit = total revenue \u2212 total costs at 4,500 units) <marks>1 mark</marks>\n- $45000 - 37500 = 7500$, so **profit of US$7,500** <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "493f0dc4-0b54-4290-aece-fc6d002cf447",
+        "specification": "**FreshBurst Ltd.** \n\nFreshBurst Ltd. is a rapidly expanding company that produces natural fruit juices. The company began as a small family business but has experienced significant internal growth over the past three years. Its long-term business objective is to increase market share in the premium health drink sector. Recently, it invested in new equipment to transition from job production to batch production, aiming to improve efficiency and meet rising demand.\n\nThe finance team has created a break-even chart to support a proposal for further investment in production facilities. Senior managers are also considering how the expansion may impact stakeholder groups.\n\n**Figure 1: Break-even chart for FreshBurst Ltd.\u2019s new product line**\n\n![Image](https://pub-images.revisiondojo.com/question-images/557863e3-7d3a-44e9-aad5-0343a171738e)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T04:59:38.967Z",
+            "resultId": 24588
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29748,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.2 Aspects of a Break-Even Chart",
+              "title": "5.5.2 Aspects of a Break-Even Chart",
+              "labeledAt": "2026-03-06T04:33:51.610Z",
+              "reasoning": "Parts (a) and (e) require reading a break-even chart to identify break-even output and calculate profit at a given output level.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29735,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.2 Operations methods > 5.2.2 Batch Production",
+              "title": "5.2.2 Batch Production",
+              "labeledAt": "2026-03-06T04:33:51.610Z",
+              "reasoning": "Part (b) asks for an advantage of batch production as the firm grows and has shifted from job to batch production.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29635,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.4 Stakeholders > 1.4.2 Conflict Between Stakeholders",
+              "title": "1.4.2 Conflict Between Stakeholders",
+              "labeledAt": "2026-03-06T04:33:51.610Z",
+              "reasoning": "Part (c) explicitly asks for a conflict between two stakeholder groups arising from expansion.",
+              "confidence": 0.83
+            },
+            {
+              "id": 29707,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.1 Introduction to marketing > 4.1.2 Market Share",
+              "title": "4.1.2 Market Share",
+              "labeledAt": "2026-03-06T04:33:51.610Z",
+              "reasoning": "Part (d) links the objective of increasing market share to operational decisions, involving understanding of market share as a business aim/metric.",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1694549,
+        "parts": [
+          {
+            "id": 1156568,
+            "content": "Using Figure 1, identify the **break-even level of output** for FreshBurst Ltd.\u2019s new product.",
+            "order": 0,
+            "markscheme": "- Identifies the break-even level of output as $4{,}000$ units (where total revenue equals total costs). <marks>1 mark</marks>\n- Uses correct terminology, e.g. \u201cbreak-even point/level of output\u201d. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156569,
+            "content": "Explain one **advantage of using batch production** for FreshBurst Ltd. as it grows.",
+            "order": 1,
+            "markscheme": "- States a valid advantage of batch production (e.g. allows economies of scale while maintaining some product variety). <marks>1 mark</marks>\n- Applies to FreshBurst\u2019s context (e.g. can produce larger volumes efficiently to meet rising demand without fully switching to mass production). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156570,
+            "content": "Outline one **conflict that may arise between two stakeholder groups** as a result of FreshBurst Ltd.\u2019s expansion.",
+            "order": 2,
+            "markscheme": "- Identifies two relevant stakeholder groups (e.g. employees and shareholders). <marks>1 mark</marks>\n- Outlines a plausible conflict between them linked to expansion (e.g. shareholders push cost-cutting/profit growth while employees want better conditions/pay/job security during automation/restructuring). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156571,
+            "content": "Explain one way the company\u2019s objective to **increase market share** could influence operational decisions.",
+            "order": 3,
+            "markscheme": "- Links the market share objective to an operational decision (e.g. increase capacity/output, invest in promotion, or adopt more competitive pricing). <marks>1 mark</marks>\n- Develops the effect in context (e.g. FreshBurst may lower prices or increase production volumes to attract new customers, even if short-term profits fall). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156572,
+            "content": "Using Figure 1, calculate the **profit (in $)** earned if FreshBurst Ltd. sells 6,000 units.\n**Show all your working.**",
+            "order": 4,
+            "markscheme": "From Figure 1, read the values at $6{,}000$ units:\n\n- Total revenue at $6{,}000$ units is $\\$60{,}000$ (from the revenue line). <marks>1 mark</marks>\n- Total costs at $6{,}000$ units is $\\$50{,}000$ (from the total cost line). <marks>1 mark</marks>\n- Profit $= \\$60{,}000-\\$50{,}000=\\$10{,}000$. <marks>1 mark</marks>\n\n_**OR**_\n\nAlternative method using chart values:\n\n- Break-even: $4{,}000$ units at $\\$40{,}000$ so price per unit $=\\$40{,}000\\div 4{,}000=\\$10$. <marks>1 mark</marks>\n- Fixed costs from chart $=\\$20{,}000$; variable cost per unit $=(\\$40{,}000-\\$20{,}000)\\div 4{,}000=\\$5$. <marks>1 mark</marks>\n- Revenue at $6{,}000$ units $=6{,}000\\times \\$10=\\$60{,}000$; total costs $=\\$20{,}000+(6{,}000\\times \\$5)=\\$50{,}000$; profit $=\\$10{,}000$. <marks>1 mark</marks>\n\nAward for correct method/working and correct final answer (profit $=\\$10{,}000$).",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "54984a67-d05c-4734-9111-61e398c6e46b",
+        "specification": "**EcoHeat Ltd.**\n\nEcoHeat Ltd. is a company that manufactures solar-powered water heating systems. The business is currently planning to open a second production facility and is considering two possible locations:\n\n- **Location A**: Near a port, with high rent but excellent access to suppliers and export markets  \n- **Location B**: In a rural area, with lower rent but limited transport infrastructure and fewer skilled workers\n\nThe operations director, who follows a democratic leadership style, has asked team leaders to involve employees in the decision-making process. However, recent internal reports show declining employee motivation, and communication between departments has been inconsistent.\n\nTo support the location decision, the finance team produced a break-even chart for the new facility.\n\n\n**Figure 1: Break-even chart for proposed facility**\n\n![Image](https://pub-images.revisiondojo.com/question-images/c774a138-9ce2-4cb0-8673-52e23c2b2c1b)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29748,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.2 Aspects of a Break-Even Chart",
+              "title": "5.5.2 Aspects of a Break-Even Chart",
+              "labeledAt": "2026-03-06T04:33:33.921Z",
+              "reasoning": "Parts (a) and (e) require reading a break-even chart to identify break-even output and calculate profit/loss at a given output level.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29745,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.4 Location > 5.4.1 Reasons for a Specific Location of Production",
+              "title": "5.4.1 Reasons for a Specific Location of Production",
+              "labeledAt": "2026-03-06T04:33:33.921Z",
+              "reasoning": "The case compares two factory locations (port vs rural) using factors such as rent, access to suppliers/markets, infrastructure, and labour skills\u2014core location-choice reasons.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29656,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.3 Leadership and management > 2.3.3 Leadership Styles",
+              "title": "2.3.3 Leadership Styles",
+              "labeledAt": "2026-03-06T04:33:33.921Z",
+              "reasoning": "Part (b) explicitly links employee involvement in decision-making to a democratic leadership style and asks for an advantage of this style.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29670,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.6 Communication > 2.6.2 Barriers to Communication",
+              "title": "2.6.2 Barriers to Communication",
+              "labeledAt": "2026-03-06T04:33:33.921Z",
+              "reasoning": "Part (c) asks about the impact of poor interdepartmental communication\u2014consistent with barriers to effective communication and their consequences.",
+              "confidence": 0.7
+            },
+            {
+              "id": 29663,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.7 Non-Financial Rewards",
+              "title": "2.4.7 Non-Financial Rewards",
+              "labeledAt": "2026-03-06T04:33:33.921Z",
+              "reasoning": "Part (d) asks for a non-financial method to improve motivation during expansion, which fits non-financial rewards/motivators.",
+              "confidence": 0.66
+            }
+          ]
+        },
+        "currentRevisionId": 1072975,
+        "parts": [
+          {
+            "id": 16920,
+            "content": "Using Figure 1, identify the **break-even level of output** for EcoHeat Ltd.",
+            "order": 0,
+            "markscheme": "- From Figure 1, the break-even level of output is **5,000 units**, where total revenue equals total costs  \n\nAward <marks>1 mark</marks> for identifying the correct figure and <marks>1 mark</marks> for correct use of terminology  \n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "3c7611ea-423b-44ed-b530-a278544fd7ce",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16921,
+            "content": "Explain one **advantage of involving employees in location decisions** through democratic leadership.",
+            "order": 1,
+            "markscheme": "- **Advantage**: Employees feel valued and trusted  \n- **Application**: Involving staff in the facility decision may increase commitment and reduce resistance to change during relocation or restructuring  \n\nAward <marks>1 mark</marks> for identifying the leadership benefit and <marks>1 mark</marks> for context.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "c154b7ec-84d8-4b61-aad6-d16a83d40b81",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16922,
+            "content": "Outline one way that **poor communication between departments** could impact the success of the new facility.",
+            "order": 2,
+            "markscheme": "- **Identification**: Can lead to production delays or misaligned objectives  \n- **Application**: If marketing is unaware of operational constraints, they may overpromise to clients, damaging the company's reputation  \n\nAward <marks>1 mark</marks> for identifying the issue and <marks>1 mark</marks> for development.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "0a0d2840-6cb5-49d5-b0e7-691be14b6308",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16923,
+            "content": "Explain one **non-financial method** EcoHeat Ltd. could use to improve employee motivation during the expansion process.",
+            "order": 3,
+            "markscheme": "- **Method**: Job enrichment  \n- **Application**: By giving employees more control over projects in the new facility, EcoHeat Ltd. could improve morale and create a sense of ownership in the company\u2019s growth  \n\nAward <marks>1 mark</marks> for identifying the method and <marks>1 mark</marks> for contextual explanation.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "c154b7ec-84d8-4b61-aad6-d16a83d40b81",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16924,
+            "content": "Using Figure 1, calculate the **profit or loss** if EcoHeat Ltd. produces and sells 7,000 units.  \n**Show all your working.**",
+            "order": 4,
+            "markscheme": "Calculate **profit or loss at 7,000 units**:  \nAssume from chart:\n- Selling price = $12 per unit  \n- Total revenue = 7,000 \u00d7 12 = 84,000  \n- Fixed costs = $30,000  \n- Variable cost per unit = $6  \n- Total costs = 30,000 + (7,000 \u00d7 6) = 30,000 + 42,000 = **72,000**  \n- **Profit** = 84,000 \u2013 72,000 = **$12,000**\n\nAward <marks>1 mark</marks> for correct working and <marks>1 mark</marks> for correct final answer.  \n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "fea9d4f4-6c19-4665-a5b1-0f72b37a9ed3",
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "75674062-ced9-4da4-8edc-ba78a73f9509",
+        "specification": "**FreshBurst Ltd.**\n\nFreshBurst Ltd. is a rapidly expanding company that produces natural fruit juices. The company began as a small family business but has experienced significant internal growth over the past three years. Its long-term business objective is to increase market share in the premium health drink sector. \n\nRecently, it invested in new equipment to transition from job production to batch production, aiming to improve efficiency and meet rising demand.\n\nThe finance team has created a break-even chart to support a proposal for further investment in production facilities. Senior managers are also considering how the expansion may impact stakeholder groups.\n\n**Figure 1: Break-even chart for FreshBurst Ltd.\u2019s new product line**\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/7179e34e-47d5-4647-9fb1-6903bece74b7)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29748,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.2 Aspects of a Break-Even Chart",
+              "title": "5.5.2 Aspects of a Break-Even Chart",
+              "labeledAt": "2026-03-06T04:31:54.860Z",
+              "reasoning": "Parts (a) and (e) require interpreting a break-even chart to find break-even output and calculate profit at a given output level\u2014core aspects of break-even charts.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29735,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.2 Operations methods > 5.2.2 Batch Production",
+              "title": "5.2.2 Batch Production",
+              "labeledAt": "2026-03-06T04:31:54.860Z",
+              "reasoning": "Part (b) asks for an advantage of batch production as the firm grows, directly testing understanding of batch production.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29635,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.4 Stakeholders > 1.4.2 Conflict Between Stakeholders",
+              "title": "1.4.2 Conflict Between Stakeholders",
+              "labeledAt": "2026-03-06T04:31:54.860Z",
+              "reasoning": "Part (c) asks for a conflict between stakeholder groups arising from expansion, matching stakeholder conflict.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29707,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.1 Introduction to marketing > 4.1.2 Market Share",
+              "title": "4.1.2 Market Share",
+              "labeledAt": "2026-03-06T04:31:54.860Z",
+              "reasoning": "Part (d) links the objective of increasing market share to operational decisions, invoking the market share concept/objective.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1069420,
+        "parts": [
+          {
+            "id": 12314,
+            "content": "Using Figure 1, identify the **break-even level of output** for FreshBurst Ltd.\u2019s new product.",
+            "order": 0,
+            "markscheme": "From Figure 1, the break-even point is at **4,000 units**, where total revenue equals total costs.  \n\nAward <marks>1 mark</marks> for correct identification and <marks>1 mark</marks> for correct use of terminology.  \n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "3c7611ea-423b-44ed-b530-a278544fd7ce",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 12325,
+            "content": "Explain one **advantage of using batch production** for FreshBurst Ltd. as it grows.",
+            "order": 1,
+            "markscheme": "- **Advantage**: Batch production allows for economies of scale while maintaining some product variety  \n- **Application**: FreshBurst can produce larger volumes of juice efficiently to meet increasing customer demand without fully switching to mass production  \n\nAward <marks>1 mark</marks> for identifying the method and <marks>1 mark</marks> for contextual benefit.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "c154b7ec-84d8-4b61-aad6-d16a83d40b81",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 12326,
+            "content": "Outline one **conflict that may arise between two stakeholder groups** as a result of FreshBurst Ltd.\u2019s expansion.",
+            "order": 2,
+            "markscheme": "- **Stakeholders**: Employees and shareholders  \n- **Conflict**: Shareholders may prioritise cost-cutting for profit growth, while employees may want better working conditions and job security, especially during automation or restructuring\n\nAward <marks>1 mark</marks> for identifying two stakeholder groups and <marks>1 mark</marks> for development of the conflict.\n\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "0a0d2840-6cb5-49d5-b0e7-691be14b6308",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 12327,
+            "content": "Explain one way the company\u2019s objective to **increase market share** could influence operational decisions.",
+            "order": 3,
+            "markscheme": "- **Effect**: May lead to aggressive pricing or investment in promotional campaigns  \n- **Application**: FreshBurst may lower prices or increase production volumes to attract new customers, even if it means accepting lower short-term profits  \n\nAward <marks>1 mark</marks> for linking to objective and <marks>1 mark</marks> for development.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "c154b7ec-84d8-4b61-aad6-d16a83d40b81",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 12328,
+            "content": "Using Figure 1, calculate the **profit earned** if FreshBurst Ltd. produces and sells 6,000 units.  **Show all your working.**",
+            "order": 4,
+            "markscheme": "Calculate **profit at 6,000 units**:\n\n- Selling price (from revenue line slope): Assume $10 per unit  \n- Total revenue = 6,000 \u00d7 10 = 60,000  \n- Total costs: From chart, estimate fixed costs = $20,000; variable cost per unit = approx. $5  \n- Total costs = 20,000 + (6,000 \u00d7 5) = 20,000 + 30,000 = 50,000  \n- **Profit** = Total revenue \u2013 Total costs = 60,000 \u2013 50,000 = **$10,000**\n\nAward <marks>1 mark</marks> for correct process and <marks>1 mark</marks> for final profit figure.  \n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "fea9d4f4-6c19-4665-a5b1-0f72b37a9ed3",
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "9880dcb3-d9ca-4e63-ad39-76ed3dfe78ae",
+        "specification": "<dialog>\n\n**Resource 1 \u2013 News Article**  \n\nEcoCharge Solutions (ECS) revolutionizes sustainable energy storage!  \n\nEcoCharge Solutions (ECS), a privately owned social enterprise, specializes in affordable, sustainable power banks made from recycled materials.  \n\nThe company\u2019s mission is *\u201cto provide sustainable energy solutions to reduce electronic waste and bridge the energy gap in rural areas.\u201d*  \n\nECS has developed an innovative buy-one-give-one model: for every solar-powered power bank purchased, a second one is donated to a rural community where access to electricity is unreliable.  \n\nECS started as a student-run initiative at a university in 2019.  \nIn four years, it has grown into a medium-sized business with manufacturing facilities in Vietnam and Kenya.  \n\nTable 1: **ECS\u2019s Key Operational Challenges**  \n| **Challenge** | **Details** |  \n|--------------|-------------|  \n| **Production Bottlenecks** | Increasing delays in assembly and quality checks |  \n| **Supply Chain Issues** | Limited access to sustainable materials due to rising costs |  \n| **Logistics Constraints** | High shipping costs and customs delays affecting donations |  \n</dialog>\n\n\n\n<dialog>\n\n**Resource 2 \u2013 Social Media Post from an Employee**\n\n\ud83d\udcac Anonymous Employee on LinkedIn:\n\t\n\"I love ECS\u2019s mission, but our production process is falling apart! We\u2019re constantly running out of recycled materials, causing delays. Some donated power banks are reaching communities late or not at all. Management needs to fix this before we lose our credibility!\"\n</dialog>\n\n<dialog>\n\n**Resource 3 \u2013 Internal Email from ECS CEO**\n\n\ud83d\udce9 Subject: Scaling ECS Operations\n\nDear Team,\n\nWe are growing rapidly, but our supply chain and production inefficiencies are threatening our ability to meet demand.\n\nI propose two options:\n(1) Automating part of our assembly line to reduce bottlenecks.\n(2) Forming a joint venture with a large electronics manufacturer.\n\nBoth options have risks. Automation is expensive, and a joint venture might compromise our social enterprise values. We need a decision soon.\n\nBest,\nCEO, EcoCharge Solutions\n</dialog>\n",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 288,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29657,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.1 Motivation Theories ",
+              "title": "2.4.1 Motivation Theories ",
+              "labeledAt": "2026-03-06T04:33:18.490Z",
+              "reasoning": "Part (a) explicitly asks to use a motivation/needs theory to describe a human need met by ECS (e.g., Maslow).",
+              "confidence": 0.84
+            },
+            {
+              "id": 29630,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.2 Types of business entities > 1.2.8 Non-Profit Social Enterprises (NGOs)",
+              "title": "1.2.8 Non-Profit Social Enterprises (NGOs)",
+              "labeledAt": "2026-03-06T04:33:18.490Z",
+              "reasoning": "ECS is described as a privately owned social enterprise with a buy-one-give-one model; parts (b) and (c) focus on tensions between social/ethical aims and growth.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29751,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.1 The Local and Global Supply Chain Process",
+              "title": "5.6.1 The Local and Global Supply Chain Process",
+              "labeledAt": "2026-03-06T04:33:18.490Z",
+              "reasoning": "Key challenges given are supply chain issues (access to sustainable materials), logistics constraints, and scaling across Vietnam/Kenya\u2014directly about global supply chain processes.",
+              "confidence": 0.76
+            },
+            {
+              "id": 29752,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.2 JIT vs. Just-in-Case (JIC)",
+              "title": "5.6.2 JIT vs. Just-in-Case (JIC)",
+              "labeledAt": "2026-03-06T04:33:18.490Z",
+              "reasoning": "Running out of recycled materials and delays suggest inventory management choices (JIT vs just-in-case) as part of an operations solution in the 5-year plan.",
+              "confidence": 0.68
+            },
+            {
+              "id": 29762,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.8 Research and development (HL only) > 5.8.4 Innovation",
+              "title": "5.8.4 Innovation",
+              "labeledAt": "2026-03-06T04:33:18.490Z",
+              "reasoning": "The case centers on innovation/scaling options (automation, joint venture) and sustaining an innovative product/business model over five years.",
+              "confidence": 0.63
+            },
+            {
+              "id": 29637,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.5 Growth and evolution > 1.5.2 The Difference Between Internal and External Growth",
+              "title": "1.5.2 The Difference Between Internal and External Growth",
+              "labeledAt": "2026-03-06T04:33:18.490Z",
+              "reasoning": "CEO options include automation (internal growth) and joint venture (external growth), aligning with internal vs external growth decisions.",
+              "confidence": 0.6
+            },
+            {
+              "id": 11114,
+              "isHl": false,
+              "path": "BM Toolkit - Core business frameworks and tools > Business plan",
+              "title": "Business plan",
+              "labeledAt": "2026-03-06T04:33:18.490Z",
+              "reasoning": "Part (c) requires recommending a coherent multi-year plan of action for sustainability, which aligns with constructing elements of a business plan.",
+              "confidence": 0.58
+            },
+            {
+              "id": 11110,
+              "isHl": false,
+              "path": "BM Toolkit - Core business frameworks and tools > SWOT analysis",
+              "title": "SWOT analysis",
+              "labeledAt": "2026-03-06T04:33:18.490Z",
+              "reasoning": "Part (c) asks to use all resources to recommend a plan; a SWOT is a common appropriate framework to structure this evaluation.",
+              "confidence": 0.45
+            }
+          ]
+        },
+        "currentRevisionId": 828939,
+        "parts": [
+          {
+            "id": 851848,
+            "content": "Using an appropriate business management theory, describe a human need that ECS meets through its business model.",
+            "order": 0,
+            "markscheme": "The human needs that ECS meets through its business model include:\n\n- **Physiological needs** \u2013 Providing access to sustainable electricity in rural areas, improving living conditions.\n- **Security needs** \u2013 Providing a more reliable power source for communities where electricity is inconsistent.\n- **Cognitive needs** \u2013 Enabling education and business productivity in rural areas by ensuring access to power for studying and work.\n- Reference to the impact on other stakeholders should be rewarded.\n\nMark as <marks>1+1 marks</marks>\n\nAward <marks>1 mark</marks> for using an appropriate business management theory (e.g., Maslow\u2019s Hierarchy of Needs, CSR, Triple Bottom Line) and <marks>1 mark</marks> for describing a human need ECS meets.\n\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 851849,
+            "content": "Explain two possible challenges ECS faces in balancing its ethical objectives with its operational growth.",
+            "order": 1,
+            "markscheme": "ECS faces a number of challenges:\n\n- **Supply Chain Constraints**\n\t- ECS relies on sustainable and recycled materials, but sourcing them is becoming costlier and more limited.\n\t- This threatens ECS\u2019s ability to scale production efficiently while maintaining ethical objectives.\n\n- **Production Bottlenecks**\n- Manual production processes slow down output, leading to delays in fulfilling both commercial and donation orders.\n- If not resolved, this could damage customer trust and operational sustainability.\n\n- **Ethical vs. Financial Trade-offs**\n- A proposed joint venture with a large electronics company could introduce efficiency improvements, but may also compromise ECS\u2019s ethical values.\n- Stakeholders may perceive ECS as \u2018selling out,\u2019 weakening its brand reputation.\n\n**Logistics & Distribution Challenges**\n- High shipping costs and customs regulations create delays in delivering the donated power banks.\n- This threatens ECS\u2019s social mission and could harm relationships with NGOs and investors.\n\nMark as <marks>3+3 marks</marks>\nAward <marks>1 mark</marks>for identification of a challenge, <marks>1 mark</marks> for explanation, and <marks>1 mark</marks> for application to ECS.",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 851850,
+            "content": "Using all the resources provided and your knowledge of business management, recommend a possible plan of action to ensure the sustainability of ECS for the next five years.",
+            "order": 2,
+            "markscheme": "ECS has achieved significant impact through its buy-one-give-one model and focus on sustainable energy solutions. However, its growth is threatened by operational inefficiencies, supply chain disruptions, and ethical concerns.\n\n**Strategic Options**:\n- Investing in Automation\n\t- Automating part of the assembly line would reduce bottlenecks and increase output, improving efficiency.\n\t- However, high upfront costs may require securing additional impact investment or government grants.\n\n- Supply Chain Optimization\n\t- Expanding partnerships with ethical suppliers to secure more recycled materials.\n\t- Exploring regional material sourcing to reduce dependency on global supply chains.\n\n- Logistics & Distribution Solutions\n\t- Establish local distribution hubs to streamline donation fulfillment and reduce shipping costs.\n\t- Partner with NGOs for last-mile delivery, leveraging their networks in rural areas.\n\n- Ethical Business Model Adjustments\n\t- If ECS pursues a joint venture, it must negotiate terms that preserve its ethical values.\n\t- Alternatively, ECS could expand impact-driven crowdfunding to scale production without compromising its mission.\n\n**Application of Business Tools**:\n\n- SWOT Analysis:\n\t- Strengths: Strong sustainability branding and social impact.\n\t- Weaknesses: Dependence on costly sustainable materials.\n\t- Opportunities: Rising demand for eco-friendly tech.\n\t- Threats: Competition from larger corporations.\n\n- Ansoff\u2019s Matrix:\n\t- Market development: Expand product reach into other underdeveloped markets.\n\t- Product development: Introduce higher-capacity power banks for larger applications.\n\n**Evaluation of Trade-offs & Risks**:\n- Automation Costs: While automation enhances long-term sustainability, it may strain short-term finances.\n- Maintaining Ethical Positioning: A joint venture could mean higher efficiency, but may dilute ECS\u2019s social enterprise values.\n- Reputation & Brand Trust: Any perceived deviation from ECS\u2019s mission could alienate impact investors and ethical consumers.\n\n**Criterion A: Use of resource materials**\nTo what extent does the student use the resource materials provided to effectively support the recommended plan of action?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited reference to the resource materials, or resources are used ineffectively. |\n| **2** | Some reference to the resource materials, but in a superficial way. |\n| **3** | Most of the resource materials are used to support the plan of action. |\n| **4** | All resource materials are effectively used to support the plan of action. |\n\n**Criterion B: Business management tools and theories**\nTo what extent does the student\u2019s plan of action effectively apply appropriate business management tools and theories?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited application of business management tools and theories. |\n| **2** | Superficial application of business management tools and theories. |\n| **3** | Satisfactory application of business management tools and theories. |\n| **4** | Effective application of business management tools and theories. |\n\n**Criterion C: Evaluation**\nTo what extent does the student effectively evaluate the expected impact of their plan of action on the relevant areas of the business?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1-2** | Largely descriptive, with limited analysis or evaluation. |\n| **3-4** | Some evaluation of the expected impact, but not sustained. |\n| **5-6** | Effective evaluation, considering trade-offs and business impact. |\n\n**Criterion D: Sequencing of ideas and plan of action**\nTo what extent are the student\u2019s ideas and plan of action sequenced in a clear and coherent manner?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited sequencing of ideas and plan of action. |\n| **2** | Ideas and a plan of action exist, but not always in a clear manner. |\n| **3** | Effective sequencing of ideas and plan of action in a clear and coherent manner. |\n",
+            "marks": 17,
+            "label_id": null,
+            "rubric_id": "5b274239-3992-4deb-852a-bc27c1182cb2",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ac699ea9-d4b0-4458-b0c5-3cb1871ceb39",
+        "specification": "**AeroTech Drones \u2013 Scaling Production While Maintaining Financial Stability**\n\n<dialog> \n\n**Resource 1 \u2013 News Article**\n\nAeroTech Drones Faces Challenges Scaling Its Production Line\n\n<br>\n\nAeroTech Drones, a technology start-up specializing in high-performance drones for commercial use, has seen rapid demand growth in the last two years. The company was founded in 2018 as a private limited company, but it is now considering an IPO (initial public offering) to raise additional capital for expansion.\n\n<br>\n\nDespite strong revenue growth, AeroTech is facing operational bottlenecks and financial pressures.\n\n<br>\n\n**Key Challenges**:\n\n<br>\n\n**(1)** High production costs due to inefficiencies in manufacturing and inconsistent supplier lead times.\n\n<br>\n\n**(2)** Limited cash flow despite strong revenues, causing delays in R&D investments for next-generation drones.\n\n<br>\n\n**(3)** Difficulty in deciding whether to expand the current factory or relocate to a larger facility to accommodate increasing orders.\n\n<br>\n\nThe CEO, Jake Mitchell, is considering three key strategies:\n\n<br>\n\n**(1)** Raising capital through an IPO or alternative external funding sources.\n\n<br>\n\n**(2)** Optimizing production efficiency through lean production techniques to reduce costs.\n\n<br>\n\n**(3)** Expanding into a new location with greater production capacity while balancing cost and operational feasibility.\n\n</dialog>\n\n<dialog> \n\n**Resource 2 \u2013 Financial Report Summary**\n\n*AeroTech Drones \u2013 Financial Data (Last Fiscal Year)*\n\t\n\n<br>\n\n\n| **Financial Indicator**      | **Value**      |\n|-----------------------------|---------------|\n| Revenue                     | $200 million  |\n| Gross Profit Margin         | 40%           |\n| Net Profit Margin           | 8%            |\n| Current Ratio               | 0.9           |\n| Gearing Ratio               | 62%           |\n\t\n\n<br>\n\nKey Insights:\n\n<br>\n\n**(1)** The low current ratio (0.9) suggests short-term liquidity risks, meaning the company may struggle to meet immediate obligations.\n\n<br>\n\n**(2)** The high gearing ratio (62%) indicates heavy reliance on debt financing, increasing financial risk if interest rates rise.\n\n<br>\n\n**(3)** Profit margins remain solid, but production inefficiencies are increasing costs, reducing overall profitability.\n\n</dialog> \n\n<dialog> \n\n**Resource 3 \u2013 Break-even Analysis for Factory Expansion** \n\n| **Option**                     | **Fixed Costs ($M)** | **Variable Cost per Unit ($)** | **Selling Price per Unit ($)** | **Break-even Output (Units)** |\n|--------------------------------|----------------------|------------------------------|------------------------------|-----------------------------|\n| Expand Current Facility        | 20M                  | 200                          | 400                          | 100,000                     |\n| Relocate to New Facility       | 35M                  | 180                          | 400                          | 116,667                     |\n\n<br>\n\n**Key Takeaways**:\n\n<br>\n\n**(1)** Expanding the current factory has lower fixed costs, but it may not support long-term growth.\n\n<br>\n\n**(2)** A new facility reduces variable costs, but has higher fixed costs and a higher break-even point.\n\n<br>\n\n</dialog>\n",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 288,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29695,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.7 Cash flow > 3.7.3 Liquidity Position",
+              "title": "3.7.3 Liquidity Position",
+              "labeledAt": "2026-03-06T04:30:42.953Z",
+              "reasoning": "Part (a) highlights a low current ratio and liquidity risk, linking directly to liquidity position/cash-flow-related short-term obligations.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29676,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.2 Sources of finance > 3.2.2 External Sources of Finance",
+              "title": "3.2.2 External Sources of Finance",
+              "labeledAt": "2026-03-06T04:30:42.953Z",
+              "reasoning": "The case explicitly considers an IPO and other external funding sources to raise capital for expansion.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29739,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.3 Lean production and quality management (HL only) > 5.3.2 Methods of Lean Production",
+              "title": "5.3.2 Methods of Lean Production",
+              "labeledAt": "2026-03-06T04:30:42.953Z",
+              "reasoning": "Lean production techniques are proposed to improve efficiency and reduce production costs; operational scaling issues align with lean methods.",
+              "confidence": 0.76
+            },
+            {
+              "id": 29751,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.1 The Local and Global Supply Chain Process",
+              "title": "5.6.1 The Local and Global Supply Chain Process",
+              "labeledAt": "2026-03-06T04:30:42.953Z",
+              "reasoning": "Operational bottlenecks include inconsistent supplier lead times, indicating supply chain process issues affecting production flow.",
+              "confidence": 0.66
+            },
+            {
+              "id": 29745,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.4 Location > 5.4.1 Reasons for a Specific Location of Production",
+              "title": "5.4.1 Reasons for a Specific Location of Production",
+              "labeledAt": "2026-03-06T04:30:42.953Z",
+              "reasoning": "A key decision is whether to expand the current factory or relocate, requiring application of location factors for production.",
+              "confidence": 0.64
+            },
+            {
+              "id": 29747,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.1 Total Contribution vs. Contribution per Unit",
+              "title": "5.5.1 Total Contribution vs. Contribution per Unit",
+              "labeledAt": "2026-03-06T04:30:42.953Z",
+              "reasoning": "Resource 3 uses break-even output based on fixed costs, variable costs, and contribution per unit; relevant to contribution concepts.",
+              "confidence": 0.7
+            },
+            {
+              "id": 29749,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.3 Effects of Changes in Price or Cost on Break-Even Analysis",
+              "title": "5.5.3 Effects of Changes in Price or Cost on Break-Even Analysis",
+              "labeledAt": "2026-03-06T04:30:42.953Z",
+              "reasoning": "Comparing expansion vs relocation involves different fixed/variable costs and their impact on break-even, matching effects of cost changes on BE analysis.",
+              "confidence": 0.62
+            },
+            {
+              "id": 29688,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.5 Profitability and liquidity ratio analysis > 3.5.3 Liquidity Ratios",
+              "title": "3.5.3 Liquidity Ratios",
+              "labeledAt": "2026-03-06T04:30:42.953Z",
+              "reasoning": "The current ratio is provided and interpreted; this connects to liquidity ratios and their significance.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 764436,
+        "parts": [
+          {
+            "id": 848897,
+            "content": "Using an appropriate business management theory, describe a financial challenge AeroTech Drones is facing.",
+            "order": 0,
+            "markscheme": "AeroTech Drones faces several financial challenges, including:\n\n- Liquidity issues (low current ratio) \u2013 The company has insufficient short-term assets to cover liabilities, increasing the risk of cash flow problems.\n- Over-reliance on debt (high gearing ratio) \u2013 With a 62% gearing ratio, AeroTech is highly leveraged, which could increase financial risk if interest rates rise.\n\n\nMark as <marks>1+1 marks</marks>.\n\nAward <marks>1 mark</marks> for using an appropriate business management theory (e.g., Working Capital Management, Liquidity Ratios, or Gearing Ratios) and <marks>1 mark</marks> for describing a financial challenge affecting AeroTech Drones.\n\n<br>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 848898,
+            "content": "Explain two operational challenges AeroTech Drones faces in scaling its production efficiently.",
+            "order": 1,
+            "markscheme": "**AeroTech faces several operational challenges, including**:\n\n\n**Production inefficiencies**\nThe company\u2019s manufacturing process is inefficient, increasing variable costs per unit.\nApplication: Without improving lean production techniques, costs will continue to rise, affecting profit margins.\n\n**Location decision and capacity constraints**\nThe current facility is reaching its production limits, creating bottlenecks in order fulfillment.\nApplication: Expanding or relocating could solve this, but requires significant investment and financial trade-offs.\n\nMark as <marks>3+3 marks</marks>.\n\n\nAward <marks>1 mark</marks> for identification of a challenge, <marks>1 mark</marks> for explanation, and <marks>1 mark</marks> for application to AeroTech Drones.\n",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 848899,
+            "content": "Using all the resources provided and your knowledge of business management, recommend a possible plan of action to ensure AeroTech Drones achieves both financial stability and operational efficiency.",
+            "order": 2,
+            "markscheme": "AeroTech Drones is at a critical growth stage, facing financial pressures and operational inefficiencies. The company must implement a strategic plan that balances financial stability with long-term production scalability.\n\n**(1) Financial Challenges**\n\n- Liquidity Risk (Current Ratio: 0.9)\n- AeroTech lacks sufficient short-term assets to meet its short-term liabilities.\n- If liquidity is not improved, the company may struggle to pay suppliers and employees, disrupting operations.\n- Over-Reliance on Debt (Gearing Ratio: 62%)\n- A high gearing ratio indicates that AeroTech is highly leveraged, increasing financial risk.\nIf the company takes on more debt, interest costs may rise, reducing net profitability.\n\n**Uncertainty in Expansion Financing**\n- Raising funds through an IPO could provide long-term capital but dilutes ownership.\nAlternative financing (e.g., venture capital or retained earnings) must be explored.\n\n**(2) Operational Challenges**\n\n- Production Inefficiencies\n- AeroTech faces high production costs, increasing variable expenses per unit.\nWithout improving efficiency, profit margins will decline, limiting growth potential.\n- Factory Expansion Decision\n- The company must choose between:\n- Expanding its current facility (lower fixed costs, but limited future scalability).\n- Relocating to a new facility (higher fixed costs, but lower variable costs in the long run).\n- The break-even analysis suggests that a new factory requires a higher break-even point but could be more profitable long-term.\n\n**Lean Production & Quality Management**\n- Without process optimization, AeroTech risks production delays and inefficiencies.\n- Introducing lean production methods (e.g., Kaizen, Just-in-Time) can reduce costs.\n\n**Recommended Plan of Action**\nTo ensure financial stability and operational efficiency, AeroTech should implement a three-pronged strategy:\n\n**(1) Financial Strategy: Improving Liquidity and Funding Expansion**\n**Improve Cash Flow Management**\n- Negotiate longer payment terms with suppliers to reduce short-term liabilities.\n- Improve debt collection processes to accelerate inflows.\n- Secure Funding through a Balanced Approach\n- Instead of fully relying on IPO funding, consider a mix of:\n- Equity financing (selling minority shares to investors).\n- Retained earnings (reducing dividend payouts to reinvest profits).\n- Government grants or subsidies for manufacturing technology.\n\n**Optimize Costs and Margins**\n- Reduce waste in production to improve net profit margins.\n- Perform a detailed investment appraisal to ensure expansion is financially viable.\n\n**(2) Operational Strategy: Optimizing Production Efficiency**\n\n**Adopt Lean Production Techniques**\n- Implement Just-in-Time (JIT) inventory management to reduce holding costs.\n- Introduce Kaizen (continuous improvement) practices to streamline workflow.\n\n**Factory Expansion Decision: A Hybrid Approach**\n- Expand the current factory in the short term while planning for a new location within 3-5 years.\n- This reduces immediate capital expenditure while ensuring long-term scalability.\n\n**Invest in Automation & Workforce Training**\n- Use automated manufacturing to reduce defects and improve production speeds.\n- Train employees in Total Quality Management (TQM) to enhance efficiency.\n\n**(3) Strategic Growth Considerations**\n- Evaluate Global Supplier Contracts\n- Renegotiate supplier agreements to ensure stable material costs.\n- Consider dual-sourcing strategies to reduce risks of supply chain disruptions.\n\n**Develop R&D for Next-Gen Drones**\n- Allocate funding toward long-term innovation, ensuring AeroTech stays competitive.\n- Use budgeting techniques to ensure R&D spending aligns with revenue forecasts.\n\n**Evaluation of Trade-offs**\n- IPO vs. Alternative Financing:\n- An IPO provides large capital but may cause a loss of control for existing shareholders.\n- Retained earnings and venture capital provide short-term liquidity but might be insufficient for long-term expansion.\n\n**Factory Expansion vs. New Facility:**\n- Expanding the current facility is cost-effective, but may limit growth beyond five years.\n- Moving to a new facility requires higher fixed costs, but reduces long-term production costs.\n\n**Short-Term vs. Long-Term Financial Stability:**\n- Short-term strategies (improving cash flow, optimizing costs) ensure immediate financial health.\n- Long-term strategies (investment in R&D, factory relocation) ensure sustainable growth.\n\nA well-balanced approach must be taken to minimize risk while supporting sustainable expansion.\n\nCriterion A: Use of resource materials\nTo what extent does the student use the resource materials provided to effectively support the recommended plan of action?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited reference to the resource materials, or resources are used ineffectively. |\n| **2** | Some reference to the resource materials, but in a superficial way. |\n| **3** | Most of the resource materials are used to support the plan of action. |\n| **4** | All resource materials are effectively used to support the plan of action. |\n\nCriterion B: Business management tools and theories\nTo what extent does the student\u2019s plan of action effectively apply appropriate business management tools and theories?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited application of business management tools and theories. |\n| **2** | Superficial application of business management tools and theories. |\n| **3** | Satisfactory application of business management tools and theories. |\n| **4** | Effective application of business management tools and theories. |\n\nCriterion C: Evaluation\nTo what extent does the student effectively evaluate the expected impact of their plan of action on the relevant areas of the business?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1-2** | Largely descriptive, with limited analysis or evaluation. |\n| **3-4** | Some evaluation of the expected impact, but not sustained. |\n| **5-6** | Effective evaluation, considering trade-offs and business impact. |\n\nCriterion D: Sequencing of ideas and plan of action\nTo what extent are the student\u2019s ideas and plan of action sequenced in a clear and coherent manner?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited sequencing of ideas and plan of action. |\n| **2** | Ideas and a plan of action exist, but not always in a clear manner. |\n| **3** | Effective sequencing of ideas and plan of action in a clear and coherent manner. |\n",
+            "marks": 17,
+            "label_id": null,
+            "rubric_id": "5b274239-3992-4deb-852a-bc27c1182cb2",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "bf7b1289-2067-43c6-b89c-868873ccca7a",
+        "specification": "AquaPure Ltd. is a **private limited company (Ltd)** that produces water filtration systems for domestic and industrial use. Its mission is to expand access to clean water while maintaining profitability. The company recently entered new markets across Southeast Asia, marking the beginning of its transition to a **multinational company (MNC)**.\n\nAquaPure's long-term **business objective** is to achieve **sustainable global growth**, but its expansion has raised concerns from various stakeholder groups. Local communities in some regions fear that AquaPure\u2019s entry could threaten small local suppliers, while investors are keen to see rapid growth and cost efficiency.\n\nTo assess the financial viability of a new low-cost water filter, the finance team has created a break-even chart based on cost projections and expected sales.\n\n**Figure 1: Break-even chart data for AquaPure Ltd.\u2019s new filter (all monetary values in $)**\n\n- Fixed costs (FC): $30,000\n- Variable cost per unit (VC): $12.16\n- Selling price per unit (SP): $20.27\n- Break-even level of output (where total costs = total revenue): **3,700 units**",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 7,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T05:07:53.995Z",
+            "resultId": 24444
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29748,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.2 Aspects of a Break-Even Chart",
+              "title": "5.5.2 Aspects of a Break-Even Chart",
+              "labeledAt": "2026-03-06T04:32:02.795Z",
+              "reasoning": "Parts (a) and (e) require reading a break-even chart to identify break-even output and calculate profit at a given sales volume\u2014core features/aspects of break-even charts.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29626,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.2 Types of business entities > 1.2.4 Privately Held Companies",
+              "title": "1.2.4 Privately Held Companies",
+              "labeledAt": "2026-03-06T04:32:02.795Z",
+              "reasoning": "Part (b) asks for an advantage of being a private limited company (Ltd), which falls under characteristics of privately held companies.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29635,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.4 Stakeholders > 1.4.2 Conflict Between Stakeholders",
+              "title": "1.4.2 Conflict Between Stakeholders",
+              "labeledAt": "2026-03-06T04:32:02.795Z",
+              "reasoning": "Part (c) directly asks to explain a conflict between two stakeholder groups during multinational expansion.",
+              "confidence": 0.76
+            },
+            {
+              "id": 29632,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.3 Business objectives > 1.3.2 Common Business Objectives",
+              "title": "1.3.2 Common Business Objectives",
+              "labeledAt": "2026-03-06T04:32:02.795Z",
+              "reasoning": "Part (d) asks why sustainable growth is an important business objective, aligning with common business objectives.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29642,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.6 Multinational companies > 1.6.2 Social and Cultural Impacts of MNCs",
+              "title": "1.6.2 Social and Cultural Impacts of MNCs",
+              "labeledAt": "2026-03-06T04:32:02.795Z",
+              "reasoning": "The scenario and part (c) involve community concerns as the firm becomes an MNC; these are social/cultural impacts commonly discussed for MNCs.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1694575,
+        "parts": [
+          {
+            "id": 1156682,
+            "content": "Using Figure 1, identify the **break-even level of output** for the new filter.",
+            "order": 0,
+            "markscheme": "- Identifies the break-even level of output as **3,700 units** <marks>1 mark</marks>\n- Uses correct break-even terminology (e.g. \u201cwhere total costs equal total revenue\u201d) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156683,
+            "content": "Outline one **advantage of being a private limited company (Ltd)** for AquaPure Ltd. as it expands internationally.",
+            "order": 1,
+            "markscheme": "- States one valid advantage of a private limited company (e.g. limited liability; greater control/privacy; less disclosure) <marks>1 mark</marks>\n- Outlines how this advantage helps AquaPure in international expansion (application to the context) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156684,
+            "content": "Explain one **conflict that may arise between two stakeholder groups** as AquaPure becomes a multinational company.",
+            "order": 2,
+            "markscheme": "- Identifies two relevant stakeholder groups (e.g. local suppliers and investors) <marks>1 mark</marks>\n- Explains a plausible conflict between them in context (e.g. pressure to cut costs/outsource vs protecting local contracts) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156685,
+            "content": "Explain one reason why **sustainable growth** is an important business objective for AquaPure Ltd.",
+            "order": 3,
+            "markscheme": "- Identifies a valid reason sustainable growth matters (e.g. balances profit with social/environmental responsibilities; long-term viability) <marks>1 mark</marks>\n- Explains the reason in context of AquaPure (e.g. protects brand/reputation in new markets; supports mission and stakeholder support) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156686,
+            "content": "Using Figure 1, calculate the **profit AquaPure Ltd. would earn if it sells 4,000 units**.\n**Show all your working.**",
+            "order": 4,
+            "markscheme": "- Calculates total revenue: $4,000 \\times 20.27 = 81,080$ <marks>1 mark</marks>\n- Calculates total costs: variable costs $4,000 \\times 12.16 = 48,640$; total costs $48,640 + 30,000 = 78,640$ <marks>1 mark</marks>\n- Calculates profit: $81,080 - 78,640 = 2,440$ <marks>1 mark</marks>\n- Correct final answer stated as **$2,440** (profit) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "caeaa791-ec25-48de-88f4-a5ea0cbc447e",
+        "specification": "**SwiftRide Ltd (SR)**\n\nSwiftRide Ltd (SR) is a ride-hailing company that operates in the United Kingdom. The company provides on-demand transportation services through a mobile app and competes with larger multinational companies (MNCs) such as Uber and Bolt.\n\nSR is considering expanding internationally into France and Brazil, where demand for ride-hailing services is increasing. However, entering these markets requires significant investment in marketing, operational infrastructure, and regulatory compliance.\n\nTo finance the expansion, SR is debating between raising capital through bank loans or seeking venture capital funding. The company also needs to determine the number of rides it must complete daily to break even in the new markets.\n\nCurrently, SR\u2019s marketing strategy focuses on social media advertising and promotional discounts for first-time riders. However, some executives believe the company should adopt a more aggressive pricing strategy to attract more users in competitive markets.\n\nSR\u2019s expansion will also expose it to economic and political risks associated with operating as a multinational company (MNC) in foreign markets.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29723,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.5 The seven Ps of the marketing mix > 4.5.3 Price",
+              "title": "4.5.3 Price",
+              "labeledAt": "2026-03-06T04:29:57.098Z",
+              "reasoning": "Part (d) asks to recommend between cost-based pricing and promotional discounts\u2014this is pricing strategy within the marketing mix (Price).",
+              "confidence": 0.9
+            },
+            {
+              "id": 29676,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.2 Sources of finance > 3.2.2 External Sources of Finance",
+              "title": "3.2.2 External Sources of Finance",
+              "labeledAt": "2026-03-06T04:29:57.098Z",
+              "reasoning": "Part (b) focuses on funding expansion via bank loans vs venture capital\u2014both are external sources of finance.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29748,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.2 Aspects of a Break-Even Chart",
+              "title": "5.5.2 Aspects of a Break-Even Chart",
+              "labeledAt": "2026-03-06T04:29:57.098Z",
+              "reasoning": "The scenario mentions determining the number of rides needed to break even, which links to break-even chart components and break-even output.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29711,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.2 Marketing planning > 4.2.2 Segmentation, Targeting, and Positioning",
+              "title": "4.2.2 Segmentation, Targeting, and Positioning",
+              "labeledAt": "2026-03-06T04:29:57.098Z",
+              "reasoning": "Part (a) defines \u2018target market\u2019, which sits within segmentation/targeting/positioning.",
+              "confidence": 0.65
+            },
+            {
+              "id": 29731,
+              "isHl": true,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.6 International marketing (HL only) > 4.6.2 Threats of International Marketing",
+              "title": "4.6.2 Threats of International Marketing",
+              "labeledAt": "2026-03-06T04:29:57.098Z",
+              "reasoning": "International expansion raises risks/challenges in foreign markets (competition, regulation, political/economic risk), aligning with threats of international marketing.",
+              "confidence": 0.6
+            },
+            {
+              "id": 29644,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.6 Multinational companies > 1.6.4 Ethical Considerations and Criticisms of MNCs",
+              "title": "1.6.4 Ethical Considerations and Criticisms of MNCs",
+              "labeledAt": "2026-03-06T04:29:57.098Z",
+              "reasoning": "Part (c) asks about challenges of operating as an MNC in foreign markets; regulatory/ethical and criticism-related challenges fit ethical considerations/criticisms of MNCs.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 765013,
+        "parts": [
+          {
+            "id": 852098,
+            "content": "Define the term \u2018target market\u2019.",
+            "order": 0,
+            "markscheme": "A target market is a specific group of consumers that a business aims to serve with its products or services. <marks>1 mark</marks>\n\nBusinesses identify target markets based on demographics, income, preferences, and purchasing behavior. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 852099,
+            "content": "Explain two sources of finance SR could use to fund its international expansion.",
+            "order": 1,
+            "markscheme": "Sources of finance include:\n\n- Bank loans \u2013 Allows SR to access large sums of money but requires repayment with interest.\n- Venture capital \u2013 Investors provide funding in exchange for equity, helping SR expand without immediate repayment.\n- Retained profits \u2013 SR can reinvest earnings instead of borrowing, but this may limit cash flow for other investments.\n- Government grants \u2013 Some governments offer incentives for businesses expanding into their markets.\n\nAward <marks>1 mark</marks> for identifying or describing a source and an additional <marks>1 mark</marks> for explaining how it applies to SR, up to a maximum of <marks>4 marks</marks>.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 852100,
+            "content": "Explain two challenges SR may face as a multinational company (MNC) operating in foreign markets.",
+            "order": 2,
+            "markscheme": "Challenges include:\n\n- Regulatory barriers \u2013 Laws governing ride-hailing services may differ in France and Brazil.\n- Cultural differences \u2013 Marketing strategies may need adaptation to suit local consumer behavior.\n- Exchange rate fluctuations \u2013 Currency changes can impact profits when operating in multiple countries.\n- Competition from local firms \u2013 Established local players may have stronger brand recognition.\n- Political and economic instability \u2013 Certain regions may present risks such as economic downturns or policy changes.\n\nAward <marks>1 mark</marks> for identifying or describing a challenge and an additional <marks>1 mark</marks> for explaining its impact on SR, up to a maximum of <marks>4 marks</marks>.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 852101,
+            "content": "Recommend whether SR should adopt a cost-based pricing strategy or continue using promotional discounts in its international markets.",
+            "order": 3,
+            "markscheme": "**Method #1: Cost-based pricing strategy**\n\n**Pros:**\n- Ensures profitability by setting prices based on production costs. \n- Avoids reliance on promotional discounts, which may be unsustainable. \n- Reduces the risk of financial losses in new markets. \n\n**Cons:**\n- May result in higher prices, reducing customer demand in price-sensitive markets. \n- Less competitive compared to established ride-hailing firms.\n- Does not consider consumer willingness to pay. \n\n**Method #2: Promotional discount pricing**\n\n**Pros:**\n- Helps attract new customers in competitive markets. \n- Encourages brand loyalty and customer retention.\n- Can create network effects, increasing the number of riders and drivers. \n\n**Cons:**\n- Unsustainable in the long term due to lower profit margins. \n- May devalue the brand, making it harder to increase prices later. \n- Could lead to financial strain if discounts are overused. \n\n**Evaluation:**\n<note>Candidates must provide a reasoned judgment on whether SR should use cost-based pricing or promotional discounts.</note>\n\n<note>Strong answers should reference competition, financial sustainability, and customer acquisition.</note>\n\n**Marking guidance** \n\nAward <marks>6 marks</marks>maximum if the answer demonstrates balanced analysis but lacks a conclusion.\n\nAward <marks>7-8 marks</marks> if a reasoned recommendation is provided based on the analysis.\n\nAward <marks>9-10 marks</marks>for a well-structured, balanced response with clear application and a justified recommendation.",
+            "marks": 10,
+            "label_id": null,
+            "rubric_id": "58f253b5-11b7-423a-9492-6491c15f19f2",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "dc815fe3-d106-438a-b917-7431c0eb5e5e",
+        "specification": "**Carman\u2019s Edge Ltd.**\n\nCarman\u2019s Edge Ltd. produces high-performance sportswear for amateur and semi-professional athletes. As the business has grown, it transitioned from a flat to a tall organizational structure to better manage its expanding workforce. The production manager uses an autocratic leadership style and sets strict performance targets. While this has improved short-term productivity, recent staff feedback suggests declining motivation levels among production employees.\n\nTo assess the financial viability of launching a new product line of compression gear, the finance team has prepared a break-even chart based on forecasted costs and expected sales revenue.\n\n**Figure 1: Break-even chart for Carman\u2019s Edge Ltd.\u2019s new compression gear**",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29748,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.2 Aspects of a Break-Even Chart",
+              "title": "5.5.2 Aspects of a Break-Even Chart",
+              "labeledAt": "2026-03-06T04:30:44.547Z",
+              "reasoning": "Parts (a) and (e) require reading a break-even chart to identify break-even output and compute profit/loss at a given sales volume\u2014core aspects of interpreting break-even charts.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29652,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.2 Organizational structure > 2.2.3 Appropriateness of Organizational Structures",
+              "title": "2.2.3 Appropriateness of Organizational Structures",
+              "labeledAt": "2026-03-06T04:30:44.547Z",
+              "reasoning": "Part (b) asks for a reason a tall organizational structure might reduce motivation, which concerns how appropriate different structures are and their impacts on employees.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29656,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.3 Leadership and management > 2.3.3 Leadership Styles",
+              "title": "2.3.3 Leadership Styles",
+              "labeledAt": "2026-03-06T04:30:44.547Z",
+              "reasoning": "Part (c) directly evaluates advantages/disadvantages of an autocratic leadership style, which is covered under leadership styles.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29663,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.7 Non-Financial Rewards",
+              "title": "2.4.7 Non-Financial Rewards",
+              "labeledAt": "2026-03-06T04:30:44.547Z",
+              "reasoning": "Part (d) explicitly asks for a non-financial method to improve staff motivation, aligning with non-financial rewards/motivators.",
+              "confidence": 0.83
+            }
+          ]
+        },
+        "currentRevisionId": 1694655,
+        "parts": [
+          {
+            "id": 1156864,
+            "content": "Using Figure 1, identify the **break-even level of output** for the new product. [2]",
+            "order": 0,
+            "markscheme": "Identify **break-even output**:  \nFrom Figure 1, the break-even point is at **3,600 units**, where total revenue equals total costs.  \nAward [1] for identifying the correct output and [1] for terminology.  \n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156865,
+            "content": "Explain one **reason why a tall organizational structure** might reduce employee motivation at Carman\u2019s Edge Ltd. [2]",
+            "order": 1,
+            "markscheme": "Explain one reason why a **tall structure may reduce motivation**:  \nAward [1] for identifying the issue and [1] for contextual development.\n\n- **Issue**: Employees may feel disconnected from upper management  \n- **Context**: In a tall structure, communication is slower and staff at lower levels may feel their ideas are ignored, leading to demotivation and disengagement  \n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156866,
+            "content": "Outline one **advantage and one disadvantage** of an **autocratic leadership style** in a production-focused business. [2]",
+            "order": 2,
+            "markscheme": "Outline one **advantage and one disadvantage** of **autocratic leadership**:  \nAward [1] for a valid advantage and [1] for a valid disadvantage.\n\n- **Advantage**: Enables fast decision-making and tight control, useful in time-sensitive production environments  \n- **Disadvantage**: Limits employee autonomy, which can reduce creativity and motivation over time  \n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156867,
+            "content": "Explain one **non-financial method** Carman\u2019s Edge Ltd. could use to improve staff motivation in the production department. [2]",
+            "order": 3,
+            "markscheme": "Explain one **non-financial motivation method**:  \nAward [1] for identifying the method and [1] for explaining how it helps.\n\n- **Method**: Recognition and praise  \n- **Explanation**: Publicly acknowledging good performance can increase employee morale and commitment without increasing costs  \n\nAccept other valid methods such as job enrichment, flexible working, or team-building initiatives.  \n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156868,
+            "content": "Using Figure 1, calculate the **profit or loss** the company would earn if it sells 5,000 units.  \n**Show all your working.** [2]",
+            "order": 4,
+            "markscheme": "Calculate **profit at 5,000 units**:  \nAssume:  \n- Selling price = $10 per unit  \n- Total revenue = 5,000 \u00d7 10 = 50,000  \n- Variable cost per unit = $5   \n- Total cost = Fixed cost + Variable cost = 18,000 + (5,000 \u00d7 5) = 18,000 + 25,000 = **43,000**  \n- **Profit** = 50,000 \u2013 43,000 = **$7,000**\n\nAward [1] for correct working and [1] for correct final answer.  \n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f3325982-d4cf-4e14-90d0-520af4124596",
+        "specification": "**TerraForge Ltd.**\n\nTerraForge Ltd. is a manufacturing business that produces modular, eco-friendly building materials. The company operates as a **private limited company (Ltd)** and has gained attention for its innovative processes and sustainability-focused business model. It currently uses **batch production** but is exploring **flow production** to meet increasing demand.\n\nTo fund a planned expansion, TerraForge Ltd. recently secured a **government innovation grant** and is also considering whether to issue new shares or take on debt financing. However, the finance team has highlighted concerns about rising fixed costs and narrowing profit margins. The managing director has made **operational efficiency and cost control** key business objectives for the next fiscal year.\n\nThe finance department has produced the following summary of last quarter\u2019s figures:\n\n**Table 1: Financial data for TerraForge Ltd. (Q4 2024)**\n\n| Item                     | Amount ($) |\n|--------------------------|------------|\n| Revenue                  | 950,000    |\n| Cost of goods sold       | 570,000    |\n| Operating expenses       | 320,000    |\n| Net profit               | ?          |\n| Current assets           | 140,000    |\n| Current liabilities      | 100,000    |\n| Fixed costs (monthly)    | 90,000     |\n| Variable cost per unit   | $12        |\n| Selling price per unit   | $24        |\n\n---",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29747,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.1 Total Contribution vs. Contribution per Unit",
+              "title": "5.5.1 Total Contribution vs. Contribution per Unit",
+              "labeledAt": "2026-03-06T04:32:42.748Z",
+              "reasoning": "Part (e) asks to calculate break-even output using selling price, variable cost per unit, and fixed costs (contribution per unit and total contribution concepts).",
+              "confidence": 0.9
+            },
+            {
+              "id": 29736,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.2 Operations methods > 5.2.3 Mass/Flow Production",
+              "title": "5.2.3 Mass/Flow Production",
+              "labeledAt": "2026-03-06T04:32:42.748Z",
+              "reasoning": "Part (d) explicitly asks for reasons to shift to flow production; the scenario contrasts batch vs flow to meet higher demand.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29735,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.2 Operations methods > 5.2.2 Batch Production",
+              "title": "5.2.2 Batch Production",
+              "labeledAt": "2026-03-06T04:32:42.748Z",
+              "reasoning": "The case states the firm currently uses batch production and part (d) involves moving away from it, so understanding batch production characteristics is relevant.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29676,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.2 Sources of finance > 3.2.2 External Sources of Finance",
+              "title": "3.2.2 External Sources of Finance",
+              "labeledAt": "2026-03-06T04:32:42.748Z",
+              "reasoning": "Part (c) focuses on a government grant as a source of finance (external finance) and the stem also mentions considering debt/share issues.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29678,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.3 Costs and revenues > 3.3.1 Types of Costs",
+              "title": "3.3.1 Types of Costs",
+              "labeledAt": "2026-03-06T04:32:42.748Z",
+              "reasoning": "Part (b) discusses fixed costs, variable costs, operating expenses and implications for cost control, linking to types of costs and cost structure.",
+              "confidence": 0.7
+            },
+            {
+              "id": 29682,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.4 Final accounts > 3.4.2 Final Accounts",
+              "title": "3.4.2 Final Accounts",
+              "labeledAt": "2026-03-06T04:32:42.748Z",
+              "reasoning": "Part (a) requires calculating net profit from revenue, COGS, and operating expenses, aligning with income statement/final accounts calculations.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1086975,
+        "parts": [
+          {
+            "id": 12127,
+            "content": "Calculate the net profit for Q4 2024.  \n**Show all your working.**",
+            "order": 0,
+            "markscheme": "Net profit = Revenue \u2013 (COGS + Operating expenses)  \n= 950,000 \u2013 (570,000 + 320,000) = 950,000 \u2013 890,000 = **$60,000**\n\nAward <marks>1 mark</marks>  for correct working and <marks>1 mark</marks> for correct final answer.  \n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 12128,
+            "content": "Explain how the figures in Table 1 reflect TerraForge Ltd.\u2019s current cost structure, and what this might imply about its operational priorities.",
+            "order": 1,
+            "markscheme": "- **Observation**: Operating expenses are nearly as high as COGS, suggesting high fixed overheads  \n- **Implication**: The business may need to prioritise automation, renegotiation of leases, or energy-efficient machinery to reduce long-term costs  \n\nAward <marks>1 mark</marks> for observation and <marks>1 mark</marks> for development.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "c154b7ec-84d8-4b61-aad6-d16a83d40b81",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 12129,
+            "content": "Suggest **one** advantage and **one** drawback of using a government grant as a source of finance for a company like TerraForge Ltd.",
+            "order": 2,
+            "markscheme": "- **Advantage**: No repayment or interest, reducing long-term financial burden  \n- **Drawback**: May come with usage restrictions, reporting requirements, or public visibility that limits operational flexibility  \n\nAward <marks>1 mark</marks> for each, with no development required.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "deb0f419-41e2-4fba-80d4-ee1a3c59cd03",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 12130,
+            "content": "**Outline** two reasons why TerraForge Ltd. might be considering a shift from batch to flow production.",
+            "order": 3,
+            "markscheme": "- To reduce unit costs by increasing efficiency  \n- To meet rising demand with consistent output  \n- To achieve economies of scale  \n- To improve consistency and reduce lead time  \n\nAward <marks>1 mark</marks> per valid reason, no development required.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "0a0d2840-6cb5-49d5-b0e7-691be14b6308",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 12131,
+            "content": "With reference to the data, comment on the **break-even output per month**, and whether this target seems realistic given the company\u2019s current performance.  **Show all your working.**",
+            "order": 4,
+            "markscheme": "Contribution per unit = 24 \u2013 12 = $12  \nMonthly break-even output = Fixed costs / Contribution per unit  \n= 90,000 / 12 = **7,500 units**\n\n**Evaluation**: Given that total revenue in Q4 was 950,000 and the selling price is $24, estimated unit sales were 950,000 / 24 \u2248 39,583 units over 3 months, or ~13,200 per month. Thus, break-even output of 7,500 units is **realistic**, and the company is well above that threshold.\n\nAward <marks>1 mark</marks> for correct calculation and <marks>1 mark</marks> for accurate analysis of feasibility.  \n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": "e5e9fd17-95d8-4b35-b385-96165e27bc0b",
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "f548e225-02eb-41aa-90bf-c5a73e43ad23",
+        "specification": "**SmoothSip Ltd.**\n\nSmoothSip Ltd. is a company that produces ready-to-drink fruit smoothies. The business uses a flat organizational structure to improve communication and teamwork. Employees are encouraged to voice their ideas directly to managers, thanks to the company\u2019s open and informal workplace environment.\nThe operations manager at SmoothSip Ltd. follows a democratic leadership style, encouraging staff involvement in production and marketing decisions. The manager believes that good communication helps employees feel more valued and motivated.\nBefore launching a new tropical smoothie product, the business reviewed its cost structure and financial performance. Table 1 shows the financial data for the new product.\n\n**Table 1: Cost and revenue data per unit (new product) as of 2025**\n\n| Item                     | Amount ($) |\n|--------------------------|------------|\n| Selling price per unit   | 5.00       |\n| Variable cost per unit   | 2.00       |\n| Fixed costs per month    | 6,000      |\n| Net profit (last month)  | 8,000      |\n| Revenue (last month)     | 40,000     |\n| Current assets           | 60,000     |\n| Current liabilities      | 30,000     |",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 288,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29747,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.5 Break-even analysis > 5.5.1 Total Contribution vs. Contribution per Unit",
+              "title": "5.5.1 Total Contribution vs. Contribution per Unit",
+              "labeledAt": "2026-03-06T04:30:42.704Z",
+              "reasoning": "Part (c) requires calculating contribution per unit and break-even output, directly matching contribution and break-even analysis.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29686,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.5 Profitability and liquidity ratio analysis > 3.5.1 Profitability Ratios",
+              "title": "3.5.1 Profitability Ratios",
+              "labeledAt": "2026-03-06T04:30:42.704Z",
+              "reasoning": "Part (d) asks for net profit margin, which is a profitability ratio.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29650,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.2 Organizational structure > 2.2.1 Terminology of Organizational Structures",
+              "title": "2.2.1 Terminology of Organizational Structures",
+              "labeledAt": "2026-03-06T04:30:42.704Z",
+              "reasoning": "Part (a) asks for features of a flat organizational structure, covered under organizational structure terminology.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29656,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.3 Leadership and management > 2.3.3 Leadership Styles",
+              "title": "2.3.3 Leadership Styles",
+              "labeledAt": "2026-03-06T04:30:42.704Z",
+              "reasoning": "Part (b) asks for characteristics of democratic leadership, which is a leadership style.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29669,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.6 Communication > 2.6.1 Formal and Informal Methods of Communication",
+              "title": "2.6.1 Formal and Informal Methods of Communication",
+              "labeledAt": "2026-03-06T04:30:42.704Z",
+              "reasoning": "Part (e) is about benefits of effective communication in an informal/open environment, aligning with formal vs informal communication methods.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 1694632,
+        "parts": [
+          {
+            "id": 1156854,
+            "content": "State two features of a **flat organizational structure**.",
+            "order": 0,
+            "markscheme": "State two features of a **flat organizational structure**:  \nAward [1] per valid feature.\n\n- Few levels of hierarchy  \n- Wide span of control for managers  \n- Short chain of command  \n- Faster decision-making and communication  \n- Greater employee responsibility and autonomy  \n\nEach feature must be specific to flat structures (not general organization traits).",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156855,
+            "content": "Identify two characteristics of **democratic leadership**.",
+            "order": 1,
+            "markscheme": "Identify two characteristics of **democratic leadership**:  \nAward [1] per valid point.\n\n- Encourages employee participation in decision-making  \n- Leader values team input and collaboration  \n- Communication is two-way  \n- Motivates staff by making them feel involved",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156856,
+            "content": "Calculate the **contribution per unit** and the **break-even output** for the new product.  \n**Show all your working.**",
+            "order": 2,
+            "markscheme": "Calculate **contribution per unit** and **break-even output**:\n\n**Contribution per unit** = Selling price \u2013 Variable cost  \n= 5.00 \u2013 2.00 = **$3.00**\n\n**Break-even output** = Fixed costs / Contribution per unit  \n= 6,000 / 3.00 = **2,000 units**\n\nAward [1] for correct contribution calculation and [1] for correct break-even calculation.  \n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156857,
+            "content": "Calculate the **net profit margin** for last month.  \n**Show all your working.**",
+            "order": 3,
+            "markscheme": "Calculate **net profit margin**:\nNet profit margin = (Net profit / Revenue) \u00d7 100  \n= (8,000 / 40,000) \u00d7 100 = **20%**\nAward [1] for correct formula and substitution, and [1] for correct final answer with percentage.  \n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156858,
+            "content": "Explain one **benefit of effective communication** in a business like SmoothSip Ltd.",
+            "order": 4,
+            "markscheme": "Explain one **benefit of effective communication**:  \nAward [1] for identifying a relevant benefit and [1] for development with reference to SmoothSip Ltd.\n- **Identification**: Improves coordination and teamwork  \n- **Application**: At SmoothSip Ltd., clear communication allows staff to share ideas and stay informed about product changes, which may boost motivation and reduce errors  \nResponses should explain why communication matters in the context of leadership, employee morale, or operational efficiency.  \n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fa61f059-c99e-4a70-bc29-cac779fceee7",
+        "specification": "NuSoil Global is an agri-tech business that specialises in producing nutrient-enriched, biodegradable seed pods. It began as a social enterprise founded by three environmental science graduates but has since attracted private investment and expanded into five countries across Latin America and Sub-Saharan Africa. The company is now considering a transition into a private limited company (Ltd) to enable further expansion.\n\nNuSoil originally adopted a flat organizational structure, but recent growth has led to the introduction of regional production teams and multiple layers of supervision. Some employees feel this has slowed communication and decision-making, despite the founder-CEO continuing to promote a laissez-faire leadership style.\n\nNuSoil uses batch production to maintain product consistency while managing sustainability certifications. A new product line is being considered for launch, and the finance team has prepared initial cost estimates to assess its viability. The company\u2019s broader business objective remains focused on balancing environmental impact with global scale and profitability.\n\nTable 1: Financial data for NuSoil Global\u2019s new product line (per month)\n\n| Item | Amount |\n|---|---|\n| Fixed costs | \\$30,000 |\n| Variable cost per unit | \\$4.50 |\n| Selling price per unit | \\$10.00 |\n| Maximum output capacity | 10,000 units |\n\nPart 1: Explain how NuSoil Global\u2019s transition from a social enterprise to a private limited company (Ltd) might affect its strategic direction and stakeholder relationships.\n\nPart 2: Suggest one way the newly multilayered organizational structure, combined with a laissez-faire leadership style, may limit operational effectiveness in a multinational context.\n\nPart 3: Outline two operational reasons why NuSoil Global continues to use batch production for its products.\n\nPart 4: Draw a fully labelled break-even chart using the data in Table 1. Include total cost, total revenue, and clearly mark the break-even point.\n\nPart 5: Based on your chart, calculate the profit or loss NuSoil Global would earn if it produces and sells 9,000 units per month. Show all your working.",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": null,
+        "subjectId": 288,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "revisedAt": "2025-08-18T00:35:28.411Z",
+          "totalCost": 0.063115,
+          "question_set": "TEACHER",
+          "revisedFromIssues": [
+            {
+              "type": "Question Inaccuracy",
+              "message": "Part 2 markscheme refers to a 'flat structure' limiting control across regions, but the stem states the company now has multiple layers of supervision (i.e., no longer flat). This is factually inconsistent with the scenario.",
+              "severity": "critical",
+              "proposedChange": "In Part 2 markscheme, replace 'Flat structure and laissez-faire leadership may reduce control across regions' with 'The newly multilayered structure combined with a laissez-faire leadership style may reduce control across regions and slow decision-making; regional managers may lack oversight, leading to inconsistent practices or misalignment with head office goals.'"
+            }
+          ]
+        },
+        "currentRevisionId": 1410899,
+        "parts": [
+          {
+            "id": 1026833,
+            "content": "Explain how NuSoil Global\u2019s transition from a social enterprise to a private limited company might affect its strategic direction and stakeholder relationships.",
+            "order": 0,
+            "markscheme": "- **Effect**: Greater focus on shareholder returns and formal governance  \n- **Development**: May lead to tension between original social objectives (e.g. environmental focus) and new investor-driven priorities  \n\nAward <marks>1 mark</marks> for identifying the effect and <marks>1 mark</marks> for developing it.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1026834,
+            "content": "Suggest one way the company's current organizational structure and leadership style may limit operational effectiveness in a multinational context.",
+            "order": 1,
+            "markscheme": "- **Issue**: Flat structure and laissez-faire leadership may reduce control across regions  \n- **Development**: Regional managers may lack oversight, leading to inconsistent practices, delayed decision-making, or misalignment with head office goals  \n\nAward <marks>1 mark</marks> for the issue and <marks>1 mark</marks> for development.\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1026835,
+            "content": "Outline two operational reasons why NuSoil Global continues to use batch production for its products.",
+            "order": 2,
+            "markscheme": "- Allows for greater product consistency in meeting eco-certification standards  \n- Suitable for moderate demand with flexible product variation  \n- More efficient than job production, without the rigidity of flow production  \n\nAward <marks>1 mark</marks> per valid reason, no development required.\n\n<marks>Full marks (2/2)</marks>\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1026836,
+            "content": "Draw a fully labelled break-even chart using the data in Table 1. Include total cost, total revenue, and clearly mark the break-even point.",
+            "order": 3,
+            "markscheme": "- **Contribution per unit** = 10 \u2013 4.5 = $5.50  \n- **Break-even output** = 30,000 / 5.50 \u2248 **5,455 units**  \n- X-axis: Output (units), Y-axis: Costs and Revenue  \n- Total cost line starts at $30,000 and rises gradually  \n- Total revenue line starts at $0 and rises more steeply  \n- Break-even at approx. 5,455 units clearly marked  \n\n![Image](https://pub-images.revisiondojo.com/question-images/195405d2-115e-4f35-9ebe-55ba13182b85)\n\nAward <marks>1 mark</marks> for correctly labelled total cost and total revenue lines  \nAward <marks>1 mark</marks> for correct and labelled break-even point\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1026837,
+            "content": "**Based on your chart**, calculate the **profit or loss** NuSoil Global would earn if it produces and sells 9,000 units per month.  **Show all your working.**",
+            "order": 4,
+            "markscheme": "- Total revenue = 9,000 \u00d7 $10 = $90,000  \n- Total variable cost = 9,000 \u00d7 $4.50 = $40,500  \n- Total cost = 40,500 + 30,000 = $70,500  \n- **Profit** = 90,000 \u2013 70,500 = **$19,500**\n\nAward <marks>1 mark</marks> for correct working, <marks>1 mark</marks> for correct final answer.\n\n\n<marks>Full marks (2/2)</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fdb148f5-c571-43fa-ba59-83c4968a3af9",
+        "specification": "**FreshServe Ltd.**\n\n\n<dialog>\n\n**Resource 1 - Newspaper Article \u201cFreshServe Ltd. Fights Urban Food Deserts with Accessible Meal Kits\u201d**\n\t\n![Image](https://pub-images.revisiondojo.com/question-images/d4fed516-01c4-43d2-b19b-f4ae6b1dcbc9)\n\n</dialog>\n\n\n<dialog>\n\n**Resource 2 - Gearing Ratios (2023)** FreshServe Ltd. reported a gearing ratio of 70% for 2023, showing that a substantial portion of its funding comes from debt. This high leverage reflects the company's aggressive expansion strategy, including investments in local kitchens and refrigerated delivery fleets.\n\t\nWhile investors have expressed concerns about FreshServe's debt levels, Malik is optimistic that continued expansion will lead to higher revenue and profitability in the long term.\n\n</dialog>\n\n\n<dialog>\n\n**Resource 3 - Production Process Overview**\n- Ingredient Sourcing: FreshServe collaborates with local farmers and sustainable suppliers.\n- Meal Kit Assembly: Ingredients are packed into kits in company-owned urban kitchens.\n- Quality Control: Kits are inspected for freshness and portion accuracy before dispatch.\n- Distribution: Refrigerated vehicles deliver meal kits to clients, focusing on urban food deserts.\n- Customer Support: Customer feedback is collected via SMS for future improvement.\n\n</dialog>\n\n\n<dialog>\n\n**Resource 4 - Community Survey Excerpt** \t\n\t\nA survey by the Community Health Alliance highlights FreshServe\u2019s positive impact: 90% of users said the service improved their diet, while 85% found meal kits more affordable than typical grocery options. \n\nA majority expressed gratitude for reliable access to fresh food, though some noted difficulties in understanding recipe instructions and portion sizes.\n\n</dialog>\n\n\n<dialog>\n\n**Resource 5 - Social Media Post** \n\n![Image](https://pub-images.revisiondojo.com/question-images/136af8e4-d860-4917-9093-c4be7f3129d4)\n</dialog>",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 288,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:01:08.018Z",
+            "resultId": 24257
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29657,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.1 Motivation Theories ",
+              "title": "2.4.1 Motivation Theories ",
+              "labeledAt": "2026-03-06T04:31:39.971Z",
+              "reasoning": "Part (a) explicitly asks for a human need met using an appropriate theory (e.g., Maslow), which is covered under motivation theories.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29676,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.2 Sources of finance > 3.2.2 External Sources of Finance",
+              "title": "3.2.2 External Sources of Finance",
+              "labeledAt": "2026-03-06T04:31:39.971Z",
+              "reasoning": "Parts (b) and (c) require discussing funding strategies and expansion while the case highlights high gearing (debt), pointing to external finance options/implications.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29677,
+              "isHl": false,
+              "path": "Unit 3: Financial Management - Accounting, Ratio evaluation, Core Financial Documents > 3.2 Sources of finance > 3.2.3 Internal vs. external sources and implications",
+              "title": "3.2.3 Internal vs. external sources and implications",
+              "labeledAt": "2026-03-06T04:31:39.971Z",
+              "reasoning": "The strategic plan must evaluate funding choices and the case mentions investor concern about debt, fitting internal vs external finance and implications.",
+              "confidence": 0.76
+            },
+            {
+              "id": 29635,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.4 Stakeholders > 1.4.2 Conflict Between Stakeholders",
+              "title": "1.4.2 Conflict Between Stakeholders",
+              "labeledAt": "2026-03-06T04:31:39.971Z",
+              "reasoning": "Investor concerns vs management optimism and the social mission (community impact) imply potential stakeholder tensions relevant to conflicts between stakeholders.",
+              "confidence": 0.55
+            },
+            {
+              "id": 29733,
+              "isHl": false,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.1 Introduction to operations management > 5.1.1 The Role of Operations Management",
+              "title": "5.1.1 The Role of Operations Management",
+              "labeledAt": "2026-03-06T04:31:39.971Z",
+              "reasoning": "Parts (b) and (c) discuss scaling operations, quality control, distribution fleets and kitchens\u2014general operations-management challenges and objectives.",
+              "confidence": 0.54
+            },
+            {
+              "id": 29751,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.1 The Local and Global Supply Chain Process",
+              "title": "5.6.1 The Local and Global Supply Chain Process",
+              "labeledAt": "2026-03-06T04:31:39.971Z",
+              "reasoning": "Expansion challenges and sustainability planning relate to ingredient sourcing, logistics, and delivery into urban food deserts\u2014supply chain process considerations.",
+              "confidence": 0.5
+            },
+            {
+              "id": 29742,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.3 Lean production and quality management (HL only) > 5.3.5 Methods of Managing Quality",
+              "title": "5.3.5 Methods of Managing Quality",
+              "labeledAt": "2026-03-06T04:31:39.971Z",
+              "reasoning": "The process overview includes quality control and customer feedback; scaling raises quality management challenges and methods.",
+              "confidence": 0.46
+            },
+            {
+              "id": 11110,
+              "isHl": false,
+              "path": "BM Toolkit - Core business frameworks and tools > SWOT analysis",
+              "title": "SWOT analysis",
+              "labeledAt": "2026-03-06T04:31:39.971Z",
+              "reasoning": "Part (c) asks for a 5-year strategic plan using all resources; SWOT is a common toolkit framework to structure opportunities/threats (e.g., debt risk, market need) and strengths/weaknesses.",
+              "confidence": 0.4
+            }
+          ]
+        },
+        "currentRevisionId": 1694710,
+        "parts": [
+          {
+            "id": 1156920,
+            "content": "Using an appropriate business management theory, describe a human need that FreshServe Ltd. meets by providing meal kits to underserved communities.",
+            "order": 0,
+            "markscheme": "- Identifies an appropriate theory (e.g., Maslow\u2019s hierarchy) and the relevant human need (e.g., physiological need for food). <marks>1 mark</marks>\n- Describes how FreshServe meets this need in context (e.g., affordable, reliable access to nutritious meals in food deserts). <marks>1 mark</marks>\n\n_**OR**_\n\n- Identifies a different appropriate need within a valid theory (e.g., belonging/community support). <marks>1 mark</marks>\n- Describes how FreshServe meets this need in context (e.g., partnerships with local suppliers and engagement with customers). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156921,
+            "content": "Explain two possible challenges facing FreshServe Ltd. as it seeks to expand its operations. Support your answer using information from the case study and resources provided.",
+            "order": 1,
+            "markscheme": "Award up to 6 marks using a holistic level approach.\n\n- **5\u20136 marks:** Clearly explains two distinct expansion challenges with well-developed business reasoning for each; integrates relevant, accurate support from the resources for both challenges (e.g., Resource 1 on ingredient cost spikes/supply chain bottlenecks and price increases; Resource 2 on 70% gearing and investor concerns; Resource 3 on operational complexity such as quality control and refrigerated distribution); shows clear links to implications for growth (profitability, cash flow, service quality, reputational risk).\n\n- **3\u20134 marks:** Explains two challenges but with uneven depth and/or limited linkage to expansion; uses some relevant support from the resources, though may be generic or not consistently applied.\n\n- **1\u20132 marks:** Identifies one or two challenges with little explanation and/or minimal resource support; largely descriptive.\n\n- **0 marks:** No relevant points.",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156922,
+            "content": "Using the resources provided and your business management knowledge, recommend a strategic plan to ensure the sustainability and long-term growth of FreshServe Ltd. for the next five years. Your response should consider the potential for operational efficiency, funding strategies, and partnerships to address food insecurity.",
+            "order": 2,
+            "markscheme": "**Operational Efficiency and Cost Management** \n\n- **Explanation:** Streamlining ingredient sourcing and optimizing delivery routes to manage rising costs.  \n- **Case Application:** Reference to production process overview and ingredient cost issues.  \n- **Cost Challenges:** Mention potential for scaling partnerships with local suppliers to stabilize costs.  \n\n**Funding and Financial Strategy**  \n\n- **Explanation:** Consider reducing debt reliance by attracting equity investments or community grants.  \n- **Case Application:** Gearing ratio highlights high debt levels that may affect expansion.  \n- **Long-Term View:** Explain that more balanced financing could improve financial stability and investor confidence.  \n\n**Community Partnerships and Outreach**  \n\n- **Explanation:** Strengthen partnerships with local farms and community centers to bolster brand loyalty and ensure steady supply.  \n- **Case Application:** Community survey and social media post reflect FreshServe\u2019s role in communities.  \n- **Customer Impact:** Benefits to customers and community align with FreshServe\u2019s goal of long-term impact.  \n\n**Sustainability and Innovation**  \n\n- **Explanation:** Invest in innovation to improve packaging or ingredient preservation, ensuring quality and reducing waste.  \n- **Case Application:** Connection to food insecurity and resource constraints in urban areas.  \n- **Evaluation:** Sustainability efforts could solidify FreshServe\u2019s market position and brand image.  \n\n**Long-Term Adaptability**  \n\n- **Explanation:** Implement adaptable operational processes to respond to market and cost changes.  \n- **Case Application:** Refer to the company\u2019s expansion updates and mission to reach more underserved areas.  \n\n**Criterion A: Use of resource materials**\nTo what extent does the student use the resource materials provided to effectively support the recommended plan of action?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited reference to the resource materials, or resources are used ineffectively. |\n| **2** | Some reference to the resource materials, but in a superficial way. |\n| **3** | Most of the resource materials are used to support the plan of action. |\n| **4** | All resource materials are effectively used to support the plan of action. |\n\n**Criterion B: Business management tools and theories**\nTo what extent does the student\u2019s plan of action effectively apply appropriate business management tools and theories?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited application of business management tools and theories. |\n| **2** | Superficial application of business management tools and theories. |\n| **3** | Satisfactory application of business management tools and theories. |\n| **4** | Effective application of business management tools and theories. |\n\n**Criterion C: Evaluation**\nTo what extent does the student effectively evaluate the expected impact of their plan of action on the relevant areas of the business?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1-2** | Largely descriptive, with limited analysis or evaluation. |\n| **3-4** | Some evaluation of the expected impact, but not sustained. |\n| **5-6** | Effective evaluation, considering trade-offs and business impact. |\n\n**Criterion D: Sequencing of ideas and plan of action**\nTo what extent are the student\u2019s ideas and plan of action sequenced in a clear and coherent manner?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited sequencing of ideas and plan of action. |\n| **2** | Ideas and a plan of action exist, but not always in a clear manner. |\n| **3** | Effective sequencing of ideas and plan of action in a clear and coherent manner. |",
+            "marks": 17,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fe855905-83f7-45f0-a07c-5bb582cc5bc6",
+        "specification": "**Green Life Manufacturing (GLM)**\n\n\n<dialog>\n\n**Resource 1 - Magazine Article\n\u201cGreen Life Manufacturing Faces Scaling Dilemmas in Eco-Packaging Market\u201d**\n\n![Image](https://pub-images.revisiondojo.com/question-images/25651815-d7d9-47f7-ba34-9b346746010e)\n\n</dialog>\n\n\n\n<dialog>\n\n**Resource 2 - Financial Statement: Income Statement (2023)**\n\n*Green Life Manufacturing Ltd Income Statement for the Year Ending December 31, 2023*\n\n| Item                    | Amount       |\n|-------------------------|--------------|\n| Sales Revenue           | \u00a35,000,000   |\n| Cost of Sales           | \u00a33,400,000   |\n| **Gross Profit**        | **\u00a31,600,000** |\n\n**Operating Expenses:**\n\n| Expense                 | Amount       |\n|-------------------------|--------------|\n| Research & Development  | \u00a3250,000     |\n| Marketing               | \u00a3150,000     |\n| Administrative Expenses | \u00a3600,000     |\n| **Total Operating Expenses** | **\u00a31,000,000** |\n\n| Item                    | Amount       |\n|-------------------------|--------------|\n| **Operating Profit**    | **\u00a3600,000** |\n| Interest                | \u00a350,000      |\n| **Retained Profit**     | **\u00a3550,000** |\n</dialog>\n\nAlthough revenue has increased by 15% compared to 2022, the sharp rise in raw material costs has significantly reduced gross profit margins. Operating expenses have remained relatively stable, but the company is seeing pressure on its bottom line.\n\n\n<dialog>\n\n**Resource 3 - Production Process Flowchart**\n\t\nRaw Material Sourcing: Sustainable materials (cornstarch, sugarcane) are procured from certified suppliers.\nMaterial Processing: The raw materials undergo chemical processing to transform them into biodegradable polymers.\n\t\nPackaging Molding: Molding machinery shapes the polymers into various packaging forms (e.g., food containers, packaging film).\n\t\nQuality Control: Each batch is tested to ensure it meets compostability and durability standards.\nDistribution: Finished products are shipped to retailers and food service providers across the UK.\n</dialog>\n\n\n<dialog>\n\n**Resource 4 \u2013 Market Research Summary: Demand for Sustainable Packaging on the Rise**\n\t\nA recent report by MarketWatch Research highlights the growing global demand for sustainable packaging. By 2026, the market is expected to be worth \u00a3150 billion with an annual growth rate of 10%. \n\t\nThis shift is largely driven by increasing consumer awareness of environmental issues and government regulations that limit the use of plastic.\nHowever, competition in the sector is intensifying. Several multinational packaging firms, such as Amcor and Mondi, are investing heavily in biodegradable materials. \n\t\nThese larger firms benefit from economies of scale, allowing them to offer eco-friendly packaging at prices that smaller companies like GLM find difficult to match.\n\n</dialog>\n\n<dialog>\n\n**Resource 5 - Graph: Cost of Raw Materials vs. Sales Growth (2021-2023)**\n\n*Note: raw material costs are shown as an index (2021 = 100) and should be used to interpret trends rather than absolute \u00a3 values.*\n\n![Image](https://pub-images.revisiondojo.com/question-images/1c9e11fc-6b30-48a1-a3bd-78883d9e74ad)\n</dialog>",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-3",
+        "subjectId": 288,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T05:59:34.201Z",
+            "resultId": 24550
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29657,
+              "isHl": false,
+              "path": "Unit 2: HR Management - Motivation, Structure, Hierarchy > 2.4 Motivation and demotivation > 2.4.1 Motivation Theories ",
+              "title": "2.4.1 Motivation Theories ",
+              "labeledAt": "2026-03-06T04:32:38.379Z",
+              "reasoning": "Part (a) explicitly asks for an appropriate theory to describe a human need met by GLM (e.g., Maslow), which sits under motivation theories.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29636,
+              "isHl": false,
+              "path": "Unit 1: Introduction to Business Management - Core operational components and business functions > 1.5 Growth and evolution > 1.5.1 Internal and External Economies and Diseconomies of Scale",
+              "title": "1.5.1 Internal and External Economies and Diseconomies of Scale",
+              "labeledAt": "2026-03-06T04:32:38.379Z",
+              "reasoning": "Resources and prompts highlight multinationals benefiting from economies of scale and GLM\u2019s scaling dilemmas; part (b)/(c) focus on expansion challenges and scaling impacts.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29723,
+              "isHl": false,
+              "path": "Unit 4: Marketing Management - The 7 P's, strategies and forecasting > 4.5 The seven Ps of the marketing mix > 4.5.3 Price",
+              "title": "4.5.3 Price",
+              "labeledAt": "2026-03-06T04:32:38.379Z",
+              "reasoning": "Part (c) explicitly asks to consider pricing strategies, and the case mentions difficulty matching larger rivals\u2019 prices.",
+              "confidence": 0.7
+            },
+            {
+              "id": 29751,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.6 Production planning (HL only) > 5.6.1 The Local and Global Supply Chain Process",
+              "title": "5.6.1 The Local and Global Supply Chain Process",
+              "labeledAt": "2026-03-06T04:32:38.379Z",
+              "reasoning": "Supplier relationships and raw material sourcing/cost pressures are central; part (c) asks to consider supplier relationships and the supply chain.",
+              "confidence": 0.65
+            },
+            {
+              "id": 29774,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.9 Management information systems (HL only) > 5.9.12 Benefits, Risks, and Ethical Implications of Advanced Technologies",
+              "title": "5.9.12 Benefits, Risks, and Ethical Implications of Advanced Technologies",
+              "labeledAt": "2026-03-06T04:32:38.379Z",
+              "reasoning": "Part (c) explicitly considers automation; advanced technologies\u2019 benefits/risks/ethics are relevant to recommending an automation plan.",
+              "confidence": 0.62
+            },
+            {
+              "id": 11112,
+              "isHl": false,
+              "path": "BM Toolkit - Core business frameworks and tools > STEEPLE analysis",
+              "title": "STEEPLE analysis",
+              "labeledAt": "2026-03-06T04:32:38.379Z",
+              "reasoning": "Environmental regulations and wider external drivers (social/environmental/legal) are key in the case and required in the strategic plan recommendation.",
+              "confidence": 0.55
+            },
+            {
+              "id": 11110,
+              "isHl": false,
+              "path": "BM Toolkit - Core business frameworks and tools > SWOT analysis",
+              "title": "SWOT analysis",
+              "labeledAt": "2026-03-06T04:32:38.379Z",
+              "reasoning": "Part (c) requires an overall strategic plan using all resources; SWOT is a common integrative tool to structure strengths/weaknesses/opportunities/threats from the case.",
+              "confidence": 0.5
+            },
+            {
+              "id": 29742,
+              "isHl": true,
+              "path": "Unit 5: Operations Management - Production Methods, Production planning and management > 5.3 Lean production and quality management (HL only) > 5.3.5 Methods of Managing Quality",
+              "title": "5.3.5 Methods of Managing Quality",
+              "labeledAt": "2026-03-06T04:32:38.379Z",
+              "reasoning": "Production flow includes quality control and standards; scaling/automation recommendations should address how quality is managed to meet compostability/durability requirements.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 1694701,
+        "parts": [
+          {
+            "id": 1156908,
+            "content": "Using Maslow\u2019s hierarchy of needs, describe a human need that GLM meets by producing environmentally sustainable packaging for retailers and consumers.",
+            "order": 0,
+            "markscheme": "- Human need identified using Maslow (e.g., esteem, belonging, or self-actualization) in the context of sustainable consumption/business practices. <marks>1 mark</marks>\n- Description of how GLM\u2019s eco-friendly packaging helps customers/retailers satisfy that need (e.g., status/approval from being environmentally responsible, aligning purchases with personal values). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156909,
+            "content": "Explain two possible challenges facing GLM as it seeks to expand its operations. Use the resources to support your answer.",
+            "order": 1,
+            "markscheme": "Marks are awarded holistically for each challenge (up to 3 marks per challenge):\n\n**Per challenge (0\u20133):**\n- **0**: No relevant challenge identified, or purely generic with no explanation. \n- **1**: Challenge is identified but explanation is limited and/or not linked to GLM. \n- **2**: Clear explanation of how the challenge could affect GLM\u2019s expansion, with some linkage to the case. \n- **3**: Well-explained challenge with a clear cause\u2013effect chain and specific, accurate support from at least one relevant resource (e.g., Resources 1/2/5 for costs and margins; Resource 1/3 for capacity/operations constraints; Resource 4 for competitive pressure).\n\nValid challenges include (but are not limited to): rising raw material costs reducing margins and pricing competitiveness; limited production capacity/need for investment in automation; intensified competition from multinationals with economies of scale; cash-flow/finance constraints when funding new technology; quality control and compliance risks when scaling.",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156910,
+            "content": "Using the resources and your business management knowledge, recommend a strategic plan to ensure the sustainability and long-term growth of GLM for the next five years. Your response should set out a clear sequence of actions over the five years and consider automation, supplier relationships, pricing strategies, and environmental regulations.",
+            "order": 2,
+            "markscheme": "**Automation and Production Technology**\n\n- Investment in automation to increase production efficiency, reduce labor costs, and address capacity constraints.\n- Reference to Resource 1, noting that automation is necessary to meet demand and reduce reliance on labor.\n- Note potential upfront investment strain on profit margins, per CEO\u2019s statement on financial pressures.\n\n**Strengthening Supplier Relationships**\n\n- Emphasis on securing long-term, cost-effective contracts with raw material suppliers to mitigate rising costs and ensure material availability.\n-  Reference Resource 5 on raw material price trends impacting costs.\n- Explains how stronger supplier ties could stabilize GLM\u2019s material costs, enhancing cost predictability.\n\n**Pricing Strategy and Competitiveness**\n\n- Consider value-based pricing to balance profit margin maintenance and market competitiveness.\n-  Refers to competition with larger firms (Resource 4) and GLM\u2019s need to distinguish itself without price competition alone.\n- Consider market penetration pricing for small retailers to grow brand loyalty.\n\n**Compliance and Environmental Regulations**\n\n- Ensure GLM products meet or exceed regulatory standards, leveraging eco-friendly certifications as a marketable feature.\n- Highlights consumer demand for environmentally compliant products (Resource 4) and potential for regulatory shifts.\n- Strong compliance and eco-friendly branding to capture and retain an environmentally-conscious customer base.\n\n**Long-Term Vision and Adaptability**\n\n- Implementation of a flexible business model allowing quick adaptation to shifts in material costs, market trends, and technologies.\n- Justification from market trends indicating growing demand for sustainable packaging (Resource 4).\n- Assessment of the potential for adaptability as a core component of GLM\u2019s competitive advantage in a volatile industry.\n\n**Criterion A: Use of resource materials**\nTo what extent does the student use the resource materials provided to effectively support the recommended plan of action?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited reference to the resource materials, or resources are used ineffectively. |\n| **2** | Some reference to the resource materials, but in a superficial way. |\n| **3** | Most of the resource materials are used to support the plan of action. |\n| **4** | All resource materials are effectively used to support the plan of action. |\n\n**Criterion B: Business management tools and theories**\nTo what extent does the student\u2019s plan of action effectively apply appropriate business management tools and theories?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited application of business management tools and theories. |\n| **2** | Superficial application of business management tools and theories. |\n| **3** | Satisfactory application of business management tools and theories. |\n| **4** | Effective application of business management tools and theories. |\n\n**Criterion C: Evaluation**\nTo what extent does the student effectively evaluate the expected impact of their plan of action on the relevant areas of the business?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1-2** | Largely descriptive, with limited analysis or evaluation. |\n| **3-4** | Some evaluation of the expected impact, but not sustained. |\n| **5-6** | Effective evaluation, considering trade-offs and business impact. |\n\n**Criterion D: Sequencing of ideas and plan of action**\nTo what extent are the student\u2019s ideas and plan of action sequenced in a clear and coherent manner?\n\n| Marks | Level Descriptor |\n|-------|-----------------|\n| **0** | The response does not reach a standard described by the descriptors below. |\n| **1** | Limited sequencing of ideas and plan of action. |\n| **2** | Ideas and a plan of action exist, but not always in a clear manner. |\n| **3** | Effective sequencing of ideas and plan of action in a clear and coherent manner. |\n",
+            "marks": 17,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "19",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 11105,
+      "title": "5.5 Break-even analysis",
+      "slug": "ib-business-management-55-break-even-analysis",
+      "parentTopicId": 9308
+    },
+    "subject": {
+      "id": 288,
+      "title": "Business Management",
+      "slug": "ib-business-management",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "19",
+      "byQuestion": {}
+    }
+  }
+}

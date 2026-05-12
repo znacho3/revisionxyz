@@ -1,3 +1,387 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:685c3e73d144a6e9c6637e13c0c232f70942f313cd09c42b59bd0e46a1c5b9d0
-size 17324
+{
+  "json": {
+    "questions": [
+      {
+        "id": "334716c7-bf89-484b-adad-5bd6f36e481c",
+        "specification": "The table below compares the physical properties of four distinct textile fibers.\n\n| Fiber | Classification | Moisture Regain (%) | Tensile Strength |\n| :--- | :--- | :--- | :--- |\n| **W** | Natural (Plant) | 8.5 | Medium |\n| **X** | Natural (Animal) | 16.0 | Low |\n| **Y** | Synthetic | 0.4 | High |\n| **Z** | Regenerated | 13.0 | Medium |\n\nA design team is developing a high-performance outdoor umbrella. The material must be selected for its ability to resist tearing in high winds and its ability to remain lightweight by resisting the absorption of water.\n\nWhich fiber is most appropriate for this application based on the data provided?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-334716c7-bf89-484b-adad-5bd6f36e481c-1771929956947",
+            "generatedAt": "2026-02-25T14:15:20.853Z",
+            "sourceRevisionId": 1179005
+          }
+        },
+        "currentRevisionId": 1685517,
+        "parts": [],
+        "options": [
+          {
+            "id": 4921083,
+            "content": "Fiber W",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4921084,
+            "content": "Fiber Y",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4921085,
+            "content": "Fiber X",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4921086,
+            "content": "Fiber Z",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "50902234-633a-422d-b93c-3c3d7267c4c4",
+        "specification": "A company is developing a new line of eco-friendly sportswear. The sportswear needs to be both functional and sustainable.\n\nThe design team must consider various properties of textiles and their impact on performance and the environment. The following questions will explore different aspects of textile selection and application in sportswear design.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:59:31.660Z",
+            "resultId": 3483
+          }
+        },
+        "currentRevisionId": 1690798,
+        "parts": [
+          {
+            "id": 1153280,
+            "content": "Identify two natural fibres commonly used in eco-friendly sportswear and discuss their suitability.",
+            "order": 0,
+            "markscheme": "- Identification of organic cotton as a natural fibre <marks>1 mark</marks>\n- Discussion of organic cotton's properties:\n  - Environmentally friendly (no synthetic pesticides/fertilisers)\n  - Breathable and comfortable\n  - Limitation: slow drying time <marks>1 mark</marks>\n- Identification of bamboo as a natural fibre <marks>1 mark</marks>\n- Discussion of bamboo's properties:\n  - Sustainable (fast growth, no pesticides needed)\n  - Breathable and moisture-wicking\n  - Natural antibacterial properties <marks>1 mark</marks>\n\n<note>Award marks for either property discussion point for each fibre</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153281,
+            "content": "Explain the importance of moisture-wicking properties in eco-friendly sportswear textiles.",
+            "order": 1,
+            "markscheme": "- Defines moisture-wicking as the ability of textile to draw moisture away from skin to fabric surface for evaporation <marks>1 mark</marks>\n- Explains benefit: keeps wearer dry and comfortable, reducing chafing and overheating <marks>1 mark</marks>\n- Links to eco-friendly sportswear: essential for maintaining functionality and comfort during physical activity, enhancing athletic performance <marks>1 mark</marks>\n\n<note>Award marks for any other relevant points related to moisture-wicking in eco-friendly sportswear context</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153282,
+            "content": "Compare the environmental impact of natural fibres versus synthetic fibres used in eco-friendly sportswear.",
+            "order": 2,
+            "markscheme": "- Natural fibres (organic cotton/bamboo) are biodegradable <marks>1 mark</marks>\n- Natural fibres have lower environmental impact in production/disposal and use no synthetic pesticides/fertilisers, but require more water for cultivation <marks>1 mark</marks>\n- Synthetic fibres (recycled polyester):\n  - Derived from petrochemicals\n  - Non-biodegradable\n  - Contribute to long-term environmental pollution <marks>1 mark</marks>\n- Recycled synthetic fibres:\n  - Reduce waste\n  - Lower need for virgin materials\n  - Improving sustainability through recycling technologies <marks>1 mark</marks>\n\n<note>Award marks for any valid comparison points between natural and synthetic fibres' environmental impact</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153283,
+            "content": "Analyze the role of elasticity in eco-friendly sportswear textiles and how it enhances athletic performance.",
+            "order": 3,
+            "markscheme": "- Elasticity enables textile to stretch and return to original shape <marks>1 mark</marks>\n- Provides snug fit and freedom of movement, essential for comfort and performance during physical activities <marks>1 mark</marks>\n- Use of eco-friendly elastic fibres (e.g., natural rubber, recycled elastane) provides necessary stretch while reducing environmental impact <marks>1 mark</marks>\n\n<note>Award marks for relevant examples of eco-friendly elastic materials if provided</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "89662d1c-31d6-4fb9-add7-acfb39e07e91",
+        "specification": "Textile fibers are categorized by their origin and chemical composition. During a burn test used for fiber identification, which group of fibers is uniquely identified by its tendency to melt and form a hard, dark bead?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-89662d1c-31d6-4fb9-add7-acfb39e07e91-1771929956947",
+            "generatedAt": "2026-02-25T11:44:38.813Z",
+            "sourceRevisionId": 1161848
+          }
+        },
+        "currentRevisionId": 1685731,
+        "parts": [],
+        "options": [
+          {
+            "id": 4921691,
+            "content": "Cellulosic fibers (e.g., cotton)",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4921692,
+            "content": "Protein fibers (e.g., wool)",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4921693,
+            "content": "Synthetic polymer fibers (e.g., polyester)",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4921694,
+            "content": "Regenerated fibers (e.g., viscose)",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "91d53972-482b-435b-8fd4-ee2ad1a59853",
+        "specification": "Athletic compression apparel is designed to maintain a tight fit and support muscles during intense physical activity. Which fiber is added to a fabric blend to ensure the garment possesses the necessary 'power stretch' and recovery characteristics?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-91d53972-482b-435b-8fd4-ee2ad1a59853-1771929956947",
+            "generatedAt": "2026-02-25T14:09:50.103Z",
+            "sourceRevisionId": 1161843
+          }
+        },
+        "currentRevisionId": 1685490,
+        "parts": [],
+        "options": [
+          {
+            "id": 4921023,
+            "content": "Acrylic",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4921024,
+            "content": "Elastane",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4921025,
+            "content": "Acetate",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4921026,
+            "content": "Linen",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "94402266-c44f-464b-a91c-b39fb2191a2d",
+        "specification": "A company is developing a new line of high-performance sportswear. The sportswear needs to be both functional and comfortable. The design team must consider various properties of textiles and their impact on performance.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:56:42.789Z",
+            "resultId": 2853
+          }
+        },
+        "currentRevisionId": 1691883,
+        "parts": [
+          {
+            "id": 1153630,
+            "content": "Identify two synthetic fibres commonly used in high-performance sportswear and discuss their suitability.",
+            "order": 0,
+            "markscheme": "- Identification of polyester as a synthetic fibre <marks>1 mark</marks>\n\n- Discussion of polyester properties:\n  - Durable/resistant to shrinking and stretching\n  - Good moisture-wicking properties <marks>1 mark</marks>\n\n- Identification of spandex as a synthetic fibre <marks>1 mark</marks>\n\n- Discussion of spandex properties:\n  - Exceptional elasticity\n  - Provides snug fit and shape retention <marks>1 mark</marks>\n\n<note>Award marks for any other relevant synthetic fibres and valid properties (e.g., nylon, acrylic)</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153631,
+            "content": "Explain the importance of moisture-wicking properties in sportswear textiles.",
+            "order": 1,
+            "markscheme": "- Moisture-wicking refers to the ability of a textile to draw moisture away from the skin to the fabric surface for evaporation <marks>1 mark</marks>\n\n- Keeps wearer dry and comfortable, reducing risk of chafing and overheating <marks>1 mark</marks>\n\n- Enhances athletic performance through better temperature regulation and improved comfort during physical activity <marks>1 mark</marks>\n\n<examTip>Link properties to specific benefits for the athlete when explaining moisture-wicking features</examTip>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153632,
+            "content": "Compare the environmental impact of synthetic fibres versus natural fibres used in sportswear.",
+            "order": 2,
+            "markscheme": "- Synthetic fibres (polyester, spandex) are derived from petrochemicals <marks>1 mark</marks>\n\n- Environmental issues with synthetic fibres:\n  - Non-biodegradable, causing long-term pollution\n  - Production process emits greenhouse gases <marks>1 mark</marks>\n\n- Natural fibres (cotton, wool):\n  - Biodegradable\n  - Lower environmental impact for disposal <marks>1 mark</marks>\n\n- Comparison of maintenance and durability:\n  - Synthetic fibres require less water for maintenance and are more durable\n  - Natural fibres have a lower environmental footprint but may need more water/pesticides during cultivation <marks>1 mark</marks>\n\n<note>Award marks for any valid comparison points between the two types of fibres</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1153633,
+            "content": "Analyze the role of elasticity in sportswear textiles and how it enhances athletic performance.",
+            "order": 3,
+            "markscheme": "- Elasticity allows a textile to stretch and return to its original shape <marks>1 mark</marks>\n\n- Provides snug fit and freedom of movement for comfort during physical activities <marks>1 mark</marks>\n\n- Enhances athletic performance by moving with the body and allowing full range of motion without restrictions <marks>1 mark</marks>\n\n<note>Award marks for relevant points about elasticity's role in sportswear, maximum 3 marks total</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "eb8a34ae-9d97-4841-acae-3ca7aff9334c",
+        "specification": "A manufacturer is selecting a fibre for the production of high-performance climbing ropes and safety harnesses. The material must have high tensile strength, excellent resistance to abrasion, and very low moisture absorbency to ensure it remains lightweight and strong when wet.\n\nWhich fibre best meets these requirements?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-eb8a34ae-9d97-4841-acae-3ca7aff9334c-1771929956947",
+            "generatedAt": "2026-02-25T11:42:07.411Z",
+            "sourceRevisionId": 1179018
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:00:31.604Z",
+            "resultId": 1805
+          }
+        },
+        "currentRevisionId": 1691956,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931009,
+            "content": "Viscose",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931010,
+            "content": "Nylon",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931011,
+            "content": "Linen",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931012,
+            "content": "Wool",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "6",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9903,
+      "title": "4.2e Textiles",
+      "slug": "4-2e-textiles",
+      "parentTopicId": 9897
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "6",
+      "byQuestion": {}
+    }
+  }
+}

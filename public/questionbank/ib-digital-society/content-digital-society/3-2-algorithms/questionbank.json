@@ -1,3 +1,2294 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:dc8fda99ae98218541957926b428f9dc1c57800aceddbe463d776c58b145c357
-size 193071
+{
+  "json": {
+    "questions": [
+      {
+        "id": "00f93da4-8ee3-4abb-ae1f-3316b53adbed",
+        "specification": "**Sentencing criminals using artificial intelligence (AI)**\n\nIn 10 states in the United States, artificial intelligence (AI) software is used for sentencing criminals. Once criminals are found guilty, judges need to determine the lengths of their prison sentences. One factor used by judges is the likelihood of the criminal re-offending\\*.\n\nThe AI software uses machine learning to determine how likely it is that a criminal will re-offend. This result is presented as a percentage; for example, the criminal has a 90\u2009% chance of re-offending. Research has indicated that AI software is often, but not always, more reliable than human judges in predicting who is likely to re-offend.\n\nThere is general support for identifying people who are unlikely to re-offend, as they do not need to be sent to prisons that are already overcrowded.\n\nRecently, Eric Loomis was sentenced by the state of Wisconsin using proprietary AI software. Eric had to answer over 100 questions to provide the AI software with enough information for it to decide the length of his sentence. When Eric was given a six-year sentence, he appealed and wanted to see the algorithms that led to this sentence. Eric lost the appeal.\n\nOn the other hand, the European Union (EU) has passed a law that allows citizens to challenge decisions made by algorithms in the criminal justice system.  \n\n* * *\n\n\\* re-offending: committing another crime in the future",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_difficulty": "hard",
+          "old_question_id": "Digital-Society-19M.1.SL.TZ0.4",
+          "labeledSubSubTopics": [
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-05T16:12:31.633Z",
+              "reasoning": "The 8-mark part (f) is a classic AI dilemma concerning the balance between machine-led algorithmic decisions and human professional judgment (judges).",
+              "confidence": 0.95
+            },
+            {
+              "id": 30923,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6B Types and Uses of Machine Learning",
+              "title": "3.6B Types and Uses of Machine Learning",
+              "labeledAt": "2026-03-05T16:12:31.633Z",
+              "reasoning": "Part (c) explicitly requires knowledge of supervised machine learning, which is a core component of this topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-05T16:12:31.633Z",
+              "reasoning": "Part (b) addresses the dilemma of proprietary vs. open-source software and algorithmic transparency/bias, which are central themes in algorithmic dilemmas.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30950,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.6 Political > 4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "title": "4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "labeledAt": "2026-03-05T16:12:31.633Z",
+              "reasoning": "The case study is framed within the criminal justice system, discussing sentencing, legal appeals (Loomis), and EU regulations on algorithmic challenges.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30897,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1D Methods for Collecting and Organizing Data",
+              "title": "3.1D Methods for Collecting and Organizing Data",
+              "labeledAt": "2026-03-05T16:12:31.633Z",
+              "reasoning": "Part (e) focuses specifically on the challenges and problems associated with gathering input data for these digital systems.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30922,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6A Types of Artificial Intelligence",
+              "title": "3.6A Types of Artificial Intelligence",
+              "labeledAt": "2026-03-05T16:12:31.633Z",
+              "reasoning": "Part (a) asks for general characteristics and definitions of artificial intelligence systems.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1142638,
+        "parts": [
+          {
+            "id": 21529,
+            "content": "Identify **two** characteristics of artificial intelligence (AI) systems.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n*   Ability to seem intelligent\n*   Power to copy intelligent human behaviour\n*   Capacity to learn\n*   Decision-making ability\n*   Adaptation to circumstances\n*   Well-defined goals\n*   Problem-solving skills\n*   Reasoning ability\n*   Autonomy\n*   Flexibility\n\n_  \nAward **\\[1\\]** for identifying each characteristic of artificial intelligence systems up to a maximum of **\\[2\\]**._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 21530,
+            "content": "Outline **one** problem that may arise if proprietary software rather than open-source software is used to develop algorithms.",
+            "order": 1,
+            "markscheme": "_Answers may include:_\n\n*   Proprietary software cannot be easily adapted to the needs of the user.\n*   Changes to the software may take a long time / may not meet the needs of the user / may be driven by commercial interests.\n\n_  \nAward **\\[1\\]** for identifying a problem of using proprietary software and **\\[1\\]** for a development of that problem up to a maximum of **\\[2\\]**._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 21531,
+            "content": "The developers of the AI software decided to use supervised machine learning to develop the algorithms in the sentencing software.\n\nIdentify **two** advantages of using supervised learning.",
+            "order": 2,
+            "markscheme": "_Answers may include:_\n\n*   More accurate (than unsupervised and reinforcement learning).\n*   Easier to compare outcomes to predicted results / easier to train the algorithms.\n\n_  \nAward **\\[1\\]** for identifying each advantage of using supervised learning up to a maximum of **\\[2\\]**.  \n_",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 21532,
+            "content": "The developers of the AI software used visualizations as part of the development process.\n\nExplain **one** reason why visualizations would be used as part of the development process.",
+            "order": 3,
+            "markscheme": "_Answers may include:_\n\n*   Visualizes the flow of data through an information system\u2026\n*   which could make a potentially complex system understandable by a non-technical audience.\n\n_  \nAward **\\[1\\]** for identifying a reason why visualizations may be used as part of the development process and **\\[1\\]** for a development of that reason up to a maximum of **\\[2\\]**.  \n_",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 21533,
+            "content": "Explain **two** problems the developers of the AI system could encounter when gathering the data that will be input into the AI system.",
+            "order": 4,
+            "markscheme": "_Answers may include:_\n\n*   The different datasets may not be compatible with each other\u2026\n*   which means it has to be converted to a single format.\n\n*   The various databases may have different structures\u2026\n*   fields in one database may not correspond to fields in other databases / a lot of the integrated data is of no value.\n\n_  \nAward **\\[1\\]** for identifying a problem the developers of the AI system will encounter when gathering the data that will be input into the AI system and **\\[1\\]** for a development of that reason up to a maximum of **\\[2\\]**.  \n_",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 21534,
+            "content": "To what extent should the decisions of judges be based on algorithms rather than their knowledge and experience?",
+            "order": 5,
+            "markscheme": "_Answers may include:_\n\n**Arguments for using algorithms**\n\n*   We don\u2019t know what is going on inside a judge\u2019s mind, so it\u2019s a black box too.\n*   Judges can be biased.\n*   This would be a more standardized process, i.e., more uniform and logical.\n*   Risk assessment tools could lead to less incarceration and less crime.\n*   This software could be used in conjunction with a judge\u2019s decision i.e., to provide guidance.\n*   It could be one factor among many, i.e., not the determinative factor.\n*   The software could be used to identify outliers, i.e., people very likely to commit a crime or people very unlikely to commit a crime.\n*   The software could be based on the experience of many judges/experienced experts in this field, so it could be more reliable than the judgement of a single person.\n\n**Arguments against using algorithms**\n\n*   The algorithms should not be \u201cblack boxes\u201d, i.e., they should be revealed (transparency).\n*   It\u2019s almost impossible to define fairness, so how can the algorithm be fair?\n*   Biases could be incorporated into the software because of the attitudes of the human beings who created it.\n*   The value of the algorithm depends on the data it uses, and criminal justice data is often unreliable.\n*   Algorithms look at group behaviour, not individual behaviour.\n*   Algorithms don\u2019t look at how different factors interact (at least not yet).\n*   Is the AI system fit for purpose, will it give appropriate sentences?\n*   May shift the power too far towards AI / machine learning.\n*   Does not determine who is accountable if a sentence is unjust / inappropriate.\n\n_In part (c) of this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** laws, standardized, transparency, accountability, judgement, bias, fairness, automation, machine learning, algorithm, reliability, change, power, systems, values\n\n_  \nRefer to **SL/HL paper 1, part c** **markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document_.",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "068372bd-f91d-4cbe-abd2-4e65d47068ef",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30902,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2A Characteristics of an Algorithm",
+              "title": "3.2A Characteristics of an Algorithm",
+              "labeledAt": "2026-03-06T15:43:23.746Z",
+              "reasoning": "All parts ask about core properties of algorithms\u2014finite, well-defined inputs/outputs, unambiguous steps, and feasibility\u2014i.e., the defining characteristics required for an algorithm to work.",
+              "confidence": 0.96
+            },
+            {
+              "id": 30903,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2B Components of an Algorithm",
+              "title": "3.2B Components of an Algorithm",
+              "labeledAt": "2026-03-06T15:43:23.746Z",
+              "reasoning": "Part (b) explicitly references inputs and outputs, which are commonly treated as components of an algorithm in addition to being characteristics.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 814850,
+        "parts": [
+          {
+            "id": 483500,
+            "content": "Define the term \u201cfinite\u201d in the context of algorithms.  \n\n\n\n",
+            "order": 0,
+            "markscheme": "\"Finite\" refers to an algorithm having a specific, limited number of steps that guarantee it will end after a certain amount of time.\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483501,
+            "content": "Identify two reasons why an algorithm should have well-defined inputs and outputs. ",
+            "order": 1,
+            "markscheme": "<marks>2 marks</marks>\n\n- Ensures the algorithm functions as intended by providing clear starting points.\n- Allows for verification of the algorithm's accuracy by checking outputs against expected results.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483502,
+            "content": "Explain why an algorithm must be unambiguous to function correctly. ",
+            "order": 2,
+            "markscheme": "Answer:\n\n- Unambiguity ensures that every instruction is clear and interpretable in only one way, preventing errors. <marks>2 marks</marks>\n- It guarantees consistency in results, regardless of who or what executes the algorithm. <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483503,
+            "content": "Describe one example where the feasibility of an algorithm impacts its use in a real-world application.\n",
+            "order": 3,
+            "markscheme": "### Example\n\nDescribe one example where the feasibility of an algorithm impacts its use in a real-world application. <marks>4 marks</marks>\n\nAnswer: In navigation apps, an algorithm must process large datasets quickly to provide real-time traffic updates. If it's too complex or slow, users may experience delays, making it impractical for real-time navigation.\n\n<marks>2 marks</marks> for describing a practical example.\n<marks>2 marks</marks> for discussing how feasibility impacts user experience.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "12c29104-09df-49bc-b542-da2fcc8af89d",
+        "specification": null,
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-22M.1.HL.TZ0.5",
+          "labeledSubSubTopics": [
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-06T15:43:34.159Z",
+              "reasoning": "Core of the prompt is a debate about deploying facial recognition + ML in a school, raising privacy, surveillance, consent, bias, transparency, accountability, and impacts on students\u2014typical AI ethics/dilemmas.",
+              "confidence": 0.87
+            },
+            {
+              "id": 30923,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6B Types and Uses of Machine Learning",
+              "title": "3.6B Types and Uses of Machine Learning",
+              "labeledAt": "2026-03-06T15:43:34.159Z",
+              "reasoning": "The system explicitly uses machine learning to infer attention/behaviour and generate weekly scores, so understanding ML uses/limitations (classification, inference accuracy, training data) is relevant.",
+              "confidence": 0.68
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-06T15:43:34.159Z",
+              "reasoning": "Collecting and processing biometric and behavioural data about children involves data privacy, ownership, retention, security, and purpose limitation\u2014data-related dilemmas.",
+              "confidence": 0.62
+            },
+            {
+              "id": 30946,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.5 Human knowledge > 4.5A Learning and Education, Science and Technology Innovation",
+              "title": "4.5A Learning and Education, Science and Technology Innovation",
+              "labeledAt": "2026-03-06T15:43:34.159Z",
+              "reasoning": "The context is learning and education: evaluating whether such technology improves teaching/learning and its consequences for schooling practices.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30888,
+              "isHl": false,
+              "path": "Topic 2 - Concepts - Digital Society > 2.7 Values and ethics > 2.7A Ethical Distinctions in Digital Society",
+              "title": "2.7A Ethical Distinctions in Digital Society",
+              "labeledAt": "2026-03-06T15:43:34.159Z",
+              "reasoning": "The question is framed as an ethical discussion (should the school introduce it), invoking ethical principles beyond purely technical AI issues.",
+              "confidence": 0.44
+            }
+          ]
+        },
+        "currentRevisionId": 879266,
+        "parts": [
+          {
+            "id": 16837,
+            "content": "**Cameras in school**\n\nThe principal at Flynn School has received requests from parents saying that they would like to monitor their children\u2019s performance in school more closely. He is considering extending the school\u2019s IT system by installing cameras linked to facial recognition software that can record student behaviour in lessons.\n\nThe facial recognition software can determine a student\u2019s attention level and behaviour, such as identifying if they are listening, answering questions, talking with other students, or sleeping. The software uses machine learning to analyse each student\u2019s behaviour and gives them a weekly score that is automatically emailed to their parents.\n\nThe principal claims that monitoring students\u2019 behaviour more closely will improve the teaching and learning that takes place.\n\nDiscuss whether Flynn School should introduce a facial recognition system that uses machine learning to analyse each student\u2019s behaviour and give them a score that is automatically emailed to their parents.",
+            "order": 0,
+            "markscheme": "Answers may include:\n\n**Advantages** **of implementing the facial recognition system:**\n\n*   May provide reassurance to students and parents about their safety while at school (values).\n*   May provide useful information to the school that could be used to feedback into possible teaching and learning strategies (values).\n*   May provide additional supporting evidence/data if there is a difference of opinions (values).\n*   May reduce the need for teachers to have to register students at the start of lessons or the beginning/end of each day, ie freeing up staff time (systems).\n*   May be able to create attendance/lateness reports if necessary (systems).\n*   May motivate students to work harder, participate frequently (values).\n\n**Disadvantages** **of implementing the facial recognition system:**\n\n*   May be seen as intrusive by students and teachers (ethics, values, surveillance).\n*   May be used as part of the management of teachers (ethics, values, surveillance).\n*   May not pick up the nuances in student and teacher interaction, for example, the context of the behaviour may be important, and this will not be recorded by the facial recognition system (systems, algorithms)\n*   Can teachers and students \u201cgame\u201d the system, so the teaching and learning experience may be geared to satisfy the algorithms used in the facial recognition software (values, surveillance).\n*   Cost of implementation \u2013 hardware, software.\n\n_In this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** education, acceptability, cost, anonymity, surveillance, privacy, algorithms, change, power, systems, values, ethics\n\n_  \nRefer to**HL paper 1 Section B markbands**when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document._",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "152229a4-c7fe-4089-ac37-a15d1908e1a6",
+        "specification": "In criminal justice, \"black box\" algorithms are increasingly used to make decisions about bail, parole, and sentencing. However, the lack of transparency and potential for bias raise serious ethical concerns about fairness and accountability.\n",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-06T04:59:38.096Z",
+              "reasoning": "Focuses on ethical concerns of algorithm use in criminal justice\u2014fairness, bias, accountability, and the challenges posed by opaque (\u201cblack box\u201d) decision-making.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-06T04:59:38.096Z",
+              "reasoning": "Although framed as algorithms generally, the context is AI/ML-driven risk assessment tools; transparency/explainability and accountability are key AI dilemmas in high-stakes domains.",
+              "confidence": 0.8
+            },
+            {
+              "id": 30905,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2D Uses of Algorithms",
+              "title": "3.2D Uses of Algorithms",
+              "labeledAt": "2026-03-06T04:59:38.096Z",
+              "reasoning": "Addresses the real-world use of algorithms to support decisions about bail, parole, and sentencing in the justice system.",
+              "confidence": 0.65
+            },
+            {
+              "id": 30950,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.6 Political > 4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "title": "4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "labeledAt": "2026-03-06T04:59:38.096Z",
+              "reasoning": "Set within criminal justice and legal decision-making; accountability and fairness connect to laws, regulations, and policy constraints around automated decision systems.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 831641,
+        "parts": [
+          {
+            "id": 552466,
+            "content": "\nEvaluate the challenges of implementing algorithmic transparency and accountability in criminal justice, particularly with \u201cblack box\u201d algorithms. ",
+            "order": 0,
+            "markscheme": "### Key Points\n\n- Algorithmic transparency and accountability are important for ensuring fairness and due process in criminal justice systems\n- \"Black box\" algorithms lack transparency, making it difficult to understand how decisions are made\n- This can lead to biased or discriminatory outcomes, violating principles of justice\n\n### Possible Arguments\n\n- Lack of transparency means defendants/public cannot scrutinize algorithms for bias or errors <marks>1</marks>\n- Opaque decision-making processes undermine due process and right to fair trial <marks>1</marks>\n- Algorithms may perpetuate historical biases in data against minority groups <marks>1</marks>\n- Proprietary algorithms used by private companies are not open to public audit <marks>1</marks>\n- Difficulty in assigning accountability when errors/biases occur in complex systems <marks>1</marks>\n\n### Counterarguments\n\n- Algorithms can be more objective/consistent than human decision-making <marks>1</marks>\n- Some privacy/security is needed to prevent gaming of algorithms <marks>1</marks>\n- Transparency could reveal sensitive information about individuals <marks>1</marks>\n- Auditing/testing can validate algorithms without full transparency <marks>1</marks>\n\n### Potential Solutions\n\n- Regulatory oversight and auditing requirements for algorithms <marks>1</marks>\n- Open-sourcing algorithms for public scrutiny and accountability <marks>1</marks>\n- Human oversight/ability to override algorithmic decisions <marks>1</marks>\n- Ensuring representative and unbiased training data <marks>1</marks>\n\n<note>Credit all relevant points from both sides. Maximum 12 marks.</note>",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1d92f261-280d-4aea-af00-32e54b4fbbca",
+        "specification": "Facial recognition algorithms, used for security in airports, rely on large datasets and are sometimes criticized for algorithmic bias. For instance, these algorithms have been known to misidentify individuals of certain racial backgrounds, raising fairness and transparency issues.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/3bab182f-d6ab-4901-98f1-e97ff6f0a2b3)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-05T15:13:51.013Z",
+              "reasoning": "The question centers on algorithmic bias, transparency, and the 'black box' nature of algorithms, which are core concepts within Algorithmic Dilemmas.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30960,
+              "isHl": true,
+              "path": "Topic 5 - Challenges and Interventions - Digital Society (HL) > 5.2 Governance and human rights > 5.2C Diversity and Discrimination",
+              "title": "5.2C Diversity and Discrimination",
+              "labeledAt": "2026-03-05T15:13:51.013Z",
+              "reasoning": "The focus on racial and ethnic disparities in facial recognition software directly addresses issues of diversity and discrimination within digital systems.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-05T15:13:51.013Z",
+              "reasoning": "Facial recognition systems are a key application of AI and machine learning, and the question explores the specific societal dilemmas associated with these technologies.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30888,
+              "isHl": false,
+              "path": "Topic 2 - Concepts - Digital Society > 2.7 Values and ethics > 2.7A Ethical Distinctions in Digital Society",
+              "title": "2.7A Ethical Distinctions in Digital Society",
+              "labeledAt": "2026-03-05T15:13:51.013Z",
+              "reasoning": "The parts asking about transparency, accountability, and fairness relate to fundamental ethical distinctions and concepts in a digital society.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 769455,
+        "parts": [
+          {
+            "id": 483458,
+            "content": " Identify two issues related to algorithmic bias in facial recognition software. \n",
+            "order": 0,
+            "markscheme": "<marks>1 mark</marks> Misidentification: Errors in recognizing individuals, often affecting specific demographics.\n<marks>1 mark</marks> Privacy Violations: Potential misuse of data and lack of consent.\n\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483459,
+            "content": "Explain why transparency is essential for accountability in facial recognition algorithms used in security. ",
+            "order": 1,
+            "markscheme": "\n<marks>2 marks</marks> Transparency ensures users and stakeholders understand how decisions are made, enabling checks for bias and improving public trust, especially in sensitive areas like security where fairness is critical.\n<marks>2 marks</marks> Its role in accountability and trust.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483460,
+            "content": "Discuss one risk associated with \u201cblack box\u201d algorithms in facial recognition systems.",
+            "order": 2,
+            "markscheme": "\n<marks>2 marks</marks> Black box algorithms lack visibility into their decision-making, risking unexplainable errors and bias, which can erode trust.\n<marks>2 marks</marks> Its potential impact on trust and error correction.\n",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483461,
+            "content": "Evaluate the impact of algorithmic bias on fairness in facial recognition, particularly concerning racial and ethnic disparities. ",
+            "order": 3,
+            "markscheme": "\n<marks>4 marks</marks> Algorithmic bias can lead to disproportionately high misidentification rates for certain groups, leading to unfair treatment and reinforcing social biases.\n<marks>4 marks</marks> Evaluating fairness and potential mitigation, challenges in data diversity and system transparency make this difficult.",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "256e679c-cf84-4ccd-a5c9-c6c2ff5e6199",
+        "specification": null,
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-19M.1.HL.TZ0.6",
+          "labeledSubSubTopics": [
+            {
+              "id": 30921,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.5 Media > 3.5C Digital Media Dilemmas",
+              "title": "3.5C Digital Media Dilemmas",
+              "labeledAt": "2026-03-07T17:40:05.820Z",
+              "reasoning": "The prompt asks to discuss acceptability of machine-generated news, focusing on ethical and societal issues in media such as trust, bias, misinformation, transparency, and accountability.",
+              "confidence": 0.84
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-07T17:40:05.820Z",
+              "reasoning": "Automated journalism is driven by machine learning/NLG; evaluating whether it should be used raises AI ethics concerns (bias, explainability, responsibility, reliability).",
+              "confidence": 0.78
+            },
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-07T17:40:05.820Z",
+              "reasoning": "The question references algorithms generating stories; discussion may include algorithmic bias/manipulation and impacts of algorithmic decision-making on information presented to the public.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1168388,
+        "parts": [
+          {
+            "id": 390572,
+            "content": "**Should we completely automate journalism?**\n\nSome of the news articles that you read are written by automated journalism software. This software uses algorithms and natural language generators to turn facts and trends into news stories.\n\n_Narrative Science_, a company that produces automated journalism software, predicts that by 2026 up to 90\u2009% of news articles could be generated by machine learning algorithms.\n\nDiscuss whether it is acceptable for news articles to be generated by automated journalism software.\n",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n**Reasons why automated journalism software is acceptable (claim):**\n\n*   Automation leads to articles being generated faster \u2013 this is important for breaking news (systems).\n*   It allows papers to reach a lot of niche audiences therefore increasing its reach.\n*   It can give reporters more time to do in-depth analysis of the articles they write.\n*   It can free up reporters for stories that require human thought / can eliminate some of the more mundane/boring jobs and allow reporters to focus on more thought-provoking stories.\n*   It cannot deal with subjective material, so reporters\u2019 jobs are not at risk (values).\n\n**Reasons why automated journalism software is not acceptable (counter-claim):**\n\n*   It takes time and money to train the machine learning algorithms (systems).\n*   Robotic journalism can provide statistics but not analysis.\n*   Robotic journalism can\u2019t provide the human perspective that makes articles interesting / may have inherent biases (values).\n*   Robotic journalism can create and promulgate \u201cfake news\u201d, as they will not know whether a story is true or not.\n*   Robotic journalism can\u2019t discover news stories; they are restricted to information available online / the accuracy of the underlying data still matters.\n*   Robotic journalism is designed by humans who make mistakes, so robots can make mistakes too. Who is accountable for these mistakes? What regulations are in force? Where does power lie?\n*   Some newspapers do not disclose what they are doing (lack of transparency).\n*   Data will have to be constantly checked to make sure it is up to date.\n*   Journalists, especially inexperienced ones who are still learning. will lose jobs as a result of the automation of the process.\n\n_  \nNote to examiners \u2013 accept terms such as automated journalism_, _algorithmic journalism or robotic journalism._\n\n_In this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n  \n**Keywords:** economic, regulations, codes, policies, transparency, accountability, bias, perspective, automation, machine learning, algorithm, change, power, systems, values\n\n_Refer to **HL paper 1 Section B markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document._",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "28915f83-1531-44e6-8b81-ae1efc8b7db9",
+        "specification": "**Source A** \n\n![Image](https://pub-images.revisiondojo.com/question-images/af48f1a7-45ee-4c75-89fd-f64f9247e791)\n\n**Source B (Asteria University press release excerpt)** \n\nAsteria University adopted ScholarSort to manage a growing number of scholarship applications. The university states that the algorithm improves consistency by applying the same scoring rules to all applicants and by reducing manual handling of documents. ScholarSort is described as a set of step-by-step procedures: it checks eligibility, converts grades into a common scale, assigns points for financial need, and adds a \u201ccontext\u201d score based on school-resourcing indicators and first-generation status. Applicants can submit an appeal if they believe data is incorrect or circumstances are not captured. The university notes that ScholarSort is not designed to \u201cpredict future success\u201d but to rank applicants according to published criteria. It also notes that changing weights (for example, increasing need) will change who receives awards, and that such changes are policy decisions. \n\n**Source C (same as above)** \n\nApplications processed: 8,400 (2024) \u2192 14,900 (2026); staff hours spent on initial screening fell by 41% after ScholarSort.\n\nAppeals rose from 3% to 9% of applicants; 28% of appeals resulted in a score change.  \n\u201cMissing data defaults\u201d affected 12% of applications (most commonly incomplete household documents); these applicants\u2019 average rank dropped by 18 percentile points.\n\nAmong applicants with the same academic score band, those from low-resourcing schools received scholarships at 1.6\u00d7 the rate of those from high-resourcing schools (consistent with the context weighting).\n\nAudit sampling found the tie-break rule (alphabetical by surname when composite scores match) decided 7% of final offers in one faculty. \n\n**Source D (criticism by student)** \n\nScholarSort is presented as neutral because it is \u201cjust applying published weights,\u201d but the ethical problem is that the weights and defaults quietly become the real gatekeepers. A missing document does not simply mean \u201cunknown\u201d; it becomes a penalty through default scoring, which often hits families with less time, less connectivity, or more complex paperwork. The university celebrates efficiency, yet the rising appeal rate suggests the system is producing more disputable outcomes, not fewer. Even small technical choices, like using alphabetical tie-breaks, create arbitrary winners and losers while still looking objective on paper. And the phrase \u201cthe committee approves\u201d can become a shield: humans rubber-stamp what the ranking already decided. If the algorithm is shaping access to education, accountability must include transparency about how each component changes outcomes, and a way to challenge decisions without requiring applicants to become expert auditors of a scoring system.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 296,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-06T08:01:34.467Z",
+              "reasoning": "The question focuses on fairness, accountability, transparency, defaults, tie-break rules, appeals, and ethical concerns arising from algorithmic decision-making in scholarship allocation.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30905,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2D Uses of Algorithms",
+              "title": "3.2D Uses of Algorithms",
+              "labeledAt": "2026-03-06T08:01:34.467Z",
+              "reasoning": "ScholarSort is an algorithm used to rank scholarship applicants; parts (a) and (d) ask about steps in the ranking process and appropriateness of using such algorithms in an education funding context.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30903,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2B Components of an Algorithm",
+              "title": "3.2B Components of an Algorithm",
+              "labeledAt": "2026-03-06T08:01:34.467Z",
+              "reasoning": "Source A/B describe specific components/steps (eligibility checks, normalization, point assignment, context score, tie-breaks), aligning with identifying and explaining algorithm components.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30902,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2A Characteristics of an Algorithm",
+              "title": "3.2A Characteristics of an Algorithm",
+              "labeledAt": "2026-03-06T08:01:34.467Z",
+              "reasoning": "Examines algorithm characteristics such as consistency, step-by-step procedures, rule-based scoring, and how design choices affect outcomes.",
+              "confidence": 0.65
+            },
+            {
+              "id": 30946,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.5 Human knowledge > 4.5A Learning and Education, Science and Technology Innovation",
+              "title": "4.5A Learning and Education, Science and Technology Innovation",
+              "labeledAt": "2026-03-06T08:01:34.467Z",
+              "reasoning": "The application context is education funding/scholarships and the impacts of technology/innovation on learning and education systems.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1496376,
+        "parts": [
+          {
+            "id": 1132749,
+            "content": "Identify two steps in ScholarSort\u2019s ranking process shown in Source A.",
+            "order": 0,
+            "markscheme": "**Identify (Total <marks>2 marks</marks>)**  \n\n\n**Answer points**  \n\n\n* Check eligibility. <marks>1 mark</marks>  \n* Convert grades into a common scale. <marks>1 mark</marks>  \n* Assign points for financial need. <marks>1 mark</marks>  \n* Add a context score based on school-resourcing indicators and first-generation status. <marks>1 mark</marks>  \n\n\n**Awarding marks**  \n\n\nAward <marks>1 mark</marks> for each correctly stated step from Source A.  \nAward a maximum of <marks>2 marks</marks> in total.  \n\n\n**Marking guidance**  \n\n\n<note>Students must identify distinct steps from the ScholarSort process described in Source A. The steps must be clearly stated without explanation to earn full marks.</note>",
+            "marks": 2,
+            "label_id": "d1f32b39-441e-4f28-b7fc-89054caca27b",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1132750,
+            "content": "Analyse how ScholarSort\u2019s design choices described in Source C could affect the efficiency and perceived fairness of scholarship allocation.",
+            "order": 1,
+            "markscheme": "**Analyse (Total <marks>4 marks</marks>)**  \n\n\n**Answer points**  \n\n\n* Processing growth alongside a 41 percent reduction in staff screening hours suggests increased throughput and efficiency. <marks>1 mark</marks>  \n* Appeals rising from 3 percent to 9 percent and workload shifting to appeals handling may offset some efficiency gains. <marks>1 mark</marks>  \n* 28 percent of appeals resulting in score changes suggests non-trivial errors or contested outcomes, potentially lowering perceived fairness and trust. <marks>1 mark</marks>  \n* Missing-data defaults affecting 12 percent of applications and lowering rank by 18 percentile points may be viewed as unfair penalties for administrative or infrastructure constraints. <marks>1 mark</marks>  \n* Context weighting increasing awards for low-resourcing schools at 1.6 times the rate may be perceived as equity-promoting by some but contested by others depending on values or policy goals. <marks>1 mark</marks>  \n* Alphabetical tie-break deciding 7 percent of offers may be seen as arbitrary, reducing perceived procedural fairness. <marks>1 mark</marks>  \n\n\n**Awarding marks**  \n\n\nAward up to <marks>2 marks</marks> for valid analytical points supported by Source C evidence about efficiency impacts.  \nAward up to <marks>2 marks</marks> for valid analytical points supported by Source C evidence about perceived fairness impacts.  \nAward a maximum of <marks>4 marks</marks> in total.  \n\n\n**Marking guidance**  \n\n\n<note>Full marks require analysis of both efficiency and perceived fairness. Responses addressing only one aspect can be awarded a maximum of <marks>2 marks</marks>. Analysis must be grounded in Source C evidence.</note>  \n\n\n**Sample answer**  \n\n\nScholarSort's design choices have mixed effects on efficiency and perceived fairness. The 41 percent reduction in staff screening hours alongside a significant increase in applications processed suggests improved throughput and operational efficiency. However, appeals rising from 3 percent to 9 percent indicate that some efficiency gains may be offset by increased workload in appeals handling. Perceived fairness is affected by several design choices. The 28 percent success rate for appeals suggests that errors or contested outcomes are occurring, which may undermine trust in the system. Missing-data defaults penalize 12 percent of applicants with an average rank drop of 18 percentile points, which may be viewed as unjust penalties for families facing administrative challenges or connectivity issues. Context weighting increases awards for low-resourcing schools at 1.6 times the rate within the same academic band, which some may see as promoting equity while others may contest it. The alphabet-based tie-break rule that determines 7 percent of final offers introduces arbitrariness that could reduce perceptions of procedural fairness.",
+            "marks": 4,
+            "label_id": "ba5b417e-d709-462d-b922-1555574fabcc",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1132751,
+            "content": "Compare what Source C and Source D suggest about the accountability of ScholarSort\u2019s decisions.",
+            "order": 2,
+            "markscheme": "**Compare (Total <marks>6 marks</marks>)**  \n\n\n**Answer points**  \n\n\n* Source C shows appeals increased and 28 percent resulted in score changes, implying there is a correction mechanism and errors can be addressed. <marks>1 mark</marks>  \n* Source D argues the rising appeal rate indicates more disputable outcomes and accountability may be burdensome as applicants must challenge the system. <marks>1 mark</marks>  \n* Sources C and D together suggest accountability exists but may be costly or uneven in practice. <marks>1 mark</marks>  \n* Source C quantifies missing-data defaults lowering rank and tie-break rules deciding outcomes. <marks>1 mark</marks>  \n* Source D criticizes defaults and tie-breaks as hidden gatekeepers that look objective but create arbitrary penalties or winners. <marks>1 mark</marks>  \n* Both sources indicate that small design choices significantly affect decisions and thus accountability. <marks>1 mark</marks>  \n* Source C references audit sampling that found the tie-break impact, implying monitoring and oversight mechanisms. <marks>1 mark</marks>  \n* Source D warns of rubber-stamping and calls for transparency about how components change outcomes. <marks>1 mark</marks>  \n* Together they raise questions about whether oversight is substantive or procedural. <marks>1 mark</marks>  \n\n\n**Awarding marks**  \n\n\nAward <marks>2 marks</marks> for each effective comparison grounded in both sources.  \nAward a maximum of <marks>6 marks</marks> in total.  \nIf only one source is used, award a maximum of <marks>3 marks</marks>.  \nIf discussed separately rather than comparatively, award a maximum of <marks>4 marks</marks>.  \n\n\n**Marking guidance**  \n\n\n<note>Responses must demonstrate comparison by referring to both sources. Students should identify similarities, differences, or how the sources complement each other. Separate discussion of each source without comparative analysis limits marks to <marks>4 marks</marks>.</note>  \n\n\n**Sample answer**  \n\n\nSource C and Source D present different perspectives on the accountability of ScholarSort's decisions. Source C shows that appeals increased and 28 percent resulted in score changes, which implies that there is a correction mechanism through which errors can be addressed. Source D argues that the rising appeal rate indicates the system is producing more disputable outcomes rather than fewer, and that accountability may be burdensome because it requires applicants to challenge the system. Both sources highlight how defaults and technical rules shape outcomes. \n\nSource C quantifies the impact, showing that missing-data defaults lower ranks and tie-break rules decide a significant portion of outcomes. Source D criticizes these same mechanisms, arguing that defaults and tie-breaks act as hidden gatekeepers that appear objective but create arbitrary penalties and winners. Together they suggest that small design choices significantly affect decisions and thus shape accountability. Regarding human oversight, Source C references audit sampling that found 7 percent of offers were decided by tie-breaks, implying that there are monitoring mechanisms in place. Source D warns against rubber-stamping and calls for greater transparency about how each component affects outcomes. These perspectives together raise questions about whether oversight is substantive or merely procedural.",
+            "marks": 6,
+            "label_id": "f766293a-2cdd-4cb0-b66a-b21e931a8a87",
+            "rubric_id": "9a1e867e-263f-4f65-963a-43ee8c79f294",
+            "explanation": null
+          },
+          {
+            "id": 1132752,
+            "content": "Examine whether ScholarSort should be considered an appropriate use of algorithms in education funding. Answer with reference to all the sources (A\u2013D) and your own knowledge of the Digital Society course.",
+            "order": 3,
+            "markscheme": "**Examine (Total <marks>12 marks</marks>)**  \n\n\n**Answer points**  \n\n\n* Efficiency gains with rising applications and consistent application of published criteria support the appropriateness of ScholarSort. <marks>1 mark</marks>  \n* Reduced manual handling of documents through automated processes improves operational efficiency. <marks>1 mark</marks>  \n* Weights reflect policy choices and can be adjusted deliberately, making the algorithm a transparent policy lever. <marks>1 mark</marks>  \n* Context scoring demonstrates equity intent by accounting for school-resourcing indicators and first-generation status. <marks>1 mark</marks>  \n* Source C shows context weighting results in awards for low-resourcing schools at 1.6 times the rate, supporting the equity goal. <marks>1 mark</marks>  \n* Defaults penalize missing data and potentially amplify inequality linked to connectivity, time, or paperwork complexity. <marks>1 mark</marks>  \n* Increased appeals and high success rate suggest correctness issues or data quality problems, shifting burden onto applicants. <marks>1 mark</marks>  \n* Arbitrary tie-breaks such as alphabetical ordering can undermine fairness and legitimacy of decisions. <marks>1 mark</marks>  \n* Accountability and transparency requirements include explainability of score components and accessible appeal pathways. <marks>1 mark</marks>  \n* Auditing for disparate impact and clear responsibility assignment are necessary for appropriate use. <marks>1 mark</marks>  \n* Institutional decision-makers remain responsible for criteria, defaults, and oversight even if the algorithm only provides rankings. <marks>1 mark</marks>  \n* Automated decision-making governance, procedural justice, and human-in-the-loop limits are relevant own-knowledge considerations. <marks>1 mark</marks>  \n* Documentation burden can function as a form of exclusion that must be addressed. <marks>1 mark</marks>  \n* Disparate impact testing is necessary to identify and mitigate unintended discriminatory effects. <marks>1 mark</marks>  \n\n\n**Awarding marks**  \n\n\nAward up to <marks>12 marks</marks> for a balanced examination that considers arguments for and against appropriateness, integrates relevant own knowledge, and draws on all sources.  \nResponses should reach a supported position based on evidence and reasoning.  \n\n\n**Marking guidance**  \n\n\n<note>If only source material or only own knowledge is used, the response can be awarded a maximum of <marks>8 marks</marks>. To achieve <marks>12 marks</marks>, the response should synthesize ideas from Sources A to D and integrate relevant own-knowledge examples. The examination must be balanced, considering multiple perspectives before reaching a conclusion.</note>  \n\n\n**Sample answer**  \n\n\nScholarSort presents both strengths and significant concerns as an example of algorithmic decision-making in education funding. The system demonstrates clear operational benefits, including efficiency gains as applications increased from 8,400 to 14,900 while staff hours for initial screening fell by 41 percent. The algorithm applies consistent criteria to all applicants, reduces manual handling, and provides a transparent policy lever where weights can be adjusted to reflect institutional priorities. The context scoring feature supports equity aims, and Source C shows this results in low-resourcing school students receiving scholarships at 1.6 times the rate of high-resourcing school peers within the same academic band. \n\nHowever, several features raise serious questions about appropriateness. Missing-data defaults penalize 12 percent of applicants with an average rank drop of 18 percentile points, which may amplify existing inequalities related to connectivity, time availability, or complex paperwork requirements. The appeal rate tripled from 3 percent to 9 percent, with 28 percent successful, suggesting data quality issues and shifting the burden of correction onto applicants. Alphabetical tie-breaks deciding 7 percent of offers introduce arbitrariness that undermines procedural fairness and legitimacy. These concerns align with Digital Society course concepts regarding automated decision-making governance and procedural justice. \n\nAppropriate use requires explainability of how score components are calculated, accessible and user-friendly appeal pathways, regular auditing for disparate impact, and clear assignment of responsibility for outcomes. Documentation burden can function as a form of exclusion, and systems must be designed to recognize this risk. While Source B emphasizes that the algorithm merely ranks according to criteria and that design choices are policy decisions, Source D argues that weights and defaults become effective gatekeepers. \n\nEven if the algorithm only provides rankings, institutional decision-makers remain responsible for the criteria adopted, the defaults chosen, and the oversight mechanisms provided. ScholarSort could be appropriate if implemented with robust transparency, accountability measures, and safeguards against unintended consequences, but its current design shows how efficiency objectives can compromise fairness if not carefully balanced against equity and access considerations.",
+            "marks": 12,
+            "label_id": "4902c49c-0a77-4349-b4b0-e4836bf6ce9f",
+            "rubric_id": "ea6b8dae-641b-4a09-a019-739abc86969d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "34b40030-3801-4cee-959a-610d146fcc7c",
+        "specification": "Quantum computers encode in qubits instead of binary data. Where 8 bits in a computer can represent any number between 0 and 255, 8 qubits can represent those same numbers simultaneously. In research situations, quantum computers are able to examine a multitude of possible combinations and run a variety of simulations simultaneously. \n",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30946,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.5 Human knowledge > 4.5A Learning and Education, Science and Technology Innovation",
+              "title": "4.5A Learning and Education, Science and Technology Innovation",
+              "labeledAt": "2026-03-06T15:32:29.428Z",
+              "reasoning": "The question asks about the impact of quantum computing on research and development in academic environments, directly aligning with learning/education and science & technology innovation.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30910,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3D Evolution of Computing",
+              "title": "3.3D Evolution of Computing",
+              "labeledAt": "2026-03-06T15:32:29.428Z",
+              "reasoning": "Quantum computing is an emerging stage in the evolution of computing; discussing its potential impact in academia fits the evolution of computing theme.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30907,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3A Types of Computers",
+              "title": "3.3A Types of Computers",
+              "labeledAt": "2026-03-06T15:32:29.428Z",
+              "reasoning": "Quantum computers are a distinct type of computer; the prompt contrasts qubits with bits and implies discussing what quantum computers enable.",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 880950,
+        "parts": [
+          {
+            "id": 482222,
+            "content": "To what extent will quantum computing impact research and development in academic environments?",
+            "order": 0,
+            "markscheme": "\n- Quantum computing has the potential to greatly accelerate research and development in academic environments by enabling computations that are intractable with classical computers <marks>1 mark</marks>\n  - Simulating quantum systems and materials with high accuracy <marks>1 mark</marks>\n  - Solving optimization problems more efficiently (e.g. protein folding, drug design) <marks>1 mark</marks>\n  - Factoring large numbers quickly, with implications for cryptography <marks>1 mark</marks>\n\n- However, there are significant challenges and limitations: <marks>1 mark</marks>\n  - Quantum computers are still in early stages and face issues with noise, decoherence, and scalability <marks>1 mark</marks>\n  - Developing quantum algorithms is extremely difficult and limited by our understanding of quantum mechanics <marks>1 mark</marks>\n  - Quantum supremacy has not yet been achieved for practical applications <marks>1 mark</marks>\n\n- Potential impacts on academic research: <marks>1 mark</marks>\n  - New discoveries in physics, chemistry, and materials science through accurate simulations <marks>1 mark</marks>\n  - Advances in machine learning, optimization, and other areas of computer science <marks>1 mark</marks>\n  - Cryptography and cybersecurity research to develop quantum-resistant algorithms <marks>1 mark</marks>\n\n<note>Marks should be awarded for well-reasoned arguments addressing both the potential benefits and limitations of quantum computing in academic research.</note>",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3a10f67a-c73f-446c-afe2-50d7478eebda",
+        "specification": "### Source A: Article View on Artificial General Intelligence is overhyped\nThe quest for Artificial General Intelligence (AGI)\u2014machines that can understand and learn like humans\u2014has fueled excitement in the AI community. However, this enthusiasm may be misplaced.\n\nLimitations of Current AI:\n\nDespite impressive advancements in models like GPT-4, these systems lack true understanding and depend heavily on training data. They generate responses based on patterns rather than comprehension, raising doubts about their ability to replicate human-like intelligence.\n\n\nUnrealistic Expectations\n\nTech leaders often predict AGI's arrival within a few years, overlooking the complexities of human cognition. This has led to skepticism among experts, who emphasize that AI is more likely to progress incrementally rather than suddenly achieve AGI.\n\n\nA Pragmatic Approach\n\nFocusing on narrow AI applications\u2014designed for specific tasks\u2014will yield more immediate benefits. Recognizing current limitations is essential for responsible AI development. In summary, while AGI is an intriguing goal, its realization is not as imminent as some claim.\n\n### Source B: The Promise of Artificial General Intelligence\nArtificial General Intelligence (AGI) represents the pinnacle of AI research, aiming to create machines that can think, learn, and adapt across various tasks like humans. Recent advancements have fueled optimism about its potential.\n\nTechnological Breakthroughs\n\nInnovations in deep learning and neural networks have led to significant improvements in machine learning capabilities. Systems like GPT-4 demonstrate impressive problem-solving and language understanding, showcasing the progress toward AGI.\n\nBroad Applications\n\nAGI holds the promise of transforming industries, enhancing productivity, and solving complex global challenges. From healthcare to climate change, AGI could provide solutions that were previously unimaginable, driving innovation and efficiency.\n\nFuture Prospects\n\nWhile the journey toward AGI is complex, ongoing research and development continue to push boundaries. As we build more sophisticated models, the possibility of achieving AGI becomes increasingly plausible.\n\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30925,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6D Evolution of AI",
+              "title": "3.6D Evolution of AI",
+              "labeledAt": "2026-03-06T08:01:45.018Z",
+              "reasoning": "Parts (a) and (d) focus on AI winters and whether AI progress has been incremental or radical\u2014both are about the historical development and change over time in AI.",
+              "confidence": 0.93
+            },
+            {
+              "id": 30922,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6A Types of Artificial Intelligence",
+              "title": "3.6A Types of Artificial Intelligence",
+              "labeledAt": "2026-03-06T08:01:45.018Z",
+              "reasoning": "Part (b) explicitly asks for the difference between AGI and domain-specific (narrow) AI, directly targeting types of AI.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-06T08:01:45.018Z",
+              "reasoning": "Part (c) asks about impacts of AI on society and compares perspectives of researchers vs companies, which commonly involves responsible development, hype, and societal risks/benefits (AI dilemmas).",
+              "confidence": 0.72
+            },
+            {
+              "id": 30867,
+              "isHl": false,
+              "path": "Topic 2 - Concepts - Digital Society > 2.1 Change > 2.1A Change and Types of Change",
+              "title": "2.1A Change and Types of Change",
+              "labeledAt": "2026-03-06T08:01:45.018Z",
+              "reasoning": "Part (d) explicitly frames change as incremental vs radical, aligning with the concept of types of change in digital society.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 878069,
+        "parts": [
+          {
+            "id": 479846,
+            "content": "Identify two characteristics of an \u2018AI winter\u2019.",
+            "order": 0,
+            "markscheme": "An 'AI winter' refers to a period of reduced funding and interest in artificial intelligence (AI) research. Two characteristics of an 'AI winter' are:\n\n- Disillusionment with AI due to overhyped promises and unrealistic expectations not being met <marks>1 mark</marks>\n- Significant reduction in investment and funding for AI research projects <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479847,
+            "content": "Explain the difference between artificial general intelligence (AGI) and domain-specific AI. ",
+            "order": 1,
+            "markscheme": "Domain-specific AI refers to AI systems that are designed to perform specific tasks within a particular domain or area of expertise. These systems are trained on data and algorithms specific to that domain, and they excel at solving problems within that narrow scope. Examples include:\n\n- Computer vision systems for object recognition or facial recognition\n- Natural language processing systems for language translation or sentiment analysis\n- Recommendation systems for products or content\n\nOn the other hand, artificial general intelligence (AGI) refers to the hypothetical future development of AI systems that can match or exceed human intelligence across a wide range of cognitive tasks. <marks>2 marks</marks>\n\nAGI systems would possess general problem-solving capabilities, reasoning, and learning abilities that allow them to tackle any task that a human can perform. They would not be limited to specific domains but would have a broad, flexible intelligence that can be applied to diverse situations. <marks>2 marks</marks>\n\n<note>No marks for examples of domain-specific AI or mentioning that AGI does not yet exist.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479848,
+            "content": "Use the source above, your additional source and your knowledge of the uses of AI to, compare the claims and perspectives made by the artificial intelligence researchers and the companies creating artificial intelligence solutions, and the impacts that artificial intelligence will have on society. ",
+            "order": 2,
+            "markscheme": "### Possible Arguments/Perspectives from AI Researchers [3 marks]\n\n- AI researchers may highlight potential risks and ethical concerns with advanced AI systems $\\blacksquare$\n  - Existential risk of superintelligent AI systems becoming unaligned with human values <marks>1 mark</marks>\n  - Negative impacts on employment, privacy, and social manipulation <marks>1 mark</marks>\n  - Call for responsible development and robust safety measures <marks>1 mark</marks>\n\n### Possible Arguments/Perspectives from AI Companies [3 marks]\n\n- AI companies may emphasize the benefits and economic opportunities of AI $\\blacksquare$\n  - Increased efficiency, productivity gains across various industries <marks>1 mark</marks>\n  - Potential for technological breakthroughs and scientific advancements <marks>1 mark</marks>\n  - Downplay risks, focus on narrow AI applications and economic incentives <marks>1 mark</marks>\n\n<note>Candidates should compare and contrast the differing perspectives and motivations of AI researchers (focused on safety and ethics) versus AI companies (focused on commercial applications and economic benefits). A balanced discussion of both viewpoints is expected for full marks.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": "9a1e867e-263f-4f65-963a-43ee8c79f294",
+            "explanation": null
+          },
+          {
+            "id": 479849,
+            "content": "With reference to the two sources and your knowledge of artificial intelligence, discuss whether changes in artificial intelligence have been incremental or radical. ",
+            "order": 3,
+            "markscheme": "\n<Note> Define incremental and radical change for 1 mark\n\t\n- Responses should evaluate whether changes in AI have been incremental (small, gradual steps) or radical (major, revolutionary changes) <marks>1 mark</marks>\n- Possible arguments for incremental changes:\n  - AI development has built on previous work and techniques over time <marks>1 mark</marks>\n  - Many AI systems use established methods like machine learning, neural networks which have been refined gradually <marks>1 mark</marks>\n  - Narrow AI systems are highly specialized for specific tasks, rather than general intelligence <marks>1 mark</marks>\n- Possible arguments for radical changes:\n  - Recent breakthroughs like large language models (GPT-3), AlphaFold (protein folding) represent major leaps <marks>1 mark</marks>\n  - AI systems can now perform tasks previously thought impossible for machines (e.g. defeating humans at complex games) <marks>1 mark</marks>\n  - AI is becoming more general and capable across multiple domains <marks>1 mark</marks>\n  - Concerns about an \"intelligence explosion\" leading to superintelligent AI <marks>1 mark</marks>\n- Well-substantiated arguments from the sources and own knowledge <marks>4 marks</marks>\n\n<note>\nResponses should consider both perspectives and reach a reasoned conclusion based on evidence from the sources and their own knowledge.\n</note>",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "ea6b8dae-641b-4a09-a019-739abc86969d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "3b1eb35d-603b-476d-ac39-9bf33f475e3a",
+        "specification": null,
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-18N.1.HL.TZ0.6",
+          "labeledSubSubTopics": [
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-07T17:33:39.075Z",
+              "reasoning": "The scenario centers on using AI to score questionnaires and applicant videos for selection, raising issues such as bias/fairness, transparency/explainability, accountability for decisions, and potential harms from automated assessment.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30959,
+              "isHl": true,
+              "path": "Topic 5 - Challenges and Interventions - Digital Society (HL) > 5.2 Governance and human rights > 5.2B Participation and Representation",
+              "title": "5.2B Participation and Representation",
+              "labeledAt": "2026-03-07T17:33:39.075Z",
+              "reasoning": "It is explicitly about selecting political party representatives; the digital system affects participation and representation by influencing who gets access to interviews/roles.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30950,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.6 Political > 4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "title": "4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "labeledAt": "2026-03-07T17:33:39.075Z",
+              "reasoning": "Introducing AI-based screening in a political process can implicate regulation/policy (e.g., data protection, lawful/ethical use of automated decision-making) and governance concerns about due process.",
+              "confidence": 0.7
+            },
+            {
+              "id": 30900,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1F Big Data and Data Analytics",
+              "title": "3.1F Big Data and Data Analytics",
+              "labeledAt": "2026-03-07T17:33:39.075Z",
+              "reasoning": "The system collects and analyzes large amounts of applicant data (questionnaire responses and video data) using analytics to produce scores for decision-making.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 839182,
+        "parts": [
+          {
+            "id": 22170,
+            "content": "**Selecting candidates for political parties**\n\nPolitical parties often have large numbers of applicants who wish to act as representatives in their various governing bodies. A senior party official must make the final decision about which applicants should be offered which roles. Many roles receive as many as 15 applications, and it is not possible to interview each applicant.\n\nIn an attempt to streamline the application process, a prospective representative will need to complete two tasks:\n\n1.  Completing an online questionnaire.\n2.  Submitting a video where they explain the reasons behind their application.\n\nNeither task will involve the team in the political party.\n\nThe applicants will be directed to a link provided by the software developer where they can complete both tasks. The responses to the questionnaires and the videos will be analysed using artificial intelligence (AI).\n\nThe software will score the questionnaire and video for each applicant and send it to the senior party official\u2019s team. The applicants with the highest scores will then be invited by the political party for an interview.\n\nThe software developers claim this will reduce the number of applications the senior party official needs to process and lead to the most appropriate applicants being selected for an interview.\n\nDiscuss whether the political party should introduce the digital system to assist the senior party official when deciding which applicants should be offered roles as representatives.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n**Introduce the digital system (claim):**\n\n*   Will speed up the process and ensure that candidates who are most unlikely to be suitable can be removed, allowing time to be spent on the candidates who are likely to be suitable to act as a representative (automation, cost).\n*   The digital system may provide consistent outcomes, so the candidates whose application is rejected cannot claim there was an inherent bias in the values of the selection team making the decisions (values, ethics).\n*   If a large number of decisions are programmed into the digital system, it should give reliable results.\n*   If the digital system has machine learning capabilities, the algorithms in the digital system may be able to group similar candidates (cluster analysis / unsupervised analysis) (innovation).\n\n**Not introduce the digital system (counter-claim):**\n\n*   The selection team know additional information that can have an impact on their decision, and this will require their professional judgement / intuition.\n*   The selection team may find that there are candidates that apply for the position of representative that cannot be evaluated by the system, which limits its usability / effectiveness / reliability / feasibility.\n*   There may be new requirements that have not been incorporated into the system (change).\n*   The algorithms that exist within the digital system may have inherent/subconscious biases (power, ethics, values).\n\n_In this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:**change, power, systems, ethics, values, judgement, intuition, bias, algorithm, transparency, reliability, automation, cost, innovation\n\n_Refer to**HL paper 1 Section B markbands**when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document._",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4569de98-794f-419f-a3bf-f79f00c491cf",
+        "specification": "In financial services, algorithms are used to assess loan eligibility and credit scoring. However, these systems often operate as \"black boxes,\" making it difficult for users to understand how decisions are made. This lack of transparency can create distrust, especially if customers feel decisions are biased or inaccurate.\n\n",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-05T16:12:26.342Z",
+              "reasoning": "The question directly addresses the ethical and social dilemmas surrounding algorithmic transparency, the 'black box' problem, and the balance between proprietary secrets and public trust, which are core themes of Algorithmic Dilemmas.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30950,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.6 Political > 4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "title": "4.6C Conflicts, War, Laws, Regulations, and Policies",
+              "labeledAt": "2026-03-05T16:12:26.342Z",
+              "reasoning": "The prompt asks to what extent institutions should be 'required' to ensure transparency, which involves a discussion of laws, regulations, and public policy within the Digital Society framework.",
+              "confidence": 0.85
+            },
+            {
+              "id": 30935,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.2 Economic > 4.2A Business",
+              "title": "4.2A Business",
+              "labeledAt": "2026-03-05T16:12:26.342Z",
+              "reasoning": "The specific context of the question is financial services and the protection of proprietary business information, making the Business context highly relevant.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 817949,
+        "parts": [
+          {
+            "id": 483435,
+            "content": "To what extent should financial institutions be required to ensure transparency in algorithms that impact credit scoring and loan approvals, considering both customer trust and proprietary information? ",
+            "order": 0,
+            "markscheme": "Marks should be awarded for a reasoned discussion leading to a judgement on the extent to which financial institutions should be required to ensure transparency in algorithms that impact credit scoring and loan approvals. This will involve considering the need for customer trust and the protection of proprietary information.\n\nPossible arguments in support of transparency include:\n- Customers have a right to understand how decisions that affect them financially are made <marks>1 mark</marks>\n- Lack of transparency could lead to bias/discrimination in lending decisions <marks>1 mark</marks>\n- Transparency promotes accountability and allows for external auditing <marks>1 mark</marks>\n- Increased trust in the system if the process is open and understandable <marks>1 mark</marks>\n\nPossible arguments against full transparency include:\n- Algorithms may be based on proprietary data/models that give companies a competitive advantage <marks>1 mark</marks>\n- Revealing full details could allow the system to be \"gamed\" <marks>1 mark</marks>\n- Complexity of modern ML/AI algorithms makes full transparency difficult <marks>1 mark</marks>\n- Transparency has associated costs in terms of disclosure and auditing <marks>1 mark</marks>\n\nA balanced response could recognize the need for some level of transparency to ensure fairness and build trust, while acknowledging the legitimate business interests of institutions in protecting intellectual property. Potential ways to balance the concerns could be discussed.\n\n$$\n\\text{For example: }\\\\\n\\begin{cases}\n\\text{Revealing key factors but not full model details}\\\\\n\\text{Third-party auditing rather than full public disclosure}\\\\\n\\text{Increased transparency for certain sensitive areas like housing loans}\n\\end{cases}\n$$\n\n<marks>4 marks</marks> for a well-reasoned conclusion, with a judgement on the extent of transparency required, linked to the arguments presented.\n\n<note>Mark as a whole, using the markbands and annotations.</note>",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4c1c6e7f-e885-41f6-b9f0-db5a90c3d5b6",
+        "specification": "### Source A: The Black Box Problem: Algorithmic Transparency and Accountability\nMany complex algorithms, particularly those used in machine learning, operate as \"\"black boxes,\"\" meaning their decision-making processes are not easily understood. This lack of transparency and accountability raises ethical concerns, especially when algorithms impact individuals' lives in areas like credit scoring or criminal justice.\n\nFor example, an algorithm used for credit scoring may make decisions without revealing the factors it considered, leading to a lack of accountability.\n\n\n### Source B: Erosion of Human Judgment in Algorithmic Decision-Making\nThe rise of algorithmic decision-making can lead to a loss of human judgment, especially in areas where subjective understanding is crucial, like healthcare or social services. Over-reliance on algorithms may result in decisions that overlook nuanced human factors.\n\nFor instance, a diagnostic algorithm in healthcare might misinterpret symptoms that a human physician could recognize due to experience or intuition.\n\n\n### Source C: Algorithm Efficiency: Measuring Time and Space Complexity\nAlgorithm efficiency is critical, especially in processing large datasets. Efficiency is measured by time complexity (how fast an algorithm runs) and space complexity (how much memory it uses). Balancing these aspects is essential in applications that require speed and performance, like data processing in finance.\n\nFor example, financial trading algorithms are optimized to make quick, efficient decisions based on market data to execute trades faster than human traders.\n\n\n### Source D: Algorithmic Filtering and Prioritization in Social Media\nSocial media platforms use algorithms to filter and prioritize content, often shaping users' experiences and the information they see. These algorithms analyze user data to decide which posts appear first, influencing what trends, news, and advertisements are visible to each user.\n\nFor example, a social media algorithm might prioritize posts from close contacts and trending news topics to keep users engaged.\n\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/6bfc764b-302a-465d-aa72-a2b2561d4b67)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-06T15:32:51.514Z",
+              "reasoning": "Core of the question is ethical/social implications of algorithms: black-box transparency, accountability, over-reliance in healthcare, and impacts on trust.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30905,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2D Uses of Algorithms",
+              "title": "3.2D Uses of Algorithms",
+              "labeledAt": "2026-03-06T15:32:51.514Z",
+              "reasoning": "Multiple parts ask about how algorithms are used in real contexts (credit scoring, healthcare diagnostics, financial trading, social media filtering/prioritization).",
+              "confidence": 0.88
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-06T15:32:51.514Z",
+              "reasoning": "Social media filtering relies on extensive user-data collection/analysis and raises concerns around how data-driven personalization shapes information exposure and trust.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-06T15:32:51.514Z",
+              "reasoning": "Directly addresses AI/ML black-box issues, accountability, and risks of algorithmic decision-making\u2014typical AI ethics/dilemmas framing.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 778823,
+        "parts": [
+          {
+            "id": 480009,
+            "content": "With reference to Source A, identify two ethical concerns associated with the use of black box algorithms. ",
+            "order": 0,
+            "markscheme": "- <marks>1 mark</marks> Lack of Transparency: Black box algorithms do not reveal how decisions are made, leading to an inability for users to understand or challenge outcomes.\n\n- <marks>1 mark</marks> Lack of Accountability: When decision-making processes are hidden, it becomes difficult to hold creators or operators accountable for the algorithm's impact, especially in critical areas like credit scoring or criminal justice.",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 480010,
+            "content": "With reference to Source B, suggest two potential risks of over-relying on algorithmic decision-making in healthcare. ",
+            "order": 1,
+            "markscheme": "- Loss of Human Judgment: Algorithms may overlook subtle signs or symptoms that a human physician could recognize, leading to potential misdiagnoses. <marks>2 marks</marks>\n\n- Reduced Nuanced Understanding: Algorithms may lack the ability to incorporate subjective insights, which are often essential in understanding complex or atypical medical cases that a human doctor might better assess. <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 480011,
+            "content": "With reference to Source C, explain one reason why algorithm efficiency is essential in financial data processing. ",
+            "order": 2,
+            "markscheme": "### Reason\n\nSpeed of Execution: Financial data processing often requires real-time decision-making, where even slight delays can result in significant financial losses or missed opportunities. Efficient algorithms ensure rapid processing, which is crucial for timely and accurate trade executions in financial markets. <marks>3 marks</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 480012,
+            "content": "With reference to Source D, identify two ways that algorithms impact users\u2019 experiences on social media platforms. ",
+            "order": 3,
+            "markscheme": "### Content Prioritization\nAlgorithms decide which posts appear at the top of a user's feed, often prioritizing content from close contacts or trending topics to enhance engagement. <marks>1 mark</marks>\n\n### Filtered Information\nAlgorithms filter out less relevant content based on user behavior, shaping the information users see and potentially influencing their opinions and perspectives. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 480013,
+            "content": "With reference to Sources A\u2013D and your own knowledge, discuss the implications of algorithmic filtering and black box transparency for user trust and accountability. ",
+            "order": 4,
+            "markscheme": "Marks should be awarded for:\n\n- Defining algorithmic filtering and black box transparency <marks>1 mark</marks>\n- Discussing implications of algorithmic filtering for user trust, such as:\n  - Filter bubbles/echo chambers leading to polarization and lack of diverse viewpoints <marks>1 mark</marks>\n  - Lack of transparency in how content is curated/prioritized, leading to distrust <marks>1 mark</marks>\n  - Potential for manipulation/bias in algorithms <marks>1 mark</marks>\n\n- Discussing implications of black box transparency for accountability, such as:\n  - Lack of transparency in how algorithms work, making it difficult to audit/scrutinize <marks>1 mark</marks>\n  - Difficulty in assigning responsibility for algorithmic decisions/outcomes <marks>1 mark</marks>\n  - Potential for unintended consequences/biases due to opaque nature of algorithms <marks>1 mark</marks>\n\n- Relevant examples and evidence from sources <marks>2 marks</marks>\n- Well-structured and coherent discussion <marks>2 marks</marks>\n- Depth of analysis and critical evaluation <marks>2 marks</marks>\n\n<note>Maximum 8 marks if only algorithmic filtering OR black box transparency is discussed.</note>",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "ea6b8dae-641b-4a09-a019-739abc86969d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4d178cd1-1473-4883-8c39-5509153bf901",
+        "specification": "**Automatic crop watering system**\n\nSince 1990, Bertha Ascayo has been the manager of _El Pallar_, a farm in Chacra Province, where fruit trees are grown. In recent years, the climate has become more unpredictable, and the farm has suffered from periods of drought. Bertha is aware that she now needs to manage the watering of her fruit trees more than she has had to in the past.\n\nBertha will need to make some improvements to the watering system by adding a rain sensor and use a computer program to automate the watering process. She has chosen a company that uses open-source software. The same company also installed the equipment for the watering of the trees.\n\nBy using this software, Bertha can program a different watering plan for each type of tree. This includes programming the days of the week, times of the day, and length of the water cycle for each type of tree to be watered. For example, orange trees will be watered on Mondays and Thursdays at 6am for 45 minutes and at 8pm for 30 minutes.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-21M.1.SL.TZ0.1",
+          "labeledSubSubTopics": [
+            {
+              "id": 30904,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2C Representing Algorithms",
+              "title": "3.2C Representing Algorithms",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "Part (b) explicitly asks for three ways an algorithm may be represented (e.g., pseudocode, flowcharts, natural language), directly matching representing algorithms.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "Parts (c) and (d) focus on reliance on a government computer model for allocating scarce water (trust, bias/assumptions, transparency, consequences), aligning with dilemmas arising from data-driven modelling.",
+              "confidence": 0.75
+            },
+            {
+              "id": 30902,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2A Characteristics of an Algorithm",
+              "title": "3.2A Characteristics of an Algorithm",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "Part (b) involves an algorithm making a decision from sensor input (watering vs not), touching on what makes an algorithm (clear steps, inputs/outputs, decision logic).",
+              "confidence": 0.55
+            },
+            {
+              "id": 30909,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3C Uses and Forms of Computer Coding",
+              "title": "3.3C Uses and Forms of Computer Coding",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "The scenario involves programming/using software to automate watering schedules; while not asking to code, it relates to how computer programs are used to implement automation.",
+              "confidence": 0.45
+            },
+            {
+              "id": 30941,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.3 Environmental > 4.3C Cities, Infrastructures, Built Environments, and Agriculture",
+              "title": "4.3C Cities, Infrastructures, Built Environments, and Agriculture",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "The context is agricultural infrastructure and water management for farms, which situates the digital system within agriculture/built-environment infrastructure.",
+              "confidence": 0.4
+            },
+            {
+              "id": 30961,
+              "isHl": true,
+              "path": "Topic 5 - Challenges and Interventions - Digital Society (HL) > 5.3 Sustainable development > 5.3A Climate Change and Responsible Use of Resources",
+              "title": "5.3A Climate Change and Responsible Use of Resources",
+              "labeledAt": "2026-03-06T04:49:24.020Z",
+              "reasoning": "Scarcity of water and responsible allocation/usage are central to (c) and (d), linking the digital intervention to sustainable resource use.",
+              "confidence": 0.35
+            }
+          ]
+        },
+        "currentRevisionId": 1170297,
+        "parts": [
+          {
+            "id": 16083,
+            "content": "Identify **three** characteristics of open-source software.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n*   Anyone can edit and adapt it.\n*   It is community driven (i.e., people who use and adapt the software can support each other in developing the software).\n*   Open-source code can be viewed and adapted.\n*   It is license free, with free redistribution rights.\n\n_Award **\\[1\\]** for identifying each characteristic of open-source software up to a maximum of **\\[3\\]** marks._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16084,
+            "content": "A computer program uses data provided by a rain sensor to decide whether to water the trees. Identify **three** ways how the algorithm may be represented.",
+            "order": 1,
+            "markscheme": "_Answers may include:_\n\n*   Flow chart\n*   Pseudocode\n*   Natural language\n*   Structured language\n\n_Award **\\[1\\]** for identifying each way the algorithm may be represented up to a maximum of **\\[3\\]** marks._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16085,
+            "content": "Water is becoming increasingly scarce in Chacra Province, and the provincial government is concerned there will be a point when there is not enough water for all of the farms to water their crops or fruit trees.\n\nTo manage water for the watering of crops and fruit trees, the provincial government of Chacra Province intends to use computer modelling to calculate how much water each farm in the province will receive.\n\nExplain **three** factors that will contribute to the accuracy of this computer model.",
+            "order": 2,
+            "markscheme": "_Answers may include:_\n\n*   Quality of data input\n*   High-quality data will allow for a more accurate model to be developed, as this data will be more reliable / current water levels within each area must be accurate.  \n      \n    \n\n*   Frequency of readings taken\n*   More frequent readings may be able to pick up more subtle changes in the patterns of rainfall to increase the accuracy of the model / taking daily readings and using them to create the model will be more accurate than using monthly readings.  \n      \n    \n\n*   Number of variables taken into account when developing the model\n*   More variables will enable other, potentially less important, factors to be considered when developing the model / what crops are farmed in different areas in the province / the weather conditions in different areas of the province.  \n      \n    \n\n*   Number of assumptions that have been built into the model\n*   If any of the assumptions are weak or false, the model will be inaccurate.  \n      \n    \n\n*   Quantity of data input\n*   If the sample of data is larger, the resulting model will be more accurate / spans several years.\n\n_Award **\\[1\\]** for identifying a factor that will contribute to the accuracy of the model and **\\[1\\]** for explanation why that will contribute to the accuracy of the model up to maximum of **\\[2\\]** marks._\n\n**_OR_**\n\n_Award **\\[1\\]** for each example given and an additional **\\[1\\]** if the explanation contributes to the accuracy of the model up to a maximum of **\\[2\\]** marks._\n\n_  \nMark as **\\[2\\]** \\+ **\\[2\\]** \\+ **\\[2\\]**._",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 16086,
+            "content": "The farmers of Chacra Province are concerned about the provincial government using a computer model to determine the amount of water they will be allowed to use to water their fruit trees.\n\nTo what extent should the farmers of Chacra Province rely on their knowledge and experience, rather than the computer-based solution provided by the provincial government, to manage the watering of the fruit trees?",
+            "order": 3,
+            "markscheme": "_Answers may include:_\n\n**Knowledge and experience will:**\n\n*   allow the farmers to see more than water needs for a plant (sick leaves, buds falling, etc.) without needing to develop a model (judgement)\n*   be able to include other factors that may arise from time to time, such as quality of the water (e.g., coming with mud), and adjust their watering accordingly (judgement)\n*   be able to resolve potential issues that cannot be programmed into the computer or that would be outside the scope of a computational solution (intuition)\n*   provide expertise that cannot be quantified / ensure that in a worst-case scenario some of the farmers will be able to grow crops/trees (intuition).\n\n**Use of the provincial model will:**\n\n*   allow water to be distributed evenly between the farmers on a needs basis rather than based on the opinions of one or two stronger characters (equity)\n*   potentially have problems, as a scientific approach has limits (e.g., there may be variables that the model does not take into account) \u2013 accuracy, the decisions around the water requirements of the trees may be based as much on intuition as algorithms and models\n*   potentially have biased model/algorithms influenced by politics, e.g., farmers may not have fully disclosed their data / government may favour certain groups or industries.\n\n**Use of the computer system will:**\n\n*   reduce the amount of time farmers need to spend visibly checking their fields (automation)\n*   allow exact water usage to be measured and lead to potential efficiencies in its usage (accuracy)\n*   provide quantitative data that could be used as a model for other farmers growing the same trees in similar locations.\n\n_In part (c) of this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** agriculture, ecosystems, algorithm, accuracy, reliability, model, modelling, judgement, automation, change, power, systems, ethics, values\n\n_Refer to **SL/HL paper 1, part c** **markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document_.",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "53ea51d0-5205-4a04-b924-f97180d4d4fc",
+        "specification": "**China's social credit scheme**\n\n  \nThe Chinese government is proposing a social credit scheme that will reward its citizens with points for what it considers to be good behaviour. This can be done by monitoring citizens\u2019 social media connections, purchasing history and location data.\n\nCCTV cameras are widely used in China, and there are concerns that facial recognition technology that uses artificial intelligence (AI) is already being utilized by the government to detect \u201cgood\u201d and \u201cbad\u201d behaviours of its citizens. The facial recognition system requires high-resolution images\\*.\n\n* * *\n\n\\* high-resolution images: images that are of a quality that allows them to be used for printing. Usually this means they are 300 pixels per inch.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-22M.1.SL.TZ0.4",
+          "labeledSubSubTopics": [
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-07T17:34:12.614Z",
+              "reasoning": "Question centers on social credit scheme, monitoring/surveillance, and implications of large-scale citizen data use\u2014privacy, consent, misuse, and societal impacts (data dilemmas).",
+              "confidence": 0.83
+            },
+            {
+              "id": 30921,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.5 Media > 3.5C Digital Media Dilemmas",
+              "title": "3.5C Digital Media Dilemmas",
+              "labeledAt": "2026-03-07T17:34:12.614Z",
+              "reasoning": "Facial recognition and CCTV relate to digital media capture/use and associated ethical issues (rights, privacy, ownership and acceptable use of images/video).",
+              "confidence": 0.78
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-07T17:34:12.614Z",
+              "reasoning": "Part (f) explicitly asks to discuss advantages/disadvantages of AI-based facial recognition for monitoring citizens\u2014bias, accountability, transparency, and ethical concerns (AI dilemmas).",
+              "confidence": 0.75
+            },
+            {
+              "id": 30897,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1D Methods for Collecting and Organizing Data",
+              "title": "3.1D Methods for Collecting and Organizing Data",
+              "labeledAt": "2026-03-07T17:34:12.614Z",
+              "reasoning": "Part (d) asks why both primary and secondary data collection are needed\u2014directly about data collection methods.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30918,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.5 Media > 3.5A Types of Digital Media",
+              "title": "3.5A Types of Digital Media",
+              "labeledAt": "2026-03-07T17:34:12.614Z",
+              "reasoning": "Part (a) asks for two image file types and part (e) concerns high-resolution images\u2014knowledge of digital media types/formats.",
+              "confidence": 0.62
+            },
+            {
+              "id": 30895,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1B Uses of Data",
+              "title": "3.1B Uses of Data",
+              "labeledAt": "2026-03-07T17:34:12.614Z",
+              "reasoning": "Use of citizens\u2019 purchasing history, social media connections, and location data to produce a score focuses on how data is used for decision-making/control.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1153108,
+        "parts": [
+          {
+            "id": 24041,
+            "content": "Identify **two** types of image file.",
+            "order": 0,
+            "markscheme": "Answers may include:\n\n*   jpg / jpeg\n*   tiff\n*   png\n*   bmp / bitmap\n*   gif\n\n_Award **\\[1\\]** for identifying each file type up to **\\[2\\]**._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 24042,
+            "content": "Describe the difference between monitoring and surveillance.",
+            "order": 1,
+            "markscheme": "Answers may include:\n\n*   Monitoring is the passive/authorized observation of people, processes, and activities (with their consent).\n*   Surveillance is the covert/unauthorized observation of people, processes, and activities (without their consent).\n\n_Award **\\[1\\]** for a definition of monitoring.  \n__Award **\\[1\\]** for a definition of surveillance._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 24043,
+            "content": "Describe the difference between identification and authentication.",
+            "order": 2,
+            "markscheme": "Answers may include:\n\n*   Identification \u2013 uniquely identify a user on a digital system (and takes place before authentication).\n*   Authentication \u2013 confirming the identity of a person/the person is who they say they are (occurs after identification).\n\n_Award **\\[1\\]** for a definition of identification.  \n__Award **\\[1\\]** for a definition of authentication._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 24044,
+            "content": "Other governments are considering setting up similar systems that will use facial recognition to gather information about the behaviour of its citizens.\n\nExplain why the developers of the new facial recognition system would need both primary **and** secondary data collection.",
+            "order": 3,
+            "markscheme": "Answers may include:\n\n*   Primary data collection, such as collecting potential users interacting with the facial recognition system, would provide information about these interactions in real time. Interviews with developers of similar systems would provide rich and nuanced information.\n*   Secondary data collection may involve gathering information about existing facial recognition systems and would provide a wider knowledge base for making informed decisions.\n*   Combining the real-time interaction of potential users with the facial recognition system and the data obtained from literature reviews will provide the greatest quantity of information and enable the developers to make informed decisions about the best way to develop the facial recognition system.\n\n_Award **\\[1\\]** for identifying a reason why_ _the developers of the new facial recognition system would need both primary and secondary data collection_ _and **\\[1\\]** for each subsequent development of that reason, up to **\\[3\\]**._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 24045,
+            "content": "Explain why using high-resolution images could be a challenge to the implementation of a facial recognition system.",
+            "order": 4,
+            "markscheme": "Answers may include:\n\n*   High resolution images may require a longer transfer time.\n*   Which will require computers with high specifications to be processed in a timely manner.\n*   May require considerable storage space.\n*   May require lossy compression to transfer them quickly which may lead to a reduction in the quality / usefulness of the image.\n*   The cost of purchasing the equipment required to obtain high resolution images.\n\n_Award **\\[1\\]** for identifying a reason why having images with a higher resolution could be a challenge to the implementation of a facial recognition system_ _and **\\[1\\]** for each subsequent development of that reason up to **\\[2\\]**._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 24046,
+            "content": "Discuss the advantages **and** disadvantages of a government using a facial recognition system that uses artificial intelligence (AI) to monitor the behaviour of its citizens.",
+            "order": 5,
+            "markscheme": "Answers may include:\n\n**Advantages:**\n\n*   May improve people\u2019s behaviour as they will know they are being watched (values, ethics).\n*   May stop crime before it happens meaning fewer people in jail or in court (values, ethics, monitoring). Similar to a speeding camera but for people.\n*   Might need fewer police to patrol and put themselves in danger (cost).\n*   Could help to improve the physical environment by catching those who litter / responsible for polluting the environment.\n*   Could allow people to be more accurately identified leading to fewer false accusations/prosecutions (reliability, trust).\n*   Allows the government to track and apprehend criminals i.e., makes society safer as criminals are caught (monitoring).\n*   AI will be more efficient than manual checking and may learn from its experiences (systems).\n\n**  \nDisadvantages:** \u00b7\n\n*   Feeling of being watched will be bad for morale of population (ethics, power, surveillance).\n*   May lead to a distrust in the government (trust, values).\n*   Might be punished incorrectly (or rewarded incorrectly) if the facial recognition fails (reliability, systems).\n*   Criminals might just find other ways of committing crime, such as wearing masks or avoiding the cameras (values).\n*   People wear masks (against pollution) or hats which cover their faces (when it is very cold), won\u2019t be recognized that easily (reliability).\n*   Invasion of privacy as people are never able to not be under surveillance.\n*   May take up considerable resources in developing and maintaining the data and hardware (cost).\n*   Facial recognition is not that accurate so there might be many false positives (reliability, systems, accountability).\n*   AI may have inherent biases, e.g., it may not recognize particular physical features (values, ethics).\n\n_In part (c) of this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** government, data, algorithm, accuracy, reliability, model, monitoring, surveillance, power, systems, ethics, values, trust, accountability, cost, feasibility\n\n_  \nRefer to**SL/HL paper 1, part c****markbands**when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document_.",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "55e8a22e-2e07-43e6-9c66-eba9067f44b3",
+        "specification": null,
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-17N.1.HL.TZ0.6",
+          "labeledSubSubTopics": [
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-07T17:34:21.984Z",
+              "reasoning": "The question focuses on whether coordinators should trust an automated/proprietary system\u2019s recommendations over human professional judgement, raising issues like accountability, transparency, bias, and over-reliance on AI/automated decision-making.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-07T17:34:21.984Z",
+              "reasoning": "At its core the system uses questionnaires and algorithmic recommendations to guide subject choices; the discussion concerns the risks/benefits of algorithmic decision-making in a high-stakes educational context.",
+              "confidence": 0.7
+            },
+            {
+              "id": 30946,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.5 Human knowledge > 4.5A Learning and Education, Science and Technology Innovation",
+              "title": "4.5A Learning and Education, Science and Technology Innovation",
+              "labeledAt": "2026-03-07T17:34:21.984Z",
+              "reasoning": "The scenario is situated in learning and education (student counselling and subject selection), considering how digital systems change educational guidance processes.",
+              "confidence": 0.52
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-07T17:34:21.984Z",
+              "reasoning": "Online questionnaires involve collecting sensitive student data (interests, abilities, goals), implying privacy, consent, and data use concerns even though the prompt emphasizes decision-making more than data handling.",
+              "confidence": 0.4
+            }
+          ]
+        },
+        "currentRevisionId": 1170637,
+        "parts": [
+          {
+            "id": 15795,
+            "content": "**The human face of student counselling**\n\nMany Diploma Programme (DP) coordinators are finding they do not have enough time to interview every student before they choose their DP subjects. They are considering purchasing the Student Counselling System, a proprietary management information system (MIS).\n\nThe developers of the Student Counselling System claim that, if students complete online questionnaires to determine their interests, abilities and future goals, the system can give them very accurate results, resulting in less than 5% of students changing their diploma subjects. They also claim the Student Counselling System will allow DP coordinators to be able to interview every student, something they cannot do now.\n\nSome DP coordinators have concerns about the automation of this process and believe that advising students is something that is best done by relying on their own professional judgement and intuition.\n\nDiscuss whether DP coordinators should rely on the recommendations of the Student Counselling System rather than their own professional judgement and intuition when advising students about what DP subjects to study.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n**Reasons why DP coordinators should rely on the recommendations of the Student Counselling System (claim):**\n\n*   If a large number of decisions based on a wide range of scenarios are programmed into the Student Counselling System, it should give accurate and reliable results (systems, feasibility).\n*   Students may be able to carry out initial investigations themselves to determine whether their proposed choices are realistic (judgement).\n*   If many of the scenarios are similar, the DP coordinator may be able to see a number of students together to give general advice, making the process more efficient.\n*   Students may appreciate the consistency / transparency of the information provided by the Student Counselling System (equity).\n*   In many cases, the scenario may be relatively straightforward, and the Student Counselling System may be able to provide consistent information that the DP coordinators would have in a fraction of the time, allowing them to focus on the students who do have atypical requirements (feasibility, costs).\n\n**Reasons why DP coordinators should rely on their judgement (counter-claim):**\n\n*   DP coordinators know that special circumstances / family issues / personal information can have an impact on the decision and this will require their professional judgement, intuition, valuesandethics.\n*   They may encounter scenarios that are not part of the system, which limit its usability / feasibility.\n*   DP coordinators might be aware of new subjects/majors that have not been updated into the system (change).\n*   Students may have multiple interests, and the Student Counselling System cannot give accurate recommendations.\n*   Giving career advice is too important to be left to the algorithms that exist within the Student Counselling System (values, ethics).\n\n_In this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:**automation, change, power, systems, values, ethics, judgement, intuition, consistency, transparency, efficiency, algorithm, accuracy, reliability, equity, costs, feasibility\n\n_  \nRefer to **HL paper 1 Section B markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document._",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6cfa6c5e-a055-417c-bb11-563a911fdcf8",
+        "specification": "Algorithms are widely used in job applicant screening, helping companies sort and rank candidates. This automation can save time and costs but also risks overlooking qualified candidates if the algorithm is not designed carefully.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-06T04:49:46.530Z",
+              "reasoning": "The question asks about reliance on algorithms in hiring while weighing efficiency against potential bias\u2014an ethical and societal dilemma arising from algorithmic decision-making.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30905,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2D Uses of Algorithms",
+              "title": "3.2D Uses of Algorithms",
+              "labeledAt": "2026-03-06T04:49:46.530Z",
+              "reasoning": "It centers on a real-world application of algorithms (screening/ranking job applicants), evaluating when and how they should be used.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-06T04:49:46.530Z",
+              "reasoning": "Applicant screening systems are commonly AI/ML-based; the prompt\u2019s focus on bias and automation aligns with broader AI fairness and accountability dilemmas.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30936,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.2 Economic > 4.2B Employment and Labour",
+              "title": "4.2B Employment and Labour",
+              "labeledAt": "2026-03-06T04:49:46.530Z",
+              "reasoning": "The context is employment and labour practices (recruitment and selection) and how digital tools affect them.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30960,
+              "isHl": true,
+              "path": "Topic 5 - Challenges and Interventions - Digital Society (HL) > 5.2 Governance and human rights > 5.2C Diversity and Discrimination",
+              "title": "5.2C Diversity and Discrimination",
+              "labeledAt": "2026-03-06T04:49:46.530Z",
+              "reasoning": "Algorithmic bias in hiring directly connects to discrimination and fairness concerns in digital systems.",
+              "confidence": 0.5
+            }
+          ]
+        },
+        "currentRevisionId": 848772,
+        "parts": [
+          {
+            "id": 483466,
+            "content": "\n\nTo what extent should companies rely on algorithms for screening and ranking job applicants, considering both efficiency and potential bias? ",
+            "order": 0,
+            "markscheme": "Candidates are expected to explore both sides of the issue and arrive at a reasoned conclusion.\n\nPotential arguments in favor of using algorithms:\n\n- Algorithms can process large numbers of applications quickly and efficiently <marks>1 mark</marks>\n- They can identify relevant skills and experience objectively without human bias <marks>1 mark</marks>\n- May reduce discrimination based on factors like race, gender, age etc. <marks>1 mark</marks>\n\nPotential arguments against using algorithms:\n\n- Algorithms can perpetuate existing biases if the training data is biased <marks>1 mark</marks>\n- They may overlook important soft skills or potential that is hard to quantify <marks>1 mark</marks>\n- Over-reliance on algorithms reduces human involvement in hiring decisions <marks>1 mark</marks>\n\n<note>Candidates are expected to develop a balanced argument and arrive at a reasoned conclusion.</note>\n\nPossible conclusions:\n\n### Method #1\n\n- Algorithms should be used as an initial screening tool, but human judgment is essential for final decisions <marks>1 mark</marks>\n- Companies must audit algorithms regularly to check for bias and adjust accordingly <marks>1 mark</marks>\n\n### Method #2\n\n- Algorithms should only be used for objective criteria like qualifications/experience <marks>1 mark</marks>\n- Human interviews are better for assessing soft skills, cultural fit, potential etc. <marks>1 mark</marks>\n\n<marks>1 mark</marks> for a well-reasoned conclusion based on the arguments presented.\n\n<examTip>Ensure your conclusion is consistent with the arguments you have made.</examTip>",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "82287c86-ed5f-442a-8b0c-dc95dcb8e99c",
+        "specification": "In self-driving cars, algorithms must respond to various conditions like traffic lights, obstacles, and pedestrian movement. The components of these algorithms include variables (e.g., speed), conditionals (e.g., stop if obstacle detected), and loops (e.g., continuous monitoring of the road).\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/bfaa47d2-c893-4c5b-a29b-b9eb81968316)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30903,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2B Components of an Algorithm",
+              "title": "3.2B Components of an Algorithm",
+              "labeledAt": "2026-03-07T17:33:59.247Z",
+              "reasoning": "All parts focus on core algorithm components\u2014variables, conditionals, and loops\u2014asking for definitions, reasons for use, efficiency, and implications of omitting them.",
+              "confidence": 0.96
+            },
+            {
+              "id": 30905,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2D Uses of Algorithms",
+              "title": "3.2D Uses of Algorithms",
+              "labeledAt": "2026-03-07T17:33:59.247Z",
+              "reasoning": "The self-driving car scenario is an application context requiring explanation of how algorithms are used to respond to real-time conditions (traffic lights, obstacles, monitoring).",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 788758,
+        "parts": [
+          {
+            "id": 483462,
+            "content": "Define \u2018conditional\u2019 in the context of an algorithm for self-driving cars. ",
+            "order": 0,
+            "markscheme": " Define 'conditional' in the context of an algorithm for self-driving cars. <marks>2 marks</marks>\n\nA conditional is a statement in the algorithm that executes actions based on specific criteria (e.g., if an obstacle is detected, the car stops).\n\n$$\n\\text{if (obstacle detected):} \\\\\n\\quad \\text{stop car}\n$$\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483463,
+            "content": " Identify two reasons why variables are critical for self-driving car algorithms.",
+            "order": 1,
+            "markscheme": "### Identify two reasons why variables are critical for self-driving car algorithms. <marks>2 marks</marks>\n\n1. Variables are used to store and manipulate data from sensors (e.g., distance to obstacles, speed, location) that is essential for the algorithm to make decisions.\n\n2. Variables allow the algorithm to keep track of the car's state (e.g., current speed, direction) and adjust its behavior accordingly.\n\n<commonMistake>\nFailing to recognize that variables are necessary to store and process dynamic data from the car's environment and internal state.\n</commonMistake>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483464,
+            "content": "Explain how loops improve efficiency in a self-driving car's algorithm for real-time monitoring. \n ",
+            "order": 2,
+            "markscheme": "<marks>4 marks</marks>\n\nLoops allow continuous monitoring of road conditions by repeatedly checking sensors, enabling quick responses to changes without repeating code manually.\n\n$$\n\\text{while (car is running):} \\\\\n\\quad \\text{check sensors} \\\\\n\\quad \\text{update car state}\n$$\n",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483465,
+            "content": "Discuss the challenges of creating self-driving algorithms without using variables or conditionals.",
+            "order": 3,
+            "markscheme": "### Discuss the challenges of creating self-driving algorithms without using variables or conditionals.\n\nWithout variables:\n- It would be impossible to store and process data from sensors (e.g., distance to obstacles, speed, location) <marks>2 marks</marks>\n- The algorithm could not keep track of the car's state (e.g., current speed, direction) or adjust its behavior accordingly <marks>2 marks</marks>\n\nWithout conditionals:\n- The algorithm would lack the ability to make decisions based on specific criteria or situations <marks>2 marks</marks>\n- It could not adapt its behavior based on changing road conditions or obstacles, leading to potential safety issues <marks>2 marks</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8f0115e7-5d90-4608-b10a-14ddeeb080af",
+        "specification": "When designing a restaurant ordering system, algorithms can be represented through flowcharts, code, or natural language to communicate effectively with both technical and non-technical team members. Each representation has benefits and drawbacks in conveying the system's process.\n\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30904,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2C Representing Algorithms",
+              "title": "3.2C Representing Algorithms",
+              "labeledAt": "2026-03-07T17:33:45.393Z",
+              "reasoning": "All parts focus on comparing representations of algorithms (flowcharts, natural language, and code) for communication, precision, and explaining complexity to non-technical users.",
+              "confidence": 0.93
+            },
+            {
+              "id": 30909,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3C Uses and Forms of Computer Coding",
+              "title": "3.3C Uses and Forms of Computer Coding",
+              "labeledAt": "2026-03-07T17:33:45.393Z",
+              "reasoning": "Parts (c) and (d) explicitly discuss written code as the precise representation for implementation and its usefulness versus flowcharts, linking to coding forms/uses.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 821435,
+        "parts": [
+          {
+            "id": 483454,
+            "content": "Identify two benefits of using flowcharts to represent an ordering system algorithm. ",
+            "order": 0,
+            "markscheme": "\n\n- Visualization: Flowcharts provide a visual representation that simplifies complex processes. <marks>1 mark</marks>\n- Clarity: They clearly show each step and decision path in the algorithm. <marks>1 mark</marks>\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483455,
+            "content": "Outline one advantage and one disadvantage of describing an algorithm in natural language for team understanding.\n\n",
+            "order": 1,
+            "markscheme": "Advantage:\n- Natural language descriptions are easier for non-technical team members to understand. <marks>2 marks</marks>\n\nDisadvantage:\n- Natural language lacks precision, leading to potential misinterpretations or ambiguity. <marks>2 marks</marks>\n",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483456,
+            "content": "Explain why code might be the most precise way to represent an ordering algorithm for implementation.\n\n\n",
+            "order": 2,
+            "markscheme": "Code provides an exact set of instructions executable by a machine, minimizing errors and ambiguity, and ensuring the system functions as intended. <marks>2 marks</marks> It is the most precise way to represent an ordering algorithm for implementation. <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483457,
+            "content": "Evaluate the usefulness of flowcharts versus written code in explaining complex algorithms to non-technical restaurant staff.\n",
+            "order": 3,
+            "markscheme": "\n### Flowcharts\n- Flowcharts are visually intuitive, helping non-technical staff understand processes more easily. <marks>2 marks</marks>\n- They provide a high-level overview of the algorithm without getting bogged down in technical details. <marks>2 marks</marks>\n\n### Written Code\n- Code, though precise, may be confusing and difficult to understand for non-technical users without proper training. <marks>2 marks</marks>\n- The technical syntax and structure of code can be a barrier to understanding for those without programming knowledge. <marks>2 marks</marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a9b1bc29-d5d6-45f7-ab84-b8496e6d3327",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30922,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6A Types of Artificial Intelligence",
+              "title": "3.6A Types of Artificial Intelligence",
+              "labeledAt": "2026-03-07T17:40:07.230Z",
+              "reasoning": "Part (a) explicitly asks to identify two types of artificial intelligence.",
+              "confidence": 0.96
+            },
+            {
+              "id": 30923,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6B Types and Uses of Machine Learning",
+              "title": "3.6B Types and Uses of Machine Learning",
+              "labeledAt": "2026-03-07T17:40:07.230Z",
+              "reasoning": "Parts (b) and (c) focus on uses of machine learning and distinguishing between types of machine learning.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 758894,
+        "parts": [
+          {
+            "id": 479842,
+            "content": "Identify two types of artificial intelligence.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following types of artificial intelligence, up to a maximum of <marks>2 marks</marks>:\n\n- Machine learning\n- Deep learning\n- Neural networks\n- Expert systems\n- Fuzzy logic\n- Natural language processing\n- Computer vision\n- Robotics\n- Virtual agents/chatbots",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479843,
+            "content": "Describe two uses of machine learning. ",
+            "order": 1,
+            "markscheme": "Award <marks>2 marks</marks> for each valid use of machine learning described:\n\n- Machine learning can be used for image recognition/computer vision applications, such as facial recognition, object detection, self-driving cars, etc.\n\n- Machine learning can be used for natural language processing (NLP) applications, such as language translation, text summarization, sentiment analysis, etc.\n\n- Machine learning can be used for predictive analytics and forecasting, such as predicting consumer behavior, stock market trends, weather forecasting, etc.\n\n- Machine learning can be used for recommendation systems, such as product recommendations on e-commerce websites, movie/music recommendations, etc.\n\n- Machine learning can be used for fraud detection, such as detecting credit card fraud, cybersecurity threats, etc.\n\n- Machine learning can be used for medical diagnosis and treatment, such as analyzing medical images, predicting disease risk, drug discovery, etc.\n\n<note>Award marks for any other valid and well-explained use of machine learning.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479844,
+            "content": "Distinguish between two types of machine learning. ",
+            "order": 2,
+            "markscheme": "There are two main types of machine learning:\n\n### Supervised Learning\n- Involves training a model on labeled data $\\bullet$ <marks>1 mark</marks>\n- The model learns to map input data to known output labels/values $\\bullet$ <marks>1 mark</marks>\n- Examples: classification (predicting categories) and regression (predicting numerical values) $\\bullet$ <marks>1 mark</marks>\n\n### Unsupervised Learning\n- Involves training a model on unlabeled data $\\bullet$ <marks>1 mark</marks>\n- The model tries to find inherent patterns or structures in the data $\\bullet$ <marks>1 mark</marks>\n- Examples: clustering (grouping similar data points) and dimensionality reduction $\\bullet$ <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 479845,
+            "content": "For one context of your choice, to what extent has artificial intelligence been making a positive impact? ",
+            "order": 3,
+            "markscheme": "This question requires an extended response analyzing the positive impacts of artificial intelligence (AI) in a chosen context. Here is a possible markscheme:\n\n- Award <marks>1 mark</marks> for identifying a relevant context where AI has been applied (e.g. healthcare, transportation, education, etc.)\n\n- Award up to <marks>3 marks</marks> for well-explained positive impacts of AI in the chosen context, such as:\n    - Improved efficiency/productivity\n    - Enhanced decision making\n    - Automation of repetitive tasks\n    - Personalized services/recommendations\n    - Early detection/diagnosis of diseases\n    - Safer transportation systems\n    - Customized learning experiences\n\n- Award up to <marks>2 marks</marks> for considering potential negative impacts or limitations of AI in the chosen context, such as:\n    - Job displacement\n    - Privacy/security concerns\n    - Bias in algorithms\n    - Lack of human oversight\n    - High costs of implementation\n    - Ethical concerns (e.g. autonomous weapons)\n\n- Award <marks>1 mark</marks> for a well-supported conclusion evaluating the extent to which AI has made a positive impact in the chosen context.\n\n- Award <marks>1 mark</marks> for a clear, well-structured response with appropriate examples to illustrate the points made.\n\n<note>Maximum 6 marks if only positive impacts are discussed without considering potential negative impacts or limitations.</note>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ac1b0430-28e3-4583-bc0e-14ed7c3f4f15",
+        "specification": "Computer coding enables us to instruct machines to perform specific tasks. In fields like web development, programming languages such as HTML and JavaScript are used to create interactive websites. Coding knowledge is essential for building and maintaining these applications.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30909,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.3 Computers > 3.3C Uses and Forms of Computer Coding",
+              "title": "3.3C Uses and Forms of Computer Coding",
+              "labeledAt": "2026-03-06T08:00:04.950Z",
+              "reasoning": "Parts (a)-(c) directly assess knowledge of coding/programming languages for web development (HTML, JavaScript), their benefits, and how coding enables software customization\u2014core to uses and forms of computer coding.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30936,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.2 Economic > 4.2B Employment and Labour",
+              "title": "4.2B Employment and Labour",
+              "labeledAt": "2026-03-06T08:00:04.950Z",
+              "reasoning": "Part (d) evaluates the importance of coding in the modern job market, including opportunities and challenges of learning programming languages, aligning with employment and labour context.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 860769,
+        "parts": [
+          {
+            "id": 478573,
+            "content": "Identify two programming languages used in web development. \n\n",
+            "order": 0,
+            "markscheme": "### Method 1\n\nJavaScript: Adds interactivity to web pages, allowing dynamic content. <marks>1 mark</marks>\n\nPython: Used for backend web development with frameworks like Django and Flask. <marks>1 mark</marks>\n\n### Method 2 \n\nJavaScript: Adds interactivity to web pages, allowing dynamic content. <marks>1 mark</marks>\n\nRuby: Used for backend web development with the Ruby on Rails framework. <marks>1 mark</marks>\n\n### Method 3\n\nPHP: Widely used for server-side scripting and web development. <marks>1 mark</marks>\n\nJava: Used for building enterprise-level web applications and web services. <marks>1 mark</marks>\n\n<note>HTML is a markup language, not a programming language, and should not be included in the answer.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 478574,
+            "content": "Outline one benefit of using JavaScript for creating interactive web pages. ",
+            "order": 1,
+            "markscheme": "JavaScript enables client-side interactivity without server requests, providing a faster and more engaging user experience by dynamically updating content (e.g., form validation, animations) <marks>4 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 478575,
+            "content": "Explain how coding skills enable individuals to customize software applications. ",
+            "order": 2,
+            "markscheme": "Coding skills allow individuals to:\n\n- Modify or create functionalities within software <marks>1 mark</marks>\n- Tailor software to specific needs, such as:\n  - Adding features <marks>1 mark</marks>\n  - Improving user interfaces <marks>1 mark</marks>\n  - Integrating with other tools <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 478576,
+            "content": "Evaluate the importance of computer coding in the modern job market, considering both opportunities and the challenges of learning programming languages. ",
+            "order": 3,
+            "markscheme": "Opportunities:\n\n- Coding skills are highly sought in sectors like software development, data analysis, and digital marketing. <marks>1 mark</marks>\n- Proficiency in coding enhances job prospects and adaptability in a tech-driven economy. <marks>1 mark</marks>\n\nChallenges:\n\n- Learning programming languages requires time, resources, and ongoing practice due to rapid technological advancements, <marks>1 mark</marks>\n- Which may limit access for some individuals. <marks>1 mark</marks>\n\n<note>Maximum 4 marks for opportunities and 4 marks for challenges.</note>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b8867276-62ad-4533-b668-e90b106ebc66",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30902,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2A Characteristics of an Algorithm",
+              "title": "3.2A Characteristics of an Algorithm",
+              "labeledAt": "2026-03-06T15:32:49.089Z",
+              "reasoning": "The task is to define the term 'algorithm', which aligns most directly with understanding what an algorithm is and its defining features/characteristics.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30903,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2B Components of an Algorithm",
+              "title": "3.2B Components of an Algorithm",
+              "labeledAt": "2026-03-06T15:32:49.089Z",
+              "reasoning": "A definition may reference that an algorithm is a step-by-step set of instructions (i.e., its core components), so this topic could be indirectly involved.",
+              "confidence": 0.35
+            }
+          ]
+        },
+        "currentRevisionId": 799449,
+        "parts": [
+          {
+            "id": 483442,
+            "content": "Define the term \u2018algorithm\u2019.  ",
+            "order": 0,
+            "markscheme": "\nAnswer: An algorithm is a step-by-step procedure or set of rules designed to perform a specific task or solve a particular problem.\n\nMarking:\n\n2 marks for a clear and concise definition mentioning both procedural steps and purpose.\"",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c562b537-9b7d-4b09-8fc1-8b6bb9ec8599",
+        "specification": null,
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-21N.1.HL.TZ0.6",
+          "labeledSubSubTopics": [
+            {
+              "id": 30924,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6C Uses of Artificial Neural Networks",
+              "title": "3.6C Uses of Artificial Neural Networks",
+              "labeledAt": "2026-03-05T17:32:02.499Z",
+              "reasoning": "The prompt explicitly asks to discuss replacing an expert system (rule-based knowledge base) with an artificial neural network, focusing on ANN suitability and benefits/limitations.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30923,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6B Types and Uses of Machine Learning",
+              "title": "3.6B Types and Uses of Machine Learning",
+              "labeledAt": "2026-03-05T17:32:02.499Z",
+              "reasoning": "Comparing a rule-based expert system with an ANN involves machine learning concepts (training on data, adaptation, performance trade-offs) in a real operational use case.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30928,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.7 Robots and autonomous technologies > 3.7B Characteristics of Robots and Autonomous Technologies",
+              "title": "3.7B Characteristics of Robots and Autonomous Technologies",
+              "labeledAt": "2026-03-05T17:32:02.499Z",
+              "reasoning": "The scenario is warehouse picking robots and route efficiency; evaluating the control/intelligence used in autonomous/robotic systems links to characteristics of robots and autonomous technologies.",
+              "confidence": 0.52
+            }
+          ]
+        },
+        "currentRevisionId": 824014,
+        "parts": [
+          {
+            "id": 24492,
+            "content": "**Smartwarehouse**\n\n_Greenwood Industries_\u2019 warehouse uses a smart storage solution for the picking of products from the shelves of the warehouse. Robots are used in this automated picking process.\n\nCurrently, these robots are programmed to access a knowledge base\\* that enables these robots to use the most efficient route for the picking of products.\n\n_Greenwood Industries_ claims the picking process would be improved if the expert system was replaced by an artificial neural network (ANN).\n\nDiscuss whether _Greenwood Industries_ should replace the existing system with one that uses an artificial neural network (ANN).  \n  \n\n* * *\n\n\\* knowledge base: a set of rules that are manually input into an expert system.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n**Reasons why _Greenwood Industries_ should replace the expert system with an artificial neural network (ANN) (claim):**\n\n*   May provide greater flexibility in the decision-making process, as knowledge bases only use binary logic (0 or 1, true or false) (algorithms).\n*   The ANN may be able to learn and be more flexible than the expert system (systems, innovation).\n*   The ANN may be more flexible than using an expert system, as the changes to the knowledge base (or equivalent) will be easier to effect (systems, acceptability).\n*   It further automates decision-making \u2013 will make the warehouse more efficient (systems, costs).\n*   It learns to recognize patterns \u2013 adapts to new situations \u2013 increase efficiency (systems).\n*   Increased accuracy in decision-making \u2013 takes into account external factors (systems).\n*   The ANN can function if there is some data missing (systems, acceptability).\n\n**Reasons why _Greenwood Industries_ should not replace the expert system with an artificial neural network (ANN) (counter-claim):**\n\n*   It will be harder to implement a new system \u2013 so the switch to ANNs will require support (systems, values, feasibility).\n*   It will require development costs to introduce a new system that _Greenwood Industries_ may not be able to recoup (systems, costs).\n*   The problem may not require an ANN. It may be an example of technological determinism (values).\n*   There may not be the hardware / processing capabilities for the ANN (systems, feasibility).\n*   Would this lead to further redundancies / increasing automation of employment / loss of human decision-making (ethics, values)?\n\n_In this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** automation, training, costs, algorithms, artificial neural networks, machine learning, automation, change, systems, values, ethics, cost, feasibility\n\n_  \nRefer to **HL paper 1 Section B markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document._",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cc036481-c056-45fc-851b-fc92858c8af8",
+        "specification": "Robots and autonomous technologies possess distinct characteristics that allow them to sense, reason, and interact with environments. For instance, autonomous vehicles rely on sensors to detect obstacles and machine learning to make driving decisions, helping them operate safely and independently.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30928,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.7 Robots and autonomous technologies > 3.7B Characteristics of Robots and Autonomous Technologies",
+              "title": "3.7B Characteristics of Robots and Autonomous Technologies",
+              "labeledAt": "2026-03-05T15:14:34.717Z",
+              "reasoning": "The question specifically asks for characteristics of robots and autonomous technologies, and explores their ability to sense and interact with the environment, which are core components of topic 3.7B.",
+              "confidence": 1
+            },
+            {
+              "id": 30923,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6B Types and Uses of Machine Learning",
+              "title": "3.6B Types and Uses of Machine Learning",
+              "labeledAt": "2026-03-05T15:14:34.717Z",
+              "reasoning": "Parts (c) and (d) of the question focus specifically on the role and effectiveness of machine learning in autonomous technologies, making topic 3.6B highly relevant.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 803233,
+        "parts": [
+          {
+            "id": 481364,
+            "content": "Identify two characteristics of autonomous technologies and describe their importance. ",
+            "order": 0,
+            "markscheme": "### Characteristic 1: Sensing capabilities\nAutonomous technologies have the ability to sense and perceive their environment through various sensors such as cameras, radar, lidar, and ultrasonic sensors. This sensing capability is crucial for autonomous systems to gather data about their surroundings, detect obstacles, identify objects, and navigate safely. <marks>1 mark</marks>\n\n### Characteristic 2: Decision-making and reasoning\nAutonomous technologies possess decision-making and reasoning capabilities, often powered by machine learning algorithms and artificial intelligence. They can process the data collected from sensors, analyze the situation, and make informed decisions about how to respond or act. This decision-making ability allows autonomous systems to operate independently and adapt to changing environments. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 481365,
+            "content": " Outline the role of sensory inputs in enabling robots to interact with physical environments.",
+            "order": 1,
+            "markscheme": "Sensory inputs play a crucial role in enabling robots to interact with physical environments:\n\n- Sensors allow robots to perceive their surroundings and gather data about the environment. <marks>1 mark</marks>\n  - Examples include cameras for vision, ultrasonic sensors for distance measurement, and force/torque sensors for detecting contact. <marks>1 mark</marks>\n\n- This sensory data is processed by the robot's control system, allowing it to build a model of the environment and make decisions about how to interact with it. $$\n\\begin{aligned}\n\\text{Sensory data} &\\rightarrow \\text{Perception} \\\\\n&\\rightarrow \\text{Decision making} \\\\\n&\\rightarrow \\text{Action}\n\\end{aligned}\n$$ <marks>1 mark</marks>\n\n- Without sensory inputs, robots would be unable to navigate, manipulate objects, or react to changes in their environment in a meaningful way. <marks>1 mark</marks>\n\n<note>Maximum 4 marks</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 481366,
+            "content": "Explain how machine learning helps autonomous technologies adapt to complex environments.",
+            "order": 2,
+            "markscheme": "Machine learning allows autonomous technologies to adapt to complex environments by:\n\n<marks>1 mark</marks>\n$$\n\\bullet \\text{Identifying patterns and trends from large datasets}\n$$\nThis enables the system to learn from experience and make predictions or decisions based on the data.\n\n<marks>1 mark</marks>\n$$\n\\bullet \\text{Continuously improving performance through iterative training}\n$$\nAs more data is collected, the machine learning model can be retrained to enhance its accuracy and capabilities.\n\n<marks>1 mark</marks>\n$$\n\\bullet \\text{Generalizing to new situations not present in the initial training data}\n$$\nMachine learning models can extrapolate their learning to novel scenarios, allowing adaptation to changing or unfamiliar environments.\n\n<marks>1 mark</marks>\n$$\n\\bullet \\text{Adjusting decision-making processes based on feedback or reinforcement signals}\n$$\nAutonomous systems can fine-tune their behavior by receiving rewards or penalties, enabling them to optimize their actions for the given environment.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 481367,
+            "content": "Evaluate the effectiveness of sensory inputs and machine learning in enhancing the safety and functionality of autonomous vehicles. ",
+            "order": 3,
+            "markscheme": "### Sensory Inputs\n\n- Sensory inputs such as cameras, radar, and lidar allow autonomous vehicles to perceive their surroundings and detect obstacles, pedestrians, and other vehicles. <marks>1 mark</marks>\n- This enhances safety by enabling the vehicle to identify potential hazards and take appropriate actions to avoid collisions. <marks>1 mark</marks>\n\n### Machine Learning\n\n- Machine learning algorithms can process the data from sensory inputs to recognize patterns and make decisions about steering, braking, and acceleration. <marks>1 mark</marks>\n- This improves functionality by allowing the vehicle to navigate complex environments and respond to changing conditions in real-time. <marks>1 mark</marks>\n\n### Effectiveness\n\n- The combination of sensory inputs and machine learning is highly effective in enhancing safety and functionality. <marks>1 mark</marks>\n$$\n\\begin{aligned}\n&\\text{Sensory inputs provide accurate and comprehensive data about the environment,} \\\\\n&\\text{while machine learning algorithms can process this data and make intelligent decisions.}\n\\end{aligned}\n$$\n\n- However, there are limitations, such as the potential for sensor failures or errors in machine learning models, which could compromise safety. <marks>1 mark</marks>\n- Ongoing improvements in sensor technology and machine learning algorithms, as well as redundancy and fail-safe mechanisms, can help mitigate these limitations. <marks>1 mark</marks>\n\n<note>Maximum 8 marks</note>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ccfb4cee-c15c-498a-ba20-5901bb2c7498",
+        "specification": "In healthcare, algorithms used in diagnostic tools must produce reliable results with well-defined inputs (e.g., patient symptoms) and outputs (e.g., diagnosis). Ambiguous or poorly defined algorithms can result in misdiagnoses, impacting patient care and safety.\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/65fe78c9-38f9-40ce-a3e0-b912004cd867)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30902,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2A Characteristics of an Algorithm",
+              "title": "3.2A Characteristics of an Algorithm",
+              "labeledAt": "2026-03-06T04:50:26.388Z",
+              "reasoning": "The question explicitly asks about how characteristics of a well-designed algorithm (clear inputs/outputs, unambiguity, correctness, reliability) affect accuracy and reliability in diagnostic tools.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30905,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2D Uses of Algorithms",
+              "title": "3.2D Uses of Algorithms",
+              "labeledAt": "2026-03-06T04:50:26.388Z",
+              "reasoning": "It applies algorithms in a specific real-world context (healthcare diagnostics), focusing on their role/importance in producing correct diagnoses.",
+              "confidence": 0.66
+            },
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-06T04:50:26.388Z",
+              "reasoning": "Mentions consequences of ambiguous/poorly defined algorithms leading to misdiagnosis and patient safety impacts, touching on risks/ethical and practical dilemmas arising from algorithmic failure.",
+              "confidence": 0.52
+            }
+          ]
+        },
+        "currentRevisionId": 867216,
+        "parts": [
+          {
+            "id": 483505,
+            "content": "To what extent are the characteristics of a well-designed algorithm critical for ensuring accuracy and reliability in healthcare diagnostics? ",
+            "order": 0,
+            "markscheme": "Candidates are expected to explore the importance of well-designed algorithms in ensuring accuracy and reliability in healthcare diagnostics. Possible points to consider include:\n\n- Accuracy and reliability are critical in healthcare diagnostics as errors can have severe consequences for patient health and well-being. <marks>1 mark</marks>\n\n- Well-designed algorithms should have clear and unambiguous logic, with no room for misinterpretation or errors. This ensures consistent and reliable outputs. <marks>1 mark</marks>\n\n- Algorithms should be thoroughly tested and validated against known cases to ensure they produce accurate results. <marks>1 mark</marks>\n\n- Algorithms should be designed to handle edge cases and exceptions gracefully, without producing erroneous outputs. <marks>1 mark</marks>\n\n- Algorithms should be designed with appropriate data validation and error handling mechanisms to ensure that input data is clean and within expected ranges. <marks>1 mark</marks>\n\n- Algorithms should be designed with transparency and explainability in mind, allowing healthcare professionals to understand the reasoning behind the diagnostic outputs. <marks>1 mark</marks>\n\n- Well-designed algorithms should be regularly updated and maintained to incorporate new medical knowledge and data, ensuring they remain accurate and relevant. <marks>1 mark</marks>\n\n- Algorithms should be designed with privacy and security considerations in mind, protecting sensitive patient data. <marks>1 mark</marks>\n\n- Algorithms should be designed with scalability and performance in mind, ensuring they can handle large volumes of data and provide timely results. <marks>1 mark</marks>\n\n<note>Candidates are expected to provide a well-rounded discussion, considering both the importance of well-designed algorithms and the potential consequences of poorly designed or implemented algorithms in healthcare diagnostics.</note>\n\n<marks>Total: 12 marks</marks>",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": "3fc37c0a-42fe-4e32-9b6a-bda8602cb8df",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ea190745-3bd7-4318-8716-df272323b0b3",
+        "specification": "In platforms like Amazon, algorithms are used for sorting, searching, and filtering items based on user preferences. This application improves the user experience by displaying relevant products first. However, it also shapes purchasing behavior and can affect small sellers' visibility.\n\n![Image](https://pub-images.revisiondojo.com/question-images/964a1818-ec7a-48c4-a063-9437ae86c418)",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30905,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2D Uses of Algorithms",
+              "title": "3.2D Uses of Algorithms",
+              "labeledAt": "2026-03-06T15:31:15.317Z",
+              "reasoning": "All parts focus on how e-commerce platforms use algorithms for sorting, searching, and filtering to affect what users see and buy\u2014core real-world applications of algorithms.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30906,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2E Algorithmic Dilemmas",
+              "title": "3.2E Algorithmic Dilemmas",
+              "labeledAt": "2026-03-06T15:31:15.317Z",
+              "reasoning": "Part (d) explicitly asks for ethical concerns (e.g., fairness/visibility for small sellers, promotion bias) arising from sorting/ranking algorithms.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 809075,
+        "parts": [
+          {
+            "id": 483485,
+            "content": "Identify two types of tasks that sorting algorithms perform on e-commerce sites.\n\n",
+            "order": 0,
+            "markscheme": "<marks>1 mark</marks> for each task, with a brief description:\n\n- Product Ranking: Sorting items by relevance or popularity.\n- Price Sorting: Organizing products from lowest to highest price.\n\n",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483486,
+            "content": "Outline how search algorithms improve user experience on e-commerce platforms like Amazon. ",
+            "order": 1,
+            "markscheme": "\n <marks>4 marks</marks>\n\nSearch algorithms match user queries with relevant products, speeding up the discovery process and personalizing search results based on user behavior, which enhances convenience and satisfaction.\n\n<marks>2 marks</marks> for explaining the general role of search algorithms.\n<marks>2 marks</marks> for describing their impact on user experience.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483487,
+            "content": "Explain one way that filtering algorithms influence shopping behavior. ",
+            "order": 2,
+            "markscheme": "<marks>4 marks</marks>\n\nFiltering algorithms allow users to narrow down products based on preferences like color, size, and price, guiding purchasing decisions and encouraging specific choices that align with consumer needs.\n\n<marks>2 marks</marks> for explaining how filtering algorithms work.\n<marks>2 marks</marks> for their impact on shopping behavior.\n",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 483488,
+            "content": "Evaluate the role of sorting algorithms in promoting certain products over others, considering both benefits and ethical concerns for sellers.",
+            "order": 3,
+            "markscheme": "### Evaluate the role of sorting algorithms in promoting certain products over others, considering both benefits and ethical concerns for sellers.\n\nSorting algorithms can be used to promote certain products over others, which has both benefits and ethical concerns for sellers.\n\n**Benefits:**\n\n- Improved user experience: Sorting algorithms can display the most relevant or popular products first, making it easier for customers to find what they are looking for. This enhances the overall shopping experience. <marks>2 marks</marks>\n\n- Increased sales: By promoting certain products, sorting algorithms can drive more sales for those items, benefiting the sellers of those products. <marks>2 marks</marks>\n\n**Ethical Concerns:**\n\n- Unfair competition: Sorting algorithms can give an advantage to larger sellers or those who pay higher fees, making it difficult for smaller sellers to compete and gain visibility. This can lead to a monopolistic market. <marks>2 marks</marks>\n\n- Bias and manipulation: Sorting algorithms can be designed to promote certain products based on factors other than relevance or popularity, such as sponsored listings or partnerships with specific sellers. This can be seen as manipulative and unethical. <marks>2 marks</marks>\n\n<note>Maximum 4 marks for benefits and 4 marks for ethical concerns.</note>\n\n<Marks>8 Total</Marks>",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fdd6b482-f359-478c-ab10-6019ed24b599",
+        "specification": "_Google_\u2019s DeepMind uses a machine learning algorithm and neural network to analyse data. _Google_ is now collaborating with the United Kingdom\u2019s National Health Service (NHS) to develop systems that can improve the quality of health care.\n\nIts first project is to create a system that can analyse digital scans of eyes and thus help doctors diagnose sight-destroying diseases in time for them to be treated. This is a complex problem for pattern recognition.\n\n_Google_ needs large quantities of retinal scans to test the algorithm. Moorfields Eye Hospital in London has the largest collection of retinal scans in the world and will share them with _Google_ for free. The scans will be anonymized. Patients can opt out of sharing their data by emailing an NHS data protection officer. _Google_ will use the knowledge gained from this project to help create future software that can eventually be marketed to health care providers.\n\nFor this project, _Google_ needs to consider the needs and concerns of multiple stakeholders, including patients, doctors, and the NHS. _Google_ plans to hold four patient forums a year and set up a panel of independent reviewers to oversee what the company is doing. Ultimately, _Google_ hopes to make a profit from this technology.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 296,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Digital-Society-18M.1.SL.TZ0.3",
+          "labeledSubSubTopics": [
+            {
+              "id": 30902,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2A Characteristics of an Algorithm",
+              "title": "3.2A Characteristics of an Algorithm",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (a) explicitly asks for characteristics of an algorithm.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30904,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.2 Algorithms > 3.2C Representing Algorithms",
+              "title": "3.2C Representing Algorithms",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (c) asks for ways algorithms may be represented (e.g., flowcharts, pseudocode, diagrams).",
+              "confidence": 0.88
+            },
+            {
+              "id": 30923,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6B Types and Uses of Machine Learning",
+              "title": "3.6B Types and Uses of Machine Learning",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Parts (b) and (e) concern pattern recognition and comparing deep learning with traditional machine learning techniques\u2014core machine learning types/uses.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30924,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6C Uses of Artificial Neural Networks",
+              "title": "3.6C Uses of Artificial Neural Networks",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Scenario centers on DeepMind using neural networks/deep learning to analyze retinal scans; part (e) references deep learning, which relies on artificial neural networks.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30901,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.1 Data > 3.1G Data Dilemmas",
+              "title": "3.1G Data Dilemmas",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (f) focuses on ethical implications of sharing anonymized patient scan data with Google, including consent/opt-out and data privacy\u2014data dilemmas.",
+              "confidence": 0.84
+            },
+            {
+              "id": 30926,
+              "isHl": false,
+              "path": "Topic 3 - Content - Digital Society > 3.6 Artificial intelligence > 3.6E AI Dilemmas",
+              "title": "3.6E AI Dilemmas",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (f) also raises ethics around AI development and commercialization (stakeholders, oversight, bias/benefit vs harm), aligning with AI dilemmas.",
+              "confidence": 0.72
+            },
+            {
+              "id": 30940,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.3 Environmental > 4.3B Pollution and Waste",
+              "title": "4.3B Pollution and Waste",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (d) asks concerns linked to increasing number of data centres; includes energy use/emissions and environmental impacts consistent with pollution and waste.",
+              "confidence": 0.73
+            },
+            {
+              "id": 30939,
+              "isHl": false,
+              "path": "Topic 4 - Contexts - Digital Society > 4.3 Environmental > 4.3A Natural Resources and Ecosystems",
+              "title": "4.3A Natural Resources and Ecosystems",
+              "labeledAt": "2026-03-06T15:32:42.790Z",
+              "reasoning": "Part (d) can also involve resource consumption (electricity, water for cooling, land use), fitting natural resources and ecosystems concerns.",
+              "confidence": 0.64
+            }
+          ]
+        },
+        "currentRevisionId": 1178891,
+        "parts": [
+          {
+            "id": 20278,
+            "content": "Identify **two** characteristics of an algorithm.",
+            "order": 0,
+            "markscheme": "_Answers may include:_\n\n*   A step-by-step procedure\n*   A set of instructions\n*   Created to perform a specific task\n*   Used by computers to perform operations/tasks\n*   Must be followed in a specific order\n\n_Award **\\[1\\]** mark for each of the characteristics identified above up to a maximum of **\\[2\\]**_ _marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20279,
+            "content": "Identify **two** characteristics of pattern recognition.",
+            "order": 1,
+            "markscheme": "_Answers may include:_\n\n*   Uses training data\n*   Learns from examples\n*   Once trained, the software can identify new examples of the items it has \u201clearned\u201d\n*   Gives an estimate of the accuracy of the identification\n*   Recognizes shapes within an image\n*   Supervised AI\n\n_Award **\\[1\\]** mark for each of the characteristics identified above up to a maximum of **\\[2\\]**_ _marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20280,
+            "content": "_Google_ may use a range of representations of the algorithms during their development.\n\nIdentify**two** ways how these algorithms may be represented.",
+            "order": 2,
+            "markscheme": "_Answers may include:_\n\n*   Natural language\n*   Flow chart\n*   Pseudocode\n*   Programming code\n\n_Award **\\[1\\]** mark for each of the representations identified up to a maximum of **\\[2\\]**_ _marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20281,
+            "content": "_Google_ will collect large quantities of data that will be held in data centres.\n\nExplain **two** concerns linked to the increasing number of data centres.",
+            "order": 3,
+            "markscheme": "_Answers may include:_\n\n*   Data centres use considerable amounts of energy\u2026\n*   which may have negative impacts on the environment.  \n      \n    \n\n*   Data centres lead to the centralization of information\u2026\n*   which may make them susceptible to security breaches.\n\n_Award **\\[1\\]** for identifying a concern linked to the use of data centres and an additional **\\[1\\]** for the explanation of that concern up to a maximum of **\\[2\\]** marks._\n\n_Mark as **\\[2\\]** + **\\[2\\]**._",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20282,
+            "content": "Explain **one** advantage of using deep learning instead of traditional machine learning techniques.",
+            "order": 4,
+            "markscheme": "_Answers may include:_\n\n*   There does not need to be a domain expert involved to reduce the complexity of the data so it can be processed\u2026\n*   which reduces the requirement for human input that machine learning requires.  \n      \n    \n*   Deep learning algorithms solve the problem end-to-end\u2026\n*   whereas machine learning solves the problem in smaller parts and aggregates the solutions (which may lead to a less accurate outcome).\n\n_Award **\\[1\\]** for identifying an advantage of using deep learning and an additional **\\[1\\]** for the explanation of that advantage up to a maximum of **\\[2\\]** marks._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 20283,
+            "content": "It is claimed that the NHS\u2019s partnership with _Google_ is beneficial for both stakeholders. However, concerns have been raised about the ethical implications of this data-sharing agreement.\n\nTo what extent is it ethical for the NHS to share patient information about eye scans from Moorfields Eye Hospital with _Google_?",
+            "order": 5,
+            "markscheme": "_Answers may include:_\n\n**Ethical problems:**\n\n*   Can the patients decide whether to opt in or opt out (power)?\n*   _Google_ is likely to profit from what they learn from this project.\n*   _Google_ will benefit from improvements in its algorithm.\n*   _Google_ will need to guarantee that the data is kept secure.\n*   _Google_ will need to guarantee that the data is kept private.\n*   _Google_ will need to guarantee that the data is only used for this project.\n*   Does this scheme cause harm to the patients? Is it ethical?\n\n**Benefits for the NHS and its patients:**\n\n*   _Google_ could provide free access to the system to the NHS vs other health providers.\n*   The knowledge gained about preserving sight could be shared with doctors around the world, thereby benefiting many people at risk of losing their sight (values).\n*   This data may be shared/mined, and other associations may be established that may lead to preventative health care in unrelated fields.\n*   Patients may feel the benefits of sharing their data outweigh the negative implications of their data being shared (values).\n\n_In part (c) of this question it is expected there will be a balance between the terminology related to digital systems and the terminology related to social and ethical impacts._\n\n**Keywords:** health, medical care, medical diagnostics, data, privacy, anonymity, algorithm, change, power, systems, values\n\n_Refer to **SL/HL paper 1, part c** **markbands** when awarding marks. These can be found under the 'Your tests' tab > supplemental materials > Digital society markbands and guidance document_.",
+            "marks": 8,
+            "label_id": null,
+            "rubric_id": "2dd1a656-39c4-4150-b539-6a9bf5c8257d",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "26",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10066,
+      "title": "3.2 Algorithms",
+      "slug": "3-2-algorithms",
+      "parentTopicId": 10064
+    },
+    "subject": {
+      "id": 296,
+      "title": "Digital Society (DS)",
+      "slug": "ib-digital-society",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "26",
+      "byQuestion": {}
+    }
+  }
+}

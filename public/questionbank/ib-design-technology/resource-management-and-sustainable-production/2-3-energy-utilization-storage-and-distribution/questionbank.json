@@ -1,3 +1,573 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6f876de83cc8bea1506fce75bfee47064614e7ea4b06cfce6385e7d6662a79f7
-size 22193
+{
+  "json": {
+    "questions": [
+      {
+        "id": "39235202-9e69-447e-bd48-ac57f40884ab",
+        "specification": "An engineer is designing a stationary backup power supply for a rural telecommunications tower. The primary requirements are low initial capital expenditure and high reliability, while the total mass of the battery bank is not a design constraint. \n\nBased on the data provided in the table, which battery chemistry is the most appropriate choice for this specific application?\n\n| Battery Chemistry | Specific Energy ($$Wh/kg$$) | Relative Cost |\n| :--- | :--- | :--- |\n| Lithium-ion | 150\u2013250 | High |\n| Lead-acid | 30\u201350 | Low |\n| Nickel-cadmium | 40\u201360 | Medium |\n| Silver-zinc | 100\u2013130 | Very High |",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-39235202-9e69-447e-bd48-ac57f40884ab-1771929956947",
+            "generatedAt": "2026-02-25T11:33:36.974Z",
+            "sourceRevisionId": 1149148
+          }
+        },
+        "currentRevisionId": 1686275,
+        "parts": [],
+        "options": [
+          {
+            "id": 4923247,
+            "content": "Silver-zinc",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4923248,
+            "content": "Lead-acid",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4923249,
+            "content": "Lithium-ion",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4923250,
+            "content": "Nickel-cadmium",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4a2055f0-a2e3-4d4d-b460-149187d5a8b6",
+        "specification": "An analysis of a refrigerator's lifecycle results in the following energy consumption data:\n\n| Lifecycle stage | Energy consumption (MJ) |\n| :--- | :--- |\n| Raw material extraction | 1,450 |\n| Processing and manufacturing | 3,250 |\n| Transportation to retail outlets | 800 |\n| Operational use (10-year lifespan) | 14,000 |\n| Recycling and disposal | 500 |\n\nWhat is the total embodied energy for this refrigerator at the point it is ready for purchase by a consumer?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-4a2055f0-a2e3-4d4d-b460-149187d5a8b6-1771929956947",
+            "generatedAt": "2026-02-25T11:45:23.153Z",
+            "sourceRevisionId": 1149097
+          }
+        },
+        "currentRevisionId": 1686574,
+        "parts": [],
+        "options": [
+          {
+            "id": 4924171,
+            "content": "14,000 MJ",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4924172,
+            "content": "5,500 MJ",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4924173,
+            "content": "20,000 MJ",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4924174,
+            "content": "4,700 MJ",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "63e15092-a77a-4fb3-af1f-09b44df44403",
+        "specification": "The table below compares the energy storage characteristics of three different technologies.\n\n| Storage Technology | Specific Energy ($MJ/kg$) | Energy Density ($MJ/L$) |\n| :--- | :---: | :---: |\n| Compressed Hydrogen | $120.0$ | $1.5$ |\n| Lithium-ion Battery | $0.9$ | $2.6$ |\n| Lead-acid Battery | $0.1$ | $0.4$ |\n\nWhich statement correctly identifies the advantage of using compressed hydrogen over lithium-ion batteries for weight-sensitive applications such as long-range drones?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-63e15092-a77a-4fb3-af1f-09b44df44403-1771929956947",
+            "generatedAt": "2026-02-25T13:52:36.658Z",
+            "sourceRevisionId": 1149105
+          }
+        },
+        "currentRevisionId": 1685056,
+        "parts": [],
+        "options": [
+          {
+            "id": 4919815,
+            "content": "It has a much higher specific energy, minimizing the total mass of the energy source.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4919816,
+            "content": "It has a higher energy density, significantly reducing the volume required for fuel storage.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4919817,
+            "content": "It operates with a higher round-trip electrical efficiency during the discharge cycle.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4919818,
+            "content": "It eliminates the requirement for specialized high-pressure containment vessels.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "733b59b5-eee4-4fd2-b8b1-0be7bde8cf7c",
+        "specification": "An engineering team is developing a high-altitude drone for long-range environmental monitoring. The drone's maximum takeoff weight is strictly limited, so the team must select an energy storage system with the highest **specific energy** (energy per unit mass). \n\nBased on the performance data in the table below, which storage system is the most appropriate choice for this weight-sensitive application?\n\n| Storage System | Specific Energy ($MJ/kg$) | Energy Density ($MJ/L$) |\n| :--- | :--- | :--- |\n| Lead-acid | $0.14$ | $0.32$ |\n| Nickel-metal hydride | $0.35$ | $0.48$ |\n| Lithium-ion | $0.65$ | $2.10$ |\n| Lithium-sulfur | $1.50$ | $1.20$ |\n",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-733b59b5-eee4-4fd2-b8b1-0be7bde8cf7c-1771929956947",
+            "generatedAt": "2026-02-25T10:53:03.421Z",
+            "sourceRevisionId": 1149172
+          }
+        },
+        "currentRevisionId": 1685889,
+        "parts": [],
+        "options": [
+          {
+            "id": 4922139,
+            "content": "Lead-acid",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4922140,
+            "content": "Nickel-metal hydride",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4922141,
+            "content": "Lithium-ion",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4922142,
+            "content": "Lithium-sulfur",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "804c90d1-4fe3-4ab7-943a-caf2234df6b0",
+        "specification": "In the context of utility-scale energy management, why do grid operators engage in 'pumped-storage' operations during periods of low electrical demand?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-804c90d1-4fe3-4ab7-943a-caf2234df6b0-1771929956947",
+            "generatedAt": "2026-02-25T11:33:44.897Z",
+            "sourceRevisionId": 1166846
+          }
+        },
+        "currentRevisionId": 1686583,
+        "parts": [],
+        "options": [
+          {
+            "id": 4924207,
+            "content": "To provide the necessary reactive power for voltage stabilization in the transmission network",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4924209,
+            "content": "To store surplus energy for rapid discharge during periods of peak demand",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4924210,
+            "content": "To reduce the environmental impact of thermal pollution in local waterways",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4924211,
+            "content": "To maximize the total annual power generation capacity of the facility",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b1cd9fa6-76fa-45b3-b065-d8c790d2011d",
+        "specification": "What is the primary benefit of a smart grid system in a large-scale electricity distribution network?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-b1cd9fa6-76fa-45b3-b065-d8c790d2011d-1771929956947",
+            "generatedAt": "2026-02-25T14:15:39.780Z",
+            "sourceRevisionId": 1166845
+          }
+        },
+        "currentRevisionId": 1685675,
+        "parts": [],
+        "options": [
+          {
+            "id": 4921507,
+            "content": "It increases the physical energy density of electricity within the transmission lines",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4921508,
+            "content": "It allows for the transmission of power over long distances with zero thermal energy loss",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4921509,
+            "content": "It enables the utility company to balance supply and demand through real-time monitoring and data exchange",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4921510,
+            "content": "It converts alternating current (AC) to direct current (DC) without the need for substation transformers",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "bc607b18-993a-4182-9ac3-f1d0a76f9f7c",
+        "specification": "The table shows the energy requirements for producing one kilogram of various materials from raw (primary) sources and from recycled (secondary) sources.\n\n| Material | Primary production energy ($MJ/kg$) | Recycled production energy ($MJ/kg$) |\n| :--- | :--- | :--- |\n| Aluminium | 160 | 8 |\n| Steel | 32 | 16 |\n| Glass | 15 | 12 |\n| PET Plastic | 80 | 40 |\n\nBased on the data provided, which of the following is a correct conclusion regarding the **embodied energy** of these materials?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-bc607b18-993a-4182-9ac3-f1d0a76f9f7c-1771929956947",
+            "generatedAt": "2026-02-25T11:28:03.021Z",
+            "sourceRevisionId": 1149128
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:58:41.466Z",
+            "resultId": 2416
+          }
+        },
+        "currentRevisionId": 1691902,
+        "parts": [],
+        "options": [
+          {
+            "id": 4930957,
+            "content": "Recycled PET plastic has a lower embodied energy than recycled steel.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Recycled PET plastic is $40\\,MJ/kg$ and recycled steel is $16\\,MJ/kg$, so PET plastic is higher, not lower."
+          },
+          {
+            "id": 4930958,
+            "content": "Primary steel has a higher embodied energy than primary PET plastic.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Primary steel is $32\\,MJ/kg$ and primary PET plastic is $80\\,MJ/kg$, so steel is lower, not higher."
+          },
+          {
+            "id": 4930959,
+            "content": "The use of recycled aluminium reduces the material's embodied energy by 95% compared to primary production.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Primary aluminium is $160\\,MJ/kg$ and recycled aluminium is $8\\,MJ/kg$. Reduction $=\\frac{160-8}{160}=\\frac{152}{160}=0.95=95\\%$."
+          },
+          {
+            "id": 4930960,
+            "content": "Glass requires the most energy for primary production among the materials listed.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Primary glass is $15\\,MJ/kg$, which is not the highest (primary aluminium is $160\\,MJ/kg$ and primary PET plastic is $80\\,MJ/kg$)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "ec7c04ce-0809-451b-bd43-394b98930df1",
+        "specification": "An engineering firm is designing a lightweight, long-range unmanned aerial vehicle (UAV). The design constraints require a battery system that provides the highest energy storage capacity for the lowest possible mass. \n\nBased on the performance data in the table below, which battery technology should the team select?\n\n| Battery Technology | Specific Energy ($$Wh/kg$$) | Service Life (Cycles) |\n| :--- | :--- | :--- |\n| Lead-acid | 35 | 400 |\n| Nickel-cadmium ($$NiCd$$) | 50 | 1,200 |\n| Nickel-metal hydride ($$NiMH$$) | 95 | 700 |\n| Lithium-ion ($$Li-ion$$) | 250 | 1,500 |",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-ec7c04ce-0809-451b-bd43-394b98930df1-1771929956947",
+            "generatedAt": "2026-02-25T14:16:32.754Z",
+            "sourceRevisionId": 1149091
+          }
+        },
+        "currentRevisionId": 1685463,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920947,
+            "content": "Nickel-metal hydride ($$NiMH$$)",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. While higher than Lead-acid, it has significantly lower specific energy than Lithium-ion."
+          },
+          {
+            "id": 4920948,
+            "content": "Lead-acid",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Lead-acid has the lowest specific energy in the table, making it the least suitable for a weight-sensitive UAV."
+          },
+          {
+            "id": 4920949,
+            "content": "Lithium-ion ($$Li-ion$$)",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. Lithium-ion batteries have the highest specific energy (250 $$Wh/kg$$), providing the most energy per unit of mass, which is critical for lightweight aerospace applications."
+          },
+          {
+            "id": 4920950,
+            "content": "Nickel-cadmium ($$NiCd$$)",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Although it has a long service life, its specific energy is too low for the primary constraint of high energy storage for low mass."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f691130b-39a1-4b9e-a06b-e2f469adf201",
+        "specification": "An aerospace company is evaluating four different battery technologies for a new drone project. The design requirements prioritize a lightweight power source that can store the maximum amount of energy per kilogram.\n\n| Battery Type | Energy Capacity (MJ) | Total Mass (kg) |\n| :--- | :--- | :--- |\n| Prototype I | 120 | 50 |\n| Prototype II | 200 | 80 |\n| Prototype III | 150 | 50 |\n| Prototype IV | 300 | 120 |\n\nWhich prototype offers the highest specific energy?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-f691130b-39a1-4b9e-a06b-e2f469adf201-1771929956947",
+            "generatedAt": "2026-02-25T11:51:54.897Z",
+            "sourceRevisionId": 1149173
+          }
+        },
+        "currentRevisionId": 1684818,
+        "parts": [],
+        "options": [
+          {
+            "id": 4919111,
+            "content": "Prototype I",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Prototype I has a specific energy of $$120 / 50 = 2.4\\text{ MJ/kg}$$, which is lower than Prototype III."
+          },
+          {
+            "id": 4919112,
+            "content": "Prototype II",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Prototype II has a specific energy of $$200 / 80 = 2.5\\text{ MJ/kg}$$, which is lower than Prototype III."
+          },
+          {
+            "id": 4919113,
+            "content": "Prototype III",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Specific energy is the energy per unit mass. Prototype III provides the highest ratio: $$150 / 50 = 3.0\\text{ MJ/kg}$$."
+          },
+          {
+            "id": 4919114,
+            "content": "Prototype IV",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Prototype IV has a specific energy of $$300 / 120 = 2.5\\text{ MJ/kg}$$, which is lower than Prototype III."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fb0e8b22-9a46-4f32-8d08-5ded4ce0e76f",
+        "specification": "How is a product's embodied energy best described?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "old_question_id": "Design-Technology-18N.1.HL.TZ0.6"
+        },
+        "currentRevisionId": 1645493,
+        "parts": [],
+        "options": [
+          {
+            "id": 4781232,
+            "content": "The energy consumed during the product's use phase only",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4781233,
+            "content": "The total energy consumed from raw material extraction through manufacturing to disposal/recycling",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4781234,
+            "content": "Only the energy used in manufacturing processes",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4781235,
+            "content": "The energy consumed during raw material extraction and product use",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "10",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9887,
+      "title": "2.3 Energy utilization, storage and distribution",
+      "slug": "2-3-energy-utilization-storage-and-distribution",
+      "parentTopicId": 9884
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "10",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,532 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae9c958707b8654be233c5e57b69ffa34ff44d2d4ccab23e92ba0c8b19537b72
-size 66510
+{
+  "json": {
+    "questions": [
+      {
+        "id": "14f806b9-6ee5-49dc-9cf2-6e5f30e9e9a1",
+        "specification": "Acabas de descubrir una nueva aplicaci\u00f3n para ayudarte en tus estudios de ciencias y matem\u00e1ticas. Piensas que puede ser \u00fatil para tus compa\u00f1eros de colegio tambi\u00e9n. Escribe un texto para comunicarles por qu\u00e9 es \u00fatil, qu\u00e9 pueden hacer con esa aplicaci\u00f3n y c\u00f3mo descarg\u00e1rsela.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 562,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 31443,
+              "isHl": false,
+              "path": "Core Themes > 3. Ingenio humano > 3.4 Tecnolog\u00eda",
+              "title": "3.4 Tecnolog\u00eda",
+              "labeledAt": "2026-03-06T15:34:30.791Z",
+              "reasoning": "La tarea consiste en presentar una aplicaci\u00f3n, explicar para qu\u00e9 sirve, qu\u00e9 permite hacer y c\u00f3mo descargarla: contenido centrado en el uso de la tecnolog\u00eda (apps, descarga, funciones).",
+              "confidence": 0.86
+            },
+            {
+              "id": 27990,
+              "isHl": false,
+              "path": "Core Themes > 4. Organizaci\u00f3n social > 4.2. Educaci\u00f3n",
+              "title": "4.2. Educaci\u00f3n",
+              "labeledAt": "2026-03-06T15:34:30.791Z",
+              "reasoning": "El contexto es escolar y de estudios (ciencias y matem\u00e1ticas) y se dirige a compa\u00f1eros de colegio, por lo que se relaciona con el tema de educaci\u00f3n.",
+              "confidence": 0.6
+            },
+            {
+              "id": 18125,
+              "isHl": false,
+              "path": "Paper 1",
+              "title": "Paper 1",
+              "labeledAt": "2026-03-06T15:34:30.791Z",
+              "reasoning": "Es una tarea de producci\u00f3n escrita con varios tipos de texto (art\u00edculo, instrucciones y correo electr\u00f3nico), lo cual corresponde a Paper 1 (writing).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 831675,
+        "parts": [
+          {
+            "id": 485168,
+            "content": "Art\u00edculo",
+            "order": 0,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 485169,
+            "content": "Conjunto de instrucciones",
+            "order": 1,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 485170,
+            "content": "Correo electr\u00f3nico",
+            "order": 2,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1a295d26-3ff4-4218-9b8c-79982d8cc7fe",
+        "specification": " Est\u00e1s organizando unos eventos deportivos y de promoci\u00f3n de la salud en el parque cercano para la gente de tu barrio. Escribe un texto para tus vecinos/as en el que promociones estos eventos, explicando cu\u00e1ndo ser\u00e1 el primer evento, qu\u00e9 actividades se realizar\u00e1n y por qu\u00e9 deber\u00edan asistir.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 562,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 27972,
+              "isHl": false,
+              "path": "Core Themes > 1. Identidades > 1.4 Bienestar f\u00edsico",
+              "title": "1.4 Bienestar f\u00edsico",
+              "labeledAt": "2026-03-06T15:34:21.293Z",
+              "reasoning": "Se centra en la promoci\u00f3n de la salud y actividades deportivas, vinculadas al bienestar f\u00edsico y la salud.",
+              "confidence": 0.86
+            },
+            {
+              "id": 27989,
+              "isHl": false,
+              "path": "Core Themes > 4. Organizaci\u00f3n social > 4.1. Mi barrio",
+              "title": "4.1. Mi barrio",
+              "labeledAt": "2026-03-06T15:34:21.293Z",
+              "reasoning": "El texto va dirigido a los vecinos del barrio y trata de eventos en el parque cercano, contexto t\u00edpico de 'mi barrio'.",
+              "confidence": 0.74
+            },
+            {
+              "id": 27978,
+              "isHl": false,
+              "path": "Core Themes > 2. Experiencias > 2.2. Ocio",
+              "title": "2.2. Ocio",
+              "labeledAt": "2026-03-06T15:34:21.293Z",
+              "reasoning": "Incluye actividades deportivas y recreativas organizadas como eventos, relacionado con ocio/tiempo libre.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 832684,
+        "parts": [
+          {
+            "id": 428753,
+            "content": "Conjunto de instrucciones",
+            "order": 0,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 428754,
+            "content": "Correo electr\u00f3nico",
+            "order": 1,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 428755,
+            "content": "Folleto",
+            "order": 2,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1f64e819-530c-41a7-aabb-b650c9e018e9",
+        "specification": "Has visto un anuncio en tus redes sociales. Un refugio de animales busca voluntarios para los fines de semana. Decides presentar una solicitud que vas a adjuntar con tu CV. Escribe un texto para presentarte y explicar tu experiencia y por qu\u00e9 eres la mejor persona para ese puesto de voluntariado.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 562,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 27992,
+              "isHl": false,
+              "path": "Core Themes > 4. Organizaci\u00f3n social > 4.4. Cuestiones sociales",
+              "title": "4.4. Cuestiones sociales",
+              "labeledAt": "2026-03-06T15:34:36.839Z",
+              "reasoning": "La tarea trata de voluntariado en un refugio de animales y servicio a la comunidad, que encaja con cuestiones sociales (ayuda/solidaridad).",
+              "confidence": 0.72
+            },
+            {
+              "id": 27991,
+              "isHl": false,
+              "path": "Core Themes > 4. Organizaci\u00f3n social > 4.3. Lugar de trabajo",
+              "title": "4.3. Lugar de trabajo",
+              "labeledAt": "2026-03-06T15:34:36.839Z",
+              "reasoning": "Se redacta una solicitud con CV para un \u201cpuesto\u201d de voluntariado, enfoc\u00e1ndose en experiencia, perfil y motivos: contexto de trabajo/empleo.",
+              "confidence": 0.62
+            },
+            {
+              "id": 31442,
+              "isHl": false,
+              "path": "Core Themes > 3. Ingenio humano > 3.3 Medios de comunicaci\u00f3n",
+              "title": "3.3 Medios de comunicaci\u00f3n",
+              "labeledAt": "2026-03-06T15:34:36.839Z",
+              "reasoning": "El est\u00edmulo y uno de los formatos incluyen redes sociales/publicaci\u00f3n en foros, relacionado con medios de comunicaci\u00f3n.",
+              "confidence": 0.48
+            },
+            {
+              "id": 18125,
+              "isHl": false,
+              "path": "Paper 1",
+              "title": "Paper 1",
+              "labeledAt": "2026-03-06T15:34:36.839Z",
+              "reasoning": "Es una tarea de producci\u00f3n escrita con formatos (correo, presentaci\u00f3n, publicaci\u00f3n), t\u00edpica de Paper 1 (writing).",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 833724,
+        "parts": [
+          {
+            "id": 485165,
+            "content": "Correo electr\u00f3nico",
+            "order": 0,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 485166,
+            "content": "Presentaci\u00f3n",
+            "order": 1,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 485167,
+            "content": "Publicaci\u00f3n en medios sociales o foros\n",
+            "order": 2,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "335790f2-4d97-4531-ac58-9f17bd7dcaf4",
+        "specification": "En tu barrio se organiza un mercadillo para promover la compra de productos artesanales. Te has decidido a participar en este evento y vender una colecci\u00f3n de productos hechos a mano que tienes en casa. Escribe un texto a tu amigo/a sobre qu\u00e9 vendes, cu\u00e1nto cuesta la colecci\u00f3n y cu\u00e1ndo es el evento.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 562,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 27989,
+              "isHl": false,
+              "path": "Core Themes > 4. Organizaci\u00f3n social > 4.1. Mi barrio",
+              "title": "4.1. Mi barrio",
+              "labeledAt": "2026-03-06T15:34:24.844Z",
+              "reasoning": "La tarea se sit\u00faa expl\u00edcitamente en el barrio (mercadillo en tu barrio) y pide comunicar detalles del evento local.",
+              "confidence": 0.92
+            },
+            {
+              "id": 27980,
+              "isHl": false,
+              "path": "Core Themes > 2. Experiencias > 2.4. Festivales y celebraciones",
+              "title": "2.4. Festivales y celebraciones",
+              "labeledAt": "2026-03-06T15:34:24.844Z",
+              "reasoning": "El mercadillo es un evento/celebraci\u00f3n comunitaria con fecha y participaci\u00f3n, encaja con festivales y celebraciones.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 837656,
+        "parts": [
+          {
+            "id": 485162,
+            "content": "Blog",
+            "order": 0,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 485163,
+            "content": "Correo electr\u00f3nico",
+            "order": 1,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 485164,
+            "content": "Invitaci\u00f3n",
+            "order": 2,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "791f7491-1568-4c4c-bf4c-19d538e3ea2f",
+        "specification": "Como miembro del Club de Medio Ambiente, est\u00e1s preocupado/a por los efectos negativos de la basura y el desperdicio en tu escuela. Escribe un texto para los/las estudiantes donde expliques por qu\u00e9 existe este problema y recomiendes alternativas para reciclar y reducir los residuos.\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 562,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 27997,
+              "isHl": false,
+              "path": "Core Themes > 5. Compartir el planeta > 5.3. El medio ambiente",
+              "title": "5.3. El medio ambiente",
+              "labeledAt": "2026-03-06T15:34:32.947Z",
+              "reasoning": "Se centra en basura, reciclaje y reducci\u00f3n de residuos en la escuela, que son temas directos del medio ambiente.",
+              "confidence": 0.94
+            },
+            {
+              "id": 27990,
+              "isHl": false,
+              "path": "Core Themes > 4. Organizaci\u00f3n social > 4.2. Educaci\u00f3n",
+              "title": "4.2. Educaci\u00f3n",
+              "labeledAt": "2026-03-06T15:34:32.947Z",
+              "reasoning": "El contexto es la escuela y se dirige a estudiantes; relaciona el problema ambiental con el \u00e1mbito educativo.",
+              "confidence": 0.55
+            },
+            {
+              "id": 18125,
+              "isHl": false,
+              "path": "Paper 1",
+              "title": "Paper 1",
+              "labeledAt": "2026-03-06T15:34:32.947Z",
+              "reasoning": "La tarea pide producir textos (art\u00edculo, instrucciones, informe), formatos t\u00edpicos de expresi\u00f3n escrita evaluados en Paper 1.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 787254,
+        "parts": [
+          {
+            "id": 428759,
+            "content": "Articulo",
+            "order": 0,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 428760,
+            "content": "Conjunto de instrucciones",
+            "order": 1,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 428761,
+            "content": "Informe",
+            "order": 2,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fcb2e2bd-2f7e-45d2-8f47-5f8f77fd741a",
+        "specification": "Elige, entre las opciones dadas, un tipo de texto apropiado para la tarea elegida. Escribe entre 70 y 150 palabras.\n\nEst\u00e1s de viaje de fin de curso con tu clase y has asistido a un concierto de m\u00fasica incre\u00edble. Escribe un texto a tus padres para contarles qu\u00e9 bandas y artistas has visto hasta ahora, qu\u00e9 otros conciertos planeas ver en los pr\u00f3ximos d\u00edas y qu\u00e9 es lo que m\u00e1s te ha sorprendido de esta experiencia musical.\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 562,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 27978,
+              "isHl": false,
+              "path": "Core Themes > 2. Experiencias > 2.2. Ocio",
+              "title": "2.2. Ocio",
+              "labeledAt": "2026-03-06T15:34:16.104Z",
+              "reasoning": "El texto trata de asistir a un concierto, ver bandas y artistas y planear otros conciertos: actividades de tiempo libre.",
+              "confidence": 0.9
+            },
+            {
+              "id": 27979,
+              "isHl": false,
+              "path": "Core Themes > 2. Experiencias > 2.3. Vacaciones",
+              "title": "2.3. Vacaciones",
+              "labeledAt": "2026-03-06T15:34:16.104Z",
+              "reasoning": "El contexto es un viaje de fin de curso y planes para los pr\u00f3ximos d\u00edas, relacionado con vacaciones/viajes.",
+              "confidence": 0.75
+            },
+            {
+              "id": 27980,
+              "isHl": false,
+              "path": "Core Themes > 2. Experiencias > 2.4. Festivales y celebraciones",
+              "title": "2.4. Festivales y celebraciones",
+              "labeledAt": "2026-03-06T15:34:16.104Z",
+              "reasoning": "La experiencia descrita (concierto(s) dentro de un viaje) puede encajar como evento/celebraci\u00f3n musical tipo festival.",
+              "confidence": 0.65
+            },
+            {
+              "id": 18125,
+              "isHl": false,
+              "path": "Paper 1",
+              "title": "Paper 1",
+              "labeledAt": "2026-03-06T15:34:16.104Z",
+              "reasoning": "Es una tarea de producci\u00f3n escrita eligiendo un tipo de texto (blog/invitaci\u00f3n/postal) con l\u00edmite de palabras, propio de Paper 1.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 812643,
+        "parts": [
+          {
+            "id": 428774,
+            "content": "Blog",
+            "order": 0,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 428775,
+            "content": "Invitaci\u00f3n",
+            "order": 1,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          },
+          {
+            "id": 428776,
+            "content": "Postal",
+            "order": 2,
+            "markscheme": "**Criterio A: Lenguaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: El dominio del lenguaje es limitado, con un vocabulario a veces adecuado. Se utilizan estructuras gramaticales b\u00e1sicas y los errores frecuentes interfieren con el significado.\n- **3-4 Puntos**: El dominio del lenguaje es generalmente efectivo. El vocabulario es variado y adecuado, con intentos de utilizar estructuras gramaticales m\u00e1s complejas. Los errores en estructuras m\u00e1s complejas a veces interfieren con la comunicaci\u00f3n.\n- **5-6 Puntos**: El dominio del lenguaje es eficaz y mayormente preciso. El vocabulario es variado y apropiado para la tarea. Se utiliza una variedad de estructuras gramaticales b\u00e1sicas y complejas de manera precisa, con errores ocasionales que no interfieren con la comunicaci\u00f3n.\n\n---\n\n**Criterio B: Mensaje**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1-2 Puntos**: La tarea est\u00e1 parcialmente cumplida. Algunas ideas son relevantes, pero no est\u00e1n desarrolladas ni organizadas l\u00f3gicamente, lo que dificulta la comprensi\u00f3n del mensaje.\n- **3-4 Puntos**: La tarea est\u00e1 cumplida en general. La mayor\u00eda de las ideas son relevantes, y algunas est\u00e1n desarrolladas con detalles y ejemplos. La respuesta es mayormente clara y estructurada de manera l\u00f3gica.\n- **5-6 Puntos**: La tarea est\u00e1 cumplida de manera efectiva. Las ideas est\u00e1n bien desarrolladas y son relevantes, con una presentaci\u00f3n clara y una estructura l\u00f3gica que respalda la entrega efectiva del mensaje.\n\n---\n\n**Criterio C: Comprensi\u00f3n Conceptual**\n\n- **0 Puntos**: El trabajo no alcanza el est\u00e1ndar descrito por los descriptores.\n- **1 Punto**: La comprensi\u00f3n conceptual es limitada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente inapropiados, y las convenciones del tipo de texto se reconocen m\u00ednimamente.\n- **2 Puntos**: La comprensi\u00f3n conceptual est\u00e1 en su mayor\u00eda demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son generalmente apropiados, aunque de forma inconsistente. Algunas convenciones del tipo de texto est\u00e1n incorporadas.\n- **3 Puntos**: La comprensi\u00f3n conceptual est\u00e1 completamente demostrada. La elecci\u00f3n del tipo de texto, el registro y el tono son apropiados y consistentes, con una incorporaci\u00f3n completa de las convenciones del tipo de texto elegido.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "2a807ac1-f61a-43e2-abb8-98cf15223b4c",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "6",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 18125,
+      "title": "Paper 1",
+      "slug": "ib-spanish-ab-initio-paper-1",
+      "parentTopicId": null
+    },
+    "subject": {
+      "id": 562,
+      "title": "Spanish ab initio",
+      "slug": "ib-spanish-ab-initio",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "6",
+      "byQuestion": {}
+    }
+  }
+}

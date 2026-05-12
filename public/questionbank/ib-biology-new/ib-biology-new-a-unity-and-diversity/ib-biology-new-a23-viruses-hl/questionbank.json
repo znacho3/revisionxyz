@@ -1,3 +1,2211 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6bf96158453abfce01801b294050027b7412b2412a7cc15aa683ee5675d15cbc
-size 130263
+{
+  "json": {
+    "questions": [
+      {
+        "id": "162599cf-da75-42d7-84f1-9bf4f9aa9368",
+        "specification": "The diagram shows the life cycle of a virus. Which step involves the virus entering the host cell?\n![Image](https://pub-images.revisiondojo.com/question-images/6c681ceb-77c1-4988-9e5e-41b9e9573a66)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T11:33:17.806Z",
+              "reasoning": "The question asks about the specific stage in the viral life cycle where the virus enters the host cell (penetration), which is a core part of the lytic cycle.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 826985,
+        "parts": [],
+        "options": [
+          {
+            "id": 1557378,
+            "content": "Replication",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1557379,
+            "content": "Attachment",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1557380,
+            "content": "Assembly",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1557381,
+            "content": "Penetration",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6a2d19df-1d4a-4c69-a266-facee1c64531",
+        "specification": "The graph shows the concentrations ($\\log_{10}$ particles mL$^{-1}$) of *E. coli* host cells (solid line) and phage particles (dashed line) over time (minutes) during bacteriophage lambda infection.\n\n![](https://pub-images.revisiondojo.com/plots/f8f73ff2-dab8-4210-b196-34b5af33a119.png)\n\nBased on the trends shown, which conclusion is most strongly supported?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": true,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T14:38:17.965Z",
+            "resultId": 10169
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T12:05:44.848Z",
+              "reasoning": "The graph depicts a characteristic lytic cycle where the phage particle concentration increases rapidly as the host cell concentration crashes due to cell lysis and the release of new virions.",
+              "confidence": 1
+            },
+            {
+              "id": 28775,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.4  Lysogenic cycle of a virus (HL)",
+              "title": "A2.3.4  Lysogenic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T12:05:44.848Z",
+              "reasoning": "Bacteriophage lambda is the model organism for studying the choice between lytic and lysogenic cycles; the question specifically requires distinguishing between these two pathways to identify the correct conclusion.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1693833,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931477,
+            "content": "The infection is in the lysogenic phase, with stable integration of the viral genome into host DNA.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4931478,
+            "content": "Phage particles are being steadily absorbed by host cells, leading to long-term coexistence.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4931479,
+            "content": "Host cells are undergoing lysis, releasing large numbers of new phage particles into the environment.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4931480,
+            "content": "Phage replication is occurring, increasing phage numbers while host cell numbers decrease.",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "85ea71a1-cfb3-4739-b7d5-171fe1c3dfa7",
+        "specification": "Which feature distinguishes the influenza virus shown in the image from bacteriophage lambda?\n\n![](https://pub-images.revisiondojo.com/question-images/xHzEJjnJgasAiN4PaSShE.jpeg)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": true,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 28773,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.2  Diversity of structure in viruses  (HL)",
+              "title": "A2.3.2  Diversity of structure in viruses  (HL)",
+              "labeledAt": "2026-03-05T14:50:48.545Z",
+              "reasoning": "The question requires knowledge of the structural differences between viruses, specifically distinguishing between the enveloped influenza virus and the non-enveloped bacteriophage lambda.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 763859,
+        "parts": [],
+        "options": [
+          {
+            "id": 3731263,
+            "content": "Presence of nucleic acid as genetic material",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3731264,
+            "content": "Presence of protein capsid surrounding the genetic material",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3731265,
+            "content": "Presence of an outer lipid membrane derived from the host cell",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3731266,
+            "content": "Use of reverse transcriptase for genome replication",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "15d39bc4-9e6d-4120-9841-0d719f55adfe",
+        "specification": "![Image](https://pub-images.revisiondojo.com/question-images/92b6e24f-c6c1-4ad4-b360-6488ebdab897)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": 7,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28775,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.4  Lysogenic cycle of a virus (HL)",
+              "title": "A2.3.4  Lysogenic cycle of a virus (HL)",
+              "labeledAt": "2026-03-06T05:39:58.748Z",
+              "reasoning": "Reverse transcriptase is central to retroviruses establishing a DNA copy in the host genome, which is characteristic of a lysogenic-like phase (integration as a provirus) enabling replication via host transcription/translation.",
+              "confidence": 0.86
+            },
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-06T05:39:58.748Z",
+              "reasoning": "The question also involves how the virus subsequently replicates to produce new virions after reverse transcription/integration, aligning with steps of the lytic production/release phase.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1332430,
+        "parts": [
+          {
+            "id": 1008681,
+            "content": "Explain how reverse transcriptase allows retroviruses to replicate within a host cell.",
+            "order": 0,
+            "markscheme": "- Reverse transcriptase is an enzyme produced/carried by retroviruses <marks>1 mark</marks>\n\n- Converts/transcribes viral RNA into DNA <marks>1 mark</marks>\n\n- Process occurs after virus enters host cell <marks>1 mark</marks>\n\n- DNA version of viral genome is double stranded <marks>1 mark</marks>\n\n- Viral DNA becomes integrated into host cell's chromosomal DNA/genome <marks>1 mark</marks>\n\n- Integration allows viral genes to be transcribed by host cell machinery <marks>1 mark</marks>\n\n- New viral proteins and RNA genome are produced using host cell resources <marks>1 mark</marks>\n\n- Virus replicates when host cell divides/reproduces <marks>1 mark</marks>\n\n<note>Award marks for correct sequence of events and clear understanding of the role of reverse transcriptase</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "sequential_process",
+                  "label": "Sequential Process Narrative",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Introduction to Reverse Transcriptase",
+                      "content": "To understand how retroviruses (like HIV) function, we must first identify their unique tool: **reverse transcriptase**. \n\nNormally, cells follow the \"Central Dogma\" of biology, where DNA is transcribed into RNA. However, retroviruses carry their genetic information as **RNA**. To replicate, they use reverse transcriptase, an enzyme they produce and carry within their viral capsid, to reverse this normal flow of information.",
+                      "highlights": [
+                        {
+                          "text": "Reverse transcriptase is an enzyme produced/carried by retroviruses",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Entry into the Host",
+                      "content": "The process begins when the retrovirus attaches to and enters a specific host cell (such as a T-lymphocyte). Once the virus has successfully entered the cytoplasm, it releases its viral RNA and the reverse transcriptase enzyme into the host's internal environment.",
+                      "highlights": [
+                        {
+                          "text": "Process occurs after virus enters host cell",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Conversion of RNA to DNA",
+                      "content": "In the cytoplasm, reverse transcriptase performs its primary job: it **converts (transcribes) the viral RNA into a single strand of DNA**. \n\nThis is a critical step because the host cell's machinery is designed to read DNA, not viral RNA, to make proteins.",
+                      "highlights": [
+                        {
+                          "text": "Converts/transcribes viral RNA into DNA",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Forming Double-Stranded DNA",
+                      "content": "The enzyme doesn't stop at a single strand. It uses the first DNA strand as a template to synthesize a complementary strand, resulting in a **double-stranded DNA** version of the viral genome. This double-stranded structure is essential because it mimics the host's own DNA structure, allowing it to \"hide\" within the host's nucleus.",
+                      "highlights": [
+                        {
+                          "text": "DNA version of viral genome is double stranded",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Integration into Host Genome",
+                      "content": "The viral double-stranded DNA then enters the nucleus and becomes **integrated into the host cell's chromosomal DNA**. At this stage, the viral DNA is often referred to as a **provirus**. It is now a permanent part of the host cell's genetic blueprint.",
+                      "highlights": [
+                        {
+                          "text": "Viral DNA becomes integrated into host cell's chromosomal DNA/genome",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Exploiting Host Machinery",
+                      "content": "Once integrated, the viral genes can be **transcribed by the host cell's own enzymes** (like RNA polymerase). The host cell essentially \"reads\" the viral instructions as if they were its own. This leads to the production of new viral mRNA and viral proteins using the host's resources (amino acids, nucleotides, and ribosomes).",
+                      "highlights": [
+                        {
+                          "text": "Integration allows viral genes to be transcribed by host cell machinery",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 6,
+                      "title": "Assembly and Proliferation",
+                      "content": "Finally, the new viral RNA and proteins are assembled into new virus particles, which then bud off from the host cell to infect other cells. Additionally, because the viral DNA is part of the host genome, the **virus replicates every time the host cell divides**, ensuring the infection persists and spreads throughout the organism.",
+                      "highlights": [
+                        {
+                          "text": "New viral proteins and RNA genome are produced using host cell resources",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Virus replicates when host cell divides/reproduces",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-20T16:13:46.090Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2451d3b8-60e6-486b-8959-d08585e01f8e",
+        "specification": "What is the function of the viral RNA? ",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28772,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.1  Structural features common to viruses (HL)",
+              "title": "A2.3.1  Structural features common to viruses (HL)",
+              "labeledAt": "2026-03-05T11:31:27.939Z",
+              "reasoning": "The question asks about the function of viral RNA, which is a key structural and functional component of viruses. Topic A2.3.1 covers the common features of viruses, including their genetic material (DNA or RNA) and its role in directing the synthesis of viral proteins within a host cell.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T11:31:27.939Z",
+              "reasoning": "The lytic cycle of a virus involves the synthesis of viral components (proteins and nucleic acids) using the viral genome as a template, which directly relates to the function described in the correct option.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 770815,
+        "parts": [],
+        "options": [
+          {
+            "id": 1557414,
+            "content": "Forms the viral envelope",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1557415,
+            "content": "Replicates the host DNA",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1557416,
+            "content": "Directs the synthesis of viral proteins",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1557417,
+            "content": "Protects the virus from the immune system",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2add7ff3-ec5a-48a3-b89c-604898347f39",
+        "specification": "The following electron microscope image shows the structure of a virus:\n![Image](https://pub-images.revisiondojo.com/question-images/83eb6f75-ed38-494a-81a5-d6168bb8dccf)\nThe table below compares key characteristics of viruses and living cells:\n| Feature               | Virus                     | Living Cell                      |\n|-----------------------|--------------------------|----------------------------------|\n| DNA or RNA           | Yes                       | Yes                              |\n| Metabolism           | No                        | Yes                              |\n| Ability to Reproduce | Only inside host cell     | Yes (independent cell division)  |\n| Ribosomes           | No                        | Yes                              |\n| Response to Antibiotics | No                        | Yes (for bacteria)               |\n",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T11:43:55.473Z",
+            "resultId": 8368
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T11:32:51.461Z",
+              "reasoning": "Part (b) specifically asks for a description of a method by which viruses reproduce inside a host cell, which directly relates to the lytic cycle.",
+              "confidence": 0.95
+            },
+            {
+              "id": 27734,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.1 Origins of cells (HL) > A2.1.2 Cells as the smallest units of self-sustaining life (HL only)",
+              "title": "A2.1.2 Cells as the smallest units of self-sustaining life (HL only)",
+              "labeledAt": "2026-03-05T11:32:51.461Z",
+              "reasoning": "Part (a) requires explaining why viruses are non-living based on their lack of metabolism and independent reproduction, which contrasts them with cells as the smallest units of self-sustaining life.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28772,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.1  Structural features common to viruses (HL)",
+              "title": "A2.3.1  Structural features common to viruses (HL)",
+              "labeledAt": "2026-03-05T11:32:51.461Z",
+              "reasoning": "The question includes an electron microscope image and a table of features (like lack of ribosomes) to identify the structural characteristics that distinguish viruses from living cells.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693780,
+        "parts": [
+          {
+            "id": 1156027,
+            "content": "Based on the image and data, explain why viruses are not considered to be living organisms.",
+            "order": 0,
+            "markscheme": "- Viruses do not carry out metabolic processes on their own (no metabolism). <marks>1 mark</marks>\n- Viruses cannot reproduce independently and require a host cell (e.g. lack ribosomes/cellular machinery). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156028,
+            "content": "Describe one method by which viruses reproduce inside a host cell.",
+            "order": 1,
+            "markscheme": "- Description of a valid method of viral reproduction inside a host cell (e.g. lytic cycle: attachment, entry, replication/synthesis using host machinery, assembly, release/lysis). <marks>1 mark</marks>\n- Correct description of how this method results in production of new virions (use of host cell machinery leading to many new viruses). <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "69fd4f79-6de1-45f0-b76b-20ce5416c3da",
+        "specification": "Discuss the impact of viruses on global health, providing examples of major viral pandemics and the strategies used to control viral outbreaks.",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29126,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.18 Evaluation of data related to the COVID-19 pandemic",
+              "title": "C3.2.18 Evaluation of data related to the COVID-19 pandemic",
+              "labeledAt": "2026-03-05T12:05:44.579Z",
+              "reasoning": "The question asks for a discussion of major viral pandemics and their global health impact; the 2025 IB Biology syllabus uses the COVID-19 pandemic as the primary case study for evaluating pandemic data, impacts, and control measures.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29125,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.17 Herd immunity and the prevention of epidemics",
+              "title": "C3.2.17 Herd immunity and the prevention of epidemics",
+              "labeledAt": "2026-03-05T12:05:44.579Z",
+              "reasoning": "Part c specifically asks for strategies to control viral outbreaks, which directly relates to this topic covering the prevention of epidemics and the concept of herd immunity.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29124,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.16 Vaccines and immunization",
+              "title": "C3.2.16 Vaccines and immunization",
+              "labeledAt": "2026-03-05T12:05:44.579Z",
+              "reasoning": "Vaccination is a primary strategy for the control of viral outbreaks, which is a core component of the question's requirement to discuss control strategies.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29109,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.1 Pathogens as the cause of infectious diseases",
+              "title": "C3.2.1 Pathogens as the cause of infectious diseases",
+              "labeledAt": "2026-03-05T12:05:44.579Z",
+              "reasoning": "The overall question focuses on how viruses, acting as pathogens, cause infectious diseases that impact global health.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1480902,
+        "parts": [
+          {
+            "id": 1099959,
+            "content": "Outline the impact of viruses on global health.",
+            "order": 0,
+            "markscheme": "- Viruses cause widespread illness and death, leading to high morbidity/mortality rates <marks>1 mark</marks>\n\n- Viral outbreaks lead to economic disruption (e.g., loss of productivity, trade disruption, increased healthcare costs) <marks>1 mark</marks>\n\n- Healthcare systems can be overwhelmed by viral outbreaks (e.g., shortage of beds, staff, resources) <marks>1 mark</marks>\n\n- The potential for viruses to cause pandemics and the necessity of international cooperation for control <marks>1 mark</marks>\n\n- The disproportionate impact of viral outbreaks on low-resource settings/developing nations (e.g., lack of infrastructure, limited access to vaccines/treatments) <marks>1 mark</marks>\n\n<examTip>Include both local and global perspectives when discussing health impacts</examTip>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "thematic_categorization",
+                  "label": "Thematic Categorization",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the question requirements",
+                      "content": "The question asks us to outline the impact of viruses on global health for 4 marks. Using a **thematic categorization** approach, we will group the effects into three main areas: biological/health, economic, and systemic/infrastructure. This ensures we cover all the necessary points from the markscheme systematically.",
+                      "highlights": [
+                        {
+                          "text": "Outline the impact of viruses on global health.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Biological and health impacts",
+                      "content": "At the most fundamental level, viruses affect the physical well-being of populations. \n\n*   **Morbidity and Mortality:** Viruses cause widespread illness (**morbidity**) and death (**mortality**). This can range from seasonal flu to severe respiratory failure.\n*   **Pandemic Potential:** Because viruses can evolve rapidly (as seen in **Topic A2.3**), they have the potential to cause pandemics, requiring global monitoring and international cooperation to prevent mass health crises.",
+                      "highlights": [
+                        {
+                          "text": "Viruses cause widespread illness and death, leading to high morbidity/mortality rates",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Economic consequences",
+                      "content": "The impact of a virus extends beyond the body and into the global economy:\n\n*   **Loss of Productivity:** When people are sick or in quarantine, they cannot work, leading to a decrease in a nation's output.\n*   **Trade and Travel Disruption:** Outbreaks often lead to closed borders and restricted movement, which hurts global trade.\n*   **Healthcare Costs:** Governments must divert massive funds toward vaccine development, antiviral treatments, and emergency response.",
+                      "highlights": [
+                        {
+                          "text": "Viral outbreaks lead to economic disruption (e.g., loss of productivity, trade disruption, increased healthcare costs)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Systemic and infrastructure challenges",
+                      "content": "Viruses put immense pressure on how society functions, particularly regarding healthcare and equality:\n\n*   **Overwhelmed Healthcare Systems:** A sudden surge in cases can lead to shortages of hospital beds, ventilators, and medical staff, causing the system to collapse.\n*   **Disproportionate Global Impact:** Low-resource settings or developing nations often suffer more because they lack the infrastructure (like cold-chain storage for vaccines) or the financial power to secure treatments as quickly as wealthier nations.",
+                      "highlights": [
+                        {
+                          "text": "The disproportionate impact of viral outbreaks on low-resource settings/developing nations",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Healthcare systems can be overwhelmed by viral outbreaks",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary for full marks",
+                      "content": "To secure all 4 marks, ensure your answer mentions at least four distinct points across these themes. \n\n**Exam Tip:** Don't just focus on the individual getting sick; mention the \"global\" perspective, such as international cooperation and the specific struggles of developing nations. This aligns with the requirements of **Topic C3.2 (Defense against disease)**.",
+                      "highlights": [
+                        {
+                          "text": "Include both local and global perspectives when discussing health impacts",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "scalar_perspective",
+                  "label": "Local to Global Scale",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Individual Health: Morbidity and Mortality",
+                      "content": "At the most fundamental scale, viruses directly impact individual health. They cause widespread illness, referred to as **high morbidity**, and can lead to significant numbers of deaths, or **high mortality**. This biological impact is the primary driver of all subsequent societal effects.\n\nThis concept is a core part of **Topic C3.2: Defense against disease**, which explores how pathogens disrupt the body's homeostasis.",
+                      "highlights": [
+                        {
+                          "text": "Viruses cause widespread illness and death, leading to high morbidity/mortality rates",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Local Scale: Healthcare Strain",
+                      "content": "Moving to the local community level, viral outbreaks place immense pressure on medical infrastructure. Local healthcare systems can become **overwhelmed** quickly. This manifests as:\n\n*   A critical **shortage of hospital beds**.\n*   Exhaustion and shortage of **healthcare staff**.\n*   Lack of **resources** and equipment, such as ventilators or personal protective equipment (PPE).",
+                      "highlights": [
+                        {
+                          "text": "Healthcare systems can be overwhelmed by viral outbreaks (e.g., shortage of beds, staff, resources)",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "National Scale: Economic Disruption",
+                      "content": "On a national scale, the impact shifts toward the economy. Large-scale viral outbreaks lead to **economic disruption** through several channels:\n\n*   **Loss of productivity**: When a significant portion of the workforce is ill or in quarantine, output drops.\n*   **Trade disruption**: Borders may close, and supply chains for goods and services are often interrupted.\n*   **Increased costs**: Governments must divert massive funds toward emergency healthcare and public health measures.",
+                      "highlights": [
+                        {
+                          "text": "Viral outbreaks lead to economic disruption (e.g., loss of productivity, trade disruption, increased healthcare costs)",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Global Scale: Cooperation and Inequality",
+                      "content": "Finally, at the global scale, viruses highlight both the necessity of **international cooperation** and the reality of **global inequality**. \n\nPandemics do not respect borders, requiring nations to share data and resources to control the spread. However, there is often a **disproportionate impact** on low-resource settings or developing nations. These areas may suffer more due to a lack of medical infrastructure and limited access to life-saving vaccines or antiviral treatments.",
+                      "highlights": [
+                        {
+                          "text": "The potential for viruses to cause pandemics and the necessity of international cooperation for control",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        },
+                        {
+                          "text": "The disproportionate impact of viral outbreaks on low-resource settings/developing nations (e.g., lack of infrastructure, limited access to vaccines/treatments)",
+                          "location": "data_booklet",
+                          "sectionName": "Marking Notes"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "direct_indirect_analysis",
+                  "label": "Direct vs. Indirect Impact",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Impact Framework",
+                      "content": "To understand the impact of viruses on global health, we use the **Direct vs. Indirect Impact** approach. \n\n*   **Direct impacts** refer to the immediate biological consequences for individuals.\n*   **Indirect impacts** refer to the broader effects on society, the economy, and healthcare infrastructure."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Direct Biological Impacts",
+                      "content": "The most immediate impact of a viral outbreak is on human health. Viruses infect host cells to replicate, often leading to tissue damage and immune responses that cause illness. \n\nOn a global scale, this results in high **morbidity** (illness) and **mortality** (death) rates, which are primary measures of a pandemic's severity.",
+                      "highlights": [
+                        {
+                          "text": "Viruses cause widespread illness and death, leading to high morbidity/mortality rates",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Indirect Healthcare Impact",
+                      "content": "A major indirect impact is the strain on medical infrastructure. During an outbreak, the sudden surge in patients can exceed the capacity of hospitals. This leads to a shortage of intensive care beds, medical staff, and essential supplies (like ventilators or oxygen), compromising care for both viral and non-viral patients.",
+                      "highlights": [
+                        {
+                          "text": "Healthcare systems can be overwhelmed by viral outbreaks (e.g., shortage of beds, staff, resources)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Indirect Economic Impact",
+                      "content": "Viral pandemics cause significant economic disruption. This happens through:\n*   **Productivity loss:** Large numbers of people unable to work due to illness or quarantine.\n*   **Trade disruption:** Restrictions on travel and shipping to contain the virus.\n*   **Cost:** The immense financial burden of vaccine development, treatment, and public health interventions.",
+                      "highlights": [
+                        {
+                          "text": "Viral outbreaks lead to economic disruption (e.g., loss of productivity, trade disruption, increased healthcare costs)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Global Socioeconomic Inequality",
+                      "content": "The impact of viruses is not felt equally across the globe. Low-resource settings and developing nations often face a **disproportionate impact** due to a lack of healthcare infrastructure and limited access to expensive treatments or vaccines. \n\nBecause viruses do not respect borders, this necessitates **international cooperation** to manage global health security effectively.",
+                      "highlights": [
+                        {
+                          "text": "The disproportionate impact of viral outbreaks on low-resource settings/developing nations",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "The potential for viruses to cause pandemics and the necessity of international cooperation for control",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-20T16:13:17.432Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1099960,
+            "content": "Describe the key characteristics of a major viral pandemic, including its impact on global health and at least one strategy used for its control.",
+            "order": 1,
+            "markscheme": "- Identifies a major viral pandemic (e.g., COVID-19, 1918 Influenza, HIV/AIDS). <marks>1 mark</marks>\n\n- Describes a key characteristic or impact of the chosen pandemic on global health (e.g., high mortality, economic disruption, overwhelmed healthcare systems, social disruption, mental health impacts). <marks>1 mark</marks>\n\n- Describes a second key characteristic or impact of the chosen pandemic on global health. <marks>1 mark</marks>\n\n- Explains a strategy used to control the chosen pandemic (e.g., vaccination, quarantine, public health campaigns, antiviral treatments, international collaboration). <marks>1 mark</marks>\n\n- Explains a second strategy used to control the chosen pandemic. <marks>1 mark</marks>\n\n- Provides a specific example of how one of the described strategies was implemented for the chosen pandemic. <marks>1 mark</marks>\n\n<note>Award marks for specific details related to the chosen pandemic's characteristics, impact, and control strategies.</note>\n\n<examTip>Ensure your chosen pandemic is clearly identified and your description links directly to its impact and control.</examTip>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "covid19_case_study",
+                  "label": "Contemporary Pandemic Analysis (COVID-19)",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the Pandemic",
+                      "content": "To answer this question effectively using the **Contemporary Pandemic Analysis** approach, we will focus on the **COVID-19 pandemic**, caused by the **SARS-CoV-2 virus**. This pandemic provides a clear example of how a virus can rapidly transform from a localized outbreak into a global health crisis.\n\nIn your IB Biology course, this is specifically addressed in **Topic C3.2: Defense against Disease**, which includes the evaluation of data related to the COVID-19 pandemic.",
+                      "highlights": [
+                        {
+                          "text": "Identify a major viral pandemic",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Describe Global Health Impacts",
+                      "content": "A key characteristic of COVID-19 was its **high transmissibility**, which led to two major impacts on global health:\n\n1.  **Overwhelmed Healthcare Systems**: The rapid surge in cases (often referred to as \"spikes\" in the epidemiological curve) led to a shortage of Intensive Care Unit (ICU) beds and ventilators, significantly increasing mortality rates because hospitals could not treat everyone simultaneously.\n2.  **Social and Mental Health Disruption**: To prevent transmission, social isolation became necessary, which led to a widespread increase in mental health issues, such as anxiety and depression, on a global scale.",
+                      "highlights": [
+                        {
+                          "text": "Describes a key characteristic or impact of the chosen pandemic on global health",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Strategy 1: mRNA Vaccination",
+                      "content": "A revolutionary control strategy used during the COVID-19 pandemic was the development and rollout of **mRNA vaccines** (such as those by Pfizer-BioNTech and Moderna). \n\nUnlike traditional vaccines that use weakened viruses, mRNA vaccines provide the genetic instructions for our cells to produce a harmless piece of the virus's \"spike protein.\" This triggers an immune response, producing memory cells that provide long-term protection without the person having to catch the actual virus.",
+                      "highlights": [
+                        {
+                          "text": "Explains a strategy used to control the chosen pandemic",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Strategy 2: Lockdown Measures",
+                      "content": "Before vaccines were available, governments relied on **lockdown measures** and **social distancing**. \n\nThis is a non-pharmaceutical intervention designed to reduce the **basic reproduction number** ($R_0$). By physically separating individuals, the virus has fewer opportunities to jump from one host to another, thereby \"flattening the curve\" and preventing the healthcare system from collapsing under the weight of too many simultaneous infections.",
+                      "highlights": [
+                        {
+                          "text": "Explains a second strategy used to control the chosen pandemic",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Specific Implementation Example",
+                      "content": "To secure the final mark, you need to provide a specific example of implementation. \n\nFor instance, the **global rollout of the Pfizer-BioNTech vaccine** beginning in late 2020 involved international cooperation to distribute billions of doses. This mass immunization campaign was essential in achieving **herd immunity** in many populations, significantly reducing the severity of illness and allowing societies to reopen safely.",
+                      "highlights": [
+                        {
+                          "text": "Provides a specific example of how one of the described strategies was implemented",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hivaids_case_study",
+                  "label": "Chronic Pandemic Analysis (HIV/AIDS)",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the Pandemic",
+                      "content": "To answer this question effectively using the **Chronic Pandemic Analysis** approach, we will focus on **HIV/AIDS** (Human Immunodeficiency Virus / Acquired Immunodeficiency Syndrome). HIV is a classic example of a chronic viral pandemic that has had a profound, long-term impact on global health and the human immune system.",
+                      "highlights": [
+                        {
+                          "text": "Identifies a major viral pandemic (e.g., COVID-19, 1918 Influenza, HIV/AIDS)",
+                          "location": "data_booklet",
+                          "sectionName": "Biology Markscheme"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Biological Impact on Health",
+                      "content": "A key characteristic of HIV is its ability to infect and destroy **helper T-lymphocytes** (specifically CD4+ cells). As covered in **Topic C3.2 Defense against disease**, these cells are vital for the adaptive immune system. \n\nThe primary biological impact is the gradual depletion of these cells, leading to a state of **immunodeficiency**. Without a functional immune system, individuals become highly susceptible to **opportunistic infections** (like tuberculosis) and certain cancers, which are the leading causes of death in AIDS patients.",
+                      "highlights": [
+                        {
+                          "text": "Describes a key characteristic or impact of the chosen pandemic on global health",
+                          "location": "data_booklet",
+                          "sectionName": "Biology Markscheme"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Strategy: Antiretroviral Therapy (ART)",
+                      "content": "A major strategy used to control the impact of HIV is **Antiretroviral Therapy (ART)**. \n\nART consists of a combination of drugs that inhibit different stages of the HIV life cycle (such as reverse transcription or integration). While ART is not a cure, it reduces the **viral load** in the blood to undetectable levels. This allows the helper T-cell count to recover, preventing the progression to AIDS and significantly reducing the risk of transmitting the virus to others.",
+                      "highlights": [
+                        {
+                          "text": "Explains a strategy used to control the chosen pandemic",
+                          "location": "data_booklet",
+                          "sectionName": "Biology Markscheme"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Strategy: Public Health Campaigns",
+                      "content": "Another essential control strategy involves **public health education campaigns** aimed at preventing transmission. Since HIV is transmitted via body fluids (as noted in **Topic C3.2.11**), education focuses on reducing risky behaviors.\n\n**Example of implementation:** Many countries implemented the **\"ABC\" campaign** (Abstain, Be faithful, use Condoms). In countries like Uganda, this specific public health strategy was credited with significantly lowering national infection rates during the 1990s by promoting behavioral changes and increasing the availability of protection.",
+                      "highlights": [
+                        {
+                          "text": "Provides a specific example of how one of the described strategies was implemented",
+                          "location": "data_booklet",
+                          "sectionName": "Biology Markscheme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "spanishflu_case_study",
+                  "label": "Historical Respiratory Pandemic Analysis (1918 Influenza)",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the pandemic",
+                      "content": "To answer this question using a historical perspective, we will focus on the **1918 Influenza Pandemic** (often called the \"Spanish Flu\"). This pandemic was caused by an $H1N1$ virus with genes of avian origin.\n\nIdentifying a specific pandemic is the first step to earning marks according to the markscheme.",
+                      "highlights": [
+                        {
+                          "text": "Identifies a major viral pandemic (e.g., COVID-19, 1918 Influenza, HIV/AIDS).",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Impact: High mortality rates",
+                      "content": "A key characteristic of the 1918 pandemic was its **extreme mortality rate**, particularly among previously healthy young adults (aged $20$-$40$). Unlike typical influenza which affects the very young and very old, this virus caused a \"W-shaped\" mortality curve, significantly impacting the global workforce and social stability.",
+                      "highlights": [
+                        {
+                          "text": "Describes a key characteristic or impact of the chosen pandemic on global health (e.g., high mortality, economic disruption, overwhelmed healthcare systems, social disruption, mental health impacts).",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Impact: Healthcare system strain",
+                      "content": "A second major impact was the **overwhelming of healthcare systems**. In 1918, there were no vaccines or antibiotics to treat secondary bacterial infections. Hospitals became severely overcrowded, leading to the use of makeshift infirmaries in schools and community centers to manage the sheer volume of patients.",
+                      "highlights": [
+                        {
+                          "text": "Describes a second key characteristic or impact of the chosen pandemic on global health.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Control strategy: Mask mandates",
+                      "content": "Because medical treatments like antivirals were unavailable, authorities relied on **non-pharmaceutical interventions (NPIs)**. One primary strategy was the implementation of **mandatory mask-wearing** in public to reduce the respiratory transmission of the virus droplets.",
+                      "highlights": [
+                        {
+                          "text": "Explains a strategy used to control the chosen pandemic (e.g., vaccination, quarantine, public health campaigns, antiviral treatments, international collaboration).",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Control strategy: Social distancing",
+                      "content": "A second control strategy was **social distancing**, which involved closing schools, theaters, and churches, and banning mass gatherings. This aimed to \"flatten the curve\" (though the term wasn't used then) by reducing the contact rate between infected and susceptible individuals.",
+                      "highlights": [
+                        {
+                          "text": "Explains a second strategy used to control the chosen pandemic.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Specific implementation example",
+                      "content": "A specific example of these strategies in action was seen in **St. Louis, Missouri**. Unlike Philadelphia, which held a massive parade that led to a spike in deaths, St. Louis implemented rapid social distancing and closure orders just two days after its first cases. As a result, St. Louis had a much lower peak mortality rate than cities that delayed their response.",
+                      "highlights": [
+                        {
+                          "text": "Provides a specific example of how one of the described strategies was implemented for the chosen pandemic.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-20T16:14:05.206Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1099961,
+            "content": "Discuss the strategies used to control viral outbreaks.",
+            "order": 2,
+            "markscheme": "- Vaccination programs to prevent viral transmission and build herd immunity <marks>1 mark</marks>\n\n- Implementation of quarantine and isolation measures for infected individuals <marks>1 mark</marks>\n\n- Public health campaigns that promote:\n  - Personal hygiene practices <marks>1 mark</marks>\n  - Social distancing measures <marks>1 mark</marks>\n  - Proper use of protective equipment <marks>1 mark</marks>\n\n- Travel restrictions and border control measures to limit viral spread <marks>1 mark</marks>\n\n- Development and distribution of antiviral treatments <marks>1 mark</marks>\n\n- International collaboration including:\n  - Data sharing between countries <marks>1 mark</marks>\n  - Coordinated response efforts <marks>1 mark</marks>\n  - Resource sharing <marks>1 mark</marks>\n\n<note>Award marks for relevant examples of specific outbreaks and control measures used</note>\n\n<examTip>Include specific examples of recent viral outbreaks (e.g., COVID-19) to support your points</examTip>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "thematic",
+                  "label": "Thematic Categorization",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Categorizing Control Strategies",
+                      "content": "To answer this 7-mark question effectively using a **Thematic Categorization** approach, we will group the strategies into three main areas: **Medical Interventions**, **Social & Behavioral Measures**, and **Regulatory & Global Policies**. \n\nThis method ensures you cover all the requirements of the markscheme while presenting a structured and logical argument. These concepts are primarily covered in **Topic C3.2: Defense against disease**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Medical Interventions",
+                      "content": "These strategies focus on the biological aspect of stopping the virus. \n\n*   **Vaccination Programs:** These are used to prevent transmission and build **herd immunity**. Herd immunity occurs when a large enough percentage of the population is immune, making it difficult for the virus to spread to those who aren't immune.\n*   **Antiviral Treatments:** For those already infected, the development and distribution of antiviral drugs can reduce the severity of the disease and decrease the period of infectivity, thereby lowering the overall transmission rate.",
+                      "highlights": [
+                        {
+                          "text": "Vaccination programs to prevent viral transmission and build herd immunity",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Development and distribution of antiviral treatments",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Social and Behavioral Measures",
+                      "content": "These strategies rely on public health campaigns to change individual behavior to disrupt the virus's path of transmission.\n\n*   **Personal Hygiene:** Promoting practices like frequent handwashing with soap or alcohol-based sanitizers.\n*   **Social Distancing:** Encouraging or requiring a physical distance between people to prevent respiratory droplet spread.\n*   **Protective Equipment (PPE):** The proper use of masks, gloves, and face shields, particularly in healthcare settings or crowded public spaces.",
+                      "highlights": [
+                        {
+                          "text": "Personal hygiene practices",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Social distancing measures",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Proper use of protective equipment",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Regulatory and Global Policies",
+                      "content": "These are top-down measures implemented by governments and international bodies.\n\n*   **Quarantine and Isolation:** Legally requiring infected individuals (isolation) or those exposed to them (quarantine) to stay away from others.\n*   **Travel Restrictions:** Closing borders or requiring testing for international travelers to prevent the \"seeding\" of the virus into new geographic regions.\n*   **International Collaboration:** Groups like the WHO coordinate **data sharing**, resource distribution (like ventilators or vaccines), and synchronized response efforts between countries. \n\n**Example:** During the **COVID-19 pandemic**, many countries used a combination of national lockdowns (regulatory) and rapid vaccine rollout (medical) to stabilize health systems.",
+                      "highlights": [
+                        {
+                          "text": "Implementation of quarantine and isolation measures for infected individuals",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Travel restrictions and border control measures to limit viral spread",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "International collaboration",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Include specific examples of recent viral outbreaks (e.g., COVID-19) to support your points",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary of Marks",
+                      "content": "In an IB exam, marks are awarded for identifying the strategy and explaining its purpose. \n\n*   **1 mark** for medical strategies (Vaccines/Antivirals).\n*   **1 mark** for quarantine/isolation.\n*   **3 marks** for specific public health campaign components (hygiene, distancing, PPE).\n*   **1 mark** for travel/border control.\n*   **1 mark** for international collaboration (data/resource sharing).\n\nAlways remember to use specific examples like **COVID-19**, **Ebola**, or **Influenza** to ground your theoretical points in real-world contexts."
+                    }
+                  ]
+                },
+                {
+                  "id": "casestudy",
+                  "label": "Case-Study Driven Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Introduction via COVID-19",
+                      "content": "To discuss the strategies used to control viral outbreaks, we will use the **COVID-19 pandemic** (caused by the SARS-CoV-2 virus) as our primary case study. Controlling a global outbreak requires a multi-layered approach involving biological, behavioral, and political interventions. \n\nIn IB Biology, these concepts are closely linked to **Topic C3.2: Defense against disease**, which covers how the body and society respond to pathogens."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Vaccination and Herd Immunity",
+                      "content": "One of the most effective long-term strategies is the implementation of **vaccination programs**. \n\nIn the case of COVID-19, the rapid development and rollout of vaccines aimed to reduce transmission and prevent severe illness. By vaccinating a large proportion of the population, we aim to achieve **herd immunity**. This occurs when enough people are immune to a virus that it can no longer spread easily, protecting those who cannot be vaccinated (such as the immunocompromised).",
+                      "highlights": [
+                        {
+                          "text": "Vaccination programs to prevent viral transmission and build herd immunity",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Quarantine and Isolation",
+                      "content": "A direct way to stop the spread is to physically separate people. During the COVID-19 pandemic, governments used two main methods:\n\n1.  **Isolation**: Separating individuals who were confirmed to have the virus from healthy individuals.\n2.  **Quarantine**: Restricting the movement of people who *might* have been exposed to the virus to see if they become ill.\n\nThese measures effectively \"break the chain\" of transmission by removing the host from the general population.",
+                      "highlights": [
+                        {
+                          "text": "Implementation of quarantine and isolation measures for infected individuals",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Public Health Behavior",
+                      "content": "Public health campaigns were vital in changing human behavior to limit viral spread. For COVID-19, this included:\n\n*   **Personal Hygiene**: Frequent handwashing and the use of alcohol-based sanitizers to destroy the virus's lipid envelope.\n*   **Social Distancing**: Maintaining physical space (e.g., $2$ meters) to prevent the inhalation of respiratory droplets.\n*   **Protective Equipment (PPE)**: The widespread use of masks to act as a barrier for respiratory particles.",
+                      "highlights": [
+                        {
+                          "text": "Personal hygiene practices",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        },
+                        {
+                          "text": "Social distancing measures",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        },
+                        {
+                          "text": "Proper use of protective equipment",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Movement and Medical Control",
+                      "content": "To prevent the virus from traveling between regions, **travel restrictions and border controls** were implemented. This included flight bans and mandatory testing at airports. \n\nAdditionally, medical science focused on developing **antiviral treatments**. Unlike antibiotics (which only work on bacteria), antivirals like Paxlovid were developed to interfere with the virus's ability to replicate inside human host cells, helping to treat those already infected.",
+                      "highlights": [
+                        {
+                          "text": "Travel restrictions and border control measures to limit viral spread",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        },
+                        {
+                          "text": "Development and distribution of antiviral treatments",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "International Collaboration",
+                      "content": "Finally, no single country can stop a pandemic alone. **International collaboration** was essential. This involved:\n\n*   **Data Sharing**: Countries shared the genetic sequence of the virus early on (via platforms like GISAID), which allowed for the fast design of PCR tests and vaccines.\n*   **Resource Sharing**: Programs like COVAX were established to distribute vaccines to lower-income countries, recognizing that a virus anywhere is a threat everywhere.",
+                      "highlights": [
+                        {
+                          "text": "Data sharing between countries",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        },
+                        {
+                          "text": "Resource sharing",
+                          "location": "data_booklet",
+                          "sectionName": "Defense against disease"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "scalebased",
+                  "label": "Scale-Based Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the question requirements",
+                      "content": "To answer this question effectively using a **Scale-Based Analysis**, we will categorize control strategies by their scope: starting with individual actions, moving to national policies, and finishing with global cooperation. This approach ensures all 7 marks from the markscheme are covered systematically.\n\nThis topic falls under **Topic C3.2: Defense against disease**, which covers everything from basic hygiene to the complex mechanics of vaccines and herd immunity."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Individual: Personal protection",
+                      "content": "At the smallest scale, we look at what individuals can do to break the chain of transmission. \n\n*   **Personal Hygiene:** Frequent handwashing and respiratory etiquette (covering coughs) reduce the viral load on surfaces.\n*   **Protective Equipment (PPE):** The use of face masks or gloves serves as a physical barrier to respiratory droplets, as seen globally during the COVID-19 pandemic.\n*   **Social Distancing:** Maintaining physical distance reduces the likelihood of a pathogen jumping from a host to a new individual.",
+                      "highlights": [
+                        {
+                          "text": "Personal hygiene practices",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Proper use of protective equipment",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Social distancing measures",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "National: Policy and restriction",
+                      "content": "Moving up to the national scale, governments implement legal and logistical measures to control movement:\n\n*   **Quarantine and Isolation:** Legally requiring infected individuals (isolation) or potentially exposed individuals (quarantine) to remain separated from the public.\n*   **Travel Restrictions:** Border closures and mandatory testing for travelers prevent the \"importation\" of new viral variants from other regions.",
+                      "highlights": [
+                        {
+                          "text": "Implementation of quarantine and isolation measures for infected individuals",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Travel restrictions and border control measures to limit viral spread",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Scientific: Medical intervention",
+                      "content": "Large-scale medical interventions are critical for long-term control:\n\n*   **Vaccination Programs:** These are designed to build **herd immunity**, where a sufficient portion of the population is immune so the virus can no longer spread easily. \n*   **Antiviral Treatments:** While vaccines prevent infection, developing and distributing antiviral drugs helps treat those already infected, reducing the severity and duration of the outbreak.",
+                      "highlights": [
+                        {
+                          "text": "Vaccination programs to prevent viral transmission and build herd immunity",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Development and distribution of antiviral treatments",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Vaccines and immunization",
+                          "location": "data_booklet",
+                          "sectionName": "C3.2 Defense against disease"
+                        },
+                        {
+                          "text": "Herd immunity and the prevention of epidemics",
+                          "location": "data_booklet",
+                          "sectionName": "C3.2 Defense against disease"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Global: International cooperation",
+                      "content": "Finally, at the largest scale, viruses do not respect borders, so global coordination is essential:\n\n*   **Data Sharing:** Countries share genomic sequences of viruses (e.g., through the WHO) to track mutations and develop effective vaccines quickly.\n*   **Resource Sharing:** Wealthier nations may provide vaccines, PPE, or medical expertise to regions with fewer resources to ensure the virus is suppressed everywhere, preventing new variants from emerging.",
+                      "highlights": [
+                        {
+                          "text": "Data sharing between countries",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Resource sharing",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-20T16:14:50.690Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "b246d3b2-3900-4d0e-9889-704f0bfe8778",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:15:48.478Z",
+            "resultId": 33711
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28777,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.6  Rapid evolution in viruses (HL)",
+              "title": "A2.3.6  Rapid evolution in viruses (HL)",
+              "labeledAt": "2026-03-06T08:45:34.439Z",
+              "reasoning": "Part (b) asks why viruses are often resistant to antiviral drugs, which is primarily explained by rapid viral evolution/high mutation rates leading to resistant variants.",
+              "confidence": 0.83
+            },
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-06T08:45:34.439Z",
+              "reasoning": "Part (a) asks about targeting different stages of the viral life cycle; the lytic cycle provides the core stages (entry/uncoating, genome replication, protein synthesis, assembly, release) that antivirals can inhibit.",
+              "confidence": 0.77
+            },
+            {
+              "id": 28775,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.4  Lysogenic cycle of a virus (HL)",
+              "title": "A2.3.4  Lysogenic cycle of a virus (HL)",
+              "labeledAt": "2026-03-06T08:45:34.439Z",
+              "reasoning": "Some antivirals target integration/latency-related steps or reactivation processes relevant to lysogenic-type cycles (especially for certain DNA viruses), so it can be a secondary link depending on examples used.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 1695409,
+        "parts": [
+          {
+            "id": 1157249,
+            "content": "Describe how antiviral drugs target different stages of the viral life cycle.",
+            "order": 0,
+            "markscheme": "- Antiviral drugs can prevent virus attachment and entry to host cells <marks>1 mark</marks>\n\n- Drugs can inhibit viral uncoating, preventing release of viral genetic material <marks>1 mark</marks>\n\n- Drugs can target viral enzymes (e.g., reverse transcriptase, RNA polymerase) to inhibit viral replication <marks>1 mark</marks>\n\n- Some antivirals interfere with assembly/maturation of new viral particles <marks>1 mark</marks>\n\n- Drugs can prevent release of new viral particles from host cells (e.g., neuraminidase inhibitors for influenza) <marks>1 mark</marks>\n\n- Antivirals can inhibit integration of viral nucleic acid into the host genome (retroviruses) <marks>1 mark</marks>\n\n- Antivirals can inhibit viral proteases, preventing processing of viral polyproteins into functional proteins <marks>1 mark</marks>\n\n<note>Award 1 mark for each correctly described stage and mechanism of action (max 5). Examples are not required.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157250,
+            "content": "Explain why viruses are often resistant to these drugs.",
+            "order": 1,
+            "markscheme": "- High mutation rates: viral genomes (especially RNA viruses) mutate rapidly, leading to changes that confer drug resistance <marks>1 mark</marks>\n\n- Selective pressure from antiviral drug use favors survival and replication of resistant strains <marks>1 mark</marks>\n\n- Genetic recombination: viruses can exchange genetic material and acquire resistance genes <marks>1 mark</marks>\n\n- Short generation times/large population sizes increase the probability that resistant mutants are present before treatment <marks>1 mark</marks>\n\n- Incomplete suppression of replication (e.g., suboptimal dosing/adherence) allows continued replication and selection of resistant variants <marks>1 mark</marks>\n\n<examTip>Focus on biological mechanisms rather than human factors when explaining viral resistance</examTip>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cb27b88d-0b0c-4538-9fa0-c0c71dcc40ab",
+        "specification": "",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-07T17:33:30.493Z",
+              "reasoning": "The question asks for the main steps in replication of a lytic virus, which directly corresponds to the lytic cycle (attachment, entry, biosynthesis, assembly, lysis/release).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1332631,
+        "parts": [
+          {
+            "id": 1009009,
+            "content": "Explain the main steps involved in the replication of a lytic virus.",
+            "order": 0,
+            "markscheme": "- Virus attaches to host cell. <marks>1 mark</marks>\n- Attaches to specific receptors on host cell surface membrane. <marks>1 mark</marks>\n- Viral genetic material enters host cell. <marks>1 mark</marks>\n- Host cell machinery used to produce viral nucleic acids. <marks>1 mark</marks>\n- Host cell machinery used to produce viral proteins. <marks>1 mark</marks>\n- New viral particles are assembled. <marks>1 mark</marks>\n- From the newly synthesized nucleic acids and proteins. <marks>1 mark</marks>\n- Host cell lyses/bursts. <marks>1 mark</marks>\n- New viral particles are released to infect other cells. <marks>1 mark</marks>\n\n<commonMistake>Confusing lytic cycle with lysogenic cycle</commonMistake>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "chronological_stages",
+                  "label": "Chronological Stages",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Method Overview",
+                      "content": "This question asks for the replication process of a lytic virus. We will explain this using the **Chronological Stages** approach, which breaks the life cycle down into five sequential steps: **Attachment**, **Penetration**, **Biosynthesis**, **Assembly**, and **Lysis**. \n\nThis relates to **Topic A2.3 Viruses**, specifically the lytic cycle."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Stage 1: Attachment",
+                      "content": "The first stage is **attachment** (or adsorption). The virus finds a suitable host cell and binds to its surface. Crucially, the virus must attach to **specific receptors** on the host's cell membrane, functioning like a lock and key. This specificity determines which cells a virus can infect.",
+                      "highlights": [
+                        {
+                          "text": "Virus attaches to host cell",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Attaches to specific receptors on host cell surface membrane",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Stage 2: Penetration",
+                      "content": "Once attached, the virus proceeds to **penetration** (or entry). The virus injects its **genetic material** (DNA or RNA) into the cytoplasm of the host cell, leaving the protein coat (capsid) outside in the case of bacteriophages, or entering entirely for some animal viruses.",
+                      "highlights": [
+                        {
+                          "text": "Viral genetic material enters host cell",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Stage 3: Biosynthesis",
+                      "content": "During **biosynthesis** (replication and synthesis), the virus takes control of the host cell. It uses the **host's machinery** (like enzymes, ribosomes, and ATP) to replicate its own genetic material and synthesize viral proteins.\n\nKey actions here:\n1. Production of **viral nucleic acids** (DNA/RNA replication).\n2. Production of **viral proteins** (transcription and translation).",
+                      "highlights": [
+                        {
+                          "text": "Host cell machinery used to produce viral nucleic acids",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Host cell machinery used to produce viral proteins",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Stage 4: Assembly",
+                      "content": "Next is the **assembly** (or maturation) stage. The newly synthesized components are put together to form new, complete viral particles (virions). The viral genetic material is packaged inside the protein capsids.",
+                      "highlights": [
+                        {
+                          "text": "New viral particles are assembled",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "From the newly synthesized nucleic acids and proteins",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Stage 5: Lysis",
+                      "content": "The final stage is **lysis** (release). The cell usually produces an enzyme (like lysozyme) that weakens the cell membrane or wall, causing the host cell to **burst** or lyse. This releases the newly formed viral particles to infect other surrounding cells, restarting the cycle.",
+                      "highlights": [
+                        {
+                          "text": "Host cell lyses/bursts",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "New viral particles are released to infect other cells",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-16T16:22:00.654Z",
+              "modelVersion": "gemini-3-pro-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ce46d2f9-5645-4c43-b213-8591f466fa3d",
+        "specification": "The diagram shows the process of reverse transcription in a retrovirus. What enzyme is responsible for this process? \n![Image](https://pub-images.revisiondojo.com/question-images/be96eeff-10e8-499c-9226-0133c8dc4915)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28773,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.2  Diversity of structure in viruses  (HL)",
+              "title": "A2.3.2  Diversity of structure in viruses  (HL)",
+              "labeledAt": "2026-03-05T16:57:20.228Z",
+              "reasoning": "The question identifies a retrovirus and the process of reverse transcription. Under the current syllabus, the classification of viruses (Baltimore classification) and the specific replication strategies of retroviruses (using reverse transcriptase to convert RNA to DNA) are covered in the diversity of virus structures.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29120,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.12 Infection of lymphocytes by HIV with AIDS as a consequence",
+              "title": "C3.2.12 Infection of lymphocytes by HIV with AIDS as a consequence",
+              "labeledAt": "2026-03-05T16:57:20.228Z",
+              "reasoning": "HIV is the most commonly studied retrovirus in the biology curriculum. The mechanism of infection, including the role of reverse transcriptase in converting the viral RNA genome into DNA within host lymphocytes, is a key component of this topic.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 827188,
+        "parts": [],
+        "options": [
+          {
+            "id": 1557406,
+            "content": "DNA polymerase",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1557407,
+            "content": "RNA polymerase",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1557408,
+            "content": "Reverse transcriptase",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1557409,
+            "content": "Ligase",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d030e9bf-342b-424d-98fe-ff2ce074bd6b",
+        "specification": "The figure shows the life cycle of the SARS-CoV-2 virus inside a human cell.\n\n![](https://pub-images.revisiondojo.com/notes/f8b0e4a8-b75c-4373-ac16-2441e4a7c13c.jpeg)\n\nStep labels in the figure include: (1) virus binds ACE2 receptor; (2) viral entry and uncoating; (3) host ribosome translating viral RNA; (4) polyprotein processing; (5) replication of viral genome; (6) transcription of subgenomic RNA; (7) structural proteins synthesized at rough ER; (8) assembly of virion in Golgi/ERGIC.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T11:35:11.739Z",
+            "resultId": 33877
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29181,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.6 Roles of mRNA, ribosomes and tRNA in translation",
+              "title": "D1.2.6 Roles of mRNA, ribosomes and tRNA in translation",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Parts b and c focus on host ribosomes translating viral RNA into polyproteins (protein synthesis/translation).",
+              "confidence": 0.84
+            },
+            {
+              "id": 28869,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "title": "B2.2.7 Structure and function of free ribosomes and of the rough endoplasmic reticulum (HL)",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Part b asks for cellular structures used for protein synthesis/assembly (ribosomes/RER implicated in viral protein production in the diagram).",
+              "confidence": 0.74
+            },
+            {
+              "id": 28870,
+              "isHl": true,
+              "path": "B - Form and Function > B2.2 Organelles and compartmentalization > B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "title": "B2.2.8 Structure and function of the Golgi apparatus (HL)",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Parts b and h involve virion assembly and integration/processing of envelope proteins via secretory pathway organelles such as the Golgi apparatus.",
+              "confidence": 0.6
+            },
+            {
+              "id": 29180,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.5 Translation as the synthesis of polypeptides from mRNA",
+              "title": "D1.2.5 Translation as the synthesis of polypeptides from mRNA",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Part c explicitly asks the role of the ribosome after genome release\u2014translation of viral proteins from mRNA.",
+              "confidence": 0.58
+            },
+            {
+              "id": 29177,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.2 Protein synthesis > D1.2.2 Role of hydrogen bonding and complementary base pairing in transcription",
+              "title": "D1.2.2 Role of hydrogen bonding and complementary base pairing in transcription",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Part d refers to transcription in an RNA virus life cycle (synthesis of viral mRNAs), aligning with transcription concept.",
+              "confidence": 0.52
+            },
+            {
+              "id": 29195,
+              "isHl": false,
+              "path": "D - Continuity and Change > D1.3 Mutations and gene editing > D1.3.1 Gene mutations as structural changes to genes at the molecular level",
+              "title": "D1.3.1 Gene mutations as structural changes to genes at the molecular level",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Part f discusses mutations in the spike gene causing immune evasion; this relies on understanding gene mutations.",
+              "confidence": 0.56
+            },
+            {
+              "id": 29296,
+              "isHl": false,
+              "path": "D - Continuity and Change > D4.1 Natural selection > D4.1.1 Natural selection as the mechanism driving evolutionary change",
+              "title": "D4.1.1 Natural selection as the mechanism driving evolutionary change",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Part f requires explaining how variants become dominant using natural selection principles.",
+              "confidence": 0.67
+            },
+            {
+              "id": 29116,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.8 Activation of B-lymphocytes by helper T-lymphocytes",
+              "title": "C3.2.8 Activation of B-lymphocytes by helper T-lymphocytes",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Part e directly asks how helper T cells activate/assist B cells in adaptive immunity.",
+              "confidence": 0.86
+            },
+            {
+              "id": 28777,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.6  Rapid evolution in viruses (HL)",
+              "title": "A2.3.6  Rapid evolution in viruses (HL)",
+              "labeledAt": "2026-03-06T10:08:00.649Z",
+              "reasoning": "Part f concerns viral variants and immune evasion; relates to rapid evolution in viruses.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695921,
+        "parts": [
+          {
+            "id": 1157930,
+            "content": "Identify the two host-cell structures used for protein synthesis (step 3) and virion assembly (step 8).",
+            "order": 0,
+            "markscheme": "- ribosomes (host ribosome) for protein synthesis <marks>1 mark</marks>\n- Golgi apparatus / ER-Golgi intermediate compartment (ERGIC) for assembly <marks>1 mark</marks>\n\n_**OR**_\n\n- ribosomes for protein synthesis <marks>1 mark</marks>\n- endoplasmic reticulum (rough ER) / Golgi region as the site of assembly/budding shown <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157931,
+            "content": "Based on the figure, describe the role of the host ribosome in the viral life cycle after the viral genome is released.",
+            "order": 1,
+            "markscheme": "- translates viral RNA (acting as mRNA) to produce viral polypeptides/proteins <marks>1 mark</marks>\n- uses host tRNAs/amino acids/translation machinery to synthesize viral proteins <marks>1 mark</marks>\n\n_**OR**_\n\n- translation produces viral polyproteins that are then processed (step 4) into functional proteins <marks>1 mark</marks>\n- these proteins include enzymes needed for replication/transcription (steps 5\u20136) and/or structural proteins for new virions <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157932,
+            "content": "Suggest why SARS\u2011CoV\u20112 must both replicate its RNA genome (step 5) and transcribe subgenomic mRNA (step 6).",
+            "order": 2,
+            "markscheme": "- replication produces full-length genome RNA copies for packaging into new virions <marks>1 mark</marks>\n- transcription produces subgenomic mRNAs needed to translate viral structural proteins <marks>1 mark</marks>\n\n_**OR**_\n\n- replication increases the number of genome templates so infection can produce many progeny viruses <marks>1 mark</marks>\n- transcription allows different viral proteins to be made efficiently from shorter mRNAs rather than only from the full-length genome <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157933,
+            "content": "Using your knowledge of the immune system, explain how helper T cells assist B cells in fighting SARS-CoV-2 infection.",
+            "order": 3,
+            "markscheme": "- helper T cells recognize viral antigen presented by B cells on MHC II <marks>1 mark</marks>\n- helper T cells provide activation signals (e.g., cytokines and/or CD40L\u2013CD40 interaction) causing clonal expansion and differentiation of B cells into plasma cells <marks>1 mark</marks>\n\n_**OR**_\n\n- helper T cells stimulate B cells to undergo class switching/affinity maturation (leading to more effective antibodies) <marks>1 mark</marks>\n- generates memory B cells for a faster secondary response <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157934,
+            "content": "Using your understanding of natural selection, explain how spike-gene variants of SARS-CoV-2 may become dominant in a population.",
+            "order": 4,
+            "markscheme": "- mutations can change spike protein epitopes, reducing binding/recognition by existing neutralizing antibodies <marks>1 mark</marks>\n- variants with higher fitness (e.g., increased transmission/replication/survival) leave more offspring, so allele frequency increases over time <marks>1 mark</marks>\n\n_**OR**_\n\n- in populations with immunity (vaccination/prior infection), immune escape provides a selective advantage <marks>1 mark</marks>\n- the advantageous variant spreads more successfully between hosts and becomes more common/dominant <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157935,
+            "content": "Identify and explain the role of one enzyme involved in processing viral polyproteins after translation (step 4).",
+            "order": 5,
+            "markscheme": "- viral protease (e.g., main protease/3CLpro) <marks>1 mark</marks>\n- cleaves large viral polyproteins into smaller functional non-structural proteins needed for replication/transcription <marks>1 mark</marks>\n\n_**OR**_\n\n- protease cuts at specific recognition sites in the polyprotein <marks>1 mark</marks>\n- produces multiple functional proteins from a single translated polyprotein (polyprotein processing) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157936,
+            "content": "Based on the diagram, describe how viral envelope proteins (S, M, and E) are integrated into new virions during viral assembly.",
+            "order": 6,
+            "markscheme": "- S, M and E are synthesized at the rough ER and inserted into ER/ERGIC membranes <marks>1 mark</marks>\n- nucleocapsid buds into ERGIC/Golgi membranes containing these proteins, forming the enveloped virion which is then transported in vesicles (step 8) <marks>1 mark</marks>\n\n_**OR**_\n\n- envelope proteins move through the ER to the Golgi/ERGIC as part of the secretory pathway <marks>1 mark</marks>\n- assembly occurs at internal membranes (Golgi/ERGIC), not at the plasma membrane, before release via vesicles <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e00c4c71-3f08-4e25-b2fa-becfdf1390fa",
+        "specification": "Viruses can act as vectors that move genetic material between organisms.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 308,
+        "difficulty": 10,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T09:22:43.912Z",
+            "resultId": 5883
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28775,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.4  Lysogenic cycle of a virus (HL)",
+              "title": "A2.3.4  Lysogenic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T08:12:38.353Z",
+              "reasoning": "The lysogenic cycle involves the integration of the viral genome into the host DNA (prophage/provirus). This is the fundamental mechanism for retroviruses (like HIV) and specialized transduction in bacteriophages, which facilitates the horizontal transfer of genetic material between host organisms.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T08:12:38.353Z",
+              "reasoning": "The lytic cycle is responsible for the packaging of DNA and the eventual release of virions. Generalized transduction occurs during this cycle when a portion of the host's bacterial DNA is accidentally packaged into a viral capsid and then transferred to a new host cell.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1693699,
+        "parts": [
+          {
+            "id": 1155883,
+            "content": "Outline how bacteriophages transfer genes between bacteria by transduction.",
+            "order": 0,
+            "markscheme": "- Bacteriophages infect bacterial cells <marks>1 mark</marks>\n- Viral replication can package/carry host bacterial DNA in phage particles or incorporate bacterial DNA into the viral genome <marks>1 mark</marks>\n- The DNA is transferred to a new bacterial host during subsequent infection, introducing new genes and increasing genetic variation <marks>1 mark</marks>\n- Correct reference to generalized and/or specialized transduction (optional detail) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155884,
+            "content": "Describe how retroviruses can transfer genetic material to a host cell.",
+            "order": 1,
+            "markscheme": "- Retroviruses contain an RNA genome <marks>1 mark</marks>\n- Reverse transcriptase synthesizes DNA from the RNA template <marks>1 mark</marks>\n- Viral DNA integrates into the host genome (provirus) <marks>1 mark</marks>\n- Integrated sequences can be inherited/expressed in the host, leading to horizontal gene transfer/altered phenotype <marks>1 mark</marks>\n- Award credit for other correct details such as integrase, insertional mutagenesis, or vertical transmission after germline integration <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155885,
+            "content": "Explain the role of viruses in gene transfer, using examples such as bacteriophages in transduction and retroviruses in horizontal gene transfer.",
+            "order": 2,
+            "markscheme": "- Viruses act as vectors that can move nucleic acids between cells/species <marks>1 mark</marks>\n- Phage infection of bacteria and formation of new virions provides a mechanism for gene movement between bacterial cells <marks>1 mark</marks>\n- Phages can carry bacterial DNA (or bacterial genes incorporated into the viral genome) from one bacterium to another during later infection (transduction) <marks>1 mark</marks>\n- Transduced DNA can recombine with the recipient genome, increasing genetic variation and potentially spreading traits such as antibiotic resistance <marks>1 mark</marks>\n- Retroviruses reverse-transcribe RNA to DNA and integrate into the host genome, allowing viral/host sequences to be inserted into host DNA <marks>1 mark</marks>\n- If integration occurs in germline cells, viral sequences can be inherited and contribute to evolution (endogenous retroviruses) <marks>1 mark</marks>\n- Example: retroviral env-derived genes (e.g., syncytin) involved in the evolution of the mammalian placenta by promoting cell fusion in the trophoblast <marks>1 mark</marks>\n- Award marks for other relevant examples of viral gene transfer if correctly explained <marks>1 mark</marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e0f61c43-6001-4b5c-abe1-4ec89531efcb",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1b",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T09:17:24.409Z",
+            "resultId": 5890
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28772,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.1  Structural features common to viruses (HL)",
+              "title": "A2.3.1  Structural features common to viruses (HL)",
+              "labeledAt": "2026-03-05T08:12:55.682Z",
+              "reasoning": "Part a specifically asks for structural features common to viruses as shown in the provided diagram, which is a core requirement of this topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29112,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.4 Differences between the innate immune system and the adaptive immune system",
+              "title": "C3.2.4 Differences between the innate immune system and the adaptive immune system",
+              "labeledAt": "2026-03-05T08:12:55.682Z",
+              "reasoning": "Part c asks the student to explain how the interferon response represents part of the innate immune defense, specifically contrasting it with other types of immunity.",
+              "confidence": 0.9
+            },
+            {
+              "id": 28777,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.6  Rapid evolution in viruses (HL)",
+              "title": "A2.3.6  Rapid evolution in viruses (HL)",
+              "labeledAt": "2026-03-05T08:12:55.682Z",
+              "reasoning": "Part d asks for the reasons why RNA viruses like SARS-CoV-2 evolve rapidly compared to DNA organisms, which is exactly the focus of this topic.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29126,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.18 Evaluation of data related to the COVID-19 pandemic",
+              "title": "C3.2.18 Evaluation of data related to the COVID-19 pandemic",
+              "labeledAt": "2026-03-05T08:12:55.682Z",
+              "reasoning": "The entire question serves as a case study for evaluating biological data and mechanisms related to the COVID-19 pandemic.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693692,
+        "parts": [
+          {
+            "id": 1155872,
+            "content": "Based on panel a, identify three structural features of SARS-CoV-2 that are typical of viruses and explain why each is important.",
+            "order": 0,
+            "markscheme": "- Small fixed size allows efficient entry into cells <marks>1 mark</marks>\n- RNA genome acts as the nucleic acid genetic material <marks>1 mark</marks>\n- Protein capsid protects the viral genome <marks>1 mark</marks>\n- Envelope derived from host membrane facilitates entry into host cells <marks>1 mark</marks>\n- Award full marks for any three correct feature\u2013importance statements <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155873,
+            "content": "Using panel b, describe the sequence of molecular interactions that allows SARS-CoV-2 to enter host cells.",
+            "order": 1,
+            "markscheme": "- S1 domain binds ACE2 receptor <marks>1 mark</marks>\n- TMPRSS2 protease cleaves S protein at the S2' site <marks>1 mark</marks>\n- Activation of S2 domain allows fusion of viral and host membranes <marks>1 mark</marks>\n- Viral RNA genome enters host cytoplasm <marks>1 mark</marks>\n- Award full marks for any three steps in the correct sequence <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155874,
+            "content": "Explain how panel c illustrates part of the innate immune defense, including the role of interferons.",
+            "order": 2,
+            "markscheme": "- Viral dsRNA recognized by RIG-I or MDA5 <marks>1 mark</marks>\n- Signals through MAVS adaptor <marks>1 mark</marks>\n- Induces type I/III interferon (IFN) production <marks>1 mark</marks>\n- IFNs bind to IFN receptors and activate the JAK-STAT pathway <marks>1 mark</marks>\n- Leads to expression of ISGs with antiviral effects <marks>1 mark</marks>\n- Award full marks for any three correct points <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155875,
+            "content": "SARS-CoV-2 is an RNA virus. Explain why RNA viruses often show very rapid evolution compared to DNA-based organisms.",
+            "order": 3,
+            "markscheme": "- RNA polymerases lack proofreading leading to high mutation rates <marks>1 mark</marks>\n- Short replication cycles / rapid population turnover <marks>1 mark</marks>\n- Large population sizes lead to faster selection <marks>1 mark</marks>\n- Award full marks for any two correct points <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e4f8b71b-087f-4cae-b501-a1f2b32a9617",
+        "specification": "What is the purpose of the viral envelope?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28772,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.1  Structural features common to viruses (HL)",
+              "title": "A2.3.1  Structural features common to viruses (HL)",
+              "labeledAt": "2026-03-06T16:04:37.235Z",
+              "reasoning": "The question asks the function/purpose of a viral envelope, which is a structural feature of viruses covered under common structural features (including envelopes and attachment proteins).",
+              "confidence": 0.82
+            },
+            {
+              "id": 28773,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.2  Diversity of structure in viruses  (HL)",
+              "title": "A2.3.2  Diversity of structure in viruses  (HL)",
+              "labeledAt": "2026-03-06T16:04:37.235Z",
+              "reasoning": "Viral envelopes are part of the diversity of viral structures; the question focuses on how an envelope contributes to infection (attachment to host cells).",
+              "confidence": 0.66
+            }
+          ]
+        },
+        "currentRevisionId": 827250,
+        "parts": [],
+        "options": [
+          {
+            "id": 3596262,
+            "content": "Protects the nucleic acid",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3596263,
+            "content": "Helps the virus attach to host cells",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3596264,
+            "content": "Replicates viral RNA",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3596265,
+            "content": "Synthesizes proteins",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e76cf6d9-ed69-48c8-ad8e-7076693d9c98",
+        "specification": "The diagram shows a bacteriophage infecting a bacterial cell. What part of the virus enters the host cell?\n![Image](https://pub-images.revisiondojo.com/question-images/34d8f472-8e97-45fd-95e0-4f4c57a7f674)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 3,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "HL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T17:00:43.784Z",
+              "reasoning": "The question illustrates the entry phase of a bacteriophage infection, which is a key stage in the lytic cycle of a virus.",
+              "confidence": 0.95
+            },
+            {
+              "id": 27731,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A1.2 Nucleic acids > A1.2.14 Evidence from the Hershey\u2013Chase experiment for DNA as the genetic material (HL only)",
+              "title": "A1.2.14 Evidence from the Hershey\u2013Chase experiment for DNA as the genetic material (HL only)",
+              "labeledAt": "2026-03-05T17:00:43.784Z",
+              "reasoning": "This question tests the fundamental concept established by the Hershey-Chase experiment: that in bacteriophage infection, only the nucleic acid enters the host cell.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 763389,
+        "parts": [],
+        "options": [
+          {
+            "id": 1557386,
+            "content": "Entire virus",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1557387,
+            "content": "Protein coat",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1557388,
+            "content": "Nucleic acid",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1557389,
+            "content": "Capsid",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e8660baa-9699-4619-9240-f5c2c808e5e1",
+        "specification": "The diagram below shows the life cycle of the influenza virus. At which stage is viral RNA replicated?\n\n![Image](https://pub-images.revisiondojo.com/question-images/9def6188-254d-4c61-8394-44cf8b3dbe43)",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": true,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T17:00:40.579Z",
+              "reasoning": "The question asks to identify a specific stage in the influenza virus life cycle, which corresponds to the productive/lytic cycle of a virus where replication of genetic material occurs.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29109,
+              "isHl": false,
+              "path": "C - Interaction and Interdependence > C3.2 Defense against disease > C3.2.1 Pathogens as the cause of infectious diseases",
+              "title": "C3.2.1 Pathogens as the cause of infectious diseases",
+              "labeledAt": "2026-03-05T17:00:40.579Z",
+              "reasoning": "Influenza is a classic example of a viral pathogen, and understanding its life cycle is part of the study of pathogens and how they cause infectious diseases.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 825725,
+        "parts": [],
+        "options": [
+          {
+            "id": 1935263,
+            "content": "Stage 1",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1935264,
+            "content": "Stage 2",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1935265,
+            "content": "Stage 3a",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1935266,
+            "content": "Stage 3b",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f425dfe8-c2f0-4b99-bf2f-c66a797dbebb",
+        "specification": "What is a key feature of the lysogenic cycle of viral reproduction?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 308,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "HL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T10:04:48.574Z",
+            "resultId": 5737
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 28774,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.3  Lytic cycle of a virus (HL)",
+              "title": "A2.3.3  Lytic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T08:11:44.234Z",
+              "reasoning": "The question directly asks for the distinction between the lytic cycle and the lysogenic cycle. The lytic cycle is defined by the replication of the virus and the subsequent destruction (lysis) of the host cell.",
+              "confidence": 1
+            },
+            {
+              "id": 28775,
+              "isHl": true,
+              "path": "A - Unity and Diversity > A2.3 Viruses (HL) > A2.3.4  Lysogenic cycle of a virus (HL)",
+              "title": "A2.3.4  Lysogenic cycle of a virus (HL)",
+              "labeledAt": "2026-03-05T08:11:44.234Z",
+              "reasoning": "The question requires knowledge of the lysogenic cycle to compare it with the lytic cycle, specifically regarding the host cell's survival and the integration of viral DNA.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 1693745,
+        "parts": [],
+        "options": [
+          {
+            "id": 4931333,
+            "content": "Viral DNA integrates into the host genome and replicates with it.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. In the lysogenic cycle, the viral genome integrates into the host cell\u2019s DNA (forming a prophage/provirus) and is replicated with the host genome without immediate lysis."
+          },
+          {
+            "id": 4931334,
+            "content": "The virus immediately lyses the host cell to release new virions.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Immediate lysis and release of new virions is characteristic of the lytic cycle, not the lysogenic cycle."
+          },
+          {
+            "id": 4931335,
+            "content": "Viral capsids assemble inside the nucleus only, then bud from the membrane.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Budding and nucleus-only assembly are not defining features of the lysogenic cycle; integration into the host genome is the key feature."
+          },
+          {
+            "id": 4931336,
+            "content": "The viral genome is degraded after entry to prevent host immune detection.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. In the lysogenic cycle, the viral genome persists (often integrated) rather than being degraded after entry."
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "17",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10839,
+      "title": "A2.3 Viruses (HL)",
+      "slug": "ib-biology-new-a23-viruses-hl",
+      "parentTopicId": 10834
+    },
+    "subject": {
+      "id": 308,
+      "title": "Biology",
+      "slug": "ib-biology-new",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "17",
+      "byQuestion": {}
+    }
+  }
+}

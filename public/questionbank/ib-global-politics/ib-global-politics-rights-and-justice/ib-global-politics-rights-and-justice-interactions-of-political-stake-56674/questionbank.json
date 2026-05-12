@@ -1,3 +1,1681 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:df16426c230b3d54527c1ed5d2cd1830a18a6fae53c39ce43c3432c4e5df00cb
-size 195266
+{
+  "json": {
+    "questions": [
+      {
+        "id": "05bbe9df-2cb9-4e41-a8c3-872564dea520",
+        "specification": "**Source A**\n\n![Image](https://pub-images.revisiondojo.com/question-images/611bdefd-509c-456d-8b94-a29bf145307e)\n\n**Source B**\n\n*Adapted from \u201cCrackdowns on protests and freedom of expression continue globally,\u201d an article by Human Rights Watch, www.hrw.org (2023).*\n\nFreedom of expression and the right to peaceful assembly are protected under the Universal Declaration of Human Rights (Articles 19 and 20). Yet in recent years, these rights have come under increasing threat across multiple regions.\n\nAccording to Human Rights Watch, governments in countries such as India, Egypt, and China have used excessive force to disperse protests, blocked internet access, and arrested activists and journalists. Authorities have frequently labelled protest movements as \u201cthreats to national security,\u201d justifying harsh crackdowns and prolonged detentions.\n\nThese violations not only silence dissenting voices but also weaken democratic accountability. In many cases, marginalized communities, including women, students, and ethnic minorities, are disproportionately targeted, making it harder for them to advocate for justice or reform.\n\nDespite these pressures, civil society movements have continued to demand change, highlighting the enduring importance of protecting freedom of speech and assembly in ensuring broader human rights protections.\n\n**Source C**\n\n*Adapted from: \u201cCounter-Terrorism and Human Rights,\u201d UN Human Rights Council, www.ohchr.org (2022).*\n\nMany governments justify restrictive laws and practices in the name of national security. However, the UN Human Rights Council has raised serious concerns that such measures often violate fundamental human rights.\n\nIn recent years, anti-terror legislation in countries such as France, Egypt, and the Philippines has allowed for indefinite detention, internet shut-downs, mass surveillance, and the banning of public gatherings. Critics argue that these measures disproportionately target political activists, minority communities, and human rights defenders.\n\nThe UN emphasizes that while states have a duty to protect their citizens from terrorism, they must also uphold international human rights obligations. Counter-terror policies should be necessary, proportionate, and subject to independent oversight to prevent abuse of power and the erosion of civil liberties.\n\n**Source D**\n\n*Adapted from: \u201cCrackdown on Press Freedom,\u201d Reporters Without Borders, www.rsf.org (2023).*\n\nFreedom of the press is essential to democracy and accountability, but it is increasingly under threat. Reporters Without Borders reports that in over 70 countries, journalists are being harassed, jailed, or killed for reporting on corruption, conflict, or human rights violations.\n\nIn places like Turkey, China, and Eritrea, governments have shut down media outlets, censored online platforms, and labelled independent journalists as enemies of the state. In more democratic countries, legal intimidation and surveillance have created a chilling effect, causing journalists to self-censor.\n\nThe organization stresses that attacks on press freedom not only violate the rights of journalists, but also undermine the public\u2019s right to information. It calls for urgent international action to protect media workers and restore space for free, independent journalism.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 328,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "revisedAt": "2025-08-21T19:27:28.204Z",
+          "totalCost": 0.040824,
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T10:03:48.968Z",
+            "resultId": 33821
+          },
+          "revisedFromIssues": [
+            {
+              "type": "FRQ Markscheme Mismatch",
+              "message": "Part 3 markscheme misrepresents the provided sources. It states that Source D includes corporations as actors and emphasizes privacy/mass surveillance, but the provided Source D text mentions only government actions and centers on press freedom and the public\u2019s right to information (with surveillance as a contributing factor). It also frames Source C as focusing on internet shutdowns when the text lists multiple measures (indefinite detention, shutdowns, mass surveillance, bans on gatherings). This inconsistency could mislead grading and rewards claims not supported by the sources.",
+              "severity": "critical",
+              "proposedChange": "Revise Part 3 markscheme bullets to align with the sources:\n- Nature of the threats: Both sources describe state-imposed restrictions. Source C includes anti-terror measures such as indefinite detention, internet shutdowns, mass surveillance, and bans on public gatherings. Source D includes censorship (shutdowns of media outlets, online platform censorship), legal intimidation, and surveillance leading to self-censorship.\n- Actors involved: Both sources identify governments as the primary actors. Remove the reference to corporations in Source D, as they are not mentioned in the provided text.\n- Affected rights and groups: For Source C, note impacts on freedom of expression, assembly, access to information, due process/privacy, and marginalized groups. For Source D, emphasize press freedom and the public\u2019s right to information, with a chilling effect from surveillance; activists and journalists are disproportionately targeted."
+            }
+          ],
+          "labeledSubSubTopics": [
+            {
+              "id": 56671,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Understanding Human Rights",
+              "title": "Understanding Human Rights",
+              "labeledAt": "2026-03-06T08:57:56.002Z",
+              "reasoning": "All parts focus on human rights (freedom of expression, assembly, press freedom) and how they are threatened/justified\u2014core understanding of human rights.",
+              "confidence": 0.92
+            },
+            {
+              "id": 56652,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Sovereignty > Internal and external dimensions of sovereignty",
+              "title": "Internal and external dimensions of sovereignty",
+              "labeledAt": "2026-03-06T08:57:56.002Z",
+              "reasoning": "Part (d) explicitly asks about national sovereignty being used to justify human-rights violations, engaging internal/external dimensions of sovereignty and limits on state action.",
+              "confidence": 0.86
+            },
+            {
+              "id": 56660,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Interdependence > Global governance and international law",
+              "title": "Global governance and international law",
+              "labeledAt": "2026-03-06T08:57:56.002Z",
+              "reasoning": "Sources B/C invoke UDHR and UN Human Rights Council standards on proportionality/oversight, linking to international law and global governance constraints on states.",
+              "confidence": 0.8
+            },
+            {
+              "id": 56644,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Framing Global Politics > The media",
+              "title": "The media",
+              "labeledAt": "2026-03-06T08:57:56.002Z",
+              "reasoning": "Source D and part (c) address press freedom, censorship, harassment of journalists, and media\u2019s role in accountability.",
+              "confidence": 0.75
+            },
+            {
+              "id": 56640,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Framing Global Politics > Social movements",
+              "title": "Social movements",
+              "labeledAt": "2026-03-06T08:57:56.002Z",
+              "reasoning": "Sources and questions discuss protests/peaceful assembly and civil society mobilization; part (b) asks why protest/expression are essential rights.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1695641,
+        "parts": [
+          {
+            "id": 1157470,
+            "content": "Identify three human rights that are threatened, as suggested by Source A.",
+            "order": 0,
+            "markscheme": "Any three of the following, as suggested by the cartoon:\n\n- Freedom of expression/speech.\n- Freedom of assembly/peaceful protest.\n- Equality/non-discrimination (eg women\u2019s rights/gender equality).\n- Human rights more generally/civil and political rights.\n\n<marks>1 mark</marks> for each correctly identified right (max <marks>3 marks</marks>).",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157471,
+            "content": "Explain how one government justification for restricting rights is presented in Source B.",
+            "order": 1,
+            "markscheme": "Responses should explain one justification presented in Source B, with explicit reference to the source.\n\nPossible justification (must be linked to the source):\n- Authorities label protest movements as \u201cthreats to national security\u201d, which is used to justify harsh crackdowns and prolonged detentions.\n\nAward up to <marks>4 marks</marks> using the following:\n- <marks>1 mark</marks> for identifying a relevant justification from Source B.\n- <marks>1\u20133 marks</marks> for developing an explanation of how that justification is used to restrict rights (eg legitimizing excessive force, arrests/detentions, or internet blocking), with explicit reference to Source B.\n\nMaximum <marks>4 marks</marks>.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157472,
+            "content": "Compare and contrast the threats to human rights described in Source C and Source D.",
+            "order": 2,
+            "markscheme": "Responses must refer to both sources throughout and include at least one similarity and one difference.\n\nSimilarities may include:\n- Both describe state actions justified by \u201csecurity\u201d concerns that restrict civil liberties/human rights.\n- Both reference surveillance as a threat (Source C: mass surveillance under anti-terror laws; Source D: surveillance creating a chilling effect on journalists).\n- Both indicate restrictions that limit public scrutiny/accountability (Source C: repression of activists/defenders; Source D: repression of journalists and access to information).\n\nDifferences may include:\n- Source C focuses on counter-terrorism measures (eg indefinite detention, internet shut-downs, banning public gatherings), while Source D focuses on press freedom repression (eg harassment/jailing/killing journalists, shutting down media outlets, censoring platforms, legal intimidation).\n- Source C emphasizes legality/oversight and proportionality of counter-terror policies; Source D emphasizes protection of journalists and the public\u2019s right to information.\n\nAward up to <marks>6 marks</marks>:\n- <marks>1\u20132 marks</marks> for making relevant points about both sources, but with limited comparison.\n- <marks>3\u20134 marks</marks> for clear comparative points including at least one similarity and one difference, with reference to both sources.\n- <marks>5\u20136 marks</marks> for a balanced, detailed comparison and contrast, consistently integrating both sources.\n\nMaximum <marks>6 marks</marks>.",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1157473,
+            "content": "Using at least three sources and your own knowledge, evaluate the claim that national security is the main reason governments restrict civil liberties.",
+            "order": 3,
+            "markscheme": "Responses should present a balanced evaluation using at least three sources and the student\u2019s own knowledge, and allow for counter-arguments.\n\nIndicative content (examples):\n- Arguments supporting the claim:\n  - Sources B and C show governments explicitly invoking \u201cnational security\u201d/counter-terrorism to justify restrictions such as dispersing protests, internet blocking/shut-downs, arrests and prolonged/indefinite detention, surveillance, and bans on gatherings.\n  - Own knowledge: reference to historical/ contemporary use of emergency powers/anti-terror legislation to expand state authority and limit rights.\n- Arguments challenging the claim:\n  - Source D suggests restrictions also serve political control and suppression of scrutiny (eg censorship, shutdown of media outlets, intimidation of journalists), which may be motivated by protecting regime legitimacy, avoiding exposure of corruption, or controlling narratives rather than genuine security needs.\n  - Source A implies structural barriers/erosion of rights despite \u201crights\u201d rhetoric, suggesting broader political/social motivations (eg limiting democratic participation, maintaining power).\n  - Own knowledge: examples where civil liberties are restricted to manage dissent, preserve one-party/authoritarian rule, or during political crises; discussion of propaganda, legal intimidation, and patronage networks.\n- Evaluation/nuance:\n  - National security can be a genuine concern, but sources indicate it may be used as a broad justification; importance of necessity, proportionality, and oversight (Source C).\n  - Consider variation across regime types and contexts; weigh evidence for security vs political expediency.\n\nMarking guidance (holistic):\n- <marks>1\u20133 marks</marks>: Descriptive use of sources; limited evaluation; little/no own knowledge.\n- <marks>4\u20136 marks</marks>: Some evaluation with partial balance; references at least three sources but may be uneven; some own knowledge.\n- <marks>7\u20139 marks</marks>: Clear, balanced evaluation with relevant own knowledge; integrates sources to support arguments and counter-arguments.\n- <marks>10\u201312 marks</marks>: Sustained, well-structured evaluation with a clear judgement; effective integration of at least three sources and strong own knowledge; considers counter-claims and reaches a reasoned conclusion.\n\nMaximum <marks>12 marks</marks>.",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0c540964-4dee-4c1c-8b61-d2d4d773f855",
+        "specification": "**Source A** \n\n![Infographic map of The Delta Basin showing indigenous territories and resource zones](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-economics-0c540964-4dee-4c1c-8b61-d2d4d773f855-1771937587718/af767a8f-9575-42ef-9c00-bab021d5a447.jpeg)\n\n**Source B** \n\n*Adapted from the United Nations Declaration on the Rights of Indigenous Peoples (UNDRIP), Article 32 (2007)*\n\nStates shall consult and cooperate in good faith with the indigenous peoples concerned through their own representative institutions in order to obtain their free and informed consent prior to the approval of any project affecting their lands or territories and other resources, particularly in connection with the development, utilization or exploitation of mineral, water or other resources. \n\nCollective rights represent the shared interests and identity of a group, which are distinct from individual rights. For many indigenous communities, the right to land is not just an individual property right but a collective right to survival, culture, and self-determination. This framework challenges traditional Western notions of individual justice by arguing that the group\u2019s historical and spiritual connection to a territory must be legally protected to ensure the human rights of all its members are realized.\n\n**Source C** \n\n*Adapted from an editorial: \u201cNational Development and the Public Interest,\u201d The Daily Progress (2019)*\n\nCritics of large-scale infrastructure and mining projects often ignore the broader mandate of the state: the welfare of the entire nation. While respect for local communities is important, it cannot override the state\u2019s sovereign right to develop its natural resources for the benefit of the majority. The revenues generated from these projects provide the schools, hospitals, and infrastructure needed to lift millions out of poverty. \n\nA system that grants a small minority a permanent veto over national economic strategy is fundamentally unjust to the rest of the citizenry. The state must balance competing interests, but its primary duty is to the collective prosperity of its people. Individual and group grievances must be managed through fair compensation, but the progress of the nation as a whole is a priority that ensures the long-term enjoyment of social and economic rights for every citizen.\n\n**Source D** \n\n*Adapted from a report by Cultural Survival: \u201cThe Struggle for Ancestral Land,\u201d (2021)*\n\nFor the Ogoni people and many other groups, the land is more than a resource; it is the foundation of their identity and existence. Recent years have seen an escalation of conflict as governments grant licenses to multinational corporations without the genuine consent of the residents. Activists argue that \u201cdevelopment\u201d forced upon a community is not development at all, but a form of dispossession. \n\nIn many cases, legal victories in international courts\u2014which recognize the collective titles of indigenous peoples\u2014are ignored by national governments. The persistence of these conflicts highlights the clash between two views of justice: one that prioritizes the global market and national GDP, and another that prioritizes the dignity and cultural continuity of traditional societies. True justice requires recognizing that certain rights, such as the right to ancestral land, are non-negotiable and cannot be simply \u201cbought off\u201d with compensation.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-economics-0c540964-4dee-4c1c-8b61-d2d4d773f855-1771937587718",
+            "generatedAt": "2026-02-24T13:36:27.354Z",
+            "sourceRevisionId": 1418788
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:56:47.203Z",
+            "resultId": 12146
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 56688,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Demands for Recognition of Individual and Group Rights",
+              "title": "Demands for Recognition of Individual and Group Rights",
+              "labeledAt": "2026-03-05T15:06:42.613Z",
+              "reasoning": "The central theme of the question and the final discussion task (Part c) concerns the relationship and potential conflict between individual rights and collective/group rights, specifically regarding indigenous peoples.",
+              "confidence": 1
+            },
+            {
+              "id": 56692,
+              "isHl": false,
+              "path": "Development and Sustainability > Contested Meanings of Development and Sustainability > Understanding Development: Definitions, Interpretations, and Perspectives",
+              "title": "Understanding Development: Definitions, Interpretations, and Perspectives",
+              "labeledAt": "2026-03-05T15:06:42.613Z",
+              "reasoning": "Part b explicitly asks to compare views on development, contrasting the state-centric economic focus in Source C with the cultural and ancestral focus in Source D.",
+              "confidence": 1
+            },
+            {
+              "id": 56673,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Justice: Meanings, Theories, and Global Perspectives",
+              "title": "Justice: Meanings, Theories, and Global Perspectives",
+              "labeledAt": "2026-03-05T15:06:42.613Z",
+              "reasoning": "The question specifically requires a comparison of views on 'justice' in Part b, addressing different global perspectives on what constitutes a just outcome for land and resource disputes.",
+              "confidence": 1
+            },
+            {
+              "id": 56700,
+              "isHl": false,
+              "path": "Development and Sustainability > Interactions of Political Stakeholders and Actors > Vulnerable and marginalized groups and individuals",
+              "title": "Vulnerable and marginalized groups and individuals",
+              "labeledAt": "2026-03-05T15:06:42.613Z",
+              "reasoning": "The sources and tasks focus on indigenous communities, which are primary examples of vulnerable and marginalized groups whose rights and participation are central to global politics debates on development.",
+              "confidence": 0.95
+            },
+            {
+              "id": 56634,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Framing Global Politics > The role of the state",
+              "title": "The role of the state",
+              "labeledAt": "2026-03-05T15:06:42.613Z",
+              "reasoning": "Source C highlights the role of the state, its sovereignty over natural resources, and its mandate to prioritize national welfare over sub-national group interests.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56286,
+              "isHl": false,
+              "path": "Assessment Guides > Paper 1 Guide",
+              "title": "Paper 1 Guide",
+              "labeledAt": "2026-03-05T15:06:42.613Z",
+              "reasoning": "The structure of the question\u2014utilizing four diverse sources followed by four specific parts (identify, explain, compare, and discuss)\u2014exactly follows the format of the IB Global Politics Paper 1 assessment.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1694228,
+        "parts": [
+          {
+            "id": 1156184,
+            "content": "With specific reference to Source A, identify how the allocation of land for resource extraction might impact the rights of indigenous communities.",
+            "order": 0,
+            "markscheme": "- Identifies that overlap between extractive zones and indigenous territories reduces land available for traditional livelihoods/cultural practices (for example, citing the $75\\%$ overlap in the Northern Province). <marks>1 mark</marks>\n- Identifies that government-sanctioned extraction zones encroach on ancestral lands, risking displacement and/or loss of access to sacred sites. <marks>1 mark</marks>\n- Identifies that fragmentation of indigenous territories by industrial concessions can undermine ecological integrity needed for community survival/self-determination. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156185,
+            "content": "Using Source B and one example you have studied, explain the importance of collective rights in the context of human rights.",
+            "order": 1,
+            "markscheme": "- Explains, with reference to Source B, that collective rights protect shared identity/survival/culture/self-determination (eg collective land rights, free and informed consent). <marks>1 mark</marks>\n- Explains, with reference to Source B, how protecting collective rights enables individuals within the group to realize human rights in practice. <marks>1 mark</marks>\n- Uses a relevant studied example to show how collective rights operate/protect human rights (eg Native Title in Australia; Sami reindeer herding rights; Yanomami land title claims). <marks>1 mark</marks>\n- Links the example explicitly to why collective rights matter for the protection/realization of human rights. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156186,
+            "content": "Compare and contrast the views on justice and development as described in Source C and Source D.",
+            "order": 2,
+            "markscheme": "Marks are awarded for clear, accurate comparisons and contrasts between Source C and Source D.\n\nTop band (5\u20136):\n- The response consistently compares and contrasts both sources throughout (not in separate blocks).\n- Identifies at least one clear similarity and at least one clear difference, both supported with precise reference to each source.\n- Demonstrates strong understanding of how each source frames justice (eg utilitarian/public interest vs rights-based/dignity and cultural continuity) and development (eg national poverty reduction vs dispossession without consent).\n\nMiddle band (3\u20134):\n- The response makes some direct comparisons/contrasts, with generally accurate reference to both sources.\n- May cover mostly differences or mostly similarities, or comparisons may be unevenly developed.\n\nLow band (1\u20132):\n- The response shows limited comparison/contrast; may describe the sources separately or rely on vague/general points with little source support.\n\n0:\n- No relevant content.",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156187,
+            "content": "Using at least three sources and your own knowledge, evaluate the claim that \u201cCollective rights are essential for the protection of individual human rights.\u201d",
+            "order": 3,
+            "markscheme": "Marks are awarded for a focused evaluation of the claim, using at least three sources and own knowledge, with a balanced consideration of supporting and opposing arguments.\n\nTop band (10\u201312):\n- The response uses at least three sources effectively and integrates them into a coherent argument.\n- Provides well-developed evaluation of the claim, including both supporting arguments (eg Sources B/D on land, culture, consent and self-determination as conditions for individuals\u2019 rights) and counter-arguments (eg Source C on wider social/economic rights and national development priorities; potential tensions between collective and individual rights within groups).\n- Includes accurate, relevant own knowledge/examples that are clearly linked to the argument.\n- Reaches a clear, justified judgement.\n\nMiddle band (6\u20139):\n- The response uses at least three sources, though integration may be uneven or sometimes descriptive.\n- Provides some evaluation with at least one counter-argument, but analysis may lack depth or balance.\n- Own knowledge is relevant but may be underdeveloped or not consistently linked to the claim.\n\nLow band (1\u20135):\n- The response is largely descriptive, uses fewer than three sources effectively, and/or has limited own knowledge.\n- Limited evaluation and little or no counter-argument; judgement is absent or unsupported.\n\n0:\n- No relevant content.",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0e60ff49-4503-429b-845e-4cadab2d60c2",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-global-politics-0e60ff49-4503-429b-845e-4cadab2d60c2-1771840710187",
+            "generatedAt": "2026-02-23T11:01:40.995Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1084403
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 56685,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > The politicization of rights and justice",
+              "title": "The politicization of rights and justice",
+              "labeledAt": "2026-03-05T16:10:08.623Z",
+              "reasoning": "The question explicitly mentions the 'politicization of human rights by international institutions and global powers,' which aligns directly with this topic.",
+              "confidence": 0.98
+            },
+            {
+              "id": 56684,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Competing Global Perspectives on Human Rights",
+              "title": "Competing Global Perspectives on Human Rights",
+              "labeledAt": "2026-03-05T16:10:08.623Z",
+              "reasoning": "The debate regarding 'universalism' versus the practical application by global powers involves competing perspectives on the validity and reach of human rights.",
+              "confidence": 0.95
+            },
+            {
+              "id": 56681,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Evolution of global standards for rights and justice",
+              "title": "Evolution of global standards for rights and justice",
+              "labeledAt": "2026-03-05T16:10:08.623Z",
+              "reasoning": "The question references the 1948 Universal Declaration of Human Rights as a 'common standard,' which is a key part of the evolution of global standards for rights.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56287,
+              "isHl": false,
+              "path": "Assessment Guides > Paper 2 Guide",
+              "title": "Paper 2 Guide",
+              "labeledAt": "2026-03-05T16:10:08.623Z",
+              "reasoning": "A 15-mark essay question regarding core thematic areas is characteristic of the Paper 2 assessment format in Global Politics.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1682388,
+        "parts": [
+          {
+            "id": 1143352,
+            "content": "\u201cThe 1948 Universal Declaration of Human Rights was intended to be a \u2018common standard of achievement\u2019 for all peoples. However, the subsequent politicization of human rights by international institutions and global powers has rendered this universalism obsolete.\u201d To what extent do you agree with this claim?",
+            "order": -1,
+            "markscheme": "**Markscheme for the Question:**\n\n**Key Concepts:**\n- **Universal Declaration of Human Rights (UDHR):** The 1948 foundational document setting out the first global expression of rights to which all human beings are inherently entitled. \n- **Universalism:** The principle that human rights are inherent to all human beings, regardless of nationality, residence, sex, national or ethnic origin, color, religion, language, or any other status.\n- **Politicization:** The process by which human rights are used as instruments of foreign policy, geopolitical leverage, or ideological warfare rather than being applied consistently as moral or legal imperatives.\n- **International Institutions:** Bodies such as the UN Human Rights Council (UNHRC), the International Criminal Court (ICC), and regional human rights courts.\n\n**Arguments supporting the claim that politicization has rendered universalism obsolete:**\n\n1. **Selective Application and Double Standards:**\n   - Global powers often invoke human rights to criticize adversaries while ignoring similar violations by strategic allies. This inconsistency erodes the credibility of the UDHR as a \"common standard.\"\n   - **Example:** The contrast between Western condemnations of human rights abuses in rival states versus the relative silence or continued military support for allies with poor human rights records.\n\n2. **Bloc Politics within the UN Human Rights Council:**\n   - Membership and voting patterns in the UNHRC are often determined by regional alliances and political protectionism rather than human rights records. States may form \"voting blocs\" to shield one another from scrutiny.\n   - **Example:** The use of procedural motions by groups of states to prevent the discussion of specific country mandates, effectively turning a human rights forum into a theater for diplomatic maneuvering.\n\n3. **Perceptions of Neo-Colonialism in International Justice:**\n   - Institutions like the International Criminal Court (ICC) have been accused of disproportionately targeting leaders from the Global South (particularly Africa) while failing to prosecute powerful Western actors, leading to a rejection of \"universal\" judicial standards.\n   - **Example:** The African Union\u2019s past criticisms of the ICC, which led some member states to threaten withdrawal, arguing the court had become a political tool for Western interventionism.\n\n4. **The Rise of Regionalist Rejections (Cultural Relativism):**\n   - As human rights became institutionalized and tied to Western-led interventions, some regions have developed alternative declarations that prioritize local values, sovereignty, or collective duties over the UDHR's individualistic focus.\n   - **Example:** The Cairo Declaration on Human Rights in Islam or the ASEAN Human Rights Declaration, which emphasize cultural context and non-interference, challenging the UDHR\u2019s claim to a single universal standard.\n\n**Arguments challenging the claim, suggesting universalism remains relevant despite politicization:**\n\n1. **The Universal Periodic Review (UPR) as a Consensus Tool:**\n   - While the HRC is political, the UPR process requires every UN member state to undergo a peer review of its human rights record. This institutionalizes the UDHR as the baseline for all nations, regardless of their political alignment.\n   - **Example:** The fact that all 193 UN member states participate in the UPR suggests a continued, albeit imperfect, global acceptance of the UDHR framework as the primary benchmark.\n\n2. **Empowerment of Non-State Actors and Civil Society:**\n   - The institutionalization of human rights has provided global platforms for NGOs and grassroots activists. These actors use the \"universal\" language of 1948 to hold their own governments accountable, bypassing state-level politicization.\n   - **Example:** Human Rights Watch and Amnesty International use UDHR-based standards to document violations globally, maintaining a consistent moral pressure that transcends geopolitical interests.\n\n3. **The Expansion of Rights through Global Norm-Setting:**\n   - International institutions have successfully expanded the 1948 vision to include contemporary issues like climate change, digital privacy, and the rights of persons with disabilities. This evolution shows the UDHR's enduring vitality and adaptability.\n   - **Example:** The UN\u2019s recognition of the \"right to a clean, healthy and sustainable environment\" demonstrates that international bodies can still forge new universal consensuses based on the original UDHR principles.\n\n4. **Institutionalization as a Necessary Path to Enforcement:**\n   - Without institutions, the UDHR would remain a mere \"pious hope.\" While politicization is a side effect of power, the creation of courts and councils has provided the only practical path toward transitioning human rights from abstract theory to enforceable law.\n   - **Example:** Regional courts like the Inter-American Court of Human Rights have successfully compelled states to change laws and provide reparations, proving that institutional frameworks can achieve justice despite political headwinds.\n\n**Conclusion:**\n- Students might conclude that while politicization is an undeniable reality of the 21st-century international system, it has not rendered universalism \"obsolete.\" Instead, it has created a more contested environment where the *interpretation* of rights is a site of political struggle.\n- Alternatively, a conclusion might argue that the move from the 1948 moral consensus to today\u2019s interventionist and institutionalized model has indeed alienated many states, leading to a fragmented global order where \"universalism\" is increasingly seen as a Western rhetorical device rather than a shared global reality.\n- A balanced view would suggest that the UDHR remains the essential \"moral lodestar,\" and the politicization of institutions is a challenge to be managed rather than a sign of the Declaration's ultimate failure.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "0f9411f8-da2b-42bc-9765-7e6b42818d57",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 56684,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Competing Global Perspectives on Human Rights",
+              "title": "Competing Global Perspectives on Human Rights",
+              "labeledAt": "2026-03-06T15:44:27.734Z",
+              "reasoning": "The prompt directly debates whether human rights are Western/particularistic versus universal, which is central to competing global perspectives on human rights (universalism vs cultural relativism).",
+              "confidence": 0.9
+            },
+            {
+              "id": 56671,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Understanding Human Rights",
+              "title": "Understanding Human Rights",
+              "labeledAt": "2026-03-06T15:44:27.734Z",
+              "reasoning": "To discuss the claim, students must explain what human rights are and the basis for universality, aligning with the 'Understanding Human Rights' leaf topic.",
+              "confidence": 0.65
+            },
+            {
+              "id": 56670,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Definitions and views on rights ",
+              "title": "Definitions and views on rights ",
+              "labeledAt": "2026-03-06T15:44:27.734Z",
+              "reasoning": "The question hinges on differing definitions/views of rights (natural vs legal/positive, individual vs collective), relevant when evaluating universality claims.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 810388,
+        "parts": [
+          {
+            "id": 10451,
+            "content": "\"Human rights are a Western construct and cannot be universal.\" Discuss this view. ",
+            "order": 0,
+            "markscheme": "\n\n**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Human rights**: Fundamental rights and freedoms to which all individuals are entitled, as enshrined in documents such as the Universal Declaration of Human Rights (UDHR).\n- **Western construct**: The idea that the concept of human rights is rooted in European Enlightenment values such as individual liberty, secularism, and liberal democracy.\n- **Universal**: Applicable to all people, cultures, and states regardless of context.\n\nCandidates should explore whether human rights can be truly universal, or whether cultural, religious, or political differences make such universality problematic or contested.\n\n---\n\n**Arguments in favour of the claim (human rights are a Western construct and cannot be universal) may include:**\n\n- **Origins in Western philosophy**: Human rights are based on Enlightenment ideals such as individualism and secularism, which may conflict with collectivist or religious traditions.  \n  Example: Criticism from Asian Values proponents like Lee Kuan Yew, who emphasized community and order over individual liberty.\n\n- **Selective application and double standards**: Western states may promote human rights abroad while violating them at home or using them to justify intervention.  \n  Example: US involvement in Iraq framed as a human rights mission, despite human rights abuses at Guantanamo Bay.\n\n- **Cultural relativism**: Different societies have their own value systems and moral frameworks that may prioritize duties over rights, or social harmony over free speech.  \n  Example: Some Islamic states prioritize Sharia law over international human rights norms on gender or religious freedom.\n\n- **Resistance to imposition**: Non-Western states may view international human rights frameworks as neo-colonial or externally imposed.  \n  Example: China and Russia rejecting international criticism of domestic policies as interference in sovereign affairs.\n\n---\n\n**Arguments against the claim (human rights can be universal and are not solely Western) may include:**\n\n- **Post-colonial and Global South contributions**: Non-Western leaders and thinkers contributed to the development of international human rights norms.  \n  Example: Mahatma Gandhi and Nelson Mandela\u2019s influence on ideas of justice and dignity.\n\n- **Global consensus and treaties**: Widespread ratification of international human rights treaties indicates broad global support.  \n  Example: Near-universal membership in the UN and adoption of the UDHR.\n\n- **Local activism and demand for rights**: Human rights movements have emerged in all parts of the world, often independent of Western influence.  \n  Example: Women\u2019s rights campaigns in Iran or LGBTQ+ activism in Uganda.\n\n- **Shared human dignity**: The moral principle of protecting individuals from harm transcends cultural and national boundaries.  \n  Example: Humanitarian response to crises like the Rwandan Genocide or Syrian Civil War reflects shared values.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- Human rights may have **Western origins**, but they have evolved through **dialogue and adaptation** to diverse global contexts.\n\n- Universality does not mean uniformity; **implementation must be culturally sensitive**, but the core principles can still be upheld.\n\n- Candidates may reference theoretical perspectives:\n  - **Liberalism**: Argues for universal human rights as a foundation for peace and justice.\n  - **Cultural relativism**: Critiques the imposition of external norms and emphasizes context-specific values.\n  - **Constructivism**: Views human rights as evolving norms shaped by global discourse and local agency.\n\n---\n\n**Responses should make reference to:**\n\n- Historical development of human rights frameworks (e.g., UDHR).\n- Examples of both support for and resistance to human rights across different cultures and regions.\n- A reasoned conclusion on whether human rights can or should be considered truly universal.\n",
+            "marks": 15,
+            "label_id": "ebab0f90-63dd-4a1f-ba52-609d53981cd3",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "113d3b9e-7ffb-4371-be56-0df829da95cc",
+        "specification": "**Source A**\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/d669ea22-8565-42f2-9846-81c038f36a83)\n\n**Source B**\n\n*Adapted from: International Crisis Group, \u201cDilemmas of Humanitarian Intervention\u201d (2022)*\n\nHumanitarian intervention remains one of the most contested practices in international politics. While the idea is rooted in moral and legal obligations to protect populations from mass atrocities, interventions often provoke significant controversy. Critics argue that military interventions\u2014no matter the cause\u2014can escalate violence, deepen instability, and cause civilian harm.\n\nIn some cases, the intervening states are accused of having ulterior motives such as resource access, regime change, or geopolitical influence. This erodes trust in the legitimacy of humanitarian justifications. For example, the 2011 NATO intervention in Libya was initially backed by a UN resolution to protect civilians but later shifted toward regime removal, drawing criticism from both allies and rivals.\n\nThe domestic impact can also be intense. In both intervening and target countries, public protests and political backlash often arise. Populations may resist foreign involvement, fearing the undermining of sovereignty, while citizens of intervening states question the human and financial costs of military action abroad.\n\nUltimately, while the Responsibility to Protect (R2P) doctrine aims to prevent genocide and war crimes, it remains inconsistently applied and vulnerable to politicization, making humanitarian intervention both a tool of hope and a source of controversy.\n\n**Source C**\n\nAdapted from: UN General Assembly Debate, \u201cSovereignty and the Use of Force\u201d (2021)\n\nThe principle of state sovereignty remains foundational in international relations. Many governments\u2014especially in the Global South\u2014have voiced concerns over the growing use of humanitarian justifications for foreign intervention. These states argue that intervention without host nation consent violates international law and opens the door for misuse by powerful countries.\n\nFor small or developing states, sovereignty is often equated with survival. Historical experiences of colonization and foreign occupation fuel skepticism about externally led humanitarian action. Even when intervention is framed as protection, it can be perceived as a threat to national autonomy and long-term stability.\n\nDelegates at the UN have called for a clearer distinction between genuine humanitarian need and strategic self-interest. They point to the inconsistent application of intervention\u2014such as in Syria, Yemen, and Myanmar\u2014as evidence that international actors intervene selectively based on political interests, not universal moral standards.\n\nSome advocate for strengthening regional peacekeeping mechanisms and diplomatic conflict resolution rather than military engagement. They stress that multilateralism and respect for sovereignty are essential for sustaining international peace. From this perspective, legitimacy is derived not only from intention but from legal mandates, transparency, and respect for the self-determination of peoples.\n\n**Source D**\n\nAdapted from: Human Rights Watch, \u201cFailing to Protect: The Cost of Inaction\u201d (2023)\n\nWhen mass atrocities occur and the world fails to respond, the consequences are devastating. Human Rights Watch argues that the international community\u2019s repeated inability to act decisively in the face of war crimes and crimes against humanity undermines both human rights and global security.\n\nCases like Rwanda (1994), Srebrenica (1995), and more recently Tigray and Syria, highlight the high cost of non-intervention. In each instance, early warnings were ignored, and political divisions prevented timely action. The organization stresses that sovereignty cannot be used as a shield for mass violence, and that the world has a moral obligation to act when civilians are at risk.\n\nHRW supports the doctrine of the Responsibility to Protect (R2P) but criticizes the lack of political will and consistency in its implementation. Powerful states often use the UN Security Council to block action when it conflicts with their strategic interests.\n\nFrom this perspective, legitimacy stems not just from international law, but from moral urgency. Failure to act not only damages credibility but emboldens abusive regimes. Humanitarian intervention, though imperfect, remains one of the few tools available to prevent mass suffering\u2014and its absence carries long-term consequences for justice, stability, and human dignity.",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:43:43.012Z",
+            "resultId": 13905
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 56687,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Humanitarian Intervention Debates",
+              "title": "Humanitarian Intervention Debates",
+              "labeledAt": "2026-03-05T16:10:10.019Z",
+              "reasoning": "The entire question set, across all sources and parts, focuses on the controversy, morality, and practice of humanitarian intervention and the Responsibility to Protect (R2P) doctrine.",
+              "confidence": 1
+            },
+            {
+              "id": 56653,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Sovereignty > Challenges to state sovereignty",
+              "title": "Challenges to state sovereignty",
+              "labeledAt": "2026-03-05T16:10:10.019Z",
+              "reasoning": "A central theme in Source C and the overall debate is how humanitarian intervention serves as a direct challenge to the traditional concept of state sovereignty.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56286,
+              "isHl": false,
+              "path": "Assessment Guides > Paper 1 Guide",
+              "title": "Paper 1 Guide",
+              "labeledAt": "2026-03-05T16:10:10.019Z",
+              "reasoning": "This is a standard four-part Paper 1 (source-based) exam format used in Global Politics to assess critical analysis of sources and concepts.",
+              "confidence": 0.85
+            },
+            {
+              "id": 56684,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Competing Global Perspectives on Human Rights",
+              "title": "Competing Global Perspectives on Human Rights",
+              "labeledAt": "2026-03-05T16:10:10.019Z",
+              "reasoning": "Source C specifically highlights the divide between Global South perspectives and Western/Universalist moral standards regarding human rights and intervention.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1694166,
+        "parts": [
+          {
+            "id": 1156146,
+            "content": "With reference to Source A, identify three concerns expressed about humanitarian intervention.",
+            "order": 0,
+            "markscheme": "- Identifies humanitarian intervention as foreign interference or external intrusion. <marks>1 mark</marks>\n- Identifies concern that humanitarian justifications may disguise political/strategic motives (for example, influence or control). <marks>1 mark</marks>\n- Identifies concern about defending state sovereignty / resisting violations of sovereignty. <marks>1 mark</marks>\n\n_**OR**_\n\n- Any other valid concern expressed or clearly implied by the protest signs in Source A. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156147,
+            "content": "With explicit reference to Source B and one example you have studied, explain why humanitarian intervention can provoke political backlash and public protest.",
+            "order": 1,
+            "markscheme": "Marks are awarded using the following markbands:\n\n- **0 marks**: The response does not reach a standard described by the descriptors below.\n- **1\u20132 marks**: The response makes limited reference to Source B and/or a studied example. Explanations are largely descriptive, superficial, or not clearly linked to why backlash/protest occurs.\n- **3\u20134 marks**: The response makes clear, explicit reference to Source B and a relevant studied example. It explains reasons for backlash/protest (for example, perceived ulterior motives, civilian harm/instability, sovereignty concerns, costs) and links these to public or political reactions. The explanation is coherent and focused; use of evidence is appropriate.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156148,
+            "content": "Compare and contrast the perspectives of Source C and Source D on the legitimacy of humanitarian intervention.",
+            "order": 2,
+            "markscheme": "Marks are awarded using the following markbands:\n\n- **0 marks**: The response does not reach a standard described by the descriptors below.\n- **1\u20132 marks**: The response identifies some relevant points from the sources but comparison is limited or mostly separate summary; similarities and/or differences are asserted rather than developed.\n- **3\u20134 marks**: The response makes a clear comparison with at least one similarity and one difference between the sources. It uses relevant evidence or ideas from both Source C and Source D, though the comparative linkage may be uneven.\n- **5\u20136 marks**: The response compares and contrasts the two perspectives in a balanced and explicit way, integrating similarities and differences throughout. It shows clear understanding of how Source C grounds legitimacy in sovereignty/legal mandate and how Source D emphasizes moral urgency/protection from atrocities, supported with appropriate references to both sources.",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156149,
+            "content": "\u201cViolations of human rights are no guarantee that humanitarian intervention will occur.\u201d Using at least three sources and your own knowledge, evaluate the claim.",
+            "order": 3,
+            "markscheme": "Marks are awarded using the following markbands:\n\n- **0 marks**: The response does not reach a standard described by the descriptors below.\n- **1\u20133 marks**: The response is largely descriptive and/or relies on general statements. It makes minimal or unclear use of the sources and limited own knowledge. Evaluation is absent or very limited.\n- **4\u20136 marks**: The response uses at least three sources and some relevant own knowledge. It offers some evaluation (for example, identifies factors affecting whether intervention occurs) but may be unbalanced, underdeveloped, or not consistently focused on the claim.\n- **7\u20139 marks**: The response uses at least three sources effectively and integrates relevant own knowledge (for example, UN Security Council dynamics/veto, strategic interests, feasibility, domestic politics, regional constraints). It evaluates the claim by presenting reasoned arguments and at least some counter-argument, supported by examples.\n- **10\u201312 marks**: The response uses at least three sources in a well-integrated way and supports arguments with detailed and relevant own knowledge and/or case studies. It offers a balanced, nuanced evaluation of why human rights violations may or may not lead to intervention (for example, legality/sovereignty concerns in Source C, politicization/backlash in Source B, costs of inaction/moral urgency in Source D, sovereignty/foreign interference concerns in Source A). It includes a well-developed counter-argument and reaches a justified conclusion directly addressing the claim.",
+            "marks": 12,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "16cabb6c-a0e0-4d14-ae63-7b014c50adf0",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 66764,
+              "isHl": false,
+              "path": "HL Extension: Global Political Challenges > Security",
+              "title": "Security",
+              "labeledAt": "2026-03-06T15:44:29.882Z",
+              "reasoning": "The question centers on national security justifications and their consequences, which aligns directly with the Security challenge area.",
+              "confidence": 0.74
+            },
+            {
+              "id": 56671,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Understanding Human Rights",
+              "title": "Understanding Human Rights",
+              "labeledAt": "2026-03-06T15:44:29.882Z",
+              "reasoning": "Evaluating whether (and to what extent) human rights are violated requires applying the concept and standards of human rights.",
+              "confidence": 0.7
+            },
+            {
+              "id": 56685,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > The politicization of rights and justice",
+              "title": "The politicization of rights and justice",
+              "labeledAt": "2026-03-06T15:44:29.882Z",
+              "reasoning": "Asks about rights being overridden/curtailed for security reasons, engaging the debate on how rights and justice are politicized by states.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1415969,
+        "parts": [
+          {
+            "id": 1033351,
+            "content": "To what extent are human rights violated in the name of national security?",
+            "order": 0,
+            "markscheme": "**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Human rights**: Fundamental freedoms and protections to which all individuals are entitled, such as the right to life, liberty, privacy, freedom from torture, and due process.\n- **National security**: The protection of a state's sovereignty, citizens, and institutions from internal and external threats, including terrorism, war, and cyberattacks.\n- **Violated in the name of**: Human rights being restricted, denied, or abused by the state with justification based on national security concerns.\n\nCandidates should examine the **extent and justification** of human rights restrictions imposed under the pretext of national security, using examples and relevant frameworks.\n\n---\n\n**Arguments in favour of the claim (human rights are widely violated in the name of national security) may include:**\n\n- **Surveillance and loss of privacy**: Governments implement mass surveillance programmes that infringe on the right to privacy.  \n  Example: NSA's PRISM program revealed by Edward Snowden in the US.\n\n- **Detention without trial and torture**: States detain individuals indefinitely or use coercive interrogation tactics under anti-terror laws.  \n  Example: Guantanamo Bay detentions and waterboarding post-9/11.\n\n- **Censorship and freedom of expression**: National security laws used to suppress dissent and silence journalists or activists.  \n  Example: China\u2019s national security law in Hong Kong used to arrest pro-democracy activists.\n\n- **Racial and religious profiling**: Anti-terrorism policies disproportionately target minority groups, violating anti-discrimination rights.  \n  Example: France\u2019s burqa ban and profiling of Muslims post-terror attacks.\n\n- **Crackdowns on protest and civil society**: Governments justify repression of protests or NGO activity as threats to national security.  \n  Example: Egypt\u2019s restrictions on NGOs and protest laws post-Arab Spring.\n\n---\n\n**Arguments against the claim (human rights are not always or necessarily violated) may include:**\n\n- **Legitimate limits under international law**: Certain rights can be lawfully restricted during emergencies or threats, as long as they are proportionate and time-bound.  \n  Example: Article 4 of the ICCPR allows for derogations in times of national emergency.\n\n- **Security as a prerequisite for rights**: Without national security, other human rights (e.g., right to life, education, work) cannot be meaningfully enjoyed.  \n  Example: States curbing extremist groups to protect civilians, such as military action against Boko Haram.\n\n- **Democratic accountability and legal safeguards**: In liberal democracies, courts and media can limit abuses.  \n  Example: UK courts ruling against certain government surveillance measures as unlawful.\n\n- **Balance and necessity**: Some limitations are necessary and widely accepted (e.g., airport checks, counterterrorism measures).  \n  Example: Travel bans and biometric data collection to prevent cross-border terrorism.\n\n- **Rise of human security thinking**: Focus on protecting individuals, not just states, can align security policies with human rights.  \n  Example: UNDP\u2019s human security framework promotes development and dignity alongside security.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- The **degree of violation depends on regime type, legal frameworks, and public accountability**. Democracies may uphold more rights even during crises, while authoritarian regimes often exploit national security to suppress opposition.\n\n- **Distinction between necessary restrictions and abuse**: Not all limits imposed in the name of security are human rights violations.\n\n- Candidates may reference theoretical perspectives:\n  - **Realism**: Prioritizes state survival and security over individual rights.\n  - **Liberalism**: Emphasizes the rule of law and the balance between freedom and security.\n  - **Critical theories**: Highlight how security discourses are used to justify repression, especially against marginalized groups.\n\n---\n\n**Responses should make reference to:**\n\n- Real-world examples across different political systems (e.g., US, China, France, Egypt).\n- Human rights frameworks (e.g., ICCPR, UDHR) and national security laws.\n- A reasoned conclusion on how frequently and severely human rights are violated under the justification of national security.",
+            "marks": 15,
+            "label_id": "7ad206c7-5ce2-411b-a5a9-825c80d5bea3",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "25f54af2-d9b9-4f47-ae35-0d5d123927f0",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-global-politics-25f54af2-d9b9-4f47-ae35-0d5d123927f0-1771840710187",
+            "generatedAt": "2026-02-23T10:37:40.787Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1084401
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 56682,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Mechanisms Addressing Human Rights Violations and Injustices",
+              "title": "Mechanisms Addressing Human Rights Violations and Injustices",
+              "labeledAt": "2026-03-06T15:44:36.066Z",
+              "reasoning": "The question asks to evaluate the effectiveness of different mechanisms for protecting human rights (regional frameworks vs national initiatives), directly aligning with mechanisms addressing human rights violations and injustices.",
+              "confidence": 0.86
+            },
+            {
+              "id": 56680,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Understand how rights and justice are codified, protected, and monitored",
+              "title": "Understand how rights and justice are codified, protected, and monitored",
+              "labeledAt": "2026-03-06T15:44:36.066Z",
+              "reasoning": "Regional frameworks and national initiatives involve how rights are codified, protected, and monitored at different governance levels.",
+              "confidence": 0.78
+            },
+            {
+              "id": 56676,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > Intergovernmental organizations",
+              "title": "Intergovernmental organizations",
+              "labeledAt": "2026-03-06T15:44:36.066Z",
+              "reasoning": "Regional human rights frameworks are typically run through intergovernmental organizations (e.g., regional courts/commissions), so their role as actors is relevant.",
+              "confidence": 0.62
+            },
+            {
+              "id": 56675,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > The state",
+              "title": "The state",
+              "labeledAt": "2026-03-06T15:44:36.066Z",
+              "reasoning": "National-level initiatives focus on the state as a key actor responsible for rights protection, enabling comparison with regional mechanisms.",
+              "confidence": 0.57
+            },
+            {
+              "id": 56660,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Interdependence > Global governance and international law",
+              "title": "Global governance and international law",
+              "labeledAt": "2026-03-06T15:44:36.066Z",
+              "reasoning": "Regional human rights systems operate within international/regional law and global governance structures, which are central to assessing their effectiveness versus domestic approaches.",
+              "confidence": 0.52
+            }
+          ]
+        },
+        "currentRevisionId": 1682354,
+        "parts": [
+          {
+            "id": 1143230,
+            "content": "Discuss the view that regional human rights frameworks provide a more effective mechanism for the protection of human rights in the Global South than national-level initiatives.",
+            "order": -1,
+            "markscheme": "**Responses are likely to include:**\n\nCandidates should define and contextualise key terms:\n- **Regional human rights frameworks**: Multi-state systems designed to protect and promote rights within a specific geographical area (e.g., the African Union\u2019s human rights system, the Inter-American System, or ASEAN mechanisms).\n- **Global South**: A term used to describe countries often characterised by lower income, higher levels of inequality, and historical experiences of colonialism.\n- **National-level initiatives**: Domestic legal frameworks, judiciaries, and National Human Rights Institutions (NHRIs).\n\nStudents should evaluate whether the regional level offers advantages in accountability and legitimacy that domestic systems lack, or if the primary site of effective enforcement remains the sovereign state.\n\n---\n\n**Arguments in favour of regional frameworks as more effective may include:**\n\n- **Regional Legitimacy**: Regional bodies are often viewed as more culturally and politically legitimate than international (UN) bodies, as they share historical and social contexts.  \n  Example: The African Charter on Human and Peoples' Rights (Banjul Charter) incorporates collective rights and duties relevant to African societies.\n- **Peer Pressure and Regional Standards**: Regional bodies can exert diplomatic pressure that individual citizens cannot.  \n  Example: The Economic Community of West African States (ECOWAS) Court of Justice has issued rulings against member states for rights violations, such as slavery in Niger.\n- **Avenues for Redress**: When domestic judiciaries are compromised or under political control, regional courts provide a secondary layer of appeal.  \n  Example: The Inter-American Court of Human Rights has been instrumental in addressing 'forced disappearances' in Latin America where national courts failed.\n- **Standardisation of Norms**: Regional frameworks help harmonise rights standards across borders, making it harder for individual states to justify abuses under the guise of sovereignty.\n\n---\n\n**Arguments that national-level initiatives are more effective may include:**\n\n- **Enforcement Capability**: Only states possess the police and judicial infrastructure required to practically enforce laws and protect citizens on a daily basis.  \n  Example: The South African Constitution and its powerful Constitutional Court provide robust domestic protections that no regional body could manage day-to-day.\n- **Sovereignty and Resistance**: Regional rulings are often ignored by states if they perceive them as infringing on sovereignty, whereas domestic laws have immediate legal force.  \n  Example: Several Southeast Asian nations have historically resisted the influence of the ASEAN Intergovernmental Commission on Human Rights (AICHR) due to the principle of non-interference.\n- **Immediate Accessibility**: For the majority of victims, regional courts are geographically and financially inaccessible compared to local legal aid or domestic courts.\n- **NHRI Impact**: Strong National Human Rights Institutions (NHRIs) can monitor local conditions more effectively than distant regional commissioners.  \n  Example: The National Human Rights Commission of Mexico (CNDH) provides extensive monitoring and reporting on domestic migration and security issues.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- The 'Complementarity' argument: Regional systems are intended to supplement, not replace, national systems. Effectiveness is highest when the two levels work in tandem.\n- The 'State as Violator' problem: In many Global South contexts where the state is the perpetrator, national initiatives are fundamentally compromised, making regional oversight a necessity rather than an alternative.\n- Political Realism vs. Liberal Institutionalism:\n  - **Realist perspective**: States only comply with regional frameworks when it suits their interests; thus, the national level remains the only site of real power.\n  - **Liberal perspective**: International and regional institutions can socialise states into better behaviour over time, creating a 'spiral effect' of rights improvement.\n\n---\n\n**Responses should make reference to:**\n\n- Specific regional bodies (e.g., African Commission, Inter-American Court).\n- Evaluation of the limitations of both regional and national mechanisms (e.g., lack of funding, lack of enforcement power).\n- A clear conclusion that weighs the relative effectiveness based on the political context (e.g., democratic vs. authoritarian regimes).",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2ae01141-7503-413e-83b6-aa7f616f817f",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 56677,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > Civil society organizations including NGOs that advocate human rights",
+              "title": "Civil society organizations including NGOs that advocate human rights",
+              "labeledAt": "2026-03-06T15:33:14.393Z",
+              "reasoning": "The question explicitly asks about the role of NGOs (civil society organizations) in promoting and protecting human rights, directly matching this stakeholder/actor topic within Rights and Justice.",
+              "confidence": 0.93
+            },
+            {
+              "id": 56682,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Mechanisms Addressing Human Rights Violations and Injustices",
+              "title": "Mechanisms Addressing Human Rights Violations and Injustices",
+              "labeledAt": "2026-03-06T15:33:14.393Z",
+              "reasoning": "Discussing how NGOs protect human rights often involves explaining practical mechanisms for addressing human rights violations (monitoring, reporting, advocacy, litigation, humanitarian assistance).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 757690,
+        "parts": [
+          {
+            "id": 10388,
+            "content": "Discuss the role of NGOs in promoting and protecting human rights.",
+            "order": 0,
+            "markscheme": "\n\n**Responses are likely to include:**\n\nCandidates should define key terms:\n- **NGOs (Non-Governmental Organizations)**: Independent, non-profit groups that work at local, national, or international levels to address social, political, or humanitarian issues.\n- **Promoting human rights**: Activities aimed at raising awareness, education, and advocating for the advancement of rights.\n- **Protecting human rights**: Interventions to prevent, monitor, or respond to violations, including legal assistance, humanitarian aid, or lobbying.\n\nCandidates should explore the multiple functions NGOs serve in the global human rights system, as well as their limitations.\n\n---\n\n**Arguments highlighting the role of NGOs in promoting and protecting human rights may include:**\n\n- **Monitoring and reporting**: NGOs collect evidence, publish reports, and bring international attention to abuses.  \n  Example: Amnesty International and Human Rights Watch reports influencing global policy on Syria and Iran.\n\n- **Advocacy and lobbying**: NGOs campaign to influence laws and policies at the national and international level.  \n  Example: NGO coalitions advocating for the creation of the International Criminal Court (ICC).\n\n- **Legal support and litigation**: NGOs may represent victims or support strategic litigation to advance human rights.  \n  Example: The Centre for Reproductive Rights working on landmark court cases to protect women\u2019s rights.\n\n- **Education and awareness**: NGOs run public campaigns and educational programs to foster a rights-respecting culture.  \n  Example: Anti-slavery initiatives raising awareness of modern-day human trafficking.\n\n- **Emergency response and protection**: Humanitarian NGOs provide direct aid and protection in crisis zones.  \n  Example: M\u00e9decins Sans Fronti\u00e8res (MSF) delivering healthcare in conflict areas like Yemen and Gaza.\n\n- **Empowering local communities**: NGOs work with grassroots actors to build capacity and promote long-term rights awareness.  \n  Example: Local NGOs in India promoting Dalit rights and access to justice.\n\n---\n\n**Arguments acknowledging the limitations or challenges faced by NGOs may include:**\n\n- **Lack of enforcement power**: NGOs cannot prosecute violators or enforce compliance with international law.  \n  Example: NGOs documenting abuses in Myanmar have limited power to halt military action.\n\n- **Political resistance and repression**: Governments may restrict or criminalize NGO activity under national security pretexts.  \n  Example: Russia and Egypt labelling NGOs as \"foreign agents\" or \"terrorist-linked.\"\n\n- **Dependence on donor agendas**: Funding sources may shape priorities and reduce independence or sustainability.  \n  Example: Western donors funding specific programs may neglect grassroots or indigenous needs.\n\n- **Selective focus or bias**: Some NGOs may prioritise certain regions or issues based on media visibility or political pressure.  \n  Example: Accusations that major NGOs under-report abuses in Western democracies.\n\n- **Lack of representation and inclusivity**: International NGOs may not always reflect the voices of local communities they claim to represent.  \n  Example: Criticism of large humanitarian NGOs for operating in a top-down, outsider-driven manner.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- NGOs are **crucial actors** in the human rights ecosystem, particularly in fragile states or authoritarian contexts where state protection is weak or absent.\n\n- Their impact is often greatest when working **in partnership with local actors** and when supported by **strong legal frameworks and institutions**.\n\n- Candidates may reference theoretical perspectives:\n  - **Liberalism**: Views NGOs as essential for norm diffusion, cooperation, and international accountability.\n  - **Realism**: Minimizes their influence in a state-centric system dominated by power politics.\n  - **Constructivism**: Highlights NGOs as norm entrepreneurs shaping global discourse on rights.\n\n---\n\n**Responses should make reference to:**\n\n- Named NGOs (e.g., Amnesty International, Human Rights Watch, MSF, Minority Rights Group).\n- Case studies across different regions and issue areas (e.g., Syria, Sudan, India, Colombia).\n- A reasoned discussion on both the **contributions and constraints** of NGOs in the global protection and promotion of human rights.\n",
+            "marks": 15,
+            "label_id": "ebab0f90-63dd-4a1f-ba52-609d53981cd3",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "36ede043-3128-4c0d-868d-fdbf5f01a232",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 56685,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > The politicization of rights and justice",
+              "title": "The politicization of rights and justice",
+              "labeledAt": "2026-03-06T15:33:16.933Z",
+              "reasoning": "The question asks about how foreign policy decisions may prioritize economic interests over human rights, directly engaging with how rights and justice are used instrumentally or selectively by states (politicization).",
+              "confidence": 0.84
+            },
+            {
+              "id": 56675,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > The state",
+              "title": "The state",
+              "labeledAt": "2026-03-06T15:33:16.933Z",
+              "reasoning": "Foreign policy is primarily an action of the state; evaluating trade-offs between economic goals and human rights concerns fits the role of the state as a stakeholder in rights and justice.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 724409,
+        "parts": [
+          {
+            "id": 10500,
+            "content": "To what extent do economic interests take precedence over human rights in foreign policy?",
+            "order": 0,
+            "markscheme": "**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Economic interests**: National priorities related to trade, investment, energy security, resource access, and financial stability.\n- **Human rights**: The fundamental rights and freedoms to which all individuals are entitled, such as those outlined in the Universal Declaration of Human Rights (UDHR).\n- **Foreign policy**: A state\u2019s strategy in managing its international relations, including diplomacy, trade, security, and international cooperation.\n\nCandidates should evaluate the extent to which states prioritize economic gain over human rights concerns when making foreign policy decisions, using relevant examples and perspectives.\n\n---\n\n**Arguments in favour of the claim (economic interests often take precedence) may include:**\n\n- **Trade with human rights violators**: States continue economic relations with regimes accused of rights abuses to secure trade or energy.  \n  Example: Western countries maintaining trade ties with Saudi Arabia despite its record on gender rights and the war in Yemen.\n\n- **Arms deals and strategic alliances**: Economic and security partnerships often outweigh human rights concerns.  \n  Example: US and UK arms sales to Saudi Arabia despite human rights abuses.\n\n- **Realpolitik and national interest**: States may avoid criticising partners to maintain market access or geopolitical leverage.  \n  Example: China's economic power deters many countries from condemning its treatment of Uyghurs or actions in Hong Kong.\n\n- **Aid and investment prioritised over rights**: Bilateral aid and development financing may support regimes regardless of rights records.  \n  Example: Infrastructure investments by China under the Belt and Road Initiative (BRI) in authoritarian states.\n\n- **Selective human rights advocacy**: States apply pressure selectively, using rights discourse when politically convenient.  \n  Example: US criticism of Iran\u2019s human rights record while overlooking abuses by strategic allies.\n\n---\n\n**Arguments against the claim (human rights do play a significant role) may include:**\n\n- **Sanctions and diplomatic pressure**: States impose sanctions or take diplomatic actions in response to human rights violations.  \n  Example: Western sanctions on Russia following the invasion of Ukraine and treatment of dissidents.\n\n- **Human rights conditionality in aid and trade**: Agreements increasingly include clauses requiring compliance with human rights standards.  \n  Example: EU trade deals that include human rights provisions.\n\n- **Naming and shaming by liberal democracies**: Some countries, especially in the Global North, use foreign policy to promote rights.  \n  Example: Canada\u2019s feminist foreign policy and advocacy for LGBTQ+ rights.\n\n- **Withdrawal from trade agreements or partnerships**: Some states have suspended agreements over human rights concerns.  \n  Example: The US banning imports linked to forced labour in Xinjiang.\n\n- **Support for international justice**: Foreign policy may include support for institutions like the ICC or human rights courts.  \n  Example: European support for the ICC's investigation into war crimes in Sudan.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- States often **balance economic and human rights considerations**, depending on the political context, public opinion, and strategic priorities.\n\n- **Double standards and inconsistency** are common; rights may be prioritized in some regions or cases but ignored in others.\n\n- Candidates may reference theoretical perspectives:\n  - **Realism**: Argues that states prioritise self-interest, power, and economic security over normative concerns like human rights.\n  - **Liberalism**: Emphasizes the role of international law, institutions, and norms in promoting rights.\n  - **Constructivism**: Focuses on how identity, norms, and domestic politics shape foreign policy decisions.\n\n---\n\n**Responses should make reference to:**\n\n- Case studies of countries balancing or ignoring human rights in foreign policy (e.g., China, Saudi Arabia, US, EU, Canada).\n- Specific examples of trade-offs, diplomatic decisions, and sanctions.\n- A clear, well-reasoned judgement on the extent to which economic interests prevail over human rights in shaping foreign policy.\n",
+            "marks": 15,
+            "label_id": "7ad206c7-5ce2-411b-a5a9-825c80d5bea3",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4c2e49ca-46dc-4ff1-b88e-a07ede6d7bbb",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 56680,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Understand how rights and justice are codified, protected, and monitored",
+              "title": "Understand how rights and justice are codified, protected, and monitored",
+              "labeledAt": "2026-03-06T15:33:23.107Z",
+              "reasoning": "The prompt asks whether human rights are \u2018best protected\u2019 within strong democratic states, which directly concerns how rights are protected and monitored (institutions, rule of law, enforcement mechanisms).",
+              "confidence": 0.78
+            },
+            {
+              "id": 56675,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > The state",
+              "title": "The state",
+              "labeledAt": "2026-03-06T15:33:23.107Z",
+              "reasoning": "The claim centers on the state\u2014specifically democratic state capacity and willingness\u2014as the key actor responsible for protecting human rights.",
+              "confidence": 0.66
+            },
+            {
+              "id": 56684,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Competing Global Perspectives on Human Rights",
+              "title": "Competing Global Perspectives on Human Rights",
+              "labeledAt": "2026-03-06T15:33:23.107Z",
+              "reasoning": "Discussing whether democracy best protects rights often requires engaging with competing perspectives (universalism vs cultural relativism; liberal vs other models) about what counts as \u2018best\u2019 protection and whose standards apply.",
+              "confidence": 0.53
+            },
+            {
+              "id": 56671,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Understanding Human Rights",
+              "title": "Understanding Human Rights",
+              "labeledAt": "2026-03-06T15:33:23.107Z",
+              "reasoning": "To evaluate the statement, students typically need to define/clarify \u2018human rights\u2019 and what \u2018protection\u2019 entails, drawing on core understanding of human rights.",
+              "confidence": 0.45
+            }
+          ]
+        },
+        "currentRevisionId": 1419621,
+        "parts": [
+          {
+            "id": 1038356,
+            "content": "\"Human rights are best protected within strong democratic states.\" Discuss.",
+            "order": 0,
+            "markscheme": "**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Human rights**: Universal rights and freedoms entitled to all individuals, such as those outlined in the Universal Declaration of Human Rights (UDHR), including freedom of expression, due process, and protection from torture.\n- **Strong democratic states**: States with functioning democratic institutions, regular elections, rule of law, separation of powers, and active civil society.\n- **Best protected**: Most effectively respected, promoted, and upheld through legal, institutional, and societal means.\n\nCandidates should explore whether democracies are inherently better at protecting human rights, while also considering exceptions and challenges.\n\n---\n\n**Arguments in favour of the claim (democracies are best at protecting human rights) may include:**\n\n- **Rule of law and legal protections**: Democracies have independent judiciaries and constitutions that uphold human rights.  \n  Example: India\u2019s Supreme Court rulings on LGBTQ+ rights and privacy.\n\n- **Checks and balances**: Separation of powers and accountability mechanisms prevent abuse of power.  \n  Example: US and European courts striking down policies that violate rights.\n\n- **Free media and civil society**: Democratic environments allow journalists and activists to expose abuses and advocate for change.  \n  Example: Investigative reporting and human rights campaigns in democracies like Norway or Canada.\n\n- **Public participation and responsiveness**: Citizens can vote out governments that violate rights, encouraging accountability.  \n  Example: Rights-based reforms in South Africa due to electoral pressure and public advocacy.\n\n- **Commitment to international norms**: Democracies are more likely to ratify and comply with international human rights treaties.  \n  Example: Widespread support for the ICCPR and participation in the UNHRC among democratic states.\n\n---\n\n**Arguments against or critical of the claim may include:**\n\n- **Democracies still violate rights**: Even strong democracies may engage in surveillance, police brutality, or discrimination.  \n  Example: Systemic racism and police violence in the US; mistreatment of migrants in the EU.\n\n- **Rights violations during emergencies**: Democracies may curtail rights during times of crisis (e.g., terrorism, pandemics).  \n  Example: Australia and Canada implementing detention and surveillance during COVID-19.\n\n- **Majoritarianism and exclusion**: Democracies may marginalize minority groups if rights protections are weak.  \n  Example: Rising Islamophobia and anti-refugee sentiment in parts of Europe.\n\n- **Authoritarian states may also protect rights selectively**: Some non-democratic regimes ensure rights such as healthcare and education.  \n  Example: China\u2019s provision of economic and social rights despite limited civil liberties.\n\n- **Human rights depend on more than regime type**: Economic development, culture, and civil society also affect rights protection.  \n  Example: Wealthier democracies may protect rights more than fragile or transitioning democracies.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- While strong democracies **generally provide more protections**, they are **not immune to violations**, and **not all non-democracies fail completely**.\n\n- The **quality of democracy** matters\u2014liberal, inclusive democracies with active civil society are more likely to uphold rights than electoral or illiberal democracies.\n\n- Candidates may reference theoretical perspectives:\n  - **Liberalism**: Strongly links democracy with individual rights and rule of law.\n  - **Realism**: Sees rights as secondary to national interest, regardless of regime type.\n  - **Critical theories**: Question the universality of democratic models and highlight power imbalances within democracies.\n\n---\n\n**Responses should make reference to:**\n\n- Comparative examples of rights protection in democratic and non-democratic states (e.g., Norway vs. China, India vs. Russia).\n- Evidence from institutions (e.g., courts, media, watchdog NGOs) and key rights issues (e.g., civil liberties, minority rights, digital rights).\n- A reasoned, nuanced conclusion on whether democracy is the best system for protecting human rights, acknowledging exceptions and complexity.",
+            "marks": 15,
+            "label_id": "ebab0f90-63dd-4a1f-ba52-609d53981cd3",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "5df77a63-ca22-4752-b32b-ace7ac2bff8d",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 56650,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Sovereignty > Evolving Concepts of State Sovereignty: Traditional vs. Modern Perspectives",
+              "title": "Evolving Concepts of State Sovereignty: Traditional vs. Modern Perspectives",
+              "labeledAt": "2026-03-05T16:10:11.120Z",
+              "reasoning": "The core of the question evaluates the claim that state sovereignty acts as a foundation for political order and justice, directly addressing traditional and modern perspectives on sovereignty.",
+              "confidence": 0.95
+            },
+            {
+              "id": 56673,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Justice: Meanings, Theories, and Global Perspectives",
+              "title": "Justice: Meanings, Theories, and Global Perspectives",
+              "labeledAt": "2026-03-05T16:10:11.120Z",
+              "reasoning": "The question explicitly asks about the 'realisation of justice', requiring an understanding of justice theories and global perspectives.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56675,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > The state",
+              "title": "The state",
+              "labeledAt": "2026-03-05T16:10:11.120Z",
+              "reasoning": "The question examines the role of the state as a primary political stakeholder in the context of protecting and fulfilling rights and justice for individuals and communities.",
+              "confidence": 0.85
+            },
+            {
+              "id": 56287,
+              "isHl": false,
+              "path": "Assessment Guides > Paper 2 Guide",
+              "title": "Paper 2 Guide",
+              "labeledAt": "2026-03-05T16:10:11.120Z",
+              "reasoning": "The question is a 'Type: LA' (Long Answer) essay worth 15 marks, which corresponds to the Paper 2 assessment format in Global Politics.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 827631,
+        "parts": [
+          {
+            "id": 429654,
+            "content": "\n\nEvaluate the claim that state sovereignty creates stable foundations for the realisation of justice and individuals and communities. \n",
+            "order": 0,
+            "markscheme": "\nKey Concepts:\n- **State Sovereignty**: The authority of a state to govern itself, make its own laws, and regulate its internal affairs without external interference.\n- **Justice**: In this context, justice refers to the protection of rights, equality, and fairness within a legal and political system, ensuring individuals and communities can live free from oppression, discrimination, or harm.\n\n### Arguments supporting the claim that state sovereignty creates stable foundations for the realization of justice:\n\n1. **Legal Frameworks and Rule of Law**:\n   - State sovereignty enables the creation and enforcement of domestic legal systems that protect individual rights, ensure accountability, and promote justice. Sovereign states can implement laws and judicial systems that uphold equality, fairness, and the rule of law for their citizens.\n   - **Example**: In countries with strong rule of law, such as Germany and Japan, sovereign legal systems provide justice through independent courts, protecting individual and community rights.\n\n2. **Protection of National Values and Social Justice**:\n   - Sovereignty allows states to develop legal and political systems that reflect the cultural, social, and moral values of their citizens. This ensures justice is realized in ways that are meaningful to individuals and communities within that particular state, fostering social cohesion and stability.\n   - **Example**: Scandinavian countries like Norway and Sweden have used their sovereignty to establish robust welfare systems, ensuring social justice through universal healthcare, education, and protections for marginalized groups.\n\n3. **Provision of Public Services and Human Rights Protection**:\n   - Sovereign states are responsible for delivering essential public services, such as healthcare, education, and social security, which are necessary for the realization of justice. By retaining sovereignty, states can tailor these services to meet the needs of their populations, ensuring that justice is realized through equitable access to resources.\n   - **Example**: The National Health Service (NHS) in the UK, established through the sovereign authority of the state, provides free healthcare to all citizens, contributing to social justice and equity.\n\n4. **Sovereignty as a Shield for Human Rights**:\n   - In some cases, sovereignty protects a state\u2019s ability to safeguard its citizens from external interference, ensuring that justice and human rights are maintained without the imposition of foreign interests. States can resist external pressures to adopt policies that may not align with the needs or rights of their citizens.\n   - **Example**: Switzerland\u2019s neutrality and strong sovereignty allow it to maintain an independent judicial system that protects the rights of its citizens, including those of marginalized communities.\n\n5. **Political Stability and Public Participation**:\n   - Sovereignty provides a framework for political stability, allowing states to maintain order, protect citizens\u2019 rights, and ensure justice through stable governance. In democratic states, sovereignty allows for public participation in the political process, giving individuals and communities a voice in shaping policies that affect their rights.\n   - **Example**: In Canada, the sovereignty of the state ensures that justice is maintained through democratic participation, allowing diverse communities to influence policies related to social justice and equality.\n\n### Arguments challenging the claim that state sovereignty creates stable foundations for the realization of justice:\n\n1. **Authoritarian States and Suppression of Justice**:\n   - State sovereignty can be abused by authoritarian governments to suppress justice, restrict human rights, and prevent individuals and communities from accessing fair treatment. In such cases, the concentration of power in the state limits freedoms, perpetuates inequality, and undermines justice.\n   - **Example**: In North Korea, the sovereign government exerts absolute control over its population, denying justice to individuals and communities through censorship, lack of due process, and political repression.\n\n2. **Sovereignty as a Barrier to International Justice**:\n   - Sovereignty can act as a barrier to the realization of justice when states resist international norms and laws aimed at protecting human rights and preventing abuses. States may reject the jurisdiction of international courts or refuse to comply with human rights treaties, preventing individuals and communities from seeking justice beyond national borders.\n   - **Example**: Some states, including the U.S. and China, have resisted the International Criminal Court (ICC) and other international human rights mechanisms, limiting avenues for justice for victims of war crimes and human rights abuses.\n\n3. **Fragile States and the Breakdown of Justice Systems**:\n   - In fragile or failed states, sovereignty does not create stable foundations for justice because the government lacks the capacity to maintain law and order. Weak institutions, corruption, and internal conflict undermine the state\u2019s ability to deliver justice and protect the rights of individuals and communities.\n   - **Example**: In Somalia, the central government\u2019s weak control over its territory has led to lawlessness, with individuals and communities unable to access justice or protection from violence and abuse.\n\n4. **Globalization and the Erosion of Sovereignty**:\n   - Globalization has eroded the sovereignty of states in certain areas, particularly through the influence of multinational corporations, international institutions, and transnational challenges like climate change. In some cases, this undermines the state\u2019s ability to realize justice for its citizens, as external actors can impose policies that are not aligned with domestic needs or rights.\n   - **Example**: The influence of the World Bank or IMF\u2019s structural adjustment programs in developing countries has led to austerity measures that cut public services, undermining social justice for communities reliant on state support.\n\n5. **Interdependence and Supranational Justice Systems**:\n   - In an interconnected world, justice increasingly depends on international cooperation, with supranational organizations such as the United Nations and regional bodies like the European Union playing a central role. In these contexts, sovereignty can limit the ability to address transnational issues like climate justice, migration, and human trafficking, where cooperation is essential.\n   - **Example**: The European Court of Human Rights (ECHR) allows individuals to seek justice beyond their own nation-state, challenging traditional notions of sovereignty in favor of a supranational legal framework that addresses cross-border issues.\n\n### Conclusion:\n- While state sovereignty provides a foundation for justice through legal systems, public services, and the protection of national values, it can also be a barrier when abused by authoritarian regimes or when states resist international cooperation.\n- The relationship between sovereignty and justice is complex, and the realization of justice for individuals and communities depends on the effectiveness of state institutions and the balance between national and international governance. Sovereignty alone is not a guarantee of justice; it must be accompanied by the rule of law, accountability, and respect for human rights to create stable and just societies.\n",
+            "marks": 15,
+            "label_id": "500b9405-5aaf-4db4-8988-134467e631ec",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "69aaa120-210a-4d49-abf3-80d6c00bd089",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 7,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 56684,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Competing Global Perspectives on Human Rights",
+              "title": "Competing Global Perspectives on Human Rights",
+              "labeledAt": "2026-03-05T15:09:29.785Z",
+              "reasoning": "The question addresses the debate over the hierarchy of human rights, which is a core part of competing global perspectives (e.g., Western emphasis on civil/political rights versus the Global South's emphasis on economic/social rights).",
+              "confidence": 0.95
+            },
+            {
+              "id": 56670,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Definitions and views on rights ",
+              "title": "Definitions and views on rights ",
+              "labeledAt": "2026-03-05T15:09:29.785Z",
+              "reasoning": "This topic covers how rights are categorized and the different views regarding their importance and implementation.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56671,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Understanding Human Rights",
+              "title": "Understanding Human Rights",
+              "labeledAt": "2026-03-05T15:09:29.785Z",
+              "reasoning": "This leaf covers the fundamental understanding and classification of human rights, including the 'generations of rights' distinction implied in the prompt.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 827650,
+        "parts": [
+          {
+            "id": 10421,
+            "content": "Examine the view that civil and political rights are prioritized over economic, social, and cultural rights.",
+            "order": 0,
+            "markscheme": "**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Regional organizations**: Political or economic unions formed by a group of states within a geographic region to promote cooperation (e.g., European Union, African Union, ASEAN, MERCOSUR).\n- **State sovereignty**: The principle that states have full control over their domestic affairs and decision-making without external interference.\n- **Threaten**: Undermine or limit the ability of states to act independently.\n\nCandidates should explore how regional organizations influence state sovereignty and whether their impact is inherently threatening or can also be empowering.\n\n---\n\n**Arguments that regional organizations threaten sovereignty may include:**\n\n- **Supranational decision-making**: Some organizations can pass binding laws that override national legislation.  \n  Example: EU law supersedes national law in member states, and decisions from the European Court of Justice must be followed.\n\n- **Policy harmonization and compliance requirements**: States may be required to align domestic laws with regional standards.  \n  Example: EU membership requires compliance with the Common Agricultural Policy, GDPR, and trade regulations.\n\n- **Limits on military and foreign policy autonomy**: Security-focused regional bodies may constrain independent action.  \n  Example: NATO members are expected to coordinate defence and foreign policy, limiting unilateral decisions.\n\n- **Constraints on economic policy**: Regional trade and monetary unions reduce national flexibility in taxation, currency, or spending.  \n  Example: Eurozone members cannot control their own monetary policy, as it is managed by the European Central Bank.\n\n- **Sanctions or interventions**: Regional bodies may impose penalties or intervene in domestic matters.  \n  Example: The African Union has sanctioned member states following unconstitutional changes of government.\n\n---\n\n**Arguments that regional organizations enhance or protect sovereignty may include:**\n\n- **Pooling sovereignty for collective strength**: Membership allows states to amplify their voice and influence globally.  \n  Example: Small EU member states like Estonia gain greater leverage through collective negotiation with global powers.\n\n- **Shared security and stability**: Regional organizations provide a security umbrella that helps preserve territorial sovereignty.  \n  Example: ECOWAS peacekeeping operations in West Africa have defended member states from internal threats.\n\n- **Economic growth and interdependence**: Regional integration can enhance national development, strengthening state capacity.  \n  Example: ASEAN promotes economic cooperation while maintaining non-interference in domestic affairs.\n\n- **Support during crises**: Regional institutions offer assistance during conflict, health crises, or economic downturns.  \n  Example: The EU\u2019s COVID-19 recovery fund supported member states\u2019 sovereignty by stabilizing national economies.\n\n- **Respect for sovereignty in organizational principles**: Some organizations explicitly avoid interfering in internal affairs.  \n  Example: ASEAN's \"non-interference\" doctrine reflects a commitment to respecting state sovereignty.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- The **extent of the threat depends on the structure** of the regional organization: supranational bodies (like the EU) affect sovereignty more than intergovernmental ones (like ASEAN).\n\n- **Sovereignty today is increasingly shared** to address global challenges \u2014 states may **willingly trade some autonomy for greater benefits** (economic, security, diplomatic).\n\n- Candidates may reference theoretical perspectives:\n  - **Realism**: Emphasizes sovereignty and self-interest, viewing regional organizations as constraints.\n  - **Liberalism**: Views regional cooperation as mutually beneficial and sovereignty-enhancing.\n  - **Constructivism**: Focuses on how norms and identities within regional bodies shape the meaning of sovereignty.\n\n---\n\n**Responses should make reference to:**\n\n- Specific regional organizations (e.g., EU, AU, ASEAN, MERCOSUR, NATO).\n- Examples of both sovereignty constraints and benefits.\n- A well-reasoned conclusion on whether regional organizations significantly threaten state sovereignty or provide a framework that can enhance it in the modern global order.\n",
+            "marks": 15,
+            "label_id": "02091ffa-eda7-4b1f-a936-36fb8e7085a1",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6a0cee63-6267-4667-a923-ec7383d233b4",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-global-politics-6a0cee63-6267-4667-a923-ec7383d233b4-1771840710187",
+            "generatedAt": "2026-02-23T10:37:54.536Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1084404
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:29:43.111Z",
+            "resultId": 13897
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 56681,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Evolution of global standards for rights and justice",
+              "title": "Evolution of global standards for rights and justice",
+              "labeledAt": "2026-03-05T16:09:48.380Z",
+              "reasoning": "The question directly addresses the evolution of the UDHR from its 1948 inception as a 'standard of achievement' to its current role within global standards.",
+              "confidence": 0.95
+            },
+            {
+              "id": 56680,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Understand how rights and justice are codified, protected, and monitored",
+              "title": "Understand how rights and justice are codified, protected, and monitored",
+              "labeledAt": "2026-03-05T16:09:48.380Z",
+              "reasoning": "The focus on 'specialized international conventions' and 'regional legal frameworks' pertains to how human rights are codified and protected through formal legal systems.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56660,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Interdependence > Global governance and international law",
+              "title": "Global governance and international law",
+              "labeledAt": "2026-03-05T16:09:48.380Z",
+              "reasoning": "The transformation into a 'robust system of global accountability' involves the mechanisms of international law and global governance structures.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1694138,
+        "parts": [
+          {
+            "id": 1156137,
+            "content": "Evaluate the claim that the development of specialized international conventions and regional legal frameworks since 1948 has successfully transformed the Universal Declaration of Human Rights (UDHR) from a 'common standard of achievement' into a robust system of global accountability.",
+            "order": 0,
+            "markscheme": "### **Key Concepts:**\n- **Universal Declaration of Human Rights (UDHR) 1948:** Established as a non-binding resolution to provide a \"common standard of achievement for all peoples and all nations.\"\n- **International Bill of Human Rights:** The combination of the UDHR, the International Covenant on Civil and Political Rights (ICCPR), and the International Covenant on Economic, Social and Cultural Rights (ICESCR).\n- **Specialized Conventions:** Legally binding instruments that address specific issues or groups (e.g., CEDAW for women's rights, CAT against torture, CRC for children's rights).\n- **Regional Frameworks:** Systems such as the European Court of Human Rights (ECHR), the Inter-American Court of Human Rights, and the African Commission on Human and Peoples' Rights.\n- **Accountability:** The transition from moral suasion to legal obligation, monitoring, and judicial enforcement.\n\n### **Arguments Supporting the Claim (Transformation to Accountability):**\n\n1.  **Legal Codification and Binding Obligations:**\n    - The ICCPR and ICESCR (1966) took the broad principles of the UDHR and translated them into specific, legally binding treaty language that states must ratify.\n    - States are legally accountable under international law for violations, moving beyond the UDHR's purely moral weight.\n\n2.  **The Role of Treaty Bodies and Monitoring:**\n    - Subsequent treaties established specific committees (e.g., the Human Rights Committee) that review mandatory state reports and, in some cases, hear individual complaints (Optional Protocols).\n    - This creates a continuous cycle of oversight that was absent in the original 1948 framework.\n\n3.  **Specialization Addressing 'Blind Spots':**\n    - The UDHR was general; subsequent treaties like the Convention on the Rights of Persons with Disabilities (CRPD) or the Convention on the Elimination of All Forms of Racial Discrimination (ICERD) provide detailed benchmarks for accountability in areas the UDHR only touched upon briefly.\n\n4.  **Regional Judicial Enforcement:**\n    - In regions like Europe and the Americas, human rights have moved from 'aspirations' to 'justiciable rights.' The ECHR, for instance, can issue binding judgments that require states to change domestic laws and pay reparations.\n\n5.  **The Universal Periodic Review (UPR):**\n    - While part of the UN Human Rights Council (rather than a specific treaty), this mechanism holds every UN member state accountable to the UDHR and other instruments through peer review.\n\n### **Arguments Challenging the Claim (Limitations to Accountability):**\n\n1.  **The Persistence of State Sovereignty and Reservations:**\n    - States often ratify treaties but include 'reservations' that exempt them from key provisions (e.g., many states maintain reservations on CEDAW based on domestic or religious laws), undermining the 'robust' nature of the system.\n\n2.  **Enforcement Deficits and Lack of 'Teeth':**\n    - Unlike domestic law, international human rights law often lacks a centralized police force. UN Treaty Body recommendations are often ignored by powerful states (e.g., major powers frequently ignore criticisms of their detention policies or military actions).\n\n3.  **The 'Implementation Gap' (De Jure vs. De Facto):**\n    - Many states are parties to every major convention but continue to have poor human rights records. The existence of legal frameworks does not always translate into protection on the ground.\n\n4.  **Politicization of Human Rights Bodies:**\n    - The UN Human Rights Council is often criticized for being a political forum where states protect allies and target enemies, rather than a neutral mechanism for accountability.\n\n### **Conclusion:**\n- **Summary:** The evolution of the international legal framework has undeniably provided the legal 'teeth' that the UDHR lacked in 1948. The transition from a moral standard to a complex web of treaties and courts represents a significant shift toward accountability.\n- **Final Judgment:** However, the system remains imperfect. True accountability is often hindered by political will, the principle of state sovereignty, and the lack of universal enforcement mechanisms. While the UDHR is no longer 'merely' aspirational, the 'robust system' is more effective in some regions and for some rights than others.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7d052031-2c7f-47af-a833-66299586cd87",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-global-politics-7d052031-2c7f-47af-a833-66299586cd87-1771840710187",
+            "generatedAt": "2026-02-23T11:02:28.838Z",
+            "variationScope": 5,
+            "sourceRevisionId": 827110
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 56682,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Mechanisms Addressing Human Rights Violations and Injustices",
+              "title": "Mechanisms Addressing Human Rights Violations and Injustices",
+              "labeledAt": "2026-03-06T15:33:24.530Z",
+              "reasoning": "Focuses on evaluating tools used to address human rights violations\u2014diplomatic engagement/dialogue versus coercive measures like sanctions or intervention.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56687,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Humanitarian Intervention Debates",
+              "title": "Humanitarian Intervention Debates",
+              "labeledAt": "2026-03-06T15:33:24.530Z",
+              "reasoning": "Explicitly raises the debate about intervention (and coercion) to improve human rights outcomes within sovereign states.",
+              "confidence": 0.8
+            },
+            {
+              "id": 56653,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Sovereignty > Challenges to state sovereignty",
+              "title": "Challenges to state sovereignty",
+              "labeledAt": "2026-03-06T15:33:24.530Z",
+              "reasoning": "The question is framed around action \u201cwithin sovereign states,\u201d implicating how external pressure (sanctions/intervention) challenges or constrains state sovereignty.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 1682346,
+        "parts": [
+          {
+            "id": 1143222,
+            "content": "Evaluate the view that diplomatic engagement and dialogue are more effective than coercive measures, such as sanctions or intervention, in improving human rights outcomes within sovereign states.",
+            "order": -1,
+            "markscheme": "\n**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Diplomatic engagement and dialogue**: Non-coercive methods of communication between states or international actors aimed at influencing behavior through persuasion and incentives (often called 'quiet diplomacy').\n- **Coercive measures**: The use of pressure, such as economic sanctions, travel bans, or military intervention, to force a state to change its human rights practices.\n- **Human rights outcomes**: The tangible improvement in the protection of individual liberties, safety from state violence, or the fulfillment of social and economic needs.\n\nCandidates should evaluate the tension between 'soft power' approaches (dialogue) and 'hard power' approaches (coercion) in the context of international human rights protection.\n\n---\n\n**Arguments in favour of the claim (diplomatic engagement and dialogue are more effective) may include:**\n\n- **Preservation of sovereignty and cooperation**: States are more likely to implement reforms if they feel their sovereignty is respected rather than threatened by external force.\n  Example: ASEAN\u2019s policy of 'constructive engagement' with member states like Vietnam has led to gradual improvements in economic rights and legal frameworks.\n\n- **Avoiding 'backlash' and nationalist entrenchment**: Coercive measures often allow authoritarian leaders to frame human rights as a 'Western imposition,' triggering a nationalist rally-around-the-flag effect.\n  Example: Sanctions on Russia or Iran have often been used by leadership to consolidate domestic support against external 'interference.'\n\n- **Incremental change through trade and aid links**: Dialogue often accompanies economic incentives which can be used to leverage human rights improvements over time.\n  Example: The EU\u2019s GSP+ scheme offers trade preferences to countries (e.g., Pakistan or Sri Lanka) in exchange for ratifying and implementing human rights conventions.\n\n- **Preventing humanitarian crises**: Coercive measures like sanctions can inadvertently harm the most vulnerable populations by destroying the economy, whereas dialogue keeps aid channels open.\n  Example: Arguments that 'quiet diplomacy' in Ethiopia or South Sudan is necessary to maintain humanitarian access to conflict zones.\n\n---\n\n**Arguments against the claim (coercive measures are more effective) may include:**\n\n- **Dialogue as a stalling tactic**: Repressive regimes may use endless negotiations and 'dialogue' to delay action while continuing to commit abuses.\n  Example: The Syrian government's participation in various peace talks while continuing military operations against civilians.\n\n- **Lack of accountability and justice**: Diplomatic engagement often prioritizes stability over justice, allowing perpetrators of rights abuses to remain in power.\n  Example: The 'quiet diplomacy' approach toward the military junta in Myanmar has been criticized for failing to stop the persecution of the Rohingya.\n\n- **The 'success' of targeted sanctions**: Modern 'Magnitsky-style' sanctions target specific individuals rather than populations, creating personal costs for human rights violators.\n  Example: Targeted sanctions against officials in Belarus or Venezuela have frozen assets and restricted the movement of those directly responsible for repression.\n\n- **Moral clarity and global norms**: Public condemnation and coercive measures signal to the international community that certain behaviors are unacceptable, reinforcing global human rights norms.\n  Example: The international isolation and economic boycott of Apartheid South Africa were arguably more effective than decades of 'constructive engagement' by Western powers.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- The effectiveness of either approach often depends on **leverage**: Dialogue works best when the state is dependent on the engaging actor; coercion works best when the target is vulnerable to economic or political pressure.\n- A **'smart' approach** often combines both: using dialogue to provide a path for reform, backed by the credible threat of coercive measures (the 'carrot and stick' approach).\n- Theoretical perspectives:\n  - **Realism**: Suggests states prioritize national interest over human rights, making dialogue a tool of convenience and sanctions a tool of power.\n  - **Liberalism**: Emphasizes the role of international institutions and the power of dialogue to socialize states into human rights norms.\n  - **Critical Theory**: May argue that both dialogue and coercion can be forms of neo-imperialism depending on who is applying them.\n\n---\n\n**Responses should make reference to:**\n\n- Specific case studies of human rights interventions (e.g., Myanmar, South Africa, Iran, China, or the EU's trade policies).\n- The role of international bodies like the UN Human Rights Council or regional organizations.\n- A reasoned conclusion on whether 'quiet diplomacy' or 'hard pressure' is the superior tool for human rights promotion.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7fbd75c2-c1f8-42c8-9401-06dc25cebd2f",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 56682,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Mechanisms Addressing Human Rights Violations and Injustices",
+              "title": "Mechanisms Addressing Human Rights Violations and Injustices",
+              "labeledAt": "2026-03-06T15:33:26.818Z",
+              "reasoning": "The prompt asks to evaluate how effective the international community is at protecting human rights, which directly involves assessing international mechanisms and responses to human rights violations (treaty bodies, courts, UN processes, sanctions, etc.).",
+              "confidence": 0.9
+            },
+            {
+              "id": 56680,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Understand how rights and justice are codified, protected, and monitored",
+              "title": "Understand how rights and justice are codified, protected, and monitored",
+              "labeledAt": "2026-03-06T15:33:26.818Z",
+              "reasoning": "Protecting human rights by the international community relies on how rights are codified, monitored, and enforced through international law and oversight institutions, which is central to evaluating overall effectiveness.",
+              "confidence": 0.75
+            },
+            {
+              "id": 56676,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > Intergovernmental organizations",
+              "title": "Intergovernmental organizations",
+              "labeledAt": "2026-03-06T15:33:26.818Z",
+              "reasoning": "\u201cInternational community\u201d commonly refers to intergovernmental organizations (eg UN, regional bodies) as key actors in human-rights protection, so actor-focused analysis is relevant.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1067274,
+        "parts": [
+          {
+            "id": 10477,
+            "content": "Evaluate the effectiveness of the international community in protecting human rights.",
+            "order": 0,
+            "markscheme": "\n\n**Responses are likely to include:**\n\nCandidates should define key terms:\n- **International community**: The collective of states, international organizations (e.g. UN, ICC, regional bodies), NGOs, and other actors engaged in global governance.\n- **Protecting human rights**: Actions taken to uphold, enforce, and promote fundamental rights and freedoms as defined in instruments like the Universal Declaration of Human Rights (UDHR).\n- **Effectiveness**: The extent to which human rights are meaningfully protected in practice through prevention, intervention, legal accountability, and advocacy.\n\nCandidates should explore **successes and failures**, considering institutional mechanisms, enforcement power, selectivity, and real-world outcomes.\n\n---\n\n**Arguments that the international community is effective in protecting human rights may include:**\n\n- **International legal frameworks**: Treaties such as the ICCPR and CEDAW provide legal standards and accountability mechanisms.  \n  Example: European Court of Human Rights (ECtHR) holding states accountable for violations.\n\n- **Judicial enforcement mechanisms**: The International Criminal Court (ICC) prosecutes individuals for genocide, war crimes, and crimes against humanity.  \n  Example: Conviction of Congolese warlord Thomas Lubanga for child soldier recruitment.\n\n- **Global norm promotion and pressure**: UN bodies and NGOs raise awareness, apply diplomatic pressure, and mobilize sanctions.  \n  Example: International condemnation of Russia\u2019s human rights violations in Ukraine.\n\n- **Humanitarian intervention and peacekeeping**: Military and humanitarian missions may protect civilians in conflict zones.  \n  Example: UN peacekeeping in C\u00f4te d\u2019Ivoire helped prevent post-election violence.\n\n- **Funding and technical assistance**: Donor states and UN agencies support capacity-building for human rights institutions.  \n  Example: UNDP supporting legal reforms in post-conflict states.\n\n---\n\n**Arguments that the international community is limited or ineffective may include:**\n\n- **Lack of enforcement power**: International law often depends on state cooperation; no global police force exists.  \n  Example: Myanmar military\u2019s impunity for crimes against the Rohingya despite ICJ rulings.\n\n- **Selective enforcement and politicization**: Powerful states evade accountability, and enforcement is inconsistent.  \n  Example: Limited response to US torture practices in Guantanamo Bay or Israeli actions in Gaza.\n\n- **Veto power in UN Security Council**: Geopolitical interests block action on serious abuses.  \n  Example: Russia and China vetoing resolutions on Syria.\n\n- **State sovereignty limits intervention**: Human rights protection can be undermined by non-intervention norms.  \n  Example: Inaction in Xinjiang due to China\u2019s economic and political power.\n\n- **Over-reliance on naming and shaming**: Without binding consequences, violations persist.  \n  Example: Continued repression in Iran despite international condemnation.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- The international community has **tools to protect rights**, but its **impact varies** based on political will, power dynamics, and the nature of the violation.\n\n- **Soft power and norm diffusion** have had long-term success, even if short-term enforcement is weak.\n\n- **Collaboration with regional actors and civil society** can enhance effectiveness.\n\n- Candidates may reference theoretical perspectives:\n  - **Liberalism**: Emphasizes the value of institutions and cooperation for protecting rights.\n  - **Realism**: Sees state interests as primary; rights protection is often secondary.\n  - **Constructivism**: Focuses on the evolution of human rights norms and their influence on state behavior.\n\n---\n\n**Responses should make reference to:**\n\n- Real-world examples (e.g., Syria, Myanmar, Ukraine, Sudan, South Africa post-apartheid).\n- Key institutions (e.g., UNHRC, ICC, ECtHR, NGOs like Amnesty International).\n- A reasoned judgement on the degree to which the international community protects human rights effectively, acknowledging both achievements and persistent limitations.\n",
+            "marks": 15,
+            "label_id": "500b9405-5aaf-4db4-8988-134467e631ec",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "92cf08fe-ff63-4c72-b3d1-8952d253b00e",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-global-politics-92cf08fe-ff63-4c72-b3d1-8952d253b00e-1771840710187",
+            "generatedAt": "2026-02-23T10:29:09.585Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1066812
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 56682,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Mechanisms Addressing Human Rights Violations and Injustices",
+              "title": "Mechanisms Addressing Human Rights Violations and Injustices",
+              "labeledAt": "2026-03-06T15:33:30.236Z",
+              "reasoning": "The question focuses on what determines successful protection of human rights, which directly links to enforcement/implementation mechanisms and factors affecting their effectiveness (resources, institutions).",
+              "confidence": 0.84
+            },
+            {
+              "id": 56680,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Understand how rights and justice are codified, protected, and monitored",
+              "title": "Understand how rights and justice are codified, protected, and monitored",
+              "labeledAt": "2026-03-06T15:33:30.236Z",
+              "reasoning": "Examines how rights are protected and monitored in practice, with emphasis on the capacity of state institutions to uphold rights.",
+              "confidence": 0.76
+            },
+            {
+              "id": 56705,
+              "isHl": false,
+              "path": "Development and Sustainability > Nature, Practice and Study of Development and Sustainability > Drivers of Development: Economic, Environmental, Political, Social & Institutional",
+              "title": "Drivers of Development: Economic, Environmental, Political, Social & Institutional",
+              "labeledAt": "2026-03-06T15:33:30.236Z",
+              "reasoning": "Economic resources and institutional development are key drivers of development; the prompt connects development capacity to human-rights outcomes, overlapping with this development drivers topic.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1682359,
+        "parts": [
+          {
+            "id": 1143235,
+            "content": "Examine the claim that the successful protection of human rights is largely determined by a state\u2019s economic resources and institutional development.",
+            "order": -1,
+            "markscheme": "**Markscheme for the Question:**\n\n**Key Concepts:**\n- **Protection of Human Rights:** The legal and practical measures taken by a state to ensure that individuals can exercise their fundamental rights (civil, political, economic, social, and cultural) without interference or deprivation.\n- **Economic Resources:** The wealth, GDP, and financial capacity of a state to fund public services, legal systems, and social safety nets.\n- **Institutional Development:** The strength, transparency, and efficiency of state organs such as the judiciary, legislature, police force, and administrative bodies.\n\n**Arguments Supporting the Claim that Protection is Determined by Resources and Development:**\n\n1. **The High Cost of Positive Rights:**\n   - Economic and social rights (e.g., right to healthcare, education, and housing) require significant state investment. A state with low economic resources may struggle to fulfill these obligations regardless of its intent.\n   - **Example:** In low-income states like the Central African Republic, the right to health is severely compromised by a lack of basic infrastructure and medical funding, whereas wealthy states like Norway can provide comprehensive coverage.\n\n2. **Institutional Capacity and the Rule of Law:**\n   - Effective protection requires a professionalized civil service and an independent judiciary. Institutional development ensures that rights are not just laws on paper but are enforceable in practice.\n   - **Example:** Highly developed institutions in the United Kingdom allow for robust judicial reviews and oversight of executive power, preventing human rights abuses through established legal frameworks.\n\n3. **Stability and Corruption Mitigation:**\n   - Economic development is often linked to lower levels of corruption. States with more resources can afford to pay law enforcement and judicial officials competitive wages, reducing the incentive for bribery that often leads to rights violations.\n   - **Example:** Singapore\u2019s high level of economic development and high public sector salaries are cited as factors in maintaining a clean, efficient legal system that protects property and civil rights.\n\n4. **Technological Infrastructure:**\n   - Developed states can utilize technology for better monitoring of human rights, maintaining databases, and ensuring transparency in governance.\n\n**Arguments Challenging the Claim (Factors Other Than Development):**\n\n1. **The 'Negative Rights' Argument:**\n   - Civil and political rights (e.g., freedom from torture, freedom of speech) are 'negative rights' that primarily require the state to *refrain* from acting. Protecting these rights does not necessarily require high economic development, but rather political restraint.\n   - **Example:** Post-apartheid South Africa established a progressive constitution and strong protections for civil liberties despite facing significant economic challenges and inequality.\n\n2. **Political Will vs. Economic Wealth:**\n   - High levels of development do not guarantee human rights protection if the political leadership prioritizes state security or economic growth over individual liberties.\n   - **Example:** Resource-rich states like Qatar or the United Arab Emirates have been criticized by international NGOs for their treatment of migrant workers and restrictions on political dissent, despite having very high GDP per capita.\n\n3. **The Role of Civil Society and Global Advocacy:**\n   - The presence of a vibrant civil society, NGOs, and international pressure can force human rights protections even in states with limited resources.\n   - **Example:** Human rights advocacy in Malawi and The Gambia has led to significant legal changes regarding LGBTQ+ rights and freedom of the press, driven by social activism rather than economic growth.\n\n4. **Cultural and Ideological Frameworks:**\n   - A state's adherence to international human rights norms is often a product of its cultural history and ideological commitments rather than its balance sheet.\n   - **Example:** Costa Rica\u2019s decision to abolish its military in 1948 allowed it to reallocate resources toward social rights and maintain a stable democracy, showing that strategic political choices matter more than initial wealth.\n\n**Conclusion:**\n- Economic resources and institutional development provide the necessary 'scaffolding' for the protection of many human rights, particularly socio-economic ones that require state expenditure.\n- However, the protection of civil and political rights is more frequently a matter of political will and the existence of a democratic culture. \n- While development makes the *sustenance* of a human rights regime easier, it is not a prerequisite for the *existence* of one. The most effective protection occurs where economic capacity meets a genuine political commitment to universal rights.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a6b2dad4-768d-4b65-9989-07ad55816528",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 56687,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Humanitarian Intervention Debates",
+              "title": "Humanitarian Intervention Debates",
+              "labeledAt": "2026-03-06T15:33:31.882Z",
+              "reasoning": "The prompt directly asks whether state sovereignty should be compromised to protect human rights, which is the core controversy in humanitarian intervention debates (eg R2P vs non-intervention).",
+              "confidence": 0.9
+            },
+            {
+              "id": 56653,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Sovereignty > Challenges to state sovereignty",
+              "title": "Challenges to state sovereignty",
+              "labeledAt": "2026-03-06T15:33:31.882Z",
+              "reasoning": "Evaluating compromises to sovereignty to protect human rights requires discussing external challenges to state sovereignty (intervention, international pressure, conditionality).",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1067277,
+        "parts": [
+          {
+            "id": 10408,
+            "content": "Evaluate the view that sovereignty must sometimes be compromised to protect human rights.",
+            "order": 0,
+            "markscheme": "\n\n**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Sovereignty**: The principle that states have supreme authority over their territory and domestic affairs, free from external interference.\n- **Human rights**: The basic freedoms and protections to which all people are entitled, such as life, liberty, and protection from torture and discrimination, as outlined in the UDHR.\n- **Compromised**: Limited, overridden, or constrained for a greater purpose, such as humanitarian intervention or legal accountability.\n\nCandidates should examine whether protecting human rights justifies breaching or limiting state sovereignty, and under what conditions this might be acceptable or effective.\n\n---\n\n**Arguments in favour of the view (sovereignty must sometimes be compromised) may include:**\n\n- **Responsibility to Protect (R2P)**: International community has a duty to act when states fail to prevent mass atrocities.  \n  Example: NATO\u2019s intervention in Libya (2011) to prevent mass killings under R2P.\n\n- **Prevention of genocide and crimes against humanity**: Inaction in the name of sovereignty can enable atrocities.  \n  Example: The Rwandan Genocide (1994) where lack of intervention led to 800,000 deaths.\n\n- **Universal human rights transcend borders**: Rights are not subject to state discretion\u2014violations demand international accountability.  \n  Example: International Criminal Court prosecuting war criminals regardless of national sovereignty.\n\n- **Sovereignty is conditional on responsibility**: Modern interpretations view sovereignty as including the responsibility to protect one\u2019s population.  \n  Example: UN interventions in C\u00f4te d\u2019Ivoire and South Sudan justified as necessary to protect civilians.\n\n- **Authoritarian abuse of sovereignty**: Some regimes use sovereignty to justify repression and avoid scrutiny.  \n  Example: North Korea citing sovereignty to reject investigations into systemic abuses.\n\n---\n\n**Arguments against the view (sovereignty should not be compromised) may include:**\n\n- **Undermines international order and stability**: Breaching sovereignty risks conflict, sets dangerous precedents, and weakens trust in international law.  \n  Example: Controversy over NATO's role in Libya contributing to chaos and regime change.\n\n- **Risk of abuse by powerful states**: Humanitarian justifications may mask geopolitical interests.  \n  Example: Iraq War (2003) justified partly on humanitarian grounds but widely seen as strategic.\n\n- **Double standards and selectivity**: Intervention occurs selectively based on politics, not humanitarian need.  \n  Example: Strong response in Libya but inaction in Myanmar or Yemen.\n\n- **Non-intervention principle of the UN Charter**: Sovereignty is a foundational principle of international law and global cooperation.\n\n- **Local solutions often more sustainable**: External intervention can backfire or lack legitimacy.  \n  Example: Failures of prolonged foreign occupation in Afghanistan to achieve human rights improvements.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- Sovereignty and human rights are **not mutually exclusive**\u2014in modern international relations, **sovereignty is conditional** on protecting citizens.\n\n- **Context and proportionality matter**: Humanitarian intervention should be a last resort, with multilateral backing and clear legal frameworks.\n\n- **The legitimacy of intervention depends on intent, process, and accountability**\u2014not just the justification.\n\n- Candidates may reference theoretical perspectives:\n  - **Realism**: Prioritizes state sovereignty and views intervention as a threat to order.\n  - **Liberalism**: Emphasizes global cooperation and universal rights over absolute sovereignty.\n  - **Constructivism**: Argues that norms like R2P are reshaping the concept of sovereignty.\n\n---\n\n**Responses should make reference to:**\n\n- Case studies (e.g., Libya, Syria, Rwanda, Myanmar, Iraq, Sudan).\n- Legal frameworks (e.g., UN Charter, R2P, ICC jurisdiction).\n- A reasoned conclusion on whether sovereignty must be sacrificed at times to uphold human rights, and what safeguards should exist to ensure justifiable and effective action.\n",
+            "marks": 15,
+            "label_id": "500b9405-5aaf-4db4-8988-134467e631ec",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a7bdb8d2-62a4-4747-91f9-77bbe5be104f",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 56677,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > Civil society organizations including NGOs that advocate human rights",
+              "title": "Civil society organizations including NGOs that advocate human rights",
+              "labeledAt": "2026-03-06T15:33:30.857Z",
+              "reasoning": "Directly asks about the role/impact of NGOs and civil society groups in promoting and defending human rights globally, which aligns with civil society/NGO human rights advocacy as political stakeholders.",
+              "confidence": 0.97
+            },
+            {
+              "id": 56682,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Mechanisms Addressing Human Rights Violations and Injustices",
+              "title": "Mechanisms Addressing Human Rights Violations and Injustices",
+              "labeledAt": "2026-03-06T15:33:30.857Z",
+              "reasoning": "Evaluating impact in promoting/defending rights typically involves discussing monitoring, reporting, advocacy, and other mechanisms used to address human rights violations.",
+              "confidence": 0.62
+            },
+            {
+              "id": 56638,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Framing Global Politics > Organized civil society and non-governmental organizations",
+              "title": "Organized civil society and non-governmental organizations",
+              "labeledAt": "2026-03-06T15:33:30.857Z",
+              "reasoning": "Broad framing of global politics through organized civil society and NGOs; relevant as the question focuses on NGOs/civil society as global political actors (though in a human-rights context).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1066742,
+        "parts": [
+          {
+            "id": 508014,
+            "content": "Evaluate the impact of non-governmental organizations (NGOs) and civil society groups in promoting and defending human rights globally.",
+            "order": 0,
+            "markscheme": "\n**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Non-governmental organizations (NGOs)**: Independent, non-profit groups that operate internationally or domestically to promote social or political goals, including human rights.\n- **Civil society groups**: Grassroots organizations, community associations, faith-based groups, and activist movements working outside the formal state apparatus.\n- **Human rights**: The basic rights and freedoms to which all people are entitled, such as those outlined in the Universal Declaration of Human Rights (UDHR).\n\nCandidates should evaluate the influence, effectiveness, and limitations of these actors in different global contexts, drawing on case studies and theory.\n\n---\n\n**Arguments in favour of the claim (NGOs and civil society have a strong impact) may include:**\n\n- **Monitoring and reporting violations**: NGOs gather evidence, publish reports, and hold violators accountable.  \n  Example: Human Rights Watch and Amnesty International documenting abuses in Syria and Iran.\n\n- **Advocacy and norm-shaping**: These groups shape public discourse and pressure governments and international bodies.  \n  Example: The role of NGOs in pushing for the International Criminal Court (ICC) through the Coalition for the ICC.\n\n- **Empowering local communities**: Civil society promotes participation, awareness, and grassroots mobilization.  \n  Example: Local women\u2019s rights groups in Afghanistan educating and protecting girls under Taliban rule.\n\n- **Filling gaps left by states**: NGOs often operate in places where governments are absent, unwilling, or complicit.  \n  Example: M\u00e9decins Sans Fronti\u00e8res (MSF) providing care in conflict zones where state services have collapsed.\n\n- **Supporting legal reform**: NGOs help draft legislation and advise on aligning domestic law with international human rights norms.  \n  Example: NGOs supporting constitutional reform in Kenya and Nepal.\n\n---\n\n**Arguments against the claim (NGOs and civil society have limited or uneven impact) may include:**\n\n- **Lack of enforcement power**: NGOs can raise awareness but cannot compel compliance.  \n  Example: Amnesty International\u2019s reports on North Korea have had limited impact on state behaviour.\n\n- **State restrictions and repression**: Authoritarian regimes often restrict or criminalize NGO activity.  \n  Example: Crackdowns on NGOs in Egypt, Russia, and China through \"foreign agent\" laws.\n\n- **Dependency on external funding**: NGOs may reflect donor agendas, not grassroots needs.  \n  Example: Western-funded NGOs in the Global South sometimes criticized for neo-colonial dynamics.\n\n- **Limited access in conflict zones**: Insecurity and state obstruction may prevent monitoring and service provision.  \n  Example: NGOs forced to withdraw from parts of Sudan or Yemen due to conflict or bans.\n\n- **Fragmentation and duplication**: Proliferation of NGOs can lead to uncoordinated efforts and inefficiency.  \n  Example: Post-earthquake Haiti saw a large number of NGOs working without coherent strategy.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- NGOs and civil society are **essential norm entrepreneurs**, particularly in raising awareness and supporting victims, but **depend on enabling environments** to be truly effective.\n\n- **Partnership with international institutions and states** is often necessary to translate advocacy into systemic change.\n\n- Candidates may reference theoretical perspectives:\n  - **Liberalism**: Highlights the importance of non-state actors in advancing global cooperation and justice.\n  - **Realism**: Views NGOs as secondary to state power and often ineffective in influencing sovereign actions.\n  - **Constructivism**: Emphasizes how NGOs shape identities, norms, and discourse in international relations.\n\n---\n\n**Responses should make reference to:**\n\n- Specific NGOs and civil society groups (e.g., Amnesty International, Human Rights Watch, MSF, grassroots movements).\n- Case studies of successes and limitations across different regions and regimes.\n- A clear and reasoned judgement on the extent to which NGOs and civil society promote and defend human rights globally.\n",
+            "marks": 15,
+            "label_id": "500b9405-5aaf-4db4-8988-134467e631ec",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a94b0a36-aae1-4e6d-9df6-985671c2b734",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 4,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T10:10:44.664Z",
+            "resultId": 6068
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 56644,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Framing Global Politics > The media",
+              "title": "The media",
+              "labeledAt": "2026-03-05T16:09:42.559Z",
+              "reasoning": "The question directly asks to evaluate the influence of 'the media' as a political actor and mechanism in global politics.",
+              "confidence": 1
+            },
+            {
+              "id": 56684,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Competing Global Perspectives on Human Rights",
+              "title": "Competing Global Perspectives on Human Rights",
+              "labeledAt": "2026-03-05T16:09:42.559Z",
+              "reasoning": "The term 'human rights discourse' involves the exchange of competing global perspectives and debates surrounding the application and interpretation of human rights.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56671,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Understanding Human Rights",
+              "title": "Understanding Human Rights",
+              "labeledAt": "2026-03-05T16:09:42.559Z",
+              "reasoning": "The core subject matter is the understanding and conceptualization of human rights within the global political arena.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1693747,
+        "parts": [
+          {
+            "id": 1155955,
+            "content": "Evaluate the extent to which the media shapes global human rights discourse.",
+            "order": 0,
+            "markscheme": "**Responses are likely to include:**\n\nCandidates should define key terms:\n- **Media**: Traditional (TV, radio, newspapers) and digital (social media, blogs, online journalism) platforms that disseminate information to the public. <marks>1 mark</marks>\n- **Human rights discourse**: The global conversation about the definition, importance, and enforcement of human rights norms and violations. <marks>1 mark</marks>\n- **Shape**: Influence, direct, amplify, or distort perceptions and priorities within this discourse. <marks>1 mark</marks>\n\nCandidates should evaluate the **extent of the media\u2019s influence**, considering both its power to highlight and frame issues and its limitations, biases, and variability across contexts. <marks>1 mark</marks>\n\n---\n\n**Arguments in favour of the claim (media significantly shapes human rights discourse) may include:**\n\n- **Agenda-setting power**: Media determines which human rights issues gain international attention and urgency.\n  Example: Global media coverage of George Floyd\u2019s killing sparked worldwide protests against police brutality and systemic racism. <marks>1 mark</marks>\n\n- **Framing and narrative construction**: The way media presents a story influences public perception and political pressure.\n  Example: Use of the term \"genocide\" in coverage of the Rohingya crisis shaped international response and calls for justice. <marks>1 mark</marks>\n\n- **Amplification of grassroots voices**: Social media platforms give victims and activists tools to document abuses and mobilize action.\n  Example: Hashtags like #EndSARS and #MeToo brought local struggles to global attention. <marks>1 mark</marks>\n\n- **Mobilizing public and diplomatic pressure**: Media exposure can force governments and international institutions to act.\n  Example: Coverage of famine and civil war in Ethiopia led to increased aid and diplomatic engagement. <marks>1 mark</marks>\n\n- **Watchdog function**: Investigative journalism uncovers abuses that might otherwise be hidden.\n  Example: BBC and Al Jazeera reporting on Xinjiang camps helped expose China\u2019s treatment of Uyghurs. <marks>1 mark</marks>\n\n---\n\n**Arguments against the claim (media influence is limited or distorted) may include:**\n\n- **Selective coverage and media bias**: Some crises receive attention while others are ignored due to political or commercial priorities.\n  Example: Limited media focus on humanitarian crises in the Central African Republic or Yemen compared to Ukraine. <marks>1 mark</marks>\n\n- **Western-centric narratives**: Global human rights discourse is often shaped by media in the Global North, sidelining alternative perspectives.\n  Example: Framing of African or Middle Eastern societies through a lens of conflict and failure rather than empowerment. <marks>1 mark</marks>\n\n- **Manipulation and misinformation**: Authoritarian regimes use state media or disinformation campaigns to suppress or distort human rights issues.\n  Example: Russian and Chinese state media denying or reframing abuses. <marks>1 mark</marks>\n\n- **Short news cycles and compassion fatigue**: Media attention may be fleeting, leading to superficial engagement with long-term human rights crises.\n  Example: Declining coverage of Afghanistan after the 2021 withdrawal despite ongoing abuses. <marks>1 mark</marks>\n\n- **Censorship and limited access**: In many regions, media is restricted or unsafe, limiting its ability to report on violations.\n  Example: Journalists arrested or killed in countries like Myanmar, Iran, or Mexico. <marks>1 mark</marks>\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- The media plays a **powerful role in shaping visibility and narratives**, but its influence is **uneven, politicized, and often short-lived**. <marks>1 mark</marks>\n\n- **New media (social platforms)** has democratized discourse, but also increased the risk of fragmentation, misinformation, and performative activism. <marks>1 mark</marks>\n\n- The effectiveness of media depends on **audience engagement, policy response, and context**\u2014exposure does not guarantee action. <marks>1 mark</marks>\n\n- Candidates may reference theoretical perspectives:\n  - **Constructivism**: Highlights how norms and narratives are constructed through discourse\u2014including media. <marks>1 mark</marks>\n  - **Critical theory**: Emphasizes media ownership, ideology, and power structures in shaping discourse. <marks>1 mark</marks>\n  - **Liberalism**: Values the free press as essential for transparency, human rights, and accountability. <marks>1 mark</marks>\n\n---\n\n**Responses should make reference to:**\n\n- Real-world examples (e.g., #MeToo, #EndSARS, Xinjiang, Syria, Ukraine, Sudan). <marks>1 mark</marks>\n- Media platforms and their role in shaping public and policy responses to human rights issues. <marks>1 mark</marks>\n- A reasoned conclusion on how much influence media has, and whether this influence is beneficial, biased, or both. <marks>1 mark</marks>",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a9b679ba-985e-4fef-8719-2780b176bb04",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-global-politics-a9b679ba-985e-4fef-8719-2780b176bb04-1771840710187",
+            "generatedAt": "2026-02-23T10:24:45.909Z",
+            "variationScope": 5,
+            "sourceRevisionId": 763761
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T16:46:51.211Z",
+            "resultId": 13896
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 56684,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Competing Global Perspectives on Human Rights",
+              "title": "Competing Global Perspectives on Human Rights",
+              "labeledAt": "2026-03-05T16:09:52.143Z",
+              "reasoning": "The question asks for an evaluation of competing arguments regarding the primary cause of human rights violations, which directly relates to the debate between structural/systemic perspectives versus state-centric perspectives.",
+              "confidence": 0.95
+            },
+            {
+              "id": 66759,
+              "isHl": false,
+              "path": "HL Extension: Global Political Challenges > Equality",
+              "title": "Equality",
+              "labeledAt": "2026-03-05T16:09:52.143Z",
+              "reasoning": "The prompt explicitly identifies 'systemic inequality' as a potential primary driver of global political issues, which is a core theme in the Equality topic of the HL extension.",
+              "confidence": 0.9
+            },
+            {
+              "id": 56675,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > The state",
+              "title": "The state",
+              "labeledAt": "2026-03-05T16:09:52.143Z",
+              "reasoning": "The question requires an analysis of the state's role (state-sponsored repression) as an actor and driver in the context of rights and justice.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1694188,
+        "parts": [
+          {
+            "id": 1156155,
+            "content": "\u201cThe primary driver of human rights violations in the contemporary world is systemic inequality rather than state-sponsored repression.\u201d Discuss this statement.",
+            "order": 0,
+            "markscheme": "Responses are likely to include:\n\nCandidates should define key terms:\n- **Human rights violations**: Actions or omissions by states or other actors that infringe upon fundamental rights (civil, political, economic, social, and cultural).\n- **Systemic inequality**: A condition where specific groups are disadvantaged by the inherent design of social, economic, and political systems (often linked to Galtung\u2019s concept of structural violence).\n- **State-sponsored repression**: The deliberate use of state power (police, military, judiciary) to control, silence, or eliminate perceived threats through direct violence or coercion.\n\nCandidates should evaluate the relative impact of underlying social structures versus the active agency of authoritarian or abusive regimes.\n\n---\n\nArguments in favour of the claim (systemic inequality as the primary driver) may include:\n\n- **Economic marginalisation**: Global neoliberal economic structures can lead to the denial of the right to an adequate standard of living. \n  Example: The impact of debt crises in developing nations forcing cuts to healthcare and education to meet international loan obligations.\n- **Environmental Injustice**: Climate change and pollution disproportionately affect poor or indigenous communities, violating rights to health and life. \n  Example: The displacement of indigenous communities in the Amazon due to industrial expansion and lack of legal protections.\n- **Gender and Racial Hierarchies**: Long-standing social structures prevent access to justice and political participation for women and minorities. \n  Example: The gender pay gap and lack of reproductive rights in various global contexts as a form of systemic rights denial.\n- **The Digital Divide**: Inequality in access to technology prevents the realisation of rights to information and education in an increasingly digital world. \n  Example: Rural populations in Sub-Saharan Africa being excluded from modern economic and political processes.\n\n---\n\nArguments against the claim (state-sponsored repression as the primary driver) may include:\n\n- **Authoritarianism and Political Violence**: Direct state action often results in the most immediate and severe violations, such as torture or extrajudicial killings. \n  Example: The use of military force against pro-democracy protesters in Myanmar since the 2021 coup.\n- **Digital Authoritarianism and Surveillance**: States increasingly use technology to actively monitor and repress dissent, violating rights to privacy and expression. \n  Example: The deployment of facial recognition and social credit systems to control minority populations or political activists.\n- **Conflict and Warfare**: Violations are most concentrated in areas of active state-led or state-supported conflict. \n  Example: War crimes and the targeting of civilian infrastructure in the Russia-Ukraine conflict or the Yemeni Civil War.\n- **Legal and Judicial Abuse**: The manipulation of the rule of law to imprison political rivals or silence journalists. \n  Example: The use of 'anti-terror' laws in various nations to detain human rights defenders without trial.\n\n---\n\nConclusion:\nCandidates may conclude that while systemic inequality provides the fertile ground for abuses to occur (the 'slow violence'), state-sponsored repression often triggers the most acute crises. They might argue that the two are symbiotic, as states may use repression to maintain the very inequalities that benefit the ruling elite.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "da34b571-b416-4a93-be22-a1188b6db1f5",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-global-politics-da34b571-b416-4a93-be22-a1188b6db1f5-1771840710187",
+            "generatedAt": "2026-02-23T10:27:29.141Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1066776
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 56685,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > The politicization of rights and justice",
+              "title": "The politicization of rights and justice",
+              "labeledAt": "2026-03-06T15:33:41.590Z",
+              "reasoning": "The question directly asks whether major powers\u2019 national-interest priorities have turned the human rights regime into an instrument of geopolitical competition\u2014this is essentially about the politicization and instrumental use of human rights.",
+              "confidence": 0.92
+            },
+            {
+              "id": 56684,
+              "isHl": false,
+              "path": "Rights and Justice > Debates on Rights and Justice > Competing Global Perspectives on Human Rights",
+              "title": "Competing Global Perspectives on Human Rights",
+              "labeledAt": "2026-03-06T15:33:41.590Z",
+              "reasoning": "Evaluating claims about a \u2018universal standard\u2019 versus power-driven/selective application involves contrasting global perspectives on human rights and debates over universality vs relativism/contestation.",
+              "confidence": 0.68
+            },
+            {
+              "id": 56681,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Evolution of global standards for rights and justice",
+              "title": "Evolution of global standards for rights and justice",
+              "labeledAt": "2026-03-06T15:33:41.590Z",
+              "reasoning": "It references the \u2018international human rights regime\u2019 as a global standard, implicating how global human rights standards emerged and operate historically and institutionally.",
+              "confidence": 0.56
+            }
+          ]
+        },
+        "currentRevisionId": 1682356,
+        "parts": [
+          {
+            "id": 1143232,
+            "content": "Evaluate the view that the prioritisation of national interest by major powers has turned the international human rights regime into a tool of geopolitical competition rather than a universal standard.",
+            "order": -1,
+            "markscheme": "\n\n**Responses are likely to include:**\n\nCandidates should define and contextualise key terms:\n- **National Interest**: The goals (economic, military, or cultural) that a state pursues in the international arena, often prioritized over global norms.\n- **Geopolitical Competition**: The struggle between states for influence, resources, and power in the international system (e.g., US-China-Russia rivalry).\n- **Universal Standard**: The ideal that human rights are inherent to all human beings, regardless of nationality, and should be applied consistently and without bias.\n\nCandidates should explore how the strategic use of human rights by powerful states impacts the integrity of international law and global norms.\n\n---\n\n**Arguments in favour of the view (human rights as a tool of competition) may include:**\n\n- **Selective Outrage and Double Standards**: Major powers often condemn the human rights records of adversaries while ignoring similar or worse abuses by strategic allies.\n  - Example: Western condemnation of human rights in Iran or Venezuela compared to the relatively muted response toward human rights issues in allied states in the Middle East.\n- **Weaponization of Sanctions**: Human rights are frequently used as a legal pretext to impose economic sanctions intended to weaken geopolitical rivals.\n  - Example: US sanctions on Chinese tech firms or Russian officials often framed in human rights terms, which critics argue are primarily motivated by trade or security interests.\n- **Gridlock in Multilateral Institutions**: The UN Security Council is often paralysed by the use of the veto to protect allies from human rights-related resolutions.\n  - Example: Russia\u2019s vetoes regarding Syria; US vetoes regarding Israel/Palestine.\n- **Human Rights as 'Imperialism'**: Post-colonial critics argue that the 'universal' framework is a Western construct used to justify intervention in the Global South.\n  - Example: The 'Responsibility to Protect' (R2P) doctrine being viewed as a tool for regime change, as seen in the 2011 Libya intervention.\n- **Institutional Bias**: The perception that international legal bodies target leaders from weaker nations while avoiding those from major powers.\n  - Example: Criticisms of the ICC for its historical focus on African leaders while failing to investigate major powers.\n\n---\n\n**Arguments against the view (human rights remain a universal standard) may include:**\n\n- **Global Legal Foundations**: The existence of treaties (e.g., CEDAW, CAT) and the Universal Declaration of Human Rights (UDHR) provides a constant, objective benchmark that transcends state interests.\n- **The Rise of Regional Frameworks**: Non-Western regional bodies demonstrate that rights are not just a tool of the Global North.\n  - Example: The African Charter on Human and Peoples' Rights and the Inter-American Court of Human Rights.\n- **The Role of Transnational Advocacy**: Non-state actors (NGOs) maintain pressure on all states, regardless of their geopolitical alignment.\n  - Example: Human Rights Watch and Amnesty International reporting on domestic abuses within the US, UK, China, and Russia simultaneously.\n- **The 'Spiral Model' of Human Rights**: Constructivist theory suggests that even when states use rights talk cynically, it eventually creates a domestic and international expectation that forces genuine change.\n- **The Universal Periodic Review (UPR)**: Every UN member state, including major powers, must undergo a peer-review of their human rights record, ensuring no state is entirely exempt from scrutiny.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- A distinction between **rhetorical politicisation** (how states talk) and **normative progress** (how laws and behaviors actually change over time).\n- The idea that human rights can be **both** a tool of power and a genuine universal ideal simultaneously.\n- Reference to theoretical perspectives:\n  - **Realism**: Human rights are a 'soft power' tool used to mask the pursuit of hard power interests.\n  - **Liberalism**: International institutions, though flawed, are the only way to move toward a rule-based universal order.\n  - **Critical Theory/Post-colonialism**: The current framework is structurally biased toward Western liberal-capitalist values.\n\n---\n\n**Responses should make reference to:**\n\n- Specific human rights instruments (e.g., UDHR, ICCPR, ICESCR).\n- Contemporary case studies of geopolitical tension (e.g., the treatment of Uyghurs in China, the war in Ukraine, the conflict in Gaza, or internal crackdowns in Iran).\n- A clear conclusion assessing whether the 'universal' nature of human rights survives their instrumental use in global power struggles.\n",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e306f14b-370d-4ef1-8e63-5813e3c08f5c",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-global-politics-e306f14b-370d-4ef1-8e63-5813e3c08f5c-1771840710187",
+            "generatedAt": "2026-02-23T10:38:12.432Z",
+            "variationScope": 5,
+            "sourceRevisionId": 763807
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 56675,
+              "isHl": false,
+              "path": "Rights and Justice > Interactions of Political Stakeholders and Actors > The state",
+              "title": "The state",
+              "labeledAt": "2026-03-06T15:33:39.010Z",
+              "reasoning": "Directly addresses the sovereign state\u2019s role as both guarantor and obstacle in the realization/enforcement of human rights, focusing on the state as a key actor in rights and justice.",
+              "confidence": 0.84
+            },
+            {
+              "id": 56653,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Sovereignty > Challenges to state sovereignty",
+              "title": "Challenges to state sovereignty",
+              "labeledAt": "2026-03-06T15:33:39.010Z",
+              "reasoning": "The question hinges on the sovereignty paradox and how sovereignty constrains universal enforcement of rights (eg non-intervention), linking to challenges to state sovereignty.",
+              "confidence": 0.72
+            },
+            {
+              "id": 56682,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Mechanisms Addressing Human Rights Violations and Injustices",
+              "title": "Mechanisms Addressing Human Rights Violations and Injustices",
+              "labeledAt": "2026-03-06T15:33:39.010Z",
+              "reasoning": "Evaluating \u2018universal enforcement\u2019 involves discussing mechanisms that address human-rights violations and their limits when states resist or block enforcement.",
+              "confidence": 0.66
+            },
+            {
+              "id": 56671,
+              "isHl": false,
+              "path": "Rights and Justice > Contested Meanings of Rights and Justice > Understanding Human Rights",
+              "title": "Understanding Human Rights",
+              "labeledAt": "2026-03-06T15:33:39.010Z",
+              "reasoning": "Implicitly requires understanding what human rights are and what \u201cuniversal\u201d enforcement means, engaging with core understandings of human rights.",
+              "confidence": 0.54
+            }
+          ]
+        },
+        "currentRevisionId": 1682361,
+        "parts": [
+          {
+            "id": 1143237,
+            "content": "Evaluate the view that the paradox of the sovereign state is that it remains the only effective mechanism for the realization of human rights, while simultaneously acting as the primary barrier to their universal enforcement.",
+            "order": 0,
+            "markscheme": "**Key Concepts**\n\n- **State Sovereignty:** The principle of supreme and independent authority over a territory and its population, often including the principle of non-interference.\n- **Realization of Human Rights:** The process of translating abstract international norms into tangible domestic protections (civil, political, social, and economic).\n- **Universal Enforcement:** The challenge of ensuring human rights standards are applied consistently globally, regardless of national borders or cultural differences.\n- **The Paradox:** The dual nature of the state as both the essential provider and the potential subverter of rights.\n\n**Arguments supporting the view that the state is the only effective mechanism for realization:**\n\n- **Legal Codification and Domestic Remedy:** International treaties (e.g., ICCPR, ICESCR) lack direct effect without state implementation. Only states can create domestic laws that individuals can invoke in courts. Example: The UK Human Rights Act (1998) bringing the ECHR into domestic law.\n- **Institutional Infrastructure:** Human rights require positive state action, such as funding a police force to ensure security or a healthcare system to ensure the right to health. Example: The role of the state in achieving the Sustainable Development Goals (SDGs).\n- **Citizenship and Identity:** As argued by Hannah Arendt, rights are often tied to citizenship. The state provides the political community within which rights are claimed and protected. Example: The struggle of stateless people (like the Rohingya) highlights how the absence of state protection leads to the total loss of rights.\n- **Accountability through Social Contract:** In democratic states, the social contract ensures that the state is held accountable to its citizens for rights protections via elections and a free press.\n\n**Arguments supporting the view that the state is the primary barrier to universal enforcement:**\n\n- **The Shield of Sovereignty (Non-Interference):** States often cite Article 2(7) of the UN Charter to prevent external scrutiny or intervention in domestic rights abuses. Example: The principle of \"internal affairs\" used by Myanmar or Belarus to deflect international criticism of crackdowns on dissent.\n- **National Interest over Human Rights:** Realist perspectives suggest states prioritize security and economic stability over moral obligations. Example: Western states maintaining strategic alliances with regimes with poor human rights records, such as the relationship between the US and Saudi Arabia.\n- **Cultural Relativism:** States may use sovereignty to argue that human rights are \"Western impositions\" that do not fit their cultural or religious context. Example: Arguments used in the \"Asian Values\" debate or regarding the application of Sharia law.\n- **State-Sanctioned Repression:** Because the state holds a monopoly on the legitimate use of force, it can become the most efficient violator of rights through surveillance, arbitrary detention, or genocide. Example: The use of anti-terrorism laws in Turkey or Egypt to silence journalists.\n\n**Balanced perspectives and evaluation:**\n\n- **The Role of the 'Responsibility to Protect' (R2P):** Evaluation of whether R2P has successfully shifted the definition of sovereignty from \"power\" to \"responsibility,\" allowing for external enforcement in extreme cases (e.g., Libya 2011).\n- **Evolving Global Governance:** The rise of the International Criminal Court (ICC) and regional courts (like the Inter-American Court of Human Rights) suggests a slow erosion of absolute sovereignty in favor of global accountability.\n- **The Impact of Non-State Actors:** How MNCs can violate rights and NGOs can protect them, sometimes bypassing the state entirely, yet ultimately relying on state regulation to create lasting change.\n- **Theoretical Synthesis:** A Liberal Institutionalist view might argue that international regimes can mitigate the \"barrier\" effect of the state, while a Realist would argue the barrier remains insurmountable as long as the international system is anarchic.\n\n**Responses should make reference to:**\n\n- Specific human rights treaties and UN mechanisms.\n- Diverse case studies (e.g., successful state protection in Costa Rica vs. state-led violations in North Korea).\n- Conceptual tension between universalism and pluralism/sovereignty.\n- A nuanced conclusion regarding whether the \"mechanism\" or the \"barrier\" function of the state is more dominant in the contemporary era.",
+            "marks": 15,
+            "label_id": null,
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ea146c83-eca7-4020-a45d-610f487ab595",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 328,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 56682,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Mechanisms Addressing Human Rights Violations and Injustices",
+              "title": "Mechanisms Addressing Human Rights Violations and Injustices",
+              "labeledAt": "2026-03-06T15:33:41.661Z",
+              "reasoning": "The question asks about whether international law holds states accountable for human rights violations, directly focusing on enforcement/accountability mechanisms (courts, sanctions, monitoring, compliance).",
+              "confidence": 0.9
+            },
+            {
+              "id": 56660,
+              "isHl": false,
+              "path": "Core: Understanding power and global politics > Interdependence > Global governance and international law",
+              "title": "Global governance and international law",
+              "labeledAt": "2026-03-06T15:33:41.661Z",
+              "reasoning": "International law is explicitly central to the claim being evaluated, linking to global governance structures and the limits of legal obligations on states.",
+              "confidence": 0.75
+            },
+            {
+              "id": 56680,
+              "isHl": false,
+              "path": "Rights and Justice > Nature, Practice and Study of Rights and Justice > Understand how rights and justice are codified, protected, and monitored",
+              "title": "Understand how rights and justice are codified, protected, and monitored",
+              "labeledAt": "2026-03-06T15:33:41.661Z",
+              "reasoning": "Evaluating accountability also involves how human rights are codified, protected and monitored through international legal instruments and oversight bodies.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1084420,
+        "parts": [
+          {
+            "id": 515361,
+            "content": "Evaluate the claim that international law fails to hold states accountable for violations of human rights.",
+            "order": 0,
+            "markscheme": "\n\n**Responses are likely to include:**\n\nCandidates should define key terms:\n- **International law**: A set of legal rules and norms governing the behaviour of states and international actors, including treaties, conventions, and customary law.\n- **Human rights**: Fundamental rights and freedoms entitled to all individuals, as enshrined in documents such as the UDHR, ICCPR, and regional instruments.\n- **Accountability**: The ability to hold states legally or politically responsible for rights violations, through legal action, sanctions, or reputational consequences.\n\nCandidates should assess whether international law effectively holds states accountable or whether enforcement mechanisms are too weak or politically compromised.\n\n---\n\n**Arguments in favour of the claim (international law fails to hold states accountable) may include:**\n\n- **Lack of enforcement power**: Bodies like the ICC and UNHRC depend on voluntary cooperation from states.  \n  Example: Myanmar's refusal to allow investigations into the Rohingya genocide.\n\n- **Selective justice and political bias**: Powerful states often escape accountability due to political influence or UNSC vetoes.  \n  Example: US immunity from ICC jurisdiction; Russia\u2019s use of its UN veto to block action on Syria.\n\n- **Non-ratification or withdrawal**: Some states have not ratified key human rights treaties or have withdrawn from obligations.  \n  Example: The US has not ratified the Rome Statute of the ICC.\n\n- **State sovereignty and non-intervention**: States often reject external legal scrutiny of internal affairs.  \n  Example: China's rejection of criticism over treatment of Uyghurs as interference in domestic matters.\n\n- **Limited capacity and delays**: Legal processes are slow, expensive, and often inaccessible to victims.  \n  Example: Long delays in ICC trials, such as the case of Sudan's Omar al-Bashir.\n\n---\n\n**Arguments against the claim (international law can hold states accountable) may include:**\n\n- **Prosecutions and precedents**: International tribunals have successfully prosecuted leaders and officials.  \n  Example: ICTY and ICTR convicted leaders responsible for atrocities in Yugoslavia and Rwanda.\n\n- **Reputational costs and norm diffusion**: Even without enforcement, legal frameworks stigmatize violators and influence behaviour.  \n  Example: Global condemnation and sanctions against apartheid South Africa.\n\n- **Domestic incorporation of international norms**: Many states have integrated international law into national constitutions and legal systems.  \n  Example: Germany and South Africa embedding human rights protections in domestic law.\n\n- **Hybrid and regional courts**: Courts like the ECtHR and African Court on Human and Peoples\u2019 Rights offer stronger accountability.  \n  Example: ECtHR rulings against Turkey for restrictions on free speech and political rights.\n\n- **Civil society and legal advocacy**: NGOs use international legal mechanisms to bring cases, generate awareness, and push for reform.  \n  Example: Amnesty International and Human Rights Watch engaging with UN bodies to highlight violations.\n\n---\n\n**Balanced perspectives and evaluation may include:**\n\n- International law is **normatively powerful** but **structurally limited** by state sovereignty and power dynamics.\n\n- **Effectiveness varies** by region, regime type, and the political will of global institutions.\n\n- Candidates may reference theoretical perspectives:\n  - **Realism**: Argues that powerful states act in self-interest and often evade accountability.\n  - **Liberalism**: Emphasizes the role of legal institutions and cooperation in promoting human rights.\n  - **Constructivism**: Highlights the role of legal norms in shaping state identity and behaviour over time.\n\n---\n\n**Responses should make reference to:**\n\n- Specific international courts and treaties (e.g., ICC, ECtHR, UNHRC, Rome Statute).\n- Case studies where states have been held accountable or avoided accountability.\n- A well-supported conclusion on whether international law effectively holds states accountable for human rights violations.\n\n\n",
+            "marks": 15,
+            "label_id": "500b9405-5aaf-4db4-8988-134467e631ec",
+            "rubric_id": "3616bede-fdc2-41af-8f3b-5189318a393e",
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "23",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 56674,
+      "title": "Interactions of Political Stakeholders and Actors",
+      "slug": "ib-global-politics-rights-and-justice-interactions-of-political-stake-56674",
+      "parentTopicId": 56667
+    },
+    "subject": {
+      "id": 328,
+      "title": "Global Politics",
+      "slug": "ib-global-politics",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "23",
+      "byQuestion": {}
+    }
+  }
+}

@@ -1,3 +1,592 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e78ee239cf18730d5e9f0794c5a8e01ec27d7b82e3dd63abc0547af239007d86
-size 26444
+{
+  "json": {
+    "questions": [
+      {
+        "id": "037071e0-5755-4997-a29e-d1bc85643c7c",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-037071e0-5755-4997-a29e-d1bc85643c7c-1771929956947",
+            "generatedAt": "2026-02-25T11:27:29.859Z",
+            "sourceRevisionId": 1140000
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:02:41.817Z",
+            "resultId": 1190
+          }
+        },
+        "currentRevisionId": 1691983,
+        "parts": [
+          {
+            "id": 1153765,
+            "content": "Explain how the ubiquity of an everyday product, such as the BIC Cristal ballpoint pen, contributes to its classification as a classic design.",
+            "order": 0,
+            "markscheme": "- The product is mass-produced in such massive quantities that it becomes readily available to a global market at an affordable price <marks>1 mark</marks>\n- Its constant presence in nearly every setting (offices, schools, homes) ensures it is integrated into the daily life and routines of the user <marks>1 mark</marks>\n- This leads to the design being perceived as the \"standard\" or dominant version of the object, which defines the category for future generations <marks>1 mark</marks>\n\n_Award <marks>1 mark</marks> for each of three distinct points in an explanation of how ubiquity contributes to the status of a classic design._",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "32588153-9a1f-4dc3-831e-47a500bc2503",
+        "specification": "The following table describes two distinct characteristics associated with products that have achieved the status of a 'classic design':\n\n| Characteristic | Description |\n| :--- | :--- |\n| **I** | The product is found in nearly all environments globally and is recognized as a staple of daily life. |\n| **II** | The product is acquired because it represents a specific social movement or signifies the owner's lifestyle and identity. |\n\nWhich characteristic of classic design is identified by **Description II**?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-32588153-9a1f-4dc3-831e-47a500bc2503-1771929956947",
+            "generatedAt": "2026-02-25T13:52:46.700Z",
+            "sourceRevisionId": 1179050
+          }
+        },
+        "currentRevisionId": 1685215,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920279,
+            "content": "Image",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920281,
+            "content": "Dominant design",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920282,
+            "content": "Status and culture",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920283,
+            "content": "Omnipresence",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4d34b1c2-d0e4-4ec5-8efc-8379e1d6e937",
+        "specification": "",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T09:24:24.183Z",
+            "resultId": 6023
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30786,
+              "isHl": false,
+              "path": "6. Classic design > 6.1 Characteristics of classic design > 6.1.1 Defining Classic Design",
+              "title": "6.1.1 Defining Classic Design",
+              "labeledAt": "2026-03-05T08:13:37.612Z",
+              "reasoning": "The question directly asks for the definition of 'classic design' (Part C) and analyzes the role of cultural and historical factors (Part E), which are core components of defining a classic design's status and image.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30787,
+              "isHl": false,
+              "path": "6. Classic design > 6.1 Characteristics of classic design > 6.1.2 Principles of Classic Design",
+              "title": "6.1.2 Principles of Classic Design",
+              "labeledAt": "2026-03-05T08:13:37.612Z",
+              "reasoning": "The question requires identifying characteristics commonly found in classic designs (Part D), which relates to the principles of longevity, ubiquity, and mass production associated with classic products.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30789,
+              "isHl": false,
+              "path": "6. Classic design > 6.2 Classic design, function and form > 6.2.1 Exploring Form and Function in Classic Design",
+              "title": "6.2.1 Exploring Form and Function in Classic Design",
+              "labeledAt": "2026-03-05T08:13:37.612Z",
+              "reasoning": "Part A and B focus on the key features and influence of the design, which involves exploring the relationship between form and function that is central to the Volkswagen Beetle's identity as a classic design.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1693706,
+        "parts": [
+          {
+            "id": 1155891,
+            "content": "Identify and describe the key features of the classic design product shown in the diagram.\n\n![Image](https://pub-images.revisiondojo.com/question-images/149d6b22-b4a2-4d04-ab52-d60fb4cfb6e4)",
+            "order": 0,
+            "markscheme": "- Rounded shape: unique curved body design creating an iconic silhouette <marks>1 mark</marks>\n- Compact size: small, manoeuvrable dimensions suitable for urban use <marks>1 mark</marks>\n- Distinctive headlights: round, signature front lights that define the Beetle's character <marks>1 mark</marks>\n- Sloping front bonnet/hood: simple, smooth front profile that contributes to its recognisable form <marks>1 mark</marks>\n\n<note>Award marks for each correctly identified and described feature</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155892,
+            "content": "Discuss how the design of the Volkswagen Beetle has influenced modern car designs. Provide specific examples.",
+            "order": 1,
+            "markscheme": "- Influence of compact size and efficient space utilization <marks>1 mark</marks>\n  - Example: Mini Cooper's space-efficient design follows similar principles\n\n- Distinctive rounded shape and aerodynamic profile influenced modern aesthetics <marks>1 mark</marks>\n  - Example: Fiat 500's retro-inspired curved design\n\n- Interior design philosophy of functionality and simplicity <marks>1 mark</marks>\n\n- Evidence of this influence in modern car design <marks>1 mark</marks>\n  - User-friendly interfaces\n  - Practical interior features\n\n<note>Award full marks only if specific examples are provided to support points</note>\n\n<note>Maximum 3 marks if no modern examples are given</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155893,
+            "content": "Define the term 'classic design' and explain why the Volkswagen Beetle is considered a classic design.",
+            "order": 2,
+            "markscheme": "- Classic design: design that remains relevant and appreciated over time despite changing trends and technology <marks>1 mark</marks>\n\n- Volkswagen Beetle is a classic design because:\n  - Maintained popularity and iconic status for decades <marks>1 mark</marks>\n  - Unique recognizable shape, practical size and functional design making it a timeless symbol <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155894,
+            "content": "Explain three characteristics that are commonly found in classic designs, using the Volkswagen Beetle as an example.",
+            "order": 3,
+            "markscheme": "- Simplicity: classic designs have a straightforward, uncluttered appearance\n  - VW Beetle demonstrates this through a simple overall form and minimal ornamentation <marks>1 mark</marks>\n\n- Functionality: classic designs prioritize practicality and usefulness\n  - Beetle's compact size and efficient space utilization ideal for urban driving <marks>1 mark</marks>\n\n- Aesthetic appeal: classic designs are visually pleasing and timeless\n  - Beetle's distinctive rounded shape and iconic headlights create lasting visual impact <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155895,
+            "content": "Analyze the role of cultural and historical factors in the development of the Volkswagen Beetle as a classic design.",
+            "order": 4,
+            "markscheme": "- Initial design concept in 1930s aimed at affordability and practicality for mass market <marks>1 mark</marks>\n\n- Production and widespread adoption during and after World War II established its significance <marks>1 mark</marks>\n\n- Became symbol of post-war German economic recovery and industrial growth <marks>1 mark</marks>\n\n- Cultural impact through association with 1960s-70s counterculture movement in the United States <marks>1 mark</marks>\n\n- Design longevity demonstrated through successful adaptation to changing social/economic conditions while maintaining core design elements <marks>1 mark</marks>\n\n<note>Award marks for any other relevant cultural or historical factors with appropriate justification</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "4d6d51f0-e99c-4165-a472-8e962531b1cb",
+        "specification": "Which of the following is a key characteristic that contributes to the enduring appeal of classic designs?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 842804,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556358,
+            "content": "Their association with a specific time period.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556359,
+            "content": "Their balance of aesthetics and functionality.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556360,
+            "content": "Their use of the latest technological advancements.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556361,
+            "content": "Their production using rare and expensive materials.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4ddecbae-9092-4d95-83d9-9c168c5cfc85",
+        "specification": "Which of the following is a key characteristic of classic design that contributes to its longevity and enduring appeal?",
+        "questionType": null,
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT"
+        },
+        "currentRevisionId": 779127,
+        "parts": [],
+        "options": [
+          {
+            "id": 1556370,
+            "content": "Timeless aesthetics",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 1556371,
+            "content": "High production cost",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 1556372,
+            "content": "Use of advanced technology",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 1556373,
+            "content": "Complex structure",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "7b5d5674-c6b6-45b5-be4c-9a77c79ba6d9",
+        "specification": "The graph below shows the typical sales and profit trends over the four main stages of a product's life cycle. \n\n![Product Life Cycle Graph](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-7b5d5674-c6b6-45b5-be4c-9a77c79ba6d9-1771929956947/7b713d9f-0cb1-4a3a-bc8e-99238862db7e.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-7b5d5674-c6b6-45b5-be4c-9a77c79ba6d9-1771929956947",
+            "generatedAt": "2026-02-25T13:53:44.106Z",
+            "sourceRevisionId": 1161889
+          }
+        },
+        "currentRevisionId": 1685654,
+        "parts": [
+          {
+            "id": 1146357,
+            "content": "Explain why a product entering Stage B (Growth) often experiences a significant increase in profit margins compared to Stage A.",
+            "order": -1,
+            "markscheme": "- Economies of scale are achieved through higher production volumes which lowers the unit cost <marks>1 mark</marks>\n- Initial research and development (R&D) or tooling costs have been largely recovered by initial sales <marks>1 mark</marks>\n\n- Growing consumer awareness reduces the relative cost of marketing per sale <marks>1 mark</marks>\n- High demand allows the manufacturer to maintain stable prices while costs fall <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for identifying a reason for increased profit and <marks>1 mark</marks> for a brief explanation up to <marks>2 marks max</marks> </note>\n\n<note>Do not award marks across clusters</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146358,
+            "content": "Outline how the implementation of an extension strategy would affect the shape of the graph during Stage C (Maturity).",
+            "order": 0,
+            "markscheme": "- It creates a new peak or 'bump' in the sales curve <marks>1 mark</marks>\n- By delaying or preventing the onset of the decline phase (Stage D) <marks>1 mark</marks>\n\n- It flattens the curve for a longer period <marks>1 mark</marks>\n- As new features or target markets maintain a steady level of sales <marks>1 mark</marks>\n\n- It restarts the growth trajectory briefly <marks>1 mark</marks>\n- Because the product is perceived as updated or relevant again by consumers <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for identifying the effect on the graph and <marks>1 mark</marks> for an explanation of why that change occurs up to <marks>2 marks max</marks> </note>\n\n<note>Do not award marks across clusters</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7cc6afc2-9362-4489-b11d-6757a3a044f0",
+        "specification": "The Coca-Cola glass bottle has maintained a highly distinctive contour for over a century, making it instantly identifiable and fostering a strong emotional connection with consumers. Which characteristic of a classic design does this primarily reflect?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-7cc6afc2-9362-4489-b11d-6757a3a044f0-1771929956947",
+            "generatedAt": "2026-02-25T11:42:35.863Z",
+            "sourceRevisionId": 1161890
+          }
+        },
+        "currentRevisionId": 1686264,
+        "parts": [],
+        "options": [
+          {
+            "id": 4923223,
+            "content": "Status and culture",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This refers to the social standing or the way a design reflects a specific era's values, rather than just recognition and emotion."
+          },
+          {
+            "id": 4923224,
+            "content": "Functional innovation",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This refers to new technical methods or improvements in how a product works, not its aesthetic recognition."
+          },
+          {
+            "id": 4923225,
+            "content": "Image",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Image in classic design refers to the aesthetic appeal that makes a product instantly recognizable and provokes an emotional attachment."
+          },
+          {
+            "id": 4923226,
+            "content": "Planned obsolescence",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This is a strategy where products are designed to become outdated quickly, which is the opposite of a classic design."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8152c4c7-796b-43ee-bf61-99e3f5c7eaa5",
+        "specification": "The table below contains descriptions of two specific characteristics associated with classic design.\n\n| | Description |\n| :--- | :--- |\n| **1** | The design is so widely distributed and commonly found that it becomes a permanent part of the everyday environment. |\n| **2** | The design is perceived to have high prestige, often indicating the social identity or standing of the user. |\n\nWhich characteristics of classic design are being described in **1** and **2**?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-8152c4c7-796b-43ee-bf61-99e3f5c7eaa5-1771929956947",
+            "generatedAt": "2026-02-25T11:35:20.279Z",
+            "sourceRevisionId": 1161868
+          }
+        },
+        "currentRevisionId": 1686481,
+        "parts": [],
+        "options": [
+          {
+            "id": 4923883,
+            "content": "1: Ubiquity; 2: Status",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4923884,
+            "content": "1: Image; 2: Culture",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4923885,
+            "content": "1: Mass production; 2: Form",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4923886,
+            "content": "1: Longevity; 2: Obsolescence",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "943a7822-39c6-4e85-8751-bdfa832e7764",
+        "specification": "### The BIC Cristal Pen\n\nThe BIC Cristal ballpoint pen, shown in **Figure 1**, was first launched in 1950. It features a simple, functional design that has remained virtually unchanged for over seven decades. It is a high-volume, mass-produced product that has achieved immense global reach.\n\n**Table 1: Market Presence of the BIC Cristal Pen**\n\n| Feature | Data |\n| :--- | :--- |\n| Global Sales | Over 100 billion units since 1950 |\n| Availability | Sold in more than 160 countries |\n| Price Point | Low-cost, mass-market disposable item |\n| Typical Locations | Found in almost every school, office, and home |\n\n**Figure 1: BIC Cristal Ballpoint Pen**\n![BIC Pen](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-943a7822-39c6-4e85-8751-bdfa832e7764-1771929956947/ff8029c8-d71a-4128-a033-40610a1ee0c4.jpeg)\n\nWhich characteristic of classic design is best illustrated by the data in **Table 1**?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-943a7822-39c6-4e85-8751-bdfa832e7764-1771929956947",
+            "generatedAt": "2026-02-25T10:35:59.948Z",
+            "sourceRevisionId": 1161880
+          }
+        },
+        "currentRevisionId": 1686157,
+        "parts": [],
+        "options": [
+          {
+            "id": 4922879,
+            "content": "Status and culture",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4922880,
+            "content": "Omnipresence",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4922881,
+            "content": "Image",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4922882,
+            "content": "Form follows function",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f3c20ce1-72a1-4fb5-95eb-27929f2fa783",
+        "specification": "The following table identifies various classic designs and the primary characteristic that has contributed to their iconic status.\n\n| Classic Design | Primary Characteristic |\n| :--- | :--- |\n| QWERTY Keyboard layout | Dominant design |\n| Paperclip | Ubiquity |\n| **[X]** | Status and culture |\n\nWhich of the following products would most appropriately replace **[X]** in the table?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 293,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-f3c20ce1-72a1-4fb5-95eb-27929f2fa783-1771929956947",
+            "generatedAt": "2026-02-25T11:53:18.363Z",
+            "sourceRevisionId": 1161870
+          }
+        },
+        "currentRevisionId": 1684957,
+        "parts": [],
+        "options": [
+          {
+            "id": 4919511,
+            "content": "A disposable plastic straw",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4919512,
+            "content": "A galvanized steel masonry nail",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4919513,
+            "content": "The Rolex Submariner wristwatch",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4919514,
+            "content": "An ISO standard shipping container",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "10",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9918,
+      "title": "6.1 Characteristics of classic design",
+      "slug": "6-1-characteristics-of-classic-design",
+      "parentTopicId": 9917
+    },
+    "subject": {
+      "id": 293,
+      "title": "Design Technology (DT)",
+      "slug": "ib-design-technology",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "10",
+      "byQuestion": {}
+    }
+  }
+}

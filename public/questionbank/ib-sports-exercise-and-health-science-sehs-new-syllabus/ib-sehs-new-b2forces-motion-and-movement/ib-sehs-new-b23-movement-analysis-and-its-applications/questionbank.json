@@ -1,3 +1,3847 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:23a10016a0454d089535525634730665dc17843d7e1539a3f642edc386342b6d
-size 191339
+{
+  "json": {
+    "questions": [
+      {
+        "id": "04a3c00b-9300-4d6e-9f19-1f7d2cb40737",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:16:29.266Z",
+              "reasoning": "Part (a) explicitly asks for muscle contractions involved in a soccer kick, which aligns with identifying and describing types of muscular contraction (concentric/eccentric/isometric) in movement.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T08:16:29.266Z",
+              "reasoning": "Parts (a) and (b) involve analyzing movement patterns and applying biomechanics to improve performance/balance (e.g., handstand), fitting movement analysis applications.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29929,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "title": "B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "labeledAt": "2026-03-07T08:16:29.266Z",
+              "reasoning": "Part (c) focuses on takeoff and flight phases in high jump, where center of gravity strongly relates to projectile motion and flight path mechanics.",
+              "confidence": 0.66
+            }
+          ]
+        },
+        "currentRevisionId": 829179,
+        "parts": [
+          {
+            "id": 526153,
+            "content": "Describe the movement patterns and muscle contractions involved in a soccer kick.",
+            "order": 0,
+            "markscheme": "In a soccer kick:\n\n- The quadriceps (front of thigh) undergo concentric (shortening) contraction to extend/straighten the leg <marks>1 mark</marks>\n- The hip flexors (iliopsoas) contract concentrically to swing the leg forward <marks>1 mark</marks>  \n- The hamstrings (back of thigh) perform eccentric (lengthening) contraction to control/decelerate the movement <marks>1 mark</marks>\n- The gluteus maximus (buttocks) contracts to stabilize the hip joint <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 526154,
+            "content": "Analyze the role of biomechanics in improving balance and stability in a gymnast\u2019s handstand.",
+            "order": 1,
+            "markscheme": "- Gymnast's body aligns vertically over the base (hands), with the center of mass directly above for stability <marks>1 mark</marks>\n- Muscle activation in the shoulders, core, and arms counteracts gravity, maintaining balance <marks>1 mark</marks>\n- Small adjustments in hand pressure and shoulder position help the gymnast stay stable, illustrating how biomechanics improve control in balance-focused movements <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 526155,
+            "content": "Explain the significance of the center of gravity in a high jumper\u2019s takeoff and flight phases.",
+            "order": 2,
+            "markscheme": "- During takeoff, the high jumper's center of gravity moves upward, generating lift. <marks>1 mark</marks>\n- The goal is to position the body so the center of gravity clears the bar efficiently, which helps minimize energy use. <marks>1 mark</marks>\n- In the flight phase, the jumper arches their body (Fosbury Flop technique) to keep the center of gravity below the bar, <marks>1 mark</marks>\n- allowing for a successful clearance with minimal height. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1cc45d67-ee3f-4f30-bfa7-5b083a8c676c",
+        "specification": "A sprinter decelerating after crossing the finish line is in which phase of a skill?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:45:13.445Z",
+            "resultId": 42446
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T16:01:13.277Z",
+              "reasoning": "The question asks which phase of a skill involves decelerating after the finish line, which is directly about identifying phases of movement/skill execution (e.g., preparation, execution, follow-through).",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1696839,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939708,
+            "content": "Execution",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Execution is the performance of the main movement (e.g., sprinting at/near maximal velocity), not the deceleration after the finish line."
+          },
+          {
+            "id": 4939709,
+            "content": "Preparation",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Preparation refers to the initial set-up/approach that readies the body for the movement (e.g., start/set position), not the deceleration after completion."
+          },
+          {
+            "id": 4939710,
+            "content": "Follow-through",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct (C). According to the IB SEHS syllabus (Topic 5.2.1), the three phases of a skill are preparation, execution, and follow-through. Decelerating after the finish line represents the follow-through phase of the sprinting skill."
+          },
+          {
+            "id": 4939711,
+            "content": "Recovery",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. \u201cRecovery\u201d is not one of the three skill phases in Topic 5.2.1 (preparation, execution, follow-through)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1f330f83-281b-4e53-adcb-e0e0ad4ade91",
+        "specification": "A gymnast performs a biceps curl with a dumbbell, then steps into a forward lunge and holds the position briefly to maintain balance.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:05:49.792Z",
+            "resultId": 31403
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:40:16.133Z",
+              "reasoning": "Parts (b), (c), and (d) focus on joint-related anatomy/biomechanics: center of mass and balance, maintaining joint stability in a lunge, and the patella\u2019s function in knee extension\u2014covered under joint structures supporting movement.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:40:16.133Z",
+              "reasoning": "Part (a) asks about antagonistic muscle pairs in a bicep curl, which is muscular function in movement (agonist/antagonist roles and related contraction actions).",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1694728,
+        "parts": [
+          {
+            "id": 1156940,
+            "content": "Explain the role of antagonistic muscle pairs, using the example of the biceps curl.",
+            "order": 0,
+            "markscheme": "- Antagonistic muscles act in opposition at a joint to control movement. <marks>1 mark</marks>\n- During the lifting phase (elbow flexion), the biceps is the agonist and contracts (concentric) to flex the elbow. <marks>1 mark</marks>\n- During the lifting phase, the triceps acts as the antagonist and relaxes/lengthens to allow the movement. <marks>1 mark</marks>\n- During the lowering phase, the biceps lengthens under tension (eccentric contraction) to control the descent. <marks>1 mark</marks>\n- During elbow extension/lowering, the triceps may contract as the agonist to extend the elbow. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156941,
+            "content": "What is meant by the term \u201ccenter of mass\u201d and how does it affect a gymnast\u2019s balance?",
+            "order": 1,
+            "markscheme": "- Centre of mass is the point at which the body\u2019s mass can be considered to be concentrated/act. <marks>1 mark</marks>\n- Balance/stability is maintained when the vertical projection of the centre of mass stays within the base of support. <marks>1 mark</marks>\n- A lower centre of mass increases stability (easier to keep the projection within the base of support). <marks>1 mark</marks>\n- Shifting the centre of mass closer to the edge/outside the base of support reduces stability and increases the likelihood of losing balance. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156942,
+            "content": "Describe how joint stability is maintained during a lunge exercise.",
+            "order": 2,
+            "markscheme": "- Co-contraction/activation of muscles around the hip, knee and ankle stabilises the joints and maintains alignment during the lunge. <marks>1 mark</marks>\n- Core/trunk activation helps maintain pelvic and spinal alignment, supporting lower-limb joint stability. <marks>1 mark</marks>\n- Hip abductors/external rotators (eg gluteus medius) help prevent knee valgus/medial collapse. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156943,
+            "content": "What is the role of the patella in knee extension?",
+            "order": 3,
+            "markscheme": "- The patella increases the quadriceps\u2019 moment arm/mechanical advantage, increasing knee extension torque. <marks>1 mark</marks>\n- It redirects the line of pull of the quadriceps tendon to make extension more effective. <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "21910549-a4d3-4107-bed0-b9558f82071c",
+        "specification": "Which of the following is an example of a first-class lever in the human body?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:37:29.487Z",
+            "resultId": 44836
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:19:48.384Z",
+              "reasoning": "The question asks for an example of a first-class lever in the human body, which directly tests knowledge of lever classes and their application to human movement (e.g., neck/head extension as a first-class lever).",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1697471,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941520,
+            "content": "The elbow joint during bicep curls",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect."
+          },
+          {
+            "id": 4941521,
+            "content": "The neck, when tilting the head backward",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Answer: B"
+          },
+          {
+            "id": 4941522,
+            "content": "The ankle joint during calf raises",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect."
+          },
+          {
+            "id": 4941523,
+            "content": "The knee joint during a leg extension",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "21a3e97c-97c7-4a8b-87c2-426ea28de5ac",
+        "specification": "A student is analysing common biomechanical concepts from different sporting actions: running, a golf swing and a body-weight squat.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:05:17.970Z",
+            "resultId": 31402
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-06T05:40:31.918Z",
+              "reasoning": "Part (a) asks to define a lever and identify the three classes of levers in the human body with examples\u2014directly assessing lever classes and applications.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:40:31.918Z",
+              "reasoning": "Part (d) asks for definition of a concentric muscle contraction with a squat example, which falls under types of muscular contractions and their role in movement.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:40:31.918Z",
+              "reasoning": "Part (b) contrasts flexion vs extension with a running example, which is joint movement terminology linked to planes/axes and human motion description.",
+              "confidence": 0.62
+            },
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-06T05:40:31.918Z",
+              "reasoning": "Part (c) defines torque and explains its role in a golf swing; torque is an angular concept within Newton\u2019s laws in angular contexts.",
+              "confidence": 0.57
+            }
+          ]
+        },
+        "currentRevisionId": 1694726,
+        "parts": [
+          {
+            "id": 1156936,
+            "content": "Define a lever in the human body (include reference to the fulcrum/axis and the effort and load). Identify the three classes of lever and give one example of each from human movement.",
+            "order": 0,
+            "markscheme": "- Defines a lever as a rigid body/structure that rotates about a fulcrum/axis (pivot) <marks>1 mark</marks>\n- Includes that an effort (force) acts to move a load (resistance) about the fulcrum/axis <marks>1 mark</marks>\n- Identifies first-class lever: fulcrum between effort and load (E\u2013F\u2013L or L\u2013F\u2013E) <marks>1 mark</marks>\n- Gives a correct first-class example (e.g., neck extension at the atlanto-occipital joint when lifting the head; triceps extension at the elbow) <marks>1 mark</marks>\n- Identifies second-class lever: load between fulcrum and effort (F\u2013L\u2013E) <marks>1 mark</marks>\n- Gives a correct second-class example (e.g., plantar flexion when standing on tiptoes; push-up at the toes) <marks>1 mark</marks>\n- Identifies third-class lever: effort between fulcrum and load (F\u2013E\u2013L) <marks>1 mark</marks>\n- Gives a correct third-class example (e.g., biceps brachii flexing the elbow; quadriceps extending the knee in a knee extension) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156937,
+            "content": "Explain the difference between flexion and extension, providing an example in the context of running.",
+            "order": 1,
+            "markscheme": "- Flexion: bending movement that decreases the angle at a joint <marks>1 mark</marks>\n- Extension: straightening movement that increases the angle at a joint <marks>1 mark</marks>\n- Running example of flexion (e.g., knee flexes during swing/recovery; hip flexion as thigh comes forward) <marks>1 mark</marks>\n- Running example of extension (e.g., knee extends during late swing/at foot strike; hip extension during stance/push-off) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156938,
+            "content": "Define torque and explain its role in performing a golf swing.",
+            "order": 2,
+            "markscheme": "- Defines torque as the turning effect (moment) of a force about an axis/pivot <marks>1 mark</marks>\n- States torque depends on force and perpendicular distance (moment arm) from the axis (e.g., $\\tau = F \\times d_\\perp$ / $\\tau = rF\\sin\\theta$) <marks>1 mark</marks>\n- Explains that torso/hip and shoulder rotation generates torque about relevant axes, producing angular acceleration of the body/club <marks>1 mark</marks>\n- Links greater torque to increased angular velocity/club head speed and therefore greater ball speed/distance (if contact is effective) <marks>1 mark</marks>\n- Links controlled application/timing of torque to maintaining swing plane/face orientation for accuracy/consistency <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1156939,
+            "content": "What is a concentric muscle contraction? Provide an example in the context of a squat.",
+            "order": 3,
+            "markscheme": "- Defines concentric contraction as a muscle action where the muscle shortens while producing force/tension <marks>1 mark</marks>\n- States this occurs when the agonist overcomes the resistance/load (positive work) <marks>1 mark</marks>\n- Squat example: during the upward/ascending phase, quadriceps contract concentrically to extend the knee <marks>1 mark</marks>\n- Squat example: during the upward/ascending phase, gluteus maximus contracts concentrically to extend the hip <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "277c6929-b63c-435c-ad38-541855f3e4ff",
+        "specification": "When analysing a tennis serve using the phases **preparation, execution, follow-through and recovery**, which of the following occurs in the **recovery** phase?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:56:59.120Z",
+            "resultId": 30221
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:17:18.703Z",
+              "reasoning": "The question asks which action in a tennis serve belongs to the recovery phase, directly testing the phases-of-movement approach used in movement analysis (preparation, execution, follow-through/recovery).",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1695609,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936813,
+            "content": "Tossing the ball",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936814,
+            "content": "Rotation of the trunk and striking the ball",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936815,
+            "content": "Landing and regaining balance after contact",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936816,
+            "content": "Bending the knees before jumping",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2ade8d56-2fea-47da-b4a5-dca3a9dc077f",
+        "specification": "Why might biomechanists emphasize the preparation phase in elite sprinting performance?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:36:59.190Z",
+            "resultId": 42585
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T16:01:57.351Z",
+              "reasoning": "The question focuses on why biomechanists emphasize the preparation phase of a sprinting movement, aligning with the phases-of-movement approach used to analyze technique and how early-phase errors affect subsequent performance.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696824,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939656,
+            "content": "It positions the body to generate optimal ground reaction force and acceleration at the start",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect."
+          },
+          {
+            "id": 4939657,
+            "content": "Errors here cannot be corrected later in the movement",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct."
+          },
+          {
+            "id": 4939658,
+            "content": "It establishes appropriate joint alignment and muscle pre-tension to improve subsequent force production",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect."
+          },
+          {
+            "id": 4939659,
+            "content": "It helps optimize body position to reduce braking forces and improve running efficiency in the drive phase",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "33739c83-1b4d-4b33-9a9a-d8c61a23304a",
+        "specification": "In a long jump, why are the final preparatory steps immediately before take-off particularly important?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:54:48.748Z",
+            "resultId": 30634
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:21:32.716Z",
+              "reasoning": "The question asks about the importance of the preparation phase in a long jump, which is best explained using the phases-of-movement approach (preparation phase sets up effective take-off, typically maximizing velocity and positioning).",
+              "confidence": 0.91
+            }
+          ]
+        },
+        "currentRevisionId": 1695587,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936737,
+            "content": "They position the body for an effective take-off while maintaining approach speed.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936738,
+            "content": "They allow the athlete to generate maximum velocity before take-off.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936739,
+            "content": "They provide recovery time to avoid injury.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936740,
+            "content": "They reduce energy expenditure for later jumps.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "36f217cb-24b2-475a-8299-b1e33bb0b5a6",
+        "specification": "In the preparation\u2013execution\u2013recovery model of skill phases, a long jumper\u2019s run-up is primarily part of which phase?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:58:37.329Z",
+            "resultId": 30252
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:17:49.952Z",
+              "reasoning": "The question asks which phase of movement (preparation, execution, recovery, stabilization) the long jump run-up belongs to\u2014this is directly the phases-of-movement approach in movement analysis.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695617,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936845,
+            "content": "Execution",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936846,
+            "content": "Preparation",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936847,
+            "content": "Recovery",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936848,
+            "content": "Stabilization",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4416b816-4c84-4421-b2b0-4390310fabc3",
+        "specification": "Which of the following best describes the recovery phase in a sprint start?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:17:39.313Z",
+              "reasoning": "The question asks to identify the 'recovery phase' within a sprint start, which is a phase-of-movement/movement-analysis concept (e.g., support vs recovery/swing phase) used to describe technique.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1695426,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936341,
+            "content": "Driving explosively out of the starting blocks",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This action describes the drive phase where the athlete pushes forcefully against the blocks to initiate movement."
+          },
+          {
+            "id": 4936342,
+            "content": "Positioning the feet in the blocks during the 'on your marks' command",
+            "correct": false,
+            "order": 1,
+            "markscheme": "This action describes the drive phase where the athlete pushes forcefully against the blocks to initiate movement."
+          },
+          {
+            "id": 4936343,
+            "content": "Swinging the leg forward while it is not in contact with the ground",
+            "correct": true,
+            "order": 2,
+            "markscheme": "This is part of the setup or preparation phase prior to the start of the race."
+          },
+          {
+            "id": 4936344,
+            "content": "Swinging the arms forward to increase acceleration",
+            "correct": false,
+            "order": 3,
+            "markscheme": "In running mechanics, the recovery phase (also known as the swing phase) is the period during which the leg is moving forward and the foot is not in contact with the ground."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4c22b40b-9213-4fe8-9cbc-a8717da3100f",
+        "specification": "The following question explores biomechanical principles in sports, specifically focusing on scalar quantities, forces, and the application of Newton's laws of motion to athletic performance.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T08:18:20.434Z",
+              "reasoning": "Most parts directly assess Newton\u2019s laws (2nd and 3rd), forces acting on a moving body, and applying these laws to movement efficiency in sport.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29926,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.2 Momentum changes and collisions in sports scenarios (HL)",
+              "title": "B.2.1.2 Momentum changes and collisions in sports scenarios (HL)",
+              "labeledAt": "2026-03-07T08:18:20.434Z",
+              "reasoning": "The impulse question involves change in momentum (impulse\u2013momentum relationship), which aligns with momentum changes in sports contexts.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1584029,
+        "parts": [
+          {
+            "id": 1138363,
+            "content": "Identify two scalar quantities related to motion.",
+            "order": 1,
+            "markscheme": "- Identify speed as a scalar quantity <marks>A1</marks>\n- Identify distance as a scalar quantity <marks>A1</marks>\n\n2 marks total\n\n<note>Accept any two valid scalar quantities related to motion (e.g., time, mass).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138364,
+            "content": "State two types of forces that act on a body in motion.",
+            "order": 2,
+            "markscheme": "- State friction as a force acting on a moving body <marks>A1</marks>\n- State air resistance as a force acting on a moving body <marks>A1</marks>\n\n2 marks total\n\n<note>Accept any two forces such as friction, air resistance, gravity, normal force, or muscular force.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138365,
+            "content": "Describe how Newton's third law applies to swimming starts.",
+            "order": 3,
+            "markscheme": "- Describe the swimmer pushing against the starting block as the action force <marks>A1</marks>\n- State that the block exerts an equal and opposite reaction force on the swimmer <marks>M1</marks>\n- Explain that this reaction force propels the swimmer forward into the water <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138366,
+            "content": "Explain the concept of impulse and how it affects sports performance.",
+            "order": 4,
+            "markscheme": "- State the formula $\\text{Impulse} = \\text{force} \\times \\text{time}$ <marks>A1</marks>\n- Explain that impulse is equal to the change in momentum of an object <marks>A1</marks>\n- Describe how extending the contact time during an action (e.g., a follow-through or catching a ball) increases the impulse applied or reduces the force <marks>M1</marks>\n- Explain how this leads to improved performance by maximizing final velocity or safely absorbing impact force <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138367,
+            "content": "Outline the relationship between force, mass, and acceleration in Newton's second law.",
+            "order": 5,
+            "markscheme": "- Define Newton's second law using the formula $F = ma$ <marks>A1</marks>\n- Outline that for a given acceleration, an object with a greater mass requires a greater force <marks>A1</marks>\n- Outline that for a constant mass, increasing the force results in a proportional increase in acceleration <marks>A1</marks>\n- State that this law explains performance in explosive events such as sprint starts or shot put <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138368,
+            "content": "Discuss the role of Newton's laws in optimizing movement efficiency in athletic performance.",
+            "order": 6,
+            "markscheme": "- Discuss how Newton's first law (Inertia) explains how movement is initiated or stopped through external forces <marks>A1</marks>\n- Discuss how Newton's second law (Acceleration) explains the optimization of acceleration by managing the force-to-mass ratio <marks>A1</marks>\n- Discuss how Newton's third law (Action-Reaction) explains maximizing reaction forces from the ground to generate power <marks>A1</marks>\n- Explain that efficient movement requires applying forces in the optimal direction and timing <marks>A1</marks>\n- Conclude that understanding these laws helps reduce energy loss and improve technical proficiency <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "4dee3358-6dfd-4674-a13b-73397cb74b49",
+        "specification": "In the preparation\u2013execution\u2013follow-through model of skill phases, which of the following best describes the execution phase of a penalty kick in football (soccer)?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:30:44.429Z",
+            "resultId": 30662
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:21:57.122Z",
+              "reasoning": "The question asks about identifying the 'execution phase' of a skill (penalty kick) from options describing preparation/contact/follow-through, which aligns with the phases-of-movement approach in movement analysis.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1695473,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936473,
+            "content": "Planting the non-kicking foot beside the ball",
+            "correct": false,
+            "order": 0,
+            "markscheme": "This describes the preparation phase (set-up/stance)."
+          },
+          {
+            "id": 4936474,
+            "content": "Striking the ball with the intended force and direction",
+            "correct": true,
+            "order": 1,
+            "markscheme": "This is the execution phase (the main movement producing the outcome)."
+          },
+          {
+            "id": 4936475,
+            "content": "Following through with the leg after contact",
+            "correct": false,
+            "order": 2,
+            "markscheme": "This describes the follow-through phase (deceleration/continuation after release/contact)."
+          },
+          {
+            "id": 4936476,
+            "content": "Running back to a defensive position",
+            "correct": false,
+            "order": 3,
+            "markscheme": "This is a recovery/action after the skill, not part of the preparation\u2013execution\u2013follow-through phases of the kick itself."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "51c6e4c8-45cc-42a8-b3f1-35fca3bee98f",
+        "specification": "This question evaluates understanding of biomechanics in sport, specifically forces acting on a projectile, fluid and air resistance, Newton's Second Law regarding unbalanced forces, center of mass and stability, and the principle of force summation.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29929,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "title": "B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "labeledAt": "2026-03-07T08:18:30.254Z",
+              "reasoning": "Parts (b) and the overall stem focus on forces acting on a projectile and projectile motion in sport.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29931,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "title": "B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "labeledAt": "2026-03-07T08:18:30.254Z",
+              "reasoning": "Parts (c) and (d) address fluid resistance/drag and how surface area and velocity affect resistance in swimming/running.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T08:18:30.254Z",
+              "reasoning": "Part (e) explicitly targets Newton\u2019s Second Law/unbalanced forces causing acceleration or deceleration.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1583986,
+        "parts": [
+          {
+            "id": 1138261,
+            "content": "Identify two forces acting on a projectile in motion.",
+            "order": 1,
+            "markscheme": "- **Identify** gravity <marks>A1</marks>\n- **Identify** air resistance <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include lift force or buoyancy.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138262,
+            "content": "State two features that affect fluid resistance in swimming.",
+            "order": 2,
+            "markscheme": "- **State** body position <marks>A1</marks>\n- **State** swimwear design <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include surface area or speed of movement.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138263,
+            "content": "Describe how velocity and surface area impact air resistance in running.",
+            "order": 3,
+            "markscheme": "- **Describe** how greater velocity or speed increases air resistance <marks>A1</marks>\n- **Describe** how a larger surface area increases drag/resistance <marks>A1</marks>\n- **State** that increased resistance leads to more energy expenditure <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138264,
+            "content": "Explain how unbalanced forces result in acceleration or deceleration in sport.",
+            "order": 4,
+            "markscheme": "- **Explain** that a net force ($F_{\\text{net}} \\neq 0$) leads to a change in motion or acceleration <marks>A1</marks>\n- **State** that acceleration occurs in the direction of the net force <marks>A1</marks>\n- **Describe** how this is seen in sprint acceleration or braking during deceleration <marks>A1</marks>\n- **Explain** the importance of unbalanced forces in direction changes and cutting maneuvers <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138265,
+            "content": "Outline how center of mass affects balance during movement.",
+            "order": 5,
+            "markscheme": "- **Outline** how a lower center of mass increases stability <marks>A1</marks>\n- **Outline** how alignment of the center of mass over the base of support improves balance <marks>A1</marks>\n- **State** that movement of the center of mass affects control during dynamic motion <marks>A1</marks>\n- **Identify** applications in sports such as gymnastics, martial arts, or football <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138266,
+            "content": "Discuss how force summation improves performance in actions like throwing or jumping.",
+            "order": 6,
+            "markscheme": "- **State** that multiple joints/body segments are used in a sequential kinetic chain <marks>A1</marks>\n- **Describe** how movement begins with large muscles in the legs or hips <marks>A1</marks>\n- **Explain** the transfer of force through body segments <marks>A1</marks>\n- **Describe** how the sequence ends with smaller muscles in the wrists or hands <marks>A1</marks>\n- **Explain** how this process improves the final speed and power of the movement <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "58be97b1-37d7-4366-9f54-3045709663c0",
+        "specification": "In gymnastics, why is the recovery phase critical after completing a dismount?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:17:01.850Z",
+              "reasoning": "The question asks about the importance of the recovery phase after a dismount in gymnastics, which is part of analyzing phases of movement for performance and safety (e.g., demonstrating control and stabilizing the landing to avoid deductions).",
+              "confidence": 0.88
+            }
+          ]
+        },
+        "currentRevisionId": 1583997,
+        "parts": [],
+        "options": [
+          {
+            "id": 4555165,
+            "content": "It ensures proper energy storage for the next skill.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4555166,
+            "content": "It demonstrates control and prevents deductions.",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4555167,
+            "content": "It generates power for rotation.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          },
+          {
+            "id": 4555168,
+            "content": "It reduces air resistance during flight.",
+            "correct": false,
+            "order": 4,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "5f362beb-892c-41d6-909c-d349abe8722d",
+        "specification": "Biomechanical analysis of motion in sport, including Newton's laws, levers, the Magnus effect, and movement analysis technology.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T08:18:40.546Z",
+              "reasoning": "Parts b, c, and f directly assess angular vs linear/general motion and Newton\u2019s third law (and Newton\u2019s laws in motion contexts).",
+              "confidence": 0.92
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:18:40.546Z",
+              "reasoning": "Part d asks about using levers to analyze sports performance (classes/applications of levers).",
+              "confidence": 0.83
+            },
+            {
+              "id": 29929,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "title": "B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "labeledAt": "2026-03-07T08:18:40.546Z",
+              "reasoning": "Part e on the Magnus effect concerns forces on a spinning ball affecting its flight path, aligning with projectile motion and forces on the trajectory.",
+              "confidence": 0.76
+            },
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T08:18:40.546Z",
+              "reasoning": "Part g is about video/movement analysis software enhancing biomechanical feedback, fitting movement analysis applications.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1584008,
+        "parts": [
+          {
+            "id": 1138317,
+            "content": "Identify two examples of angular motion in sport.",
+            "order": 1,
+            "markscheme": "- Identify a gymnast performing a somersault <marks>A1</marks>\n- Identify a footballer kicking a ball (rotation of the leg at the hip) <marks>A1</marks>\n<note>Other acceptable answers include: an ice skater spinning, a diver rotating during a dive.</note>\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138318,
+            "content": "Define Newton\u2019s third law of motion and provide a sporting example that demonstrates it.",
+            "order": 2,
+            "markscheme": "- State that for every action there is an equal and opposite reaction <marks>A1</marks>\n- Describe a sporting example, such as a sprinter pushing against starting blocks where the blocks push the sprinter forward with equal force in the opposite direction <marks>A1</marks>\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138319,
+            "content": "Describe how levers are used in analyzing sports performance.",
+            "order": 3,
+            "markscheme": "- Identify joint movement efficiency and the role of bones as levers and joints as fulcrums <marks>A1</marks>\n- Explain the use of mechanical advantage as the ratio of effort arm to resistance arm <marks>A1</marks>\n- Describe how technique is improved by adjusting the application of force or the length of the lever arm <marks>A1</marks>\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138320,
+            "content": "Explain how the Magnus effect influences the flight of spinning balls.",
+            "order": 4,
+            "markscheme": "- Explain that a spinning ball creates a pressure difference in the air surrounding it <marks>A1</marks>\n- State that this difference in pressure causes the ball to curve in flight (the Magnus force) <marks>A1</marks>\n- Outline how the direction of the curve depends on the axis and direction of the spin (e.g., topspin causes the ball to dip) <marks>A1</marks>\n- Identify that this explains the flight behavior of balls in sports such as soccer, baseball, and tennis <marks>A1</marks>\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138321,
+            "content": "Outline the key differences between linear, angular, and general motion.",
+            "order": 5,
+            "markscheme": "- Outline linear motion as movement in a straight or curved line where all parts move in the same direction at the same speed (e.g., a $100\\text{ m}$ sprint) <marks>A1</marks>\n- Outline angular motion as movement around a fixed axis or rotation point (e.g., a gymnast rotating on a high bar) <marks>A1</marks>\n- Outline general motion as a combination of linear and angular motion (e.g., running involves linear motion of the body caused by angular motion of the limbs) <marks>A1</marks>\n- State that distinguishing between these types of motion allows for more accurate biomechanical analysis <marks>A1</marks>\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138322,
+            "content": "Discuss how video and movement analysis software enhances biomechanical feedback.",
+            "order": 6,
+            "markscheme": "- Identify how software provides immediate, real-time feedback to athletes and coaches <marks>A1</marks>\n- Describe how it allows for a detailed frame-by-frame breakdown of complex movements <marks>A1</marks>\n- Explain how it helps to identify technical errors that are difficult to see with the naked eye <marks>A1</marks>\n- Outline how it supports the collection of quantitative metrics, such as joint angles and velocities <marks>A1</marks>\n- Discuss how it enhances coaching and correction strategies by providing visual evidence for the athlete <marks>A1</marks>\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "61ad7a18-7230-4b6a-a3f4-9b5c45ed835e",
+        "specification": "During a rugby player\u2019s drop kick, which part of the sequence belongs to the preparation phase?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:12:29.546Z",
+            "resultId": 41506
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T15:39:48.767Z",
+              "reasoning": "The question asks which action in a drop kick belongs to the preparation phase, directly testing the phases-of-movement approach (preparation, execution, recovery) used in movement analysis.",
+              "confidence": 0.91
+            }
+          ]
+        },
+        "currentRevisionId": 1697000,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940272,
+            "content": "The moment the foot strikes the ball",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940273,
+            "content": "The follow-through of the kicking leg",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940274,
+            "content": "The step forward to time contact",
+            "correct": true,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4940275,
+            "content": "Returning to balance after the kick",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "658b833e-2767-4356-b7f3-f1b01a4f05bc",
+        "specification": "Which of the following is part of the post-release recovery phase of a javelin throw?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:48:01.835Z",
+            "resultId": 30469
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:18:53.241Z",
+              "reasoning": "The question asks which action occurs in the recovery phase of a javelin throw, which is explicitly part of a phases-of-movement movement analysis framework (preparation, execution, follow-through/recovery).",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695232,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935729,
+            "content": "Drawing the arm back before release",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935730,
+            "content": "The moment of release itself",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935731,
+            "content": "Stabilizing the body after the throw",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935732,
+            "content": "Generating power through hip rotation",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6cbb337a-be54-4f9d-8753-d36fbadb2443",
+        "specification": "A cyclist is riding in a time-trial and reaches a constant speed of $12\\text{ m s}^{-1}$ on a flat section of road. The cyclist then reduces their frontal surface area by adopting a more streamlined riding position (e.g., moving from an upright position to a tucked position).",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T12:00:10.319Z",
+            "resultId": 44766
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29931,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "title": "B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "labeledAt": "2026-03-07T08:19:11.767Z",
+              "reasoning": "Parts (d)\u2013(g) focus on drag, lift, fluid resistance, and how these forces act on cyclists/spinning balls and how athletes minimize resistance in air/water\u2014core buoyancy/drag/lift fluid-mechanics concepts.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T08:19:11.767Z",
+              "reasoning": "Parts (b) and (c) ask about vector quantities used in movement analysis and examples of linear motion in sport, aligning with movement analysis concepts and basic description of motion in sporting contexts.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1697588,
+        "parts": [
+          {
+            "id": 1159961,
+            "content": "Identify two vector quantities used in movement analysis.",
+            "order": 0,
+            "markscheme": "- Identify velocity as a vector quantity <marks>1 mark</marks>\n- Identify acceleration as a vector quantity <marks>1 mark</marks>\n\nAdditional acceptable vector quantities (any two):\n- displacement <marks>1 mark</marks>\n- force/weight <marks>1 mark</marks>\n- momentum <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159962,
+            "content": "State two examples of linear motion in sport.",
+            "order": 1,
+            "markscheme": "- State a sprinter running down a straight $100\\text{ m}$ track <marks>1 mark</marks>\n- State a swimmer moving in a straight line through a lane <marks>1 mark</marks>\n\nAdditional acceptable examples (any two):\n- cyclist riding in a straight line <marks>1 mark</marks>\n- rower/rowing shell moving in a straight line <marks>1 mark</marks>\n- speed skater moving down a straight <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159963,
+            "content": "Describe how drag acts on a cyclist during competition.",
+            "order": 2,
+            "markscheme": "- Describe drag as a resistive force that acts in the opposite direction to the cyclist's motion <marks>1 mark</marks>\n- Describe that the magnitude of drag increases as the cyclist's velocity increases <marks>1 mark</marks>\n\nAdditional acceptable description:\n- drag reduces forward acceleration/velocity so greater propulsive force/power is required to maintain speed <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159964,
+            "content": "Explain how changes in shape or surface area affect fluid resistance.",
+            "order": 3,
+            "markscheme": "- Explain how increasing the frontal surface area increases the amount of fluid displaced and resistance <marks>1 mark</marks>\n- Explain how streamlining an object's shape reduces turbulence and/or separation of flow behind it <marks>1 mark</marks>\n- Explain how smoother surface textures (e.g., specialized fabrics or shaved skin) reduce skin friction drag <marks>1 mark</marks>\n- Explain how these principles are applied in sports like swimming, cycling, or skiing to optimize performance <marks>1 mark</marks>\n\nAdditional acceptable explanation:\n- reducing frontal area and/or improving streamlining lowers drag so less force/power is needed to maintain a given speed <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159965,
+            "content": "Outline how lift and drag forces interact in sports involving spinning balls.",
+            "order": 4,
+            "markscheme": "- Outline how the spin of a ball creates a pressure difference (Magnus effect) which generates a lift force <marks>1 mark</marks>\n- Outline how drag force acts against the ball's motion, slowing its velocity during flight <marks>1 mark</marks>\n- Outline the interaction between lift and drag that determines the ball's curving trajectory and flight path <marks>1 mark</marks>\n- Outline how these forces are utilized in sports such as soccer, tennis, or baseball to control the ball's motion <marks>1 mark</marks>\n\nAdditional acceptable outline:\n- increased drag reduces speed which can reduce the magnitude of the Magnus (lift) effect later in flight, changing the amount of curve <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159966,
+            "content": "Discuss how athletes can minimize resistance to improve performance in water or air-based sports.",
+            "order": 5,
+            "markscheme": "- Discuss the use of streamlined body positions to minimize frontal surface area and reduce drag <marks>1 mark</marks>\n- Discuss wearing specialized equipment or suits designed to reduce friction with the fluid <marks>1 mark</marks>\n- Discuss the technique of drafting behind other athletes to take advantage of reduced fluid resistance <marks>1 mark</marks>\n- Discuss adjustments to movement technique (e.g., optimized stroke mechanics) to minimize resistive forces <marks>1 mark</marks>\n\nAdditional acceptable discussion points (any one):\n- reducing resistance lowers energy cost at a given speed (improved economy) and/or allows a higher speed for the same power output <marks>1 mark</marks>\n- trade-off: more streamlined positions may reduce comfort/visibility/breathing or power production in some situations <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6e601645-8e9c-43aa-9367-4f4450b06fb0",
+        "specification": "Which option shows a breakdown between the execution phase (arm swing/ball contact) and the recovery phase (landing/follow-through) of a volleyball spike?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:57:03.153Z",
+            "resultId": 41871
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T15:57:52.158Z",
+              "reasoning": "The question asks to identify an error occurring between the execution and recovery phases of a volleyball spike, which directly uses the phases-of-movement framework in movement analysis.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696887,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939888,
+            "content": "The arm fails to fully extend before contact",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939889,
+            "content": "The player mishits the ball due to poor toss",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939890,
+            "content": "The jump is mistimed at take-off",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939891,
+            "content": "The player lands with poor balance after the spike",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "76529340-20b2-4bc1-92af-04a1f3944caf",
+        "specification": "What defines the execution phase of a clean and jerk when analysing movement phases (preparation, execution, recovery)?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:06:34.199Z",
+            "resultId": 41969
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T15:58:33.441Z",
+              "reasoning": "The question asks what defines the 'execution phase' within a clean and jerk, which directly relates to identifying phases of movement in a skill (preparation, execution, follow-through) using a phases-of-movement analysis approach.",
+              "confidence": 0.87
+            }
+          ]
+        },
+        "currentRevisionId": 1696800,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939560,
+            "content": "Performing the clean (lifting the bar from the floor to the shoulders) and the jerk (driving it overhead)",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: this describes the main movement/force-producing phase of the skill (clean + jerk), rather than the set-up or recovery."
+          },
+          {
+            "id": 4939561,
+            "content": "Setting the feet shoulder-width apart before lifting",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: this is part of the preparation/set-up phase."
+          },
+          {
+            "id": 4939562,
+            "content": "Lowering the bar under control back to the floor after the lift",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: this is part of the recovery/termination phase after the main movement is completed."
+          },
+          {
+            "id": 4939563,
+            "content": "Taking a deep breath before initiating the movement",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: this is part of the preparation phase, not the execution phase."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "771ef9e8-0e0e-49fb-b94e-8d663f392734",
+        "specification": "During a basketball jump shot, using the phase model preparation, execution (force-producing/propulsion), follow-through and recovery, which phase is responsible for generating the upward force?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:54:56.386Z",
+            "resultId": 41978
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T15:58:39.642Z",
+              "reasoning": "The question asks which phase of a jump shot generates upward force, which directly tests understanding of the phases-of-movement approach (preparation, execution, recovery/follow-through) in movement analysis.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696876,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939848,
+            "content": "Preparation phase",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939849,
+            "content": "Execution phase",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939850,
+            "content": "Recovery phase",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939851,
+            "content": "Follow-through phase",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "778e7bd5-e875-48b4-adbf-6159aa45d739",
+        "specification": "A sports scientist is supporting athletes from three sports:\n\n- A gymnast performing a backflip.\n- A soccer player taking a free kick with spin.\n- A cyclist doing a time trial.\n\nTable 1 shows wind-tunnel measurements for the cyclist.\n\nTable 1: Measured aerodynamic forces on a cyclist at $v=12.0\\ \\mathrm{m\\ s^{-1}}$\n\nPosition | Drag force / N | Lift force / N\n---|---:|---:\nUpright | 38 | 6\nAero tuck | 28 | 3",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T11:56:48.749Z",
+            "resultId": 44879
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T09:42:49.128Z",
+              "reasoning": "Parts (b), (d), and (e) focus on types of motion (linear/angular), angular motion in spinning equipment, and interaction of linear and angular momentum in movements like a backflip\u2014core applications of Newtonian mechanics in linear and angular contexts.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29926,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.2 Momentum changes and collisions in sports scenarios (HL)",
+              "title": "B.2.1.2 Momentum changes and collisions in sports scenarios (HL)",
+              "labeledAt": "2026-03-07T09:42:49.128Z",
+              "reasoning": "Part (e) explicitly asks about linear and angular momentum interaction during a complex movement; momentum concepts are directly assessed.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29931,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "title": "B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "labeledAt": "2026-03-07T09:42:49.128Z",
+              "reasoning": "Parts (c) and (f) address fluid forces on a moving object (e.g., drag, lift) and how fluid mechanics informs equipment choice/technique in cycling, swimming, and ski jumping.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1697585,
+        "parts": [
+          {
+            "id": 1159952,
+            "content": "Identify three types of motion relevant in sports performance.",
+            "order": 0,
+            "markscheme": "- Linear motion (translation in a straight line) <marks>1 mark</marks>\n- Angular motion (rotation about an axis) <marks>1 mark</marks>\n- General motion (combination of linear and angular motion) <marks>1 mark</marks>\n\nAdditional acceptable points (any may be credited):\n- Translational motion as an equivalent term for linear motion <marks>1 mark</marks>\n- An example to illustrate a correctly identified motion type (e.g., sprinting as linear; somersault as angular; running while turning as general) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159953,
+            "content": "State three fluid forces acting on a moving object.",
+            "order": 1,
+            "markscheme": "- Drag force <marks>1 mark</marks>\n- Lift force <marks>1 mark</marks>\n- Buoyant force (upthrust) <marks>1 mark</marks>\n\nAdditional acceptable points (any may be credited):\n- Upthrust as an equivalent term for buoyant force <marks>1 mark</marks>\n- Note that drag includes pressure (form) drag and/or skin friction drag (credit as clarification, not an extra required force) <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159954,
+            "content": "Describe the role of angular motion in the spinning of sports equipment (for example, a ball), with reference to the soccer free kick in the scenario.",
+            "order": 2,
+            "markscheme": "- Angular motion defined as rotation of an object about an axis <marks>1 mark</marks>\n- Spinning equipment/ball exhibits angular motion that can influence its flight path/trajectory (e.g., via the Magnus effect) <marks>1 mark</marks>\n- Spin can help stabilize flight via gyroscopic effects (maintains orientation/reduces wobble) <marks>1 mark</marks>\n- Direction/type of spin (e.g., topspin/backspin/sidespin) affects the amount/direction of curve and/or subsequent bounce behaviour <marks>1 mark</marks>\n\nAdditional acceptable points (any may be credited):\n- Identify that sidespin can produce lateral swerve in a free kick (Magnus force acts perpendicular to airflow and spin axis) <marks>1 mark</marks>\n- Credit other appropriate examples (tennis, cricket, golf) linked to angular motion and control <marks>1 mark</marks>\n\n<note>Accept discussion of the Magnus effect or control in sports like tennis.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159955,
+            "content": "Explain how linear and angular momentum interact during a complex movement such as a backflip, with reference to the gymnast in the scenario.",
+            "order": 3,
+            "markscheme": "- Linear momentum defined as $p=mv$ (mass $\\times$ linear velocity) <marks>1 mark</marks>\n- Linear momentum is generated during take-off through impulse (force applied against the ground over time), contributing to upward/forward motion and time in the air <marks>1 mark</marks>\n- Angular momentum is generated by torque at take-off, initiating rotation about an axis <marks>1 mark</marks>\n- Conservation of angular momentum in flight: athlete changes body configuration (moment of inertia) to change angular velocity (tuck faster, extend slower) <marks>1 mark</marks>\n\nAdditional acceptable points (any may be credited):\n- Link that insufficient linear momentum (insufficient vertical velocity) reduces flight time, making it harder to complete the required rotation even with high angular velocity <marks>1 mark</marks>\n- Link that insufficient angular momentum/torque at take-off leads to under-rotation even if jump height is adequate <marks>1 mark</marks>\n- Reference that air resistance produces small external torques/forces but is usually minor compared with take-off effects for a gymnast <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159956,
+            "content": "Using Table 1, explain how an athlete\u2019s understanding of fluid mechanics can influence equipment choice and technique in cycling.",
+            "order": 4,
+            "markscheme": "- From Table 1, the aero tuck reduces drag compared with upright (38 N to 28 N), so technique/equipment that promotes a streamlined posture reduces drag and improves performance (less resistive force to overcome) <marks>1 mark</marks>\n- Examples of equipment choices that help reduce drag: aero helmet, skin suit, deep-section wheels, smooth cable routing (any suitable example) <marks>1 mark</marks>\n- From Table 1, lift is also reduced in the aero tuck (6 N to 3 N); athletes may adjust posture/positioning to manage lift as well as drag to improve stability/handling <marks>1 mark</marks>\n- Use of drafting/positioning to reduce effective air resistance (reduced relative wind speed/pressure drag in the slipstream) <marks>1 mark</marks>\n\nAdditional acceptable points (any may be credited):\n- Explain that reducing frontal surface area and/or promoting more laminar flow delays separation and can reduce pressure drag <marks>1 mark</marks>\n- Mention testing/feedback methods (e.g., wind tunnel, track aero testing) to optimise position and equipment choices <marks>1 mark</marks>\n\n<note>Other acceptable answers include the use of wind tunnels for testing or adaptation to altitude/density conditions.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7e161910-7f04-48d4-a909-fc967f1a9463",
+        "specification": "What is the primary biomechanical purpose of the execution phase of a tennis serve?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:20:35.746Z",
+            "resultId": 42363
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T16:00:50.329Z",
+              "reasoning": "The question asks about the biomechanical purpose of the execution phase of a tennis serve, which directly uses the phases-of-movement approach (preparation, execution, follow-through) and their roles in performance.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1696742,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939328,
+            "content": "To return the body to balance after motion",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939329,
+            "content": "To generate power and transfer it to the ball",
+            "correct": true,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4939330,
+            "content": "To position the body in readiness for movement",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939331,
+            "content": "To decelerate the arm and dissipate forces safely after ball contact",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "874fe4f3-96d4-4699-bb74-1b0c6531e08c",
+        "specification": "The question assesses knowledge of linear kinematics, fluid dynamics, Newton's laws, and biomechanical analysis in sports performance.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T08:16:56.549Z",
+              "reasoning": "Covers applications of Newton\u2019s three laws to long jump take-off and general linear motion concepts in sport biomechanics.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29926,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.2 Momentum changes and collisions in sports scenarios (HL)",
+              "title": "B.2.1.2 Momentum changes and collisions in sports scenarios (HL)",
+              "labeledAt": "2026-03-07T08:16:56.549Z",
+              "reasoning": "Impulse\u2013momentum relationship and momentum changes during collisions/contact sports are directly assessed (part d).",
+              "confidence": 0.86
+            },
+            {
+              "id": 29931,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "title": "B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "labeledAt": "2026-03-07T08:16:56.549Z",
+              "reasoning": "Reducing air resistance in sprinting is drag in fluids (air), aligning with buoyancy/drag/lift effects (part c).",
+              "confidence": 0.8
+            },
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T08:16:56.549Z",
+              "reasoning": "Use of force\u2013time graphs and broader biomechanical movement analysis for performance optimization fits movement analysis applications (parts f, g).",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1584009,
+        "parts": [
+          {
+            "id": 1138323,
+            "content": "Identify two linear kinematic variables relevant to running performance.",
+            "order": 1,
+            "markscheme": "- **Identify** velocity as a relevant linear kinematic variable <marks>A1</marks>\n\n- **Identify** acceleration as a relevant linear kinematic variable <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other linear kinematic variables such as displacement or speed.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138324,
+            "content": "State two ways to reduce air resistance in sprinting.",
+            "order": 2,
+            "markscheme": "- **State** the use of tight-fitting clothing to reduce drag <marks>A1</marks>\n\n- **State** the maintenance of a low, streamlined body position <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid methods such as shaving body hair or running in favorable wind conditions.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138325,
+            "content": "Describe how impulse relates to changes in momentum during contact sports.",
+            "order": 3,
+            "markscheme": "- **State** that impulse is defined as the product of force and time: $\\text{Impulse} = F \\times t$ <marks>A1</marks>\n\n- **Describe** that a greater impulse results in a greater change in momentum, expressed as $\\Delta p = F \\Delta t$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138326,
+            "content": "Explain how each of Newton\u2019s laws can be applied during a long jump take-off.",
+            "order": 4,
+            "markscheme": "- **Explain** the $1^{\\text{st}}$ Law (Inertia): the jumper remains in a state of uniform motion during the approach run until an external force is applied at the take-off board <marks>A1</marks>\n\n- **Explain** the $2^{\\text{nd}}$ Law (Acceleration): a greater force applied against the ground results in a greater acceleration at take-off, according to $F = ma$ <marks>A1</marks>\n\n- **Explain** the $3^{\\text{rd}}$ Law (Action-Reaction): the ground exerts an equal and opposite reaction force on the athlete, propelling them into the air <marks>A1</marks>\n\n- **State** that the efficient coordination of all three laws maximizes the total jump distance <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138327,
+            "content": "Outline how force-time graphs are used in performance analysis.",
+            "order": 5,
+            "markscheme": "- **Outline** how the graph shows the rate of force development (RFD), indicating how quickly force is generated <marks>A1</marks>\n\n- **Outline** the indication of total impulse through the area under the curve (force $\\times$ duration) <marks>A1</marks>\n\n- **Outline** how the graph allows comparison between explosive and sustained force outputs <marks>A1</marks>\n\n- **Outline** how the graph assists in identifying technical strengths or muscular deficiencies in performance <marks>A1</marks>\n\n4 marks total\n\n<note>Accept other relevant uses such as monitoring training progress, injury risk, or rehabilitation effectiveness.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138328,
+            "content": "Discuss how biomechanical analysis of movement enables optimization of performance in dynamic sports environments.",
+            "order": 6,
+            "markscheme": "- **Discuss** the identification and correction of inefficient movement patterns to enhance technique <marks>A1</marks>\n\n- **Discuss** the assessment of joint angles and sequencing for skill refinement <marks>A1</marks>\n\n- **Discuss** how movement demands inform specific training interventions, such as strength or flexibility <marks>A1</marks>\n\n- **Discuss** the enhancement of balance and stability through understanding force application <marks>A1</marks>\n\n- **Discuss** how equipment or footwear modifications can improve efficiency and reduce injury risk <marks>A1</marks>\n\n- **Discuss** the provision of data-driven feedback to optimize tactical execution for athletes <marks>A1</marks>\n\n6 marks total\n\n<note>Accept other valid points such as comparison to elite benchmarks or return-to-play assessments.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "878afe67-5957-492c-9590-7396c78a2f8c",
+        "specification": "Why is the preparation phase of a movement skill critical for effective performance?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:56:04.505Z",
+            "resultId": 30714
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:25:42.436Z",
+              "reasoning": "The question asks about the importance of the preparation phase in biomechanical (phases-of-movement) analysis, focusing on alignment and energy storage\u2014core to the phases-of-movement approach for performance.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1695287,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935945,
+            "content": "It allows for psychological readiness.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Not the primary biomechanical purpose of the preparation phase; this is more aligned with psychological models than movement mechanics."
+          },
+          {
+            "id": 4935946,
+            "content": "It helps to position the body and store elastic energy for the subsequent action.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: the preparation (countermovement/wind-up) optimizes body alignment and uses the stretch-shortening cycle to store elastic energy and enable greater force/power output."
+          },
+          {
+            "id": 4935947,
+            "content": "It increases the range of motion to allow greater time for force application.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "A larger range of motion may occur in preparation, but the key biomechanical reason is optimizing positioning and elastic energy storage, not simply increasing range of motion."
+          },
+          {
+            "id": 4935948,
+            "content": "It reduces the moment of inertia so the movement can be performed faster.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Moment of inertia changes depend on body configuration and are not the general defining purpose of the preparation phase across movement skills."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8a0456e1-24a8-4254-9a4f-5617a65b5989",
+        "specification": "In the preparation\u2013execution\u2013recovery phases of movement model, where preparation includes the run-up and delivery stride, execution is the key action (ball release), and recovery is the follow-through, what would be considered part of the execution phase for a cricket fast bowler?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:54:28.759Z",
+            "resultId": 30710
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:25:22.119Z",
+              "reasoning": "The question explicitly asks about identifying the execution phase using a phases-of-movement approach applied to a cricket fast bowler\u2019s action.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1695272,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935885,
+            "content": "Running up toward the crease",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935886,
+            "content": "Planting the front foot before release",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935887,
+            "content": "The actual delivery of the ball (ball release)",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935888,
+            "content": "Returning to fielding position after release",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8b03599e-1ede-4a3e-bde3-c08c2a982be5",
+        "specification": "In which anatomical plane of motion does a biceps curl primarily occur?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T06:40:41.674Z",
+            "resultId": 30803
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T05:27:19.431Z",
+              "reasoning": "The question asks which plane of motion a biceps curl occurs in, directly assessing knowledge of planes of movement (sagittal/frontal/transverse) and related human motion concepts.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1694803,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934301,
+            "content": "Frontal plane",
+            "correct": false,
+            "order": 0,
+            "markscheme": "The frontal (coronal) plane involves primarily abduction and adduction movements, such as a jumping jack."
+          },
+          {
+            "id": 4934302,
+            "content": "Sagittal plane",
+            "correct": true,
+            "order": 1,
+            "markscheme": "The sagittal plane involves flexion and extension movements. A biceps curl consists mainly of elbow flexion and extension, thus occurring primarily in this plane."
+          },
+          {
+            "id": 4934303,
+            "content": "Transverse plane",
+            "correct": false,
+            "order": 2,
+            "markscheme": "The transverse plane involves rotational movements, such as trunk rotation."
+          },
+          {
+            "id": 4934304,
+            "content": "Horizontal plane",
+            "correct": false,
+            "order": 3,
+            "markscheme": "The horizontal plane is often used synonymously with the transverse plane and involves rotational movements, not the primary action in a biceps curl."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8c5abb00-ff4b-4926-bb77-ee394794477f",
+        "specification": "Which example best shows the importance of the recovery (follow-through) phase of a skill in preventing injury?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T10:00:59.208Z",
+            "resultId": 30087
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:16:44.583Z",
+              "reasoning": "The question asks about the recovery phase of a movement (follow-through/deceleration) and its role in injury prevention, which is directly covered by the phases-of-movement approach used for health, safety, and performance.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-06T05:16:44.583Z",
+              "reasoning": "It links the recovery phase to preventing injury (reducing risk/absorbing forces), which aligns with strategies to minimize injury risk and improve force absorption, though the main focus is movement-phase identification.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695631,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936889,
+            "content": "A gymnast controlling balance after landing",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: this describes controlling and decelerating the body after the main action, which is characteristic of the recovery/follow-through phase and can reduce injury risk."
+          },
+          {
+            "id": 4936890,
+            "content": "A sprinter exploding from the blocks",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: this is the propulsion phase (force production/acceleration), not the recovery/follow-through phase."
+          },
+          {
+            "id": 4936891,
+            "content": "A footballer winding up before a kick",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: this is the preparation phase (backswing), not the recovery/follow-through phase."
+          },
+          {
+            "id": 4936892,
+            "content": "A tennis player following through after a forehand stroke",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: although it is a follow-through action, it is less clearly linked to injury prevention than controlled deceleration and stabilisation after landing."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8e1a406f-5bfe-4ee9-a601-bf22ad509c77",
+        "specification": "Which of the following defines the term \u201cantagonist\u201d in movement analysis?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:48:52.201Z",
+            "resultId": 42128
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T15:59:13.876Z",
+              "reasoning": "Defines roles of muscles during movement (agonist, antagonist, stabilizers, synergists), which falls under muscular function and how muscles produce/oppose movement.",
+              "confidence": 0.84
+            }
+          ]
+        },
+        "currentRevisionId": 1697100,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940528,
+            "content": "The muscle that produces the main movement",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940529,
+            "content": "The muscle that stabilizes the joint during movement",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940530,
+            "content": "The muscle that opposes the action of the agonist",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940531,
+            "content": "The muscle that assists the prime mover",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "90fec868-20d6-4478-94f8-d8ab8765b2fc",
+        "specification": "During a volleyball spike, which movement phase involves maximum acceleration of the arm?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:36:58.603Z",
+            "resultId": 42103
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T15:59:09.185Z",
+              "reasoning": "The question asks which movement phase (preparation/execution/recovery/stabilization) has maximum arm acceleration during a volleyball spike, which directly tests the phases-of-movement approach used in movement analysis.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696768,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939432,
+            "content": "Preparation",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939433,
+            "content": "Execution",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939434,
+            "content": "Recovery",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939435,
+            "content": "Stabilization",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "95f102fb-95e5-4d35-9d09-dab9e559ec79",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T17:36:52.592Z",
+              "reasoning": "All parts focus on Newton\u2019s 1st, 2nd and 3rd laws (inertia, action\u2013reaction, force\u2013mass\u2013acceleration) applied to sport situations such as sprint starts and direction changes.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1584071,
+        "parts": [
+          {
+            "id": 1138487,
+            "content": "State Newton\u2019s first law of motion.",
+            "order": 1,
+            "markscheme": "- State that an object at rest stays at rest and an object in motion stays in motion at a constant velocity <marks>A1</marks>\n- State that this condition continues unless the object is acted upon by an external (unbalanced) force <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138488,
+            "content": "Identify two sporting examples where Newton\u2019s third law applies.",
+            "order": 2,
+            "markscheme": "- Identify a sprinter pushing against the starting blocks (resulting in a reaction force propelling them forward) <marks>A1</marks>\n- Identify a swimmer pushing off the pool wall (resulting in a reaction force propelling them forward) <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include a basketball player jumping off the ground or a rower pulling on an oar.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138489,
+            "content": "Describe how Newton\u2019s second law explains acceleration in sport.",
+            "order": 3,
+            "markscheme": "- State the formula for force where force equals mass multiplied by acceleration ($F = m \\times a$) <marks>A1</marks>\n- Describe how, if mass is constant, acceleration is directly proportional to the force applied <marks>A1</marks>\n- Explain that stronger athletes, who can generate more force, can achieve greater acceleration <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138490,
+            "content": "Explain how inertia can impact performance during direction changes.",
+            "order": 4,
+            "markscheme": "- Define inertia as the tendency of an object to resist changes in its state of motion <marks>A1</marks>\n- Explain that during direction changes, greater body mass increases inertia, making it harder to stop or turn quickly <marks>A1</marks>\n- State that athletes with high inertia require more force and time to change direction effectively <marks>A1</marks>\n- Note that efficient movement involves lowering the center of mass or applying greater ground reaction force to overcome inertia quickly <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138491,
+            "content": "Outline how each of Newton\u2019s three laws applies to the start of a sprint race.",
+            "order": 5,
+            "markscheme": "- Outline that Newton's First Law applies as the athlete remains still in the blocks until an external force is applied <marks>A1</marks>\n- Outline that Newton's Second Law applies as the force produced by the athlete leads to acceleration from the blocks <marks>A1</marks>\n- Outline that Newton's Third Law applies as the force against the blocks results in an equal and opposite reaction force propelling the athlete forward <marks>A1</marks>\n- State that all three laws work together at the race start to initiate motion <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138492,
+            "content": "Discuss how athletes apply force effectively to maximize motion.",
+            "order": 6,
+            "markscheme": "- Discuss how applying force in the direction of intended motion increases acceleration and efficiency <marks>A1</marks>\n- Discuss how maximizing impulse (force $\\times$ time) allows for greater momentum transfer <marks>A1</marks>\n- Discuss how correct technique/biomechanics ensures optimal force generation and reduces energy loss <marks>A1</marks>\n- Discuss how increasing muscle strength and coordination improves the ability to generate and apply force consistently <marks>A1</marks>\n- Discuss how stabilizing the core provides a solid base, allowing limbs to produce effective movement without unnecessary compensations <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "a7519b91-ad1f-4c09-9be3-12f10d87e239",
+        "specification": "During a rugby tackle, when the player lowers their body and positions their arms before contact, which phase of movement are they in?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:21:34.266Z",
+            "resultId": 42322
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T16:00:37.685Z",
+              "reasoning": "The question asks which phase of movement (preparation/execution/recovery/release) the player is in while lowering the body and positioning arms before contact\u2014this is directly the phases-of-movement approach.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696747,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939348,
+            "content": "Recovery phase",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939349,
+            "content": "Execution phase",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939350,
+            "content": "Preparation phase",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939351,
+            "content": "Follow-through phase",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a7ec337d-d486-4871-aeb8-af78d07d1c1d",
+        "specification": "During biomechanical analysis, which of the following errors would most likely occur in the preparation (wind-up/stride) phase of a baseball pitch (before ball release)?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:25:55.939Z",
+            "resultId": 30956
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:32:52.911Z",
+              "reasoning": "The question asks which error occurs in the preparation phase of a baseball pitch, directly using the phases-of-movement approach within movement analysis (preparation, execution, follow-through/recovery).",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1694896,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934673,
+            "content": "Poor grip on the ball during release",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934674,
+            "content": "Incorrect foot placement/balance during the wind-up",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934675,
+            "content": "Lack of follow-through after release",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934676,
+            "content": "Inability to stabilize after the throw",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b3cd83ea-7a51-4e61-acd4-f945579a2d03",
+        "specification": "Which of the following movements can be broken down into three clear phases (preparation, execution, and follow-through)?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:27:15.051Z",
+            "resultId": 42300
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T16:00:34.319Z",
+              "reasoning": "The question asks which movement can be analyzed using three clear phases (preparation, execution, follow-through), which is the phases-of-movement approach used in movement analysis for coaching.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696494,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939072,
+            "content": "Shooting a basketball",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: a discrete/ballistic skill that can be analysed as preparation, execution and follow-through."
+          },
+          {
+            "id": 4939073,
+            "content": "Sprinting a 100 m race",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: typically analysed as start/reaction, acceleration, maximum velocity and deceleration/finish rather than preparation\u2013execution\u2013follow-through."
+          },
+          {
+            "id": 4939074,
+            "content": "Breathing during swimming",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: a continuous cyclical action without clear preparation\u2013execution\u2013follow-through phases."
+          },
+          {
+            "id": 4939075,
+            "content": "Standing balance on one leg",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: a static/continuous skill rather than a discrete movement with three phases."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b7fb0686-3bd8-42db-8a86-97bb64a32c9d",
+        "specification": "The execution phase of a baseball pitch is best described as:",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:17:17.370Z",
+              "reasoning": "The question asks which part of the pitch corresponds to the 'execution phase', which is terminology from the phases-of-movement approach used in movement analysis (preparation, execution, follow-through).",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1421283,
+        "parts": [],
+        "options": [
+          {
+            "id": 4155295,
+            "content": "Gripping the ball and stepping onto the mound",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4155297,
+            "content": "The wind-up motion before release",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4155298,
+            "content": "The actual release of the ball toward the plate",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4155299,
+            "content": "Walking back to the dugout",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "be5f45ca-ec8c-4205-b85a-a64814c5b636",
+        "specification": "When a basketball player bends their knees before jumping for a rebound, this is part of which phase?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T17:36:46.286Z",
+              "reasoning": "The question asks which movement phase (preparation/execution/recovery/impact) applies when bending knees before a jump; this is directly assessed under the phases-of-movement approach in movement analysis.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1421318,
+        "parts": [],
+        "options": [
+          {
+            "id": 4155435,
+            "content": "Execution phase",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4155436,
+            "content": "Recovery phase",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4155437,
+            "content": "Preparation phase",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4155438,
+            "content": "Impact phase",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c2bf6db2-dc49-428d-a160-25a3edf51c92",
+        "specification": "A technician uses a force plate to measure the peak ground reaction force during a vertical jump. Which type of movement analysis does this represent?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-c2bf6db2-dc49-428d-a160-25a3edf51c92-1771953315939",
+            "generatedAt": "2026-02-25T07:26:44.306Z",
+            "sourceRevisionId": 1421314
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T08:17:06.321Z",
+              "reasoning": "The question classifies a measurement method (force plate measuring peak ground reaction force) as quantitative vs qualitative and kinematics vs kinetics\u2014core to movement analysis applications.",
+              "confidence": 0.68
+            },
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T08:17:06.321Z",
+              "reasoning": "Ground reaction force is a key force concept tied to Newton\u2019s laws; distinguishing kinetics (forces) from kinematics (motion) relies on this mechanics foundation.",
+              "confidence": 0.46
+            }
+          ]
+        },
+        "currentRevisionId": 1687506,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926151,
+            "content": "Quantitative kinematics",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926152,
+            "content": "Qualitative kinetics",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926153,
+            "content": "Qualitative kinematics",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926154,
+            "content": "Quantitative kinetics",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c44253b3-5ed1-4c5a-9d33-d54f5bb9350f",
+        "specification": "When a swimmer completes a stroke and prepares for the next one, which phase is occurring?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:16:24.489Z",
+              "reasoning": "The question asks which phase is occurring when a swimmer finishes one stroke and prepares for the next, directly targeting the phases-of-movement approach (preparation, execution, recovery, follow-through/impact) used in movement analysis.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1421290,
+        "parts": [],
+        "options": [
+          {
+            "id": 4155316,
+            "content": "Execution phase",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4155317,
+            "content": "Preparation phase",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4155318,
+            "content": "Recovery phase",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4155319,
+            "content": "Impact phase",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cf41fb5d-89b8-4109-82c8-093db6ccaf05",
+        "specification": "The question covers biomechanical principles in sports, including phases of movement, fluid mechanics, projectile motion, angular momentum, torque, and performance enhancement.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T08:17:29.484Z",
+              "reasoning": "Part (b) directly asks for phases of movement in a jump, matching the phases-of-movement approach.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29929,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "title": "B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "labeledAt": "2026-03-07T08:17:29.484Z",
+              "reasoning": "Parts (d) and (c) focus on projectile motion and factors affecting horizontal displacement, which falls under projectile motion and forces on flight path.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29931,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "title": "B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "labeledAt": "2026-03-07T08:17:29.484Z",
+              "reasoning": "Part (c) asks about sports where fluid mechanics is key; buoyancy/drag/lift are central fluid-mechanics concepts commonly applied across sports.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T08:17:29.484Z",
+              "reasoning": "Parts (e) and (f) address angular momentum and torque in rotational movement, aligning with Newton\u2019s laws in angular contexts.",
+              "confidence": 0.58
+            }
+          ]
+        },
+        "currentRevisionId": 1584047,
+        "parts": [
+          {
+            "id": 1138437,
+            "content": "State two phases of movement in a jump.",
+            "order": 1,
+            "markscheme": "- the take-off phase <marks>A1</marks>\n- the flight phase <marks>A1</marks>\n\n2 marks total\n\n<note>Accept any two of: preparation, take-off, flight, landing.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138438,
+            "content": "Identify two sports where fluid mechanics plays a key role.",
+            "order": 2,
+            "markscheme": "- swimming (where fluid mechanics like drag and buoyancy are critical) <marks>A1</marks>\n- cycling (where air resistance is critical) <marks>A1</marks>\n\n2 marks total\n\n<note>Accept any two from: swimming, cycling, skiing, rowing, or skydiving.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138439,
+            "content": "Describe three factors that influence the horizontal displacement of a projectile.",
+            "order": 3,
+            "markscheme": "- angle of release: the trajectory of the projectile depends on the angle relative to the horizontal <marks>A1</marks>\n- velocity of release: higher initial velocity increases the kinetic energy and potential distance covered <marks>A1</marks>\n- height of release: a higher point of release increases the time the projectile is in flight <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138440,
+            "content": "Explain the biomechanical importance of angular momentum during mid-air movement.",
+            "order": 4,
+            "markscheme": "- definition of angular momentum as the product of moment of inertia and angular velocity ($L = I\\omega$) <marks>A1</marks>\n- conservation of angular momentum during the flight phase when no external torques act (neglecting air resistance) <marks>A1</marks>\n- altering body shape (e.g., tucking) changes the moment of inertia ($I$), causing a corresponding change in angular velocity ($\\omega$) to maintain constant $L$ <marks>A1</marks>\n- athletes in sports like diving or gymnastics can control their speed of rotation and orientation before landing <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138441,
+            "content": "Outline the role of torque in rotational sports movements.",
+            "order": 5,
+            "markscheme": "- torque defined as the product of the applied force and the perpendicular distance from the axis of rotation to the line of action of the force ($\\tau = F \\times d$) <marks>A1</marks>\n- torque acts as the rotational equivalent of force and is required to initiate or change rotational motion around a joint <marks>A1</marks>\n- application in actions such as swinging a golf club or throwing a ball where long lever arms maximize torque <marks>A1</marks>\n- applying greater torque results in increased angular acceleration of the limbs or equipment ($\\tau = I\\alpha$) <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138442,
+            "content": "Discuss how applying biomechanical principles to movement can enhance athletic performance.",
+            "order": 6,
+            "markscheme": "- identification and correction of inefficient movement patterns to improve technique <marks>A1</marks>\n- application of Newton\u2019s laws (e.g., action-reaction) to maximize force production <marks>A1</marks>\n- optimization of equipment (e.g., aerodynamics in cycling) to improve speed and efficiency <marks>A1</marks>\n- use of biomechanical analysis for tailored training programs and technical feedback for athletes <marks>A1</marks>\n- reduction of the risk of injury (through better load distribution and technique) ensures more consistent training and performance longevity <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "d1eec189-9600-4240-ae34-c2a84f865c59",
+        "specification": "The movement of a soccer player striking the ball for a long pass can be broken into phases. Which action belongs to the preparation phase?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:00:08.094Z",
+            "resultId": 41817
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T15:57:24.496Z",
+              "reasoning": "The question asks which action belongs to the preparation phase of a soccer kick, directly assessing the phases-of-movement (preparation, execution, follow-through/recovery) approach in movement analysis.",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "currentRevisionId": 1696907,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939960,
+            "content": "Swinging the leg back before striking",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. The preparation phase involves the preliminary movements that prepare the body for the main action, such as the backswing of the kicking leg."
+          },
+          {
+            "id": 4939961,
+            "content": "Making contact with the ball",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. This action occurs during the execution phase when the force is transferred to the ball."
+          },
+          {
+            "id": 4939962,
+            "content": "Running to support teammates afterward",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. This is a tactical movement that occurs after the physical skill of striking the ball is completed."
+          },
+          {
+            "id": 4939963,
+            "content": "Following through after the kick",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. This belongs to the follow-through phase, which helps in injury prevention and maintaining balance."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "dabec986-8680-4a32-a6c6-1db0815ccd96",
+        "specification": "A sprinter runs a 100 m race into a headwind, and a swimmer completes a 50 m freestyle at increasing speeds. A projectile (e.g., a javelin) and a spinning ball (e.g., a football) are also analysed for the forces acting on them during flight.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:29:15.627Z",
+            "resultId": 44875
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29931,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "title": "B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "labeledAt": "2026-03-07T09:14:54.989Z",
+              "reasoning": "Most parts focus on fluid mechanics concepts of drag and lift in air/water (drag\u2013velocity relationship in swimming, streamlining to reduce drag, lift/drag on a spinning ball, and applying fluid mechanics to improve performance).",
+              "confidence": 0.92
+            },
+            {
+              "id": 29929,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "title": "B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "labeledAt": "2026-03-07T09:14:54.989Z",
+              "reasoning": "Part (b) asks for forces affecting a projectile in flight (e.g., gravity and air resistance), directly matching projectile motion and forces shaping flight path.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1697336,
+        "parts": [
+          {
+            "id": 1159554,
+            "content": "State two forces that affect a projectile in flight.",
+            "order": 0,
+            "markscheme": "- State that gravity (weight) acts on the projectile <marks>1 mark</marks>\n- State that air resistance (drag) acts against the direction of motion <marks>1 mark</marks>\n- State that lift can act on the projectile if it has a suitable shape/angle of attack (or spin) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159555,
+            "content": "Identify two ways air resistance affects running performance.",
+            "order": 1,
+            "markscheme": "- Identify that air resistance increases energy expenditure for the runner <marks>1 mark</marks>\n- Identify that air resistance reduces running speed / increases time taken <marks>1 mark</marks>\n- Identify that a headwind increases drag while a tailwind reduces drag, affecting performance <marks>1 mark</marks>\n- Identify that a larger frontal area (upright posture/loose clothing) increases drag and can impair performance <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159556,
+            "content": "Describe the relationship between velocity and drag force in swimming.",
+            "order": 2,
+            "markscheme": "- Describe the mathematical relationship where drag force increases with the square of the swimmer\u2019s velocity ($v^2$) <marks>1 mark</marks>\n- Describe how doubling the speed results in a quadrupling of the drag force <marks>1 mark</marks>\n- Describe how higher velocity creates greater resistance from the water, requiring significantly more energy/power to maintain pace <marks>1 mark</marks>\n- Describe that small increases in speed at higher velocities produce disproportionately large increases in drag <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159557,
+            "content": "Explain how streamlining reduces drag in aquatic sports.",
+            "order": 3,
+            "markscheme": "- Explain how streamlining minimizes the cross-sectional surface area exposed to water resistance, which reduces form drag <marks>1 mark</marks>\n- Explain how a streamlined body position reduces turbulence/separation behind the swimmer, lowering pressure drag <marks>1 mark</marks>\n- Explain how aligning the body horizontally improves laminar flow, allowing water to move smoothly over the body <marks>1 mark</marks>\n- Explain how reducing unnecessary limb movement and maintaining a tight posture decreases wave drag <marks>1 mark</marks>\n- Explain that reducing surface roughness (e.g., smooth suit/shaving) can reduce skin/friction drag <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159558,
+            "content": "Outline the role of lift and drag in the flight of a spinning ball.",
+            "order": 4,
+            "markscheme": "- Outline that lift force is generated due to pressure differences created by the ball\u2019s spin, known as the Magnus effect <marks>1 mark</marks>\n- Outline how topspin causes a downward lift force, bringing the ball down faster (e.g., in tennis or soccer) <marks>1 mark</marks>\n- Outline how backspin creates an upward lift force, extending flight time or distance (e.g., in golf or basketball) <marks>1 mark</marks>\n- Outline how drag force acts opposite to the ball's motion, reducing its speed and altering its trajectory <marks>1 mark</marks>\n- Outline that greater spin rate generally increases the magnitude of lift and hence the amount of curve/swerve <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159559,
+            "content": "Discuss how understanding fluid mechanics can improve performance in water or air-based sports.",
+            "order": 5,
+            "markscheme": "- Discuss how fluid mechanics allows athletes to minimize drag by optimizing body position and reducing surface area exposed to flow <marks>1 mark</marks>\n- Discuss the use of streamlined techniques (e.g., tight posture in swimming or cycling) to reduce form and wave drag <marks>1 mark</marks>\n- Discuss how equipment design (e.g., aerodynamic helmets in cycling, low-drag swimsuits) is optimized using fluid mechanics principles <marks>1 mark</marks>\n- Discuss how technique adjustments such as drafting behind another athlete can reduce resistance and conserve energy <marks>1 mark</marks>\n- Discuss that reducing drag can improve performance by allowing a higher speed for the same power output (or reduced energy cost at the same speed) <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "dfe2c2f6-0058-42e6-ab8b-d454308aa5f9",
+        "specification": "Around which axis of rotation does a figure skater primarily move while performing an upright spin on the ice?\n",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-dfe2c2f6-0058-42e6-ab8b-d454308aa5f9-1771953315939",
+            "generatedAt": "2026-02-25T09:54:05.989Z",
+            "sourceRevisionId": 761543
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:19:46.846Z",
+              "reasoning": "The question asks which axis of rotation applies to an upright spin in figure skating, directly assessing knowledge of axes of rotation (vertical/longitudinal vs sagittal/frontal/oblique) within planes and axes of human motion.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1687545,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926283,
+            "content": "Frontal axis",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926284,
+            "content": "Sagittal axis",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926285,
+            "content": "Oblique axis",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926286,
+            "content": "Vertical axis",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e14d17ef-27f9-41a2-98d6-ce837eedb2ec",
+        "specification": "When a basketball player takes a free throw, which of the following best describes the preparation phase of movement?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:20:21.942Z",
+            "resultId": 42355
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T16:00:43.912Z",
+              "reasoning": "The question asks to identify the 'preparation phase' of a free-throw using the phases-of-movement approach (preparation, execution, follow-through/recovery). The correct option refers to setting body position (flexing knees/positioning arms), which is explicitly about movement phases analysis.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696740,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939320,
+            "content": "The player flexing knees and positioning arms",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. The preparation phase involves movements that set up the body for the skill, such as flexing the knees to store elastic energy and positioning the arms for the shot."
+          },
+          {
+            "id": 4939321,
+            "content": "The ball leaving the player\u2019s hand",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. This is part of the execution or release phase of the movement."
+          },
+          {
+            "id": 4939322,
+            "content": "The ball traveling in the air",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. This is the outcome of the skill and occurs after the movement phases (preparation, execution, and follow-through) are complete."
+          },
+          {
+            "id": 4939323,
+            "content": "The player following through after releasing the ball",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. This occurs after the release and is part of the follow-through phase rather than the preparation phase."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e3608ce9-71e8-4dd7-ad68-9fdc4bc1d8a1",
+        "specification": "In a tennis backhand, the follow-through (recovery) is part of which movement phase?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:10:54.603Z",
+            "resultId": 30347
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:18:00.076Z",
+              "reasoning": "The question asks which movement phase (preparation/execution/recovery, etc.) includes the follow-through in a tennis backhand, which directly targets the phases-of-movement approach in movement analysis.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695390,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936229,
+            "content": "Recovery phase",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: the follow-through occurs after ball contact and is part of the follow-through/recovery phase."
+          },
+          {
+            "id": 4936230,
+            "content": "Execution phase",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: execution refers to the action/force-production phase leading to and including contact, not the post-contact follow-through/recovery."
+          },
+          {
+            "id": 4936231,
+            "content": "Preparation phase",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: preparation occurs before the main action (backswing/positioning), not after contact."
+          },
+          {
+            "id": 4936232,
+            "content": "Stance phase",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: stance describes body positioning rather than a standard movement phase category (preparation, execution, follow-through/recovery)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e62dea5c-028c-4f48-a564-85d99d3f9ecf",
+        "specification": "Biomechanical principles and analysis in sports performance and injury prevention.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29929,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "title": "B.2.2.1 Projectile motion and the effects of forces on flight path",
+              "labeledAt": "2026-03-07T08:17:37.216Z",
+              "reasoning": "Parts (d) and (e) focus on projectile motion in long jump and forces affecting flight/trajectory, aligning directly with projectile motion principles.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29931,
+              "isHl": true,
+              "path": "B.2 Forces, motion and movement > B.2.2 Fluid mechanics > B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "title": "B.2.2.3 Buoyancy, drag, and lift effects on objects moving through fluids (HL)",
+              "labeledAt": "2026-03-07T08:17:37.216Z",
+              "reasoning": "Part (e) explicitly asks about air resistance (drag) effects on sprinting and cycling, which is covered under drag/lift in fluid mechanics.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T08:17:37.216Z",
+              "reasoning": "Parts (g) (personalized training via movement analysis) and (b) (stability factors) fit movement analysis applications and phases/technique evaluation.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-07T08:17:37.216Z",
+              "reasoning": "Part (f) asks how biomechanical efficiency contributes to injury prevention, matching strategies to minimize risk and improve force absorption via technique.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29925,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.1 Newton\u2019s laws of motion > B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "title": "B.2.1.1 Newton's laws of motion in linear and angular contexts",
+              "labeledAt": "2026-03-07T08:17:37.216Z",
+              "reasoning": "Parts (c) and (b) involve mechanical/biomechanical principles (e.g., force, acceleration, equilibrium/stability) commonly grounded in Newton\u2019s laws in sport contexts.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1584038,
+        "parts": [
+          {
+            "id": 1138397,
+            "content": "Identify two factors that affect stability in athletes.",
+            "order": 1,
+            "markscheme": "- The width of the base of support <marks>A1</marks>\n- The height of the centre of mass <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include body mass or the position of the line of gravity.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138398,
+            "content": "State two mechanical principles used in diving performance.",
+            "order": 2,
+            "markscheme": "- The conservation of angular momentum <marks>A1</marks>\n- The application of torque <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include moment of inertia or projectile motion.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138399,
+            "content": "Describe how projectile motion principles apply to long jump.",
+            "order": 3,
+            "markscheme": "- The angle of take-off affects the horizontal range/distance of the jump <marks>A1</marks>\n- The speed of take-off (velocity) determines the overall distance covered <marks>A1</marks>\n- The relative height of take-off influences the trajectory and flight time <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138400,
+            "content": "Explain the impact of air resistance on sprint and cycling performance.",
+            "order": 4,
+            "markscheme": "- Air resistance (drag) increases proportionally with the velocity of the athlete <marks>A1</marks>\n- It acts as a resistive force that reduces performance unless countered by effort or technique <marks>A1</marks>\n- Sprinters lean forward or wear skinsuits to reduce their frontal surface area and minimize drag <marks>A1</marks>\n- Cyclists use specialized equipment (aero helmets/wheels) and crouched positioning to reduce frontal area and drag <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138401,
+            "content": "Outline how biomechanical efficiency contributes to injury prevention.",
+            "order": 5,
+            "markscheme": "- It reduces unnecessary movement and decreases physiological strain on the body <marks>A1</marks>\n- It improves posture and ensures proper joint alignment during high-impact activities <marks>A1</marks>\n- It helps distribute external and internal forces more evenly across musculoskeletal structures <marks>A1</marks>\n- It prevents tissue overload and reduces the risk of stress-related injuries or chronic wear <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138402,
+            "content": "Discuss how movement analysis supports personalized training programs.",
+            "order": 6,
+            "markscheme": "- Identifies an athlete's individual biomechanical strengths and specific technical weaknesses <marks>A1</marks>\n- Allows coaches to target specific technical faults or inefficiencies that limit performance <marks>A1</marks>\n- Facilitates the customization of drills and exercises to meet the specific needs of the athlete <marks>A1</marks>\n- Enhances the overall effectiveness of training by focusing on objective biomechanical markers <marks>A1</marks>\n- Provides longitudinal data to track progress and adjust training loads/intensity over time <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "e6fb58d2-ef45-4f19-aa15-0f1aa51daa9d",
+        "specification": "During a biceps curl, which muscle acts as the agonist?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T11:53:17.274Z",
+            "resultId": 30205
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-06T05:17:31.407Z",
+              "reasoning": "Identifying the agonist (prime mover) in a biceps curl tests understanding of muscular roles/functions during movement, typically covered under muscular contractions and their role in producing movement.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1696024,
+        "parts": [],
+        "options": [
+          {
+            "id": 4937844,
+            "content": "Triceps brachii",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4937845,
+            "content": "Deltoid",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4937846,
+            "content": "Biceps brachii",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4937847,
+            "content": "Latissimus dorsi",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "eb9f12a0-bd74-4a85-b70f-3daf3865f797",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:17:40.873Z",
+              "reasoning": "Covers joint movements (abduction/adduction) and ROM, and requires biomechanical analysis of shoulder, elbow, and wrist joints during a volleyball spike.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-07T08:17:40.873Z",
+              "reasoning": "Analyzing the biomechanics of a volleyball spike aligns with movement analysis using phases and application to performance.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:17:40.873Z",
+              "reasoning": "Bench press question focuses on muscular roles (agonist/antagonist/synergist) during a movement phase, linking to muscular function in producing movement.",
+              "confidence": 0.74
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:17:40.873Z",
+              "reasoning": "Abduction/adduction and joint actions are commonly described relative to planes/axes; shoulder movement examples may require referencing these concepts.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1584039,
+        "parts": [
+          {
+            "id": 1138403,
+            "content": "Explain the difference between abduction and adduction, giving an example related to shoulder movement.",
+            "order": 1,
+            "markscheme": "- **Define** abduction as the movement of a body part away from the body's midline and adduction as the movement towards the midline <marks>A1</marks>\n- **State** an example of abduction at the shoulder, such as lifting the arm sideways away from the body <marks>A1</marks>\n- **State** an example of adduction at the shoulder, such as bringing the arm back down to the side of the body <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138404,
+            "content": "Define the term \u201crange of motion\u201d (ROM) and explain why it is important in sports performance.",
+            "order": 2,
+            "markscheme": "- **Define** range of motion (ROM) as the full extent of movement possible at a joint <marks>A1</marks>\n- **Explain** that a greater ROM is important in sports performance as it allows for more efficient movement patterns and permits force to be applied over a greater distance (e.g., in throwing or sprinting) <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138405,
+            "content": "Analyze the biomechanics of a volleyball spike, focusing on the shoulder, elbow, and wrist joints.",
+            "order": 3,
+            "markscheme": "- **Analyze** the shoulder movements during the preparation phase, which involve abduction and external rotation to store energy <marks>A1</marks>\n- **Analyze** the shoulder movements during the execution phase, involving internal rotation, adduction, and flexion to generate force <marks>A1</marks>\n- **Analyze** the elbow joint, which undergoes rapid extension to provide additional height and power at the point of contact <marks>A1</marks>\n- **Analyze** the wrist joint, which performs rapid flexion (snap) at contact to direct the ball downward and add spin <marks>A1</marks>\n- **Identify** the role of concentric muscle contractions in the agonists to drive the acceleration of the limb <marks>A1</marks>\n- **Explain** the role of eccentric contractions in the antagonists (e.g., rotator cuff muscles) to decelerate the arm and protect the joint during the follow-through <marks>A1</marks>\n\n6 marks total",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1138406,
+            "content": "Explain the role of agonist, antagonist, and synergist muscles during the upward phase of a bench press.",
+            "order": 4,
+            "markscheme": "- **State** that the pectoralis major acts as the agonist, contracting concentrically to generate the main force for the upward movement <marks>A1</marks>\n- **State** that the triceps brachii acts as a synergist, assisting in the extension of the elbow joint <marks>A1</marks>\n- **State** that the anterior deltoid acts as a synergist, helping to stabilize the shoulder and assist in flexion <marks>A1</marks>\n- **State** that the latissimus dorsi acts as the antagonist, which must relax or lengthen to allow the smooth pressing motion of the agonists <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "f0b492dd-b553-4caa-8887-00aa21e24490",
+        "specification": "Using the preparation\u2013execution\u2013recovery model of movement phases, which phase is most crucial for accuracy in a golf putt?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:35:27.570Z",
+            "resultId": 30604
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:21:00.573Z",
+              "reasoning": "The question asks which movement phase (preparation/execution/recovery/acceleration) is most crucial for accuracy in a golf putt, which directly tests understanding of the phases-of-movement approach and their application to performance.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1695174,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935525,
+            "content": "Preparation phase",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Important for setting up alignment, grip and stance, which influence the likelihood of accurate contact, but accuracy is ultimately determined at/through impact."
+          },
+          {
+            "id": 4935526,
+            "content": "Execution phase",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Accuracy depends most directly on the movement at/through impact (e.g., clubface angle/path and speed control), which occurs during the execution phase."
+          },
+          {
+            "id": 4935527,
+            "content": "Recovery phase",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Occurs after ball contact (follow-through) and therefore has less direct effect on the immediate accuracy of the putt."
+          },
+          {
+            "id": 4935528,
+            "content": "Acceleration phase",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Not one of the three phases in the preparation\u2013execution\u2013recovery model; acceleration is typically considered part of execution."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f1bb9378-e0f6-4310-a850-85d96b7822f8",
+        "specification": "What type of muscle contraction occurs when a muscle lengthens while producing force?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:37:58.544Z",
+            "resultId": 44728
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:18:54.447Z",
+              "reasoning": "The question asks which muscle contraction occurs when the muscle lengthens while producing force\u2014this is the definition of an eccentric contraction, covered under types of muscular contractions and their role in movement.",
+              "confidence": 0.99
+            }
+          ]
+        },
+        "currentRevisionId": 1697473,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941528,
+            "content": "Isometric",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4941529,
+            "content": "Isotonic",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4941530,
+            "content": "Eccentric",
+            "correct": true,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4941531,
+            "content": "Concentric",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f85ccf4e-aaf8-4a7a-b5ae-a99c7a1c3201",
+        "specification": "What is the primary function of synovial fluid in a joint?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:00:53.975Z",
+            "resultId": 29631
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:14:05.674Z",
+              "reasoning": "The question asks about the function of synovial fluid in a joint (reducing friction and cushioning), which is part of joint structure and connective tissues supporting movement.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696063,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938000,
+            "content": "To increase friction between joint surfaces",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938001,
+            "content": "To provide nutrients to articular cartilage",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938002,
+            "content": "To reduce friction and provide cushioning",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938003,
+            "content": "To maintain joint stability",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fceba35b-7726-400a-9828-6b52814841d2",
+        "specification": "In a football (soccer) penalty kick, what is the primary biomechanical purpose of the follow-through phase?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:36:34.630Z",
+            "resultId": 30333
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29932,
+              "isHl": false,
+              "path": "B.2 Forces, motion and movement > B.2.3 Movement analysis and its applications > B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "title": "B.2.3.1 Phases-of-movement approach for health, safety, and performance",
+              "labeledAt": "2026-03-06T05:18:25.359Z",
+              "reasoning": "The question asks about the purpose of the follow-through phase in a penalty kick, which is directly about phases of movement and how each phase contributes to safety (deceleration) and performance outcomes.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-06T05:18:25.359Z",
+              "reasoning": "One option frames follow-through as reducing injury risk via smooth deceleration/force absorption, aligning with strategies to minimize risk and absorb forces.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695501,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936533,
+            "content": "Generating initial power",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Power is primarily generated during the forward swing/acceleration phase before ball contact, not during the follow-through."
+          },
+          {
+            "id": 4936534,
+            "content": "Directing the ball\u2019s trajectory",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Ball trajectory is mainly determined at (and immediately before) ball contact by foot orientation and point of contact; follow-through occurs after contact and is not the primary biomechanical purpose for trajectory control."
+          },
+          {
+            "id": 4936535,
+            "content": "Reducing injury risk and ensuring smooth deceleration",
+            "correct": true,
+            "order": 2,
+            "markscheme": "The follow-through phase occurs after ball contact. Its primary biomechanical purpose is to safely dissipate the kinetic energy of the limb by increasing the time and distance over which deceleration occurs, reducing peak forces on joints and muscles and minimizing injury risk."
+          },
+          {
+            "id": 4936536,
+            "content": "Preparing the ball\u2019s spin",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Spin is primarily imparted at ball contact through foot-ball interaction and point of contact; follow-through happens after contact and is not the primary purpose for creating spin."
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "51",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 21867,
+      "title": "B.2.3 Movement analysis and its applications",
+      "slug": "ib-sehs-new-b23-movement-analysis-and-its-applications",
+      "parentTopicId": 21864
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "51",
+      "byQuestion": {}
+    }
+  }
+}

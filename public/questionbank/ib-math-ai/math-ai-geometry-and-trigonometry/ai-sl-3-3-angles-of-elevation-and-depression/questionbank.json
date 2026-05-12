@@ -1,3 +1,800 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:552872ef95df38dcf7e9e05aaa742193941a552c47b09ee9c41bdf1910256f32
-size 45111
+{
+  "json": {
+    "questions": [
+      {
+        "id": "2b549e50-a28b-45fc-969a-dc7076851226",
+        "specification": "Two planes, P and Q, depart from the same airport on different bearings. Plane P flies on a bearing of $045^\\circ$ for 150 km, and plane Q flies on a bearing of $135^\\circ$ for 200 km.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64594,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 2: Exploring complex formulations using bearings and angles",
+              "title": "Question Type 2: Exploring complex formulations using bearings and angles",
+              "labeledAt": "2026-03-07T17:25:26.626Z",
+              "reasoning": "Both parts use bearings to form angles between paths and then apply trigonometry (e.g., cosine rule) to find distance/angle between directions, which matches complex bearings/angles applications.",
+              "confidence": 0.86
+            },
+            {
+              "id": 28513,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 1: Finding angles using bearings",
+              "title": "Question Type 1: Finding angles using bearings",
+              "labeledAt": "2026-03-07T17:25:26.626Z",
+              "reasoning": "Part (b) specifically asks for the smallest angle between two bearings (direction lines), i.e., finding an angle using bearings.",
+              "confidence": 0.64
+            }
+          ]
+        },
+        "currentRevisionId": 1456097,
+        "parts": [
+          {
+            "id": 1066228,
+            "content": "Calculate the distance between the two planes after completing their flights.",
+            "order": 0,
+            "markscheme": "- **Identify** the angle between the paths: $135^\\circ - 045^\\circ = 90^\\circ$ <marks>M1</marks>\n- **Substitute** values into the Pythagorean theorem: $d^2 = 150^2 + 200^2$ <marks>A1</marks>\n- **Calculate** the final distance: $d = \\sqrt{62500} = 250$ km <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1066229,
+            "content": "Another plane F is travelling on a bearing of $280^\\circ$. Determine the smallest angle between the path of plane F and the path of plane Q.",
+            "order": 1,
+            "markscheme": "- **Calculate** the difference between the bearings of F and Q: $280^\\circ - 135^\\circ = 145^\\circ$ <marks>M1</marks>\n- **Identify** the two possible angles (clockwise and counter-clockwise): $145^\\circ$ and $360^\\circ - 145^\\circ = 215^\\circ$ <marks>A1</marks>\n- **State** the smallest angle: $145^\\circ$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "674cde01-6245-4b6b-810d-cb57140bca0c",
+        "specification": "Two ships, A and B, leave a port, travelling in different directions. Ship A travels $60$ km on a bearing of $030^\\circ$, while ship B travels $80$ km on a bearing of $120^\\circ$.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28513,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 1: Finding angles using bearings",
+              "title": "Question Type 1: Finding angles using bearings",
+              "labeledAt": "2026-03-07T17:26:05.429Z",
+              "reasoning": "The problem uses bearings (030\u00b0 and 120\u00b0) to form a triangle between the ships and the port, requiring interpretation of bearings as angles.",
+              "confidence": 0.74
+            },
+            {
+              "id": 64591,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 4: Using cosine rule to find the 3rd side",
+              "title": "Question Type 4: Using cosine rule to find the 3rd side",
+              "labeledAt": "2026-03-07T17:26:05.429Z",
+              "reasoning": "After converting bearings to the included angle between the two travel directions, the distance between ships is found using the cosine rule (third side of a triangle given two sides and included angle).",
+              "confidence": 0.66
+            }
+          ]
+        },
+        "currentRevisionId": 1478116,
+        "parts": [
+          {
+            "id": 1096817,
+            "content": "Calculate the distance between the two ships after they complete their journeys.",
+            "order": 0,
+            "markscheme": "- Calculate the angle between the ships: $120^\\circ - 30^\\circ = 90^\\circ$ <marks>M1</marks>\n- Identify the triangle properties: $a = 60$ km, $b = 80$ km, angle $= 90^\\circ$ $\\implies$ right-angled triangle <marks>A1</marks>\n- Substitute into the Pythagorean theorem: $d^2 = 60^2 + 80^2$\n- Calculate the distance: $d = 100$ km <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "pythagorean",
+                  "label": "Pythagorean Theorem",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Calculate the included angle",
+                      "content": "To understand the relationship between the paths of the two ships, we first calculate the angle between their bearings. Since both ships start from the same port, the angle between them is simply the difference between their bearings:\n\n$$\\text{Angle} = 120^\\circ - 030^\\circ = 90^\\circ$$",
+                      "highlights": [
+                        {
+                          "text": "bearing of 030^\\circ",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "bearing of 120^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the triangle type",
+                      "content": "Because the angle between the two paths is exactly $90^\\circ$, the journey forms a **right-angled triangle** where the distance from the port to ship A and the distance from the port to ship B are the two legs ($a$ and $b$). The distance between the two ships is the hypotenuse ($c$).\n\nThis means we can use the Pythagorean Theorem, which is a special case of the **Cosine Rule** found in your data booklet ($c^2 = a^2 + b^2 - 2ab \\cos C$) when $C = 90^\\circ$.",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply the Pythagorean Theorem",
+                      "content": "Now, substitute the known distances into the Pythagorean formula:\n\n$$\\begin{aligned} d^2 &= 60^2 + 80^2 \\\\ d^2 &= 3600 + 6400 \\\\ d^2 &= 10000 \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "travels 60 km",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "travels 80 km",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate the final distance",
+                      "content": "To find the distance $d$, take the square root of both sides:\n\n$$\\begin{aligned} d &= \\sqrt{10000} \\\\ d &= 100 \\text{ km} \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(60^2 + 80^2)",
+                            "instructions": "Enter \u221a(60^2 + 80^2) into the main calculation screen and press execute."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(60\u00b2 + 80\u00b2)",
+                            "instructions": "Press [2nd] [x\u00b2] (\u221a), then type 60\u00b2 + 80\u00b2, and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{60^{2}+80^{2}}",
+                            "instructions": "Type 'sqrt(60^2 + 80^2)' into an expression cell."
+                          },
+                          "description": "Calculate the square root of the sum of squares to find the distance."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "cosine_rule",
+                  "label": "Cosine Rule",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the triangle",
+                      "content": "To find the distance between the two ships, we can model their journeys as two sides of a triangle starting from the same point (the port). \n\nLet:\n- $a = 60$ km (distance of ship A)\n- $b = 80$ km (distance of ship B)\n\nWe need to find the length of the third side, which represents the distance between them.",
+                      "highlights": [
+                        {
+                          "text": "Ship A travels 60 km",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "ship B travels 80 km",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Find the included angle",
+                      "content": "The angle between the two ships' paths is the difference between their bearings. Ship A is at $030^\\circ$ and Ship B is at $120^\\circ$.\n\n$$\\text{Angle } C = 120^\\circ - 30^\\circ = 90^\\circ$$",
+                      "highlights": [
+                        {
+                          "text": "bearing of 030^\u2218",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "bearing of 120^\u2218",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply the Cosine Rule",
+                      "content": "Since we have two sides and the included angle, we can use the **Cosine Rule** from your data booklet to find the distance $d$:\n\n$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$\n\nSubstituting our values:\n\n$$d^2 = 60^2 + 80^2 - 2(60)(80)\\cos(90^\\circ)$$\n\nNote: Since $\\cos(90^\\circ) = 0$, the formula simplifies significantly (effectively becoming the Pythagorean theorem), but we will compute the full expression to be sure.",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve for distance",
+                      "content": "Now we calculate the numerical values:\n\n$$\\begin{aligned} d^2 &= 3600 + 6400 - 9600(0) \\\\ d^2 &= 10000 \\\\ d &= \\sqrt{10000} \\\\ d &= 100 \\text{ km} \\end{aligned}$$\n\nThis calculation would earn you full marks: one for the angle, one for the correct substitution, and one for the final answer.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(60^2 + 80^2 - 2*60*80*cos(90))",
+                            "instructions": "Use the square root and cosine functions. Check that the angle unit is set to degrees."
+                          },
+                          "ti84": {
+                            "expression": "sqrt(60^2 + 80^2 - 2*60*80*cos(90))",
+                            "instructions": "Enter the expression into the home screen. Ensure your calculator is in DEGREE mode (Mode -> Degree)."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{60^2 + 80^2 - 2 \\cdot 60 \\cdot 80 \\cdot \\cos(90^{\\circ})}",
+                            "instructions": "Type the formula directly into a cell. Ensure 'Degrees' is selected in the settings menu."
+                          },
+                          "description": "Calculate the distance using the Cosine Rule expression."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "coordinates",
+                  "label": "Coordinate Geometry",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Set up the coordinate system",
+                      "content": "To solve this using coordinate geometry, let's place the port at the origin $(0, 0)$. In navigation, bearings are measured clockwise from North. We can represent the North-South direction as the $y$-axis and the East-West direction as the $x$-axis.\n\nFor a ship at distance $d$ on a bearing $\theta$, its coordinates $(x, y)$ are:\n- $x = d \\sin(\\theta)$\n- $y = d \\cos(\\theta)$ \n\nThis maps North to the positive $y$-axis and East to the positive $x$-axis."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Coordinates for Ship A",
+                      "content": "Ship A travels $60$ km on a bearing of $030^\\circ$. Let's calculate its coordinates $(x_A, y_A)$:\n\n$$\\begin{aligned} x_A &= 60 \\sin(30^\\circ) = 30 \\\\ y_A &= 60 \\cos(30^\\circ) \\approx 51.962 \\end{aligned}$$\n\nSo, Ship A is at $(30, 51.962)$.",
+                      "highlights": [
+                        {
+                          "text": "Ship A travels $60$ km on a bearing of $030^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Coordinates for Ship B",
+                      "content": "Ship B travels $80$ km on a bearing of $120^\\circ$. Let's calculate its coordinates $(x_B, y_B)$:\n\n$$\\begin{aligned} x_B &= 80 \\sin(120^\\circ) \\approx 69.282 \\\\ y_B &= 80 \\cos(120^\\circ) = -40 \\end{aligned}$$\n\nSo, Ship B is at $(69.282, -40)$.",
+                      "highlights": [
+                        {
+                          "text": "ship B travels $80$ km on a bearing of $120^\\circ$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Apply the distance formula",
+                      "content": "Now we use the distance formula to find the separation between the two points $(30, 51.962)$ and $(69.282, -40)$. This concept is covered in **Topic 3: Geometry and Trigonometry (SL 3.1)**.\n\n$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n\nSubstituting our coordinates:\n\n$$\\begin{aligned} d &= \\sqrt{(69.282 - 30)^2 + (-40 - 51.962)^2} \\\\ d &= \\sqrt{(39.282)^2 + (-91.962)^2} \\end{aligned}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Calculate final distance",
+                      "content": "Now, let's compute the squares and the square root to find the distance.\n\n$$\\begin{aligned} d &= \\sqrt{1543.07... + 8457.01...} \\\\ d &= \\sqrt{10000.08...} \\approx 100 \\text{ km} \\end{aligned}$$\n\nThe distance between the two ships is $100$ km.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt((80*sin(120 deg)-60*sin(30 deg))^2 + (80*cos(120 deg)-60*cos(30 deg))^2)",
+                            "instructions": "Evaluate the square root of the squared differences of coordinates."
+                          },
+                          "ti84": {
+                            "expression": "\u221a( (80sin(120)-60sin(30))^2 + (80cos(120)-60cos(30))^2 )",
+                            "instructions": "Enter the distance formula calculation directly into the home screen."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{\\left(80\\sin\\left(120^{\\circ}\\right)-60\\sin\\left(30^{\\circ}\\right)\\right)^{2}+\\left(80\\cos\\left(120^{\\circ}\\right)-60\\cos\\left(30^{\\circ}\\right)\\right)^{2}}",
+                            "instructions": "Input the distance formula using the coordinates found in steps 1 and 2."
+                          },
+                          "description": "Calculate the distance between Ship A and Ship B using the distance formula."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:55:15.135Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "bdee0bdd-4d25-40c9-8d45-0d9462c037c5",
+        "specification": "A ship travels 30 km due East, then turns and sails 40 km due North.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28513,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.3\u2014Angles of elevation and depression > Question Type 1: Finding angles using bearings",
+              "title": "Question Type 1: Finding angles using bearings",
+              "labeledAt": "2026-03-07T03:33:45.254Z",
+              "reasoning": "Part (c) asks for the direction as a bearing from the starting point, which is a direct application of bearings/angles in navigation contexts.",
+              "confidence": 0.92
+            },
+            {
+              "id": 64590,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 2: Using SOH CAH TOA to find the angle given two sides",
+              "title": "Question Type 2: Using SOH CAH TOA to find the angle given two sides",
+              "labeledAt": "2026-03-07T03:33:45.254Z",
+              "reasoning": "Part (b) requires the straight-line distance from the start after moving east then north, forming a right triangle and using basic trigonometry/Pythagoras (SOHCAHTOA context).",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1489046,
+        "parts": [
+          {
+            "id": 1116264,
+            "content": "Calculate the distance of the ship from its starting point.",
+            "order": 1,
+            "markscheme": "- Use the Pythagorean theorem to find the distance $d$: $d^2 = 30^2 + 40^2$ <marks>M1</marks>\n\n- Calculate the final distance: $d = \\sqrt{900 + 1600} = \\sqrt{2500} = 50\\text{ km}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "pythagorean_theorem",
+                  "label": "Pythagorean Theorem",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the right-angled triangle",
+                      "content": "The ship's journey consists of two perpendicular segments: moving East and then moving North. Since East and North are at a $90^{\\circ}$ angle to each other, the path forms a right-angled triangle where the legs are the distances traveled and the hypotenuse is the direct distance from the starting point.",
+                      "highlights": [
+                        {
+                          "text": "30 km due East",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "40 km due North",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Set up the Pythagorean Theorem",
+                      "content": "We can use the Pythagorean theorem to find the hypotenuse ($d$). The formula states that for a right triangle with legs $a$ and $b$ and hypotenuse $c$:\n\n$$a^2 + b^2 = c^2$$\n\nSubstituting our values:\n\n$$30^2 + 40^2 = d^2$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for the distance",
+                      "content": "First, calculate the squares of the side lengths:\n\n$$\\begin{aligned} d^2 &= 900 + 1600 \\\\ d^2 &= 2500 \\end{aligned}$$\n\nTo find the distance $d$, we take the square root of both sides:\n\n$$d = \\sqrt{2500} = 50\\text{ km}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(30^2 + 40^2)",
+                            "instructions": "Enter the square root function, then type 30^2 + 40^2 and execute."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(30^2 + 40^2)",
+                            "instructions": "Press [2nd] [x\u00b2] (\u221a), then type 30\u00b2 + 40\u00b2 and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{30^2+40^2}",
+                            "instructions": "Type 'sqrt(30^2 + 40^2)' into the expression bar."
+                          },
+                          "description": "Calculate the hypotenuse using the square root of the sum of squares."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The ship is 50 km away from its starting point.\n\nIn the markscheme, 1 mark (**M1**) is awarded for correctly setting up the Pythagorean equation ($30^2 + 40^2$), and 1 mark (**A1**) is awarded for the correct final answer of 50 km."
+                    }
+                  ]
+                },
+                {
+                  "id": "cosine_rule",
+                  "label": "Cosine Rule",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the journey",
+                      "content": "To find the distance from the starting point, we can model the ship's path as two sides of a triangle. The first leg is **30 km due East**, and the second leg is **40 km due North**. Since North and East are perpendicular, the angle between these two paths is $90^\\circ$. We are looking for the third side of this triangle, which represents the direct distance from the start.",
+                      "highlights": [
+                        {
+                          "text": "30 km due East",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "40 km due North",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "State the Cosine Rule",
+                      "content": "While we often use the Pythagorean theorem for right-angled triangles, we can also use the more general **Cosine Rule** found in your data booklet. This rule works for any triangle and is written as:\n\n$$c^2 = a^2 + b^2 - 2ab\\cos C$$\n\nIn our case, $a = 30$, $b = 40$, and the included angle $C = 90^\\circ$.",
+                      "highlights": [
+                        {
+                          "text": "$$c^{2}=a^{2}+b^{2}-2ab\\cos C$$",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Substitute and simplify",
+                      "content": "Now, let's substitute our values into the formula. A key thing to remember is that $\\cos(90^\\circ) = 0$. This makes the formula much simpler:\n\n$$\\begin{aligned} d^2 &= 30^2 + 40^2 - 2(30)(40)\\cos(90^\\circ) \\\\ d^2 &= 900 + 1600 - 2400(0) \\\\ d^2 &= 2500 \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "30^2 + 40^2 - 2 * 30 * 40 * cos(90)",
+                            "instructions": "Input 30^2 + 40^2 - 2 * 30 * 40 * cos(90) into the run-matrix menu. Check that angle mode is set to Deg."
+                          },
+                          "ti84": {
+                            "expression": "30^2 + 40^2 - 2 * 30 * 40 * cos(90)",
+                            "instructions": "Enter 30\u00b2 + 40\u00b2 - 2 * 30 * 40 * cos(90). Ensure your calculator is in DEGREE mode."
+                          },
+                          "desmos": {
+                            "expression": "30^2 + 40^2 - 2 * 30 * 40 * cos(90^\\circ)",
+                            "instructions": "Type the expression into the cell and select 'Degrees' in the settings."
+                          },
+                          "description": "Calculate the value of the squared distance using the Cosine Rule."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate final distance",
+                      "content": "Finally, we take the square root of $2500$ to find the actual distance $d$:\n\n$$d = \\sqrt{2500} = 50\\text{ km}$$\n\nIn an IB exam, you earn one mark for correctly setting up the equation and one mark for the final answer with units.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(2500)",
+                            "instructions": "Use the square root function on 2500."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(2500)",
+                            "instructions": "Press [2nd] [x\u00b2] (the square root key) and type 2500."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt{2500}",
+                            "instructions": "Type sqrt(2500)."
+                          },
+                          "description": "Find the square root of the result."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "pythagorean_triples",
+                  "label": "Pythagorean Triples",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the right-angled triangle",
+                      "content": "First, let's look at the path of the ship. It travels East and then North, which are perpendicular directions. This creates a right-angled triangle where the two legs are the distances traveled, and the distance from the starting point is the hypotenuse.\n\n- Horizontal leg (East): $30\\text{ km}$\n- Vertical leg (North): $40\\text{ km}$",
+                      "highlights": [
+                        {
+                          "text": "30 km due East",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "40 km due North",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the scale factor",
+                      "content": "Instead of squaring large numbers, we can look for a common factor between the two sides. \n\nBoth $30$ and $40$ are multiples of $10$:\n$$\\begin{aligned} 30 &= 3 \\times 10 \\\\ 40 &= 4 \\times 10 \\end{aligned}$$\n\nNotice that the sides are in a $3:4$ ratio. This is a huge clue that we are working with a **3-4-5 Pythagorean triple**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Apply the 3-4-5 ratio",
+                      "content": "A famous Pythagorean triple is $3, 4, 5$, where $3^2 + 4^2 = 5^2$. \n\nSince our triangle's legs are $3 \\times 10$ and $4 \\times 10$, the hypotenuse must follow the same scale factor ($k = 10$):\n\n$$\\text{Hypotenuse} = 5 \\times 10 = 50\\text{ km}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sqrt(30^2 + 40^2)",
+                            "instructions": "Enter sqrt(30^2 + 40^2) in the calculation menu."
+                          },
+                          "ti84": {
+                            "expression": "\u221a(30\u00b2 + 40\u00b2)",
+                            "instructions": "Press [2nd] [x\u00b2] (\u221a), then type 30^2 + 40^2 and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "sqrt(30^2 + 40^2)",
+                            "instructions": "Type sqrt(30^2 + 40^2) into the expression bar."
+                          },
+                          "description": "Verify the calculation using the Pythagorean theorem directly."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final distance",
+                      "content": "The distance of the ship from its starting point is $50\\text{ km}$.\n\nIn an IB exam, showing the identification of the $3:4:5$ ratio or writing down the Pythagorean theorem formula earns you the method mark (**M1**), and the correct final value earns the accuracy mark (**A1**)."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-02-18T16:18:16.124Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1116265,
+            "content": "Calculate the direction of the ship from its starting point as a bearing.",
+            "order": 2,
+            "markscheme": "- Use the tangent ratio to find the angle $\\theta$ from the North-South line: $\\tan(\\theta) = \\frac{30}{40}$ <marks>M1</marks>\n\n- State the bearing as a three-digit figure to 3 significant figures: $036.9^\\circ$ <marks>A1</marks>\n\n2 marks total\n\n<examTip>Remember to express the bearing as a three-digit figure, measured clockwise from North.</examTip>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "trigonometry_north",
+                  "label": "Trigonometry from North-South Line",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the direction",
+                      "content": "To find the bearing from the starting point, we visualize a right-angled triangle. A bearing is measured clockwise from the North-South line. \n\nIn this scenario, the ship's path creates a triangle where:\n*   The **Northward** displacement ($40\\text{ km}$) is the **adjacent** side to the angle $\\theta$ at the start.\n*   The **Eastward** displacement ($30\\text{ km}$) is the **opposite** side to the angle $\\theta$.",
+                      "highlights": [
+                        {
+                          "text": "30 km due East",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "40 km due North",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Set up tangent ratio",
+                      "content": "Using the Trigonometry from North-South Line approach, we use the tangent ratio. This relates the opposite side (East) to the adjacent side (North) to find the angle $\\theta$ measured clockwise from North:\n\n$$\\tan(\\theta) = \\frac{\\text{Opposite}}{\\text{Adjacent}}$$\n\nSubstituting our known values:\n\n$$\\tan(\\theta) = \\frac{30}{40}$$",
+                      "highlights": [
+                        {
+                          "text": "tan(\\theta) = \\frac{30}{40}",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for the angle",
+                      "content": "To find the angle $\\theta$, we use the inverse tangent function $(\\tan^{-1})$ on your calculator:\n\n$$\\theta = \\tan^{-1}\\left(\\frac{30}{40}\\right)$$\n\n$$\\theta \\approx 36.869...^\\circ$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "atan(30/40)",
+                            "instructions": "Use the inverse tangent function in degree mode."
+                          },
+                          "ti84": {
+                            "expression": "tan\u207b\u00b9(30/40)",
+                            "instructions": "Press [2nd] [TAN], then type 30 / 40 and press [ENTER]. Ensure the calculator is in DEGREE mode (check [MODE])."
+                          },
+                          "desmos": {
+                            "expression": "\\arctan\\left(\\frac{30}{40}\\right)",
+                            "instructions": "Type arctan(30/40) and ensure the setting is set to 'Degrees' in the Graph Settings (wrench icon)."
+                          },
+                          "description": "Calculate the inverse tangent to find the angle in degrees."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final bearing",
+                      "content": "A bearing must be expressed as a three-digit figure. Since the angle is $36.9^\\circ$ (to 3 significant figures), we add a leading zero.\n\n$$\\text{Bearing} = 036.9^\\circ$$",
+                      "highlights": [
+                        {
+                          "text": "State the bearing as a three-digit figure to 3 significant figures: 036.9^\\circ",
+                          "location": "data_booklet",
+                          "sectionName": "Geometry and Trigonometry"
+                        },
+                        {
+                          "text": "Remember to express the bearing as a three-digit figure, measured clockwise from North.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "trigonometry_east",
+                  "label": "Trigonometry from East-West Line",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the right-angled triangle",
+                      "content": "To find the direction, we can imagine the ship's journey as a right-angled triangle. \n\n*   The ship first travels **30 km due East** (the horizontal component).\n*   It then turns and travels **40 km due North** (the vertical component).\n\nWe want to find the direction from the starting point to the final position. This is covered in **Topic 3: Geometry and Trigonometry**.",
+                      "highlights": [
+                        {
+                          "text": "30 km due East",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "40 km due North",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Find angle North of East",
+                      "content": "In our approach, we first calculate the angle $\\alpha$ that the ship's path makes with the **East-West line** (the horizontal). \n\nIn our triangle:\n*   The **Opposite** side is the Northward distance: $40\\text{ km}$\n*   The **Adjacent** side is the Eastward distance: $30\\text{ km}$\n\nUsing the tangent ratio from SOH CAH TOA:\n\n$$\\tan(\\alpha) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{40}{30}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Calculate the angle alpha",
+                      "content": "Now, we use the inverse tangent function to find the value of $\\alpha$:\n\n$$\\alpha = \\tan^{-1}\\left(\\frac{40}{30}\\right) \\approx 53.13...^\\circ$$\n\nThis is the angle measured **North of East**.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "atan(40/30)",
+                            "instructions": "Set angle mode to degrees. Enter atan(40/30)."
+                          },
+                          "ti84": {
+                            "expression": "tan\u207b\u00b9(40/30)",
+                            "instructions": "Ensure your calculator is in DEGREE mode. Press [2nd] [TAN] (40 / 30) [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "arctan(40/30)",
+                            "instructions": "Select 'Degrees' in settings. Enter arctan(40/30)."
+                          },
+                          "description": "Calculate the inverse tangent of 40/30 to find the angle from the East-West line."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Convert to a bearing",
+                      "content": "A **bearing** is measured clockwise from North. \n\nSince North is $000^\\circ$ and East is $090^\\circ$, we can find the bearing by subtracting our angle $\\alpha$ from $90^\\circ$:\n\n$$\\begin{aligned} \\text{Bearing} &= 90^\\circ - \\alpha \\\\ \\text{Bearing} &= 90^\\circ - 53.13...^\\circ = 36.87...^\\circ \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "90 - 53.13010235",
+                            "instructions": "Calculate 90 minus the previous result."
+                          },
+                          "ti84": {
+                            "expression": "90 - 53.13010235",
+                            "instructions": "Subtract the previous answer from 90: 90 - [2nd] [ANS] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "90 - 53.13010235",
+                            "instructions": "Type 90 - 53.13010235."
+                          },
+                          "description": "Subtract the calculated angle from 90 to find the bearing from North."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State final bearing",
+                      "content": "Finally, we round our answer to **3 significant figures** and format it as a **three-digit figure** as required for bearings.\n\n$$36.87...^\\circ \\approx 036.9^\\circ$$",
+                      "highlights": [
+                        {
+                          "text": "Remember to express the bearing as a three-digit figure, measured clockwise from North.",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-02-18T16:19:17.533Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      }
+    ],
+    "count": "3",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 10448,
+      "title": "SL 3.3\u2014Angles of elevation and depression",
+      "slug": "ai-sl-3-3-angles-of-elevation-and-depression",
+      "parentTopicId": 10460
+    },
+    "subject": {
+      "id": 289,
+      "title": "Mathematics Applications & Interpretation (AI)",
+      "slug": "ib-math-ai",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "3",
+      "byQuestion": {}
+    }
+  }
+}

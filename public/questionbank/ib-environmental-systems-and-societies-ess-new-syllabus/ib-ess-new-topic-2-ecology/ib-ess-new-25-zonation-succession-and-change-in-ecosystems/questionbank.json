@@ -1,3 +1,917 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1d35d9d77bf43fd67030c56dd03061488e7924582e812e84353ab7146a4bf8de
-size 61619
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0f518771-557c-40ae-834a-f15d99d9e789",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30148,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.4 Water pollution > 4.4B Water quality",
+              "title": "4.4B Water quality",
+              "labeledAt": "2026-03-05T16:13:15.156Z",
+              "reasoning": "Topic 4.4B covers the measurement of water quality through various indicators, including biological (biotic indices and indicator species), chemical (BOD, dissolved oxygen, nitrates), and physical parameters (turbidity), which are the standard methods used to measure pollution impact on freshwater ecosystems.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30147,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.4 Water pollution > 4.4A Water pollution",
+              "title": "4.4A Water pollution",
+              "labeledAt": "2026-03-05T16:13:15.156Z",
+              "reasoning": "Topic 4.4A provides the foundational context for water pollution, including its sources and types, which is essential for understanding what is being measured in a freshwater ecosystem.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 830454,
+        "parts": [
+          {
+            "id": 487124,
+            "content": "Explain how you would measure the impact of pollution on a freshwater ecosystem.",
+            "order": 0,
+            "markscheme": "- Measure water quality parameters such as pH, dissolved oxygen, and nutrients levels. <marks>1 mark</marks>\n- Sample and identify aquatic macroinvertebrates as bioindicators. <marks>1 mark</marks>\n- Assess fish population health and diversity. <marks>1 mark</marks>\n- Compare results with reference sites or historical data. <marks>1 mark</marks>\n\n<note>Consider multiple indicators to get a comprehensive view of ecosystem health.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "101b1786-3ff8-4dac-a8d3-e0c0da8dde13",
+        "specification": "Explain how abiotic factors can be measured in an ecosystem investigation.",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38275,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1I Ecosystems",
+              "title": "2.1I Ecosystems",
+              "labeledAt": "2026-03-06T05:16:14.938Z",
+              "reasoning": "The question is about conducting an ecosystem investigation by measuring abiotic factors (e.g., light intensity, temperature, pH, moisture), which is part of practical study of ecosystems and their physical environment.",
+              "confidence": 0.74
+            },
+            {
+              "id": 38274,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1H Habitat",
+              "title": "2.1H Habitat",
+              "labeledAt": "2026-03-06T05:16:14.938Z",
+              "reasoning": "Abiotic factors are commonly measured as part of characterizing habitat conditions in fieldwork (environmental variables describing the habitat).",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 877573,
+        "parts": [
+          {
+            "id": 487111,
+            "content": "Choose two factors and describe the measurement method for each.",
+            "order": 0,
+            "markscheme": "### Temperature\n- Use a thermometer or digital temperature probe <marks>2 marks</marks>\n\n### Light intensity\n- Use a light meter or lux meter <marks>2 marks</marks>\n\n### Soil pH\n- Use a pH meter or pH test strips on a soil solution <marks>2 marks</marks>\n\n### Wind speed\n- Use an anemometer <marks>2 marks</marks>\n\n### Humidity\n- Use a hygrometer or psychrometer <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "12ec77f1-fd7e-4938-bfd9-82697d053e5f",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38272,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1F Population abundance estimation",
+              "title": "2.1F Population abundance estimation",
+              "labeledAt": "2026-03-05T16:49:21.270Z",
+              "reasoning": "The question specifically asks for methods to estimate population size, which is exactly what is covered under topic 2.1F: Population abundance estimation.",
+              "confidence": 1
+            }
+          ]
+        },
+        "currentRevisionId": 767364,
+        "parts": [
+          {
+            "id": 487108,
+            "content": "Describe two methods for estimating population size in an ecosystem.",
+            "order": 0,
+            "markscheme": "- Mark-recapture method:\n  1) A number of individuals from the population are captured and marked (tagged, dyed, etc). <marks>1 mark</marks>\n  2) These marked individuals are released back into the population and allowed to mix randomly. <marks>1 mark</marks>\n  3) After some time, a second sample is taken and the number of marked and unmarked individuals is recorded.\n  4) Using the ratio of marked to unmarked individuals in the second sample, the total population size can be estimated.\n\n- Quadrat sampling:\n  1) The study area is divided into smaller quadrats (square plots) of a known size. <marks>1 mark</marks>\n  2) A random sample of quadrats is selected and the number of individuals within each quadrat is counted.\n  3) The average density (individuals per unit area) is calculated from the sampled quadrats. <marks>1 mark</marks>\n  4) The total population size is estimated by multiplying the average density by the total area of the study site.\n\n- Transect method:\n  1) One or more transect lines (straight lines along which observations are made) are established in the study area. <marks>1 mark</marks>\n  2) Individuals are counted within a fixed distance from the transect line(s).\n  3) The density of individuals is calculated by dividing the number of individuals counted by the area sampled. <marks>1 mark</marks>\n  4) The total population size is estimated by multiplying the density by the total area of the study site.\n\n- Remote sensing:\n  1) Satellite or aerial imagery of the study area is obtained. <marks>1 mark</marks>\n  2) Image analysis techniques are used to identify and count individuals or estimate their density based on features visible in the imagery (e.g., nests, burrows, etc.).\n  3) The total population size is estimated by extrapolating the density estimates over the entire study area. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "1be8bfbd-411b-49f0-9b15-a180addc10e8",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 38255,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2D Models",
+              "title": "1.2D Models",
+              "labeledAt": "2026-03-06T15:39:19.464Z",
+              "reasoning": "Replication is a core element of experimental/study design and supports reliability and validity of ecological field study findings, aligning best with the ESS treatment of models and how data are generated/tested.",
+              "confidence": 0.62
+            },
+            {
+              "id": 38265,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3H Citizen science",
+              "title": "1.3H Citizen science",
+              "labeledAt": "2026-03-06T15:39:19.464Z",
+              "reasoning": "Ecological field studies are often conducted as citizen science; replication is emphasized to reduce random error and increase confidence in collected field data.",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 833001,
+        "parts": [
+          {
+            "id": 487120,
+            "content": "Explain the importance of replication in ecological field studies.",
+            "order": 0,
+            "markscheme": "- <marks>1 mark</marks> Increases reliability of results\n- <marks>1 mark</marks> Helps account for natural variability in ecosystems\n- <marks>1 mark</marks> Allows for statistical analysis and hypothesis testing\n- <marks>1 mark</marks> Reduces the impact of random errors or anomalies",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "20862192-bc22-4ad3-8cb7-f8b605fdcff4",
+        "specification": "**Table 1:** Soil characteristics and dominant vegetation recorded at various stages of primary succession following the retreat of a glacier in Alaska.\n\n| Years since glacial retreat | Soil Nitrogen content ($g \\cdot m^{-2}$) | Average Soil Depth ($cm$) | Dominant Vegetation Type |\n| :--- | :--- | :--- | :--- |\n| 10 | 1.2 | 0.5 | Mosses and Lichens |\n| 60 | 14.8 | 9.2 | Alder shrubs |\n| 200 | 42.5 | 28.0 | Sitka Spruce forest |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-20862192-bc22-4ad3-8cb7-f8b605fdcff4-1771929956947",
+            "generatedAt": "2026-02-25T10:57:09.681Z",
+            "sourceRevisionId": 1137025
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29887,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5B Succession",
+              "title": "2.5B Succession",
+              "labeledAt": "2026-03-07T17:37:20.920Z",
+              "reasoning": "Primary succession after glacial retreat and how abiotic changes enable progression toward a climax community is core succession content.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29890,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5E Climax communities and plagioclimax (HL)",
+              "title": "2.5E Climax communities and plagioclimax (HL)",
+              "labeledAt": "2026-03-07T17:37:20.920Z",
+              "reasoning": "Part (a) explicitly asks about progression toward a climax community, linking successional stages to climax community development.",
+              "confidence": 0.7
+            },
+            {
+              "id": 30169,
+              "isHl": true,
+              "path": "Topic 5: Land > 5.1 Soil > 5.1F Soil formation (HL)",
+              "title": "5.1F Soil formation (HL)",
+              "labeledAt": "2026-03-07T17:37:20.920Z",
+              "reasoning": "Table focuses on increasing soil depth and nitrogen content over time, reflecting soil development/formation during primary succession.",
+              "confidence": 0.55
+            },
+            {
+              "id": 30170,
+              "isHl": true,
+              "path": "Topic 5: Land > 5.1 Soil > 5.1G Soil properties (HL)",
+              "title": "5.1G Soil properties (HL)",
+              "labeledAt": "2026-03-07T17:37:20.920Z",
+              "reasoning": "Abiotic changes referenced include soil nitrogen content and soil depth\u2014key soil properties affecting vegetation establishment.",
+              "confidence": 0.45
+            },
+            {
+              "id": 64942,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2F Food Web and Biomass",
+              "title": "2.2F Food Web and Biomass",
+              "labeledAt": "2026-03-07T17:37:20.920Z",
+              "reasoning": "Part (b) asks for a field method to estimate total dry-weight biomass of ground-level vegetation, which falls under biomass measurement in ecosystems.",
+              "confidence": 0.4
+            }
+          ]
+        },
+        "currentRevisionId": 1688135,
+        "parts": [
+          {
+            "id": 1149283,
+            "content": "Explain how **two** changes in the abiotic environment shown in Table 1 facilitate the progression toward a climax community.",
+            "order": 0,
+            "markscheme": "### Change 1: Increase in Soil Nitrogen\n- Pioneer species and early colonizers (like Alder) often have symbiotic nitrogen-fixing bacteria in their roots. <marks>1 mark</marks>\n- As these plants die and decompose, they increase the nitrogen content of the soil, making it fertile enough to support larger, more nutrient-demanding species such as Spruce trees. <marks>1 mark</marks>\n\n### Change 2: Increase in Soil Depth\n- The accumulation of organic matter from decaying vegetation, combined with the biological weathering of the underlying rock by roots and lichens, increases the soil depth over time. <marks>1 mark</marks>\n- Deeper soil provides the structural support and anchorage necessary for the complex root systems of large trees, while also increasing the volume of the soil reservoir for water and nutrient storage. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149284,
+            "content": "Describe the procedure used to estimate the total dry-weight biomass of the ground-level vegetation in the 60-year-old successional stage.",
+            "order": 1,
+            "markscheme": "- Use a random sampling technique (e.g., a random number generator for coordinates) to place several quadrats of a known area (e.g., $1 m^2$) within the study site. <marks>1 mark</marks>\n\n- Harvest all above-ground plant material (e.g., grasses, small shrubs) within each quadrat and remove any non-living debris or soil. <marks>1 mark</marks>\n\n- Place the collected vegetation in a drying oven at a low temperature (approximately $60-70^{\\circ}C$) and weigh it periodically until the mass remains constant, indicating all water has been removed. <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "508135e8-d7d3-4063-8e6d-0c625e8d2ca8",
+        "specification": "**Figure 1: Fact file on North American beavers**\n\n- Typically, one family per square kilometer of river habitat.\n- Live in family groups consisting of two adults and up to three kits, born annually between April and June.\n- Experience high mortality rates due to harsh weather, limited suitable habitats, and predation.\n- North American beaver population:\n- Estimated at 250 million before the fur trade.\n- Currently around 9 million.\n- Primarily feed on tree bark.\n- Build lodges using wood and mud, which serve as:\n- Safe spaces for eating, sleeping, and raising young.\n- Winter shelters where they remain during the colder months.\n- Defended structures to keep other beavers out.\n- Beavers are being reintroduced in Europe to aid in wetland restoration.\n\nSource: adapted from www.sbaa.ca, www.ecology.info, www.tobyhemenway.com and http://acs7.cortland.edu\n\n**Figure 2: Algonquin wolf pack territories and protected areas**\n\n\n![Image](https://pub-images.revisiondojo.com/question-images/8ce84dd7-b5df-4399-b126-1b4f661fc35c)\n\nSource: https://www.researchgate.net/publication/222046620_Protection_from_harvesting_restores_the_natural_social_structure_of_eastern_wolf_packs",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "old_question_id": "Environmental-Systems-and-Societies-18N.1.SL.TZ0.10",
+          "labeledSubSubTopics": [
+            {
+              "id": 38272,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1F Population abundance estimation",
+              "title": "2.1F Population abundance estimation",
+              "labeledAt": "2026-03-07T17:38:10.894Z",
+              "reasoning": "Part (b) asks why it is difficult to estimate wolf numbers accurately, which directly targets methods/limitations of population abundance estimation for mobile, wide-ranging animals.",
+              "confidence": 0.93
+            },
+            {
+              "id": 38269,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1C Ecological Niche and Population Interactions",
+              "title": "2.1C Ecological Niche and Population Interactions",
+              "labeledAt": "2026-03-07T17:38:10.894Z",
+              "reasoning": "Parts (a) and (c) involve predator\u2013prey interactions (wolves and beavers) and how protection/territory boundaries affect survival and sustainability of wolf populations.",
+              "confidence": 0.82
+            },
+            {
+              "id": 38274,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1H Habitat",
+              "title": "2.1H Habitat",
+              "labeledAt": "2026-03-07T17:38:10.894Z",
+              "reasoning": "Part (c) focuses on protection in a limited area (protected areas vs surrounding landscape), implicating habitat size/fragmentation and edge effects on long-term population viability.",
+              "confidence": 0.7
+            },
+            {
+              "id": 38271,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1E Population size and growth",
+              "title": "2.1E Population size and growth",
+              "labeledAt": "2026-03-07T17:38:10.894Z",
+              "reasoning": "Part (c) concerns maintaining a small sustainable wolf population, linking to factors affecting population size and long-term persistence (e.g., mortality, reproduction, dispersal).",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1162096,
+        "parts": [
+          {
+            "id": 879438,
+            "content": "With reference to **Figure 1**, outline **one** reason why there are more beaver remains in wolf faeces during summer.",
+            "order": 0,
+            "markscheme": "*Award <marks> 1 mark </marks> for any of the following:*\n\n- beavers remain in lodges in winter so they are unavailable as a food source / harder for wolves to catch them / easier to spot beavers in summer when they are out of their lodges;  \n- other species (_eg_ moose) are easier to catch in winter;  \nother prey of wolves like snowshoe hare or foxes may be harder to catch in summer;  \n- young are out in summer and are more vulnerable/easily caught;  \ndensity of population higher in summer following breeding.\n\n",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 879439,
+            "content": "The number of wolves in Algonquin Provincial Park is estimated to be between 250 and 1000. Outline **two** reasons why it is so difficult to estimate the number of wolves accurately.",
+            "order": 1,
+            "markscheme": "*Award <marks> 1 mark </marks> for each of the following, up to 2 marks:*\n\n- remote wilderness areas so hard for scientists to spot them easily / densely wooded so not easily visible from the air;  \n- large territorial range (35 $\\mathrm{km}^2$)/highly mobile so hard to locate;  \n- wolves are nocturnal/hunt at night/sleep during the day and therefore difficult to spot;  \n- look very similar to coyotes so hard to identify accurately;  \n- lack of long-term records to use as baseline data;  \n- camouflaged so hard to see especially in winter;  \n- seasonal fluctuations in numbers.\n\n_Do not accept \u201cwolves are dangerous/predators/migrate\u201d._  \n_Do not accept \u201cwolves are mobile so use of quadrat method is not effective\u201d or \u201cuse of capture, mark, release, recapture method is not suitable (as it may harm the wolves)\u201d._  \n_Do not accept only \u201cwolves look similar to coyotes / have large territorial range\u201d._",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 879440,
+            "content": "With reference to **Figure 2**, explain the threats to the future existence of a small and sustainable population of wolves as a result of their protection in limited area.",
+            "order": 2,
+            "markscheme": "*Award <marks> 1 mark </marks> for each of the following, up to 3 marks:*\n\n- if the range overlaps with areas outside of Algonquin Provincial Park, _ie_ not protected, the wolf is at risk of being hunted / may be mistaken as coyotes in the buffer zone and killed by accident;  \n- genetic isolation may occur as there may be no mixing with wolf populations from outside of Algonquin Provincial Park;  \n- restricted gene pool can lead to less resistance to diseases;  \n- high population density increases risk of diseases spreading;  \n- wolves may end up competing for territory/food with each other leading to higher mortality/limiting population growth / increase in intraspecific competition;  \n- concentrated population is more prone to high losses during event of wildfires/natural disasters.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "b34add39-c529-4d8d-86ba-58dc3648d74e",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-ess-b34add39-c529-4d8d-86ba-58dc3648d74e-1771953974362",
+            "generatedAt": "2026-02-26T05:23:47.024Z",
+            "sourceRevisionId": 1162155
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29821,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2C Second law of thermodynamics",
+              "title": "2.2C Second law of thermodynamics",
+              "labeledAt": "2026-03-05T16:12:47.926Z",
+              "reasoning": "Part (a) specifically asks for an explanation of the second law of thermodynamics and its relationship to entropy in the context of energy transfer.",
+              "confidence": 1
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-05T16:12:47.926Z",
+              "reasoning": "Part (b) requires comparing static and steady-state equilibrium, which are fundamental concepts of systems defined within this topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38254,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2C Positive feedback loops",
+              "title": "1.2C Positive feedback loops",
+              "labeledAt": "2026-03-05T16:12:47.926Z",
+              "reasoning": "Part (c) focuses on positive feedback mechanisms as the driver for ecosystem change.",
+              "confidence": 0.95
+            },
+            {
+              "id": 38257,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2F Resilience of a system",
+              "title": "1.2F Resilience of a system",
+              "labeledAt": "2026-03-05T16:12:47.926Z",
+              "reasoning": "Part (c) discusses tipping points, which are inherently linked to a system's resilience and its ability to return to an original state or shift to a new one.",
+              "confidence": 0.9
+            },
+            {
+              "id": 64943,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2G Ecological Pyramids",
+              "title": "2.2G Ecological Pyramids",
+              "labeledAt": "2026-03-05T16:12:47.926Z",
+              "reasoning": "Part (a) uses ecological pyramids of energy as the specific structural context for explaining thermodynamic laws.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1688419,
+        "parts": [
+          {
+            "id": 1149902,
+            "content": "Explain the relationship between the second law of thermodynamics and the increase in entropy within an ecological pyramid of energy.",
+            "order": 0,
+            "markscheme": "### Second Law of Thermodynamics and Entropy\n- The second law of thermodynamics states that the entropy (disorder) of a system increases over time <marks>1 mark</marks>\n- In an ecological pyramid, energy is transformed from one trophic level to the next (e.g., from primary producers to herbivores)  <marks>1 mark</marks>\n- These transformations are never $100\\%$ efficient; a significant portion of energy is lost as low-quality heat to the surroundings <marks>1 mark</marks>\n- This loss of heat represents an increase in entropy, meaning energy is degraded and becomes unavailable to do work for the next trophic level  <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149903,
+            "content": "Compare and contrast static equilibrium and steady-state equilibrium, providing a named example for each type.",
+            "order": 1,
+            "markscheme": "### Similarities\n- Both represent states of balance within a system  <marks>1 mark</marks>\n- In both states, the overall system properties (observable state) appear to remain constant over a period of time <marks>1 mark</marks>\n\n### Differences\n- **Steady-state equilibrium:** Involves constant inputs and outputs of energy and matter, but the system remains in a constant state (e.g., a mature forest ecosystem or a living organism)  <marks>1 mark</marks>\n- **Static equilibrium:** No inputs or outputs of matter or energy occur, and there is no change in the system over time (e.g., a pile of rocks or a chair) <marks>1 mark</marks>\n- Steady-state equilibrium is characteristic of open systems, whereas static equilibrium is generally associated with non-living/isolated components  <marks>1 mark</marks>\n- Steady-state systems can return to equilibrium after a small disturbance through negative feedback, while a static system, once moved, establishes a new position  <marks>1 mark</marks>\n\n### Examples\n- Steady-state example: A pond (where water/nutrients enter and leave, but the pond remains the same)  <marks>1 mark</marks>\n- Static example: A building or a geological formation (where no significant energy/matter throughput is required to maintain its structure)  <marks>1 mark</marks>\n\n<note>Award [4] max if no examples are provided or if only similarities/differences are discussed. For comparisons, ensure both sides are mentioned to earn the mark.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149904,
+            "content": "Discuss how positive feedback mechanisms can drive an ecosystem toward a tipping point, and evaluate the consequences using a named case study.",
+            "order": 2,
+            "markscheme": "### Content Guidance\nAnswers may include:\n\n**Concepts of Feedback and Tipping Points:**\n- Positive feedback loops are destabilizing; they amplify changes and drive a system away from its original equilibrium.\n- A tipping point is a critical threshold where a small change can push a system into a completely new state/equilibrium.\n- Once a tipping point is crossed, the change is often self-sustaining and difficult/impossible to reverse.\n\n**Case Study: Arctic Ice-Albedo Effect:**\n- **Mechanism:** Increased global temperatures melt sea ice $\\implies$ darker ocean water is exposed $\\implies$ albedo (reflectivity) decreases $\\implies$ more solar radiation is absorbed $\\implies$ temperatures rise further, melting more ice.\n- **Consequences:** Loss of habitat for polar species (e.g., polar bears), alteration of global ocean currents (thermohaline circulation), and accelerated sea-level rise.\n\n**Case Study: Eutrophication in a Lake:**\n- **Mechanism:** Nutrient runoff leads to algal blooms $\\implies$ algae die and decompose $\\implies$ oxygen levels drop $\\implies$ fish die $\\implies$ more decomposition occurs, further stripping oxygen and releasing more nutrients from sediment.\n- **Consequences:** Shift from a clear-water, biodiversity-rich state to a turbid, anaerobic, low-diversity state.\n\n**Evaluation:**\n- Discussion of the difficulty in predicting exact tipping points due to complex interactions.\n- Analysis of the time lags involved in feedback loops.\n- Consideration of the socio-economic impacts resulting from the shift to a new ecosystem state.\n\n| Marks | Level descriptor |\n|-------|-----------------|\n| 0 | The response does not reach a standard described by the descriptors below. |\n| 1\u20133 | Minimal evidence of understanding positive feedback or tipping points. Fragmented statements with little or no link to a specific case study. |\n| 4\u20136 | Sound understanding of feedback mechanisms. Includes a relevant case study with clear identification of the feedback loop and the resulting shift in equilibrium. Some analysis of consequences provided. |\n| 7\u20139 | Substantial understanding of the relationship between positive feedback and tipping points. Effective use of a detailed case study. Thorough evaluation of the ecological and/or social consequences. Explicit judgments regarding the stability and irreversibility of the system. |",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c0c98b06-bc26-4221-bc37-b16dcad3d207",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-c0c98b06-bc26-4221-bc37-b16dcad3d207-1771929956947",
+            "generatedAt": "2026-02-26T04:45:06.310Z",
+            "sourceRevisionId": 1163301
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30577,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1F Environmental impact assessment (HL)",
+              "title": "7.1F Environmental impact assessment (HL)",
+              "labeledAt": "2026-03-05T16:49:58.050Z",
+              "reasoning": "Part (b) specifically asks for the procedures required to conduct an Environmental Impact Assessment (EIA), which is the primary focus of this topic.",
+              "confidence": 1
+            },
+            {
+              "id": 30574,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1C Natural capital",
+              "title": "7.1C Natural capital",
+              "labeledAt": "2026-03-05T16:49:58.050Z",
+              "reasoning": "Part (a) refers to 'natural income' derived from ecosystem services, and part (c) explicitly requires a comparison involving Natural Capital assessments.",
+              "confidence": 1
+            },
+            {
+              "id": 38266,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3I Frameworks and models for sustainability",
+              "title": "1.3I Frameworks and models for sustainability",
+              "labeledAt": "2026-03-05T16:49:58.050Z",
+              "reasoning": "Part (c) asks for an evaluation of the Ecological Footprint (EF) as a model for sustainability, which falls under frameworks and models for sustainability.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30573,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1B Ecosystem services",
+              "title": "7.1B Ecosystem services",
+              "labeledAt": "2026-03-05T16:49:58.050Z",
+              "reasoning": "Part (a) requires identification of the four categories of ecosystem services as defined by the Millennium Ecosystem Assessment.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1688411,
+        "parts": [
+          {
+            "id": 1149878,
+            "content": "Identify **four** distinct categories of ecosystem services, as defined by the Millennium Ecosystem Assessment, that provide 'natural income' for human societies.",
+            "order": 0,
+            "markscheme": "- Supporting services (e.g., primary production, soil formation, nutrient cycling) <marks>1 mark</marks>\n- Provisioning services (e.g., food, fresh water, timber, fiber, fuel) <marks>1 mark</marks>\n- Regulating services (e.g., climate regulation, flood regulation, water purification, pollination) <marks>1 mark</marks>\n- Cultural services (e.g., aesthetic, spiritual, educational, recreational benefits) <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for each correct category identified. Examples are not required but may be used to clarify the category.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149879,
+            "content": "Outline the sequence of procedures required to conduct a comprehensive Environmental Impact Assessment (EIA) for a proposed urban development project.",
+            "order": 1,
+            "markscheme": "- **Screening**: Determine if the project requires an EIA based on local legislation/scale of impact. <marks>1 mark</marks>\n- **Scoping**: Identify the key environmental issues and requirements that need to be addressed. <marks>1 mark</marks>\n- **Baseline Study**: Conduct a detailed inventory of the existing environment (biotic and abiotic factors) before development starts. <marks>1 mark</marks>\n- **Impact Prediction**: Use models or expert judgment to estimate the potential scale and duration of environmental changes. <marks>1 mark</marks>\n- **Mitigation Planning**: Propose specific measures to avoid, reduce, or compensate for identified negative impacts. <marks>1 mark</marks>\n- **Environmental Statement (Production)**: Compile all findings and mitigation strategies into a formal report for public and government review. <marks>1 mark</marks>\n- **Monitoring and Auditing**: Establish a program to track actual impacts during and after construction to ensure compliance and effectiveness of mitigation. <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for each distinct procedural stage described, up to a maximum of <marks>7 marks</marks>.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149880,
+            "content": "To what extent can the **Ecological Footprint (EF)** be considered a more effective model for measuring the sustainability of a human population than a **Natural Capital** assessment?",
+            "order": 2,
+            "markscheme": "_Answers may include_:\n\n*   **Understanding of concepts**: Ecological Footprint (the area of land and water required to sustainably provide all resources at the rate at which they are being consumed and to assimilate all waste); Natural Capital (the stock of natural resources that produces a sustainable yield of goods and services).\n*   **Breadth of comparison**: EF as a single indicator of consumption vs. Natural Capital as a measurement of available stocks; national vs. global scales; use of biocapacity; ecological overshoot; non-renewable vs. renewable capital.\n*   **Examples**: Comparison of EF between MEDCs and LEDCs; specific examples of natural capital (e.g., fossil fuels vs. timber); the role of technological advancement in changing EF; local depletion of natural capital despite a stable global EF.\n*   **Balanced analysis**: \n    *   **Strengths of EF**: Simple, easy to communicate/compare between countries, highlights global inequality, clearly demonstrates overshoot (where consumption exceeds regeneration).\n    *   **Weaknesses of EF**: Ignores many forms of pollution (e.g., toxics, plastics), assumes land is used for only one purpose, does not distinguish between sustainable and unsustainable land management within the footprint.\n    *   **Strengths of Natural Capital**: More comprehensive for local resource management, accounts for both biotic and abiotic (non-renewable) stocks, useful for economic valuation/GDP greening.\n    *   **Weaknesses of Natural Capital**: Harder to quantify in a single metric, difficult to account for the mobility of resources (trade).\n*   **Conclusion**: A conclusion that is supported by the analysis provided. _e.g._, \"While the Ecological Footprint is a superior tool for raising public awareness and showing global imbalances, Natural Capital assessments provide the detailed data necessary for local policy-making and managing specific resource stocks sustainably.\"",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "cf96aacd-6fee-4901-9cd8-25bf9c078a3b",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-cf96aacd-6fee-4901-9cd8-25bf9c078a3b-1771929956947",
+            "generatedAt": "2026-02-26T05:00:14.935Z",
+            "sourceRevisionId": 1179247
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29887,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5B Succession",
+              "title": "2.5B Succession",
+              "labeledAt": "2026-03-05T16:12:00.579Z",
+              "reasoning": "Part (b) requires distinguishing succession from zonation, and part (c) involves evaluating community development through successional stages.",
+              "confidence": 1
+            },
+            {
+              "id": 29886,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5A Zonation",
+              "title": "2.5A Zonation",
+              "labeledAt": "2026-03-05T16:12:00.579Z",
+              "reasoning": "Part (b) specifically asks for a distinction between zonation and succession with named examples.",
+              "confidence": 1
+            },
+            {
+              "id": 29874,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.4 Climate and biomes > 2.4B Biomes",
+              "title": "2.4B Biomes",
+              "labeledAt": "2026-03-05T16:12:00.579Z",
+              "reasoning": "Part (a) focuses on the global distribution of terrestrial biomes based on abiotic limiting factors.",
+              "confidence": 1
+            },
+            {
+              "id": 29889,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5D Community and productivity in succession (HL)",
+              "title": "2.5D Community and productivity in succession (HL)",
+              "labeledAt": "2026-03-05T16:12:00.579Z",
+              "reasoning": "Part (c) explicitly requires evaluating changes in ecosystem energetics (productivity and respiration) and diversity during the successional process, which is a core component of this HL topic.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29876,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.4 Climate and biomes > 2.4D Climate in biomes (HL)",
+              "title": "2.4D Climate in biomes (HL)",
+              "labeledAt": "2026-03-05T16:12:00.579Z",
+              "reasoning": "Part (a) discusses abiotic limiting factors (like temperature and precipitation) that determine biome distribution, which is a key focus of this topic.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29890,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5E Climax communities and plagioclimax (HL)",
+              "title": "2.5E Climax communities and plagioclimax (HL)",
+              "labeledAt": "2026-03-05T16:12:00.579Z",
+              "reasoning": "Part (c) discusses the transition to and characteristics of a climax community, which is covered under this topic.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1688416,
+        "parts": [
+          {
+            "id": 1149893,
+            "content": "Explain the role of abiotic limiting factors in determining the global distribution of terrestrial biomes.",
+            "order": 0,
+            "markscheme": "- **Insolation/Solar radiation**: Varies with latitude; higher intensity at the equator drives higher temperatures and rates of photosynthesis/primary productivity. <marks>1 mark</marks>\n- **Temperature**: Determines the length of the growing season and metabolic rates of organisms; extreme cold (tundra) or heat (deserts) limits species diversity. <marks>1 mark</marks>\n- **Precipitation**: Total annual rainfall and its seasonal distribution (e.g., tropical rainforest vs. savanna) determine the available moisture for plant growth. <marks>1 mark</marks>\n- **P/E Ratio (Precipitation to Evaporation)**: If P/E is >1, water is plentiful (forests); if P/E is <1, evaporation exceeds rainfall, leading to water stress (deserts/grasslands). <marks>1 mark</marks>\n\n<note>Do not credit biotic factors like competition or predation, as the question specifically asks for abiotic limiting factors in the context of biome distribution.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149894,
+            "content": "Distinguish between the processes of zonation and succession, using named examples to illustrate your answer.",
+            "order": 1,
+            "markscheme": "### Differences between Zonation and Succession\n\n- **Definition of Zonation**: Spatial change in the community structure along an environmental gradient. <marks>1 mark</marks>\n- **Definition of Succession**: Temporal change in the community structure over time at a single location. <marks>1 mark</marks>\n- **Driving Factors**: \n  - Zonation is primarily driven by abiotic gradients (e.g., altitude, salinity, tidal exposure). <marks>1 mark</marks>\n  - Succession is driven by biotic interactions and the modification of the environment by the organisms themselves (e.g., soil formation). <marks>1 mark</marks>\n- **Example of Zonation**: e.g., Different seaweed species arranged in horizontal bands on a rocky shore due to varying tolerance to desiccation. <marks>1 mark</marks>\n- **Example of Succession**: e.g., The progression from bare rock to lichen, then moss, grasses, shrubs, and finally oak forest (lithosere). <marks>1 mark</marks>\n- **Reversibility/Stability**: Zonation is usually a permanent feature of the landscape as long as the gradient exists, while succession moves toward a dynamic equilibrium (climax community). <marks>1 mark</marks>\n\n<examTip>Students must clearly state which process is spatial and which is temporal to gain full marks for the distinction.</examTip>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149895,
+            "content": "Evaluate the changes in ecosystem energetics and diversity that occur as a community develops from a pioneer stage to a climax community.",
+            "order": 2,
+            "markscheme": "_Answers may include_:\n\n*   **Gross Primary Productivity (GPP)**: Low in pioneer stages due to low leaf area/biomass; increases significantly through intermediate stages as vegetation cover increases; may stabilize or slightly decline in the climax stage as the system reaches maturity.\n*   **Net Primary Productivity (NPP)**: High in early/intermediate stages as plants invest energy in rapid growth; in the climax community, NPP approaches zero because GPP is balanced by high community respiration ($R$) ($P/R$ ratio approaches 1).\n*   **Biomass**: Increases steadily throughout succession, reaching its maximum at the climax stage where complex vertical stratification (e.g., canopy layers) is present.\n*   **Diversity**: \n    - **Species richness**: Usually increases through the seral stages.\n    - **Diversity indices**: Low in pioneer stages (few hardy species); peaks in late-intermediate stages; may slightly decrease in the final climax stage as dominant species outcompete others.\n*   **Nutrient Cycling**: Pioneer stages have open cycles with high nutrient loss; climax communities have closed, efficient cycles with nutrients stored primarily in the biomass rather than the soil.\n*   **Food Web Complexity**: Transitions from simple linear food chains (pioneer) to complex, branched food webs with many trophic levels and specialized niches (climax), leading to increased stability.\n*   **Conclusion**: Succession represents a shift from $r$-strategists (pioneers) to $K$-strategists (climax), where the ecosystem moves from a state of high energy accumulation to a state of high maintenance and complexity.\n\n<note>Award 7-9 marks if the answer provides a balanced evaluation of both energetics (GPP, NPP, R) and diversity/complexity with a clear progression through seral stages.</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ec320c68-e5b9-4d0b-b16c-a8aec222631f",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 64915,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2E Gross productivity and Net productivity ",
+              "title": "2.2E Gross productivity and Net productivity ",
+              "labeledAt": "2026-03-05T16:12:25.027Z",
+              "reasoning": "The question asks for methods to measure primary productivity, which is the core concept of topic 2.2E (Gross productivity and Net productivity), covering both the definitions and the practical application of measuring energy/matter accumulation in producers.",
+              "confidence": 0.95
+            },
+            {
+              "id": 29825,
+              "isHl": true,
+              "path": "Topic 2: Ecology > 2.2 Energy and biomass in ecosystems > 2.2I Productivity and Ecological efficiency (HL)",
+              "title": "2.2I Productivity and Ecological efficiency (HL)",
+              "labeledAt": "2026-03-05T16:12:25.027Z",
+              "reasoning": "This topic covers productivity and ecological efficiency, including the quantitative aspects and methodologies used to determine productivity rates within ecosystems.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 809508,
+        "parts": [
+          {
+            "id": 487114,
+            "content": "Describe two methods for measuring primary productivity in an ecosystem.",
+            "order": 0,
+            "markscheme": "### Method #1\nBiomass accumulation: Measure increase in plant biomass over time <marks>2 marks</marks>\n\n### Method #2\nOxygen production: Measure oxygen release in aquatic systems <marks>2 marks</marks>\n\n### Method #3\nCarbon dioxide uptake: Measure CO${_2}$ consumption using gas analyzers <marks>2 marks</marks>\n\n### Method #4\nRemote sensing: Use satellite data to estimate vegetation productivity over large areas <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "ef9f10f7-3c4d-4741-aa76-be133cc4641a",
+        "specification": "Primary succession was studied on a volcanic island following a major eruption. Ecologists measured various abiotic and biotic factors across three distinct successional stages. The results of the survey are presented in Table 1.\n\n**Table 1: Environmental factors and species abundance across three successional stages**\n\n| Feature / Species Observed                  | Colonization | Early Seral | Late Seral |\n|---------------------------------------------|--------------|-------------|------------|\n| Mean soil depth (cm)                        | 0.1          | 3.5         | 18.0       |\n| Lichen (*Lecidella*)                        | 120          | 45          | 10         |\n| Moss (*Racomitrium*)                        | 15           | 90          | 30         |\n| Arctic willow (*Salix arctica*)             | 0            | 25          | 50         |\n| Dwarf birch (*Betula nana*)                 | 0            | 5           | 35         |\n| **Total plant species richness**            | 2            | 12          | 28         |\n| **Simpson\u2019s diversity index (D)**           | 1.28         | 2.45        | ---        |\n\n\n**Figure 1: Pioneer organisms colonizing bare basalt rock**\n\n![Pioneer Community](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-ef9f10f7-3c4d-4741-aa76-be133cc4641a-1771929956947/a25cbad5-fa6a-441f-997f-02d65d7ebf5c.jpeg)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-ef9f10f7-3c4d-4741-aa76-be133cc4641a-1771929956947",
+            "generatedAt": "2026-02-25T12:26:19.914Z",
+            "sourceRevisionId": 1162144
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29887,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.5 Zonation, succession and change in ecosystems > 2.5B Succession",
+              "title": "2.5B Succession",
+              "labeledAt": "2026-03-05T16:51:08.797Z",
+              "reasoning": "The question is centered on primary succession, defining pioneer communities, and analyzing seral stages on a volcanic island.",
+              "confidence": 1
+            },
+            {
+              "id": 38272,
+              "isHl": false,
+              "path": "Topic 2: Ecology > 2.1 Individuals, populations, communities and ecosystems > 2.1F Population abundance estimation",
+              "title": "2.1F Population abundance estimation",
+              "labeledAt": "2026-03-05T16:51:08.797Z",
+              "reasoning": "Part (b) specifically asks for a method to estimate the abundance of a species (moss), which falls under population abundance estimation techniques.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30169,
+              "isHl": true,
+              "path": "Topic 5: Land > 5.1 Soil > 5.1F Soil formation (HL)",
+              "title": "5.1F Soil formation (HL)",
+              "labeledAt": "2026-03-05T16:51:08.797Z",
+              "reasoning": "Part (a) requires explaining the relationship between soil development and species richness, which is a core component of soil formation processes during primary succession.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1685346,
+        "parts": [
+          {
+            "id": 1146065,
+            "content": "Define the term _pioneer community_.",
+            "order": -1,
+            "markscheme": "The first group of organisms/species to colonize bare rock / a previously lifeless environment. <marks> 1 mark </marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146066,
+            "content": "Explain the relationship between soil development and the changes in species richness during this process.",
+            "order": 0,
+            "markscheme": "*Award <marks> 1 mark </marks> for each correct point, up to 2 marks.*\n\n1.  As pioneers (lichens/mosses) die and decompose, they add organic matter/humus to the rock fragments, increasing soil depth;\n2.  Deeper soil provides better anchorage/rooting space and water-holding capacity for more complex plants (willows/birch);\n3.  Increased nutrient availability in deeper soil supports a higher number of species (richness);\n4.  The development of more complex plant structures provides more niches/habitats, allowing more species to coexist;",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146067,
+            "content": "State **one** method to estimate the abundance of the moss species shown in Figure 1.",
+            "order": 1,
+            "markscheme": "_Award <marks> 1 mark </marks> for an appropriate sampling technique for sessile/non-motile organisms_:\n\ne.g. (Random/Systematic) quadrats;\nPercentage cover (using a grid quadrat);\nPoint/Frame quadrats;\n\n_**Note**: Do not credit mobile sampling methods such as Lincoln Index or Pitfall traps_.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "fceae2b9-d89f-4085-8bdf-bcbba23b26ac",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30052,
+              "isHl": false,
+              "path": "Topic 3: Conservation and biodiversity > 3.1 Biodiversity and evolution > 3.1A Biodiversity",
+              "title": "3.1A Biodiversity",
+              "labeledAt": "2026-03-06T15:39:09.571Z",
+              "reasoning": "The question asks for methods to measure biodiversity in an ecosystem, which falls under defining/assessing biodiversity and how it is quantified.",
+              "confidence": 0.83
+            },
+            {
+              "id": 30054,
+              "isHl": false,
+              "path": "Topic 3: Conservation and biodiversity > 3.1 Biodiversity and evolution > 3.1C Species diversity",
+              "title": "3.1C Species diversity",
+              "labeledAt": "2026-03-06T15:39:09.571Z",
+              "reasoning": "Common biodiversity measurement methods (e.g., species richness, Simpson\u2019s/Shannon indices, evenness) specifically assess species diversity within an ecosystem.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 876612,
+        "parts": [
+          {
+            "id": 487112,
+            "content": "Describe two methods for measuring biodiversity in an ecosystem.",
+            "order": 0,
+            "markscheme": "- Species richness: Count the number of different species present <marks>2 marks</marks>\n\n- Simpson's diversity index: Calculate probability that two randomly selected individuals belong to different species <marks>2 marks</marks>\n\n- Shannon-Wiener index: Measure of species diversity considering richness and evenness <marks>2 marks</marks>\n\n- Genetic diversity measures: Analyze genetic variation within and between populations <marks>2 marks</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "12",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 24606,
+      "title": "2.5 Zonation, succession and change in ecosystems",
+      "slug": "ib-ess-new-25-zonation-succession-and-change-in-ecosystems",
+      "parentTopicId": 24599
+    },
+    "subject": {
+      "id": 6455,
+      "title": "Environmental systems and societies (ESS)",
+      "slug": "ib-environmental-systems-and-societies-ess-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "12",
+      "byQuestion": {}
+    }
+  }
+}

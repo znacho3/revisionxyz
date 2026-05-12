@@ -1,3 +1,1979 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2a26e194f4bdaeb9c3edab673d219dc17db0e7158200a8a0f999b73c435b36f3
-size 120265
+{
+  "json": {
+    "questions": [
+      {
+        "id": "3ed56faa-487c-41e2-9033-67ddd0ab7dba",
+        "specification": "The function $f$ is defined by $f(x) = 2x^3 + 5$, $-2 \\le x \\le 2$.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 64580,
+              "isHl": true,
+              "path": "Functions > AHL 2.7\u2014Composite functions, finding inverse function incl domain restriction > Question Type 4: Finding the inverse functions including their domains and range",
+              "title": "Question Type 4: Finding the inverse functions including their domains and range",
+              "labeledAt": "2026-03-07T17:26:39.669Z",
+              "reasoning": "Parts (b) and (c) ask for an explicit inverse function and to state the domain and range of the inverse, directly matching inverse functions including domains/range.",
+              "confidence": 0.92
+            },
+            {
+              "id": 64550,
+              "isHl": false,
+              "path": "Functions > SL 2.2\u2014Functions, domains, range, graphs > Question Type 6: Finding the range of more complex functions",
+              "title": "Question Type 6: Finding the range of more complex functions",
+              "labeledAt": "2026-03-07T17:26:39.669Z",
+              "reasoning": "Part (a) requires determining the range of a cubic function over a restricted domain, which aligns with finding the range of more complex functions (with domain restriction).",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1472321,
+        "parts": [
+          {
+            "id": 1091132,
+            "content": "Write down the range of $f$.",
+            "order": 0,
+            "markscheme": "- State correct end points: $-11$ and $21$ <marks>A1</marks>\n- State correct inequalities: $-11 \\le f(x) \\le 21$ <marks>A1</marks>\n\n2 marks total\n\n<note>Award A1 for correct end points, A1 for correct inequalities.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic-substitution",
+                  "label": "Algebraic Substitution of Endpoints",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the function behavior",
+                      "content": "The range of a function represents all the possible output values ($y$-values) for the given domain. \n\nBecause $f(x) = 2x^3 + 5$ is a cubic function with a positive leading coefficient, it is **strictly increasing**. This means that the smallest $x$-value in the domain will produce the smallest $y$-value in the range, and the largest $x$-value will produce the largest $y$-value.",
+                      "highlights": [
+                        {
+                          "text": "f(x) = 2x^3 + 5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Substitute the lower boundary",
+                      "content": "To find the minimum value of the range, substitute the lower boundary of the domain, $x = -2$, into the function:\n\n$$\\begin{aligned} f(-2) &= 2(-2)^3 + 5 \\\\ &= 2(-8) + 5 \\\\ &= -16 + 5 \\\\ &= -11 \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2 * (-2)^3 + 5",
+                            "instructions": "Type 2 * (-2)^3 + 5 into the calculation area."
+                          },
+                          "ti84": {
+                            "expression": "2 * (-2)^3 + 5",
+                            "instructions": "In the home screen, type 2 * (-2)^3 + 5 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "2(-2)^3 + 5",
+                            "instructions": "Type f(-2) if the function is defined, or 2(-2)^3 + 5 directly."
+                          },
+                          "description": "Calculate the function value at the lower boundary."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "-2 \\le x \\le 2",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Substitute the upper boundary",
+                      "content": "To find the maximum value of the range, substitute the upper boundary of the domain, $x = 2$, into the function:\n\n$$\\begin{aligned} f(2) &= 2(2)^3 + 5 \\\\ &= 2(8) + 5 \\\\ &= 16 + 5 \\\\ &= 21 \\end{aligned}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2 * (2)^3 + 5",
+                            "instructions": "Type 2 * (2)^3 + 5 into the calculation area."
+                          },
+                          "ti84": {
+                            "expression": "2 * (2)^3 + 5",
+                            "instructions": "In the home screen, type 2 * (2)^3 + 5 and press ENTER."
+                          },
+                          "desmos": {
+                            "expression": "2(2)^3 + 5",
+                            "instructions": "Type f(2) if the function is defined, or 2(2)^3 + 5 directly."
+                          },
+                          "description": "Calculate the function value at the upper boundary."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final range",
+                      "content": "The range covers all values from the minimum to the maximum inclusive. \n\nUsing the endpoints found, the range is:\n\n$$-11 \\le f(x) \\le 21$$\n\nIn an IB exam, you earn one mark for the correct endpoints ($-11$ and $21$) and one mark for using the correct inequality notation."
+                    }
+                  ]
+                },
+                {
+                  "id": "graphical-analysis",
+                  "label": "Graphical GDC Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the goal",
+                      "content": "The question asks for the **range** of the function $f(x) = 2x^3 + 5$ over a specific **domain**. The range is the set of all possible output ($y$) values the function can produce given the $x$-values in the domain.",
+                      "highlights": [
+                        {
+                          "text": "range of f",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "-2 \\le x \\le 2",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Graph the function",
+                      "content": "To visualize the function's behavior, we first plot it on the GDC. Since the domain is restricted, we should adjust the viewing window to match the given $x$-interval.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "f(x) = 2x^3 + 5",
+                            "instructions": "1. Go to the Graphing menu.\n2. Enter the function f(x) = 2x^3 + 5.\n3. Adjust the V-Window so that x ranges from -2 to 2.\n4. Draw the graph."
+                          },
+                          "ti84": {
+                            "expression": "y = 2x^3 + 5",
+                            "instructions": "1. Press [Y=] and enter Y1 = 2X^3 + 5.\n2. Press [WINDOW] and set Xmin = -2 and Xmax = 2.\n3. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "y = 2x^3 + 5 \\{-2 \\le x \\le 2\\}",
+                            "instructions": "1. Enter y = 2x^3 + 5.\n2. Click the wrench icon (Graph Settings) and set the x-axis limits from -2 to 2."
+                          },
+                          "description": "Plot the function and set the viewing window to the domain."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Evaluate at domain boundaries",
+                      "content": "By looking at the graph, we can see that the function is strictly increasing (it always goes up as $x$ increases). This means the minimum value of the range occurs at the start of the domain ($x = -2$) and the maximum value occurs at the end ($x = 2$). \n\nWe can find these specific $y$-values using the **Table** or **Trace** functions on the GDC.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "1. Go to the Table menu.\n2. Ensure the function is selected and view the table.\n3. Find the values for x = -2 and x = 2."
+                          },
+                          "ti84": {
+                            "instructions": "1. Press [2nd] [GRAPH] (TABLE).\n2. Look for X = -2 to find Y = -11.\n3. Look for X = 2 to find Y = 21."
+                          },
+                          "desmos": {
+                            "instructions": "1. Click on the line and drag the cursor to the endpoints at x = -2 and x = 2.\n2. Observe the y-coordinates: (-2, -11) and (2, 21)."
+                          },
+                          "description": "Find the y-values for the endpoints x = -2 and x = 2."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final range",
+                      "content": "The minimum value of the function is $-11$ and the maximum value is $21$. According to the markscheme, we must present the range using the correct inequality notation.\n\n$$\\text{Range: } -11 \\le f(x) \\le 21$$\n\nAlternatively, this can be written as $-11 \\le y \\le 21$.",
+                      "highlights": [
+                        {
+                          "text": "-11 \\le f(x) \\le 21",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:23:49.304Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1091133,
+            "content": "Find an expression for $f^{-1}(x)$.",
+            "order": 1,
+            "markscheme": "- Attempt to interchange $x$ and $y$: $x = 2y^3 + 5$ <marks>M1</marks>\n- State the expression for the inverse function: $f^{-1}(x) = \\sqrt[3]{\\frac{x-5}{2}}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic_swap",
+                  "label": "Algebraic Interchange of Variables",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Set up the equation",
+                      "content": "To find the inverse function, we start by replacing the function notation $f(x)$ with the variable $y$.\n\n$$y = 2x^3 + 5$$",
+                      "highlights": [
+                        {
+                          "text": "f(x) = 2x^3 + 5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Interchange the variables",
+                      "content": "The key idea for an inverse function is that the inputs and outputs swap roles. We do this algebraically by interchanging $x$ and $y$.\n\n$$x = 2y^3 + 5$$",
+                      "highlights": [
+                        {
+                          "text": "Attempt to interchange x and y: x = 2y^3 + 5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Isolate the cubic term",
+                      "content": "Now we need to solve for $y$ to get our inverse expression. First, subtract $5$ from both sides of the equation:\n\n$$x - 5 = 2y^3$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Divide by the coefficient",
+                      "content": "Next, divide both sides by $2$ to isolate the $y^3$ term:\n\n$$\\frac{x - 5}{2} = y^3$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Solve for y",
+                      "content": "To get $y$ by itself, we take the cube root of both sides. \n\n$$y = \\sqrt[3]{\\displaystyle \\frac{x - 5}{2}}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "State the inverse function",
+                      "content": "Finally, we replace $y$ with the notation $f^{-1}(x)$ to represent our final answer.\n\n$$f^{-1}(x) = \\sqrt[3]{\\displaystyle \\frac{x - 5}{2}}$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "Graph the original function $f(x) = 2x^3 + 5$ and the result $y = ((x-5)/2)^{1/3}$. Check if they are symmetrical about the line $y=x$."
+                          },
+                          "ti84": {
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = 2X^3 + 5.\n3. Enter Y2 = ((X-5)/2)^(1/3).\n4. Enter Y3 = X.\n5. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "f(x) = 2x^3 + 5, g(x) = ((x-5)/2)^{1/3}, y=x",
+                            "instructions": "Graph $f(x) = 2x^3 + 5$, $g(x) = \\sqrt[3]{\\frac{x-5}{2}}$, and $y = x$ to see the reflection."
+                          },
+                          "description": "You can verify your inverse function by graphing both $f(x)$ and $f^{-1}(x)$. They should be reflections of each other across the line $y = x$."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "f^{-1}(x) = \\sqrt[3]{\\frac{x-5}{2}}",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "inverse_operations",
+                  "label": "Reverse Operations Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze the function's operations",
+                      "content": "To find the inverse function using the **Reverse Operations Approach**, we first need to identify exactly what happens to an input $x$ when it passes through the function $f(x)$.\n\nLooking at $f(x) = 2x^3 + 5$, let's list the operations in the order they are applied to $x$:\n1.  **Cubing**: $x$ is raised to the power of 3 ($x^3$).\n2.  **Multiplying**: The result is multiplied by 2 ($2x^3$).\n3.  **Adding**: Finally, 5 is added to the result ($2x^3 + 5$).",
+                      "highlights": [
+                        {
+                          "text": "f(x) = 2x^3 + 5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Determine the inverse operations",
+                      "content": "The inverse function $f^{-1}(x)$ does the exact opposite of $f(x)$. We must apply the **inverse operations** in the **reverse order**. \n\nLet's flip our list from the previous step:\n1.  The last step was adding 5, so our first inverse step is **subtracting 5**.\n2.  The middle step was multiplying by 2, so our second inverse step is **dividing by 2**.\n3.  The first step was cubing, so our final inverse step is taking the **cube root** ($\\sqrt[3]{\\dots}$)."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Construct the inverse expression",
+                      "content": "Now, let's apply those three steps in order to an input $x$ to build our inverse expression:\n\n1.  Subtract 5: \n$$x - 5$$\n\n2.  Divide the entire result by 2:\n$$\\frac{x - 5}{2}$$\n\n3.  Take the cube root of the whole thing:\n\n$$\\sqrt[3]{\\displaystyle \\frac{x - 5}{2}}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Verify with a calculator",
+                      "content": "A great way to check your work is to pick a value. Let's find $f(1)$ and then see if our inverse function takes that result back to $1$.\n\nFirst, calculate $f(1)$:\n$$f(1) = 2(1)^3 + 5 = 7$$\n\nNow, let's use the GDC to find $f^{-1}(7)$ using our new expression.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "( (7 - 5) / 2 )^(1/3)",
+                            "instructions": "Enter the cube root of the expression ((7-5)/2)."
+                          },
+                          "ti84": {
+                            "expression": "root(3, (7-5)/2)",
+                            "instructions": "Press [MATH], then select 4: \u221b(. Type (7 - 5) / 2 inside the parentheses and press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt[3]{\\frac{7-5}{2}}",
+                            "instructions": "Type 'cbrt((7-5)/2)' or use the keypad to find the nth root."
+                          },
+                          "description": "Calculate the cube root of ((7 - 5) / 2) to verify the inverse works."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final answer",
+                      "content": "Since $f^{-1}(7) = 1$, our expression is correct. In an IB exam, you should clearly state the final function using the correct notation.\n\n$$f^{-1}(x) = \\sqrt[3]{\\displaystyle \\frac{x - 5}{2}}$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "composition_identity",
+                  "label": "Composition Identity Method",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Use the composition identity",
+                      "content": "To find the inverse function, we can use the **Composition Identity Method**. This relies on the fundamental property that a function and its inverse \"undo\" each other:\n\n$$f(f^{-1}(x)) = x$$\n\nThis method is a great alternative to the \"swap $x$ and $y$\" method because it keeps the logic of the inverse function front and center. This concept is part of **AHL Topic 2.7: Composite and Inverse Functions**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Set up the equation",
+                      "content": "We are given the function:\n\n$$f(x) = 2x^3 + 5$$\n\nNow, we substitute the entire term $f^{-1}(x)$ everywhere we see an $x$ in the original function, and set the whole expression equal to $x$ based on our identity:\n\n$$2(f^{-1}(x))^3 + 5 = x$$\n\nThis setup earns you the first mark (**M1**) because it shows you understand how to relate the function to its inverse.",
+                      "highlights": [
+                        {
+                          "text": "f(x) = 2x^3 + 5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Isolate the inverse function",
+                      "content": "Now we perform algebraic steps to solve for $f^{-1}(x)$:\n\n1.  **Subtract 5** from both sides:\n    $$2(f^{-1}(x))^3 = x - 5$$\n\n2.  **Divide** both sides by 2:\n    $$(f^{-1}(x))^3 = \\frac{x - 5}{2}$$\n\n3.  **Take the cube root** of both sides to remove the power of 3:\n\n    $$f^{-1}(x) = \\sqrt[3]{\\displaystyle \\frac{x - 5}{2}}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Verify using technology",
+                      "content": "In an IB exam, you can use your GDC to check if your inverse function is correct. If you graph $f(x)$ and $f^{-1}(x)$, they should be reflections of each other across the line $y = x$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2x^3+5, ((x-5)/2)^(1/3), x",
+                            "instructions": "1. In the Graph menu, enter f1(x) = 2x^3 + 5.\n2. Enter f2(x) = root(3, (x-5)/2).\n3. Enter f3(x) = x.\n4. View the graph and ensure f1 and f2 are reflections over f3."
+                          },
+                          "ti84": {
+                            "expression": "2x^3+5, ((x-5)/2)^(1/3), x",
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = 2X^3 + 5.\n3. Enter Y2 = ((X-5)/2)^(1/3).\n4. Enter Y3 = X.\n5. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "f(x) = 2x^3 + 5, g(x) = ((x-5)/2)^{1/3}, y = x",
+                            "instructions": "1. Type f(x) = 2x^3 + 5.\n2. Type g(x) = ((x-5)/2)^(1/3).\n3. Type y = x.\n4. Check that the curves are symmetrical across the line y = x."
+                          },
+                          "description": "Graph the function and its inverse to check for symmetry over y=x."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final expression",
+                      "content": "The expression for the inverse function is:\n\n$$f^{-1}(x) = \\sqrt[3]{\\displaystyle \\frac{x - 5}{2}}$$\n\nThis matches the second mark (**A1**) in the markscheme."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:24:46.554Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1091134,
+            "content": "Write down the domain and range of $f^{-1}$.",
+            "order": 2,
+            "markscheme": "- State the domain: $-11 \\le x \\le 21$ <marks>A1</marks>\n- State the range: $-2 \\le f^{-1}(x) \\le 2$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "conceptual_swap",
+                  "label": "Domain and Range Swap Property",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Recall the swap property",
+                      "content": "To find the domain and range of an inverse function $f^{-1}$, we use a key property: the domain and range of the original function $f$ simply swap places.\n\n$$\\begin{aligned} \\text{Domain of } f^{-1} &= \\text{Range of } f \\\\ \\text{Range of } f^{-1} &= \\text{Domain of } f \\end{aligned}$$\n\nThis makes our job much easier because we can find everything we need by looking at the original function $f$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify the range of $f^{-1}$",
+                      "content": "The range of $f^{-1}$ is exactly the same as the domain given for $f$ in the question. \n\nThe question specifies the domain of $f$ as $-2 \\le x \\le 2$. Therefore, the range of the inverse function is:\n\n$$-2 \\le f^{-1}(x) \\le 2$$",
+                      "highlights": [
+                        {
+                          "text": "$-2 \\le x \\le 2$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Evaluate function at boundaries",
+                      "content": "To find the domain of $f^{-1}$, we first need the range of $f$. Since $f(x) = 2x^3 + 5$ is a continuously increasing function (a cubic), we can find its range by evaluating the function at the endpoints of its domain, $x = -2$ and $x = 2$.\n\nFirst, calculate $f(-2)$:\n$$f(-2) = 2(-2)^3 + 5 = -11$$\n\nNext, calculate $f(2)$:\n$$f(2) = 2(2)^3 + 5 = 21$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2*(-2)^3+5",
+                            "instructions": "Evaluate the function at x = -2 and x = 2."
+                          },
+                          "ti84": {
+                            "expression": "2*(-2)^3+5",
+                            "instructions": "Enter 2*(-2)^3+5 and 2*(2)^3+5 on the home screen."
+                          },
+                          "desmos": {
+                            "expression": "f(x)=2x^3+5; f(-2); f(2)",
+                            "instructions": "Type the function f(x)=2x^3+5 and then find f(-2) and f(2)."
+                          },
+                          "description": "Calculate the y-values at the boundaries of the domain."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "f(x) = 2x^3 + 5",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the domain of $f^{-1}$",
+                      "content": "The range of $f$ is the interval between our two calculated values: $-11 \\le f(x) \\le 21$.\n\nBecause the range of $f$ becomes the domain of $f^{-1}$, we can write:\n\n$$\\text{Domain of } f^{-1}: -11 \\le x \\le 21$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Answer Summary",
+                      "content": "Combining our results, we have the final values required for the 2 marks:\n\n**Domain of $f^{-1}$:** $-11 \\le x \\le 21$\n**Range of $f^{-1}$:** $-2 \\le f^{-1}(x) \\le 2$"
+                    }
+                  ]
+                },
+                {
+                  "id": "algebraic_inverse",
+                  "label": "Algebraic Inverse Method",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the Inverse Relationship",
+                      "content": "To find the domain and range of an inverse function $f^{-1}$, we use the property that the **domain** of $f$ becomes the **range** of $f^{-1}$, and the **range** of $f$ becomes the **domain** of $f^{-1}$. \n\nWe are given the original function:\n$$f(x) = 2x^3 + 5, \\quad -2 \\le x \\le 2$$",
+                      "highlights": [
+                        {
+                          "text": "f(x) = 2x^3 + 5",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "-2 \\le x \\le 2",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Find the Algebraic Inverse",
+                      "content": "Following the **Algebraic Inverse Method**, we first find the expression for $f^{-1}(x)$ by swapping $x$ and $y$ and solving for $y$:\n\n1. Let $y = 2x^3 + 5$.\n2. Swap $x$ and $y$: \n   $$x = 2y^3 + 5$$\n3. Solve for $y$:\n$$\\begin{aligned} x - 5 &= 2y^3 \\\\ \\frac{x - 5}{2} &= y^3 \\\\ y &= \\sqrt[3]{\\displaystyle \\frac{x - 5}{2}} \\end{aligned}$$\n\nSo, $$f^{-1}(x) = \\sqrt[3]{\\displaystyle \\frac{x - 5}{2}}$$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Determine the Range",
+                      "content": "The range of the inverse function $f^{-1}$ is exactly the same as the domain of the original function $f$.\n\nSince the domain of $f$ is given as $-2 \\le x \\le 2$, we can immediately state the range of $f^{-1}$:\n$$\\text{Range: } -2 \\le f^{-1}(x) \\le 2$$",
+                      "highlights": [
+                        {
+                          "text": "-2 \\le x \\le 2",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Calculate Domain Boundaries",
+                      "content": "The domain of $f^{-1}$ is the range of $f$. We find this by evaluating $f(x)$ at its boundary points, $x = -2$ and $x = 2$.\n\nUsing the original function:\n- At $x = -2$: $f(-2) = 2(-2)^3 + 5 = -16 + 5 = -11$\n- At $x = 2$: $f(2) = 2(2)^3 + 5 = 16 + 5 = 21$\n\nSince $f(x)$ is a continuously increasing function, its values range from $-11$ to $21$. This range becomes the domain of our inverse function.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2*(-2)^3+5\n2*(2)^3+5",
+                            "instructions": "Calculate the values of the function at x = -2 and x = 2."
+                          },
+                          "ti84": {
+                            "expression": "2*(-2)^3+5\n2*(2)^3+5",
+                            "instructions": "In the main screen, enter the calculations for f(-2) and f(2)."
+                          },
+                          "desmos": {
+                            "expression": "f(x)=2x^3+5\nf(-2)\nf(2)",
+                            "instructions": "Define the function and evaluate it at the boundaries."
+                          },
+                          "description": "Evaluate the function at the domain boundaries to find the range."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Result",
+                      "content": "Combining the findings from the previous steps, we write down the final domain and range for $f^{-1}$.\n\n- **Domain:** $-11 \\le x \\le 21$\n- **Range:** $-2 \\le f^{-1}(x) \\le 2$",
+                      "highlights": [
+                        {
+                          "text": "State the domain: -11 \\le x \\le 21",
+                          "index": 0,
+                          "location": "option"
+                        },
+                        {
+                          "text": "State the range: -2 \\le f^{-1}(x) \\le 2",
+                          "index": 1,
+                          "location": "option"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "graphical_approach",
+                  "label": "Graphical Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Understand the inverse relationship",
+                      "content": "To find the domain and range of an inverse function $f^{-1}$, we use the fundamental property that they are the 'swapped' versions of the original function's properties:\n\n1.  **Domain of $f^{-1}$** = Range of $f$\n2.  **Range of $f^{-1}$** = Domain of $f$\n\nThis concept is a key part of **Topic 2: Functions** (specifically SL 2.2). We are already given the domain of $f$, so we just need to find its range using graphical analysis.",
+                      "highlights": [
+                        {
+                          "text": "f(x) = 2x^3 + 5, -2 \\le x \\le 2",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Graph the function",
+                      "content": "Using your Graphing Display Calculator (GDC), plot the function $f(x) = 2x^3 + 5$ and set the viewing window for $x$ from $-2$ to $2$. By looking at the graph, we can see that the function is strictly increasing, meaning the lowest $y$-value occurs at the start of the interval and the highest $y$-value occurs at the end.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "2x^3 + 5",
+                            "instructions": "In the graphing menu, enter f(x) = 2x^3 + 5. Set the x-axis range from -2 to 2 and draw."
+                          },
+                          "ti84": {
+                            "expression": "2x^3 + 5",
+                            "instructions": "Press [Y=] and enter Y1 = 2X^3 + 5. Press [WINDOW] and set Xmin = -2, Xmax = 2. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "y = 2x^3 + 5 \\{-2 \\le x \\le 2\\}",
+                            "instructions": "Type f(x) = 2x^3 + 5 {-2 <= x <= 2} into the input bar."
+                          },
+                          "description": "Plot the function to visualize the range."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Find the range of f",
+                      "content": "From the graph, identify the minimum and maximum $y$-values. Since the function increases across the entire domain, we evaluate the endpoints:\n\nAt the minimum $x = -2$:\n$$f(-2) = 2(-2)^3 + 5 = -11$$\n\nAt the maximum $x = 2$:\n$$f(2) = 2(2)^3 + 5 = 21$$\n\nThus, the range of $f$ is $[-11, 21]$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State final domain and range",
+                      "content": "Now we apply the 'swap' rule to find the properties of $f^{-1}$.\n\n- The **domain of $f^{-1}$** is the range of $f$, which is $-11 \\le x \\le 21$.\n- The **range of $f^{-1}$** is the domain of $f$, which is $-2 \\le f^{-1}(x) \\le 2$."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:26:39.534Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "88b9b43f-8222-4d46-9c39-4c0bc73dda8c",
+        "specification": "A technology company is developing a new software that predicts user engagement based on a cubic function, modeled by $f(x) = x^3 - 2$. They are interested in finding the inverse of this function to understand how changes in engagement levels affect user input.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 28493,
+              "isHl": true,
+              "path": "Functions > AHL 2.7\u2014Composite functions, finding inverse function incl domain restriction > Question Type 3: Finding the inverse function of simple functions",
+              "title": "Question Type 3: Finding the inverse function of simple functions",
+              "labeledAt": "2026-03-07T17:23:40.873Z",
+              "reasoning": "Part (a) asks to find the inverse of a given cubic function, which directly matches finding inverse functions of simple functions.",
+              "confidence": 0.95
+            },
+            {
+              "id": 28475,
+              "isHl": false,
+              "path": "Functions > SL 2.3\u2014Graph of a function > Question Type 1: Graphing functions",
+              "title": "Question Type 1: Graphing functions",
+              "labeledAt": "2026-03-07T17:23:40.873Z",
+              "reasoning": "Part (b) requires sketching the graphs of f(x), its inverse, and y=x on the same axes (graphing functions).",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1472936,
+        "parts": [
+          {
+            "id": 1091915,
+            "content": "Find the inverse function $f^{-1}(x)$ to determine the input value that corresponds to a specific engagement level.",
+            "order": 0,
+            "markscheme": "- Interchange $x$ and $y$: $x = y^3 - 2$ <marks>M1</marks>\n\n- Solve for $y$: $y^3 = x + 2 \\Rightarrow y = \\sqrt[3]{x + 2}$\n\n- State the inverse function: $f^{-1}(x) = \\sqrt[3]{x + 2}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic_swap",
+                  "label": "Algebraic Method (Variable Swap)",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the relationship",
+                      "content": "To find the inverse function, we first represent the given model as an equation. Let's set the function expression equal to $y$:\n\n$$y = x^3 - 2$$",
+                      "highlights": [
+                        {
+                          "text": "f(x) = x^3 - 2",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Interchange variables",
+                      "content": "An inverse function essentially swaps the roles of inputs ($x$) and outputs ($y$). In the **Variable Swap** method, we literally interchange the $x$ and $y$ variables in our equation:\n\n$$x = y^3 - 2$$",
+                      "highlights": [
+                        {
+                          "text": "x = y^3 - 2",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Isolate the cubic term",
+                      "content": "Now, we need to solve for the new $y$. Start by moving the constant $-2$ to the other side of the equation by adding $2$ to both sides:\n\n$$x + 2 = y^3$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Solve for y",
+                      "content": "To isolate $y$, we take the cube root ($\\sqrt[3]{\\dots}$) of both sides of the equation:\n\n$$y = \\sqrt[3]{x + 2}$$\n\nThis represents the rule that undoes the original function's process."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the inverse function",
+                      "content": "Finally, we rewrite our result using the formal inverse function notation $f^{-1}(x)$:\n\n$$f^{-1}(x) = \\sqrt[3]{x + 2}$$\n\nIn the IB markscheme, you earn **1 mark** for correctly swapping the variables and **1 mark** for reaching the final correct expression.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "1. Open the graphing menu.\n2. Plot f1(x) = x^3 - 2.\n3. Plot f2(x) = (x + 2)^(1/3).\n4. Plot f3(x) = x.\n5. Check that f1 and f2 are mirror images across f3."
+                          },
+                          "ti84": {
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = X^3 - 2.\n3. Enter Y2 = cuberoot(X + 2) by pressing [MATH] [4] and then (X + 2).\n4. Enter Y3 = X.\n5. Press [GRAPH] to see the symmetry."
+                          },
+                          "desmos": {
+                            "expression": "y = (x + 2)^{1/3}",
+                            "instructions": "1. Type f(x) = x^3 - 2.\n2. Type g(x) = (x + 2)^(1/3).\n3. Type y = x.\n4. Observe how g(x) is the reflection of f(x)."
+                          },
+                          "description": "You can verify your inverse function by graphing both functions and the line y = x. The graphs should be reflections of each other over the line y = x."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "f^{-1}(x) = \\sqrt[3]{x + 2}",
+                          "location": "data_booklet",
+                          "sectionName": "Markscheme"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "rearrange_and_replace",
+                  "label": "Rearrange and Rename",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Set up the equation",
+                      "content": "To find the inverse function using the **Rearrange and Rename** method, we start by setting the function equal to $y$. This represents the engagement level.\n\n$$y = x^3 - 2$$",
+                      "highlights": [
+                        {
+                          "text": "f(x) = x^3 - 2",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Isolate the cubic term",
+                      "content": "Next, we rearrange the equation to solve for $x$ in terms of $y$. We'll start by adding $2$ to both sides to isolate the $x^3$ term:\n\n$$y + 2 = x^3$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Solve for x",
+                      "content": "To solve for $x$ completely, we need to undo the cubing operation. We take the cube root ($\\sqrt[3]{\\dots}$) of both sides:\n\n$$x = \\sqrt[3]{y + 2}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Rename and state inverse",
+                      "content": "Now we perform the **Rename** step. To express the inverse as a function of $x$, we substitute $f^{-1}(x)$ for $x$ and $x$ for $y$:\n\n$$f^{-1}(x) = \\sqrt[3]{x + 2}$$\n\nThis tells the company exactly what input $x$ is needed for a desired engagement level."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Verify with technology",
+                      "content": "In an exam, you can verify your inverse by picking a value. For example, if we input $x = 2$ into the original function:\n$$f(2) = 2^3 - 2 = 6$$\nOur inverse should map $6$ back to $2$. Let's check: $\\sqrt[3]{6+2} = \\sqrt[3]{8} = 2$. It works!",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "8^(1/3)",
+                            "instructions": "1. Go to the calculation menu.\n2. Find the root function (often under Math or Power keys).\n3. Input the index as 3 and the value as 8.\n4. Execute."
+                          },
+                          "ti84": {
+                            "expression": "root(3, 6+2)",
+                            "instructions": "1. Press [MATH].\n2. Select '4: 3\u221a( '.\n3. Type '6 + 2' inside the root.\n4. Press [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "\\sqrt[3]{6+2}",
+                            "instructions": "1. Type 'cbrt(6+2)' into an expression line.\n2. Observe the result."
+                          },
+                          "description": "Verify the inverse by calculating the cube root of a specific value."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "inverse_operations",
+                  "label": "Logical Reversal of Operations",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Deconstruct the function",
+                      "content": "To find the inverse using the **Logical Reversal of Operations**, we first identify exactly what happens to the input $x$ in the original function $f(x)$. \n\nLooking at the model:\n1.  The input $x$ is first **cubed** ($x^3$).\n2.  Then, **2 is subtracted** from the result ($x^3 - 2$).",
+                      "highlights": [
+                        {
+                          "text": "$f(x) = x^3 - 2$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Plan the logical reversal",
+                      "content": "To \"undo\" the function and find the inverse, we must apply the **opposite operations** in the **reverse order**. Think of it like retracing your steps to get back home!\n\n*   The last operation was subtracting 2, so the first step of our inverse is to **add 2**.\n*   The first operation was cubing, so the second step of our inverse is to take the **cube root**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Construct the inverse function",
+                      "content": "Now we build the formula for $f^{-1}(x)$ following our plan:\n\n1. Start with the new input $x$.\n2. Add 2: \n$$x + 2$$\n3. Take the cube root of the entire result:\n$$\\sqrt[3]{x + 2}$$\n\nIn an IB exam, you earn the **M1** mark for showing the algebraic relationship between $x$ and $y$, which this logical process effectively does by isolating the operations."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "The inverse function is:\n\n$$f^{-1}(x) = \\sqrt[3]{x + 2}$$\n\nThis represents the input value needed for any given engagement level $x$. Making sure you use the correct notation $f^{-1}(x)$ is essential for the **A1** mark.",
+                      "highlights": [
+                        {
+                          "text": "Find the inverse function $f^{-1}(x)$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Verify with technology",
+                      "content": "A great way to check your work is to graph both functions. The graph of a function and its inverse are always reflections of each other over the line $y = x$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "instructions": "1. Go to the Graph menu.\n2. Input f1(x) = x^3 - 2.\n3. Input f2(x) = root(x + 2, 3).\n4. Input f3(x) = x to see the line of symmetry."
+                          },
+                          "ti84": {
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = X^3 - 2.\n3. Enter Y2 = (X + 2)^(1/3).\n4. Enter Y3 = X.\n5. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "y = \\sqrt[3]{x+2}",
+                            "instructions": "1. Type y = x^3 - 2.\n2. Type y = (x + 2)^(1/3).\n3. Type y = x to observe the symmetry."
+                          },
+                          "description": "Graph the original function and the inverse to see the reflection over y=x."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:24:31.796Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1091916,
+            "content": "Sketch the graph of $f(x)$, $f^{-1}(x)$, and the line $y = x$ on the same axes to visualize the relationship between user engagement and input.\n\n![Image](https://pub-images.revisiondojo.com/plots/f8af6153-7a59-47aa-8881-bfeeddc26597.png)",
+            "order": 1,
+            "markscheme": "The sketch includes:\n\n- Correct shapes of $f(x)$ and $f^{-1}(x)$ intersecting on the line $y=x$ <marks>A1</marks>\n\n- Correct position relative to $y=x$ showing reflection symmetry <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "900f356a-f758-4168-8ec4-f3d68d35b4e2",
+        "specification": "A delivery service is testing the efficiency of a ramp for loading packages onto delivery trucks. The ramp is inclined at an angle of $35^\\circ$ and is $10\\text{ m}$ long.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 28509,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 1: Using SOH CAH TOA to find one side length given an angle",
+              "title": "Question Type 1: Using SOH CAH TOA to find one side length given an angle",
+              "labeledAt": "2026-03-07T17:23:49.830Z",
+              "reasoning": "Parts (b) and (c) involve a right-triangle ramp model and using SOHCAHTOA to find the vertical height (opposite) from the ramp length (hypotenuse) and given angle.",
+              "confidence": 0.84
+            },
+            {
+              "id": 64590,
+              "isHl": false,
+              "path": "Geometry and Trigonometry > SL 3.2\u20142d and 3d trig > Question Type 2: Using SOH CAH TOA to find the angle given two sides",
+              "title": "Question Type 2: Using SOH CAH TOA to find the angle given two sides",
+              "labeledAt": "2026-03-07T17:23:49.830Z",
+              "reasoning": "Part (d) resolves weight into components along the ramp using trigonometric ratios, which involves determining a component/side relative to the given angle (often via sine/cosine relationships).",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1488160,
+        "parts": [
+          {
+            "id": 1115168,
+            "content": "Draw a diagram of the ramp showing the slope and label the vertical rise and horizontal run.",
+            "order": 1,
+            "markscheme": "- Sketch a right-angled triangle showing a hypotenuse of $10\\text{ m}$ and an angle of $35^\\circ$ <marks>A1</marks>\n- Label the vertical rise (opposite side) and horizontal run (adjacent side) correctly <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "geometric_sketch",
+                  "label": "Geometric Sketch",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Visualize the ramp",
+                      "content": "To start our geometric sketch, we need to translate the words into a shape. A ramp creates a slope between the ground and a higher point, which naturally forms a **right-angled triangle**. \n\nIn this scenario:\n*   The **length of the ramp** represents the distance someone travels along the slope, which is the **hypotenuse**.\n*   The **angle of inclination** is the angle between the ground (horizontal) and the ramp.",
+                      "highlights": [
+                        {
+                          "text": "inclined at an angle of 35^\\circ",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "10\\text{ m} long",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Draw the basic triangle",
+                      "content": "Draw a right-angled triangle where:\n1.  The horizontal base represents the ground.\n2.  The vertical side represents the height of the truck/loading dock.\n3.  The slanted line (hypotenuse) connects them, representing the ramp itself.\n\nMake sure to include the right-angle symbol ($\\llcorner$) where the horizontal and vertical lines meet."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Add known values",
+                      "content": "Now, we place the specific measurements given in the question onto our sketch:\n*   Label the slanted side (hypotenuse) as **$10\\text{ m}$**.\n*   Label the angle between the horizontal base and the hypotenuse as **$35^\\circ$**.",
+                      "highlights": [
+                        {
+                          "text": "Sketch a right-angled triangle showing a hypotenuse of 10\\text{ m} and an angle of 35^\\circ",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Label the components",
+                      "content": "Finally, we need to identify the specific parts requested by the question:\n*   The **Vertical Rise** is the side opposite the $35^\\circ$ angle.\n*   The **Horizontal Run** is the side adjacent to the $35^\\circ$ angle (the base).\n\nYour final diagram should look like this:\n\n$$\\begin{aligned} \\text{Hypotenuse (Ramp)} &= 10\\text{ m} \\\\ \\text{Angle of Elevation} &= 35^\\circ \\\\ \\text{Vertical Side} &= \\text{Vertical Rise} \\\\ \\text{Horizontal Side} &= \\text{Horizontal Run} \\end{aligned}$$\n\nThis earns you both marks: one for the correct triangle setup and one for the labels!",
+                      "highlights": [
+                        {
+                          "text": "label the vertical rise and horizontal run",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:23:53.091Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1115169,
+            "content": "Calculate the height of the ramp at its highest point.",
+            "order": 2,
+            "markscheme": "- Substitute the given values into the sine formula: $\\text{height} = 10 \\sin(35^\\circ)$ <marks>M1</marks>\n- Calculate the final height: $5.74\\text{ m}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1115170,
+            "content": "If a package has a mass of $50\\text{ kg}$, find the gravitational force component acting along the ramp (using trigonometry).",
+            "order": 3,
+            "markscheme": "- Calculate the weight of the package: $W = 50 \\times 9.81 = 490.5\\text{ N}$ <marks>A1</marks>\n- Substitute the weight into the sine component formula: $F = 490.5 \\sin(35^\\circ)$ <marks>M1</marks>\n- Calculate the final force: $281\\text{ N}$ <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1115171,
+            "content": "If friction is introduced on the ramp, explain how the angle of the slope affects the total force needed to move the package upward.",
+            "order": 4,
+            "markscheme": "- State that a steeper angle increases the component of gravity acting down the slope ($mg \\sin\\theta$) <marks>A1</marks>\n- State that a steeper angle reduces the normal force and thus decreases the frictional force <marks>A1</marks>\n- Conclude that, for typical coefficients of friction, the increase in the gravitational component dominates, requiring a greater total force to move the package upward <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "component_analysis",
+                  "label": "Force Component Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the total force",
+                      "content": "To move a package up a ramp at a constant speed, the total applied force must balance two main opposing forces: the component of the package's weight acting down the slope and the frictional force resisting the motion.\n\n$$F_{\\text{total}} = F_{\\text{gravity}} + F_{\\text{friction}}$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze the gravity component",
+                      "content": "The component of the package's weight acting parallel to the slope is given by $mg \\sin\\theta$. \n\nAs the angle of the slope $\\theta$ increases (becomes steeper), the value of $\\sin\\theta$ also increases. This means that a steeper ramp significantly increases the amount of gravity you have to fight against to push the package upward.",
+                      "highlights": [
+                        {
+                          "text": "steeper angle increases the component of gravity acting down the slope ($mg \\sin\\theta$)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the friction component",
+                      "content": "Friction depends on the normal force (how hard the package is pressed against the ramp), which is calculated as $mg \\cos\\theta$. \n\nAs the angle $\\theta$ increases, the value of $\\cos\\theta$ decreases. This results in a smaller normal force, which in turn reduces the frictional force. This is why it is \"easier\" to slide things on very steep surfaces\u2014there is less grip!",
+                      "highlights": [
+                        {
+                          "text": "steeper angle reduces the normal force and thus decreases the frictional force",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Determine the net effect",
+                      "content": "Now we have two opposing trends: gravity is pulling harder ($mg \\sin\\theta$ increases), while friction is pushing back less ($mg \\cos\\theta$ decreases).\n\nIn almost all practical scenarios, the increase in the gravitational component is much larger than the decrease in friction. Therefore, the total force required to move the package upward increases as the ramp becomes steeper.",
+                      "highlights": [
+                        {
+                          "text": "increase in the gravitational component dominates, requiring a greater total force to move the package upward",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "trigonometric_analysis",
+                  "label": "Trigonometric Function Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the force function",
+                      "content": "To move the package upward at a constant speed, the total applied force $F$ must overcome both the component of gravity pulling it down the slope and the force of friction acting against the motion. We can model this using the equation:\n\n$$F = mg(\\sin\\theta + \\mu \\cos\\theta)$$\n\nWhere:\n- $mg \\sin\\theta$ represents the gravitational force acting down the ramp.\n- $\\mu mg \\cos\\theta$ represents the frictional force (since friction $f = \\mu R$ and the normal force $R = mg \\cos\\theta$)."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze the gravitational component",
+                      "content": "First, let's look at the term $\\sin\\theta$. In the domain $0^\\circ < \\theta < 90^\\circ$, the sine function is **increasing**. \n\nAs the slope becomes steeper (as $\\theta$ increases), the value of $\\sin\\theta$ increases, which means the component of gravity pulling the package down the ramp ($mg \\sin\\theta$) also increases."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the frictional component",
+                      "content": "Next, let's look at the term $\\cos\\theta$. In the same domain $0^\\circ < \\theta < 90^\\circ$, the cosine function is **decreasing**. \n\nAs the angle $\\theta$ increases, the normal force ($mg \\cos\\theta$) decreases. Because friction is proportional to the normal force, the frictional force ($\\mu mg \\cos\\theta$) actually decreases as the ramp gets steeper."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Compare the rates of change",
+                      "content": "We have two competing effects: gravity is increasing while friction is decreasing. However, for most real-world scenarios (where the coefficient of friction $\\mu$ is relatively small, typically less than 1), the **increase** in the sine component is much more significant than the **decrease** in the cosine component.\n\nTherefore, as the angle $\\theta$ increases, the total force $F$ required to move the package upward will increase.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sin(x) + 0.3*cos(x)",
+                            "instructions": "1. Go to the Graph menu.\n2. Input the function f(x) = sin(x) + 0.3cos(x).\n3. Ensure your calculator is in Degree mode.\n4. Observe that the graph has a positive gradient for the relevant angles."
+                          },
+                          "ti84": {
+                            "expression": "sin(X) + 0.3*cos(X)",
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = sin(X) + 0.3*cos(X).\n3. Press [WINDOW] and set Xmin=0, Xmax=90, Ymin=0, Ymax=1.5.\n4. Press [GRAPH] to see the upward trend."
+                          },
+                          "desmos": {
+                            "expression": "y = \\sin(x) + 0.3\\cos(x)",
+                            "instructions": "1. Type y = sin(x) + 0.3cos(x) into the expression bar.\n2. Click the wrench icon (Settings) and select 'Degrees'.\n3. Set the x-axis range from 0 to 90.\n4. Observe the curve increasing as x increases."
+                          },
+                          "description": "You can visualize this by graphing the function $y = \\sin(x) + 0.3\\cos(x)$ (assuming a friction coefficient of 0.3) to see how the total force factor changes with the angle."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Conclusion",
+                      "content": "Based on our trigonometric analysis:\n1. A steeper angle **increases** the gravitational component ($mg \\sin\\theta$).\n2. A steeper angle **decreases** the frictional component ($\\mu mg \\cos\\theta$) by reducing the normal force.\n3. The increase in gravity dominates, so the **total force needed increases** as the slope gets steeper."
+                    }
+                  ]
+                },
+                {
+                  "id": "extreme_cases",
+                  "label": "Extreme Case Comparison",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the forces",
+                      "content": "To move the package upward, the total force applied must overcome two main resistances: \n1. The component of the package's weight acting down the slope ($mg \\sin\\theta$).\n2. The frictional force ($F_f = \\mu R$), which depends on the normal reaction force ($R = mg \\cos\\theta$).\n\nWe can analyze the \"extreme cases\" of a flat surface ($0^\\circ$) and a vertical wall ($90^\\circ$) to understand the overall trend."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze the horizontal extreme",
+                      "content": "Consider the extreme case where the ramp is perfectly horizontal ($0^\\circ$):\n- The component of weight down the slope is zero since $\\sin(0^\\circ) = 0$.\n- The normal force is at its maximum ($mg$), making the frictional force at its maximum.\n- In this case, the total force needed is purely to overcome friction.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sin(0) and cos(0)",
+                            "instructions": "Set to degrees. Enter sin(0) and cos(0)."
+                          },
+                          "ti84": {
+                            "expression": "sin(0) and cos(0)",
+                            "instructions": "Ensure the calculator is in DEGREE mode. Press [SIN] [0] [ENTER] and [COS] [0] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "sin(0), cos(0)",
+                            "instructions": "Type sin(0) and cos(0) (ensure degree mode is active)."
+                          },
+                          "description": "Verify the sine and cosine values for 0 degrees."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the vertical extreme",
+                      "content": "Now, consider the extreme case where the ramp is vertical ($90^\\circ$):\n- The normal force becomes zero since $\\cos(90^\\circ) = 0$, meaning friction disappears.\n- The component of weight down the \"slope\" is now the full weight of the package ($mg$) because $\\sin(90^\\circ) = 1$.\n- The force needed is now at its theoretical maximum (the weight of the object).",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "sin(90) and cos(90)",
+                            "instructions": "Enter sin(90) and cos(90)."
+                          },
+                          "ti84": {
+                            "expression": "sin(90) and cos(90)",
+                            "instructions": "Press [SIN] [90] [ENTER] and [COS] [90] [ENTER]."
+                          },
+                          "desmos": {
+                            "expression": "sin(90), cos(90)",
+                            "instructions": "Type sin(90) and cos(90)."
+                          },
+                          "description": "Verify the sine and cosine values for 90 degrees."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Compare the components",
+                      "content": "As we increase the angle from $0^\\circ$ towards $90^\\circ$:\n- The **gravitational component** ($mg \\sin\\theta$) increases rapidly.\n- The **frictional force** decreases because the normal force ($mg \\cos\\theta$) drops.\n\nIn almost all physical scenarios (where the coefficient of friction $\\mu < 1$), the increase in the gravitational pull is much larger than the reduction in friction.",
+                      "highlights": [
+                        {
+                          "text": "Steeper angle increases the component of gravity acting down the slope ($mg \\sin\\theta$)",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "Steeper angle reduces the normal force and thus decreases the frictional force",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final conclusion",
+                      "content": "By comparing our extremes, we see that the force transitions from just friction (at low angles) to the full weight of the package (at high angles). Since weight is the dominant factor, a steeper angle will result in a greater total force required to move the package upward.",
+                      "highlights": [
+                        {
+                          "text": "increase in the gravitational component dominates, requiring a greater total force to move the package upward",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:26:37.964Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "ad6551a1-f9c9-4ceb-8493-80302b46153e",
+        "specification": "A startup's profit $P(x)$ (in thousands of dollars) for selling $x$ units of a product is given by:\n$$P(x) = \\frac{500x}{x^2 + 16}$$",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64548,
+              "isHl": false,
+              "path": "Functions > SL 2.2\u2014Functions, domains, range, graphs > Question Type 4: Finding the domain of more complex functions",
+              "title": "Question Type 4: Finding the domain of more complex functions",
+              "labeledAt": "2026-03-06T13:07:17.403Z",
+              "reasoning": "Part (a) explicitly asks for the domain of a rational profit function, which is a more complex function-domain determination task.",
+              "confidence": 0.86
+            },
+            {
+              "id": 64575,
+              "isHl": false,
+              "path": "Functions > SL 2.6\u2014Modelling skills > Question Type 2: Determining mathematical formulations for contextualized models such as the function, domain, range.",
+              "title": "Question Type 2: Determining mathematical formulations for contextualized models such as the function, domain, range.",
+              "labeledAt": "2026-03-06T13:07:17.403Z",
+              "reasoning": "Part (b) asks for real-world/contextual restrictions on x (units sold), i.e., interpreting/adjusting the mathematical domain to a feasible contextual domain.",
+              "confidence": 0.63
+            },
+            {
+              "id": 28626,
+              "isHl": false,
+              "path": "Calculus > SL 5.1\u2014Introduction to Limits > Question Type 1: Drawing graphs of specific functions to determine their limits at specific places",
+              "title": "Question Type 1: Drawing graphs of specific functions to determine their limits at specific places",
+              "labeledAt": "2026-03-06T13:07:17.403Z",
+              "reasoning": "Part (c) asks for end behavior as x\u21920 and x\u2192\u221e, which is evaluating limits conceptually via graph/end behavior of a specific function.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1457388,
+        "parts": [
+          {
+            "id": 1069703,
+            "content": "Find the domain of the profit function.",
+            "order": 0,
+            "markscheme": "- Recognize that the denominator $x^2 + 16$ is always positive for all real $x$ <marks>R1</marks>\n\n- State the domain: $x \\in \\mathbb{R}$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic_denominator_check",
+                  "label": "Algebraic Denominator Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the domain requirement",
+                      "content": "To find the domain of a rational function like $P(x) = \\frac{500x}{x^2 + 16}$, we must identify any values of $x$ that would make the function undefined. A rational function is undefined when its denominator is equal to zero. \n\nThis concept is part of **Topic 2: Functions** (specifically SL 2.2).",
+                      "highlights": [
+                        {
+                          "text": "Find the domain",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze the denominator algebraically",
+                      "content": "We set the denominator equal to zero to solve for any restricted values of $x$:\n\n$$\\begin{aligned} x^2 + 16 &= 0 \\\\ x^2 &= -16 \\end{aligned}$$",
+                      "highlights": [
+                        {
+                          "text": "x^2 + 16",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Determine real solutions",
+                      "content": "We look for a real number $x$ such that $x^2 = -16$. \n\nSince the square of any real number is always non-negative ($x^2 \\ge 0$), it is impossible for $x^2$ to equal a negative number like $-16$ in the set of real numbers. Therefore, there are no real values of $x$ that make the denominator zero."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Verify using technology",
+                      "content": "You can verify that the denominator has no real roots by attempting to solve the equation or by graphing the denominator function $y = x^2 + 16$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "x^2 + 16 = 0",
+                            "instructions": "1. Go to the Equation/Solver menu.\n2. Select Polynomial and set Degree to 2.\n3. Enter the coefficients: a=1, b=0, c=16.\n4. Solve to find that there are no real roots."
+                          },
+                          "ti84": {
+                            "expression": "x^2 + 16 = 0",
+                            "instructions": "1. Press [APPS] and select 'PlySmlt2'.\n2. Choose 'Polynomial Root Finder'.\n3. Set Order to 2 and press [NEXT].\n4. Enter a=1, b=0, c=16.\n5. Press [SOLVE]. The calculator will show 'No Real Roots' or return complex numbers like '4i'."
+                          },
+                          "desmos": {
+                            "expression": "y = x^2 + 16",
+                            "instructions": "Graph y = x^2 + 16. Observe that the parabola is always above the x-axis, meaning it never equals zero."
+                          },
+                          "description": "Solve the quadratic equation x\u00b2 + 16 = 0 or graph the denominator."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "State the final domain",
+                      "content": "Because the denominator $x^2 + 16$ is always positive for all real values of $x$, there are no restrictions on the input. \n\nThus, the domain is all real numbers:\n$$x \\in \\mathbb{R}$$",
+                      "highlights": [
+                        {
+                          "text": "Recognize that the denominator x^2 + 16 is always positive for all real x",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "State the domain: x \u2208 \u211d",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "graphical_analysis",
+                  "label": "Graphical Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define Domain Graphically",
+                      "content": "The **domain** of a function is the set of all possible input values ($x$) for which the function is defined. \n\nGraphically, we are looking to see if the curve is **continuous** (unbroken) or if there are any **vertical asymptotes** (gaps where the graph shoots to infinity). If a function is defined for every real number, the graph will have no breaks or holes."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Graph the Profit Function",
+                      "content": "To analyze the domain, let's plot the profit function on our graphing calculator. This allows us to see if there are any $x$-values where the function might be undefined.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "f(x) = (500x) / (x^2 + 16)",
+                            "instructions": "1. Go to the Graphing menu.\n2. Enter f1(x) = (500x) / (x^2 + 16).\n3. Adjust the viewing window to see the behavior for both negative and positive x.\n4. Press Draw/Graph."
+                          },
+                          "ti84": {
+                            "expression": "y = (500x) / (x^2 + 16)",
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = (500X) / (X^2 + 16).\n3. Press [WINDOW] and set Xmin = -20, Xmax = 20, Ymin = -80, Ymax = 80.\n4. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "P(x) = 500x / (x^2 + 16)",
+                            "instructions": "Type the function into the expression bar and observe the smooth curve across the entire x-axis."
+                          },
+                          "description": "Plot the profit function to observe its behavior."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "P(x) = \\frac{500x}{x^2 + 16}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the Curve",
+                      "content": "Looking at the graph, we observe that the curve is smooth and continuous. There are no vertical lines (asymptotes) where the graph breaks or disappears.\n\nIn a rational function like this, an undefined point would only occur if the denominator was equal to zero. Because the graph has no vertical asymptotes, we can conclude that the denominator $$x^2 + 16$$ is never zero for any real value of $x$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the Final Domain",
+                      "content": "Since the graph is defined for every value on the $x$-axis, the domain is the set of all real numbers. \n\nIn IB notation, we write this as:\n$$x \\in \\mathbb{R}$$"
+                    }
+                  ]
+                },
+                {
+                  "id": "inequality_reasoning",
+                  "label": "Inequality Reasoning",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the domain restriction",
+                      "content": "To find the domain of the profit function $P(x)$, we need to identify all values of $x$ for which the function is defined. For a rational function (a fraction), the function is undefined only when the denominator is equal to zero.\n\nWe are looking at the function:\n$$P(x) = \\frac{500x}{x^2 + 16}$$",
+                      "highlights": [
+                        {
+                          "text": "Find the domain",
+                          "location": "specification"
+                        },
+                        {
+                          "text": "P(x) = \\frac{500x}{x^2 + 16}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply inequality reasoning",
+                      "content": "Let's analyze the denominator, $x^2 + 16$, to see if it can ever be zero. \n\nWe know that for any real number $x$, the square of that number is always greater than or equal to zero:\n$$x^2 \\ge 0$$\n\nIf we add $16$ to both sides of this inequality, we get:\n$$x^2 + 16 \\ge 16$$\n\nBecause the smallest possible value for the expression $x^2 + 16$ is $16$, it can never be equal to zero.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "x^2 + 16",
+                            "instructions": "Graph the function y = x\u00b2 + 16 and find the local minimum point."
+                          },
+                          "ti84": {
+                            "expression": "x^2 + 16",
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = X\u00b2 + 16.\n3. Press [GRAPH].\n4. Press [2nd] [TRACE] and select '3: minimum'.\n5. Follow the prompts for Left Bound, Right Bound, and Guess."
+                          },
+                          "desmos": {
+                            "expression": "y = x^2 + 16",
+                            "instructions": "Type y = x^2 + 16 and observe that the vertex is at (0, 16), meaning the y-value never drops below 16."
+                          },
+                          "description": "You can verify the minimum value of the denominator by graphing or checking the vertex of the quadratic."
+                        }
+                      ],
+                      "highlights": [
+                        {
+                          "text": "x^2 + 16",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "State the final domain",
+                      "content": "Since the denominator is always positive ($x^2 + 16 > 0$) and never zero for any real value of $x$, there are no restrictions on the domain. \n\nTherefore, the domain is all real numbers:\n$$x \\in \\mathbb{R}$$\n\nIn the context of the markscheme, recognizing that the denominator is always positive earns the **R1** mark, and stating the domain correctly earns the **A1** mark."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:24:52.193Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1069704,
+            "content": "Discuss any real-world restrictions on the number of units $x$ that can be sold.",
+            "order": 1,
+            "markscheme": "- State that the number of units must be non-negative: $x \\ge 0$ <marks>A1</marks>\n\n- State that the number of units must be an integer <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid practical constraints such as production capacity or market demand in place of the integer constraint.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "variable_properties",
+                  "label": "Variable Properties Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the variable",
+                      "content": "To determine real-world restrictions, we first look at what the variable $x$ represents in the context of the problem. \n\nThe question defines $x$ as the **number of units of a product sold**. This physical context determines the mathematical properties that $x$ must follow."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Apply non-negativity property",
+                      "content": "In a real-world business scenario, you cannot sell a negative number of products. Therefore, the variable $x$ must be greater than or equal to zero.\n\n$$x \\ge 0$$\n\nThis is a standard domain restriction for any model representing physical quantities or sales counts.",
+                      "highlights": [
+                        {
+                          "text": "State that the number of units must be non-negative: $x \\ge 0$",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Identify discrete property",
+                      "content": "Most physical products are sold as individual, whole items. We cannot sell half a unit or a fraction of a unit (like $2.5$ units) in a standard retail context. \n\nBecause of this, $x$ must be a **discrete variable**, meaning it can only take on **integer** values ($0, 1, 2, \\dots$).",
+                      "highlights": [
+                        {
+                          "text": "State that the number of units must be an integer",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Summarize real-world domain",
+                      "content": "Combining these two properties, we conclude that the valid values for $x$ are non-negative integers. \n\nWhile the mathematical function $P(x) = \\frac{500x}{x^2 + 16}$ allows us to plug in any number, the **real-world model** is only valid for:\n\n$$x \\in \\{0, 1, 2, 3, \\dots \\}$$\n\nThis demonstrates how physical constraints limit the mathematical domain of a function."
+                    }
+                  ]
+                },
+                {
+                  "id": "business_context",
+                  "label": "Business Context Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define Domain for Sales",
+                      "content": "In a real-world business context, $x$ represents the number of units sold. It is impossible to sell a negative amount of a product. Therefore, the first restriction is that $x$ must be non-negative.\n\n$$x \\ge 0$$",
+                      "highlights": [
+                        {
+                          "text": "x",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Identify Discrete Variable Constraints",
+                      "content": "When selling physical goods, units are typically sold as individual, whole items. A startup cannot sell a fraction of a unit (like $0.5$ units). This means $x$ must be an **integer**."
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Consider Maximum Production Capacity",
+                      "content": "A startup has limited resources, such as factory space, machinery, or labor. There is a physical limit to how many units they can actually produce and sell in a given period. This is known as the **maximum production capacity**.\n\nIf the startup can only produce $1000$ units, then $x \\le 1000$."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Evaluate Total Market Demand",
+                      "content": "Even if production is unlimited, the number of sales is restricted by the **total market demand**. There are only a finite number of customers interested in the product. Once the market is saturated, $x$ cannot increase further, regardless of the profit function's theoretical values."
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary of Constraints",
+                      "content": "To earn full marks on this question, you should state that:\n1. The number of units must be non-negative ($x \\ge 0$).\n2. The number of units must be a whole number (integer) OR limited by factors like production capacity or market demand."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:25:46.259Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1069705,
+            "content": "Analyze the behavior of $P(x)$ as $x \\to 0$ and as $x \\to \\infty$.",
+            "order": 2,
+            "markscheme": "- As $x \\to 0$, the numerator approaches 0 and the denominator approaches 16\n- State the limit as $x \\to 0$: $P(x) \\to 0$ <marks>A1</marks>\n\n- As $x \\to \\infty$, using limit laws: $\\lim_{x \\to \\infty} \\frac{500x}{x^2 + 16} = \\lim_{x \\to \\infty} \\frac{500}{x + \\frac{16}{x}} = 0$\n- State the limit as $x \\to \\infty$: $P(x) \\to 0$ <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d509e807-9e5b-45e7-83bd-21fa90fac68a",
+        "specification": "A car's velocity $v(t)$ (in m/s) as a function of time $t$ is modelled by:\n$$v(t) = \\frac{120t}{t^2 - 25}$$",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 289,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 64548,
+              "isHl": false,
+              "path": "Functions > SL 2.2\u2014Functions, domains, range, graphs > Question Type 4: Finding the domain of more complex functions",
+              "title": "Question Type 4: Finding the domain of more complex functions",
+              "labeledAt": "2026-03-07T17:26:11.674Z",
+              "reasoning": "Part (a) asks for the domain of a rational function and parts (b)-(c) interpret restrictions/undefined points; this matches finding domains of more complex functions (e.g., excluding denominator zeros).",
+              "confidence": 0.92
+            },
+            {
+              "id": 28626,
+              "isHl": false,
+              "path": "Calculus > SL 5.1\u2014Introduction to Limits > Question Type 1: Drawing graphs of specific functions to determine their limits at specific places",
+              "title": "Question Type 1: Drawing graphs of specific functions to determine their limits at specific places",
+              "labeledAt": "2026-03-07T17:26:11.674Z",
+              "reasoning": "Part (c) describes behavior as t approaches values where the function is undefined, i.e., limits near vertical asymptotes, which aligns with determining limits from graphs/behavior near discontinuities.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1472297,
+        "parts": [
+          {
+            "id": 1091099,
+            "content": "Find the domain of the function $v(t)$.",
+            "order": 0,
+            "markscheme": "- Identify that the denominator cannot be zero: $t^2 - 25 \\neq 0$ <marks>M1</marks>\n- State the domain: $t \\in \\mathbb{R}, t \\neq \\pm 5$ <marks>A1</marks>\n\n2 marks total\n\n<note>Accept $t \\ge 0, t \\neq 5$ as the domain given the physical context of time.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1091100,
+            "content": "Explain the physical significance of any restriction in the domain.",
+            "order": 1,
+            "markscheme": "- Identify the values where the function is undefined: $t = \\pm 5$ (or $t = 5$) <marks>A1</marks>\n- Explain the physical meaning: These values represent times when the velocity implies an infinite magnitude, which is physically impossible <marks>R1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "algebraic_analysis",
+                  "label": "Algebraic Asymptotic Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the mathematical restriction",
+                      "content": "To find the restrictions in the domain of the function, we look for values of $t$ that make the function undefined. In a rational function, this occurs when the denominator is equal to zero.\n\nFrom the given model:\n$$v(t) = \\frac{120t}{t^2 - 25}$$\n\nWe need to find the values of $t$ where:\n$$t^2 - 25 = 0$$",
+                      "highlights": [
+                        {
+                          "text": "v(t) = \\frac{120t}{t^2 - 25}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Solve for time t",
+                      "content": "We solve the quadratic equation to find the specific time values that are restricted:\n\n$$\\begin{aligned} t^2 - 25 &= 0 \\\\ t^2 &= 25 \\\\ t &= \\pm 5 \\end{aligned}$$\n\nSince $t$ typically represents time in physical models, $t = 5$ is the relevant positive value where the function is undefined.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "x^2 - 25 = 0",
+                            "instructions": "Use the polynomial root finder or equation solver tool to solve x^2 - 25 = 0."
+                          },
+                          "ti84": {
+                            "expression": "x^2 - 25 = 0",
+                            "instructions": "Press [MATH], scroll to 'Solver' (or 'Numeric Solver'), enter the equation 0 = x^2 - 25, and solve for x."
+                          },
+                          "desmos": {
+                            "expression": "y = x^2 - 25",
+                            "instructions": "Type y = x^2 - 25 and look for the x-intercepts on the graph."
+                          },
+                          "description": "Solving the quadratic equation to find the roots of the denominator."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Explain physical significance",
+                      "content": "Mathematically, the values $t = 5$ and $t = -5$ create **vertical asymptotes**. \n\nIn a physical context, as $t$ approaches 5 seconds, the denominator approaches zero, which causes the velocity $v(t)$ to approach infinity ($\\infty$). \n\nAn **infinite velocity** is physically impossible for a car. Therefore, the domain must be restricted to exclude these values to keep the model realistic."
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "State the final answer",
+                      "content": "To earn full marks, you must identify the specific values and explain the reason:\n\n1.  **Values:** The function is undefined at $t = 5$ (and $t = -5$).\n2.  **Reason:** At these times, the velocity would be infinite, which is physically impossible."
+                    }
+                  ]
+                },
+                {
+                  "id": "graphical_approach",
+                  "label": "Graphical Analysis",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the restriction",
+                      "content": "To find restrictions in the domain of a rational function like $v(t) = \\frac{120t}{t^2 - 25}$, we look for values of $t$ that would cause a division by zero. Mathematically, this occurs when the denominator equals zero:\n\n$$t^2 - 25 = 0$$\n\nSolving this gives $t = 5$ and $t = -5$. Since time $t$ usually represents values $t \\ge 0$ in a physical context, we focus on $t = 5$.",
+                      "highlights": [
+                        {
+                          "text": "v(t) = \\frac{120t}{t^2 - 25}",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Visualize with GDC",
+                      "content": "We can use a Graphing Display Calculator (GDC) to see what happens to the velocity as $t$ approaches 5. By plotting the function, we can observe the behavior of the graph near the restriction.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "f(x) = (120x)/(x^2 - 25)",
+                            "instructions": "1. Open the Graphing app.\n2. Input f(x) = (120x) / (x^2 - 25).\n3. Adjust the view window to focus on x-values between 0 and 10."
+                          },
+                          "ti84": {
+                            "expression": "y = (120x)/(x^2 - 25)",
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = (120X) / (X^2 - 25).\n3. Press [GRAPH].\n4. Use [ZOOM] [6] for a standard window, then adjust with [WINDOW] to see X from 0 to 10."
+                          },
+                          "desmos": {
+                            "expression": "v(t) = \\frac{120t}{t^2 - 25}",
+                            "instructions": "1. Type the function into the expression bar.\n2. Observe the break in the graph at x = 5."
+                          },
+                          "description": "Graph the velocity function to identify vertical asymptotes."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Identify the vertical asymptote",
+                      "content": "On your GDC, you will notice that the graph shoots up towards infinity as $t$ gets closer to 5 from the left. This indicates a **vertical asymptote**. \n\n$$\\lim_{t \\to 5^-} v(t) = \\infty \\text{ (or } -\\infty \\text{ depending on the direction)}$$\n\nAt exactly $t = 5$, the calculator will likely show an error or a blank space in the table of values because the function is undefined there.",
+                      "highlights": [
+                        {
+                          "text": "Identify the values where the function is undefined: t = \\pm 5 (or t = 5)",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Interpret the physical significance",
+                      "content": "In physics, velocity represents the speed and direction of an object. As $t$ approaches 5, the model predicts that the car's velocity becomes infinitely large. \n\nBecause it is physically impossible for a real-world object like a car to reach an infinite speed, the domain must be restricted to exclude $t = 5$. This tells us that the model is no longer valid as the time approaches this value.",
+                      "highlights": [
+                        {
+                          "text": "Explain the physical meaning: These values represent times when the velocity implies an infinite magnitude, which is physically impossible",
+                          "location": "specification"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:25:39.417Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1091101,
+            "content": "Describe what happens to the speed of the car as $t$ approaches the values where the function is undefined.",
+            "order": 2,
+            "markscheme": "- State that the speed (magnitude of velocity) approaches infinity: $|v(t)| \\to \\infty$ as $t \\to 5$ <marks>A1</marks>\n- Comment on the validity: The model becomes unrealistic at these points as infinite speed is impossible <marks>R1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "analytical",
+                  "label": "Analytical Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify where function is undefined",
+                      "content": "To find where the function is undefined, we need to solve for the roots of the denominator. A rational function is undefined when its denominator equals zero.\n\n$$\\begin{aligned} t^2 - 25 &= 0 \\\\ t^2 &= 25 \\\\ t &= \\pm 5 \\end{aligned}$$\n\nSince time $t$ represents the duration of the car's journey, we only consider the positive value, $t = 5$.",
+                      "highlights": [
+                        {
+                          "text": "approaches the values where the function is undefined",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Analyze behavior near t = 5",
+                      "content": "Now we analyze the limit of the velocity function $v(t)$ as $t$ approaches 5. \n\nAs $t \\to 5$, the numerator $120t$ approaches $120(5) = 600$, while the denominator $t^2 - 25$ approaches $0$. \n\nWhen a fraction has a non-zero numerator and a denominator that approaches zero, the magnitude of the result grows without bound:\n\n$$\\lim_{t \\to 5} |v(t)| = \\infty$$",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "120 * 5.001 / (5.001^2 - 25)",
+                            "instructions": "Evaluate the expression for a value slightly above 5."
+                          },
+                          "ti84": {
+                            "expression": "120 * 5.001 / (5.001^2 - 25)",
+                            "instructions": "Enter 120 * 5.001 / (5.001^2 - 25) into the home screen."
+                          },
+                          "desmos": {
+                            "expression": "120 * 5.001 / (5.001^2 - 25)",
+                            "instructions": "Type the expression with a value close to 5 to see the large result."
+                          },
+                          "description": "Verify the behavior of the function by testing a value very close to t = 5."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Describe speed and validity",
+                      "content": "Speed is defined as the magnitude of velocity, $|v(t)|$. Based on our limit analysis, as $t$ approaches 5, the speed of the car approaches infinity.\n\nIn a real-world context, this model becomes **unrealistic** at this point because it is physically impossible for a car to reach infinite speed. This indicates a limitation of the mathematical model for times close to $t = 5$."
+                    }
+                  ]
+                },
+                {
+                  "id": "graphical",
+                  "label": "Graphical Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the undefined point",
+                      "content": "A rational function is undefined when its denominator equals zero. For the velocity function $$v(t) = \\frac{120t}{t^2 - 25}$$, we solve for $t$ where the denominator is zero:\n\n$$\\begin{aligned} t^2 - 25 &= 0 \\\\ t^2 &= 25 \\\\ t &= 5 \\end{aligned}$$\n\n(We ignore $t = -5$ because time in this context must be $t \\geq 0$). This tells us we should look closely at what happens as $t$ approaches $5$.",
+                      "highlights": [
+                        {
+                          "text": "function is undefined",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Plot the function",
+                      "content": "Using a Graphing Display Calculator (GDC), we can visualize the behavior of the velocity as it nears $t = 5$. By plotting $y = \\frac{120x}{x^2 - 25}$, we observe a vertical asymptote at $x = 5$.",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "f(x) = (120x) / (x^2 - 25)",
+                            "instructions": "1. Go to the Graph menu.\n2. Enter the function f(x) = (120x) / (x^2 - 25).\n3. Adjust the view window to focus on x = 5 (e.g., x from 0 to 10).\n4. Draw the graph."
+                          },
+                          "ti84": {
+                            "expression": "y = (120x) / (x^2 - 25)",
+                            "instructions": "1. Press [Y=].\n2. Enter Y1 = (120*X) / (X^2 - 25).\n3. Press [WINDOW] and set Xmin=0, Xmax=10, Ymin=-1000, Ymax=1000.\n4. Press [GRAPH]."
+                          },
+                          "desmos": {
+                            "expression": "v(t) = (120t) / (t^2 - 25)",
+                            "instructions": "1. Type v(t) = (120t) / (t^2 - 25) into the expression bar.\n2. Zoom in near the vertical line t = 5."
+                          },
+                          "description": "Plot the velocity function to observe the asymptote."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Describe the speed",
+                      "content": "From the graph, we see that as $t$ gets closer to $5$ from the left, the velocity decreases toward $-\\infty$. As $t$ approaches $5$ from the right, it increases toward $+\\infty$. \n\nSince **speed** is the magnitude (absolute value) of velocity, we can say that as $t \\to 5$, the speed approaches infinity:\n\n$$\\text{Speed} = |v(t)| \\to \\infty$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Comment on model validity",
+                      "content": "Finally, we must evaluate if this makes sense. In a real-world scenario, it is physically impossible for a car to reach infinite speed. Therefore, the mathematical model becomes **unrealistic** or **invalid** as $t$ approaches $5$ seconds."
+                    }
+                  ]
+                },
+                {
+                  "id": "numerical",
+                  "label": "Numerical Approach",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the undefined point",
+                      "content": "A function is undefined when its denominator equals zero. For our velocity function, this happens when:\n\n$$t^2 - 25 = 0$$\n\nSolving for $t$, we get $t = 5$ (since time $t$ must be positive). We want to see what happens to the car's speed as we get closer and closer to 5 seconds. This is a concept explored in **Topic 5.1: Introduction to Limits**.",
+                      "highlights": [
+                        {
+                          "text": "as t approaches the values where the function is undefined",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Test values approaching 5",
+                      "content": "Let's use a numerical approach. We will substitute values for $t$ that are very close to 5 from both sides and observe the magnitude of the velocity (the speed).\n\n**Approaching from the left ($t < 5$):**\n- At $t = 4.9$: $v(4.9) \\approx -593.9$ m/s\n- At $t = 4.99$: $v(4.99) \\approx -5994.0$ m/s\n\n**Approaching from the right ($t > 5$):**\n- At $t = 5.1$: $v(5.1) \\approx 605.9$ m/s\n- At $t = 5.01$: $v(5.01) \\approx 6006.0$ m/s",
+                      "calculator": [
+                        {
+                          "gdc": {
+                            "expression": "f1(4.99)",
+                            "instructions": "1. Go to the Graph menu and enter f1(x) = (120x) / (x^2 - 25).\n2. Use the Table tool (ctrl+T) or go to the Calculate screen to evaluate the function at x = 4.99 and x = 5.01."
+                          },
+                          "ti84": {
+                            "expression": "(120 * 4.99) / (4.99^2 - 25)",
+                            "instructions": "1. Press [Y=] and enter Y1 = (120X) / (X^2 - 25).\n2. Press [2nd] [WINDOW] (TBLSET) and set Indpnt to 'Ask'.\n3. Press [2nd] [GRAPH] (TABLE) and enter 4.9, 4.99, 5.01, 5.1."
+                          },
+                          "desmos": {
+                            "expression": "v(4.99)",
+                            "instructions": "1. Type v(t) = (120t) / (t^2 - 25).\n2. Create a table or type v(4.99) and v(5.01) to see the results."
+                          },
+                          "description": "Calculate function values near t = 5 to observe the trend."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Analyze the speed trend",
+                      "content": "As $t$ gets closer to 5, the denominator $(t^2 - 25)$ gets closer to 0. This causes the value of the fraction to grow larger and larger without bound.\n\nIn mathematical terms, as $t \\to 5$, the speed (the magnitude of velocity) approaches infinity:\n\n$$|v(t)| \\to \\infty$$"
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Evaluate model validity",
+                      "content": "Finally, we must comment on whether this makes sense in the real world. \n\nIn a real-life scenario, a car cannot reach an infinite speed. This tells us that the mathematical model becomes **unrealistic** or invalid as $t$ gets very close to 5 seconds."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2025-12-21T05:26:41.331Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "5",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 13615,
+      "title": "SL 2.2\u2014Functions, domains, range, graphs",
+      "slug": "ai-sl-2-2-functions-domains-range-graphs",
+      "parentTopicId": 10459
+    },
+    "subject": {
+      "id": 289,
+      "title": "Mathematics Applications & Interpretation (AI)",
+      "slug": "ib-math-ai",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "5",
+      "byQuestion": {}
+    }
+  }
+}

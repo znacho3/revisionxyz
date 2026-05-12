@@ -1,3 +1,3091 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:16b10bb9ec127033d471712cef71e2271dfd0bedfcc34e8254d88e9bb93744de
-size 151625
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0a8b1ba6-ece7-4da0-ba9e-4816d2949232",
+        "specification": "A triathlete monitors their weekly training volume and average resting heart rate (RHR) over a four-week periodized block, as shown in the table below.\n\n| Week | Weekly Training Volume (hours) | Average Resting Heart Rate (bpm) |\n| :--- | :--- | :--- |\n| 1 | 10 | 52 |\n| 2 | 14 | 54 |\n| 3 | 18 | 57 |\n| 4 | 7 | 51 |\n\nWhich statement best explains the decrease in resting heart rate observed in Week 4 after the reduced training volume?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-0a8b1ba6-ece7-4da0-ba9e-4816d2949232-1771953315939",
+            "generatedAt": "2026-02-25T08:03:58.883Z",
+            "sourceRevisionId": 1420020
+          },
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:19:21.356Z",
+            "resultId": 30291
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:18:08.512Z",
+              "reasoning": "Week 4 shows a reduced training load (deload/taper) with resting heart rate dropping below the initial baseline, indicating recovery and a rebound consistent with supercompensation and recovery strategies.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T05:18:08.512Z",
+              "reasoning": "The rising RHR across weeks 1\u20133 alongside increasing volume reflects accumulated fatigue; the subsequent drop in week 4 aligns with reduced fatigue after load reduction.",
+              "confidence": 0.63
+            },
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:18:08.512Z",
+              "reasoning": "The question is framed around a periodized training block and interpreting outcomes of load manipulation (increase then deload), which relates to training design principles.",
+              "confidence": 0.44
+            }
+          ]
+        },
+        "currentRevisionId": 1695424,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936333,
+            "content": "The athlete is experiencing the negative effects of the principle of reversibility due to insufficient training stimulus.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Week 4 shows a decreased RHR alongside a planned reduction in training volume (taper/deload), which is more consistent with recovery/supercompensation than detraining/reversibility."
+          },
+          {
+            "id": 4936334,
+            "content": "The athlete is successfully recovering from accumulated fatigue to facilitate the process of supercompensation.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Reduced training volume in Week 4 following progressive overload (Weeks 1\u20133) allows recovery from accumulated fatigue; the accompanying drop in RHR is consistent with a positive adaptation during taper/deload and supercompensation."
+          },
+          {
+            "id": 4936335,
+            "content": "The athlete has reached a performance plateau because the training program lacked sufficient variety in exercise mode.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "A performance plateau is not directly evidenced by resting heart rate data, and the key observed change is a fall in RHR with reduced volume, suggesting recovery rather than lack of variety."
+          },
+          {
+            "id": 4936336,
+            "content": "The athlete is demonstrating signs of chronic overtraining syndrome as the resting heart rate remains above baseline.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "In Week 4 the RHR (51 bpm) is below Week 1 (52 bpm), so it is not remaining above baseline; this does not support chronic overtraining syndrome."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0f45e5cc-f9f9-40c6-9274-11d385c79230",
+        "specification": "The training log for a cross-country runner shows the following adjustments over an eight-week period:\n\n| Component | Month 1 | Month 2 |\n| :--- | :--- | :--- |\n| Frequency | 3 days/week | 5 days/week |\n| Intensity | $70\\%$ Max HR | $85\\%$ Max HR |\n| Time | 20 minutes | 45 minutes |\n\nWhich training principle is best illustrated by the increased frequency, intensity and time from Month 1 to Month 2?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-0f45e5cc-f9f9-40c6-9274-11d385c79230-1771953315939",
+            "generatedAt": "2026-02-25T07:31:37.098Z",
+            "sourceRevisionId": 1420018
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:22:53.353Z",
+            "resultId": 30988
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:36:54.826Z",
+              "reasoning": "The question asks which training principle is demonstrated by increasing frequency, intensity, and time to drive further adaptation\u2014this is the overload/progressive overload principle, covered under training design and principles.",
+              "confidence": 0.88
+            }
+          ]
+        },
+        "currentRevisionId": 1694879,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934605,
+            "content": "Periodization",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect: although the plan changes across time, the table most directly shows an increased training load (F, I and T)."
+          },
+          {
+            "id": 4934606,
+            "content": "Reversibility",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: reversibility refers to loss of fitness when training stops or is reduced, which is not shown."
+          },
+          {
+            "id": 4934607,
+            "content": "Overload",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct (C): frequency, intensity and time all increase, increasing training load to stimulate further adaptation."
+          },
+          {
+            "id": 4934608,
+            "content": "Variety",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: variety refers to changing modes/types of training; the table shows increases in load variables rather than different activities."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "104a0167-8381-4371-8c02-ceeb8de92f4f",
+        "specification": "Why must programs be individualized?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:01:29.505Z",
+            "resultId": 30674
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:21:53.787Z",
+              "reasoning": "The question is about the training principle of individualization\u2014programmes must be tailored because athletes differ in needs, fitness levels, and recovery\u2014core to designing safe and effective training programs.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29915,
+              "isHl": true,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.2 Considerations for prescribing exercise (HL)",
+              "title": "A.3.2.2 Considerations for prescribing exercise (HL)",
+              "labeledAt": "2026-03-06T05:21:53.787Z",
+              "reasoning": "Individualization is also a key consideration when prescribing exercise, accounting for differing fitness and recovery profiles among individuals.",
+              "confidence": 0.64
+            }
+          ]
+        },
+        "currentRevisionId": 1695330,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936061,
+            "content": "Everyone responds to training in the same way",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936062,
+            "content": "Each athlete has unique needs, fitness levels, and recovery rates",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936063,
+            "content": "Individualization reduces the need for progression",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936064,
+            "content": "It prevents overload entirely",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1275a64c-e862-4af5-b918-43917d3ece9b",
+        "specification": "Why might two athletes following the same training programme experience different results?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:30:37.767Z",
+            "resultId": 30678
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:22:00.097Z",
+              "reasoning": "The question asks why identical training programmes can yield different outcomes, pointing to individual variability and the need for individualized training design (genetics, nutrition, recovery) within effective programme planning.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29915,
+              "isHl": true,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.2 Considerations for prescribing exercise (HL)",
+              "title": "A.3.2.2 Considerations for prescribing exercise (HL)",
+              "labeledAt": "2026-03-06T05:22:00.097Z",
+              "reasoning": "Differences in results despite the same programme relate to individual considerations when prescribing exercise (individualization based on personal characteristics and context).",
+              "confidence": 0.53
+            }
+          ]
+        },
+        "currentRevisionId": 1695471,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936469,
+            "content": "Both athletes apply the same overload stimulus.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936470,
+            "content": "Individual factors such as genetics, nutrition and recovery differ.",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936471,
+            "content": "The athletes have different training age or initial fitness levels.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936472,
+            "content": "The athletes differ in adherence, effort or technique when completing the programme.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "1bf82b50-dafc-41be-8017-9b8ff6edd9c8",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29981,
+              "isHl": false,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.1 Active lifestyle and physical well-being",
+              "title": "A.3.2.1 Active lifestyle and physical well-being",
+              "labeledAt": "2026-03-07T08:16:24.651Z",
+              "reasoning": "Parts b, f, and g ask about benefits of strength training/health-related fitness, maintaining independence in older adults, and lifelong physical activity benefits\u2014core content of health benefits of being active.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:16:24.651Z",
+              "reasoning": "Parts b and d focus on strength/resistance training benefits and how resistance training improves muscular endurance, linking to training qualities and program outcomes.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1583731,
+        "parts": [
+          {
+            "id": 1137629,
+            "content": "State two benefits of regular strength training.",
+            "order": 1,
+            "markscheme": "\u25cf Increased muscle strength <marks>1</marks>\n\n\u25cf Improved bone density <marks>1</marks>\n\n<note>(Other acceptable answers: Enhanced joint stability, Increased metabolic rate \u2014 any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137630,
+            "content": "Identify two indicators of physical health.",
+            "order": 2,
+            "markscheme": "\u25cf Healthy body composition <marks>1</marks>\n\n\u25cf Normal blood pressure <marks>1</marks>\n\n<note>(Other acceptable answers: Resting heart rate within normal range, Sufficient energy levels, Healthy BMI \u2014 any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137631,
+            "content": "Describe how resistance training improves muscular endurance.",
+            "order": 3,
+            "markscheme": "\u25cf Repeated resistance over time increases fatigue resistance <marks>1</marks>\n\n\u25cf Enhances ability to perform daily tasks <marks>1</marks>\n\n\u25cf Promotes muscle fiber adaptation <marks>1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137632,
+            "content": "Explain the value of balance and coordination in functional movement.",
+            "order": 4,
+            "markscheme": "\u25cf Balance allows individuals to maintain stability during movement or when stationary <marks>1</marks>\n\n\u25cf Coordination enables smooth, efficient, and accurate movements of body parts <marks>1</marks>\n\n\u25cf Together, they reduce the risk of falls and injuries during daily or athletic tasks <marks>1</marks>\n\n\u25cf Essential for complex actions like climbing stairs, carrying objects, or reacting to obstacles <marks>1</marks>\n\n<note>(Other acceptable answers: Enhance performance in sport and functional independence in aging populations)</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137633,
+            "content": "Outline the contribution of health-related fitness to maintaining independence in older adults.",
+            "order": 5,
+            "markscheme": "\u25cf Cardiovascular endurance supports mobility and daily tasks like walking or climbing stairs <marks>1</marks>\n\n\u25cf Muscular strength helps with lifting, carrying, and preventing falls <marks>1</marks>\n\n\u25cf Flexibility maintains joint range of motion, aiding dressing, reaching, or bending <marks>1</marks>\n\n\u25cf Balance and coordination reduce fall risk, enabling safe movement <marks>1</marks>\n\n<note>(Other acceptable answers: Body composition maintenance supports healthy weight and reduces strain on joints)</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137634,
+            "content": "Discuss the physical and psychological benefits of participating in lifelong physical activity.",
+            "order": 6,
+            "markscheme": "\u25cf Improves cardiovascular health, reducing risk of heart disease and stroke <marks>1</marks>\n\n\u25cf Enhances muscular strength and endurance, supporting daily functional tasks <marks>1</marks>\n\n\u25cf Maintains joint flexibility and bone density, lowering injury and osteoporosis risk <marks>1</marks>\n\n\u25cf Reduces symptoms of anxiety and depression by releasing endorphins <marks>1</marks>\n\n\u25cf Boosts self-esteem and cognitive function, contributing to overall mental well-being <marks>1</marks>\n\n<note>(Other acceptable answers: Promotes better sleep, improves metabolic health, fosters social interaction through group activity)</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "1da66782-804d-49eb-a347-a0ccf0534b45",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": 5,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:19:44.870Z",
+              "reasoning": "Parts (b), (d), and (f) focus on components of a balanced routine and how frequency, intensity, volume, and variety (training principles) affect outcomes\u2014core training design concepts.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29981,
+              "isHl": false,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.1 Active lifestyle and physical well-being",
+              "title": "A.3.2.1 Active lifestyle and physical well-being",
+              "labeledAt": "2026-03-07T08:19:44.870Z",
+              "reasoning": "Parts (c) and (d) ask about general health benefits of fitness qualities and how training variables influence health outcomes, aligning with benefits of being active for physical well-being.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:19:44.870Z",
+              "reasoning": "Part (a) asks for systems improved by regular aerobic exercise; cardiovascular adaptations are a key expected system-level response.",
+              "confidence": 0.6
+            },
+            {
+              "id": 29971,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "title": "A.1.3.2 The respiratory system and gas exchange for cellular respiration",
+              "labeledAt": "2026-03-07T08:19:44.870Z",
+              "reasoning": "Part (a) also commonly expects respiratory system improvements from aerobic exercise (e.g., ventilatory efficiency/gas exchange capacity).",
+              "confidence": 0.55
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-07T08:19:44.870Z",
+              "reasoning": "Part (e) addresses injury prevention through combining flexibility and strength, which fits strategies to minimize injury risk and improve force absorption.",
+              "confidence": 0.5
+            }
+          ]
+        },
+        "currentRevisionId": 1328771,
+        "parts": [
+          {
+            "id": 1003153,
+            "content": "Identify two systems improved through regular aerobic exercise.",
+            "order": 0,
+            "markscheme": "\u25cf Cardiovascular system <marks>1 mark</marks> \n\n\u25cf Respiratory system <marks>1 mark</marks> \n\n<note> (Other acceptable answers: Muscular system \u2014 any two)",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1003154,
+            "content": "State two components of a balanced fitness routine.",
+            "order": 1,
+            "markscheme": "\u25cf Strength training <marks>1 mark</marks> \n\n\u25cf Flexibility training <marks>1 mark</marks> \n\n<note> (Other acceptable answers: Cardiovascular endurance training, Balance training \u2014 any two)",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1003155,
+            "content": "Describe the benefits of muscular endurance for general health.",
+            "order": 2,
+            "markscheme": "\u25cf Increases energy levels <marks>1 mark</marks>\n\n\u25cf Reduces fatigue during daily tasks <marks>1 mark</marks> \n\n\u25cf Enhances functional movement capacity <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1003156,
+            "content": "Explain how training frequency and intensity impact health outcomes.",
+            "order": 3,
+            "markscheme": "\u25cf Higher frequency promotes consistent adaptation <marks>1 mark</marks> \n\n\u25cf Moderate to vigorous intensity improves cardiovascular health <marks>1 mark</marks>\n\n\u25cf Overtraining risks injury or burnout <marks>1 mark</marks> \n\n\u25cf Balanced intensity ensures sustainable progress <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1003157,
+            "content": "Outline the importance of combining flexibility and strength in injury prevention.",
+            "order": 4,
+            "markscheme": "\u25cf Strength stabilizes joints <marks>1 mark</marks>\n\n\u25cf Flexibility prevents over-stretching injuries <marks>1 mark</marks> \n\n\u25cf Together enhance range of motion and support <marks>1 mark</marks> \n\n\u25cf Reduce muscle imbalance and tension <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1003158,
+            "content": "Discuss how training volume and variety contribute to long-term fitness gains.",
+            "order": 5,
+            "markscheme": "\u25cf Training volume (frequency \u00d7 intensity \u00d7 duration) ensures adequate stimulus for physiological adaptation <marks>1 mark</marks>\n\n\u25cf Sufficient volume promotes improvements in cardiovascular endurance, muscular strength, and metabolic efficiency <marks>1 mark</marks>\n\n\u25cf Excessive or insufficient volume can hinder progress or increase injury risk, so balance is key <marks>1 mark</marks>\n\n\u25cf Training variety prevents physical and mental plateaus by challenging different muscle groups and systems <marks>1 mark</marks>\n\n\u25cf Incorporating diverse activities (e.g., resistance, aerobic, flexibility) reduces overuse injuries and boosts motivation <marks>1 mark</marks>\n\n<note> (Other acceptable answers: Variety enhances adherence to training programs; volume and variety together support progressive overload and recovery cycles)",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "23db927f-f8fa-457e-b1fa-c3e028198218",
+        "specification": "Why is overload often paired with recovery in training design?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:28:36.799Z",
+            "resultId": 29909
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:15:36.368Z",
+              "reasoning": "The question asks why overload is paired with recovery in training design\u2014this is a core principle of planning safe and effective training programs (balancing stress with adaptation).",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1696270,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938720,
+            "content": "To ensure balance between stress and adaptation",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4938721,
+            "content": "To avoid specificity in training",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4938722,
+            "content": "To make training safer by reducing the risk of overtraining or injury",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4938723,
+            "content": "To prevent progression",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "23dc70cf-2683-4634-803d-533bf078205b",
+        "specification": "The table below shows the physiological results for an elite marathon runner before and after a five-week period of complete rest due to illness.\n\n| Physiological Parameter | Pre-illness Value | Post-rest Value |\n| :--- | :--- | :--- |\n| $$VO_2$$ max ($$ml \\cdot kg^{-1} \\cdot min^{-1}$$) | 78.2 | 69.5 |\n| Stroke volume ($$ml$$) | 175 | 158 |\n| Maximal cardiac output ($$L \\cdot min^{-1}$$) | 32.5 | 28.2 |\n\nWhich quality of training is most clearly demonstrated by these data points?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-23dc70cf-2683-4634-803d-533bf078205b-1771953315939",
+            "generatedAt": "2026-02-25T07:46:58.466Z",
+            "sourceRevisionId": 1420010
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:15:41.466Z",
+              "reasoning": "The athlete\u2019s VO\u2082max, stroke volume, and maximal cardiac output decrease after 5 weeks of complete rest, illustrating detraining; this most directly tests the training principle/quality of reversibility within qualities of training.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29910,
+              "isHl": false,
+              "path": "A.2 Hydration and nutrition > A.2.3 Energy systems > A.2.3.2 Factors affecting maximal oxygen consumption (VO\u2082 max)",
+              "title": "A.2.3.2 Factors affecting maximal oxygen consumption (VO\u2082 max)",
+              "labeledAt": "2026-03-06T05:15:41.466Z",
+              "reasoning": "VO\u2082max values are presented, but the question is not asking about determinants of VO\u2082max; it uses VO\u2082max change as evidence for a training quality.",
+              "confidence": 0.22
+            }
+          ]
+        },
+        "currentRevisionId": 1687471,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926035,
+            "content": "Specificity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926036,
+            "content": "Variety",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926037,
+            "content": "Reversibility",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926038,
+            "content": "Progression",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "266bb6c5-890e-498f-ba2e-422360138f31",
+        "specification": "Which term describes the structured variation of training volume and intensity across weeks or months?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:17:40.934Z",
+              "reasoning": "The question asks for the term describing planned variation of training volume and intensity over weeks/months (periodization), which is a core concept within training design and program planning.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1419978,
+        "parts": [],
+        "options": [
+          {
+            "id": 4151425,
+            "content": "Overload",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4151426,
+            "content": "Periodization",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4151427,
+            "content": "Specificity",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4151428,
+            "content": "Recovery",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "28cc4d1e-0bbd-4aac-bd97-b948fa4600c9",
+        "specification": "The table below outlines the annual training phases for an elite cyclist intending to peak for a major summer competition:\n\n| Training Phase | Primary Objective | Training Volume | Training Intensity |\n| :--- | :--- | :--- | :--- |\n| Phase 1: Winter | Aerobic Foundation | High | Low |\n| Phase 2: Spring | Strength & Power | Moderate | Moderate |\n| Phase 3: Summer | Peaking for Competition | Low | High |\n| Phase 4: Autumn | Active Recovery | Low | Low |\n\nWhich quality of training does this yearly plan demonstrate?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-28cc4d1e-0bbd-4aac-bd97-b948fa4600c9-1771953315939",
+            "generatedAt": "2026-02-25T07:35:11.374Z",
+            "sourceRevisionId": 1420003
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:58:43.957Z",
+            "resultId": 30219
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:17:29.312Z",
+              "reasoning": "The question asks which quality of training is shown by structuring an annual plan into phases with varying volume/intensity to peak for competition\u2014this is periodization, a core element of training design/qualities of training.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1695618,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936849,
+            "content": "Specificity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936850,
+            "content": "Variety",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936851,
+            "content": "Periodization",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936852,
+            "content": "Reversibility",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2bc7a3e4-1959-43ba-9cce-1a57464228cf",
+        "specification": "What is the main risk of neglecting recovery in programme design?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:36:23.372Z",
+            "resultId": 42596
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T16:02:03.663Z",
+              "reasoning": "The question is about programme design and the consequence of omitting recovery, which is a key consideration for safe and effective training design (risk of overtraining/injury).",
+              "confidence": 0.82
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T16:02:03.663Z",
+              "reasoning": "Neglecting recovery directly relates to recovery principles/strategies and the negative outcomes when recovery is inadequate (overtraining).",
+              "confidence": 0.72
+            },
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T16:02:03.663Z",
+              "reasoning": "Overtraining is linked to accumulated fatigue; understanding mechanisms/sources of fatigue underpins why insufficient recovery increases injury risk.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1696819,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939636,
+            "content": "Faster adaptations",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Neglecting recovery typically hinders physiological adaptations, as these processes occur during rest periods rather than during the training itself."
+          },
+          {
+            "id": 4939637,
+            "content": "Overtraining and injury",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Inadequate recovery leads to an imbalance between training stress and physical tolerance, resulting in overtraining syndrome and an increased risk of injury."
+          },
+          {
+            "id": 4939638,
+            "content": "Improved glycogen storage",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Recovery is essential for the replenishment of glycogen stores; neglecting it leads to chronic depletion."
+          },
+          {
+            "id": 4939639,
+            "content": "Increased $VO_2 \\text{ max}$",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Aerobic capacity ($VO_2 \\text{ max}$) improvements require periods of recovery to allow the cardiovascular and respiratory systems to adapt to the workload."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2c63eec3-0f58-47d3-b944-febdba4fdc65",
+        "specification": "After six weeks of total inactivity, a marathon runner's $VO_2$ max (ml kg\u207b\u00b9 min\u207b\u00b9) and muscular endurance decrease significantly. Which quality of training is illustrated by this loss of physiological adaptation?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-2c63eec3-0f58-47d3-b944-febdba4fdc65-1771953315939",
+            "generatedAt": "2026-02-25T07:48:03.217Z",
+            "sourceRevisionId": 1420017
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:18:54.063Z",
+            "resultId": 32153
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T06:56:45.702Z",
+              "reasoning": "The scenario describes loss of fitness adaptations after a period of inactivity, which tests the training principle/quality of reversibility covered under qualities of training and training design.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1694861,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934533,
+            "content": "Specificity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934534,
+            "content": "Overload",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934535,
+            "content": "Reversibility",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct: inactivity leads to detraining and loss of adaptations (reversibility)."
+          },
+          {
+            "id": 4934536,
+            "content": "Progression",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "34dbe9a3-54e0-4f48-8eb8-74840c601f88",
+        "specification": "Which of the following best describes the overall purpose of training programme design for athletes?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:20:52.922Z",
+              "reasoning": "The question asks the overall purpose of training programme design (maximize performance while reducing injury risk), which directly aligns with the importance of training design for safe and effective programs.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1695344,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936113,
+            "content": "To make training as intense as possible",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936114,
+            "content": "To maximize performance while reducing risk of injury",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936115,
+            "content": "To focus only on aerobic conditioning",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936116,
+            "content": "To avoid variation in training",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "44b4d51f-eb7c-420b-813d-ff8062e14bbd",
+        "specification": "A sprinter follows a plan that gradually increases training load before tapering prior to competition. This demonstrates:",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:18:10.859Z",
+              "reasoning": "The scenario describes structured training design with progressive overload followed by a taper before competition, which is characteristic of periodisation and is covered under training design principles.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1420008,
+        "parts": [],
+        "options": [
+          {
+            "id": 4151549,
+            "content": "Overtraining",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4151550,
+            "content": "Periodisation",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4151551,
+            "content": "Reversibility",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4151552,
+            "content": "Cross-training",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "46c6d395-1d9c-4663-9c25-321f94ba534f",
+        "specification": "A weightlifter monitors their resistance training progress over a four-week block. The bench press resistance increases each week, as shown in the table below:\n\n| Week | Bench Press Resistance ($kg$) |\n| :--- | :--- |\n| 1 | 80 |\n| 2 | 85 |\n| 3 | 90 |\n| 4 | 95 |\n\nWhich principle of training is best demonstrated by the progressive increase in resistance over the four weeks?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-46c6d395-1d9c-4663-9c25-321f94ba534f-1771953315939",
+            "generatedAt": "2026-02-25T07:18:22.838Z",
+            "sourceRevisionId": 1420005
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:22:04.433Z",
+            "resultId": 30838
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:27:34.293Z",
+              "reasoning": "The table shows a systematic increase in training load (80\u219295 kg) over successive weeks, demonstrating the training principle of progression, which is part of overall training design/qualities of training.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1695114,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935349,
+            "content": "Periodization",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935350,
+            "content": "Reversibility",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935351,
+            "content": "Frequency",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935352,
+            "content": "Progression",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4c234e41-5dca-4efb-be4a-53e3cf04be2a",
+        "specification": "Why is variety important in a long-term training programme for endurance athletes?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:19:29.431Z",
+            "resultId": 41732
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T15:57:00.169Z",
+              "reasoning": "The question asks about the importance of variety within a long-term endurance training programme, which is a core training-design principle aimed at maintaining adherence/motivation and avoiding monotony.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29962,
+              "isHl": false,
+              "path": "C.5 Psychological skills > C.5.1 Goal setting > C.5.1.1 Goal setting as a tool for enhancing motivation through outcome and performance goals",
+              "title": "C.5.1.1 Goal setting as a tool for enhancing motivation through outcome and performance goals",
+              "labeledAt": "2026-03-06T15:57:00.169Z",
+              "reasoning": "Option B explicitly refers to maintaining motivation (variety reduces boredom), which links to motivation strategies, though the context is primarily training programme design.",
+              "confidence": 0.32
+            }
+          ]
+        },
+        "currentRevisionId": 1697020,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940320,
+            "content": "To prevent overtraining and reduce the risk of overuse injuries",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940321,
+            "content": "To reduce boredom and maintain motivation",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940322,
+            "content": "To ensure all sessions are performed at maximal intensity to accelerate adaptation",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940323,
+            "content": "To eliminate the need for progression by regularly changing the training stimulus",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "5a5b331b-8711-4ec6-9e59-8bf692cea48b",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29981,
+              "isHl": false,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.1 Active lifestyle and physical well-being",
+              "title": "A.3.2.1 Active lifestyle and physical well-being",
+              "labeledAt": "2026-03-07T08:18:37.289Z",
+              "reasoning": "Parts f) and g) focus on the importance of cardiovascular fitness for health and the long-term health benefits of regular physical activity on cardiovascular and metabolic health, which aligns directly with benefits to health of being active/physical well-being.",
+              "confidence": 0.82
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:18:37.289Z",
+              "reasoning": "Cardiovascular fitness, cardiovascular health, and long-term cardiovascular adaptations/health outcomes (f, g) require understanding of the cardiovascular system\u2019s functions.",
+              "confidence": 0.62
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-07T08:18:37.289Z",
+              "reasoning": "Part e) links flexibility to injury prevention, which fits strategies to minimize injury risk and improve the body\u2019s ability to absorb forces (e.g., improved range of motion reducing strain).",
+              "confidence": 0.52
+            }
+          ]
+        },
+        "currentRevisionId": 1583738,
+        "parts": [
+          {
+            "id": 1137641,
+            "content": "State two components of health-related fitness.",
+            "order": 1,
+            "markscheme": "- Cardiovascular endurance <marks>A1</marks>\n- Muscular strength <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include flexibility, body composition, or muscular endurance.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137642,
+            "content": "Identify two benefits of improved muscular endurance.",
+            "order": 2,
+            "markscheme": "- Delays the onset of fatigue during prolonged activities <marks>A1</marks>\n- Enhances performance in repetitive tasks <marks>A1</marks>\n\n2 marks total\n\n<note>Other acceptable answers include supports injury prevention or improves posture.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137643,
+            "content": "Describe three differences between health-related and skill-related fitness.",
+            "order": 3,
+            "markscheme": "- Health-related fitness focuses on overall wellness and disease prevention, while skill-related fitness focuses on athletic performance <marks>A1</marks>\n- Health-related components apply to general health and daily life, whereas skill-related components are often more sport-specific <marks>A1</marks>\n- Examples of health-related components include flexibility and body composition; examples of skill-related components include agility and coordination <marks>A1</marks>\n\n3 marks total\n\n<note>Other acceptable answers include skill-related fitness enhances athletic ability or health-related promotes long-term disease prevention.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137644,
+            "content": "Explain how flexibility contributes to improved performance and injury prevention.",
+            "order": 4,
+            "markscheme": "- Enhances the range of motion around joints, allowing for more efficient movement <marks>A1</marks>\n- Reduces the risk of muscle strains and ligament sprains by allowing tissues to stretch further <marks>A1</marks>\n- Improves posture and technique, which leads to better biomechanical efficiency <marks>A1</marks>\n- Assists in recovery by reducing muscle stiffness and tension after exercise <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137645,
+            "content": "Outline the importance of cardiovascular fitness in maintaining health.",
+            "order": 5,
+            "markscheme": "- Enhances heart and lung function, improving the efficiency of the circulatory and respiratory systems <marks>A1</marks>\n- Reduces resting heart rate and blood pressure, lowering the strain on the cardiovascular system <marks>A1</marks>\n- Improves oxygen delivery to tissues and organs, supporting metabolic processes <marks>A1</marks>\n- Supports long-term cardiovascular health by reducing the risk of chronic diseases such as coronary heart disease <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137646,
+            "content": "Discuss the long-term health benefits of regular physical activity on cardiovascular and metabolic health.",
+            "order": 6,
+            "markscheme": "- Improves cardiac efficiency by increasing stroke volume and decreasing resting heart rate <marks>A1</marks>\n- Enhances vascular health by improving blood vessel elasticity and reducing systemic blood pressure <marks>A1</marks>\n- Improves the lipid profile by increasing HDL cholesterol and reducing LDL cholesterol and triglycerides <marks>A1</marks>\n- Enhances insulin sensitivity and glucose regulation, which reduces the risk of developing type 2 diabetes <marks>A1</marks>\n- Aids in maintaining a healthy body composition and reducing visceral fat, lowering the risk of metabolic syndrome <marks>A1</marks>\n\n5 marks total\n\n<note>Other acceptable answers include reduces systemic inflammation or supports metabolic homeostasis.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "5cae2d16-254e-4cc7-b877-d048451bafc2",
+        "specification": "A study monitored the physiological changes in an elite swimmer during a prolonged break due to injury. The results are summarized in the table below.\n\n| Physiological Parameter | Peak Performance | Post-Injury Assessment |\n| :--- | :--- | :--- |\n| Stroke Volume ($mL$) | 160 | 142 |\n| Blood Volume ($L$) | 5.8 | 5.3 |\n| Capillary Density ($cap\\ mm^{-2}$) | 480 | 425 |\n\nWhich training principle is shown by the changes in the table?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-5cae2d16-254e-4cc7-b877-d048451bafc2-1771929956947",
+            "generatedAt": "2026-02-25T09:22:40.115Z",
+            "sourceRevisionId": 1583711
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:01:20.026Z",
+            "resultId": 41803
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T15:57:22.009Z",
+              "reasoning": "The question asks which training principle explains decreases in stroke volume, blood volume, and capillary density after a prolonged break (detraining). This is the principle of reversibility, covered under training design/qualities of training.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1696917,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939996,
+            "content": "Variety",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939997,
+            "content": "Overload",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939998,
+            "content": "Reversibility",
+            "correct": true,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939999,
+            "content": "Periodization",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6be7d681-137b-43bc-b8cb-33994f1f5bcd",
+        "specification": "Which training principle explains why long-distance training does NOT improve sprint performance?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:01:49.811Z",
+            "resultId": 30905
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:29:32.085Z",
+              "reasoning": "The question tests understanding of training principles (specifically specificity: adaptations are specific to the type of training), which falls under training design and creating effective programs.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1695017,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935089,
+            "content": "Overload",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935090,
+            "content": "Specificity",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935091,
+            "content": "Recovery",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935092,
+            "content": "Progression",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6da4b396-a40c-4b9c-a597-bbd44b15b626",
+        "specification": "Why should recovery strategies (e.g., sleep, nutrition, active recovery) be considered part of programme design?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:13:09.469Z",
+            "resultId": 30913
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:29:44.424Z",
+              "reasoning": "The question asks why recovery strategies (sleep, nutrition, active recovery) must be included in programme design\u2014directly addressing recovery methods and their role in adaptation and injury risk reduction.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:29:44.424Z",
+              "reasoning": "It also links recovery to overall training/programme design principles (balancing load and recovery for safe, effective programming).",
+              "confidence": 0.55
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-06T05:29:44.424Z",
+              "reasoning": "Option A explicitly mentions reducing injury risk, which relates to strategies used to minimize injury risk, although the core focus is recovery within training design.",
+              "confidence": 0.38
+            }
+          ]
+        },
+        "currentRevisionId": 1695048,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935161,
+            "content": "They allow physiological adaptations and reduce injury risk.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: recovery supports adaptation and helps reduce injury/overtraining risk."
+          },
+          {
+            "id": 4935162,
+            "content": "They are optional because recovery occurs automatically and does not need to be planned.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: recovery can be inadequate without planning and should be integrated into programme design."
+          },
+          {
+            "id": 4935163,
+            "content": "They mainly benefit elite athletes; recreational athletes do not need planned recovery.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: planned recovery is important across ability levels to support adaptation and reduce injury risk."
+          },
+          {
+            "id": 4935164,
+            "content": "They should be avoided because recovery time always reduces fitness gains from training.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: appropriate recovery supports adaptation; inadequate recovery can impair performance and increase injury risk."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "738b1276-e506-4f2c-baae-4ec8951d7a73",
+        "specification": "A student is preparing for a 6-week training block for futsal (indoor football). Before the block, the student completes a simple field-test battery and records the results shown in Table 1.\n\nTable 1: Pre-training test results\n\n| Test | Result | Notes |\n|---|---:|---|\n| Y-balance test (composite score) | 86% | Higher score indicates better balance |\n| 505 agility test (turn on dominant leg) | 2.62 s | Lower time indicates better agility |\n| Standing long jump | 1.92 m | Higher distance indicates greater lower-body power |\n| Sit-and-reach | 29 cm | Higher score indicates better flexibility |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:45:48.778Z",
+            "resultId": 44853
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29981,
+              "isHl": false,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.1 Active lifestyle and physical well-being",
+              "title": "A.3.2.1 Active lifestyle and physical well-being",
+              "labeledAt": "2026-03-07T08:20:50.016Z",
+              "reasoning": "Parts (c) and (g) ask for physical and psychological benefits of regular exercise/being active, which aligns with active lifestyle benefits to well-being.",
+              "confidence": 0.78
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-07T08:20:50.016Z",
+              "reasoning": "Part (f) links agility to injury prevention, matching strategies to minimize risk and improve the body\u2019s ability to absorb forces.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1697377,
+        "parts": [
+          {
+            "id": 1159619,
+            "content": "Identify two components of skill-related fitness relevant to futsal.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for each correct component of skill-related fitness (any two).\n\nAcceptable components include:\n- Agility <marks>1 mark</marks>\n- Balance <marks>1 mark</marks>\n- Coordination <marks>1 mark</marks>\n- Reaction time <marks>1 mark</marks>\n- Power <marks>1 mark</marks>\n- Speed <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159620,
+            "content": "State two physical benefits of regular exercise.",
+            "order": 1,
+            "markscheme": "- Improved cardiovascular health <marks>1 mark</marks>\n- Increased muscular strength <marks>1 mark</marks>\n- Enhanced flexibility <marks>1 mark</marks>\n- Improved body composition (eg reduced fat mass/increased lean mass) <marks>1 mark</marks>\n- Increased bone mineral density/stronger bones <marks>1 mark</marks>\n\n<Note> Award <marks>1 mark</marks> for each correct physical benefit (any two).",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159621,
+            "content": "Explain how balance, as indicated by the Y-balance test result in Table 1, can contribute to performance in futsal.",
+            "order": 2,
+            "markscheme": "Indicative marking points (award <marks>1 mark</marks> per valid explained point, up to 3):\n- Better balance improves control/postural stability during dynamic movements (eg landing, pivoting, decelerating), supporting effective skill execution. <marks>1 mark</marks>\n- Better balance helps maintain centre of mass over the base of support when being challenged by opponents, improving ball control/shielding. <marks>1 mark</marks>\n- Better balance can reduce risk of falls and non-contact injuries by improving stability during changes of direction and single-leg actions. <marks>1 mark</marks>\n- Better balance supports rapid directional changes and transitions (eg attacking to defending) with fewer movement errors. <marks>1 mark</marks>\n- Better balance can improve accuracy/efficiency of kicking/passing by stabilising the supporting leg. <marks>1 mark</marks>\n\n<Note> Award up to <marks>3 marks</marks> for explaining relevant links between balance and futsal performance, including cause-and-effect.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159622,
+            "content": "Explain how muscular strength can enhance athletic and daily performance.",
+            "order": 3,
+            "markscheme": "Indicative marking points (award <marks>1 mark</marks> per valid explained point, up to 4):\n- Increased muscular strength increases force output, improving actions such as lifting, jumping, sprinting and tackling/holding off an opponent. <marks>1 mark</marks>\n- Greater strength improves joint stability and helps maintain posture/technique under fatigue or load. <marks>1 mark</marks>\n- Strength supports daily tasks such as lifting, carrying, pushing/pulling and climbing stairs. <marks>1 mark</marks>\n- Increased strength can reduce risk of musculoskeletal injury by improving load tolerance of muscles/tendons and supporting safer movement patterns. <marks>1 mark</marks>\n- Greater strength can improve repeated-effort performance by reducing relative effort for submaximal tasks (ie a given task requires a smaller fraction of maximal force). <marks>1 mark</marks>\n- Strength development can aid bone health via increased mechanical loading on the skeleton. <marks>1 mark</marks>\n\n<Note> Award up to <marks>4 marks</marks> for explaining how strength improves performance in sport and daily life.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159623,
+            "content": "Outline the role of agility, as indicated by the 505 agility test result in Table 1, in injury prevention and sport-specific tasks in futsal.",
+            "order": 4,
+            "markscheme": "Indicative marking points (award <marks>1 mark</marks> per valid outline, up to 4):\n- Agility enables rapid changes of direction while maintaining body control, which is essential for evasion, marking, pressing and counter-attacks. <marks>1 mark</marks>\n- Improved agility helps avoid falls/collisions by allowing quick repositioning in crowded, dynamic play. <marks>1 mark</marks>\n- Agility improves responsiveness to external stimuli (eg opponent movement, ball deflections), supporting better decision-making in game situations. <marks>1 mark</marks>\n- Agility enhances coordination during fast transitions between movements (accelerate\u2013decelerate\u2013cut). <marks>1 mark</marks>\n- Better agility may reduce non-contact injury risk by improving deceleration and cutting mechanics (eg controlled knee/hip alignment) and reducing uncontrolled valgus/rotation moments. <marks>1 mark</marks>\n- Agility supports effective defensive footwork to maintain balance and reduce risky reaching/overstriding. <marks>1 mark</marks>\n\n<Note> Award up to <marks>4 marks</marks> for outlining relevant roles of agility in futsal and/or injury prevention.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159624,
+            "content": "Discuss how regular exercise can benefit psychological well-being for the student during the 6-week training block.",
+            "order": 5,
+            "markscheme": "Indicative marking points (award <marks>1 mark</marks> per valid discussed point, up to 4):\n- Exercise can reduce symptoms of anxiety and depression, partly through endorphin release and improved affect. <marks>1 mark</marks>\n- Exercise can enhance mood/emotional regulation via changes in neurotransmitter activity (eg serotonin, dopamine). <marks>1 mark</marks>\n- Exercise can improve self-esteem and body image through skill mastery/achievement and perceived physical changes. <marks>1 mark</marks>\n- Exercise can reduce stress by lowering perceived stress and promoting relaxation/sleep regulation (eg reduced rumination, improved sleep quality). <marks>1 mark</marks>\n- Exercise can enhance cognitive function (eg focus, attention) which may support academic performance and coping. <marks>1 mark</marks>\n- Participation in training can provide social interaction/support and a sense of routine/purpose, improving well-being. <marks>1 mark</marks>\n\n<Note> Award up to <marks>4 marks</marks> for a balanced discussion of psychological well-being benefits (multiple perspectives/examples).",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "77d5e7b2-0472-4823-b04b-deeb08a2a73e",
+        "specification": "A 17-year-old football (soccer) player is completing an 8-week pre-season programme.\n\nTable 1: Selected fitness test results\n\n| Test | Week 0 | Week 8 |\n|---|---:|---:|\n| Resting heart rate (beats min\u207b\u00b9) | 72 | 62 |\n| Agility T-test (s) | 11.2 | 10.6 |\n| Sit-and-reach (cm) | 24 | 29 |\n| Push-ups in 60 s (reps) | 32 | 40 |\n\nThe player\u2019s coach notes that match situations often require reacting quickly to an opponent\u2019s pass and coordinating body movements while changing direction.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T08:30:06.285Z",
+            "resultId": 44865
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29981,
+              "isHl": false,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.1 Active lifestyle and physical well-being",
+              "title": "A.3.2.1 Active lifestyle and physical well-being",
+              "labeledAt": "2026-03-07T08:20:56.969Z",
+              "reasoning": "Parts ask about long-term physiological benefits of cardiovascular training and broader health-related fitness benefits of being active (e.g., cardiovascular adaptations, well-being).",
+              "confidence": 0.7
+            },
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:20:56.969Z",
+              "reasoning": "Several parts concern fitness components (agility, flexibility, reaction time/coordination, muscular endurance) and integrating skill- and health-related components\u2014commonly treated within training qualities/program design principles.",
+              "confidence": 0.45
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-07T08:20:56.969Z",
+              "reasoning": "Flexibility training contributing to injury reduction links to strategies to minimize injury risk and improve force absorption.",
+              "confidence": 0.35
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:20:56.969Z",
+              "reasoning": "Reaction time and coordination in dynamic team sports relate to nervous system coordination of physiological responses underlying quick reactions and coordinated movement.",
+              "confidence": 0.3
+            },
+            {
+              "id": 29947,
+              "isHl": false,
+              "path": "C.2 Motor learning > C.2.1 Motor learning processes > C.2.1.2 The psychological refractory period and its impact on reaction time",
+              "title": "C.2.1.2 The psychological refractory period and its impact on reaction time",
+              "labeledAt": "2026-03-07T08:20:56.969Z",
+              "reasoning": "Explicit focus on reaction time connects to psychological refractory period as a motor-learning factor affecting reaction time performance.",
+              "confidence": 0.25
+            }
+          ]
+        },
+        "currentRevisionId": 1697152,
+        "parts": [
+          {
+            "id": 1159253,
+            "content": "Using Table 1, state two long-term physiological benefits of cardiovascular training that are consistent with the player\u2019s changes from Week 0 to Week 8.",
+            "order": 0,
+            "markscheme": "* Increased stroke volume (cardiac hypertrophy leading to greater blood ejected per beat) <marks>1 mark</marks>\n* Lower resting heart rate due to improved cardiac efficiency/greater parasympathetic tone <marks>1 mark</marks>\n\nOR\n\n* Increased maximal cardiac output (via increased stroke volume) <marks>1 mark</marks>\n* Improved capillarization (greater capillary density improving O\u2082 delivery) <marks>1 mark</marks>\n* Increased aerobic capacity/VO\u2082max (improved oxidative capacity) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159254,
+            "content": "Using Table 1 and the coach\u2019s notes, identify two factors that affect agility performance in football.",
+            "order": 1,
+            "markscheme": "* Reaction time <marks>1 mark</marks>\n* Balance <marks>1 mark</marks>\n\nOR\n\n* Coordination <marks>1 mark</marks>\n* Muscle strength/power <marks>1 mark</marks>\n* Speed (acceleration/deceleration ability) <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159255,
+            "content": "Using Table 1, describe how flexibility training can contribute to injury reduction for this player.",
+            "order": 2,
+            "markscheme": "* Increases range of motion at joints (e.g., improved sit-and-reach suggests greater ROM) <marks>1 mark</marks>\n* Reduces muscle stiffness/increases compliance, allowing tissues to tolerate stretch better <marks>1 mark</marks>\n* Decreases likelihood of strains/tears during football-specific actions (kicking, lunging, rapid changes of direction) <marks>1 mark</marks>\n\nAdditional acceptable points:\n* Improves movement mechanics/posture, reducing abnormal joint loading <marks>1 mark</marks>\n* Can reduce muscle imbalance/tension that predisposes to injury <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159256,
+            "content": "With reference to the coach\u2019s notes, explain the role of reaction time and coordination in dynamic team sports.",
+            "order": 3,
+            "markscheme": "* Reaction time enables fast responses to opponents/ball flight, supporting earlier initiation of movement <marks>1 mark</marks>\n* Coordination ensures accurate execution of complex movement sequences (e.g., foot-eye coordination for control and passing) <marks>1 mark</marks>\n* Together allow fluid and efficient play when changing direction and performing skills under pressure <marks>1 mark</marks>\n* Important for high-speed decision-making situations where the correct response must be selected and executed quickly <marks>1 mark</marks>\n\nAdditional acceptable points:\n* Better reaction time and coordination can reduce errors/turnovers and improve successful skill completion <marks>1 mark</marks>\n* Helps maintain technical performance when fatigued or in unpredictable environments <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159257,
+            "content": "Using Table 1, outline the importance of muscular endurance in occupations requiring repetitive physical tasks.",
+            "order": 4,
+            "markscheme": "* Supports prolonged/repeated submaximal contractions with delayed fatigue (e.g., higher 60 s push-up score indicates improved endurance) <marks>1 mark</marks>\n* Helps maintain technique and posture over time, reducing cumulative strain injuries <marks>1 mark</marks>\n* Enhances productivity/work rate by sustaining output across a shift/task duration <marks>1 mark</marks>\n* Important in roles such as manual labour, healthcare, military, or emergency services where tasks are repeated frequently <marks>1 mark</marks>\n\nAdditional acceptable points:\n* Reduces need for rest breaks and supports safer handling/lifting over time <marks>1 mark</marks>\n* Improves tolerance to repetitive loading, supporting resilience in the workplace <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159258,
+            "content": "Discuss how integrating skill-related and health-related fitness components could enhance this player\u2019s overall match performance.",
+            "order": 5,
+            "markscheme": "* Health-related components (cardiovascular endurance, muscular strength/endurance, flexibility) provide a foundation for sustained effort and reduced injury risk across a match <marks>1 mark</marks>\n* Skill-related components (agility, balance, coordination, reaction time) improve efficiency and precision of football-specific movements (turning, dribbling, passing) <marks>1 mark</marks>\n* Integration allows maintenance of technical and tactical performance under fatigue (endurance supports repeated high-intensity actions; skill supports effective execution) <marks>1 mark</marks>\n* Enhances ability to respond to unpredictable stimuli (opponent/ball) and to select and execute appropriate actions quickly <marks>1 mark</marks>\n\nAdditional acceptable points:\n* Balanced development improves movement economy/control, potentially improving repeated-sprint and change-of-direction performance <marks>1 mark</marks>\n* Reduces risk of overuse injuries by distributing physical stress and improving overall conditioning and mechanics <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7ac2f649-e684-4705-908f-90775c36f151",
+        "specification": "A competitive tennis player incorporates yoga, resistance training, and swimming into their weekly schedule alongside traditional court practice to maintain motivation and prevent boredom. Which principle of training is being demonstrated?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-7ac2f649-e684-4705-908f-90775c36f151-1771867193188",
+            "generatedAt": "2026-02-24T05:38:11.302Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1419973
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:20:59.154Z",
+              "reasoning": "The scenario describes changing training activities (yoga, resistance training, swimming) to maintain motivation and prevent boredom, which corresponds to the training principle of variety within training design.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1683541,
+        "parts": [],
+        "options": [
+          {
+            "id": 4915967,
+            "content": "Reversibility",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4915968,
+            "content": "Specificity",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4915969,
+            "content": "Variety",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4915970,
+            "content": "Progressive Overload",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8915e7b2-ee1a-487a-a398-477c29076c8b",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:16:57.623Z",
+              "reasoning": "Parts (b) explicitly asks for effects of physical activity on the cardiovascular system.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29981,
+              "isHl": false,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.1 Active lifestyle and physical well-being",
+              "title": "A.3.2.1 Active lifestyle and physical well-being",
+              "labeledAt": "2026-03-07T08:16:57.623Z",
+              "reasoning": "Parts (c) and (g) focus on consequences of inactivity and how fitness training helps prevent lifestyle-related diseases\u2014core active lifestyle/health benefits content.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:16:57.623Z",
+              "reasoning": "Parts (f) asks about adaptations from consistent training (strength and flexibility), aligning with principles of training design and expected training outcomes.",
+              "confidence": 0.75
+            },
+            {
+              "id": 29947,
+              "isHl": false,
+              "path": "C.2 Motor learning > C.2.1 Motor learning processes > C.2.1.2 The psychological refractory period and its impact on reaction time",
+              "title": "C.2.1.2 The psychological refractory period and its impact on reaction time",
+              "labeledAt": "2026-03-07T08:16:57.623Z",
+              "reasoning": "Part (e) addresses reaction time in sport performance (racquet sports), which links directly to reaction-time concepts in motor learning.",
+              "confidence": 0.65
+            },
+            {
+              "id": 29920,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "title": "B.1.1.3 Anthropometry and its applications in sport and health science (HL)",
+              "labeledAt": "2026-03-07T08:16:57.623Z",
+              "reasoning": "Part (d) concerns body composition and its relationship to fitness; this aligns best with anthropometry/body measurement applications in sport and health science.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583727,
+        "parts": [
+          {
+            "id": 1137623,
+            "content": "Identify two ways physical activity affects the cardiovascular system.",
+            "order": 1,
+            "markscheme": "\u25cf Increases cardiac output <marks>1</marks> \n\n\u25cf Lowers resting heart rate <marks>1</marks> \n\n<note>(Other acceptable answers: Improves blood circulation, Strengthens heart muscle \u2014 any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137624,
+            "content": "State two physical consequences of inactivity.",
+            "order": 2,
+            "markscheme": "\u25cf Decreased muscle mass <marks>1</marks> \n\n\u25cf Increased risk of obesity <marks>1</marks> \n\n<note>(Other acceptable answers: Reduced cardiovascular fitness, Weakened bones \u2014 any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137625,
+            "content": "Describe the relationship between physical fitness and body composition.",
+            "order": 3,
+            "markscheme": "\u25cf Increased activity reduces fat mass <marks>1</marks> \n\n\u25cf Improves muscle-to-fat ratio <marks>1</marks> \n\n\u25cf Fitness enhances metabolism <marks>1</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137626,
+            "content": "Explain how agility and reaction time enhance performance in racquet sports.",
+            "order": 4,
+            "markscheme": "\u25cf Agility allows athletes to quickly change direction to respond to opponents\u2019 shots <marks>1</marks>\n\n\u25cf Helps maintain court positioning, improving defensive and offensive play <marks>1</marks>\n\n\u25cf Reaction time enables quicker responses to fast-paced serves or volleys <marks>1</marks>\n\n\u25cf Enhances ability to anticipate and intercept shots, leading to more effective play <marks>1</marks>\n\n<note>(Other acceptable answers: Supports split-second decision-making, improves return accuracy)</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137627,
+            "content": "Outline how consistent training affects muscle strength and flexibility.",
+            "order": 5,
+            "markscheme": "\u25cf Increases muscle fiber size (hypertrophy), leading to greater strength <marks>1</marks>\n\n\u25cf Enhances neuromuscular coordination, improving force production <marks>1</marks>\n\n\u25cf Improves joint range of motion through regular stretching or dynamic movement <marks>1</marks>\n\n\u25cf Reduces muscle stiffness, allowing for more fluid and controlled movements <marks>1</marks>\n\n<note>(Other acceptable answers: Improves tendon elasticity, enhances posture, lowers injury risk)</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137628,
+            "content": "Discuss the role of fitness training in preventing lifestyle-related diseases.",
+            "order": 6,
+            "markscheme": "\u25cf Improves cardiovascular health by reducing blood pressure and resting heart rate <marks>1</marks>\n\n\u25cf Enhances insulin sensitivity, lowering the risk of type 2 diabetes <marks>1</marks>\n\n\u25cf Helps regulate body weight and reduce body fat, decreasing obesity risk <marks>1</marks>\n\n\u25cf Increases HDL cholesterol and reduces LDL cholesterol, improving lipid profiles <marks>1</marks>\n\n\u25cf Reduces stress and promotes psychological well-being, lowering the risk of depression and anxiety <marks>1</marks>\n\n<note>(Other acceptable answers: Supports bone density, reduces inflammation, improves sleep quality)</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "892a0c87-aa9b-4423-99dc-13ca63a9fd22",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29981,
+              "isHl": false,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.1 Active lifestyle and physical well-being",
+              "title": "A.3.2.1 Active lifestyle and physical well-being",
+              "labeledAt": "2026-03-07T08:17:00.152Z",
+              "reasoning": "Parts b, e, f, and g ask about broad health benefits of flexibility, fitness for body composition, immune function support, and social/emotional benefits of group activity\u2014core active-lifestyle health outcomes.",
+              "confidence": 0.83
+            },
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-07T08:17:00.152Z",
+              "reasoning": "Part d focuses on how balance reduces injury risk, aligning with strategies to minimize risk and improve the body\u2019s ability to absorb/handle forces.",
+              "confidence": 0.72
+            },
+            {
+              "id": 29947,
+              "isHl": false,
+              "path": "C.2 Motor learning > C.2.1 Motor learning processes > C.2.1.2 The psychological refractory period and its impact on reaction time",
+              "title": "C.2.1.2 The psychological refractory period and its impact on reaction time",
+              "labeledAt": "2026-03-07T08:17:00.152Z",
+              "reasoning": "Part c asks for factors affecting reaction time; reaction time is explicitly covered via the psychological refractory period topic.",
+              "confidence": 0.65
+            }
+          ]
+        },
+        "currentRevisionId": 1583713,
+        "parts": [
+          {
+            "id": 1137579,
+            "content": "State two health benefits of maintaining flexibility.",
+            "order": 1,
+            "markscheme": "- reduces risk of injury <marks>A1</marks>\n- improves posture and mobility <marks>A1</marks>\n\n<note>Award <marks>A1</marks> for any other valid benefit, e.g., enhances joint range of motion, decreases muscle stiffness.</note>\n\n[2 marks total]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137580,
+            "content": "Identify two factors affecting reaction time.",
+            "order": 2,
+            "markscheme": "- age <marks>A1</marks>\n- level of fatigue <marks>A1</marks>\n\n<note>Award <marks>A1</marks> for any other valid factor, e.g., distractions, practice, type of stimulus.</note>\n\n[2 marks total]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137581,
+            "content": "Describe how balance helps reduce injury risk.",
+            "order": 3,
+            "markscheme": "- prevents falls by stabilizing posture <marks>A1</marks>\n- aids control during movement <marks>A1</marks>\n- protects joints during instability <marks>A1</marks>\n\n[2 marks total]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137582,
+            "content": "Explain the role of fitness in maintaining healthy body composition.",
+            "order": 4,
+            "markscheme": "- regular physical activity increases energy expenditure, aiding in fat loss <marks>A1</marks>\n- resistance training promotes muscle hypertrophy, improving fat-to-lean mass ratio <marks>A1</marks>\n- cardiovascular exercise enhances metabolic rate, supporting long-term fat management <marks>A1</marks>\n- balanced fitness routines help preserve muscle mass during weight loss <marks>A1</marks>\n- improved body composition reduces health risks such as obesity, diabetes, and cardiovascular disease <marks>A1</marks>\n\n<note>Award <marks>A1</marks> for any other valid point, e.g., fitness supports hormonal balance affecting fat storage; physical activity enhances insulin sensitivity and nutrient partitioning.</note>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137583,
+            "content": "Outline ways physical activity supports immune system function.",
+            "order": 5,
+            "markscheme": "- enhances circulation of immune cells, improving pathogen detection <marks>A1</marks>\n- reduces systemic inflammation through lower pro-inflammatory cytokines <marks>A1</marks>\n- regulates stress hormones like cortisol that affect immune response <marks>A1</marks>\n- improves sleep quality, supporting immune recovery and function <marks>A1</marks>\n\n<note>Award <marks>A1</marks> for any other valid point, e.g., supports lymphatic flow, reduces chronic disease risk which can impair immunity.</note>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137584,
+            "content": "Discuss the social and emotional benefits of group fitness activities.",
+            "order": 6,
+            "markscheme": "- enhances sense of belonging and builds social support networks <marks>A1</marks>\n- reduces feelings of isolation and loneliness, promoting mental health <marks>A1</marks>\n- increases motivation and consistency through peer encouragement and accountability <marks>A1</marks>\n- boosts mood and reduces stress via shared positive experiences <marks>A1</marks>\n- improves self-esteem and confidence through group affirmation and shared success <marks>A1</marks>\n\n<note>Award <marks>A1</marks> for any other valid point, e.g., encourages teamwork, provides emotional support during challenges, fosters a fun and engaging environment that promotes long-term participation.</note>\n\n[5 marks total]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "8f5e5048-0e77-4e7e-9835-2fbcf841f9ce",
+        "specification": "A survey was conducted with 50 basketball coaches to examine the warm-up durations and components included in their sessions during the previous competitive season. Coaches also reported their focus on injury prevention through warm-up design. The following data were collected:\n\nFigure 1: Warm-up duration used by coaches (% of total, with 95% confidence intervals)\n\n![](/api/r2/quiz-image?key=lQjbCrisnQLUMsLjEBn4v)\n\nFigure 2: Warm-up components used (% of coaches using each component, with 95% CI)\n\n![](/api/r2/quiz-image?key=HeNTp54ZjMnl5oynAn7Y2)\n\n\nThe aim was to assess how warm-up practices reflect evidence-based principles of injury prevention and prehabilitation.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1b",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29936,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.2 Interventions related to injury > B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "title": "B.3.2.1 Strategies to minimize risk and maximize the body's ability to absorb forces",
+              "labeledAt": "2026-03-07T08:17:08.893Z",
+              "reasoning": "The question centers on warm-up design as an injury-prevention/prehabilitation intervention, comparing inclusion of components (strength, balance, agility, aerobic) and asking why some are less used\u2014directly aligned with strategies to minimize injury risk and improve force absorption.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:17:08.893Z",
+              "reasoning": "Interpreting how coaches structure warm-ups (duration distribution, component selection) reflects training-program design considerations for safe and effective preparation, beyond purely biomechanical injury mechanisms.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1697570,
+        "parts": [
+          {
+            "id": 1159868,
+            "content": "Refer to Figure 1 and identify the most commonly used warm-up duration among surveyed coaches.",
+            "order": 0,
+            "markscheme": "10 min or less  <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": "dc92307b-ce69-452e-b803-4c003763ad80",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159869,
+            "content": "Describe how warm-up durations are distributed among the coaches.",
+            "order": 1,
+            "markscheme": "- Most coaches selected 10 min or less OR 15 min or less as their warm-up duration  <marks>1 mark</marks>\n\n- Only a small proportion used durations greater than 20 minutes  <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "4df71f34-45be-4bb1-a4b5-a4c8958be108",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159870,
+            "content": "Refer to Figure 2 and identify the warm-up component used by the fewest coaches.",
+            "order": 2,
+            "markscheme": "Balance  <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": "dc92307b-ce69-452e-b803-4c003763ad80",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159871,
+            "content": "Refer to Figure 2 and compare the inclusion rates of agility and strength components.",
+            "order": 3,
+            "markscheme": "- Agility is used by ~75\u201380% of coaches  <marks>1 mark</marks>\n- Strength by ~65\u201370%  <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "95ad3f1b-28db-4f56-93b0-a3a8cacd369c",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159872,
+            "content": "Explain how the principle of prehabilitation applies to the consistent use of aerobic and strength components in warm-ups.",
+            "order": 4,
+            "markscheme": "- Prehabilitation involves targeting weaknesses or vulnerable joints to reduce injury risk  <marks>1 mark</marks>\n\n- Including aerobic OR strength components helps prepare the body by improving circulation OR muscle activation  <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": "32141924-fc74-4165-a278-db67294ff862",
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159873,
+            "content": "State one reason why fewer coaches include balance exercises in warm-ups despite their known benefits.",
+            "order": 5,
+            "markscheme": "- Balance exercises are perceived as less important OR too time-consuming\n- Some coaches may lack knowledge on their injury-preventive value  <marks>1 mark</marks>\n\n\n<Note> Award  <marks>1 mark</marks> for any valid reason supported by logic.",
+            "marks": 1,
+            "label_id": "0bf8a402-f376-43fd-9766-de990b90bb18",
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a00c0d1a-2e5c-4da6-ae2c-f62fb9ae2059",
+        "specification": "Which programme design choice best supports safe training in youth athletes?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:29:50.521Z",
+            "resultId": 30779
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:27:19.979Z",
+              "reasoning": "The question is about programme design principles for safe training in youth athletes (e.g., gradual progression aligned with growth and development), which directly matches training design for safe and effective programs.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695140,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935433,
+            "content": "Gradual progression tailored to growth and development",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935434,
+            "content": "Increasing training load by a fixed 10% each week regardless of growth and maturation",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935435,
+            "content": "Maintaining high training volume year-round with minimal rest weeks to accelerate adaptation",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935436,
+            "content": "Prioritising maximal-intensity sessions before mastering movement technique",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a51c42ae-cbc0-4887-832a-af94cf0483df",
+        "specification": "What does reversibility imply for athletes returning from injury?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:29:36.294Z",
+            "resultId": 30958
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:32:59.670Z",
+              "reasoning": "Reversibility is a core training principle/quality: when training is reduced or stopped (e.g., during injury), adaptations decline, affecting return-to-play training design.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1694903,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934701,
+            "content": "Training adaptations are maintained even when training is reduced or stopped.",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934702,
+            "content": "Fitness is lost when training is reduced or stopped.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct: reversibility means training-induced gains decline when training stimulus is reduced or removed."
+          },
+          {
+            "id": 4934703,
+            "content": "Fitness gains can be partially retained despite a reduced training load, but they will decline over time without sufficient stimulus.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934704,
+            "content": "Only aerobic endurance declines during detraining; strength is not affected.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "af0c9e16-20c1-4ef2-b6b2-10ce209d5a49",
+        "specification": "Which training principle states that improvements occur only in the specific muscles and energy systems trained?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:17:35.596Z",
+              "reasoning": "The question asks about the training principle of specificity (improvements in the specific muscles and energy systems trained), which falls under training design/qualities of training.",
+              "confidence": 0.78
+            }
+          ]
+        },
+        "currentRevisionId": 1420013,
+        "parts": [],
+        "options": [
+          {
+            "id": 4151569,
+            "content": "Overload",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4151570,
+            "content": "Specificity",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4151571,
+            "content": "Progression",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4151572,
+            "content": "Reversibility",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b55ca64c-a6df-4969-b385-e274bc17767b",
+        "specification": "Which training principle requires gradually increasing training demands to continue improving performance?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:26:36.227Z",
+            "resultId": 44480
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-07T08:16:56.216Z",
+              "reasoning": "The question tests understanding of a training principle (progression: gradually increasing training demands) within training design principles for safe and effective programs.",
+              "confidence": 0.88
+            }
+          ]
+        },
+        "currentRevisionId": 1697419,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941376,
+            "content": "Specificity",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Specificity refers to training being specific to the sport, muscle groups, and energy systems required."
+          },
+          {
+            "id": 4941377,
+            "content": "Overload",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Progressive overload involves gradually increasing training demands (e.g., intensity, duration, frequency) to continue improving performance."
+          },
+          {
+            "id": 4941378,
+            "content": "Progression",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. Progression is a general concept of advancing a training programme over time; the specific principle of increasing training demands is overload (progressive overload)."
+          },
+          {
+            "id": 4941379,
+            "content": "Recovery",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Recovery refers to rest and recuperation needed for adaptation and to reduce fatigue/injury risk."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "b7f46bf3-b7c6-46aa-b1c7-d53a8503bc31",
+        "specification": "Which of the following is a key characteristic of an effective training programme for elite swimmers?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:45:56.335Z",
+            "resultId": 30160
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:17:15.784Z",
+              "reasoning": "The question asks about key characteristics of an effective training programme (progression, recovery, sport-specificity), which directly aligns with principles of training design for safe and effective programs.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:17:15.784Z",
+              "reasoning": "Option A explicitly includes recovery as a key feature of an effective elite training programme, linking to recovery strategies/techniques.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695527,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936605,
+            "content": "Progression, adequate recovery, and sport-specific training",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: effective programmes apply progressive overload, allow recovery/adaptation, and are specific to the sport."
+          },
+          {
+            "id": 4936606,
+            "content": "High training volume every session with minimal variation in intensity",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: consistently high volume with little intensity variation increases overtraining risk and reduces effective periodization."
+          },
+          {
+            "id": 4936607,
+            "content": "Technique-focused sessions only, without planned progressive overload",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: technique is important, but without progressive overload performance gains are limited."
+          },
+          {
+            "id": 4936608,
+            "content": "Cardiovascular conditioning only, with strength training excluded throughout the season",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: strength and power development is commonly integrated (appropriately periodized) to support swimming performance."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "bcadf7f9-83cc-4a86-8509-2bc0fa345ea8",
+        "specification": "A coach observes delayed recovery and an elevated core temperature in a female athlete.\n\nUsing the menstrual cycle image, where Stage 3 represents the post-ovulation (luteal) phase when progesterone is high and basal/core temperature is typically elevated, which stage is she most likely in and what adjustment should be made?\n\n![](https://pub-images.revisiondojo.com/question-images/AD6rSwlz_szfa8s-Ytl0k)",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "TEACHER",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T05:56:55.168Z",
+            "resultId": 31459
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30049,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.2 The endocrine system and regulation of biological processes",
+              "title": "A.1.1.2 The endocrine system and regulation of biological processes",
+              "labeledAt": "2026-03-06T05:40:04.611Z",
+              "reasoning": "The question links menstrual-cycle stage to hormone levels (notably progesterone/estrogen) and resulting physiological effects (elevated core temperature), which is endocrine regulation.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29916,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "title": "A.3.3.1 Sources and mechanisms of fatigue (HL)",
+              "labeledAt": "2026-03-06T05:40:04.611Z",
+              "reasoning": "It uses symptoms of delayed recovery and asks for a training adjustment (reduce load/increase rest), aligning with mechanisms of fatigue and recovery considerations.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1694694,
+        "parts": [],
+        "options": [
+          {
+            "id": 4933925,
+            "content": "Stage 1; reduce load or increase rest due to menstruation-related symptoms (e.g. cramping/low energy).",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Stage 1 corresponds to menstruation; temperature elevation is more typically associated with the luteal phase rather than menstruation."
+          },
+          {
+            "id": 4933926,
+            "content": "Stage 2; reduce load or increase rest due to rising estrogen in the follicular phase.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Stage 2 is the follicular phase; progesterone and basal/core temperature are not typically highest here."
+          },
+          {
+            "id": 4933927,
+            "content": "Stage 3; reduce load or increase rest due to high progesterone and elevated basal/core temperature.",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Stage 3 is the luteal (post-ovulation) phase; progesterone is elevated and basal/core temperature is typically higher, which can increase thermal strain and may warrant more recovery/reduced load."
+          },
+          {
+            "id": 4933928,
+            "content": "Stage 4; maintain or increase load because hormone levels are low and stable at the end of the cycle.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Stage 4 is late luteal/premenstrual; hormones are changing (often falling), and the stem\u2019s temperature cue aligns better with the mid-luteal period (Stage 3) than with a \u201cstable\u201d phase."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c3a8ceb6-d6da-42cd-8b1a-e0a30b96f693",
+        "specification": "A cyclist plans their training so that intensity peaks just before a major competition. Which principle is this?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:17:11.815Z",
+              "reasoning": "The scenario describes planning training so performance peaks at a key competition, which is a core element of training program design (periodization/peaking) within qualities of training.",
+              "confidence": 0.74
+            }
+          ]
+        },
+        "currentRevisionId": 1419984,
+        "parts": [],
+        "options": [
+          {
+            "id": 4151449,
+            "content": "Specificity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4151451,
+            "content": "Recovery",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4151452,
+            "content": "Periodization",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4151453,
+            "content": "Progression",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d0e250a4-c34b-4adf-b3ce-7f96c8d07dfa",
+        "specification": "Which principle explains why tapering (reducing volume before a race) helps maximize performance?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29917,
+              "isHl": true,
+              "path": "A.3 Response > A.3.3 Fatigue and recovery (HL) > A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "title": "A.3.3.2 Strategies and techniques for exercise recovery (HL)",
+              "labeledAt": "2026-03-06T05:38:15.135Z",
+              "reasoning": "Tapering before a race is a recovery strategy to reduce fatigue and allow adaptation, aligning most directly with strategies and techniques for exercise recovery.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:38:15.135Z",
+              "reasoning": "Tapering is also a training design choice (manipulating volume before competition) used to maximize performance, fitting training program design principles.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1694844,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934465,
+            "content": "Recovery allows full adaptation and peak readiness",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934466,
+            "content": "Overload ensures intensity is constant",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934467,
+            "content": "Reversibility improves glycogen storage",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934468,
+            "content": "Specificity prevents fatigue",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d0e4ea5b-17cb-4950-8a65-b90820e61baa",
+        "specification": "Why is progression important in training design?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:20:00.122Z",
+            "resultId": 41779
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T15:57:00.960Z",
+              "reasoning": "The question asks about the principle of progression in training design\u2014gradually increasing training demands for continued adaptation\u2014which falls under the importance of training design for safe and effective programs.",
+              "confidence": 0.84
+            }
+          ]
+        },
+        "currentRevisionId": 1697024,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940332,
+            "content": "To maintain the same training load indefinitely",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Progression involves planned increases/adjustments in training load rather than keeping it constant."
+          },
+          {
+            "id": 4940333,
+            "content": "To gradually increase demands for continued improvement",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Progression means systematically increasing training demands over time to stimulate ongoing adaptation and improvement."
+          },
+          {
+            "id": 4940334,
+            "content": "To adjust training variables over time to prevent a plateau",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. This relates to progression/overload effects but is not the best definition here compared with systematically increasing demands for continued improvement."
+          },
+          {
+            "id": 4940335,
+            "content": "To reduce rest intervals only",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Progression can involve manipulating many training variables (frequency, intensity, time, type, recovery), not only reducing rest intervals."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "df667034-f863-47b1-a072-dc21a580003c",
+        "specification": "A personal trainer designs sessions for a client recovering from injury. Which factor is most important when designing a programme for a client recovering from injury?",
+        "questionType": "MC",
+        "level": "hl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:53:46.529Z",
+            "resultId": 30056
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:16:28.963Z",
+              "reasoning": "The question focuses on designing a safe, effective training program for an injured client, emphasizing individualized intensity and progression\u2014core principles of training/programme design.",
+              "confidence": 0.86
+            },
+            {
+              "id": 29915,
+              "isHl": true,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.2 Considerations for prescribing exercise (HL)",
+              "title": "A.3.2.2 Considerations for prescribing exercise (HL)",
+              "labeledAt": "2026-03-06T05:16:28.963Z",
+              "reasoning": "It also relates to appropriate exercise prescription considerations (adjusting intensity/progression and recovery needs) for a client\u2019s health status during rehabilitation.",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1695579,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936709,
+            "content": "Encouraging the client to work through mild discomfort to maintain training momentum",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936710,
+            "content": "Tailoring intensity and progression to the client\u2019s condition",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936711,
+            "content": "Using the same plan as an elite athlete to provide a proven training structure",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936712,
+            "content": "Minimizing rest days to increase training frequency",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e1877f06-8dad-471b-93f5-d43f6e64a9b9",
+        "specification": "A competitive swimmer modifies their training program as shown in the table below:\n\n| Training variable | Month 1 | Month 2 |\n| :--- | :--- | :--- |\n| Number of sessions | 3 per week | 5 per week |\n| Heart rate zone | $155\\text{--}165\\text{ bpm}$ | $155\\text{--}165\\text{ bpm}$ |\n| Length of workout | $45\\text{ minutes}$ | $45\\text{ minutes}$ |\n| Stroke focus | Front crawl | Front crawl |\n\nAccording to the FITT principle, which component has the swimmer adjusted to increase the training stimulus?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-e1877f06-8dad-471b-93f5-d43f6e64a9b9-1771929956947",
+            "generatedAt": "2026-02-25T09:29:02.752Z",
+            "sourceRevisionId": 1683614
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:26:12.295Z",
+            "resultId": 42362
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T16:00:49.395Z",
+              "reasoning": "The question tests application of the FITT principle (training design variables: frequency, intensity, time, type) to identify which component changed (sessions per week increased).",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1696488,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939048,
+            "content": "Intensity",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939049,
+            "content": "Type",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939050,
+            "content": "Frequency",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939051,
+            "content": "Time",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "eb8af610-2db6-459c-be42-7b707135abe9",
+        "specification": "If an athlete maintains the same training intensity and volume over several weeks (i.e., no progressive overload), which outcome is most likely?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:32:57.340Z",
+            "resultId": 30755
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29913,
+              "isHl": false,
+              "path": "A.3 Response > A.3.1 Qualities of training > A.3.1.1 Importance of training design for safe and effective programs",
+              "title": "A.3.1.1 Importance of training design for safe and effective programs",
+              "labeledAt": "2026-03-06T05:26:59.523Z",
+              "reasoning": "The question tests a core training principle in program design: without progressive overload/variation, adaptation slows and performance typically plateaus. This fits training design for safe and effective programs.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1695162,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935477,
+            "content": "Continuous improvement",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935478,
+            "content": "Plateau in performance",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935479,
+            "content": "Rapid overtraining",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935480,
+            "content": "Maintenance of current adaptations",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f14b4506-bf5f-49fa-b298-9c6039264b48",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29981,
+              "isHl": false,
+              "path": "A.3 Response > A.3.2 Benefits to health of being active > A.3.2.1 Active lifestyle and physical well-being",
+              "title": "A.3.2.1 Active lifestyle and physical well-being",
+              "labeledAt": "2026-03-07T08:18:55.427Z",
+              "reasoning": "Most parts focus on health-related fitness components, health risks of sedentary lifestyle, and how regular physical activity reduces chronic disease risk\u2014core content of active lifestyle and physical well-being.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29970,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.3 Transport > A.1.3.1 The cardiovascular system and bodily functions",
+              "title": "A.1.3.1 The cardiovascular system and bodily functions",
+              "labeledAt": "2026-03-07T08:18:55.427Z",
+              "reasoning": "Parts on cardiovascular fitness and how it contributes to health link directly to cardiovascular system function and its role in health.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1697590,
+        "parts": [
+          {
+            "id": 1159970,
+            "content": "State two components of health-related fitness.",
+            "order": 0,
+            "markscheme": "-  Cardiovascular endurance <marks>1 mark</marks>\n-  Muscular strength <marks>1 mark</marks>\n\n<note> Other acceptable answers: Muscular endurance, Flexibility, Body composition - any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159971,
+            "content": "Identify two health risks of a sedentary lifestyle.",
+            "order": 1,
+            "markscheme": "- Increased risk of cardiovascular disease <marks>1 mark</marks>\n- Higher likelihood of obesity <marks>1 mark</marks>\n\n<note>(Other acceptable answers: Type 2 diabetes, Poor mental health - any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159972,
+            "content": "Describe how cardiovascular fitness contributes to health.",
+            "order": 2,
+            "markscheme": "-  Enhances oxygen transport <marks>1 mark</marks>\n-   Reduces resting heart rate <marks>1 mark</marks>\n- Supports endurance in daily tasks <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159973,
+            "content": "Explain the importance of muscular strength in daily activities.",
+            "order": 3,
+            "markscheme": "- Helps with lifting, carrying, and posture <marks>1 mark</marks>\n- Reduces injury risk <marks>1 mark</marks>\n- Supports skeletal alignment <marks>1 mark</marks>\n- Improves movement efficiency <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159974,
+            "content": "Outline the benefits of improving flexibility for athletic performance.",
+            "order": 4,
+            "markscheme": "- Increases range of motion, allowing for more efficient and powerful movements <marks>1 mark</marks>\n- Enhances technique and form in sport-specific skills <marks>1 mark</marks>\n- Reduces the risk of muscle strains and joint injuries <marks>1 mark</marks>\n- Improves recovery by decreasing muscle stiffness and promoting circulation <marks>1 mark</marks>\n\n<note> Other acceptable answers: Contributes to better posture and movement economy; supports balanced muscular development </note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159975,
+            "content": "Discuss the impact of regular physical activity on reducing the risk of chronic diseases.",
+            "order": 5,
+            "markscheme": "- Improves insulin sensitivity, reducing the risk of type 2 diabetes <marks>1 mark</marks>\n- Enhances cardiovascular health by lowering blood pressure and improving lipid profiles <marks>1 mark</marks>\n- Helps maintain healthy body weight, reducing the risk of obesity-related conditions <marks>1 mark</marks>\n- Strengthens the immune system, lowering susceptibility to certain illnesses <marks>1 mark</marks>\n- Reduces systemic inflammation, a contributing factor in many chronic diseases <marks>1 mark</marks>\n\n<note>Other acceptable answers: Supports mental health, reducing risk of stress-related disorders; enhances bone density, lowering osteoporosis risk</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "39",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 21856,
+      "title": "A.3.1 Qualities of training",
+      "slug": "ib-sehs-new-a31-qualities-of-training",
+      "parentTopicId": 21855
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "39",
+      "byQuestion": {}
+    }
+  }
+}

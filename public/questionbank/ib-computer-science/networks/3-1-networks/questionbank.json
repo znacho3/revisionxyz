@@ -1,3 +1,685 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e51f1d48fecdc040fb31d286068de76671431858a671af41dda3290654f3bf83
-size 43311
+{
+  "json": {
+    "questions": [
+      {
+        "id": "01a10ccb-d89d-4625-ab69-28f3ba81ffc4",
+        "specification": "A school currently has a cabled network but wants to add wireless networking across the whole campus.\n\nThere are concerns that unauthorised people could access the data on the wireless network.\n\nThe school has decided to implement a virtual private network (VPN) to provide access to its network.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": 7,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "question_set": "STUDENT",
+          "old_difficulty": "medium",
+          "old_question_id": "Computer-Science-21M.1.SL.TZ0.12",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T15:43:06.577Z",
+            "resultId": 1219
+          }
+        },
+        "currentRevisionId": 1693334,
+        "parts": [
+          {
+            "id": 1155145,
+            "content": "Describe two hardware components the school will need to implement the wireless network.",
+            "order": 0,
+            "markscheme": "_Award [4]_\n\n(Wireless) router;  \nA central hub for all the computers to connect to;  \nEnables wireless network packet forwarding and routing;\n\nWireless Network Interface Card (NIC);  \nTo allow the computer to \u2018talk to\u2019 the (wireless) router;\n\nWireless access points;  \nAllow Wi-Fi devices to connect to a wired network;\n\nWireless repeaters;  \nTo expand the reach of the network;\n\n*Mark as 2 and 2.*",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155146,
+            "content": "Identify **two** advantages to the students of the new wireless network.",
+            "order": 1,
+            "markscheme": "_Award **[2 max]**_  \nThe ability to use their own devices at school;  \nThe ability to access the school network from anywhere in the school;  \nNo cables laid, so reduces the risk of tripping over cables;  \nNumbers of connections are not limited to cable ports, so greater numbers of students can connect at any given time;",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155147,
+            "content": "Outline **two** methods the school could employ to prevent network data from being accessed over their wireless system.",
+            "order": 2,
+            "markscheme": "_Award **[4 max]**_\n\nUse of encryption;  \nSo that data cannot be understood if it is intercepted;\n\nUse of user authentication/usernames and passwords;  \nTo prevent unauthorised access to the system;\n\nSetting up a file of accepted MAC addresses;  \nTo only allow access to the network by registered mobile devices;\n\nHide network ID;  \nSo that the wireless network is not publicly seen;\n\nMark as 2 and 2.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155148,
+            "content": "Identify **two** technologies the school would require to provide a VPN.",
+            "order": 3,
+            "markscheme": "_Award **[2 max]**_  \nClient VPN software (to make a secure remote connection);  \nVPN-aware routers and firewalls (to permit VPN traffic to pass);  \nVPN appliance/server (to handle incoming VPN traffic);  \nEncryption protocol IPSec or SSL;",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155149,
+            "content": "Explain **one** benefit to the staff of using a VPN to remotely access the school network.",
+            "order": 4,
+            "markscheme": "_Award **[3 max]**_  \nEnhanced security of data;  \nfor example, using encryption;  \nThis prevents unauthorised access;\n\nRemote access to data and resources (from any location);  \nNormal access of materials on the network;  \nas though the user was using the network on site;",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2ba501e3-f520-489c-8497-5ed40b66db5e",
+        "specification": "A medium-sized company operates from two separate buildings. Each building has its own local area network (LAN), and the two buildings are connected via a wide area network (WAN). The company is considering moving part of its services to a cloud computing provider.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": null,
+        "currentRevisionId": 1493621,
+        "parts": [
+          {
+            "id": 1123697,
+            "content": "Define the terms local area network (LAN) and wide area network (WAN).",
+            "order": 1,
+            "markscheme": "**LAN** \n\n- A network that connects computers and devices within a limited geographical area, such as a building or campus. <marks>1</marks>\n- Typically uses private infrastructure like Ethernet or Wi-Fi. <marks>1</marks>\n\n**WAN** \n\n- A network that spans a large geographical area, often connecting multiple LANs. <marks>1</marks>\n- Typically uses public communication links, such as leased lines or the internet. <marks>1</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "standard_definition",
+                  "label": "Standard Definition",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Identify the definitions needed",
+                      "content": "To answer this question effectively, we need to define both **Local Area Network ($LAN$)** and **Wide Area Network ($WAN$)**. For each, the IB markscheme expects us to describe two main characteristics:\n1. The **geographical area** it covers.\n2. The **infrastructure or ownership** involved.\n\nThis topic is covered in **Topic 3: Networks**. Understanding these distinctions is fundamental to understanding how data moves between the company's two buildings.",
+                      "highlights": [
+                        {
+                          "text": "Define the terms local area network (LAN) and wide area network (WAN).",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Define LAN: Geographical Area",
+                      "content": "A **Local Area Network ($LAN$)** is a network that connects computer systems and devices within a **limited geographical area**. \n\nThink of this as a single site, such as an office, a home, or as mentioned in the question, one of the company's individual buildings.",
+                      "highlights": [
+                        {
+                          "text": "A network that connects computers and devices within a limited geographical area, such as a building or campus.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Define LAN: Infrastructure",
+                      "content": "The second key part of a $LAN$ definition is that it typically uses **private infrastructure**. \n\nThis means the company owns the cables (like Ethernet) and the wireless access points (Wi-Fi) used to run the network. It is managed by the organization itself rather than an external provider.",
+                      "highlights": [
+                        {
+                          "text": "Typically uses private infrastructure like Ethernet or Wi-Fi.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Define WAN: Geographical Area",
+                      "content": "A **Wide Area Network ($WAN$)** is a network that spans a **large geographical area**. \n\nIt is often used to connect multiple $LANs$ that are far apart, such as the two buildings in our scenario which might be in different cities or even different countries.",
+                      "highlights": [
+                        {
+                          "text": "A network that spans a large geographical area, often connecting multiple LANs.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Define WAN: Infrastructure",
+                      "content": "Unlike a $LAN$, a $WAN$ typically uses **public communication links** or infrastructure provided by a third party. \n\nThis includes technologies like leased lines, fiber optic cables owned by telecommunications companies, or even the internet itself. The organization does not own the entire physical path the data travels over.",
+                      "highlights": [
+                        {
+                          "text": "Typically uses public communication links, such as leased lines or the internet.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 5,
+                      "title": "Final Definition Summary",
+                      "content": "To get full marks on an IB exam, ensure you provide both points for each term:\n\n*   **Local Area Network ($LAN$):** A network covering a small/limited geographical area (e.g., a building) using private infrastructure like Ethernet.\n*   **Wide Area Network ($WAN$):** A network covering a large geographical area (e.g., connecting cities) using public or leased communication links."
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T05:41:28.666Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          },
+          {
+            "id": 1123698,
+            "content": "Explain two advantages and one disadvantage for the company of using a client-server network instead of a peer-to-peer model.",
+            "order": 2,
+            "markscheme": "**Two valid advantages explained ($2 \\times 2$ marks):**\n\n- Centralized management: easier to manage updates, backups, and security from a single point. <marks>2</marks>\n- Enhanced security: access rights and permissions are controlled centrally by the server. <marks>2</marks>\n- Scalability: easier to add users and manage resources as the company grows. <marks>2</marks>\n\n**One valid disadvantage explained ($1 \\times 2$ marks):**\n\n- Higher cost: requires dedicated hardware (servers) and specialized IT personnel. <marks>2</marks>\n- Single point of failure: if the central server fails, clients may lose access to all services. <marks>2</marks>\n- Complexity: more difficult to set up and maintain than a peer-to-peer model. <marks>2</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": {
+              "methods": [
+                {
+                  "id": "operational_control",
+                  "label": "Operational Efficiency and Reliability",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Define the Network Models",
+                      "content": "In a **client-server** model, a powerful central computer (the server) provides resources and services to several workstations (the clients). In contrast, a **peer-to-peer (P2P)** model treats all computers as equals, with each node sharing its own resources. For a medium-sized company across two buildings, the choice significantly impacts administrative efficiency and system reliability."
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Advantage: Centralized Management",
+                      "content": "One major advantage is **centralized administration for backups and updates**. \n\nIn a client-server network, all critical data is stored on the central server. This allows IT staff to perform a single, automated backup of all company data from one location. This is far more efficient than a P2P model, where data is scattered across individual machines, making it difficult to ensure every workstation is backed up reliably.",
+                      "highlights": [
+                        {
+                          "text": "Centralized management: easier to manage updates, backups, and security from a single point.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Advantage: Enhanced Security Control",
+                      "content": "A second advantage is **centralized security and access control**. \n\nSecurity policies, such as user permissions and antivirus updates, are managed at the server level. When a new employee joins or permissions change, the administrator only needs to update the central database once. In a P2P model, security must be configured manually on every single computer, which increases the risk of human error and security gaps.",
+                      "highlights": [
+                        {
+                          "text": "Enhanced security: access rights and permissions are controlled centrally by the server.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Disadvantage: Single Point of Failure",
+                      "content": "The primary disadvantage regarding reliability is the **single point of failure**. \n\nBecause all clients rely on the central server for authentication, file access, and applications, if the server hardware fails or the software crashes, the entire network becomes unusable. In a P2P network, if one computer fails, the rest of the network can still function, making the client-server model more vulnerable to total system downtime.",
+                      "highlights": [
+                        {
+                          "text": "Single point of failure: if the central server fails, clients may lose access to all services.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Summary of Marks",
+                      "content": "To earn full marks on this question, ensure you provide both the feature and the explanation of its impact:\n\n*   **Advantage 1 (2 marks):** State \"Centralized backups\" and explain that it ensures all data is protected from one point.\n*   **Advantage 2 (2 marks):** State \"Centralized security\" and explain that it allows for uniform access control across the company.\n*   **Disadvantage (2 marks):** State \"Single point of failure\" and explain that a server crash halts all client activity."
+                    }
+                  ]
+                },
+                {
+                  "id": "scaling_and_investment",
+                  "label": "Scalability and Economic Factors",
+                  "steps": [
+                    {
+                      "type": "text",
+                      "order": 0,
+                      "title": "Analyze network models",
+                      "content": "To answer this question, we need to compare a **client-server** model (where a powerful central server provides services to multiple workstations) with a **peer-to-peer (P2P)** model (where every computer has equal status and shares its own resources). \n\nWe will focus specifically on **scalability** (how the network grows) and **economic factors** (costs and complexity) to explain the trade-offs for this medium-sized company.",
+                      "calculator": [],
+                      "highlights": [
+                        {
+                          "text": "Explain two advantages and one disadvantage for the company of using a client-server network instead of a peer-to-peer model.",
+                          "location": "specification"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "order": 1,
+                      "title": "Advantage 1: Improved Scalability",
+                      "content": "A major advantage of the client-server model is its **scalability**. As the company grows or adds more employees to its two buildings, it is much easier to add new client workstations to the network. \n\nSince files and applications are stored centrally on the server, a new user simply needs a connection and login credentials to access all company resources. In a P2P model, adding a new user is cumbersome because you might have to manually configure permissions and resource sharing on every single existing computer in the network. \n\n**Marks awarded:**\n- 1 mark for identifying scalability.\n- 1 mark for explaining it in terms of growth or adding users.",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 2,
+                      "title": "Advantage 2: Centralized Management",
+                      "content": "From an **economic and operational standpoint**, client-server networks allow for **centralized management**. IT staff can perform software updates, backups, and security patches from a single point (the server) rather than visiting every individual machine in both buildings.\n\nThis efficiency saves significant time and labor costs. For a medium-sized company, this ensures that security policies are applied consistently across the WAN, which is much harder to guarantee in a P2P setup where each user manages their own security.\n\n**Marks awarded:**\n- 1 mark for identifying centralized management/security.\n- 1 mark for explaining the efficiency or consistency it provides.",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 3,
+                      "title": "Disadvantage: Economic and Technical Overhead",
+                      "content": "The primary disadvantage involves the **economic factors** of setup and maintenance. Client-server networks have a much higher **initial cost** because they require dedicated, high-performance server hardware and specialized network operating systems.\n\nAdditionally, there is a **complexity factor**: the company would likely need to hire specialized IT personnel to manage and maintain the server. In contrast, a P2P network is cheaper and simpler to set up initially because it uses standard hardware the company already owns. \n\n**Marks awarded:**\n- 1 mark for identifying high cost or complexity.\n- 1 mark for explaining the need for dedicated hardware or specialized staff.",
+                      "calculator": []
+                    },
+                    {
+                      "type": "text",
+                      "order": 4,
+                      "title": "Final Summary",
+                      "content": "In summary, the client-server model is ideal for a growing company because it scales efficiently and centralizes control, but it requires a larger financial investment and technical expertise compared to a peer-to-peer model.\n\n**Total Marks: 6**\n- Advantage 1 (Scalability): $2$ marks\n- Advantage 2 (Centralization): $2$ marks\n- Disadvantage (Cost/Complexity): $2$ marks",
+                      "calculator": []
+                    }
+                  ]
+                }
+              ],
+              "generatedAt": "2026-01-28T05:42:09.200Z",
+              "modelVersion": "gemini-3-flash-preview",
+              "explanationVersion": "v2"
+            }
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "5bb36cb4-db57-4903-842d-0090661ba5d6",
+        "specification": "IB Computer Science",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-5bb36cb4-db57-4903-842d-0090661ba5d6-1771929956947",
+            "generatedAt": "2026-02-26T11:21:09.467Z",
+            "sourceRevisionId": 1493657
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T13:04:13.373Z",
+            "resultId": 3925
+          }
+        },
+        "currentRevisionId": 1689926,
+        "parts": [
+          {
+            "id": 1152622,
+            "content": "Identify the meaning of the term *bandwidth*.",
+            "order": 0,
+            "markscheme": "- Bandwidth refers to the maximum amount of data that can be transmitted over a specific network connection in a given amount of time (typically measured in bits per second). <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152623,
+            "content": "Outline why international standards are essential in the development of network technologies.",
+            "order": 1,
+            "markscheme": "- Standards provide a common language/framework that ensures interoperability between hardware and software produced by different manufacturers. <marks>1 mark</marks>\n- They facilitate global communication by ensuring that devices in different countries can connect and exchange data seamlessly. <marks>1 mark</marks>\n- They lower costs for consumers by promoting a competitive market where products from various vendors can work together. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152624,
+            "content": "A corporation utilizes a Virtual Private Network (VPN) for its remote workforce. Evaluate the use of a VPN as a method for maintaining data privacy and accessibility.",
+            "order": 2,
+            "markscheme": "- **Advantage:** A VPN creates an encrypted \"tunnel\" for data, ensuring that sensitive corporate information remains unreadable if intercepted while travelling over public internet connections. <marks>1 mark</marks>\n- **Advantage:** It allows remote employees to access internal file servers and databases as if they were physically connected to the office's local network (LAN). <marks>1 mark</marks>\n- **Disadvantage:** The process of encrypting and decrypting data in real-time can introduce significant latency, potentially slowing down the user experience for high-bandwidth tasks. <marks>1 mark</marks>\n- **Disadvantage:** Reliable VPN performance is highly dependent on the quality of the user's personal internet connection; if the public connection is unstable, the VPN tunnel may drop frequently. <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152625,
+            "content": "Explain the function performed by the following hardware device used in a network: **Network Switch**",
+            "order": 3,
+            "markscheme": "- A network switch connects multiple devices together on a single local area network (LAN) and manages data traffic between them. <marks>1 mark</marks>\n- Unlike a hub, it inspects incoming data packets to identify the destination MAC address and forwards the data only to the specific port where that device is connected, reducing network congestion. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152626,
+            "content": "Outline **two** differences between a Local Area Network (LAN) and a Wide Area Network (WAN).",
+            "order": 4,
+            "markscheme": "- **Geographical spread:** a LAN is restricted to a small area like a single building or campus, whereas a WAN covers a large distance such as a city, country, or the entire globe. <marks>2 mark</marks>\n- **Ownership and management:** LANs are typically owned and maintained by the organization that uses them (private), while WANs usually rely on infrastructure provided by third-party telecommunication companies (public/leased). <marks>2 mark</marks>\n- **Transmission media:** LANs often use high-speed Ethernet cables or Wi-Fi, while WANs utilise a mix of satellite links, fibre-optic backbone cables, and microwave relays. <marks>2 mark</marks>\n- **Data transfer rates:** LANs generally provide much higher bandwidth and lower latency due to the shorter distances and private hardware compared to the slower speeds often seen in long-distance WAN transmissions. <marks>2 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1152627,
+            "content": "Explain the function performed by the following hardware device used in a network: **Wireless Access Point (WAP)**",
+            "order": 5,
+            "markscheme": "- A wireless access point (WAP) acts as a bridge that allows Wi-Fi enabled devices (like laptops and smartphones) to connect to a wired Ethernet network. <marks>1 mark</marks>\n- It receives radio frequency signals from mobile devices and converts them into digital data packets that can be transmitted over the wired network backbone. <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "62eff9cb-858b-4241-a983-886eb2b80ee0",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-computer-science-62eff9cb-858b-4241-a983-886eb2b80ee0-1771949116541",
+            "generatedAt": "2026-02-24T16:06:40.553Z",
+            "sourceRevisionId": 1546256
+          }
+        },
+        "currentRevisionId": 1688535,
+        "parts": [
+          {
+            "id": 1150188,
+            "content": "A high-definition movie is streamed from a remote server to a laptop. This process relies on packet switching, where each data packet includes a header.\n\nOutline two ways in which the information contained in the **packet headers** ensures that the movie is played correctly on the laptop.",
+            "order": 0,
+            "markscheme": "<note>Award **[2 max]**\n</note>\n- **Sequencing**: The header contains a sequence number which allows the laptop to reassemble the packets in the correct order for smooth playback, even if they arrive out of sequence <marks>A1</marks>\n- **Addressing**: The header contains the destination IP address, ensuring that network routers can identify and deliver the video data to the specific laptop that requested it <marks>A1</marks>\n- **Error Control**: The header may contain information that allows the laptop to identify if a packet is missing, enabling it to request a retransmission from the server <marks>A1</marks>\n- **Protocol Identification**: The header specifies the protocol being used (e.g., TCP or UDP), which tells the laptop how to handle and interpret the incoming video data <marks>A1</marks>\n\n2 marks total",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6c35cb96-eb38-4405-b22f-b7cbea01f782",
+        "specification": "Analysis of the operational advantages of a Client-Server network model compared to a Peer-to-Peer (P2P) model.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-6c35cb96-eb38-4405-b22f-b7cbea01f782-1771929956947",
+            "generatedAt": "2026-02-24T10:46:41.380Z",
+            "sourceRevisionId": 1493645
+          },
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-04T14:56:16.378Z",
+            "resultId": 3170
+          }
+        },
+        "currentRevisionId": 1691877,
+        "parts": [
+          {
+            "id": 1153619,
+            "content": "A startup company with 10 employees is considering upgrading its network from a **Peer-to-Peer (P2P)** model to a **Client-Server** model.\n\nExplain **two** benefits of adopting a Client-Server network architecture for this business.",
+            "order": 0,
+            "markscheme": "- **Centralised management**: Administrative tasks such as software updates and security patches can be managed and deployed from the server to all workstations simultaneously, rather than updating each device individually. <marks>1 mark</marks>\n- **Centralised backups**: All company data is stored on the server, allowing for a single, scheduled backup routine that protects all business files, whereas P2P relies on each user to back up their own workstation. <marks>1 mark</marks>\n- **Enhanced security**: The server manages user authentication and file-level permissions centrally, providing much tighter control over who can access sensitive company data than a P2P setup. <marks>1 mark</marks>\n- **Improved scalability**: It is more efficient to add new users and computers to a client-server network as the company grows, as the server is designed to handle multiple simultaneous requests without a significant drop in performance. <marks>1 mark</marks>\n\n- Accept any two points. <marks>0 marks</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "6ed0af8b-0992-4770-8dbd-ff73f17ece38",
+        "specification": "A multinational corporation uses a complex infrastructure to connect its regional offices and allow employees to work remotely.",
+        "questionType": "LA",
+        "level": "hl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-6ed0af8b-0992-4770-8dbd-ff73f17ece38-1771929956947",
+            "generatedAt": "2026-02-26T11:29:04.953Z",
+            "sourceRevisionId": 1493610
+          }
+        },
+        "currentRevisionId": 1688475,
+        "parts": [
+          {
+            "id": 1149997,
+            "content": "Compare a **Local Area Network (LAN)** and a **Wide Area Network (WAN)** in terms of their geographical scope.",
+            "order": 0,
+            "markscheme": "A LAN is restricted to a small geographical area, such as a single office building or a campus; <marks>[1]</marks>\n\nA WAN connects multiple smaller networks over a large geographical distance, such as across different cities or countries; <marks>[1]</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1149998,
+            "content": "Explain how **encryption** is used within a **Virtual Private Network (VPN)** to ensure data security.",
+            "order": 1,
+            "markscheme": "Encryption transforms the original data into an unreadable format (ciphertext) using a specific algorithm/key before transmission; <marks>[1]</marks>\n\nThis ensures that if the data is intercepted while traveling over the public internet, it cannot be understood by unauthorized parties; <marks>[1]</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a24317e2-5424-4e96-ad93-ee014ef94908",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-a24317e2-5424-4e96-ad93-ee014ef94908-1771929956947",
+            "generatedAt": "2026-02-24T10:48:02.365Z",
+            "sourceRevisionId": 1493647
+          }
+        },
+        "currentRevisionId": 1688570,
+        "parts": [
+          {
+            "id": 1150342,
+            "content": "Define the term **interoperability** as it relates to the communication between devices on a network.",
+            "order": 0,
+            "markscheme": "- The ability of various computer systems or software applications to communicate and reliably exchange data with one another, regardless of their manufacturer or internal architecture <marks>1 mark</marks>\n\n1 mark total",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150343,
+            "content": "Identify one primary reason why international **standards** are necessary for the development of network protocols.",
+            "order": 1,
+            "markscheme": "- To ensure that hardware and software components from different vendors are compatible and can work together seamlessly <marks>1 mark</marks>\n- To provide a common framework for manufacturers, which simplifies development and promotes global connectivity <marks>1 mark</marks>\n\n1 mark total\n\n<note>Accept any valid reason such as promoting competition or reducing consumer costs through universal compatibility.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "a9ba449c-36a3-42bc-a13c-6f85f8cc9cd2",
+        "specification": "A multinational financial services firm operates branch offices in various countries. Each branch utilizes internal connectivity for staff, while a global infrastructure links these locations to the central headquarters.",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-a9ba449c-36a3-42bc-a13c-6f85f8cc9cd2-1771929956947",
+            "generatedAt": "2026-02-24T15:27:14.723Z",
+            "sourceRevisionId": 1493636
+          }
+        },
+        "currentRevisionId": 1686183,
+        "parts": [
+          {
+            "id": 1146809,
+            "content": "Describe the role of protocols in enabling communication across this network.",
+            "order": 0,
+            "markscheme": "### Role of protocols\n\n- Provide a set of standardized rules that govern how data is formatted and exchanged between devices <marks>1</marks>\n- Manage error detection and recovery to ensure the integrity of the transmitted data <marks>1</marks>\n- Handle synchronization (handshaking) to establish a connection and manage the data transfer rate between sender and receiver <marks>1</marks>\n- Ensure interoperability, allowing devices from different manufacturers to communicate effectively <marks>1</marks>\n\n<note>Award maximum 3 marks</note>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146810,
+            "content": "Outline **two** benefits of using packet switching to transmit financial data across the firm's global network.",
+            "order": 1,
+            "markscheme": "- Network Resilience / Fault tolerance <marks>1</marks>\n  - if a specific transmission path or intermediate node becomes unavailable, packets can be dynamically rerouted through different paths to reach the destination <marks>1</marks>\n- Efficient bandwidth utilization <marks>1</marks>\n  - multiple data streams can share the same physical communication channel simultaneously rather than requiring a dedicated, often idle, circuit <marks>1</marks>\n- Cost-effectiveness <marks>1</marks>\n  - the organization does not need to pay for permanent, exclusive end-to-end lines between every branch, as they share public or provider infrastructure <marks>1</marks>\n- Data integrity checks <marks>1</marks>\n  - each packet can be individually checked for errors upon arrival, and only corrupted packets need to be retransmitted rather than the entire message <marks>1</marks>\n\n<note>Award 1 mark for identifying a benefit and 1 mark for an appropriate outline, up to 2 marks per benefit. Maximum 4 marks total.</note>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146811,
+            "content": "Outline **two** characteristics that distinguish a Wide Area Network (WAN) from a Local Area Network (LAN).",
+            "order": 2,
+            "markscheme": "- Geographical Scope <marks>1</marks>\n  - a LAN is typically confined to a small area such as a single office or building, whereas a WAN connects multiple sites across large distances like cities or continents <marks>1</marks>\n- Ownership and Management <marks>1</marks>\n  - the infrastructure of a LAN is usually owned and maintained by the organization itself, while a WAN often relies on leased lines or infrastructure provided by third-party telecommunications companies <marks>1</marks>\n- Transmission Media <marks>1</marks>\n  - LANs typically use Ethernet cables or Wi-Fi, while WANs utilize specialized technologies like fiber-optic undersea cables, satellites, or microwave links <marks>1</marks>\n- Data Transfer Rates <marks>1</marks>\n  - LANs generally offer higher data transfer speeds due to the proximity of devices, while WAN speeds can be lower due to the vast distances and potential bottlenecks in public infrastructure <marks>1</marks>\n\n<note>Award 1 mark for identifying a characteristic and 1 mark for an appropriate outline, up to 2 marks per characteristic. Maximum 4 marks total.</note>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e9f59be1-385c-4204-9096-685582f95d14",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 292,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-e9f59be1-385c-4204-9096-685582f95d14-1771929956947",
+            "generatedAt": "2026-02-24T15:38:43.103Z",
+            "sourceRevisionId": 1546252
+          }
+        },
+        "currentRevisionId": 1684713,
+        "parts": [
+          {
+            "id": 1145497,
+            "content": "Outline two reasons why a business might choose to implement a wireless local area network (WLAN) instead of a wired Ethernet network.",
+            "order": 0,
+            "markscheme": "* Provides increased mobility for staff, allowing them to remain connected to the network and access resources while moving between different office locations; <marks>A1</marks>\n* Lower infrastructure and maintenance costs, as there is no need to install and manage physical cabling through walls and ceilings for every individual device; <marks>A1</marks>\n\n[Total: 2 marks]",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "9",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 9846,
+      "title": "3.1 Networks",
+      "slug": "3-1-networks",
+      "parentTopicId": 9845
+    },
+    "subject": {
+      "id": 292,
+      "title": "Computer Science (CS)",
+      "slug": "ib-computer-science",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "9",
+      "byQuestion": {}
+    }
+  }
+}

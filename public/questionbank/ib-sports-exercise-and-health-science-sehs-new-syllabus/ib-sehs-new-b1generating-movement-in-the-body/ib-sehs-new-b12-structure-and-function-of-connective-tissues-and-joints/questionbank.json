@@ -1,3 +1,3295 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:937c41dfd4b7b2f6501a24fa81886555d8d4145a1fa4b0228ed0d155aae11f26
-size 157242
+{
+  "json": {
+    "questions": [
+      {
+        "id": "0b2b0207-8e71-454c-a875-78e548ce0679",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Parts b\u2013d focus on synovial joint movements, anatomical terms for body position, and the roles of tendons and ligaments\u2014core content on joint/connective tissue structure and function supporting movement.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29923,
+              "isHl": true,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "title": "B.1.3.2 Sliding filament theory and molecular basis of muscle contraction (HL)",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Part e asks how skeletal muscle structure enables force production, aligning with muscle ultrastructure and the sliding filament/molecular basis of contraction.",
+              "confidence": 0.85
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:16:42.147Z",
+              "reasoning": "Part f is explicitly about third-class levers and their function/application in sport, which fits classes of levers and applications in human movement.",
+              "confidence": 0.82
+            }
+          ]
+        },
+        "currentRevisionId": 1583815,
+        "parts": [
+          {
+            "id": 1137845,
+            "content": "Identify three types of movement possible at synovial joints.",
+            "order": 1,
+            "markscheme": "* Flexion <marks>A1</marks>\n* Extension <marks>A1</marks>\n* Rotation <marks>A1</marks>\n\n<note> (Other acceptable answers: Abduction, Adduction, Circumduction \u2014 any three) </note>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137846,
+            "content": "State three anatomical terms used to describe body position.",
+            "order": 2,
+            "markscheme": "* Superior <marks>A1</marks>\n* Inferior <marks>A1</marks>\n* Anterior <marks>A1</marks>\n\n<note> (Other acceptable answers: Posterior, Medial, Lateral, Proximal, Distal \u2014 any three) </note>\n\n[3 marks total]",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137847,
+            "content": "Describe the role of tendons and ligaments in generating and controlling movement.",
+            "order": 3,
+            "markscheme": "* Tendons connect muscle to bone <marks>A1</marks>\n* Transmit force from muscle contraction to bone <marks>A1</marks>\n* Ligaments connect bone to bone <marks>A1</marks>\n* Stabilize joints during movement <marks>A1</marks>\n\n[4 marks total]",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137848,
+            "content": "Explain how the structure of skeletal muscle enables force production.",
+            "order": 4,
+            "markscheme": "* Skeletal muscle is striated and multinucleated <marks>A1</marks>\n* Contains myofibrils with actin and myosin filaments <marks>A1</marks>\n* Contracts via sliding filament mechanism <marks>A1</marks>\n* Neuromuscular junction triggers action potential <marks>A1</marks>\n* Produces force to move bones <marks>A1</marks>\n\n[5 marks total]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137849,
+            "content": "Describe the function and application of third-class levers in sport.",
+            "order": 5,
+            "markscheme": "* Effort is between fulcrum and load <marks>A1</marks>\n* Allows large range of motion and speed <marks>A1</marks>\n* Requires more force than the load <marks>A1</marks>\n* Example: Biceps curl \u2014 elbow is fulcrum, weight is load, biceps apply effort <marks>A1</marks>\n* Common in sporting movements like kicking, throwing, running <marks>A1</marks>\n\n<note> Any sport as an example of application is acceptable </note>\n\n[5 marks total]",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "0da6b9fd-1dc5-4736-ab1d-58231a0ffa1e",
+        "specification": "Which specialized connective tissue acts as the mechanical link required to convert the tension produced by a contracting muscle into the actual displacement of a bone?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-0da6b9fd-1dc5-4736-ab1d-58231a0ffa1e-1771867193188",
+            "generatedAt": "2026-02-24T05:44:22.091Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420679
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:23:20.220Z",
+            "resultId": 31000
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:37:14.787Z",
+              "reasoning": "The question asks which specialized connective tissue (tendon vs ligament, cartilage, synovial membrane) links muscle contraction tension to bone movement\u2014this is core knowledge of connective tissues and joint structures supporting movement.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1694882,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934617,
+            "content": "Ligament",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4934618,
+            "content": "Articular cartilage",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4934619,
+            "content": "Tendon",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4934620,
+            "content": "Synovial membrane",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "0ede1355-9876-4881-8b05-d43c74ba1c47",
+        "specification": "During a squat, the knee mainly performs flexion and extension. Which type of synovial joint is the knee?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-0ede1355-9876-4881-8b05-d43c74ba1c47-1771867193188",
+            "generatedAt": "2026-02-24T05:43:40.652Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420677
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T07:22:58.871Z",
+            "resultId": 30996
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:37:10.970Z",
+              "reasoning": "The question asks for the category of synovial joint responsible for knee flexion/extension during a squat (hinge joint), which falls under joint structure and function within connective tissues and joints.",
+              "confidence": 0.88
+            }
+          ]
+        },
+        "currentRevisionId": 1694880,
+        "parts": [],
+        "options": [
+          {
+            "id": 4934609,
+            "content": "Hinge joint",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: the knee is classified as a (modified) hinge synovial joint, primarily allowing flexion and extension."
+          },
+          {
+            "id": 4934610,
+            "content": "Pivot joint",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: pivot joints allow rotation around a longitudinal axis (for example, atlanto-axial or radioulnar joints)."
+          },
+          {
+            "id": 4934611,
+            "content": "Ball-and-socket joint",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: ball-and-socket joints allow movement in multiple planes (for example, hip or shoulder)."
+          },
+          {
+            "id": 4934612,
+            "content": "Gliding joint",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: gliding (plane) joints permit small sliding movements (for example, intercarpal joints)."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "112045f2-6bf4-4492-a376-819d33e648e0",
+        "specification": "Sports, Exercise and Health Science: Anatomy and Exercise Physiology",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:56.320Z",
+              "reasoning": "Parts (b) and (d) focus on identifying movements in the frontal plane and relating the sagittal plane to running mechanics\u2014directly testing planes of movement and axes of rotation.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T17:36:56.320Z",
+              "reasoning": "Parts (c) and (e) ask about synovial fluid functions and ligaments\u2019 role in injury prevention\u2014core joint/connective-tissue structure and function.",
+              "confidence": 0.85
+            }
+          ]
+        },
+        "currentRevisionId": 1583843,
+        "parts": [
+          {
+            "id": 1137946,
+            "content": "Identify two frontal plane movements.",
+            "order": 1,
+            "markscheme": "- Abduction <marks>A1</marks>\n- Adduction <marks>A1</marks>\n- Lateral flexion <marks>A1</marks>\n- Inversion or eversion <marks>A1</marks>\n- Elevation or depression of the scapula <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for any of the above identified movements, up to a maximum of [2].</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137947,
+            "content": "State two functions of synovial fluid.",
+            "order": 2,
+            "markscheme": "- **Lubrication**: reduces friction between the articular surfaces of the joint <marks>A1</marks>\n- **Nutrient supply**: provides oxygen and nutrients to the articular cartilage <marks>A1</marks>\n- **Waste removal**: removes metabolic by-products from the joint capsule <marks>A1</marks>\n- **Shock absorption**: protects the joint by distributing pressure during movement <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for any of the above stated functions, up to a maximum of [2].</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137948,
+            "content": "Describe how the sagittal plane relates to running mechanics.",
+            "order": 3,
+            "markscheme": "- The sagittal plane divides the body into left and right halves, and most running mechanics occur within this plane <marks>A1</marks>\n- Movement involves forward and backward motion, such as the stride progression <marks>A1</marks>\n- Key joint actions include flexion and extension at the hip, knee, and ankle (dorsiflexion/plantarflexion) <marks>A1</marks>\n\n3 marks total",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137949,
+            "content": "Explain the relationship between ligaments and injury prevention.",
+            "order": 4,
+            "markscheme": "- Ligaments connect bone to bone across a joint, providing passive stability <marks>A1</marks>\n- They limit excessive or unwanted ranges of motion, such as preventing hyper-extension <marks>A1</marks>\n- They help maintain correct joint alignment during dynamic activities <marks>A1</marks>\n- By restricting joint movement to safe planes, they reduce the risk of dislocations and sprains <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137950,
+            "content": "Outline the differences between fast-twitch and slow-twitch muscle fibers.",
+            "order": 5,
+            "markscheme": "- Fast-twitch (Type II) fibers produce high force/power, whereas slow-twitch (Type I) produce lower force <marks>A1</marks>\n- Fast-twitch fibers fatigue quickly, while slow-twitch fibers are highly fatigue-resistant <marks>A1</marks>\n- Fast-twitch fibers have low mitochondrial density/aerobic capacity, whereas slow-twitch have high density/capacity <marks>A1</marks>\n- Fast-twitch are suited for explosive anaerobic activities like sprinting, while slow-twitch are suited for prolonged aerobic activities like marathons <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137951,
+            "content": "Explain how understanding anatomical movements improves sports technique.",
+            "order": 6,
+            "markscheme": "- Coaches can identify and correct poor joint alignment to optimize power and force production <marks>A1</marks>\n- Ensuring movement stays within correct planes of motion prevents inefficient or dangerous mechanics <marks>A1</marks>\n- Knowledge of movements enables more effective muscle engagement for specific sporting tasks <marks>A1</marks>\n- Analysis of movement improves overall biomechanical efficiency, leading to enhanced performance <marks>A1</marks>\n- Understanding movements assists in developing targeted injury prevention and rehabilitation programs <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "22300534-0bb2-41a7-8bb0-14fc931af201",
+        "specification": "Why are tendons thicker and stronger than ligaments in athletes?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:02:22.050Z",
+              "reasoning": "The question compares tendons vs ligaments and asks why tendons are thicker/stronger in athletes, focusing on the structure and function of connective tissues supporting movement.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1420658,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153427,
+            "content": "They carry heavier loads from muscle contractions",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153428,
+            "content": "They prevent dislocations during joint movement",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153429,
+            "content": "They increase joint range of motion",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153430,
+            "content": "They produce synovial fluid",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2af1e60d-4772-4313-a278-6757edd89165",
+        "specification": "Damage to the anterior cruciate ligament (ACL) mainly affects which function?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:36:07.788Z",
+            "resultId": 42587
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:01:56.888Z",
+              "reasoning": "The question asks about the function of the ACL, a ligament/connective tissue that stabilizes the knee joint\u2014covered under joint structures supporting movement.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696817,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939628,
+            "content": "Stabilising the knee joint against forward movement of the tibia",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4939629,
+            "content": "Attaching the quadriceps tendon to the patella",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4939630,
+            "content": "Preventing friction between femur and tibia",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939631,
+            "content": "Preventing posterior movement of the tibia",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "2bab6705-57de-42f6-a234-fe661c239770",
+        "specification": "Which tissue surrounds synovial joints and produces synovial fluid to reduce friction?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:10:06.019Z",
+            "resultId": 42595
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:02:02.835Z",
+              "reasoning": "The question asks which tissue surrounds synovial joints and produces synovial fluid to reduce friction\u2014this is joint structure/connective tissue anatomy (synovial membrane).",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696720,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939240,
+            "content": "Cartilage",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939241,
+            "content": "Synovial membrane",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939242,
+            "content": "Tendon",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939243,
+            "content": "Ligament",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3125bacd-bfe6-43d0-a7ba-cf61c4f1a550",
+        "specification": "What is the primary function of the synovial membrane within a moving joint?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-3125bacd-bfe6-43d0-a7ba-cf61c4f1a550-1771929956947",
+            "generatedAt": "2026-02-24T13:02:07.338Z",
+            "sourceRevisionId": 1420669
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:17:45.637Z",
+              "reasoning": "The question asks about the synovial membrane\u2019s function in a moving (synovial) joint\u2014specifically secretion of synovial fluid for lubrication\u2014covered under connective tissues and joint structures supporting movement.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1685390,
+        "parts": [],
+        "options": [
+          {
+            "id": 4920735,
+            "content": "To provide a tough, fibrous layer that binds bones together",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4920736,
+            "content": "To act as a hard, protective cap for the ends of the bones",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4920737,
+            "content": "To secrete a viscous fluid that lubricates the joint cavity",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4920738,
+            "content": "To transmit mechanical tension from the muscle to the skeleton",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3176153f-035d-416d-9728-0cea3d305b53",
+        "specification": "Why do tendons take longer to heal than muscles?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:39:31.114Z",
+            "resultId": 42572
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:01:50.079Z",
+              "reasoning": "The question compares tendon vs muscle healing and focuses on tendons as connective tissue; the key concept is tendons\u2019 relatively poor blood supply affecting repair, which falls under connective tissues and joint structures supporting movement.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696830,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939676,
+            "content": "They have a limited oxygen supply.",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Tendons can have lower oxygen availability, but the key limiting factor for healing time is their relatively poor blood supply compared with muscle."
+          },
+          {
+            "id": 4939677,
+            "content": "They have less blood supply compared to muscles.",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Correct. Tendons are relatively poorly vascularised compared with muscles, so delivery of oxygen, nutrients and repair cells is slower, leading to longer healing times."
+          },
+          {
+            "id": 4939678,
+            "content": "They have a lower metabolic rate and fewer cells than muscle tissue.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "True statement about tendon tissue that can contribute to slower remodelling, but the primary reason typically tested is poorer blood supply compared with muscle."
+          },
+          {
+            "id": 4939679,
+            "content": "They have a lower temperature than muscles during exercise.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Tendon tissue may warm less than muscle, but this is not the main reason tendons heal more slowly; vascular supply is the key factor."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "31bfdf9a-2404-4c84-a952-c40589dcd54d",
+        "specification": "An athlete undergoes an MRI scan that reveals a tear in a ligament. Which of the following describes the function this tissue was performing before the injury occurred?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-chemistry-new-31bfdf9a-2404-4c84-a952-c40589dcd54d-1771866504453",
+            "generatedAt": "2026-02-24T06:44:13.469Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420671
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:17:47.073Z",
+              "reasoning": "The question asks for the function of a ligament (connective tissue) in a joint; ligaments secure bones together and provide joint stability, which is covered under connective tissues and joint structures supporting movement.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1682646,
+        "parts": [],
+        "options": [
+          {
+            "id": 4913087,
+            "content": "Transmitting force from a skeletal muscle to a bone to facilitate movement",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4913088,
+            "content": "Securing bones together and providing stability to the joint structure",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4913089,
+            "content": "Reducing friction by acting as a shock-absorbing cushion between bones",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4913090,
+            "content": "Synthesizing and secreting the fluid that fills the joint cavity",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3797cc48-29ae-418f-89aa-9bc0b2851f21",
+        "specification": "An athlete sustains an ankle inversion injury resulting in a grade I sprain of a lateral ankle ligament (e.g., the anterior talofibular ligament, ATFL). Which statement accurately describes the injured structure and its primary functional role in the joint?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-3797cc48-29ae-418f-89aa-9bc0b2851f21-1771929956947",
+            "generatedAt": "2026-02-25T09:29:10.809Z",
+            "sourceRevisionId": 1684049
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:44:25.327Z",
+            "resultId": 30512
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:19:30.150Z",
+              "reasoning": "A grade I ankle sprain involves stretching/microtearing of ligaments; the question tests identifying joint connective tissues (ligaments vs tendons, cartilage, synovial fluid) and their functional roles in stabilizing joints and limiting excessive displacement.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1695214,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935657,
+            "content": "Ligaments; these are composed of dense, parallel collagen fibers that provide the tensile strength needed to prevent excessive bone displacement.",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935658,
+            "content": "Tendons; these act as highly elastic buffers that lengthen and shorten to dissipate the kinetic energy generated during a sudden impact.",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935659,
+            "content": "Synovial fluid; this creates a low-pressure vacuum within the joint cavity to hold the articulating surfaces in close proximity during movement.",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935660,
+            "content": "Articular cartilage; this forms a resilient, ossified layer that protects the epiphyses of the bones from shearing forces during rotation.",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3a6fe8ac-b6d7-4cb1-947c-5a38e22887e3",
+        "specification": "What type of joint is shown in the image?\n\n![](https://pub-images.revisiondojo.com/question-images/ZkzlutH6Mt4s-XA6k__8V)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:18:18.855Z",
+              "reasoning": "The question asks to identify the type of synovial joint (e.g., hinge, ball-and-socket, saddle, pivot) from an image, which falls under joint structures and connective tissues supporting movement.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1319853,
+        "parts": [],
+        "options": [
+          {
+            "id": 3858706,
+            "content": "Hinge joint",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3858707,
+            "content": "Ball and socket joint",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3858708,
+            "content": "Saddle joint",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3858709,
+            "content": "Pivot joint",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "3faafa24-2d0b-4dd6-ae6e-2ed502684cef",
+        "specification": "Why is the shoulder joint more prone to dislocation compared to the hip?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:02:57.160Z",
+            "resultId": 41757
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T15:57:01.386Z",
+              "reasoning": "The question contrasts shoulder vs hip dislocation risk based on joint structure (ball-and-socket depth) and reliance on soft tissues (ligaments, tendons, capsule) for stability\u2014core content in connective tissues and joint structures supporting movement.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696929,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940040,
+            "content": "It has a deeper socket",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4940041,
+            "content": "It is supported by stronger ligaments",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4940042,
+            "content": "It has a shallower socket and relies more on soft tissue stability",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4940043,
+            "content": "It has a looser joint capsule and less bony congruency than the hip",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "40e490b9-00a1-4b83-a873-4f7327fa9074",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Parts (b) and (e) ask about cartilage functions and the role of connective tissue in muscle function and joint integrity\u2014core content on connective tissues and joint structures.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Part (c) focuses on the frontal plane in human movement, which falls under planes of movement and axes of rotation.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T17:36:40.485Z",
+              "reasoning": "Part (d) asks for characteristics of second-class levers and an example, directly matching lever classes and applications.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1583818,
+        "parts": [
+          {
+            "id": 1137855,
+            "content": "State two functions of cartilage.",
+            "order": 1,
+            "markscheme": "- State that cartilage reduces friction between bones at joints <marks>A1</marks>\n- State that cartilage absorbs shock during movement <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid functions such as supporting soft tissues or maintaining joint stability.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137856,
+            "content": "Describe the function of the frontal plane in human movement.",
+            "order": 2,
+            "markscheme": "- Describe that the frontal plane divides the body into anterior (front) and posterior (back) sections <marks>A1</marks>\n- State that movements occurring in this plane include abduction and adduction <marks>A1</marks>\n- Identify that it is important in lateral sports actions such as jumping jacks or star jumps <marks>A1</marks>\n- Describe its use in analyzing side-stepping and lateral lunges <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137857,
+            "content": "Outline the characteristics of second-class levers with one example.",
+            "order": 3,
+            "markscheme": "- Outline that the load is positioned between the fulcrum and the effort <marks>A1</marks>\n- State that second-class levers offer a mechanical advantage <marks>A1</marks>\n- Explain that they increase force output, allowing a large load to be moved with less effort <marks>A1</marks>\n- Provide a correct example and identify its components (e.g., calf raise where the fulcrum is the toes, the load is the body weight, and the effort is provided by the calf muscles) <marks>A1</marks>\n\n4 marks total\n\n<note>Award [1 max] for any correct example with components identified.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137858,
+            "content": "Explain the role of connective tissue in muscle function and joint integrity.",
+            "order": 4,
+            "markscheme": "- Explain that ligaments stabilize joints by connecting bone to bone <marks>A1</marks>\n- Explain that tendons transmit force produced by muscles to the bones to enable movement <marks>A1</marks>\n- Describe how fascia surrounds, protects, and separates muscle groups <marks>A1</marks>\n- Identify that connective tissue contributes to overall joint function and the maintenance of posture <marks>A1</marks>\n- Describe the role of connective tissue in shock absorption and providing proprioceptive feedback <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137859,
+            "content": "Discuss how anatomical terms of direction assist in communication between sports professionals.",
+            "order": 5,
+            "markscheme": "- Explain how anatomical terms ensure precise and standardized communication during rehabilitation and coaching <marks>A1</marks>\n- Describe how they help to identify the location of structures and the direction of movement clearly <marks>A1</marks>\n- Explain how they avoid ambiguity when describing the site or nature of an injury <marks>A1</marks>\n- Identify their utility in performing standardized kinesiology or postural assessments <marks>A1</marks>\n- Discuss how they enhance interdisciplinary understanding between different professionals such as coaches, physiotherapists, and doctors <marks>A1</marks>\n\n5 marks total",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "44adfe9f-e11b-4002-9c91-046f056bd332",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Parts b) and d) ask about synovial joint types and movements at the shoulder joint, which fall under joint structure and function.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Parts c) and f) focus on lever components and the advantages/disadvantages of lever classes in the human body.",
+              "confidence": 0.88
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:18:11.492Z",
+              "reasoning": "Part e) addresses muscle fibre types and their functional roles in performance, fitting muscular function content (muscle characteristics/functional output).",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1697598,
+        "parts": [
+          {
+            "id": 1160006,
+            "content": "Identify two types of synovial joints.",
+            "order": 0,
+            "markscheme": "* ball and socket <marks>1 mark</marks>\n* hinge <marks>1 mark</marks>\n* pivot <marks>1 mark</marks>\n* saddle <marks>1 mark</marks>\n* condyloid / ellipsoid <marks>1 mark</marks>\n* gliding / plane <marks>1 mark</marks>\n\n<note> Any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160007,
+            "content": "State the four components of a lever system.",
+            "order": 1,
+            "markscheme": "* lever (bone) <marks>1 mark</marks>\n* fulcrum (joint) <marks>1 mark</marks>\n* effort (muscle contraction) <marks>1 mark</marks>\n* load / resistance (weight of body part or object) <marks>1 mark</marks>\n\n<note> Any two</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160008,
+            "content": "State and explain five types of movement that occur at the shoulder joint.",
+            "order": 2,
+            "markscheme": "Award <marks> 1 mark</marks> for each correct movement and explanation pair:\n\n* Flexion: a movement that decreases the angle between two body parts <marks>1 mark</marks>\n* Extension: a movement that increases the angle between two body parts <marks>1 mark</marks>\n* Abduction: movement of a limb away from the midline of the body <marks>1 mark</marks>\n* Adduction: movement of a limb toward the midline of the body <marks>1 mark</marks>\n* Rotation: a movement where a bone or whole limb pivots or revolves around a single long axis <marks>1 mark</marks>\n\n<note>Accept circumduction as an alternative movement: circular movement combining flexion, extension, abduction, and adduction.</note>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1160009,
+            "content": "Explain the functional roles of different muscle fiber types in athletic performance.",
+            "order": 3,
+            "markscheme": "* Type I (Slow Twitch): high aerobic capacity / endurance and low force output, suited for long-duration activities like marathons <marks>1 mark</marks>\n* Type IIa (Fast Twitch Oxidative): moderate endurance and moderate force output, suited for repeated high-intensity efforts like middle-distance running <marks>1 mark</marks>\n* Type IIx (Fast Twitch Glycolytic): low endurance and high force output, suited for explosive activities like weightlifting or sprinting <marks>1 mark</marks>\n* Fiber composition determines training adaptations / how an athlete responds to specific training stimulus <marks>1 mark</marks>\n* The balance of fiber types influences sport specificity / an athlete's predisposition for certain types of sports <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "44b8eab3-b137-4e53-88de-e873a54fb189",
+        "specification": "Why is cartilage important in high-impact sports like basketball?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:58:01.936Z",
+            "resultId": 30284
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:17:54.061Z",
+              "reasoning": "The question asks about cartilage\u2019s role in joints during high-impact sport\u2014reducing friction and absorbing shock\u2014squarely within connective tissues and joint structures supporting movement.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695614,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936833,
+            "content": "It increases synovial fluid production in joints",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4936834,
+            "content": "It reduces friction and absorbs shock in joints",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4936835,
+            "content": "It provides a smooth surface for joint movement and helps distribute load",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4936836,
+            "content": "It stabilizes joints by connecting bone to bone",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "45835405-c459-4ab9-b6ae-49fc18cf7336",
+        "specification": "A track athlete is recovering from an injury to the connective tissue that connects the gastrocnemius muscle to the calcaneus (heel bone). Which of the following best describes the primary mechanical function of this specific tissue during movement?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-45835405-c459-4ab9-b6ae-49fc18cf7336-1771929956947",
+            "generatedAt": "2026-02-24T12:57:06.625Z",
+            "sourceRevisionId": 1420683
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:17:41.100Z",
+              "reasoning": "The tissue connecting gastrocnemius to the calcaneus is the Achilles tendon; the question tests recognition of connective tissue type (tendon vs ligament/cartilage/synovial structures) and its mechanical role of transmitting muscle force to bone.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1686639,
+        "parts": [],
+        "options": [
+          {
+            "id": 4924375,
+            "content": "Stabilizing the joint by restricting the displacement of one bone relative to another",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4924376,
+            "content": "Transmitting the force produced by muscle contraction to the bone to generate movement",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4924377,
+            "content": "Providing a low-friction surface for the articulation of bones within the joint capsule",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4924378,
+            "content": "Protecting the bone ends from wear and tear by absorbing high compressive loads",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "48f59d6d-2d10-4f78-a3a4-ede898b2fce5",
+        "specification": "Which type of synovial joint is found at the elbow and allows flexion and extension?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-48f59d6d-2d10-4f78-a3a4-ede898b2fce5-1771867193188",
+            "generatedAt": "2026-02-24T05:39:39.835Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420653
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:21:10.326Z",
+            "resultId": 30829
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:27:23.904Z",
+              "reasoning": "The question asks to identify the type of synovial joint at the elbow enabling flexion and extension; this falls under joint structures and types supporting movement.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1695108,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935325,
+            "content": "Ball-and-socket joint",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935326,
+            "content": "Hinge joint",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935327,
+            "content": "Pivot joint",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935328,
+            "content": "Saddle joint",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "4fe1dbc1-d883-44d3-b226-b3ff3a49d555",
+        "specification": "A swimmer performing the butterfly stroke requires an extensive range of motion at the shoulder to move the arms through multiple planes. Which type of synovial joint allows this?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-4fe1dbc1-d883-44d3-b226-b3ff3a49d555-1771867193188",
+            "generatedAt": "2026-02-24T05:38:47.119Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420685
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:35:32.555Z",
+            "resultId": 44676
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:18:29.358Z",
+              "reasoning": "The question asks which type of synovial joint enables extensive shoulder range of motion across multiple planes (ball-and-socket), which falls under joint structures and function supporting movement.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1697462,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941492,
+            "content": "Ball-and-socket joint",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct. The shoulder is a ball-and-socket joint, allowing movement in all three planes (flexion/extension, abduction/adduction, and rotation), which is necessary for the butterfly stroke."
+          },
+          {
+            "id": 4941493,
+            "content": "Hinge joint",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. A hinge joint primarily allows movement in one plane (e.g., elbow, knee), so it would not permit the multi-planar movement required at the shoulder."
+          },
+          {
+            "id": 4941494,
+            "content": "Pivot joint",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect. A pivot joint allows rotation around a single axis (e.g., atlanto-axial joint) and does not provide the multi-axial range of motion needed for the butterfly stroke."
+          },
+          {
+            "id": 4941495,
+            "content": "Gliding joint",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. Gliding joints permit limited sliding movements between relatively flat bone surfaces (e.g., intercarpal joints) and do not provide the extensive multi-planar movement required at the shoulder."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "60de5c5f-614a-425f-b63d-126fba2499f7",
+        "specification": "Abnormal displacement of the tibia relative to the femur is observed. Which connective tissue connects bone to bone and restricts excessive movement between bones?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-60de5c5f-614a-425f-b63d-126fba2499f7-1771953315939",
+            "generatedAt": "2026-02-25T07:57:12.465Z",
+            "sourceRevisionId": 1583787
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T12:28:15.726Z",
+            "resultId": 29930
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:15:42.951Z",
+              "reasoning": "The question asks which connective tissue restricts excessive movement between bones at the knee (tibia relative to femur), i.e., ligaments and joint stabilizing structures\u2014core content of connective tissues and joint structures.",
+              "confidence": 0.93
+            }
+          ]
+        },
+        "currentRevisionId": 1696263,
+        "parts": [],
+        "options": [
+          {
+            "id": 4938692,
+            "content": "Tendon",
+            "correct": false,
+            "order": 0,
+            "markscheme": "Incorrect. Tendons are designed to connect muscle to bone to transmit contractile forces, rather than providing primary passive stability against bone-on-bone displacement."
+          },
+          {
+            "id": 4938693,
+            "content": "Articular cartilage",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect. Articular (hyaline) cartilage provides a smooth, low-friction surface for articulation and acts as a shock absorber, but it does not mechanically tether bones together to prevent displacement."
+          },
+          {
+            "id": 4938694,
+            "content": "Ligament",
+            "correct": true,
+            "order": 2,
+            "markscheme": "Correct. Ligaments are tough, fibrous bands of connective tissue that connect bone to bone. Their primary function is to stabilize the joint and limit the range of motion to prevent abnormal displacement."
+          },
+          {
+            "id": 4938695,
+            "content": "Synovial membrane",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect. The synovial membrane is the inner lining of the joint capsule responsible for secreting synovial fluid; it lacks the tensile strength required to stabilize the joint against displacement."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6cb8dce7-daa4-479e-8ce1-a13d05713cbf",
+        "specification": "Which connective tissue injury is described as a \u201csprain\u201d?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:19:09.967Z",
+              "reasoning": "A sprain is an injury to a ligament, which is part of connective tissue and joint structures supporting movement.",
+              "confidence": 0.84
+            },
+            {
+              "id": 29934,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.1 Causes of injury > B.3.1.2 Differences between acute trauma and cumulative trauma injuries",
+              "title": "B.3.1.2 Differences between acute trauma and cumulative trauma injuries",
+              "labeledAt": "2026-03-07T08:19:09.967Z",
+              "reasoning": "Identifying a sprain as ligament damage relates to classifying an acute connective-tissue injury type (sprain vs strain), which fits acute vs cumulative trauma distinctions.",
+              "confidence": 0.42
+            }
+          ]
+        },
+        "currentRevisionId": 1420687,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153523,
+            "content": "Ligament damage",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153524,
+            "content": "Tendon damage",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153525,
+            "content": "Muscle tear",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153526,
+            "content": "Cartilage injury",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "6de8fde4-8584-43fc-91c2-877e93dc217c",
+        "specification": "This question assesses knowledge of connective tissues, the role of skeletal muscles in movement, and the mechanics of levers in a sporting context.",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Parts (b)\u2013(d) ask for types of connective tissue, tendon functions, and how ligaments stabilize joints\u2014directly assessing connective tissues and joint structures supporting movement.",
+              "confidence": 0.96
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Parts (f)\u2013(g) focus on lever classes (first-class) and evaluating third-class levers in sport, which is exactly lever classes and their applications.",
+              "confidence": 0.94
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:19:15.161Z",
+              "reasoning": "Part (e) asks the role of skeletal muscle in generating movement; this aligns with muscular function in movement, typically covered via contraction roles (even though specific contraction types aren\u2019t explicitly requested).",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1583838,
+        "parts": [
+          {
+            "id": 1137930,
+            "content": "Identify two types of connective tissue.",
+            "order": 1,
+            "markscheme": "- Tendons <marks>A1</marks>\n- Ligaments <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid examples such as cartilage, fascia, bone, or adipose tissue.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137931,
+            "content": "State two functions of tendons.",
+            "order": 2,
+            "markscheme": "- Connect muscle to bone <marks>A1</marks>\n- Transmit force to enable movement <marks>A1</marks>\n\n2 marks total\n\n<note>Accept other valid functions such as joint stabilization or assistance in absorbing shock.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137932,
+            "content": "Describe how ligaments contribute to joint stability.",
+            "order": 3,
+            "markscheme": "- Connect bone to bone <marks>A1</marks>\n- Limit excessive or unwanted movement at the joint <marks>A1</marks>\n\n2 marks total\n\n<note>Accept description of providing structural support and maintaining joint alignment.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137933,
+            "content": "Explain the role of skeletal muscle in generating movement.",
+            "order": 4,
+            "markscheme": "- Muscles contract to produce force, pulling on bones to create movement at joints <marks>A1</marks>\n- Muscles work in reciprocal pairs (agonists and antagonists) to allow controlled motion <marks>A1</marks>\n- Muscles convert chemical energy (ATP) into mechanical energy <marks>A1</marks>\n- Muscles provide stability to joints during motion and help maintain posture <marks>A1</marks>\n\n4 marks total\n\n<note>Award [max 4 marks]. Accept mention of different muscle fiber types (slow-twitch and fast-twitch) and their roles in endurance versus power.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137934,
+            "content": "Outline the structure of a first-class lever with one sporting example.",
+            "order": 5,
+            "markscheme": "- A first-class lever consists of three components: a fulcrum, a load, and an effort <marks>A1</marks>\n- The fulcrum is positioned between the effort and the load <marks>A1</marks>\n- This arrangement can result in either mechanical advantage or disadvantage depending on the relative distances of the load and effort from the fulcrum <marks>A1</marks>\n- Sporting example: Heading a football, where the neck joint acts as the fulcrum, neck muscles provide the effort, and the weight of the head acts as the load <marks>A1</marks>\n\n4 marks total\n\n<note>Accept other valid examples such as triceps extension during a throw.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137935,
+            "content": "Discuss the advantages and disadvantages of third-class levers in sport.",
+            "order": 6,
+            "markscheme": "Advantages:\n- Allow for a greater range of motion at the distal end of the limb <marks>A1</marks>\n- Enable high speed and velocity of movement at the distal end, beneficial for throwing or kicking <marks>A1</marks>\n- Well-suited for precision and coordination in sporting skills <marks>A1</marks>\n\nDisadvantages:\n- Require a greater effort force to move a relatively smaller load (mechanical disadvantage) <marks>A1</marks>\n- Inefficient for lifting or moving heavy weights <marks>A1</marks>\n- Can place higher strain on muscles and joints when high forces are required <marks>A1</marks>\n\n6 marks total\n\n<note>Accept mention of agility/finesse as an advantage or increased injury risk as a disadvantage.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "79a3079e-aa52-421d-bfd2-9e8e2b47f61e",
+        "specification": "A volleyball player lands awkwardly after a jump and reports pain on the lateral side of the knee. The clinician suspects damage to a connective tissue structure that stabilizes the joint.\n\n![Diagram of the lateral view of a knee joint showing femur, tibia, fibula, patella, meniscus, articular cartilage, and major ligaments and tendons](img:knee_joint_lateral_view_01)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T08:37:18.336Z",
+            "resultId": 44868
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:20:58.890Z",
+              "reasoning": "The question asks to state and explain functions of three types of connective tissue, which directly matches the sub-topic on connective tissues and joint structures supporting movement.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1697174,
+        "parts": [
+          {
+            "id": 1159263,
+            "content": "State the function of three types of connective tissue relevant to joint structure and movement.",
+            "order": 0,
+            "markscheme": "Accept any three.\n\n- Ligament: connects bone to bone and provides stability to a joint <marks>1 mark</marks>\n\n- Tendon: attaches muscle to bone and transmits force from muscle contraction to the bone <marks>1 mark</marks>\n\n- Cartilage: reduces friction and absorbs shock between bones at a joint <marks>1 mark</marks>\n\n- Bone: provides structural support, protection of vital organs, and levers for movement <marks>1 mark</marks>\n\n- Fascia: encloses and separates muscles and internal organs / provides structural integrity <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for each correct type of connective tissue identified along with an accurate function, up to a maximum of <marks>3 marks</marks>.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "7dabdb77-b61c-45a5-85b0-6f33f90751da",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Parts (b) and (f) focus on synovial joint structure and the roles of connective tissues (ligaments, tendons, fascia, cartilage) in joint stability/efficiency.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (c) asks for examples of third-class levers in sport, directly assessing lever classes and applications.",
+              "confidence": 0.9
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (d) asks for characteristics of skeletal muscle contributing to movement, aligning with muscular function content (properties/role in producing movement).",
+              "confidence": 0.78
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T10:00:11.617Z",
+              "reasoning": "Part (e) explicitly addresses movement in multiple planes contributing to complex actions (e.g., tennis serve), matching planes of movement/axes content.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 1697576,
+        "parts": [
+          {
+            "id": 1159906,
+            "content": "Identify three structural components of a synovial joint.",
+            "order": 0,
+            "markscheme": "- Articular cartilage <marks>1 mark</marks>\n- Synovial membrane <marks>1 mark</marks>\n- Joint capsule <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers: Synovial fluid, Ligaments, Bursae - any three)</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159907,
+            "content": "State two examples of third-class levers in sport.",
+            "order": 1,
+            "markscheme": "- Bicep curl <marks>1 mark</marks>\n- Kicking a football <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers: Swinging a tennis racket, Throwing a javelin - any two)</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159908,
+            "content": "Describe four characteristics of skeletal muscle that contribute to movement.",
+            "order": 2,
+            "markscheme": "- Contractility: the ability of the muscle to generate force and shorten <marks>1 mark</marks>\n- Extensibility: the ability of the muscle to stretch beyond its normal resting length <marks>1 mark</marks>\n- Elasticity: the ability of the muscle to return to its original shape after being stretched <marks>1 mark</marks>\n- Excitability: the ability of the muscle to respond to stimuli from the nervous system <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159909,
+            "content": "Explain how joint movement in multiple planes contributes to complex sports actions such as a tennis serve.",
+            "order": 3,
+            "markscheme": "- Complex sports actions like a tennis serve require coordinated joint movements across all three anatomical planes: sagittal, frontal, and transverse <marks>1 mark</marks>\n- The shoulder moves in the sagittal (flexion/extension), frontal (abduction), and transverse (internal/external rotation) planes to position and accelerate the arm <marks>1 mark</marks>\n- The elbow undergoes flexion and extension in the sagittal plane, contributing to the preparatory phase and follow-through <marks>1 mark</marks>\n- The wrist adds fine control and power through flexion/extension (sagittal) and radial/ulnar deviation (frontal) <marks>1 mark</marks>\n- The trunk rotates in the transverse plane and laterally flexes in the frontal plane to generate torque and maintain balance <marks>1 mark</marks>\n- The hips and knees extend in the sagittal plane during the jump phase, providing upward propulsion <marks>1 mark</marks>\n\n\n<note>(Other acceptable answers include descriptions of how coordinated use of multiple joints improves accuracy, power transfer, and injury prevention.)</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159910,
+            "content": "Discuss how connective tissues (ligaments, tendons, fascia, and cartilage) work together to support joint stability and efficiency during explosive movement.",
+            "order": 4,
+            "markscheme": "- Ligaments limit excessive movement and stabilize joints <marks>1 mark</marks>\n- Tendons transmit muscular force to bones for movement <marks>1 mark</marks>\n- Fascia maintains muscle alignment and reduces friction <marks>1 mark</marks>\n- Cartilage cushions joint surfaces and absorbs impact <marks>1 mark</marks>\n- Together, these tissues reduce injury risk and increase force efficiency <marks>1 mark</marks>\n- They provide mechanical support and optimize movement patterns <marks>1 mark</marks>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "8012f19e-bedb-44c7-b335-44c5e0727247",
+        "specification": "The diagram below shows the structural features of a synovial joint. Structure X is the articular cartilage.\n\n![Synovial joint diagram](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-sehs-8012f19e-bedb-44c7-b335-44c5e0727247-1771953315939/ea9a5516-b2bf-4330-9e80-c361ed512f9d.jpeg)\n\nWhat is the primary physiological role of the structure labeled X?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-8012f19e-bedb-44c7-b335-44c5e0727247-1771953315939",
+            "generatedAt": "2026-02-25T07:34:48.808Z",
+            "sourceRevisionId": 1420681
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:05:23.899Z",
+            "resultId": 42003
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T15:58:47.343Z",
+              "reasoning": "The question asks for the physiological role of a labeled structure in a synovial joint (e.g., articular cartilage, synovial membrane/fluid, ligaments, tendons), which falls under joint structures and connective tissues supporting movement.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1696792,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939528,
+            "content": "Providing a smooth surface to reduce friction and absorb shock.",
+            "correct": true,
+            "order": 0,
+            "markscheme": "A"
+          },
+          {
+            "id": 4939529,
+            "content": "Secreting viscous fluid into the joint cavity for lubrication.",
+            "correct": false,
+            "order": 1,
+            "markscheme": "B"
+          },
+          {
+            "id": 4939530,
+            "content": "Binding two bones together to stabilize the joint and limit movement.",
+            "correct": false,
+            "order": 2,
+            "markscheme": "C"
+          },
+          {
+            "id": 4939531,
+            "content": "Connecting skeletal muscles to the bone for force transmission.",
+            "correct": false,
+            "order": 3,
+            "markscheme": "D"
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "8578edbd-cc5a-4da1-b344-9fb37f9fedc3",
+        "specification": "The table shows synovial joint classifications, axes of movement, and examples.\n\n| Synovial Joint Classification | Axes of Movement | Anatomical Example |\n| :--- | :--- | :--- |\n| Planar | Non-axial | Intercarpal joints |\n| **[ X ]** | Uniaxial | Humeroulnar joint |\n| Ball and socket | Multiaxial | Glenohumeral joint |\n\nIdentify the synovial joint classification that correctly completes the second row of the table.",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-8578edbd-cc5a-4da1-b344-9fb37f9fedc3-1771929956947",
+            "generatedAt": "2026-02-25T09:22:20.651Z",
+            "sourceRevisionId": 1683617
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:15:48.907Z",
+            "resultId": 30881
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:28:05.201Z",
+              "reasoning": "The question tests synovial joint structural classifications (e.g., hinge, pivot) and their functional axes of movement using anatomical examples (humeroulnar joint), which falls under connective tissues and joint structures.",
+              "confidence": 0.92
+            }
+          ]
+        },
+        "currentRevisionId": 1695062,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935205,
+            "content": "Ellipsoid joint",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935206,
+            "content": "Gliding joint",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935207,
+            "content": "Pivot joint",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935208,
+            "content": "Hinge joint",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "9e63a29d-d4bf-453b-b6d1-c52779a424a2",
+        "specification": "Which of the following best describes the primary functional role of the Achilles tendon during movement?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-9e63a29d-d4bf-453b-b6d1-c52779a424a2-1771953315939",
+            "generatedAt": "2026-02-25T07:35:13.573Z",
+            "sourceRevisionId": 1583786
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:30:23.201Z",
+            "resultId": 30768
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:27:00.890Z",
+              "reasoning": "The Achilles is a tendon (connective tissue). The question asks its primary functional role (transmitting muscle force to bone), which falls under connective tissues and joint structures supporting movement.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695149,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935449,
+            "content": "To transmit the force of muscle contraction to the bone",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: the Achilles tendon transmits force from the gastrocnemius/soleus to the calcaneus to produce plantar flexion."
+          },
+          {
+            "id": 4935450,
+            "content": "To connect articulating bones and enhance joint stability",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: this describes the role of ligaments at joints."
+          },
+          {
+            "id": 4935451,
+            "content": "To reduce friction between the surfaces of a synovial joint",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: this is primarily the role of articular cartilage and synovial fluid."
+          },
+          {
+            "id": 4935452,
+            "content": "To provide a cushioned barrier that absorbs vertical impact",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: this describes functions associated with structures such as menisci/fat pads or shock-absorbing tissues, not tendons."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a3c6649b-4c48-4bb5-846f-8c7eba90ba03",
+        "specification": "Which connective tissue is most at risk of injury during sudden changes of direction in football (soccer)?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T05:31:52.264Z",
+            "resultId": 42181
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T15:59:57.416Z",
+              "reasoning": "The question asks which connective tissue (e.g., ligament vs tendon vs cartilage/fascia) is most at risk during sudden changes of direction\u2014this is directly about connective tissue/joint structures and their roles in supporting movement and joint stability.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29934,
+              "isHl": false,
+              "path": "B.3 Injury > B.3.1 Causes of injury > B.3.1.2 Differences between acute trauma and cumulative trauma injuries",
+              "title": "B.3.1.2 Differences between acute trauma and cumulative trauma injuries",
+              "labeledAt": "2026-03-06T15:59:57.416Z",
+              "reasoning": "Sudden changes of direction in football commonly cause acute traumatic injuries (e.g., ligament sprains/tears). The scenario implicitly relates to distinguishing acute trauma mechanisms.",
+              "confidence": 0.54
+            }
+          ]
+        },
+        "currentRevisionId": 1696756,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939384,
+            "content": "Cartilage",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939385,
+            "content": "Ligament",
+            "correct": true,
+            "order": 1,
+            "markscheme": "Ligaments provide stability to joints and are the primary structures at risk of sprains or tears during sudden cutting maneuvers or changes of direction."
+          },
+          {
+            "id": 4939386,
+            "content": "Fascia",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939387,
+            "content": "Tendon",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "a555b035-ca8f-4d33-aaa4-8c4f61129df6",
+        "specification": "Which specialized connective tissue within a synovial joint is responsible for the secretion of the fluid that reduces friction during movement?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-a555b035-ca8f-4d33-aaa4-8c4f61129df6-1771953315939",
+            "generatedAt": "2026-02-25T07:34:01.416Z",
+            "sourceRevisionId": 1420660
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:17:28.450Z",
+              "reasoning": "The question asks which specialized connective tissue in a synovial joint secretes synovial fluid (synovial membrane), which is part of joint structure and connective tissues supporting movement.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1687490,
+        "parts": [],
+        "options": [
+          {
+            "id": 4926099,
+            "content": "Articular cartilage",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4926100,
+            "content": "Ligament",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4926101,
+            "content": "Synovial membrane",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4926102,
+            "content": "Tendon",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "accbf3a7-c1a3-4a2a-8d74-5d389b3549fa",
+        "specification": "Which connective tissue forms a flexible fibrous sheath that surrounds muscles and organs, allowing movement and contraction?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-accbf3a7-c1a3-4a2a-8d74-5d389b3549fa-1771867193188",
+            "generatedAt": "2026-02-24T05:36:45.873Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420682
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T09:53:04.212Z",
+            "resultId": 30047
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:16:11.498Z",
+              "reasoning": "The question asks which connective tissue forms a flexible sheath around muscles and organs (fascia), directly assessing knowledge of connective tissues and joint/supporting structures.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1695570,
+        "parts": [],
+        "options": [
+          {
+            "id": 4936689,
+            "content": "Fascia",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct: fascia (a fibrous connective tissue sheet that surrounds muscles and organs, providing structural support and flexibility)."
+          },
+          {
+            "id": 4936690,
+            "content": "Tendon",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Tendons are tough bands of fibrous connective tissue that specifically connect muscle to bone."
+          },
+          {
+            "id": 4936691,
+            "content": "Ligament",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Ligaments are fibrous connective tissues that connect bones to other bones within joints."
+          },
+          {
+            "id": 4936692,
+            "content": "Cartilage",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Cartilage is a firm, flexible connective tissue found in various forms in the larynx and respiratory tract, in structures such as the external ear, and in the articulating surfaces of joints."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c01abd9a-7aa4-46a3-934b-520d477f5ac2",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Part (b) explicitly asks for axes of rotation; part (f) discusses anatomical planes (and their relation to movement), which falls under planes and axes.",
+              "confidence": 0.92
+            },
+            {
+              "id": 29924,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.4 Levers in movement and sport > B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "title": "B.1.4.1 Classes of levers and their applications in human movement and sport",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Parts (d) and (f) focus on lever classes/mechanical advantage and how levers operate in sports movements.",
+              "confidence": 0.87
+            },
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-07T08:17:03.467Z",
+              "reasoning": "Part (c) asks effects of aging on the muscular or skeletal system impacting movement; skeletal-system effects align with axial/appendicular skeleton components and functions (closest available leaf to musculoskeletal aging impacts).",
+              "confidence": 0.55
+            }
+          ]
+        },
+        "currentRevisionId": 1583863,
+        "parts": [
+          {
+            "id": 1137991,
+            "content": "Identify two axes of rotation used in human movement.",
+            "order": 1,
+            "markscheme": "- Longitudinal axis <marks>A1</marks>\n- Frontal (mediolateral) axis <marks>A1</marks>\n- Sagittal (anteroposterior) axis <marks>A1</marks>\n\n2 marks total\n\n<note>Award [1] for each axis identified, up to [2]. Accept correct spelling of \"sagittal\" only; do not accept \"saggital\".</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137992,
+            "content": "State three effects of aging on the muscular or skeletal system that impact movement.",
+            "order": 2,
+            "markscheme": "- Decreased muscle mass <marks>A1</marks>\n- Reduced bone density <marks>A1</marks>\n- Decreased joint flexibility <marks>A1</marks>\n\n3 marks total\n\n<note>Other acceptable answers include slower muscle contraction speed and increased risk of injury. Award [1] for each effect stated, up to [3].</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137993,
+            "content": "Describe the mechanical advantage of second-class levers and its implication in sports performance.",
+            "order": 3,
+            "markscheme": "- The load is positioned between the fulcrum and the effort <marks>A1</marks>\n- This arrangement describes the mechanical advantage ($MA > 1$) where force output is increased with minimal effort (a small effort can move a large load) <marks>A1</marks>\n- It is useful in power-based actions like jumping and pushing off the ground <marks>A1</marks>\n- While it provides strong leverage, it offers a limited range of motion and speed <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137994,
+            "content": "Explain how differences in muscle fiber arrangement (e.g., fusiform vs. pennate) influence force and speed generation.",
+            "order": 4,
+            "markscheme": "- Fusiform: fibers run parallel to the long axis, allowing for a greater range of motion and contraction speed (e.g., biceps brachii) <marks>A1</marks>\n- Pennate: fibers are arranged at an angle to the tendon, allowing more fibers to be packed into a given area <marks>A1</marks>\n- Pennate muscles generate greater force due to higher physiological cross-sectional area <marks>A1</marks>\n- Fusiform muscles contract faster but with less overall force compared to pennate muscles <marks>A1</marks>\n\n4 marks total",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1137995,
+            "content": "Discuss the interplay between anatomical planes and levers during multi-joint athletic movements like the clean and jerk.",
+            "order": 5,
+            "markscheme": "- The sagittal plane is dominant in the clean and jerk, as most joint movements (hip, knee, ankle, shoulder, and elbow flexion/extension) occur in an anterior-posterior direction <marks>A1</marks>\n- The frontal plane contributes during the stabilization phase, particularly in shoulder abduction and maintaining core balance during the overhead jerk <marks>A1</marks>\n- The transverse plane is engaged through rotational stability and torque required during the lift and transition phases <marks>A1</marks>\n- First-class levers are utilized during head and neck stabilization where neck extensors counterbalance head tilt <marks>A1</marks>\n- Second-class levers are involved at the ankle joint during plantarflexion (e.g., raising the heel to generate power during the jerk) <marks>A1</marks>\n- Third-class levers dominate in elbow flexion (biceps acting between the load and fulcrum) and hip extension (gluteus maximus) to allow for speed of movement <marks>A1</marks>\n\n6 marks total\n\n<note>Other acceptable answers include discussion of joint alignment with planes and how lever arms impact performance and injury risk.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": null
+      },
+      {
+        "id": "c0ee09e0-09b7-4360-a4f5-cec208a84a28",
+        "specification": "Why is articular cartilage important for athletic performance?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T06:39:36.625Z",
+            "resultId": 42480
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:01:28.018Z",
+              "reasoning": "The question asks about the role of articular cartilage in joints (reducing friction and absorbing shock), which is part of joint structure and connective tissues supporting movement.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1696831,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939680,
+            "content": "It increases joint flexibility by allowing a greater range of movement at the joint",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939681,
+            "content": "It reduces friction and absorbs shock in joints",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939682,
+            "content": "It produces synovial fluid to lubricate the joint",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939683,
+            "content": "It improves joint stability by deepening the socket of the joint",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c5ce03db-80cb-4a56-b927-c93f840ecf4f",
+        "specification": "",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-07T08:18:33.894Z",
+              "reasoning": "All parts focus on anatomical planes (sagittal etc.), standard anatomical position (palms orientation), movement terminology (abduction/adduction), and movements at ball-and-socket joints\u2014core content of planes of movement and axes/associated movements used in human motion analysis.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1697592,
+        "parts": [
+          {
+            "id": 1159980,
+            "content": "Identify two anatomical planes used in movement analysis.",
+            "order": 0,
+            "markscheme": "- sagittal plane <marks>1 mark</marks>\n- frontal plane <marks>1 mark</marks>\n\n<note>Other acceptable answers: transverse plane (award marks for any two correct planes identified).</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159981,
+            "content": "State the anatomical position of the palms in the standard reference position.",
+            "order": 1,
+            "markscheme": "- palms face forward <marks>1 mark</marks>\n- thumbs point away from the body <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159982,
+            "content": "Describe three movements that occur in the sagittal plane.",
+            "order": 2,
+            "markscheme": "- flexion, for example, the elbow during a bicep curl <marks>1 mark</marks>\n- extension, for example, the knee during a squat <marks>1 mark</marks>\n- dorsiflexion or plantarflexion, for example, the ankle during running <marks>1 mark</marks>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159983,
+            "content": "Explain the difference between abduction and adduction with examples.",
+            "order": 3,
+            "markscheme": "- abduction is movement away from the midline of the body <marks>1 mark</marks>\n- adduction is movement toward the midline of the body <marks>1 mark</marks>\n- example of abduction, such as lifting the arm sideways <marks>1 mark</marks>\n- example of adduction, such as returning the arm to the side <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159984,
+            "content": "Outline four types of movement that occur at a ball and socket joint.",
+            "order": 4,
+            "markscheme": "- flexion <marks>1 mark</marks>\n- extension <marks>1 mark</marks>\n- abduction <marks>1 mark</marks>\n- adduction <marks>1 mark</marks>\n\n<note>Other acceptable answers include rotation and circumduction.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159985,
+            "content": "Discuss the importance of understanding anatomical planes when analyzing sports performance.",
+            "order": 5,
+            "markscheme": "- helps analyze motion mechanics in different sports <marks>1 mark</marks>\n- assists in identifying specific movement planes for performance enhancement <marks>1 mark</marks>\n- useful for injury prevention by understanding stress on joints in different planes <marks>1 mark</marks>\n- supports effective exercise selection to target specific movements <marks>1 mark</marks>\n- enhances technique analysis in coaching and rehabilitation settings <marks>1 mark</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "c685f5fa-c30d-4135-9789-f9dea6f1ddc1",
+        "specification": "Which connective tissue stabilises the elbow joint during a handstand?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T16:23:06.349Z",
+            "resultId": 42450
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:01:07.627Z",
+              "reasoning": "The question asks which connective tissue stabilizes a joint (elbow) under pressure; ligaments, tendons, cartilage, and bursae are covered under connective tissues and joint structures supporting movement.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1696476,
+        "parts": [],
+        "options": [
+          {
+            "id": 4939000,
+            "content": "Tendon",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4939001,
+            "content": "Ligament",
+            "correct": true,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4939002,
+            "content": "Cartilage",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4939003,
+            "content": "Bursa",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "c9ca8ade-26c3-463d-9dd5-1d5a9db05935",
+        "specification": "Which of the following structures is primarily responsible for producing synovial fluid in a synovial joint?",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:18:40.293Z",
+              "reasoning": "The question asks which structure produces synovial fluid in a synovial joint (synovial membrane), which is directly part of joint structure and connective tissue function.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1645406,
+        "parts": [],
+        "options": [
+          {
+            "id": 4781084,
+            "content": "Ligament",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4781085,
+            "content": "Articular cartilage",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4781086,
+            "content": "Synovial membrane",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4781087,
+            "content": "Meniscus",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "cda7c1ce-6de7-46ff-a286-0c6cfb5aee02",
+        "specification": "Based on the diagram and your understanding of training adaptations, which structure is most likely to exhibit increased collagen cross-linking and tensile strength after consistent resistance training?\n\n![](https://pub-images.revisiondojo.com/question-images/Eunk_0WyEzPX9pkeHGvAP)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 9,
+        "questionSet": "TEACHER",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "TEACHER",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:02:50.540Z",
+              "reasoning": "The question asks which anatomical structure would show increased collagen cross-linking and tensile strength after resistance training\u2014an adaptation of connective tissues (e.g., tendon/ligament) and joint-supporting structures, matching connective tissues and joint structures supporting movement.",
+              "confidence": 0.86
+            }
+          ]
+        },
+        "currentRevisionId": 1320332,
+        "parts": [],
+        "options": [
+          {
+            "id": 3858826,
+            "content": "Structure 2",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 3858827,
+            "content": "Structure 4",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 3858828,
+            "content": "Structure 6",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 3858829,
+            "content": "Structure 8",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "d6c64215-fd0c-40f2-973d-225b3b12b067",
+        "specification": "A basketball player performs repeated jump landings. Figure 1 shows a synovial knee joint under compressive and shear forces during landing.\n\n![Diagram of a synovial knee joint during landing, showing femur and tibia with articular cartilage, synovial membrane, fibrous joint capsule, synovial fluid in the joint cavity, menisci, and ligaments. Arrows indicate compressive force through the joint and anterior shear force at the tibia.](img:sehs_knee_synovial_joint_01)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-sehs-d6c64215-fd0c-40f2-973d-225b3b12b067-1771953315939",
+            "generatedAt": "2026-02-24T17:15:41.148Z",
+            "sourceRevisionId": 1583802
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:13:59.914Z",
+            "resultId": 44798
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:19:41.472Z",
+              "reasoning": "The question asks about synovial joint structural components (connective tissues/joint structures) and their specific roles in joint function under mechanical stress, which directly matches connective tissues and joint structures supporting movement.",
+              "confidence": 0.96
+            }
+          ]
+        },
+        "currentRevisionId": 1697279,
+        "parts": [
+          {
+            "id": 1159469,
+            "content": "Describe the roles of six structural components of a synovial joint in ensuring effective function under mechanical stress.",
+            "order": 0,
+            "markscheme": "- **Articular (hyaline) cartilage**: Provides a smooth, low-friction surface for bones to glide over and acts as a shock absorber to protect the underlying bone. <marks>1 mark</marks>\n- **Synovial fluid**: Acts as a lubricant to reduce heat and friction during movement and serves as a medium for nutrient delivery to the avascular cartilage. <marks>1 mark</marks>\n- **Ligaments**: Composed of dense connective tissue that attaches bone to bone, providing mechanical stability and preventing dislocation or excessive ranges of motion. <marks>1 mark</marks>\n- **Synovial membrane**: The inner lining of the joint capsule that secretes synovial fluid into the articular cavity. <marks>1 mark</marks>\n- **Fibrous joint capsule**: A tough, outer connective tissue sleeve that encloses the joint cavity, providing structural integrity and holding the bones in proximity. <marks>1 mark</marks>\n- **Menisci (fibrocartilage pads)**: Help to improve congruence between articulating bones and assist in weight distribution across the joint surface. <marks>1 mark</marks>\n\n- **Bursae**: Fluid-filled sacs that reduce friction between tendons/ligaments/skin and bone during movement. <marks>1 mark</marks>\n- **Fat pads**: Provide cushioning and protection, helping to absorb compressive forces and fill spaces within the joint. <marks>1 mark</marks>\n\n<note>Accept other valid components if the role is clearly described.</note>",
+            "marks": 6,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "db60c692-9de5-42e9-8000-e40dd0e733b4",
+        "specification": "The table lists four synovial joints with their classification, axes of rotation, and an example.\n\n| Joint Label | Mechanical Classification | Axes of Rotation | Anatomical Example |\n| :--- | :--- | :--- | :--- |\n| **I** | Hinge | Uniaxial | Elbow |\n| **II** | Pivot | Biaxial | C1/C2 (Neck) |\n| **III** | Ball-and-socket | Multiaxial | Hip |\n| **IV** | Condyloid | Uniaxial | Wrist |\n\nWhich rows in the table correctly describe the functional and anatomical characteristics of the joints?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-chemistry-new-db60c692-9de5-42e9-8000-e40dd0e733b4-1771866504453",
+            "generatedAt": "2026-02-24T06:23:55.016Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420674
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T07:21:48.368Z",
+            "resultId": 41900
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T15:57:56.075Z",
+              "reasoning": "The question tests synovial joint mechanical classifications (hinge, pivot, ball-and-socket, condyloid) and matching them to anatomical examples (elbow, C1/C2, hip, wrist), which is core joint structure/function content.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29919,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "title": "B.1.1.2 Planes of movement and axes of rotation in human motion",
+              "labeledAt": "2026-03-06T15:57:56.075Z",
+              "reasoning": "It also involves identifying the correct number of axes of rotation permitted by different synovial joints (uniaxial, biaxial, multiaxial), linking joint type to movement axes.",
+              "confidence": 0.64
+            }
+          ]
+        },
+        "currentRevisionId": 1697036,
+        "parts": [],
+        "options": [
+          {
+            "id": 4940380,
+            "content": "I and II only",
+            "correct": false,
+            "order": 0,
+            "markscheme": "II is incorrect because a pivot joint (C1/C2) is uniaxial, not biaxial."
+          },
+          {
+            "id": 4940381,
+            "content": "II and III only",
+            "correct": false,
+            "order": 1,
+            "markscheme": "II is incorrect because a pivot joint (C1/C2) is uniaxial, not biaxial."
+          },
+          {
+            "id": 4940382,
+            "content": "I and III only",
+            "correct": true,
+            "order": 2,
+            "markscheme": "I is correct: hinge joints are uniaxial (e.g., elbow). III is correct: ball-and-socket joints are multiaxial (e.g., hip)."
+          },
+          {
+            "id": 4940383,
+            "content": "III and IV only",
+            "correct": false,
+            "order": 3,
+            "markscheme": "IV is incorrect because a condyloid (ellipsoid) joint (wrist/radiocarpal) is biaxial, not uniaxial."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "e3796866-e82c-46c9-b7dc-134a4a2d2758",
+        "specification": "A football player performs a maximal instep kick. At the point of ball contact, the hip is flexed and the knee is rapidly extending. Figure 1 shows a simplified lateral view of the right knee joint during knee extension and the quadriceps muscle group acting via the patellar tendon.\n\n![Simplified knee extension during an instep kick showing the femur, tibia, patella, quadriceps muscle, patellar tendon, and the knee joint axis of rotation. The quadriceps attaches proximally on the femur/ilium and distally via the patellar tendon to the tibia. The moment arm of the patellar tendon relative to the knee joint axis is indicated.](img:knee_kick_figure1)",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T09:13:44.280Z",
+            "resultId": 44819
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Parts (c) and (e) focus on fascia (a connective tissue) and synovial joint properties/structures enabling movement, which sit under connective tissues and joint structures.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30048,
+              "isHl": false,
+              "path": "A.1 Communication > A.1.1 Inter-system communication > A.1.1.1 The nervous system and physiological response coordination",
+              "title": "A.1.1.1 The nervous system and physiological response coordination",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Part (g) asks how the neuromuscular/nervous system coordinates voluntary movement, aligning with nervous system coordination of physiological responses.",
+              "confidence": 0.8
+            },
+            {
+              "id": 29922,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.3 Muscular function > B.1.3.1 Types of muscular contractions and their role in movement",
+              "title": "B.1.3.1 Types of muscular contractions and their role in movement",
+              "labeledAt": "2026-03-07T08:19:52.299Z",
+              "reasoning": "Parts (d) and (f) address skeletal muscle actions in movement and how attachment points affect mechanics, which broadly relates to muscular function and contractions in producing movement.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1697277,
+        "parts": [
+          {
+            "id": 1159463,
+            "content": "State one type of muscle tissue found in the human body.",
+            "order": 0,
+            "markscheme": "- Skeletal muscle <marks>1 mark</marks>\n- Cardiac muscle <marks>1 mark</marks>\n- Smooth muscle <marks>1 mark</marks>\n\n<note>Award <marks>1 mark</marks> for any one correct type.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159464,
+            "content": "With reference to Figure 1, state two roles of fascia in muscular function during the kick.",
+            "order": 1,
+            "markscheme": "- Surrounds/separates muscles to allow independent movement (reduces interference between adjacent muscles) <marks>1 mark</marks>\n- Transmits force generated by muscle contraction to tendons/bone (force transmission through connective tissue) <marks>1 mark</marks>\n- Provides structural support/maintains alignment of muscle compartments <marks>1 mark</marks>\n- Reduces friction between muscles/acts as a gliding surface between tissues <marks>1 mark</marks>\n\n<note>Award <marks>2 marks</marks> for any two distinct correct roles.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159465,
+            "content": "Outline three actions of skeletal muscle relevant to producing the instep kick.",
+            "order": 2,
+            "markscheme": "- Produces voluntary movement by contracting and pulling on bones (e.g., knee extension via quadriceps) <marks>1 mark</marks>\n- Maintains posture/body position against gravity (e.g., trunk/hip stabilization during the kick) <marks>1 mark</marks>\n- Stabilizes joints/supports the skeletal structure (e.g., dynamic stabilization of the knee) <marks>1 mark</marks>\n- Generates heat during activity (thermogenesis during muscular work) <marks>1 mark</marks>\n\n<note>Award <marks>3 marks</marks> for any three distinct correct actions.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159466,
+            "content": "With reference to the knee in Figure 1, describe two properties of synovial joints that allow movement.",
+            "order": 3,
+            "markscheme": "- Synovial fluid reduces friction between the articular surfaces <marks>1 mark</marks>\n- Articular cartilage provides a smooth surface and absorbs shock <marks>1 mark</marks>\n- Joint capsule/ligaments maintain joint integrity while allowing movement and contain synovial fluid <marks>1 mark</marks>\n\n<note>Award <marks>2 marks</marks> for any two distinct correct properties.</note>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159467,
+            "content": "Explain how the quadriceps attachment points shown in Figure 1 influence movement mechanics at the knee joint.",
+            "order": 4,
+            "markscheme": "- Origin is typically the more fixed/proximal attachment and insertion is the more movable/distal attachment (during knee extension the tibia moves relative to the femur) <marks>1 mark</marks>\n- Relative positions of the attachment points determine the line of pull and therefore the direction of movement/torque produced <marks>1 mark</marks>\n- Distance of the tendon from the joint axis (moment arm) affects torque and mechanical advantage for a given muscle force <marks>1 mark</marks>\n- Greater moment arm (insertion further from the joint axis) increases torque/strength but reduces angular velocity/range for a given shortening <marks>1 mark</marks>\n- Smaller moment arm (insertion closer to the joint axis) reduces torque but favours speed and range of motion <marks>1 mark</marks>\n\n<note>Award <marks>3 marks</marks> for any three linked correct points. Accept other correct biomechanical explanations consistent with Figure 1.</note>",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1159468,
+            "content": "Explain how the neuromuscular system coordinates voluntary knee extension during the kick (motor cortex \u2192 motor neuron \u2192 neuromuscular junction \u2192 contraction).",
+            "order": 5,
+            "markscheme": "- Motor cortex initiates the signal for voluntary movement <marks>1 mark</marks>\n- Action potentials travel along motor neurons to the relevant motor units in the quadriceps <marks>1 mark</marks>\n- At the neuromuscular junction, the nerve impulse leads to release of acetylcholine, generating an action potential in the muscle fibre <marks>1 mark</marks>\n- The action potential causes calcium release in the muscle fibre, enabling actin\u2013myosin cross-bridge cycling to produce force <marks>1 mark</marks>\n- CNS integrates sensory feedback/proprioception to coordinate timing and force for smooth/precise movement <marks>1 mark</marks>\n\n<note>Award <marks>4 marks</marks> for any four correct, sequentially linked points showing coordination from the CNS to contraction.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e4acd1e6-abe1-42be-b5ef-eb499c8f2c33",
+        "specification": "Refer to the image showing the anatomical structure of skeletal muscle and connective tissues.\n\nWhich of the following correctly identifies structures 1, 2, and 5 and their role in movement and stability?\n\n![](https://pub-images.revisiondojo.com/question-images/ArSd-Pr01dUmATPQPMTT5.jpeg)",
+        "questionType": null,
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T16:00:06.468Z",
+              "reasoning": "The question asks to identify connective tissue/musculoskeletal structures in an anatomical diagram (e.g., bone, tendon, fascicle) and explain their role in movement and stability\u2014core content of connective tissues and joint structures supporting movement.",
+              "confidence": 0.93
+            },
+            {
+              "id": 29918,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.1 Anatomical position, planes and movement  > B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "title": "B.1.1.1 Axial and appendicular skeleton components and their functions",
+              "labeledAt": "2026-03-06T16:00:06.468Z",
+              "reasoning": "One of the labelled structures is bone and the options discuss bone as an anchor point for muscle force, aligning with axial/appendicular skeleton components and their functions.",
+              "confidence": 0.62
+            }
+          ]
+        },
+        "currentRevisionId": 1583793,
+        "parts": [],
+        "options": [
+          {
+            "id": 4554717,
+            "content": "1: Bone \u2013 initiates movement by contracting; 2: Ligament \u2013 connects muscle to bone; 5: Sarcomere \u2013 increases joint flexibility",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4554718,
+            "content": "1: Ligament \u2013 stabilizes muscle origin; 2: Tendon \u2013 acts as synovial membrane; 5: Myofibril \u2013 controls elasticity of muscle belly",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4554719,
+            "content": "1: Cartilage \u2013 protects muscle attachments; 2: Ligament \u2013 enhances force transmission; 5: Myofibril \u2013 stabilizes joints through mechanical support",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4554720,
+            "content": "1: Bone \u2013 rigid anchor point for muscle force; 2: Tendon \u2013 transmits force from muscle to bone; 5: Fascicle \u2013 bundles muscle fibers to coordinate contraction",
+            "correct": true,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": null
+      },
+      {
+        "id": "ea561276-0862-4b71-add0-e6f678aba81f",
+        "specification": "The diagram below illustrates the internal arrangement of tissues within a typical human synovial joint.\n\n![synovial_joint](https://pub-images.revisiondojo.com/question-images/ramen-ramen-ib-physics-new-ea561276-0862-4b71-add0-e6f678aba81f-1771929956947/d564eeaf-1009-4f82-bede-d59f0e5d0fd2.jpeg)\n\nIn the diagram, **X** points to the blue covering on the ends of the bones and **Y** points to the yellow space between the coverings.\n\nWhich option identifies structures **X** and **Y**?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-ea561276-0862-4b71-add0-e6f678aba81f-1771929956947",
+            "generatedAt": "2026-02-25T09:23:46.515Z",
+            "sourceRevisionId": 1684072
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:33:34.785Z",
+            "resultId": 30751
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:26:43.481Z",
+              "reasoning": "The question asks to identify synovial joint structures (e.g., articular cartilage, synovial fluid, synovial membrane, ligaments, tendons, joint capsule) and state the primary mechanical role of one structure\u2014this is directly about connective tissues and joint structures supporting movement.",
+              "confidence": 0.94
+            }
+          ]
+        },
+        "currentRevisionId": 1695164,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935485,
+            "content": "**X**: Articular cartilage; **Y**: Synovial fluid",
+            "correct": true,
+            "order": 0,
+            "markscheme": "Correct identification of both labelled structures."
+          },
+          {
+            "id": 4935486,
+            "content": "**X**: Ligament; **Y**: Joint capsule",
+            "correct": false,
+            "order": 1,
+            "markscheme": "Incorrect: ligaments are fibrous bands connecting bone to bone; the label **X** indicates the articular surface covering, and **Y** indicates the joint cavity containing synovial fluid."
+          },
+          {
+            "id": 4935487,
+            "content": "**X**: Synovial membrane; **Y**: Synovial fluid",
+            "correct": false,
+            "order": 2,
+            "markscheme": "Incorrect: the synovial membrane lines the inside of the joint capsule rather than covering the ends of bones; **X** indicates articular cartilage."
+          },
+          {
+            "id": 4935488,
+            "content": "**X**: Tendon; **Y**: Articular cartilage",
+            "correct": false,
+            "order": 3,
+            "markscheme": "Incorrect: tendons connect muscle to bone and are not located as a blue covering on bone ends; **Y** indicates the joint cavity/synovial fluid rather than cartilage."
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f2c750c6-7a87-4d93-bfd5-a89cab432359",
+        "specification": "During the powerful contraction of the quadriceps in a vertical jump, which connective tissue is responsible for transmitting the resulting force to the tibia?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-sehs-f2c750c6-7a87-4d93-bfd5-a89cab432359-1771953315939",
+            "generatedAt": "2026-02-25T07:12:52.993Z",
+            "sourceRevisionId": 1420684
+          },
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-07T10:36:32.589Z",
+            "resultId": 44731
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:18:56.533Z",
+              "reasoning": "The question asks which connective tissue transmits muscle force (quadriceps) to bone (tibia), which is the function of a tendon\u2014covered under connective tissues and joint structures supporting movement.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        "currentRevisionId": 1697468,
+        "parts": [],
+        "options": [
+          {
+            "id": 4941512,
+            "content": "Ligament",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4941513,
+            "content": "Articular cartilage",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4941514,
+            "content": "Tendon",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4941515,
+            "content": "Synovial membrane",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "f4922ed4-bccc-4019-b7d9-32217d2588c9",
+        "specification": "Which type of connective tissue cushions joints and reduces friction during movement?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": 4,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T08:18:59.132Z",
+              "reasoning": "The question asks which connective tissue cushions joints and reduces friction (cartilage), which is directly about connective tissues and joint structures supporting movement.",
+              "confidence": 0.97
+            }
+          ]
+        },
+        "currentRevisionId": 1420670,
+        "parts": [],
+        "options": [
+          {
+            "id": 4153459,
+            "content": "Tendon",
+            "correct": false,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4153460,
+            "content": "Ligament",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4153461,
+            "content": "Cartilage",
+            "correct": true,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4153462,
+            "content": "Fascia",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fa5b3ee0-5ee5-485c-8280-71e9004577d1",
+        "specification": "Which type of dense fibrous connective tissue forms a continuous system throughout the body, enveloping muscles and providing a protective sheath for groups of muscles?",
+        "questionType": "MC",
+        "level": "both",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-computer-science-fa5b3ee0-5ee5-485c-8280-71e9004577d1-1771867193188",
+            "generatedAt": "2026-02-24T06:45:09.895Z",
+            "variationScope": 5,
+            "sourceRevisionId": 1420673
+          },
+          "labeledLevel": "SL",
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-07T17:37:07.609Z",
+              "reasoning": "The question asks about a type of dense fibrous connective tissue (fascia) that envelops muscles and forms protective sheaths\u2014content covered under connective tissues and joint structures supporting movement.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1683587,
+        "parts": [],
+        "options": [
+          {
+            "id": 4916035,
+            "content": "Fascia",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4916036,
+            "content": "Synovium",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4916037,
+            "content": "Cartilage",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4916038,
+            "content": "Ligament",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      },
+      {
+        "id": "fdf41637-5a73-4a31-a709-a3b44402f5f8",
+        "specification": "Which structural characteristics of articular (hyaline) cartilage in synovial joints allow it to absorb shock during running and jumping?",
+        "questionType": "MC",
+        "level": "sl",
+        "paper": "ib-1a",
+        "subjectId": 6423,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-06T08:36:25.091Z",
+            "resultId": 30553
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 29921,
+              "isHl": false,
+              "path": "B.1 Generating movement in the body > B.1.2 Structure and function of connective tissues and joints > B.1.2.1 Connective tissues and joint structures supporting movement",
+              "title": "B.1.2.1 Connective tissues and joint structures supporting movement",
+              "labeledAt": "2026-03-06T05:19:51.172Z",
+              "reasoning": "The question asks about the structural characteristics of cartilage that enable shock absorption during running and jumping, which falls under connective tissues and joint structures supporting movement.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        "currentRevisionId": 1695180,
+        "parts": [],
+        "options": [
+          {
+            "id": 4935549,
+            "content": "A proteoglycan-rich extracellular matrix that binds water, supported by a collagen fibre network",
+            "correct": true,
+            "order": 0,
+            "markscheme": ""
+          },
+          {
+            "id": 4935550,
+            "content": "A matrix with low water content and minimal proteoglycans, making it rigid under compression",
+            "correct": false,
+            "order": 1,
+            "markscheme": ""
+          },
+          {
+            "id": 4935551,
+            "content": "A high proportion of elastin fibres that makes the tissue highly elastic",
+            "correct": false,
+            "order": 2,
+            "markscheme": ""
+          },
+          {
+            "id": 4935552,
+            "content": "A mineralised (calcified) matrix similar to compact bone that resists deformation",
+            "correct": false,
+            "order": 3,
+            "markscheme": ""
+          }
+        ],
+        "examBoardId": 4
+      }
+    ],
+    "count": "45",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 21861,
+      "title": "B.1.2 Structure and function of connective tissues and joints",
+      "slug": "ib-sehs-new-b12-structure-and-function-of-connective-tissues-and-joints",
+      "parentTopicId": 21859
+    },
+    "subject": {
+      "id": 6423,
+      "title": "Sports, exercise and health science (SEHS)",
+      "slug": "ib-sports-exercise-and-health-science-sehs-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "45",
+      "byQuestion": {}
+    }
+  }
+}

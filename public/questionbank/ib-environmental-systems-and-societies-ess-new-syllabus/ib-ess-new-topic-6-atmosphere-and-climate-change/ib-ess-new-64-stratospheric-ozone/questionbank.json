@@ -1,3 +1,674 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f4a2090be12e26dc1a9f7a1cd9f6d7f1c0b6a49c03f963cbf042f5af1f296308
-size 50896
+{
+  "json": {
+    "questions": [
+      {
+        "id": "1a2badff-48a5-42fc-b4a5-c17591d52119",
+        "specification": "The figure shows the change in stratospheric ozone levels above Lauder, New Zealand, and associated UV radiation index\n\n![Image](https://pub-images.revisiondojo.com/question-images/caeb553d-6c92-4093-8897-487f63322c57)\n\n*(Sources: \u00a9 Author(s) 2022. Weber et al., Global total ozone recovery trends attributed to ozone-depleting substance (ODS) changes derived from five merged ozone datasets licensed under CC BY 4.0 \n\u00a9 1996-2024 MDPI. Trends of UV radiation in Antarctica. Atmosphere, 11(8), 795. by Bernhard, G., & Stierle, S. (2020).)*",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 6,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "BOTH",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30560,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4C The Montreal protocol",
+              "title": "6.4C The Montreal protocol",
+              "labeledAt": "2026-03-06T15:39:23.246Z",
+              "reasoning": "Part (c) explicitly asks to evaluate the role of the Montreal Protocol in protecting stratospheric ozone.",
+              "confidence": 0.97
+            },
+            {
+              "id": 30559,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4B Ozone depletion",
+              "title": "6.4B Ozone depletion",
+              "labeledAt": "2026-03-06T15:39:23.246Z",
+              "reasoning": "Parts (a) and (b) concern changes in stratospheric ozone levels and human factors affecting depletion.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30558,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4A UV radiation",
+              "title": "6.4A UV radiation",
+              "labeledAt": "2026-03-06T15:39:23.246Z",
+              "reasoning": "Part (a) asks for the relationship between ozone levels and the UV radiation index, i.e., UV radiation reaching the surface.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30561,
+              "isHl": true,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4D Stratospheric ozone depletion and ODSs (HL)",
+              "title": "6.4D Stratospheric ozone depletion and ODSs (HL)",
+              "labeledAt": "2026-03-06T15:39:23.246Z",
+              "reasoning": "Part (b) asks for a man-made factor (ozone-depleting substances such as CFCs/halons) driving stratospheric ozone depletion.",
+              "confidence": 0.8
+            }
+          ]
+        },
+        "currentRevisionId": 1083756,
+        "parts": [
+          {
+            "id": 529651,
+            "content": "Describe the relationship between ozone levels and the UV radiation index.",
+            "order": 0,
+            "markscheme": "\n- As ozone levels decrease, UV radiation index increases $\\implies$ inverse relationship <marks>1 mark</marks>\n- Higher UV radiation index means more harmful UV rays reach the Earth's surface <marks>1 mark</marks>\n\n<marks>2 marks max</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 529652,
+            "content": "State one man-made factor that affects ozone levels in the stratosphere.",
+            "order": 1,
+            "markscheme": "\nThe command term 'state' means students must give a specific name, value or other brief answer without explanation or calculation.\n\nAward <marks>1 mark max</marks> for any of the following marking points:\n\n- ODSs (ozone depleting substances)\n- CFCs\n- halons\n- methylbromide\n- carbon tetrachloride\n\n<note>ODS released into the environment can destroy stratospheric ozone. ODS can include chemicals used in aerosols, pesticides, refrigerants, and fire retardants.</note>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 529653,
+            "content": "Evaluate the role of the Montreal Protocol in the protection of stratospheric ozone.",
+            "order": 2,
+            "markscheme": "- The Montreal Protocol was an international agreement to phase out the production and use of ozone-depleting substances (ODSs) such as CFCs and halons <marks>1 mark</marks>\n- It led to a decrease in the levels of ODSs in the atmosphere, allowing the ozone layer to start recovering <marks>1 mark</marks>\n\n$$\n\\text{Recovery of the ozone layer} \\implies \\text{reduced UV radiation reaching the Earth's surface}\n$$\n\n<marks>1 mark</marks>\n\n- The Montreal Protocol is considered one of the most successful international environmental agreements <marks>1 mark</marks>\n- However, it does not address other greenhouse gases that contribute to climate change, which can also affect the ozone layer <marks>1 mark</marks>\n\n<marks>5 marks max</marks>",
+            "marks": 5,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "2b937d01-9415-4a74-b54a-6cfdfe735d94",
+        "specification": "The table below shows the average total column ozone levels (measured in Dobson Units, DU) at two different monitoring stations between 1970 and 2010.\n\n| Year | Halley Bay, Antarctica (75\u00b0S) [DU] | Arosa, Switzerland (47\u00b0N) [DU] |\n| :--- | :--- | :--- |\n| 1970 | 300 | 335 |\n| 1990 | 180 | 315 |\n| 2010 | 144 | 310 |",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-2b937d01-9415-4a74-b54a-6cfdfe735d94-1772167695732",
+            "generatedAt": "2026-02-27T08:00:38.416Z",
+            "sourceRevisionId": 813636
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30559,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4B Ozone depletion",
+              "title": "6.4B Ozone depletion",
+              "labeledAt": "2026-03-07T17:38:17.348Z",
+              "reasoning": "Core of the question is interpreting ozone column data and effects/causes of stratospheric ozone depletion (incl. impacts via increased UV).",
+              "confidence": 0.93
+            },
+            {
+              "id": 30561,
+              "isHl": true,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4D Stratospheric ozone depletion and ODSs (HL)",
+              "title": "6.4D Stratospheric ozone depletion and ODSs (HL)",
+              "labeledAt": "2026-03-07T17:38:17.348Z",
+              "reasoning": "Part (b) specifically asks for the chemical mechanism of ozone depletion by halogenated organic gases (CFCs/ODSs), which is the HL depletion/ODS chemistry focus.",
+              "confidence": 0.9
+            },
+            {
+              "id": 30560,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4C The Montreal protocol",
+              "title": "6.4C The Montreal protocol",
+              "labeledAt": "2026-03-07T17:38:17.348Z",
+              "reasoning": "Part (c) asks how the Montreal Protocol works as an international management strategy to protect ozone.",
+              "confidence": 0.87
+            },
+            {
+              "id": 30558,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4A UV radiation",
+              "title": "6.4A UV radiation",
+              "labeledAt": "2026-03-07T17:38:17.348Z",
+              "reasoning": "Part (a) focuses on negative impacts of increased UV radiation on terrestrial plant life, linking ozone depletion to UV effects.",
+              "confidence": 0.75
+            }
+          ]
+        },
+        "currentRevisionId": 1688667,
+        "parts": [
+          {
+            "id": 1150601,
+            "content": "Using the data provided for Halley Bay, calculate the percentage decrease in ozone levels between 1970 and 1990.",
+            "order": -1,
+            "markscheme": "The command term \"calculate\" requires a numerical answer and the showing of working.\n\n- Change in DU: $$300 - 180 = 120$$ DU <marks>1 mark</marks>\n- Percentage change: $$\\frac{120}{300} \\times 100 = 40\\%$$ <marks>1 mark</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150602,
+            "content": "State one negative impact on terrestrial plant life caused by the increased levels of UV radiation resulting from ozone depletion.",
+            "order": 0,
+            "markscheme": "The command term \"state\" requires a brief answer without explanation.\n\nAward <marks>1 mark max</marks> for any of the following:\n- Reduced rates of photosynthesis.\n- Damage to leaf tissues/DNA damage in plant cells.\n- Reduced crop yields/stunted growth.\n- Inhibition of seedling development.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150603,
+            "content": "Explain the chemical process by which halogenated organic gases, such as CFCs, deplete the stratospheric ozone layer.",
+            "order": 1,
+            "markscheme": "The command term \"explain\" requires a detailed account including reasons/causes.\n\nAward <marks>1 mark</marks> for each relevant point, up to <marks>3 marks max</marks>:\n- UV radiation hits the CFC molecule, causing a chlorine atom to break away.\n- The free chlorine atom reacts with an ozone molecule ($$O_3$$), breaking it apart to form oxygen ($$O_2$$) and chlorine monoxide ($$ClO$$).\n- The chlorine atom is subsequently reformed/released during further reactions, allowing it to act as a catalyst and destroy many more ozone molecules in a repetitive cycle.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150604,
+            "content": "Describe how the Montreal Protocol has acted as an effective international management strategy for protecting the ozone layer.",
+            "order": 2,
+            "markscheme": "The command term \"describe\" requires a detailed account of the strategy.\n\nAward <marks>1 mark</marks> for each relevant point, up to <marks>3 marks max</marks>:\n- It created a legally binding timeline for the phase-out of production and consumption of ozone-depleting substances (ODS).\n- It included a \"Multilateral Fund\" to provide financial and technical assistance to developing nations to help them transition away from ODS.\n- The treaty is dynamic/flexible, allowing for adjustments and amendments as new scientific evidence or technological alternatives (like HFCs) emerge.",
+            "marks": 3,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "40b9d98e-891f-44cc-8e64-298baff2084f",
+        "specification": "",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-40b9d98e-891f-44cc-8e64-298baff2084f-1771929956947",
+            "generatedAt": "2026-02-24T10:47:20.275Z",
+            "sourceRevisionId": 1109338
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30604,
+              "isHl": false,
+              "path": "Topic 7: Natural resources > 7.3 Solid waste > 7.3B Waste disposal and management",
+              "title": "7.3B Waste disposal and management",
+              "labeledAt": "2026-03-06T05:41:14.564Z",
+              "reasoning": "Parts (b) and (c) focus on evaluating strategies for managing non-biodegradable plastic waste, aligning with solid waste disposal and management approaches and decision-making.",
+              "confidence": 0.82
+            },
+            {
+              "id": 30147,
+              "isHl": false,
+              "path": "Topic 4: Water > 4.4 Water pollution > 4.4A Water pollution",
+              "title": "4.4A Water pollution",
+              "labeledAt": "2026-03-06T05:41:14.564Z",
+              "reasoning": "Plastic waste in marine ecosystems is a form of water pollution; part (a) asks about point vs non-point sources and examples, which fits general water pollution concepts.",
+              "confidence": 0.74
+            },
+            {
+              "id": 30153,
+              "isHl": true,
+              "path": "Topic 4: Water > 4.4 Water pollution > 4.4G Water quality management (HL)",
+              "title": "4.4G Water quality management (HL)",
+              "labeledAt": "2026-03-06T05:41:14.564Z",
+              "reasoning": "Part (b) explicitly uses the pollution management model to evaluate management strategies; this maps to water quality management/management frameworks for pollution control.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1688646,
+        "parts": [
+          {
+            "id": 1150574,
+            "content": "Compare the characteristics of point source pollution and non-point source pollution, providing a named example for each.",
+            "order": 0,
+            "markscheme": "- point source pollution is released from a single, clearly identifiable site/origin;\n...whereas non-point source pollution is released from numerous widely dispersed origins;\n\n- point source is generally easier to monitor/control/attribute legal responsibility to;\n...whereas non-point source is difficult to monitor as it may combine from many sources (e.g., runoff);\n\n- point source example: a factory chimney/effluent pipe discharging into a river/a specific oil well leak;\n\n- non-point source example: nitrogen runoff from multiple agricultural fields across a watershed/exhaust emissions from all vehicles in a city/microplastics from domestic synthetic clothing wear;\n\n<Note> Award <marks>1 mark max</marks> for each distinct point of comparison (up to <marks>2 marks</marks>). Award <marks>1 mark</marks> for a valid example of point source and <marks>1 mark</marks> for a valid example of non-point source._",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150575,
+            "content": "Using the pollution management model, evaluate strategies to manage the impact of non-biodegradable plastic waste in marine ecosystems.",
+            "order": 1,
+            "markscheme": "**Altering human activity (Replace)**\n- Educational campaigns to discourage single-use plastics <marks>1 mark</marks>\n- Legislation/taxes on plastic bags or straws to reduce consumption <marks>1 mark</marks>\n- Development of biodegradable alternatives/bioplastics <marks>1 mark</marks>\n- _Evaluation_: Addresses the root cause but requires significant cultural shift and may be slow to show results <marks>1 mark</marks>\n\n**Controlling release at source (Regulate)**\n- Improving municipal waste management/recycling infrastructure to prevent leakage into waterways <marks>1 mark</marks>\n- Implementing circular economy models where manufacturers are responsible for plastic recovery <marks>1 mark</marks>\n- _Evaluation_: Effective in urban areas but expensive for LEDCs to implement and does not address plastics already in the system <marks>1 mark</marks>\n\n**Clean-up and Restoration (Remediate)**\n- Large-scale ocean cleanup projects (e.g., using booms to collect surface plastic) <marks>1 mark</marks>\n- Community-led beach cleaning initiatives <marks>1 mark</marks>\n- _Evaluation_: Highly visible and removes immediate threats to wildlife, but is the most expensive/least efficient and does not stop the flow of new pollutants <marks>1 mark</marks>\n\n<note> Award 7 marks max. To achieve full marks, at least one strategy from each level of the model must be evaluated.",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150576,
+            "content": "\u201cThe success of pollution management is determined more by cultural and economic factors than by the availability of technological solutions.\u201d To what extent do you agree with this statement?",
+            "order": 2,
+            "markscheme": "_Refer to paper 2 markbands._\n\n_Answers may include:_\n\n*   **Understanding concepts and terminology**: pollution management model (replace, regulate, restore); Environmental Value Systems (EVS) (technocentric, anthropocentric, ecocentric); circular economy; sustainability; tragedy of the commons; LEDCs vs MEDCs; persistent vs biodegradable pollutants.\n*   **Breadth in addressing and linking**: how economic development (GDP) influences a country's priority (Environment vs Industry); how cultural attitudes (e.g., consumerism vs minimalism) drive waste production; the role of technology in monitoring (satellites) and remediation (renewables).\n*   **Examples**: contrast between recycling success in Northern Europe (cultural/economic) vs plastic pollution in rapidly industrializing nations; the use of DDT (economic trade-off between malaria and environment); the transition to electric vehicles (technological availability vs economic subsidies/infrastructure).\n*   **Balanced analysis**: \n    *   _Support for statement_: even where technology exists (e.g., carbon capture, advanced recycling), high costs may prevent adoption in LEDCs. Cultural resistance to changing diets or transport habits can stall management regardless of tech.\n    *   _Counter-argument_: without technology (e.g., scrubbers, renewable energy tech, GPS monitoring), even a willing culture cannot effectively reduce certain pollutants. Technology can drive down costs, making management economically feasible over time.\n*   **Conclusion**: Should summarize the relative importance of both. For example, technology provides the tools, but cultural and economic frameworks provide the will and the means to use them. In many cases, the most effective management occurs when economic incentives (taxes/subsidies) align with cultural values and technological capability.",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "67969ada-4c9c-491f-804c-865c050a1498",
+        "specification": "",
+        "questionType": "LA",
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 5,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "ramen2_checkfix": {
+            "fixedAt": "2026-03-05T10:42:17.960Z",
+            "resultId": 6312
+          },
+          "labeledSubSubTopics": [
+            {
+              "id": 30558,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4A UV radiation",
+              "title": "6.4A UV radiation",
+              "labeledAt": "2026-03-05T08:15:06.241Z",
+              "reasoning": "The question directly asks about the role of stratospheric ozone in protecting life from UV radiation, which is the core focus of topic 6.4A.",
+              "confidence": 0.95
+            },
+            {
+              "id": 30559,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4B Ozone depletion",
+              "title": "6.4B Ozone depletion",
+              "labeledAt": "2026-03-05T08:15:06.241Z",
+              "reasoning": "Outlining the steady state of ozone concentration involves understanding the natural balance of ozone formation and destruction (the Chapman cycle), which is foundational to the study of ozone depletion in topic 6.4B.",
+              "confidence": 0.85
+            },
+            {
+              "id": 38252,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.2 Systems > 1.2A Systems",
+              "title": "1.2A Systems",
+              "labeledAt": "2026-03-05T08:15:06.241Z",
+              "reasoning": "The term 'steady state' is a specific systems concept involving equilibrium, which is introduced and defined in topic 1.2A.",
+              "confidence": 0.7
+            }
+          ]
+        },
+        "currentRevisionId": 1693764,
+        "parts": [
+          {
+            "id": 1155993,
+            "content": "Outline the role of stratospheric ozone in protecting life on Earth from UV radiation and describe how a steady-state ozone concentration is maintained in the stratosphere.",
+            "order": 0,
+            "markscheme": "- Stratospheric ozone absorbs a large proportion of incoming ultraviolet radiation, especially UVB; reducing the amount reaching Earth\u2019s surface <marks>1 mark</marks>\n- Reduced UV exposure lowers biological damage (e.g., reduced DNA damage/mutation, skin cancer risk, cataracts; impacts on plants/phytoplankton) <marks>1 mark</marks>\n- Ozone formation: UV photolysis of oxygen, $\\mathrm{O_2 + UV \\rightarrow 2O}$; followed by $\\mathrm{O + O_2 \\rightarrow O_3}$ (often with a third body, $\\mathrm{M}$) <marks>1 mark</marks>\n- Ozone destruction: photolysis and recombination, e.g. $\\mathrm{O_3 + UV \\rightarrow O_2 + O}$ and/or $\\mathrm{O + O_3 \\rightarrow 2O_2}$; steady state occurs when rate of production balances rate of loss under natural conditions <marks>1 mark</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155994,
+            "content": "Explain how human activities can disrupt the natural steady state of stratospheric ozone and evaluate the effectiveness of one international response.",
+            "order": 1,
+            "markscheme": "- Human release of ozone-depleting substances (ODS) such as CFCs/halons; they are stable in the troposphere and reach the stratosphere <marks>1 mark</marks>\n- UV breaks ODS releasing halogen radicals (e.g., $\\mathrm{Cl\\cdot}$); radicals catalyse ozone destruction (e.g., $\\mathrm{Cl\\cdot + O_3 \\rightarrow ClO\\cdot + O_2}$; $\\mathrm{ClO\\cdot + O \\rightarrow Cl\\cdot + O_2}$) so one radical can destroy many $\\mathrm{O_3}$ molecules <marks>1 mark</marks>\n- Net effect is reduced ozone concentration/\u201cozone hole\u201d, increasing surface UVB with impacts on human health and ecosystems <marks>1 mark</marks>\n- International response identified (e.g., Montreal Protocol); aims to phase out production/consumption of ODS <marks>1 mark</marks>\n- Effectiveness: evidence of reduced atmospheric concentrations of key ODS and signs of gradual ozone recovery (long time lag due to persistence of ODS) <marks>1 mark</marks>\n- Limitations/issues: uneven compliance/illegal production; substitute chemicals may have other impacts (e.g., some substitutes are greenhouse gases); recovery is slow and depends on continued enforcement <marks>1 mark</marks>\n- Supported conclusion/value judgement on overall effectiveness (e.g., generally effective due to widespread ratification and measurable declines in ODS, but long recovery time and enforcement/substitution issues remain) <marks>1 mark</marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1155995,
+            "content": "To what extent should the management of stratospheric ozone depletion be prioritised compared with other global atmospheric issues?",
+            "order": 2,
+            "markscheme": "0 marks: The response is not relevant or does not reach a standard described by the descriptors below.\n\n1\u20133 marks: Minimal knowledge of stratospheric ozone depletion and/or other atmospheric issues. Statements are largely unlinked or descriptive with little comparison. Limited or no use of ESS terminology. Few or no examples. Conclusion absent or unsupported.\n\n4\u20136 marks: Some sound knowledge and understanding of ozone depletion and at least one other atmospheric issue (e.g., climate change, urban air pollution). Some relevant ESS terminology and some comparison of severity, scale, time lag, reversibility, and management feasibility. Uses at least one relevant example (e.g., Montreal Protocol) with limited explanation. Conclusion present but may be limited in support.\n\n7\u20139 marks: Substantial, well-linked knowledge and understanding. Balanced, comparative analysis of prioritisation using multiple criteria (e.g., magnitude of impacts, urgency, reversibility, uncertainty, equity, cost-effectiveness, co-benefits/trade-offs). Integrates pertinent examples (e.g., Montreal Protocol success; interactions between ozone and climate via ODS/HCFCs/HFCs). For HL responses, includes awareness of different lenses (ecological, economic, cultural/political) in evaluating priorities. Clear, well-supported judgement on the extent to which ozone management should be prioritised relative to other issues.",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "944c48e4-9e11-4252-b285-731f015def0c",
+        "specification": "",
+        "questionType": null,
+        "level": "both",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": 8,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "labeledLevel": "SL",
+          "question_set": "STUDENT",
+          "labeledSubSubTopics": [
+            {
+              "id": 30638,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.3 Urban air pollution > 8.3B Acid rain",
+              "title": "8.3B Acid rain",
+              "labeledAt": "2026-03-06T05:15:08.502Z",
+              "reasoning": "Part (a) asks for impacts of acid rain; part (c) focuses on managing sulphur dioxide effects on ecosystems\u2014core content of the Acid rain subtopic within urban air pollution.",
+              "confidence": 0.96
+            },
+            {
+              "id": 30637,
+              "isHl": false,
+              "path": "Topic 8: Human populations and urban systems > 8.3 Urban air pollution > 8.3A Urban air pollution",
+              "title": "8.3A Urban air pollution",
+              "labeledAt": "2026-03-06T05:15:08.502Z",
+              "reasoning": "Parts (b) and (c) involve classifying pollutants (primary vs secondary) and evaluating pollution management strategies, which are broader urban air pollution concepts beyond acid rain alone.",
+              "confidence": 0.72
+            }
+          ]
+        },
+        "currentRevisionId": 757714,
+        "parts": [
+          {
+            "id": 529687,
+            "content": "Outline four impacts of acid rain on the natural and urban environment.",
+            "order": 0,
+            "markscheme": "Award <marks>1 mark</marks> for any of the following, <marks>4 marks max</marks>:\n\n- Acid rain dissolves nutrients from the soil.\n\n- Acid rain leaches aluminium from the soil; aluminium is toxic for plants and animals.\n\n-  If aluminium reaches bodies of water, it will kill fish since it affects the gills of fish.\n\n- Acid rain slows the growth of plants/reduces primary productivity.\n\n- Acid rain damages the leaves of plants/trees affecting photosynthesis rate.\n\n- Acid rain is toxic/kills phytoplankton, insects; it also affects animal exoskeletons.\n\n- Acid rain damages/corrodes limestone and other construction materials.\n\n-  Acid rain damages buildings and sculptures.\n\n<note>Accept any other reasonable answers.</note>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 529688,
+            "content": "Using named examples where relevant, distinguish between primary and secondary pollutants.",
+            "order": 1,
+            "markscheme": "\n### Primary pollutants\n- <marks>1 mark</marks> Primary pollutants are emitted directly into the atmosphere from a source.\n- Examples:\n  - <marks>1 mark</marks> Carbon monoxide (CO) from vehicle exhaust.\n  - <marks>1 mark</marks> Sulfur dioxide ($SO_2$) from power plants burning fossil fuels.\n  - <marks>1 mark</marks> Particulate matter from construction sites or unpaved roads.\n\n### Secondary pollutants\n- <marks>1 mark</marks> Secondary pollutants are formed in the atmosphere through chemical reactions involving primary pollutants and other atmospheric compounds.\n- Examples:\n  - <marks>1 mark</marks> Ozone ($O_3$) formed from the reaction of nitrogen oxides ($NO_x$) and volatile organic compounds (VOCs) in the presence of sunlight.\n\n$$\nNO + VOCs + \\text{sunlight} \\rightarrow NO_2 + O_3\n$$\n\n  - <marks>1 mark</marks> Acid rain formed from the reaction of sulfur dioxide ($SO_2$) and nitrogen oxides ($NO_x$) with water vapor in the atmosphere, producing sulfuric acid ($H_2SO_4$) and nitric acid ($HNO_3$).\n\n<marks>7 marks max</marks>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 529689,
+            "content": "Evaluate how pollution management strategies may regulate, reduce, and repair the impact of sulphur dioxide on ecosystems.",
+            "order": 2,
+            "markscheme": "The command term \"evaluate\" means students must make an appraisal by weighing up the strengths and limitations.\n\nAnswers may demonstrate:\n\n- Understanding concepts & terminology: pollution, urban air pollution, pollution strategies, altering human activities strategies, reducing/controlling the pollutant at the point of release strategies, restoring ecosystems strategies, combustion of fossil fuels, sulphur dioxide, acid rain, primary and secondary pollutants, renewable energy sources, scrubbers in power stations, catalytic converters, adding limestone to lakes, low emission vehicles, preventative strategies including altering human behaviour or controlling the release of pollutants, restorative strategies like clean-up and restoration of damaged ecosystems, etc.\n\n- Breadth in addressing and linking strategies to advantages and disadvantages, preventative strategies including altering human behaviour or controlling the release of pollutants, restorative strategies like clean-up and restoration of damaged ecosystems.\n\n- Examples of pollution management strategies, for example, altering human activity strategy can be policies and incentives, stopping fossil fuels or increasing the use of renewable energy sources, scrubbers in power stations, catalytic converters, low emission vehicles, restorative strategies like adding limestone to lakes, etc.\n\n- Balanced analysis evaluating the extent to which different strategies might help reduce the impact of $SO_2$, the advantages and disadvantages of the mentioned strategies.\n\n- A conclusion that is consistent with, and supported by analysis and examples given, for example, although switching to renewable energy sources requires significant investment from governments and acceptance from the population, it can decrease the production of sulphur dioxide, which has a detrimental effect on ecosystems and societies.\n\n***Use the following markband to allocate marks:***\n\n<marks>0 marks</marks>:\n\nThe response does not reach a standard described by the descriptors below and is not relevant to the question.\n\n<marks>1\u20133 marks</marks>:\nThe response contains:\n\n- Minimal evidence of knowledge and understanding of ESS issues and concepts\n- Fragmented knowledge statements that are poorly linked to the context of the question\n- Some appropriate use of ESS terminology\n- No examples, where required, or examples with insufficient explanation/relevance\n- Superficial analysis that amounts to no more than a list of facts/ideas\n- Judgements/conclusions that are vague or not supported by evidence/argument.\n\n<marks>4\u20136 marks</marks>:\nThe response contains:\n\n- Some evidence of sound knowledge and understanding of ESS issues and concepts\n- Knowledge statements that are effectively linked to the context of the question\n- Largely appropriate use of ESS terminology\n- Some use of relevant examples, where required, but with limited explanation\n- Clear analysis that shows a degree of balance\n- Some clear judgements/conclusions that are supported by limited evidence/arguments.\n\n<marks>7\u20139 marks</marks>:\nThe response contains:\n\n- Substantial evidence of sound knowledge and understanding of ESS issues and concepts\n- A wide breadth of knowledge statements that are effectively linked to each other and to the context of the question\n- Consistent, appropriate and precise use of ESS terminology\n- Effective use of pertinent, well-explained examples, where required, showing some originality\n- Thorough, well-balanced, insightful analysis\n- Explicit judgements/conclusions that are well supported by evidence/arguments and that include some critical reflection.",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "d08a278a-eca7-451c-8261-1838561b1e67",
+        "specification": "Topic 1.4: Sustainability",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "approvedBy": "sentinel-user",
+            "workflowId": "ramen-ib-physics-new-d08a278a-eca7-451c-8261-1838561b1e67-1771929956947",
+            "generatedAt": "2026-02-26T05:51:15.409Z",
+            "sourceRevisionId": 1137003
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 38263,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3F Sustainability indicators",
+              "title": "1.3F Sustainability indicators",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "The question asks about Ecological Footprint categories and evaluates EF as a measure of national sustainability, which are sustainability indicators.",
+              "confidence": 0.86
+            },
+            {
+              "id": 30577,
+              "isHl": true,
+              "path": "Topic 7: Natural resources > 7.1 Natural resources - uses and management > 7.1F Environmental impact assessment (HL)",
+              "title": "7.1F Environmental impact assessment (HL)",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "Part (a) explicitly asks for the essential stages of an Environmental Impact Assessment (EIA) and its role in sustainable decision-making.",
+              "confidence": 0.84
+            },
+            {
+              "id": 38264,
+              "isHl": false,
+              "path": "Topic 1: Foundation  > 1.3 Sustainability  > 1.3G Biocapacity",
+              "title": "1.3G Biocapacity",
+              "labeledAt": "2026-03-06T15:39:48.943Z",
+              "reasoning": "Ecological Footprint calculations are interpreted relative to biocapacity, and evaluating EF accuracy commonly involves comparing EF to a nation\u2019s biocapacity.",
+              "confidence": 0.68
+            }
+          ]
+        },
+        "currentRevisionId": 1685347,
+        "parts": [
+          {
+            "id": 1146068,
+            "content": "State **four** specific categories of land or water use that are incorporated into the calculation of an Ecological Footprint (EF).",
+            "order": -1,
+            "markscheme": "Award <marks>1 mark</marks> for each of the following up to a maximum of <marks>4 marks</marks>:\n\n1.  **Arable land:** Land required for growing food crops for human consumption or animal feed.\n2.  **Pasture land:** Land used for grazing livestock for meat, dairy, or wool production.\n3.  **Forest land:** Land required to provide timber products, pulp, and fuel wood.\n4.  **Carbon footprint (Carbon uptake land):** The amount of forest land required to sequester the carbon dioxide emissions produced by fossil fuel combustion.\n5.  **Built-up land:** Land occupied by infrastructure, including housing, transport, and industrial sites.\n6.  **Fishing grounds:** Area of marine and inland water required to support the sustainable harvest of fish and seafood.",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146069,
+            "content": "Outline the essential stages of an Environmental Impact Assessment (EIA) and its role in sustainable decision-making.",
+            "order": 0,
+            "markscheme": "### Outline the essential stages and role of an EIA\n\n- **Baseline study:** Conducting an initial survey of the site to establish the current state of the environment (biotic and abiotic factors) before any development begins. <marks>1 mark</marks>\n- **Identification of impacts:** Predicting the potential positive and negative environmental consequences of the proposed project. <marks>1 mark</marks>\n- **Mitigation strategies:** Proposing measures to avoid, reduce, or compensate for the negative impacts identified. <marks>1 mark</marks>\n- **Assessment of alternatives:** Comparing the proposed project with alternative designs or locations to find the least damaging option. <marks>1 mark</marks>\n- **Public consultation:** Involving local communities and stakeholders to ensure social concerns and local knowledge are considered. <marks>1 mark</marks>\n- **Reporting:** Producing a formal Environmental Impact Statement (EIS) for decision-makers to review before granting or denying permission. <marks>1 mark</marks>\n- **Monitoring:** Establishing a plan to track environmental changes during and after construction to ensure mitigation measures are effective. <marks>1 mark</marks>\n\n<note>Award a maximum of <marks>7 marks</marks> for this question.</note>",
+            "marks": 7,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1146070,
+            "content": "To what extent does the use of the 'Ecological Footprint' (EF) provide an accurate measure of a nation's sustainability?",
+            "order": 1,
+            "markscheme": "### Arguments that EF is an accurate/useful measure\n\n- It provides a simple, quantitative model that is easy for the public and policymakers to understand. <marks>1 mark</marks>\n- It allows for direct comparison between a population's consumption and the available biocapacity of their region/country. <marks>1 mark</marks>\n- It highlights 'ecological overshoot,' where a population's demand exceeds the earth's regenerative capacity. <marks>1 mark</marks>\n- It accounts for the indirect land use required for carbon sequestration, linking consumption to climate change. <marks>1 mark</marks>\n- It provides a standardized metric that allows for global comparisons between different countries and lifestyles. <marks>1 mark</marks>\n\n### Limitations of EF as an accurate measure\n\n- It is a simplified model that does not account for many types of pollution, such as toxic chemical releases or plastic waste. <marks>1 mark</marks>\n- It does not measure the depletion of non-renewable resources (e.g., minerals, ores) until they result in land use or carbon emissions. <marks>1 mark</marks>\n- It often ignores the complexity of ecosystem services that do not have a direct 'land area' equivalent (e.g., pollination, water purification). <marks>1 mark</marks>\n- It assumes that all land types (e.g., forest vs. pasture) are used at a sustainable yield, which may not be true in practice. <marks>1 mark</marks>\n- Data quality varies significantly between countries, which can lead to inaccuracies in the calculated footprint. <marks>1 mark</marks>\n\n<note>Award a maximum of <marks>9 marks</marks> for a balanced discussion of both the strengths and limitations of the Ecological Footprint as a model.</note>",
+            "marks": 9,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      },
+      {
+        "id": "e67173bc-123b-4b6c-a3ce-7d250ac2b565",
+        "specification": "**Table 1: Environmental properties of selected refrigerant compounds**\n\n| Refrigerant Type | Example Compound | Ozone Depletion Potential (ODP) | Global Warming Potential (GWP) | Atmospheric Lifetime (Years) |\n| :--- | :--- | :--- | :--- | :--- |\n| CFC (Chlorofluorocarbon) | CFC-12 | 1.00 | 10,900 | 100 |\n| HCFC (Hydrochlorofluorocarbon) | HCFC-22 | 0.05 | 1,810 | 12 |\n| HFC (Hydrofluorocarbon) | HFC-134a | 0.00 | 1,430 | 14 |\n| HFC (Hydrofluorocarbon) | HFC-152a | 0.00 | 124 | 1.4 |",
+        "questionType": "LA",
+        "level": "sl",
+        "paper": "ib-2",
+        "subjectId": 6455,
+        "difficulty": null,
+        "questionSet": "STUDENT",
+        "hasVideo": false,
+        "hasExplanation": false,
+        "metadata": {
+          "ramen": {
+            "attempt": 1,
+            "workflowId": "ramen-ib-physics-new-e67173bc-123b-4b6c-a3ce-7d250ac2b565-1771929956947",
+            "generatedAt": "2026-02-24T10:47:25.493Z",
+            "sourceRevisionId": 1109346
+          },
+          "labeledLevel": "BOTH",
+          "labeledSubSubTopics": [
+            {
+              "id": 30561,
+              "isHl": true,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4D Stratospheric ozone depletion and ODSs (HL)",
+              "title": "6.4D Stratospheric ozone depletion and ODSs (HL)",
+              "labeledAt": "2026-03-06T07:59:25.747Z",
+              "reasoning": "Parts (a) and (b) focus on CFCs/HCFCs/HFCs, chlorine-driven catalytic ozone destruction, and interpreting ODP trends\u2014core to ozone-depleting substances and stratospheric ozone depletion.",
+              "confidence": 0.92
+            },
+            {
+              "id": 30558,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4A UV radiation",
+              "title": "6.4A UV radiation",
+              "labeledAt": "2026-03-06T07:59:25.747Z",
+              "reasoning": "Part (c) asks about impacts of increased UV radiation on terrestrial ecosystem productivity, directly targeting UV radiation effects.",
+              "confidence": 0.84
+            },
+            {
+              "id": 30559,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.4 Stratospheric ozone > 6.4B Ozone depletion",
+              "title": "6.4B Ozone depletion",
+              "labeledAt": "2026-03-06T07:59:25.747Z",
+              "reasoning": "Overall question context (refrigerants, ODP, increased UV reaching surface) requires understanding ozone depletion mechanisms and consequences beyond just naming ODSs.",
+              "confidence": 0.78
+            },
+            {
+              "id": 30531,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.2 Climate change - causes and impact > 6.2B Climate change",
+              "title": "6.2B Climate change",
+              "labeledAt": "2026-03-06T07:59:25.747Z",
+              "reasoning": "Part (b) includes GWP trends and part (d) evaluates HFCs as replacements considering climate impact, linking to greenhouse gases and climate change.",
+              "confidence": 0.65
+            },
+            {
+              "id": 30544,
+              "isHl": false,
+              "path": "Topic 6: Atmosphere and climate change > 6.3 Climate change - mitigation and adaptation > 6.3A Mitigation and adaptation strategies ",
+              "title": "6.3A Mitigation and adaptation strategies ",
+              "labeledAt": "2026-03-06T07:59:25.747Z",
+              "reasoning": "Part (d) is an evaluation of a pollution-management strategy (switching refrigerant technology) balancing ozone protection vs climate warming\u2014fits mitigation strategy discussion.",
+              "confidence": 0.6
+            }
+          ]
+        },
+        "currentRevisionId": 1688648,
+        "parts": [
+          {
+            "id": 1150577,
+            "content": "State the specific chemical element found in CFCs and HCFCs that is primarily responsible for the catalytic destruction of stratospheric ozone.",
+            "order": 0,
+            "markscheme": "Chlorine / $$Cl$$ (atoms/radicals) <marks>1 mark</marks>",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150578,
+            "content": "With reference to **Table 1**, describe the trends in Ozone Depletion Potential (ODP) and Global Warming Potential (GWP) as technology transitioned from CFCs to HFCs.",
+            "order": 1,
+            "markscheme": "- ODP shows a significant/complete reduction (from 1.00 in CFCs to 0.00 in HFCs);\n- GWP generally decreases across the categories (from 10,900 to much lower values like 124/1,430);\n- The transition to HCFCs acted as an intermediate step with a massive reduction in ODP (95% reduction) but still retained a high GWP;\n- While ODP is eliminated in HFCs, they still possess a significant GWP (especially HFC-134a), meaning they remain potent greenhouse gases.\n\n<Note> Award <marks>1 mark</marks> for each of the following, <marks>2 marks max</marks>",
+            "marks": 2,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150579,
+            "content": "Identify one way in which increased UV radiation reaching the Earth's surface can impact the productivity of terrestrial ecosystems.",
+            "order": 2,
+            "markscheme": "- Damage to photosynthetic tissues/chlorophyll in plants;\n- Reduced rate of photosynthesis leading to lower biomass production;\n- DNA damage/mutations in plant cells (or seeds) inhibiting growth;\n- Reduction in crop yields (e.g., rice, corn, or soy);\n- Changes in competitive balance between species due to varying UV tolerance;\n\n<Note> Award <marks>1 mark max</marks> for any of the following.",
+            "marks": 1,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          },
+          {
+            "id": 1150580,
+            "content": "Evaluate the use of HFCs as a replacement for CFCs as a strategy for managing global atmospheric pollution.",
+            "order": 3,
+            "markscheme": "**Strengths:**\n- HFCs are highly effective at solving the primary problem of the Montreal Protocol as they have zero ODP / do not destroy the ozone layer;\n- Transitioning to HFCs allowed for the rapid phase-out of the most damaging ODSs (CFCs) without disrupting essential industries (refrigeration/medical inhalers);\n- Some HFCs (like HFC-152a) have very short atmospheric lifetimes compared to CFCs, reducing long-term environmental persistence;\n\n**Weaknesses/Limitations:**\n- HFCs are potent greenhouse gases / have high GWP, contributing significantly to global warming/climate change;\n- Replacing one pollutant with another (ODS with GHG) is often seen as a \"trade-off\" rather than a total solution;\n- The success of the Montreal Protocol necessitated further amendments (e.g., Kigali Amendment) to phase out HFCs because of their climate impact;\n- Some HFCs still have relatively long lifetimes (e.g., 14 years for HFC-134a), meaning their warming impact persists for over a decade after release;\n\n\n<Note> Award <marks>1 mark</marks> for each relevant point of evaluation, <marks>4 marks max</marks>",
+            "marks": 4,
+            "label_id": null,
+            "rubric_id": null,
+            "explanation": null
+          }
+        ],
+        "options": [],
+        "examBoardId": 4
+      }
+    ],
+    "count": "7",
+    "filters": {
+      "paper": [],
+      "level": [
+        "hl",
+        "sl",
+        "both"
+      ],
+      "questionType": [
+        "MC",
+        "LA"
+      ],
+      "status": "all"
+    },
+    "topic": {
+      "id": 24625,
+      "title": "6.4 Stratospheric ozone",
+      "slug": "ib-ess-new-64-stratospheric-ozone",
+      "parentTopicId": 24621
+    },
+    "subject": {
+      "id": 6455,
+      "title": "Environmental systems and societies (ESS)",
+      "slug": "ib-environmental-systems-and-societies-ess-new-syllabus",
+      "examBoardId": 4
+    },
+    "examBoard": {
+      "id": 4,
+      "title": "International Baccalaureate (IB)",
+      "slug": "ib",
+      "shortTitle": "IB"
+    },
+    "progress": {
+      "completedCount": 0,
+      "totalCount": "7",
+      "byQuestion": {}
+    }
+  }
+}
