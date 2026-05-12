@@ -29,3 +29,17 @@ OLD_backend/
 googledata/
 *.env
 .tanstack/
+
+# Supabase-migrated data — served from DB, not static files
+public/notes/
+public/cheatsheets/
+public/flashcards/
+public/questionbank/
+public/subjects/
+public/predictedpapers/
+public/bots.json
+public/cheatsheet_info.json
+public/flashcards-index.json
+public/notes-index.json
+public/predictedpapers_info.json
+public/questionbank-index.json
