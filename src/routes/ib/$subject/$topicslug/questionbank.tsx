@@ -8,6 +8,7 @@ import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import subjectsDataRaw from "@/data/ib-subjects.json";
 import SubjectBackground from "@/components/subject/SubjectBackground";
+import { supabase } from "@/lib/supabase";
 import TopicModeTabs from "@/components/subject/TopicModeTabs";
 import {
   DropdownMenu,
@@ -56,15 +57,6 @@ function questionTypeLabel(t: string): string {
 
 const subjectsData = subjectsDataRaw as Subject[];
 
-type QuestionbankIndexEntry = {
-  subjectSlug: string;
-  parentTopicSlug: string;
-  childTopicSlug: string;
-  path: string;
-};
-
-type QuestionbankIndex = { entries: QuestionbankIndexEntry[] };
-
 type QuestionPart = {
   id: number;
   content: string;
@@ -89,10 +81,6 @@ type Question = {
   questionSet?: string;
   parts: QuestionPart[];
   options: QuestionOption[];
-};
-
-type QuestionbankData = {
-  json: { questions: Question[] };
 };
 
 function humanizeSlug(slug: string): string {
@@ -155,7 +143,7 @@ function TopicQuestionbankPage() {
   const { subject: subjectSlug, topicslug } = useParams({ strict: false });
   const navigate = useNavigate();
   const subject = subjectsData.find((s) => s.slug === subjectSlug);
-  const [data, setData] = useState<QuestionbankData | null>(null);
+  const [rawQuestions, setRawQuestions] = useState<Question[]>([]);
   const [topicTitle, setTopicTitle] = useState<string>("");
   const [subjectTitle, setSubjectTitle] = useState<string>("");
   const [loading, setLoading] = useState(true);
@@ -172,44 +160,36 @@ function TopicQuestionbankPage() {
     }
     setLoading(true);
     setError(false);
-    setData(null);
+    setRawQuestions([]);
 
-    fetch("/questionbank-index.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((idx: QuestionbankIndex | null) => {
-        const entry = idx?.entries?.find(
-          (e) => e.subjectSlug === subjectSlug && e.childTopicSlug === topicslug
-        );
-        if (!entry) {
-          setError(true);
-          setLoading(false);
-          return;
-        }
-        return fetch(`/questionbank/${entry.path}/questionbank.json`)
-          .then((r) => (r.ok ? r.json() : null))
-          .then((q: QuestionbankData | null) => {
-            setData(q ?? null);
-            setLoading(false);
-          });
-      })
-      .catch(() => {
-        setError(true);
+    supabase
+      .from("questions")
+      .select("data")
+      .eq("subject_slug", subjectSlug)
+      .eq("topic_slug", topicslug)
+      .then(({ data: rows }) => {
+        if (!rows || rows.length === 0) { setError(true); setLoading(false); return; }
+        setRawQuestions(rows.map((r) => r.data as Question));
         setLoading(false);
-      });
+      })
+      .catch(() => { setError(true); setLoading(false); });
   }, [subjectSlug, topicslug, navigate]);
 
   useEffect(() => {
     if (!subjectSlug) return;
-    fetch(`/subjects/${subjectSlug}.json`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((res: { result?: { data?: { json?: { title: string; topics?: { slug: string; title: string; childTopics?: { slug: string; title: string }[] }[] }[] } } }) => {
-        const detail = res?.result?.data?.json?.[0];
+    supabase
+      .from("subjects")
+      .select("data")
+      .eq("slug", subjectSlug)
+      .single()
+      .then(({ data: row }) => {
+        const detail = row?.data;
         if (!detail) return;
         setSubjectTitle(detail.title ?? "");
         const flat: { slug: string; title: string }[] = [];
-        (detail.topics ?? []).forEach((t) => {
+        (detail.topics ?? []).forEach((t: any) => {
           if (t.childTopics?.length) {
-            t.childTopics.forEach((c) => flat.push({ slug: c.slug, title: c.title }));
+            t.childTopics.forEach((c: any) => flat.push({ slug: c.slug, title: c.title }));
           } else {
             flat.push({ slug: t.slug, title: t.title });
           }
@@ -224,10 +204,7 @@ function TopicQuestionbankPage() {
   const title = topicTitle || humanizeSlug(topicslug ?? "");
   const cover = subject?.coverImageUrl ?? "";
   /** Only show STUDENT question sets; hide TEACHER. Treat missing questionSet as STUDENT for backward compatibility. */
-  const allQuestions = useMemo(() => {
-    const raw = data?.json?.questions ?? [];
-    return raw.filter((q) => q.questionSet !== "TEACHER");
-  }, [data?.json?.questions]);
+  const allQuestions = useMemo(() => rawQuestions.filter((q) => q.questionSet !== "TEACHER"), [rawQuestions]);
 
   /** Derive filter options from loaded questions (only show what exists in this topic). */
   const filterOptions = useMemo(() => {

@@ -1,4 +1,4 @@
-import { Children, Fragment, isValidElement, useEffect, useState } from "react";
+import { Children, Fragment, isValidElement, useEffect, useState, useMemo } from "react";
 import { createFileRoute, useParams, Link, Navigate, useNavigate } from "@tanstack/react-router";
 import { Streamdown } from "streamdown";
 import rehypeKatex from "rehype-katex";
@@ -13,7 +13,8 @@ import DefinitionBlock from "@/components/notes/DefinitionBlock";
 import ExampleQuestionBlock from "@/components/notes/ExampleQuestionBlock";
 import { parseCodeBlocksFromContent, SimpleCodeBlock, RunnableCodeBlock } from "@/components/notes/NotesCodeBlock";
 import { NOTES_REMARK_PLUGINS, NOTES_STREAMDOWN_CONTROLS, normalizeBrokenEmphasisMarkdown, normalizeLatexDelimiters } from "@/components/notes/rendering";
-import { findTopicInNotesTree, type NotesIndex, type NotesIndexTopic } from "@/types/notesIndex";
+import type { NotesIndexTopic } from "@/types/notesIndex";
+import { supabase } from "@/lib/supabase";
 import "katex/dist/katex.min.css";
 import "@/notes.css";
 
@@ -266,10 +267,6 @@ function normalizeNotesMarkdown(markdown: string): string {
   return normalizedIndentation.join("\n");
 }
 
-function isNotesIndex(index: unknown): index is NotesIndex {
-  return index != null && typeof index === "object" && "subjects" in index && typeof (index as NotesIndex).subjects === "object";
-}
-
 export const Route = createFileRoute('/ib/$subject/$noteslug/notes')({
   component: NotePage,
 })
@@ -278,7 +275,7 @@ function NotePage() {
   const { subject: subjectSlug, noteslug } = useParams({ strict: false });
   const navigate = useNavigate();
   const [note, setNote] = useState<NoteData | null>(null);
-  const [currentIndexNode, setCurrentIndexNode] = useState<NotesIndexTopic | null>(null);
+  const [childRows, setChildRows] = useState<{ topic_slug: string; topic_title: string | null }[]>([]);
   const [subjectTitle, setSubjectTitle] = useState<string>("");
   const [coverImageUrl, setCoverImageUrl] = useState<string>("");
   const [loading, setLoading] = useState(true);
@@ -286,32 +283,44 @@ function NotePage() {
   useEffect(() => {
     if (!subjectSlug || !noteslug) { navigate({ to: '/ib', replace: true }); return; }
     setNote(null);
-    setCurrentIndexNode(null);
+    setChildRows([]);
     setLoading(true);
-    fetch("/notes-index.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((index: unknown) => {
-        if (!isNotesIndex(index)) { setLoading(false); navigate({ to: '/ib', replace: true }); return; }
-        const subject = index.subjects[subjectSlug];
-        if (!subject) { setLoading(false); navigate({ to: '/ib', replace: true }); return; }
-        setSubjectTitle(subject.title);
-        if (subject.coverImageUrl) setCoverImageUrl(subject.coverImageUrl);
-        const node = findTopicInNotesTree(subject.topics, noteslug);
-        if (!node) { setLoading(false); navigate({ to: '/ib', replace: true }); return; }
-        setCurrentIndexNode(node);
-        const pathToFetch = node.path;
-        if (!pathToFetch || pathToFetch.length === 0) { setLoading(false); return; }
-        const url = `/notes/${subjectSlug}/${pathToFetch.join("/")}/notes.json`;
-        return fetch(url)
-          .then((r) => (r.ok ? r.json() : undefined))
-          .then((noteData?: NoteData) => {
-            if (noteData != null) setNote(noteData);
-            setLoading(false);
-          })
-          .catch(() => setLoading(false));
-      })
-      .catch(() => { setLoading(false); navigate({ to: '/ib', replace: true }); });
+    Promise.all([
+      supabase.from("subjects").select("title, cover_image_url").eq("slug", subjectSlug).single(),
+      supabase.from("notes").select("*").eq("subject_slug", subjectSlug).eq("topic_slug", noteslug).maybeSingle(),
+      supabase.from("notes").select("topic_slug, topic_title").eq("subject_slug", subjectSlug).eq("parent_slug", noteslug),
+    ]).then(([{ data: subRow }, { data: noteRow }, { data: children }]) => {
+      if (subRow?.title) setSubjectTitle(subRow.title);
+      if (subRow?.cover_image_url) setCoverImageUrl(subRow.cover_image_url);
+      if (noteRow) {
+        setNote({
+          info: {
+            topictitle: noteRow.topic_title ?? undefined,
+            topicslug: noteRow.topic_slug ?? undefined,
+            parenttitle: noteRow.parent_title,
+            parentslug: noteRow.parent_slug,
+          },
+          markdown: noteRow.markdown ?? "",
+          prevtopic: noteRow.prev_topic ?? null,
+          nexttopic: noteRow.next_topic ?? null,
+        });
+      }
+      setChildRows(children ?? []);
+      setLoading(false);
+      if (!noteRow && (!children || children.length === 0)) {
+        navigate({ to: '/ib', replace: true });
+      }
+    }).catch(() => { setLoading(false); navigate({ to: '/ib', replace: true }); });
   }, [subjectSlug, noteslug, navigate]);
+
+  const currentIndexNode: NotesIndexTopic | null = useMemo(() => {
+    if (!noteslug) return null;
+    return {
+      slug: noteslug,
+      title: note?.info?.topictitle ?? noteslug,
+      children: childRows.map((c) => ({ slug: c.topic_slug, title: c.topic_title ?? c.topic_slug, children: [] })),
+    };
+  }, [noteslug, note, childRows]);
 
   if (!subjectSlug || !noteslug) return <Navigate to="/ib" replace={true} />;
 

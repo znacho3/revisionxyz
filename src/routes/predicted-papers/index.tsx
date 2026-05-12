@@ -5,6 +5,7 @@ import { HiChevronRight } from "react-icons/hi";
 import { PdfPreview } from "@/components/predictedpapers/PdfPreview";
 import type { PredictedPaper } from "@/types/predictedpaper";
 import { centralIconPropsOutlined28 } from "@/lib/icon-props";
+import { supabase } from "@/lib/supabase";
 
 export const Route = createFileRoute("/predicted-papers/")({
   component: PredictedPapersIndexPage,
@@ -14,9 +15,13 @@ function PredictedPapersIndexPage() {
   const [data, setData] = useState<PredictedPaper[] | null>(null);
 
   useEffect(() => {
-    fetch("/predictedpapers_info.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((json: PredictedPaper[] | null) => setData(json ?? null))
+    supabase
+      .from("predicted_papers")
+      .select("data")
+      .then(({ data: rows }) => {
+        const papers = (rows ?? []).map((r) => r.data as PredictedPaper);
+        setData(papers.length > 0 ? papers : null);
+      })
       .catch(() => setData(null));
   }, []);
 

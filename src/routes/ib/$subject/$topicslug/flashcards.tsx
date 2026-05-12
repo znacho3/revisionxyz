@@ -6,9 +6,9 @@ import SubjectBackground from "@/components/subject/SubjectBackground";
 import TopicModeTabs from "@/components/subject/TopicModeTabs";
 import FlashcardViewer, { type FlashcardItem } from "@/components/flashcards/FlashcardViewer";
 import FlashcardContent from "@/components/flashcards/FlashcardContent";
-import { findTopicInFlashcardsTree, collectLeafTopics, type FlashcardsIndex, type FlashcardsIndexTopic } from "@/types/flashcardsIndex";
-import { findTopicInNotesTree, type NotesIndex } from "@/types/notesIndex";
+import { findTopicInFlashcardsTree, collectLeafTopics, type FlashcardsIndexTopic } from "@/types/flashcardsIndex";
 import type { Subject } from "@/types/ib";
+import { supabase } from "@/lib/supabase";
 
 const subjectsData = subjectsDataRaw as Subject[];
 
@@ -46,67 +46,56 @@ function TopicFlashcardsPage() {
     setDeck(null);
 
     Promise.all([
-      fetch("/flashcards-index.json").then((r) => (r.ok ? r.json() : null)),
-      fetch("/notes-index.json").then((r) => (r.ok ? r.json() : null)),
-    ])
-      .then(([flashIndex, notesIndex]: [FlashcardsIndex | null, NotesIndex | null]) => {
-        const flashSub = flashIndex?.subjects?.[subjectSlug];
-        if (!flashSub) {
-          setError(true);
-          setLoading(false);
-          return;
-        }
+      supabase.from("subjects").select("data").eq("slug", subjectSlug).single(),
+      supabase.from("flashcard_decks").select("id, topic_id, title").eq("subject_slug", subjectSlug),
+    ]).then(([{ data: subRow }, { data: deckRows }]) => {
+      const subjectData = subRow?.data;
+      if (!subjectData) { setError(true); setLoading(false); return; }
 
-        const notesSub = notesIndex?.subjects?.[subjectSlug] ?? null;
-        if (notesSub) {
-          setSubjectTitle(notesSub.title);
-          if (notesSub.coverImageUrl) setCoverImageUrl(notesSub.coverImageUrl);
-        } else {
-          setSubjectTitle(flashSub.title);
-          setCoverImageUrl(flashSub.coverImageUrl ?? "");
-        }
+      setSubjectTitle(subjectData.title ?? "");
+      setCoverImageUrl(subjectData.coverImageUrl ?? "");
 
-        const flashTopic = findTopicInFlashcardsTree(flashSub.topics, topicslug);
-        if (!flashTopic || flashTopic.deckCount === 0) {
-          setError(true);
-          setLoading(false);
-          return;
-        }
+      const deckTopicIds = new Set((deckRows ?? []).map((d: any) => d.topic_id));
+      function buildFlashTopic(t: any): FlashcardsIndexTopic {
+        const children = (t.childTopics ?? []).map(buildFlashTopic);
+        const deckCount = children.length > 0
+          ? children.reduce((acc: number, c: FlashcardsIndexTopic) => acc + c.deckCount, 0)
+          : (deckTopicIds.has(t.id) ? 1 : 0);
+        return { id: t.id, slug: t.slug, title: t.title, deckCount, cardCount: 0, children };
+      }
 
-        const leafTopics = collectLeafTopics(flashSub.topics);
-        const currentIndex = leafTopics.findIndex((t) => t.id === flashTopic.id);
-        setPrevTopic(currentIndex > 0 ? leafTopics[currentIndex - 1] : null);
-        setNextTopic(currentIndex >= 0 && currentIndex < leafTopics.length - 1 ? leafTopics[currentIndex + 1] : null);
+      const flashTopics = (subjectData.topics ?? [])
+        .filter((t: any) => !t.hidden)
+        .sort((a: any, b: any) => a.order - b.order)
+        .map(buildFlashTopic);
 
-        let title = flashTopic.title;
-        if (notesSub) {
-          const notesTopic = findTopicInNotesTree(notesSub.topics, topicslug);
-          if (notesTopic?.title) title = notesTopic.title;
-        }
-        setTopicTitle(title);
+      const flashTopic = findTopicInFlashcardsTree(flashTopics, topicslug);
+      if (!flashTopic || flashTopic.deckCount === 0) { setError(true); setLoading(false); return; }
 
-        return fetch(`/flashcards/${subjectSlug}.json`)
-          .then((r) => (r.ok ? r.json() : null))
-          .then((decks: FlashcardDeck[] | null) => {
-            if (!Array.isArray(decks)) {
-              setError(true);
-              setLoading(false);
-              return;
-            }
-            const found = decks.find((d) => d.topicId === flashTopic.id);
-            if (!found) {
-              setError(true);
-              setLoading(false);
-              return;
-            }
-            setDeck(found);
-            setLoading(false);
+      setTopicTitle(flashTopic.title);
+
+      const leafTopics = collectLeafTopics(flashTopics);
+      const currentIndex = leafTopics.findIndex((t) => t.id === flashTopic.id);
+      setPrevTopic(currentIndex > 0 ? leafTopics[currentIndex - 1] : null);
+      setNextTopic(currentIndex >= 0 && currentIndex < leafTopics.length - 1 ? leafTopics[currentIndex + 1] : null);
+
+      const matchingDeck = (deckRows ?? []).find((d: any) => d.topic_id === flashTopic.id);
+      if (!matchingDeck) { setError(true); setLoading(false); return; }
+
+      return supabase
+        .from("flashcards")
+        .select("id, front, back, card_type")
+        .eq("deck_id", matchingDeck.id)
+        .then(({ data: cardRows }) => {
+          setDeck({
+            topicId: flashTopic.id,
+            id: matchingDeck.id,
+            title: matchingDeck.title,
+            flashcards: (cardRows ?? []).map((c: any) => ({ id: c.id, front: c.front, back: c.back, cardType: c.card_type })),
           });
-      })
-      .catch(() => {
-        setError(true);
-        setLoading(false);
-      });
+          setLoading(false);
+        });
+    }).catch(() => { setError(true); setLoading(false); });
   }, [subjectSlug, topicslug, navigate]);
 
   if (!subjectSlug || !topicslug) return null;

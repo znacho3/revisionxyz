@@ -7,18 +7,10 @@ import TopicModeTabs from "@/components/subject/TopicModeTabs";
 import SubjectAccordion from "@/components/subject/SubjectAccordion";
 import type { NotesIndexTopic } from "@/types/notesIndex";
 import type { Subject } from "@/types/ib";
+import { supabase } from "@/lib/supabase";
 import "@/questionbank.css";
 
 const subjectsData = subjectsDataRaw as Subject[];
-
-type QuestionbankIndexEntry = {
-  subjectSlug: string;
-  parentTopicSlug: string;
-  childTopicSlug: string;
-  path: string;
-};
-
-type QuestionbankIndex = { entries: QuestionbankIndexEntry[] };
 
 type SubjectTopic = {
   slug: string;
@@ -39,49 +31,43 @@ function SubjectQuestionbankPage() {
   const { subject: subjectSlug } = useParams({ strict: false });
   const navigate = useNavigate();
   const subject = subjectsData.find((s) => s.slug === subjectSlug);
-  const [index, setIndex] = useState<QuestionbankIndex | null>(null);
   const [subjectDetail, setSubjectDetail] = useState<SubjectDetail | null>(null);
+  const [qbTopicSlugs, setQbTopicSlugs] = useState<Set<string>>(new Set());
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    if (!subjectSlug) {
-      setIndex(null);
-      setSubjectDetail(null);
-      return;
-    }
-    fetch("/questionbank-index.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data: QuestionbankIndex | null) => setIndex(data ?? null))
-      .catch(() => setIndex(null));
-  }, [subjectSlug]);
-
-  useEffect(() => {
-    if (!subjectSlug) return;
-    fetch(`/subjects/${subjectSlug}.json`)
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data: { result?: { data?: { json?: SubjectDetail[] } } }) => {
-        const detail = data?.result?.data?.json?.[0];
-        setSubjectDetail(detail ?? null);
-      })
-      .catch(() => setSubjectDetail(null));
+    if (!subjectSlug) { setSubjectDetail(null); setLoaded(false); return; }
+    setLoaded(false);
+    Promise.all([
+      supabase.from("subjects").select("data").eq("slug", subjectSlug).single(),
+      supabase.from("questions").select("topic_slug").eq("subject_slug", subjectSlug),
+    ]).then(([{ data: subRow }, { data: qRows }]) => {
+      setSubjectDetail((subRow?.data as SubjectDetail) ?? null);
+      setQbTopicSlugs(new Set((qRows ?? []).map((r: any) => r.topic_slug).filter(Boolean)));
+      setLoaded(true);
+    }).catch(() => { setSubjectDetail(null); setLoaded(true); });
   }, [subjectSlug]);
 
   const title = subjectDetail?.title ?? subject?.title ?? "Subject";
   const coverImageUrl = subject?.coverImageUrl ?? "";
   const slugForLinks = subjectSlug ?? subject?.slug ?? "";
 
-  /** Index entries for this subject */
-  const entries = useMemo(
-    () => (index?.entries ?? []).filter((e) => e.subjectSlug === subjectSlug),
-    [index?.entries, subjectSlug]
+  /** Top-level topic slugs in this subject (from subjects data) */
+  const topLevelTopicSlugs = useMemo(
+    () => new Set((subjectDetail?.topics ?? []).map((t) => t.slug)),
+    [subjectDetail]
   );
 
-  /** Child topic slugs that have a questionbank (for hierarchical subjects: parent -> children) */
-  const questionbankChildSlugs = useMemo(() => new Set(entries.map((e) => e.childTopicSlug)), [entries]);
+  /** Child topic slugs that have a questionbank (subtopics under a parent) */
+  const questionbankChildSlugs = useMemo(
+    () => new Set([...qbTopicSlugs].filter((s) => !topLevelTopicSlugs.has(s))),
+    [qbTopicSlugs, topLevelTopicSlugs]
+  );
 
-  /** Top-level topic slugs that have a questionbank (parentTopicSlug empty – flat subjects like Chinese) */
+  /** Top-level topic slugs that directly have a questionbank (flat subjects) */
   const topLevelQuestionbankSlugs = useMemo(
-    () => new Set(entries.filter((e) => !e.parentTopicSlug).map((e) => e.childTopicSlug)),
-    [entries]
+    () => new Set([...qbTopicSlugs].filter((s) => topLevelTopicSlugs.has(s))),
+    [qbTopicSlugs, topLevelTopicSlugs]
   );
 
   /** Build accordion tree from subject JSON: only topics/subtopics that have questionbank entries, with titles from subject JSON */
@@ -168,7 +154,7 @@ function SubjectQuestionbankPage() {
           <TopicModeTabs activeId="questionbank" />
         </div>
         <div>
-          {!index ? (
+          {!loaded ? (
             <p className="text-muted-foreground">Loading questionbank…</p>
           ) : topics.length === 0 ? (
             <p className="text-muted-foreground">No questionbank available for this subject yet.</p>

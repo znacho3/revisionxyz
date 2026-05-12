@@ -1,12 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { createFileRoute, useParams, Link, useNavigate } from "@tanstack/react-router";
 import { HiChevronRight } from "react-icons/hi";
 import subjectsDataRaw from "@/data/ib-subjects.json";
 import SubjectAccordion from "@/components/subject/SubjectAccordion";
 import SubjectBackground from "@/components/subject/SubjectBackground";
 import TopicModeTabs from "@/components/subject/TopicModeTabs";
-import type { NotesIndex, NotesIndexSubject } from "@/types/notesIndex";
+import type { NotesIndexTopic } from "@/types/notesIndex";
 import type { Subject } from "@/types/ib";
+import { supabase } from "@/lib/supabase";
 
 const subjectsData = subjectsDataRaw as Subject[];
 
@@ -18,25 +19,41 @@ function NotesPage() {
   const { subject: subjectSlug } = useParams({ strict: false });
   const navigate = useNavigate();
   const subject = subjectsData.find((s) => s.slug === subjectSlug);
-  const [notesSubject, setNotesSubject] = useState<NotesIndexSubject | null>(null);
-  const [notesIndexLoaded, setNotesIndexLoaded] = useState(false);
+  const [subjectData, setSubjectData] = useState<any>(null);
+  const [noteTopicSlugs, setNoteTopicSlugs] = useState<Set<string>>(new Set());
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    if (!subjectSlug) { setNotesSubject(null); setNotesIndexLoaded(false); return; }
-    setNotesIndexLoaded(false);
-    fetch("/notes-index.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((index: NotesIndex | null) => {
-        const sub = index?.subjects?.[subjectSlug] ?? null;
-        setNotesSubject(sub);
-        setNotesIndexLoaded(true);
-      })
-      .catch(() => { setNotesSubject(null); setNotesIndexLoaded(true); });
+    if (!subjectSlug) { setSubjectData(null); setLoaded(false); return; }
+    setLoaded(false);
+    Promise.all([
+      supabase.from("subjects").select("data").eq("slug", subjectSlug).single(),
+      supabase.from("notes").select("topic_slug").eq("subject_slug", subjectSlug),
+    ]).then(([{ data: subRow }, { data: noteRows }]) => {
+      setSubjectData(subRow?.data ?? null);
+      setNoteTopicSlugs(new Set((noteRows ?? []).map((r: any) => r.topic_slug).filter(Boolean)));
+      setLoaded(true);
+    }).catch(() => { setSubjectData(null); setLoaded(true); });
   }, [subjectSlug]);
 
-  const title = notesSubject?.title ?? subject?.title ?? "Subject";
-  const coverImageUrl = notesSubject?.coverImageUrl ?? subject?.coverImageUrl ?? "";
+  const title = subjectData?.title ?? subject?.title ?? "Subject";
+  const coverImageUrl = subjectData?.coverImageUrl ?? subject?.coverImageUrl ?? "";
   const slugForLinks = subjectSlug ?? subject?.slug ?? "";
+
+  const topics: NotesIndexTopic[] = useMemo(() => {
+    if (!subjectData) return [];
+    function build(t: any): NotesIndexTopic | null {
+      const children = (t.childTopics ?? []).map(build).filter(Boolean) as NotesIndexTopic[];
+      const hasNotes = noteTopicSlugs.has(t.slug);
+      if (!hasNotes && children.length === 0) return null;
+      return { slug: t.slug, title: t.title, path: hasNotes ? ["notes"] : undefined, children };
+    }
+    return (subjectData.topics ?? [])
+      .filter((t: any) => !t.hidden)
+      .sort((a: any, b: any) => a.order - b.order)
+      .map(build)
+      .filter(Boolean) as NotesIndexTopic[];
+  }, [subjectData, noteTopicSlugs]);
 
   if (!subjectSlug) {
     navigate({ to: '/ib', replace: true });
@@ -65,10 +82,10 @@ function NotesPage() {
           <TopicModeTabs activeId="notes" />
         </div>
         <div>
-          {!notesIndexLoaded ? (
+          {!loaded ? (
             <p className="text-muted-foreground">Loading notes…</p>
           ) : (
-            <SubjectAccordion subjectSlug={slugForLinks} topics={notesSubject?.topics ?? []} />
+            <SubjectAccordion subjectSlug={slugForLinks} topics={topics} />
           )}
         </div>
       </div>

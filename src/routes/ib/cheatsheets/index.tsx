@@ -3,57 +3,46 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { CentralIcon } from "@central-icons-react/all";
 import { HiChevronRight } from "react-icons/hi";
 import { PdfPreview } from "@/components/predictedpapers/PdfPreview";
-import type { Cheatsheet } from "@/types/cheatsheet";
 import { centralIconPropsOutlined28 } from "@/lib/icon-props";
+import { supabase } from "@/lib/supabase";
 
-const GROUP_ORDER = [
-  "Group 1 - Language A",
-  "Group 2 - Language B",
-  "Group 3 - Humanities",
-  "Group 4 - Sciences",
-  "Group 5 - Mathematics",
-  "DP - Core",
-];
-
-function subjectSortKey(subjectGroupName: string): number {
-  const i = GROUP_ORDER.indexOf(subjectGroupName);
-  return i >= 0 ? i : GROUP_ORDER.length;
-}
+type CheatsheetRow = {
+  id: string;
+  title: string;
+  is_premium: boolean;
+  subject_slug: string | null;
+  subject_title: string | null;
+  thumbnail_url: string | null;
+};
 
 export const Route = createFileRoute("/ib/cheatsheets/")({
   component: CheatsheetsIndexPage,
 });
 
 function CheatsheetsIndexPage() {
-  const [data, setData] = useState<Cheatsheet[] | null>(null);
+  const [data, setData] = useState<CheatsheetRow[] | null>(null);
 
   useEffect(() => {
-    fetch("/cheatsheet_info.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((json: Cheatsheet[] | null) => setData(json ?? null))
+    supabase
+      .from("cheatsheets")
+      .select("id, title, is_premium, subject_slug, subject_title, thumbnail_url")
+      .order("subject_title")
+      .order("title")
+      .then(({ data: rows }) => setData(rows ?? null))
       .catch(() => setData(null));
   }, []);
 
   const { groupedBySubject, subjectTitles } = useMemo(() => {
     if (!data || !Array.isArray(data)) {
-      return { groupedBySubject: {} as Record<string, Cheatsheet[]>, subjectTitles: [] as string[] };
+      return { groupedBySubject: {} as Record<string, CheatsheetRow[]>, subjectTitles: [] as string[] };
     }
-    const grouped: Record<string, Cheatsheet[]> = {};
+    const grouped: Record<string, CheatsheetRow[]> = {};
     for (const c of data) {
-      const s = c.subjectTitle;
+      const s = c.subject_title ?? "";
       if (!grouped[s]) grouped[s] = [];
       grouped[s].push(c);
     }
-    const groupName = (title: string) => {
-      const first = data.find((c) => c.subjectTitle === title);
-      return first?.subjectGroupName ?? "";
-    };
-    const subjectTitles = Object.keys(grouped).sort((a, b) => {
-      const orderA = subjectSortKey(groupName(a));
-      const orderB = subjectSortKey(groupName(b));
-      if (orderA !== orderB) return orderA - orderB;
-      return a.localeCompare(b);
-    });
+    const subjectTitles = Object.keys(grouped).sort((a, b) => a.localeCompare(b));
     return { groupedBySubject: grouped, subjectTitles };
   }, [data]);
 
@@ -85,7 +74,7 @@ function CheatsheetsIndexPage() {
                   </h2>
                   <Link
                     to="/ib/$subject/cheatsheets"
-                    params={{ subject: items[0].subjectSlug }}
+                    params={{ subject: items[0].subject_slug ?? "" }}
                     className="inline-flex items-center justify-center font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/50 rounded-full px-4 py-2 ring-2 ring-border text-muted-foreground hover:bg-muted hover:text-foreground"
                   >
                     View All
@@ -100,8 +89,8 @@ function CheatsheetsIndexPage() {
                         to="/ib/cheatsheets/$id"
                         params={{ id: cheatsheet.id }}
                         title={cheatsheet.title}
-                        thumbnailSrc={`/cheatsheets/${cheatsheet.thumbnailR2Key}`}
-                        isPremium={cheatsheet.isPremium}
+                        thumbnailSrc={cheatsheet.thumbnail_url ?? ""}
+                        isPremium={cheatsheet.is_premium}
                       />
                     ))}
                   </div>

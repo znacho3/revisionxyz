@@ -4,10 +4,10 @@ import { HiChevronRight, HiInformationCircle } from "react-icons/hi";
 import subjectsDataRaw from "@/data/ib-subjects.json";
 import SubjectBackground from "@/components/subject/SubjectBackground";
 import type { Subject } from "@/types/ib";
+import { supabase } from "@/lib/supabase";
 
 type SubjectTopic = { id: number; title: string; slug: string; order: number; hidden?: boolean; noteCount?: number; enableNotes?: boolean; childTopics?: SubjectTopic[], enableQuestions?: boolean; questionCount?: number; vocabularyPracticeCount?: number };
 type SubjectDetail = { title: string; slug: string; coverImageUrl: string; questionCount: number; noteCount: number; flashcardDeckCount: number; cheatsheetCount: number; predictedPaperCount?: number; enableQuestions: boolean; enableNotes: boolean; enableFlashcards: boolean; enableGlossary: boolean; topics: SubjectTopic[] };
-type SubjectDetailResponse = { result: { data: { json: SubjectDetail[] } } };
 
 const subjectsData = subjectsDataRaw as Subject[];
 const MODE_CARD_BASE = "https://assets.revisiondojo.com/assets/images/mode-cards";
@@ -30,8 +30,6 @@ export const Route = createFileRoute('/ib/$subject/')({
   component: SubjectPage,
 })
 
-type QuestionbankIndex = { entries: { subjectSlug: string }[] };
-
 function SubjectPage() {
   const { subject: subjectSlug } = useParams({ strict: false });
   const navigate = useNavigate();
@@ -41,23 +39,26 @@ function SubjectPage() {
 
   useEffect(() => {
     if (!subjectSlug) { setSubjectDetail(null); return; }
-    fetch(`/subjects/${subjectSlug}.json`)
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error("Not found"))))
-      .then((data: SubjectDetailResponse) => {
-        const detail = data?.result?.data?.json?.[0];
-        if (!detail) { navigate({ to: '/ib', replace: true }); return; }
+    supabase
+      .from("subjects")
+      .select("data")
+      .eq("slug", subjectSlug)
+      .single()
+      .then(({ data: row }) => {
+        const detail = row?.data as SubjectDetail | undefined;
+        if (!detail) { navigate({ to: "/ib", replace: true }); return; }
         setSubjectDetail(detail);
       })
-      .catch(() => { navigate({ to: '/ib', replace: true }); });
+      .catch(() => { navigate({ to: "/ib", replace: true }); });
   }, [subjectSlug, navigate]);
 
   useEffect(() => {
     if (!subjectSlug) { setHasQuestionbank(false); return; }
-    fetch("/questionbank-index.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data: QuestionbankIndex | null) => {
-        setHasQuestionbank(data?.entries?.some((e) => e.subjectSlug === subjectSlug) ?? false);
-      })
+    supabase
+      .from("questions")
+      .select("id", { count: "exact", head: true })
+      .eq("subject_slug", subjectSlug)
+      .then(({ count }) => setHasQuestionbank((count ?? 0) > 0))
       .catch(() => setHasQuestionbank(false));
   }, [subjectSlug]);
 

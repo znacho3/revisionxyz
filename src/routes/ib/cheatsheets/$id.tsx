@@ -6,7 +6,16 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { CentralIcon } from "@central-icons-react/all";
 import { centralIconProps } from "@/lib/icon-props";
-import type { Cheatsheet } from "@/types/cheatsheet";
+import { supabase } from "@/lib/supabase";
+
+type CheatsheetRow = {
+  id: string;
+  title: string;
+  is_premium: boolean;
+  subject_slug: string | null;
+  subject_title: string | null;
+  thumbnail_url: string | null;
+};
 
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/zoom/lib/styles/index.css";
@@ -20,8 +29,8 @@ const PDF_WORKER_URL = `https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.m
 function CheatsheetDetailPage() {
   const { id } = useParams({ strict: false });
   const navigate = useNavigate();
-  const [cheatsheet, setCheatsheet] = useState<Cheatsheet | null>(null);
-  const [allCheatsheets, setAllCheatsheets] = useState<Cheatsheet[]>([]);
+  const [cheatsheet, setCheatsheet] = useState<CheatsheetRow | null>(null);
+  const [allCheatsheets, setAllCheatsheets] = useState<CheatsheetRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [pdfLoaded, setPdfLoaded] = useState(false);
 
@@ -30,23 +39,21 @@ function CheatsheetDetailPage() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/cheatsheet_info.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((json: Cheatsheet[] | null) => {
-        if (cancelled || !Array.isArray(json)) return;
-        setAllCheatsheets(json);
-        const found = json.find((c) => c.id === id) ?? null;
-        setCheatsheet(found);
+    supabase
+      .from("cheatsheets")
+      .select("id, title, is_premium, subject_slug, subject_title, thumbnail_url")
+      .order("subject_title")
+      .order("title")
+      .then(({ data: rows }) => {
+        if (cancelled || !rows) return;
+        setAllCheatsheets(rows);
+        setCheatsheet(rows.find((c) => c.id === id) ?? null);
+        setLoading(false);
       })
       .catch(() => {
-        if (!cancelled) setCheatsheet(null);
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
+        if (!cancelled) { setCheatsheet(null); setLoading(false); }
       });
-    return () => {
-      cancelled = true;
-    };
+    return () => { cancelled = true; };
   }, [id]);
 
   useEffect(() => {

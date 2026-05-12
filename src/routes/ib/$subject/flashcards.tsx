@@ -5,9 +5,10 @@ import subjectsDataRaw from "@/data/ib-subjects.json";
 import SubjectBackground from "@/components/subject/SubjectBackground";
 import TopicModeTabs from "@/components/subject/TopicModeTabs";
 import SubjectAccordion from "@/components/subject/SubjectAccordion";
-import type { FlashcardsIndex, FlashcardsIndexSubject, FlashcardsIndexTopic } from "@/types/flashcardsIndex";
+import type { FlashcardsIndexSubject, FlashcardsIndexTopic } from "@/types/flashcardsIndex";
 import type { NotesIndexTopic } from "@/types/notesIndex";
 import type { Subject } from "@/types/ib";
+import { supabase } from "@/lib/supabase";
 
 const subjectsData = subjectsDataRaw as Subject[];
 
@@ -23,23 +24,38 @@ function SubjectFlashcardsPage() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    if (!subjectSlug) {
-      setIndexSubject(null);
-      setLoaded(false);
-      return;
-    }
+    if (!subjectSlug) { setIndexSubject(null); setLoaded(false); return; }
     setLoaded(false);
-    fetch("/flashcards-index.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((index: FlashcardsIndex | null) => {
-        const sub = index?.subjects?.[subjectSlug] ?? null;
-        setIndexSubject(sub);
-        setLoaded(true);
-      })
-      .catch(() => {
-        setIndexSubject(null);
-        setLoaded(true);
+    Promise.all([
+      supabase.from("subjects").select("data").eq("slug", subjectSlug).single(),
+      supabase.from("flashcard_decks").select("topic_id").eq("subject_slug", subjectSlug),
+    ]).then(([{ data: subRow }, { data: deckRows }]) => {
+      const subjectData = subRow?.data;
+      if (!subjectData) { setIndexSubject(null); setLoaded(true); return; }
+      const deckTopicIds = new Set((deckRows ?? []).map((d: any) => d.topic_id));
+      function buildTopic(t: any): FlashcardsIndexTopic {
+        const children = (t.childTopics ?? []).map(buildTopic);
+        const deckCount = children.length > 0
+          ? children.reduce((acc: number, c: FlashcardsIndexTopic) => acc + c.deckCount, 0)
+          : (deckTopicIds.has(t.id) ? 1 : 0);
+        return { id: t.id, slug: t.slug, title: t.title, deckCount, cardCount: 0, children };
+      }
+      const topics = (subjectData.topics ?? [])
+        .filter((t: any) => !t.hidden)
+        .sort((a: any, b: any) => a.order - b.order)
+        .map(buildTopic)
+        .filter((t: FlashcardsIndexTopic) => t.deckCount > 0);
+      setIndexSubject({
+        id: subjectData.id ?? 0,
+        slug: subjectData.slug,
+        title: subjectData.title,
+        coverImageUrl: subjectData.coverImageUrl ?? "",
+        deckCount: topics.reduce((acc: number, t: FlashcardsIndexTopic) => acc + t.deckCount, 0),
+        cardCount: 0,
+        topics,
       });
+      setLoaded(true);
+    }).catch(() => { setIndexSubject(null); setLoaded(true); });
   }, [subjectSlug]);
 
   const title = indexSubject?.title ?? subject?.title ?? "Subject";
