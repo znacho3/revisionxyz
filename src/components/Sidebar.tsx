@@ -147,9 +147,6 @@ export function SidebarContent({
 
           <NavItem {...shared} to="/predicted-papers" active={isPrefix("/predicted-papers")} rowClassName={isPrefix("/predicted-papers") ? "bg-red-100 text-red-700 dark:bg-red-400/25 dark:text-red-300" : navInactive} iconClassName={isPrefix("/predicted-papers") ? "text-red-700 dark:text-red-300" : iconInactive} icon={filledIcon("IconFileEdit")} label="Predicted Papers" title="Predicted Papers" />
 
-          {divider("IA/EE/TOK")}
-
-          <NavItem {...shared} to="/coursework-exemplars" active={isPrefix("/coursework-exemplars")} rowClassName={isPrefix("/coursework-exemplars") ? "bg-muted text-foreground" : navInactive} iconClassName={isPrefix("/coursework-exemplars") ? "text-foreground" : iconInactive} icon={filledIcon("IconFileText")} label="Exemplars" title="Exemplars" />
         </nav>
       </div>
 

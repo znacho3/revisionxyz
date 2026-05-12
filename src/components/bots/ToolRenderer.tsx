@@ -259,32 +259,6 @@ export const ToolRenderer = ({ toolCall }: { toolCall: ToolCall }) => {
       )
     }
 
-    case 'searchCourseworks': {
-      const results = Array.isArray(toolCall.output) ? toolCall.output : Array.isArray(toolCall.output?.results) ? toolCall.output.results : []
-      const isLoading = toolCall.state === 'calling' && results.length === 0
-      if (isLoading) {
-        return (
-          <div className="my-4 flex items-center justify-center gap-3 text-muted-foreground">
-            <div className="flex size-8 flex-none items-center justify-center overflow-hidden rounded-xl text-xl ring-2 ring-border">
-              <HiSearchCircle className="text-xl" />
-            </div>
-            <span className="font-medium text-sm">Searching exemplars</span>
-          </div>
-        )
-      }
-      const count = results.length
-      return (
-        <div className="my-4 flex items-center justify-center gap-3 text-muted-foreground">
-          <div className="flex size-8 flex-none items-center justify-center overflow-hidden rounded-xl text-xl ring-2 ring-border">
-            <HiSearchCircle className="text-xl" />
-          </div>
-          <span className="font-medium text-sm">
-            Found {count} exemplar{count === 1 ? '' : 's'}
-          </span>
-        </div>
-      )
-    }
-
     case 'openDataBooklet': {
       const output = toolCall.output
       const isLoading = toolCall.state === 'calling' || !output
@@ -323,47 +297,6 @@ export const ToolRenderer = ({ toolCall }: { toolCall: ToolCall }) => {
               className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-foreground px-3 py-2 text-sm font-medium text-background"
             >
               <span>Open data booklet</span>
-            </a>
-          )}
-        </div>
-      )
-    }
-
-    case 'showCourseworkGrader': {
-      const output = toolCall.output
-      const isLoading = toolCall.state === 'calling' || !output
-      if (isLoading) {
-        return (
-          <div className="my-4 flex items-center justify-center gap-3 text-muted-foreground">
-            <div className="flex size-8 flex-none items-center justify-center overflow-hidden rounded-xl text-xl ring-2 ring-border">
-              <HiDocumentText className="text-xl" />
-            </div>
-            <span className="font-medium text-sm">Preparing coursework grader</span>
-          </div>
-        )
-      }
-      const type = output?.type as string | undefined
-      const typeLabel =
-        type === 'EE'
-          ? 'Extended Essay'
-          : type === 'IA'
-          ? 'Internal Assessment'
-          : type === 'TOK'
-          ? 'Theory of Knowledge essay'
-          : 'IB coursework'
-      const isUnknown = !output?.type || output.type === 'UNKNOWN'
-      const redirectUrl = output?.redirectUrl as string | undefined
-      return (
-        <div className="my-4 w-full max-w-sm rounded-2xl border border-border bg-muted/40 p-4">
-          <p className="font-title text-lg">Get instant feedback on your {isUnknown ? '' : 'IB '}{typeLabel}</p>
-          {redirectUrl && (
-            <a
-              href={redirectUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="mt-3 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-fuchsia-600 px-3 py-2 text-sm font-medium text-white"
-            >
-              <span>{isUnknown ? 'Get in-depth feedback' : 'Get in-depth feedback on my essay'}</span>
             </a>
           )}
         </div>
