@@ -85,7 +85,7 @@ export function SidebarContent({
       <div className="relative -mt-2.5 flex h-14 flex-none items-center px-0.5">
         <Link to="/" className={cn("flex min-w-0 gap-2.5 pl-1.5 transition-[width,opacity] duration-300 ease-in-out", collapsed ? "pointer-events-none w-0 opacity-0" : "w-auto opacity-100")} aria-label="Home" tabIndex={collapsed ? -1 : 0}>
           <img src="/assets/logo-icon.svg" alt="" className="size-7 shrink-0 rounded-[10px] dark:[filter:invert(1)_hue-rotate(180deg)]" />
-          <img src="/assets/logo-text-only.svg" alt="Logo" className="mt-1 max-w-[7.5rem] shrink-0 object-contain object-left dark:[filter:invert(1)_hue-rotate(180deg)]" />
+          <span className="mt-0.5 shrink-0 font-manrope font-extrabold text-[15px] leading-none tracking-tight text-foreground">RevisionXYZ</span>
         </Link>
         {!hideCollapseButton && onToggleCollapse && (
           <button type="button" onClick={onToggleCollapse} className="absolute right-0 top-1/2 -translate-y-1/2 inline-flex h-10 w-10 flex-none cursor-pointer items-center justify-center rounded-2xl text-2xl text-muted-foreground transition-colors hover:bg-foreground/10 hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-foreground/50" aria-label={collapsed ? "Expand sidebar" : "Collapse sidebar"}>
