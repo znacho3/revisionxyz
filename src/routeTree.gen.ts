@@ -11,12 +11,9 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as PredictedPapersRouteImport } from './routes/predicted-papers'
 import { Route as IbRouteImport } from './routes/ib'
-import { Route as GraderRouteImport } from './routes/grader'
-import { Route as CourseworkExemplarsRouteImport } from './routes/coursework-exemplars'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as PredictedPapersIndexRouteImport } from './routes/predicted-papers/index'
 import { Route as IbIndexRouteImport } from './routes/ib/index'
-import { Route as CourseworkExemplarsIndexRouteImport } from './routes/coursework-exemplars/index'
 import { Route as BotsIndexRouteImport } from './routes/bots/index'
 import { Route as IbQuestionsRouteImport } from './routes/ib/questions'
 import { Route as IbNotesRouteImport } from './routes/ib/notes'
@@ -33,7 +30,6 @@ import { Route as IbSubjectPredictedPapersRouteImport } from './routes/ib/$subje
 import { Route as IbSubjectNotesRouteImport } from './routes/ib/$subject/notes'
 import { Route as IbSubjectFlashcardsRouteImport } from './routes/ib/$subject/flashcards'
 import { Route as IbSubjectCheatsheetsRouteImport } from './routes/ib/$subject/cheatsheets'
-import { Route as CourseworkExemplarsFileSlugRouteImport } from './routes/coursework-exemplars/file/$slug'
 import { Route as ChatBotIdChatIdRouteImport } from './routes/chat/$botId/$chatId'
 import { Route as IbSubjectTopicslugQuestionbankRouteImport } from './routes/ib/$subject/$topicslug/questionbank'
 import { Route as IbSubjectTopicslugFlashcardsRouteImport } from './routes/ib/$subject/$topicslug/flashcards'
@@ -47,16 +43,6 @@ const PredictedPapersRoute = PredictedPapersRouteImport.update({
 const IbRoute = IbRouteImport.update({
   id: '/ib',
   path: '/ib',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const GraderRoute = GraderRouteImport.update({
-  id: '/grader',
-  path: '/grader',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CourseworkExemplarsRoute = CourseworkExemplarsRouteImport.update({
-  id: '/coursework-exemplars',
-  path: '/coursework-exemplars',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -74,12 +60,6 @@ const IbIndexRoute = IbIndexRouteImport.update({
   path: '/',
   getParentRoute: () => IbRoute,
 } as any)
-const CourseworkExemplarsIndexRoute =
-  CourseworkExemplarsIndexRouteImport.update({
-    id: '/',
-    path: '/',
-    getParentRoute: () => CourseworkExemplarsRoute,
-  } as any)
 const BotsIndexRoute = BotsIndexRouteImport.update({
   id: '/bots/',
   path: '/bots/',
@@ -163,12 +143,6 @@ const IbSubjectCheatsheetsRoute = IbSubjectCheatsheetsRouteImport.update({
   path: '/cheatsheets',
   getParentRoute: () => IbSubjectRoute,
 } as any)
-const CourseworkExemplarsFileSlugRoute =
-  CourseworkExemplarsFileSlugRouteImport.update({
-    id: '/file/$slug',
-    path: '/file/$slug',
-    getParentRoute: () => CourseworkExemplarsRoute,
-  } as any)
 const ChatBotIdChatIdRoute = ChatBotIdChatIdRouteImport.update({
   id: '/chat/$botId/$chatId',
   path: '/chat/$botId/$chatId',
@@ -194,8 +168,6 @@ const IbSubjectNoteslugNotesRoute = IbSubjectNoteslugNotesRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/coursework-exemplars': typeof CourseworkExemplarsRouteWithChildren
-  '/grader': typeof GraderRoute
   '/ib': typeof IbRouteWithChildren
   '/predicted-papers': typeof PredictedPapersRouteWithChildren
   '/ib/$subject': typeof IbSubjectRouteWithChildren
@@ -204,11 +176,9 @@ export interface FileRoutesByFullPath {
   '/ib/notes': typeof IbNotesRoute
   '/ib/questions': typeof IbQuestionsRoute
   '/bots/': typeof BotsIndexRoute
-  '/coursework-exemplars/': typeof CourseworkExemplarsIndexRoute
   '/ib/': typeof IbIndexRoute
   '/predicted-papers/': typeof PredictedPapersIndexRoute
   '/chat/$botId/$chatId': typeof ChatBotIdChatIdRoute
-  '/coursework-exemplars/file/$slug': typeof CourseworkExemplarsFileSlugRoute
   '/ib/$subject/cheatsheets': typeof IbSubjectCheatsheetsRoute
   '/ib/$subject/flashcards': typeof IbSubjectFlashcardsRoute
   '/ib/$subject/notes': typeof IbSubjectNotesRoute
@@ -225,16 +195,13 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/grader': typeof GraderRoute
   '/ib/flashcards': typeof IbFlashcardsRoute
   '/ib/notes': typeof IbNotesRoute
   '/ib/questions': typeof IbQuestionsRoute
   '/bots': typeof BotsIndexRoute
-  '/coursework-exemplars': typeof CourseworkExemplarsIndexRoute
   '/ib': typeof IbIndexRoute
   '/predicted-papers': typeof PredictedPapersIndexRoute
   '/chat/$botId/$chatId': typeof ChatBotIdChatIdRoute
-  '/coursework-exemplars/file/$slug': typeof CourseworkExemplarsFileSlugRoute
   '/ib/$subject/cheatsheets': typeof IbSubjectCheatsheetsRoute
   '/ib/$subject/flashcards': typeof IbSubjectFlashcardsRoute
   '/ib/$subject/notes': typeof IbSubjectNotesRoute
@@ -252,8 +219,6 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/coursework-exemplars': typeof CourseworkExemplarsRouteWithChildren
-  '/grader': typeof GraderRoute
   '/ib': typeof IbRouteWithChildren
   '/predicted-papers': typeof PredictedPapersRouteWithChildren
   '/ib/$subject': typeof IbSubjectRouteWithChildren
@@ -262,11 +227,9 @@ export interface FileRoutesById {
   '/ib/notes': typeof IbNotesRoute
   '/ib/questions': typeof IbQuestionsRoute
   '/bots/': typeof BotsIndexRoute
-  '/coursework-exemplars/': typeof CourseworkExemplarsIndexRoute
   '/ib/': typeof IbIndexRoute
   '/predicted-papers/': typeof PredictedPapersIndexRoute
   '/chat/$botId/$chatId': typeof ChatBotIdChatIdRoute
-  '/coursework-exemplars/file/$slug': typeof CourseworkExemplarsFileSlugRoute
   '/ib/$subject/cheatsheets': typeof IbSubjectCheatsheetsRoute
   '/ib/$subject/flashcards': typeof IbSubjectFlashcardsRoute
   '/ib/$subject/notes': typeof IbSubjectNotesRoute
@@ -285,8 +248,6 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/coursework-exemplars'
-    | '/grader'
     | '/ib'
     | '/predicted-papers'
     | '/ib/$subject'
@@ -295,11 +256,9 @@ export interface FileRouteTypes {
     | '/ib/notes'
     | '/ib/questions'
     | '/bots/'
-    | '/coursework-exemplars/'
     | '/ib/'
     | '/predicted-papers/'
     | '/chat/$botId/$chatId'
-    | '/coursework-exemplars/file/$slug'
     | '/ib/$subject/cheatsheets'
     | '/ib/$subject/flashcards'
     | '/ib/$subject/notes'
@@ -316,16 +275,13 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/grader'
     | '/ib/flashcards'
     | '/ib/notes'
     | '/ib/questions'
     | '/bots'
-    | '/coursework-exemplars'
     | '/ib'
     | '/predicted-papers'
     | '/chat/$botId/$chatId'
-    | '/coursework-exemplars/file/$slug'
     | '/ib/$subject/cheatsheets'
     | '/ib/$subject/flashcards'
     | '/ib/$subject/notes'
@@ -342,8 +298,6 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/coursework-exemplars'
-    | '/grader'
     | '/ib'
     | '/predicted-papers'
     | '/ib/$subject'
@@ -352,11 +306,9 @@ export interface FileRouteTypes {
     | '/ib/notes'
     | '/ib/questions'
     | '/bots/'
-    | '/coursework-exemplars/'
     | '/ib/'
     | '/predicted-papers/'
     | '/chat/$botId/$chatId'
-    | '/coursework-exemplars/file/$slug'
     | '/ib/$subject/cheatsheets'
     | '/ib/$subject/flashcards'
     | '/ib/$subject/notes'
@@ -374,8 +326,6 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  CourseworkExemplarsRoute: typeof CourseworkExemplarsRouteWithChildren
-  GraderRoute: typeof GraderRoute
   IbRoute: typeof IbRouteWithChildren
   PredictedPapersRoute: typeof PredictedPapersRouteWithChildren
   BotsIndexRoute: typeof BotsIndexRoute
@@ -398,20 +348,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IbRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/grader': {
-      id: '/grader'
-      path: '/grader'
-      fullPath: '/grader'
-      preLoaderRoute: typeof GraderRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/coursework-exemplars': {
-      id: '/coursework-exemplars'
-      path: '/coursework-exemplars'
-      fullPath: '/coursework-exemplars'
-      preLoaderRoute: typeof CourseworkExemplarsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/': {
       id: '/'
       path: '/'
@@ -432,13 +368,6 @@ declare module '@tanstack/react-router' {
       fullPath: '/ib/'
       preLoaderRoute: typeof IbIndexRouteImport
       parentRoute: typeof IbRoute
-    }
-    '/coursework-exemplars/': {
-      id: '/coursework-exemplars/'
-      path: '/'
-      fullPath: '/coursework-exemplars/'
-      preLoaderRoute: typeof CourseworkExemplarsIndexRouteImport
-      parentRoute: typeof CourseworkExemplarsRoute
     }
     '/bots/': {
       id: '/bots/'
@@ -552,13 +481,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IbSubjectCheatsheetsRouteImport
       parentRoute: typeof IbSubjectRoute
     }
-    '/coursework-exemplars/file/$slug': {
-      id: '/coursework-exemplars/file/$slug'
-      path: '/file/$slug'
-      fullPath: '/coursework-exemplars/file/$slug'
-      preLoaderRoute: typeof CourseworkExemplarsFileSlugRouteImport
-      parentRoute: typeof CourseworkExemplarsRoute
-    }
     '/chat/$botId/$chatId': {
       id: '/chat/$botId/$chatId'
       path: '/chat/$botId/$chatId'
@@ -589,19 +511,6 @@ declare module '@tanstack/react-router' {
     }
   }
 }
-
-interface CourseworkExemplarsRouteChildren {
-  CourseworkExemplarsIndexRoute: typeof CourseworkExemplarsIndexRoute
-  CourseworkExemplarsFileSlugRoute: typeof CourseworkExemplarsFileSlugRoute
-}
-
-const CourseworkExemplarsRouteChildren: CourseworkExemplarsRouteChildren = {
-  CourseworkExemplarsIndexRoute: CourseworkExemplarsIndexRoute,
-  CourseworkExemplarsFileSlugRoute: CourseworkExemplarsFileSlugRoute,
-}
-
-const CourseworkExemplarsRouteWithChildren =
-  CourseworkExemplarsRoute._addFileChildren(CourseworkExemplarsRouteChildren)
 
 interface IbSubjectRouteChildren {
   IbSubjectCheatsheetsRoute: typeof IbSubjectCheatsheetsRoute
@@ -684,8 +593,6 @@ const PredictedPapersRouteWithChildren = PredictedPapersRoute._addFileChildren(
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  CourseworkExemplarsRoute: CourseworkExemplarsRouteWithChildren,
-  GraderRoute: GraderRoute,
   IbRoute: IbRouteWithChildren,
   PredictedPapersRoute: PredictedPapersRouteWithChildren,
   BotsIndexRoute: BotsIndexRoute,
