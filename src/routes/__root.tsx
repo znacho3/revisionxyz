@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import { createRootRoute, Outlet, useRouterState } from '@tanstack/react-router'
+import { createRootRoute, Outlet, useNavigate, useRouterState } from '@tanstack/react-router'
+import { useAuth } from '@clerk/clerk-react'
 import { Toaster } from 'sonner'
 import { ThemeProvider, useTheme } from 'next-themes'
 import { Menu } from 'lucide-react'
@@ -14,19 +15,47 @@ export const Route = createRootRoute({
 function RootComponent() {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-      <ThemedLayoutContent>
-        <Outlet />
-      </ThemedLayoutContent>
+      <AuthGuard />
     </ThemeProvider>
   )
 }
 
-function ThemedLayoutContent({ children }: { children: React.ReactNode }) {
+function AuthGuard() {
+  const { isLoaded, isSignedIn } = useAuth()
+  const navigate = useNavigate()
+  const pathname = useRouterState().location.pathname
+
+  useEffect(() => {
+    if (!isLoaded) return
+    if (!isSignedIn && pathname !== '/login') navigate({ to: '/login', replace: true })
+    if (isSignedIn && pathname === '/login') navigate({ to: '/', replace: true })
+  }, [isLoaded, isSignedIn, pathname, navigate])
+
+  if (!isLoaded) {
+    return (
+      <div className="flex h-dvh w-screen items-center justify-center bg-background">
+        <img
+          src="/assets/logo-icon.svg"
+          alt=""
+          className="size-8 animate-pulse rounded-[10px] dark:[filter:invert(1)_hue-rotate(180deg)]"
+        />
+      </div>
+    )
+  }
+
+  if (!isSignedIn) {
+    if (pathname !== '/login') return null
+    return <Outlet />
+  }
+
+  return <AppLayout />
+}
+
+function AppLayout() {
   const { resolvedTheme } = useTheme()
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const routerState = useRouterState()
-  const pathname = routerState.location.pathname
+  const pathname = useRouterState().location.pathname
 
   useEffect(() => {
     setMobileMenuOpen(false)
@@ -42,7 +71,7 @@ function ThemedLayoutContent({ children }: { children: React.ReactNode }) {
           <div className="relative flex min-h-0 min-w-0 flex-1 gap-0 p-0 sm:gap-2 sm:pr-2 sm:pb-2">
             <main className="flex min-h-0 flex-1 shrink flex-col overflow-hidden rounded-none border-0 bg-background sm:rounded-2xl sm:border-2 sm:border-border">
               <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden">
-                {children}
+                <Outlet />
               </div>
             </main>
           </div>
