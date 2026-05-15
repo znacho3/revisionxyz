@@ -8,6 +8,7 @@ import { CentralIcon } from "@central-icons-react/all";
 import { centralIconProps } from "@/lib/icon-props";
 import { cn } from "@/lib/utils";
 import type { PredictedPaper } from "@/types/predictedpaper";
+import { supabase } from "@/lib/supabase";
 
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "@react-pdf-viewer/zoom/lib/styles/index.css";
@@ -81,11 +82,13 @@ function PredictedPaperDetailPage() {
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/predictedpapers_info.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((json: PredictedPaper[] | null) => {
-        if (cancelled || !Array.isArray(json)) return;
-        setPapers(json);
+    supabase
+      .from("predicted_papers")
+      .select("data")
+      .then(({ data: rows }) => {
+        if (cancelled) return;
+        const papers = (rows ?? []).map((r) => r.data as PredictedPaper);
+        setPapers(papers.length > 0 ? papers : null);
       })
       .catch(() => {
         if (!cancelled) setPapers(null);

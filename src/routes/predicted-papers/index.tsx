@@ -85,7 +85,7 @@ function PredictedPapersIndexPage() {
                           paperSlug: paper.slug.current,
                         }}
                         title={paper.title}
-                        thumbnailSrc={`/predictedpapers/predictedpaper-thumbnails/${paper.slug.current}.jpg`}
+                        thumbnailSrc={paper.thumbnail}
                         isPremium={paper.premium}
                       />
                     ))}
