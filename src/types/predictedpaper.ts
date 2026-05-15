@@ -12,4 +12,5 @@ export type PredictedPaper = {
   paperType: string;
   premium: boolean;
   questionPaper: { _id: string } | null;
+  pdf_url?: string | null;
 };

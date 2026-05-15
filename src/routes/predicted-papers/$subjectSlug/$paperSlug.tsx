@@ -84,10 +84,10 @@ function PredictedPaperDetailPage() {
     let cancelled = false;
     supabase
       .from("predicted_papers")
-      .select("data")
+      .select("data, pdf_url")
       .then(({ data: rows }) => {
         if (cancelled) return;
-        const papers = (rows ?? []).map((r) => r.data as PredictedPaper);
+        const papers = (rows ?? []).map((r) => ({ ...(r.data as PredictedPaper), pdf_url: r.pdf_url as string | null }));
         setPapers(papers.length > 0 ? papers : null);
       })
       .catch(() => {
@@ -123,7 +123,7 @@ function PredictedPaperDetailPage() {
 
   const handleDownload = () => {
     if (!viewerPaper) return;
-    const pdfUrl = `https://dl.pirateib.sh/Revision%20Dojo%20Archive/predictedpapers/${viewerPaper.slug.current}.pdf`;
+    const pdfUrl = viewerPaper.pdf_url ?? `https://dl.pirateib.sh/Revision%20Dojo%20Archive/predictedpapers/${viewerPaper.slug.current}.pdf`;
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = `${viewerPaper.title.trim().replace(/[^a-z0-9-_]/gi, "_")}.pdf`;
@@ -142,7 +142,7 @@ function PredictedPaperDetailPage() {
 
   if (!paper || !viewerPaper) return null;
 
-  const pdfUrl = `https://dl.pirateib.sh/Revision%20Dojo%20Archive/predictedpapers/${viewerPaper.slug.current}.pdf`;
+  const pdfUrl = viewerPaper.pdf_url ?? `https://dl.pirateib.sh/Revision%20Dojo%20Archive/predictedpapers/${viewerPaper.slug.current}.pdf`;
 
   return (
     <div className="flex h-full min-h-0 w-full flex-col lg:flex-row">
