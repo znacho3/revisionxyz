@@ -1,13 +1,14 @@
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 import { createRootRoute, Outlet, useNavigate, useRouterState } from '@tanstack/react-router'
 import { useAuth } from '@clerk/clerk-react'
-import { isUserOnboarded } from '@/lib/profile'
+
 import { Toaster } from 'sonner'
 import { ThemeProvider, useTheme } from 'next-themes'
 import { Menu } from 'lucide-react'
 import { Header } from '@/components/Header'
 import { Sidebar, SidebarContent } from '@/components/Sidebar'
 import { cn } from '@/lib/utils'
+import { useState } from 'react'
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -21,36 +22,19 @@ function RootComponent() {
   )
 }
 
-type ProfileState = 'checking' | 'onboarded' | 'needs-onboarding'
-
 function AuthGuard() {
-  const { isLoaded, isSignedIn, userId } = useAuth()
+  const { isLoaded, isSignedIn } = useAuth()
   const navigate = useNavigate()
   const pathname = useRouterState().location.pathname
-  const [profileState, setProfileState] = useState<ProfileState>('checking')
-
-  useEffect(() => {
-    if (!isLoaded || !isSignedIn || !userId) return
-    setProfileState('checking')
-    isUserOnboarded(userId).then(onboarded => {
-      setProfileState(onboarded ? 'onboarded' : 'needs-onboarding')
-    })
-  }, [isLoaded, isSignedIn, userId])
 
   useEffect(() => {
     if (!isLoaded) return
-    if (!isSignedIn) {
-      if (pathname !== '/login') navigate({ to: '/login', replace: true })
-      return
-    }
-    if (pathname === '/login') { navigate({ to: '/', replace: true }); return }
-    if (profileState === 'needs-onboarding' && pathname !== '/onboarding') {
-      navigate({ to: '/onboarding', replace: true })
-    }
-    if (profileState === 'onboarded' && pathname === '/onboarding') {
+    if (!isSignedIn && pathname !== '/login') {
+      navigate({ to: '/login', replace: true })
+    } else if (isSignedIn && pathname === '/login') {
       navigate({ to: '/', replace: true })
     }
-  }, [isLoaded, isSignedIn, profileState, pathname, navigate])
+  }, [isLoaded, isSignedIn, pathname, navigate])
 
   const loading = (
     <div className="flex h-dvh w-screen items-center justify-center bg-background">
@@ -63,14 +47,6 @@ function AuthGuard() {
     if (pathname !== '/login') return null
     return <Outlet />
   }
-  if (profileState === 'checking') return loading
-
-  // Onboarding renders without the app shell
-  if (profileState === 'needs-onboarding' || pathname === '/onboarding') {
-    if (pathname !== '/onboarding') return null
-    return <Outlet />
-  }
-
   return <AppLayout />
 }
 

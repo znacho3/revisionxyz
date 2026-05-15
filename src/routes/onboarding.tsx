@@ -1,8 +1,11 @@
 import { useState } from 'react'
-import { createFileRoute, useNavigate } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
 import { useUser } from '@clerk/clerk-react'
+import { toast } from 'sonner'
+import { CentralIcon } from '@central-icons-react/all'
 import { cn } from '@/lib/utils'
 import { saveProfile, type SelectedSubject } from '@/lib/profile'
+import { centralIconPropsFilled20 } from '@/lib/icon-props'
 import ibSubjects from '@/data/ib-subjects.json'
 
 type Subject = { slug: string; title: string; coverImageUrl: string; group: number | 'core' }
@@ -27,7 +30,6 @@ export const Route = createFileRoute('/onboarding')({
 
 function OnboardingPage() {
   const { user } = useUser()
-  const navigate = useNavigate()
   const [activeGroup, setActiveGroup] = useState(1)
   const [selected, setSelected] = useState<SelectedSubject[]>([])
   const [saving, setSaving] = useState(false)
@@ -56,59 +58,52 @@ function OnboardingPage() {
     setSaving(true)
     try {
       await saveProfile(user.id, selected)
-      navigate({ to: '/' })
+      toast.success('Your subjects have been saved!')
+    } catch {
+      toast.error('Failed to save. Please try again.')
     } finally {
       setSaving(false)
     }
   }
 
   return (
-    <div className="flex min-h-dvh flex-col items-center bg-background px-4 py-10 sm:py-16">
+    <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6 sm:py-10">
 
-      {/* Logo — same as login page */}
-      <div className="mb-8 flex items-center gap-2.5">
-        <img
-          src="/assets/logo-icon.svg"
-          alt=""
-          className="size-9 shrink-0 rounded-[10px] dark:[filter:invert(1)_hue-rotate(180deg)]"
-        />
-        <span className="font-manrope font-extrabold text-[24px] leading-none tracking-tight text-foreground">
-          RevisionXYZ
-        </span>
+      {/* Page header */}
+      <div className="mb-8">
+        <div className="mb-3 flex items-center gap-3">
+          <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-violet-100 dark:bg-violet-400/20">
+            <CentralIcon {...centralIconPropsFilled20} name="IconStars" className="text-violet-700 dark:text-violet-400" />
+          </div>
+          <h1 className="font-manrope text-3xl font-bold tracking-tight text-foreground">My Subjects</h1>
+        </div>
+        <p className="text-sm text-muted-foreground">
+          Choose your 6 IB subjects and assign Higher Level or Standard Level to each.
+          Theory of Knowledge is included automatically.
+        </p>
       </div>
 
-      {/* Card */}
-      <div className="w-full max-w-2xl rounded-2xl border border-border bg-background shadow-sm">
+      {/* Picker card */}
+      <div className="overflow-hidden rounded-2xl border border-border bg-background">
 
-        {/* Card header */}
-        <div className="border-b border-border px-6 py-5 sm:px-8 sm:py-6">
-          <h1 className="font-manrope text-xl font-bold tracking-tight text-foreground sm:text-2xl">
-            Set up your IB profile
-          </h1>
-          <p className="mt-1 text-sm text-muted-foreground">
-            Choose 6 subjects and assign Higher Level or Standard Level to each.
-            Theory of Knowledge is included automatically.
-          </p>
-
-          {/* Progress bar */}
-          <div className="mt-4 flex items-center gap-3">
+        {/* Progress */}
+        <div className="border-b border-border px-5 py-4 sm:px-6">
+          <div className="flex items-center justify-between">
             <div className="flex gap-1.5">
               {Array.from({ length: 6 }, (_, i) => (
                 <div
                   key={i}
                   className={cn(
-                    'h-1.5 w-8 rounded-full transition-colors duration-300',
-                    i < selected.length ? 'bg-foreground' : 'bg-border'
+                    'h-2 w-9 rounded-full transition-colors duration-300',
+                    i < selected.length ? 'bg-violet-500 dark:bg-violet-400' : 'bg-border'
                   )}
                 />
               ))}
             </div>
             <span className="text-sm text-muted-foreground">
-              {selected.length} / 6
+              {selected.length}/6
               {selected.length > 0 && (
-                <span className="ml-2 text-muted-foreground/70">
-                  ({hlCount} HL · {slCount} SL)
-                </span>
+                <span className="ml-2 text-muted-foreground/70">· {hlCount} HL · {slCount} SL</span>
               )}
             </span>
           </div>
@@ -117,25 +112,26 @@ function OnboardingPage() {
         {/* Group tabs */}
         <div className="flex overflow-x-auto border-b border-border scrollbar-none">
           {GROUPS.map(g => {
-            const count = selected.filter(s => subjects.find(sub => sub.slug === s.slug)?.group === g.id).length
+            const count = selected.filter(s =>
+              subjects.find(sub => sub.slug === s.slug)?.group === g.id
+            ).length
             return (
               <button
                 key={g.id}
                 type="button"
                 onClick={() => setActiveGroup(g.id)}
                 className={cn(
-                  'group relative shrink-0 px-4 py-3 text-sm font-semibold transition-colors whitespace-nowrap',
+                  'group relative shrink-0 whitespace-nowrap px-4 py-3 text-sm font-semibold transition-colors',
                   activeGroup === g.id ? 'text-foreground' : 'text-muted-foreground hover:text-foreground'
                 )}
               >
                 <span className="hidden sm:inline">Gr {g.id} · {g.label}</span>
                 <span className="sm:hidden">Gr {g.id}</span>
                 {count > 0 && (
-                  <span className="ml-1.5 inline-flex size-4 items-center justify-center rounded-full bg-foreground text-[10px] font-bold text-background">
+                  <span className="ml-1.5 inline-flex size-4 items-center justify-center rounded-full bg-violet-500 text-[10px] font-bold text-white dark:bg-violet-400">
                     {count}
                   </span>
                 )}
-                {/* Active underline */}
                 <span
                   className={cn(
                     'absolute bottom-0 left-0 right-0 h-0.5 rounded-full transition-colors',
@@ -148,7 +144,7 @@ function OnboardingPage() {
         </div>
 
         {/* Subject chips */}
-        <div className="min-h-[180px] px-6 py-5 sm:px-8">
+        <div className="min-h-[160px] px-5 py-5 sm:px-6">
           <div className="flex flex-wrap gap-2">
             {groupSubjects.map(subject => {
               const sel = selected.find(s => s.slug === subject.slug)
@@ -159,7 +155,7 @@ function OnboardingPage() {
                 return (
                   <div
                     key={subject.slug}
-                    className="inline-flex items-stretch overflow-hidden rounded-xl border-2 border-foreground text-sm font-medium"
+                    className="inline-flex items-stretch overflow-hidden rounded-xl border-2 border-violet-500 text-sm font-medium dark:border-violet-400"
                   >
                     <button
                       type="button"
@@ -167,7 +163,7 @@ function OnboardingPage() {
                       className="flex items-center gap-1.5 px-3 py-1.5 text-foreground transition-colors hover:bg-muted/50"
                       title="Remove"
                     >
-                      <span className="text-muted-foreground text-xs">×</span>
+                      <span className="text-xs text-muted-foreground">×</span>
                       {subject.title}
                     </button>
                     <div className="w-px bg-border" />
@@ -177,7 +173,9 @@ function OnboardingPage() {
                       disabled={slOnly}
                       className={cn(
                         'px-2.5 py-1.5 text-xs font-bold transition-colors',
-                        sel.level === 'hl' ? 'bg-foreground text-background' : 'text-muted-foreground hover:bg-muted',
+                        sel.level === 'hl'
+                          ? 'bg-violet-500 text-white dark:bg-violet-400 dark:text-white'
+                          : 'text-muted-foreground hover:bg-muted',
                         slOnly && 'cursor-not-allowed opacity-30'
                       )}
                     >HL</button>
@@ -187,7 +185,9 @@ function OnboardingPage() {
                       onClick={() => setLevel(subject.slug, 'sl')}
                       className={cn(
                         'px-2.5 py-1.5 text-xs font-bold transition-colors',
-                        sel.level === 'sl' ? 'bg-foreground text-background' : 'text-muted-foreground hover:bg-muted'
+                        sel.level === 'sl'
+                          ? 'bg-violet-500 text-white dark:bg-violet-400 dark:text-white'
+                          : 'text-muted-foreground hover:bg-muted'
                       )}
                     >SL</button>
                   </div>
@@ -204,7 +204,7 @@ function OnboardingPage() {
                     'rounded-xl border-2 border-border px-3 py-1.5 text-sm font-medium transition-colors',
                     maxed
                       ? 'cursor-not-allowed opacity-40'
-                      : 'text-foreground hover:border-foreground/40 hover:bg-muted/40'
+                      : 'text-foreground hover:border-violet-400 hover:bg-violet-50 dark:hover:border-violet-500 dark:hover:bg-violet-400/10'
                   )}
                 >
                   {subject.title}
@@ -214,11 +214,11 @@ function OnboardingPage() {
           </div>
         </div>
 
-        {/* Selected summary + ToK */}
+        {/* Selected summary */}
         {selected.length > 0 && (
-          <div className="border-t border-border px-6 py-4 sm:px-8">
-            <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-              Your subjects
+          <div className="border-t border-border px-5 py-4 sm:px-6">
+            <p className="mb-2.5 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+              Selected subjects
             </p>
             <div className="flex flex-wrap gap-1.5">
               {selected.map(s => {
@@ -229,7 +229,14 @@ function OnboardingPage() {
                     className="inline-flex items-center gap-1.5 rounded-lg bg-muted px-2.5 py-1 text-xs font-medium text-foreground"
                   >
                     {subject?.title}
-                    <span className="font-bold text-muted-foreground">{s.level.toUpperCase()}</span>
+                    <span className={cn(
+                      'rounded px-1 py-0.5 text-[10px] font-bold',
+                      s.level === 'hl'
+                        ? 'bg-violet-100 text-violet-700 dark:bg-violet-400/20 dark:text-violet-400'
+                        : 'bg-muted-foreground/15 text-muted-foreground'
+                    )}>
+                      {s.level.toUpperCase()}
+                    </span>
                     <button
                       type="button"
                       onClick={() => toggle(s.slug)}
@@ -246,31 +253,31 @@ function OnboardingPage() {
           </div>
         )}
 
-        {/* Footer / CTA */}
-        <div className="border-t border-border px-6 py-5 sm:px-8">
-          <button
-            type="button"
-            onClick={submit}
-            disabled={!ready || saving}
-            className={cn(
-              'w-full rounded-2xl py-3 text-sm font-semibold transition-all',
-              ready
-                ? 'cursor-pointer bg-foreground text-background hover:bg-foreground/80'
-                : 'cursor-not-allowed bg-muted text-muted-foreground'
-            )}
-          >
-            {saving
-              ? 'Saving…'
-              : ready
-              ? 'Get started →'
-              : `Choose ${6 - selected.length} more subject${6 - selected.length !== 1 ? 's' : ''} to continue`}
-          </button>
+        {/* Footer */}
+        <div className="border-t border-border px-5 py-4 sm:px-6">
+          <div className="flex items-center justify-between gap-4">
+            <p className="text-xs text-muted-foreground">
+              {ready
+                ? 'All 6 subjects selected. You can still change them anytime.'
+                : `${6 - selected.length} more subject${6 - selected.length !== 1 ? 's' : ''} to go`}
+            </p>
+            <button
+              type="button"
+              onClick={submit}
+              disabled={!ready || saving}
+              className={cn(
+                'shrink-0 rounded-xl px-5 py-2 text-sm font-semibold transition-all',
+                ready
+                  ? 'cursor-pointer bg-violet-500 text-white hover:bg-violet-600 dark:bg-violet-500 dark:hover:bg-violet-400'
+                  : 'cursor-not-allowed bg-muted text-muted-foreground'
+              )}
+            >
+              {saving ? 'Saving…' : 'Save subjects'}
+            </button>
+          </div>
         </div>
-      </div>
 
-      <p className="mt-6 text-xs text-muted-foreground">
-        You can change your subjects later in your profile settings.
-      </p>
+      </div>
     </div>
   )
 }
