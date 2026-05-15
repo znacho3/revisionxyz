@@ -1,21 +1,13 @@
 import { useState, useEffect } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { CentralIcon } from "@central-icons-react/all";
 import { SubjectCard } from "@/components/ui/SubjectCard";
 import subjectsDataRaw from "@/data/ib-subjects.json";
 import type { Subject } from "@/types/ib";
 import { centralIconPropsOutlined28 } from "@/lib/icon-props";
+import { supabase } from "@/lib/supabase";
 
 const subjectsData = subjectsDataRaw as Subject[];
-
-type QuestionbankIndexEntry = {
-  subjectSlug: string;
-  parentTopicSlug: string;
-  childTopicSlug: string;
-  path: string;
-};
-
-type QuestionbankIndex = { entries: QuestionbankIndexEntry[] };
 
 const IB_GROUPS: { id: number | "core"; title: string }[] = [
   { id: 1, title: "Group 1 - Language A" },
@@ -31,22 +23,20 @@ export const Route = createFileRoute("/ib/questions")({
 });
 
 function IbQuestionsPage() {
-  const [index, setIndex] = useState<QuestionbankIndex | null>(null);
+  const [slugsWithQuestions, setSlugsWithQuestions] = useState<Set<string> | null>(null);
 
   useEffect(() => {
-    fetch("/questionbank-index.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((data: QuestionbankIndex | null) => setIndex(data ?? null))
-      .catch(() => setIndex(null));
+    supabase
+      .from("subjects")
+      .select("slug")
+      .eq("enable_questions", true)
+      .then(({ data }) => setSlugsWithQuestions(new Set((data ?? []).map((r: any) => r.slug))))
+      .catch(() => setSlugsWithQuestions(new Set()));
   }, []);
 
-  const subjectSlugsWithQuestionbanks =
-    index?.entries?.length > 0
-      ? [...new Set(index.entries.map((e) => e.subjectSlug))]
-      : [];
-  const subjects = subjectsData.filter((s) =>
-    subjectSlugsWithQuestionbanks.includes(s.slug)
-  );
+  const subjects = slugsWithQuestions
+    ? subjectsData.filter((s) => slugsWithQuestions.has(s.slug))
+    : [];
 
   return (
     <div className="container mx-auto max-w-5xl space-y-6 px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8 lg:pt-12">
@@ -63,7 +53,7 @@ function IbQuestionsPage() {
         </h1>
       </div>
 
-      {index === null ? (
+      {slugsWithQuestions === null ? (
         <p className="text-muted-foreground">Loading…</p>
       ) : (
         IB_GROUPS.map(({ id, title }) => {

@@ -15,6 +15,8 @@ type CheatsheetRow = {
   subject_slug: string | null;
   subject_title: string | null;
   thumbnail_url: string | null;
+  r2_key: string | null;
+  pdf_url: string | null;
 };
 
 import "@react-pdf-viewer/core/lib/styles/index.css";
@@ -41,7 +43,7 @@ function CheatsheetDetailPage() {
     let cancelled = false;
     supabase
       .from("cheatsheets")
-      .select("id, title, is_premium, subject_slug, subject_title, thumbnail_url")
+      .select("id, title, is_premium, subject_slug, subject_title, thumbnail_url, r2_key, pdf_url")
       .order("subject_title")
       .order("title")
       .then(({ data: rows }) => {
@@ -70,9 +72,11 @@ function CheatsheetDetailPage() {
 
   const handleDownload = () => {
     if (!cheatsheet) return;
-    const pdfUrl = `https://dl.pirateib.sh/Revision%20Dojo%20Archive/cheatsheets/${cheatsheet.id}.pdf`;
+    const url = cheatsheet.pdf_url
+      ?? (cheatsheet.r2_key ? `https://dl.pirateib.sh/Revision%20Dojo%20Archive/cheatsheets/${cheatsheet.r2_key}` : null);
+    if (!url) return;
     const link = document.createElement("a");
-    link.href = pdfUrl;
+    link.href = url;
     link.download = `${cheatsheet.title.replace(/[^a-z0-9-_]/gi, "_")}.pdf`;
     document.body.appendChild(link);
     link.click();
@@ -97,7 +101,8 @@ function CheatsheetDetailPage() {
     currentIndex >= 0 && currentIndex < allCheatsheets.length - 1
       ? allCheatsheets[currentIndex + 1]
       : null;
-  const pdfUrl = `https://dl.pirateib.sh/Revision%20Dojo%20Archive/cheatsheets/${cheatsheet.id}.pdf`;
+  const pdfUrl = cheatsheet.pdf_url
+    ?? (cheatsheet.r2_key ? `https://dl.pirateib.sh/Revision%20Dojo%20Archive/cheatsheets/${cheatsheet.r2_key}` : null);
 
   return (
     <div className="flex h-full min-h-0 w-full flex-col lg:flex-row">

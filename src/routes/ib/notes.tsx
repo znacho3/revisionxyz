@@ -3,9 +3,8 @@ import { createFileRoute } from '@tanstack/react-router'
 import { CentralIcon } from '@central-icons-react/all'
 import { SubjectCard } from '@/components/ui/SubjectCard'
 import ibSubjects from '@/data/ib-subjects.json'
-import type { NotesIndex } from '@/types/notesIndex'
-
 import { centralIconPropsOutlined28 } from '@/lib/icon-props'
+import { supabase } from '@/lib/supabase'
 
 type Subject = {
   slug: string
@@ -32,19 +31,11 @@ function IbNotesPage() {
   const [slugsWithNotes, setSlugsWithNotes] = useState<Set<string> | null>(null)
 
   useEffect(() => {
-    fetch('/notes-index.json')
-      .then((r) => (r.ok ? r.json() : null))
-      .then((index: NotesIndex | null) => {
-        if (!index?.subjects) {
-          setSlugsWithNotes(new Set())
-          return
-        }
-        const slugs = new Set<string>()
-        for (const [slug, subject] of Object.entries(index.subjects)) {
-          if ((subject.topics?.length ?? 0) > 0) slugs.add(slug)
-        }
-        setSlugsWithNotes(slugs)
-      })
+    supabase
+      .from('subjects')
+      .select('slug')
+      .eq('enable_notes', true)
+      .then(({ data }) => setSlugsWithNotes(new Set((data ?? []).map((r: any) => r.slug))))
       .catch(() => setSlugsWithNotes(new Set()))
   }, [])
 
@@ -64,27 +55,26 @@ function IbNotesPage() {
       {slugsWithNotes === null ? (
         <p className="text-muted-foreground">Loading…</p>
       ) : (
-      IB_GROUPS.map(({ id, title }) => {
-        const groupSubjects = subjects.filter((s) => s.group === id)
-        if (groupSubjects.length === 0) return null
-
-        return (
-          <section key={String(id)} className="space-y-4">
-            <h2 className="text-2xl font-bold font-manrope text-foreground tracking-tight">{title}</h2>
-            <div className="subject-card-grid grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-4">
-              {groupSubjects.map((subject) => (
-                <SubjectCard
-                  key={subject.slug}
-                  slug={subject.slug}
-                  title={subject.title}
-                  coverImageUrl={subject.coverImageUrl}
-                  linkToNotes
-                />
-              ))}
-            </div>
-          </section>
-        )
-      })
+        IB_GROUPS.map(({ id, title }) => {
+          const groupSubjects = subjects.filter((s) => s.group === id)
+          if (groupSubjects.length === 0) return null
+          return (
+            <section key={String(id)} className="space-y-4">
+              <h2 className="text-2xl font-bold font-manrope text-foreground tracking-tight">{title}</h2>
+              <div className="subject-card-grid grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-4">
+                {groupSubjects.map((subject) => (
+                  <SubjectCard
+                    key={subject.slug}
+                    slug={subject.slug}
+                    title={subject.title}
+                    coverImageUrl={subject.coverImageUrl}
+                    linkToNotes
+                  />
+                ))}
+              </div>
+            </section>
+          )
+        })
       )}
     </div>
   )

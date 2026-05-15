@@ -3,9 +3,8 @@ import { createFileRoute } from '@tanstack/react-router'
 import { CentralIcon } from '@central-icons-react/all'
 import { SubjectCard } from '@/components/ui/SubjectCard'
 import ibSubjects from '@/data/ib-subjects.json'
-import type { FlashcardsIndex } from '@/types/flashcardsIndex'
-
 import { centralIconPropsOutlined28 } from '@/lib/icon-props'
+import { supabase } from '@/lib/supabase'
 
 type Subject = {
   slug: string
@@ -32,19 +31,11 @@ function IbFlashcardsPage() {
   const [slugsWithFlashcards, setSlugsWithFlashcards] = useState<Set<string> | null>(null)
 
   useEffect(() => {
-    fetch('/flashcards-index.json')
-      .then((r) => (r.ok ? r.json() : null))
-      .then((index: FlashcardsIndex | null) => {
-        if (!index?.subjects) {
-          setSlugsWithFlashcards(new Set())
-          return
-        }
-        const slugs = new Set<string>()
-        for (const [slug, subject] of Object.entries(index.subjects)) {
-          if ((subject.deckCount ?? 0) > 0) slugs.add(slug)
-        }
-        setSlugsWithFlashcards(slugs)
-      })
+    supabase
+      .from('subjects')
+      .select('slug')
+      .eq('enable_flashcards', true)
+      .then(({ data }) => setSlugsWithFlashcards(new Set((data ?? []).map((r: any) => r.slug))))
       .catch(() => setSlugsWithFlashcards(new Set()))
   }, [])
 
@@ -67,7 +58,6 @@ function IbFlashcardsPage() {
         IB_GROUPS.map(({ id, title }) => {
           const groupSubjects = subjects.filter((s) => s.group === id)
           if (groupSubjects.length === 0) return null
-
           return (
             <section key={String(id)} className="space-y-4">
               <h2 className="text-2xl font-bold font-manrope text-foreground tracking-tight">{title}</h2>
