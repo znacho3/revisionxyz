@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { createRootRoute, Outlet, useNavigate, useRouterState } from '@tanstack/react-router'
 import { useAuth } from '@clerk/clerk-react'
 import { isUserOnboarded } from '@/lib/profile'
-import { OnboardingModal } from '@/components/OnboardingModal'
 import { Toaster } from 'sonner'
 import { ThemeProvider, useTheme } from 'next-themes'
 import { Menu } from 'lucide-react'
@@ -44,8 +43,14 @@ function AuthGuard() {
       if (pathname !== '/login') navigate({ to: '/login', replace: true })
       return
     }
-    if (pathname === '/login') navigate({ to: '/', replace: true })
-  }, [isLoaded, isSignedIn, pathname, navigate])
+    if (pathname === '/login') { navigate({ to: '/', replace: true }); return }
+    if (profileState === 'needs-onboarding' && pathname !== '/onboarding') {
+      navigate({ to: '/onboarding', replace: true })
+    }
+    if (profileState === 'onboarded' && pathname === '/onboarding') {
+      navigate({ to: '/', replace: true })
+    }
+  }, [isLoaded, isSignedIn, profileState, pathname, navigate])
 
   const loading = (
     <div className="flex h-dvh w-screen items-center justify-center bg-background">
@@ -60,14 +65,13 @@ function AuthGuard() {
   }
   if (profileState === 'checking') return loading
 
-  return (
-    <>
-      <AppLayout />
-      {profileState === 'needs-onboarding' && (
-        <OnboardingModal onComplete={() => setProfileState('onboarded')} />
-      )}
-    </>
-  )
+  // Onboarding renders without the app shell
+  if (profileState === 'needs-onboarding' || pathname === '/onboarding') {
+    if (pathname !== '/onboarding') return null
+    return <Outlet />
+  }
+
+  return <AppLayout />
 }
 
 function AppLayout() {
