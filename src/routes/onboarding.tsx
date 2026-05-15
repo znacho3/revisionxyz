@@ -73,7 +73,7 @@ function OnboardingPage() {
       <div className="mb-8">
         <div className="mb-3 flex items-center gap-3">
           <div className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-violet-100 dark:bg-violet-400/20">
-            <CentralIcon {...centralIconPropsFilled20} name="IconStars" className="text-violet-700 dark:text-violet-400" />
+            <CentralIcon {...centralIconPropsFilled20} name="IconGraduateCap" className="text-violet-700 dark:text-violet-400" />
           </div>
           <h1 className="font-manrope text-3xl font-bold tracking-tight text-foreground">My Subjects</h1>
         </div>
