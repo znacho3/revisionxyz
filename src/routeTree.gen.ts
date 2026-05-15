@@ -10,7 +10,6 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as PredictedPapersRouteImport } from './routes/predicted-papers'
-import { Route as OnboardingRouteImport } from './routes/onboarding'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as IbRouteImport } from './routes/ib'
 import { Route as IndexRouteImport } from './routes/index'
@@ -40,11 +39,6 @@ import { Route as IbSubjectNoteslugNotesRouteImport } from './routes/ib/$subject
 const PredictedPapersRoute = PredictedPapersRouteImport.update({
   id: '/predicted-papers',
   path: '/predicted-papers',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OnboardingRoute = OnboardingRouteImport.update({
-  id: '/onboarding',
-  path: '/onboarding',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LoginRoute = LoginRouteImport.update({
@@ -182,7 +176,6 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/ib': typeof IbRouteWithChildren
   '/login': typeof LoginRoute
-  '/onboarding': typeof OnboardingRoute
   '/predicted-papers': typeof PredictedPapersRouteWithChildren
   '/ib/$subject': typeof IbSubjectRouteWithChildren
   '/ib/cheatsheets': typeof IbCheatsheetsRouteWithChildren
@@ -210,7 +203,6 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
-  '/onboarding': typeof OnboardingRoute
   '/ib/flashcards': typeof IbFlashcardsRoute
   '/ib/notes': typeof IbNotesRoute
   '/ib/questions': typeof IbQuestionsRoute
@@ -237,7 +229,6 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/ib': typeof IbRouteWithChildren
   '/login': typeof LoginRoute
-  '/onboarding': typeof OnboardingRoute
   '/predicted-papers': typeof PredictedPapersRouteWithChildren
   '/ib/$subject': typeof IbSubjectRouteWithChildren
   '/ib/cheatsheets': typeof IbCheatsheetsRouteWithChildren
@@ -268,7 +259,6 @@ export interface FileRouteTypes {
     | '/'
     | '/ib'
     | '/login'
-    | '/onboarding'
     | '/predicted-papers'
     | '/ib/$subject'
     | '/ib/cheatsheets'
@@ -296,7 +286,6 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/login'
-    | '/onboarding'
     | '/ib/flashcards'
     | '/ib/notes'
     | '/ib/questions'
@@ -322,7 +311,6 @@ export interface FileRouteTypes {
     | '/'
     | '/ib'
     | '/login'
-    | '/onboarding'
     | '/predicted-papers'
     | '/ib/$subject'
     | '/ib/cheatsheets'
@@ -352,7 +340,6 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   IbRoute: typeof IbRouteWithChildren
   LoginRoute: typeof LoginRoute
-  OnboardingRoute: typeof OnboardingRoute
   PredictedPapersRoute: typeof PredictedPapersRouteWithChildren
   BotsIndexRoute: typeof BotsIndexRoute
   ChatBotIdChatIdRoute: typeof ChatBotIdChatIdRoute
@@ -365,13 +352,6 @@ declare module '@tanstack/react-router' {
       path: '/predicted-papers'
       fullPath: '/predicted-papers'
       preLoaderRoute: typeof PredictedPapersRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/onboarding': {
-      id: '/onboarding'
-      path: '/onboarding'
-      fullPath: '/onboarding'
-      preLoaderRoute: typeof OnboardingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/login': {
@@ -635,7 +615,6 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   IbRoute: IbRouteWithChildren,
   LoginRoute: LoginRoute,
-  OnboardingRoute: OnboardingRoute,
   PredictedPapersRoute: PredictedPapersRouteWithChildren,
   BotsIndexRoute: BotsIndexRoute,
   ChatBotIdChatIdRoute: ChatBotIdChatIdRoute,

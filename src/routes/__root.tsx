@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { createRootRoute, Outlet, useNavigate, useRouterState } from '@tanstack/react-router'
 import { useAuth } from '@clerk/clerk-react'
 import { isUserOnboarded } from '@/lib/profile'
+import { OnboardingModal } from '@/components/OnboardingModal'
 import { Toaster } from 'sonner'
 import { ThemeProvider, useTheme } from 'next-themes'
 import { Menu } from 'lucide-react'
@@ -29,7 +30,6 @@ function AuthGuard() {
   const pathname = useRouterState().location.pathname
   const [profileState, setProfileState] = useState<ProfileState>('checking')
 
-  // Check profile once we know the user is signed in
   useEffect(() => {
     if (!isLoaded || !isSignedIn || !userId) return
     setProfileState('checking')
@@ -38,21 +38,14 @@ function AuthGuard() {
     })
   }, [isLoaded, isSignedIn, userId])
 
-  // Navigation
   useEffect(() => {
     if (!isLoaded) return
     if (!isSignedIn) {
       if (pathname !== '/login') navigate({ to: '/login', replace: true })
       return
     }
-    if (pathname === '/login') { navigate({ to: '/', replace: true }); return }
-    if (profileState === 'needs-onboarding' && pathname !== '/onboarding') {
-      navigate({ to: '/onboarding', replace: true })
-    }
-    if (profileState === 'onboarded' && pathname === '/onboarding') {
-      navigate({ to: '/', replace: true })
-    }
-  }, [isLoaded, isSignedIn, profileState, pathname, navigate])
+    if (pathname === '/login') navigate({ to: '/', replace: true })
+  }, [isLoaded, isSignedIn, pathname, navigate])
 
   const loading = (
     <div className="flex h-dvh w-screen items-center justify-center bg-background">
@@ -65,16 +58,16 @@ function AuthGuard() {
     if (pathname !== '/login') return null
     return <Outlet />
   }
-  // Signed in but profile not yet checked
   if (profileState === 'checking') return loading
-  // Needs onboarding
-  if (profileState === 'needs-onboarding') {
-    if (pathname !== '/onboarding') return null
-    return <Outlet />
-  }
-  // Fully onboarded — but let onboarding page also render without AppLayout
-  if (pathname === '/onboarding') return <Outlet />
-  return <AppLayout />
+
+  return (
+    <>
+      <AppLayout />
+      {profileState === 'needs-onboarding' && (
+        <OnboardingModal onComplete={() => setProfileState('onboarded')} />
+      )}
+    </>
+  )
 }
 
 function AppLayout() {
