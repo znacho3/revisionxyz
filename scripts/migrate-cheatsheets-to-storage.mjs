@@ -85,8 +85,7 @@ async function migratePdfs(cheatsheets) {
   let ok = 0, fail = 0;
   for (let i = 0; i < cheatsheets.length; i++) {
     const c = cheatsheets[i];
-    if (!c.r2_key) continue;
-    const url = R2_BASE + encodeURIComponent(c.r2_key);
+    const url = R2_BASE + c.id + '.pdf';
     try {
       const res = await fetch(url);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -118,7 +117,7 @@ async function updateUrls(cheatsheets) {
 }
 
 console.log('Fetching cheatsheet list…');
-const { data: cheatsheets, error } = await sb.from('cheatsheets').select('id, r2_key');
+const { data: cheatsheets, error } = await sb.from('cheatsheets').select('id');
 if (error) { console.error(error.message); process.exit(1); }
 console.log(`Found ${cheatsheets.length} cheatsheets`);
 

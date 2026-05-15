@@ -21,7 +21,7 @@
   // Fetch cheatsheet list from Supabase
   console.log('[2/4] Fetching list…');
   const sheets = await fetch(
-    `${SUPABASE_URL}/rest/v1/cheatsheets?select=id,title,r2_key,subject_title&order=subject_title.asc,title.asc&limit=1000`,
+    `${SUPABASE_URL}/rest/v1/cheatsheets?select=id,title,subject_title&order=subject_title.asc,title.asc&limit=1000`,
     { headers: { apikey: SUPABASE_KEY, Authorization: `Bearer ${SUPABASE_KEY}` } }
   ).then(r => r.json());
   console.log(`[2/4] ${sheets.length} cheatsheets`);
@@ -33,7 +33,7 @@
 
   for (let i = 0; i < sheets.length; i++) {
     const c = sheets[i];
-    const url = PDF_BASE + encodeURIComponent(c.r2_key);
+    const url = PDF_BASE + c.id + '.pdf';
     const folder = (c.subject_title || 'Other').replace(/[/\\?%*:|"<>]/g, '-');
     const file = c.title.replace(/[/\\?%*:|"<>]/g, '-') + '.pdf';
 

@@ -15,7 +15,6 @@ type CheatsheetRow = {
   subject_slug: string | null;
   subject_title: string | null;
   thumbnail_url: string | null;
-  r2_key: string | null;
   pdf_url: string | null;
 };
 
@@ -43,7 +42,7 @@ function CheatsheetDetailPage() {
     let cancelled = false;
     supabase
       .from("cheatsheets")
-      .select("id, title, is_premium, subject_slug, subject_title, thumbnail_url, r2_key, pdf_url")
+      .select("id, title, is_premium, subject_slug, subject_title, thumbnail_url, pdf_url")
       .order("subject_title")
       .order("title")
       .then(({ data: rows }) => {
@@ -73,7 +72,7 @@ function CheatsheetDetailPage() {
   const handleDownload = () => {
     if (!cheatsheet) return;
     const url = cheatsheet.pdf_url
-      ?? (cheatsheet.r2_key ? `https://dl.pirateib.sh/Revision%20Dojo%20Archive/cheatsheets/${cheatsheet.r2_key}` : null);
+      ?? `https://dl.pirateib.sh/Revision%20Dojo%20Archive/cheatsheets/${cheatsheet.id}.pdf`;
     if (!url) return;
     const link = document.createElement("a");
     link.href = url;
@@ -102,7 +101,7 @@ function CheatsheetDetailPage() {
       ? allCheatsheets[currentIndex + 1]
       : null;
   const pdfUrl = cheatsheet.pdf_url
-    ?? (cheatsheet.r2_key ? `https://dl.pirateib.sh/Revision%20Dojo%20Archive/cheatsheets/${cheatsheet.r2_key}` : null);
+    ?? `https://dl.pirateib.sh/Revision%20Dojo%20Archive/cheatsheets/${cheatsheet.id}.pdf`;
 
   return (
     <div className="flex h-full min-h-0 w-full flex-col lg:flex-row">
