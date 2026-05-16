@@ -151,6 +151,7 @@ export function SidebarContent({
       </div>
 
       <div className="mt-auto flex flex-col space-y-0.5 pb-2.5">
+        <NavItem {...shared} to="/settings" active={isActive("/settings")} rowClassName={isActive("/settings") ? "bg-muted text-foreground" : navInactive} iconClassName={isActive("/settings") ? "text-foreground" : iconInactive} icon={filledIcon("IconSettingsGear1")} label="Settings" title="Settings" />
         <NavItem {...shared} onClick={cycleTheme} aria-label={`Theme: ${currentTheme}`} title="Theme" rowClassName={navInactive} iconClassName={iconInactive} icon={(cls) => <CentralIcon {...centralIconPropsOutlined20} name={THEME_ICONS[currentTheme]} className={cls} />} label="Theme" />
       </div>
     </div>

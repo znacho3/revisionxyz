@@ -1,6 +1,7 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import { SubjectCard } from '@/components/ui/SubjectCard'
 import ibSubjects from '@/data/ib-subjects.json'
+import { useMySubjects } from '@/hooks/useMySubjects'
 
 type Subject = {
   slug: string
@@ -24,6 +25,11 @@ export const Route = createFileRoute('/ib/')({
 
 function IBPage() {
   const subjects = ibSubjects as Subject[]
+  const mySubjects = useMySubjects()
+
+  const mySlugs = new Set(mySubjects?.map(s => s.slug) ?? [])
+  const mySubjectItems = subjects.filter(s => mySlugs.has(s.slug))
+  const otherSubjects = subjects.filter(s => !mySlugs.has(s.slug))
 
   return (
     <div className="container mx-auto max-w-5xl space-y-6 px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8 lg:pt-12">
@@ -31,8 +37,29 @@ function IBPage() {
         International Baccalaureate (IB)
       </h1>
 
+      {mySubjectItems.length > 0 && (
+        <section className="space-y-4">
+          <div className="flex items-center justify-between">
+            <h2 className="text-2xl font-bold font-manrope text-foreground tracking-tight">My Subjects</h2>
+            <Link to="/settings" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+              Edit subjects
+            </Link>
+          </div>
+          <div className="subject-card-grid grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-4">
+            {mySubjectItems.map((subject) => (
+              <SubjectCard
+                key={subject.slug}
+                slug={subject.slug}
+                title={subject.title}
+                coverImageUrl={subject.coverImageUrl}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
       {IB_GROUPS.map(({ id, title }) => {
-        const groupSubjects = subjects.filter((s) => s.group === id)
+        const groupSubjects = otherSubjects.filter((s) => s.group === id)
         if (groupSubjects.length === 0) return null
 
         return (

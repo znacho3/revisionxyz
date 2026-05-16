@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react'
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import { CentralIcon } from '@central-icons-react/all'
 import { SubjectCard } from '@/components/ui/SubjectCard'
 import ibSubjects from '@/data/ib-subjects.json'
 import { centralIconPropsOutlined28 } from '@/lib/icon-props'
 import { supabase } from '@/lib/supabase'
+import { useMySubjects } from '@/hooks/useMySubjects'
 
 type Subject = {
   slug: string
@@ -29,6 +30,7 @@ export const Route = createFileRoute('/ib/notes')({
 function IbNotesPage() {
   const allSubjects = ibSubjects as Subject[]
   const [slugsWithNotes, setSlugsWithNotes] = useState<Set<string> | null>(null)
+  const mySubjects = useMySubjects()
 
   useEffect(() => {
     supabase
@@ -40,6 +42,10 @@ function IbNotesPage() {
   }, [])
 
   const subjects = slugsWithNotes ? allSubjects.filter((s) => slugsWithNotes.has(s.slug)) : []
+
+  const mySlugs = new Set(mySubjects?.map(s => s.slug) ?? [])
+  const myAvailable = subjects.filter(s => mySlugs.has(s.slug))
+  const otherSubjects = subjects.filter(s => !mySlugs.has(s.slug))
 
   return (
     <div className="container mx-auto max-w-5xl space-y-6 px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8 lg:pt-12">
@@ -55,14 +61,17 @@ function IbNotesPage() {
       {slugsWithNotes === null ? (
         <p className="text-muted-foreground">Loading…</p>
       ) : (
-        IB_GROUPS.map(({ id, title }) => {
-          const groupSubjects = subjects.filter((s) => s.group === id)
-          if (groupSubjects.length === 0) return null
-          return (
-            <section key={String(id)} className="space-y-4">
-              <h2 className="text-2xl font-bold font-manrope text-foreground tracking-tight">{title}</h2>
+        <>
+          {myAvailable.length > 0 && (
+            <section className="space-y-4">
+              <div className="flex items-center justify-between">
+                <h2 className="text-2xl font-bold font-manrope text-foreground tracking-tight">My Subjects</h2>
+                <Link to="/settings" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+                  Edit subjects
+                </Link>
+              </div>
               <div className="subject-card-grid grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-4">
-                {groupSubjects.map((subject) => (
+                {myAvailable.map((subject) => (
                   <SubjectCard
                     key={subject.slug}
                     slug={subject.slug}
@@ -73,8 +82,28 @@ function IbNotesPage() {
                 ))}
               </div>
             </section>
-          )
-        })
+          )}
+          {IB_GROUPS.map(({ id, title }) => {
+            const groupSubjects = otherSubjects.filter((s) => s.group === id)
+            if (groupSubjects.length === 0) return null
+            return (
+              <section key={String(id)} className="space-y-4">
+                <h2 className="text-2xl font-bold font-manrope text-foreground tracking-tight">{title}</h2>
+                <div className="subject-card-grid grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-4">
+                  {groupSubjects.map((subject) => (
+                    <SubjectCard
+                      key={subject.slug}
+                      slug={subject.slug}
+                      title={subject.title}
+                      coverImageUrl={subject.coverImageUrl}
+                      linkToNotes
+                    />
+                  ))}
+                </div>
+              </section>
+            )
+          })}
+        </>
       )}
     </div>
   )

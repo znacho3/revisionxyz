@@ -21,6 +21,15 @@ export function markOnboarded(clerkId: string) {
   cache[clerkId] = true
 }
 
+export async function loadProfile(clerkId: string): Promise<SelectedSubject[]> {
+  const { data } = await supabase
+    .from('user_profiles')
+    .select('subjects')
+    .eq('clerk_id', clerkId)
+    .maybeSingle()
+  return (data?.subjects as SelectedSubject[]) ?? []
+}
+
 export async function saveProfile(clerkId: string, subjects: SelectedSubject[]) {
   await supabase.from('user_profiles').upsert(
     { clerk_id: clerkId, subjects, onboarded_at: new Date().toISOString(), updated_at: new Date().toISOString() },

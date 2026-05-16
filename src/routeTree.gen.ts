@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as PredictedPapersRouteImport } from './routes/predicted-papers'
 import { Route as OnboardingRouteImport } from './routes/onboarding'
 import { Route as LoginRouteImport } from './routes/login'
@@ -37,6 +38,11 @@ import { Route as IbSubjectTopicslugQuestionbankRouteImport } from './routes/ib/
 import { Route as IbSubjectTopicslugFlashcardsRouteImport } from './routes/ib/$subject/$topicslug/flashcards'
 import { Route as IbSubjectNoteslugNotesRouteImport } from './routes/ib/$subject/$noteslug/notes'
 
+const SettingsRoute = SettingsRouteImport.update({
+  id: '/settings',
+  path: '/settings',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PredictedPapersRoute = PredictedPapersRouteImport.update({
   id: '/predicted-papers',
   path: '/predicted-papers',
@@ -183,6 +189,7 @@ export interface FileRoutesByFullPath {
   '/ib': typeof IbRouteWithChildren
   '/login': typeof LoginRoute
   '/onboarding': typeof OnboardingRoute
+  '/settings': typeof SettingsRoute
   '/predicted-papers': typeof PredictedPapersRouteWithChildren
   '/ib/$subject': typeof IbSubjectRouteWithChildren
   '/ib/cheatsheets': typeof IbCheatsheetsRouteWithChildren
@@ -211,6 +218,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
   '/onboarding': typeof OnboardingRoute
+  '/settings': typeof SettingsRoute
   '/ib/flashcards': typeof IbFlashcardsRoute
   '/ib/notes': typeof IbNotesRoute
   '/ib/questions': typeof IbQuestionsRoute
@@ -238,6 +246,7 @@ export interface FileRoutesById {
   '/ib': typeof IbRouteWithChildren
   '/login': typeof LoginRoute
   '/onboarding': typeof OnboardingRoute
+  '/settings': typeof SettingsRoute
   '/predicted-papers': typeof PredictedPapersRouteWithChildren
   '/ib/$subject': typeof IbSubjectRouteWithChildren
   '/ib/cheatsheets': typeof IbCheatsheetsRouteWithChildren
@@ -269,6 +278,7 @@ export interface FileRouteTypes {
     | '/ib'
     | '/login'
     | '/onboarding'
+    | '/settings'
     | '/predicted-papers'
     | '/ib/$subject'
     | '/ib/cheatsheets'
@@ -297,6 +307,7 @@ export interface FileRouteTypes {
     | '/'
     | '/login'
     | '/onboarding'
+    | '/settings'
     | '/ib/flashcards'
     | '/ib/notes'
     | '/ib/questions'
@@ -323,6 +334,7 @@ export interface FileRouteTypes {
     | '/ib'
     | '/login'
     | '/onboarding'
+    | '/settings'
     | '/predicted-papers'
     | '/ib/$subject'
     | '/ib/cheatsheets'
@@ -353,6 +365,7 @@ export interface RootRouteChildren {
   IbRoute: typeof IbRouteWithChildren
   LoginRoute: typeof LoginRoute
   OnboardingRoute: typeof OnboardingRoute
+  SettingsRoute: typeof SettingsRoute
   PredictedPapersRoute: typeof PredictedPapersRouteWithChildren
   BotsIndexRoute: typeof BotsIndexRoute
   ChatBotIdChatIdRoute: typeof ChatBotIdChatIdRoute
@@ -372,6 +385,13 @@ declare module '@tanstack/react-router' {
       path: '/onboarding'
       fullPath: '/onboarding'
       preLoaderRoute: typeof OnboardingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/settings': {
+      id: '/settings'
+      path: '/settings'
+      fullPath: '/settings'
+      preLoaderRoute: typeof SettingsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/login': {
@@ -636,6 +656,7 @@ const rootRouteChildren: RootRouteChildren = {
   IbRoute: IbRouteWithChildren,
   LoginRoute: LoginRoute,
   OnboardingRoute: OnboardingRoute,
+  SettingsRoute: SettingsRoute,
   PredictedPapersRoute: PredictedPapersRouteWithChildren,
   BotsIndexRoute: BotsIndexRoute,
   ChatBotIdChatIdRoute: ChatBotIdChatIdRoute,
