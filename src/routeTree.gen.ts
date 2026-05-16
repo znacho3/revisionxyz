@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ExamRouteImport } from './routes/exam'
 import { Route as SettingsRouteImport } from './routes/settings'
 import { Route as PredictedPapersRouteImport } from './routes/predicted-papers'
 import { Route as OnboardingRouteImport } from './routes/onboarding'
@@ -38,6 +39,11 @@ import { Route as IbSubjectTopicslugQuestionbankRouteImport } from './routes/ib/
 import { Route as IbSubjectTopicslugFlashcardsRouteImport } from './routes/ib/$subject/$topicslug/flashcards'
 import { Route as IbSubjectNoteslugNotesRouteImport } from './routes/ib/$subject/$noteslug/notes'
 
+const ExamRoute = ExamRouteImport.update({
+  id: '/exam',
+  path: '/exam',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SettingsRoute = SettingsRouteImport.update({
   id: '/settings',
   path: '/settings',
@@ -189,6 +195,7 @@ export interface FileRoutesByFullPath {
   '/ib': typeof IbRouteWithChildren
   '/login': typeof LoginRoute
   '/onboarding': typeof OnboardingRoute
+  '/exam': typeof ExamRoute
   '/settings': typeof SettingsRoute
   '/predicted-papers': typeof PredictedPapersRouteWithChildren
   '/ib/$subject': typeof IbSubjectRouteWithChildren
@@ -218,6 +225,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
   '/onboarding': typeof OnboardingRoute
+  '/exam': typeof ExamRoute
   '/settings': typeof SettingsRoute
   '/ib/flashcards': typeof IbFlashcardsRoute
   '/ib/notes': typeof IbNotesRoute
@@ -246,6 +254,7 @@ export interface FileRoutesById {
   '/ib': typeof IbRouteWithChildren
   '/login': typeof LoginRoute
   '/onboarding': typeof OnboardingRoute
+  '/exam': typeof ExamRoute
   '/settings': typeof SettingsRoute
   '/predicted-papers': typeof PredictedPapersRouteWithChildren
   '/ib/$subject': typeof IbSubjectRouteWithChildren
@@ -278,6 +287,7 @@ export interface FileRouteTypes {
     | '/ib'
     | '/login'
     | '/onboarding'
+    | '/exam'
     | '/settings'
     | '/predicted-papers'
     | '/ib/$subject'
@@ -307,6 +317,7 @@ export interface FileRouteTypes {
     | '/'
     | '/login'
     | '/onboarding'
+    | '/exam'
     | '/settings'
     | '/ib/flashcards'
     | '/ib/notes'
@@ -334,6 +345,7 @@ export interface FileRouteTypes {
     | '/ib'
     | '/login'
     | '/onboarding'
+    | '/exam'
     | '/settings'
     | '/predicted-papers'
     | '/ib/$subject'
@@ -365,6 +377,7 @@ export interface RootRouteChildren {
   IbRoute: typeof IbRouteWithChildren
   LoginRoute: typeof LoginRoute
   OnboardingRoute: typeof OnboardingRoute
+  ExamRoute: typeof ExamRoute
   SettingsRoute: typeof SettingsRoute
   PredictedPapersRoute: typeof PredictedPapersRouteWithChildren
   BotsIndexRoute: typeof BotsIndexRoute
@@ -385,6 +398,13 @@ declare module '@tanstack/react-router' {
       path: '/onboarding'
       fullPath: '/onboarding'
       preLoaderRoute: typeof OnboardingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/exam': {
+      id: '/exam'
+      path: '/exam'
+      fullPath: '/exam'
+      preLoaderRoute: typeof ExamRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/settings': {
@@ -656,6 +676,7 @@ const rootRouteChildren: RootRouteChildren = {
   IbRoute: IbRouteWithChildren,
   LoginRoute: LoginRoute,
   OnboardingRoute: OnboardingRoute,
+  ExamRoute: ExamRoute,
   SettingsRoute: SettingsRoute,
   PredictedPapersRoute: PredictedPapersRouteWithChildren,
   BotsIndexRoute: BotsIndexRoute,

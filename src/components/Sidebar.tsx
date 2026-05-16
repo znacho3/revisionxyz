@@ -140,6 +140,7 @@ export function SidebarContent({
 
           {divider("Study")}
 
+          <NavItem {...shared} to="/exam" active={isActive("/exam")} rowClassName={isActive("/exam") ? "bg-orange-100 text-orange-700 dark:bg-orange-400/25 dark:text-orange-300" : navInactive} iconClassName={isActive("/exam") ? "text-orange-700 dark:text-orange-300" : iconInactive} icon={filledIcon("IconPencilSparkle")} label="Exam Generator" title="Exam Generator" />
           <NavItem {...shared} to="/ib/notes" active={isNotes} rowClassName={isNotes ? "bg-yellow-100 text-yellow-700 dark:bg-yellow-400/25 dark:text-yellow-400" : navInactive} iconClassName={isNotes ? "text-yellow-700 dark:text-yellow-400" : iconInactive} icon={filledIcon("IconSketchbook")} label="Notes" title="Notes" />
           <NavItem {...shared} to="/ib/questions" active={isQuestionbank} rowClassName={isQuestionbank ? "bg-indigo-100 text-indigo-700 dark:bg-indigo-400/25 dark:text-indigo-300" : navInactive} iconClassName={isQuestionbank ? "text-indigo-700 dark:text-indigo-300" : iconInactive} icon={filledIcon("IconCircleQuestionmark")} label="Questionbank" title="Questionbank" />
           <NavItem {...shared} to="/ib/flashcards" active={isFlashcards} rowClassName={isFlashcards ? "bg-sky-100 text-sky-700 dark:bg-sky-400/25 dark:text-sky-300" : navInactive} iconClassName={isFlashcards ? "text-sky-700 dark:text-sky-300" : iconInactive} icon={filledIcon("IconFlashcards")} label="Flashcards" title="Flashcards" />
