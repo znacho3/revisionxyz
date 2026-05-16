@@ -7,6 +7,7 @@ import TopicModeTabs from "@/components/subject/TopicModeTabs";
 import { PdfPreview } from "@/components/predictedpapers/PdfPreview";
 import type { PredictedPaper } from "@/types/predictedpaper";
 import type { Subject } from "@/types/ib";
+import { supabase } from "@/lib/supabase";
 
 const subjectsData = subjectsDataRaw as Subject[];
 
@@ -28,18 +29,16 @@ function SubjectPredictedPapersPage() {
   const [papers, setPapers] = useState<PredictedPaper[] | null>(null);
 
   useEffect(() => {
-    if (!subjectSlug) {
-      setPapers(null);
-      return;
-    }
-    fetch("/predictedpapers_info.json")
-      .then((r) => (r.ok ? r.json() : null))
-      .then((json: PredictedPaper[] | null) => {
-        if (!Array.isArray(json)) {
-          setPapers([]);
-          return;
-        }
-        setPapers(json.filter((p) => p.subject.slug.current === subjectSlug));
+    if (!subjectSlug) { setPapers(null); return; }
+    supabase
+      .from("predicted_papers")
+      .select("data, pdf_url")
+      .then(({ data: rows }) => {
+        const all = (rows ?? []).map((r) => ({
+          ...(r.data as PredictedPaper),
+          pdf_url: r.pdf_url as string | null,
+        }));
+        setPapers(all.filter((p) => p.subject?.slug?.current === subjectSlug));
       })
       .catch(() => setPapers([]));
   }, [subjectSlug]);
