@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { CentralIcon } from "@central-icons-react/all";
 import { Streamdown, defaultRemarkPlugins } from "streamdown";
@@ -42,8 +42,20 @@ type Question = {
 };
 
 type TopicEntry = { slug: string; title: string };
+type TopicGroup = { parentSlug: string; parentTitle: string; items: TopicEntry[] };
+type ExamHistoryEntry = {
+  id: string;
+  date: string;
+  subjectSlug: string;
+  subjectTitle: string;
+  selectedTopics: string[];
+  numQuestions: number;
+  levelFilter: string;
+  includeCompleted: boolean;
+};
 
 const REMARK_PLUGINS = [...Object.values(defaultRemarkPlugins), remarkMath];
+const HISTORY_KEY = "exam_history";
 
 function shuffle<T>(arr: T[]): T[] {
   const a = [...arr];
@@ -69,6 +81,7 @@ function paperLabel(paper: string): string {
   const map: Record<string, string> = { "ib-1": "Paper 1", "ib-2": "Paper 2", "ib-3": "Paper 3", "ib-1a": "Paper 1A", "ib-1b": "Paper 1B", "ib-unknown": "Unknown" };
   return map[paper] ?? paper;
 }
+
 function levelLabel(level: string): string {
   if (level === "hl") return "HL";
   if (level === "sl") return "SL";
@@ -76,12 +89,35 @@ function levelLabel(level: string): string {
   return level;
 }
 
+function relativeDate(isoString: string): string {
+  const diffMs = Date.now() - new Date(isoString).getTime();
+  const diffMin = Math.floor(diffMs / 60000);
+  const diffH = Math.floor(diffMin / 60);
+  const diffD = Math.floor(diffH / 24);
+  if (diffMin < 1) return "just now";
+  if (diffMin < 60) return `${diffMin}m ago`;
+  if (diffH < 24) return `${diffH}h ago`;
+  if (diffD === 1) return "yesterday";
+  if (diffD < 7) return `${diffD}d ago`;
+  return new Date(isoString).toLocaleDateString();
+}
+
+function loadHistory(): ExamHistoryEntry[] {
+  try {
+    return JSON.parse(localStorage.getItem(HISTORY_KEY) ?? "[]") as ExamHistoryEntry[];
+  } catch {
+    return [];
+  }
+}
+
+// chip style helpers
+const chipActive = "border-orange-500 bg-orange-500/10 text-orange-700 dark:border-orange-400 dark:text-orange-400";
+const chipInactive = "border-border text-foreground hover:border-orange-400 hover:bg-orange-50 dark:hover:border-orange-500 dark:hover:bg-orange-400/10";
+
 // ─── Configure phase ─────────────────────────────────────────────────────────
 
 function ExamPage() {
   const ibSubjects = ibSubjectsRaw as IbSubject[];
-
-  // Subjects that actually have questions
   const [subjectsWithQb, setSubjectsWithQb] = useState<Set<string> | null>(null);
 
   useEffect(() => {
@@ -98,13 +134,18 @@ function ExamPage() {
 
   // Config state
   const [subjectSlug, setSubjectSlug] = useState("");
-  const [topics, setTopics] = useState<TopicEntry[]>([]);
+  const [topicGroups, setTopicGroups] = useState<TopicGroup[]>([]);
   const [loadingTopics, setLoadingTopics] = useState(false);
   const [selectedTopics, setSelectedTopics] = useState<Set<string>>(new Set());
   const [numQuestions, setNumQuestions] = useState(10);
   const [includeCompleted, setIncludeCompleted] = useState(true);
   const [levelFilter, setLevelFilter] = useState("all");
   const [generating, setGenerating] = useState(false);
+  const [history, setHistory] = useState<ExamHistoryEntry[]>([]);
+
+  const pendingTopicsRef = useRef<string[] | null>(null);
+  const historyRef = useRef<ExamHistoryEntry[]>([]);
+  useEffect(() => { historyRef.current = history; }, [history]);
 
   // Exam state
   const [examQuestions, setExamQuestions] = useState<Question[] | null>(null);
@@ -113,30 +154,47 @@ function ExamPage() {
   const [showAllAnswers, setShowAllAnswers] = useState(false);
   const [examDone, setExamDone] = useState<Set<string>>(new Set());
 
+  useEffect(() => { setHistory(loadHistory()); }, []);
+
   // Load topics when subject changes
   useEffect(() => {
-    if (!subjectSlug) { setTopics([]); setSelectedTopics(new Set()); return; }
+    if (!subjectSlug) { setTopicGroups([]); setSelectedTopics(new Set()); return; }
     setLoadingTopics(true);
-    setSelectedTopics(new Set());
     Promise.all([
       supabase.from("subjects").select("data").eq("slug", subjectSlug).single(),
       supabase.from("questions").select("topic_slug").eq("subject_slug", subjectSlug),
     ]).then(([{ data: subRow }, { data: qRows }]) => {
       const detail = subRow?.data as { topics?: { slug: string; title: string; childTopics?: { slug: string; title: string }[] }[] } | null;
       const qbSlugs = new Set((qRows ?? []).map((r: any) => r.topic_slug).filter(Boolean));
-      const flat: TopicEntry[] = [];
+      const groups: TopicGroup[] = [];
       for (const t of detail?.topics ?? []) {
         if (t.childTopics?.length) {
-          t.childTopics.filter((c) => qbSlugs.has(c.slug)).forEach((c) => flat.push({ slug: c.slug, title: c.title }));
+          const valid = t.childTopics.filter((c) => qbSlugs.has(c.slug));
+          if (valid.length > 0) groups.push({ parentSlug: t.slug, parentTitle: t.title, items: valid });
         } else if (qbSlugs.has(t.slug)) {
-          flat.push({ slug: t.slug, title: t.title });
+          groups.push({ parentSlug: t.slug, parentTitle: t.title, items: [{ slug: t.slug, title: t.title }] });
         }
       }
-      setTopics(flat);
-      setSelectedTopics(new Set(flat.map((t) => t.slug)));
+      setTopicGroups(groups);
+      const flat = groups.flatMap((g) => g.items);
+      if (pendingTopicsRef.current !== null) {
+        const valid = new Set(flat.map((t) => t.slug));
+        setSelectedTopics(new Set(pendingTopicsRef.current.filter((s) => valid.has(s))));
+        pendingTopicsRef.current = null;
+      } else {
+        setSelectedTopics(new Set(flat.map((t) => t.slug)));
+      }
       setLoadingTopics(false);
-    }).catch(() => { setTopics([]); setLoadingTopics(false); });
+    }).catch(() => { setTopicGroups([]); setLoadingTopics(false); });
   }, [subjectSlug]);
+
+  const allTopics = useMemo(() => topicGroups.flatMap((g) => g.items), [topicGroups]);
+
+  // True when at least one parent topic has multiple children (needs grouped display)
+  const hasNestedTopics = useMemo(
+    () => topicGroups.some((g) => g.items.length > 1 || (g.items[0] && g.items[0].slug !== g.parentSlug)),
+    [topicGroups]
+  );
 
   function toggleTopic(slug: string) {
     setSelectedTopics((prev) => {
@@ -145,6 +203,26 @@ function ExamPage() {
       else next.add(slug);
       return next;
     });
+  }
+
+  function toggleGroup(group: TopicGroup) {
+    const slugs = group.items.map((t) => t.slug);
+    const allSelected = slugs.every((s) => selectedTopics.has(s));
+    setSelectedTopics((prev) => {
+      const next = new Set(prev);
+      if (allSelected) slugs.forEach((s) => next.delete(s));
+      else slugs.forEach((s) => next.add(s));
+      return next;
+    });
+  }
+
+  function loadFromHistory(entry: ExamHistoryEntry) {
+    pendingTopicsRef.current = entry.selectedTopics;
+    setNumQuestions(entry.numQuestions);
+    setLevelFilter(entry.levelFilter);
+    setIncludeCompleted(entry.includeCompleted);
+    setSubjectSlug(entry.subjectSlug);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   const generate = useCallback(async () => {
@@ -162,12 +240,9 @@ function ExamPage() {
         .map((r) => r.data as Question)
         .filter((q) => q.questionSet !== "TEACHER");
 
-      // Level filter
       if (levelFilter !== "all") {
         questions = questions.filter((q) => q.level === levelFilter || q.level === "both");
       }
-
-      // Completed filter
       if (!includeCompleted) {
         const completedIds = getCompletedForSubject(subjectSlug, topicList);
         questions = questions.filter((q) => !completedIds.has(q.id));
@@ -179,10 +254,24 @@ function ExamPage() {
       setAnswersShown(new Set());
       setShowAllAnswers(false);
       setExamDone(new Set());
+
+      const entry: ExamHistoryEntry = {
+        id: crypto.randomUUID(),
+        date: new Date().toISOString(),
+        subjectSlug,
+        subjectTitle: availableSubjects.find((s) => s.slug === subjectSlug)?.title ?? subjectSlug,
+        selectedTopics: topicList,
+        numQuestions: picked.length,
+        levelFilter,
+        includeCompleted,
+      };
+      const newHistory = [entry, ...historyRef.current].slice(0, 10);
+      localStorage.setItem(HISTORY_KEY, JSON.stringify(newHistory));
+      setHistory(newHistory);
     } finally {
       setGenerating(false);
     }
-  }, [subjectSlug, selectedTopics, numQuestions, includeCompleted, levelFilter]);
+  }, [subjectSlug, selectedTopics, numQuestions, includeCompleted, levelFilter, availableSubjects]);
 
   // ── Exam phase ──
   if (examQuestions !== null) {
@@ -207,206 +296,271 @@ function ExamPage() {
     );
   }
 
-  // ── Configure phase ──
   const canGenerate = subjectSlug && selectedTopics.size > 0 && !loadingTopics;
 
   return (
-    <div className="container mx-auto max-w-3xl space-y-8 px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8 lg:pt-12">
-      {/* Header */}
-      <div className="flex flex-row items-center gap-4">
-        <span className="rounded-2xl bg-orange-100 p-2 text-orange-700 dark:bg-orange-400/25 dark:text-orange-300">
+    <div className="container mx-auto max-w-3xl px-4 py-4 sm:px-6 sm:py-6 lg:px-8 lg:py-8 lg:pt-12 space-y-6">
+
+      {/* Centered header */}
+      <div className="flex flex-col items-center text-center py-4 sm:py-6">
+        <div className="inline-flex rounded-2xl bg-orange-100 p-3.5 text-orange-700 dark:bg-orange-400/25 dark:text-orange-300 mb-4">
           <CentralIcon {...centralIconPropsOutlined28} name="IconPencilSparkle" className="size-8" />
-        </span>
-        <h1 className="font-manrope text-4xl font-bold tracking-tight text-foreground">
-          Exam Generator
-        </h1>
+        </div>
+        <h1 className="font-manrope text-4xl font-bold tracking-tight text-foreground">Exam Generator</h1>
+        <p className="mt-2 text-sm text-muted-foreground max-w-xs">Select a subject and topics to generate a custom practice exam</p>
       </div>
 
       {subjectsWithQb === null ? (
-        <p className="text-muted-foreground">Loading subjects…</p>
+        <p className="text-center text-muted-foreground">Loading…</p>
       ) : (
-        <div className="space-y-8">
+        <>
+          {/* Form card */}
+          <div className="rounded-3xl border-2 border-border bg-card overflow-hidden">
 
-          {/* Subject */}
-          <section className="space-y-3">
-            <h2 className="font-manrope text-xl font-bold tracking-tight text-foreground">Subject</h2>
-            <div className="flex flex-wrap gap-2">
-              {availableSubjects.map((s) => (
-                <button
-                  key={s.slug}
-                  type="button"
-                  onClick={() => setSubjectSlug(s.slug)}
-                  className={cn(
-                    "rounded-xl border-2 px-3 py-1.5 text-sm font-medium transition-colors",
-                    subjectSlug === s.slug
-                      ? "border-orange-500 bg-orange-500/10 text-orange-700 dark:border-orange-400 dark:text-orange-400"
-                      : "border-border text-foreground hover:border-orange-400 hover:bg-orange-50 dark:hover:border-orange-500 dark:hover:bg-orange-400/10"
-                  )}
-                >
-                  {s.title}
-                </button>
-              ))}
+            {/* Subject */}
+            <div className="p-5 sm:p-6">
+              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">Subject</p>
+              <div className="flex flex-wrap gap-2">
+                {availableSubjects.map((s) => (
+                  <button
+                    key={s.slug}
+                    type="button"
+                    onClick={() => setSubjectSlug(s.slug)}
+                    className={cn("rounded-xl border-2 px-3 py-1.5 text-sm font-medium transition-colors", subjectSlug === s.slug ? chipActive : chipInactive)}
+                  >
+                    {s.title}
+                  </button>
+                ))}
+              </div>
             </div>
-          </section>
 
-          {/* Topics */}
-          {subjectSlug && (
-            <section className="space-y-3">
-              <div className="flex items-center justify-between">
-                <h2 className="font-manrope text-xl font-bold tracking-tight text-foreground">Topics</h2>
-                {topics.length > 0 && (
-                  <div className="flex gap-2">
-                    <button
-                      type="button"
-                      onClick={() => setSelectedTopics(new Set(topics.map((t) => t.slug)))}
-                      className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                    >
-                      Select all
-                    </button>
-                    <span className="text-muted-foreground/40">·</span>
-                    <button
-                      type="button"
-                      onClick={() => setSelectedTopics(new Set())}
-                      className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                    >
-                      Clear
-                    </button>
+            {/* Topics */}
+            {subjectSlug && (
+              <div className="border-t border-border p-5 sm:p-6">
+                <div className="flex items-center justify-between mb-3">
+                  <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
+                    Topics
+                    {!loadingTopics && allTopics.length > 0 && (
+                      <span className="ml-2 normal-case tracking-normal font-normal text-muted-foreground/60">
+                        {selectedTopics.size}/{allTopics.length} selected
+                      </span>
+                    )}
+                  </p>
+                  {allTopics.length > 0 && !loadingTopics && (
+                    <div className="flex gap-3">
+                      <button
+                        type="button"
+                        onClick={() => setSelectedTopics(new Set(allTopics.map((t) => t.slug)))}
+                        className="text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+                      >
+                        All
+                      </button>
+                      <span className="text-muted-foreground/30">·</span>
+                      <button
+                        type="button"
+                        onClick={() => setSelectedTopics(new Set())}
+                        className="text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+                      >
+                        None
+                      </button>
+                    </div>
+                  )}
+                </div>
+
+                {loadingTopics ? (
+                  <p className="text-sm text-muted-foreground">Loading topics…</p>
+                ) : allTopics.length === 0 ? (
+                  <p className="text-sm text-muted-foreground">No topics available for this subject.</p>
+                ) : hasNestedTopics ? (
+                  // Grouped by parent topic
+                  <div className="space-y-5">
+                    {topicGroups.map((group) => {
+                      const allGroupSelected = group.items.every((t) => selectedTopics.has(t.slug));
+                      return (
+                        <div key={group.parentSlug}>
+                          <div className="flex items-center gap-2 mb-2">
+                            <span className="text-xs font-semibold text-foreground/60 shrink-0">{group.parentTitle}</span>
+                            <div className="flex-1 h-px bg-border" />
+                            {group.items.length > 1 && (
+                              <button
+                                type="button"
+                                onClick={() => toggleGroup(group)}
+                                className="shrink-0 text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+                              >
+                                {allGroupSelected ? "Deselect" : "Select all"}
+                              </button>
+                            )}
+                          </div>
+                          <div className="flex flex-wrap gap-2">
+                            {group.items.map((t) => (
+                              <button
+                                key={t.slug}
+                                type="button"
+                                onClick={() => toggleTopic(t.slug)}
+                                className={cn("rounded-xl border-2 px-3 py-1.5 text-sm font-medium transition-colors", selectedTopics.has(t.slug) ? chipActive : chipInactive)}
+                              >
+                                {t.title}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                ) : (
+                  // Flat list (no nested subtopics)
+                  <div className="flex flex-wrap gap-2">
+                    {allTopics.map((t) => (
+                      <button
+                        key={t.slug}
+                        type="button"
+                        onClick={() => toggleTopic(t.slug)}
+                        className={cn("rounded-xl border-2 px-3 py-1.5 text-sm font-medium transition-colors", selectedTopics.has(t.slug) ? chipActive : chipInactive)}
+                      >
+                        {t.title}
+                      </button>
+                    ))}
                   </div>
                 )}
               </div>
-              {loadingTopics ? (
-                <p className="text-sm text-muted-foreground">Loading topics…</p>
-              ) : topics.length === 0 ? (
-                <p className="text-sm text-muted-foreground">No topics available for this subject.</p>
-              ) : (
-                <div className="flex flex-wrap gap-2">
-                  {topics.map((t) => (
-                    <button
-                      key={t.slug}
-                      type="button"
-                      onClick={() => toggleTopic(t.slug)}
-                      className={cn(
-                        "rounded-xl border-2 px-3 py-1.5 text-sm font-medium transition-colors",
-                        selectedTopics.has(t.slug)
-                          ? "border-orange-500 bg-orange-500/10 text-orange-700 dark:border-orange-400 dark:text-orange-400"
-                          : "border-border text-foreground hover:border-orange-400 hover:bg-orange-50 dark:hover:border-orange-500 dark:hover:bg-orange-400/10"
-                      )}
-                    >
-                      {t.title}
-                    </button>
-                  ))}
+            )}
+
+            {/* Options */}
+            {subjectSlug && (
+              <div className="border-t border-border p-5 sm:p-6 space-y-4">
+                <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">Options</p>
+
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  {/* Number of questions */}
+                  <div className="space-y-2">
+                    <label className="text-sm font-medium text-foreground">Questions</label>
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        onClick={() => setNumQuestions((n) => Math.max(1, n - 1))}
+                        className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-border bg-muted text-lg font-bold text-foreground transition-colors hover:bg-border"
+                      >
+                        −
+                      </button>
+                      <input
+                        type="number"
+                        min={1}
+                        max={100}
+                        value={numQuestions}
+                        onChange={(e) => setNumQuestions(Math.max(1, Math.min(100, Number(e.target.value) || 1)))}
+                        className="h-9 w-16 rounded-xl border-2 border-border bg-background text-center text-base font-semibold text-foreground focus:outline-none focus:ring-2 focus:ring-orange-400"
+                      />
+                      <button
+                        type="button"
+                        onClick={() => setNumQuestions((n) => Math.min(100, n + 1))}
+                        className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-border bg-muted text-lg font-bold text-foreground transition-colors hover:bg-border"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Level */}
+                  <div className="space-y-2">
+                    <label className="text-sm font-medium text-foreground">Level</label>
+                    <div className="flex gap-2">
+                      {[{ v: "all", l: "All" }, { v: "hl", l: "HL" }, { v: "sl", l: "SL" }].map(({ v, l }) => (
+                        <button
+                          key={v}
+                          type="button"
+                          onClick={() => setLevelFilter(v)}
+                          className={cn("rounded-xl border-2 px-3 py-1.5 text-sm font-medium transition-colors", levelFilter === v ? chipActive : chipInactive)}
+                        >
+                          {l}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-              )}
-            </section>
-          )}
 
-          {/* Options */}
-          {subjectSlug && (
-            <section className="space-y-5">
-              <h2 className="font-manrope text-xl font-bold tracking-tight text-foreground">Options</h2>
-
-              {/* Number of questions */}
-              <div className="flex items-center gap-4">
-                <label className="w-44 shrink-0 text-sm font-medium text-foreground">
-                  Number of questions
-                </label>
-                <div className="flex items-center gap-2">
+                {/* Include completed */}
+                <div className="flex items-center justify-between rounded-2xl border border-border bg-muted/40 px-4 py-3">
+                  <div>
+                    <p className="text-sm font-medium text-foreground">Include completed</p>
+                    <p className="text-xs text-muted-foreground mt-0.5">Show questions already marked as done</p>
+                  </div>
                   <button
                     type="button"
-                    onClick={() => setNumQuestions((n) => Math.max(1, n - 1))}
-                    className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-border bg-muted text-lg font-bold text-foreground transition-colors hover:bg-border"
-                  >
-                    −
-                  </button>
-                  <input
-                    type="number"
-                    min={1}
-                    max={100}
-                    value={numQuestions}
-                    onChange={(e) => setNumQuestions(Math.max(1, Math.min(100, Number(e.target.value) || 1)))}
-                    className="h-9 w-16 rounded-xl border-2 border-border bg-background text-center text-base font-semibold text-foreground focus:outline-none focus:ring-2 focus:ring-orange-400"
-                  />
-                  <button
-                    type="button"
-                    onClick={() => setNumQuestions((n) => Math.min(100, n + 1))}
-                    className="flex h-9 w-9 items-center justify-center rounded-xl border-2 border-border bg-muted text-lg font-bold text-foreground transition-colors hover:bg-border"
-                  >
-                    +
-                  </button>
-                </div>
-              </div>
-
-              {/* Level */}
-              <div className="flex items-center gap-4">
-                <span className="w-44 shrink-0 text-sm font-medium text-foreground">Level</span>
-                <div className="flex gap-2">
-                  {[{ v: "all", l: "All" }, { v: "hl", l: "HL" }, { v: "sl", l: "SL" }].map(({ v, l }) => (
-                    <button
-                      key={v}
-                      type="button"
-                      onClick={() => setLevelFilter(v)}
-                      className={cn(
-                        "rounded-xl border-2 px-3 py-1.5 text-sm font-medium transition-colors",
-                        levelFilter === v
-                          ? "border-orange-500 bg-orange-500/10 text-orange-700 dark:border-orange-400 dark:text-orange-400"
-                          : "border-border text-foreground hover:border-orange-400 hover:bg-orange-50 dark:hover:border-orange-500 dark:hover:bg-orange-400/10"
-                      )}
-                    >
-                      {l}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              {/* Include completed */}
-              <div className="flex items-center gap-4">
-                <span className="w-44 shrink-0 text-sm font-medium text-foreground">Include completed</span>
-                <button
-                  type="button"
-                  role="switch"
-                  aria-checked={includeCompleted}
-                  onClick={() => setIncludeCompleted((v) => !v)}
-                  className={cn(
-                    "relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400",
-                    includeCompleted ? "bg-orange-500 dark:bg-orange-400" : "bg-muted-foreground/30"
-                  )}
-                >
-                  <span
+                    role="switch"
+                    aria-checked={includeCompleted}
+                    onClick={() => setIncludeCompleted((v) => !v)}
                     className={cn(
-                      "pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow-lg transition-transform",
-                      includeCompleted ? "translate-x-5" : "translate-x-0"
+                      "relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400",
+                      includeCompleted ? "bg-orange-500 dark:bg-orange-400" : "bg-muted-foreground/30"
                     )}
-                  />
-                </button>
+                  >
+                    <span
+                      className={cn(
+                        "pointer-events-none inline-block h-5 w-5 rounded-full bg-white shadow-lg transition-transform",
+                        includeCompleted ? "translate-x-5" : "translate-x-0"
+                      )}
+                    />
+                  </button>
+                </div>
               </div>
-            </section>
-          )}
+            )}
+          </div>
 
           {/* Generate button */}
           {subjectSlug && (
-            <div className="border-t border-border pt-6 pb-8">
-              <button
-                type="button"
-                onClick={generate}
-                disabled={!canGenerate || generating}
-                className={cn(
-                  "inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-base font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400",
-                  canGenerate && !generating
-                    ? "cursor-pointer bg-orange-500 text-white hover:bg-orange-600 dark:bg-orange-400 dark:text-black dark:hover:bg-orange-300"
-                    : "cursor-not-allowed bg-muted text-muted-foreground"
-                )}
-              >
-                <CentralIcon {...centralIconPropsFilled20} name="IconPencilSparkle" className="size-5" ariaHidden />
-                {generating ? "Generating…" : "Generate Exam"}
-              </button>
-              {!includeCompleted && (
-                <p className="mt-2 text-xs text-muted-foreground">
-                  Only unattempted questions will be included.
-                </p>
+            <button
+              type="button"
+              onClick={generate}
+              disabled={!canGenerate || generating}
+              className={cn(
+                "w-full inline-flex items-center justify-center gap-2 rounded-2xl px-6 py-4 text-base font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400",
+                canGenerate && !generating
+                  ? "cursor-pointer bg-orange-500 text-white hover:bg-orange-600 dark:bg-orange-400 dark:text-black dark:hover:bg-orange-300"
+                  : "cursor-not-allowed bg-muted text-muted-foreground"
               )}
-            </div>
+            >
+              <CentralIcon {...centralIconPropsFilled20} name="IconPencilSparkle" className="size-5" ariaHidden />
+              {generating ? "Generating…" : "Generate Exam"}
+            </button>
           )}
-        </div>
+
+          {/* History */}
+          {history.length > 0 && (
+            <section className="space-y-3 pb-8">
+              <div className="flex items-center justify-between">
+                <h2 className="font-manrope text-base font-bold text-foreground">Recent Exams</h2>
+                <button
+                  type="button"
+                  onClick={() => { localStorage.removeItem(HISTORY_KEY); setHistory([]); }}
+                  className="text-xs text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  Clear
+                </button>
+              </div>
+              <div className="space-y-2">
+                {history.map((entry) => (
+                  <button
+                    key={entry.id}
+                    type="button"
+                    onClick={() => loadFromHistory(entry)}
+                    className="w-full flex items-center gap-4 rounded-2xl border border-border bg-card px-4 py-3.5 text-left transition-colors hover:bg-muted/50"
+                  >
+                    <div className="min-w-0 flex-1">
+                      <p className="text-sm font-semibold text-foreground truncate">{entry.subjectTitle}</p>
+                      <p className="text-xs text-muted-foreground mt-0.5">
+                        {entry.numQuestions} question{entry.numQuestions !== 1 ? "s" : ""}
+                        {" · "}{entry.levelFilter === "all" ? "All levels" : entry.levelFilter.toUpperCase()}
+                        {!entry.includeCompleted && " · Unattempted only"}
+                        {" · "}{relativeDate(entry.date)}
+                      </p>
+                    </div>
+                    <span className="shrink-0 text-xs font-medium text-muted-foreground">Retry →</span>
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
+        </>
       )}
     </div>
   );
@@ -531,7 +685,6 @@ function ExamView({
                   <span className="rounded-full bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground">{paperLabel(q.paper)}</span>
                 </div>
                 <div className="flex items-center gap-1.5">
-                  {/* Mark as done */}
                   <button
                     type="button"
                     onClick={() => onToggleDone(q.id)}
@@ -545,7 +698,6 @@ function ExamView({
                   >
                     <CentralIcon {...centralIconPropsFilled24} name="IconCircleCheck" className="size-5 [color:inherit]" ariaHidden />
                   </button>
-                  {/* Answer toggle */}
                   {hasAnswer && (
                     <button
                       type="button"
@@ -562,7 +714,6 @@ function ExamView({
                   )}
                 </div>
               </div>
-              {/* Print question number */}
               <p className="mb-2 hidden font-bold print:block">Question {idx + 1}</p>
 
               {/* Specification */}
@@ -587,9 +738,7 @@ function ExamView({
                           </div>
                           <span className="shrink-0 font-mono text-sm text-muted-foreground print:text-black">[{part.marks}]</span>
                         </div>
-                        {/* Answer space for printing */}
                         <div className="hidden h-20 rounded-xl border border-dashed border-gray-300 print:block" />
-                        {/* Per-part markscheme */}
                         {isAnswerShown && part.markscheme && (
                           <div className="rounded-xl border-2 border-green-200 bg-green-50 p-3 dark:border-green-700/40 dark:bg-green-950/20">
                             <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-green-700 dark:text-green-400">Markscheme</p>
@@ -606,7 +755,7 @@ function ExamView({
                 </div>
               )}
 
-              {/* Top-level markscheme for LA */}
+              {/* Top-level markscheme for LA without per-part markschemes */}
               {isAnswerShown && !isMC && q.markscheme && !sortedParts.some((p) => p.markscheme) && (
                 <div className="mt-3 rounded-xl border-2 border-green-200 bg-green-50 p-3 dark:border-green-700/40 dark:bg-green-950/20">
                   <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-green-700 dark:text-green-400">Markscheme</p>
